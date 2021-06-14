@@ -292,8 +292,8 @@ def joint_constrained_loader(dataset, downsample, batch_size):
     else:
         raise ValueError("Currently not supporting this dataset! -_-'")
 
-def single_loader(dataset, batch_size):
-    def get_data_point(my_dict):
+def single_loader(dataset):
+    def get_data_point(my_dict, flag):
         data = []
         eids = my_dict['event_dict'].keys()
         pair_events = list(combinations(eids, 2))
@@ -308,13 +308,13 @@ def single_loader(dataset, batch_size):
             x_position = my_dict["event_dict"][x]["roberta_subword_id"]
             y_position = my_dict["event_dict"][y]["roberta_subword_id"]
 
-            x_sent_pos = padding(my_dict["sentences"][x_sent_id]["roberta_subword_pos"], pos = True)
-            y_sent_pos = padding(my_dict["sentences"][y_sent_id]["roberta_subword_pos"], pos = True)
+            x_sent_pos = pos_to_id(padding(my_dict["sentences"][x_sent_id]["roberta_subword_pos"], pos = True))
+            y_sent_pos = pos_to_id(padding(my_dict["sentences"][y_sent_id]["roberta_subword_pos"], pos = True))
 
             xy = my_dict["relation_dict"].get((x, y))
             yx = my_dict["relation_dict"].get((y, x))
-            candidates = [[str(x), str(y), x_sent, y_sent, x_position, y_position, x_sent_pos, y_sent_pos, xy],
-                        [str(y), str(x), y_sent, x_sent, y_position, x_position, y_sent_pos, x_sent_pos, yx]]
+            candidates = [[str(x), str(y), x_sent, y_sent, x_position, y_position, x_sent_pos, y_sent_pos, flag, xy],
+                        [str(y), str(x), y_sent, x_sent, y_position, x_position, y_sent_pos, x_sent_pos, flag, yx]]
             for item in candidates:
                 if item[-1] != None:
                     data.append(item)
@@ -323,7 +323,6 @@ def single_loader(dataset, batch_size):
     train_set = []
     test_set = []
     validate_set = []
-    num_class = 0
     if dataset == "MATRES":
         print("MATRES Loading .......")
         aquaint_dir_name = "./datasets/MATRES/TBAQ-cleaned/AQUAINT/"
@@ -332,17 +331,16 @@ def single_loader(dataset, batch_size):
         validate = load_dataset(aquaint_dir_name, 'tml')
         train = load_dataset(timebank_dir_name, 'tml')
         test = load_dataset(platinum_dir_name, 'tml')
-        num_class = 4
-        # train, validate = train_test_split(train + validate, test_size=0.2, train_size=0.8)
+        train, validate = train_test_split(train + validate, test_size=0.2, train_size=0.8)
         
         for my_dict in tqdm.tqdm(train):
-            data = get_data_point(my_dict)
+            data = get_data_point(my_dict, 2)
             train_set.extend(data)
         for my_dict in tqdm.tqdm(test):
-            data = get_data_point(my_dict)
+            data = get_data_point(my_dict, 2)
             test_set.extend(data)
         for my_dict in tqdm.tqdm(validate):
-            data = get_data_point(my_dict)
+            data = get_data_point(my_dict, 2)
             validate_set.extend(data)
         print("Train_size: {}".format(len(train_set)))
         print("Test_size: {}".format(len(test_set)))
@@ -354,9 +352,9 @@ def single_loader(dataset, batch_size):
         corpus = load_dataset(dir_name, 'tsvx')
         train, test = train_test_split(corpus, train_size=0.8, test_size=0.2)
         train, validate = train_test_split(train, train_size=0.75, test_size=0.25)
-        sample = 0.04
+        sample = 0.015
         for my_dict in tqdm.tqdm(train):
-            data = get_data_point(my_dict)
+            data = get_data_point(my_dict, 1)
             for item in data:
                 if item[-1] == 3:
                     if random.uniform(0, 1) < sample:
@@ -364,15 +362,15 @@ def single_loader(dataset, batch_size):
                 else:
                     train_set.append(item)
         for my_dict in tqdm.tqdm(test):
-            data = get_data_point(my_dict)
+            data = get_data_point(my_dict, 1)
             for item in data:
                 if item[-1] == 3:
-                    if random.uniform(0, 1) < sample:
+                    if random.uniform(0, 1) < 0.015:
                         test_set.append(item)
                 else:
                     test_set.append(item)
         for my_dict in tqdm.tqdm(validate):
-            data = get_data_point(my_dict)
+            data = get_data_point(my_dict, 1)
             for item in data:
                 if item[-1] == 3:
                     if random.uniform(0, 1) < sample:
@@ -382,7 +380,6 @@ def single_loader(dataset, batch_size):
         print("Train_size: {}".format(len(train_set)))
         print("Test_size: {}".format(len(test_set)))
         print("Validate_size: {}".format(len(validate_set)))
-        num_class = 4
 
     if dataset == "I2B2":
         print("I2B2 Loading .....")
@@ -391,18 +388,17 @@ def single_loader(dataset, batch_size):
         train, test = train_test_split(corpus, train_size=0.8, test_size=0.2)
         train, validate = train_test_split(train, train_size=0.75, test_size=0.25)
         for my_dict in tqdm.tqdm(train):
-            data = get_data_point(my_dict)
+            data = get_data_point(my_dict, 3)
             train_set.extend(data)
         for my_dict in tqdm.tqdm(test):
-            data = get_data_point(my_dict)
+            data = get_data_point(my_dict, 3)
             test_set.extend(data)
         for my_dict in tqdm.tqdm(validate):
-            data = get_data_point(my_dict)
+            data = get_data_point(my_dict, 3)
             validate_set.extend(data)
         print("Train_size: {}".format(len(train_set)))
         print("Test_size: {}".format(len(test_set)))
         print("Validate_size: {}".format(len(validate_set)))
-        num_class = 3
 
     if dataset == 'TBD':
         print("Timebank Dense Loading .....")
@@ -413,20 +409,19 @@ def single_loader(dataset, batch_size):
         test = load_dataset(test_dir, 'tbd_tml')
         validate = load_dataset(validate_dir, 'tbd_tml')
         for my_dict in tqdm.tqdm(train):
-            data = get_data_point(my_dict)
+            data = get_data_point(my_dict, 4)
             train_set.extend(data)
         for my_dict in tqdm.tqdm(test):
-            data = get_data_point(my_dict)
+            data = get_data_point(my_dict, 4)
             test_set.extend(data)
         for my_dict in tqdm.tqdm(validate):
-            data = get_data_point(my_dict)
+            data = get_data_point(my_dict, 4)
             validate_set.extend(data)
         print("Train_size: {}".format(len(train_set)))
         print("Test_size: {}".format(len(test_set)))
         print("Validate_size: {}".format(len(validate_set)))
-        num_class = 6
 
-    train_loader = DataLoader(EventDataset(train_set), batch_size=batch_size, shuffle=True)
-    test_loader = DataLoader(EventDataset(test_set), batch_size=batch_size, shuffle=True)
-    validate_loader = DataLoader(EventDataset(validate_set), batch_size=batch_size, shuffle=True)
-    return train_loader, test_loader, validate_loader, num_class
+    # train_loader = DataLoader(EventDataset(train_set), batch_size=batch_size, shuffle=True)
+    # test_loader = DataLoader(EventDataset(test_set), batch_size=batch_size, shuffle=True)
+    # validate_loader = DataLoader(EventDataset(validate_set), batch_size=batch_size, shuffle=True)
+    return train_set, test_set, validate_set
