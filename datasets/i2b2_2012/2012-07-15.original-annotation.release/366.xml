@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+01/11/1996
+Discharge Date :
+01/19/1996
+HISTORY OF PRESENT ILLNESS :
+Ms. Less is a 79 year old white female with history of non small cell lung cancer diagnosed in 02/95 .
+She underwent a resection for stage I in 10/95 and treated with XRT .
+She presented to the hospital with a numb right leg this morning and underwent an emergent embolectomy .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="141" end="167" text="non small cell lung cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="203" end="214" text="a resection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="219" end="226" text="stage I" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="253" end="256" text="XRT" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="263" end="272" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="276" end="288" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E5" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="294" end="310" text="a numb right leg" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="338" end="361" text="an emergent embolectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T1" start="18" end="28" text="01/11/1996" type="DATE" val="1996-01-11" mod="NA" />
+<TIMEX3 id="T3" start="181" end="186" text="02/95" type="DATE" val="1995-02" mod="NA" />
+<TIMEX3 id="T0" start="230" end="235" text="10/95" type="DATE" val="1995-10" mod="NA" />
+<TIMEX3 id="T4" start="311" end="323" text="this morning" type="DATE" val="1996-01-11" mod="START" />
+<TIMEX3 id="T2" start="46" end="56" text="01/19/1996" type="DATE" val="1996-01-19" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="01/11/1996" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="non small cell lung cancer" toID="E4" toText="presented" type="BEFORE_OVERLAP" />
+<TLINK id="TL10" fromID="E9" fromText="an emergent embolectomy" toID="E4" toText="presented" type="AFTER" />
+<TLINK id="TL2" fromID="E5" fromText="Discharge" toID="T2" toText="01/19/1996" type="OVERLAP" />
+<TLINK id="TL3" fromID="E1" fromText="non small cell lung cancer" toID="T3" toText="02/95" type="BEGUN_BY" />
+<TLINK id="TL4" fromID="E2" fromText="a resection" toID="T0" toText="10/95" type="OVERLAP" />
+<TLINK id="TL5" fromID="E6" fromText="stage I" toID="E2" toText="a resection" type="BEFORE_OVERLAP" />
+<TLINK id="TL6" fromID="E3" fromText="XRT" toID="E2" toText="a resection" type="AFTER" />
+<TLINK id="TL7" fromID="E7" fromText="the hospital" toID="E4" toText="presented" type="BEGUN_BY" />
+<TLINK id="TL8" fromID="E8" fromText="a numb right leg" toID="E4" toText="presented" type="BEFORE_OVERLAP" />
+<TLINK id="TL9" fromID="E4" fromText="presented" toID="T4" toText="this morning" type="OVERLAP" />
+<TLINK id="Sectime0" fromID="E1" fromText="non small cell lung cancer" toID="T1" toText="01/11/1996" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime1" fromID="E2" fromText="a resection" toID="T1" toText="01/11/1996" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E6" fromText="stage I" toID="T1" toText="01/11/1996" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E3" fromText="XRT" toID="T1" toText="01/11/1996" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E4" fromText="presented" toID="T1" toText="01/11/1996" type="OVERLAP" />
+<TLINK id="Sectime5" fromID="E7" fromText="the hospital" toID="T1" toText="01/11/1996" type="OVERLAP" />
+<TLINK id="Sectime6" fromID="E8" fromText="a numb right leg" toID="T1" toText="01/11/1996" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime7" fromID="E9" fromText="an emergent embolectomy" toID="T1" toText="01/11/1996" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="01/11/1996" type="ADMISSION" dvalue="1996-01-11" />
+<SECTIME id="S1" start="46" end="56" text="01/19/1996" type="DISCHARGE" dvalue="1996-01-19" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

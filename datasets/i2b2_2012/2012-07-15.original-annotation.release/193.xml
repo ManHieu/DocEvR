@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2014-03-31
+Discharge Date :
+2014-04-09
+Service :
+Liver Transplant Surgery Service
+HISTORY OF PRESENT ILLNESS :
+The patient is a 49 year-old man with hepatitis C cirrhosis complicated by encephalopathy , positive esophageal varices , now with worsening confusion and lethargy .
+The patient has been admitted 5 x in the past to Nantucket Cottage Hospital since 11-30 for encephalopathy .
+Most recently admitted on 2014-03-19 to 2014-03-22 .
+Infectious work-up was negative .
+Trazodone stopped .
+Patient was started on Lactulose and Rifaximine which improved his mental status .
+Today , on 2014-03-03 , the patient was seen in clinic with increased lethargy , confusion .
+Wife reports that the patient has a history of lethargy and confusion , similar to the symptoms for which the patient was recently admitted .
+The patient also reports that he has had " yellowish eyes , some shaking and his breath smelled more like ammonia over the past 3 days ."
+The patient has been compliant with his medications .
+He has had one bowel movement today which is on 2014-03-31 .
+He has had night sweats for the past 2 weeks .
+He denies any abdominal pain .
+He gets cold easily but denies fevers .
+His stools have been brown to green .
+HOSPITAL COURSE :
+The patient was admitted .
+Patient continued on Lactulose .
+The goal was 3 to 4 stools per day .
+Continue on Rifaximine .
+Continue Lasix .
+Physical therapy was consulted on 2014-04-01 .
+On 2014-04-02 , the patient was awake , alert and oriented , taking Lactulose .
+Difficulty with word finding at times .
+Denies any pain or discomfort .
+Abdomen : Slightly distended , nontender .
+Positive bowel sounds .
+Positive flatus .
+Good op site .
+Ultrasound was performed on 2014-04-01 demonstrating severe portal hypertension with massive peri splenic varices and splenorenal shunt .
+Portal vein was fully patent .
+Repeat hepato fungal flare .
+On 2014-04-04 , the transplant service was consulted because the patient was possibly going to the operating room for transplant on 2014-04-04 .
+The patient did go to operating room on 2014-04-04 and the patient had cadaveric liver transplant performed by Dr. Michael Sanders .
+Please see detailed operative note for more information about the procedure .
+Postoperatively , the patient was transferred to the ICU .
+The patient received MMF 1 gram b.i.d. , Flagyl 500 mg IV x1 .
+The patient also received Unasyn for 2 days , Fluconazole , heparin , Protonix , insulin , morphine , Bactrim .
+The patient was on Propofol for 2 days .
+LABORATORY DATA :
+On 2014-04-04 , labs were as follows :
+WBC of 8.3 ; hematocrit of 30.6 ; platelets 69 ; sodium 132 ; 3.9 , 102 , 22 , serum creatinine of 13 and 1.1 .
+Glucose 114 .
+AST 87 .
+ALT 44 .
+Alkaline phosphatase 169 .
+PT of 20.6 .
+PTT of 38.7 .
+INR of 2.0 .
+On postoperative day number 1 , duplex ultrasound of the patient 's liver was performed demonstrating normal appearing portal veins and hepatic arteries .
+There was normal flow within the middle hepatic vein .
+There appears to be a decreased and sluggish flow within the right and left hepatic veins with loss of normal respiratory variations , wave forms and the intrahepatic portion .
+Additionally , there is diminished color flow with confluence of the hepatic veins .
+These findings may reflect thrombus within the left and right hepatic veins .
+Caval narrowing is seen , most likely correlation to clinical history is recommended and further evaluation of the CT or short-term ultrasounds for follow-up was recommended .
+The Feeney Gann-Burlington drain on postoperative day number demonstrated medial output of 780 with lateral output of 150 .
+Patient went to the floor and patient was on the floor on 2014-04-07 .
+Patient continued getting Acyclovir , Prednisone , MMF one gram b.i.d .
+The patient was on FK 2 and 2 that was started on postoperative day number 2 .
+Diet was advanced .
+Patient was ambulating .
+Waltham-Ludlow drains put out on the 13th 620 and 380 .
+Physical therapy was re consulted .
+Omalley was consulted on 2014-04-08 for better glucose control since the patient was on steroids .
+Social work was consulted .
+Patient continued to do very well , ambulating , following the diet .
+Patient was transfused 1 unit of platelets on 2014-04-08 for platelet count of 66 .
+A heparin independent antibody was sent off on 2014-04-07 which was unremarkable .
+On 2014-04-09 , patient continued to do very well , ambulating , tolerating a diet , urinating without difficulty .
+Drains continued to put out significant amount of fluid .
+Patient 's labs from 2014-04-10 were the following :
+7.1 , hematocrit of 30.8 , platelets 90 .
+Sodium of 138 ; potassium 3.5 ; 106 , 28 , 31 , 1.0 , glucose 134 .
+AST 82 .
+ALT 176 .
+Alkaline phosphatase 78 which all have significantly decreased since postoperative day number 1 .
+Total bilirubin was 0.9 .
+On 2014-04-09 , FK level was 10.3 .
+Patient left on 2014-04-09 with VNA to home .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E104" start="1003" end="1018" text="his medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E105" start="1036" end="1050" text="bowel movement" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="1093" end="1105" text="night sweats" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E107" start="1132" end="1138" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E106" start="1139" end="1157" text="any abdominal pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E108" start="1168" end="1172" text="cold" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="1184" end="1190" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E110" start="1191" end="1197" text="fevers" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E80" start="1272" end="1280" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="1304" end="1313" text="Lactulose" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="1365" end="1375" text="Rifaximine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="1387" end="1392" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="1395" end="1411" text="Physical therapy" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E111" start="1474" end="1479" text="awake" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E112" start="1482" end="1487" text="alert" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E113" start="1492" end="1500" text="oriented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="1510" end="1519" text="Lactulose" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E114" start="1522" end="1550" text="Difficulty with word finding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E115" start="1562" end="1568" text="Denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E13" start="1569" end="1577" text="any pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E14" start="1581" end="1591" text="discomfort" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E116" start="1604" end="1622" text="Slightly distended" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="1625" end="1634" text="nontender" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E117" start="1646" end="1658" text="bowel sounds" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E89" start="167" end="188" text="hepatitis C cirrhosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E118" start="1670" end="1676" text="flatus" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="1694" end="1704" text="Ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E119" start="1733" end="1746" text="demonstrating" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E17" start="1747" end="1773" text="severe portal hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="1779" end="1807" text="massive peri splenic varices" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1812" end="1829" text="splenorenal shunt" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="1863" end="1889" text="Repeat hepato fungal flare" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E120" start="1908" end="1930" text="the transplant service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E121" start="1987" end="2005" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E82" start="2010" end="2020" text="transplant" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E90" start="204" end="218" text="encephalopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="2059" end="2073" text="operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E22" start="2108" end="2134" text="cadaveric liver transplant" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E91" start="221" end="248" text="positive esophageal varices" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="2232" end="2245" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E84" start="2282" end="2293" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E122" start="2297" end="2304" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E24" start="2328" end="2331" text="MMF" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="2348" end="2354" text="Flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="2396" end="2402" text="Unasyn" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="2416" end="2427" text="Fluconazole" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="2430" end="2437" text="heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="2440" end="2448" text="Protonix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="2451" end="2458" text="insulin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="2461" end="2469" text="morphine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="2472" end="2479" text="Bactrim" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="2501" end="2509" text="Propofol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="2557" end="2561" text="labs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E35" start="2580" end="2583" text="WBC" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E92" start="260" end="279" text="worsening confusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="2593" end="2603" text="hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="2614" end="2623" text="platelets" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="2629" end="2635" text="sodium" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="2659" end="2675" text="serum creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="2692" end="2699" text="Glucose" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="2706" end="2709" text="AST" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="2715" end="2718" text="ALT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="2724" end="2744" text="Alkaline phosphatase" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="2751" end="2753" text="PT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="2764" end="2767" text="PTT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="2778" end="2781" text="INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="2823" end="2864" text="duplex ultrasound of the patient 's liver" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E93" start="284" end="292" text="lethargy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E123" start="2879" end="2892" text="demonstrating" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E124" start="2893" end="2943" text="normal appearing portal veins and hepatic arteries" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E75" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E125" start="2956" end="2967" text="normal flow" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="3021" end="3090" text="a decreased and sluggish flow within the right and left hepatic veins" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="3096" end="3175" text="loss of normal respiratory variations , wave forms and the intrahepatic portion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E76" start="316" end="324" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="3202" end="3223" text="diminished color flow" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E126" start="3290" end="3338" text="thrombus within the left and right hepatic veins" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="3341" end="3356" text="Caval narrowing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="344" end="370" text="Nantucket Cottage Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E127" start="3452" end="3458" text="the CT" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E128" start="3462" end="3484" text="short-term ultrasounds" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E52" start="3517" end="3549" text="The Feeney Gann-Burlington drain" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E129" start="3578" end="3590" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E53" start="3591" end="3604" text="medial output" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E54" start="3617" end="3631" text="lateral output" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E86" start="3657" end="3666" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E88" start="3686" end="3695" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E55" start="3738" end="3747" text="Acyclovir" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="3750" end="3760" text="Prednisone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="3763" end="3766" text="MMF" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="3803" end="3807" text="FK 2" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E94" start="387" end="401" text="encephalopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E131" start="3863" end="3867" text="Diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E130" start="3872" end="3880" text="advanced" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E132" start="3895" end="3905" text="ambulating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E59" start="3908" end="3929" text="Waltham-Ludlow drains" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="4047" end="4062" text="glucose control" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="4088" end="4096" text="steroids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E133" start="4148" end="4160" text="do very well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E134" start="4163" end="4173" text="ambulating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E135" start="4176" end="4194" text="following the diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="418" end="426" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E136" start="4230" end="4239" text="platelets" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="4258" end="4272" text="platelet count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E64" start="4281" end="4311" text="A heparin independent antibody" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E137" start="4401" end="4413" text="do very well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E138" start="4416" end="4426" text="ambulating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E139" start="4429" end="4446" text="tolerating a diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E140" start="4449" end="4458" text="urinating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E141" start="4467" end="4477" text="difficulty" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E142" start="4480" end="4486" text="Drains" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E65" start="4538" end="4553" text="Patient 's labs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="457" end="475" text="Infectious work-up" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E66" start="4597" end="4607" text="hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E67" start="4618" end="4627" text="platelets" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E68" start="4633" end="4639" text="Sodium" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E69" start="4649" end="4658" text="potassium" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E70" start="4687" end="4694" text="glucose" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E71" start="4701" end="4704" text="AST" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E72" start="4710" end="4713" text="ALT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="4720" end="4740" text="Alkaline phosphatase" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E74" start="4818" end="4833" text="Total bilirubin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E143" start="4860" end="4868" text="FK level" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E144" start="4888" end="4892" text="left" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="491" end="500" text="Trazodone" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E3" start="534" end="543" text="Lactulose" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="548" end="558" text="Rifaximine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E95" start="565" end="573" text="improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E96" start="642" end="648" text="clinic" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E97" start="654" end="672" text="increased lethargy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E98" start="675" end="684" text="confusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E99" start="692" end="699" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E5" start="734" end="742" text="lethargy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="747" end="756" text="confusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="770" end="782" text="the symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="818" end="826" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E100" start="846" end="853" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E101" start="872" end="886" text="yellowish eyes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E102" start="889" end="901" text="some shaking" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E103" start="906" end="942" text="his breath smelled more like ammonia" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T3" start="1051" end="1056" text="today" type="DATE" val="2014-03-31" mod="NA" />
+<TIMEX3 id="T27" start="1069" end="1079" text="2014-03-31" type="DATE" val="2014-03-31" mod="NA" />
+<TIMEX3 id="T28" start="1110" end="1126" text="the past 2 weeks" type="DURATION" val="P2W" mod="NA" />
+<TIMEX3 id="T29" start="1329" end="1350" text="3 to 4 stools per day" type="FREQUENCY" val="RPT8H" mod="APPROX" />
+<TIMEX3 id="T4" start="1429" end="1439" text="2014-04-01" type="DATE" val="2014-04-01" mod="NA" />
+<TIMEX3 id="T5" start="1445" end="1455" text="2014-04-02" type="DATE" val="2014-04-02" mod="NA" />
+<TIMEX3 id="T30" start="1722" end="1732" text="2014-04-01" type="DATE" val="2014-04-01" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2014-03-31" type="DATE" val="2014-03-31" mod="NA" />
+<TIMEX3 id="T6" start="1895" end="1905" text="2014-04-04" type="DATE" val="2014-04-04" mod="NA" />
+<TIMEX3 id="T7" start="2024" end="2034" text="2014-04-04" type="DATE" val="2014-04-04" mod="NA" />
+<TIMEX3 id="T8" start="2077" end="2087" text="2014-04-04" type="DATE" val="2014-04-04" mod="NA" />
+<TIMEX3 id="T31" start="2339" end="2345" text="b.i.d." type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T9" start="2407" end="2413" text="2 days" type="DURATION" val="P2D" mod="NA" />
+<TIMEX3 id="T10" start="2514" end="2520" text="2 days" type="DURATION" val="P2D" mod="NA" />
+<TIMEX3 id="T11" start="2544" end="2554" text="2014-04-04" type="DATE" val="2014-04-04" mod="NA" />
+<TIMEX3 id="T12" start="2794" end="2820" text="postoperative day number 1" type="DATE" val="2014-04-05" mod="NA" />
+<TIMEX3 id="T36" start="325" end="328" text="5 x" type="FREQUENCY" val="R5" mod="NA" />
+<TIMEX3 id="T32" start="3553" end="3577" text="postoperative day number" type="DATE" val="2014-04-05" mod="APPROX" />
+<TIMEX3 id="T13" start="3699" end="3709" text="2014-04-07" type="DATE" val="2014-04-07" mod="NA" />
+<TIMEX3 id="T0" start="377" end="382" text="11-30" type="DATE" val="2013-11-30" mod="NA" />
+<TIMEX3 id="T33" start="3776" end="3781" text="b.i.d" type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T14" start="3834" end="3860" text="postoperative day number 2" type="DATE" val="2014-04-06" mod="NA" />
+<TIMEX3 id="T15" start="4025" end="4035" text="2014-04-08" type="DATE" val="2014-04-08" mod="NA" />
+<TIMEX3 id="T16" start="4243" end="4253" text="2014-04-08" type="DATE" val="2014-04-08" mod="NA" />
+<TIMEX3 id="T38" start="430" end="440" text="2014-03-19" type="DATE" val="2014-03-19" mod="NA" />
+<TIMEX3 id="T17" start="4328" end="4338" text="2014-04-07" type="DATE" val="2014-04-07" mod="NA" />
+<TIMEX3 id="T18" start="4367" end="4377" text="2014-04-09" type="DATE" val="2014-04-09" mod="NA" />
+<TIMEX3 id="T37" start="444" end="454" text="2014-03-22" type="DATE" val="2014-03-22" mod="NA" />
+<TIMEX3 id="T34" start="4559" end="4569" text="2014-04-10" type="DATE" val="2014-04-10" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2014-04-09" type="DATE" val="2014-04-09" mod="NA" />
+<TIMEX3 id="T35" start="4789" end="4815" text="postoperative day number 1" type="DATE" val="2014-04-05" mod="NA" />
+<TIMEX3 id="T19" start="4847" end="4857" text="2014-04-09" type="DATE" val="2014-04-09" mod="NA" />
+<TIMEX3 id="T20" start="4896" end="4906" text="2014-04-09" type="DATE" val="2014-04-09" mod="NA" />
+<TIMEX3 id="T24" start="594" end="599" text="Today" type="DATE" val="2014-03-31" mod="NA" />
+<TIMEX3 id="T25" start="605" end="615" text="2014-03-03" type="DATE" val="2014-03-31" mod="NA" />
+<TIMEX3 id="T40" start="948" end="963" text="the past 3 days" type="DURATION" val="P3D" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="2014-03-31" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E75" fromText="Discharge" toID="T2" toText="2014-04-09" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E76" fromText="admitted" toID="E77" toText="Nantucket Cottage Hospital" type="OVERLAP" />
+<TLINK id="TL100" fromID="T11" fromText="2014-04-04" toID="E34" toText="labs" type="SIMULTANEOUS" />
+<TLINK id="TL101" fromID="E35" fromText="WBC" toID="T11" toText="2014-04-04" type="SIMULTANEOUS" />
+<TLINK id="TL102" fromID="E36" fromText="hematocrit" toID="T11" toText="2014-04-04" type="SIMULTANEOUS" />
+<TLINK id="TL103" fromID="E37" fromText="platelets" toID="T11" toText="2014-04-04" type="SIMULTANEOUS" />
+<TLINK id="TL104" fromID="E38" fromText="sodium" toID="T11" toText="2014-04-04" type="SIMULTANEOUS" />
+<TLINK id="TL105" fromID="E39" fromText="serum creatinine" toID="T11" toText="2014-04-04" type="SIMULTANEOUS" />
+<TLINK id="TL106" fromID="E40" fromText="Glucose" toID="T11" toText="2014-04-04" type="SIMULTANEOUS" />
+<TLINK id="TL107" fromID="E41" fromText="AST" toID="T11" toText="2014-04-04" type="SIMULTANEOUS" />
+<TLINK id="TL108" fromID="E42" fromText="ALT" toID="T11" toText="2014-04-04" type="SIMULTANEOUS" />
+<TLINK id="TL109" fromID="E43" fromText="Alkaline phosphatase" toID="T11" toText="2014-04-04" type="SIMULTANEOUS" />
+<TLINK id="TL11" fromID="E76" fromText="admitted" toID="T0" toText="11-30" type="BEGUN_BY" />
+<TLINK id="TL110" fromID="E44" fromText="PT" toID="T11" toText="2014-04-04" type="SIMULTANEOUS" />
+<TLINK id="TL111" fromID="E45" fromText="PTT" toID="T11" toText="2014-04-04" type="SIMULTANEOUS" />
+<TLINK id="TL112" fromID="E46" fromText="INR" toID="T11" toText="2014-04-04" type="SIMULTANEOUS" />
+<TLINK id="TL113" fromID="E47" fromText="duplex ultrasound of the patient 's liver" toID="T12" toText="postoperative day number 1" type="SIMULTANEOUS" />
+<TLINK id="TL114" fromID="E47" fromText="duplex ultrasound of the patient 's liver" toID="E123" toText="demonstrating" type="OVERLAP" />
+<TLINK id="TL115" fromID="E124" fromText="normal appearing portal veins and hepatic arteries" toID="E47" toText="duplex ultrasound of the patient 's liver" type="OVERLAP" />
+<TLINK id="TL116" fromID="E125" fromText="normal flow" toID="E47" toText="duplex ultrasound of the patient 's liver" type="OVERLAP" />
+<TLINK id="TL117" fromID="E48" fromText="a decreased and sluggish flow within the right and left hepatic veins" toID="E47" toText="duplex ultrasound of the patient 's liver" type="OVERLAP" />
+<TLINK id="TL118" fromID="E49" fromText="loss of normal respiratory variations , wave forms and the intrahepatic portion" toID="E47" toText="duplex ultrasound of the patient 's liver" type="OVERLAP" />
+<TLINK id="TL12" fromID="E94" fromText="encephalopathy" toID="T0" toText="11-30" type="BEFORE_OVERLAP" />
+<TLINK id="TL120" fromID="E50" fromText="diminished color flow" toID="E47" toText="duplex ultrasound of the patient 's liver" type="OVERLAP" />
+<TLINK id="TL121" fromID="E126" fromText="thrombus within the left and right hepatic veins" toID="E50" toText="diminished color flow" type="SIMULTANEOUS" />
+<TLINK id="TL122" fromID="E51" fromText="Caval narrowing" toID="E47" toText="duplex ultrasound of the patient 's liver" type="OVERLAP" />
+<TLINK id="TL123" fromID="E51" fromText="Caval narrowing" toID="E127" toText="the CT" type="BEFORE_OVERLAP" />
+<TLINK id="TL124" fromID="E51" fromText="Caval narrowing" toID="E128" toText="short-term ultrasounds" type="BEFORE_OVERLAP" />
+<TLINK id="TL125" fromID="E52" fromText="The Feeney Gann-Burlington drain" toID="T32" toText="postoperative day number" type="BEFORE_OVERLAP" />
+<TLINK id="TL126" fromID="E129" fromText="demonstrated" toID="T32" toText="postoperative day number" type="OVERLAP" />
+<TLINK id="TL127" fromID="E53" fromText="medial output" toID="T32" toText="postoperative day number" type="SIMULTANEOUS" />
+<TLINK id="TL128" fromID="E54" fromText="lateral output" toID="T32" toText="postoperative day number" type="SIMULTANEOUS" />
+<TLINK id="TL129" fromID="E86" fromText="the floor" toID="E88" toText="the floor" type="SIMULTANEOUS" />
+<TLINK id="TL130" fromID="E88" fromText="the floor" toID="T13" toText="2014-04-07" type="BEGUN_BY" />
+<TLINK id="TL131" fromID="E122" fromText="the ICU" toID="E86" toText="the floor" type="ENDED_BY" />
+<TLINK id="TL132" fromID="E55" fromText="Acyclovir" toID="E56" toText="Prednisone" type="OVERLAP" />
+<TLINK id="TL133" fromID="E56" fromText="Prednisone" toID="E57" toText="MMF" type="OVERLAP" />
+<TLINK id="TL134" fromID="E57" fromText="MMF" toID="T33" toText="b.i.d" type="OVERLAP" />
+<TLINK id="TL135" fromID="E57" fromText="MMF" toID="E24" toText="MMF" type="SIMULTANEOUS" />
+<TLINK id="TL136" fromID="E58" fromText="FK 2" toID="T14" toText="postoperative day number 2" type="BEGUN_BY" />
+<TLINK id="TL137" fromID="E58" fromText="FK 2" toID="E57" toText="MMF" type="OVERLAP" />
+<TLINK id="TL138" fromID="E131" fromText="Diet" toID="E130" toText="advanced" type="OVERLAP" />
+<TLINK id="TL139" fromID="E130" fromText="advanced" toID="E88" toText="the floor" type="OVERLAP" />
+<TLINK id="TL140" fromID="E130" fromText="advanced" toID="E132" toText="ambulating" type="OVERLAP" />
+<TLINK id="TL141" fromID="E59" fromText="Waltham-Ludlow drains" toID="E86" toText="the floor" type="BEFORE_OVERLAP" />
+<TLINK id="TL142" fromID="E61" fromText="steroids" toID="E60" toText="glucose control" type="OVERLAP" />
+<TLINK id="TL143" fromID="E60" fromText="glucose control" toID="T15" toText="2014-04-08" type="OVERLAP" />
+<TLINK id="TL144" fromID="E133" fromText="do very well" toID="E134" toText="ambulating" type="OVERLAP" />
+<TLINK id="TL145" fromID="E134" fromText="ambulating" toID="E135" toText="following the diet" type="OVERLAP" />
+<TLINK id="TL146" fromID="E133" fromText="do very well" toID="E88" toText="the floor" type="OVERLAP" />
+<TLINK id="TL147" fromID="E136" fromText="platelets" toID="T16" toText="2014-04-08" type="SIMULTANEOUS" />
+<TLINK id="TL148" fromID="E63" fromText="platelet count" toID="E136" toText="platelets" type="BEFORE" />
+<TLINK id="TL149" fromID="E64" fromText="A heparin independent antibody" toID="T17" toText="2014-04-07" type="SIMULTANEOUS" />
+<TLINK id="TL150" fromID="T18" fromText="2014-04-09" toID="E137" toText="do very well" type="SIMULTANEOUS" />
+<TLINK id="TL151" fromID="E138" fromText="ambulating" toID="T18" toText="2014-04-09" type="SIMULTANEOUS" />
+<TLINK id="TL152" fromID="T18" fromText="2014-04-09" toID="E139" toText="tolerating a diet" type="SIMULTANEOUS" />
+<TLINK id="TL153" fromID="E140" fromText="urinating" toID="T18" toText="2014-04-09" type="SIMULTANEOUS" />
+<TLINK id="TL154" fromID="E141" fromText="difficulty" toID="E140" toText="urinating" type="OVERLAP" />
+<TLINK id="TL155" fromID="E142" fromText="Drains" toID="T18" toText="2014-04-09" type="BEFORE_OVERLAP" />
+<TLINK id="TL156" fromID="E65" fromText="Patient 's labs" toID="T34" toText="2014-04-10" type="SIMULTANEOUS" />
+<TLINK id="TL157" fromID="E66" fromText="hematocrit" toID="T34" toText="2014-04-10" type="SIMULTANEOUS" />
+<TLINK id="TL158" fromID="E67" fromText="platelets" toID="T34" toText="2014-04-10" type="SIMULTANEOUS" />
+<TLINK id="TL159" fromID="E68" fromText="Sodium" toID="T34" toText="2014-04-10" type="SIMULTANEOUS" />
+<TLINK id="TL16" fromID="E78" fromText="admitted" toID="T37" toText="2014-03-22" type="ENDED_BY" />
+<TLINK id="TL160" fromID="E69" fromText="potassium" toID="T34" toText="2014-04-10" type="SIMULTANEOUS" />
+<TLINK id="TL161" fromID="E70" fromText="glucose" toID="T34" toText="2014-04-10" type="SIMULTANEOUS" />
+<TLINK id="TL162" fromID="E71" fromText="AST" toID="T34" toText="2014-04-10" type="SIMULTANEOUS" />
+<TLINK id="TL163" fromID="E72" fromText="ALT" toID="T34" toText="2014-04-10" type="SIMULTANEOUS" />
+<TLINK id="TL164" fromID="E73" fromText="Alkaline phosphatase" toID="T34" toText="2014-04-10" type="SIMULTANEOUS" />
+<TLINK id="TL165" fromID="E73" fromText="Alkaline phosphatase" toID="T35" toText="postoperative day number 1" type="AFTER" />
+<TLINK id="TL166" fromID="E74" fromText="Total bilirubin" toID="T34" toText="2014-04-10" type="SIMULTANEOUS" />
+<TLINK id="TL167" fromID="E143" fromText="FK level" toID="T19" toText="2014-04-09" type="SIMULTANEOUS" />
+<TLINK id="TL168" fromID="E144" fromText="left" toID="T20" toText="2014-04-09" type="SIMULTANEOUS" />
+<TLINK id="TL18" fromID="E1" fromText="Infectious work-up" toID="E2" toText="Trazodone" type="OVERLAP" />
+<TLINK id="TL19" fromID="E2" fromText="Trazodone" toID="E3" toText="Lactulose" type="OVERLAP" />
+<TLINK id="TL2" fromID="E80" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E3" fromText="Lactulose" toID="E4" toText="Rifaximine" type="OVERLAP" />
+<TLINK id="TL21" fromID="E4" fromText="Rifaximine" toID="E95" toText="improved" type="BEFORE_OVERLAP" />
+<TLINK id="TL22" fromID="E92" fromText="worsening confusion" toID="E4" toText="Rifaximine" type="BEFORE_OVERLAP" />
+<TLINK id="TL23" fromID="T24" fromText="Today" toID="T25" toText="2014-03-03" type="SIMULTANEOUS" />
+<TLINK id="TL24" fromID="E96" fromText="clinic" toID="T24" toText="Today" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E97" fromText="increased lethargy" toID="T24" toText="Today" type="BEFORE_OVERLAP" />
+<TLINK id="TL26" fromID="E98" fromText="confusion" toID="T24" toText="Today" type="BEFORE_OVERLAP" />
+<TLINK id="TL27" fromID="E5" fromText="lethargy" toID="E99" toText="reports" type="BEFORE_OVERLAP" />
+<TLINK id="TL28" fromID="E6" fromText="confusion" toID="E99" toText="reports" type="BEFORE_OVERLAP" />
+<TLINK id="TL29" fromID="E79" fromText="admitted" toID="E78" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL3" fromID="E89" fromText="hepatitis C cirrhosis" toID="E90" toText="encephalopathy" type="BEFORE_OVERLAP" />
+<TLINK id="TL30" fromID="E7" fromText="the symptoms" toID="E79" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL34" fromID="E101" fromText="yellowish eyes" toID="E100" toText="reports" type="BEFORE_OVERLAP" />
+<TLINK id="TL35" fromID="E101" fromText="yellowish eyes" toID="T40" toText="the past 3 days" type="DURING" />
+<TLINK id="TL36" fromID="E102" fromText="some shaking" toID="T40" toText="the past 3 days" type="DURING" />
+<TLINK id="TL37" fromID="E103" fromText="his breath smelled more like ammonia" toID="T40" toText="the past 3 days" type="DURING" />
+<TLINK id="TL38" fromID="T40" fromText="the past 3 days" toID="T24" toText="Today" type="ENDED_BY" />
+<TLINK id="TL39" fromID="E104" fromText="his medications" toID="T24" toText="Today" type="BEFORE_OVERLAP" />
+<TLINK id="TL4" fromID="E90" fromText="encephalopathy" toID="E91" toText="positive esophageal varices" type="OVERLAP" />
+<TLINK id="TL40" fromID="E105" fromText="bowel movement" toID="T3" toText="today" type="SIMULTANEOUS" />
+<TLINK id="TL41" fromID="T27" fromText="2014-03-31" toID="T3" toText="today" type="SIMULTANEOUS" />
+<TLINK id="TL42" fromID="T3" fromText="today" toID="T24" toText="Today" type="SIMULTANEOUS" />
+<TLINK id="TL43" fromID="E8" fromText="night sweats" toID="T28" toText="the past 2 weeks" type="DURING" />
+<TLINK id="TL44" fromID="T28" fromText="the past 2 weeks" toID="T3" toText="today" type="ENDED_BY" />
+<TLINK id="TL45" fromID="E106" fromText="any abdominal pain" toID="E107" toText="denies" type="BEFORE_OVERLAP" />
+<TLINK id="TL46" fromID="E107" fromText="denies" toID="E100" toText="reports" type="OVERLAP" />
+<TLINK id="TL47" fromID="E108" fromText="cold" toID="E110" toText="fevers" type="OVERLAP" />
+<TLINK id="TL48" fromID="E110" fromText="fevers" toID="E109" toText="denies" type="BEFORE_OVERLAP" />
+<TLINK id="TL49" fromID="E109" fromText="denies" toID="E107" toText="denies" type="OVERLAP" />
+<TLINK id="TL50" fromID="E3" fromText="Lactulose" toID="E9" toText="Lactulose" type="SIMULTANEOUS" />
+<TLINK id="TL51" fromID="E9" fromText="Lactulose" toID="E80" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL52" fromID="T29" fromText="3 to 4 stools per day" toID="E9" toText="Lactulose" type="OVERLAP" />
+<TLINK id="TL53" fromID="E10" fromText="Rifaximine" toID="E4" toText="Rifaximine" type="SIMULTANEOUS" />
+<TLINK id="TL54" fromID="E10" fromText="Rifaximine" toID="E80" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL55" fromID="E11" fromText="Lasix" toID="E80" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL56" fromID="E81" fromText="Physical therapy" toID="T4" toText="2014-04-01" type="SIMULTANEOUS" />
+<TLINK id="TL57" fromID="E111" fromText="awake" toID="T5" toText="2014-04-02" type="SIMULTANEOUS" />
+<TLINK id="TL58" fromID="E112" fromText="alert" toID="T5" toText="2014-04-02" type="SIMULTANEOUS" />
+<TLINK id="TL59" fromID="E113" fromText="oriented" toID="T5" toText="2014-04-02" type="SIMULTANEOUS" />
+<TLINK id="TL6" fromID="E90" fromText="encephalopathy" toID="E92" toText="worsening confusion" type="BEFORE_OVERLAP" />
+<TLINK id="TL60" fromID="E9" fromText="Lactulose" toID="E12" toText="Lactulose" type="SIMULTANEOUS" />
+<TLINK id="TL61" fromID="E12" fromText="Lactulose" toID="E113" toText="oriented" type="OVERLAP" />
+<TLINK id="TL62" fromID="E114" fromText="Difficulty with word finding" toID="E113" toText="oriented" type="OVERLAP" />
+<TLINK id="TL63" fromID="E13" fromText="any pain" toID="E115" toText="Denies" type="BEFORE_OVERLAP" />
+<TLINK id="TL64" fromID="E14" fromText="discomfort" toID="E115" toText="Denies" type="BEFORE_OVERLAP" />
+<TLINK id="TL65" fromID="E115" fromText="Denies" toID="E114" toText="Difficulty with word finding" type="OVERLAP" />
+<TLINK id="TL66" fromID="E116" fromText="Slightly distended" toID="E15" toText="nontender" type="OVERLAP" />
+<TLINK id="TL67" fromID="E116" fromText="Slightly distended" toID="E14" toText="discomfort" type="OVERLAP" />
+<TLINK id="TL68" fromID="E117" fromText="bowel sounds" toID="E15" toText="nontender" type="OVERLAP" />
+<TLINK id="TL69" fromID="E118" fromText="flatus" toID="E117" toText="bowel sounds" type="OVERLAP" />
+<TLINK id="TL7" fromID="E92" fromText="worsening confusion" toID="E93" toText="lethargy" type="OVERLAP" />
+<TLINK id="TL70" fromID="T30" fromText="2014-04-01" toID="E16" toText="Ultrasound" type="SIMULTANEOUS" />
+<TLINK id="TL71" fromID="E119" fromText="demonstrating" toID="E16" toText="Ultrasound" type="OVERLAP" />
+<TLINK id="TL72" fromID="E17" fromText="severe portal hypertension" toID="E16" toText="Ultrasound" type="BEFORE_OVERLAP" />
+<TLINK id="TL73" fromID="E18" fromText="massive peri splenic varices" toID="E16" toText="Ultrasound" type="BEFORE_OVERLAP" />
+<TLINK id="TL74" fromID="E19" fromText="splenorenal shunt" toID="E16" toText="Ultrasound" type="BEFORE_OVERLAP" />
+<TLINK id="TL75" fromID="E20" fromText="Repeat hepato fungal flare" toID="E16" toText="Ultrasound" type="BEFORE_OVERLAP" />
+<TLINK id="TL76" fromID="T6" fromText="2014-04-04" toID="E120" toText="the transplant service" type="SIMULTANEOUS" />
+<TLINK id="TL77" fromID="E120" fromText="the transplant service" toID="E121" toText="the operating room" type="BEFORE" />
+<TLINK id="TL78" fromID="E82" fromText="transplant" toID="E121" toText="the operating room" type="DURING" />
+<TLINK id="TL79" fromID="E82" fromText="transplant" toID="T7" toText="2014-04-04" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E94" fromText="encephalopathy" toID="E90" toText="encephalopathy" type="SIMULTANEOUS" />
+<TLINK id="TL80" fromID="E121" fromText="the operating room" toID="E83" toText="operating room" type="SIMULTANEOUS" />
+<TLINK id="TL81" fromID="E83" fromText="operating room" toID="T8" toText="2014-04-04" type="SIMULTANEOUS" />
+<TLINK id="TL82" fromID="E22" fromText="cadaveric liver transplant" toID="T8" toText="2014-04-04" type="SIMULTANEOUS" />
+<TLINK id="TL83" fromID="E82" fromText="transplant" toID="E22" toText="cadaveric liver transplant" type="SIMULTANEOUS" />
+<TLINK id="TL84" fromID="E23" fromText="the procedure" toID="E22" toText="cadaveric liver transplant" type="SIMULTANEOUS" />
+<TLINK id="TL85" fromID="E121" fromText="the operating room" toID="E84" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL86" fromID="E122" fromText="the ICU" toID="E84" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL87" fromID="E24" fromText="MMF" toID="T31" toText="b.i.d." type="OVERLAP" />
+<TLINK id="TL88" fromID="E25" fromText="Flagyl" toID="E24" toText="MMF" type="OVERLAP" />
+<TLINK id="TL89" fromID="E24" fromText="MMF" toID="E122" toText="the ICU" type="OVERLAP" />
+<TLINK id="TL9" fromID="E76" fromText="admitted" toID="T36" toText="5 x" type="OVERLAP" />
+<TLINK id="TL90" fromID="E26" fromText="Unasyn" toID="E24" toText="MMF" type="OVERLAP" />
+<TLINK id="TL91" fromID="E26" fromText="Unasyn" toID="T9" toText="2 days" type="DURING" />
+<TLINK id="TL92" fromID="E27" fromText="Fluconazole" toID="E26" toText="Unasyn" type="OVERLAP" />
+<TLINK id="TL93" fromID="E28" fromText="heparin" toID="E27" toText="Fluconazole" type="OVERLAP" />
+<TLINK id="TL94" fromID="E28" fromText="heparin" toID="E29" toText="Protonix" type="OVERLAP" />
+<TLINK id="TL95" fromID="E30" fromText="insulin" toID="E29" toText="Protonix" type="OVERLAP" />
+<TLINK id="TL96" fromID="E31" fromText="morphine" toID="E30" toText="insulin" type="OVERLAP" />
+<TLINK id="TL97" fromID="E32" fromText="Bactrim" toID="E31" toText="morphine" type="OVERLAP" />
+<TLINK id="TL98" fromID="E33" fromText="Propofol" toID="T10" toText="2 days" type="DURING" />
+<TLINK id="TL99" fromID="E33" fromText="Propofol" toID="E32" toText="Bactrim" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2014-03-31" type="ADMISSION" dvalue="2014-03-31" />
+<SECTIME id="S1" start="46" end="56" text="2014-04-09" type="DISCHARGE" dvalue="2014-04-09" />
+<TLINK id="SECTIME0" fromID="E104" fromText="his medications" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E105" fromText="bowel movement" toID="T1" toText="2014-03-31" type="OVERLAP" />
+<TLINK id="SECTIME2" fromID="E8" fromText="night sweats" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E107" fromText="denies" toID="T1" toText="2014-03-31" type="OVERLAP" />
+<TLINK id="SECTIME4" fromID="E106" fromText="any abdominal pain" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E108" fromText="cold" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E109" fromText="denies" toID="T1" toText="2014-03-31" type="OVERLAP" />
+<TLINK id="SECTIME7" fromID="E110" fromText="fevers" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E80" fromText="admitted" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E9" fromText="Lactulose" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E10" fromText="Rifaximine" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E11" fromText="Lasix" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E81" fromText="Physical therapy" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E111" fromText="awake" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E112" fromText="alert" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E113" fromText="oriented" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E12" fromText="Lactulose" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E114" fromText="Difficulty with word finding" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E115" fromText="Denies" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E13" fromText="any pain" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E14" fromText="discomfort" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E116" fromText="Slightly distended" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E15" fromText="nontender" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E117" fromText="bowel sounds" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E89" fromText="hepatitis C cirrhosis" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E118" fromText="flatus" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E16" fromText="Ultrasound" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E119" fromText="demonstrating" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E17" fromText="severe portal hypertension" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E18" fromText="massive peri splenic varices" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E19" fromText="splenorenal shunt" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E20" fromText="Repeat hepato fungal flare" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E120" fromText="the transplant service" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E121" fromText="the operating room" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E82" fromText="transplant" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E90" fromText="encephalopathy" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E83" fromText="operating room" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E22" fromText="cadaveric liver transplant" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E91" fromText="positive esophageal varices" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E23" fromText="the procedure" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E84" fromText="transferred" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E122" fromText="the ICU" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E24" fromText="MMF" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E25" fromText="Flagyl" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E26" fromText="Unasyn" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E27" fromText="Fluconazole" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E28" fromText="heparin" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E29" fromText="Protonix" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E30" fromText="insulin" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E31" fromText="morphine" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E32" fromText="Bactrim" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E33" fromText="Propofol" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E34" fromText="labs" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E35" fromText="WBC" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E92" fromText="worsening confusion" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E36" fromText="hematocrit" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E37" fromText="platelets" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E38" fromText="sodium" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E39" fromText="serum creatinine" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E40" fromText="Glucose" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E41" fromText="AST" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E42" fromText="ALT" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E43" fromText="Alkaline phosphatase" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E44" fromText="PT" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E45" fromText="PTT" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E46" fromText="INR" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E47" fromText="duplex ultrasound of the patient 's liver" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E93" fromText="lethargy" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E123" fromText="demonstrating" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E124" fromText="normal appearing portal veins and hepatic arteries" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E125" fromText="normal flow" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E48" fromText="a decreased and sluggish flow within the right and left hepatic veins" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E49" fromText="loss of normal respiratory variations , wave forms and the intrahepatic portion" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E76" fromText="admitted" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E50" fromText="diminished color flow" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E126" fromText="thrombus within the left and right hepatic veins" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E51" fromText="Caval narrowing" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E77" fromText="Nantucket Cottage Hospital" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E127" fromText="the CT" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E128" fromText="short-term ultrasounds" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E52" fromText="The Feeney Gann-Burlington drain" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E129" fromText="demonstrated" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E53" fromText="medial output" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E54" fromText="lateral output" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E86" fromText="the floor" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E88" fromText="the floor" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E55" fromText="Acyclovir" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E56" fromText="Prednisone" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E57" fromText="MMF" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E58" fromText="FK 2" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E94" fromText="encephalopathy" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E131" fromText="Diet" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E130" fromText="advanced" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E132" fromText="ambulating" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E59" fromText="Waltham-Ludlow drains" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E60" fromText="glucose control" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E61" fromText="steroids" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E133" fromText="do very well" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E134" fromText="ambulating" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E135" fromText="following the diet" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E78" fromText="admitted" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E136" fromText="platelets" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E63" fromText="platelet count" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E64" fromText="A heparin independent antibody" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E137" fromText="do very well" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E138" fromText="ambulating" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E139" fromText="tolerating a diet" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E140" fromText="urinating" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E141" fromText="difficulty" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E142" fromText="Drains" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E65" fromText="Patient 's labs" toID="T2" toText="2014-04-09" type="AFTER" />
+<TLINK id="SECTIME111" fromID="E1" fromText="Infectious work-up" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E66" fromText="hematocrit" toID="T2" toText="2014-04-09" type="AFTER" />
+<TLINK id="SECTIME113" fromID="E67" fromText="platelets" toID="T2" toText="2014-04-09" type="AFTER" />
+<TLINK id="SECTIME114" fromID="E68" fromText="Sodium" toID="T2" toText="2014-04-09" type="AFTER" />
+<TLINK id="SECTIME115" fromID="E69" fromText="potassium" toID="T2" toText="2014-04-09" type="AFTER" />
+<TLINK id="SECTIME116" fromID="E70" fromText="glucose" toID="T2" toText="2014-04-09" type="AFTER" />
+<TLINK id="SECTIME117" fromID="E71" fromText="AST" toID="T2" toText="2014-04-09" type="AFTER" />
+<TLINK id="SECTIME118" fromID="E72" fromText="ALT" toID="T2" toText="2014-04-09" type="AFTER" />
+<TLINK id="SECTIME119" fromID="E73" fromText="Alkaline phosphatase" toID="T2" toText="2014-04-09" type="AFTER" />
+<TLINK id="SECTIME120" fromID="E74" fromText="Total bilirubin" toID="T2" toText="2014-04-09" type="AFTER" />
+<TLINK id="SECTIME121" fromID="E143" fromText="FK level" toID="T2" toText="2014-04-09" type="BEFORE" />
+<TLINK id="SECTIME122" fromID="E144" fromText="left" toID="T2" toText="2014-04-09" type="OVERLAP" />
+<TLINK id="SECTIME123" fromID="E2" fromText="Trazodone" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME124" fromID="E3" fromText="Lactulose" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME125" fromID="E4" fromText="Rifaximine" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME126" fromID="E95" fromText="improved" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME127" fromID="E96" fromText="clinic" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME128" fromID="E97" fromText="increased lethargy" toID="T1" toText="2014-03-31" type="OVERLAP" />
+<TLINK id="SECTIME129" fromID="E98" fromText="confusion" toID="T1" toText="2014-03-31" type="OVERLAP" />
+<TLINK id="SECTIME130" fromID="E99" fromText="reports" toID="T1" toText="2014-03-31" type="OVERLAP" />
+<TLINK id="SECTIME131" fromID="E5" fromText="lethargy" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME132" fromID="E6" fromText="confusion" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME133" fromID="E7" fromText="the symptoms" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME134" fromID="E79" fromText="admitted" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME135" fromID="E100" fromText="reports" toID="T1" toText="2014-03-31" type="OVERLAP" />
+<TLINK id="SECTIME136" fromID="E101" fromText="yellowish eyes" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME137" fromID="E102" fromText="some shaking" toID="T1" toText="2014-03-31" type="BEFORE" />
+<TLINK id="SECTIME138" fromID="E103" fromText="his breath smelled more like ammonia" toID="T1" toText="2014-03-31" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

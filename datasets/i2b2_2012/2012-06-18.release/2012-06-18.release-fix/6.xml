@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+02/22/92
+DISCHARGE DATE :
+03/08/92
+HISTORY OF PRESENT ILLNESS :
+Patient is a 72 year old female with known carotid stenosis , and recent carotid noninvasives at an outside hospital , which showed 90% left sided stenosis .
+She has not had a stroke , or transient ischemic attack .
+She was recently discharged from the Per Naplesspecrycet Hospital after an admission for congestive heart failure .
+HOSPITAL COURSE :
+The patient was admitted to the Tau Memorial Hospital .
+She was seen by Dr. Freiermthalskush of the renal service for management of her chronic renal insufficiency .
+On 02/22 , she underwent angiography , which revealed minimal right internal carotid artery disease , and proximal left internal carotid artery stenosis , 2 cm in length for the 1 mm residual lumen .
+The left anterior communicating artery fell from the right .
+She was also seen by Cardiology , and she underwent cardiac catheterization , as part of her preop evaluation , which revealed normal resting hemodynamics , and a moderate posterior descending artery , and obtuse marginal stenoses .
+She was , therefore , cleared for the operating room , and on 3/3/92 , she underwent a left carotid endarterectomy , with continuous electroencephalogram monitoring and vein patch angioplasty , which was uneventful .
+Her postoperative course was marked only by prolonged ileus , perhaps secondary to constipation , with persistent vomiting , requiring intravenous fluids , however , on 03/07/92 , she had a large bowel movement , after aggressive bowel regime , felt significantly better , was able to tolerate PO &apos;s .
+She is now able to be discharged home on her admission medications , with the exception of the fact that Vasotec was increased to 10 mg PO bid .
+SHERMENE JESCSELC , M.D.
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="1020" end="1058" text="a moderate posterior descending artery" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="1065" end="1089" text="obtuse marginal stenoses" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="1114" end="1121" text="cleared" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1126" end="1144" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E30" start="1177" end="1206" text="a left carotid endarterectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="119" end="141" text="known carotid stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1214" end="1256" text="continuous electroencephalogram monitoring" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="1261" end="1283" text="vein patch angioplasty" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1296" end="1306" text="uneventful" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="1309" end="1333" text="Her postoperative course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="1353" end="1368" text="prolonged ileus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1392" end="1404" text="constipation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1412" end="1431" text="persistent vomiting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1444" end="1462" text="intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="148" end="175" text="recent carotid noninvasives" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="1497" end="1519" text="a large bowel movement" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="1528" end="1551" text="aggressive bowel regime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1594" end="1613" text="tolerate PO &apos;s" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1638" end="1648" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1657" end="1682" text="her admission medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1721" end="1728" text="Vasotec" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1733" end="1742" text="increased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="179" end="198" text="an outside hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E47" start="207" end="213" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E5" start="214" end="237" text="90% left sided stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="256" end="264" text="a stroke" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E7" start="270" end="295" text="transient ischemic attack" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E1" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="315" end="325" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="331" end="363" text="the Per Naplesspecrycet Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E10" start="370" end="382" text="an admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="387" end="411" text="congestive heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="448" end="456" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="460" end="485" text="the Tau Memorial Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E14" start="528" end="545" text="the renal service" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="550" end="560" text="management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="564" end="595" text="her chronic renal insufficiency" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="623" end="634" text="angiography" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="643" end="651" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E19" start="652" end="697" text="minimal right internal carotid artery disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="704" end="750" text="proximal left internal carotid artery stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="880" end="890" text="Cardiology" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="911" end="934" text="cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="948" end="968" text="her preop evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="977" end="985" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E25" start="993" end="1013" text="resting hemodynamics" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T3" start="1154" end="1160" text="3/3/92" type="DATE" val="1992-03-03" mod="NA" />
+<TIMEX3 id="T4" start="1478" end="1486" text="03/07/92" type="DATE" val="1992-03-07" mod="NA" />
+<TIMEX3 id="T5" start="1755" end="1758" text="bid" type="FREQUENCY" val="RP12H" mod="NA" />
+<TIMEX3 id="T0" start="18" end="26" text="02/22/92" type="DATE" val="1992-02-22" mod="NA" />
+<TIMEX3 id="T1" start="44" end="52" text="03/08/92" type="DATE" val="1992-03-08" mod="NA" />
+<TIMEX3 id="T2" start="601" end="606" text="02/22" type="DATE" val="1992-02-22" mod="NA" />
+<TLINK id="TL0" fromID="T0" fromText="02/22/92" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL1" fromID="T1" fromText="03/08/92" toID="E1" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL10" fromID="E9" fromText="the Per Naplesspecrycet Hospital" toID="E10" toText="an admission" type="AFTER" />
+<TLINK id="TL11" fromID="E11" fromText="congestive heart failure" toID="E10" toText="an admission" type="BEFORE" />
+<TLINK id="TL12" fromID="E13" fromText="the Tau Memorial Hospital" toID="E12" toText="admitted" type="AFTER" />
+<TLINK id="TL13" fromID="E0" fromText="ADMISSION" toID="E12" toText="admitted" type="OVERLAP" />
+<TLINK id="TL14" fromID="E13" fromText="the Tau Memorial Hospital" toID="E1" toText="DISCHARGE" type="BEFORE" />
+<TLINK id="TL15" fromID="E14" fromText="the renal service" toID="E13" toText="the Tau Memorial Hospital" type="OVERLAP" />
+<TLINK id="TL16" fromID="E14" fromText="the renal service" toID="E15" toText="management" type="OVERLAP" />
+<TLINK id="TL17" fromID="E16" fromText="her chronic renal insufficiency" toID="E15" toText="management" type="BEFORE" />
+<TLINK id="TL18" fromID="E17" fromText="angiography" toID="T2" toText="02/22" type="OVERLAP" />
+<TLINK id="TL19" fromID="E18" fromText="revealed" toID="E17" toText="angiography" type="OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="known carotid stenosis" toID="E3" toText="recent carotid noninvasives" type="BEFORE" />
+<TLINK id="TL20" fromID="E19" fromText="minimal right internal carotid artery disease" toID="E17" toText="angiography" type="BEFORE" />
+<TLINK id="TL21" fromID="E19" fromText="minimal right internal carotid artery disease" toID="E20" toText="proximal left internal carotid artery stenosis" type="OVERLAP" />
+<TLINK id="TL22" fromID="E21" fromText="Cardiology" toID="E13" toText="the Tau Memorial Hospital" type="OVERLAP" />
+<TLINK id="TL23" fromID="E21" fromText="Cardiology" toID="E22" toText="cardiac catheterization" type="OVERLAP" />
+<TLINK id="TL24" fromID="E22" fromText="cardiac catheterization" toID="E23" toText="her preop evaluation" type="OVERLAP" />
+<TLINK id="TL25" fromID="E22" fromText="cardiac catheterization" toID="E24" toText="revealed" type="OVERLAP" />
+<TLINK id="TL26" fromID="E25" fromText="resting hemodynamics" toID="E24" toText="revealed" type="OVERLAP" />
+<TLINK id="TL27" fromID="E25" fromText="resting hemodynamics" toID="E26" toText="a moderate posterior descending artery" type="OVERLAP" />
+<TLINK id="TL28" fromID="E26" fromText="a moderate posterior descending artery" toID="E27" toText="obtuse marginal stenoses" type="OVERLAP" />
+<TLINK id="TL29" fromID="E23" fromText="her preop evaluation" toID="E29" toText="the operating room" type="BEFORE" />
+<TLINK id="TL3" fromID="E3" fromText="recent carotid noninvasives" toID="E4" toText="an outside hospital" type="BEFORE" />
+<TLINK id="TL30" fromID="E28" fromText="cleared" toID="E23" toText="her preop evaluation" type="OVERLAP" />
+<TLINK id="TL31" fromID="E29" fromText="the operating room" toID="E30" toText="a left carotid endarterectomy" type="OVERLAP" />
+<TLINK id="TL32" fromID="T3" fromText="3/3/92" toID="E30" toText="a left carotid endarterectomy" type="OVERLAP" />
+<TLINK id="TL33" fromID="E30" fromText="a left carotid endarterectomy" toID="E31" toText="continuous electroencephalogram monitoring" type="OVERLAP" />
+<TLINK id="TL34" fromID="E32" fromText="vein patch angioplasty" toID="E31" toText="continuous electroencephalogram monitoring" type="OVERLAP" />
+<TLINK id="TL35" fromID="E32" fromText="vein patch angioplasty" toID="E33" toText="uneventful" type="OVERLAP" />
+<TLINK id="TL36" fromID="E34" fromText="prolonged ileus" toID="E29" toText="the operating room" type="AFTER" />
+<TLINK id="TL37" fromID="E34" fromText="prolonged ileus" toID="E48" toText="Her postoperative course" type="OVERLAP" />
+<TLINK id="TL38" fromID="E48" fromText="Her postoperative course" toID="E29" toText="the operating room" type="AFTER" />
+<TLINK id="TL39" fromID="E42" fromText="discharged" toID="E48" toText="Her postoperative course" type="AFTER" />
+<TLINK id="TL4" fromID="E3" fromText="recent carotid noninvasives" toID="E47" toText="showed" type="OVERLAP" />
+<TLINK id="TL40" fromID="E42" fromText="discharged" toID="E1" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL41" fromID="E35" fromText="constipation" toID="E34" toText="prolonged ileus" type="BEFORE" />
+<TLINK id="TL42" fromID="E34" fromText="prolonged ileus" toID="E36" toText="persistent vomiting" type="OVERLAP" />
+<TLINK id="TL43" fromID="E36" fromText="persistent vomiting" toID="E37" toText="intravenous fluids" type="BEFORE" />
+<TLINK id="TL44" fromID="E38" fromText="a large bowel movement" toID="T4" toText="03/07/92" type="OVERLAP" />
+<TLINK id="TL45" fromID="E38" fromText="a large bowel movement" toID="E39" toText="aggressive bowel regime" type="AFTER" />
+<TLINK id="TL46" fromID="E41" fromText="tolerate PO &apos;s" toID="E38" toText="a large bowel movement" type="AFTER" />
+<TLINK id="TL47" fromID="E42" fromText="discharged" toID="E41" toText="tolerate PO &apos;s" type="AFTER" />
+<TLINK id="TL48" fromID="E43" fromText="her admission medications" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL49" fromID="E43" fromText="her admission medications" toID="E42" toText="discharged" type="BEFORE" />
+<TLINK id="TL5" fromID="E5" fromText="90% left sided stenosis" toID="E3" toText="recent carotid noninvasives" type="BEFORE" />
+<TLINK id="TL50" fromID="E44" fromText="Vasotec" toID="E45" toText="increased" type="BEFORE" />
+<TLINK id="TL51" fromID="E44" fromText="Vasotec" toID="E43" toText="her admission medications" type="OVERLAP" />
+<TLINK id="TL52" fromID="E44" fromText="Vasotec" toID="T5" toText="bid" type="OVERLAP" />
+<TLINK id="TL53" fromID="T5" fromText="bid" toID="E45" toText="increased" type="AFTER" />
+<TLINK id="TL6" fromID="E5" fromText="90% left sided stenosis" toID="E6" toText="a stroke" type="OVERLAP" />
+<TLINK id="TL7" fromID="E6" fromText="a stroke" toID="E7" toText="transient ischemic attack" type="OVERLAP" />
+<TLINK id="TL8" fromID="E4" fromText="an outside hospital" toID="E8" toText="discharged" type="BEFORE" />
+<TLINK id="TL9" fromID="E9" fromText="the Per Naplesspecrycet Hospital" toID="E8" toText="discharged" type="BEFORE" />
+<TLINK id="SECTIME0" fromID="E26" fromText="a moderate posterior descending artery" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E27" fromText="obtuse marginal stenoses" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E28" fromText="cleared" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E29" fromText="the operating room" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E30" fromText="a left carotid endarterectomy" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E2" fromText="known carotid stenosis" toID="T0" toText="02/22/92" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E31" fromText="continuous electroencephalogram monitoring" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E32" fromText="vein patch angioplasty" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E33" fromText="uneventful" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E48" fromText="Her postoperative course" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E34" fromText="prolonged ileus" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E35" fromText="constipation" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E36" fromText="persistent vomiting" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E37" fromText="intravenous fluids" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E3" fromText="recent carotid noninvasives" toID="T0" toText="02/22/92" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E38" fromText="a large bowel movement" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E39" fromText="aggressive bowel regime" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E41" fromText="tolerate PO &apos;s" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E42" fromText="discharged" toID="T1" toText="03/08/92" type="OVERLAP" />
+<TLINK id="SECTIME19" fromID="E43" fromText="her admission medications" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E44" fromText="Vasotec" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E45" fromText="increased" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E4" fromText="an outside hospital" toID="T0" toText="02/22/92" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E47" fromText="showed" toID="T0" toText="02/22/92" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E5" fromText="90% left sided stenosis" toID="T0" toText="02/22/92" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E6" fromText="a stroke" toID="T0" toText="02/22/92" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E7" fromText="transient ischemic attack" toID="T0" toText="02/22/92" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E8" fromText="discharged" toID="T0" toText="02/22/92" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E9" fromText="the Per Naplesspecrycet Hospital" toID="T0" toText="02/22/92" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E10" fromText="an admission" toID="T0" toText="02/22/92" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E11" fromText="congestive heart failure" toID="T0" toText="02/22/92" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E12" fromText="admitted" toID="T1" toText="03/08/92" type="OVERLAP" />
+<TLINK id="SECTIME32" fromID="E13" fromText="the Tau Memorial Hospital" toID="T1" toText="03/08/92" type="OVERLAP" />
+<TLINK id="SECTIME33" fromID="E14" fromText="the renal service" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E15" fromText="management" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E16" fromText="her chronic renal insufficiency" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E17" fromText="angiography" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E18" fromText="revealed" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E19" fromText="minimal right internal carotid artery disease" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E20" fromText="proximal left internal carotid artery stenosis" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E21" fromText="Cardiology" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E22" fromText="cardiac catheterization" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E23" fromText="her preop evaluation" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E24" fromText="revealed" toID="T1" toText="03/08/92" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E25" fromText="resting hemodynamics" toID="T1" toText="03/08/92" type="BEFORE" />
+<SECTIME id="S0" start="18" end="26" text="02/22/92" type="ADMISSION" dvalue="1992-02-22" />
+<SECTIME id="S1" start="44" end="52" text="03/08/92" type="DISCHARGE" dvalue="1992-03-08" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2013-02-12
+Discharge Date :
+2013-02-16
+Service :
+CARDIOTHORACIC
+HISTORY OF PRESENT ILLNESS :
+The patient was referred from an outside hospital with a chief complaint of increasing shortness of breath and tires easily with exertion .
+Admitted to Bay State Medical Center Hospital in 2012-10-22 in congestive heart failure at that time .
+Via echocardiogram , found to have aortic stenosis .
+Referred to Memorial Hospital ( Worcester ) for cardiac catheterization to further evaluate her aortic stenosis .
+Cardiac catheterization done on 01-07 showed an aortic valve area of .38 cm.sq. , with a mean gradient of 62 , and a peak gradient of 85 .
+Moderate pulmonary hypertension , PA pressure 48/24 , 1+ mitral regurgitation , severe aortic stenosis with an LVEDP of 19 and an ejection fraction of 43% .
+She was then referred to Cardiothoracic Surgery for aortic valve replacement .
+HOSPITAL COURSE :
+The patient was a direct admission to the operating room on 02-12 , at which time she underwent an
+aortic valve replacement .
+Please see the operative report for full details .
+In summary , she had an aortic valve replacement with a #21 mosaic porcine valve .
+She tolerated the operation well , and was transferred from the operating room to the Cardiothoracic Intensive Care Unit .
+The patient did well in the immediate postoperative period , however , her blood pressure remained somewhat labile .
+Therefore , she was continued on a Neo-Synephrine drip to maintain a systolic blood pressure greater than 110 .
+In addition , she was slow to awaken after her anesthesia was reversed , and in several attempts to wean from the ventilator , she developed a respiratory acidosis .
+She therefore remained on the ventilator throughout the day of postoperative day one .
+On postoperative day two , the patient remained hemodynamically stable .
+Her Neo-Synephrine drip was weaned to off .
+She was again weaned from the ventilator , and successfully extubated .
+Her chest tubes were discontinued and , at the end of the day , she was transferred from the Cardiothoracic Intensive Care Unit to the floor for continuing postoperative care and cardiac rehabilitation .
+After being transferred to the floor , the patient did well .
+Over the next several days , her activity level was increased with the assistance of Physical Therapy and the nursing staff .
+She remained hemodynamically stable .
+Her respiratory condition remained stable and , on postoperative day four , she was deemed stable and ready to be transferred to rehabilitation for continuing postoperative care and physical therapy .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="1013" end="1037" text="aortic valve replacement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="1112" end="1139" text="an aortic valve replacement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="1145" end="1171" text="a #21 mosaic porcine valve" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1178" end="1187" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="1188" end="1201" text="the operation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="1202" end="1206" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1217" end="1228" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="1234" end="1252" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E64" start="1256" end="1294" text="the Cardiothoracic Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E30" start="127" end="135" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="1368" end="1386" text="her blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="1396" end="1411" text="somewhat labile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="141" end="160" text="an outside hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E17" start="1447" end="1468" text="a Neo-Synephrine drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1481" end="1506" text="a systolic blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="1548" end="1562" text="slow to awaken" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1569" end="1583" text="her anesthesia" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1588" end="1596" text="reversed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="1626" end="1630" text="wean" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="1636" end="1650" text="the ventilator" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="1667" end="1689" text="a respiratory acidosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="1718" end="1732" text="the ventilator" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="174" end="183" text="complaint" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E66" start="1827" end="1849" text="hemodynamically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="1852" end="1875" text="Her Neo-Synephrine drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="187" end="217" text="increasing shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="1880" end="1893" text="weaned to off" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="1910" end="1916" text="weaned" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="1922" end="1936" text="the ventilator" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="1943" end="1965" text="successfully extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="1968" end="1983" text="Her chest tubes" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1989" end="2001" text="discontinued" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="2040" end="2051" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="2057" end="2095" text="the Cardiothoracic Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E42" start="2099" end="2108" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E26" start="2113" end="2142" text="continuing postoperative care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="2147" end="2169" text="cardiac rehabilitation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="2184" end="2195" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="2199" end="2208" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E50" start="222" end="234" text="tires easily" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="2227" end="2231" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="2263" end="2295" text="her activity level was increased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E75" start="2301" end="2335" text="the assistance of Physical Therapy" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="2373" end="2395" text="hemodynamically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E51" start="240" end="248" text="exertion" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E77" start="2433" end="2439" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="2489" end="2495" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="251" end="259" text="Admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="2512" end="2523" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E79" start="2527" end="2541" text="rehabilitation" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E28" start="2546" end="2575" text="continuing postoperative care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="2580" end="2596" text="physical therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="263" end="296" text="Bay State Medical Center Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E46" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="314" end="338" text="congestive heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="358" end="372" text="echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="375" end="380" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E54" start="389" end="404" text="aortic stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="407" end="415" text="Referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="419" end="450" text="Memorial Hospital ( Worcester )" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="455" end="478" text="cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="490" end="498" text="evaluate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E56" start="499" end="518" text="her aortic stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="521" end="544" text="Cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="559" end="565" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E5" start="566" end="586" text="an aortic valve area" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="608" end="623" text="a mean gradient" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="636" end="651" text="a peak gradient" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E58" start="660" end="691" text="Moderate pulmonary hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="694" end="705" text="PA pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="714" end="737" text="1+ mitral regurgitation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="740" end="762" text="severe aortic stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="768" end="776" text="an LVEDP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E10" start="787" end="807" text="an ejection fraction" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="830" end="838" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="842" end="864" text="Cardiothoracic Surgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E62" start="869" end="893" text="aortic valve replacement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="930" end="948" text="a direct admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="952" end="970" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<TIMEX3 id="T5" start="1744" end="1776" text="the day of postoperative day one" type="DURATION" val="PT24H" mod="APPROX" />
+<TIMEX3 id="T6" start="1782" end="1803" text="postoperative day two" type="DATE" val="2012-02-14" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2013-02-12" type="DATE" val="2013-02-12" mod="NA" />
+<TIMEX3 id="T7" start="2011" end="2029" text="the end of the day" type="TIME" val="2012-02-14" mod="END" />
+<TIMEX3 id="T8" start="2248" end="2260" text="several days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T9" start="2449" end="2471" text="postoperative day four" type="DATE" val="2012-02-16" mod="NA" />
+<TIMEX3 id="T2" start="300" end="310" text="2012-10-22" type="DATE" val="2012-10-22" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2013-02-16" type="DATE" val="2013-02-16" mod="NA" />
+<TIMEX3 id="T3" start="553" end="558" text="01-07" type="DATE" val="2013-01-07" mod="NA" />
+<TIMEX3 id="T4" start="974" end="979" text="02-12" type="DATE" val="2013-02-12" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2013-02-12" type="OVERLAP" />
+<TLINK id="TL1" fromID="E13" fromText="a #21 mosaic porcine valve" toID="E12" toText="an aortic valve replacement" type="OVERLAP" />
+<TLINK id="TL10" fromID="E52" fromText="Bay State Medical Center Hospital" toID="E31" toText="Admitted" type="AFTER" />
+<TLINK id="TL11" fromID="T2" fromText="2012-10-22" toID="E52" toText="Bay State Medical Center Hospital" type="OVERLAP" />
+<TLINK id="TL12" fromID="E1" fromText="congestive heart failure" toID="T2" toText="2012-10-22" type="BEFORE" />
+<TLINK id="TL13" fromID="E2" fromText="echocardiogram" toID="E53" toText="found" type="OVERLAP" />
+<TLINK id="TL14" fromID="E54" fromText="aortic stenosis" toID="E53" toText="found" type="BEFORE" />
+<TLINK id="TL15" fromID="E2" fromText="echocardiogram" toID="E52" toText="Bay State Medical Center Hospital" type="OVERLAP" />
+<TLINK id="TL16" fromID="E32" fromText="Referred" toID="E53" toText="found" type="AFTER" />
+<TLINK id="TL17" fromID="E55" fromText="Memorial Hospital ( Worcester )" toID="E32" toText="Referred" type="AFTER" />
+<TLINK id="TL18" fromID="E55" fromText="Memorial Hospital ( Worcester )" toID="E3" toText="cardiac catheterization" type="OVERLAP" />
+<TLINK id="TL19" fromID="E3" fromText="cardiac catheterization" toID="E56" toText="her aortic stenosis" type="OVERLAP" />
+<TLINK id="TL2" fromID="E26" fromText="continuing postoperative care" toID="E42" toText="the floor" type="OVERLAP" />
+<TLINK id="TL20" fromID="E56" fromText="her aortic stenosis" toID="E3" toText="cardiac catheterization" type="BEFORE" />
+<TLINK id="TL21" fromID="E56" fromText="her aortic stenosis" toID="E49" toText="increasing shortness of breath" type="OVERLAP" />
+<TLINK id="TL22" fromID="E3" fromText="cardiac catheterization" toID="E4" toText="Cardiac catheterization" type="OVERLAP" />
+<TLINK id="TL23" fromID="E4" fromText="Cardiac catheterization" toID="T3" toText="01-07" type="OVERLAP" />
+<TLINK id="TL24" fromID="E4" fromText="Cardiac catheterization" toID="E33" toText="showed" type="OVERLAP" />
+<TLINK id="TL25" fromID="E5" fromText="an aortic valve area" toID="E33" toText="showed" type="BEFORE" />
+<TLINK id="TL26" fromID="E6" fromText="a mean gradient" toID="E5" toText="an aortic valve area" type="OVERLAP" />
+<TLINK id="TL27" fromID="E6" fromText="a mean gradient" toID="E7" toText="a peak gradient" type="OVERLAP" />
+<TLINK id="TL28" fromID="E7" fromText="a peak gradient" toID="E58" toText="Moderate pulmonary hypertension" type="OVERLAP" />
+<TLINK id="TL29" fromID="E58" fromText="Moderate pulmonary hypertension" toID="E8" toText="PA pressure" type="OVERLAP" />
+<TLINK id="TL3" fromID="E46" fromText="Discharge" toID="T1" toText="2013-02-16" type="OVERLAP" />
+<TLINK id="TL30" fromID="E8" fromText="PA pressure" toID="E59" toText="1+ mitral regurgitation" type="OVERLAP" />
+<TLINK id="TL31" fromID="E59" fromText="1+ mitral regurgitation" toID="E60" toText="severe aortic stenosis" type="OVERLAP" />
+<TLINK id="TL32" fromID="E9" fromText="an LVEDP" toID="E4" toText="Cardiac catheterization" type="OVERLAP" />
+<TLINK id="TL33" fromID="E9" fromText="an LVEDP" toID="E10" toText="an ejection fraction" type="OVERLAP" />
+<TLINK id="TL34" fromID="E34" fromText="referred" toID="E4" toText="Cardiac catheterization" type="AFTER" />
+<TLINK id="TL35" fromID="E61" fromText="Cardiothoracic Surgery" toID="E34" toText="referred" type="OVERLAP" />
+<TLINK id="TL36" fromID="E61" fromText="Cardiothoracic Surgery" toID="E62" toText="aortic valve replacement" type="OVERLAP" />
+<TLINK id="TL37" fromID="E63" fromText="a direct admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL38" fromID="E35" fromText="the operating room" toID="E63" toText="a direct admission" type="OVERLAP" />
+<TLINK id="TL39" fromID="E35" fromText="the operating room" toID="T4" toText="02-12" type="OVERLAP" />
+<TLINK id="TL4" fromID="E30" fromText="referred" toID="E47" toText="an outside hospital" type="OVERLAP" />
+<TLINK id="TL40" fromID="E35" fromText="the operating room" toID="E11" toText="aortic valve replacement" type="OVERLAP" />
+<TLINK id="TL41" fromID="E12" fromText="an aortic valve replacement" toID="E11" toText="aortic valve replacement" type="OVERLAP" />
+<TLINK id="TL42" fromID="E14" fromText="the operation" toID="E12" toText="an aortic valve replacement" type="OVERLAP" />
+<TLINK id="TL43" fromID="E14" fromText="the operation" toID="E80" toText="well" type="OVERLAP" />
+<TLINK id="TL44" fromID="E37" fromText="transferred" toID="E14" toText="the operation" type="AFTER" />
+<TLINK id="TL45" fromID="E38" fromText="the operating room" toID="E37" toText="transferred" type="BEFORE" />
+<TLINK id="TL46" fromID="E64" fromText="the Cardiothoracic Intensive Care Unit" toID="E37" toText="transferred" type="AFTER" />
+<TLINK id="TL47" fromID="E15" fromText="her blood pressure" toID="E64" toText="the Cardiothoracic Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL48" fromID="E15" fromText="her blood pressure" toID="E16" toText="somewhat labile" type="OVERLAP" />
+<TLINK id="TL49" fromID="E16" fromText="somewhat labile" toID="E17" toText="a Neo-Synephrine drip" type="BEFORE" />
+<TLINK id="TL5" fromID="E47" fromText="an outside hospital" toID="E48" toText="complaint" type="OVERLAP" />
+<TLINK id="TL50" fromID="E17" fromText="a Neo-Synephrine drip" toID="E18" toText="a systolic blood pressure" type="OVERLAP" />
+<TLINK id="TL51" fromID="E19" fromText="her anesthesia" toID="E39" toText="reversed" type="BEFORE" />
+<TLINK id="TL52" fromID="E65" fromText="slow to awaken" toID="E19" toText="her anesthesia" type="AFTER" />
+<TLINK id="TL53" fromID="E19" fromText="her anesthesia" toID="E35" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL54" fromID="E67" fromText="wean" toID="E39" toText="reversed" type="AFTER" />
+<TLINK id="TL55" fromID="E20" fromText="the ventilator" toID="E67" toText="wean" type="BEFORE" />
+<TLINK id="TL56" fromID="E21" fromText="a respiratory acidosis" toID="E67" toText="wean" type="AFTER" />
+<TLINK id="TL57" fromID="E22" fromText="the ventilator" toID="E20" toText="the ventilator" type="OVERLAP" />
+<TLINK id="TL58" fromID="E22" fromText="the ventilator" toID="T5" toText="the day of postoperative day one" type="OVERLAP" />
+<TLINK id="TL59" fromID="E66" fromText="hemodynamically stable" toID="T6" toText="postoperative day two" type="OVERLAP" />
+<TLINK id="TL6" fromID="E49" fromText="increasing shortness of breath" toID="E48" toText="complaint" type="OVERLAP" />
+<TLINK id="TL60" fromID="E23" fromText="Her Neo-Synephrine drip" toID="E68" toText="weaned to off" type="BEFORE" />
+<TLINK id="TL61" fromID="E23" fromText="Her Neo-Synephrine drip" toID="E17" toText="a Neo-Synephrine drip" type="OVERLAP" />
+<TLINK id="TL62" fromID="E24" fromText="the ventilator" toID="E22" toText="the ventilator" type="OVERLAP" />
+<TLINK id="TL63" fromID="E24" fromText="the ventilator" toID="E69" toText="weaned" type="BEFORE" />
+<TLINK id="TL64" fromID="E24" fromText="the ventilator" toID="E70" toText="successfully extubated" type="BEFORE" />
+<TLINK id="TL65" fromID="E25" fromText="Her chest tubes" toID="E62" toText="aortic valve replacement" type="AFTER" />
+<TLINK id="TL66" fromID="E25" fromText="Her chest tubes" toID="T7" toText="the end of the day" type="BEFORE" />
+<TLINK id="TL67" fromID="E41" fromText="transferred" toID="T7" toText="the end of the day" type="OVERLAP" />
+<TLINK id="TL68" fromID="E71" fromText="the Cardiothoracic Intensive Care Unit" toID="E41" toText="transferred" type="BEFORE" />
+<TLINK id="TL69" fromID="E42" fromText="the floor" toID="E41" toText="transferred" type="AFTER" />
+<TLINK id="TL7" fromID="E49" fromText="increasing shortness of breath" toID="E50" toText="tires easily" type="OVERLAP" />
+<TLINK id="TL70" fromID="E26" fromText="continuing postoperative care" toID="E27" toText="cardiac rehabilitation" type="OVERLAP" />
+<TLINK id="TL71" fromID="E43" fromText="transferred" toID="E41" toText="transferred" type="OVERLAP" />
+<TLINK id="TL72" fromID="E44" fromText="the floor" toID="E42" toText="the floor" type="OVERLAP" />
+<TLINK id="TL73" fromID="E73" fromText="well" toID="E44" toText="the floor" type="BEFORE" />
+<TLINK id="TL74" fromID="E73" fromText="well" toID="T8" toText="several days" type="BEFORE" />
+<TLINK id="TL75" fromID="T8" fromText="several days" toID="E43" toText="transferred" type="AFTER" />
+<TLINK id="TL76" fromID="T8" fromText="several days" toID="E74" toText="her activity level was increased" type="OVERLAP" />
+<TLINK id="TL77" fromID="E74" fromText="her activity level was increased" toID="E75" toText="the assistance of Physical Therapy" type="OVERLAP" />
+<TLINK id="TL78" fromID="E76" fromText="hemodynamically stable" toID="E77" toText="stable" type="OVERLAP" />
+<TLINK id="TL79" fromID="E77" fromText="stable" toID="T9" toText="postoperative day four" type="BEFORE" />
+<TLINK id="TL8" fromID="E50" fromText="tires easily" toID="E51" toText="exertion" type="OVERLAP" />
+<TLINK id="TL80" fromID="T9" fromText="postoperative day four" toID="E78" toText="stable" type="OVERLAP" />
+<TLINK id="TL81" fromID="E78" fromText="stable" toID="E45" toText="transferred" type="BEFORE" />
+<TLINK id="TL82" fromID="E44" fromText="the floor" toID="E45" toText="transferred" type="BEFORE" />
+<TLINK id="TL83" fromID="E79" fromText="rehabilitation" toID="E45" toText="transferred" type="AFTER" />
+<TLINK id="TL84" fromID="E28" fromText="continuing postoperative care" toID="E79" toText="rehabilitation" type="BEFORE" />
+<TLINK id="TL85" fromID="E28" fromText="continuing postoperative care" toID="E29" toText="physical therapy" type="OVERLAP" />
+<TLINK id="TL9" fromID="E31" fromText="Admitted" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="SECTIME0" fromID="E11" fromText="aortic valve replacement" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E12" fromText="an aortic valve replacement" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E13" fromText="a #21 mosaic porcine valve" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E36" fromText="tolerated" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E14" fromText="the operation" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E80" fromText="well" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E37" fromText="transferred" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E38" fromText="the operating room" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E64" fromText="the Cardiothoracic Intensive Care Unit" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E30" fromText="referred" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E15" fromText="her blood pressure" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E16" fromText="somewhat labile" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E47" fromText="an outside hospital" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E17" fromText="a Neo-Synephrine drip" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E18" fromText="a systolic blood pressure" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E65" fromText="slow to awaken" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E19" fromText="her anesthesia" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E39" fromText="reversed" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E67" fromText="wean" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E20" fromText="the ventilator" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E21" fromText="a respiratory acidosis" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E22" fromText="the ventilator" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E48" fromText="complaint" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E66" fromText="hemodynamically stable" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E23" fromText="Her Neo-Synephrine drip" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E49" fromText="increasing shortness of breath" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E68" fromText="weaned to off" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E69" fromText="weaned" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E24" fromText="the ventilator" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E70" fromText="successfully extubated" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E25" fromText="Her chest tubes" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E40" fromText="discontinued" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E41" fromText="transferred" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E71" fromText="the Cardiothoracic Intensive Care Unit" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E42" fromText="the floor" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E26" fromText="continuing postoperative care" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E27" fromText="cardiac rehabilitation" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E43" fromText="transferred" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E44" fromText="the floor" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E50" fromText="tires easily" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E73" fromText="well" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E74" fromText="her activity level was increased" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E75" fromText="the assistance of Physical Therapy" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E76" fromText="hemodynamically stable" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E51" fromText="exertion" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E77" fromText="stable" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E78" fromText="stable" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E31" fromText="Admitted" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E45" fromText="transferred" toID="T1" toText="2013-02-16" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E79" fromText="rehabilitation" toID="T1" toText="2013-02-16" type="AFTER" />
+<TLINK id="SECTIME50" fromID="E28" fromText="continuing postoperative care" toID="T1" toText="2013-02-16" type="AFTER" />
+<TLINK id="SECTIME51" fromID="E29" fromText="physical therapy" toID="T1" toText="2013-02-16" type="AFTER" />
+<TLINK id="SECTIME52" fromID="E52" fromText="Bay State Medical Center Hospital" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E1" fromText="congestive heart failure" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E2" fromText="echocardiogram" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E53" fromText="found" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E54" fromText="aortic stenosis" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E32" fromText="Referred" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E55" fromText="Memorial Hospital ( Worcester )" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E3" fromText="cardiac catheterization" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E57" fromText="evaluate" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E56" fromText="her aortic stenosis" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E4" fromText="Cardiac catheterization" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E33" fromText="showed" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E5" fromText="an aortic valve area" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E6" fromText="a mean gradient" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E7" fromText="a peak gradient" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E58" fromText="Moderate pulmonary hypertension" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E8" fromText="PA pressure" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E59" fromText="1+ mitral regurgitation" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E60" fromText="severe aortic stenosis" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E9" fromText="an LVEDP" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E10" fromText="an ejection fraction" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E34" fromText="referred" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E61" fromText="Cardiothoracic Surgery" toID="T0" toText="2013-02-12" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E62" fromText="aortic valve replacement" toID="T0" toText="2013-02-12" type="AFTER" />
+<TLINK id="SECTIME76" fromID="E63" fromText="a direct admission" toID="T1" toText="2013-02-16" type="OVERLAP" />
+<TLINK id="SECTIME77" fromID="E35" fromText="the operating room" toID="T1" toText="2013-02-16" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2013-02-12" type="ADMISSION" dvalue="2013-02-12" />
+<SECTIME id="S1" start="46" end="56" text="2013-02-16" type="DISCHARGE" dvalue="2013-02-16" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

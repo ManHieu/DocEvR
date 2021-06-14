@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2012-05-24
+Discharge Date :
+2012-06-19
+Service :
+NEUROSURGERY
+History of Present Illness :
+57 yo right handed male with seizure history since 1988 , s/p craniotomies x 3 ( most recently 05-05 ) for oligodendroglioma .
+The patient began having generalized tonic - clonic seizures in 1988 , which at the time were thought to be related to asthma medications .
+At this time , his head CT was negative , and he was treated with Dilantin and Phenobarbital .
+However , he continued to have left arm focal motor seizures and problems thinking .
+In 2001-08-31 he stopped his medication and had a generalized tonic - clonic seizure in 12/94 .
+He was diagnosed by biopsy with oligodendroglioma , and gross total resection by Dr. Redner in
+95 revealed a low-grade oligodendroglioma .
+He was followed by Dr. Gregory Dumas , with serial MRI 's.
+In 2011-05-02 , he was requiring more ativan to control his seizures , and was increasingly disoriented and forgetful with headaches .
+He had a repeat total resection in 4/04 by Dr. Peter Hoadley at Hallmark Health System which revealed anaplastic oligodendroglioma grade III .
+He had radiation following the resection and was doing well on monthly Temodar until 2012-04-23 when he had a marked change in behavior , his balance was off , speech slurred , and he had difficulty using the computer .
+A head MRI on 2012-04-24 revealed increasing tumor infiltration with increased edema and mass effect .
+He underwent a right craniotomy with resection and gliadel wafers on 2012-05-02 at Hallmark Health System by Dr. Ackley .
+Came for neurosurgery follow up on 05-21 , and had been having clear fluid leaking from his incision , as well as frontal headache , imbalance , bumping into things with his left leg and worsening tremors .
+He was admitted for Lumbar drain placement
+Brief Hospital Course : patient was admitted on 2012-05-24 after having drainage from his incision for the last couple of days .
+He was seen in the brain tumor clinic on 05-21 and stitches were placed in the incision , however it continued to leak .
+He had a lumbar drain placed .
+He c/o of abd pain and distension on 05-25 he had a kub done which was negative .
+on 05-26 he continued to c/o of epigastric pain had a chest x-ray done to due to decreased lung sounds .
+The Chest x-ray showed free air .
+general surgery was consulted and the patient was taken to the OR for exploratory laproratomy .
+he was found to have a perforated sigmoid diverticulum .
+He had a colostomy and partial colectomy .
+patient recovered well from colocetomy .
+He was found to have an abd abcess which was drained via CT guidance on 06-01 .
+On 06-02 his lumbar drain pulled out .
+he had to have it replaced , however , because his head incision began to leak again .
+On 06-03 he was taken back to the OR for debridement of his head wound with removal of the remaining gliadel waffers .
+He tolerated the procedure well , postop however he had a grand mal seizure and was intubated and sent to the ICU .
+ID was consulted for both the abd abcess and possible meningitis given the large amount of wbc in the csf cultures .
+Patient was placed on vancomycin 1 gm IV q12 and zosyn .
+He was kept on antibiotics until 06-17 .
+Neurologically he slowly woke up after the seizures and was extubated on 06-03 .
+He was transfered to the step down unit and had his lumbar drain slowly weaned .
+The lumbar drain was d/ced on 06-14 .
+He had a head Ct which remains stable and head wound remain dry .
+Neurologically he is awake and alert and oriented x 3 he is 07-05 in all muscle group bilat .
+He follows commands , he is out of bed ambulating with max assist .
+PT and OT are recommending rehab .
+He will follow up with Dr Fisher the general surgeon in two weeks and follow up in the brain tumor clinic in two weeks for stitch removal .
+H ewas switched to oral CIpro for the pelvic abcess and will continue it until he has his followup with infectious disease in 2 weeks .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="1049" end="1071" text="Hallmark Health System" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E27" start="1072" end="1077" text="which" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="1078" end="1086" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E28" start="1087" end="1125" text="anaplastic oligodendroglioma grade III" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1135" end="1144" text="radiation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="1155" end="1168" text="the resection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="1177" end="1187" text="doing well" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E33" start="1191" end="1206" text="monthly Temodar" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1236" end="1263" text="a marked change in behavior" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1266" end="1285" text="his balance was off" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1288" end="1302" text="speech slurred" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1316" end="1345" text="difficulty using the computer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1348" end="1358" text="A head MRI" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="138" end="153" text="seizure history" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="1373" end="1381" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E39" start="1382" end="1411" text="increasing tumor infiltration" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1417" end="1432" text="increased edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1437" end="1448" text="mass effect" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="1464" end="1482" text="a right craniotomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1488" end="1497" text="resection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1502" end="1516" text="gliadel wafers" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1534" end="1556" text="Hallmark Health System" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E48" start="1582" end="1594" text="neurosurgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E49" start="1595" end="1604" text="follow up" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="1636" end="1655" text="clear fluid leaking" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1661" end="1673" text="his incision" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="1687" end="1703" text="frontal headache" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="171" end="183" text="craniotomies" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="1706" end="1715" text="imbalance" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="1718" end="1755" text="bumping into things with his left leg" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="1760" end="1777" text="worsening tremors" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="1787" end="1795" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="1800" end="1822" text="Lumbar drain placement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="1859" end="1867" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E59" start="1895" end="1903" text="drainage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="1909" end="1921" text="his incision" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="1967" end="1989" text="the brain tumor clinic" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E62" start="2003" end="2011" text="stitches" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="2027" end="2039" text="the incision" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="2050" end="2052" text="it" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="2066" end="2070" text="leak" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="2080" end="2094" text="a lumbar drain" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E67" start="2107" end="2110" text="c/o" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E68" start="2114" end="2122" text="abd pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E69" start="2127" end="2137" text="distension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="216" end="233" text="oligodendroglioma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E70" start="2154" end="2159" text="a kub" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E71" start="2165" end="2170" text="which" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E72" start="2211" end="2214" text="c/o" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E73" start="2218" end="2233" text="epigastric pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="2238" end="2251" text="a chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E75" start="2267" end="2288" text="decreased lung sounds" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E76" start="2291" end="2306" text="The Chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E77" start="2307" end="2313" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E78" start="2314" end="2322" text="free air" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="2325" end="2340" text="general surgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E80" start="2345" end="2354" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E81" start="2384" end="2390" text="the OR" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E82" start="2395" end="2418" text="exploratory laproratomy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E83" start="2428" end="2433" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E84" start="2442" end="2475" text="a perforated sigmoid diverticulum" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="2485" end="2496" text="a colostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="2501" end="2518" text="partial colectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E87" start="2529" end="2543" text="recovered well" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E88" start="2549" end="2559" text="colocetomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E89" start="2569" end="2574" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E90" start="2583" end="2596" text="an abd abcess" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E91" start="2597" end="2602" text="which" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="261" end="296" text="generalized tonic - clonic seizures" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E92" start="2607" end="2614" text="drained" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E93" start="2619" end="2630" text="CT guidance" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E94" start="2651" end="2667" text="his lumbar drain" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E147" start="2668" end="2678" text="pulled out" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E95" start="2696" end="2698" text="it" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E96" start="2699" end="2707" text="replaced" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E97" start="2728" end="2745" text="his head incision" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E98" start="2755" end="2759" text="leak" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E99" start="2798" end="2804" text="the OR" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E100" start="2809" end="2820" text="debridement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E101" start="2824" end="2838" text="his head wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E102" start="2844" end="2851" text="removal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E103" start="2855" end="2884" text="the remaining gliadel waffers" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E105" start="2890" end="2899" text="tolerated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E104" start="2900" end="2913" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E106" start="2943" end="2962" text="a grand mal seizure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E107" start="2971" end="2980" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E108" start="2993" end="3000" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E109" start="3003" end="3005" text="ID" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E110" start="3029" end="3043" text="the abd abcess" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E111" start="3057" end="3067" text="meningitis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E112" start="3074" end="3097" text="the large amount of wbc" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E113" start="3101" end="3117" text="the csf cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E114" start="3142" end="3152" text="vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E115" start="3169" end="3174" text="zosyn" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E116" start="3192" end="3203" text="antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E117" start="3233" end="3250" text="he slowly woke up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E118" start="3257" end="3269" text="the seizures" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E119" start="3278" end="3287" text="extubated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E120" start="3306" end="3316" text="transfered" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E121" start="3320" end="3338" text="the step down unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E122" start="3347" end="3363" text="his lumbar drain" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E123" start="3371" end="3377" text="weaned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E124" start="3380" end="3396" text="The lumbar drain" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E125" start="3401" end="3406" text="d/ced" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E126" start="3425" end="3434" text="a head Ct" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E127" start="3435" end="3440" text="which" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E128" start="3449" end="3455" text="stable" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E129" start="3460" end="3470" text="head wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E130" start="3478" end="3481" text="dry" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E131" start="3505" end="3537" text="awake and alert and oriented x 3" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="355" end="373" text="asthma medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E132" start="3581" end="3597" text="follows commands" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E133" start="3617" end="3627" text="ambulating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E134" start="3646" end="3648" text="PT" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E135" start="3653" end="3655" text="OT" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E136" start="3673" end="3678" text="rehab" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E137" start="3689" end="3698" text="follow up" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E138" start="3714" end="3733" text="the general surgeon" modality="CONDITIONAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E139" start="3751" end="3760" text="follow up" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E140" start="3764" end="3786" text="the brain tumor clinic" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E141" start="3804" end="3818" text="stitch removal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E142" start="3840" end="3850" text="oral CIpro" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E143" start="3855" end="3872" text="the pelvic abcess" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E144" start="3891" end="3893" text="it" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="391" end="402" text="his head CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E145" start="3907" end="3919" text="his followup" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E146" start="3925" end="3943" text="infectious disease" modality="CONDITIONAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E8" start="442" end="450" text="Dilantin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="455" end="468" text="Phenobarbital" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="502" end="531" text="left arm focal motor seizures" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="536" end="553" text="problems thinking" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="581" end="595" text="his medication" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="604" end="640" text="a generalized tonic - clonic seizure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="672" end="678" text="biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="684" end="701" text="oligodendroglioma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="708" end="729" text="gross total resection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="759" end="788" text="a low-grade oligodendroglioma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="835" end="849" text="serial MRI 's." modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="883" end="894" text="more ativan" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="906" end="918" text="his seizures" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="929" end="953" text="increasingly disoriented" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="958" end="967" text="forgetful" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="973" end="982" text="headaches" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="992" end="1016" text="a repeat total resection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T12" start="1020" end="1024" text="4/04" type="DATE" val="2004-04-01" mod="APPROX" />
+<TIMEX3 id="T13" start="1191" end="1198" text="monthly" type="FREQUENCY" val="RP1M" mod="NA" />
+<TIMEX3 id="T14" start="1213" end="1223" text="2012-04-23" type="DATE" val="2012-04-23" mod="NA" />
+<TIMEX3 id="T15" start="1362" end="1372" text="2012-04-24" type="DATE" val="2012-04-24" mod="NA" />
+<TIMEX3 id="T16" start="1520" end="1530" text="2012-05-02" type="DATE" val="2012-05-02" mod="NA" />
+<TIMEX3 id="T2" start="160" end="164" text="1988" type="DATE" val="1988" mod="START" />
+<TIMEX3 id="T17" start="1608" end="1613" text="05-21" type="DATE" val="2012-05-21" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2012-05-24" type="DATE" val="2012-05-24" mod="NA" />
+<TIMEX3 id="T3" start="184" end="187" text="x 3" type="FREQUENCY" val="R3" mod="NA" />
+<TIMEX3 id="T18" start="1871" end="1881" text="2012-05-24" type="DATE" val="2012-05-24" mod="NA" />
+<TIMEX3 id="T19" start="1926" end="1949" text="the last couple of days" type="DURATION" val="P2D" mod="APPROX" />
+<TIMEX3 id="T20" start="1993" end="1998" text="05-21" type="DATE" val="2012-05-21" mod="NA" />
+<TIMEX3 id="T4" start="204" end="209" text="05-05" type="DATE" val="2012-05-05" mod="NA" />
+<TIMEX3 id="T21" start="2141" end="2146" text="05-25" type="DATE" val="2012-05-25" mod="NA" />
+<TIMEX3 id="T22" start="2189" end="2194" text="05-26" type="DATE" val="2012-05-26" mod="NA" />
+<TIMEX3 id="T23" start="2634" end="2639" text="06-01" type="DATE" val="2012-06-01" mod="NA" />
+<TIMEX3 id="T24" start="2645" end="2650" text="06-02" type="DATE" val="2012-06-02" mod="NA" />
+<TIMEX3 id="T25" start="2771" end="2776" text="06-03" type="DATE" val="2012-06-03" mod="NA" />
+<TIMEX3 id="T5" start="300" end="304" text="1988" type="DATE" val="1988" mod="START" />
+<TIMEX3 id="T6" start="316" end="324" text="the time" type="DATE" val="1988" mod="NA" />
+<TIMEX3 id="T26" start="3161" end="3164" text="q12" type="FREQUENCY" val="RT12H" mod="NA" />
+<TIMEX3 id="T27" start="3210" end="3215" text="06-17" type="DATE" val="2012-06-17" mod="NA" />
+<TIMEX3 id="T28" start="3291" end="3296" text="06-03" type="DATE" val="2012-06-03" mod="NA" />
+<TIMEX3 id="T29" start="3410" end="3415" text="06-14" type="DATE" val="2012-06-14" mod="NA" />
+<TIMEX3 id="T30" start="3737" end="3746" text="two weeks" type="DATE" val="2012-07-02" mod="APPROX" />
+<TIMEX3 id="T31" start="3790" end="3799" text="two weeks" type="DATE" val="2012-07-02" mod="APPROX" />
+<TIMEX3 id="T7" start="379" end="388" text="this time" type="DATE" val="1988" mod="NA" />
+<TIMEX3 id="T32" start="3947" end="3954" text="2 weeks" type="DATE" val="2012-07-02" mod="APPROX" />
+<TIMEX3 id="T1" start="46" end="56" text="2012-06-19" type="DATE" val="2012-06-19" mod="NA" />
+<TIMEX3 id="T8" start="559" end="569" text="2001-08-31" type="DATE" val="2001-08-31" mod="END" />
+<TIMEX3 id="T9" start="644" end="649" text="12/94" type="DATE" val="1994-12-01" mod="APPROX" />
+<TIMEX3 id="T10" start="747" end="749" text="95" type="DATE" val="1995" mod="NA" />
+<TIMEX3 id="T11" start="853" end="863" text="2011-05-02" type="DATE" val="2011-05-02" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2012-05-24" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="Discharge" toID="T1" toText="2012-06-19" type="OVERLAP" />
+<TLINK id="TL10" fromID="E6" fromText="asthma medications" toID="E5" toText="generalized tonic - clonic seizures" type="BEFORE" />
+<TLINK id="TL100" fromID="E80" fromText="consulted" toID="E81" toText="the OR" type="BEFORE" />
+<TLINK id="TL101" fromID="E82" fromText="exploratory laproratomy" toID="E81" toText="the OR" type="OVERLAP" />
+<TLINK id="TL102" fromID="E83" fromText="found" toID="E84" toText="a perforated sigmoid diverticulum" type="OVERLAP" />
+<TLINK id="TL103" fromID="E84" fromText="a perforated sigmoid diverticulum" toID="E82" toText="exploratory laproratomy" type="BEFORE" />
+<TLINK id="TL104" fromID="E84" fromText="a perforated sigmoid diverticulum" toID="E85" toText="a colostomy" type="BEFORE" />
+<TLINK id="TL105" fromID="E85" fromText="a colostomy" toID="E86" toText="partial colectomy" type="OVERLAP" />
+<TLINK id="TL106" fromID="E88" fromText="colocetomy" toID="E86" toText="partial colectomy" type="OVERLAP" />
+<TLINK id="TL107" fromID="E87" fromText="recovered well" toID="E88" toText="colocetomy" type="AFTER" />
+<TLINK id="TL108" fromID="E89" fromText="found" toID="E90" toText="an abd abcess" type="OVERLAP" />
+<TLINK id="TL109" fromID="E90" fromText="an abd abcess" toID="E91" toText="which" type="OVERLAP" />
+<TLINK id="TL11" fromID="T7" fromText="this time" toID="T6" toText="the time" type="OVERLAP" />
+<TLINK id="TL110" fromID="E90" fromText="an abd abcess" toID="E92" toText="drained" type="BEFORE" />
+<TLINK id="TL111" fromID="E92" fromText="drained" toID="E93" toText="CT guidance" type="OVERLAP" />
+<TLINK id="TL112" fromID="E92" fromText="drained" toID="T23" toText="06-01" type="OVERLAP" />
+<TLINK id="TL113" fromID="T24" fromText="06-02" toID="E94" toText="his lumbar drain" type="OVERLAP" />
+<TLINK id="TL114" fromID="E98" fromText="leak" toID="E96" toText="replaced" type="AFTER" />
+<TLINK id="TL115" fromID="T24" fromText="06-02" toID="E147" toText="pulled out" type="OVERLAP" />
+<TLINK id="TL116" fromID="E94" fromText="his lumbar drain" toID="E147" toText="pulled out" type="BEFORE" />
+<TLINK id="TL117" fromID="E98" fromText="leak" toID="E147" toText="pulled out" type="AFTER" />
+<TLINK id="TL118" fromID="E97" fromText="his head incision" toID="E101" toText="his head wound" type="OVERLAP" />
+<TLINK id="TL119" fromID="E97" fromText="his head incision" toID="E98" toText="leak" type="OVERLAP" />
+<TLINK id="TL12" fromID="T7" fromText="this time" toID="E7" toText="his head CT" type="OVERLAP" />
+<TLINK id="TL120" fromID="E97" fromText="his head incision" toID="E60" toText="his incision" type="OVERLAP" />
+<TLINK id="TL121" fromID="E99" fromText="the OR" toID="T25" toText="06-03" type="OVERLAP" />
+<TLINK id="TL122" fromID="E100" fromText="debridement" toID="E99" toText="the OR" type="OVERLAP" />
+<TLINK id="TL123" fromID="E102" fromText="removal" toID="E100" toText="debridement" type="OVERLAP" />
+<TLINK id="TL124" fromID="E103" fromText="the remaining gliadel waffers" toID="E102" toText="removal" type="BEFORE" />
+<TLINK id="TL125" fromID="E45" fromText="gliadel wafers" toID="E103" toText="the remaining gliadel waffers" type="OVERLAP" />
+<TLINK id="TL126" fromID="E100" fromText="debridement" toID="E104" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL127" fromID="E105" fromText="tolerated" toID="E104" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL128" fromID="E104" fromText="the procedure" toID="E106" toText="a grand mal seizure" type="BEFORE" />
+<TLINK id="TL129" fromID="E106" fromText="a grand mal seizure" toID="E107" toText="intubated" type="BEFORE" />
+<TLINK id="TL13" fromID="E8" fromText="Dilantin" toID="T7" toText="this time" type="OVERLAP" />
+<TLINK id="TL130" fromID="E106" fromText="a grand mal seizure" toID="E108" toText="the ICU" type="BEFORE" />
+<TLINK id="TL131" fromID="E106" fromText="a grand mal seizure" toID="E118" toText="the seizures" type="OVERLAP" />
+<TLINK id="TL132" fromID="E110" fromText="the abd abcess" toID="E109" toText="ID" type="BEFORE" />
+<TLINK id="TL133" fromID="E111" fromText="meningitis" toID="E112" toText="the large amount of wbc" type="OVERLAP" />
+<TLINK id="TL134" fromID="E112" fromText="the large amount of wbc" toID="E113" toText="the csf cultures" type="OVERLAP" />
+<TLINK id="TL135" fromID="E114" fromText="vancomycin" toID="E109" toText="ID" type="AFTER" />
+<TLINK id="TL136" fromID="T26" fromText="q12" toID="T26" toText="q12" type="" />
+<TLINK id="TL137" fromID="E114" fromText="vancomycin" toID="T26" toText="q12" type="OVERLAP" />
+<TLINK id="TL138" fromID="E114" fromText="vancomycin" toID="E115" toText="zosyn" type="OVERLAP" />
+<TLINK id="TL139" fromID="E116" fromText="antibiotics" toID="E115" toText="zosyn" type="OVERLAP" />
+<TLINK id="TL14" fromID="E7" fromText="his head CT" toID="E8" toText="Dilantin" type="AFTER" />
+<TLINK id="TL140" fromID="E116" fromText="antibiotics" toID="T27" toText="06-17" type="BEFORE" />
+<TLINK id="TL141" fromID="E117" fromText="he slowly woke up" toID="E118" toText="the seizures" type="AFTER" />
+<TLINK id="TL143" fromID="E119" fromText="extubated" toID="T28" toText="06-03" type="OVERLAP" />
+<TLINK id="TL144" fromID="E107" fromText="intubated" toID="T28" toText="06-03" type="BEFORE" />
+<TLINK id="TL145" fromID="E120" fromText="transfered" toID="E121" toText="the step down unit" type="OVERLAP" />
+<TLINK id="TL146" fromID="E120" fromText="transfered" toID="T28" toText="06-03" type="AFTER" />
+<TLINK id="TL147" fromID="E122" fromText="his lumbar drain" toID="E124" toText="The lumbar drain" type="OVERLAP" />
+<TLINK id="TL148" fromID="E122" fromText="his lumbar drain" toID="E123" toText="weaned" type="OVERLAP" />
+<TLINK id="TL149" fromID="E123" fromText="weaned" toID="E121" toText="the step down unit" type="OVERLAP" />
+<TLINK id="TL15" fromID="E8" fromText="Dilantin" toID="E9" toText="Phenobarbital" type="OVERLAP" />
+<TLINK id="TL150" fromID="E124" fromText="The lumbar drain" toID="T29" toText="06-14" type="BEFORE" />
+<TLINK id="TL152" fromID="E124" fromText="The lumbar drain" toID="E125" toText="d/ced" type="BEFORE" />
+<TLINK id="TL153" fromID="E127" fromText="which" toID="E126" toText="a head Ct" type="OVERLAP" />
+<TLINK id="TL154" fromID="E128" fromText="stable" toID="E126" toText="a head Ct" type="OVERLAP" />
+<TLINK id="TL155" fromID="E129" fromText="head wound" toID="E128" toText="stable" type="OVERLAP" />
+<TLINK id="TL156" fromID="E129" fromText="head wound" toID="E130" toText="dry" type="BEFORE" />
+<TLINK id="TL157" fromID="E101" fromText="his head wound" toID="E129" toText="head wound" type="OVERLAP" />
+<TLINK id="TL158" fromID="E131" fromText="awake and alert and oriented x 3" toID="E126" toText="a head Ct" type="AFTER" />
+<TLINK id="TL159" fromID="E132" fromText="follows commands" toID="E131" toText="awake and alert and oriented x 3" type="OVERLAP" />
+<TLINK id="TL16" fromID="E9" fromText="Phenobarbital" toID="E10" toText="left arm focal motor seizures" type="BEFORE" />
+<TLINK id="TL160" fromID="E133" fromText="ambulating" toID="E132" toText="follows commands" type="OVERLAP" />
+<TLINK id="TL161" fromID="E134" fromText="PT" toID="E135" toText="OT" type="OVERLAP" />
+<TLINK id="TL162" fromID="E135" fromText="OT" toID="E136" toText="rehab" type="AFTER" />
+<TLINK id="TL163" fromID="E137" fromText="follow up" toID="T30" toText="two weeks" type="AFTER" />
+<TLINK id="TL164" fromID="E137" fromText="follow up" toID="E138" toText="the general surgeon" type="OVERLAP" />
+<TLINK id="TL165" fromID="E139" fromText="follow up" toID="T31" toText="two weeks" type="AFTER" />
+<TLINK id="TL166" fromID="E139" fromText="follow up" toID="E140" toText="the brain tumor clinic" type="OVERLAP" />
+<TLINK id="TL167" fromID="E141" fromText="stitch removal" toID="E139" toText="follow up" type="OVERLAP" />
+<TLINK id="TL168" fromID="E143" fromText="the pelvic abcess" toID="E142" toText="oral CIpro" type="BEFORE" />
+<TLINK id="TL169" fromID="E144" fromText="it" toID="E142" toText="oral CIpro" type="OVERLAP" />
+<TLINK id="TL17" fromID="E10" fromText="left arm focal motor seizures" toID="E11" toText="problems thinking" type="OVERLAP" />
+<TLINK id="TL170" fromID="E143" fromText="the pelvic abcess" toID="E90" toText="an abd abcess" type="OVERLAP" />
+<TLINK id="TL171" fromID="E145" fromText="his followup" toID="T32" toText="2 weeks" type="AFTER" />
+<TLINK id="TL172" fromID="E144" fromText="it" toID="E145" toText="his followup" type="BEFORE" />
+<TLINK id="TL173" fromID="E146" fromText="infectious disease" toID="E145" toText="his followup" type="OVERLAP" />
+<TLINK id="TL18" fromID="E12" fromText="his medication" toID="T8" toText="2001-08-31" type="BEFORE" />
+<TLINK id="TL19" fromID="E12" fromText="his medication" toID="E13" toText="a generalized tonic - clonic seizure" type="BEFORE" />
+<TLINK id="TL2" fromID="E2" fromText="seizure history" toID="T2" toText="1988" type="AFTER" />
+<TLINK id="TL20" fromID="E13" fromText="a generalized tonic - clonic seizure" toID="T9" toText="12/94" type="OVERLAP" />
+<TLINK id="TL21" fromID="E6" fromText="asthma medications" toID="T9" toText="12/94" type="AFTER" />
+<TLINK id="TL22" fromID="E15" fromText="oligodendroglioma" toID="E14" toText="biopsy" type="BEFORE" />
+<TLINK id="TL23" fromID="E16" fromText="gross total resection" toID="T10" toText="95" type="OVERLAP" />
+<TLINK id="TL24" fromID="E18" fromText="a low-grade oligodendroglioma" toID="E16" toText="gross total resection" type="BEFORE" />
+<TLINK id="TL25" fromID="E15" fromText="oligodendroglioma" toID="E18" toText="a low-grade oligodendroglioma" type="OVERLAP" />
+<TLINK id="TL26" fromID="E19" fromText="serial MRI 's." toID="E16" toText="gross total resection" type="AFTER" />
+<TLINK id="TL27" fromID="T11" fromText="2011-05-02" toID="E20" toText="more ativan" type="OVERLAP" />
+<TLINK id="TL28" fromID="E21" fromText="his seizures" toID="E20" toText="more ativan" type="BEFORE" />
+<TLINK id="TL29" fromID="E21" fromText="his seizures" toID="E2" toText="seizure history" type="OVERLAP" />
+<TLINK id="TL3" fromID="E4" fromText="oligodendroglioma" toID="E3" toText="craniotomies" type="BEFORE" />
+<TLINK id="TL30" fromID="E22" fromText="increasingly disoriented" toID="E21" toText="his seizures" type="OVERLAP" />
+<TLINK id="TL31" fromID="E22" fromText="increasingly disoriented" toID="E23" toText="forgetful" type="OVERLAP" />
+<TLINK id="TL32" fromID="E23" fromText="forgetful" toID="E24" toText="headaches" type="OVERLAP" />
+<TLINK id="TL33" fromID="E25" fromText="a repeat total resection" toID="E26" toText="Hallmark Health System" type="OVERLAP" />
+<TLINK id="TL34" fromID="E28" fromText="anaplastic oligodendroglioma grade III" toID="E25" toText="a repeat total resection" type="BEFORE" />
+<TLINK id="TL35" fromID="E16" fromText="gross total resection" toID="E25" toText="a repeat total resection" type="BEFORE" />
+<TLINK id="TL36" fromID="E25" fromText="a repeat total resection" toID="T12" toText="4/04" type="OVERLAP" />
+<TLINK id="TL37" fromID="E27" fromText="which" toID="E25" toText="a repeat total resection" type="OVERLAP" />
+<TLINK id="TL39" fromID="E27" fromText="which" toID="E29" toText="revealed" type="BEFORE" />
+<TLINK id="TL4" fromID="E3" fromText="craniotomies" toID="T3" toText="x 3" type="OVERLAP" />
+<TLINK id="TL40" fromID="E28" fromText="anaplastic oligodendroglioma grade III" toID="E29" toText="revealed" type="BEFORE" />
+<TLINK id="TL41" fromID="E18" fromText="a low-grade oligodendroglioma" toID="E28" toText="anaplastic oligodendroglioma grade III" type="OVERLAP" />
+<TLINK id="TL42" fromID="E30" fromText="radiation" toID="E31" toText="the resection" type="AFTER" />
+<TLINK id="TL43" fromID="E31" fromText="the resection" toID="E25" toText="a repeat total resection" type="OVERLAP" />
+<TLINK id="TL44" fromID="E32" fromText="doing well" toID="T14" toText="2012-04-23" type="BEFORE" />
+<TLINK id="TL45" fromID="E30" fromText="radiation" toID="E32" toText="doing well" type="AFTER" />
+<TLINK id="TL46" fromID="E32" fromText="doing well" toID="E33" toText="monthly Temodar" type="OVERLAP" />
+<TLINK id="TL47" fromID="E34" fromText="a marked change in behavior" toID="T14" toText="2012-04-23" type="AFTER" />
+<TLINK id="TL48" fromID="E35" fromText="his balance was off" toID="E34" toText="a marked change in behavior" type="OVERLAP" />
+<TLINK id="TL49" fromID="E35" fromText="his balance was off" toID="E36" toText="speech slurred" type="OVERLAP" />
+<TLINK id="TL5" fromID="E3" fromText="craniotomies" toID="T4" toText="05-05" type="OVERLAP" />
+<TLINK id="TL50" fromID="E36" fromText="speech slurred" toID="E37" toText="difficulty using the computer" type="OVERLAP" />
+<TLINK id="TL51" fromID="E38" fromText="A head MRI" toID="T15" toText="2012-04-24" type="OVERLAP" />
+<TLINK id="TL52" fromID="E38" fromText="A head MRI" toID="T14" toText="2012-04-23" type="AFTER" />
+<TLINK id="TL53" fromID="E39" fromText="increasing tumor infiltration" toID="E38" toText="A head MRI" type="BEFORE" />
+<TLINK id="TL54" fromID="E41" fromText="increased edema" toID="E39" toText="increasing tumor infiltration" type="OVERLAP" />
+<TLINK id="TL55" fromID="E41" fromText="increased edema" toID="E42" toText="mass effect" type="OVERLAP" />
+<TLINK id="TL56" fromID="E43" fromText="a right craniotomy" toID="T16" toText="2012-05-02" type="OVERLAP" />
+<TLINK id="TL57" fromID="E43" fromText="a right craniotomy" toID="E44" toText="resection" type="OVERLAP" />
+<TLINK id="TL58" fromID="E44" fromText="resection" toID="E45" toText="gliadel wafers" type="OVERLAP" />
+<TLINK id="TL59" fromID="T16" fromText="2012-05-02" toID="E46" toText="Hallmark Health System" type="OVERLAP" />
+<TLINK id="TL6" fromID="E2" fromText="seizure history" toID="E5" toText="generalized tonic - clonic seizures" type="OVERLAP" />
+<TLINK id="TL60" fromID="E43" fromText="a right craniotomy" toID="E48" toText="neurosurgery" type="AFTER" />
+<TLINK id="TL61" fromID="E49" fromText="follow up" toID="T17" toText="05-21" type="OVERLAP" />
+<TLINK id="TL62" fromID="E49" fromText="follow up" toID="E48" toText="neurosurgery" type="OVERLAP" />
+<TLINK id="TL63" fromID="T17" fromText="05-21" toID="E50" toText="clear fluid leaking" type="BEFORE" />
+<TLINK id="TL64" fromID="E51" fromText="his incision" toID="E60" toText="his incision" type="OVERLAP" />
+<TLINK id="TL65" fromID="E51" fromText="his incision" toID="E50" toText="clear fluid leaking" type="BEFORE" />
+<TLINK id="TL66" fromID="E51" fromText="his incision" toID="E52" toText="frontal headache" type="OVERLAP" />
+<TLINK id="TL67" fromID="E52" fromText="frontal headache" toID="E53" toText="imbalance" type="OVERLAP" />
+<TLINK id="TL68" fromID="E53" fromText="imbalance" toID="E54" toText="bumping into things with his left leg" type="OVERLAP" />
+<TLINK id="TL69" fromID="E55" fromText="worsening tremors" toID="E54" toText="bumping into things with his left leg" type="OVERLAP" />
+<TLINK id="TL7" fromID="E5" fromText="generalized tonic - clonic seizures" toID="T5" toText="1988" type="AFTER" />
+<TLINK id="TL70" fromID="E56" fromText="admitted" toID="E58" toText="admitted" type="OVERLAP" />
+<TLINK id="TL71" fromID="E56" fromText="admitted" toID="E57" toText="Lumbar drain placement" type="BEFORE" />
+<TLINK id="TL72" fromID="E56" fromText="admitted" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL73" fromID="E58" fromText="admitted" toID="T18" toText="2012-05-24" type="OVERLAP" />
+<TLINK id="TL74" fromID="E59" fromText="drainage" toID="E58" toText="admitted" type="BEFORE" />
+<TLINK id="TL75" fromID="E50" fromText="clear fluid leaking" toID="E59" toText="drainage" type="OVERLAP" />
+<TLINK id="TL76" fromID="E59" fromText="drainage" toID="T19" toText="the last couple of days" type="OVERLAP" />
+<TLINK id="TL77" fromID="E60" fromText="his incision" toID="E59" toText="drainage" type="BEFORE" />
+<TLINK id="TL78" fromID="E61" fromText="the brain tumor clinic" toID="T20" toText="05-21" type="OVERLAP" />
+<TLINK id="TL79" fromID="E61" fromText="the brain tumor clinic" toID="E48" toText="neurosurgery" type="OVERLAP" />
+<TLINK id="TL8" fromID="T6" fromText="the time" toID="T5" toText="1988" type="OVERLAP" />
+<TLINK id="TL80" fromID="E63" fromText="the incision" toID="E62" toText="stitches" type="BEFORE" />
+<TLINK id="TL81" fromID="E65" fromText="leak" toID="E62" toText="stitches" type="BEFORE" />
+<TLINK id="TL82" fromID="T20" fromText="05-21" toID="E62" toText="stitches" type="OVERLAP" />
+<TLINK id="TL83" fromID="E63" fromText="the incision" toID="E64" toText="it" type="OVERLAP" />
+<TLINK id="TL84" fromID="E66" fromText="a lumbar drain" toID="E57" toText="Lumbar drain placement" type="OVERLAP" />
+<TLINK id="TL85" fromID="E68" fromText="abd pain" toID="E67" toText="c/o" type="BEFORE" />
+<TLINK id="TL86" fromID="E68" fromText="abd pain" toID="E69" toText="distension" type="OVERLAP" />
+<TLINK id="TL87" fromID="E70" fromText="a kub" toID="T21" toText="05-25" type="OVERLAP" />
+<TLINK id="TL88" fromID="E69" fromText="distension" toID="T21" toText="05-25" type="BEFORE" />
+<TLINK id="TL89" fromID="E70" fromText="a kub" toID="E71" toText="which" type="OVERLAP" />
+<TLINK id="TL9" fromID="T5" fromText="1988" toID="T2" toText="1988" type="OVERLAP" />
+<TLINK id="TL90" fromID="T22" fromText="05-26" toID="E72" toText="c/o" type="OVERLAP" />
+<TLINK id="TL91" fromID="E73" fromText="epigastric pain" toID="E72" toText="c/o" type="BEFORE" />
+<TLINK id="TL92" fromID="E74" fromText="a chest x-ray" toID="T22" toText="05-26" type="OVERLAP" />
+<TLINK id="TL93" fromID="E74" fromText="a chest x-ray" toID="E72" toText="c/o" type="AFTER" />
+<TLINK id="TL94" fromID="E75" fromText="decreased lung sounds" toID="E74" toText="a chest x-ray" type="BEFORE" />
+<TLINK id="TL95" fromID="E76" fromText="The Chest x-ray" toID="E74" toText="a chest x-ray" type="OVERLAP" />
+<TLINK id="TL96" fromID="E76" fromText="The Chest x-ray" toID="E77" toText="showed" type="BEFORE" />
+<TLINK id="TL97" fromID="E78" fromText="free air" toID="E76" toText="The Chest x-ray" type="BEFORE" />
+<TLINK id="TL98" fromID="E79" fromText="general surgery" toID="E80" toText="consulted" type="OVERLAP" />
+<TLINK id="TL99" fromID="E80" fromText="consulted" toID="E76" toText="The Chest x-ray" type="AFTER" />
+<SECTIME id="S0" start="18" end="28" text="2012-05-24" type="ADMISSION" dvalue="2012-05-24" />
+<SECTIME id="S1" start="46" end="56" text="2012-06-19" type="DISCHARGE" dvalue="2012-06-19" />
+<TLINK id="SECTIME0" fromID="E26" fromText="Hallmark Health System" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E27" fromText="which" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E29" fromText="revealed" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E28" fromText="anaplastic oligodendroglioma grade III" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E30" fromText="radiation" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E31" fromText="the resection" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E32" fromText="doing well" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E33" fromText="monthly Temodar" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E34" fromText="a marked change in behavior" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E35" fromText="his balance was off" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E36" fromText="speech slurred" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E37" fromText="difficulty using the computer" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E38" fromText="A head MRI" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E2" fromText="seizure history" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E40" fromText="revealed" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E39" fromText="increasing tumor infiltration" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E41" fromText="increased edema" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E42" fromText="mass effect" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E43" fromText="a right craniotomy" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E44" fromText="resection" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E45" fromText="gliadel wafers" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E46" fromText="Hallmark Health System" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E48" fromText="neurosurgery" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E49" fromText="follow up" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E50" fromText="clear fluid leaking" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E51" fromText="his incision" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E52" fromText="frontal headache" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E3" fromText="craniotomies" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E53" fromText="imbalance" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E54" fromText="bumping into things with his left leg" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E55" fromText="worsening tremors" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E56" fromText="admitted" toID="T0" toText="2012-05-24" type="OVERLAP" />
+<TLINK id="SECTIME32" fromID="E57" fromText="Lumbar drain placement" toID="T0" toText="2012-05-24" type="AFTER" />
+<TLINK id="SECTIME33" fromID="E58" fromText="admitted" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E59" fromText="drainage" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E60" fromText="his incision" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E61" fromText="the brain tumor clinic" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E62" fromText="stitches" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E63" fromText="the incision" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E64" fromText="it" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E65" fromText="leak" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E66" fromText="a lumbar drain" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E67" fromText="c/o" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E68" fromText="abd pain" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E69" fromText="distension" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E4" fromText="oligodendroglioma" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E70" fromText="a kub" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E71" fromText="which" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E72" fromText="c/o" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E73" fromText="epigastric pain" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E74" fromText="a chest x-ray" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E75" fromText="decreased lung sounds" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E76" fromText="The Chest x-ray" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E77" fromText="showed" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E78" fromText="free air" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E79" fromText="general surgery" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E80" fromText="consulted" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E81" fromText="the OR" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E82" fromText="exploratory laproratomy" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E83" fromText="found" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E84" fromText="a perforated sigmoid diverticulum" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E85" fromText="a colostomy" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E86" fromText="partial colectomy" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E87" fromText="recovered well" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E88" fromText="colocetomy" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E89" fromText="found" toID="T1" toText="2012-06-19" type="AFTER" />
+<TLINK id="SECTIME66" fromID="E90" fromText="an abd abcess" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E91" fromText="which" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E5" fromText="generalized tonic - clonic seizures" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E92" fromText="drained" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E93" fromText="CT guidance" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E94" fromText="his lumbar drain" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E147" fromText="pulled out" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E95" fromText="it" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E96" fromText="replaced" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E97" fromText="his head incision" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E98" fromText="leak" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E99" fromText="the OR" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E100" fromText="debridement" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E101" fromText="his head wound" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E102" fromText="removal" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E103" fromText="the remaining gliadel waffers" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E105" fromText="tolerated" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E104" fromText="the procedure" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E106" fromText="a grand mal seizure" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E107" fromText="intubated" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E108" fromText="the ICU" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E109" fromText="ID" toID="T1" toText="2012-06-19" type="AFTER" />
+<TLINK id="SECTIME88" fromID="E110" fromText="the abd abcess" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E111" fromText="meningitis" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E112" fromText="the large amount of wbc" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E113" fromText="the csf cultures" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E114" fromText="vancomycin" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E115" fromText="zosyn" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E116" fromText="antibiotics" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E117" fromText="he slowly woke up" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E118" fromText="the seizures" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E119" fromText="extubated" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E120" fromText="transfered" toID="T1" toText="2012-06-19" type="AFTER" />
+<TLINK id="SECTIME99" fromID="E121" fromText="the step down unit" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E122" fromText="his lumbar drain" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E123" fromText="weaned" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E124" fromText="The lumbar drain" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E125" fromText="d/ced" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E126" fromText="a head Ct" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E127" fromText="which" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E128" fromText="stable" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E129" fromText="head wound" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E130" fromText="dry" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E131" fromText="awake and alert and oriented x 3" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E6" fromText="asthma medications" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E132" fromText="follows commands" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E133" fromText="ambulating" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E134" fromText="PT" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME114" fromID="E135" fromText="OT" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E136" fromText="rehab" toID="T1" toText="2012-06-19" type="AFTER" />
+<TLINK id="SECTIME116" fromID="E137" fromText="follow up" toID="T1" toText="2012-06-19" type="AFTER" />
+<TLINK id="SECTIME117" fromID="E138" fromText="the general surgeon" toID="T1" toText="2012-06-19" type="AFTER" />
+<TLINK id="SECTIME118" fromID="E139" fromText="follow up" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME119" fromID="E140" fromText="the brain tumor clinic" toID="T1" toText="2012-06-19" type="AFTER" />
+<TLINK id="SECTIME120" fromID="E141" fromText="stitch removal" toID="T1" toText="2012-06-19" type="AFTER" />
+<TLINK id="SECTIME121" fromID="E142" fromText="oral CIpro" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME122" fromID="E143" fromText="the pelvic abcess" toID="T1" toText="2012-06-19" type="BEFORE" />
+<TLINK id="SECTIME123" fromID="E144" fromText="it" toID="T1" toText="2012-06-19" type="AFTER" />
+<TLINK id="SECTIME124" fromID="E7" fromText="his head CT" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME125" fromID="E145" fromText="his followup" toID="T1" toText="2012-06-19" type="AFTER" />
+<TLINK id="SECTIME126" fromID="E146" fromText="infectious disease" toID="T1" toText="2012-06-19" type="AFTER" />
+<TLINK id="SECTIME127" fromID="E8" fromText="Dilantin" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME128" fromID="E9" fromText="Phenobarbital" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME129" fromID="E10" fromText="left arm focal motor seizures" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME130" fromID="E11" fromText="problems thinking" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME131" fromID="E12" fromText="his medication" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME132" fromID="E13" fromText="a generalized tonic - clonic seizure" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME133" fromID="E14" fromText="biopsy" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME134" fromID="E15" fromText="oligodendroglioma" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME135" fromID="E16" fromText="gross total resection" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME136" fromID="E18" fromText="a low-grade oligodendroglioma" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME137" fromID="E19" fromText="serial MRI 's." toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME138" fromID="E20" fromText="more ativan" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME139" fromID="E21" fromText="his seizures" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME140" fromID="E22" fromText="increasingly disoriented" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME141" fromID="E23" fromText="forgetful" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME142" fromID="E24" fromText="headaches" toID="T0" toText="2012-05-24" type="BEFORE" />
+<TLINK id="SECTIME143" fromID="E25" fromText="a repeat total resection" toID="T0" toText="2012-05-24" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

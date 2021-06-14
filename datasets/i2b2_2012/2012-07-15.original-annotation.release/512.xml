@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2019-02-28
+Discharge Date :
+2019-03-26
+Service :
+CARDIOTHORACIC
+History of Present Illness :
+Mr. Pizano is a 75 y/o man who has a PMHx significant for Enterococcus mitral valve endocarditis which has been treated since 09-19 .
+He has had 2 6 week courses of antibiotics with recurrent bacteremia .
+He had a TEE on 2019-01-22 which revealed thickened mitral leaflets with small vegetations on both anterior and posterior leaflets with moderate to severe mitral regurgitation .
+He has preserved LV systolic function with mild TR and AR and LAE without abscess .
+He had a repeat TEE on 02-19 which revealed 4 + MR .
+Thomasine was tranferred from MWMC ( where he was admitted on 02-15 with fevers and positive blood cultures ) to IDMC for further treatment and possibly MVR .
+Brief Hospital Course :
+As mentioned in the HPI , Mr. Mcculley was transferred from MWMC to Nantucket Cottage Hospital for ongoing care ( ? MVR ).
+And Infectious disease consult was immediately made .
+IV Daptomycin was continued via PICC line which was inserted on 02-20 at MWMC .
+Mr Stutts had an extensive preop evaluation including cardiology , infectious diseases , orthopedics , psychiatry and ethics services .
+He ultimately was brought to the operating room on 03-19 .
+At that time he had a Mitral Valve replacement , aortoomy , and left atrial appendage resection .
+His bypass time was 103 minutes / crossclamp 89 mins .
+Please see OR report for full details .
+He tolerated the surgery well and was transferred from the OR to the CSRU on Epinephrinne and Propofol infusions .
+He did well in immediate postoperative period .
+Following surgery his anesthesia was reversed , he was weaned from ventilator and successfully extubated .
+His iv medications were also weaned to off .
+On POD1 His PA line and chest tubes were removed , he was also started on Beta blockers and diuretics .
+On POD2 the patient remained hemodynamically stable and was transferred from the ICU to F2 for continued postop care .
+Over the next several days with the assisstance of the nursing staff and physical therapy the patients activity level was advanced , he was transitioned to all oral medications with the exception of his antibiotics .
+On POD7 it was decided that the pt was stable and ready for discharge to rehabilitation .
+It should be noted that the patient did have episodes of postoperative atrial fibrillation , he was seen by the
+Electrophysiology service , started on Procainamide and Coumadin .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="1023" end="1032" text="PICC line" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1064" end="1068" text="MWMC" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E35" start="1085" end="1114" text="an extensive preop evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="1125" end="1135" text="cardiology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E37" start="1138" end="1157" text="infectious diseases" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E38" start="1160" end="1171" text="orthopedics" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E40" start="1174" end="1184" text="psychiatry" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E41" start="1189" end="1204" text="ethics services" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E42" start="1236" end="1254" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E43" start="1286" end="1312" text="a Mitral Valve replacement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1315" end="1323" text="aortoomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1330" end="1361" text="left atrial appendage resection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1364" end="1374" text="His bypass" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1398" end="1408" text="crossclamp" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="1430" end="1439" text="OR report" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E50" start="1472" end="1483" text="the surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="1497" end="1508" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="1514" end="1520" text="the OR" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E53" start="1524" end="1532" text="the CSRU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E54" start="1536" end="1548" text="Epinephrinne" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="1553" end="1571" text="Propofol infusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="1632" end="1639" text="surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="1640" end="1654" text="his anesthesia" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="1659" end="1667" text="reversed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="1677" end="1683" text="weaned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="169" end="207" text="Enterococcus mitral valve endocarditis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="1689" end="1699" text="ventilator" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="1717" end="1726" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="1729" end="1747" text="His iv medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="1758" end="1771" text="weaned to off" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="1782" end="1793" text="His PA line" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E65" start="1798" end="1809" text="chest tubes" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E66" start="1848" end="1861" text="Beta blockers" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E67" start="1866" end="1875" text="diuretics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E68" start="1907" end="1929" text="hemodynamically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="1938" end="1949" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="1955" end="1962" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E71" start="1966" end="1968" text="F2" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E72" start="1983" end="1994" text="postop care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E73" start="2100" end="2127" text="activity level was advanced" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E74" start="2137" end="2149" text="transitioned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E75" start="2153" end="2173" text="all oral medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="2196" end="2211" text="his antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="223" end="230" text="treated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="2274" end="2283" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="2361" end="2394" text="postoperative atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="2416" end="2441" text="Electrophysiology service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E80" start="2455" end="2467" text="Procainamide" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="2472" end="2480" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="276" end="287" text="antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="293" end="313" text="recurrent bacteremia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="323" end="328" text="a TEE" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="349" end="357" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E8" start="358" end="383" text="thickened mitral leaflets" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="389" end="446" text="small vegetations on both anterior and posterior leaflets" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="452" end="491" text="moderate to severe mitral regurgitation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="501" end="531" text="preserved LV systolic function" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="537" end="544" text="mild TR" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="549" end="551" text="AR" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="556" end="559" text="LAE" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="568" end="575" text="abscess" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E16" start="585" end="597" text="a repeat TEE" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="613" end="621" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E18" start="622" end="628" text="4 + MR" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="645" end="655" text="tranferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="661" end="665" text="MWMC" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E21" start="681" end="689" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="704" end="710" text="fevers" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="715" end="738" text="positive blood cultures" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="744" end="748" text="IDMC" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E25" start="753" end="770" text="further treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="784" end="787" text="MVR" modality="POSSIBLE" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="857" end="868" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="874" end="878" text="MWMC" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E29" start="882" end="908" text="Nantucket Cottage Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E30" start="930" end="933" text="MVR" modality="POSSIBLE" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="941" end="967" text="Infectious disease consult" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="991" end="1004" text="IV Daptomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T7" start="1055" end="1060" text="02-20" type="DATE" val="2019-02-20" mod="NA" />
+<TIMEX3 id="T8" start="1258" end="1263" text="03-19" type="DATE" val="2019-03-19" mod="NA" />
+<TIMEX3 id="T9" start="1269" end="1278" text="that time" type="DATE" val="2019-03-19" mod="NA" />
+<TIMEX3 id="T10" start="1384" end="1395" text="103 minutes" type="DURATION" val="PT103M" mod="NA" />
+<TIMEX3 id="T11" start="1409" end="1416" text="89 mins" type="DURATION" val="PT89M" mod="NA" />
+<TIMEX3 id="T12" start="1777" end="1781" text="POD1" type="DATE" val="2019-03-20" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2019-02-28" type="DATE" val="2019-02-28" mod="NA" />
+<TIMEX3 id="T13" start="1881" end="1885" text="POD2" type="DATE" val="2019-03-21" mod="NA" />
+<TIMEX3 id="T14" start="2011" end="2023" text="several days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T15" start="2217" end="2221" text="POD7" type="DATE" val="2019-03-26" mod="NA" />
+<TIMEX3 id="T4" start="237" end="242" text="09-19" type="DATE" val="2018-09-19" mod="NA" />
+<TIMEX3 id="T2" start="256" end="264" text="2 6 week" type="FREQUENCY" val="R2P6W" mod="NA" />
+<TIMEX3 id="T3" start="332" end="342" text="2019-01-22" type="DATE" val="2019-01-22" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2019-03-26" type="DATE" val="2019-03-26" mod="NA" />
+<TIMEX3 id="T5" start="601" end="606" text="02-19" type="DATE" val="2019-02-19" mod="NA" />
+<TIMEX3 id="T6" start="693" end="698" text="02-15" type="DATE" val="2019-02-15" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2019-02-28" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E29" fromText="Nantucket Cottage Hospital" toID="E0" toText="Admission" type="BEGUN_BY" />
+<TLINK id="TL10" fromID="E6" fromText="a TEE" toID="T3" toText="2019-01-22" type="SIMULTANEOUS" />
+<TLINK id="TL11" fromID="E6" fromText="a TEE" toID="E7" toText="revealed" type="SIMULTANEOUS" />
+<TLINK id="TL12" fromID="E8" fromText="thickened mitral leaflets" toID="E6" toText="a TEE" type="BEFORE_OVERLAP" />
+<TLINK id="TL13" fromID="E9" fromText="small vegetations on both anterior and posterior leaflets" toID="E8" toText="thickened mitral leaflets" type="SIMULTANEOUS" />
+<TLINK id="TL14" fromID="E10" fromText="moderate to severe mitral regurgitation" toID="E9" toText="small vegetations on both anterior and posterior leaflets" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E11" fromText="preserved LV systolic function" toID="E12" toText="mild TR" type="OVERLAP" />
+<TLINK id="TL16" fromID="E12" fromText="mild TR" toID="E13" toText="AR" type="OVERLAP" />
+<TLINK id="TL17" fromID="E13" fromText="AR" toID="E14" toText="LAE" type="OVERLAP" />
+<TLINK id="TL18" fromID="E14" fromText="LAE" toID="E15" toText="abscess" type="OVERLAP" />
+<TLINK id="TL19" fromID="E16" fromText="a repeat TEE" toID="T5" toText="02-19" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="E2" fromText="Enterococcus mitral valve endocarditis" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL20" fromID="E16" fromText="a repeat TEE" toID="E17" toText="revealed" type="SIMULTANEOUS" />
+<TLINK id="TL21" fromID="E6" fromText="a TEE" toID="E16" toText="a repeat TEE" type="BEFORE" />
+<TLINK id="TL22" fromID="E18" fromText="4 + MR" toID="E16" toText="a repeat TEE" type="BEFORE_OVERLAP" />
+<TLINK id="TL23" fromID="E20" fromText="MWMC" toID="E19" toText="tranferred" type="ENDED_BY" />
+<TLINK id="TL24" fromID="E24" fromText="IDMC" toID="E19" toText="tranferred" type="BEGUN_BY" />
+<TLINK id="TL25" fromID="E29" fromText="Nantucket Cottage Hospital" toID="E24" toText="IDMC" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="E20" fromText="MWMC" toID="E21" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL27" fromID="E21" fromText="admitted" toID="T6" toText="02-15" type="SIMULTANEOUS" />
+<TLINK id="TL28" fromID="E21" fromText="admitted" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL29" fromID="E22" fromText="fevers" toID="E21" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL3" fromID="E1" fromText="Discharge" toID="T1" toText="2019-03-26" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E23" fromText="positive blood cultures" toID="E22" toText="fevers" type="OVERLAP" />
+<TLINK id="TL31" fromID="E25" fromText="further treatment" toID="E24" toText="IDMC" type="BEGUN_BY" />
+<TLINK id="TL32" fromID="E25" fromText="further treatment" toID="E26" toText="MVR" type="OVERLAP" />
+<TLINK id="TL33" fromID="E30" fromText="MVR" toID="E26" toText="MVR" type="SIMULTANEOUS" />
+<TLINK id="TL34" fromID="E19" fromText="tranferred" toID="E27" toText="transferred" type="SIMULTANEOUS" />
+<TLINK id="TL35" fromID="E20" fromText="MWMC" toID="E28" toText="MWMC" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="E31" fromText="Infectious disease consult" toID="E29" toText="Nantucket Cottage Hospital" type="DURING" />
+<TLINK id="TL37" fromID="E32" fromText="IV Daptomycin" toID="E33" toText="PICC line" type="OVERLAP" />
+<TLINK id="TL38" fromID="E31" fromText="Infectious disease consult" toID="E32" toText="IV Daptomycin" type="BEFORE_OVERLAP" />
+<TLINK id="TL39" fromID="E33" fromText="PICC line" toID="T7" toText="02-20" type="BEGUN_BY" />
+<TLINK id="TL4" fromID="E77" fromText="discharge" toID="E1" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="T7" fromText="02-20" toID="E34" toText="MWMC" type="DURING" />
+<TLINK id="TL41" fromID="E35" fromText="an extensive preop evaluation" toID="E29" toText="Nantucket Cottage Hospital" type="DURING" />
+<TLINK id="TL42" fromID="E35" fromText="an extensive preop evaluation" toID="E42" toText="the operating room" type="BEFORE" />
+<TLINK id="TL43" fromID="E36" fromText="cardiology" toID="E35" toText="an extensive preop evaluation" type="SIMULTANEOUS" />
+<TLINK id="TL44" fromID="E37" fromText="infectious diseases" toID="E36" toText="cardiology" type="SIMULTANEOUS" />
+<TLINK id="TL45" fromID="E38" fromText="orthopedics" toID="E37" toText="infectious diseases" type="SIMULTANEOUS" />
+<TLINK id="TL46" fromID="E40" fromText="psychiatry" toID="E38" toText="orthopedics" type="SIMULTANEOUS" />
+<TLINK id="TL47" fromID="E41" fromText="ethics services" toID="E40" toText="psychiatry" type="SIMULTANEOUS" />
+<TLINK id="TL48" fromID="E42" fromText="the operating room" toID="T8" toText="03-19" type="SIMULTANEOUS" />
+<TLINK id="TL49" fromID="T9" fromText="that time" toID="T8" toText="03-19" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E2" fromText="Enterococcus mitral valve endocarditis" toID="E3" toText="treated" type="BEFORE_OVERLAP" />
+<TLINK id="TL50" fromID="E43" fromText="a Mitral Valve replacement" toID="T9" toText="that time" type="SIMULTANEOUS" />
+<TLINK id="TL51" fromID="E43" fromText="a Mitral Valve replacement" toID="E44" toText="aortoomy" type="SIMULTANEOUS" />
+<TLINK id="TL52" fromID="E44" fromText="aortoomy" toID="E45" toText="left atrial appendage resection" type="SIMULTANEOUS" />
+<TLINK id="TL53" fromID="E46" fromText="His bypass" toID="E42" toText="the operating room" type="DURING" />
+<TLINK id="TL54" fromID="E46" fromText="His bypass" toID="T10" toText="103 minutes" type="DURING" />
+<TLINK id="TL55" fromID="E46" fromText="His bypass" toID="E47" toText="crossclamp" type="SIMULTANEOUS" />
+<TLINK id="TL56" fromID="E47" fromText="crossclamp" toID="T11" toText="89 mins" type="DURING" />
+<TLINK id="TL57" fromID="E49" fromText="OR report" toID="E42" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL58" fromID="E52" fromText="the OR" toID="E49" toText="OR report" type="OVERLAP" />
+<TLINK id="TL59" fromID="E42" fromText="the operating room" toID="E49" toText="OR report" type="AFTER" />
+<TLINK id="TL6" fromID="T2" fromText="2 6 week" toID="T2" toText="2 6 week" type="OVERLAP" />
+<TLINK id="TL60" fromID="E50" fromText="the surgery" toID="E49" toText="OR report" type="OVERLAP" />
+<TLINK id="TL61" fromID="E50" fromText="the surgery" toID="E43" toText="a Mitral Valve replacement" type="SIMULTANEOUS" />
+<TLINK id="TL62" fromID="E56" fromText="surgery" toID="E50" toText="the surgery" type="SIMULTANEOUS" />
+<TLINK id="TL63" fromID="E78" fromText="postoperative atrial fibrillation" toID="E50" toText="the surgery" type="AFTER" />
+<TLINK id="TL64" fromID="E52" fromText="the OR" toID="E51" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL65" fromID="E53" fromText="the CSRU" toID="E51" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL66" fromID="E54" fromText="Epinephrinne" toID="E51" toText="transferred" type="BEFORE_OVERLAP" />
+<TLINK id="TL67" fromID="E54" fromText="Epinephrinne" toID="E55" toText="Propofol infusions" type="OVERLAP" />
+<TLINK id="TL68" fromID="E57" fromText="his anesthesia" toID="E58" toText="reversed" type="ENDED_BY" />
+<TLINK id="TL69" fromID="E58" fromText="reversed" toID="E56" toText="surgery" type="AFTER" />
+<TLINK id="TL7" fromID="E4" fromText="antibiotics" toID="T2" toText="2 6 week" type="OVERLAP" />
+<TLINK id="TL70" fromID="E58" fromText="reversed" toID="E59" toText="weaned" type="BEFORE" />
+<TLINK id="TL71" fromID="E60" fromText="ventilator" toID="E59" toText="weaned" type="ENDED_BY" />
+<TLINK id="TL72" fromID="E61" fromText="extubated" toID="E59" toText="weaned" type="AFTER" />
+<TLINK id="TL73" fromID="E62" fromText="His iv medications" toID="E63" toText="weaned to off" type="ENDED_BY" />
+<TLINK id="TL74" fromID="E62" fromText="His iv medications" toID="E32" toText="IV Daptomycin" type="SIMULTANEOUS" />
+<TLINK id="TL75" fromID="T12" fromText="POD1" toID="E53" toText="the CSRU" type="DURING" />
+<TLINK id="TL76" fromID="E64" fromText="His PA line" toID="T12" toText="POD1" type="ENDED_BY" />
+<TLINK id="TL77" fromID="E64" fromText="His PA line" toID="E65" toText="chest tubes" type="OVERLAP" />
+<TLINK id="TL78" fromID="E66" fromText="Beta blockers" toID="T12" toText="POD1" type="BEGUN_BY" />
+<TLINK id="TL79" fromID="E67" fromText="diuretics" toID="E66" toText="Beta blockers" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E4" fromText="antibiotics" toID="E5" toText="recurrent bacteremia" type="OVERLAP" />
+<TLINK id="TL80" fromID="T13" fromText="POD2" toID="T12" toText="POD1" type="AFTER" />
+<TLINK id="TL81" fromID="E68" fromText="hemodynamically stable" toID="T13" toText="POD2" type="BEFORE_OVERLAP" />
+<TLINK id="TL82" fromID="E69" fromText="transferred" toID="T13" toText="POD2" type="SIMULTANEOUS" />
+<TLINK id="TL83" fromID="E70" fromText="the ICU" toID="E69" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL84" fromID="E71" fromText="F2" toID="E69" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL85" fromID="E72" fromText="postop care" toID="E71" toText="F2" type="BEFORE_OVERLAP" />
+<TLINK id="TL86" fromID="T14" fromText="several days" toID="E69" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL87" fromID="E73" fromText="activity level was advanced" toID="T14" toText="several days" type="DURING" />
+<TLINK id="TL88" fromID="E73" fromText="activity level was advanced" toID="E74" toText="transitioned" type="OVERLAP" />
+<TLINK id="TL89" fromID="E75" fromText="all oral medications" toID="E74" toText="transitioned" type="BEGUN_BY" />
+<TLINK id="TL9" fromID="E3" fromText="treated" toID="T4" toText="09-19" type="BEGUN_BY" />
+<TLINK id="TL90" fromID="E76" fromText="his antibiotics" toID="E75" toText="all oral medications" type="OVERLAP" />
+<TLINK id="TL91" fromID="T15" fromText="POD7" toID="E77" toText="discharge" type="SIMULTANEOUS" />
+<TLINK id="TL92" fromID="T15" fromText="POD7" toID="T13" toText="POD2" type="AFTER" />
+<TLINK id="TL94" fromID="E78" fromText="postoperative atrial fibrillation" toID="E79" toText="Electrophysiology service" type="BEFORE_OVERLAP" />
+<TLINK id="TL95" fromID="E80" fromText="Procainamide" toID="E79" toText="Electrophysiology service" type="BEGUN_BY" />
+<TLINK id="TL96" fromID="E80" fromText="Procainamide" toID="E81" toText="Coumadin" type="SIMULTANEOUS" />
+<SECTIME id="S0" start="18" end="28" text="2019-02-28" type="ADMISSION" dvalue="2019-02-28" />
+<SECTIME id="S1" start="46" end="56" text="2019-03-26" type="DISCHARGE" dvalue="2019-03-26" />
+<TLINK id="SECTIME0" fromID="E33" fromText="PICC line" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E34" fromText="MWMC" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E35" fromText="an extensive preop evaluation" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E36" fromText="cardiology" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E37" fromText="infectious diseases" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E38" fromText="orthopedics" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E40" fromText="psychiatry" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E41" fromText="ethics services" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E42" fromText="the operating room" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E43" fromText="a Mitral Valve replacement" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E44" fromText="aortoomy" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E45" fromText="left atrial appendage resection" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E46" fromText="His bypass" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E47" fromText="crossclamp" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E49" fromText="OR report" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E50" fromText="the surgery" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E51" fromText="transferred" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E52" fromText="the OR" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E53" fromText="the CSRU" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E54" fromText="Epinephrinne" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E55" fromText="Propofol infusions" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E56" fromText="surgery" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E57" fromText="his anesthesia" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E58" fromText="reversed" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E59" fromText="weaned" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E2" fromText="Enterococcus mitral valve endocarditis" toID="T0" toText="2019-02-28" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E60" fromText="ventilator" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E61" fromText="extubated" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E62" fromText="His iv medications" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E63" fromText="weaned to off" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E64" fromText="His PA line" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E65" fromText="chest tubes" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E66" fromText="Beta blockers" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E67" fromText="diuretics" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E68" fromText="hemodynamically stable" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E69" fromText="transferred" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E70" fromText="the ICU" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E71" fromText="F2" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E72" fromText="postop care" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E73" fromText="activity level was advanced" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E74" fromText="transitioned" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E75" fromText="all oral medications" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E76" fromText="his antibiotics" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E3" fromText="treated" toID="T0" toText="2019-02-28" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E77" fromText="discharge" toID="T1" toText="2019-03-26" type="OVERLAP" />
+<TLINK id="SECTIME45" fromID="E78" fromText="postoperative atrial fibrillation" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E79" fromText="Electrophysiology service" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E80" fromText="Procainamide" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E81" fromText="Coumadin" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E4" fromText="antibiotics" toID="T0" toText="2019-02-28" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E5" fromText="recurrent bacteremia" toID="T0" toText="2019-02-28" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E6" fromText="a TEE" toID="T0" toText="2019-02-28" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E7" fromText="revealed" toID="T0" toText="2019-02-28" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E8" fromText="thickened mitral leaflets" toID="T0" toText="2019-02-28" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E9" fromText="small vegetations on both anterior and posterior leaflets" toID="T0" toText="2019-02-28" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E10" fromText="moderate to severe mitral regurgitation" toID="T0" toText="2019-02-28" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E11" fromText="preserved LV systolic function" toID="T0" toText="2019-02-28" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E12" fromText="mild TR" toID="T0" toText="2019-02-28" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E13" fromText="AR" toID="T0" toText="2019-02-28" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E14" fromText="LAE" toID="T0" toText="2019-02-28" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E15" fromText="abscess" toID="T0" toText="2019-02-28" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E16" fromText="a repeat TEE" toID="T0" toText="2019-02-28" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E17" fromText="revealed" toID="T0" toText="2019-02-28" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E18" fromText="4 + MR" toID="T0" toText="2019-02-28" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E19" fromText="tranferred" toID="T0" toText="2019-02-28" type="OVERLAP" />
+<TLINK id="SECTIME65" fromID="E20" fromText="MWMC" toID="T0" toText="2019-02-28" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E21" fromText="admitted" toID="T0" toText="2019-02-28" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E22" fromText="fevers" toID="T0" toText="2019-02-28" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E23" fromText="positive blood cultures" toID="T0" toText="2019-02-28" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E24" fromText="IDMC" toID="T0" toText="2019-02-28" type="OVERLAP" />
+<TLINK id="SECTIME70" fromID="E25" fromText="further treatment" toID="T0" toText="2019-02-28" type="OVERLAP" />
+<TLINK id="SECTIME71" fromID="E26" fromText="MVR" toID="T0" toText="2019-02-28" type="AFTER" />
+<TLINK id="SECTIME72" fromID="E27" fromText="transferred" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E28" fromText="MWMC" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E29" fromText="Nantucket Cottage Hospital" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E30" fromText="MVR" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E31" fromText="Infectious disease consult" toID="T1" toText="2019-03-26" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E32" fromText="IV Daptomycin" toID="T1" toText="2019-03-26" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

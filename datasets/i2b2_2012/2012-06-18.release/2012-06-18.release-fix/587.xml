@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2015-11-22
+Discharge Date :
+2015-11-27
+Service :
+CMED CCU-GREEN
+HISTORY OF PRESENT ILLNESS :
+The patient is a 73 year old male with a recent history of paroxysmal atrial fibrillation and hypercholesterolemia who presented to the Emergency Department with the chief complaint of syncope .
+The patient was discharged from The Hospital for Orthopedics with the diagnosis of pulmonary embolism about six months prior to the current admission and was started on Warfarin .
+One month prior to this admission , the patient reports not feeling well with worsening gastric distress .
+A few weeks prior to admission , he fell down on his back and started taking ibuprofen 1000 mg once a day for pain and Vioxx in addition to his aspirin and Coumadin regimen .
+The night prior to admission , he was found by his wife on the bathroom floor in a pool of urine , unresponsive without any body movements , post-ictal state .
+EMS was activated , however , the patient refused to go to the hospital .
+A similar episode happened at 2 a.m. the same night and at 07:45 on the day of admission , the patient lost consciousness once again when he was trying to sit up .
+He was then transferred to The Hospital for Orthopedics .
+The patient reports some nausea and epigastric pressure which is post-prandial .
+He denies any emesis , melena , diarrhea or constipation .
+He describes the room spinning with attempts to sit upright .
+No history of previous episodes was noted .
+Denies incontinence .
+He does have diaphoresis and weakness with orthostatic changes .
+In the Emergency Department , stool guaiac was trace positive .
+Hematocrit was 24.8 , with a baseline of 46 .
+Gastric lavage was grossly positive for coffee ground material .
+His INR was found to be 4.4 .
+He was given Vitamin K 10 mg subcutaneously , 2.5 liters of normal saline , two units of packed red blood cells and two units of fresh frozen plasma and transferred to the Medical Intensive Care Unit for further management .
+HOSPITAL COURSE :
+The patient was transferred to Medical Intensive Care Unit for further management for acute GI bleed .
+1. Gastrointestinal bleed :
+The patient continued to receive blood transfusions on the floor and serial hematocrits with serial INR checks were drawn .
+As he was receiving his third unit of packed red blood cells , the patient became tachycardic and short of breath .
+His temperature raised from 98.6 F. , to 101.0 F.
+He was shown to have rigors .
+The transfusion was stopped and the patient was given Tylenol 1 mg with epinephrine , 100 mg of hydrocortisone , 25 mg of Benadryl and Demerol 15 as well as Pepcid .
+He had emesis times three of 75 cc of coffee ground material .
+The patient also desaturated to the low 80 s and was started on a non-rebreather mask .
+His saturations improved quickly on 100% non-rebreather mask within 15 to 20 minutes .
+Shortly after his mental status changed ; he became disoriented and euphoric and continued to be in this state for two more hours .
+After that period of time , his mental status gradually improved and he continued to receive his blood transfusions requiring a total of ten units of packed red blood cells and four units of fresh frozen plasma to reach a hematocrit of 30.0 , which remained stable for the duration of his stay .
+On admission , the patient was started on high dose proton pump inhibitors for prophylaxis .
+On Wednesday , 11-25 , an esophagogastroduodenoscopy was performed and was significant for the following findings :
+Medium hiatal hernia , Barrett's esophagus , erosion of the gastroesophageal junction , granularity , erythema and congestion of the antrum in the pre-pyloric region compatible with gastritis .
+Erosions in the antrum and pre-pyloric region , granularity , erythema and congestion of the anterior bulb and posterior bulb compatible with duodenitis .
+It was recommended by Gastroenterology that the patient is to stay off aspirin for at least four to six weeks at discharge to prevent further bleeding .
+2. Cardiovascular :
+During transfusion reaction episode , the patient had an episode of tachycardia ranging from 134 to 158 , for one to two hours .
+EKG during this episode was taken and showed sinus tachycardia ; however , serial enzymes were significant for CK peaking at 1075 , MB peaking at 114 and MB index peaking at 10.8 , consistent with myocardial damage .
+The day following this episode , EKG showed loss of R wave progression in anterior leads and Q waves in leads III and AVF consistent with anteroseptal myocardial infarction .
+The patient 's blood pressures remained stable during his stay .
+He had no episodes of arrhythmia on Telemetry .
+Cardiology consultation was obtained .
+The myocardial infarction was attributed to demand ischemia secondary to acute hematocrit drop exacerbated by tachycardia secondary to blood transfusion reaction .
+Further Cardiologic work-up was suggested as an outpatient at four to six weeks post discharge .
+The patient was started on Lopressor , Lipitor and Lisinopril .
+3. After ten units of packed red blood cells and four units of fresh frozen plasma transfusions , the patient 's hematocrit remained stable at above 30 .
+His INR decreased to 1.3 at the time of discharge .
+He required no blood transfusions for four days prior to discharge .
+4. History of pulmonary embolism likely secondary to frequent flying .
+The need for further anti-coagulation was discussed with the patient 's attending , Dr. Coleman , and it was decided not to continue anti-coagulation due to increased risk of gastrointestinal bleeding .
+The patient remained symptom free during his stay in the hospital , saturating well in room air .
+5. Endocrine :
+The patient was restarted on Levothyroxine soon after admission .
+His hemoglobin A1C was sent and it was pending at the time of discharge .
+6. Single mental status change times two hours during episode of blood transfusion reaction .
+Was most likely due to multiple drugs administered during the episode including Demerol .
+After this episode , the patient 's mental status remained clear for the rest of the duration of his stay .
+7. Prophylaxis :
+The patient was sent home on proton pump inhibitors .
+His Helicobacter pylori serology was sent and was pending at the time of discharge .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E175" start="1002" end="1019" text="A similar episode" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="1105" end="1123" text="lost consciousness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="1178" end="1189" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="1193" end="1221" text="The Hospital for Orthopedics" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E28" start="1236" end="1243" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E29" start="1244" end="1255" text="some nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1260" end="1279" text="epigastric pressure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1289" end="1302" text="post-prandial" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1308" end="1314" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E33" start="1319" end="1325" text="emesis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E34" start="1328" end="1334" text="melena" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E35" start="1337" end="1345" text="diarrhea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E36" start="1349" end="1361" text="constipation" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E37" start="1367" end="1376" text="describes" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E38" start="1377" end="1394" text="the room spinning" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="1470" end="1476" text="Denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E40" start="1477" end="1489" text="incontinence" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E41" start="1505" end="1516" text="diaphoresis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1521" end="1529" text="weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="1560" end="1584" text="the Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E44" start="1587" end="1599" text="stool guaiac" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="1621" end="1631" text="Hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="1667" end="1681" text="Gastric lavage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="170" end="200" text="paroxysmal atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="1707" end="1729" text="coffee ground material" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="1732" end="1739" text="His INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="1775" end="1784" text="Vitamin K" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="1822" end="1835" text="normal saline" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="1851" end="1873" text="packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="1891" end="1910" text="fresh frozen plasma" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1915" end="1926" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="1930" end="1961" text="the Medical Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E56" start="2021" end="2032" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="2036" end="2063" text="Medical Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="205" end="225" text="hypercholesterolemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="2091" end="2105" text="acute GI bleed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="2169" end="2187" text="blood transfusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="2191" end="2200" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E61" start="2205" end="2223" text="serial hematocrits" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="2229" end="2246" text="serial INR checks" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E63" start="2298" end="2320" text="packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="230" end="239" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="2342" end="2353" text="tachycardic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="2358" end="2373" text="short of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="2376" end="2391" text="His temperature" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E68" start="2433" end="2438" text="shown" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E67" start="2447" end="2453" text="rigors" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E69" start="2456" end="2471" text="The transfusion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="243" end="267" text="the Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E70" start="2510" end="2517" text="Tylenol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="2528" end="2539" text="epinephrine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="2552" end="2566" text="hydrocortisone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E73" start="2578" end="2586" text="Benadryl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E74" start="2591" end="2601" text="Demerol 15" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="2613" end="2619" text="Pepcid" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="2629" end="2635" text="emesis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="2660" end="2682" text="coffee ground material" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="2702" end="2713" text="desaturated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E78" start="2749" end="2770" text="a non-rebreather mask" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="2773" end="2788" text="His saturations" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E81" start="2809" end="2833" text="100% non-rebreather mask" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E82" start="2874" end="2899" text="his mental status changed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E83" start="2912" end="2923" text="disoriented" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E84" start="2928" end="2936" text="euphoric" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="296" end="303" text="syncope" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E86" start="3020" end="3056" text="his mental status gradually improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="3085" end="3107" text="his blood transfusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E88" start="3142" end="3164" text="packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E89" start="3183" end="3202" text="fresh frozen plasma" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E90" start="3212" end="3224" text="a hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="322" end="332" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E92" start="3241" end="3256" text="remained stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E91" start="3277" end="3285" text="his stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E93" start="3291" end="3300" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E94" start="3330" end="3362" text="high dose proton pump inhibitors" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E95" start="3367" end="3378" text="prophylaxis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="338" end="366" text="The Hospital for Orthopedics" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E96" start="3404" end="3433" text="an esophagogastroduodenoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E97" start="3497" end="3517" text="Medium hiatal hernia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E98" start="3520" end="3539" text="Barrett's esophagus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E99" start="3542" end="3582" text="erosion of the gastroesophageal junction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="3585" end="3596" text="granularity" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E101" start="3599" end="3607" text="erythema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E102" start="3612" end="3636" text="congestion of the antrum" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E103" start="3679" end="3688" text="gastritis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E104" start="3691" end="3736" text="Erosions in the antrum and pre-pyloric region" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E105" start="3739" end="3750" text="granularity" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E106" start="3753" end="3761" text="erythema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E107" start="3766" end="3816" text="congestion of the anterior bulb and posterior bulb" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E108" start="3833" end="3843" text="duodenitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="3868" end="3884" text="Gastroenterology" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="389" end="407" text="pulmonary embolism" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E110" start="3917" end="3924" text="aspirin" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E111" start="3959" end="3968" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E112" start="3980" end="3996" text="further bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E113" start="4026" end="4054" text="transfusion reaction episode" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E114" start="4087" end="4098" text="tachycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E115" start="4148" end="4151" text="EKG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E116" start="4159" end="4171" text="this episode" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E117" start="4186" end="4192" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E118" start="4193" end="4210" text="sinus tachycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E119" start="4223" end="4237" text="serial enzymes" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E120" start="4259" end="4261" text="CK" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E121" start="4280" end="4282" text="MB" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E122" start="4302" end="4310" text="MB index" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E123" start="4345" end="4362" text="myocardial damage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="434" end="455" text="the current admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E125" start="4398" end="4401" text="EKG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E126" start="4402" end="4408" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E127" start="4409" end="4435" text="loss of R wave progression" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E128" start="4458" end="4478" text="Q waves in leads III" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E129" start="4483" end="4486" text="AVF" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E130" start="4503" end="4537" text="anteroseptal myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E131" start="4540" end="4570" text="The patient 's blood pressures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E132" start="4594" end="4602" text="his stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E133" start="4627" end="4637" text="arrhythmia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E134" start="4641" end="4650" text="Telemetry" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E176" start="4653" end="4663" text="Cardiology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E177" start="4664" end="4676" text="consultation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E137" start="4692" end="4717" text="The myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E178" start="4722" end="4732" text="attributed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E138" start="4736" end="4751" text="demand ischemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="475" end="483" text="Warfarin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E139" start="4765" end="4786" text="acute hematocrit drop" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E140" start="4802" end="4813" text="tachycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E141" start="4827" end="4853" text="blood transfusion reaction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E142" start="4856" end="4883" text="Further Cardiologic work-up" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E143" start="4980" end="4989" text="Lopressor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E144" start="4992" end="4999" text="Lipitor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E145" start="5004" end="5014" text="Lisinopril" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E146" start="5039" end="5061" text="packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E147" start="5080" end="5112" text="fresh frozen plasma transfusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E148" start="5115" end="5140" text="the patient 's hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E149" start="5171" end="5178" text="His INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E151" start="5238" end="5256" text="blood transfusions" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E179" start="5280" end="5289" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E152" start="5306" end="5324" text="pulmonary embolism" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="534" end="541" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E153" start="5345" end="5360" text="frequent flying" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E154" start="5376" end="5400" text="further anti-coagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E155" start="5496" end="5512" text="anti-coagulation" modality="PROPOSED" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E156" start="5530" end="5563" text="risk of gastrointestinal bleeding" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E157" start="5587" end="5599" text="symptom free" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E180" start="5607" end="5631" text="his stay in the hospital" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="564" end="590" text="worsening gastric distress" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E158" start="5634" end="5649" text="saturating well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E159" start="5708" end="5721" text="Levothyroxine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E160" start="5733" end="5742" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E161" start="5745" end="5763" text="His hemoglobin A1C" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E181" start="5784" end="5791" text="pending" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E163" start="5822" end="5849" text="Single mental status change" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E164" start="5884" end="5910" text="blood transfusion reaction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E165" start="5936" end="5950" text="multiple drugs" modality="POSSIBLE" polarity="POS" type="TREATMENT" />
+<EVENT id="E166" start="5971" end="5982" text="the episode" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E167" start="5993" end="6000" text="Demerol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E168" start="6009" end="6021" text="this episode" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E169" start="6024" end="6052" text="the patient 's mental status" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E170" start="6072" end="6108" text="the rest of the duration of his stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E171" start="6144" end="6153" text="sent home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E172" start="6157" end="6179" text="proton pump inhibitors" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E173" start="6182" end="6214" text="His Helicobacter pylori serology" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E182" start="6232" end="6239" text="pending" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="629" end="650" text="fell down on his back" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="670" end="679" text="ibuprofen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="703" end="707" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="712" end="717" text="Vioxx" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="733" end="744" text="his aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="749" end="765" text="Coumadin regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="827" end="864" text="the bathroom floor in a pool of urine" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="867" end="879" text="unresponsive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="892" end="906" text="body movements" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E23" start="909" end="925" text="post-ictal state" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="928" end="931" text="EMS" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<TIMEX3 id="T7" start="1032" end="1053" text="2 a.m. the same night" type="TIME" val="2015-11-22T2:00" mod="NA" />
+<TIMEX3 id="T8" start="1061" end="1066" text="07:45" type="TIME" val="2015-11-22T07:45" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2015-11-22" type="DATE" val="2015-11-22" mod="NA" />
+<TIMEX3 id="T20" start="2841" end="2857" text="15 to 20 minutes" type="DURATION" val="PT17.5M" mod="APPROX" />
+<TIMEX3 id="T19" start="2975" end="2989" text="two more hours" type="DURATION" val="P2H" mod="NA" />
+<TIMEX3 id="T9" start="3384" end="3401" text="Wednesday , 11-25" type="DATE" val="2015-11-25" mod="NA" />
+<TIMEX3 id="T10" start="3938" end="3955" text="four to six weeks" type="DURATION" val="P5W" mod="APPROX" />
+<TIMEX3 id="T11" start="4129" end="4145" text="one to two hours" type="DURATION" val="P1.5H" mod="APPROX" />
+<TIMEX3 id="T2" start="414" end="430" text="six months prior" type="DATE" val="2015-05-22" mod="APPROX" />
+<TIMEX3 id="T12" start="4365" end="4395" text="The day following this episode" type="DATE" val="2015-11-26" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2015-11-27" type="DATE" val="2015-11-27" mod="NA" />
+<TIMEX3 id="T3" start="486" end="501" text="One month prior" type="DATE" val="2015-10-22" mod="APPROX" />
+<TIMEX3 id="T13" start="4918" end="4940" text="four to six weeks post" type="DATE" val="2016-01-01" mod="APPROX" />
+<TIMEX3 id="T15" start="5199" end="5207" text="the time" type="DATE" val="2015-11-27" mod="NA" />
+<TIMEX3 id="T14" start="5261" end="5270" text="four days" type="DURATION" val="P4D" mod="NA" />
+<TIMEX3 id="T16" start="5795" end="5803" text="the time" type="DATE" val="2015-11-27" mod="NA" />
+<TIMEX3 id="T17" start="5856" end="5865" text="two hours" type="DURATION" val="PT2H" mod="NA" />
+<TIMEX3 id="T4" start="593" end="610" text="A few weeks prior" type="DATE" val="2015-11-07" mod="APPROX" />
+<TIMEX3 id="T18" start="6243" end="6251" text="the time" type="DATE" val="2015-11-27" mod="NA" />
+<TIMEX3 id="T5" start="688" end="698" text="once a day" type="FREQUENCY" val="RP24H" mod="NA" />
+<TIMEX3 id="T6" start="768" end="783" text="The night prior" type="DATE" val="2015-11-21" mod="END" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="TL1" fromID="E4" fromText="presented" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL100" fromID="E83" fromText="disoriented" toID="T19" toText="two more hours" type="OVERLAP" />
+<TLINK id="TL101" fromID="E86" fromText="his mental status gradually improved" toID="T19" toText="two more hours" type="AFTER" />
+<TLINK id="TL102" fromID="E87" fromText="his blood transfusions" toID="E88" toText="packed red blood cells" type="OVERLAP" />
+<TLINK id="TL103" fromID="E87" fromText="his blood transfusions" toID="E86" toText="his mental status gradually improved" type="OVERLAP" />
+<TLINK id="TL104" fromID="E87" fromText="his blood transfusions" toID="E89" toText="fresh frozen plasma" type="OVERLAP" />
+<TLINK id="TL105" fromID="E90" fromText="a hematocrit" toID="E87" toText="his blood transfusions" type="AFTER" />
+<TLINK id="TL106" fromID="E90" fromText="a hematocrit" toID="E92" toText="remained stable" type="OVERLAP" />
+<TLINK id="TL107" fromID="E92" fromText="remained stable" toID="E91" toText="his stay" type="OVERLAP" />
+<TLINK id="TL108" fromID="E91" fromText="his stay" toID="E1" toText="Discharge" type="BEFORE" />
+<TLINK id="TL109" fromID="E94" fromText="high dose proton pump inhibitors" toID="E93" toText="admission" type="AFTER" />
+<TLINK id="TL11" fromID="E6" fromText="syncope" toID="E4" toText="presented" type="BEFORE" />
+<TLINK id="TL110" fromID="E94" fromText="high dose proton pump inhibitors" toID="E95" toText="prophylaxis" type="OVERLAP" />
+<TLINK id="TL111" fromID="T9" fromText="Wednesday , 11-25" toID="E96" toText="an esophagogastroduodenoscopy" type="OVERLAP" />
+<TLINK id="TL112" fromID="E97" fromText="Medium hiatal hernia" toID="E96" toText="an esophagogastroduodenoscopy" type="BEFORE" />
+<TLINK id="TL113" fromID="E98" fromText="Barrett's esophagus" toID="E96" toText="an esophagogastroduodenoscopy" type="BEFORE" />
+<TLINK id="TL114" fromID="E99" fromText="erosion of the gastroesophageal junction" toID="E96" toText="an esophagogastroduodenoscopy" type="BEFORE" />
+<TLINK id="TL115" fromID="E100" fromText="granularity" toID="E96" toText="an esophagogastroduodenoscopy" type="BEFORE" />
+<TLINK id="TL116" fromID="E101" fromText="erythema" toID="E96" toText="an esophagogastroduodenoscopy" type="BEFORE" />
+<TLINK id="TL117" fromID="E102" fromText="congestion of the antrum" toID="E96" toText="an esophagogastroduodenoscopy" type="BEFORE" />
+<TLINK id="TL118" fromID="E103" fromText="gastritis" toID="E102" toText="congestion of the antrum" type="OVERLAP" />
+<TLINK id="TL119" fromID="E104" fromText="Erosions in the antrum and pre-pyloric region" toID="E99" toText="erosion of the gastroesophageal junction" type="OVERLAP" />
+<TLINK id="TL12" fromID="E43" fromText="the Emergency Department" toID="E5" toText="the Emergency Department" type="OVERLAP" />
+<TLINK id="TL120" fromID="E104" fromText="Erosions in the antrum and pre-pyloric region" toID="E108" toText="duodenitis" type="OVERLAP" />
+<TLINK id="TL121" fromID="E105" fromText="granularity" toID="E108" toText="duodenitis" type="OVERLAP" />
+<TLINK id="TL122" fromID="E106" fromText="erythema" toID="E108" toText="duodenitis" type="OVERLAP" />
+<TLINK id="TL123" fromID="E107" fromText="congestion of the anterior bulb and posterior bulb" toID="E108" toText="duodenitis" type="OVERLAP" />
+<TLINK id="TL124" fromID="E105" fromText="granularity" toID="E100" toText="granularity" type="OVERLAP" />
+<TLINK id="TL125" fromID="E106" fromText="erythema" toID="E101" toText="erythema" type="OVERLAP" />
+<TLINK id="TL126" fromID="E107" fromText="congestion of the anterior bulb and posterior bulb" toID="E102" toText="congestion of the antrum" type="OVERLAP" />
+<TLINK id="TL127" fromID="E109" fromText="Gastroenterology" toID="T9" toText="Wednesday , 11-25" type="OVERLAP" />
+<TLINK id="TL128" fromID="E110" fromText="aspirin" toID="E109" toText="Gastroenterology" type="AFTER" />
+<TLINK id="TL129" fromID="E110" fromText="aspirin" toID="T10" toText="four to six weeks" type="OVERLAP" />
+<TLINK id="TL13" fromID="E8" fromText="The Hospital for Orthopedics" toID="E7" toText="discharged" type="BEFORE" />
+<TLINK id="TL130" fromID="T10" fromText="four to six weeks" toID="E111" toText="discharge" type="AFTER" />
+<TLINK id="TL131" fromID="E112" fromText="further bleeding" toID="E111" toText="discharge" type="AFTER" />
+<TLINK id="TL132" fromID="E110" fromText="aspirin" toID="E112" toText="further bleeding" type="OVERLAP" />
+<TLINK id="TL133" fromID="E114" fromText="tachycardia" toID="E113" toText="transfusion reaction episode" type="OVERLAP" />
+<TLINK id="TL134" fromID="E116" fromText="this episode" toID="E113" toText="transfusion reaction episode" type="OVERLAP" />
+<TLINK id="TL135" fromID="E164" fromText="blood transfusion reaction" toID="E113" toText="transfusion reaction episode" type="OVERLAP" />
+<TLINK id="TL136" fromID="E113" fromText="transfusion reaction episode" toID="E141" toText="blood transfusion reaction" type="OVERLAP" />
+<TLINK id="TL137" fromID="E114" fromText="tachycardia" toID="T11" toText="one to two hours" type="OVERLAP" />
+<TLINK id="TL138" fromID="E115" fromText="EKG" toID="E116" toText="this episode" type="OVERLAP" />
+<TLINK id="TL139" fromID="E117" fromText="showed" toID="E115" toText="EKG" type="OVERLAP" />
+<TLINK id="TL14" fromID="E7" fromText="discharged" toID="T2" toText="six months prior" type="BEFORE" />
+<TLINK id="TL140" fromID="E125" fromText="EKG" toID="E115" toText="EKG" type="AFTER" />
+<TLINK id="TL142" fromID="E118" fromText="sinus tachycardia" toID="E117" toText="showed" type="BEFORE" />
+<TLINK id="TL143" fromID="E119" fromText="serial enzymes" toID="E117" toText="showed" type="OVERLAP" />
+<TLINK id="TL144" fromID="E120" fromText="CK" toID="E119" toText="serial enzymes" type="BEFORE" />
+<TLINK id="TL145" fromID="E120" fromText="CK" toID="E121" toText="MB" type="OVERLAP" />
+<TLINK id="TL146" fromID="E121" fromText="MB" toID="E122" toText="MB index" type="OVERLAP" />
+<TLINK id="TL147" fromID="E122" fromText="MB index" toID="E123" toText="myocardial damage" type="OVERLAP" />
+<TLINK id="TL148" fromID="E126" fromText="showed" toID="E125" toText="EKG" type="OVERLAP" />
+<TLINK id="TL149" fromID="T12" fromText="The day following this episode" toID="E125" toText="EKG" type="OVERLAP" />
+<TLINK id="TL15" fromID="E9" fromText="pulmonary embolism" toID="E7" toText="discharged" type="AFTER" />
+<TLINK id="TL150" fromID="E127" fromText="loss of R wave progression" toID="E126" toText="showed" type="BEFORE" />
+<TLINK id="TL151" fromID="E126" fromText="showed" toID="E128" toText="Q waves in leads III" type="OVERLAP" />
+<TLINK id="TL152" fromID="E129" fromText="AVF" toID="E126" toText="showed" type="OVERLAP" />
+<TLINK id="TL153" fromID="E129" fromText="AVF" toID="E130" toText="anteroseptal myocardial infarction" type="OVERLAP" />
+<TLINK id="TL154" fromID="E130" fromText="anteroseptal myocardial infarction" toID="E137" toText="The myocardial infarction" type="OVERLAP" />
+<TLINK id="TL157" fromID="E131" fromText="The patient 's blood pressures" toID="E132" toText="his stay" type="OVERLAP" />
+<TLINK id="TL158" fromID="E134" fromText="Telemetry" toID="E132" toText="his stay" type="OVERLAP" />
+<TLINK id="TL159" fromID="E133" fromText="arrhythmia" toID="E134" toText="Telemetry" type="OVERLAP" />
+<TLINK id="TL16" fromID="E11" fromText="Warfarin" toID="E7" toText="discharged" type="AFTER" />
+<TLINK id="TL161" fromID="E176" fromText="Cardiology" toID="E177" toText="consultation" type="OVERLAP" />
+<TLINK id="TL162" fromID="E176" fromText="Cardiology" toID="E178" toText="attributed" type="OVERLAP" />
+<TLINK id="TL163" fromID="E137" fromText="The myocardial infarction" toID="E178" toText="attributed" type="BEFORE" />
+<TLINK id="TL165" fromID="E138" fromText="demand ischemia" toID="E178" toText="attributed" type="BEFORE" />
+<TLINK id="TL166" fromID="E138" fromText="demand ischemia" toID="E139" toText="acute hematocrit drop" type="OVERLAP" />
+<TLINK id="TL167" fromID="E139" fromText="acute hematocrit drop" toID="E140" toText="tachycardia" type="OVERLAP" />
+<TLINK id="TL168" fromID="E140" fromText="tachycardia" toID="E141" toText="blood transfusion reaction" type="OVERLAP" />
+<TLINK id="TL169" fromID="E142" fromText="Further Cardiologic work-up" toID="T13" toText="four to six weeks post" type="OVERLAP" />
+<TLINK id="TL17" fromID="E8" fromText="The Hospital for Orthopedics" toID="E27" toText="The Hospital for Orthopedics" type="BEFORE" />
+<TLINK id="TL170" fromID="E143" fromText="Lopressor" toID="E177" toText="consultation" type="AFTER" />
+<TLINK id="TL171" fromID="E143" fromText="Lopressor" toID="E144" toText="Lipitor" type="OVERLAP" />
+<TLINK id="TL172" fromID="E144" fromText="Lipitor" toID="E145" toText="Lisinopril" type="OVERLAP" />
+<TLINK id="TL173" fromID="E88" fromText="packed red blood cells" toID="E146" toText="packed red blood cells" type="OVERLAP" />
+<TLINK id="TL174" fromID="E146" fromText="packed red blood cells" toID="E132" toText="his stay" type="OVERLAP" />
+<TLINK id="TL175" fromID="E146" fromText="packed red blood cells" toID="E147" toText="fresh frozen plasma transfusions" type="OVERLAP" />
+<TLINK id="TL176" fromID="E148" fromText="the patient 's hematocrit" toID="E147" toText="fresh frozen plasma transfusions" type="AFTER" />
+<TLINK id="TL177" fromID="E149" fromText="His INR" toID="T15" toText="the time" type="OVERLAP" />
+<TLINK id="TL178" fromID="E151" fromText="blood transfusions" toID="T14" toText="four days" type="OVERLAP" />
+<TLINK id="TL18" fromID="E8" fromText="The Hospital for Orthopedics" toID="E9" toText="pulmonary embolism" type="OVERLAP" />
+<TLINK id="TL180" fromID="T14" fromText="four days" toID="E179" toText="discharge" type="BEFORE" />
+<TLINK id="TL181" fromID="E152" fromText="pulmonary embolism" toID="E153" toText="frequent flying" type="OVERLAP" />
+<TLINK id="TL182" fromID="E155" fromText="anti-coagulation" toID="E154" toText="further anti-coagulation" type="OVERLAP" />
+<TLINK id="TL183" fromID="E156" fromText="risk of gastrointestinal bleeding" toID="E155" toText="anti-coagulation" type="AFTER" />
+<TLINK id="TL184" fromID="E157" fromText="symptom free" toID="E158" toText="saturating well" type="OVERLAP" />
+<TLINK id="TL185" fromID="E180" fromText="his stay in the hospital" toID="E132" toText="his stay" type="OVERLAP" />
+<TLINK id="TL186" fromID="E157" fromText="symptom free" toID="E180" toText="his stay in the hospital" type="OVERLAP" />
+<TLINK id="TL187" fromID="E159" fromText="Levothyroxine" toID="E160" toText="admission" type="AFTER" />
+<TLINK id="TL188" fromID="E161" fromText="His hemoglobin A1C" toID="T16" toText="the time" type="BEFORE" />
+<TLINK id="TL189" fromID="E181" fromText="pending" toID="T16" toText="the time" type="OVERLAP" />
+<TLINK id="TL190" fromID="E163" fromText="Single mental status change" toID="T17" toText="two hours" type="OVERLAP" />
+<TLINK id="TL191" fromID="T17" fromText="two hours" toID="E164" toText="blood transfusion reaction" type="OVERLAP" />
+<TLINK id="TL192" fromID="E165" fromText="multiple drugs" toID="E166" toText="the episode" type="OVERLAP" />
+<TLINK id="TL193" fromID="E165" fromText="multiple drugs" toID="E167" toText="Demerol" type="OVERLAP" />
+<TLINK id="TL194" fromID="E168" fromText="this episode" toID="E166" toText="the episode" type="OVERLAP" />
+<TLINK id="TL195" fromID="E169" fromText="the patient 's mental status" toID="E168" toText="this episode" type="AFTER" />
+<TLINK id="TL196" fromID="E170" fromText="the rest of the duration of his stay" toID="E1" toText="Discharge" type="BEFORE" />
+<TLINK id="TL197" fromID="E169" fromText="the patient 's mental status" toID="E170" toText="the rest of the duration of his stay" type="OVERLAP" />
+<TLINK id="TL198" fromID="E1" fromText="Discharge" toID="E171" toText="sent home" type="OVERLAP" />
+<TLINK id="TL199" fromID="E172" fromText="proton pump inhibitors" toID="E171" toText="sent home" type="AFTER" />
+<TLINK id="TL2" fromID="E10" fromText="the current admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL20" fromID="E13" fromText="worsening gastric distress" toID="E12" toText="reports" type="BEFORE" />
+<TLINK id="TL200" fromID="E173" fromText="His Helicobacter pylori serology" toID="T18" toText="the time" type="BEFORE" />
+<TLINK id="TL201" fromID="E182" fromText="pending" toID="T18" toText="the time" type="OVERLAP" />
+<TLINK id="TL21" fromID="E12" fromText="reports" toID="T3" toText="One month prior" type="OVERLAP" />
+<TLINK id="TL22" fromID="E14" fromText="fell down on his back" toID="T4" toText="A few weeks prior" type="OVERLAP" />
+<TLINK id="TL23" fromID="E15" fromText="ibuprofen" toID="E14" toText="fell down on his back" type="AFTER" />
+<TLINK id="TL24" fromID="E17" fromText="Vioxx" toID="E14" toText="fell down on his back" type="AFTER" />
+<TLINK id="TL25" fromID="E15" fromText="ibuprofen" toID="T5" toText="once a day" type="OVERLAP" />
+<TLINK id="TL27" fromID="E16" fromText="pain" toID="E15" toText="ibuprofen" type="BEFORE" />
+<TLINK id="TL28" fromID="E18" fromText="his aspirin" toID="E17" toText="Vioxx" type="BEFORE" />
+<TLINK id="TL29" fromID="E19" fromText="Coumadin regimen" toID="E18" toText="his aspirin" type="OVERLAP" />
+<TLINK id="TL3" fromID="E160" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL30" fromID="E20" fromText="the bathroom floor in a pool of urine" toID="T6" toText="The night prior" type="OVERLAP" />
+<TLINK id="TL31" fromID="E21" fromText="unresponsive" toID="E20" toText="the bathroom floor in a pool of urine" type="OVERLAP" />
+<TLINK id="TL32" fromID="E22" fromText="body movements" toID="E21" toText="unresponsive" type="OVERLAP" />
+<TLINK id="TL33" fromID="E21" fromText="unresponsive" toID="E23" toText="post-ictal state" type="OVERLAP" />
+<TLINK id="TL34" fromID="E24" fromText="EMS" toID="E20" toText="the bathroom floor in a pool of urine" type="AFTER" />
+<TLINK id="TL35" fromID="E175" fromText="A similar episode" toID="E20" toText="the bathroom floor in a pool of urine" type="AFTER" />
+<TLINK id="TL36" fromID="E175" fromText="A similar episode" toID="T7" toText="2 a.m. the same night" type="OVERLAP" />
+<TLINK id="TL37" fromID="E175" fromText="A similar episode" toID="T8" toText="07:45" type="OVERLAP" />
+<TLINK id="TL38" fromID="E175" fromText="A similar episode" toID="E25" toText="lost consciousness" type="OVERLAP" />
+<TLINK id="TL39" fromID="E26" fromText="transferred" toID="E25" toText="lost consciousness" type="AFTER" />
+<TLINK id="TL4" fromID="E93" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL40" fromID="E27" fromText="The Hospital for Orthopedics" toID="E26" toText="transferred" type="AFTER" />
+<TLINK id="TL41" fromID="E29" fromText="some nausea" toID="E28" toText="reports" type="BEFORE" />
+<TLINK id="TL42" fromID="E28" fromText="reports" toID="E32" toText="denies" type="OVERLAP" />
+<TLINK id="TL43" fromID="E28" fromText="reports" toID="E30" toText="epigastric pressure" type="OVERLAP" />
+<TLINK id="TL44" fromID="E31" fromText="post-prandial" toID="E30" toText="epigastric pressure" type="OVERLAP" />
+<TLINK id="TL45" fromID="E33" fromText="emesis" toID="E32" toText="denies" type="BEFORE" />
+<TLINK id="TL46" fromID="E32" fromText="denies" toID="E34" toText="melena" type="OVERLAP" />
+<TLINK id="TL47" fromID="E32" fromText="denies" toID="E35" toText="diarrhea" type="OVERLAP" />
+<TLINK id="TL48" fromID="E32" fromText="denies" toID="E36" toText="constipation" type="OVERLAP" />
+<TLINK id="TL49" fromID="E37" fromText="describes" toID="E32" toText="denies" type="OVERLAP" />
+<TLINK id="TL5" fromID="E132" fromText="his stay" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL50" fromID="E38" fromText="the room spinning" toID="E37" toText="describes" type="BEFORE" />
+<TLINK id="TL51" fromID="E39" fromText="Denies" toID="E37" toText="describes" type="OVERLAP" />
+<TLINK id="TL52" fromID="E40" fromText="incontinence" toID="E39" toText="Denies" type="BEFORE" />
+<TLINK id="TL53" fromID="E42" fromText="weakness" toID="E41" toText="diaphoresis" type="OVERLAP" />
+<TLINK id="TL54" fromID="E40" fromText="incontinence" toID="E41" toText="diaphoresis" type="OVERLAP" />
+<TLINK id="TL55" fromID="E44" fromText="stool guaiac" toID="E43" toText="the Emergency Department" type="OVERLAP" />
+<TLINK id="TL56" fromID="E46" fromText="Hematocrit" toID="E43" toText="the Emergency Department" type="OVERLAP" />
+<TLINK id="TL57" fromID="E47" fromText="Gastric lavage" toID="E43" toText="the Emergency Department" type="OVERLAP" />
+<TLINK id="TL58" fromID="E49" fromText="His INR" toID="E43" toText="the Emergency Department" type="OVERLAP" />
+<TLINK id="TL59" fromID="E50" fromText="Vitamin K" toID="E43" toText="the Emergency Department" type="OVERLAP" />
+<TLINK id="TL6" fromID="E1" fromText="Discharge" toID="T1" toText="2015-11-27" type="OVERLAP" />
+<TLINK id="TL60" fromID="E48" fromText="coffee ground material" toID="E47" toText="Gastric lavage" type="BEFORE" />
+<TLINK id="TL61" fromID="E51" fromText="normal saline" toID="E43" toText="the Emergency Department" type="OVERLAP" />
+<TLINK id="TL62" fromID="E52" fromText="packed red blood cells" toID="E43" toText="the Emergency Department" type="OVERLAP" />
+<TLINK id="TL63" fromID="E53" fromText="fresh frozen plasma" toID="E43" toText="the Emergency Department" type="OVERLAP" />
+<TLINK id="TL64" fromID="E55" fromText="the Medical Intensive Care Unit" toID="E54" toText="transferred" type="AFTER" />
+<TLINK id="TL65" fromID="E43" fromText="the Emergency Department" toID="E54" toText="transferred" type="BEFORE" />
+<TLINK id="TL66" fromID="E57" fromText="Medical Intensive Care Unit" toID="E55" toText="the Medical Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL67" fromID="E54" fromText="transferred" toID="E56" toText="transferred" type="OVERLAP" />
+<TLINK id="TL68" fromID="E57" fromText="Medical Intensive Care Unit" toID="E56" toText="transferred" type="AFTER" />
+<TLINK id="TL69" fromID="E58" fromText="acute GI bleed" toID="E57" toText="Medical Intensive Care Unit" type="BEFORE" />
+<TLINK id="TL7" fromID="E132" fromText="his stay" toID="E1" toText="Discharge" type="BEFORE" />
+<TLINK id="TL70" fromID="E59" fromText="blood transfusions" toID="E60" toText="the floor" type="BEFORE" />
+<TLINK id="TL71" fromID="E61" fromText="serial hematocrits" toID="E62" toText="serial INR checks" type="OVERLAP" />
+<TLINK id="TL72" fromID="E61" fromText="serial hematocrits" toID="E60" toText="the floor" type="OVERLAP" />
+<TLINK id="TL73" fromID="E63" fromText="packed red blood cells" toID="E60" toText="the floor" type="OVERLAP" />
+<TLINK id="TL74" fromID="E64" fromText="tachycardic" toID="E63" toText="packed red blood cells" type="AFTER" />
+<TLINK id="TL75" fromID="E65" fromText="short of breath" toID="E63" toText="packed red blood cells" type="AFTER" />
+<TLINK id="TL76" fromID="E66" fromText="His temperature" toID="E63" toText="packed red blood cells" type="AFTER" />
+<TLINK id="TL77" fromID="E68" fromText="shown" toID="E63" toText="packed red blood cells" type="AFTER" />
+<TLINK id="TL79" fromID="E67" fromText="rigors" toID="E68" toText="shown" type="BEFORE" />
+<TLINK id="TL8" fromID="E3" fromText="hypercholesterolemia" toID="E2" toText="paroxysmal atrial fibrillation" type="OVERLAP" />
+<TLINK id="TL80" fromID="E113" fromText="transfusion reaction episode" toID="E69" toText="The transfusion" type="OVERLAP" />
+<TLINK id="TL81" fromID="E69" fromText="The transfusion" toID="E67" toText="rigors" type="BEFORE" />
+<TLINK id="TL82" fromID="E70" fromText="Tylenol" toID="E69" toText="The transfusion" type="AFTER" />
+<TLINK id="TL84" fromID="E71" fromText="epinephrine" toID="E70" toText="Tylenol" type="OVERLAP" />
+<TLINK id="TL85" fromID="E72" fromText="hydrocortisone" toID="E73" toText="Benadryl" type="OVERLAP" />
+<TLINK id="TL86" fromID="E71" fromText="epinephrine" toID="E72" toText="hydrocortisone" type="OVERLAP" />
+<TLINK id="TL87" fromID="E73" fromText="Benadryl" toID="E74" toText="Demerol 15" type="OVERLAP" />
+<TLINK id="TL88" fromID="E74" fromText="Demerol 15" toID="E75" toText="Pepcid" type="OVERLAP" />
+<TLINK id="TL89" fromID="E76" fromText="emesis" toID="E77" toText="coffee ground material" type="OVERLAP" />
+<TLINK id="TL9" fromID="E5" fromText="the Emergency Department" toID="E4" toText="presented" type="AFTER" />
+<TLINK id="TL90" fromID="E80" fromText="His saturations" toID="E79" toText="desaturated" type="AFTER" />
+<TLINK id="TL91" fromID="E81" fromText="100% non-rebreather mask" toID="E78" toText="a non-rebreather mask" type="OVERLAP" />
+<TLINK id="TL92" fromID="E80" fromText="His saturations" toID="E78" toText="a non-rebreather mask" type="AFTER" />
+<TLINK id="TL93" fromID="E80" fromText="His saturations" toID="E82" toText="his mental status changed" type="BEFORE" />
+<TLINK id="TL94" fromID="E83" fromText="disoriented" toID="E84" toText="euphoric" type="OVERLAP" />
+<TLINK id="TL95" fromID="E83" fromText="disoriented" toID="E82" toText="his mental status changed" type="OVERLAP" />
+<TLINK id="TL98" fromID="E84" fromText="euphoric" toID="T19" toText="two more hours" type="OVERLAP" />
+<TLINK id="TL99" fromID="T19" fromText="two more hours" toID="T20" toText="15 to 20 minutes" type="AFTER" />
+<TLINK id="SECTIME0" fromID="E175" fromText="A similar episode" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E25" fromText="lost consciousness" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME2" fromID="E26" fromText="transferred" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME3" fromID="E27" fromText="The Hospital for Orthopedics" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME4" fromID="E28" fromText="reports" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME5" fromID="E29" fromText="some nausea" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E30" fromText="epigastric pressure" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E31" fromText="post-prandial" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E32" fromText="denies" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME9" fromID="E33" fromText="emesis" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E34" fromText="melena" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E35" fromText="diarrhea" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E36" fromText="constipation" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E37" fromText="describes" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME14" fromID="E38" fromText="the room spinning" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E39" fromText="Denies" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME16" fromID="E40" fromText="incontinence" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E41" fromText="diaphoresis" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E42" fromText="weakness" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E43" fromText="the Emergency Department" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME20" fromID="E44" fromText="stool guaiac" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME21" fromID="E46" fromText="Hematocrit" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME22" fromID="E47" fromText="Gastric lavage" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME23" fromID="E2" fromText="paroxysmal atrial fibrillation" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E48" fromText="coffee ground material" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME25" fromID="E49" fromText="His INR" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME26" fromID="E50" fromText="Vitamin K" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME27" fromID="E51" fromText="normal saline" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME28" fromID="E52" fromText="packed red blood cells" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME29" fromID="E53" fromText="fresh frozen plasma" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME30" fromID="E54" fromText="transferred" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME31" fromID="E55" fromText="the Medical Intensive Care Unit" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME32" fromID="E56" fromText="transferred" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E57" fromText="Medical Intensive Care Unit" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E3" fromText="hypercholesterolemia" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E58" fromText="acute GI bleed" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E59" fromText="blood transfusions" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E60" fromText="the floor" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E61" fromText="serial hematocrits" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E62" fromText="serial INR checks" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E63" fromText="packed red blood cells" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E4" fromText="presented" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME42" fromID="E64" fromText="tachycardic" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E65" fromText="short of breath" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E66" fromText="His temperature" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E68" fromText="shown" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E67" fromText="rigors" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E69" fromText="The transfusion" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E5" fromText="the Emergency Department" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME49" fromID="E70" fromText="Tylenol" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E71" fromText="epinephrine" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E72" fromText="hydrocortisone" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E73" fromText="Benadryl" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E74" fromText="Demerol 15" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E75" fromText="Pepcid" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E76" fromText="emesis" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E77" fromText="coffee ground material" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E79" fromText="desaturated" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E78" fromText="a non-rebreather mask" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E80" fromText="His saturations" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E81" fromText="100% non-rebreather mask" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E82" fromText="his mental status changed" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E83" fromText="disoriented" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E84" fromText="euphoric" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E6" fromText="syncope" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E86" fromText="his mental status gradually improved" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E87" fromText="his blood transfusions" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E88" fromText="packed red blood cells" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E89" fromText="fresh frozen plasma" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E90" fromText="a hematocrit" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E7" fromText="discharged" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E92" fromText="remained stable" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E91" fromText="his stay" toID="T1" toText="2015-11-27" type="OVERLAP" />
+<TLINK id="SECTIME73" fromID="E93" fromText="admission" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E94" fromText="high dose proton pump inhibitors" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E95" fromText="prophylaxis" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E8" fromText="The Hospital for Orthopedics" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E96" fromText="an esophagogastroduodenoscopy" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E97" fromText="Medium hiatal hernia" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E98" fromText="Barrett's esophagus" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E99" fromText="erosion of the gastroesophageal junction" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E100" fromText="granularity" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E101" fromText="erythema" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E102" fromText="congestion of the antrum" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E103" fromText="gastritis" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E104" fromText="Erosions in the antrum and pre-pyloric region" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E105" fromText="granularity" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E106" fromText="erythema" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E107" fromText="congestion of the anterior bulb and posterior bulb" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E108" fromText="duodenitis" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E109" fromText="Gastroenterology" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E9" fromText="pulmonary embolism" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E110" fromText="aspirin" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E111" fromText="discharge" toID="T1" toText="2015-11-27" type="OVERLAP" />
+<TLINK id="SECTIME94" fromID="E112" fromText="further bleeding" toID="T1" toText="2015-11-27" type="AFTER" />
+<TLINK id="SECTIME95" fromID="E113" fromText="transfusion reaction episode" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E114" fromText="tachycardia" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E115" fromText="EKG" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E116" fromText="this episode" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E117" fromText="showed" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E118" fromText="sinus tachycardia" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E119" fromText="serial enzymes" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E120" fromText="CK" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E121" fromText="MB" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E122" fromText="MB index" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E123" fromText="myocardial damage" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E10" fromText="the current admission" toID="T0" toText="2015-11-22" type="OVERLAP" />
+<TLINK id="SECTIME107" fromID="E125" fromText="EKG" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E126" fromText="showed" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E127" fromText="loss of R wave progression" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E128" fromText="Q waves in leads III" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E129" fromText="AVF" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E130" fromText="anteroseptal myocardial infarction" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E131" fromText="The patient 's blood pressures" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME114" fromID="E132" fromText="his stay" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E133" fromText="arrhythmia" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E134" fromText="Telemetry" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME117" fromID="E176" fromText="Cardiology" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME118" fromID="E177" fromText="consultation" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME119" fromID="E137" fromText="The myocardial infarction" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME120" fromID="E178" fromText="attributed" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME121" fromID="E138" fromText="demand ischemia" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME122" fromID="E11" fromText="Warfarin" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME123" fromID="E139" fromText="acute hematocrit drop" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME124" fromID="E140" fromText="tachycardia" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME125" fromID="E141" fromText="blood transfusion reaction" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME126" fromID="E142" fromText="Further Cardiologic work-up" toID="T1" toText="2015-11-27" type="AFTER" />
+<TLINK id="SECTIME127" fromID="E143" fromText="Lopressor" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME128" fromID="E144" fromText="Lipitor" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME129" fromID="E145" fromText="Lisinopril" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME130" fromID="E146" fromText="packed red blood cells" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME131" fromID="E147" fromText="fresh frozen plasma transfusions" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME132" fromID="E148" fromText="the patient 's hematocrit" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME133" fromID="E149" fromText="His INR" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME134" fromID="E151" fromText="blood transfusions" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME135" fromID="E179" fromText="discharge" toID="T1" toText="2015-11-27" type="OVERLAP" />
+<TLINK id="SECTIME136" fromID="E152" fromText="pulmonary embolism" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME137" fromID="E12" fromText="reports" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME138" fromID="E153" fromText="frequent flying" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME139" fromID="E154" fromText="further anti-coagulation" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME140" fromID="E155" fromText="anti-coagulation" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME141" fromID="E156" fromText="risk of gastrointestinal bleeding" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME142" fromID="E157" fromText="symptom free" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME143" fromID="E180" fromText="his stay in the hospital" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME144" fromID="E13" fromText="worsening gastric distress" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME145" fromID="E158" fromText="saturating well" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME146" fromID="E159" fromText="Levothyroxine" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME147" fromID="E160" fromText="admission" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME148" fromID="E161" fromText="His hemoglobin A1C" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME149" fromID="E181" fromText="pending" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME150" fromID="E163" fromText="Single mental status change" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME151" fromID="E164" fromText="blood transfusion reaction" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME152" fromID="E165" fromText="multiple drugs" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME153" fromID="E166" fromText="the episode" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME154" fromID="E167" fromText="Demerol" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME155" fromID="E168" fromText="this episode" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME156" fromID="E169" fromText="the patient 's mental status" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME157" fromID="E170" fromText="the rest of the duration of his stay" toID="T1" toText="2015-11-27" type="OVERLAP" />
+<TLINK id="SECTIME158" fromID="E171" fromText="sent home" toID="T1" toText="2015-11-27" type="OVERLAP" />
+<TLINK id="SECTIME159" fromID="E172" fromText="proton pump inhibitors" toID="T1" toText="2015-11-27" type="AFTER" />
+<TLINK id="SECTIME160" fromID="E173" fromText="His Helicobacter pylori serology" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME161" fromID="E182" fromText="pending" toID="T1" toText="2015-11-27" type="BEFORE" />
+<TLINK id="SECTIME162" fromID="E14" fromText="fell down on his back" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME163" fromID="E15" fromText="ibuprofen" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME164" fromID="E16" fromText="pain" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME165" fromID="E17" fromText="Vioxx" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME166" fromID="E18" fromText="his aspirin" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME167" fromID="E19" fromText="Coumadin regimen" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME168" fromID="E20" fromText="the bathroom floor in a pool of urine" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME169" fromID="E21" fromText="unresponsive" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME170" fromID="E22" fromText="body movements" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME171" fromID="E23" fromText="post-ictal state" toID="T0" toText="2015-11-22" type="BEFORE" />
+<TLINK id="SECTIME172" fromID="E24" fromText="EMS" toID="T0" toText="2015-11-22" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2015-11-22" type="ADMISSION" dvalue="2015-11-22" />
+<SECTIME id="S1" start="46" end="56" text="2015-11-27" type="DISCHARGE" dvalue="2015-11-27" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

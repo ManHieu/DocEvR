@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2011-09-24
+Discharge Date :
+2011-09-27
+Service :
+ADMISSION DIAGNOSIS :
+HISTORY OF PRESENT ILLNESS :
+The patient was a 79 - year-old gentleman found down at home unresponsive by his wife after lunch .
+He had an unwitnessed fall .
+He had no history of headaches or recent illness .
+He remained unresponsive when the ambulance arrived .
+Systolic blood pressure was reported 250 on arrival to the Mass. Eye & Ear Infirmary Emergency Department .
+He was intubated and given Versed and Fentanyl .
+His GCS was reported as 3 on arrival to the Emergency Department .
+HOSPITAL COURSE :
+He was admitted to the Neuro Surgical Intensive Care Unit for close monitoring and Neuro-checks .
+A Vent drain was placed to monitor and CP and relieved fluid .
+He received 12 U of platelets .
+His Intensive Care Unit stay was unremarkable .
+His neurologic exam did not change significantly .
+His ICPs were in the range of 11-22 , and he was weaned off the Nipride drip .
+He developed extensive posturing .
+A CTA showed diffuse subarachnoid hemorrhage and intraventricular blood but no evidence of an aneurysm .
+A repeat CT on 09-26 showed worsening of the diffuse subarachnoid hemorrhage and a new cerebellar hemorrhage .
+The family was informed of the patient 's condition and repeat scan .
+A family discussion resulted in the decision to make the patient comfort measures only .
+The patient was placed on a Morphine drip and extubated and passed away at 10:55 a.m. on 2011-09-27 .
+The family was notified of the patient 's passing .
+The medical examiner has also been notified of the passing of the patient .
+Shawn B Crawford , M.D.
+46-411
+Dictated By : Linda P.F. Clark , M.D.
+MEDQUIST36
+D : 2011-09-27 11:53
+T : 2011-09-27 12:41
+JOB # : 63722
+Signed electronically by : DR. Carlos Warner on : TUE 2011-09-27 3:42 PM
+( End of Report )
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1006" end="1012" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E9" start="1013" end="1044" text="diffuse subarachnoid hemorrhage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="1049" end="1071" text="intraventricular blood" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1091" end="1102" text="an aneurysm" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E11" start="1105" end="1116" text="A repeat CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="1126" end="1132" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E12" start="1146" end="1181" text="the diffuse subarachnoid hemorrhage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="1186" end="1213" text="a new cerebellar hemorrhage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1231" end="1239" text="informed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E14" start="1272" end="1283" text="repeat scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="1318" end="1330" text="the decision" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="1351" end="1372" text="comfort measures only" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1401" end="1416" text="a Morphine drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="1421" end="1430" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="1435" end="1446" text="passed away" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="179" end="191" text="unresponsive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="225" end="244" text="an unwitnessed fall" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="268" end="277" text="headaches" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E23" start="281" end="295" text="recent illness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E17" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="310" end="322" text="unresponsive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="352" end="375" text="Systolic blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="396" end="403" text="arrival" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="407" end="457" text="the Mass. Eye & Ear Infirmary Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E28" start="467" end="476" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="487" end="493" text="Versed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="498" end="506" text="Fentanyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="509" end="516" text="His GCS" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="538" end="545" text="arrival" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="549" end="573" text="the Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E18" start="601" end="609" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="613" end="651" text="the Neuro Surgical Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E34" start="656" end="672" text="close monitoring" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="677" end="689" text="Neuro-checks" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="692" end="704" text="A Vent drain" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="775" end="784" text="platelets" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="787" end="810" text="His Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E35" start="820" end="832" text="unremarkable" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E4" start="835" end="854" text="His neurologic exam" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="863" end="869" text="change" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E5" start="886" end="894" text="His ICPs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="946" end="962" text="the Nipride drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="978" end="997" text="extensive posturing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="1000" end="1005" text="A CTA" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T3" start="1120" end="1125" text="09-26" type="DATE" val="2011-09-26" mod="NA" />
+<TIMEX3 id="T0" start="1450" end="1460" text="10:55 a.m." type="TIME" val="2011-09-27T10:55" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2011-09-24" type="DATE" val="2011-09-24" mod="NA" />
+<TIMEX3 id="T4" start="210" end="215" text="lunch" type="TIME" val="2011-09-24T14:00" mod="APPROX" />
+<TIMEX3 id="T2" start="46" end="56" text="2011-09-27" type="DATE" val="2011-09-27" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="2011-09-24" type="OVERLAP" />
+<TLINK id="TL1" fromID="E9" fromText="diffuse subarachnoid hemorrhage" toID="E12" toText="the diffuse subarachnoid hemorrhage" type="simultaneous" />
+<TLINK id="TL10" fromID="E25" fromText="Systolic blood pressure" toID="E26" toText="arrival" type="OVERLAP" />
+<TLINK id="TL11" fromID="E27" fromText="the Mass. Eye & Ear Infirmary Emergency Department" toID="E26" toText="arrival" type="BEGUN_BY" />
+<TLINK id="TL12" fromID="E28" fromText="intubated" toID="E27" toText="the Mass. Eye & Ear Infirmary Emergency Department" type="DURING" />
+<TLINK id="TL13" fromID="E29" fromText="Versed" toID="E28" toText="intubated" type="BEGUN_BY" />
+<TLINK id="TL14" fromID="E30" fromText="Fentanyl" toID="E28" toText="intubated" type="BEGUN_BY" />
+<TLINK id="TL15" fromID="E32" fromText="arrival" toID="E26" toText="arrival" type="SIMULTANEOUS" />
+<TLINK id="TL16" fromID="E33" fromText="the Emergency Department" toID="E27" toText="the Mass. Eye & Ear Infirmary Emergency Department" type="SIMULTANEOUS" />
+<TLINK id="TL17" fromID="E31" fromText="His GCS" toID="E32" toText="arrival" type="OVERLAP" />
+<TLINK id="TL18" fromID="E18" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E19" fromText="the Neuro Surgical Intensive Care Unit" toID="E18" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL2" fromID="E11" fromText="A repeat CT" toID="E14" toText="repeat scan" type="simultaneous" />
+<TLINK id="TL20" fromID="E19" fromText="the Neuro Surgical Intensive Care Unit" toID="E33" toText="the Emergency Department" type="AFTER" />
+<TLINK id="TL21" fromID="E33" fromText="the Emergency Department" toID="E19" toText="the Neuro Surgical Intensive Care Unit" type="ENDED_BY" />
+<TLINK id="TL22" fromID="E34" fromText="close monitoring" toID="E19" toText="the Neuro Surgical Intensive Care Unit" type="DURING" />
+<TLINK id="TL23" fromID="E1" fromText="Neuro-checks" toID="E19" toText="the Neuro Surgical Intensive Care Unit" type="DURING" />
+<TLINK id="TL24" fromID="E2" fromText="A Vent drain" toID="E18" toText="admitted" type="AFTER" />
+<TLINK id="TL25" fromID="E3" fromText="platelets" toID="E19" toText="the Neuro Surgical Intensive Care Unit" type="DURING" />
+<TLINK id="TL26" fromID="E20" fromText="His Intensive Care Unit" toID="E35" toText="unremarkable" type="OVERLAP" />
+<TLINK id="TL27" fromID="E4" fromText="His neurologic exam" toID="E36" toText="change" type="OVERLAP" />
+<TLINK id="TL28" fromID="E6" fromText="the Nipride drip" toID="E5" toText="His ICPs" type="AFTER" />
+<TLINK id="TL29" fromID="E7" fromText="extensive posturing" toID="E6" toText="the Nipride drip" type="AFTER" />
+<TLINK id="TL3" fromID="E17" fromText="Discharge" toID="T2" toText="2011-09-27" type="OVERLAP" />
+<TLINK id="TL30" fromID="E8" fromText="A CTA" toID="E37" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E9" fromText="diffuse subarachnoid hemorrhage" toID="E37" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL32" fromID="E10" fromText="intraventricular blood" toID="E37" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL33" fromID="E37" fromText="showed" toID="E38" toText="an aneurysm" type="SIMULTANEOUS" />
+<TLINK id="TL34" fromID="E11" fromText="A repeat CT" toID="T3" toText="09-26" type="OVERLAP" />
+<TLINK id="TL35" fromID="E39" fromText="showed" toID="E11" toText="A repeat CT" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="E12" fromText="the diffuse subarachnoid hemorrhage" toID="E39" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL37" fromID="E13" fromText="a new cerebellar hemorrhage" toID="E39" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL38" fromID="E41" fromText="informed" toID="E39" toText="showed" type="AFTER" />
+<TLINK id="TL39" fromID="E14" fromText="repeat scan" toID="E41" toText="informed" type="AFTER" />
+<TLINK id="TL4" fromID="E44" fromText="unresponsive" toID="T4" toText="lunch" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E40" fromText="the decision" toID="E14" toText="repeat scan" type="AFTER" />
+<TLINK id="TL42" fromID="E15" fromText="comfort measures only" toID="E40" toText="the decision" type="BEGUN_BY" />
+<TLINK id="TL43" fromID="E15" fromText="comfort measures only" toID="E43" toText="passed away" type="ENDED_BY" />
+<TLINK id="TL44" fromID="E16" fromText="a Morphine drip" toID="E15" toText="comfort measures only" type="OVERLAP" />
+<TLINK id="TL45" fromID="E42" fromText="extubated" toID="E15" toText="comfort measures only" type="OVERLAP" />
+<TLINK id="TL46" fromID="E43" fromText="passed away" toID="T0" toText="10:55 a.m." type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E21" fromText="an unwitnessed fall" toID="E44" toText="unresponsive" type="BEFORE" />
+<TLINK id="TL6" fromID="E23" fromText="recent illness" toID="E22" toText="headaches" type="OVERLAP" />
+<TLINK id="TL7" fromID="E22" fromText="headaches" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL8" fromID="E24" fromText="unresponsive" toID="E44" toText="unresponsive" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="E26" fromText="arrival" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="Sectime0" fromID="E37" fromText="showed" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E9" fromText="diffuse subarachnoid hemorrhage" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E10" fromText="intraventricular blood" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E38" fromText="an aneurysm" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E11" fromText="A repeat CT" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E39" fromText="showed" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E12" fromText="the diffuse subarachnoid hemorrhage" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E13" fromText="a new cerebellar hemorrhage" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E41" fromText="informed" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E14" fromText="repeat scan" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E40" fromText="the decision" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E15" fromText="comfort measures only" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E16" fromText="a Morphine drip" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E42" fromText="extubated" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E43" fromText="passed away" toID="T2" toText="2011-09-27" type="OVERLAP" />
+<TLINK id="Sectime0" fromID="E44" fromText="unresponsive" toID="T1" toText="2011-09-24" type="OVERLAP" />
+<TLINK id="Sectime1" fromID="E21" fromText="an unwitnessed fall" toID="T1" toText="2011-09-24" type="OVERLAP" />
+<TLINK id="Sectime2" fromID="E22" fromText="headaches" toID="T1" toText="2011-09-24" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime3" fromID="E23" fromText="recent illness" toID="T1" toText="2011-09-24" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime4" fromID="E24" fromText="unresponsive" toID="T1" toText="2011-09-24" type="OVERLAP" />
+<TLINK id="Sectime5" fromID="E25" fromText="Systolic blood pressure" toID="T1" toText="2011-09-24" type="OVERLAP" />
+<TLINK id="Sectime6" fromID="E26" fromText="arrival" toID="T1" toText="2011-09-24" type="OVERLAP" />
+<TLINK id="Sectime7" fromID="E27" fromText="the Mass. Eye & Ear Infirmary Emergency Department" toID="T1" toText="2011-09-24" type="OVERLAP" />
+<TLINK id="Sectime8" fromID="E28" fromText="intubated" toID="T1" toText="2011-09-24" type="OVERLAP" />
+<TLINK id="Sectime9" fromID="E29" fromText="Versed" toID="T1" toText="2011-09-24" type="OVERLAP" />
+<TLINK id="Sectime10" fromID="E30" fromText="Fentanyl" toID="T1" toText="2011-09-24" type="OVERLAP" />
+<TLINK id="Sectime11" fromID="E31" fromText="His GCS" toID="T1" toText="2011-09-24" type="OVERLAP" />
+<TLINK id="Sectime12" fromID="E32" fromText="arrival" toID="T1" toText="2011-09-24" type="OVERLAP" />
+<TLINK id="Sectime13" fromID="E33" fromText="the Emergency Department" toID="T1" toText="2011-09-24" type="OVERLAP" />
+<TLINK id="Sectime15" fromID="E18" fromText="admitted" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E19" fromText="the Neuro Surgical Intensive Care Unit" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E34" fromText="close monitoring" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E1" fromText="Neuro-checks" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E2" fromText="A Vent drain" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E3" fromText="platelets" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E20" fromText="His Intensive Care Unit" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E35" fromText="unremarkable" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E4" fromText="His neurologic exam" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E36" fromText="change" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E5" fromText="His ICPs" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E6" fromText="the Nipride drip" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E7" fromText="extensive posturing" toID="T2" toText="2011-09-27" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E8" fromText="A CTA" toID="T2" toText="2011-09-27" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2011-09-24" type="ADMISSION" dvalue="2011-09-24" />
+<SECTIME id="S1" start="46" end="56" text="2011-09-27" type="DISCHARGE" dvalue="2011-09-27" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

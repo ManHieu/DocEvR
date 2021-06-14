@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+12/13/2002
+DISCHARGE DATE :
+12/14/2002
+HISTORY OF PRESENT ILLNESS :
+The patient is a 30 -year-old Gravida III , Para II who presented desiring definitive surgical sterilization .
+She was extensively counseled regarding other methods of birth control and desired to proceed with definitive surgical therapy .
+In addition , the patient desired liposuction of varying areas as well .
+The patient was consented for both procedures and brought to the Operating Room .
+HOSPITAL COURSE AND TREATMENT :
+The patient was admitted to the Operating Room where she underwent an unremarkable laparoscopic tubal ligation .
+This was done with Falope rings .
+The estimated blood loss was minimal and the patient received 600 cc. of intravenous fluid .
+Of note , the patient had a negative urine pregnancy test prior to the surgery .
+The patient then underwent liposuction of her abdomen , inner thighs , hips , flanks , chest and arms with Dr. Chain .
+She did well and was admitted to the GYN Service postoperatively because the patient had persistent pain .
+On postoperative day #one , she was then stable with no complaints .
+She remained afebrile .
+Her Foley was removed .
+Her diet was advanced without difficulty and the patient was stable for discharge .
+The patient was to follow up in several days time with Dr. Chain of the Plastics Clinic .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="1042" end="1057" text="persistent pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="1101" end="1107" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1116" end="1126" text="complaints" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E30" start="1142" end="1150" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1153" end="1162" text="Her Foley" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E3" start="116" end="123" text="Gravida" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1190" end="1198" text="advanced" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="1207" end="1217" text="difficulty" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E34" start="1238" end="1244" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1249" end="1258" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1280" end="1289" text="follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="130" end="134" text="Para" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1329" end="1348" text="the Plastics Clinic" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E4" start="142" end="151" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E5" start="161" end="194" text="definitive surgical sterilization" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="205" end="226" text="extensively counseled" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="237" end="250" text="other methods" modality="PROPOSED" polarity="NEG" type="TREATMENT" />
+<EVENT id="E8" start="254" end="267" text="birth control" modality="PROPOSED" polarity="NEG" type="TREATMENT" />
+<EVENT id="E1" start="29" end="38" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="296" end="323" text="definitive surgical therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="360" end="388" text="liposuction of varying areas" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="415" end="424" text="consented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="429" end="444" text="both procedures" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="460" end="478" text="the Operating Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E14" start="529" end="537" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="541" end="559" text="the Operating Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E17" start="580" end="623" text="an unremarkable laparoscopic tubal ligation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="645" end="657" text="Falope rings" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="660" end="684" text="The estimated blood loss" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="733" end="750" text="intravenous fluid" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="790" end="810" text="urine pregnancy test" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E22" start="820" end="831" text="the surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="861" end="935" text="liposuction of her abdomen , inner thighs , hips , flanks , chest and arms" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="957" end="965" text="did well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="974" end="982" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="986" end="1001" text="the GYN Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<TIMEX3 id="T2" start="1063" end="1085" text="postoperative day #one" type="DATE" val="2002-12-14" mod="NA" />
+<TIMEX3 id="T3" start="1293" end="1305" text="several days" type="DURATION" val="p3d" mod="APPROX" />
+<TIMEX3 id="T0" start="18" end="28" text="12/13/2002" type="DATE" val="2002-12-13" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="12/14/2002" type="DATE" val="2002-12-14" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T0" toText="12/13/2002" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E1" fromText="DISCHARGE" toID="T1" toText="12/14/2002" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E12" fromText="both procedures" toID="E10" toText="liposuction of varying areas" type="SIMULTANEOUS" />
+<TLINK id="TL11" fromID="E12" fromText="both procedures" toID="E9" toText="definitive surgical therapy" type="SIMULTANEOUS" />
+<TLINK id="TL12" fromID="E9" fromText="definitive surgical therapy" toID="E13" toText="the Operating Room" type="DURING" />
+<TLINK id="TL13" fromID="E10" fromText="liposuction of varying areas" toID="E13" toText="the Operating Room" type="DURING" />
+<TLINK id="TL14" fromID="E14" fromText="admitted" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E15" fromText="the Operating Room" toID="E14" toText="admitted" type="AFTER" />
+<TLINK id="TL16" fromID="E15" fromText="the Operating Room" toID="E13" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL17" fromID="E17" fromText="an unremarkable laparoscopic tubal ligation" toID="E15" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL18" fromID="E18" fromText="Falope rings" toID="E17" toText="an unremarkable laparoscopic tubal ligation" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E19" fromText="The estimated blood loss" toID="E15" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL2" fromID="E3" fromText="Gravida" toID="E4" toText="presented" type="BEFORE" />
+<TLINK id="TL20" fromID="E20" fromText="intravenous fluid" toID="E15" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL21" fromID="E21" fromText="urine pregnancy test" toID="E22" toText="the surgery" type="BEFORE" />
+<TLINK id="TL22" fromID="E22" fromText="the surgery" toID="E12" toText="both procedures" type="SIMULTANEOUS" />
+<TLINK id="TL23" fromID="E23" fromText="liposuction of her abdomen , inner thighs , hips , flanks , chest and arms" toID="E10" toText="liposuction of varying areas" type="SIMULTANEOUS" />
+<TLINK id="TL24" fromID="E15" fromText="the Operating Room" toID="E25" toText="admitted" type="BEFORE" />
+<TLINK id="TL25" fromID="E26" fromText="the GYN Service" toID="E25" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL26" fromID="E24" fromText="did well" toID="E25" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL27" fromID="E27" fromText="persistent pain" toID="E22" toText="the surgery" type="AFTER" />
+<TLINK id="TL28" fromID="E31" fromText="Her Foley" toID="T2" toText="postoperative day #one" type="ENDED_BY" />
+<TLINK id="TL29" fromID="T2" fromText="postoperative day #one" toID="E28" toText="stable" type="OVERLAP" />
+<TLINK id="TL3" fromID="E2" fromText="Para" toID="E4" toText="presented" type="BEFORE" />
+<TLINK id="TL30" fromID="E28" fromText="stable" toID="E29" toText="complaints" type="OVERLAP" />
+<TLINK id="TL31" fromID="E30" fromText="afebrile" toID="T2" toText="postoperative day #one" type="BEFORE_OVERLAP" />
+<TLINK id="TL32" fromID="E31" fromText="Her Foley" toID="E22" toText="the surgery" type="BEGUN_BY" />
+<TLINK id="TL33" fromID="E32" fromText="advanced" toID="T2" toText="postoperative day #one" type="OVERLAP" />
+<TLINK id="TL34" fromID="E33" fromText="difficulty" toID="E32" toText="advanced" type="OVERLAP" />
+<TLINK id="TL35" fromID="E34" fromText="stable" toID="E35" toText="discharge" type="BEFORE_OVERLAP" />
+<TLINK id="TL36" fromID="E35" fromText="discharge" toID="E1" toText="DISCHARGE" type="SIMULTANEOUS" />
+<TLINK id="TL37" fromID="T3" fromText="several days" toID="E35" toText="discharge" type="BEGUN_BY" />
+<TLINK id="TL38" fromID="T3" fromText="several days" toID="E36" toText="follow up" type="ENDED_BY" />
+<TLINK id="TL39" fromID="E37" fromText="the Plastics Clinic" toID="E36" toText="follow up" type="OVERLAP" />
+<TLINK id="TL4" fromID="E4" fromText="presented" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL5" fromID="E6" fromText="extensively counseled" toID="E5" toText="definitive surgical sterilization" type="BEFORE" />
+<TLINK id="TL6" fromID="E8" fromText="birth control" toID="E9" toText="definitive surgical therapy" type="BEFORE_OVERLAP" />
+<TLINK id="TL7" fromID="E9" fromText="definitive surgical therapy" toID="E5" toText="definitive surgical sterilization" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E10" fromText="liposuction of varying areas" toID="E9" toText="definitive surgical therapy" type="OVERLAP" />
+<TLINK id="TL9" fromID="E11" fromText="consented" toID="E12" toText="both procedures" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="12/13/2002" type="ADMISSION" dvalue="2002-12-13" />
+<SECTIME id="S1" start="46" end="56" text="12/14/2002" type="DISCHARGE" dvalue="2002-12-14" />
+<TLINK id="SECTIME0" fromID="E27" fromText="persistent pain" toID="T1" toText="12/14/2002" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E28" fromText="stable" toID="T1" toText="12/14/2002" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E29" fromText="complaints" toID="T1" toText="12/14/2002" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E30" fromText="afebrile" toID="T1" toText="12/14/2002" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E31" fromText="Her Foley" toID="T1" toText="12/14/2002" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E3" fromText="Gravida" toID="T0" toText="12/13/2002" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E32" fromText="advanced" toID="T1" toText="12/14/2002" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E33" fromText="difficulty" toID="T1" toText="12/14/2002" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E34" fromText="stable" toID="T1" toText="12/14/2002" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E35" fromText="discharge" toID="T1" toText="12/14/2002" type="OVERLAP" />
+<TLINK id="SECTIME10" fromID="E36" fromText="follow up" toID="T1" toText="12/14/2002" type="AFTER" />
+<TLINK id="SECTIME11" fromID="E2" fromText="Para" toID="T0" toText="12/13/2002" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E37" fromText="the Plastics Clinic" toID="T1" toText="12/14/2002" type="AFTER" />
+<TLINK id="SECTIME13" fromID="E4" fromText="presented" toID="T0" toText="12/13/2002" type="OVERLAP" />
+<TLINK id="SECTIME14" fromID="E5" fromText="definitive surgical sterilization" toID="T0" toText="12/13/2002" type="AFTER" />
+<TLINK id="SECTIME15" fromID="E6" fromText="extensively counseled" toID="T0" toText="12/13/2002" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E7" fromText="other methods" toID="T0" toText="12/13/2002" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E8" fromText="birth control" toID="T0" toText="12/13/2002" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E9" fromText="definitive surgical therapy" toID="T0" toText="12/13/2002" type="AFTER" />
+<TLINK id="SECTIME19" fromID="E10" fromText="liposuction of varying areas" toID="T0" toText="12/13/2002" type="AFTER" />
+<TLINK id="SECTIME20" fromID="E11" fromText="consented" toID="T0" toText="12/13/2002" type="AFTER" />
+<TLINK id="SECTIME21" fromID="E12" fromText="both procedures" toID="T0" toText="12/13/2002" type="AFTER" />
+<TLINK id="SECTIME22" fromID="E13" fromText="the Operating Room" toID="T0" toText="12/13/2002" type="AFTER" />
+<TLINK id="SECTIME23" fromID="E14" fromText="admitted" toID="T1" toText="12/14/2002" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E15" fromText="the Operating Room" toID="T1" toText="12/14/2002" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E17" fromText="an unremarkable laparoscopic tubal ligation" toID="T1" toText="12/14/2002" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E18" fromText="Falope rings" toID="T1" toText="12/14/2002" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E19" fromText="The estimated blood loss" toID="T1" toText="12/14/2002" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E20" fromText="intravenous fluid" toID="T1" toText="12/14/2002" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E21" fromText="urine pregnancy test" toID="T1" toText="12/14/2002" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E22" fromText="the surgery" toID="T1" toText="12/14/2002" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E23" fromText="liposuction of her abdomen , inner thighs , hips , flanks , chest and arms" toID="T1" toText="12/14/2002" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E24" fromText="did well" toID="T1" toText="12/14/2002" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E25" fromText="admitted" toID="T1" toText="12/14/2002" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E26" fromText="the GYN Service" toID="T1" toText="12/14/2002" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

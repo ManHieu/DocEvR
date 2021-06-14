@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2010-05-17
+Discharge Date :
+2010-05-29
+Service :
+HISTORY OF PRESENT ILLNESS :
+HISTORY OF PRESENT ILLNESS :
+This is an 86-year-old female with a past medical history of diabetes and hypertension who presented to the Emergency Department with a two day history of shortness of breath and easy fatigability .
+She also noted increased dyspnea on exertion .
+Prior to this patient could walk upstairs but now cannot .
+She denies chest pain , orthopnea , paroxysmal nocturnal dyspnea .
+However , the patient has noted some abdominal pain , intermittent times a couple of days , none on the day of admission .
+Denied nausea , vomiting , diaphoresis , bowel movement changes .
+She has noted increased urinary frequency .
+Denies fever or chills .
+Of note , she has had recent medication changes which included discontinuing Diovan and starting terazosin .
+HOSPITAL COURSE :
+The patient was admitted to the Cardiac Medicine Service and treated for presumed diastolic and systolic dysfunction .
+Echocardiogram was obtained which showed moderately depressed left ventricular systolic function as well as hypokinesis of the lower half of septum and apex .
+Also of note was the distal lateral wall hypokinesis .
+The wall motion abnormalities were noted to be new .
+It was believed that a troponin on admission in addition to the wall motion abnormalities she underwent a non-Q wave myocardial infarction prior to resulted in her current cardiac failure .
+Throughout hospital course patient 's troponin trended down to less than 0.3 .
+Heart Failure Service was involved .
+She was continued with aggressive diuresis .
+She was started on _________ with excellent diuresis , however , her renal functioning worsening .
+A cardiac catheterization was deferred until the renal issue could be resolved .
+However , her creatinine continued to increase .
+Diuresis was halted and without improvement in creatinine .
+Renal was consulted .
+A renal ultrasound was obtained .
+It showed a right kidney size of 6.3 cm and a left kidney size of 8.4 cm .
+Given her hypertension which was very difficult to control , it was felt that she had renal artery stenosis and thus she underwent MRA of the kidney which showed severe right renal artery stenosis at its origin .
+There was also moderate to severe focal stenosis of the left renal artery approximately 1.3 cm from its origin .
+Dr. ______________ consulted on the case .
+She was transferred to the unit overnight to assess volume which was noted to be optimal .
+On 05-25 she underwent catheterization and subsequent stenting of the left renal artery .
+Due to dye load required to assess the coronary disease were not visualized .
+After the procedure the patient did well .
+However , her creatinine has worsened up to 4.2 .
+However , her urine output has improved .
+She has not required hemodialysis at this time .
+She will need close follow up of her renal functioning .
+The patient is discharged to an extended discharge facility .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="1001" end="1015" text="Echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="1035" end="1041" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E20" start="1042" end="1097" text="moderately depressed left ventricular systolic function" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1109" end="1157" text="hypokinesis of the lower half of septum and apex" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="1177" end="1212" text="the distal lateral wall hypokinesis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="1215" end="1244" text="The wall motion abnormalities" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1289" end="1299" text="a troponin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="1303" end="1312" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="1328" end="1357" text="the wall motion abnormalities" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="1372" end="1406" text="a non-Q wave myocardial infarction" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="1428" end="1455" text="her current cardiac failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="1469" end="1484" text="hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="1485" end="1504" text="patient 's troponin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E68" start="1537" end="1558" text="Heart Failure Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E28" start="1597" end="1616" text="aggressive diuresis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="1663" end="1671" text="diuresis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="1684" end="1715" text="her renal functioning worsening" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="1718" end="1743" text="A cardiac catheterization" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E29" start="1763" end="1778" text="the renal issue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="1809" end="1823" text="her creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="1837" end="1845" text="increase" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="1848" end="1856" text="Diuresis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="186" end="194" text="diabetes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="1880" end="1891" text="improvement" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E30" start="1895" end="1905" text="creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E76" start="1908" end="1913" text="Renal" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E77" start="1918" end="1927" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="1930" end="1948" text="A renal ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E78" start="1967" end="1973" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E32" start="1974" end="1993" text="a right kidney size" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="199" end="211" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="2008" end="2026" text="a left kidney size" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="2045" end="2061" text="her hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="2125" end="2146" text="renal artery stenosis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="216" end="225" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="2170" end="2187" text="MRA of the kidney" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E80" start="2194" end="2200" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E36" start="2201" end="2235" text="severe right renal artery stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="2267" end="2325" text="moderate to severe focal stenosis of the left renal artery" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="229" end="253" text="the Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E81" start="2416" end="2427" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E82" start="2431" end="2439" text="the unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E38" start="2460" end="2466" text="volume" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E83" start="2477" end="2482" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E39" start="2522" end="2537" text="catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="2542" end="2586" text="subsequent stenting of the left renal artery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="2596" end="2604" text="dye load" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="2624" end="2644" text="the coronary disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="2673" end="2686" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E84" start="2703" end="2707" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E85" start="2720" end="2734" text="her creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="2739" end="2747" text="worsened" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="2770" end="2786" text="her urine output" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="280" end="299" text="shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E86" start="2791" end="2799" text="improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="2823" end="2835" text="hemodialysis" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E88" start="2871" end="2880" text="follow up" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E89" start="2884" end="2905" text="her renal functioning" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E90" start="2923" end="2933" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="304" end="321" text="easy fatigability" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="333" end="338" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E5" start="339" end="356" text="increased dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="393" end="412" text="could walk upstairs" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="421" end="427" text="cannot" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="434" end="440" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E6" start="441" end="451" text="chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E7" start="454" end="463" text="orthopnea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E8" start="466" end="494" text="paroxysmal nocturnal dyspnea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E54" start="523" end="528" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E55" start="534" end="548" text="abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="608" end="617" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="620" end="626" text="Denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E59" start="627" end="633" text="nausea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E9" start="636" end="644" text="vomiting" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E10" start="647" end="658" text="diaphoresis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E11" start="661" end="683" text="bowel movement changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E60" start="694" end="699" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E12" start="700" end="727" text="increased urinary frequency" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="730" end="736" text="Denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E13" start="737" end="742" text="fever" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E14" start="746" end="752" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E15" start="777" end="802" text="recent medication changes" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="832" end="838" text="Diovan" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="852" end="861" text="terazosin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="898" end="906" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="910" end="938" text="the Cardiac Medicine Service" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="943" end="950" text="treated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="964" end="998" text="diastolic and systolic dysfunction" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T1" start="18" end="28" text="2010-05-17" type="DATE" val="2010-05-17" mod="NA" />
+<TIMEX3 id="T6" start="2440" end="2449" text="overnight" type="DURATION" val="PT12H" mod="NA" />
+<TIMEX3 id="T7" start="2502" end="2507" text="05-25" type="DATE" val="2010-05-25" mod="NA" />
+<TIMEX3 id="T0" start="259" end="268" text="a two day" type="DURATION" val="P2D" mod="NA" />
+<TIMEX3 id="T8" start="2839" end="2848" text="this time" type="DATE" val="2010-05-29" mod="NA" />
+<TIMEX3 id="T3" start="417" end="420" text="now" type="DATE" val="2010-05-17" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2010-05-29" type="DATE" val="2010-05-29" mod="NA" />
+<TIMEX3 id="T4" start="570" end="586" text="a couple of days" type="DURATION" val="P2D" mod="APPROX" />
+<TIMEX3 id="T5" start="597" end="604" text="the day" type="DATE" val="2010-05-17" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="2010-05-17" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E24" fromText="a troponin" toID="E27" toText="patient 's troponin" type="simultaneous" />
+<TLINK id="TL10" fromID="T0" fromText="a two day" toID="E0" toText="Admission" type="ENDED_BY" />
+<TLINK id="TL100" fromID="E41" fromText="dye load" toID="E39" toText="catheterization" type="SIMULTANEOUS" />
+<TLINK id="TL101" fromID="E42" fromText="the coronary disease" toID="E41" toText="dye load" type="BEFORE_OVERLAP" />
+<TLINK id="TL102" fromID="E43" fromText="the procedure" toID="E39" toText="catheterization" type="SIMULTANEOUS" />
+<TLINK id="TL103" fromID="E84" fromText="well" toID="E43" toText="the procedure" type="AFTER" />
+<TLINK id="TL104" fromID="E85" fromText="her creatinine" toID="E84" toText="well" type="OVERLAP" />
+<TLINK id="TL105" fromID="E44" fromText="worsened" toID="E85" toText="her creatinine" type="SIMULTANEOUS" />
+<TLINK id="TL106" fromID="E45" fromText="her urine output" toID="E85" toText="her creatinine" type="OVERLAP" />
+<TLINK id="TL107" fromID="E86" fromText="improved" toID="E45" toText="her urine output" type="SIMULTANEOUS" />
+<TLINK id="TL108" fromID="E87" fromText="hemodialysis" toID="T8" toText="this time" type="SIMULTANEOUS" />
+<TLINK id="TL109" fromID="E90" fromText="discharged" toID="E46" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL11" fromID="E46" fromText="Discharge" toID="T2" toText="2010-05-29" type="SIMULTANEOUS" />
+<TLINK id="TL110" fromID="T8" fromText="this time" toID="E90" toText="discharged" type="SIMULTANEOUS" />
+<TLINK id="TL111" fromID="E88" fromText="follow up" toID="E90" toText="discharged" type="AFTER" />
+<TLINK id="TL112" fromID="E89" fromText="her renal functioning" toID="E88" toText="follow up" type="BEFORE_OVERLAP" />
+<TLINK id="TL13" fromID="E1" fromText="diabetes" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL14" fromID="E48" fromText="presented" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E49" fromText="the Emergency Department" toID="E48" toText="presented" type="BEGUN_BY" />
+<TLINK id="TL16" fromID="E3" fromText="shortness of breath" toID="T0" toText="a two day" type="OVERLAP" />
+<TLINK id="TL17" fromID="E4" fromText="easy fatigability" toID="E3" toText="shortness of breath" type="OVERLAP" />
+<TLINK id="TL18" fromID="E50" fromText="noted" toID="E48" toText="presented" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E5" fromText="increased dyspnea" toID="E50" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="E22" fromText="the distal lateral wall hypokinesis" toID="E23" toText="The wall motion abnormalities" type="simultaneous" />
+<TLINK id="TL20" fromID="E51" fromText="could walk upstairs" toID="E5" toText="increased dyspnea" type="BEFORE" />
+<TLINK id="TL21" fromID="T3" fromText="now" toID="E48" toText="presented" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E52" fromText="cannot" toID="E51" toText="could walk upstairs" type="AFTER" />
+<TLINK id="TL23" fromID="E52" fromText="cannot" toID="T3" toText="now" type="BEFORE_OVERLAP" />
+<TLINK id="TL24" fromID="E53" fromText="denies" toID="E50" toText="noted" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E6" fromText="chest pain" toID="E53" toText="denies" type="BEFORE_OVERLAP" />
+<TLINK id="TL26" fromID="E7" fromText="orthopnea" toID="E6" toText="chest pain" type="OVERLAP" />
+<TLINK id="TL27" fromID="E8" fromText="paroxysmal nocturnal dyspnea" toID="E7" toText="orthopnea" type="OVERLAP" />
+<TLINK id="TL28" fromID="E54" fromText="noted" toID="E53" toText="denies" type="SIMULTANEOUS" />
+<TLINK id="TL29" fromID="E55" fromText="abdominal pain" toID="E54" toText="noted" type="BEFORE" />
+<TLINK id="TL3" fromID="E23" fromText="The wall motion abnormalities" toID="E25" toText="the wall motion abnormalities" type="simultaneous" />
+<TLINK id="TL30" fromID="E55" fromText="abdominal pain" toID="T4" toText="a couple of days" type="DURING" />
+<TLINK id="TL31" fromID="T5" fromText="the day" toID="E56" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL32" fromID="E56" fromText="admission" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL33" fromID="E55" fromText="abdominal pain" toID="T5" toText="the day" type="BEFORE" />
+<TLINK id="TL34" fromID="E57" fromText="Denied" toID="E54" toText="noted" type="SIMULTANEOUS" />
+<TLINK id="TL35" fromID="E59" fromText="nausea" toID="E57" toText="Denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL36" fromID="E9" fromText="vomiting" toID="E59" toText="nausea" type="OVERLAP" />
+<TLINK id="TL37" fromID="E10" fromText="diaphoresis" toID="E9" toText="vomiting" type="OVERLAP" />
+<TLINK id="TL38" fromID="E11" fromText="bowel movement changes" toID="E10" toText="diaphoresis" type="OVERLAP" />
+<TLINK id="TL39" fromID="E60" fromText="noted" toID="E57" toText="Denied" type="SIMULTANEOUS" />
+<TLINK id="TL4" fromID="E3" fromText="shortness of breath" toID="E5" toText="increased dyspnea" type="simultaneous" />
+<TLINK id="TL40" fromID="E12" fromText="increased urinary frequency" toID="E60" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL41" fromID="E61" fromText="Denies" toID="E60" toText="noted" type="SIMULTANEOUS" />
+<TLINK id="TL42" fromID="E13" fromText="fever" toID="E61" toText="Denies" type="BEFORE_OVERLAP" />
+<TLINK id="TL43" fromID="E14" fromText="chills" toID="E13" toText="fever" type="OVERLAP" />
+<TLINK id="TL44" fromID="E15" fromText="recent medication changes" toID="E61" toText="Denies" type="BEFORE" />
+<TLINK id="TL45" fromID="E16" fromText="Diovan" toID="E15" toText="recent medication changes" type="ENDED_BY" />
+<TLINK id="TL46" fromID="E17" fromText="terazosin" toID="E15" toText="recent medication changes" type="BEGUN_BY" />
+<TLINK id="TL47" fromID="E63" fromText="the Cardiac Medicine Service" toID="E62" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL48" fromID="E64" fromText="treated" toID="E63" toText="the Cardiac Medicine Service" type="BEGUN_BY" />
+<TLINK id="TL49" fromID="E18" fromText="diastolic and systolic dysfunction" toID="E64" toText="treated" type="ENDED_BY" />
+<TLINK id="TL5" fromID="E40" fromText="subsequent stenting of the left renal artery" toID="E43" toText="the procedure" type="simultaneous" />
+<TLINK id="TL50" fromID="E19" fromText="Echocardiogram" toID="E63" toText="the Cardiac Medicine Service" type="DURING" />
+<TLINK id="TL51" fromID="E65" fromText="showed" toID="E19" toText="Echocardiogram" type="SIMULTANEOUS" />
+<TLINK id="TL52" fromID="E20" fromText="moderately depressed left ventricular systolic function" toID="E65" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL53" fromID="E21" fromText="hypokinesis of the lower half of septum and apex" toID="E20" toText="moderately depressed left ventricular systolic function" type="OVERLAP" />
+<TLINK id="TL54" fromID="E22" fromText="the distal lateral wall hypokinesis" toID="E21" toText="hypokinesis of the lower half of septum and apex" type="OVERLAP" />
+<TLINK id="TL55" fromID="E23" fromText="The wall motion abnormalities" toID="E22" toText="the distal lateral wall hypokinesis" type="SIMULTANEOUS" />
+<TLINK id="TL56" fromID="E47" fromText="admission" toID="E62" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL57" fromID="E24" fromText="a troponin" toID="E47" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL58" fromID="E25" fromText="the wall motion abnormalities" toID="E24" toText="a troponin" type="BEFORE_OVERLAP" />
+<TLINK id="TL59" fromID="E25" fromText="the wall motion abnormalities" toID="E23" toText="The wall motion abnormalities" type="SIMULTANEOUS" />
+<TLINK id="TL6" fromID="E1" fromText="diabetes" toID="E2" toText="hypertension" type="OVERLAP" />
+<TLINK id="TL60" fromID="E66" fromText="a non-Q wave myocardial infarction" toID="E25" toText="the wall motion abnormalities" type="OVERLAP" />
+<TLINK id="TL61" fromID="E26" fromText="her current cardiac failure" toID="E66" toText="a non-Q wave myocardial infarction" type="AFTER" />
+<TLINK id="TL62" fromID="E67" fromText="hospital course" toID="E0" toText="Admission" type="BEGUN_BY" />
+<TLINK id="TL63" fromID="E67" fromText="hospital course" toID="E46" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL64" fromID="E27" fromText="patient 's troponin" toID="E67" toText="hospital course" type="OVERLAP" />
+<TLINK id="TL65" fromID="E68" fromText="Heart Failure Service" toID="E67" toText="hospital course" type="DURING" />
+<TLINK id="TL66" fromID="E28" fromText="aggressive diuresis" toID="E27" toText="patient 's troponin" type="OVERLAP" />
+<TLINK id="TL67" fromID="E69" fromText="diuresis" toID="E28" toText="aggressive diuresis" type="OVERLAP" />
+<TLINK id="TL68" fromID="E70" fromText="her renal functioning worsening" toID="E69" toText="diuresis" type="AFTER" />
+<TLINK id="TL69" fromID="E71" fromText="A cardiac catheterization" toID="E70" toText="her renal functioning worsening" type="AFTER" />
+<TLINK id="TL70" fromID="E29" fromText="the renal issue" toID="E70" toText="her renal functioning worsening" type="SIMULTANEOUS" />
+<TLINK id="TL71" fromID="E72" fromText="her creatinine" toID="E29" toText="the renal issue" type="OVERLAP" />
+<TLINK id="TL72" fromID="E73" fromText="increase" toID="E72" toText="her creatinine" type="OVERLAP" />
+<TLINK id="TL73" fromID="E74" fromText="Diuresis" toID="E73" toText="increase" type="ENDED_BY" />
+<TLINK id="TL74" fromID="E74" fromText="Diuresis" toID="E28" toText="aggressive diuresis" type="SIMULTANEOUS" />
+<TLINK id="TL75" fromID="E75" fromText="improvement" toID="E74" toText="Diuresis" type="SIMULTANEOUS" />
+<TLINK id="TL76" fromID="E30" fromText="creatinine" toID="E75" toText="improvement" type="SIMULTANEOUS" />
+<TLINK id="TL77" fromID="E76" fromText="Renal" toID="E74" toText="Diuresis" type="AFTER" />
+<TLINK id="TL78" fromID="E77" fromText="consulted" toID="E76" toText="Renal" type="SIMULTANEOUS" />
+<TLINK id="TL79" fromID="E31" fromText="A renal ultrasound" toID="E77" toText="consulted" type="AFTER" />
+<TLINK id="TL80" fromID="E78" fromText="showed" toID="E31" toText="A renal ultrasound" type="SIMULTANEOUS" />
+<TLINK id="TL81" fromID="E32" fromText="a right kidney size" toID="E78" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL82" fromID="E33" fromText="a left kidney size" toID="E32" toText="a right kidney size" type="OVERLAP" />
+<TLINK id="TL83" fromID="E34" fromText="her hypertension" toID="E31" toText="A renal ultrasound" type="BEFORE_OVERLAP" />
+<TLINK id="TL84" fromID="E79" fromText="renal artery stenosis" toID="E34" toText="her hypertension" type="OVERLAP" />
+<TLINK id="TL85" fromID="E79" fromText="renal artery stenosis" toID="E35" toText="MRA of the kidney" type="BEFORE_OVERLAP" />
+<TLINK id="TL86" fromID="E35" fromText="MRA of the kidney" toID="E31" toText="A renal ultrasound" type="AFTER" />
+<TLINK id="TL87" fromID="E80" fromText="showed" toID="E35" toText="MRA of the kidney" type="SIMULTANEOUS" />
+<TLINK id="TL88" fromID="E36" fromText="severe right renal artery stenosis" toID="E80" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL89" fromID="E36" fromText="severe right renal artery stenosis" toID="E79" toText="renal artery stenosis" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="E62" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL90" fromID="E37" fromText="moderate to severe focal stenosis of the left renal artery" toID="E36" toText="severe right renal artery stenosis" type="OVERLAP" />
+<TLINK id="TL91" fromID="E81" fromText="transferred" toID="E80" toText="showed" type="AFTER" />
+<TLINK id="TL92" fromID="E82" fromText="the unit" toID="T6" toText="overnight" type="DURING" />
+<TLINK id="TL93" fromID="E82" fromText="the unit" toID="E81" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL94" fromID="E38" fromText="volume" toID="E82" toText="the unit" type="DURING" />
+<TLINK id="TL95" fromID="E83" fromText="noted" toID="E38" toText="volume" type="SIMULTANEOUS" />
+<TLINK id="TL96" fromID="T7" fromText="05-25" toID="E81" toText="transferred" type="AFTER" />
+<TLINK id="TL97" fromID="T7" fromText="05-25" toID="E46" toText="Discharge" type="BEFORE" />
+<TLINK id="TL98" fromID="E39" fromText="catheterization" toID="T7" toText="05-25" type="SIMULTANEOUS" />
+<TLINK id="TL99" fromID="E40" fromText="subsequent stenting of the left renal artery" toID="E39" toText="catheterization" type="AFTER" />
+<TLINK id="Sectime0" fromID="E19" fromText="Echocardiogram" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E65" fromText="showed" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E20" fromText="moderately depressed left ventricular systolic function" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E21" fromText="hypokinesis of the lower half of septum and apex" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E22" fromText="the distal lateral wall hypokinesis" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E23" fromText="The wall motion abnormalities" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E24" fromText="a troponin" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E47" fromText="admission" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E25" fromText="the wall motion abnormalities" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E66" fromText="a non-Q wave myocardial infarction" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E26" fromText="her current cardiac failure" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E67" fromText="hospital course" toID="T2" toText="2010-05-29" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime12" fromID="E27" fromText="patient 's troponin" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E68" fromText="Heart Failure Service" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E28" fromText="aggressive diuresis" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E69" fromText="diuresis" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E70" fromText="her renal functioning worsening" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E71" fromText="A cardiac catheterization" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E29" fromText="the renal issue" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E72" fromText="her creatinine" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E73" fromText="increase" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E74" fromText="Diuresis" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E1" fromText="diabetes" toID="T1" toText="2010-05-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime22" fromID="E75" fromText="improvement" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E30" fromText="creatinine" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E76" fromText="Renal" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E77" fromText="consulted" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E31" fromText="A renal ultrasound" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E78" fromText="showed" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E32" fromText="a right kidney size" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E2" fromText="hypertension" toID="T1" toText="2010-05-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime29" fromID="E33" fromText="a left kidney size" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E34" fromText="her hypertension" toID="T2" toText="2010-05-29" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime31" fromID="E79" fromText="renal artery stenosis" toID="T2" toText="2010-05-29" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime2" fromID="E48" fromText="presented" toID="T1" toText="2010-05-17" type="OVERLAP" />
+<TLINK id="Sectime32" fromID="E35" fromText="MRA of the kidney" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime33" fromID="E80" fromText="showed" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime34" fromID="E36" fromText="severe right renal artery stenosis" toID="T2" toText="2010-05-29" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime35" fromID="E37" fromText="moderate to severe focal stenosis of the left renal artery" toID="T2" toText="2010-05-29" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime3" fromID="E49" fromText="the Emergency Department" toID="T1" toText="2010-05-17" type="OVERLAP" />
+<TLINK id="Sectime36" fromID="E81" fromText="transferred" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime37" fromID="E82" fromText="the unit" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime38" fromID="E38" fromText="volume" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime39" fromID="E83" fromText="noted" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime40" fromID="E39" fromText="catheterization" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime41" fromID="E40" fromText="subsequent stenting of the left renal artery" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime42" fromID="E41" fromText="dye load" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime43" fromID="E42" fromText="the coronary disease" toID="T2" toText="2010-05-29" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime44" fromID="E43" fromText="the procedure" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime45" fromID="E84" fromText="well" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime46" fromID="E85" fromText="her creatinine" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime47" fromID="E44" fromText="worsened" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime48" fromID="E45" fromText="her urine output" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E3" fromText="shortness of breath" toID="T1" toText="2010-05-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime49" fromID="E86" fromText="improved" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime50" fromID="E87" fromText="hemodialysis" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime51" fromID="E88" fromText="follow up" toID="T2" toText="2010-05-29" type="AFTER" />
+<TLINK id="Sectime52" fromID="E89" fromText="her renal functioning" toID="T2" toText="2010-05-29" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime53" fromID="E90" fromText="discharged" toID="T2" toText="2010-05-29" type="OVERLAP" />
+<TLINK id="Sectime5" fromID="E4" fromText="easy fatigability" toID="T1" toText="2010-05-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime6" fromID="E50" fromText="noted" toID="T1" toText="2010-05-17" type="OVERLAP" />
+<TLINK id="Sectime7" fromID="E5" fromText="increased dyspnea" toID="T1" toText="2010-05-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime8" fromID="E51" fromText="could walk upstairs" toID="T1" toText="2010-05-17" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E52" fromText="cannot" toID="T1" toText="2010-05-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime10" fromID="E53" fromText="denies" toID="T1" toText="2010-05-17" type="OVERLAP" />
+<TLINK id="Sectime11" fromID="E6" fromText="chest pain" toID="T1" toText="2010-05-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime12" fromID="E7" fromText="orthopnea" toID="T1" toText="2010-05-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime13" fromID="E8" fromText="paroxysmal nocturnal dyspnea" toID="T1" toText="2010-05-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime14" fromID="E54" fromText="noted" toID="T1" toText="2010-05-17" type="OVERLAP" />
+<TLINK id="Sectime15" fromID="E55" fromText="abdominal pain" toID="T1" toText="2010-05-17" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E56" fromText="admission" toID="T1" toText="2010-05-17" type="OVERLAP" />
+<TLINK id="Sectime17" fromID="E57" fromText="Denied" toID="T1" toText="2010-05-17" type="OVERLAP" />
+<TLINK id="Sectime18" fromID="E59" fromText="nausea" toID="T1" toText="2010-05-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime19" fromID="E9" fromText="vomiting" toID="T1" toText="2010-05-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime20" fromID="E10" fromText="diaphoresis" toID="T1" toText="2010-05-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime21" fromID="E11" fromText="bowel movement changes" toID="T1" toText="2010-05-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime22" fromID="E60" fromText="noted" toID="T1" toText="2010-05-17" type="OVERLAP" />
+<TLINK id="Sectime23" fromID="E12" fromText="increased urinary frequency" toID="T1" toText="2010-05-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime24" fromID="E61" fromText="Denies" toID="T1" toText="2010-05-17" type="OVERLAP" />
+<TLINK id="Sectime25" fromID="E13" fromText="fever" toID="T1" toText="2010-05-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime26" fromID="E14" fromText="chills" toID="T1" toText="2010-05-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime27" fromID="E15" fromText="recent medication changes" toID="T1" toText="2010-05-17" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E16" fromText="Diovan" toID="T1" toText="2010-05-17" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E17" fromText="terazosin" toID="T1" toText="2010-05-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime54" fromID="E62" fromText="admitted" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime55" fromID="E63" fromText="the Cardiac Medicine Service" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime56" fromID="E64" fromText="treated" toID="T2" toText="2010-05-29" type="BEFORE" />
+<TLINK id="Sectime57" fromID="E18" fromText="diastolic and systolic dysfunction" toID="T2" toText="2010-05-29" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2010-05-17" type="ADMISSION" dvalue="2010-05-17" />
+<SECTIME id="S1" start="46" end="56" text="2010-05-29" type="DISCHARGE" dvalue="2010-05-29" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

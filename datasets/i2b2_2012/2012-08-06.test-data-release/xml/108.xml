@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2020-03-11
+Discharge Date :
+2020-03-23
+Service :
+MEDICINE
+History of Present Illness :
+73 yo M transferred from Newton-Wellesley Hospital hospital for epidural abscess .
+Pt has h/o colon can to liver , s/p resxn with serosal implants in 9/03 .
+Pt states he has been receiving chemotherapy up until 1 week ago .
+States he first developed back pain 5 weeks ago but was still able to ambulate with his cane .
+Last week it was worse and he was seen in clinic .
+An MRI was done and this showed a signal abno in L3 L4 ? disciitis vs osteo without a definitive epidural abscess .
+Initially on Vanc and Cipro on Friday but then seen by ID who reccommended no abx but a bone biopsy , blood cx .
+He was also seen by spine who repeated the MRI and this showed L3-4 osteomyelitis and discitis and an epidural abscess , 5cm .
+He was subsequently restared on Vancomycin for Corynebacterium in blood cx from Fri ; Followup cx has been NGTD .
+CXR also showed small pleural effusion and attempt was made to tap it , but pt did not tolerate the procedure and asked that it be deferred .
+He did undergo a CT-guided aspiration / biopsy at the L3-4 disc space on 2020-03-11 and the pt was transferred to Mediplex Rehab Hospital immediately following this .
+No results from this were sent .
+Currently pt denies sensory deficits or weakness .
+States he is not able to walk because of severe pain .
+States pain is worst when he sits up or twists his back .
+No bowel or bladder incontinence .
+Brief Hospital Course :
+73 yo M transferred from Youville Hospital with h/o colon cancer with known liver mets now with epidural abscess and corynebacterium bacteremia :
+# Epidural abscess : The patient was evaluated by orthopedic spine consult service and ID .
+He was continued on IV vancomycin throughout his course and had therapeutic troughs .
+The patient was taken to the OR twice with orthopaedics .
+Please see the operation notes for details about the surgeries .
+The patient was briefly admitted to the ICU for low hematocrit and hyponatremia immediately following the surgery but was then transferred back to the floor in stable condition .
+The patient had a PICC line placed and will continue a 8 week course of antibiotics .
+The patient will also wear a back brace at all times while out of bed .
+# Candidemia :: The patient was noted to have a positive blood culture from 03-12 .
+The patient was started on Diflucan .
+Ophthalmology was consulted and ruled out ocular spread .
+The patient 's portocath was removed .
+The tip was culture negative .
+The patient will get a total of a two week course of Diflucan .
+# Corynebacterium bacteremia : presumably Corynebacterium in epidural abscess as well .
+The patient had no blood cultures to grow corynebacterium while hospitalized .
+# Pleural effusion : The patient was noted have an effusion on CXR .
+IP was consulted and did a thoracentesis .
+The tap was negative for malignant cells .
+A repeat CT was done showing nodular thickening along the right major and minor fissure , concerning for intrapleural tumor implants .
+IP reviewed the films and recommended continue oncologic care according to 
+outpatient course and pleurodesis if the pt becomes symptomatic 02-07 fluid accumulation .
+The patient will follow up with his oncologist .
+# Foot ulcer : diabetic ulcer s/p surgery but never healed .
+Wound care was consulted and made recommendations for ulcer care .
+His dressings were changed by the nursing staff accordingly .
+# Anemia : His HCT remained stable post-surgery .
+The patient was continued on his iron supplements .
+]]></TEXT>
+<TAGS>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

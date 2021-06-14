@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+04/30/2005
+DISCHARGE DATE :
+5/14/05 05/14/2005
+HISTORY OF PRESENT ILLNESS :
+The patient is a pleasant 83-year-old retired psychiatrist who presents with a chief complaint of gait difficulty for the last five to six months .
+The patient has a history of laryngeal cancer in 2000 and 2001 , CVA in 2001 to 2002 and hypertension , who has a six month history of progressive difficulty in ambulation .
+The patient was in previously good health when he reports starting to notice problems ambulating about six months ago .
+His partner also reports that he has been having more difficulty with ADLs .
+He reported that he began with difficulty buttoning his shirt for many years since after a stroke but now reports that on occasion she would ask him why he was doing certain things and he could not give a concrete example .
+The patient was having a hard time walking and reports that he has felt weaker .
+He has had uncoordination of his feet and began having a cane four to five months ago with the increasing weakness .
+This was especially bad when trying to arise .
+The patient has seen his primary care physician who referred him to physical therapy for his gait weakness but his symptoms failed to improve .
+He continued to progress until two weeks prior to admission when he was found in the bathtub , unsteady and fell trying to steady himself .
+The patient could not be moved and had to have 911 called for help .
+Since that time he had been ambulating with a walker and has had increasing difficulty with falls in the last two weeks .
+The patient was again seen by his primary care physician and a CG scan revealed a mass in the right parietal lobe .
+The patient was referred to the Neurology Service for further workup of the mass .
+The patient denied blurry vision , headache , nausea , vomiting , paresthesias , pain in mental status , confusion or seizures .
+The patient is status post radiation therapy and resection and reconstruction for his laryngeal cancer .
+REVIEW OF SYSTEMS :
+Positive weakness , otherwise negative .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="1009" end="1032" text="the increasing weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1044" end="1058" text="especially bad" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="1064" end="1079" text="trying to arise" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="1098" end="1129" text="seen his primary care physician" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E27" start="1134" end="1142" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="1150" end="1166" text="physical therapy" modality="PROPOSED" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E29" start="1171" end="1188" text="his gait weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1193" end="1205" text="his symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1206" end="1223" text="failed to improve" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="1229" end="1250" text="continued to progress" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="1276" end="1285" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1298" end="1318" text="found in the bathtub" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1321" end="1329" text="unsteady" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1334" end="1363" text="fell trying to steady himself" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1378" end="1396" text="could not be moved" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="1463" end="1473" text="ambulating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1479" end="1487" text="a walker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1500" end="1532" text="increasing difficulty with falls" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1579" end="1613" text="seen by his primary care physician" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E43" start="1618" end="1627" text="a CG scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="1637" end="1670" text="a mass in the right parietal lobe" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="1689" end="1697" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1701" end="1722" text="the Neurology Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E47" start="1727" end="1741" text="further workup" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="1745" end="1753" text="the mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="1768" end="1774" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E49" start="1775" end="1788" text="blurry vision" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E51" start="1791" end="1799" text="headache" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E52" start="1802" end="1808" text="nausea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E53" start="1811" end="1819" text="vomiting" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E54" start="1822" end="1834" text="paresthesias" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E55" start="1837" end="1858" text="pain in mental status" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E56" start="1861" end="1870" text="confusion" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E57" start="1874" end="1882" text="seizures" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E3" start="192" end="207" text="gait difficulty" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="1912" end="1929" text="radiation therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="1934" end="1943" text="resection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="1948" end="1962" text="reconstruction" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="1967" end="1987" text="his laryngeal cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="2010" end="2027" text="Positive weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="2040" end="2048" text="negative" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E4" start="271" end="287" text="laryngeal cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="29" end="38" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="307" end="310" text="CVA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="331" end="343" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="377" end="413" text="progressive difficulty in ambulation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="446" end="457" text="good health" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="466" end="473" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E10" start="493" end="512" text="problems ambulating" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="553" end="560" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E12" start="585" end="610" text="more difficulty with ADLs" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="616" end="624" text="reported" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E14" start="644" end="674" text="difficulty buttoning his shirt" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="702" end="710" text="a stroke" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="719" end="726" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E17" start="811" end="834" text="give a concrete example" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="860" end="879" text="a hard time walking" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="884" end="891" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E20" start="904" end="915" text="felt weaker" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="929" end="955" text="uncoordination of his feet" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="973" end="979" text="a cane" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T11" start="1257" end="1266" text="two weeks" type="DURATION" val="P2W" mod="NA" />
+<TIMEX3 id="T12" start="1545" end="1554" text="two weeks" type="DATE" val="p2w" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="04/30/2005" type="DATE" val="2005-04-30" mod="NA" />
+<TIMEX3 id="T2" start="221" end="239" text="five to six months" type="DATE" val="p5.5m" mod="APPROX" />
+<TIMEX3 id="T3" start="291" end="295" text="2000" type="DATE" val="2000" mod="NA" />
+<TIMEX3 id="T4" start="300" end="304" text="2001" type="DATE" val="2001" mod="NA" />
+<TIMEX3 id="T5" start="314" end="318" text="2001" type="DATE" val="2001" mod="NA" />
+<TIMEX3 id="T6" start="322" end="326" text="2002" type="DATE" val="2002" mod="NA" />
+<TIMEX3 id="T7" start="354" end="365" text="a six month" type="DURATION" val="P6M" mod="NA" />
+<TIMEX3 id="T8" start="519" end="533" text="six months ago" type="DATE" val="2004-11" mod="NA" />
+<TIMEX3 id="T1" start="54" end="64" text="05/14/2005" type="DATE" val="2005-04-14" mod="NA" />
+<TIMEX3 id="T9" start="679" end="689" text="many years" type="DURATION" val="P5Y" mod="APPROX" />
+<TIMEX3 id="T10" start="980" end="1003" text="four to five months ago" type="DATE" val="2004-12" mod="APPROX" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T0" toText="04/30/2005" type="OVERLAP" />
+<TLINK id="TL1" fromID="E6" fromText="hypertension" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL10" fromID="E5" fromText="CVA" toID="T5" toText="2001" type="BEGUN_BY" />
+<TLINK id="TL11" fromID="E5" fromText="CVA" toID="T6" toText="2002" type="ENDED_BY" />
+<TLINK id="TL12" fromID="E7" fromText="progressive difficulty in ambulation" toID="E10" toText="problems ambulating" type="simultaneous" />
+<TLINK id="TL13" fromID="E7" fromText="progressive difficulty in ambulation" toID="T7" toText="a six month" type="DURING" />
+<TLINK id="TL14" fromID="E18" fromText="a hard time walking" toID="E7" toText="progressive difficulty in ambulation" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E8" fromText="good health" toID="E9" toText="reports" type="ENDED_BY" />
+<TLINK id="TL17" fromID="E10" fromText="problems ambulating" toID="E9" toText="reports" type="BEFORE_OVERLAP" />
+<TLINK id="TL18" fromID="E10" fromText="problems ambulating" toID="T8" toText="six months ago" type="BEGUN_BY" />
+<TLINK id="TL19" fromID="E12" fromText="more difficulty with ADLs" toID="E11" toText="reports" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="E34" fromText="admission" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E13" fromText="reported" toID="E11" toText="reports" type="OVERLAP" />
+<TLINK id="TL21" fromID="E12" fromText="more difficulty with ADLs" toID="E14" toText="difficulty buttoning his shirt" type="simultaneous" />
+<TLINK id="TL22" fromID="E12" fromText="more difficulty with ADLs" toID="E10" toText="problems ambulating" type="OVERLAP" />
+<TLINK id="TL23" fromID="E13" fromText="reported" toID="E14" toText="difficulty buttoning his shirt" type="OVERLAP" />
+<TLINK id="TL24" fromID="E16" fromText="reports" toID="E13" toText="reported" type="OVERLAP" />
+<TLINK id="TL25" fromID="E19" fromText="reports" toID="E13" toText="reported" type="OVERLAP" />
+<TLINK id="TL26" fromID="E14" fromText="difficulty buttoning his shirt" toID="T9" toText="many years" type="DURING" />
+<TLINK id="TL27" fromID="E14" fromText="difficulty buttoning his shirt" toID="E15" toText="a stroke" type="AFTER" />
+<TLINK id="TL28" fromID="E15" fromText="a stroke" toID="E5" toText="CVA" type="SIMULTANEOUS" />
+<TLINK id="TL29" fromID="E17" fromText="give a concrete example" toID="E16" toText="reports" type="BEFORE_OVERLAP" />
+<TLINK id="TL3" fromID="E1" fromText="DISCHARGE" toID="T1" toText="05/14/2005" type="OVERLAP" />
+<TLINK id="TL30" fromID="E10" fromText="problems ambulating" toID="E18" toText="a hard time walking" type="simultaneous" />
+<TLINK id="TL31" fromID="E21" fromText="uncoordination of his feet" toID="E18" toText="a hard time walking" type="SIMULTANEOUS" />
+<TLINK id="TL32" fromID="E20" fromText="felt weaker" toID="E19" toText="reports" type="BEFORE_OVERLAP" />
+<TLINK id="TL33" fromID="E21" fromText="uncoordination of his feet" toID="E22" toText="a cane" type="BEFORE_OVERLAP" />
+<TLINK id="TL34" fromID="E22" fromText="a cane" toID="T10" toText="four to five months ago" type="BEGUN_BY" />
+<TLINK id="TL35" fromID="E23" fromText="the increasing weakness" toID="E22" toText="a cane" type="OVERLAP" />
+<TLINK id="TL36" fromID="E23" fromText="the increasing weakness" toID="E24" toText="especially bad" type="OVERLAP" />
+<TLINK id="TL37" fromID="E24" fromText="especially bad" toID="E25" toText="trying to arise" type="SIMULTANEOUS" />
+<TLINK id="TL38" fromID="E27" fromText="referred" toID="E26" toText="seen his primary care physician" type="OVERLAP" />
+<TLINK id="TL39" fromID="E28" fromText="physical therapy" toID="E27" toText="referred" type="OVERLAP" />
+<TLINK id="TL4" fromID="E3" fromText="gait difficulty" toID="T2" toText="five to six months" type="DURING" />
+<TLINK id="TL40" fromID="E29" fromText="his gait weakness" toID="E27" toText="referred" type="BEFORE_OVERLAP" />
+<TLINK id="TL41" fromID="E62" fromText="Positive weakness" toID="E29" toText="his gait weakness" type="SIMULTANEOUS" />
+<TLINK id="TL42" fromID="E30" fromText="his symptoms" toID="E29" toText="his gait weakness" type="SIMULTANEOUS" />
+<TLINK id="TL43" fromID="E23" fromText="the increasing weakness" toID="E29" toText="his gait weakness" type="simultaneous" />
+<TLINK id="TL44" fromID="E30" fromText="his symptoms" toID="E32" toText="failed to improve" type="OVERLAP" />
+<TLINK id="TL45" fromID="E33" fromText="continued to progress" toID="T11" toText="two weeks" type="ENDED_BY" />
+<TLINK id="TL46" fromID="T11" fromText="two weeks" toID="E34" toText="admission" type="ENDED_BY" />
+<TLINK id="TL47" fromID="T11" fromText="two weeks" toID="E35" toText="found in the bathtub" type="BEGUN_BY" />
+<TLINK id="TL48" fromID="E36" fromText="unsteady" toID="E35" toText="found in the bathtub" type="SIMULTANEOUS" />
+<TLINK id="TL49" fromID="E35" fromText="found in the bathtub" toID="E37" toText="fell trying to steady himself" type="OVERLAP" />
+<TLINK id="TL5" fromID="E3" fromText="gait difficulty" toID="E7" toText="progressive difficulty in ambulation" type="simultaneous" />
+<TLINK id="TL50" fromID="E38" fromText="could not be moved" toID="E37" toText="fell trying to steady himself" type="AFTER" />
+<TLINK id="TL51" fromID="E40" fromText="a walker" toID="E39" toText="ambulating" type="SIMULTANEOUS" />
+<TLINK id="TL52" fromID="E39" fromText="ambulating" toID="E41" toText="increasing difficulty with falls" type="OVERLAP" />
+<TLINK id="TL53" fromID="E41" fromText="increasing difficulty with falls" toID="T12" toText="two weeks" type="DURING" />
+<TLINK id="TL54" fromID="E42" fromText="seen by his primary care physician" toID="E41" toText="increasing difficulty with falls" type="AFTER" />
+<TLINK id="TL55" fromID="E43" fromText="a CG scan" toID="E42" toText="seen by his primary care physician" type="OVERLAP" />
+<TLINK id="TL56" fromID="E44" fromText="a mass in the right parietal lobe" toID="E43" toText="a CG scan" type="BEFORE_OVERLAP" />
+<TLINK id="TL57" fromID="E46" fromText="the Neurology Service" toID="E45" toText="referred" type="SIMULTANEOUS" />
+<TLINK id="TL58" fromID="E45" fromText="referred" toID="E42" toText="seen by his primary care physician" type="AFTER" />
+<TLINK id="TL59" fromID="E47" fromText="further workup" toID="E46" toText="the Neurology Service" type="SIMULTANEOUS" />
+<TLINK id="TL6" fromID="E4" fromText="laryngeal cancer" toID="E61" toText="his laryngeal cancer" type="simultaneous" />
+<TLINK id="TL60" fromID="E48" fromText="the mass" toID="E47" toText="further workup" type="BEFORE_OVERLAP" />
+<TLINK id="TL61" fromID="E50" fromText="denied" toID="E49" toText="blurry vision" type="OVERLAP" />
+<TLINK id="TL62" fromID="E50" fromText="denied" toID="E51" toText="headache" type="OVERLAP" />
+<TLINK id="TL63" fromID="E50" fromText="denied" toID="E52" toText="nausea" type="OVERLAP" />
+<TLINK id="TL64" fromID="E50" fromText="denied" toID="E53" toText="vomiting" type="OVERLAP" />
+<TLINK id="TL65" fromID="E50" fromText="denied" toID="E54" toText="paresthesias" type="OVERLAP" />
+<TLINK id="TL66" fromID="E50" fromText="denied" toID="E55" toText="pain in mental status" type="OVERLAP" />
+<TLINK id="TL67" fromID="E50" fromText="denied" toID="E56" toText="confusion" type="OVERLAP" />
+<TLINK id="TL68" fromID="E50" fromText="denied" toID="E57" toText="seizures" type="OVERLAP" />
+<TLINK id="TL69" fromID="E59" fromText="resection" toID="E58" toText="radiation therapy" type="OVERLAP" />
+<TLINK id="TL7" fromID="E4" fromText="laryngeal cancer" toID="T3" toText="2000" type="OVERLAP" />
+<TLINK id="TL70" fromID="E60" fromText="reconstruction" toID="E58" toText="radiation therapy" type="OVERLAP" />
+<TLINK id="TL71" fromID="E61" fromText="his laryngeal cancer" toID="E60" toText="reconstruction" type="BEFORE_OVERLAP" />
+<TLINK id="TL72" fromID="E62" fromText="Positive weakness" toID="E63" toText="negative" type="OVERLAP" />
+<TLINK id="TL8" fromID="E4" fromText="laryngeal cancer" toID="T4" toText="2001" type="OVERLAP" />
+<TLINK id="TL9" fromID="E58" fromText="radiation therapy" toID="E4" toText="laryngeal cancer" type="OVERLAP" />
+<TLINK id="Sectime0" fromID="E23" fromText="the increasing weakness" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime1" fromID="E24" fromText="especially bad" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E25" fromText="trying to arise" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E26" fromText="seen his primary care physician" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E27" fromText="referred" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E28" fromText="physical therapy" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E29" fromText="his gait weakness" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime7" fromID="E30" fromText="his symptoms" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime8" fromID="E32" fromText="failed to improve" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E33" fromText="continued to progress" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E34" fromText="admission" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E35" fromText="found in the bathtub" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E36" fromText="unsteady" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E37" fromText="fell trying to steady himself" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E38" fromText="could not be moved" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E39" fromText="ambulating" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime16" fromID="E40" fromText="a walker" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime17" fromID="E41" fromText="increasing difficulty with falls" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime18" fromID="E42" fromText="seen by his primary care physician" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E43" fromText="a CG scan" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E44" fromText="a mass in the right parietal lobe" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime21" fromID="E45" fromText="referred" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E46" fromText="the Neurology Service" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E47" fromText="further workup" toID="T0" toText="04/30/2005" type="AFTER" />
+<TLINK id="Sectime24" fromID="E48" fromText="the mass" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime25" fromID="E50" fromText="denied" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E49" fromText="blurry vision" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime27" fromID="E51" fromText="headache" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime28" fromID="E52" fromText="nausea" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime29" fromID="E53" fromText="vomiting" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime30" fromID="E54" fromText="paresthesias" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime31" fromID="E55" fromText="pain in mental status" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime32" fromID="E56" fromText="confusion" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime33" fromID="E57" fromText="seizures" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime34" fromID="E3" fromText="gait difficulty" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime35" fromID="E58" fromText="radiation therapy" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime36" fromID="E59" fromText="resection" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime37" fromID="E60" fromText="reconstruction" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime38" fromID="E61" fromText="his laryngeal cancer" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime39" fromID="E62" fromText="Positive weakness" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime40" fromID="E63" fromText="negative" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime41" fromID="E4" fromText="laryngeal cancer" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime42" fromID="E5" fromText="CVA" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime43" fromID="E6" fromText="hypertension" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime44" fromID="E7" fromText="progressive difficulty in ambulation" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime45" fromID="E8" fromText="good health" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime46" fromID="E9" fromText="reports" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime47" fromID="E10" fromText="problems ambulating" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime48" fromID="E11" fromText="reports" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime49" fromID="E12" fromText="more difficulty with ADLs" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime50" fromID="E13" fromText="reported" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime51" fromID="E14" fromText="difficulty buttoning his shirt" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime52" fromID="E15" fromText="a stroke" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime53" fromID="E16" fromText="reports" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime54" fromID="E17" fromText="give a concrete example" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime55" fromID="E18" fromText="a hard time walking" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime56" fromID="E19" fromText="reports" toID="T0" toText="04/30/2005" type="BEFORE" />
+<TLINK id="Sectime57" fromID="E20" fromText="felt weaker" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime58" fromID="E21" fromText="uncoordination of his feet" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime59" fromID="E22" fromText="a cane" toID="T0" toText="04/30/2005" type="BEFORE_OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="04/30/2005" type="ADMISSION" dvalue="2005-04-30" />
+<SECTIME id="S0" start="18" end="28" text="04/30/2005" type="ADMISSION" dvalue="2005-04-30" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

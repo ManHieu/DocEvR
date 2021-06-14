@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+06/10/1999
+Discharge Date :
+06/26/1999
+HISTORY OF THE PRESENT ILLNESS :
+Mr. Vinktlandfreierm was admitted from Owaleharbo Tanaminer Hospital to which he had been discharged approximately four days prior to admission .
+He was noted to have dark stools per rectum and to be somewhat fluid overloaded .
+HOSPITAL COURSE :
+He was admitted and found to have a significant hematocrit drop from 33.8 to 24.3 .
+He was found operation be short of breath and was taken to dialysis for apparent fluid overload .
+His gastrointestinal bleeding issues were investigated with an upper endoscopy which revealed multiple superficial gastric ulcerations consistent with an non-steroidal anti-inflammatory drugs gastropathy .
+He had been discharged on one aspirin a day with 20 of Prilosec b.i.d.
+The aspirin was discontinued and he had no further problems with gastrointestinal bleeding and a stable hematocrit the rest of his hospitalization .
+During the course of his hospitalization , he became increasingly lethargic .
+An extensive work-up was done for any metabolic abnormalities which was unrevealing .
+He responded somewhat to lactulose for hepatic encephalopathy .
+He had one positive blood culture for Vancomycin resistant enterococcus .
+In the few days prior to his demise , he was intermittently somewhat lethargic buton the morning of June 25 , 1999 , his white count was noted to have increased from 8 to 13,000 .
+That day , he was found to be acutely short of breath with a respiratory rate of 40 and oxygen saturations in the mid seventies .
+He was put on 100% nonrebreather and his oxygen saturations improved to the low nineties .
+Nasal trumpet suction was done and he was found to have food like material that was easily suctioned out .
+He was also found to havesome pieces of toast in his mouth .
+Blood gases were done and he was found to have a pH of 7.2 with a pCO2 of 21 .
+Fingerstick glucose revealed a sugar of 12 .
+A stat panel 7 confirmed that the sugar was 23 and that he had a new anion gap of 40 .
+Repeat blood gas was done which was almost identical to the first .
+The family was called and came in to see the patient .
+An extensive family meeting was held and the family agreed that it did not make sense to intubate the patient and send him to the Intensive Care Unit .
+In the acute setting , he had been started on levofloxacin , Flagyl , and Vancomycin .
+These antibiotics were continued but the family decided that they wanted us to emphasize the comfort of the patient and pursue no further invasive measures .
+The patient was made do not resuscitate / do not intubate .
+At 2:30 on June 26 , 1999 , I was called to see the patient who had expired .
+DISPOSITION :
+The family was notified and came in to see the patient .
+The family declined an autopsy saying that they felt that the patient had been through enough .
+The patient &apos;s attending physician , Dr. Erm Neidwierst , was notified as well .
+Dictated By :
+CONRELLIE KOTERUDES , M.D. UK0
+Attending :
+ERM K. NEIDWIERST , M.D. QQ62 OC499/5391
+Batch :
+15168
+Index No.
+VKRPJQ81J6
+D :
+06/26/99
+T :
+06/29/99
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="1022" end="1042" text="An extensive work-up" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="1056" end="1083" text="any metabolic abnormalities" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1111" end="1120" text="responded" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E33" start="1133" end="1142" text="lactulose" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1147" end="1169" text="hepatic encephalopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="115" end="123" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1179" end="1205" text="one positive blood culture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="1210" end="1243" text="Vancomycin resistant enterococcus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1271" end="1281" text="his demise" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="129" end="158" text="Owaleharbo Tanaminer Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E38" start="1306" end="1324" text="somewhat lethargic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="1363" end="1378" text="his white count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="1383" end="1388" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E41" start="1397" end="1406" text="increased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1456" end="1479" text="acutely short of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="1485" end="1503" text="a respiratory rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="1514" end="1532" text="oxygen saturations" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="1570" end="1588" text="100% nonrebreather" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1593" end="1615" text="his oxygen saturations" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="1647" end="1668" text="Nasal trumpet suction" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="180" end="190" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="1815" end="1826" text="Blood gases" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E49" start="1862" end="1866" text="a pH" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="1879" end="1885" text="a pCO2" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="1894" end="1913" text="Fingerstick glucose" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="1923" end="1930" text="a sugar" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="1939" end="1953" text="A stat panel 7" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E54" start="1969" end="1978" text="the sugar" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E55" start="2002" end="2017" text="a new anion gap" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E56" start="2026" end="2042" text="Repeat blood gas" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="2162" end="2176" text="family meeting" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="2238" end="2246" text="intubate" modality="PROPOSED" polarity="NEG" type="TREATMENT" />
+<EVENT id="E5" start="224" end="233" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E59" start="2263" end="2267" text="send" modality="PROPOSED" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E60" start="2275" end="2298" text="the Intensive Care Unit" modality="PROPOSED" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E61" start="2347" end="2359" text="levofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="2362" end="2368" text="Flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="2375" end="2385" text="Vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="2388" end="2405" text="These antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="243" end="248" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E65" start="2477" end="2488" text="the comfort" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E66" start="2518" end="2543" text="further invasive measures" modality="PROPOSED" polarity="NEG" type="TREATMENT" />
+<EVENT id="E7" start="257" end="279" text="dark stools per rectum" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="2574" end="2585" text="resuscitate" modality="PROPOSED" polarity="NEG" type="TREATMENT" />
+<EVENT id="E68" start="2595" end="2603" text="intubate" modality="PROPOSED" polarity="NEG" type="TREATMENT" />
+<EVENT id="E69" start="2674" end="2681" text="expired" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="2766" end="2774" text="declined" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E71" start="2775" end="2785" text="an autopsy" modality="PROPOSED" polarity="NEG" type="TEST" />
+<EVENT id="E8" start="290" end="315" text="somewhat fluid overloaded" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="343" end="351" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="370" end="399" text="a significant hematocrit drop" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="446" end="461" text="short of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="479" end="487" text="dialysis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="492" end="515" text="apparent fluid overload" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="518" end="554" text="His gastrointestinal bleeding issues" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="578" end="596" text="an upper endoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="603" end="611" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E17" start="633" end="652" text="gastric ulcerations" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="669" end="721" text="an non-steroidal anti-inflammatory drugs gastropathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="736" end="746" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="750" end="761" text="one aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="779" end="787" text="Prilosec" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="795" end="806" text="The aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="811" end="823" text="discontinued" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="838" end="854" text="further problems" modality="CONDITIONAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E25" start="860" end="885" text="gastrointestinal bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="890" end="909" text="a stable hematocrit" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="922" end="941" text="his hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="965" end="984" text="his hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="997" end="1019" text="increasingly lethargic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T5" start="1249" end="1267" text="the few days prior" type="DATE" val="1999-06-24" mod="APPROX" />
+<TIMEX3 id="T7" start="1346" end="1360" text="June 25 , 1999" type="DATE" val="1999-06-25" mod="START" />
+<TIMEX3 id="T8" start="1426" end="1434" text="That day" type="DATE" val="1999-06-25" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="06/10/1999" type="DATE" val="1999-06-10" mod="NA" />
+<TIMEX3 id="T2" start="205" end="220" text="four days prior" type="DATE" val="1999-06-06" mod="APPROX" />
+<TIMEX3 id="T9" start="2609" end="2631" text="2:30 on June 26 , 1999" type="TIME" val="1999-06-26T02:30" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="06/26/1999" type="DATE" val="1999-06-26" mod="NA" />
+<TIMEX3 id="T3" start="762" end="767" text="a day" type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T4" start="788" end="794" text="b.i.d." type="FREQUENCY" val="RPT12H" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="06/10/1999" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="Discharge" toID="T1" toText="06/26/1999" type="OVERLAP" />
+<TLINK id="TL10" fromID="E7" fromText="dark stools per rectum" toID="E6" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL11" fromID="E8" fromText="somewhat fluid overloaded" toID="E7" toText="dark stools per rectum" type="OVERLAP" />
+<TLINK id="TL12" fromID="E9" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL13" fromID="E10" fromText="a significant hematocrit drop" toID="E9" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL14" fromID="E11" fromText="short of breath" toID="E10" toText="a significant hematocrit drop" type="OVERLAP" />
+<TLINK id="TL16" fromID="E13" fromText="apparent fluid overload" toID="E12" toText="dialysis" type="BEFORE_OVERLAP" />
+<TLINK id="TL17" fromID="E8" fromText="somewhat fluid overloaded" toID="E13" toText="apparent fluid overload" type="simultaneous" />
+<TLINK id="TL18" fromID="E13" fromText="apparent fluid overload" toID="E11" toText="short of breath" type="OVERLAP" />
+<TLINK id="TL19" fromID="E7" fromText="dark stools per rectum" toID="E14" toText="His gastrointestinal bleeding issues" type="OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E15" fromText="an upper endoscopy" toID="E9" toText="admitted" type="AFTER" />
+<TLINK id="TL21" fromID="E14" fromText="His gastrointestinal bleeding issues" toID="E15" toText="an upper endoscopy" type="BEFORE_OVERLAP" />
+<TLINK id="TL22" fromID="E16" fromText="revealed" toID="E15" toText="an upper endoscopy" type="OVERLAP" />
+<TLINK id="TL23" fromID="E17" fromText="gastric ulcerations" toID="E15" toText="an upper endoscopy" type="BEFORE_OVERLAP" />
+<TLINK id="TL24" fromID="E17" fromText="gastric ulcerations" toID="E18" toText="an non-steroidal anti-inflammatory drugs gastropathy" type="OVERLAP" />
+<TLINK id="TL25" fromID="E19" fromText="discharged" toID="E15" toText="an upper endoscopy" type="AFTER" />
+<TLINK id="TL26" fromID="E20" fromText="one aspirin" toID="E19" toText="discharged" type="BEGUN_BY" />
+<TLINK id="TL27" fromID="E20" fromText="one aspirin" toID="T3" toText="a day" type="OVERLAP" />
+<TLINK id="TL28" fromID="E20" fromText="one aspirin" toID="E21" toText="Prilosec" type="OVERLAP" />
+<TLINK id="TL29" fromID="E21" fromText="Prilosec" toID="T4" toText="b.i.d." type="OVERLAP" />
+<TLINK id="TL30" fromID="E21" fromText="Prilosec" toID="E19" toText="discharged" type="BEGUN_BY" />
+<TLINK id="TL31" fromID="E22" fromText="The aspirin" toID="E20" toText="one aspirin" type="SIMULTANEOUS" />
+<TLINK id="TL32" fromID="E23" fromText="discontinued" toID="E22" toText="The aspirin" type="ENDED_BY" />
+<TLINK id="TL33" fromID="E24" fromText="further problems" toID="E23" toText="discontinued" type="AFTER" />
+<TLINK id="TL34" fromID="E25" fromText="gastrointestinal bleeding" toID="E24" toText="further problems" type="BEFORE" />
+<TLINK id="TL35" fromID="E14" fromText="His gastrointestinal bleeding issues" toID="E25" toText="gastrointestinal bleeding" type="simultaneous" />
+<TLINK id="TL36" fromID="E27" fromText="his hospitalization" toID="E26" toText="a stable hematocrit" type="DURING" />
+<TLINK id="TL37" fromID="E27" fromText="his hospitalization" toID="E24" toText="further problems" type="DURING" />
+<TLINK id="TL38" fromID="E27" fromText="his hospitalization" toID="E0" toText="Admission" type="BEGUN_BY" />
+<TLINK id="TL39" fromID="E27" fromText="his hospitalization" toID="E1" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL4" fromID="E3" fromText="Owaleharbo Tanaminer Hospital" toID="E2" toText="admitted" type="ENDED_BY" />
+<TLINK id="TL40" fromID="E28" fromText="his hospitalization" toID="E27" toText="his hospitalization" type="SIMULTANEOUS" />
+<TLINK id="TL41" fromID="E29" fromText="increasingly lethargic" toID="E28" toText="his hospitalization" type="DURING" />
+<TLINK id="TL42" fromID="E29" fromText="increasingly lethargic" toID="E38" toText="somewhat lethargic" type="simultaneous" />
+<TLINK id="TL43" fromID="E30" fromText="An extensive work-up" toID="E28" toText="his hospitalization" type="OVERLAP" />
+<TLINK id="TL44" fromID="E31" fromText="any metabolic abnormalities" toID="E30" toText="An extensive work-up" type="BEFORE_OVERLAP" />
+<TLINK id="TL45" fromID="E32" fromText="responded" toID="E28" toText="his hospitalization" type="OVERLAP" />
+<TLINK id="TL47" fromID="E33" fromText="lactulose" toID="E32" toText="responded" type="BEFORE_OVERLAP" />
+<TLINK id="TL48" fromID="E34" fromText="hepatic encephalopathy" toID="E33" toText="lactulose" type="BEFORE_OVERLAP" />
+<TLINK id="TL49" fromID="E35" fromText="one positive blood culture" toID="E28" toText="his hospitalization" type="DURING" />
+<TLINK id="TL5" fromID="E3" fromText="Owaleharbo Tanaminer Hospital" toID="E4" toText="discharged" type="OVERLAP" />
+<TLINK id="TL50" fromID="E36" fromText="Vancomycin resistant enterococcus" toID="E35" toText="one positive blood culture" type="BEFORE_OVERLAP" />
+<TLINK id="TL51" fromID="T5" fromText="the few days prior" toID="E37" toText="his demise" type="BEFORE" />
+<TLINK id="TL52" fromID="T7" fromText="June 25 , 1999" toID="T5" toText="the few days prior" type="OVERLAP" />
+<TLINK id="TL53" fromID="E38" fromText="somewhat lethargic" toID="T5" toText="the few days prior" type="DURING" />
+<TLINK id="TL54" fromID="T7" fromText="June 25 , 1999" toID="E38" toText="somewhat lethargic" type="ENDED_BY" />
+<TLINK id="TL55" fromID="E40" fromText="noted" toID="T7" toText="June 25 , 1999" type="OVERLAP" />
+<TLINK id="TL56" fromID="E39" fromText="his white count" toID="E40" toText="noted" type="SIMULTANEOUS" />
+<TLINK id="TL57" fromID="E41" fromText="increased" toID="E40" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL58" fromID="T8" fromText="That day" toID="T7" toText="June 25 , 1999" type="SIMULTANEOUS" />
+<TLINK id="TL59" fromID="T8" fromText="That day" toID="E42" toText="acutely short of breath" type="OVERLAP" />
+<TLINK id="TL6" fromID="E4" fromText="discharged" toID="T2" toText="four days prior" type="OVERLAP" />
+<TLINK id="TL60" fromID="E43" fromText="a respiratory rate" toID="E42" toText="acutely short of breath" type="SIMULTANEOUS" />
+<TLINK id="TL61" fromID="E44" fromText="oxygen saturations" toID="E43" toText="a respiratory rate" type="SIMULTANEOUS" />
+<TLINK id="TL62" fromID="E45" fromText="100% nonrebreather" toID="T8" toText="That day" type="OVERLAP" />
+<TLINK id="TL63" fromID="E45" fromText="100% nonrebreather" toID="E44" toText="oxygen saturations" type="AFTER" />
+<TLINK id="TL64" fromID="E45" fromText="100% nonrebreather" toID="E46" toText="his oxygen saturations" type="BEFORE" />
+<TLINK id="TL65" fromID="E46" fromText="his oxygen saturations" toID="E47" toText="Nasal trumpet suction" type="BEFORE" />
+<TLINK id="TL66" fromID="E48" fromText="Blood gases" toID="E28" toText="his hospitalization" type="DURING" />
+<TLINK id="TL67" fromID="E49" fromText="a pH" toID="E48" toText="Blood gases" type="BEFORE_OVERLAP" />
+<TLINK id="TL68" fromID="E50" fromText="a pCO2" toID="E49" toText="a pH" type="SIMULTANEOUS" />
+<TLINK id="TL69" fromID="E51" fromText="Fingerstick glucose" toID="E28" toText="his hospitalization" type="DURING" />
+<TLINK id="TL7" fromID="T2" fromText="four days prior" toID="E5" toText="admission" type="BEFORE" />
+<TLINK id="TL70" fromID="E52" fromText="a sugar" toID="E51" toText="Fingerstick glucose" type="BEFORE_OVERLAP" />
+<TLINK id="TL71" fromID="E53" fromText="A stat panel 7" toID="E51" toText="Fingerstick glucose" type="AFTER" />
+<TLINK id="TL72" fromID="E53" fromText="A stat panel 7" toID="E54" toText="the sugar" type="BEFORE_OVERLAP" />
+<TLINK id="TL73" fromID="E55" fromText="a new anion gap" toID="E54" toText="the sugar" type="OVERLAP" />
+<TLINK id="TL74" fromID="E56" fromText="Repeat blood gas" toID="E48" toText="Blood gases" type="AFTER" />
+<TLINK id="TL75" fromID="E58" fromText="intubate" toID="E57" toText="family meeting" type="AFTER" />
+<TLINK id="TL76" fromID="E59" fromText="send" toID="E57" toText="family meeting" type="AFTER" />
+<TLINK id="TL77" fromID="E60" fromText="the Intensive Care Unit" toID="E59" toText="send" type="BEGUN_BY" />
+<TLINK id="TL78" fromID="E61" fromText="levofloxacin" toID="E28" toText="his hospitalization" type="DURING" />
+<TLINK id="TL79" fromID="E62" fromText="Flagyl" toID="E61" toText="levofloxacin" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E5" fromText="admission" toID="E2" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL80" fromID="E63" fromText="Vancomycin" toID="E62" toText="Flagyl" type="SIMULTANEOUS" />
+<TLINK id="TL81" fromID="E61" fromText="levofloxacin" toID="E64" toText="These antibiotics" type="SIMULTANEOUS" />
+<TLINK id="TL82" fromID="E64" fromText="These antibiotics" toID="E65" toText="the comfort" type="BEFORE_OVERLAP" />
+<TLINK id="TL83" fromID="E66" fromText="further invasive measures" toID="E65" toText="the comfort" type="AFTER" />
+<TLINK id="TL84" fromID="E67" fromText="resuscitate" toID="E66" toText="further invasive measures" type="SIMULTANEOUS" />
+<TLINK id="TL85" fromID="E68" fromText="intubate" toID="E66" toText="further invasive measures" type="SIMULTANEOUS" />
+<TLINK id="TL86" fromID="T9" fromText="2:30 on June 26 , 1999" toID="E1" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL87" fromID="E69" fromText="expired" toID="T9" toText="2:30 on June 26 , 1999" type="SIMULTANEOUS" />
+<TLINK id="TL88" fromID="E70" fromText="declined" toID="T9" toText="2:30 on June 26 , 1999" type="AFTER" />
+<TLINK id="TL89" fromID="E71" fromText="an autopsy" toID="E69" toText="expired" type="AFTER" />
+<TLINK id="TL9" fromID="E6" fromText="noted" toID="E5" toText="admission" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="06/10/1999" type="ADMISSION" dvalue="1999-06-10" />
+<SECTIME id="S1" start="46" end="56" text="06/26/1999" type="DISCHARGE" dvalue="1999-06-26" />
+<TLINK id="SECTIME0" fromID="E30" fromText="An extensive work-up" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E31" fromText="any metabolic abnormalities" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E32" fromText="responded" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E33" fromText="lactulose" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E34" fromText="hepatic encephalopathy" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E2" fromText="admitted" toID="T0" toText="06/10/1999" type="OVERLAP" />
+<TLINK id="SECTIME6" fromID="E35" fromText="one positive blood culture" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E36" fromText="Vancomycin resistant enterococcus" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E37" fromText="his demise" toID="T1" toText="06/26/1999" type="OVERLAP" />
+<TLINK id="SECTIME9" fromID="E3" fromText="Owaleharbo Tanaminer Hospital" toID="T0" toText="06/10/1999" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E38" fromText="somewhat lethargic" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E39" fromText="his white count" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E40" fromText="noted" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E41" fromText="increased" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E42" fromText="acutely short of breath" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E43" fromText="a respiratory rate" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E44" fromText="oxygen saturations" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E45" fromText="100% nonrebreather" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E46" fromText="his oxygen saturations" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E47" fromText="Nasal trumpet suction" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E4" fromText="discharged" toID="T0" toText="06/10/1999" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E48" fromText="Blood gases" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E49" fromText="a pH" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E50" fromText="a pCO2" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E51" fromText="Fingerstick glucose" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E52" fromText="a sugar" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E53" fromText="A stat panel 7" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E54" fromText="the sugar" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E55" fromText="a new anion gap" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E56" fromText="Repeat blood gas" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E57" fromText="family meeting" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E58" fromText="intubate" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E5" fromText="admission" toID="T0" toText="06/10/1999" type="OVERLAP" />
+<TLINK id="SECTIME33" fromID="E59" fromText="send" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E60" fromText="the Intensive Care Unit" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E61" fromText="levofloxacin" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E62" fromText="Flagyl" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E63" fromText="Vancomycin" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E64" fromText="These antibiotics" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E6" fromText="noted" toID="T0" toText="06/10/1999" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E65" fromText="the comfort" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E66" fromText="further invasive measures" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E7" fromText="dark stools per rectum" toID="T0" toText="06/10/1999" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E67" fromText="resuscitate" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E68" fromText="intubate" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E69" fromText="expired" toID="T1" toText="06/26/1999" type="OVERLAP" />
+<TLINK id="SECTIME46" fromID="E70" fromText="declined" toID="T1" toText="06/26/1999" type="AFTER" />
+<TLINK id="SECTIME47" fromID="E71" fromText="an autopsy" toID="T1" toText="06/26/1999" type="AFTER" />
+<TLINK id="SECTIME48" fromID="E8" fromText="somewhat fluid overloaded" toID="T0" toText="06/10/1999" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E9" fromText="admitted" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E10" fromText="a significant hematocrit drop" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E11" fromText="short of breath" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E12" fromText="dialysis" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E13" fromText="apparent fluid overload" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E14" fromText="His gastrointestinal bleeding issues" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E15" fromText="an upper endoscopy" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E16" fromText="revealed" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E17" fromText="gastric ulcerations" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E18" fromText="an non-steroidal anti-inflammatory drugs gastropathy" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E19" fromText="discharged" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E20" fromText="one aspirin" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E21" fromText="Prilosec" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E22" fromText="The aspirin" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E23" fromText="discontinued" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E24" fromText="further problems" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E25" fromText="gastrointestinal bleeding" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E26" fromText="a stable hematocrit" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E27" fromText="his hospitalization" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E28" fromText="his hospitalization" toID="T1" toText="06/26/1999" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E29" fromText="increasingly lethargic" toID="T1" toText="06/26/1999" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

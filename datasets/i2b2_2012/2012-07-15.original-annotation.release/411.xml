@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+02/08/1990
+Discharge Date :
+02/13/1990
+HISTORY OF PRESENT ILLNESS :
+The patient is a 43-year-old gravida II para II white female referred by Dr. Ca Shuff for evaluation .
+She was in her usual state of good health until December when she was seen emergently for treatment of a perforated colon cancer .
+That area was resected with no evidence of metastatic disease .
+She has had subsequent CEA&apos;s and scans which were negative .
+A tumor was noted on her vulva which was biopsied and revealed squamous cell carcinoma in situ .
+ALLERGIES :
+NO KNOWN DRUG ALLERGIES .
+MEDICATIONS :
+None .
+PAST SURGICAL HISTORY :
+As above with colostomy .
+HOSPITAL COURSE :
+The plan was for right radical vulvectomy .
+1. Vulvectomy :
+The patient on 2/8/90 underwent a right radical vulvectomy with excellent results and negative margins on frozen section .
+Her postoperative course was unremarkble .
+She was kept on bedrest for two days and then was ambulating and voiding well without trouble on postoperative day number three when the Foley catheter was discontinued .
+She has been doing Betadine paint and blow drying the area several times a day and after each bowel movement and urine without incident .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="1033" end="1051" text="the Foley catheter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="1056" end="1068" text="discontinued" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="1090" end="1104" text="Betadine paint" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="1109" end="1120" text="blow drying" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="115" end="133" text="gravida II para II" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="1165" end="1179" text="bowel movement" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="1184" end="1189" text="urine" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1198" end="1206" text="incident" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E15" start="147" end="155" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="176" end="186" text="evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="200" end="230" text="her usual state of good health" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="259" end="274" text="seen emergently" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="279" end="288" text="treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="292" end="317" text="a perforated colon cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="334" end="342" text="resected" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="351" end="359" text="evidence" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E4" start="363" end="381" text="metastatic disease" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E5" start="396" end="417" text="subsequent CEA&apos;s" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="422" end="427" text="scans" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="439" end="447" text="negative" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E29" start="450" end="457" text="A tumor" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="462" end="467" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E18" start="491" end="499" text="biopsied" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="504" end="512" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E30" start="513" end="544" text="squamous cell carcinoma in situ" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="562" end="582" text="KNOWN DRUG ALLERGIES" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E7" start="644" end="653" text="colostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="691" end="715" text="right radical vulvectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="721" end="731" text="Vulvectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="766" end="792" text="a right radical vulvectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="798" end="815" text="excellent results" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="820" end="836" text="negative margins" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="840" end="854" text="frozen section" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="857" end="881" text="Her postoperative course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="886" end="897" text="unremarkble" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="916" end="923" text="bedrest" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="950" end="960" text="ambulating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="965" end="977" text="voiding well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="986" end="993" text="trouble" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<TIMEX3 id="T6" start="1130" end="1149" text="several times a day" type="FREQUENCY" val="RPT6H" mod="APPROX" />
+<TIMEX3 id="T0" start="18" end="28" text="02/08/1990" type="DATE" val="1990-02-08" mod="NA" />
+<TIMEX3 id="T2" start="237" end="245" text="December" type="DATE" val="1989-12" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="02/13/1990" type="DATE" val="1990-02-13" mod="NA" />
+<TIMEX3 id="T3" start="749" end="755" text="2/8/90" type="DATE" val="1990-02-08" mod="NA" />
+<TIMEX3 id="T4" start="928" end="936" text="two days" type="DURATION" val="P2D" mod="NA" />
+<TIMEX3 id="T5" start="997" end="1027" text="postoperative day number three" type="DATE" val="1990-02-11" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="02/08/1990" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E8" fromText="right radical vulvectomy" toID="E9" toText="Vulvectomy" type="simultaneous" />
+<TLINK id="TL10" fromID="E15" fromText="referred" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL11" fromID="E25" fromText="her usual state of good health" toID="T2" toText="December" type="ENDED_BY" />
+<TLINK id="TL12" fromID="T2" fromText="December" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL13" fromID="E26" fromText="seen emergently" toID="T2" toText="December" type="SIMULTANEOUS" />
+<TLINK id="TL14" fromID="E2" fromText="treatment" toID="E26" toText="seen emergently" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E3" fromText="a perforated colon cancer" toID="E26" toText="seen emergently" type="BEFORE_OVERLAP" />
+<TLINK id="TL16" fromID="E7" fromText="colostomy" toID="E16" toText="resected" type="SIMULTANEOUS" />
+<TLINK id="TL17" fromID="E27" fromText="evidence" toID="E16" toText="resected" type="SIMULTANEOUS" />
+<TLINK id="TL18" fromID="E4" fromText="metastatic disease" toID="E16" toText="resected" type="BEFORE_OVERLAP" />
+<TLINK id="TL19" fromID="E16" fromText="resected" toID="E2" toText="treatment" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="E9" fromText="Vulvectomy" toID="E10" toText="a right radical vulvectomy" type="simultaneous" />
+<TLINK id="TL20" fromID="E16" fromText="resected" toID="E7" toText="colostomy" type="OVERLAP" />
+<TLINK id="TL21" fromID="E5" fromText="subsequent CEA&apos;s" toID="E16" toText="resected" type="AFTER" />
+<TLINK id="TL22" fromID="E5" fromText="subsequent CEA&apos;s" toID="E28" toText="negative" type="SIMULTANEOUS" />
+<TLINK id="TL23" fromID="E29" fromText="A tumor" toID="E17" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL24" fromID="E30" fromText="squamous cell carcinoma in situ" toID="E29" toText="A tumor" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E29" fromText="A tumor" toID="E5" toText="subsequent CEA&apos;s" type="AFTER" />
+<TLINK id="TL27" fromID="E18" fromText="biopsied" toID="E19" toText="revealed" type="BEFORE" />
+<TLINK id="TL28" fromID="E17" fromText="noted" toID="E18" toText="biopsied" type="BEFORE" />
+<TLINK id="TL29" fromID="E30" fromText="squamous cell carcinoma in situ" toID="E19" toText="revealed" type="BEFORE_OVERLAP" />
+<TLINK id="TL3" fromID="E6" fromText="scans" toID="E5" toText="subsequent CEA&apos;s" type="OVERLAP" />
+<TLINK id="TL30" fromID="E9" fromText="Vulvectomy" toID="E8" toText="right radical vulvectomy" type="SIMULTANEOUS" />
+<TLINK id="TL32" fromID="E10" fromText="a right radical vulvectomy" toID="T3" toText="2/8/90" type="SIMULTANEOUS" />
+<TLINK id="TL33" fromID="E32" fromText="excellent results" toID="E10" toText="a right radical vulvectomy" type="AFTER" />
+<TLINK id="TL34" fromID="E11" fromText="frozen section" toID="E10" toText="a right radical vulvectomy" type="SIMULTANEOUS" />
+<TLINK id="TL35" fromID="E33" fromText="negative margins" toID="E32" toText="excellent results" type="OVERLAP" />
+<TLINK id="TL36" fromID="E34" fromText="Her postoperative course" toID="E35" toText="unremarkble" type="SIMULTANEOUS" />
+<TLINK id="TL37" fromID="E34" fromText="Her postoperative course" toID="T3" toText="2/8/90" type="BEGUN_BY" />
+<TLINK id="TL38" fromID="E34" fromText="Her postoperative course" toID="T1" toText="02/13/1990" type="ENDED_BY" />
+<TLINK id="TL39" fromID="E12" fromText="bedrest" toID="T4" toText="two days" type="DURING" />
+<TLINK id="TL4" fromID="E24" fromText="gravida II para II" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL40" fromID="E12" fromText="bedrest" toID="E34" toText="Her postoperative course" type="DURING" />
+<TLINK id="TL41" fromID="E36" fromText="voiding well" toID="E20" toText="ambulating" type="OVERLAP" />
+<TLINK id="TL42" fromID="E20" fromText="ambulating" toID="T4" toText="two days" type="AFTER" />
+<TLINK id="TL43" fromID="E37" fromText="trouble" toID="E36" toText="voiding well" type="OVERLAP" />
+<TLINK id="TL44" fromID="E20" fromText="ambulating" toID="T5" toText="postoperative day number three" type="BEGUN_BY" />
+<TLINK id="TL45" fromID="E21" fromText="discontinued" toID="T5" toText="postoperative day number three" type="SIMULTANEOUS" />
+<TLINK id="TL46" fromID="E13" fromText="the Foley catheter" toID="E21" toText="discontinued" type="ENDED_BY" />
+<TLINK id="TL47" fromID="E14" fromText="Betadine paint" toID="E38" toText="blow drying" type="OVERLAP" />
+<TLINK id="TL48" fromID="E14" fromText="Betadine paint" toID="E39" toText="bowel movement" type="AFTER" />
+<TLINK id="TL49" fromID="E14" fromText="Betadine paint" toID="E22" toText="urine" type="AFTER" />
+<TLINK id="TL5" fromID="E1" fromText="evaluation" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL50" fromID="E14" fromText="Betadine paint" toID="T6" toText="several times a day" type="OVERLAP" />
+<TLINK id="TL51" fromID="E40" fromText="incident" toID="E14" toText="Betadine paint" type="SIMULTANEOUS" />
+<TLINK id="TL52" fromID="E14" fromText="Betadine paint" toID="E34" toText="Her postoperative course" type="DURING" />
+<TLINK id="TL6" fromID="E8" fromText="right radical vulvectomy" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL7" fromID="E31" fromText="KNOWN DRUG ALLERGIES" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL8" fromID="E23" fromText="Discharge" toID="T1" toText="02/13/1990" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="E15" fromText="referred" toID="E1" toText="evaluation" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="02/08/1990" type="ADMISSION" dvalue="1990-02-08" />
+<SECTIME id="S1" start="46" end="56" text="02/13/1990" type="DISCHARGE" dvalue="1990-02-13" />
+<TLINK id="SECTIME0" fromID="E13" fromText="the Foley catheter" toID="T1" toText="02/13/1990" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E21" fromText="discontinued" toID="T1" toText="02/13/1990" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E14" fromText="Betadine paint" toID="T1" toText="02/13/1990" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E38" fromText="blow drying" toID="T1" toText="02/13/1990" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E24" fromText="gravida II para II" toID="T0" toText="02/08/1990" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E39" fromText="bowel movement" toID="T1" toText="02/13/1990" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E22" fromText="urine" toID="T1" toText="02/13/1990" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E40" fromText="incident" toID="T1" toText="02/13/1990" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E15" fromText="referred" toID="T0" toText="02/08/1990" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E1" fromText="evaluation" toID="T0" toText="02/08/1990" type="OVERLAP" />
+<TLINK id="SECTIME10" fromID="E25" fromText="her usual state of good health" toID="T0" toText="02/08/1990" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E26" fromText="seen emergently" toID="T0" toText="02/08/1990" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E2" fromText="treatment" toID="T0" toText="02/08/1990" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E3" fromText="a perforated colon cancer" toID="T0" toText="02/08/1990" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E16" fromText="resected" toID="T0" toText="02/08/1990" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E27" fromText="evidence" toID="T0" toText="02/08/1990" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E4" fromText="metastatic disease" toID="T0" toText="02/08/1990" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E5" fromText="subsequent CEA&apos;s" toID="T0" toText="02/08/1990" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E6" fromText="scans" toID="T0" toText="02/08/1990" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E28" fromText="negative" toID="T0" toText="02/08/1990" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E29" fromText="A tumor" toID="T0" toText="02/08/1990" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E17" fromText="noted" toID="T0" toText="02/08/1990" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E18" fromText="biopsied" toID="T0" toText="02/08/1990" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E19" fromText="revealed" toID="T0" toText="02/08/1990" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E30" fromText="squamous cell carcinoma in situ" toID="T0" toText="02/08/1990" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E31" fromText="KNOWN DRUG ALLERGIES" toID="T0" toText="02/08/1990" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E7" fromText="colostomy" toID="T0" toText="02/08/1990" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E8" fromText="right radical vulvectomy" toID="T1" toText="02/13/1990" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E9" fromText="Vulvectomy" toID="T1" toText="02/13/1990" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E10" fromText="a right radical vulvectomy" toID="T1" toText="02/13/1990" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E32" fromText="excellent results" toID="T1" toText="02/13/1990" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E33" fromText="negative margins" toID="T1" toText="02/13/1990" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E11" fromText="frozen section" toID="T1" toText="02/13/1990" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E35" fromText="unremarkble" toID="T1" toText="02/13/1990" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E12" fromText="bedrest" toID="T1" toText="02/13/1990" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E20" fromText="ambulating" toID="T1" toText="02/13/1990" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E36" fromText="voiding well" toID="T1" toText="02/13/1990" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E37" fromText="trouble" toID="T1" toText="02/13/1990" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

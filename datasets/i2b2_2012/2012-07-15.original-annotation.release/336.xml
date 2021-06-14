@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+11/04/2000
+DISCHARGE DATE :
+11/09/2000
+HISTORY OF PRESENT ILLNESS :
+Mr. State is an 81-year-old man with a history of restrictive and obstructive lung disease , dilated cardiomyopathy , inferior myocardial infarction , and anterior mediastinal masses admitted with acute onset of pulmonary edema .
+In the setting of inadvertently decreasing Lasix from 80 mg. po 40 mg. a day Mr. State had sudden onset dyspnea after approximate day and a half prodrome culminating in severe dyspnea .
+Upon arrival in the Emergency Room Mr. State &apos;s saturations were in the mid 80s and he was promptly rendered more comfortable with high flow oxygen , morphine , and nitrates and intravenous Lasix .
+Chest x-ray was relatively unrevealing for interstitial or alveolar edema and with clinical improvement ensued with the immediate therapy in the Emergency Room as noted .
+The patient denied angina , syncope , preceding worsening orthopnea , paroxysmal nocturnal dyspnea , palpitations , chest pain , hematemesis or melena .
+HOSPITAL COURSE :
+The patient was admitted to the Hospital and underwent an approximate 1.5 liter diuresis within the first 24 hours with improvement in his symptoms and improvement in his oxygen saturations .
+After a long discussion with the patient and his family it was determined that a cardiac catheterization would be prudent .
+Prior to catheterization a VQ scan was performed which revealed a moderate probability for PE with a subsegmental defect in the lingular on the left lung .
+Subsequent lower extremities noninvasive studies and D-dimer test were both negative rendering the probability of acute pulmonary embolism less than 2 percent .
+It was not felt that the patient would be in need of chronic Coumadin therapy in lieu of this low probability findings in toto .
+Coronary angiography revealed occlusion of the right coronary artery proximally with insignificant plaquing in the left anterior descending artery and circumflex arteries .
+After a approximate 3 liter total diuresis the right atrial pressure was 5 , pulmonary capillary wedge pressure 14 , pulmonary vacuolar resistance 353 and the cardiac output depressed at 2.95 liters per minute , or a cardiac index of 1.7 liters per minute .
+Based upon these findings it was felt that Mr. State most likely has multi-factorial dyspnea owing to both his ventilatory limitation and to a chronic low output state .
+In Hospital he was seen by both Speech Therapy , physical therapy , and the Uspend Harmemewood Medical Center Congestive Heart Failure Nurse Practitioner Program .
+His Isordil was increased in Hospital and blood pressure control was relative episodic with systolic pressures ranging between 100 and 160 .
+Future adjustments will be made at home pending his blood pressure measures .
+At a goal weight of 142 pounds , Mr. State &apos;s filling pressures appeared ideal with a wedge pressure of 14 and his goal weight range will be between 142 and 44 pounds at home .
+The patient will be followed by Dr. State within a week of discharge and by Nieie Naebrand Freierm of the Dyathenslycha Medical Center .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="1005" end="1016" text="hematemesis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E17" start="1020" end="1026" text="melena" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E45" start="1063" end="1071" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1075" end="1087" text="the Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E18" start="1102" end="1135" text="an approximate 1.5 liter diuresis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="1167" end="1178" text="improvement" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="1182" end="1194" text="his symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="1199" end="1210" text="improvement" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="1214" end="1236" text="his oxygen saturations" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="1245" end="1262" text="a long discussion" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="1318" end="1343" text="a cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="136" end="176" text="restrictive and obstructive lung disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="1372" end="1387" text="catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="1388" end="1397" text="a VQ scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="1418" end="1426" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E66" start="1454" end="1456" text="PE" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1462" end="1499" text="a subsegmental defect in the lingular" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="1519" end="1567" text="Subsequent lower extremities noninvasive studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="1572" end="1584" text="D-dimer test" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="1633" end="1657" text="acute pulmonary embolism" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="1691" end="1695" text="felt" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E67" start="1733" end="1757" text="chronic Coumadin therapy" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E53" start="179" end="201" text="dilated cardiomyopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="1809" end="1829" text="Coronary angiography" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="1830" end="1838" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E29" start="1839" end="1888" text="occlusion of the right coronary artery proximally" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="1894" end="1955" text="insignificant plaquing in the left anterior descending artery" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1988" end="2024" text="a approximate 3 liter total diuresis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="2025" end="2050" text="the right atrial pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="204" end="234" text="inferior myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="2059" end="2093" text="pulmonary capillary wedge pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="2099" end="2128" text="pulmonary vacuolar resistance" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="2137" end="2155" text="the cardiac output" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E35" start="2197" end="2212" text="a cardiac index" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E69" start="2309" end="2332" text="multi-factorial dyspnea" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E70" start="2347" end="2373" text="his ventilatory limitation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="2381" end="2407" text="a chronic low output state" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="241" end="268" text="anterior mediastinal masses" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="2413" end="2421" text="Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E72" start="2574" end="2585" text="His Isordil" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E73" start="2590" end="2599" text="increased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="2603" end="2611" text="Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E36" start="2616" end="2638" text="blood pressure control" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="2666" end="2684" text="systolic pressures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E55" start="269" end="277" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="2715" end="2733" text="Future adjustments" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E82" start="2750" end="2754" text="home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E75" start="2763" end="2790" text="his blood pressure measures" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E38" start="2803" end="2809" text="weight" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="2826" end="2861" text="Mr. State &apos;s filling pressures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="2882" end="2898" text="a wedge pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="29" end="38" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="298" end="313" text="pulmonary edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E76" start="2995" end="3003" text="followed" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E77" start="3034" end="3043" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="3077" end="3109" text="the Dyathenslycha Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E79" start="334" end="358" text="inadvertently decreasing" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="359" end="364" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="407" end="427" text="sudden onset dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="485" end="499" text="severe dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="507" end="514" text="arrival" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="518" end="536" text="the Emergency Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="537" end="566" text="Mr. State &apos;s saturations" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="616" end="632" text="more comfortable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="638" end="654" text="high flow oxygen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="657" end="665" text="morphine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="672" end="680" text="nitrates" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="685" end="702" text="intravenous Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="705" end="716" text="Chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E60" start="748" end="778" text="interstitial or alveolar edema" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="788" end="808" text="clinical improvement" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="821" end="842" text="the immediate therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="846" end="864" text="the Emergency Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E62" start="868" end="873" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E44" start="888" end="894" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E10" start="895" end="901" text="angina" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E11" start="904" end="911" text="syncope" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E12" start="914" end="943" text="preceding worsening orthopnea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E13" start="946" end="974" text="paroxysmal nocturnal dyspnea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E14" start="977" end="989" text="palpitations" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E15" start="992" end="1002" text="chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<TIMEX3 id="T4" start="1143" end="1161" text="the first 24 hours" type="DURATION" val="PT24H" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="11/04/2000" type="DATE" val="2000-11-04" mod="NA" />
+<TIMEX3 id="T5" start="2181" end="2191" text="per minute" type="FREQUENCY" val="RPT60S" mod="NA" />
+<TIMEX3 id="T6" start="2227" end="2237" text="per minute" type="FREQUENCY" val="RPT60S" mod="NA" />
+<TIMEX3 id="T7" start="3024" end="3030" text="a week" type="DURATION" val="p1w" mod="NA" />
+<TIMEX3 id="T2" start="387" end="392" text="a day" type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T3" start="446" end="460" text="day and a half" type="DURATION" val="p1.5d" mod="APPROX" />
+<TIMEX3 id="T1" start="46" end="56" text="11/09/2000" type="DATE" val="2000-11-09" mod="NA" />
+<TLINK id="TL0" fromID="T0" fromText="11/04/2000" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL1" fromID="E11" fromText="syncope" toID="E10" toText="angina" type="OVERLAP" />
+<TLINK id="TL10" fromID="E55" fromText="admitted" toID="E0" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL11" fromID="E54" fromText="anterior mediastinal masses" toID="E56" toText="pulmonary edema" type="OVERLAP" />
+<TLINK id="TL12" fromID="E56" fromText="pulmonary edema" toID="E55" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL13" fromID="E57" fromText="Lasix" toID="E79" toText="inadvertently decreasing" type="BEFORE_OVERLAP" />
+<TLINK id="TL14" fromID="E79" fromText="inadvertently decreasing" toID="T2" toText="a day" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E58" fromText="sudden onset dyspnea" toID="E79" toText="inadvertently decreasing" type="AFTER" />
+<TLINK id="TL16" fromID="E2" fromText="severe dyspnea" toID="E58" toText="sudden onset dyspnea" type="AFTER" />
+<TLINK id="TL17" fromID="E58" fromText="sudden onset dyspnea" toID="T3" toText="day and a half" type="OVERLAP" />
+<TLINK id="TL18" fromID="T3" fromText="day and a half" toID="E41" toText="arrival" type="ENDED_BY" />
+<TLINK id="TL19" fromID="E42" fromText="the Emergency Room" toID="E41" toText="arrival" type="BEGUN_BY" />
+<TLINK id="TL2" fromID="E23" fromText="a VQ scan" toID="E22" toText="catheterization" type="BEFORE" />
+<TLINK id="TL20" fromID="E3" fromText="Mr. State &apos;s saturations" toID="E42" toText="the Emergency Room" type="BEFORE_OVERLAP" />
+<TLINK id="TL21" fromID="E59" fromText="more comfortable" toID="E41" toText="arrival" type="AFTER" />
+<TLINK id="TL22" fromID="E4" fromText="high flow oxygen" toID="E59" toText="more comfortable" type="BEFORE_OVERLAP" />
+<TLINK id="TL23" fromID="E4" fromText="high flow oxygen" toID="E5" toText="morphine" type="OVERLAP" />
+<TLINK id="TL24" fromID="E5" fromText="morphine" toID="E6" toText="nitrates" type="OVERLAP" />
+<TLINK id="TL25" fromID="E6" fromText="nitrates" toID="E7" toText="intravenous Lasix" type="OVERLAP" />
+<TLINK id="TL26" fromID="E8" fromText="Chest x-ray" toID="E3" toText="Mr. State &apos;s saturations" type="OVERLAP" />
+<TLINK id="TL27" fromID="E60" fromText="interstitial or alveolar edema" toID="E8" toText="Chest x-ray" type="BEFORE_OVERLAP" />
+<TLINK id="TL28" fromID="E61" fromText="clinical improvement" toID="E59" toText="more comfortable" type="OVERLAP" />
+<TLINK id="TL29" fromID="E61" fromText="clinical improvement" toID="E9" toText="the immediate therapy" type="AFTER" />
+<TLINK id="TL3" fromID="E31" fromText="the right atrial pressure" toID="E30" toText="a approximate 3 liter total diuresis" type="AFTER" />
+<TLINK id="TL30" fromID="E43" fromText="the Emergency Room" toID="E42" toText="the Emergency Room" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E62" fromText="noted" toID="E43" toText="the Emergency Room" type="DURING" />
+<TLINK id="TL32" fromID="E44" fromText="denied" toID="E43" toText="the Emergency Room" type="DURING" />
+<TLINK id="TL33" fromID="E11" fromText="syncope" toID="E12" toText="preceding worsening orthopnea" type="OVERLAP" />
+<TLINK id="TL34" fromID="E12" fromText="preceding worsening orthopnea" toID="E13" toText="paroxysmal nocturnal dyspnea" type="OVERLAP" />
+<TLINK id="TL35" fromID="E13" fromText="paroxysmal nocturnal dyspnea" toID="E14" toText="palpitations" type="OVERLAP" />
+<TLINK id="TL36" fromID="E14" fromText="palpitations" toID="E15" toText="chest pain" type="OVERLAP" />
+<TLINK id="TL37" fromID="E15" fromText="chest pain" toID="E16" toText="hematemesis" type="OVERLAP" />
+<TLINK id="TL38" fromID="E16" fromText="hematemesis" toID="E17" toText="melena" type="OVERLAP" />
+<TLINK id="TL39" fromID="E45" fromText="admitted" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL4" fromID="E32" fromText="pulmonary capillary wedge pressure" toID="E31" toText="the right atrial pressure" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E46" fromText="the Hospital" toID="E45" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL41" fromID="E46" fromText="the Hospital" toID="E51" toText="DISCHARGE" type="ENDED_BY" />
+<TLINK id="TL42" fromID="E18" fromText="an approximate 1.5 liter diuresis" toID="E46" toText="the Hospital" type="DURING" />
+<TLINK id="TL43" fromID="E18" fromText="an approximate 1.5 liter diuresis" toID="T4" toText="the first 24 hours" type="SIMULTANEOUS" />
+<TLINK id="TL44" fromID="T4" fromText="the first 24 hours" toID="E0" toText="ADMISSION" type="BEGUN_BY" />
+<TLINK id="TL45" fromID="E18" fromText="an approximate 1.5 liter diuresis" toID="E63" toText="improvement" type="OVERLAP" />
+<TLINK id="TL46" fromID="E19" fromText="his symptoms" toID="E63" toText="improvement" type="BEFORE_OVERLAP" />
+<TLINK id="TL47" fromID="E64" fromText="improvement" toID="E20" toText="his oxygen saturations" type="OVERLAP" />
+<TLINK id="TL48" fromID="E19" fromText="his symptoms" toID="E64" toText="improvement" type="OVERLAP" />
+<TLINK id="TL49" fromID="E21" fromText="a cardiac catheterization" toID="E65" toText="a long discussion" type="AFTER" />
+<TLINK id="TL5" fromID="E51" fromText="DISCHARGE" toID="T1" toText="11/09/2000" type="OVERLAP" />
+<TLINK id="TL50" fromID="E22" fromText="catheterization" toID="E21" toText="a cardiac catheterization" type="SIMULTANEOUS" />
+<TLINK id="TL51" fromID="E22" fromText="catheterization" toID="E47" toText="revealed" type="SIMULTANEOUS" />
+<TLINK id="TL52" fromID="E66" fromText="PE" toID="E23" toText="a VQ scan" type="BEFORE_OVERLAP" />
+<TLINK id="TL53" fromID="E66" fromText="PE" toID="E24" toText="a subsegmental defect in the lingular" type="OVERLAP" />
+<TLINK id="TL54" fromID="E25" fromText="Subsequent lower extremities noninvasive studies" toID="E22" toText="catheterization" type="AFTER" />
+<TLINK id="TL55" fromID="E25" fromText="Subsequent lower extremities noninvasive studies" toID="E26" toText="D-dimer test" type="OVERLAP" />
+<TLINK id="TL56" fromID="E27" fromText="acute pulmonary embolism" toID="E25" toText="Subsequent lower extremities noninvasive studies" type="OVERLAP" />
+<TLINK id="TL57" fromID="E27" fromText="acute pulmonary embolism" toID="E66" toText="PE" type="SIMULTANEOUS" />
+<TLINK id="TL58" fromID="E67" fromText="chronic Coumadin therapy" toID="E80" toText="felt" type="AFTER" />
+<TLINK id="TL59" fromID="E28" fromText="Coronary angiography" toID="E25" toText="Subsequent lower extremities noninvasive studies" type="AFTER" />
+<TLINK id="TL6" fromID="E52" fromText="restrictive and obstructive lung disease" toID="E53" toText="dilated cardiomyopathy" type="OVERLAP" />
+<TLINK id="TL60" fromID="E48" fromText="revealed" toID="E28" toText="Coronary angiography" type="SIMULTANEOUS" />
+<TLINK id="TL61" fromID="E29" fromText="occlusion of the right coronary artery proximally" toID="E28" toText="Coronary angiography" type="BEFORE_OVERLAP" />
+<TLINK id="TL62" fromID="E68" fromText="insignificant plaquing in the left anterior descending artery" toID="E29" toText="occlusion of the right coronary artery proximally" type="OVERLAP" />
+<TLINK id="TL63" fromID="E32" fromText="pulmonary capillary wedge pressure" toID="E33" toText="pulmonary vacuolar resistance" type="OVERLAP" />
+<TLINK id="TL64" fromID="E33" fromText="pulmonary vacuolar resistance" toID="E34" toText="the cardiac output" type="OVERLAP" />
+<TLINK id="TL65" fromID="E34" fromText="the cardiac output" toID="E35" toText="a cardiac index" type="OVERLAP" />
+<TLINK id="TL66" fromID="E34" fromText="the cardiac output" toID="T5" toText="per minute" type="SIMULTANEOUS" />
+<TLINK id="TL67" fromID="T6" fromText="per minute" toID="E35" toText="a cardiac index" type="SIMULTANEOUS" />
+<TLINK id="TL68" fromID="E69" fromText="multi-factorial dyspnea" toID="E66" toText="PE" type="OVERLAP" />
+<TLINK id="TL69" fromID="E70" fromText="his ventilatory limitation" toID="E69" toText="multi-factorial dyspnea" type="BEFORE_OVERLAP" />
+<TLINK id="TL7" fromID="E53" fromText="dilated cardiomyopathy" toID="E1" toText="inferior myocardial infarction" type="OVERLAP" />
+<TLINK id="TL70" fromID="E70" fromText="his ventilatory limitation" toID="E71" toText="a chronic low output state" type="OVERLAP" />
+<TLINK id="TL71" fromID="E49" fromText="Hospital" toID="E46" toText="the Hospital" type="SIMULTANEOUS" />
+<TLINK id="TL72" fromID="E72" fromText="His Isordil" toID="E49" toText="Hospital" type="DURING" />
+<TLINK id="TL73" fromID="E72" fromText="His Isordil" toID="E73" toText="increased" type="BEFORE_OVERLAP" />
+<TLINK id="TL74" fromID="E49" fromText="Hospital" toID="E50" toText="Hospital" type="DURING" />
+<TLINK id="TL75" fromID="E36" fromText="blood pressure control" toID="E50" toText="Hospital" type="DURING" />
+<TLINK id="TL76" fromID="E36" fromText="blood pressure control" toID="E37" toText="systolic pressures" type="OVERLAP" />
+<TLINK id="TL77" fromID="E74" fromText="Future adjustments" toID="E75" toText="his blood pressure measures" type="OVERLAP" />
+<TLINK id="TL78" fromID="E74" fromText="Future adjustments" toID="E82" toText="home" type="OVERLAP" />
+<TLINK id="TL79" fromID="E82" fromText="home" toID="E51" toText="DISCHARGE" type="BEGUN_BY" />
+<TLINK id="TL8" fromID="E1" fromText="inferior myocardial infarction" toID="E54" toText="anterior mediastinal masses" type="OVERLAP" />
+<TLINK id="TL80" fromID="E75" fromText="his blood pressure measures" toID="E82" toText="home" type="OVERLAP" />
+<TLINK id="TL81" fromID="E82" fromText="home" toID="E38" toText="weight" type="OVERLAP" />
+<TLINK id="TL82" fromID="E39" fromText="Mr. State &apos;s filling pressures" toID="E40" toText="a wedge pressure" type="OVERLAP" />
+<TLINK id="TL83" fromID="E76" fromText="followed" toID="E82" toText="home" type="OVERLAP" />
+<TLINK id="TL84" fromID="T7" fromText="a week" toID="E77" toText="discharge" type="BEGUN_BY" />
+<TLINK id="TL85" fromID="E77" fromText="discharge" toID="E51" toText="DISCHARGE" type="SIMULTANEOUS" />
+<TLINK id="TL86" fromID="E76" fromText="followed" toID="E78" toText="the Dyathenslycha Medical Center" type="OVERLAP" />
+<TLINK id="TL9" fromID="E54" fromText="anterior mediastinal masses" toID="E55" toText="admitted" type="BEFORE_OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="11/04/2000" type="ADMISSION" dvalue="2000-11-04" />
+<SECTIME id="S1" start="46" end="56" text="11/09/2000" type="DISCHARGE" dvalue="2000-11-09" />
+<TLINK id="SECTIME0" fromID="E16" fromText="hematemesis" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E17" fromText="melena" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E45" fromText="admitted" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E46" fromText="the Hospital" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E18" fromText="an approximate 1.5 liter diuresis" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E63" fromText="improvement" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E19" fromText="his symptoms" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E64" fromText="improvement" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E20" fromText="his oxygen saturations" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E65" fromText="a long discussion" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E21" fromText="a cardiac catheterization" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E52" fromText="restrictive and obstructive lung disease" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E22" fromText="catheterization" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E23" fromText="a VQ scan" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E47" fromText="revealed" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E66" fromText="PE" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E24" fromText="a subsegmental defect in the lingular" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E25" fromText="Subsequent lower extremities noninvasive studies" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E26" fromText="D-dimer test" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E27" fromText="acute pulmonary embolism" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E80" fromText="felt" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E67" fromText="chronic Coumadin therapy" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E53" fromText="dilated cardiomyopathy" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E28" fromText="Coronary angiography" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E48" fromText="revealed" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E29" fromText="occlusion of the right coronary artery proximally" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E68" fromText="insignificant plaquing in the left anterior descending artery" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E30" fromText="a approximate 3 liter total diuresis" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E31" fromText="the right atrial pressure" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E1" fromText="inferior myocardial infarction" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E32" fromText="pulmonary capillary wedge pressure" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E33" fromText="pulmonary vacuolar resistance" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E34" fromText="the cardiac output" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E35" fromText="a cardiac index" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E69" fromText="multi-factorial dyspnea" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E70" fromText="his ventilatory limitation" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E71" fromText="a chronic low output state" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E54" fromText="anterior mediastinal masses" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E49" fromText="Hospital" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E72" fromText="His Isordil" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E73" fromText="increased" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E50" fromText="Hospital" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E36" fromText="blood pressure control" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E37" fromText="systolic pressures" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E55" fromText="admitted" toID="T0" toText="11/04/2000" type="OVERLAP" />
+<TLINK id="SECTIME45" fromID="E74" fromText="Future adjustments" toID="T1" toText="11/09/2000" type="AFTER" />
+<TLINK id="SECTIME46" fromID="E82" fromText="home" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E75" fromText="his blood pressure measures" toID="T1" toText="11/09/2000" type="AFTER" />
+<TLINK id="SECTIME48" fromID="E38" fromText="weight" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E39" fromText="Mr. State &apos;s filling pressures" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E40" fromText="a wedge pressure" toID="T1" toText="11/09/2000" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E56" fromText="pulmonary edema" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E76" fromText="followed" toID="T1" toText="11/09/2000" type="AFTER" />
+<TLINK id="SECTIME53" fromID="E77" fromText="discharge" toID="T1" toText="11/09/2000" type="OVERLAP" />
+<TLINK id="SECTIME54" fromID="E78" fromText="the Dyathenslycha Medical Center" toID="T1" toText="11/09/2000" type="AFTER" />
+<TLINK id="SECTIME55" fromID="E79" fromText="inadvertently decreasing" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E57" fromText="Lasix" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E58" fromText="sudden onset dyspnea" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E2" fromText="severe dyspnea" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E41" fromText="arrival" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E42" fromText="the Emergency Room" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E3" fromText="Mr. State &apos;s saturations" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E59" fromText="more comfortable" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E4" fromText="high flow oxygen" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E5" fromText="morphine" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E6" fromText="nitrates" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E7" fromText="intravenous Lasix" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E8" fromText="Chest x-ray" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E60" fromText="interstitial or alveolar edema" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E61" fromText="clinical improvement" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E9" fromText="the immediate therapy" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E43" fromText="the Emergency Room" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E62" fromText="noted" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E44" fromText="denied" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E10" fromText="angina" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E11" fromText="syncope" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E12" fromText="preceding worsening orthopnea" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E13" fromText="paroxysmal nocturnal dyspnea" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E14" fromText="palpitations" toID="T0" toText="11/04/2000" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E15" fromText="chest pain" toID="T0" toText="11/04/2000" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

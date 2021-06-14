@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2011-06-10
+Discharge Date :
+2011-06-13
+Service :
+CMED CSRU
+HISTORY OF PRESENT ILLNESS :
+This is a 35-year-old gentleman with HIV on HAART with last CD4 count of 268 and undetectable viral load who was referred to the emergency room via his PCP for progressive throat pain and edema .
+His throat pain began 2 to 3 days prior to admission , initially treated with ibuprofen , seen in an outside hospital emergency room day prior to admission where he received IV penicillin and was sent home .
+In clinic today , the patient desaturated to low 90 s with ambulation and also had complaints of progressive swelling " like my throat is going to close up " with increasing drooling , unable to swallow the HIV medications .
+Also noted to have low-grade temperature of 99 to 100 degrees with productive cough and yellow sputum times 1 day with
+right ear pain .
+No subjective shortness of breath .
+The patient describes whole body numbness .
+He currently notes improvement in his throat pain after some Decadron and clindamycin .
+He was seen by CMED CSRU in the emergency room and the exam was consistent with supraglottitis .
+REVIEW OF SYSTEMS :
+Review of systems was negative for history of opportunistic infections or prior hospitalizations .
+Of note , his CD4 count was less than 200 last winter .
+He believes he is up-to-date on all his vaccines .
+HOSPITAL COURSE :
+This is a 35-year-old gentleman with HIV on HAART , last CD4 count 268 with undetectable viral load who was initially admitted to the CMED CSRU for supraglottitis with significant edema .
+PROBLEM LIST :
+1. Epiglottitis / supraglottitis .
+The patient was observed in the CMED CSRU for 48 hours and noted to have decrease in swelling on serial exams .
+He was followed by the CMED CSRU Service and was started on IV Decadron initially in addition to IV Unasyn , which he tolerated well .
+His edema was improving and was starting to tolerate p.o.
+His airway and symptoms continued to improve and remained stable .
+The patient was stable for transfer to the floor , was treated with over 72 hours of IV Unasyn , and then transitioned to oral regimen of Augmentin to be continued as an outpatient .
+Eventually , his IV steroids were transitioned to a p.o. steroid taper , which he tolerated well , and was discharged on a steroid taper also with CMED CSRU follow-up as an outpatient .
+His oxygenation and symptoms remained stable and again tolerated p.o. without difficulty .
+Eventually , as the patient remained hemodynamically stable , his airway remained stable , and he was tolerating PO s, he was transitioned to the floor where he remained otherwise stable and asymptomatic .
+His voice improved during the course of his stay and was talking clearly by the time of discharge .
+He remained afebrile during the course of his stay after transfer to the floor and per CMED CSRU was to be discharged on a 2-week course of Augmentin with follow-up with Dr. Thibodeau in 2 weeks ' time in addition to a Medrol Dosepak .
+1. HIV .
+Once , the patient was tolerating p.o. , the patient was restarted on his HAART regimen and remained stable from that perspective .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1007" end="1020" text="some Decadron" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="1025" end="1036" text="clindamycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1046" end="1050" text="seen" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1054" end="1063" text="CMED CSRU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E41" start="1067" end="1085" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E42" start="1090" end="1098" text="the exam" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="1119" end="1133" text="supraglottitis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="1156" end="1173" text="Review of systems" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="1202" end="1226" text="opportunistic infections" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E46" start="1230" end="1252" text="prior hospitalizations" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E47" start="1258" end="1262" text="note" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E48" start="1265" end="1278" text="his CD4 count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E49" start="1347" end="1359" text="his vaccines" modality="POSSIBLE" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="1417" end="1420" text="HIV" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="143" end="146" text="HIV" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1424" end="1429" text="HAART" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="1432" end="1446" text="last CD4 count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="1469" end="1479" text="viral load" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E3" start="150" end="155" text="HAART" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1498" end="1506" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="1510" end="1523" text="the CMED CSRU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E56" start="1528" end="1542" text="supraglottitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="1548" end="1565" text="significant edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="1586" end="1598" text="Epiglottitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="161" end="175" text="last CD4 count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="1601" end="1615" text="supraglottitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="1634" end="1642" text="observed" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E61" start="1646" end="1659" text="the CMED CSRU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E62" start="1677" end="1682" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E64" start="1691" end="1699" text="decrease" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="1703" end="1711" text="swelling" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="1715" end="1727" text="serial exams" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E66" start="1737" end="1745" text="followed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="1749" end="1770" text="the CMED CSRU Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E68" start="1779" end="1786" text="started" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="1790" end="1801" text="IV Decadron" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="1827" end="1836" text="IV Unasyn" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="1848" end="1862" text="tolerated well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="1865" end="1874" text="His edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="1879" end="1888" text="improving" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E76" start="1897" end="1922" text="starting to tolerate p.o." modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E77" start="1938" end="1946" text="symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E78" start="1960" end="1967" text="improve" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E79" start="1972" end="1987" text="remained stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="200" end="210" text="viral load" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E80" start="2006" end="2012" text="stable" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E81" start="2017" end="2025" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E82" start="2029" end="2038" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E83" start="2045" end="2052" text="treated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E84" start="2075" end="2084" text="IV Unasyn" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E85" start="2096" end="2108" text="transitioned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E86" start="2128" end="2137" text="Augmentin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E87" start="2144" end="2153" text="continued" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E88" start="2186" end="2201" text="his IV steroids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="219" end="227" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E89" start="2207" end="2219" text="transitioned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E90" start="2223" end="2243" text="a p.o. steroid taper" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E92" start="2255" end="2269" text="tolerated well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E93" start="2255" end="2269" text="tolerated well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E94" start="2280" end="2290" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E95" start="2294" end="2309" text="a steroid taper" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E127" start="2320" end="2329" text="CMED CSRU" modality="PROPOSED" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E128" start="2330" end="2339" text="follow-up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="231" end="249" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E98" start="2379" end="2387" text="symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E99" start="2388" end="2403" text="remained stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E100" start="2414" end="2428" text="tolerated p.o." modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E101" start="2437" end="2447" text="difficulty" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E102" start="2478" end="2509" text="remained hemodynamically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E103" start="2512" end="2538" text="his airway remained stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E104" start="2552" end="2565" text="tolerating PO" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E105" start="2576" end="2588" text="transitioned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="254" end="261" text="his PCP" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E106" start="2592" end="2601" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E107" start="2630" end="2636" text="stable" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E108" start="2641" end="2653" text="asymptomatic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="266" end="289" text="progressive throat pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="2656" end="2674" text="His voice improved" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E110" start="2682" end="2704" text="the course of his stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E111" start="2713" end="2728" text="talking clearly" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E112" start="2744" end="2753" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E113" start="2768" end="2776" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E114" start="2784" end="2806" text="the course of his stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E115" start="2813" end="2821" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E116" start="2825" end="2834" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E117" start="2843" end="2852" text="CMED CSRU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E118" start="2863" end="2873" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E119" start="2896" end="2905" text="Augmentin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E120" start="2911" end="2920" text="follow-up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="294" end="299" text="edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E121" start="2973" end="2989" text="a Medrol Dosepak" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E122" start="2995" end="2998" text="HIV" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="302" end="317" text="His throat pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E123" start="3024" end="3039" text="tolerating p.o." modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E124" start="3058" end="3067" text="restarted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E125" start="3071" end="3088" text="his HAART regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E126" start="3093" end="3108" text="remained stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="345" end="354" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="367" end="374" text="treated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="380" end="389" text="ibuprofen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="392" end="434" text="seen in an outside hospital emergency room" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="467" end="475" text="received" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="476" end="489" text="IV penicillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="498" end="507" text="sent home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="540" end="551" text="desaturated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="569" end="579" text="ambulation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="593" end="603" text="complaints" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E23" start="607" end="627" text="progressive swelling" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="673" end="692" text="increasing drooling" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="705" end="712" text="swallow" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E26" start="713" end="732" text="the HIV medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="740" end="745" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E28" start="754" end="775" text="low-grade temperature" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="802" end="818" text="productive cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="823" end="836" text="yellow sputum" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="854" end="868" text="right ear pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="874" end="904" text="subjective shortness of breath" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E33" start="929" end="948" text="whole body numbness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="964" end="969" text="notes" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E35" start="970" end="981" text="improvement" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E36" start="985" end="1000" text="his throat pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T6" start="1297" end="1308" text="last winter" type="DATE" val="2010" mod="END" />
+<TIMEX3 id="T7" start="1664" end="1672" text="48 hours" type="DURATION" val="p48h" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2011-06-10" type="DATE" val="2011-06-10" mod="NA" />
+<TIMEX3 id="T8" start="2063" end="2071" text="72 hours" type="DATE" val="p72h" mod="MORE" />
+<TIMEX3 id="T9" start="2732" end="2753" text="the time of discharge" type="DATE" val="2011-06-13" mod="NA" />
+<TIMEX3 id="T10" start="2877" end="2885" text="a 2-week" type="DURATION" val="P2W" mod="NA" />
+<TIMEX3 id="T11" start="2943" end="2950" text="2 weeks" type="DURATION" val="P2W" mod="NA" />
+<TIMEX3 id="T2" start="324" end="335" text="2 to 3 days" type="DURATION" val="P2.5D" mod="APPROX" />
+<TIMEX3 id="T4" start="435" end="438" text="day" type="DATE" val="2011-06-09" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2011-06-13" type="DATE" val="2011-06-13" mod="NA" />
+<TIMEX3 id="T3" start="520" end="525" text="today" type="DATE" val="2011-06-10" mod="NA" />
+<TIMEX3 id="T5" start="837" end="848" text="times 1 day" type="FREQUENCY" val="RP24H" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2011-06-10" type="OVERLAP" />
+<TLINK id="TL1" fromID="E2" fromText="HIV" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL10" fromID="E3" fromText="HAART" toID="E4" toText="last CD4 count" type="BEFORE_OVERLAP" />
+<TLINK id="TL100" fromID="E92" fromText="tolerated well" toID="E90" toText="a p.o. steroid taper" type="OVERLAP" />
+<TLINK id="TL101" fromID="E95" fromText="a steroid taper" toID="E90" toText="a p.o. steroid taper" type="SIMULTANEOUS" />
+<TLINK id="TL102" fromID="E95" fromText="a steroid taper" toID="E94" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL103" fromID="E127" fromText="CMED CSRU" toID="E128" toText="follow-up" type="SIMULTANEOUS" />
+<TLINK id="TL104" fromID="E98" fromText="symptoms" toID="E99" toText="remained stable" type="BEFORE_OVERLAP" />
+<TLINK id="TL105" fromID="E108" fromText="asymptomatic" toID="E98" toText="symptoms" type="OVERLAP" />
+<TLINK id="TL106" fromID="E101" fromText="difficulty" toID="E100" toText="tolerated p.o." type="SIMULTANEOUS" />
+<TLINK id="TL107" fromID="E102" fromText="remained hemodynamically stable" toID="E99" toText="remained stable" type="OVERLAP" />
+<TLINK id="TL108" fromID="E103" fromText="his airway remained stable" toID="E99" toText="remained stable" type="OVERLAP" />
+<TLINK id="TL109" fromID="E104" fromText="tolerating PO" toID="E100" toText="tolerated p.o." type="SIMULTANEOUS" />
+<TLINK id="TL11" fromID="E52" fromText="last CD4 count" toID="E4" toText="last CD4 count" type="SIMULTANEOUS" />
+<TLINK id="TL110" fromID="E105" fromText="transitioned" toID="E81" toText="transfer" type="SIMULTANEOUS" />
+<TLINK id="TL111" fromID="E106" fromText="the floor" toID="E105" toText="transitioned" type="BEGUN_BY" />
+<TLINK id="TL112" fromID="E108" fromText="asymptomatic" toID="E107" toText="stable" type="OVERLAP" />
+<TLINK id="TL113" fromID="E107" fromText="stable" toID="E106" toText="the floor" type="OVERLAP" />
+<TLINK id="TL114" fromID="E107" fromText="stable" toID="E99" toText="remained stable" type="OVERLAP" />
+<TLINK id="TL115" fromID="E109" fromText="His voice improved" toID="E110" toText="the course of his stay" type="DURING" />
+<TLINK id="TL116" fromID="E109" fromText="His voice improved" toID="E111" toText="talking clearly" type="BEFORE_OVERLAP" />
+<TLINK id="TL117" fromID="E110" fromText="the course of his stay" toID="T0" toText="2011-06-10" type="BEGUN_BY" />
+<TLINK id="TL118" fromID="E110" fromText="the course of his stay" toID="T1" toText="2011-06-13" type="ENDED_BY" />
+<TLINK id="TL119" fromID="E111" fromText="talking clearly" toID="T9" toText="the time of discharge" type="BEFORE_OVERLAP" />
+<TLINK id="TL12" fromID="E5" fromText="viral load" toID="E4" toText="last CD4 count" type="SIMULTANEOUS" />
+<TLINK id="TL120" fromID="E113" fromText="afebrile" toID="E114" toText="the course of his stay" type="DURING" />
+<TLINK id="TL121" fromID="E113" fromText="afebrile" toID="E115" toText="transfer" type="AFTER" />
+<TLINK id="TL122" fromID="E114" fromText="the course of his stay" toID="E110" toText="the course of his stay" type="SIMULTANEOUS" />
+<TLINK id="TL123" fromID="E116" fromText="the floor" toID="E115" toText="transfer" type="BEGUN_BY" />
+<TLINK id="TL124" fromID="E117" fromText="CMED CSRU" toID="E118" toText="discharged" type="BEFORE" />
+<TLINK id="TL125" fromID="E119" fromText="Augmentin" toID="E118" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL126" fromID="E119" fromText="Augmentin" toID="T10" toText="a 2-week" type="DURING" />
+<TLINK id="TL127" fromID="E120" fromText="follow-up" toID="T11" toText="2 weeks" type="AFTER" />
+<TLINK id="TL128" fromID="E121" fromText="a Medrol Dosepak" toID="E120" toText="follow-up" type="OVERLAP" />
+<TLINK id="TL129" fromID="E125" fromText="his HAART regimen" toID="E124" toText="restarted" type="BEGUN_BY" />
+<TLINK id="TL13" fromID="E6" fromText="referred" toID="E7" toText="the emergency room" type="BEFORE" />
+<TLINK id="TL130" fromID="E122" fromText="HIV" toID="E126" toText="remained stable" type="BEFORE_OVERLAP" />
+<TLINK id="TL14" fromID="E6" fromText="referred" toID="E8" toText="his PCP" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E9" fromText="progressive throat pain" toID="E7" toText="the emergency room" type="BEFORE_OVERLAP" />
+<TLINK id="TL16" fromID="E10" fromText="edema" toID="E9" toText="progressive throat pain" type="OVERLAP" />
+<TLINK id="TL17" fromID="E9" fromText="progressive throat pain" toID="E11" toText="His throat pain" type="simultaneous" />
+<TLINK id="TL18" fromID="E36" fromText="his throat pain" toID="E9" toText="progressive throat pain" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E10" fromText="edema" toID="E23" toText="progressive swelling" type="simultaneous" />
+<TLINK id="TL2" fromID="E12" fromText="admission" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E11" fromText="His throat pain" toID="T2" toText="2 to 3 days" type="BEGUN_BY" />
+<TLINK id="TL21" fromID="T2" fromText="2 to 3 days" toID="E12" toText="admission" type="ENDED_BY" />
+<TLINK id="TL22" fromID="E14" fromText="ibuprofen" toID="E13" toText="treated" type="OVERLAP" />
+<TLINK id="TL23" fromID="E15" fromText="seen in an outside hospital emergency room" toID="E14" toText="ibuprofen" type="AFTER" />
+<TLINK id="TL24" fromID="E15" fromText="seen in an outside hospital emergency room" toID="T4" toText="day" type="OVERLAP" />
+<TLINK id="TL26" fromID="E17" fromText="IV penicillin" toID="E15" toText="seen in an outside hospital emergency room" type="OVERLAP" />
+<TLINK id="TL27" fromID="E19" fromText="sent home" toID="E17" toText="IV penicillin" type="AFTER" />
+<TLINK id="TL28" fromID="E20" fromText="desaturated" toID="T3" toText="today" type="OVERLAP" />
+<TLINK id="TL29" fromID="E21" fromText="ambulation" toID="E20" toText="desaturated" type="OVERLAP" />
+<TLINK id="TL3" fromID="E54" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E23" fromText="progressive swelling" toID="E22" toText="complaints" type="BEFORE_OVERLAP" />
+<TLINK id="TL31" fromID="E22" fromText="complaints" toID="T3" toText="today" type="OVERLAP" />
+<TLINK id="TL32" fromID="E27" fromText="noted" toID="T3" toText="today" type="OVERLAP" />
+<TLINK id="TL33" fromID="E28" fromText="low-grade temperature" toID="E27" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL34" fromID="E30" fromText="yellow sputum" toID="E29" toText="productive cough" type="OVERLAP" />
+<TLINK id="TL35" fromID="E29" fromText="productive cough" toID="E27" toText="noted" type="OVERLAP" />
+<TLINK id="TL36" fromID="E30" fromText="yellow sputum" toID="T5" toText="times 1 day" type="OVERLAP" />
+<TLINK id="TL37" fromID="E27" fromText="noted" toID="E31" toText="right ear pain" type="OVERLAP" />
+<TLINK id="TL38" fromID="E32" fromText="subjective shortness of breath" toID="E27" toText="noted" type="OVERLAP" />
+<TLINK id="TL39" fromID="E33" fromText="whole body numbness" toID="E27" toText="noted" type="OVERLAP" />
+<TLINK id="TL4" fromID="E41" fromText="the emergency room" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL40" fromID="E35" fromText="improvement" toID="E34" toText="notes" type="SIMULTANEOUS" />
+<TLINK id="TL41" fromID="E36" fromText="his throat pain" toID="E35" toText="improvement" type="BEFORE_OVERLAP" />
+<TLINK id="TL42" fromID="E37" fromText="some Decadron" toID="E35" toText="improvement" type="BEFORE" />
+<TLINK id="TL43" fromID="E35" fromText="improvement" toID="E38" toText="clindamycin" type="AFTER" />
+<TLINK id="TL44" fromID="E40" fromText="CMED CSRU" toID="E39" toText="seen" type="SIMULTANEOUS" />
+<TLINK id="TL45" fromID="E41" fromText="the emergency room" toID="E40" toText="CMED CSRU" type="SIMULTANEOUS" />
+<TLINK id="TL46" fromID="E42" fromText="the exam" toID="E41" toText="the emergency room" type="OVERLAP" />
+<TLINK id="TL47" fromID="E43" fromText="supraglottitis" toID="E42" toText="the exam" type="BEFORE_OVERLAP" />
+<TLINK id="TL48" fromID="E44" fromText="Review of systems" toID="E45" toText="opportunistic infections" type="OVERLAP" />
+<TLINK id="TL49" fromID="E44" fromText="Review of systems" toID="E46" toText="prior hospitalizations" type="OVERLAP" />
+<TLINK id="TL5" fromID="E1" fromText="Discharge" toID="T1" toText="2011-06-13" type="OVERLAP" />
+<TLINK id="TL50" fromID="E48" fromText="his CD4 count" toID="E47" toText="note" type="" />
+<TLINK id="TL51" fromID="E48" fromText="his CD4 count" toID="T6" toText="last winter" type="OVERLAP" />
+<TLINK id="TL52" fromID="E49" fromText="his vaccines" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL53" fromID="E50" fromText="HIV" toID="E122" toText="HIV" type="simultaneous" />
+<TLINK id="TL54" fromID="E50" fromText="HIV" toID="E2" toText="HIV" type="SIMULTANEOUS" />
+<TLINK id="TL55" fromID="E51" fromText="HAART" toID="E50" toText="HIV" type="OVERLAP" />
+<TLINK id="TL56" fromID="E51" fromText="HAART" toID="E125" toText="his HAART regimen" type="simultaneous" />
+<TLINK id="TL57" fromID="E53" fromText="viral load" toID="E52" toText="last CD4 count" type="OVERLAP" />
+<TLINK id="TL58" fromID="E55" fromText="the CMED CSRU" toID="E54" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL59" fromID="E56" fromText="supraglottitis" toID="E55" toText="the CMED CSRU" type="BEFORE_OVERLAP" />
+<TLINK id="TL6" fromID="E94" fromText="discharged" toID="E1" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL60" fromID="E55" fromText="the CMED CSRU" toID="E40" toText="CMED CSRU" type="SIMULTANEOUS" />
+<TLINK id="TL61" fromID="E57" fromText="significant edema" toID="E56" toText="supraglottitis" type="OVERLAP" />
+<TLINK id="TL62" fromID="E56" fromText="supraglottitis" toID="E43" toText="supraglottitis" type="SIMULTANEOUS" />
+<TLINK id="TL63" fromID="E58" fromText="Epiglottitis" toID="E56" toText="supraglottitis" type="SIMULTANEOUS" />
+<TLINK id="TL64" fromID="E56" fromText="supraglottitis" toID="E59" toText="supraglottitis" type="simultaneous" />
+<TLINK id="TL65" fromID="E60" fromText="observed" toID="E61" toText="the CMED CSRU" type="DURING" />
+<TLINK id="TL66" fromID="E60" fromText="observed" toID="T7" toText="48 hours" type="DURING" />
+<TLINK id="TL67" fromID="E60" fromText="observed" toID="E62" toText="noted" type="OVERLAP" />
+<TLINK id="TL69" fromID="E64" fromText="decrease" toID="E62" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL70" fromID="E63" fromText="swelling" toID="E64" toText="decrease" type="BEFORE_OVERLAP" />
+<TLINK id="TL71" fromID="E65" fromText="serial exams" toID="E63" toText="swelling" type="OVERLAP" />
+<TLINK id="TL72" fromID="E63" fromText="swelling" toID="E73" toText="His edema" type="simultaneous" />
+<TLINK id="TL73" fromID="E57" fromText="significant edema" toID="E63" toText="swelling" type="SIMULTANEOUS" />
+<TLINK id="TL74" fromID="E67" fromText="the CMED CSRU Service" toID="E66" toText="followed" type="SIMULTANEOUS" />
+<TLINK id="TL75" fromID="E69" fromText="IV Decadron" toID="E68" toText="started" type="BEGUN_BY" />
+<TLINK id="TL76" fromID="E68" fromText="started" toID="E66" toText="followed" type="OVERLAP" />
+<TLINK id="TL77" fromID="E84" fromText="IV Unasyn" toID="E70" toText="IV Unasyn" type="SIMULTANEOUS" />
+<TLINK id="TL78" fromID="E70" fromText="IV Unasyn" toID="E69" toText="IV Decadron" type="BEFORE_OVERLAP" />
+<TLINK id="TL79" fromID="E72" fromText="tolerated well" toID="E70" toText="IV Unasyn" type="OVERLAP" />
+<TLINK id="TL8" fromID="E2" fromText="HIV" toID="E3" toText="HAART" type="BEFORE_OVERLAP" />
+<TLINK id="TL80" fromID="E70" fromText="IV Unasyn" toID="E67" toText="the CMED CSRU Service" type="DURING" />
+<TLINK id="TL81" fromID="E73" fromText="His edema" toID="E74" toText="improving" type="BEFORE_OVERLAP" />
+<TLINK id="TL82" fromID="E73" fromText="His edema" toID="E57" toText="significant edema" type="SIMULTANEOUS" />
+<TLINK id="TL83" fromID="E100" fromText="tolerated p.o." toID="E76" toText="starting to tolerate p.o." type="SIMULTANEOUS" />
+<TLINK id="TL84" fromID="E76" fromText="starting to tolerate p.o." toID="E74" toText="improving" type="AFTER" />
+<TLINK id="TL85" fromID="E123" fromText="tolerating p.o." toID="E76" toText="starting to tolerate p.o." type="SIMULTANEOUS" />
+<TLINK id="TL86" fromID="E77" fromText="symptoms" toID="E78" toText="improve" type="BEFORE_OVERLAP" />
+<TLINK id="TL87" fromID="E98" fromText="symptoms" toID="E77" toText="symptoms" type="SIMULTANEOUS" />
+<TLINK id="TL88" fromID="E77" fromText="symptoms" toID="E73" toText="His edema" type="OVERLAP" />
+<TLINK id="TL89" fromID="E77" fromText="symptoms" toID="E79" toText="remained stable" type="BEFORE_OVERLAP" />
+<TLINK id="TL9" fromID="E51" fromText="HAART" toID="E3" toText="HAART" type="SIMULTANEOUS" />
+<TLINK id="TL90" fromID="E80" fromText="stable" toID="E81" toText="transfer" type="BEFORE_OVERLAP" />
+<TLINK id="TL91" fromID="E82" fromText="the floor" toID="E81" toText="transfer" type="BEGUN_BY" />
+<TLINK id="TL92" fromID="E61" fromText="the CMED CSRU" toID="E81" toText="transfer" type="ENDED_BY" />
+<TLINK id="TL93" fromID="E83" fromText="treated" toID="T8" toText="72 hours" type="DURING" />
+<TLINK id="TL94" fromID="E84" fromText="IV Unasyn" toID="E83" toText="treated" type="SIMULTANEOUS" />
+<TLINK id="TL95" fromID="E86" fromText="Augmentin" toID="E85" toText="transitioned" type="BEGUN_BY" />
+<TLINK id="TL96" fromID="E87" fromText="continued" toID="E86" toText="Augmentin" type="DURING" />
+<TLINK id="TL97" fromID="E88" fromText="his IV steroids" toID="E89" toText="transitioned" type="ENDED_BY" />
+<TLINK id="TL98" fromID="E88" fromText="his IV steroids" toID="E69" toText="IV Decadron" type="SIMULTANEOUS" />
+<TLINK id="TL99" fromID="E90" fromText="a p.o. steroid taper" toID="E89" toText="transitioned" type="BEGUN_BY" />
+<TLINK id="Sectime0" fromID="E37" fromText="some Decadron" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E38" fromText="clindamycin" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E39" fromText="seen" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E40" fromText="CMED CSRU" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E41" fromText="the emergency room" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E42" fromText="the exam" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E43" fromText="supraglottitis" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E44" fromText="Review of systems" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E45" fromText="opportunistic infections" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E46" fromText="prior hospitalizations" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E47" fromText="note" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E48" fromText="his CD4 count" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E49" fromText="his vaccines" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E50" fromText="HIV" toID="T1" toText="2011-06-13" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime13" fromID="E2" fromText="HIV" toID="T0" toText="2011-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime1" fromID="E51" fromText="HAART" toID="T1" toText="2011-06-13" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime2" fromID="E52" fromText="last CD4 count" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E53" fromText="viral load" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E3" fromText="HAART" toID="T0" toText="2011-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime4" fromID="E54" fromText="admitted" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E55" fromText="the CMED CSRU" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E56" fromText="supraglottitis" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E57" fromText="significant edema" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E58" fromText="Epiglottitis" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E4" fromText="last CD4 count" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E59" fromText="supraglottitis" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E60" fromText="observed" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E61" fromText="the CMED CSRU" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E62" fromText="noted" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E64" fromText="decrease" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E63" fromText="swelling" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E65" fromText="serial exams" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E66" fromText="followed" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E67" fromText="the CMED CSRU Service" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E68" fromText="started" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E69" fromText="IV Decadron" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E70" fromText="IV Unasyn" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E72" fromText="tolerated well" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E73" fromText="His edema" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E74" fromText="improving" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E76" fromText="starting to tolerate p.o." toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E77" fromText="symptoms" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E78" fromText="improve" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E79" fromText="remained stable" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E5" fromText="viral load" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E80" fromText="stable" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E81" fromText="transfer" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E82" fromText="the floor" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime31" fromID="E83" fromText="treated" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime32" fromID="E84" fromText="IV Unasyn" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime33" fromID="E85" fromText="transitioned" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime34" fromID="E86" fromText="Augmentin" toID="T1" toText="2011-06-13" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime35" fromID="E87" fromText="continued" toID="T1" toText="2011-06-13" type="AFTER" />
+<TLINK id="Sectime36" fromID="E88" fromText="his IV steroids" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E6" fromText="referred" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime37" fromID="E89" fromText="transitioned" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime38" fromID="E90" fromText="a p.o. steroid taper" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime39" fromID="E92" fromText="tolerated well" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime40" fromID="E93" fromText="tolerated well" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime41" fromID="E94" fromText="discharged" toID="T1" toText="2011-06-13" type="OVERLAP" />
+<TLINK id="Sectime42" fromID="E95" fromText="a steroid taper" toID="T1" toText="2011-06-13" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime43" fromID="E127" fromText="CMED CSRU" toID="T1" toText="2011-06-13" type="AFTER" />
+<TLINK id="Sectime44" fromID="E128" fromText="follow-up" toID="T1" toText="2011-06-13" type="AFTER" />
+<TLINK id="Sectime18" fromID="E7" fromText="the emergency room" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime45" fromID="E98" fromText="symptoms" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime46" fromID="E99" fromText="remained stable" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime47" fromID="E100" fromText="tolerated p.o." toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime48" fromID="E101" fromText="difficulty" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime49" fromID="E102" fromText="remained hemodynamically stable" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime50" fromID="E103" fromText="his airway remained stable" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime51" fromID="E104" fromText="tolerating PO" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime52" fromID="E105" fromText="transitioned" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E8" fromText="his PCP" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime53" fromID="E106" fromText="the floor" toID="T1" toText="2011-06-13" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime54" fromID="E107" fromText="stable" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime55" fromID="E108" fromText="asymptomatic" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E9" fromText="progressive throat pain" toID="T0" toText="2011-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime56" fromID="E109" fromText="His voice improved" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime58" fromID="E111" fromText="talking clearly" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime59" fromID="E112" fromText="discharge" toID="T1" toText="2011-06-13" type="OVERLAP" />
+<TLINK id="Sectime60" fromID="E113" fromText="afebrile" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime61" fromID="E114" fromText="the course of his stay" toID="T1" toText="2011-06-13" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime62" fromID="E115" fromText="transfer" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime63" fromID="E116" fromText="the floor" toID="T1" toText="2011-06-13" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime64" fromID="E117" fromText="CMED CSRU" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime65" fromID="E118" fromText="discharged" toID="T1" toText="2011-06-13" type="OVERLAP" />
+<TLINK id="Sectime66" fromID="E119" fromText="Augmentin" toID="T1" toText="2011-06-13" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime67" fromID="E120" fromText="follow-up" toID="T1" toText="2011-06-13" type="AFTER" />
+<TLINK id="Sectime21" fromID="E10" fromText="edema" toID="T0" toText="2011-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime68" fromID="E121" fromText="a Medrol Dosepak" toID="T1" toText="2011-06-13" type="AFTER" />
+<TLINK id="Sectime69" fromID="E122" fromText="HIV" toID="T1" toText="2011-06-13" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime22" fromID="E11" fromText="His throat pain" toID="T0" toText="2011-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime70" fromID="E123" fromText="tolerating p.o." toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime71" fromID="E124" fromText="restarted" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime72" fromID="E125" fromText="his HAART regimen" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime73" fromID="E126" fromText="remained stable" toID="T1" toText="2011-06-13" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E12" fromText="admission" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E13" fromText="treated" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E14" fromText="ibuprofen" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E15" fromText="seen in an outside hospital emergency room" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E18" fromText="received" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E17" fromText="IV penicillin" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E19" fromText="sent home" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E20" fromText="desaturated" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime31" fromID="E21" fromText="ambulation" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime32" fromID="E22" fromText="complaints" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime33" fromID="E23" fromText="progressive swelling" toID="T0" toText="2011-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime34" fromID="E24" fromText="increasing drooling" toID="T0" toText="2011-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime35" fromID="E25" fromText="swallow" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime36" fromID="E26" fromText="the HIV medications" toID="T0" toText="2011-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime37" fromID="E27" fromText="noted" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime38" fromID="E28" fromText="low-grade temperature" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime39" fromID="E29" fromText="productive cough" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime40" fromID="E30" fromText="yellow sputum" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime41" fromID="E31" fromText="right ear pain" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime42" fromID="E32" fromText="subjective shortness of breath" toID="T0" toText="2011-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime43" fromID="E33" fromText="whole body numbness" toID="T0" toText="2011-06-10" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime44" fromID="E34" fromText="notes" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime45" fromID="E35" fromText="improvement" toID="T0" toText="2011-06-10" type="BEFORE" />
+<TLINK id="Sectime46" fromID="E36" fromText="his throat pain" toID="T0" toText="2011-06-10" type="BEFORE_OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2011-06-10" type="ADMISSION" dvalue="2011-06-10" />
+<SECTIME id="S1" start="46" end="56" text="2011-06-13" type="DISCHARGE" dvalue="2011-06-13" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

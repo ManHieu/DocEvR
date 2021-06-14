@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+02/08/1991
+Discharge Date :
+02/18/1991
+HISTORY OF PRESENT ILLNESS :
+Mr. Breutzfarstxei is a 30 year old man with recently diagnosed acquired immunodeficiency syndrome and Pneumocystis carinii pneumonia who presented with pneumonia , developed adult respiratory distress syndrome , and died in the hospital after failed efforts of ventilatory support .
+Mr. Breutzfarstxei was recently diagnosed with acquired immunodeficiency syndrome when he had Pneumocystis carinii pneumonia on 01/17/91 .
+He was admitted to the Retelk County Medical Center at that time and was treated with Bactrim and steroids .
+He was actually intubated and underwent bronchoscopy where the diagnosis was made with a positive toluidine blue study .
+He initially did well after extubation and completed approximately two weeks of Bactrim and a steroid taper .
+At discharge after about two weeks post-extubation , he had an O2 saturation of approximately 95% on room air .
+He was seen by Dr. Seen and Dr. Seen as an out-patient .
+On 02/06/91 , he was seen in FLFDMC and at that point , his temperature was noted to be 101.4 and he had malaise and diarrhea .
+He was evaluated in the Emergency Room .
+At that time , his oxygen saturation was only 90% on room air and his chest X-Ray showed no change .
+Cultures were taken and he was sent out .
+On 02/08/91 , the patient called Dr. Seen because of increased shortness of breath and malaise .
+He was seen in FLFDMC where he was noted to have jaundice and newly palpable liver edge .
+Review of liver function tests revealed a cholestatic picture which was not previously found and it was felt that this was secondary to the Bactrim which had been recently stopped anyway .
+His oxygen saturation at that time was only 86% on room air and he was admitted .
+HOSPITAL COURSE :
+The patient was admitted for work-up of his cholestatic jaundice picture along with work-up for his pulmonary process and treatment of both .
+In terms of pulmonary function , it was felt that one possibility was that the patient was a Bactrim failure for PCP although this was unusual .
+He was started on Pentamidine , especially in light of the fact that it was felt that his liver function tests were due possibly to Bactrim .
+The patient was also covered with Erythromycin and Gentamicin for coverage of community acquired pneumonias and gram negative rods .
+He was given supplemental oxygen .
+In terms of his liver abnormalities , it was felt that viral hepatitis was in the differential as well as several opportunistic infections of the liver but also was felt that Bactrim could be a cause of these abnormalities .
+Titers for CMV and Epstein-Barr virus were sent and a titer for toxoplasma was sent .
+Stool was sent for ova and parasites .
+Gastrointestinal was consulted .
+Initially , the patient did well in terms of his pre-status and required less oxygen .
+However , on 02/10/91 , his respiratory rate increased and his oxygen saturation decreased .
+Actually in reviewing the records at this point , it appears that Pentamidine was not started initially so on the antibiotics of Erythromycin and Gentamicin , the patient &apos;s respiratory status worsened and his LDH climbed so he began Pentamidine on 02/10/91 .
+On 02/11/91 , the patient again appeared more comfortable this time with 50% facemask but then required more oxygen , dropped his O2 saturations , and was intubated on 02/11/91 .
+He was transferred to the Intensive Care Unit on 12/12/90 on Gentamicin , Vancomycin , Pentamidine , and Prednisone .
+Also of note at that point , hepatitis C virus serologies had come back positive .
+However , at this point , his liver function test abnormalities appeared more consistent with a cholestatic picture with his direct bilirubin being 12.1 and total being 14.1 .
+The patient &apos;s abdominal CT scan showed no liver disease and no obstruction .
+The patient &apos;s liver function tests appeared to improve .
+The patient &apos;s penile ulcer was cultured and grew positive herpes simplex virus and the patient was started on Acyclovir .
+On 02/13/91 , the patient had a bronchoalveolar lavage performed which showed a toluidine blue with many pneumocysts noted .
+No other cultures grew out and the patient &apos;s clinical status deteriorated .
+The patient required 100% oxygen to maintain adequate oxygen saturations on the ventilator .
+He required elevated ventilatory pressures with PIPS often above 60 .
+Fortunately , no evidence of baratroma was ever discerned .
+However , the patient &apos;s respiratory status continued to decline and we were unable to maintain oxygen saturations above 80% even using reverse I to E ventilation , paralysis , sedation , and other modes of ventilation .
+Patient underwent liver biopsy on 02/16/91 and the results of this were pending when the patient died .
+The patient actually developed decreasing counts with white count as low as 1.75 , hematocrit as low as 26 , and platelets as low as 68 noted on 02/15/91 .
+These were supported with blood products and Hematology was consulted .
+They felt that it was most likely secondary to Bactrim and these actually were getting better when the patient died .
+Bone marrow biopsy was not attempted .
+Discussions were begun with the family regarding limits of supportive care .
+Due to continued worsening pulmonary status and an overall grim prognosis , the family decided , in consultation with the Medical Team , to withdraw ventilatory support .
+This was done on the evening of 02/18/91 .
+Patient expired after the endotracheal tube was withdrawn at 6:40 p.m.
+]]></TEXT>
+<TAGS>
+<EVENT id="E87" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E115" start="1039" end="1043" text="seen" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E116" start="1047" end="1053" text="FLFDMC" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E13" start="1074" end="1089" text="his temperature" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E117" start="1123" end="1130" text="malaise" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="1135" end="1143" text="diarrhea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E94" start="1153" end="1162" text="evaluated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E118" start="1166" end="1184" text="the Emergency Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E15" start="1202" end="1223" text="his oxygen saturation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="1253" end="1268" text="his chest X-Ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E95" start="1269" end="1275" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E119" start="1279" end="1285" text="change" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E17" start="1288" end="1296" text="Cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E120" start="1319" end="1327" text="sent out" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E121" start="1356" end="1371" text="called Dr. Seen" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E122" start="1383" end="1412" text="increased shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E123" start="1417" end="1424" text="malaise" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E124" start="1442" end="1448" text="FLFDMC" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E125" start="1462" end="1467" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E126" start="1476" end="1484" text="jaundice" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E127" start="1489" end="1514" text="newly palpable liver edge" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="150" end="184" text="acquired immunodeficiency syndrome" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E128" start="1527" end="1547" text="liver function tests" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E129" start="1548" end="1556" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E18" start="1557" end="1578" text="a cholestatic picture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1653" end="1664" text="the Bactrim" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E130" start="1706" end="1727" text="His oxygen saturation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E96" start="1777" end="1785" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E97" start="1822" end="1830" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="1835" end="1842" text="work-up" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="1846" end="1878" text="his cholestatic jaundice picture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="189" end="219" text="Pneumocystis carinii pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E98" start="1890" end="1897" text="work-up" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E22" start="1902" end="1923" text="his pulmonary process" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="1928" end="1937" text="treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E131" start="2039" end="2056" text="a Bactrim failure" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="2061" end="2064" text="PCP" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="2111" end="2122" text="Pentamidine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="2179" end="2203" text="his liver function tests" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="2225" end="2232" text="Bactrim" modality="POSSIBLE" polarity="POS" type="TREATMENT" />
+<EVENT id="E0" start="224" end="233" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="2269" end="2281" text="Erythromycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="2286" end="2296" text="Gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="2313" end="2342" text="community acquired pneumonias" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="2347" end="2365" text="gram negative rods" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="2381" end="2400" text="supplemental oxygen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E89" start="239" end="248" text="pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="2415" end="2438" text="his liver abnormalities" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E132" start="2458" end="2473" text="viral hepatitis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E133" start="2509" end="2554" text="several opportunistic infections of the liver" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="2578" end="2585" text="Bactrim" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E108" start="261" end="296" text="adult respiratory distress syndrome" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="2606" end="2625" text="these abnormalities" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="2628" end="2634" text="Titers" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E134" start="2639" end="2642" text="CMV" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E135" start="2647" end="2665" text="Epstein-Barr virus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="2680" end="2687" text="a titer" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E136" start="2692" end="2702" text="toxoplasma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="2714" end="2719" text="Stool" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E137" start="2733" end="2736" text="ova" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E138" start="2741" end="2750" text="parasites" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E139" start="2753" end="2769" text="Gastrointestinal" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E140" start="2774" end="2783" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E99" start="2814" end="2818" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="2864" end="2870" text="oxygen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="2897" end="2917" text="his respiratory rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E88" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E141" start="2918" end="2927" text="increased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="2932" end="2953" text="his oxygen saturation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E142" start="2954" end="2963" text="decreased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E109" start="303" end="307" text="died" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="3032" end="3043" text="Pentamidine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="3076" end="3091" text="the antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="3095" end="3107" text="Erythromycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E110" start="311" end="323" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E45" start="3112" end="3122" text="Gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E143" start="3125" end="3172" text="the patient &apos;s respiratory status worsened" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="3177" end="3184" text="his LDH" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E101" start="3185" end="3192" text="climbed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="3205" end="3216" text="Pentamidine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E144" start="3272" end="3288" text="more comfortable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="3304" end="3316" text="50% facemask" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="3340" end="3346" text="oxygen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E145" start="3349" end="3356" text="dropped" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="3357" end="3375" text="his O2 saturations" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E102" start="3386" end="3395" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E103" start="3417" end="3428" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E146" start="3432" end="3455" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="348" end="367" text="ventilatory support" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="3471" end="3481" text="Gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="3484" end="3494" text="Vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="3497" end="3508" text="Pentamidine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="3515" end="3525" text="Prednisone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="3557" end="3585" text="hepatitis C virus serologies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E147" start="3600" end="3608" text="positive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="3637" end="3674" text="his liver function test abnormalities" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="3705" end="3726" text="a cholestatic picture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="3732" end="3752" text="his direct bilirubin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E58" start="3768" end="3773" text="total" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="3787" end="3824" text="The patient &apos;s abdominal CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E104" start="3825" end="3831" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E60" start="3835" end="3848" text="liver disease" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E61" start="3856" end="3867" text="obstruction" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E62" start="3870" end="3910" text="The patient &apos;s liver function tests" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E105" start="3923" end="3930" text="improve" modality="POSSIBLE" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="3933" end="3965" text="The patient &apos;s penile ulcer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E148" start="3970" end="3978" text="cultured" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E64" start="3988" end="4017" text="positive herpes simplex virus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="4049" end="4058" text="Acyclovir" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E66" start="4091" end="4115" text="a bronchoalveolar lavage" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E106" start="4132" end="4138" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E67" start="4139" end="4155" text="a toluidine blue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="417" end="451" text="acquired immunodeficiency syndrome" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="4161" end="4177" text="many pneumocysts" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E149" start="4189" end="4203" text="other cultures" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E150" start="4217" end="4265" text="the patient &apos;s clinical status deteriorated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="4289" end="4300" text="100% oxygen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E151" start="4313" end="4340" text="adequate oxygen saturations" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="4344" end="4358" text="the ventilator" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="4373" end="4403" text="elevated ventilatory pressures" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="4409" end="4413" text="PIPS" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="4460" end="4469" text="baratroma" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E152" start="4521" end="4539" text="respiratory status" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E153" start="4540" end="4560" text="continued to decline" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="4592" end="4610" text="oxygen saturations" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="464" end="494" text="Pneumocystis carinii pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="4632" end="4658" text="reverse I to E ventilation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="4661" end="4670" text="paralysis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="4673" end="4681" text="sedation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="4688" end="4714" text="other modes of ventilation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="4735" end="4747" text="liver biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E154" start="4814" end="4818" text="died" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E80" start="4852" end="4869" text="decreasing counts" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E81" start="4875" end="4886" text="white count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E82" start="4904" end="4914" text="hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E83" start="4934" end="4943" text="platelets" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E84" start="5003" end="5017" text="blood products" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E155" start="5022" end="5032" text="Hematology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E156" start="5037" end="5046" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E85" start="5096" end="5103" text="Bactrim" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E107" start="5128" end="5142" text="getting better" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E90" start="516" end="524" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E157" start="5160" end="5164" text="died" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E86" start="5167" end="5185" text="Bone marrow biopsy" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E158" start="5206" end="5217" text="Discussions" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E159" start="5265" end="5280" text="supportive care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E111" start="528" end="560" text="the Retelk County Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E160" start="5290" end="5326" text="continued worsening pulmonary status" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E161" start="5359" end="5377" text="the family decided" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E162" start="5401" end="5417" text="the Medical Team" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E163" start="5423" end="5431" text="withdraw" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E164" start="5432" end="5451" text="ventilatory support" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E165" start="5505" end="5512" text="expired" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E166" start="5519" end="5540" text="the endotracheal tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E167" start="5545" end="5554" text="withdrawn" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E112" start="595" end="602" text="Bactrim" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="607" end="615" text="steroids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E91" start="634" end="643" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="658" end="670" text="bronchoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E8" start="705" end="736" text="a positive toluidine blue study" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E92" start="756" end="760" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="767" end="777" text="extubation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="819" end="826" text="Bactrim" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="831" end="846" text="a steroid taper" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E93" start="852" end="861" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="909" end="925" text="an O2 saturation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E114" start="968" end="972" text="seen" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E113" start="976" end="997" text="Dr. Seen and Dr. Seen" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<TIMEX3 id="T4" start="1021" end="1029" text="02/06/91" type="DATE" val="1991-02-06" mod="NA" />
+<TIMEX3 id="T14" start="1190" end="1199" text="that time" type="DATE" val="1991-02-06" mod="NA" />
+<TIMEX3 id="T5" start="1333" end="1341" text="02/08/91" type="DATE" val="1991-02-08" mod="NA" />
+<TIMEX3 id="T15" start="1731" end="1740" text="that time" type="DATE" val="1991-02-08" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="02/08/1991" type="DATE" val="1991-02-08" mod="NA" />
+<TIMEX3 id="T6" start="2886" end="2894" text="02/10/91" type="DATE" val="1991-02-10" mod="NA" />
+<TIMEX3 id="T7" start="3220" end="3228" text="02/10/91" type="DATE" val="1991-02-10" mod="NA" />
+<TIMEX3 id="T8" start="3234" end="3242" text="02/11/91" type="DATE" val="1991-02-11" mod="NA" />
+<TIMEX3 id="T9" start="3399" end="3407" text="02/11/91" type="DATE" val="1991-02-11" mod="NA" />
+<TIMEX3 id="T16" start="3459" end="3467" text="12/12/90" type="DATE" val="1991-02-12" mod="NA" />
+<TIMEX3 id="T17" start="4064" end="4072" text="02/13/91" type="DATE" val="1991-02-13" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="02/18/1991" type="DATE" val="1991-02-18" mod="NA" />
+<TIMEX3 id="T10" start="4751" end="4759" text="02/16/91" type="DATE" val="1991-02-16" mod="NA" />
+<TIMEX3 id="T11" start="4966" end="4974" text="02/15/91" type="DATE" val="1991-02-15" mod="NA" />
+<TIMEX3 id="T3" start="498" end="506" text="01/17/91" type="DATE" val="1991-01-17" mod="NA" />
+<TIMEX3 id="T18" start="5471" end="5494" text="the evening of 02/18/91" type="DATE" val="1991-02-18" mod="END" />
+<TIMEX3 id="T19" start="5558" end="5567" text="6:40 p.m." type="TIME" val="1991-02-10t18:40" mod="NA" />
+<TIMEX3 id="T0" start="564" end="573" text="that time" type="DATE" val="1991-01-17" mod="NA" />
+<TIMEX3 id="T12" start="806" end="815" text="two weeks" type="DURATION" val="P2W" mod="APPROX" />
+<TIMEX3 id="T13" start="874" end="883" text="two weeks" type="DURATION" val="P2W" mod="APPROX" />
+<TLINK id="TL0" fromID="E2" fromText="Pneumocystis carinii pneumonia" toID="E1" toText="acquired immunodeficiency syndrome" type="OVERLAP" />
+<TLINK id="TL1" fromID="E28" fromText="Erythromycin" toID="E44" toText="Erythromycin" type="simultaneous" />
+<TLINK id="TL10" fromID="E35" fromText="these abnormalities" toID="E55" toText="his liver function test abnormalities" type="simultaneous" />
+<TLINK id="TL100" fromID="E41" fromText="his oxygen saturation" toID="E142" toText="decreased" type="OVERLAP" />
+<TLINK id="TL101" fromID="T6" fromText="02/10/91" toID="E41" toText="his oxygen saturation" type="OVERLAP" />
+<TLINK id="TL102" fromID="E44" fromText="Erythromycin" toID="E43" toText="the antibiotics" type="OVERLAP" />
+<TLINK id="TL103" fromID="E45" fromText="Gentamicin" toID="E43" toText="the antibiotics" type="OVERLAP" />
+<TLINK id="TL104" fromID="E46" fromText="his LDH" toID="E101" toText="climbed" type="OVERLAP" />
+<TLINK id="TL105" fromID="E52" fromText="Pentamidine" toID="E100" toText="Pentamidine" type="SIMULTANEOUS" />
+<TLINK id="TL106" fromID="E100" fromText="Pentamidine" toID="E42" toText="Pentamidine" type="SIMULTANEOUS" />
+<TLINK id="TL107" fromID="E143" fromText="the patient &apos;s respiratory status worsened" toID="T7" toText="02/10/91" type="BEFORE" />
+<TLINK id="TL108" fromID="E101" fromText="climbed" toID="T7" toText="02/10/91" type="BEFORE" />
+<TLINK id="TL109" fromID="E144" fromText="more comfortable" toID="T8" toText="02/11/91" type="OVERLAP" />
+<TLINK id="TL11" fromID="E33" fromText="his liver abnormalities" toID="E35" toText="these abnormalities" type="simultaneous" />
+<TLINK id="TL110" fromID="E47" fromText="50% facemask" toID="E144" toText="more comfortable" type="OVERLAP" />
+<TLINK id="TL111" fromID="E49" fromText="his O2 saturations" toID="E144" toText="more comfortable" type="AFTER" />
+<TLINK id="TL112" fromID="E102" fromText="intubated" toID="T9" toText="02/11/91" type="OVERLAP" />
+<TLINK id="TL113" fromID="E49" fromText="his O2 saturations" toID="E145" toText="dropped" type="OVERLAP" />
+<TLINK id="TL114" fromID="E102" fromText="intubated" toID="E144" toText="more comfortable" type="AFTER" />
+<TLINK id="TL115" fromID="E146" fromText="the Intensive Care Unit" toID="E103" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL116" fromID="E103" fromText="transferred" toID="T16" toText="12/12/90" type="OVERLAP" />
+<TLINK id="TL117" fromID="E50" fromText="Gentamicin" toID="E103" toText="transferred" type="BEFORE_OVERLAP" />
+<TLINK id="TL118" fromID="E51" fromText="Vancomycin" toID="E103" toText="transferred" type="BEFORE_OVERLAP" />
+<TLINK id="TL119" fromID="E53" fromText="Prednisone" toID="E103" toText="transferred" type="BEFORE_OVERLAP" />
+<TLINK id="TL12" fromID="E27" fromText="Bactrim" toID="E34" toText="Bactrim" type="simultaneous" />
+<TLINK id="TL120" fromID="E52" fromText="Pentamidine" toID="E103" toText="transferred" type="BEFORE_OVERLAP" />
+<TLINK id="TL121" fromID="E54" fromText="hepatitis C virus serologies" toID="E147" toText="positive" type="OVERLAP" />
+<TLINK id="TL122" fromID="E56" fromText="a cholestatic picture" toID="E55" toText="his liver function test abnormalities" type="OVERLAP" />
+<TLINK id="TL123" fromID="E56" fromText="a cholestatic picture" toID="E57" toText="his direct bilirubin" type="OVERLAP" />
+<TLINK id="TL124" fromID="E58" fromText="total" toID="E57" toText="his direct bilirubin" type="OVERLAP" />
+<TLINK id="TL125" fromID="E104" fromText="showed" toID="E59" toText="The patient &apos;s abdominal CT scan" type="SIMULTANEOUS" />
+<TLINK id="TL126" fromID="E60" fromText="liver disease" toID="E104" toText="showed" type="OVERLAP" />
+<TLINK id="TL127" fromID="E104" fromText="showed" toID="E61" toText="obstruction" type="OVERLAP" />
+<TLINK id="TL128" fromID="E62" fromText="The patient &apos;s liver function tests" toID="E105" toText="improve" type="OVERLAP" />
+<TLINK id="TL129" fromID="E63" fromText="The patient &apos;s penile ulcer" toID="E148" toText="cultured" type="BEFORE_OVERLAP" />
+<TLINK id="TL13" fromID="E87" fromText="Admission" toID="T1" toText="02/08/1991" type="SIMULTANEOUS" />
+<TLINK id="TL130" fromID="E148" fromText="cultured" toID="E64" toText="positive herpes simplex virus" type="OVERLAP" />
+<TLINK id="TL131" fromID="E65" fromText="Acyclovir" toID="E64" toText="positive herpes simplex virus" type="BEGUN_BY" />
+<TLINK id="TL132" fromID="E66" fromText="a bronchoalveolar lavage" toID="T17" toText="02/13/91" type="OVERLAP" />
+<TLINK id="TL133" fromID="E66" fromText="a bronchoalveolar lavage" toID="E106" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL134" fromID="E67" fromText="a toluidine blue" toID="E106" toText="showed" type="OVERLAP" />
+<TLINK id="TL135" fromID="E68" fromText="many pneumocysts" toID="E106" toText="showed" type="OVERLAP" />
+<TLINK id="TL136" fromID="E150" fromText="the patient &apos;s clinical status deteriorated" toID="T17" toText="02/13/91" type="AFTER" />
+<TLINK id="TL137" fromID="E149" fromText="other cultures" toID="T17" toText="02/13/91" type="AFTER" />
+<TLINK id="TL138" fromID="E69" fromText="100% oxygen" toID="E151" toText="adequate oxygen saturations" type="OVERLAP" />
+<TLINK id="TL139" fromID="E151" fromText="adequate oxygen saturations" toID="E70" toText="the ventilator" type="OVERLAP" />
+<TLINK id="TL14" fromID="E88" fromText="Discharge" toID="T2" toText="02/18/1991" type="SIMULTANEOUS" />
+<TLINK id="TL140" fromID="E71" fromText="elevated ventilatory pressures" toID="E72" toText="PIPS" type="OVERLAP" />
+<TLINK id="TL141" fromID="E73" fromText="baratroma" toID="E87" toText="Admission" type="AFTER" />
+<TLINK id="TL142" fromID="E152" fromText="respiratory status" toID="E153" toText="continued to decline" type="OVERLAP" />
+<TLINK id="TL143" fromID="E74" fromText="oxygen saturations" toID="E153" toText="continued to decline" type="" />
+<TLINK id="TL144" fromID="E74" fromText="oxygen saturations" toID="E75" toText="reverse I to E ventilation" type="OVERLAP" />
+<TLINK id="TL145" fromID="E76" fromText="paralysis" toID="E77" toText="sedation" type="OVERLAP" />
+<TLINK id="TL146" fromID="E77" fromText="sedation" toID="E78" toText="other modes of ventilation" type="OVERLAP" />
+<TLINK id="TL147" fromID="E154" fromText="died" toID="E79" toText="liver biopsy" type="AFTER" />
+<TLINK id="TL148" fromID="E154" fromText="died" toID="E157" toText="died" type="SIMULTANEOUS" />
+<TLINK id="TL149" fromID="E157" fromText="died" toID="E165" toText="expired" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E1" fromText="acquired immunodeficiency syndrome" toID="E87" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL150" fromID="E82" fromText="hematocrit" toID="E80" toText="decreasing counts" type="SIMULTANEOUS" />
+<TLINK id="TL151" fromID="E83" fromText="platelets" toID="E80" toText="decreasing counts" type="SIMULTANEOUS" />
+<TLINK id="TL152" fromID="T11" fromText="02/15/91" toID="E83" toText="platelets" type="OVERLAP" />
+<TLINK id="TL153" fromID="E80" fromText="decreasing counts" toID="E84" toText="blood products" type="" />
+<TLINK id="TL154" fromID="E84" fromText="blood products" toID="E80" toText="decreasing counts" type="OVERLAP" />
+<TLINK id="TL155" fromID="E155" fromText="Hematology" toID="E156" toText="consulted" type="SIMULTANEOUS" />
+<TLINK id="TL157" fromID="E80" fromText="decreasing counts" toID="E155" toText="Hematology" type="BEFORE" />
+<TLINK id="TL158" fromID="E80" fromText="decreasing counts" toID="E85" toText="Bactrim" type="AFTER" />
+<TLINK id="TL159" fromID="E107" fromText="getting better" toID="E80" toText="decreasing counts" type="AFTER" />
+<TLINK id="TL16" fromID="E0" fromText="presented" toID="E87" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL160" fromID="E157" fromText="died" toID="E107" toText="getting better" type="AFTER" />
+<TLINK id="TL161" fromID="E86" fromText="Bone marrow biopsy" toID="E87" toText="Admission" type="AFTER" />
+<TLINK id="TL162" fromID="E159" fromText="supportive care" toID="E158" toText="Discussions" type="AFTER" />
+<TLINK id="TL163" fromID="E158" fromText="Discussions" toID="E155" toText="Hematology" type="AFTER" />
+<TLINK id="TL164" fromID="E160" fromText="continued worsening pulmonary status" toID="E158" toText="Discussions" type="BEFORE_OVERLAP" />
+<TLINK id="TL165" fromID="E160" fromText="continued worsening pulmonary status" toID="E161" toText="the family decided" type="BEFORE_OVERLAP" />
+<TLINK id="TL166" fromID="E161" fromText="the family decided" toID="E162" toText="the Medical Team" type="SIMULTANEOUS" />
+<TLINK id="TL167" fromID="E161" fromText="the family decided" toID="E163" toText="withdraw" type="OVERLAP" />
+<TLINK id="TL168" fromID="E164" fromText="ventilatory support" toID="E163" toText="withdraw" type="ENDED_BY" />
+<TLINK id="TL169" fromID="E163" fromText="withdraw" toID="T18" toText="the evening of 02/18/91" type="OVERLAP" />
+<TLINK id="TL17" fromID="E4" fromText="acquired immunodeficiency syndrome" toID="E5" toText="Pneumocystis carinii pneumonia" type="BEFORE_OVERLAP" />
+<TLINK id="TL170" fromID="E166" fromText="the endotracheal tube" toID="E167" toText="withdrawn" type="ENDED_BY" />
+<TLINK id="TL171" fromID="E167" fromText="withdrawn" toID="E163" toText="withdraw" type="SIMULTANEOUS" />
+<TLINK id="TL172" fromID="E166" fromText="the endotracheal tube" toID="E164" toText="ventilatory support" type="SIMULTANEOUS" />
+<TLINK id="TL173" fromID="E165" fromText="expired" toID="T19" toText="6:40 p.m." type="SIMULTANEOUS" />
+<TLINK id="TL18" fromID="E8" fromText="a positive toluidine blue study" toID="E7" toText="bronchoscopy" type="DURING" />
+<TLINK id="TL19" fromID="E92" fromText="well" toID="E9" toText="extubation" type="AFTER" />
+<TLINK id="TL2" fromID="E6" fromText="steroids" toID="E11" toText="a steroid taper" type="simultaneous" />
+<TLINK id="TL20" fromID="E12" fromText="an O2 saturation" toID="E93" toText="discharge" type="OVERLAP" />
+<TLINK id="TL21" fromID="E23" fromText="treatment" toID="E98" toText="work-up" type="AFTER" />
+<TLINK id="TL22" fromID="E35" fromText="these abnormalities" toID="E33" toText="his liver abnormalities" type="SIMULTANEOUS" />
+<TLINK id="TL23" fromID="E39" fromText="oxygen" toID="E99" toText="well" type="OVERLAP" />
+<TLINK id="TL24" fromID="E42" fromText="Pentamidine" toID="E25" toText="Pentamidine" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E100" fromText="Pentamidine" toID="T7" toText="02/10/91" type="BEGUN_BY" />
+<TLINK id="TL27" fromID="E45" fromText="Gentamicin" toID="E29" toText="Gentamicin" type="SIMULTANEOUS" />
+<TLINK id="TL28" fromID="E48" fromText="oxygen" toID="E47" toText="50% facemask" type="AFTER" />
+<TLINK id="TL29" fromID="E60" fromText="liver disease" toID="E59" toText="The patient &apos;s abdominal CT scan" type="BEFORE_OVERLAP" />
+<TLINK id="TL3" fromID="E45" fromText="Gentamicin" toID="E50" toText="Gentamicin" type="simultaneous" />
+<TLINK id="TL30" fromID="E76" fromText="paralysis" toID="E75" toText="reverse I to E ventilation" type="OVERLAP" />
+<TLINK id="TL31" fromID="E79" fromText="liver biopsy" toID="T10" toText="02/16/91" type="SIMULTANEOUS" />
+<TLINK id="TL32" fromID="E81" fromText="white count" toID="E80" toText="decreasing counts" type="SIMULTANEOUS" />
+<TLINK id="TL33" fromID="E89" fromText="pneumonia" toID="E0" toText="presented" type="BEFORE_OVERLAP" />
+<TLINK id="TL34" fromID="E108" fromText="adult respiratory distress syndrome" toID="E0" toText="presented" type="BEFORE_OVERLAP" />
+<TLINK id="TL35" fromID="E110" fromText="the hospital" toID="E109" toText="died" type="ENDED_BY" />
+<TLINK id="TL36" fromID="E109" fromText="died" toID="E3" toText="ventilatory support" type="BEFORE_OVERLAP" />
+<TLINK id="TL37" fromID="E5" fromText="Pneumocystis carinii pneumonia" toID="T3" toText="01/17/91" type="OVERLAP" />
+<TLINK id="TL38" fromID="E4" fromText="acquired immunodeficiency syndrome" toID="T3" toText="01/17/91" type="BEFORE_OVERLAP" />
+<TLINK id="TL39" fromID="E111" fromText="the Retelk County Medical Center" toID="E90" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL4" fromID="E34" fromText="Bactrim" toID="E85" toText="Bactrim" type="simultaneous" />
+<TLINK id="TL40" fromID="E90" fromText="admitted" toID="T0" toText="that time" type="OVERLAP" />
+<TLINK id="TL41" fromID="E112" fromText="Bactrim" toID="E111" toText="the Retelk County Medical Center" type="DURING" />
+<TLINK id="TL42" fromID="E6" fromText="steroids" toID="E111" toText="the Retelk County Medical Center" type="OVERLAP" />
+<TLINK id="TL43" fromID="E91" fromText="intubated" toID="E111" toText="the Retelk County Medical Center" type="DURING" />
+<TLINK id="TL44" fromID="E7" fromText="bronchoscopy" toID="E111" toText="the Retelk County Medical Center" type="DURING" />
+<TLINK id="TL45" fromID="E91" fromText="intubated" toID="E9" toText="extubation" type="ENDED_BY" />
+<TLINK id="TL46" fromID="E10" fromText="Bactrim" toID="T12" toText="two weeks" type="DURING" />
+<TLINK id="TL47" fromID="E11" fromText="a steroid taper" toID="T12" toText="two weeks" type="DURING" />
+<TLINK id="TL48" fromID="T12" fromText="two weeks" toID="E9" toText="extubation" type="BEGUN_BY" />
+<TLINK id="TL49" fromID="E93" fromText="discharge" toID="T13" toText="two weeks" type="AFTER" />
+<TLINK id="TL5" fromID="E1" fromText="acquired immunodeficiency syndrome" toID="E4" toText="acquired immunodeficiency syndrome" type="simultaneous" />
+<TLINK id="TL50" fromID="T13" fromText="two weeks" toID="E9" toText="extubation" type="BEGUN_BY" />
+<TLINK id="TL51" fromID="E114" fromText="seen" toID="E93" toText="discharge" type="AFTER" />
+<TLINK id="TL52" fromID="E113" fromText="Dr. Seen and Dr. Seen" toID="E114" toText="seen" type="SIMULTANEOUS" />
+<TLINK id="TL53" fromID="E115" fromText="seen" toID="T4" toText="02/06/91" type="OVERLAP" />
+<TLINK id="TL54" fromID="E115" fromText="seen" toID="E116" toText="FLFDMC" type="OVERLAP" />
+<TLINK id="TL55" fromID="E13" fromText="his temperature" toID="E116" toText="FLFDMC" type="OVERLAP" />
+<TLINK id="TL56" fromID="E117" fromText="malaise" toID="E116" toText="FLFDMC" type="OVERLAP" />
+<TLINK id="TL57" fromID="E14" fromText="diarrhea" toID="E116" toText="FLFDMC" type="OVERLAP" />
+<TLINK id="TL58" fromID="E94" fromText="evaluated" toID="T4" toText="02/06/91" type="OVERLAP" />
+<TLINK id="TL59" fromID="E118" fromText="the Emergency Room" toID="E94" toText="evaluated" type="OVERLAP" />
+<TLINK id="TL6" fromID="E25" fromText="Pentamidine" toID="E42" toText="Pentamidine" type="simultaneous" />
+<TLINK id="TL60" fromID="E15" fromText="his oxygen saturation" toID="T14" toText="that time" type="OVERLAP" />
+<TLINK id="TL61" fromID="E16" fromText="his chest X-Ray" toID="E95" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL62" fromID="E119" fromText="change" toID="E95" toText="showed" type="OVERLAP" />
+<TLINK id="TL63" fromID="E120" fromText="sent out" toID="E17" toText="Cultures" type="AFTER" />
+<TLINK id="TL64" fromID="E17" fromText="Cultures" toID="E118" toText="the Emergency Room" type="OVERLAP" />
+<TLINK id="TL65" fromID="E121" fromText="called Dr. Seen" toID="T5" toText="02/08/91" type="OVERLAP" />
+<TLINK id="TL66" fromID="E122" fromText="increased shortness of breath" toID="E121" toText="called Dr. Seen" type="BEFORE_OVERLAP" />
+<TLINK id="TL67" fromID="E123" fromText="malaise" toID="E121" toText="called Dr. Seen" type="BEFORE_OVERLAP" />
+<TLINK id="TL68" fromID="E124" fromText="FLFDMC" toID="T5" toText="02/08/91" type="OVERLAP" />
+<TLINK id="TL69" fromID="E125" fromText="noted" toID="E124" toText="FLFDMC" type="OVERLAP" />
+<TLINK id="TL7" fromID="E29" fromText="Gentamicin" toID="E45" toText="Gentamicin" type="simultaneous" />
+<TLINK id="TL70" fromID="E126" fromText="jaundice" toID="E125" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL71" fromID="E127" fromText="newly palpable liver edge" toID="E125" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL72" fromID="E128" fromText="liver function tests" toID="E129" toText="revealed" type="SIMULTANEOUS" />
+<TLINK id="TL73" fromID="E18" fromText="a cholestatic picture" toID="E129" toText="revealed" type="OVERLAP" />
+<TLINK id="TL74" fromID="E18" fromText="a cholestatic picture" toID="E19" toText="the Bactrim" type="AFTER" />
+<TLINK id="TL75" fromID="E130" fromText="His oxygen saturation" toID="T15" toText="that time" type="OVERLAP" />
+<TLINK id="TL76" fromID="E124" fromText="FLFDMC" toID="E96" toText="admitted" type="ENDED_BY" />
+<TLINK id="TL77" fromID="E96" fromText="admitted" toID="E87" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL78" fromID="E96" fromText="admitted" toID="E97" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL79" fromID="E20" fromText="work-up" toID="E97" toText="admitted" type="AFTER" />
+<TLINK id="TL8" fromID="E2" fromText="Pneumocystis carinii pneumonia" toID="E5" toText="Pneumocystis carinii pneumonia" type="simultaneous" />
+<TLINK id="TL80" fromID="E22" fromText="his pulmonary process" toID="E98" toText="work-up" type="BEFORE_OVERLAP" />
+<TLINK id="TL81" fromID="E98" fromText="work-up" toID="E97" toText="admitted" type="AFTER" />
+<TLINK id="TL82" fromID="E25" fromText="Pentamidine" toID="E23" toText="treatment" type="OVERLAP" />
+<TLINK id="TL83" fromID="E131" fromText="a Bactrim failure" toID="E24" toText="PCP" type="OVERLAP" />
+<TLINK id="TL84" fromID="E26" fromText="his liver function tests" toID="E27" toText="Bactrim" type="AFTER" />
+<TLINK id="TL85" fromID="E29" fromText="Gentamicin" toID="E28" toText="Erythromycin" type="OVERLAP" />
+<TLINK id="TL86" fromID="E30" fromText="community acquired pneumonias" toID="E29" toText="Gentamicin" type="OVERLAP" />
+<TLINK id="TL87" fromID="E29" fromText="Gentamicin" toID="E31" toText="gram negative rods" type="OVERLAP" />
+<TLINK id="TL88" fromID="E32" fromText="supplemental oxygen" toID="E97" toText="admitted" type="AFTER" />
+<TLINK id="TL89" fromID="E132" fromText="viral hepatitis" toID="E33" toText="his liver abnormalities" type="OVERLAP" />
+<TLINK id="TL9" fromID="E21" fromText="his cholestatic jaundice picture" toID="E56" toText="a cholestatic picture" type="simultaneous" />
+<TLINK id="TL90" fromID="E133" fromText="several opportunistic infections of the liver" toID="E33" toText="his liver abnormalities" type="OVERLAP" />
+<TLINK id="TL91" fromID="E35" fromText="these abnormalities" toID="E34" toText="Bactrim" type="AFTER" />
+<TLINK id="TL92" fromID="E134" fromText="CMV" toID="E36" toText="Titers" type="OVERLAP" />
+<TLINK id="TL93" fromID="E135" fromText="Epstein-Barr virus" toID="E36" toText="Titers" type="OVERLAP" />
+<TLINK id="TL94" fromID="E136" fromText="toxoplasma" toID="E37" toText="a titer" type="OVERLAP" />
+<TLINK id="TL95" fromID="E38" fromText="Stool" toID="E137" toText="ova" type="OVERLAP" />
+<TLINK id="TL96" fromID="E38" fromText="Stool" toID="E138" toText="parasites" type="OVERLAP" />
+<TLINK id="TL97" fromID="E139" fromText="Gastrointestinal" toID="E140" toText="consulted" type="SIMULTANEOUS" />
+<TLINK id="TL98" fromID="E40" fromText="his respiratory rate" toID="E141" toText="increased" type="OVERLAP" />
+<TLINK id="TL99" fromID="E141" fromText="increased" toID="T6" toText="02/10/91" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="02/08/1991" type="ADMISSION" dvalue="1991-02-08" />
+<SECTIME id="S1" start="46" end="56" text="02/18/1991" type="DISCHARGE" dvalue="1991-02-18" />
+<TLINK id="SECTIME0" fromID="E115" fromText="seen" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E116" fromText="FLFDMC" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E13" fromText="his temperature" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E117" fromText="malaise" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E14" fromText="diarrhea" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E94" fromText="evaluated" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E118" fromText="the Emergency Room" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E15" fromText="his oxygen saturation" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E16" fromText="his chest X-Ray" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E95" fromText="showed" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E119" fromText="change" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E17" fromText="Cultures" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E120" fromText="sent out" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E121" fromText="called Dr. Seen" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E122" fromText="increased shortness of breath" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E123" fromText="malaise" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E124" fromText="FLFDMC" toID="T1" toText="02/08/1991" type="OVERLAP" />
+<TLINK id="SECTIME17" fromID="E125" fromText="noted" toID="T1" toText="02/08/1991" type="OVERLAP" />
+<TLINK id="SECTIME18" fromID="E126" fromText="jaundice" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E127" fromText="newly palpable liver edge" toID="T1" toText="02/08/1991" type="OVERLAP" />
+<TLINK id="SECTIME20" fromID="E1" fromText="acquired immunodeficiency syndrome" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E128" fromText="liver function tests" toID="T1" toText="02/08/1991" type="OVERLAP" />
+<TLINK id="SECTIME22" fromID="E129" fromText="revealed" toID="T1" toText="02/08/1991" type="OVERLAP" />
+<TLINK id="SECTIME23" fromID="E18" fromText="a cholestatic picture" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E19" fromText="the Bactrim" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E130" fromText="His oxygen saturation" toID="T1" toText="02/08/1991" type="OVERLAP" />
+<TLINK id="SECTIME26" fromID="E96" fromText="admitted" toID="T1" toText="02/08/1991" type="OVERLAP" />
+<TLINK id="SECTIME27" fromID="E97" fromText="admitted" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E20" fromText="work-up" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E21" fromText="his cholestatic jaundice picture" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E2" fromText="Pneumocystis carinii pneumonia" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E98" fromText="work-up" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E22" fromText="his pulmonary process" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E23" fromText="treatment" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E131" fromText="a Bactrim failure" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E24" fromText="PCP" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E25" fromText="Pentamidine" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E26" fromText="his liver function tests" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E27" fromText="Bactrim" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E0" fromText="presented" toID="T1" toText="02/08/1991" type="OVERLAP" />
+<TLINK id="SECTIME40" fromID="E28" fromText="Erythromycin" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E29" fromText="Gentamicin" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E30" fromText="community acquired pneumonias" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E31" fromText="gram negative rods" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E32" fromText="supplemental oxygen" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E89" fromText="pneumonia" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E33" fromText="his liver abnormalities" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E132" fromText="viral hepatitis" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E133" fromText="several opportunistic infections of the liver" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E34" fromText="Bactrim" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E108" fromText="adult respiratory distress syndrome" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E35" fromText="these abnormalities" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E36" fromText="Titers" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E134" fromText="CMV" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E135" fromText="Epstein-Barr virus" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E37" fromText="a titer" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E136" fromText="toxoplasma" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E38" fromText="Stool" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E137" fromText="ova" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E138" fromText="parasites" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E139" fromText="Gastrointestinal" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E140" fromText="consulted" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E99" fromText="well" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E39" fromText="oxygen" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E40" fromText="his respiratory rate" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E141" fromText="increased" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E41" fromText="his oxygen saturation" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E142" fromText="decreased" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E109" fromText="died" toID="T1" toText="02/08/1991" type="AFTER" />
+<TLINK id="SECTIME69" fromID="E42" fromText="Pentamidine" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E43" fromText="the antibiotics" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E44" fromText="Erythromycin" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E110" fromText="the hospital" toID="T1" toText="02/08/1991" type="OVERLAP" />
+<TLINK id="SECTIME73" fromID="E45" fromText="Gentamicin" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E143" fromText="the patient &apos;s respiratory status worsened" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E46" fromText="his LDH" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E101" fromText="climbed" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E100" fromText="Pentamidine" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E144" fromText="more comfortable" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E47" fromText="50% facemask" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E48" fromText="oxygen" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E145" fromText="dropped" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E49" fromText="his O2 saturations" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E102" fromText="intubated" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E103" fromText="transferred" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E146" fromText="the Intensive Care Unit" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E3" fromText="ventilatory support" toID="T1" toText="02/08/1991" type="AFTER" />
+<TLINK id="SECTIME87" fromID="E50" fromText="Gentamicin" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E51" fromText="Vancomycin" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E52" fromText="Pentamidine" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E53" fromText="Prednisone" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E54" fromText="hepatitis C virus serologies" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E147" fromText="positive" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E55" fromText="his liver function test abnormalities" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E56" fromText="a cholestatic picture" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E57" fromText="his direct bilirubin" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E58" fromText="total" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E59" fromText="The patient &apos;s abdominal CT scan" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E104" fromText="showed" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E60" fromText="liver disease" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E61" fromText="obstruction" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E62" fromText="The patient &apos;s liver function tests" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E105" fromText="improve" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E63" fromText="The patient &apos;s penile ulcer" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E148" fromText="cultured" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E64" fromText="positive herpes simplex virus" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E65" fromText="Acyclovir" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E66" fromText="a bronchoalveolar lavage" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E106" fromText="showed" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E67" fromText="a toluidine blue" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E4" fromText="acquired immunodeficiency syndrome" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E68" fromText="many pneumocysts" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E149" fromText="other cultures" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E150" fromText="the patient &apos;s clinical status deteriorated" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME114" fromID="E69" fromText="100% oxygen" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E151" fromText="adequate oxygen saturations" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E70" fromText="the ventilator" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME117" fromID="E71" fromText="elevated ventilatory pressures" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME118" fromID="E72" fromText="PIPS" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME119" fromID="E73" fromText="baratroma" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME120" fromID="E152" fromText="respiratory status" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME121" fromID="E153" fromText="continued to decline" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME122" fromID="E74" fromText="oxygen saturations" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME123" fromID="E5" fromText="Pneumocystis carinii pneumonia" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME124" fromID="E75" fromText="reverse I to E ventilation" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME125" fromID="E76" fromText="paralysis" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME126" fromID="E77" fromText="sedation" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME127" fromID="E78" fromText="other modes of ventilation" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME128" fromID="E79" fromText="liver biopsy" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME129" fromID="E154" fromText="died" toID="T2" toText="02/18/1991" type="OVERLAP" />
+<TLINK id="SECTIME130" fromID="E80" fromText="decreasing counts" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME131" fromID="E81" fromText="white count" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME132" fromID="E82" fromText="hematocrit" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME133" fromID="E83" fromText="platelets" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME134" fromID="E84" fromText="blood products" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME135" fromID="E155" fromText="Hematology" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME136" fromID="E156" fromText="consulted" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME137" fromID="E85" fromText="Bactrim" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME138" fromID="E107" fromText="getting better" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME139" fromID="E90" fromText="admitted" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME140" fromID="E157" fromText="died" toID="T2" toText="02/18/1991" type="OVERLAP" />
+<TLINK id="SECTIME141" fromID="E86" fromText="Bone marrow biopsy" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME142" fromID="E158" fromText="Discussions" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME143" fromID="E159" fromText="supportive care" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME144" fromID="E111" fromText="the Retelk County Medical Center" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME145" fromID="E160" fromText="continued worsening pulmonary status" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME146" fromID="E161" fromText="the family decided" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME147" fromID="E162" fromText="the Medical Team" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME148" fromID="E163" fromText="withdraw" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME149" fromID="E164" fromText="ventilatory support" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME150" fromID="E165" fromText="expired" toID="T2" toText="02/18/1991" type="OVERLAP" />
+<TLINK id="SECTIME151" fromID="E166" fromText="the endotracheal tube" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME152" fromID="E167" fromText="withdrawn" toID="T2" toText="02/18/1991" type="BEFORE" />
+<TLINK id="SECTIME153" fromID="E112" fromText="Bactrim" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME154" fromID="E6" fromText="steroids" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME155" fromID="E91" fromText="intubated" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME156" fromID="E7" fromText="bronchoscopy" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME157" fromID="E8" fromText="a positive toluidine blue study" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME158" fromID="E92" fromText="well" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME159" fromID="E9" fromText="extubation" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME160" fromID="E10" fromText="Bactrim" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME161" fromID="E11" fromText="a steroid taper" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME162" fromID="E93" fromText="discharge" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME163" fromID="E12" fromText="an O2 saturation" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME164" fromID="E114" fromText="seen" toID="T1" toText="02/08/1991" type="BEFORE" />
+<TLINK id="SECTIME165" fromID="E113" fromText="Dr. Seen and Dr. Seen" toID="T1" toText="02/08/1991" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

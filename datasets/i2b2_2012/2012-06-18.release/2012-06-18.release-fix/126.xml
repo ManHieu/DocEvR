@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+09/08/96
+DISCHARGE DATE :
+09/17/96
+HISTORY OF PRESENT ILLNESS :
+This 82 year old retired engineer has had multiple admissions to the Ph University Of Medical Center for multiple strokes and a spontaneous subdural hematoma and prostatic hypertrophy .
+He has been managing at home on restricted activity but able to get around with a walker but on the day before admission he became increasing dyspneic and on the day of admission he collapsed and was unable to walk to his bed .
+For this he was admitted .
+HOSPITAL COURSE AND TREATMENT :
+The patient was started on Clindamycin intravenous and Cefuroxime intravenous with clearing of his fever but persistence of cough , choking , and intermittently many coarse rales in his base with no clearing by x-ray .
+His ambulation was minimal and always with assistance but he had a transurethral resection of the prostate on 09/14/96 .
+He is transferred to Louline Mauikings Medical Center for future rehabilitation and hopeful return home with considerable support and assistance .
+]]></TEXT>
+<TAGS>
+<EVENT id="E15" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="1017" end="1024" text="support" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="1029" end="1039" text="assistance" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="124" end="143" text="multiple admissions" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E0" start="147" end="182" text="the Ph University Of Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E1" start="187" end="203" text="multiple strokes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="208" end="239" text="a spontaneous subdural hematoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="244" end="265" text="prostatic hypertrophy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="280" end="288" text="managing" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="300" end="319" text="restricted activity" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="348" end="356" text="a walker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="379" end="388" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="399" end="418" text="increasing dyspneic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="437" end="446" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="450" end="459" text="collapsed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="468" end="482" text="unable to walk" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="512" end="520" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="582" end="605" text="Clindamycin intravenous" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="610" end="632" text="Cefuroxime intravenous" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="650" end="659" text="his fever" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E9" start="679" end="684" text="cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="687" end="694" text="choking" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="701" end="745" text="intermittently many coarse rales in his base" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="754" end="762" text="clearing" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E34" start="766" end="771" text="x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="774" end="788" text="His ambulation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="793" end="800" text="minimal" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="817" end="827" text="assistance" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="839" end="880" text="a transurethral resection of the prostate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="901" end="912" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="916" end="948" text="Louline Mauikings Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E14" start="953" end="974" text="future rehabilitation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="987" end="998" text="return home" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T1" start="18" end="26" text="09/08/96" type="DATE" val="1996-09-08" mod="NA" />
+<TIMEX3 id="T0" start="364" end="371" text="the day" type="DATE" val="1996-09-07" mod="NA" />
+<TIMEX3 id="T4" start="426" end="433" text="the day" type="DATE" val="1996-09-08" mod="NA" />
+<TIMEX3 id="T2" start="44" end="52" text="09/17/96" type="DATE" val="1996-09-17" mod="NA" />
+<TIMEX3 id="T5" start="884" end="892" text="09/14/96" type="DATE" val="1996-09-14" mod="NA" />
+<TLINK id="TL0" fromID="E15" fromText="ADMISSION" toID="T1" toText="09/08/96" type="OVERLAP" />
+<TLINK id="TL1" fromID="E16" fromText="DISCHARGE" toID="T2" toText="09/17/96" type="OVERLAP" />
+<TLINK id="TL10" fromID="E5" fromText="a walker" toID="E4" toText="restricted activity" type="OVERLAP" />
+<TLINK id="TL11" fromID="T0" fromText="the day" toID="E15" toText="ADMISSION" type="" />
+<TLINK id="TL12" fromID="E33" fromText="admission" toID="E15" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL13" fromID="T0" fromText="the day" toID="E33" toText="admission" type="BEFORE" />
+<TLINK id="TL14" fromID="E6" fromText="increasing dyspneic" toID="T0" toText="the day" type="OVERLAP" />
+<TLINK id="TL15" fromID="E23" fromText="admission" toID="E33" toText="admission" type="OVERLAP" />
+<TLINK id="TL16" fromID="T4" fromText="the day" toID="E23" toText="admission" type="OVERLAP" />
+<TLINK id="TL17" fromID="E24" fromText="collapsed" toID="T4" toText="the day" type="OVERLAP" />
+<TLINK id="TL18" fromID="E25" fromText="unable to walk" toID="E24" toText="collapsed" type="OVERLAP" />
+<TLINK id="TL19" fromID="E17" fromText="admitted" toID="E23" toText="admission" type="OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="a spontaneous subdural hematoma" toID="E3" toText="prostatic hypertrophy" type="OVERLAP" />
+<TLINK id="TL20" fromID="E17" fromText="admitted" toID="E24" toText="collapsed" type="AFTER" />
+<TLINK id="TL21" fromID="E7" fromText="Clindamycin intravenous" toID="E17" toText="admitted" type="AFTER" />
+<TLINK id="TL22" fromID="E8" fromText="Cefuroxime intravenous" toID="E7" toText="Clindamycin intravenous" type="OVERLAP" />
+<TLINK id="TL23" fromID="E26" fromText="his fever" toID="E8" toText="Cefuroxime intravenous" type="BEFORE" />
+<TLINK id="TL24" fromID="E9" fromText="cough" toID="E8" toText="Cefuroxime intravenous" type="BEFORE" />
+<TLINK id="TL25" fromID="E10" fromText="choking" toID="E9" toText="cough" type="OVERLAP" />
+<TLINK id="TL26" fromID="E11" fromText="intermittently many coarse rales in his base" toID="E10" toText="choking" type="OVERLAP" />
+<TLINK id="TL27" fromID="E11" fromText="intermittently many coarse rales in his base" toID="E34" toText="x-ray" type="BEFORE" />
+<TLINK id="TL28" fromID="E27" fromText="His ambulation" toID="E11" toText="intermittently many coarse rales in his base" type="OVERLAP" />
+<TLINK id="TL29" fromID="E28" fromText="minimal" toID="E27" toText="His ambulation" type="OVERLAP" />
+<TLINK id="TL3" fromID="E10" fromText="choking" toID="E11" toText="intermittently many coarse rales in his base" type="OVERLAP" />
+<TLINK id="TL30" fromID="E29" fromText="assistance" toID="E28" toText="minimal" type="OVERLAP" />
+<TLINK id="TL31" fromID="T5" fromText="09/14/96" toID="E15" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL32" fromID="T5" fromText="09/14/96" toID="E16" toText="DISCHARGE" type="BEFORE" />
+<TLINK id="TL33" fromID="E13" fromText="a transurethral resection of the prostate" toID="T5" toText="09/14/96" type="OVERLAP" />
+<TLINK id="TL34" fromID="E19" fromText="transferred" toID="E16" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL35" fromID="E20" fromText="Louline Mauikings Medical Center" toID="E19" toText="transferred" type="AFTER" />
+<TLINK id="TL36" fromID="E14" fromText="future rehabilitation" toID="E20" toText="Louline Mauikings Medical Center" type="AFTER" />
+<TLINK id="TL37" fromID="E30" fromText="return home" toID="E14" toText="future rehabilitation" type="AFTER" />
+<TLINK id="TL38" fromID="E31" fromText="support" toID="E30" toText="return home" type="AFTER" />
+<TLINK id="TL39" fromID="E32" fromText="assistance" toID="E31" toText="support" type="OVERLAP" />
+<TLINK id="TL4" fromID="E21" fromText="multiple admissions" toID="E15" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL5" fromID="E0" fromText="the Ph University Of Medical Center" toID="E21" toText="multiple admissions" type="OVERLAP" />
+<TLINK id="TL6" fromID="E1" fromText="multiple strokes" toID="E0" toText="the Ph University Of Medical Center" type="OVERLAP" />
+<TLINK id="TL7" fromID="E2" fromText="a spontaneous subdural hematoma" toID="E1" toText="multiple strokes" type="OVERLAP" />
+<TLINK id="TL8" fromID="E22" fromText="managing" toID="E15" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL9" fromID="E4" fromText="restricted activity" toID="E22" toText="managing" type="OVERLAP" />
+<TLINK id="SECTIME0" fromID="E31" fromText="support" toID="T2" toText="09/17/96" type="AFTER" />
+<TLINK id="SECTIME1" fromID="E32" fromText="assistance" toID="T2" toText="09/17/96" type="AFTER" />
+<TLINK id="SECTIME2" fromID="E21" fromText="multiple admissions" toID="T1" toText="09/08/96" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E0" fromText="the Ph University Of Medical Center" toID="T1" toText="09/08/96" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E1" fromText="multiple strokes" toID="T1" toText="09/08/96" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E2" fromText="a spontaneous subdural hematoma" toID="T1" toText="09/08/96" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E3" fromText="prostatic hypertrophy" toID="T1" toText="09/08/96" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E22" fromText="managing" toID="T1" toText="09/08/96" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E4" fromText="restricted activity" toID="T1" toText="09/08/96" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E5" fromText="a walker" toID="T1" toText="09/08/96" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E33" fromText="admission" toID="T1" toText="09/08/96" type="OVERLAP" />
+<TLINK id="SECTIME11" fromID="E6" fromText="increasing dyspneic" toID="T1" toText="09/08/96" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E23" fromText="admission" toID="T1" toText="09/08/96" type="OVERLAP" />
+<TLINK id="SECTIME13" fromID="E24" fromText="collapsed" toID="T1" toText="09/08/96" type="OVERLAP" />
+<TLINK id="SECTIME14" fromID="E25" fromText="unable to walk" toID="T1" toText="09/08/96" type="OVERLAP" />
+<TLINK id="SECTIME15" fromID="E17" fromText="admitted" toID="T1" toText="09/08/96" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E7" fromText="Clindamycin intravenous" toID="T2" toText="09/17/96" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E8" fromText="Cefuroxime intravenous" toID="T2" toText="09/17/96" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E26" fromText="his fever" toID="T2" toText="09/17/96" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E9" fromText="cough" toID="T2" toText="09/17/96" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E10" fromText="choking" toID="T2" toText="09/17/96" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E11" fromText="intermittently many coarse rales in his base" toID="T2" toText="09/17/96" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E18" fromText="clearing" toID="T2" toText="09/17/96" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E34" fromText="x-ray" toID="T2" toText="09/17/96" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E27" fromText="His ambulation" toID="T2" toText="09/17/96" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E28" fromText="minimal" toID="T2" toText="09/17/96" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E29" fromText="assistance" toID="T2" toText="09/17/96" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E13" fromText="a transurethral resection of the prostate" toID="T2" toText="09/17/96" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E19" fromText="transferred" toID="T2" toText="09/17/96" type="OVERLAP" />
+<TLINK id="SECTIME29" fromID="E20" fromText="Louline Mauikings Medical Center" toID="T2" toText="09/17/96" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E14" fromText="future rehabilitation" toID="T2" toText="09/17/96" type="AFTER" />
+<TLINK id="SECTIME31" fromID="E30" fromText="return home" toID="T2" toText="09/17/96" type="AFTER" />
+<SECTIME id="S0" start="18" end="26" text="09/08/96" type="ADMISSION" dvalue="1996-09-08" />
+<SECTIME id="S1" start="44" end="52" text="09/17/96" type="DISCHARGE" dvalue="1996-09-17" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

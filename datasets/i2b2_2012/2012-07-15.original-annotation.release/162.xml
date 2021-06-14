@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2015-09-14
+Discharge Date :
+2015-09-19
+Service :
+NEONATOLOGY
+HISTORY OF PRESENT ILLNESS :
+The patient is a 3285 gm infant born at 37 5/7 weeks to a 21 year old G3 P1 now 2 mother with prenatal screens as follows :
+O positive , antibody negative , hepatitis B surface antigen negative , RPR nonreactive , GBS negative .
+Unremarkable pregnancy except for minor fullness of the left renal pelvis reported during the week prior to delivery .
+Past OB history remarkable for postpartum depression .
+Mother was admitted in labor .
+Baby was delivered by repeat C-section with rupture of membranes at delivery .
+Apgars were 8 and 9 .
+CMED CSRU staff was called about 30 minutes of age for grunting , flaring and retractions and the baby was admitted to the CMED CSRU .
+HOSPITAL COURSE:
+1. Respiratory .
+The Athol Memorial Hospital hospital course was initially consistent with transient tachypnea of the newborn .
+Chest x-ray revealed mild streakiness of the lung fields .
+He was initially placed on nasal cannula with subsequent resolution of respiratory distress .
+Nasal cannula was weaned off on day of life 3 and he initially was maintaining O2 sat above 94% and breathing comfortably .
+He was subsequently placed back on nasal cannula for mild oxygen desaturation and was requiring 25 c/min flow at the time of discharge .
+No apneic or brady episodes .
+2. Cardiovascular .
+The patient 's cardiovascular status has been stable throughout his CMED CSRU stay .
+No murmur on exam .
+3. FEN .
+The patient had been tolerating oral feeding as of day of life 2 and is currently taking Enfamil 20 p.o. ad lib .
+He has been weaned off IV fluids and has been maintaining good blood glucose .
+His birth weight was 3285 gm .
+His weight is 3015 gm on day of life 5 .
+4. GI .
+The patient 's bilirubin level at 24 hours of life was 4.6.
+No phototherapy was started .
+5. ID .
+The patient was not started on antibiotics , given lack of sepsis risk factors .
+His initial CBC showed no left shift .
+Blood culture had remained no growth to date .
+6. Heme .
+The patient 's initial hematocrit was 35.8 .
+No transfusion during this admission .
+CONDITION ON TRANSFER :
+The patient has been doing well on low flow nasal cannula. He has been tolerating p.o. ad lib feeds .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="1009" end="1022" text="nasal cannula" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="1039" end="1049" text="resolution" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="1053" end="1073" text="respiratory distress" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1076" end="1089" text="Nasal cannula" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="1094" end="1104" text="weaned off" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="1155" end="1161" text="O2 sat" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E58" start="1176" end="1197" text="breathing comfortably" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="1235" end="1248" text="nasal cannula" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="1253" end="1277" text="mild oxygen desaturation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="1325" end="1334" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="1340" end="1364" text="apneic or brady episodes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E46" start="140" end="144" text="born" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="1433" end="1439" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E62" start="1451" end="1469" text="his CMED CSRU stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="1475" end="1481" text="murmur" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E26" start="1485" end="1489" text="exam" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E63" start="1522" end="1545" text="tolerating oral feeding" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="1590" end="1597" text="Enfamil" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1627" end="1637" text="weaned off" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="1638" end="1647" text="IV fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="1673" end="1691" text="good blood glucose" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="1694" end="1710" text="His birth weight" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="1725" end="1735" text="His weight" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="1774" end="1804" text="The patient 's bilirubin level" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="1837" end="1849" text="phototherapy" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E32" start="1903" end="1914" text="antibiotics" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E66" start="1931" end="1950" text="sepsis risk factors" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E33" start="1953" end="1968" text="His initial CBC" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E67" start="1969" end="1975" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E34" start="1979" end="1989" text="left shift" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E35" start="1992" end="2005" text="Blood culture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="202" end="218" text="prenatal screens" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="2022" end="2028" text="growth" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E37" start="2049" end="2082" text="The patient 's initial hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="2097" end="2108" text="transfusion" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E39" start="2116" end="2130" text="this admission" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E68" start="2146" end="2154" text="TRANSFER" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="2184" end="2188" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="2192" end="2215" text="low flow nasal cannula." modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="2239" end="2256" text="p.o. ad lib feeds" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="232" end="242" text="O positive" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="245" end="253" text="antibody" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="265" end="292" text="hepatitis B surface antigen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="304" end="307" text="RPR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="322" end="325" text="GBS" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="371" end="410" text="minor fullness of the left renal pelvis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="411" end="419" text="reported" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E7" start="445" end="453" text="delivery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="487" end="508" text="postpartum depression" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="522" end="530" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="534" end="539" text="labor" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="551" end="560" text="delivered" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="564" end="580" text="repeat C-section" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="586" end="606" text="rupture of membranes" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="610" end="618" text="delivery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="621" end="627" text="Apgars" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="643" end="652" text="CMED CSRU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E14" start="698" end="706" text="grunting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="709" end="716" text="flaring" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="721" end="732" text="retractions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="750" end="758" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="762" end="775" text="the CMED CSRU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E54" start="812" end="839" text="The Athol Memorial Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E55" start="840" end="855" text="hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="886" end="920" text="transient tachypnea of the newborn" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="923" end="934" text="Chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="935" end="943" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E18" start="944" end="979" text="mild streakiness of the lung fields" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T7" start="1108" end="1121" text="day of life 3" type="DATE" val="2015-09-17" mod="NA" />
+<TIMEX3 id="T3" start="148" end="160" text="37 5/7 weeks" type="DURATION" val="p37w5d" mod="NA" />
+<TIMEX3 id="T1" start="1552" end="1565" text="day of life 2" type="DATE" val="2015-09-16" mod="NA" />
+<TIMEX3 id="T8" start="1750" end="1763" text="day of life 5" type="DATE" val="2015-09-19" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2015-09-14" type="DATE" val="2015-09-14" mod="NA" />
+<TIMEX3 id="T9" start="1808" end="1816" text="24 hours" type="DATE" val="2015-09-16" mod="APPROX" />
+<TIMEX3 id="T5" start="427" end="435" text="the week" type="DURATION" val="p1w" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2015-09-19" type="DATE" val="2015-09-19" mod="NA" />
+<TIMEX3 id="T6" start="676" end="686" text="30 minutes" type="DURATION" val="pt30m" mod="APPROX" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2015-09-14" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E19" fromText="nasal cannula" toID="E21" toText="Nasal cannula" type="simultaneous" />
+<TLINK id="TL10" fromID="E2" fromText="antibody" toID="E47" toText="O positive" type="OVERLAP" />
+<TLINK id="TL11" fromID="E3" fromText="hepatitis B surface antigen" toID="E2" toText="antibody" type="OVERLAP" />
+<TLINK id="TL12" fromID="E4" fromText="RPR" toID="E3" toText="hepatitis B surface antigen" type="OVERLAP" />
+<TLINK id="TL13" fromID="E5" fromText="GBS" toID="E4" toText="RPR" type="OVERLAP" />
+<TLINK id="TL14" fromID="T5" fromText="the week" toID="E7" toText="delivery" type="BEFORE" />
+<TLINK id="TL15" fromID="E7" fromText="delivery" toID="E46" toText="born" type="SIMULTANEOUS" />
+<TLINK id="TL16" fromID="E6" fromText="minor fullness of the left renal pelvis" toID="T5" toText="the week" type="DURING" />
+<TLINK id="TL17" fromID="T3" fromText="37 5/7 weeks" toID="E8" toText="postpartum depression" type="AFTER" />
+<TLINK id="TL18" fromID="E41" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E9" fromText="labor" toID="E41" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="E7" fromText="delivery" toID="E12" toText="delivery" type="simultaneous" />
+<TLINK id="TL20" fromID="E49" fromText="delivered" toID="E7" toText="delivery" type="SIMULTANEOUS" />
+<TLINK id="TL21" fromID="E10" fromText="repeat C-section" toID="E49" toText="delivered" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E11" fromText="rupture of membranes" toID="E10" toText="repeat C-section" type="SIMULTANEOUS" />
+<TLINK id="TL23" fromID="E12" fromText="delivery" toID="E11" toText="rupture of membranes" type="SIMULTANEOUS" />
+<TLINK id="TL24" fromID="E12" fromText="delivery" toID="E49" toText="delivered" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E13" fromText="Apgars" toID="E12" toText="delivery" type="AFTER" />
+<TLINK id="TL26" fromID="T6" fromText="30 minutes" toID="E13" toText="Apgars" type="AFTER" />
+<TLINK id="TL27" fromID="E50" fromText="CMED CSRU" toID="T6" toText="30 minutes" type="SIMULTANEOUS" />
+<TLINK id="TL28" fromID="E14" fromText="grunting" toID="T6" toText="30 minutes" type="BEFORE_OVERLAP" />
+<TLINK id="TL29" fromID="E15" fromText="flaring" toID="E14" toText="grunting" type="OVERLAP" />
+<TLINK id="TL3" fromID="E23" fromText="nasal cannula" toID="E40" toText="low flow nasal cannula." type="simultaneous" />
+<TLINK id="TL30" fromID="E16" fromText="retractions" toID="E15" toText="flaring" type="OVERLAP" />
+<TLINK id="TL31" fromID="E51" fromText="admitted" toID="T6" toText="30 minutes" type="AFTER" />
+<TLINK id="TL32" fromID="E53" fromText="the CMED CSRU" toID="E51" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL33" fromID="E53" fromText="the CMED CSRU" toID="E50" toText="CMED CSRU" type="SIMULTANEOUS" />
+<TLINK id="TL34" fromID="E54" fromText="The Athol Memorial Hospital" toID="E53" toText="the CMED CSRU" type="SIMULTANEOUS" />
+<TLINK id="TL35" fromID="E55" fromText="hospital course" toID="E54" toText="The Athol Memorial Hospital" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="E56" fromText="transient tachypnea of the newborn" toID="E55" toText="hospital course" type="DURING" />
+<TLINK id="TL37" fromID="E17" fromText="Chest x-ray" toID="E55" toText="hospital course" type="DURING" />
+<TLINK id="TL38" fromID="E57" fromText="revealed" toID="E17" toText="Chest x-ray" type="SIMULTANEOUS" />
+<TLINK id="TL39" fromID="E18" fromText="mild streakiness of the lung fields" toID="E57" toText="revealed" type="BEFORE_OVERLAP" />
+<TLINK id="TL40" fromID="E19" fromText="nasal cannula" toID="E17" toText="Chest x-ray" type="OVERLAP" />
+<TLINK id="TL41" fromID="E20" fromText="respiratory distress" toID="E56" toText="transient tachypnea of the newborn" type="SIMULTANEOUS" />
+<TLINK id="TL42" fromID="E20" fromText="respiratory distress" toID="E42" toText="resolution" type="ENDED_BY" />
+<TLINK id="TL43" fromID="E19" fromText="nasal cannula" toID="E42" toText="resolution" type="ENDED_BY" />
+<TLINK id="TL44" fromID="E21" fromText="Nasal cannula" toID="E19" toText="nasal cannula" type="SIMULTANEOUS" />
+<TLINK id="TL45" fromID="E21" fromText="Nasal cannula" toID="E43" toText="weaned off" type="ENDED_BY" />
+<TLINK id="TL46" fromID="E43" fromText="weaned off" toID="T7" toText="day of life 3" type="" />
+<TLINK id="TL47" fromID="T7" fromText="day of life 3" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL48" fromID="E45" fromText="Discharge" toID="T2" toText="2015-09-19" type="SIMULTANEOUS" />
+<TLINK id="TL49" fromID="E68" fromText="TRANSFER" toID="E45" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E51" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="E59" fromText="discharge" toID="E45" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL51" fromID="T7" fromText="day of life 3" toID="E45" toText="Discharge" type="BEFORE" />
+<TLINK id="TL52" fromID="E22" fromText="O2 sat" toID="E43" toText="weaned off" type="AFTER" />
+<TLINK id="TL53" fromID="E58" fromText="breathing comfortably" toID="E22" toText="O2 sat" type="OVERLAP" />
+<TLINK id="TL54" fromID="E24" fromText="mild oxygen desaturation" toID="E58" toText="breathing comfortably" type="AFTER" />
+<TLINK id="TL55" fromID="E23" fromText="nasal cannula" toID="E24" toText="mild oxygen desaturation" type="BEGUN_BY" />
+<TLINK id="TL56" fromID="E23" fromText="nasal cannula" toID="E59" toText="discharge" type="BEFORE_OVERLAP" />
+<TLINK id="TL57" fromID="E60" fromText="apneic or brady episodes" toID="E55" toText="hospital course" type="DURING" />
+<TLINK id="TL58" fromID="E62" fromText="his CMED CSRU stay" toID="E55" toText="hospital course" type="SIMULTANEOUS" />
+<TLINK id="TL59" fromID="E61" fromText="stable" toID="E62" toText="his CMED CSRU stay" type="DURING" />
+<TLINK id="TL6" fromID="T3" fromText="37 5/7 weeks" toID="E46" toText="born" type="ENDED_BY" />
+<TLINK id="TL60" fromID="E25" fromText="murmur" toID="E61" toText="stable" type="OVERLAP" />
+<TLINK id="TL61" fromID="E25" fromText="murmur" toID="E26" toText="exam" type="SIMULTANEOUS" />
+<TLINK id="TL62" fromID="T1" fromText="day of life 2" toID="T7" toText="day of life 3" type="BEFORE" />
+<TLINK id="TL63" fromID="T1" fromText="day of life 2" toID="E12" toText="delivery" type="AFTER" />
+<TLINK id="TL64" fromID="E63" fromText="tolerating oral feeding" toID="T1" toText="day of life 2" type="BEGUN_BY" />
+<TLINK id="TL65" fromID="E27" fromText="Enfamil" toID="E59" toText="discharge" type="OVERLAP" />
+<TLINK id="TL66" fromID="E28" fromText="IV fluids" toID="E62" toText="his CMED CSRU stay" type="DURING" />
+<TLINK id="TL67" fromID="E28" fromText="IV fluids" toID="E44" toText="weaned off" type="ENDED_BY" />
+<TLINK id="TL68" fromID="E64" fromText="good blood glucose" toID="E44" toText="weaned off" type="AFTER" />
+<TLINK id="TL69" fromID="E29" fromText="His birth weight" toID="E12" toText="delivery" type="SIMULTANEOUS" />
+<TLINK id="TL7" fromID="E46" fromText="born" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL70" fromID="T8" fromText="day of life 5" toID="E59" toText="discharge" type="SIMULTANEOUS" />
+<TLINK id="TL71" fromID="E30" fromText="His weight" toID="T8" toText="day of life 5" type="SIMULTANEOUS" />
+<TLINK id="TL72" fromID="T9" fromText="24 hours" toID="T1" toText="day of life 2" type="OVERLAP" />
+<TLINK id="TL73" fromID="E31" fromText="The patient 's bilirubin level" toID="T9" toText="24 hours" type="SIMULTANEOUS" />
+<TLINK id="TL74" fromID="E65" fromText="phototherapy" toID="T9" toText="24 hours" type="AFTER" />
+<TLINK id="TL75" fromID="E32" fromText="antibiotics" toID="E65" toText="phototherapy" type="OVERLAP" />
+<TLINK id="TL76" fromID="E66" fromText="sepsis risk factors" toID="E32" toText="antibiotics" type="BEFORE_OVERLAP" />
+<TLINK id="TL77" fromID="E33" fromText="His initial CBC" toID="E17" toText="Chest x-ray" type="OVERLAP" />
+<TLINK id="TL78" fromID="E67" fromText="showed" toID="E33" toText="His initial CBC" type="SIMULTANEOUS" />
+<TLINK id="TL79" fromID="E34" fromText="left shift" toID="E67" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL8" fromID="E1" fromText="prenatal screens" toID="E46" toText="born" type="BEFORE" />
+<TLINK id="TL80" fromID="E35" fromText="Blood culture" toID="E33" toText="His initial CBC" type="OVERLAP" />
+<TLINK id="TL81" fromID="E36" fromText="growth" toID="E35" toText="Blood culture" type="OVERLAP" />
+<TLINK id="TL82" fromID="E37" fromText="The patient 's initial hematocrit" toID="E33" toText="His initial CBC" type="OVERLAP" />
+<TLINK id="TL83" fromID="E39" fromText="this admission" toID="E62" toText="his CMED CSRU stay" type="SIMULTANEOUS" />
+<TLINK id="TL84" fromID="E38" fromText="transfusion" toID="E39" toText="this admission" type="DURING" />
+<TLINK id="TL85" fromID="E69" fromText="well" toID="E68" toText="TRANSFER" type="BEFORE_OVERLAP" />
+<TLINK id="TL86" fromID="E40" fromText="low flow nasal cannula." toID="E69" toText="well" type="SIMULTANEOUS" />
+<TLINK id="TL87" fromID="E70" fromText="p.o. ad lib feeds" toID="E40" toText="low flow nasal cannula." type="OVERLAP" />
+<TLINK id="TL9" fromID="E47" fromText="O positive" toID="E1" toText="prenatal screens" type="SIMULTANEOUS" />
+<SECTIME id="S0" start="18" end="28" text="2015-09-14" type="ADMISSION" dvalue="2015-09-14" />
+<SECTIME id="S1" start="46" end="56" text="2015-09-19" type="DISCHARGE" dvalue="2015-09-19" />
+<TLINK id="SECTIME0" fromID="E19" fromText="nasal cannula" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E42" fromText="resolution" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E20" fromText="respiratory distress" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E21" fromText="Nasal cannula" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E43" fromText="weaned off" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E22" fromText="O2 sat" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E58" fromText="breathing comfortably" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E23" fromText="nasal cannula" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E24" fromText="mild oxygen desaturation" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E59" fromText="discharge" toID="T2" toText="2015-09-19" type="OVERLAP" />
+<TLINK id="SECTIME10" fromID="E60" fromText="apneic or brady episodes" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E46" fromText="born" toID="T0" toText="2015-09-14" type="OVERLAP" />
+<TLINK id="SECTIME12" fromID="E61" fromText="stable" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E62" fromText="his CMED CSRU stay" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E25" fromText="murmur" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E26" fromText="exam" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E63" fromText="tolerating oral feeding" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E27" fromText="Enfamil" toID="T2" toText="2015-09-19" type="OVERLAP" />
+<TLINK id="SECTIME18" fromID="E44" fromText="weaned off" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E28" fromText="IV fluids" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E64" fromText="good blood glucose" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E29" fromText="His birth weight" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E30" fromText="His weight" toID="T2" toText="2015-09-19" type="OVERLAP" />
+<TLINK id="SECTIME23" fromID="E31" fromText="The patient 's bilirubin level" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E65" fromText="phototherapy" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E32" fromText="antibiotics" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E66" fromText="sepsis risk factors" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E33" fromText="His initial CBC" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E67" fromText="showed" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E34" fromText="left shift" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E35" fromText="Blood culture" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E1" fromText="prenatal screens" toID="T0" toText="2015-09-14" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E36" fromText="growth" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E37" fromText="The patient 's initial hematocrit" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E38" fromText="transfusion" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E39" fromText="this admission" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E68" fromText="TRANSFER" toID="T2" toText="2015-09-19" type="OVERLAP" />
+<TLINK id="SECTIME37" fromID="E69" fromText="well" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E40" fromText="low flow nasal cannula." toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E70" fromText="p.o. ad lib feeds" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E47" fromText="O positive" toID="T0" toText="2015-09-14" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E2" fromText="antibody" toID="T0" toText="2015-09-14" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E3" fromText="hepatitis B surface antigen" toID="T0" toText="2015-09-14" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E4" fromText="RPR" toID="T0" toText="2015-09-14" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E5" fromText="GBS" toID="T0" toText="2015-09-14" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E6" fromText="minor fullness of the left renal pelvis" toID="T0" toText="2015-09-14" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E48" fromText="reported" toID="T0" toText="2015-09-14" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E7" fromText="delivery" toID="T0" toText="2015-09-14" type="OVERLAP" />
+<TLINK id="SECTIME48" fromID="E8" fromText="postpartum depression" toID="T0" toText="2015-09-14" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E41" fromText="admitted" toID="T0" toText="2015-09-14" type="OVERLAP" />
+<TLINK id="SECTIME50" fromID="E9" fromText="labor" toID="T0" toText="2015-09-14" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E49" fromText="delivered" toID="T0" toText="2015-09-14" type="OVERLAP" />
+<TLINK id="SECTIME52" fromID="E10" fromText="repeat C-section" toID="T0" toText="2015-09-14" type="OVERLAP" />
+<TLINK id="SECTIME53" fromID="E11" fromText="rupture of membranes" toID="T0" toText="2015-09-14" type="OVERLAP" />
+<TLINK id="SECTIME54" fromID="E12" fromText="delivery" toID="T0" toText="2015-09-14" type="OVERLAP" />
+<TLINK id="SECTIME55" fromID="E13" fromText="Apgars" toID="T0" toText="2015-09-14" type="OVERLAP" />
+<TLINK id="SECTIME56" fromID="E50" fromText="CMED CSRU" toID="T0" toText="2015-09-14" type="OVERLAP" />
+<TLINK id="SECTIME57" fromID="E14" fromText="grunting" toID="T0" toText="2015-09-14" type="OVERLAP" />
+<TLINK id="SECTIME58" fromID="E15" fromText="flaring" toID="T0" toText="2015-09-14" type="OVERLAP" />
+<TLINK id="SECTIME59" fromID="E16" fromText="retractions" toID="T0" toText="2015-09-14" type="OVERLAP" />
+<TLINK id="SECTIME60" fromID="E51" fromText="admitted" toID="T0" toText="2015-09-14" type="OVERLAP" />
+<TLINK id="SECTIME61" fromID="E53" fromText="the CMED CSRU" toID="T0" toText="2015-09-14" type="OVERLAP" />
+<TLINK id="SECTIME62" fromID="E54" fromText="The Athol Memorial Hospital" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E55" fromText="hospital course" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E56" fromText="transient tachypnea of the newborn" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E17" fromText="Chest x-ray" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E57" fromText="revealed" toID="T2" toText="2015-09-19" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E18" fromText="mild streakiness of the lung fields" toID="T2" toText="2015-09-19" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

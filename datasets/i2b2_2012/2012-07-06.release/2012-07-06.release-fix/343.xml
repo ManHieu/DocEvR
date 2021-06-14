@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+08-27-92
+DISCHARGE DATE :
+09-08-92
+HISTORY OF PRESENT ILLNESS :
+The patient is a 75 year old Hispanic male with insulin dependent diabetes mellitus , status post a right above-knee amputation about five years ago , who reportedly approximately four months ago , he developed a small ulceration in the left great toe , which progressively worsened .
+He was seen by a doctor in Arizona and treated with dressing changes and debridement until approximately six weeks ago , when antibiotics were started with Ciprofloxacin .
+The patient was seen and it was suggested that he should have an amputation and he decided to come to Fairm of Ijordcompmac Hospital for further evaluation .
+HOSPITAL COURSE :
+The patient was admitted for intravenous antibiotics and a question of evaluation of circulation to the left great toe and also possible debridement and possibly a toe amputation .
+The patient had the following radiological studies :
+08-27-92 , left foot film , correlation , patient consistent with osteomyelitis involving the first digit and possibly the second digit of the left foot .
+The chest X-ray reveals no evidence of acute disease .
+The patient had lower extremity arterial non-invasive study which showed good arterial hemodynamics of the left lower extremity , perfusion to the TM level , but there was evidence of diabetic small vessel disease and spasm of his digits .
+The arterial circulation is adequate for healing of his left great toe ulcer , noncompressible left thigh and calf pressures highly calcified arterial system .
+On 09-03-92 , patient underwent a left great toe buttontoe amputation under regional ankle block for chronic ulcer and osteomyelitis of the left great toe .
+The patient tolerated the procedure well .
+There were no complications during the procedure .
+There was a small Penrose drain postoperatively that was placed intraoperatively and discontinued on approximately postoperative day number three .
+The patient was preoperatively treated with about a seven day course of intravenous Unasyn and postoperatively treated for approximately four days of intravenous Unasyn .
+The patient was discharged home in stable condition on postoperative day number five , without any complications .
+The incision from buttontoe amputation of the left foot healing well , without any further complications .
+FOLLOWUP :
+The patient is to follow up in clinic .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="1015" end="1054" text="osteomyelitis involving the first digit" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="1104" end="1119" text="The chest X-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="1120" end="1127" text="reveals" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E24" start="1131" end="1156" text="evidence of acute disease" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E25" start="1191" end="1218" text="arterial non-invasive study" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="1225" end="1231" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E27" start="1232" end="1258" text="good arterial hemodynamics" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="1289" end="1314" text="perfusion to the TM level" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="130" end="165" text="insulin dependent diabetes mellitus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="1343" end="1372" text="diabetic small vessel disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1377" end="1396" text="spasm of his digits" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1399" end="1435" text="The arterial circulation is adequate" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1440" end="1447" text="healing" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="1451" end="1475" text="his left great toe ulcer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="1591" end="1628" text="a left great toe buttontoe amputation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1635" end="1655" text="regional ankle block" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1660" end="1673" text="chronic ulcer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1678" end="1691" text="osteomyelitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1738" end="1751" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1752" end="1756" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1773" end="1786" text="complications" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E41" start="1794" end="1807" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="180" end="209" text="a right above-knee amputation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1820" end="1841" text="a small Penrose drain" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="1874" end="1890" text="intraoperatively" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="2030" end="2048" text="intravenous Unasyn" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="2108" end="2126" text="intravenous Unasyn" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="2145" end="2155" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="2164" end="2180" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="2228" end="2241" text="complications" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="2244" end="2256" text="The incision" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="2262" end="2282" text="buttontoe amputation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="2300" end="2312" text="healing well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="2335" end="2348" text="complications" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="2380" end="2389" text="follow up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="2393" end="2399" text="clinic" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E1" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="293" end="333" text="a small ulceration in the left great toe" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="342" end="364" text="progressively worsened" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="374" end="390" text="seen by a doctor" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="419" end="435" text="dressing changes" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="440" end="451" text="debridement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="493" end="504" text="antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="523" end="536" text="Ciprofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="601" end="614" text="an amputation" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="641" end="671" text="Fairm of Ijordcompmac Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E13" start="676" end="694" text="further evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="731" end="739" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="744" end="767" text="intravenous antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="786" end="811" text="evaluation of circulation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="852" end="863" text="debridement" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="877" end="893" text="a toe amputation" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="926" end="946" text="radiological studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="960" end="974" text="left foot film" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T6" start="1562" end="1570" text="09-03-92" type="DATE" val="1992-09-03" mod="NA" />
+<TIMEX3 id="T0" start="18" end="26" text="08-27-92" type="DATE" val="1992-08-27" mod="NA" />
+<TIMEX3 id="T7" start="1939" end="1955" text="day number three" type="DATE" val="1992-09-06" mod="APPROX" />
+<TIMEX3 id="T8" start="2010" end="2026" text="seven day course" type="DURATION" val="p7d" mod="APPROX" />
+<TIMEX3 id="T9" start="2095" end="2104" text="four days" type="DURATION" val="p4d" mod="APPROX" />
+<TIMEX3 id="T2" start="216" end="226" text="five years" type="DURATION" val="p5y" mod="APPROX" />
+<TIMEX3 id="T10" start="2198" end="2213" text="day number five" type="DATE" val="1992-09-08" mod="NA" />
+<TIMEX3 id="T3" start="262" end="273" text="four months" type="DURATION" val="p4m" mod="APPROX" />
+<TIMEX3 id="T1" start="44" end="52" text="09-08-92" type="DATE" val="1992-09-08" mod="NA" />
+<TIMEX3 id="T4" start="472" end="485" text="six weeks ago" type="DURATION" val="p6w" mod="APPROX" />
+<TIMEX3 id="T5" start="949" end="957" text="08-27-92" type="DATE" val="1992-08-27" mod="NA" />
+<TLINK id="TL0" fromID="T0" fromText="08-27-92" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="DISCHARGE" toID="T1" toText="09-08-92" type="OVERLAP" />
+<TLINK id="TL10" fromID="E6" fromText="seen by a doctor" toID="E7" toText="dressing changes" type="OVERLAP" />
+<TLINK id="TL11" fromID="T4" fromText="six weeks ago" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL12" fromID="E9" fromText="antibiotics" toID="T4" toText="six weeks ago" type="AFTER" />
+<TLINK id="TL13" fromID="E10" fromText="Ciprofloxacin" toID="E9" toText="antibiotics" type="OVERLAP" />
+<TLINK id="TL14" fromID="E11" fromText="an amputation" toID="E6" toText="seen by a doctor" type="AFTER" />
+<TLINK id="TL15" fromID="E11" fromText="an amputation" toID="E12" toText="Fairm of Ijordcompmac Hospital" type="OVERLAP" />
+<TLINK id="TL16" fromID="E12" fromText="Fairm of Ijordcompmac Hospital" toID="E0" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL17" fromID="E12" fromText="Fairm of Ijordcompmac Hospital" toID="E1" toText="DISCHARGE" type="BEFORE" />
+<TLINK id="TL18" fromID="E13" fromText="further evaluation" toID="E12" toText="Fairm of Ijordcompmac Hospital" type="OVERLAP" />
+<TLINK id="TL19" fromID="E14" fromText="admitted" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="insulin dependent diabetes mellitus" toID="E3" toText="a right above-knee amputation" type="BEFORE" />
+<TLINK id="TL20" fromID="E14" fromText="admitted" toID="E15" toText="intravenous antibiotics" type="OVERLAP" />
+<TLINK id="TL21" fromID="E15" fromText="intravenous antibiotics" toID="E16" toText="evaluation of circulation" type="OVERLAP" />
+<TLINK id="TL22" fromID="E16" fromText="evaluation of circulation" toID="E17" toText="debridement" type="OVERLAP" />
+<TLINK id="TL23" fromID="E17" fromText="debridement" toID="E18" toText="a toe amputation" type="OVERLAP" />
+<TLINK id="TL24" fromID="E19" fromText="radiological studies" toID="E20" toText="left foot film" type="OVERLAP" />
+<TLINK id="TL25" fromID="T5" fromText="08-27-92" toID="E20" toText="left foot film" type="OVERLAP" />
+<TLINK id="TL26" fromID="E21" fromText="osteomyelitis involving the first digit" toID="E20" toText="left foot film" type="BEFORE" />
+<TLINK id="TL27" fromID="E24" fromText="evidence of acute disease" toID="E22" toText="The chest X-ray" type="BEFORE" />
+<TLINK id="TL28" fromID="E22" fromText="The chest X-ray" toID="E23" toText="reveals" type="OVERLAP" />
+<TLINK id="TL29" fromID="E19" fromText="radiological studies" toID="E23" toText="reveals" type="OVERLAP" />
+<TLINK id="TL3" fromID="E3" fromText="a right above-knee amputation" toID="T2" toText="five years" type="OVERLAP" />
+<TLINK id="TL30" fromID="E19" fromText="radiological studies" toID="E25" toText="arterial non-invasive study" type="OVERLAP" />
+<TLINK id="TL31" fromID="E25" fromText="arterial non-invasive study" toID="E26" toText="showed" type="OVERLAP" />
+<TLINK id="TL32" fromID="E27" fromText="good arterial hemodynamics" toID="E25" toText="arterial non-invasive study" type="BEFORE" />
+<TLINK id="TL33" fromID="E27" fromText="good arterial hemodynamics" toID="E28" toText="perfusion to the TM level" type="OVERLAP" />
+<TLINK id="TL34" fromID="E29" fromText="diabetic small vessel disease" toID="E27" toText="good arterial hemodynamics" type="OVERLAP" />
+<TLINK id="TL35" fromID="E29" fromText="diabetic small vessel disease" toID="E30" toText="spasm of his digits" type="OVERLAP" />
+<TLINK id="TL36" fromID="E31" fromText="The arterial circulation is adequate" toID="E32" toText="healing" type="OVERLAP" />
+<TLINK id="TL37" fromID="E33" fromText="his left great toe ulcer" toID="E4" toText="a small ulceration in the left great toe" type="OVERLAP" />
+<TLINK id="TL38" fromID="E33" fromText="his left great toe ulcer" toID="E32" toText="healing" type="BEFORE" />
+<TLINK id="TL39" fromID="T6" fromText="09-03-92" toID="E34" toText="a left great toe buttontoe amputation" type="OVERLAP" />
+<TLINK id="TL4" fromID="T2" fromText="five years" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL40" fromID="E34" fromText="a left great toe buttontoe amputation" toID="E35" toText="regional ankle block" type="OVERLAP" />
+<TLINK id="TL41" fromID="E36" fromText="chronic ulcer" toID="E33" toText="his left great toe ulcer" type="OVERLAP" />
+<TLINK id="TL42" fromID="E36" fromText="chronic ulcer" toID="E34" toText="a left great toe buttontoe amputation" type="BEFORE" />
+<TLINK id="TL43" fromID="E34" fromText="a left great toe buttontoe amputation" toID="E11" toText="an amputation" type="OVERLAP" />
+<TLINK id="TL44" fromID="E37" fromText="osteomyelitis" toID="E36" toText="chronic ulcer" type="OVERLAP" />
+<TLINK id="TL45" fromID="E34" fromText="a left great toe buttontoe amputation" toID="E38" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL46" fromID="E39" fromText="well" toID="E38" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL47" fromID="E38" fromText="the procedure" toID="E41" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL48" fromID="E40" fromText="complications" toID="E41" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL49" fromID="E42" fromText="a small Penrose drain" toID="E38" toText="the procedure" type="AFTER" />
+<TLINK id="TL5" fromID="T3" fromText="four months" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL50" fromID="E38" fromText="the procedure" toID="E43" toText="intraoperatively" type="OVERLAP" />
+<TLINK id="TL51" fromID="E42" fromText="a small Penrose drain" toID="T7" toText="day number three" type="BEFORE" />
+<TLINK id="TL52" fromID="T8" fromText="seven day course" toID="E38" toText="the procedure" type="BEFORE" />
+<TLINK id="TL53" fromID="T8" fromText="seven day course" toID="E44" toText="intravenous Unasyn" type="OVERLAP" />
+<TLINK id="TL54" fromID="T9" fromText="four days" toID="E41" toText="the procedure" type="AFTER" />
+<TLINK id="TL55" fromID="T9" fromText="four days" toID="E45" toText="intravenous Unasyn" type="OVERLAP" />
+<TLINK id="TL56" fromID="E46" fromText="discharged" toID="E1" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL57" fromID="E47" fromText="stable condition" toID="E46" toText="discharged" type="BEFORE" />
+<TLINK id="TL58" fromID="E46" fromText="discharged" toID="T10" toText="day number five" type="OVERLAP" />
+<TLINK id="TL59" fromID="E48" fromText="complications" toID="E46" toText="discharged" type="BEFORE" />
+<TLINK id="TL6" fromID="E4" fromText="a small ulceration in the left great toe" toID="T3" toText="four months" type="AFTER" />
+<TLINK id="TL60" fromID="E49" fromText="The incision" toID="E38" toText="the procedure" type="AFTER" />
+<TLINK id="TL61" fromID="E50" fromText="buttontoe amputation" toID="E41" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL62" fromID="E49" fromText="The incision" toID="E51" toText="healing well" type="OVERLAP" />
+<TLINK id="TL63" fromID="E51" fromText="healing well" toID="E52" toText="complications" type="OVERLAP" />
+<TLINK id="TL64" fromID="E55" fromText="follow up" toID="E46" toText="discharged" type="AFTER" />
+<TLINK id="TL65" fromID="E55" fromText="follow up" toID="E54" toText="clinic" type="OVERLAP" />
+<TLINK id="TL7" fromID="E4" fromText="a small ulceration in the left great toe" toID="E5" toText="progressively worsened" type="BEFORE" />
+<TLINK id="TL8" fromID="E5" fromText="progressively worsened" toID="E6" toText="seen by a doctor" type="OVERLAP" />
+<TLINK id="TL9" fromID="E7" fromText="dressing changes" toID="E8" toText="debridement" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="26" text="08-27-92" type="ADMISSION" dvalue="1992-08-27" />
+<SECTIME id="S1" start="44" end="52" text="09-08-92" type="DISCHARGE" dvalue="1992-09-08" />
+<TLINK id="SECTIME0" fromID="E21" fromText="osteomyelitis involving the first digit" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E22" fromText="The chest X-ray" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E23" fromText="reveals" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E24" fromText="evidence of acute disease" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E25" fromText="arterial non-invasive study" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E26" fromText="showed" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E27" fromText="good arterial hemodynamics" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E28" fromText="perfusion to the TM level" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E2" fromText="insulin dependent diabetes mellitus" toID="T0" toText="08-27-92" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E29" fromText="diabetic small vessel disease" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E30" fromText="spasm of his digits" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E31" fromText="The arterial circulation is adequate" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E32" fromText="healing" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E33" fromText="his left great toe ulcer" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E34" fromText="a left great toe buttontoe amputation" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E35" fromText="regional ankle block" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E36" fromText="chronic ulcer" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E37" fromText="osteomyelitis" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E38" fromText="the procedure" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E39" fromText="well" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E40" fromText="complications" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E41" fromText="the procedure" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E3" fromText="a right above-knee amputation" toID="T0" toText="08-27-92" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E42" fromText="a small Penrose drain" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E43" fromText="intraoperatively" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E44" fromText="intravenous Unasyn" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E45" fromText="intravenous Unasyn" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E46" fromText="discharged" toID="T1" toText="09-08-92" type="OVERLAP" />
+<TLINK id="SECTIME28" fromID="E47" fromText="stable condition" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E48" fromText="complications" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E49" fromText="The incision" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E50" fromText="buttontoe amputation" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E51" fromText="healing well" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E52" fromText="complications" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E55" fromText="follow up" toID="T1" toText="09-08-92" type="AFTER" />
+<TLINK id="SECTIME35" fromID="E54" fromText="clinic" toID="T1" toText="09-08-92" type="AFTER" />
+<TLINK id="SECTIME36" fromID="E4" fromText="a small ulceration in the left great toe" toID="T0" toText="08-27-92" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E5" fromText="progressively worsened" toID="T0" toText="08-27-92" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E6" fromText="seen by a doctor" toID="T0" toText="08-27-92" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E7" fromText="dressing changes" toID="T0" toText="08-27-92" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E8" fromText="debridement" toID="T0" toText="08-27-92" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E9" fromText="antibiotics" toID="T0" toText="08-27-92" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E10" fromText="Ciprofloxacin" toID="T0" toText="08-27-92" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E11" fromText="an amputation" toID="T0" toText="08-27-92" type="AFTER" />
+<TLINK id="SECTIME44" fromID="E12" fromText="Fairm of Ijordcompmac Hospital" toID="T0" toText="08-27-92" type="OVERLAP" />
+<TLINK id="SECTIME45" fromID="E13" fromText="further evaluation" toID="T0" toText="08-27-92" type="AFTER" />
+<TLINK id="SECTIME46" fromID="E14" fromText="admitted" toID="T1" toText="09-08-92" type="OVERLAP" />
+<TLINK id="SECTIME47" fromID="E15" fromText="intravenous antibiotics" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E16" fromText="evaluation of circulation" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E17" fromText="debridement" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E18" fromText="a toe amputation" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E19" fromText="radiological studies" toID="T1" toText="09-08-92" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E20" fromText="left foot film" toID="T1" toText="09-08-92" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

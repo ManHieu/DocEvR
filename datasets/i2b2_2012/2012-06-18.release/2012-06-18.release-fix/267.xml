@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2013-09-22
+Discharge Date :
+2013-09-26
+Service :
+SURGERY
+History of Present Illness :
+79F Pmhx CHF,COPD , found down at home , pulseless - CPR initiated w/ conciousness regained on scene .
+At OSH ABG 7.19/94/110 , BiPAP started .
+Pt found to be hypothermic w/ WBC 17 ( pt on steroids ) pnuemobilia and thickening of sigmoid .
+Currently on Nasal cannula 02 + hemodymamically stable .
+Brief Hospital Course :
+79F w/ a multiple medical problems including Sylvia ( EF20% ) , COPD ( on home O2 ) , found down at home , pulseless - CPR initiated w conciousness regained on scene .
+At OSH ABG 7.19/94/110 , BiPAP started .
+Pt found to be hypothermic w/ WBC 17 ( pt on steroids ) pnuemobilia and thickening of sigmoid .
+Pt was transferred to The Hospital for Orthopedics for further management with wishes from the pt and family to reverse DNR/DNI status if surgery was indicated .
+On transfer , the pt had VSS with a mildly tender abdomen without peritoneal signs .
+It was decided to treat her conservatively with bowel and IV antibiotics .
+She improved and was tolerating PO 's without difficulty after passing a swallow study .
+Her Cpine was clearly with both a negative CT Cspine and clinical exam .
+Her groin CVL was DC 'd after a L SC SVL was palced .
+CXR confirmed good position and no PTx .
+Overnight on HD 3 , pt became mildly agitated and an ABG was drawn which showed a severe resp acidosis and BiPAP was initiated .
+The pt subsequently developed severe hypoxia with hypotension .
+A CXR was obtained which showed complete collapse of the L lung thought to be a result of bursting a bleb associated with her severe COPD .
+Family did not want a chest tube placed and decided to make the pt CMO measures .
+On HD 4 pt continued to show a severe respiratory acidosis , was continued on a morphine drip , and was difficult to arouse .
+At 6pm pt 's respiratory status worsened and she died .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="1025" end="1049" text="bowel and IV antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="1056" end="1064" text="improved" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E63" start="1073" end="1086" text="tolerating PO" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="113" end="121" text="CHF,COPD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="1123" end="1138" text="a swallow study" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E64" start="1141" end="1150" text="Her Cpine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="1184" end="1193" text="CT Cspine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="1198" end="1211" text="clinical exam" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="1214" end="1227" text="Her groin CVL" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="1244" end="1254" text="a L SC SVL" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="1268" end="1271" text="CXR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E70" start="1272" end="1281" text="confirmed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E67" start="1282" end="1295" text="good position" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E66" start="1303" end="1306" text="PTx" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E22" start="1339" end="1354" text="mildly agitated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="1359" end="1365" text="an ABG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E68" start="1382" end="1388" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E24" start="1389" end="1411" text="a severe resp acidosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="1416" end="1421" text="BiPAP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="145" end="154" text="pulseless" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="1468" end="1482" text="severe hypoxia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="1488" end="1499" text="hypotension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="1502" end="1507" text="A CXR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E69" start="1527" end="1533" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E29" start="1534" end="1565" text="complete collapse of the L lung" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="157" end="160" text="CPR" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="1601" end="1607" text="a bleb" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1624" end="1639" text="her severe COPD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="1662" end="1674" text="a chest tube" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E32" start="1709" end="1721" text="CMO measures" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="174" end="195" text="conciousness regained" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="1753" end="1782" text="a severe respiratory acidosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="1802" end="1817" text="a morphine drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="1828" end="1847" text="difficult to arouse" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="1863" end="1890" text="respiratory status worsened" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="1899" end="1903" text="died" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="210" end="213" text="OSH" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E43" start="214" end="217" text="ABG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="232" end="237" text="BiPAP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="263" end="274" text="hypothermic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="278" end="281" text="WBC" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E35" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="293" end="301" text="steroids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="304" end="315" text="pnuemobilia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="320" end="341" text="thickening of sigmoid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="357" end="373" text="Nasal cannula 02" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="376" end="398" text="hemodymamically stable" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E1" start="432" end="459" text="a multiple medical problems" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="470" end="476" text="Sylvia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="479" end="484" text="EF20%" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="489" end="493" text="COPD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="499" end="506" text="home O2" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="532" end="541" text="pulseless" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="544" end="547" text="CPR" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="560" end="581" text="conciousness regained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E54" start="596" end="599" text="OSH" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E7" start="600" end="603" text="ABG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E8" start="618" end="623" text="BiPAP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="649" end="660" text="hypothermic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="664" end="667" text="WBC" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="679" end="687" text="steroids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="690" end="701" text="pnuemobilia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="706" end="727" text="thickening of sigmoid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="737" end="748" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="752" end="780" text="The Hospital for Orthopedics" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E14" start="785" end="803" text="further management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="850" end="857" text="DNR/DNI" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="868" end="875" text="surgery" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="895" end="903" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="917" end="920" text="VSS" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="926" end="949" text="a mildly tender abdomen" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="958" end="974" text="peritoneal signs" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E60" start="984" end="991" text="decided" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E61" start="995" end="1019" text="treat her conservatively" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T0" start="1309" end="1318" text="Overnight" type="TIME" val="2013-03-25T 24:00" mod="APPROX" />
+<TIMEX3 id="T3" start="1727" end="1731" text="HD 4" type="DATE" val="2013-03-26" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2013-09-22" type="DATE" val="2013-09-22" mod="NA" />
+<TIMEX3 id="T4" start="1853" end="1856" text="6pm" type="TIME" val="2013-09-26T18:00" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2013-09-26" type="DATE" val="2013-09-26" mod="NA" />
+<TLINK id="TL0" fromID="T1" fromText="2013-09-22" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL1" fromID="E24" fromText="a severe resp acidosis" toID="E33" toText="a severe respiratory acidosis" type="OVERLAP" />
+<TLINK id="TL10" fromID="E48" fromText="pnuemobilia" toID="E45" toText="hypothermic" type="OVERLAP" />
+<TLINK id="TL11" fromID="E48" fromText="pnuemobilia" toID="E49" toText="thickening of sigmoid" type="OVERLAP" />
+<TLINK id="TL12" fromID="E50" fromText="Nasal cannula 02" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL13" fromID="E50" fromText="Nasal cannula 02" toID="E51" toText="hemodymamically stable" type="OVERLAP" />
+<TLINK id="TL14" fromID="E1" fromText="a multiple medical problems" toID="E52" toText="Sylvia" type="OVERLAP" />
+<TLINK id="TL15" fromID="E1" fromText="a multiple medical problems" toID="E3" toText="COPD" type="OVERLAP" />
+<TLINK id="TL16" fromID="E2" fromText="EF20%" toID="E52" toText="Sylvia" type="OVERLAP" />
+<TLINK id="TL17" fromID="E4" fromText="home O2" toID="E3" toText="COPD" type="OVERLAP" />
+<TLINK id="TL18" fromID="E5" fromText="pulseless" toID="E39" toText="pulseless" type="OVERLAP" />
+<TLINK id="TL19" fromID="E6" fromText="CPR" toID="E40" toText="CPR" type="OVERLAP" />
+<TLINK id="TL2" fromID="E35" fromText="Discharge" toID="T2" toText="2013-09-26" type="OVERLAP" />
+<TLINK id="TL20" fromID="E53" fromText="conciousness regained" toID="E41" toText="conciousness regained" type="OVERLAP" />
+<TLINK id="TL21" fromID="E54" fromText="OSH" toID="E42" toText="OSH" type="OVERLAP" />
+<TLINK id="TL22" fromID="E7" fromText="ABG" toID="E43" toText="ABG" type="OVERLAP" />
+<TLINK id="TL23" fromID="E8" fromText="BiPAP" toID="E44" toText="BiPAP" type="OVERLAP" />
+<TLINK id="TL24" fromID="E9" fromText="hypothermic" toID="E45" toText="hypothermic" type="OVERLAP" />
+<TLINK id="TL25" fromID="E10" fromText="WBC" toID="E46" toText="WBC" type="OVERLAP" />
+<TLINK id="TL26" fromID="E11" fromText="steroids" toID="E47" toText="steroids" type="OVERLAP" />
+<TLINK id="TL27" fromID="E12" fromText="pnuemobilia" toID="E48" toText="pnuemobilia" type="OVERLAP" />
+<TLINK id="TL28" fromID="E13" fromText="thickening of sigmoid" toID="E49" toText="thickening of sigmoid" type="OVERLAP" />
+<TLINK id="TL29" fromID="E36" fromText="transferred" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL3" fromID="E38" fromText="CHF,COPD" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL30" fromID="E55" fromText="The Hospital for Orthopedics" toID="E36" toText="transferred" type="AFTER" />
+<TLINK id="TL31" fromID="E14" fromText="further management" toID="E55" toText="The Hospital for Orthopedics" type="OVERLAP" />
+<TLINK id="TL32" fromID="E56" fromText="DNR/DNI" toID="E14" toText="further management" type="OVERLAP" />
+<TLINK id="TL33" fromID="E57" fromText="surgery" toID="E14" toText="further management" type="OVERLAP" />
+<TLINK id="TL34" fromID="E37" fromText="transfer" toID="E36" toText="transferred" type="OVERLAP" />
+<TLINK id="TL35" fromID="E58" fromText="VSS" toID="E37" toText="transfer" type="OVERLAP" />
+<TLINK id="TL36" fromID="E15" fromText="a mildly tender abdomen" toID="E58" toText="VSS" type="OVERLAP" />
+<TLINK id="TL37" fromID="E59" fromText="peritoneal signs" toID="E15" toText="a mildly tender abdomen" type="OVERLAP" />
+<TLINK id="TL38" fromID="E60" fromText="decided" toID="E61" toText="treat her conservatively" type="OVERLAP" />
+<TLINK id="TL39" fromID="E16" fromText="bowel and IV antibiotics" toID="E61" toText="treat her conservatively" type="OVERLAP" />
+<TLINK id="TL4" fromID="E39" fromText="pulseless" toID="E40" toText="CPR" type="BEFORE" />
+<TLINK id="TL40" fromID="E62" fromText="improved" toID="E60" toText="decided" type="AFTER" />
+<TLINK id="TL41" fromID="E63" fromText="tolerating PO" toID="E62" toText="improved" type="OVERLAP" />
+<TLINK id="TL42" fromID="E17" fromText="a swallow study" toID="E63" toText="tolerating PO" type="OVERLAP" />
+<TLINK id="TL43" fromID="E64" fromText="Her Cpine" toID="E65" toText="CT Cspine" type="OVERLAP" />
+<TLINK id="TL44" fromID="E64" fromText="Her Cpine" toID="E18" toText="clinical exam" type="OVERLAP" />
+<TLINK id="TL45" fromID="E19" fromText="Her groin CVL" toID="E20" toText="a L SC SVL" type="BEFORE" />
+<TLINK id="TL46" fromID="E21" fromText="CXR" toID="E70" toText="confirmed" type="OVERLAP" />
+<TLINK id="TL47" fromID="E70" fromText="confirmed" toID="E67" toText="good position" type="OVERLAP" />
+<TLINK id="TL48" fromID="E70" fromText="confirmed" toID="E66" toText="PTx" type="OVERLAP" />
+<TLINK id="TL49" fromID="E22" fromText="mildly agitated" toID="T0" toText="Overnight" type="OVERLAP" />
+<TLINK id="TL5" fromID="E40" fromText="CPR" toID="E41" toText="conciousness regained" type="BEFORE" />
+<TLINK id="TL50" fromID="E23" fromText="an ABG" toID="T0" toText="Overnight" type="AFTER" />
+<TLINK id="TL51" fromID="E23" fromText="an ABG" toID="E68" toText="showed" type="OVERLAP" />
+<TLINK id="TL52" fromID="E24" fromText="a severe resp acidosis" toID="E68" toText="showed" type="BEFORE" />
+<TLINK id="TL53" fromID="E25" fromText="BiPAP" toID="E68" toText="showed" type="AFTER" />
+<TLINK id="TL54" fromID="E26" fromText="severe hypoxia" toID="E68" toText="showed" type="AFTER" />
+<TLINK id="TL55" fromID="E27" fromText="hypotension" toID="E26" toText="severe hypoxia" type="OVERLAP" />
+<TLINK id="TL56" fromID="E28" fromText="A CXR" toID="E69" toText="showed" type="OVERLAP" />
+<TLINK id="TL57" fromID="E29" fromText="complete collapse of the L lung" toID="E69" toText="showed" type="BEFORE" />
+<TLINK id="TL58" fromID="E29" fromText="complete collapse of the L lung" toID="E30" toText="a bleb" type="AFTER" />
+<TLINK id="TL59" fromID="E30" fromText="a bleb" toID="E31" toText="her severe COPD" type="OVERLAP" />
+<TLINK id="TL6" fromID="E43" fromText="ABG" toID="E42" toText="OSH" type="OVERLAP" />
+<TLINK id="TL60" fromID="E71" fromText="a chest tube" toID="E32" toText="CMO measures" type="OVERLAP" />
+<TLINK id="TL61" fromID="E32" fromText="CMO measures" toID="E69" toText="showed" type="AFTER" />
+<TLINK id="TL62" fromID="E33" fromText="a severe respiratory acidosis" toID="T3" toText="HD 4" type="OVERLAP" />
+<TLINK id="TL63" fromID="E34" fromText="a morphine drip" toID="T3" toText="HD 4" type="OVERLAP" />
+<TLINK id="TL64" fromID="E72" fromText="difficult to arouse" toID="T3" toText="HD 4" type="OVERLAP" />
+<TLINK id="TL65" fromID="E73" fromText="respiratory status worsened" toID="T4" toText="6pm" type="OVERLAP" />
+<TLINK id="TL66" fromID="E74" fromText="died" toID="T4" toText="6pm" type="OVERLAP" />
+<TLINK id="TL7" fromID="E44" fromText="BiPAP" toID="E42" toText="OSH" type="AFTER" />
+<TLINK id="TL8" fromID="E46" fromText="WBC" toID="E45" toText="hypothermic" type="OVERLAP" />
+<TLINK id="TL9" fromID="E47" fromText="steroids" toID="E45" toText="hypothermic" type="BEFORE" />
+<TLINK id="SECTIME0" fromID="E16" fromText="bowel and IV antibiotics" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E62" fromText="improved" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E63" fromText="tolerating PO" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E38" fromText="CHF,COPD" toID="T1" toText="2013-09-22" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E17" fromText="a swallow study" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E64" fromText="Her Cpine" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E65" fromText="CT Cspine" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E18" fromText="clinical exam" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E19" fromText="Her groin CVL" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E20" fromText="a L SC SVL" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E21" fromText="CXR" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E70" fromText="confirmed" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E67" fromText="good position" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E66" fromText="PTx" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E22" fromText="mildly agitated" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E23" fromText="an ABG" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E68" fromText="showed" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E24" fromText="a severe resp acidosis" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E25" fromText="BiPAP" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E39" fromText="pulseless" toID="T1" toText="2013-09-22" type="OVERLAP" />
+<TLINK id="SECTIME20" fromID="E26" fromText="severe hypoxia" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E27" fromText="hypotension" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E28" fromText="A CXR" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E69" fromText="showed" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E29" fromText="complete collapse of the L lung" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E40" fromText="CPR" toID="T1" toText="2013-09-22" type="OVERLAP" />
+<TLINK id="SECTIME26" fromID="E30" fromText="a bleb" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E31" fromText="her severe COPD" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E71" fromText="a chest tube" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E32" fromText="CMO measures" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E41" fromText="conciousness regained" toID="T1" toText="2013-09-22" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E33" fromText="a severe respiratory acidosis" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E34" fromText="a morphine drip" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E72" fromText="difficult to arouse" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E73" fromText="respiratory status worsened" toID="T2" toText="2013-09-26" type="OVERLAP" />
+<TLINK id="SECTIME35" fromID="E74" fromText="died" toID="T2" toText="2013-09-26" type="OVERLAP" />
+<TLINK id="SECTIME36" fromID="E42" fromText="OSH" toID="T1" toText="2013-09-22" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E43" fromText="ABG" toID="T1" toText="2013-09-22" type="OVERLAP" />
+<TLINK id="SECTIME38" fromID="E44" fromText="BiPAP" toID="T1" toText="2013-09-22" type="OVERLAP" />
+<TLINK id="SECTIME39" fromID="E45" fromText="hypothermic" toID="T1" toText="2013-09-22" type="OVERLAP" />
+<TLINK id="SECTIME40" fromID="E46" fromText="WBC" toID="T1" toText="2013-09-22" type="OVERLAP" />
+<TLINK id="SECTIME41" fromID="E47" fromText="steroids" toID="T1" toText="2013-09-22" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E48" fromText="pnuemobilia" toID="T1" toText="2013-09-22" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E49" fromText="thickening of sigmoid" toID="T1" toText="2013-09-22" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E50" fromText="Nasal cannula 02" toID="T1" toText="2013-09-22" type="OVERLAP" />
+<TLINK id="SECTIME45" fromID="E51" fromText="hemodymamically stable" toID="T1" toText="2013-09-22" type="OVERLAP" />
+<TLINK id="SECTIME46" fromID="E1" fromText="a multiple medical problems" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E52" fromText="Sylvia" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E2" fromText="EF20%" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E3" fromText="COPD" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E4" fromText="home O2" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E5" fromText="pulseless" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E6" fromText="CPR" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E53" fromText="conciousness regained" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E54" fromText="OSH" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E7" fromText="ABG" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E8" fromText="BiPAP" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E9" fromText="hypothermic" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E10" fromText="WBC" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E11" fromText="steroids" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E12" fromText="pnuemobilia" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E13" fromText="thickening of sigmoid" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E36" fromText="transferred" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E55" fromText="The Hospital for Orthopedics" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E14" fromText="further management" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E56" fromText="DNR/DNI" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E57" fromText="surgery" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E37" fromText="transfer" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E58" fromText="VSS" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E15" fromText="a mildly tender abdomen" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E59" fromText="peritoneal signs" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E60" fromText="decided" toID="T2" toText="2013-09-26" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E61" fromText="treat her conservatively" toID="T2" toText="2013-09-26" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2013-09-22" type="ADMISSION" dvalue="2013-09-22" />
+<SECTIME id="S1" start="46" end="56" text="2013-09-26" type="DISCHARGE" dvalue="2013-09-26" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

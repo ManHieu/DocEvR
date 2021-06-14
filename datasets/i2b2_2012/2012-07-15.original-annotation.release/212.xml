@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2017-06-28
+Discharge Date :
+2017-07-02
+Service :
+CMED CCU
+HISTORY OF PRESENT ILLNESS :
+A 40-year-old female with history of non-ST-elevation myocardial infarction in 2016-09-30 with stent to the LAD and 50% to the mid LAD , had instent restenosis in 2017-04-02 and then underwent brachytherapy to the RCA , who presented to Baldpate Hospital with several weeks of chest pain similar to her anginal equivalent and MI in the past .
+It started at rest .
+No relief with nitroglycerin x3 .
+Radiates to the left arm .
+Positive shortness of breath .
+Troponins have been less than 0.01.
+With history , will go for cardiac catheterization evaluation .
+Still getting chest pain intermittently , but relieved by morphine sulfate .
+Was on a Heparin and nitroglycerin drip with only intermittent relief .
+HOSPITAL COURSE:
+1. Chest pain :
+The patient ruled out for myocardial infarction .
+However , with her history of disease , patient underwent a cardiac catheterization .
+The patient was found at cardiac catheterization to have mild diffuse instent restenosis in the mid stent , otherwise hemodynamically normal and the coronary arteries otherwise were without flow-limiting stenoses .
+The patient was then continued on her cardiac medications .
+It was felt that if we attempted aspirin desensitize her while an inpatient , then she would benefit from the use of aspirin and Plavix .
+The patient was sent to the CCU and underwent aspirin desensitization protocol , which she tolerated well .
+She had mild worsening of her asthma attacks , which was relieved by Benadryl and occasionally albuterol .
+The patient found that if she took the aspirin in the evening with her Benadryl that she takes for sleep , that the asthma exacerbation did not occur .
+Aspirin no longer should be considered an allergy for this patient , and she is going to take this as an outpatient .
+2. Hyperlipidemia :
+The patient 's Lipitor was increased to 80 mg q.d.
+3. Back pain :
+This is a chronic issue and was controlled with Flexeril and Vicodin .
+]]></TEXT>
+<TAGS>
+<EVENT id="E30" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="1004" end="1027" text="cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="1036" end="1084" text="mild diffuse instent restenosis in the mid stent" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="1097" end="1119" text="hemodynamically normal" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="1169" end="1191" text="flow-limiting stenoses" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E17" start="1228" end="1251" text="her cardiac medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1287" end="1306" text="aspirin desensitize" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1371" end="1378" text="aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1383" end="1389" text="Plavix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="142" end="180" text="non-ST-elevation myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="1416" end="1423" text="the CCU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E19" start="1438" end="1470" text="aspirin desensitization protocol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="1483" end="1497" text="tolerated well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E51" start="1508" end="1522" text="mild worsening" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="1526" end="1544" text="her asthma attacks" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1569" end="1577" text="Benadryl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="1595" end="1604" text="albuterol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="1642" end="1653" text="the aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1674" end="1686" text="her Benadryl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1719" end="1742" text="the asthma exacerbation" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E23" start="1759" end="1766" text="Aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="1798" end="1808" text="an allergy" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E24" start="1880" end="1894" text="Hyperlipidemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="1897" end="1919" text="The patient 's Lipitor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="1951" end="1960" text="Back pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="1971" end="1986" text="a chronic issue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="200" end="216" text="stent to the LAD" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="2011" end="2019" text="Flexeril" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="2024" end="2031" text="Vicodin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="246" end="264" text="instent restenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="298" end="322" text="brachytherapy to the RCA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E0" start="329" end="338" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="342" end="359" text="Baldpate Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E5" start="382" end="392" text="chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="404" end="426" text="her anginal equivalent" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="431" end="433" text="MI" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="448" end="450" text="It" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="462" end="466" text="rest" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="472" end="478" text="relief" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E8" start="484" end="497" text="nitroglycerin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="503" end="511" text="Radiates" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="539" end="558" text="shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="561" end="570" text="Troponins" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="624" end="658" text="cardiac catheterization evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="675" end="685" text="chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="719" end="735" text="morphine sulfate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="745" end="754" text="a Heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="759" end="777" text="nitroglycerin drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="801" end="807" text="relief" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="830" end="840" text="Chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="869" end="890" text="myocardial infarction" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E12" start="923" end="930" text="disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="951" end="976" text="a cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T1" start="18" end="28" text="2017-06-28" type="DATE" val="2017-06-28" mod="NA" />
+<TIMEX3 id="T3" start="184" end="194" text="2016-09-30" type="DATE" val="2016-09-30" mod="NA" />
+<TIMEX3 id="T6" start="1943" end="1947" text="q.d." type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T4" start="268" end="278" text="2017-04-02" type="DATE" val="2017-04-02" mod="NA" />
+<TIMEX3 id="T0" start="365" end="378" text="several weeks" type="DURATION" val="P3W" mod="APPROX" />
+<TIMEX3 id="T2" start="46" end="56" text="2017-07-02" type="DATE" val="2017-07-02" mod="NA" />
+<TIMEX3 id="T5" start="498" end="500" text="x3" type="FREQUENCY" val="R3" mod="NA" />
+<TLINK id="TL0" fromID="E30" fromText="Admission" toID="T1" toText="2017-06-28" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E13" fromText="a cardiac catheterization" toID="E14" toText="cardiac catheterization" type="simultaneous" />
+<TLINK id="TL10" fromID="E3" fromText="instent restenosis" toID="E2" toText="stent to the LAD" type="AFTER" />
+<TLINK id="TL11" fromID="E3" fromText="instent restenosis" toID="T4" toText="2017-04-02" type="SIMULTANEOUS" />
+<TLINK id="TL12" fromID="E4" fromText="brachytherapy to the RCA" toID="E3" toText="instent restenosis" type="AFTER" />
+<TLINK id="TL13" fromID="E4" fromText="brachytherapy to the RCA" toID="E0" toText="presented" type="BEFORE" />
+<TLINK id="TL14" fromID="E32" fromText="Baldpate Hospital" toID="E0" toText="presented" type="BEGUN_BY" />
+<TLINK id="TL15" fromID="E5" fromText="chest pain" toID="T0" toText="several weeks" type="DURING" />
+<TLINK id="TL16" fromID="E6" fromText="her anginal equivalent" toID="E5" toText="chest pain" type="BEFORE" />
+<TLINK id="TL17" fromID="E7" fromText="MI" toID="E6" toText="her anginal equivalent" type="OVERLAP" />
+<TLINK id="TL18" fromID="T0" fromText="several weeks" toID="E0" toText="presented" type="ENDED_BY" />
+<TLINK id="TL19" fromID="E34" fromText="It" toID="E5" toText="chest pain" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="E21" fromText="Benadryl" toID="E22" toText="her Benadryl" type="simultaneous" />
+<TLINK id="TL20" fromID="E34" fromText="It" toID="E33" toText="rest" type="BEGUN_BY" />
+<TLINK id="TL21" fromID="E34" fromText="It" toID="E8" toText="nitroglycerin" type="BEFORE_OVERLAP" />
+<TLINK id="TL22" fromID="E8" fromText="nitroglycerin" toID="E35" toText="relief" type="OVERLAP" />
+<TLINK id="TL23" fromID="E34" fromText="It" toID="E36" toText="Radiates" type="OVERLAP" />
+<TLINK id="TL24" fromID="E36" fromText="Radiates" toID="E9" toText="shortness of breath" type="OVERLAP" />
+<TLINK id="TL25" fromID="E9" fromText="shortness of breath" toID="E10" toText="Troponins" type="OVERLAP" />
+<TLINK id="TL26" fromID="E10" fromText="Troponins" toID="E11" toText="cardiac catheterization evaluation" type="BEFORE" />
+<TLINK id="TL27" fromID="E37" fromText="chest pain" toID="E5" toText="chest pain" type="SIMULTANEOUS" />
+<TLINK id="TL28" fromID="E37" fromText="chest pain" toID="E39" toText="morphine sulfate" type="ENDED_BY" />
+<TLINK id="TL29" fromID="E40" fromText="a Heparin" toID="E41" toText="nitroglycerin drip" type="SIMULTANEOUS" />
+<TLINK id="TL3" fromID="E11" fromText="cardiac catheterization evaluation" toID="E13" toText="a cardiac catheterization" type="simultaneous" />
+<TLINK id="TL30" fromID="E41" fromText="nitroglycerin drip" toID="E42" toText="relief" type="OVERLAP" />
+<TLINK id="TL31" fromID="E43" fromText="Chest pain" toID="E37" toText="chest pain" type="SIMULTANEOUS" />
+<TLINK id="TL32" fromID="E43" fromText="Chest pain" toID="E44" toText="myocardial infarction" type="OVERLAP" />
+<TLINK id="TL33" fromID="E12" fromText="disease" toID="E1" toText="non-ST-elevation myocardial infarction" type="SIMULTANEOUS" />
+<TLINK id="TL34" fromID="E12" fromText="disease" toID="E13" toText="a cardiac catheterization" type="BEFORE" />
+<TLINK id="TL35" fromID="E15" fromText="mild diffuse instent restenosis in the mid stent" toID="E14" toText="cardiac catheterization" type="BEFORE_OVERLAP" />
+<TLINK id="TL36" fromID="E46" fromText="hemodynamically normal" toID="E15" toText="mild diffuse instent restenosis in the mid stent" type="OVERLAP" />
+<TLINK id="TL37" fromID="E16" fromText="flow-limiting stenoses" toID="E46" toText="hemodynamically normal" type="OVERLAP" />
+<TLINK id="TL38" fromID="E14" fromText="cardiac catheterization" toID="E17" toText="her cardiac medications" type="BEFORE" />
+<TLINK id="TL39" fromID="E17" fromText="her cardiac medications" toID="E47" toText="aspirin desensitize" type="OVERLAP" />
+<TLINK id="TL4" fromID="E1" fromText="non-ST-elevation myocardial infarction" toID="E7" toText="MI" type="simultaneous" />
+<TLINK id="TL41" fromID="E48" fromText="aspirin" toID="E47" toText="aspirin desensitize" type="AFTER" />
+<TLINK id="TL42" fromID="E48" fromText="aspirin" toID="E18" toText="Plavix" type="OVERLAP" />
+<TLINK id="TL43" fromID="E48" fromText="aspirin" toID="E53" toText="the aspirin" type="SIMULTANEOUS" />
+<TLINK id="TL44" fromID="E53" fromText="the aspirin" toID="E23" toText="Aspirin" type="SIMULTANEOUS" />
+<TLINK id="TL45" fromID="E19" fromText="aspirin desensitization protocol" toID="E49" toText="the CCU" type="DURING" />
+<TLINK id="TL46" fromID="E19" fromText="aspirin desensitization protocol" toID="E50" toText="tolerated well" type="OVERLAP" />
+<TLINK id="TL47" fromID="E20" fromText="her asthma attacks" toID="E51" toText="mild worsening" type="OVERLAP" />
+<TLINK id="TL48" fromID="E20" fromText="her asthma attacks" toID="E21" toText="Benadryl" type="ENDED_BY" />
+<TLINK id="TL49" fromID="E20" fromText="her asthma attacks" toID="E52" toText="albuterol" type="ENDED_BY" />
+<TLINK id="TL51" fromID="E53" fromText="the aspirin" toID="E22" toText="her Benadryl" type="SIMULTANEOUS" />
+<TLINK id="TL52" fromID="E53" fromText="the aspirin" toID="E54" toText="the asthma exacerbation" type="BEFORE" />
+<TLINK id="TL53" fromID="E23" fromText="Aspirin" toID="E55" toText="an allergy" type="OVERLAP" />
+<TLINK id="TL54" fromID="E24" fromText="Hyperlipidemia" toID="T6" toText="q.d." type="OVERLAP" />
+<TLINK id="TL55" fromID="E26" fromText="Back pain" toID="E27" toText="a chronic issue" type="OVERLAP" />
+<TLINK id="TL56" fromID="E26" fromText="Back pain" toID="E28" toText="Flexeril" type="BEFORE_OVERLAP" />
+<TLINK id="TL57" fromID="E26" fromText="Back pain" toID="E29" toText="Vicodin" type="BEFORE_OVERLAP" />
+<TLINK id="TL6" fromID="E24" fromText="Hyperlipidemia" toID="E25" toText="The patient 's Lipitor" type="BEFORE_OVERLAP" />
+<TLINK id="TL7" fromID="E31" fromText="Discharge" toID="T2" toText="2017-07-02" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="T3" fromText="2016-09-30" toID="E1" toText="non-ST-elevation myocardial infarction" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="E1" fromText="non-ST-elevation myocardial infarction" toID="E2" toText="stent to the LAD" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E14" fromText="cardiac catheterization" toID="T2" toText="2017-07-02" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E15" fromText="mild diffuse instent restenosis in the mid stent" toID="T2" toText="2017-07-02" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E46" fromText="hemodynamically normal" toID="T2" toText="2017-07-02" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E16" fromText="flow-limiting stenoses" toID="T2" toText="2017-07-02" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E17" fromText="her cardiac medications" toID="T2" toText="2017-07-02" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime5" fromID="E47" fromText="aspirin desensitize" toID="T2" toText="2017-07-02" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E48" fromText="aspirin" toID="T2" toText="2017-07-02" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime7" fromID="E18" fromText="Plavix" toID="T2" toText="2017-07-02" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E1" fromText="non-ST-elevation myocardial infarction" toID="T1" toText="2017-06-28" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E49" fromText="the CCU" toID="T2" toText="2017-07-02" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E19" fromText="aspirin desensitization protocol" toID="T2" toText="2017-07-02" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E50" fromText="tolerated well" toID="T2" toText="2017-07-02" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E51" fromText="mild worsening" toID="T2" toText="2017-07-02" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E20" fromText="her asthma attacks" toID="T2" toText="2017-07-02" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E21" fromText="Benadryl" toID="T2" toText="2017-07-02" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E52" fromText="albuterol" toID="T2" toText="2017-07-02" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E53" fromText="the aspirin" toID="T2" toText="2017-07-02" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E22" fromText="her Benadryl" toID="T2" toText="2017-07-02" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E54" fromText="the asthma exacerbation" toID="T2" toText="2017-07-02" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E23" fromText="Aspirin" toID="T2" toText="2017-07-02" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime19" fromID="E55" fromText="an allergy" toID="T2" toText="2017-07-02" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E24" fromText="Hyperlipidemia" toID="T2" toText="2017-07-02" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime21" fromID="E25" fromText="The patient 's Lipitor" toID="T2" toText="2017-07-02" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime22" fromID="E26" fromText="Back pain" toID="T2" toText="2017-07-02" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime23" fromID="E27" fromText="a chronic issue" toID="T2" toText="2017-07-02" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime1" fromID="E2" fromText="stent to the LAD" toID="T1" toText="2017-06-28" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E28" fromText="Flexeril" toID="T2" toText="2017-07-02" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime25" fromID="E29" fromText="Vicodin" toID="T2" toText="2017-07-02" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime2" fromID="E3" fromText="instent restenosis" toID="T1" toText="2017-06-28" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E4" fromText="brachytherapy to the RCA" toID="T1" toText="2017-06-28" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E0" fromText="presented" toID="T1" toText="2017-06-28" type="OVERLAP" />
+<TLINK id="Sectime5" fromID="E32" fromText="Baldpate Hospital" toID="T1" toText="2017-06-28" type="OVERLAP" />
+<TLINK id="Sectime6" fromID="E5" fromText="chest pain" toID="T1" toText="2017-06-28" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime7" fromID="E6" fromText="her anginal equivalent" toID="T1" toText="2017-06-28" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E7" fromText="MI" toID="T1" toText="2017-06-28" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E34" fromText="It" toID="T1" toText="2017-06-28" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime10" fromID="E33" fromText="rest" toID="T1" toText="2017-06-28" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E35" fromText="relief" toID="T1" toText="2017-06-28" type="OVERLAP" />
+<TLINK id="Sectime12" fromID="E8" fromText="nitroglycerin" toID="T1" toText="2017-06-28" type="OVERLAP" />
+<TLINK id="Sectime13" fromID="E36" fromText="Radiates" toID="T1" toText="2017-06-28" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime14" fromID="E9" fromText="shortness of breath" toID="T1" toText="2017-06-28" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime15" fromID="E10" fromText="Troponins" toID="T1" toText="2017-06-28" type="OVERLAP" />
+<TLINK id="Sectime16" fromID="E11" fromText="cardiac catheterization evaluation" toID="T1" toText="2017-06-28" type="OVERLAP" />
+<TLINK id="Sectime17" fromID="E37" fromText="chest pain" toID="T1" toText="2017-06-28" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime18" fromID="E39" fromText="morphine sulfate" toID="T1" toText="2017-06-28" type="OVERLAP" />
+<TLINK id="Sectime19" fromID="E40" fromText="a Heparin" toID="T1" toText="2017-06-28" type="OVERLAP" />
+<TLINK id="Sectime20" fromID="E41" fromText="nitroglycerin drip" toID="T1" toText="2017-06-28" type="OVERLAP" />
+<TLINK id="Sectime21" fromID="E42" fromText="relief" toID="T1" toText="2017-06-28" type="OVERLAP" />
+<TLINK id="Sectime26" fromID="E43" fromText="Chest pain" toID="T2" toText="2017-07-02" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E44" fromText="myocardial infarction" toID="T2" toText="2017-07-02" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E12" fromText="disease" toID="T2" toText="2017-07-02" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E13" fromText="a cardiac catheterization" toID="T2" toText="2017-07-02" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2017-06-28" type="ADMISSION" dvalue="2017-06-28" />
+<SECTIME id="S1" start="46" end="56" text="2017-07-02" type="DISCHARGE" dvalue="2017-07-02" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2009-11-10
+Discharge Date :
+2009-11-12
+Service :
+CCU
+HISTORY OF PRESENT ILLNESS :
+The patient is a 61 - year-old white male with a history of coronary artery disease , status post 5-vessel coronary artery bypass graft on 2009-09-11 , who presents for elective right heart catheterization and pericardiocentesis .
+The patient did well after his coronary artery bypass graft .
+On 10-14 , the patient had a transthoracic echocardiogram which revealed a new , moderate-to-large sized pericardial effusion .
+The patient was asymptomatic at this time , and the decision was made to monitor him and to start him on Lasix .
+The patient had follow-up transthoracic echocardiogram on 11-04 which revealed a slightly large effusion .
+A few days later , on 11-07 , the patient began to develop dyspnea on exertion with normal activity .
+He also noted a new two to three-pillow orthopnea and paroxysmal nocturnal dyspnea .
+On 11-08 , he had an episode of acute shortness of breath with chest pressure which he describes as different from his typical angina with minimal exertion .
+The patient spoke with his cardiologist who referred him for pericardiocentesis for persistent and symptomatic pericardial effusion .
+On right heart catheterization , the patient was noted to have elevated right-sided and left-sided filling pressures with a pulmonary capillary wedge pressure of 19 and a right atrial pressure of 16 .
+After 600 cc of serosanguineous pericardial fluid was removed , the patient was noted to have a pulmonary capillary wedge pressure of 9 and a right atrial pressure of 2 ; indicating resolution of tamponade physiology .
+HOSPITAL COURSE :
+The patient was transferred to the Coronary Care Unit after his therapeutic pericardiocentesis .
+He was hemodynamically stable and without any complaints .
+He was continued on his home cardiac regimen , but was started on indomethacin for post pericardiotomy syndrome .
+Over the course of the night the patient drained an additional 400 cc of serosanguineous fluid from his pericardial drain pouch .
+By the next morning , the degree of drainage had decreased considerably with only 60 cc drained over six hours .
+The patient had a repeat transthoracic echocardiogram prior to drain removal which revealed the following :
+A trivial / physiologic pericardial effusion one day post pericardiocentesis with no change from the study immediately post pericardiocentesis .
+The pericardial drain was removed without any difficulty .
+The pericardial fluid bag was removed without any difficulty with the decision to monitor the patient overnight and repeat the echocardiogram prior to discharge .
+The patient had an enlarged left pleural effusion which was noted to layer on a lateral decubitus film .
+We decided to perform a therapeutic thoracentesis .
+The patient was prepped and draped in a sterile fashion , and 1150 cc of fluid were drained .
+A chest x-ray was obtained post thoracentesis which revealed a significant decrease in the size of the left pleural effusion .
+No evidence of pneumothorax .
+On the morning of admission the patient had a markedly improved lung examination with increased air movement in the left base .
+He denied any shortness of breath and had oxygen saturations in the 90 s on room air .
+He had a repeat echocardiogram which revealed a trivial / physiologic pericardial effusion .
+The patient was without any complaints and remained stable .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="1043" end="1061" text="his typical angina" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="1109" end="1125" text="his cardiologist" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E14" start="1147" end="1165" text="pericardiocentesis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1170" end="1217" text="persistent and symptomatic pericardial effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="1223" end="1250" text="right heart catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="1283" end="1336" text="elevated right-sided and left-sided filling pressures" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="1342" end="1378" text="a pulmonary capillary wedge pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="1389" end="1412" text="a right atrial pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E56" start="1437" end="1482" text="serosanguineous pericardial fluid was removed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="1515" end="1551" text="a pulmonary capillary wedge pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E22" start="1561" end="1584" text="a right atrial pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="160" end="183" text="coronary artery disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="1617" end="1637" text="tamponade physiology" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="1674" end="1685" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E59" start="1689" end="1711" text="the Coronary Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E23" start="1718" end="1752" text="his therapeutic pericardiocentesis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="1762" end="1784" text="hemodynamically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="1797" end="1811" text="any complaints" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E62" start="1834" end="1858" text="his home cardiac regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="1880" end="1892" text="indomethacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="1897" end="1925" text="post pericardiotomy syndrome" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="1969" end="1976" text="drained" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="198" end="235" text="5-vessel coronary artery bypass graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="2001" end="2022" text="serosanguineous fluid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="2094" end="2102" text="drainage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E65" start="2107" end="2116" text="decreased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="2187" end="2224" text="a repeat transthoracic echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="2234" end="2247" text="drain removal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E66" start="2254" end="2262" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E30" start="2279" end="2323" text="A trivial / physiologic pericardial effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="2337" end="2355" text="pericardiocentesis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="2376" end="2385" text="the study" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="2424" end="2445" text="The pericardial drain" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E68" start="2450" end="2457" text="removed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="2466" end="2480" text="any difficulty" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E34" start="2483" end="2508" text="The pericardial fluid bag" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="2513" end="2520" text="removed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="2529" end="2543" text="any difficulty" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E83" start="256" end="264" text="presents" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E72" start="2565" end="2572" text="monitor" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E35" start="2606" end="2624" text="the echocardiogram" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E73" start="2634" end="2643" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="2662" end="2695" text="an enlarged left pleural effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="269" end="305" text="elective right heart catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="2724" end="2748" text="a lateral decubitus film" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="2773" end="2800" text="a therapeutic thoracentesis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E74" start="2819" end="2837" text="prepped and draped" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="2876" end="2881" text="fluid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="2887" end="2894" text="drained" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="2897" end="2910" text="A chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="2929" end="2942" text="thoracentesis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="2949" end="2957" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E76" start="2996" end="3021" text="the left pleural effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="3039" end="3051" text="pneumothorax" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E3" start="310" end="328" text="pericardiocentesis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="3098" end="3134" text="a markedly improved lung examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E78" start="3140" end="3179" text="increased air movement in the left base" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="3192" end="3215" text="any shortness of breath" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E45" start="3224" end="3242" text="oxygen saturations" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="3276" end="3299" text="a repeat echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E79" start="3306" end="3314" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E80" start="3315" end="3359" text="a trivial / physiologic pericardial effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E81" start="3390" end="3400" text="complaints" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E82" start="3405" end="3420" text="remained stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="343" end="351" text="did well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="358" end="390" text="his coronary artery bypass graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="420" end="450" text="a transthoracic echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="466" end="518" text="a new , moderate-to-large sized pericardial effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="537" end="549" text="asymptomatic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="594" end="605" text="monitor him" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E8" start="626" end="631" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="650" end="688" text="follow-up transthoracic echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E10" start="713" end="738" text="a slightly large effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="800" end="807" text="dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="857" end="892" text="a new two to three-pillow orthopnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="897" end="925" text="paroxysmal nocturnal dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="960" end="985" text="acute shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="991" end="1005" text="chest pressure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T0" start="18" end="28" text="2009-11-10" type="DATE" val="2009-11-10" mod="NA" />
+<TIMEX3 id="T8" start="1933" end="1956" text="the course of the night" type="DURATION" val="PT12H" mod="APPROX" />
+<TIMEX3 id="T9" start="2061" end="2077" text="the next morning" type="DATE" val="2009-11-11" mod="START" />
+<TIMEX3 id="T10" start="2159" end="2168" text="six hours" type="DURATION" val="PT6H" mod="NA" />
+<TIMEX3 id="T11" start="2324" end="2336" text="one day post" type="DATE" val="2009-11-11" mod="NA" />
+<TIMEX3 id="T1" start="239" end="249" text="2009-09-11" type="DATE" val="2009-09-11" mod="NA" />
+<TIMEX3 id="T12" start="2585" end="2594" text="overnight" type="DURATION" val="PT12H" mod="APPROX" />
+<TIMEX3 id="T13" start="3057" end="3081" text="the morning of admission" type="DATE" val="2009-11-10" mod="START" />
+<TIMEX3 id="T4" start="396" end="401" text="10-14" type="DATE" val="2009-10-14" mod="NA" />
+<TIMEX3 id="T3" start="46" end="56" text="2009-11-12" type="DATE" val="2009-11-12" mod="NA" />
+<TIMEX3 id="T5" start="553" end="562" text="this time" type="DATE" val="2019-10-14" mod="NA" />
+<TIMEX3 id="T6" start="692" end="697" text="11-04" type="DATE" val="2009-11-04" mod="NA" />
+<TIMEX3 id="T7" start="741" end="768" text="A few days later , on 11-07" type="DATE" val="2009-11-07" mod="NA" />
+<TIMEX3 id="T2" start="931" end="936" text="11-08" type="DATE" val="2009-11-08" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2009-11-10" type="OVERLAP" />
+<TLINK id="TL1" fromID="E18" fromText="a pulmonary capillary wedge pressure" toID="E19" toText="a right atrial pressure" type="OVERLAP" />
+<TLINK id="TL10" fromID="E4" fromText="his coronary artery bypass graft" toID="E1" toText="5-vessel coronary artery bypass graft" type="OVERLAP" />
+<TLINK id="TL11" fromID="E5" fromText="a transthoracic echocardiogram" toID="T4" toText="10-14" type="OVERLAP" />
+<TLINK id="TL12" fromID="E6" fromText="a new , moderate-to-large sized pericardial effusion" toID="E5" toText="a transthoracic echocardiogram" type="BEFORE" />
+<TLINK id="TL13" fromID="E7" fromText="asymptomatic" toID="T5" toText="this time" type="OVERLAP" />
+<TLINK id="TL14" fromID="E50" fromText="monitor him" toID="T5" toText="this time" type="AFTER" />
+<TLINK id="TL15" fromID="E8" fromText="Lasix" toID="T5" toText="this time" type="AFTER" />
+<TLINK id="TL16" fromID="E9" fromText="follow-up transthoracic echocardiogram" toID="T6" toText="11-04" type="OVERLAP" />
+<TLINK id="TL17" fromID="E10" fromText="a slightly large effusion" toID="E9" toText="follow-up transthoracic echocardiogram" type="BEFORE" />
+<TLINK id="TL18" fromID="E52" fromText="dyspnea" toID="T7" toText="A few days later , on 11-07" type="AFTER" />
+<TLINK id="TL19" fromID="E51" fromText="a new two to three-pillow orthopnea" toID="E11" toText="paroxysmal nocturnal dyspnea" type="OVERLAP" />
+<TLINK id="TL2" fromID="E28" fromText="a repeat transthoracic echocardiogram" toID="E29" toText="drain removal" type="BEFORE" />
+<TLINK id="TL20" fromID="E51" fromText="a new two to three-pillow orthopnea" toID="T7" toText="A few days later , on 11-07" type="AFTER" />
+<TLINK id="TL21" fromID="E12" fromText="acute shortness of breath" toID="T2" toText="11-08" type="OVERLAP" />
+<TLINK id="TL22" fromID="E12" fromText="acute shortness of breath" toID="E13" toText="chest pressure" type="OVERLAP" />
+<TLINK id="TL23" fromID="E12" fromText="acute shortness of breath" toID="E53" toText="his typical angina" type="AFTER" />
+<TLINK id="TL24" fromID="E55" fromText="his cardiologist" toID="E14" toText="pericardiocentesis" type="BEFORE" />
+<TLINK id="TL25" fromID="E15" fromText="persistent and symptomatic pericardial effusion" toID="E14" toText="pericardiocentesis" type="OVERLAP" />
+<TLINK id="TL26" fromID="E16" fromText="right heart catheterization" toID="E17" toText="elevated right-sided and left-sided filling pressures" type="OVERLAP" />
+<TLINK id="TL27" fromID="E21" fromText="a pulmonary capillary wedge pressure" toID="E56" toText="serosanguineous pericardial fluid was removed" type="AFTER" />
+<TLINK id="TL28" fromID="E22" fromText="a right atrial pressure" toID="E56" toText="serosanguineous pericardial fluid was removed" type="AFTER" />
+<TLINK id="TL29" fromID="E57" fromText="tamponade physiology" toID="E22" toText="a right atrial pressure" type="OVERLAP" />
+<TLINK id="TL3" fromID="E36" fromText="an enlarged left pleural effusion" toID="E37" toText="a lateral decubitus film" type="OVERLAP" />
+<TLINK id="TL30" fromID="E59" fromText="the Coronary Care Unit" toID="E58" toText="transferred" type="AFTER" />
+<TLINK id="TL31" fromID="E58" fromText="transferred" toID="E23" toText="his therapeutic pericardiocentesis" type="AFTER" />
+<TLINK id="TL32" fromID="E60" fromText="hemodynamically stable" toID="E61" toText="any complaints" type="OVERLAP" />
+<TLINK id="TL33" fromID="E60" fromText="hemodynamically stable" toID="E58" toText="transferred" type="AFTER" />
+<TLINK id="TL34" fromID="E24" fromText="indomethacin" toID="E25" toText="post pericardiotomy syndrome" type="OVERLAP" />
+<TLINK id="TL35" fromID="E24" fromText="indomethacin" toID="E58" toText="transferred" type="AFTER" />
+<TLINK id="TL36" fromID="E62" fromText="his home cardiac regimen" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL37" fromID="T8" fromText="the course of the night" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL38" fromID="E63" fromText="drained" toID="T8" toText="the course of the night" type="OVERLAP" />
+<TLINK id="TL39" fromID="E63" fromText="drained" toID="E26" toText="serosanguineous fluid" type="OVERLAP" />
+<TLINK id="TL4" fromID="E47" fromText="Discharge" toID="T3" toText="2009-11-12" type="OVERLAP" />
+<TLINK id="TL40" fromID="T9" fromText="the next morning" toID="T8" toText="the course of the night" type="AFTER" />
+<TLINK id="TL41" fromID="E64" fromText="drainage" toID="E65" toText="decreased" type="OVERLAP" />
+<TLINK id="TL42" fromID="E65" fromText="decreased" toID="T9" toText="the next morning" type="OVERLAP" />
+<TLINK id="TL43" fromID="T10" fromText="six hours" toID="T9" toText="the next morning" type="AFTER" />
+<TLINK id="TL44" fromID="E66" fromText="revealed" toID="E28" toText="a repeat transthoracic echocardiogram" type="OVERLAP" />
+<TLINK id="TL45" fromID="E30" fromText="A trivial / physiologic pericardial effusion" toID="E66" toText="revealed" type="BEFORE" />
+<TLINK id="TL46" fromID="E32" fromText="the study" toID="E31" toText="pericardiocentesis" type="OVERLAP" />
+<TLINK id="TL47" fromID="E31" fromText="pericardiocentesis" toID="T11" toText="one day post" type="BEFORE" />
+<TLINK id="TL48" fromID="E33" fromText="The pericardial drain" toID="E68" toText="removed" type="BEFORE" />
+<TLINK id="TL49" fromID="E68" fromText="removed" toID="E69" toText="any difficulty" type="OVERLAP" />
+<TLINK id="TL5" fromID="E1" fromText="5-vessel coronary artery bypass graft" toID="T1" toText="2009-09-11" type="OVERLAP" />
+<TLINK id="TL50" fromID="E34" fromText="The pericardial fluid bag" toID="E70" toText="removed" type="BEFORE" />
+<TLINK id="TL51" fromID="E70" fromText="removed" toID="E71" toText="any difficulty" type="OVERLAP" />
+<TLINK id="TL52" fromID="E72" fromText="monitor" toID="T12" toText="overnight" type="OVERLAP" />
+<TLINK id="TL53" fromID="E72" fromText="monitor" toID="E70" toText="removed" type="AFTER" />
+<TLINK id="TL54" fromID="E35" fromText="the echocardiogram" toID="E73" toText="discharge" type="BEFORE" />
+<TLINK id="TL55" fromID="E73" fromText="discharge" toID="E47" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL56" fromID="E39" fromText="fluid" toID="E40" toText="drained" type="OVERLAP" />
+<TLINK id="TL57" fromID="E40" fromText="drained" toID="E74" toText="prepped and draped" type="AFTER" />
+<TLINK id="TL58" fromID="E38" fromText="a therapeutic thoracentesis" toID="E36" toText="an enlarged left pleural effusion" type="AFTER" />
+<TLINK id="TL59" fromID="E42" fromText="thoracentesis" toID="E40" toText="drained" type="OVERLAP" />
+<TLINK id="TL6" fromID="E83" fromText="presents" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL60" fromID="E41" fromText="A chest x-ray" toID="E42" toText="thoracentesis" type="AFTER" />
+<TLINK id="TL61" fromID="E41" fromText="A chest x-ray" toID="E75" toText="revealed" type="OVERLAP" />
+<TLINK id="TL62" fromID="E76" fromText="the left pleural effusion" toID="E75" toText="revealed" type="BEFORE" />
+<TLINK id="TL63" fromID="E77" fromText="pneumothorax" toID="E75" toText="revealed" type="OVERLAP" />
+<TLINK id="TL64" fromID="E43" fromText="a markedly improved lung examination" toID="T13" toText="the morning of admission" type="OVERLAP" />
+<TLINK id="TL65" fromID="E43" fromText="a markedly improved lung examination" toID="E78" toText="increased air movement in the left base" type="OVERLAP" />
+<TLINK id="TL66" fromID="E44" fromText="any shortness of breath" toID="E45" toText="oxygen saturations" type="OVERLAP" />
+<TLINK id="TL67" fromID="E46" fromText="a repeat echocardiogram" toID="E35" toText="the echocardiogram" type="OVERLAP" />
+<TLINK id="TL68" fromID="E46" fromText="a repeat echocardiogram" toID="E79" toText="revealed" type="" />
+<TLINK id="TL69" fromID="E80" fromText="a trivial / physiologic pericardial effusion" toID="E79" toText="revealed" type="BEFORE" />
+<TLINK id="TL7" fromID="E2" fromText="elective right heart catheterization" toID="E83" toText="presents" type="AFTER" />
+<TLINK id="TL70" fromID="E81" fromText="complaints" toID="E82" toText="remained stable" type="OVERLAP" />
+<TLINK id="TL8" fromID="E3" fromText="pericardiocentesis" toID="E2" toText="elective right heart catheterization" type="OVERLAP" />
+<TLINK id="TL9" fromID="E49" fromText="did well" toID="E4" toText="his coronary artery bypass graft" type="AFTER" />
+<SECTIME id="S0" start="18" end="28" text="2009-11-10" type="ADMISSION" dvalue="2009-11-10" />
+<SECTIME id="S1" start="46" end="56" text="2009-11-12" type="DISCHARGE" dvalue="2009-11-12" />
+<TLINK id="SECTIME0" fromID="E53" fromText="his typical angina" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E55" fromText="his cardiologist" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E14" fromText="pericardiocentesis" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E15" fromText="persistent and symptomatic pericardial effusion" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E16" fromText="right heart catheterization" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E17" fromText="elevated right-sided and left-sided filling pressures" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E18" fromText="a pulmonary capillary wedge pressure" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E19" fromText="a right atrial pressure" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E56" fromText="serosanguineous pericardial fluid was removed" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E21" fromText="a pulmonary capillary wedge pressure" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E22" fromText="a right atrial pressure" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E48" fromText="coronary artery disease" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E57" fromText="tamponade physiology" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E58" fromText="transferred" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E59" fromText="the Coronary Care Unit" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E23" fromText="his therapeutic pericardiocentesis" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E60" fromText="hemodynamically stable" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E61" fromText="any complaints" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E62" fromText="his home cardiac regimen" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E24" fromText="indomethacin" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E25" fromText="post pericardiotomy syndrome" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E63" fromText="drained" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E1" fromText="5-vessel coronary artery bypass graft" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E26" fromText="serosanguineous fluid" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E64" fromText="drainage" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E65" fromText="decreased" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E28" fromText="a repeat transthoracic echocardiogram" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E29" fromText="drain removal" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E66" fromText="revealed" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E30" fromText="A trivial / physiologic pericardial effusion" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E31" fromText="pericardiocentesis" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E32" fromText="the study" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E33" fromText="The pericardial drain" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E68" fromText="removed" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E69" fromText="any difficulty" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E34" fromText="The pericardial fluid bag" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E70" fromText="removed" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E71" fromText="any difficulty" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E83" fromText="presents" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E72" fromText="monitor" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E35" fromText="the echocardiogram" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E73" fromText="discharge" toID="T3" toText="2009-11-12" type="OVERLAP" />
+<TLINK id="SECTIME42" fromID="E36" fromText="an enlarged left pleural effusion" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E2" fromText="elective right heart catheterization" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E37" fromText="a lateral decubitus film" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E38" fromText="a therapeutic thoracentesis" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E74" fromText="prepped and draped" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E39" fromText="fluid" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E40" fromText="drained" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E41" fromText="A chest x-ray" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E42" fromText="thoracentesis" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E75" fromText="revealed" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E76" fromText="the left pleural effusion" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E77" fromText="pneumothorax" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E3" fromText="pericardiocentesis" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E43" fromText="a markedly improved lung examination" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E78" fromText="increased air movement in the left base" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E44" fromText="any shortness of breath" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E45" fromText="oxygen saturations" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E46" fromText="a repeat echocardiogram" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E79" fromText="revealed" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E80" fromText="a trivial / physiologic pericardial effusion" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E81" fromText="complaints" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E82" fromText="remained stable" toID="T3" toText="2009-11-12" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E49" fromText="did well" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E4" fromText="his coronary artery bypass graft" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E5" fromText="a transthoracic echocardiogram" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E6" fromText="a new , moderate-to-large sized pericardial effusion" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E7" fromText="asymptomatic" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E50" fromText="monitor him" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E8" fromText="Lasix" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E9" fromText="follow-up transthoracic echocardiogram" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E10" fromText="a slightly large effusion" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E52" fromText="dyspnea" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E51" fromText="a new two to three-pillow orthopnea" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E11" fromText="paroxysmal nocturnal dyspnea" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E12" fromText="acute shortness of breath" toID="T0" toText="2009-11-10" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E13" fromText="chest pressure" toID="T0" toText="2009-11-10" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

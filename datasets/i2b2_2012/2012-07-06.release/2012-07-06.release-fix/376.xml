@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+05/08/95
+DISCHARGE DATE :
+05/14/95
+HISTORY OF PRESENT ILLNESS :
+The patient is a 72-year-old right-handed gentleman with a history of coronary artery disease status post myocardial infarction in 1984 .
+Also with a history of noninsulin dependent diabetes mellitus , now presenting with acute blurry vision on the left side , which is homonymous .
+The patient woke up as usual on May 8 , 1995 .
+At 8 a.m. the patient was looking at his wife with the background outside a large window .
+The patient had sudden onset of blurred vision , where the right side of his wife &apos;s face looked blurred .
+The patient did not notice change of vision in the background .
+The blurred vision was homonymous , which he had blurred in each eye in the left visual field .
+The same blurred vision was also noticed later when the patient was watching television and also when he was reading .
+The patient was seen at the Ochtuheihugh Put University Medical Center and then he was referred to the Purckecation Balpoingdelt Pabarnes- Campa Memorial Hospital .
+At 8 p.m. the patient seen at the Purckecation Balpoingdelt Pabarnes- Campa Memorial Hospital and was examined and assessed .
+The patient was referred to Ph University Of Medical Center for rule out transient ischemic attack and rule out stroke .
+The patient denies any nausea , vomiting , ataxia , motor deficits , speech deficits or sensory deficits .
+The patient lightly bumped his head on the top three times on the previous night and the patient had frontal headaches and a tight neck .
+One hour after he had physical activity on the previously night as well .
+ALLERGIES :
+The patient denies any drug allergies .
+HOSPITAL COURSE :
+The patient was admitted with a right occipital cerebral infarction .
+The patient was started on intravenous heparin and had the studies as described above for rule out source of embolic strokes including carotid noninvasives , transcranial Dopplers , Holter electrocardiogram and echocardiogram .
+The patient also had serial electrocardiogram , which showed no change .
+The patient also had serial creatinine kinase with MB fractions studied , which revealed MB fraction too low to be tested .
+The patient also experienced a feeling of moving back and forth when lying down with neck extended during the magnetic resonance imaging study and also in bed .
+This moving sense , with normal electroencephalogram , was thought to be a mild vestibular dysfunction or from the acute episode of the stroke .
+The patient will have these symptoms only when the eyes are closed .
+Our opinion was not to intervene or have any further studies for acute period and to continued to observe .
+The patient did have a hypotensive episode and the systolic blood pressure was 80 , after the patient received his regular cardiac medications .
+The patient had been off his regular medications since during the admission and will be discharged off his medications .
+Otherwise , there were no further episodes of blurred vision .
+The patient was stable with an unchanged neurological and physical examination and was discharged on aspirin 325 mg po qd , on May 14 , 1995 .
+The patient will be randomized on the Wars study early next week by the Stroke Service at Ph University Of Medical Center .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1089" end="1152" text="the Purckecation Balpoingdelt Pabarnes- Campa Memorial Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E47" start="1161" end="1182" text="examined and assessed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="1201" end="1209" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1213" end="1244" text="Ph University Of Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E50" start="1249" end="1257" text="rule out" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="1258" end="1283" text="transient ischemic attack" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="1288" end="1296" text="rule out" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="1297" end="1303" text="stroke" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="1318" end="1324" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E8" start="1325" end="1335" text="any nausea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E9" start="1338" end="1346" text="vomiting" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E10" start="1349" end="1355" text="ataxia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E11" start="1358" end="1372" text="motor deficits" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E12" start="1375" end="1390" text="speech deficits" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E13" start="1394" end="1410" text="sensory deficits" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E55" start="1433" end="1439" text="bumped" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="152" end="175" text="coronary artery disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="1514" end="1531" text="frontal headaches" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="1536" end="1548" text="a tight neck" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="1573" end="1590" text="physical activity" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="1649" end="1655" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E58" start="1656" end="1674" text="any drug allergies" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E37" start="1711" end="1719" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="1725" end="1762" text="a right occipital cerebral infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="1792" end="1811" text="intravenous heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1820" end="1831" text="the studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="1855" end="1863" text="rule out" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="188" end="209" text="myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1874" end="1889" text="embolic strokes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="1900" end="1920" text="carotid noninvasives" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="1923" end="1944" text="transcranial Dopplers" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E22" start="1947" end="1971" text="Holter electrocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="1976" end="1990" text="echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="2014" end="2038" text="serial electrocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E60" start="2047" end="2053" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E61" start="2057" end="2063" text="change" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E25" start="2087" end="2129" text="serial creatinine kinase with MB fractions" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="2146" end="2154" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E63" start="2167" end="2174" text="too low" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="2219" end="2269" text="a feeling of moving back and forth when lying down" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="2296" end="2332" text="the magnetic resonance imaging study" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="2351" end="2368" text="This moving sense" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="2383" end="2403" text="electroencephalogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="243" end="281" text="noninsulin dependent diabetes mellitus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="2431" end="2453" text="vestibular dysfunction" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="2483" end="2493" text="the stroke" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="2518" end="2532" text="these symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="2606" end="2625" text="any further studies" modality="PROPOSED" polarity="NEG" type="TEST" />
+<EVENT id="E69" start="2650" end="2670" text="continued to observe" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="2694" end="2715" text="a hypotensive episode" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="2720" end="2747" text="the systolic blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="2784" end="2815" text="his regular cardiac medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="2843" end="2866" text="his regular medications" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E40" start="288" end="298" text="presenting" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="2880" end="2893" text="the admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="2906" end="2916" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="2921" end="2936" text="his medications" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E34" start="2985" end="2999" text="blurred vision" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E72" start="3018" end="3024" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="304" end="340" text="acute blurry vision on the left side" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="3043" end="3080" text="neurological and physical examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="3089" end="3099" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="3103" end="3110" text="aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="535" end="549" text="blurred vision" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="642" end="658" text="change of vision" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E6" start="679" end="697" text="The blurred vision" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="728" end="747" text="blurred in each eye" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="775" end="798" text="The same blurred vision" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="918" end="964" text="the Ochtuheihugh Put University Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E44" start="981" end="989" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="993" end="1056" text="the Purckecation Balpoingdelt Pabarnes- Campa Memorial Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<TIMEX3 id="T7" start="1062" end="1068" text="8 p.m." type="TIME" val="1995-05-08T20:00" mod="NA" />
+<TIMEX3 id="T8" start="1460" end="1471" text="three times" type="FREQUENCY" val="R3" mod="NA" />
+<TIMEX3 id="T9" start="1475" end="1493" text="the previous night" type="DATE" val="1995-05-07" mod="END" />
+<TIMEX3 id="T10" start="1551" end="1559" text="One hour" type="DURATION" val="PT1H" mod="NA" />
+<TIMEX3 id="T11" start="1594" end="1614" text="the previously night" type="DATE" val="1995-05-07" mod="END" />
+<TIMEX3 id="T1" start="18" end="26" text="05/08/95" type="DATE" val="1995-05-08" mod="NA" />
+<TIMEX3 id="T0" start="213" end="217" text="1984" type="DATE" val="1984" mod="NA" />
+<TIMEX3 id="T3" start="3129" end="3142" text="May 14 , 1995" type="DATE" val="1995-05-14" mod="NA" />
+<TIMEX3 id="T4" start="397" end="409" text="May 8 , 1995" type="DATE" val="1995-05-08" mod="NA" />
+<TIMEX3 id="T5" start="415" end="421" text="8 a.m." type="TIME" val="1995-05-08T08:00" mod="NA" />
+<TIMEX3 id="T2" start="44" end="52" text="05/14/95" type="DATE" val="1995-05-14" mod="NA" />
+<TIMEX3 id="T6" start="816" end="821" text="later" type="TIME" val="1995-05-08t12:00" mod="APPROX" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T1" toText="05/08/95" type="OVERLAP" />
+<TLINK id="TL1" fromID="E16" fromText="a right occipital cerebral infarction" toID="E37" toText="admitted" type="BEFORE" />
+<TLINK id="TL10" fromID="E2" fromText="myocardial infarction" toID="T0" toText="1984" type="OVERLAP" />
+<TLINK id="TL11" fromID="T0" fromText="1984" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL12" fromID="E3" fromText="noninsulin dependent diabetes mellitus" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL13" fromID="E4" fromText="acute blurry vision on the left side" toID="E40" toText="presenting" type="BEFORE" />
+<TLINK id="TL14" fromID="T4" fromText="May 8 , 1995" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL15" fromID="T5" fromText="8 a.m." toID="T4" toText="May 8 , 1995" type="OVERLAP" />
+<TLINK id="TL16" fromID="E41" fromText="blurred vision" toID="T5" toText="8 a.m." type="AFTER" />
+<TLINK id="TL17" fromID="E5" fromText="change of vision" toID="E41" toText="blurred vision" type="OVERLAP" />
+<TLINK id="TL18" fromID="E41" fromText="blurred vision" toID="E6" toText="The blurred vision" type="OVERLAP" />
+<TLINK id="TL19" fromID="E6" fromText="The blurred vision" toID="E7" toText="The same blurred vision" type="BEFORE" />
+<TLINK id="TL2" fromID="E31" fromText="the systolic blood pressure" toID="E32" toText="his regular cardiac medications" type="AFTER" />
+<TLINK id="TL20" fromID="E6" fromText="The blurred vision" toID="E42" toText="blurred in each eye" type="OVERLAP" />
+<TLINK id="TL21" fromID="E7" fromText="The same blurred vision" toID="T6" toText="later" type="OVERLAP" />
+<TLINK id="TL22" fromID="T6" fromText="later" toID="E6" toText="The blurred vision" type="AFTER" />
+<TLINK id="TL23" fromID="E43" fromText="the Ochtuheihugh Put University Medical Center" toID="T6" toText="later" type="AFTER" />
+<TLINK id="TL24" fromID="E43" fromText="the Ochtuheihugh Put University Medical Center" toID="E44" toText="referred" type="BEFORE" />
+<TLINK id="TL25" fromID="E45" fromText="the Purckecation Balpoingdelt Pabarnes- Campa Memorial Hospital" toID="E44" toText="referred" type="AFTER" />
+<TLINK id="TL26" fromID="E46" fromText="the Purckecation Balpoingdelt Pabarnes- Campa Memorial Hospital" toID="E45" toText="the Purckecation Balpoingdelt Pabarnes- Campa Memorial Hospital" type="OVERLAP" />
+<TLINK id="TL27" fromID="E46" fromText="the Purckecation Balpoingdelt Pabarnes- Campa Memorial Hospital" toID="T7" toText="8 p.m." type="OVERLAP" />
+<TLINK id="TL28" fromID="E47" fromText="examined and assessed" toID="E46" toText="the Purckecation Balpoingdelt Pabarnes- Campa Memorial Hospital" type="OVERLAP" />
+<TLINK id="TL29" fromID="E46" fromText="the Purckecation Balpoingdelt Pabarnes- Campa Memorial Hospital" toID="E48" toText="referred" type="BEFORE" />
+<TLINK id="TL3" fromID="E37" fromText="admitted" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL30" fromID="E49" fromText="Ph University Of Medical Center" toID="E48" toText="referred" type="AFTER" />
+<TLINK id="TL31" fromID="E51" fromText="transient ischemic attack" toID="E49" toText="Ph University Of Medical Center" type="BEFORE" />
+<TLINK id="TL32" fromID="E50" fromText="rule out" toID="E49" toText="Ph University Of Medical Center" type="OVERLAP" />
+<TLINK id="TL33" fromID="E52" fromText="rule out" toID="E50" toText="rule out" type="OVERLAP" />
+<TLINK id="TL34" fromID="E53" fromText="stroke" toID="E51" toText="transient ischemic attack" type="OVERLAP" />
+<TLINK id="TL35" fromID="E54" fromText="denies" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL36" fromID="E8" fromText="any nausea" toID="E54" toText="denies" type="BEFORE" />
+<TLINK id="TL37" fromID="E9" fromText="vomiting" toID="E8" toText="any nausea" type="OVERLAP" />
+<TLINK id="TL38" fromID="E10" fromText="ataxia" toID="E9" toText="vomiting" type="OVERLAP" />
+<TLINK id="TL39" fromID="E11" fromText="motor deficits" toID="E10" toText="ataxia" type="OVERLAP" />
+<TLINK id="TL4" fromID="E40" fromText="presenting" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL40" fromID="E12" fromText="speech deficits" toID="E11" toText="motor deficits" type="OVERLAP" />
+<TLINK id="TL41" fromID="E13" fromText="sensory deficits" toID="E12" toText="speech deficits" type="OVERLAP" />
+<TLINK id="TL42" fromID="T9" fromText="the previous night" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL43" fromID="E55" fromText="bumped" toID="T9" toText="the previous night" type="OVERLAP" />
+<TLINK id="TL44" fromID="E55" fromText="bumped" toID="T8" toText="three times" type="OVERLAP" />
+<TLINK id="TL45" fromID="E14" fromText="frontal headaches" toID="E55" toText="bumped" type="AFTER" />
+<TLINK id="TL46" fromID="E15" fromText="a tight neck" toID="E14" toText="frontal headaches" type="OVERLAP" />
+<TLINK id="TL47" fromID="T10" fromText="One hour" toID="E55" toText="bumped" type="AFTER" />
+<TLINK id="TL48" fromID="T11" fromText="the previously night" toID="T9" toText="the previous night" type="OVERLAP" />
+<TLINK id="TL49" fromID="E56" fromText="physical activity" toID="T10" toText="One hour" type="OVERLAP" />
+<TLINK id="TL5" fromID="E36" fromText="DISCHARGE" toID="T2" toText="05/14/95" type="OVERLAP" />
+<TLINK id="TL50" fromID="E57" fromText="denies" toID="E54" toText="denies" type="OVERLAP" />
+<TLINK id="TL51" fromID="E58" fromText="any drug allergies" toID="E57" toText="denies" type="BEFORE" />
+<TLINK id="TL53" fromID="E17" fromText="intravenous heparin" toID="E37" toText="admitted" type="AFTER" />
+<TLINK id="TL54" fromID="E18" fromText="the studies" toID="E17" toText="intravenous heparin" type="OVERLAP" />
+<TLINK id="TL55" fromID="E59" fromText="rule out" toID="E18" toText="the studies" type="OVERLAP" />
+<TLINK id="TL56" fromID="E19" fromText="embolic strokes" toID="E59" toText="rule out" type="BEFORE" />
+<TLINK id="TL58" fromID="E21" fromText="transcranial Dopplers" toID="E20" toText="carotid noninvasives" type="OVERLAP" />
+<TLINK id="TL59" fromID="E22" fromText="Holter electrocardiogram" toID="E21" toText="transcranial Dopplers" type="OVERLAP" />
+<TLINK id="TL6" fromID="E39" fromText="discharged" toID="E36" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL60" fromID="E23" fromText="echocardiogram" toID="E22" toText="Holter electrocardiogram" type="OVERLAP" />
+<TLINK id="TL61" fromID="E20" fromText="carotid noninvasives" toID="E18" toText="the studies" type="OVERLAP" />
+<TLINK id="TL62" fromID="E24" fromText="serial electrocardiogram" toID="E23" toText="echocardiogram" type="OVERLAP" />
+<TLINK id="TL63" fromID="E60" fromText="showed" toID="E24" toText="serial electrocardiogram" type="OVERLAP" />
+<TLINK id="TL64" fromID="E61" fromText="change" toID="E60" toText="showed" type="BEFORE" />
+<TLINK id="TL65" fromID="E25" fromText="serial creatinine kinase with MB fractions" toID="E24" toText="serial electrocardiogram" type="OVERLAP" />
+<TLINK id="TL66" fromID="E62" fromText="revealed" toID="E25" toText="serial creatinine kinase with MB fractions" type="OVERLAP" />
+<TLINK id="TL67" fromID="E63" fromText="too low" toID="E62" toText="revealed" type="BEFORE" />
+<TLINK id="TL69" fromID="E64" fromText="a feeling of moving back and forth when lying down" toID="E26" toText="the magnetic resonance imaging study" type="OVERLAP" />
+<TLINK id="TL7" fromID="E71" fromText="the admission" toID="E36" toText="DISCHARGE" type="BEFORE" />
+<TLINK id="TL70" fromID="E26" fromText="the magnetic resonance imaging study" toID="E25" toText="serial creatinine kinase with MB fractions" type="OVERLAP" />
+<TLINK id="TL71" fromID="E27" fromText="This moving sense" toID="E64" toText="a feeling of moving back and forth when lying down" type="OVERLAP" />
+<TLINK id="TL72" fromID="E65" fromText="electroencephalogram" toID="E27" toText="This moving sense" type="OVERLAP" />
+<TLINK id="TL73" fromID="E66" fromText="vestibular dysfunction" toID="E27" toText="This moving sense" type="OVERLAP" />
+<TLINK id="TL74" fromID="E67" fromText="the stroke" toID="E66" toText="vestibular dysfunction" type="OVERLAP" />
+<TLINK id="TL75" fromID="E68" fromText="these symptoms" toID="E27" toText="This moving sense" type="OVERLAP" />
+<TLINK id="TL76" fromID="E29" fromText="any further studies" toID="E65" toText="electroencephalogram" type="AFTER" />
+<TLINK id="TL77" fromID="E69" fromText="continued to observe" toID="E29" toText="any further studies" type="OVERLAP" />
+<TLINK id="TL78" fromID="E30" fromText="a hypotensive episode" toID="E31" toText="the systolic blood pressure" type="OVERLAP" />
+<TLINK id="TL79" fromID="E30" fromText="a hypotensive episode" toID="E71" toText="the admission" type="OVERLAP" />
+<TLINK id="TL8" fromID="E71" fromText="the admission" toID="E0" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL80" fromID="E70" fromText="his regular medications" toID="E71" toText="the admission" type="OVERLAP" />
+<TLINK id="TL81" fromID="E71" fromText="the admission" toID="E38" toText="discharged" type="BEFORE" />
+<TLINK id="TL82" fromID="E38" fromText="discharged" toID="E36" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL83" fromID="E33" fromText="his medications" toID="E70" toText="his regular medications" type="OVERLAP" />
+<TLINK id="TL84" fromID="E33" fromText="his medications" toID="E38" toText="discharged" type="BEFORE" />
+<TLINK id="TL85" fromID="E34" fromText="blurred vision" toID="E30" toText="a hypotensive episode" type="OVERLAP" />
+<TLINK id="TL86" fromID="E72" fromText="stable" toID="E34" toText="blurred vision" type="OVERLAP" />
+<TLINK id="TL87" fromID="E35" fromText="neurological and physical examination" toID="E72" toText="stable" type="OVERLAP" />
+<TLINK id="TL88" fromID="E39" fromText="discharged" toID="E38" toText="discharged" type="OVERLAP" />
+<TLINK id="TL89" fromID="E73" fromText="aspirin" toID="E39" toText="discharged" type="BEFORE" />
+<TLINK id="TL9" fromID="E1" fromText="coronary artery disease" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL90" fromID="E39" fromText="discharged" toID="T3" toText="May 14 , 1995" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="26" text="05/08/95" type="ADMISSION" dvalue="1995-05-08" />
+<SECTIME id="S1" start="44" end="52" text="05/14/95" type="DISCHARGE" dvalue="1995-05-14" />
+<TLINK id="SECTIME0" fromID="E46" fromText="the Purckecation Balpoingdelt Pabarnes- Campa Memorial Hospital" toID="T1" toText="05/08/95" type="OVERLAP" />
+<TLINK id="SECTIME1" fromID="E47" fromText="examined and assessed" toID="T1" toText="05/08/95" type="OVERLAP" />
+<TLINK id="SECTIME2" fromID="E48" fromText="referred" toID="T1" toText="05/08/95" type="OVERLAP" />
+<TLINK id="SECTIME3" fromID="E49" fromText="Ph University Of Medical Center" toID="T1" toText="05/08/95" type="OVERLAP" />
+<TLINK id="SECTIME4" fromID="E50" fromText="rule out" toID="T1" toText="05/08/95" type="OVERLAP" />
+<TLINK id="SECTIME5" fromID="E51" fromText="transient ischemic attack" toID="T1" toText="05/08/95" type="OVERLAP" />
+<TLINK id="SECTIME6" fromID="E52" fromText="rule out" toID="T1" toText="05/08/95" type="OVERLAP" />
+<TLINK id="SECTIME7" fromID="E53" fromText="stroke" toID="T1" toText="05/08/95" type="OVERLAP" />
+<TLINK id="SECTIME8" fromID="E54" fromText="denies" toID="T1" toText="05/08/95" type="OVERLAP" />
+<TLINK id="SECTIME9" fromID="E8" fromText="any nausea" toID="T1" toText="05/08/95" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E9" fromText="vomiting" toID="T1" toText="05/08/95" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E10" fromText="ataxia" toID="T1" toText="05/08/95" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E11" fromText="motor deficits" toID="T1" toText="05/08/95" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E12" fromText="speech deficits" toID="T1" toText="05/08/95" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E13" fromText="sensory deficits" toID="T1" toText="05/08/95" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E55" fromText="bumped" toID="T1" toText="05/08/95" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E1" fromText="coronary artery disease" toID="T1" toText="05/08/95" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E14" fromText="frontal headaches" toID="T1" toText="05/08/95" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E15" fromText="a tight neck" toID="T1" toText="05/08/95" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E56" fromText="physical activity" toID="T1" toText="05/08/95" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E57" fromText="denies" toID="T1" toText="05/08/95" type="OVERLAP" />
+<TLINK id="SECTIME21" fromID="E58" fromText="any drug allergies" toID="T1" toText="05/08/95" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E37" fromText="admitted" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E16" fromText="a right occipital cerebral infarction" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E17" fromText="intravenous heparin" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E18" fromText="the studies" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E59" fromText="rule out" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E2" fromText="myocardial infarction" toID="T1" toText="05/08/95" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E19" fromText="embolic strokes" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E20" fromText="carotid noninvasives" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E21" fromText="transcranial Dopplers" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E22" fromText="Holter electrocardiogram" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E23" fromText="echocardiogram" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E24" fromText="serial electrocardiogram" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E60" fromText="showed" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E61" fromText="change" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E25" fromText="serial creatinine kinase with MB fractions" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E62" fromText="revealed" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E63" fromText="too low" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E64" fromText="a feeling of moving back and forth when lying down" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E26" fromText="the magnetic resonance imaging study" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E27" fromText="This moving sense" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E65" fromText="electroencephalogram" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E3" fromText="noninsulin dependent diabetes mellitus" toID="T1" toText="05/08/95" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E66" fromText="vestibular dysfunction" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E67" fromText="the stroke" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E68" fromText="these symptoms" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E29" fromText="any further studies" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E69" fromText="continued to observe" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E30" fromText="a hypotensive episode" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E31" fromText="the systolic blood pressure" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E32" fromText="his regular cardiac medications" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E70" fromText="his regular medications" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E40" fromText="presenting" toID="T1" toText="05/08/95" type="OVERLAP" />
+<TLINK id="SECTIME54" fromID="E71" fromText="the admission" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E38" fromText="discharged" toID="T2" toText="05/14/95" type="OVERLAP" />
+<TLINK id="SECTIME56" fromID="E33" fromText="his medications" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E34" fromText="blurred vision" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E72" fromText="stable" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E4" fromText="acute blurry vision on the left side" toID="T1" toText="05/08/95" type="OVERLAP" />
+<TLINK id="SECTIME60" fromID="E35" fromText="neurological and physical examination" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E39" fromText="discharged" toID="T2" toText="05/14/95" type="OVERLAP" />
+<TLINK id="SECTIME62" fromID="E73" fromText="aspirin" toID="T2" toText="05/14/95" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E41" fromText="blurred vision" toID="T1" toText="05/08/95" type="OVERLAP" />
+<TLINK id="SECTIME64" fromID="E5" fromText="change of vision" toID="T1" toText="05/08/95" type="OVERLAP" />
+<TLINK id="SECTIME65" fromID="E6" fromText="The blurred vision" toID="T1" toText="05/08/95" type="OVERLAP" />
+<TLINK id="SECTIME66" fromID="E42" fromText="blurred in each eye" toID="T1" toText="05/08/95" type="OVERLAP" />
+<TLINK id="SECTIME67" fromID="E7" fromText="The same blurred vision" toID="T1" toText="05/08/95" type="OVERLAP" />
+<TLINK id="SECTIME68" fromID="E43" fromText="the Ochtuheihugh Put University Medical Center" toID="T1" toText="05/08/95" type="OVERLAP" />
+<TLINK id="SECTIME69" fromID="E44" fromText="referred" toID="T1" toText="05/08/95" type="OVERLAP" />
+<TLINK id="SECTIME70" fromID="E45" fromText="the Purckecation Balpoingdelt Pabarnes- Campa Memorial Hospital" toID="T1" toText="05/08/95" type="OVERLAP" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

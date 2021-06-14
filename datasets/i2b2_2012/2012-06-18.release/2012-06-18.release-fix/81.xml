@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+02/10/1998
+Discharge Date :
+02/26/1998
+HISTORY OF PRESENT ILLNESS :
+The patient is a 69 year-old white gentleman who is status post a coronary artery bypass graft in 1985 with a large anterior septal myocardial infarction intraoperatively .
+Two years after this operation , he required a pacer implantation for sick sinus syndrome .
+The patient presents now with progressive dyspnea , but no anginal pain .
+Ejection fraction was noted to be 20% .
+He is status post multiple angioplasty stents .
+He presents now for possible reoperative coronary artery bypass graft .
+HOSPITAL COURSE :
+The patient was admitted to the Verg Medical Center .
+Subsequent exercise treadmill test demonstrated no evidence of ischemia by EKG .
+The patient was subsequently taken to the operating room where he underwent a reoperative coronary artery bypass graft times three with a subaortic proximal graft from the aorta to the OM1 and then OM2 and aorta to the LAD with a wide graft per Dr. Lumar Jongguild .
+Postoperatively , the patient was ventilated .
+The patient was weaned off an Epinephrine drip .
+Rhythm became more stable .
+Balloon was weaned and finally discontinued .
+The patient was extubated .
+His Melranon was weaned off and his ACE inhibitor began .
+The patient was started on Amiodarone and diuresed .
+The patient &apos;s lower extremities began to swell and the patient was begun on Hirudin for deep venous thrombosis .
+The patient &apos;s heparin induced thrombocytopenia became positive and so he is allergic to heparin .
+The patient was begun on Coumadin and he stayed several days for Coumadinization and was finally discharged on therapeutic Coumadin .
+The patient tolerated a regular diet on postoperative day number thirteen from his reoperative coronary artery bypass graft .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="1039" end="1049" text="ventilated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="1068" end="1074" text="weaned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="1079" end="1098" text="an Epinephrine drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="1101" end="1107" text="Rhythm" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="1115" end="1126" text="more stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="1129" end="1136" text="Balloon" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="1141" end="1147" text="weaned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1191" end="1200" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1203" end="1215" text="His Melranon" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1220" end="1226" text="weaned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1235" end="1252" text="his ACE inhibitor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1288" end="1298" text="Amiodarone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="1303" end="1311" text="diuresed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="1361" end="1366" text="swell" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="1396" end="1403" text="Hirudin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1408" end="1430" text="deep venous thrombosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1433" end="1485" text="The patient &apos;s heparin induced thrombocytopenia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="150" end="180" text="a coronary artery bypass graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="1515" end="1523" text="allergic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="1527" end="1534" text="heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1562" end="1570" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1602" end="1617" text="Coumadinization" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1634" end="1644" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="1648" end="1668" text="therapeutic Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1693" end="1707" text="a regular diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1750" end="1794" text="his reoperative coronary artery bypass graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="194" end="239" text="a large anterior septal myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="275" end="289" text="this operation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="304" end="324" text="a pacer implantation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="329" end="348" text="sick sinus syndrome" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="363" end="371" text="presents" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="381" end="400" text="progressive dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="410" end="422" text="anginal pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E10" start="425" end="442" text="Ejection fraction" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="447" end="452" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E12" start="483" end="510" text="multiple angioplasty stents" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="516" end="524" text="presents" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="542" end="582" text="reoperative coronary artery bypass graft" modality="POSSIBLE" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="619" end="627" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="631" end="654" text="the Verg Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E17" start="657" end="691" text="Subsequent exercise treadmill test" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="692" end="704" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E19" start="720" end="728" text="ischemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="732" end="735" text="EKG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="776" end="794" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E22" start="814" end="868" text="a reoperative coronary artery bypass graft times three" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="874" end="900" text="a subaortic proximal graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="966" end="978" text="a wide graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T4" start="1585" end="1597" text="several days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T5" start="1725" end="1744" text="day number thirteen" type="DATE" val="1998-02-13" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="02/10/1998" type="DATE" val="1998-02-10" mod="NA" />
+<TIMEX3 id="T2" start="184" end="188" text="1985" type="DATE" val="1985" mod="NA" />
+<TIMEX3 id="T3" start="259" end="268" text="Two years" type="DURATION" val="p2y" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="02/26/1998" type="DATE" val="1998-02-26" mod="NA" />
+<TLINK id="TL0" fromID="T0" fromText="02/10/1998" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="Discharge" toID="T1" toText="02/26/1998" type="OVERLAP" />
+<TLINK id="TL10" fromID="E8" fromText="progressive dyspnea" toID="E9" toText="anginal pain" type="OVERLAP" />
+<TLINK id="TL11" fromID="E10" fromText="Ejection fraction" toID="E11" toText="noted" type="OVERLAP" />
+<TLINK id="TL12" fromID="E10" fromText="Ejection fraction" toID="E8" toText="progressive dyspnea" type="OVERLAP" />
+<TLINK id="TL13" fromID="E12" fromText="multiple angioplasty stents" toID="E7" toText="presents" type="BEFORE" />
+<TLINK id="TL14" fromID="E13" fromText="presents" toID="E7" toText="presents" type="OVERLAP" />
+<TLINK id="TL15" fromID="E14" fromText="reoperative coronary artery bypass graft" toID="E13" toText="presents" type="OVERLAP" />
+<TLINK id="TL16" fromID="E15" fromText="admitted" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL17" fromID="E16" fromText="the Verg Medical Center" toID="E15" toText="admitted" type="AFTER" />
+<TLINK id="TL18" fromID="E16" fromText="the Verg Medical Center" toID="E1" toText="Discharge" type="BEFORE" />
+<TLINK id="TL19" fromID="E16" fromText="the Verg Medical Center" toID="E17" toText="Subsequent exercise treadmill test" type="OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="a coronary artery bypass graft" toID="T2" toText="1985" type="BEFORE" />
+<TLINK id="TL20" fromID="E17" fromText="Subsequent exercise treadmill test" toID="E18" toText="demonstrated" type="OVERLAP" />
+<TLINK id="TL21" fromID="E19" fromText="ischemia" toID="E17" toText="Subsequent exercise treadmill test" type="BEFORE" />
+<TLINK id="TL22" fromID="E17" fromText="Subsequent exercise treadmill test" toID="E20" toText="EKG" type="OVERLAP" />
+<TLINK id="TL23" fromID="E21" fromText="the operating room" toID="E20" toText="EKG" type="AFTER" />
+<TLINK id="TL24" fromID="E21" fromText="the operating room" toID="E22" toText="a reoperative coronary artery bypass graft times three" type="OVERLAP" />
+<TLINK id="TL25" fromID="E22" fromText="a reoperative coronary artery bypass graft times three" toID="E23" toText="a subaortic proximal graft" type="OVERLAP" />
+<TLINK id="TL26" fromID="E23" fromText="a subaortic proximal graft" toID="E24" toText="a wide graft" type="OVERLAP" />
+<TLINK id="TL27" fromID="E25" fromText="ventilated" toID="E21" toText="the operating room" type="AFTER" />
+<TLINK id="TL28" fromID="E27" fromText="an Epinephrine drip" toID="E26" toText="weaned" type="BEFORE" />
+<TLINK id="TL29" fromID="E26" fromText="weaned" toID="E25" toText="ventilated" type="OVERLAP" />
+<TLINK id="TL3" fromID="E3" fromText="a large anterior septal myocardial infarction" toID="E2" toText="a coronary artery bypass graft" type="OVERLAP" />
+<TLINK id="TL30" fromID="E26" fromText="weaned" toID="E28" toText="Rhythm" type="OVERLAP" />
+<TLINK id="TL31" fromID="E28" fromText="Rhythm" toID="E29" toText="more stable" type="BEFORE" />
+<TLINK id="TL32" fromID="E30" fromText="Balloon" toID="E31" toText="weaned" type="BEFORE" />
+<TLINK id="TL33" fromID="E33" fromText="His Melranon" toID="E34" toText="weaned" type="BEFORE" />
+<TLINK id="TL34" fromID="E35" fromText="his ACE inhibitor" toID="E33" toText="His Melranon" type="AFTER" />
+<TLINK id="TL35" fromID="E36" fromText="Amiodarone" toID="E21" toText="the operating room" type="AFTER" />
+<TLINK id="TL36" fromID="E37" fromText="diuresed" toID="E36" toText="Amiodarone" type="OVERLAP" />
+<TLINK id="TL37" fromID="E38" fromText="swell" toID="E21" toText="the operating room" type="AFTER" />
+<TLINK id="TL38" fromID="E38" fromText="swell" toID="E39" toText="Hirudin" type="BEFORE" />
+<TLINK id="TL39" fromID="E40" fromText="deep venous thrombosis" toID="E39" toText="Hirudin" type="BEFORE" />
+<TLINK id="TL4" fromID="E4" fromText="this operation" toID="E2" toText="a coronary artery bypass graft" type="OVERLAP" />
+<TLINK id="TL40" fromID="E42" fromText="allergic" toID="E43" toText="heparin" type="OVERLAP" />
+<TLINK id="TL41" fromID="E42" fromText="allergic" toID="E41" toText="The patient &apos;s heparin induced thrombocytopenia" type="OVERLAP" />
+<TLINK id="TL43" fromID="E44" fromText="Coumadin" toID="E41" toText="The patient &apos;s heparin induced thrombocytopenia" type="AFTER" />
+<TLINK id="TL44" fromID="E45" fromText="Coumadinization" toID="T4" toText="several days" type="OVERLAP" />
+<TLINK id="TL45" fromID="E44" fromText="Coumadin" toID="E45" toText="Coumadinization" type="OVERLAP" />
+<TLINK id="TL46" fromID="E46" fromText="discharged" toID="T4" toText="several days" type="AFTER" />
+<TLINK id="TL47" fromID="E47" fromText="therapeutic Coumadin" toID="E46" toText="discharged" type="BEFORE" />
+<TLINK id="TL48" fromID="E48" fromText="a regular diet" toID="T5" toText="day number thirteen" type="AFTER" />
+<TLINK id="TL49" fromID="T5" fromText="day number thirteen" toID="E49" toText="his reoperative coronary artery bypass graft" type="AFTER" />
+<TLINK id="TL5" fromID="T3" fromText="Two years" toID="E4" toText="this operation" type="AFTER" />
+<TLINK id="TL6" fromID="E6" fromText="sick sinus syndrome" toID="E5" toText="a pacer implantation" type="BEFORE" />
+<TLINK id="TL7" fromID="T3" fromText="Two years" toID="E5" toText="a pacer implantation" type="BEFORE" />
+<TLINK id="TL8" fromID="E7" fromText="presents" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL9" fromID="E8" fromText="progressive dyspnea" toID="E7" toText="presents" type="BEFORE" />
+<TLINK id="SECTIME0" fromID="E25" fromText="ventilated" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E26" fromText="weaned" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E27" fromText="an Epinephrine drip" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E28" fromText="Rhythm" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E29" fromText="more stable" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E30" fromText="Balloon" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E31" fromText="weaned" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E32" fromText="extubated" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E33" fromText="His Melranon" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E34" fromText="weaned" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E35" fromText="his ACE inhibitor" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E36" fromText="Amiodarone" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E37" fromText="diuresed" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E38" fromText="swell" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E39" fromText="Hirudin" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E40" fromText="deep venous thrombosis" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E41" fromText="The patient &apos;s heparin induced thrombocytopenia" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E2" fromText="a coronary artery bypass graft" toID="T0" toText="02/10/1998" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E42" fromText="allergic" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E43" fromText="heparin" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E44" fromText="Coumadin" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E45" fromText="Coumadinization" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E46" fromText="discharged" toID="T1" toText="02/26/1998" type="OVERLAP" />
+<TLINK id="SECTIME23" fromID="E47" fromText="therapeutic Coumadin" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E48" fromText="a regular diet" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E49" fromText="his reoperative coronary artery bypass graft" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E3" fromText="a large anterior septal myocardial infarction" toID="T0" toText="02/10/1998" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E4" fromText="this operation" toID="T0" toText="02/10/1998" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E5" fromText="a pacer implantation" toID="T0" toText="02/10/1998" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E6" fromText="sick sinus syndrome" toID="T0" toText="02/10/1998" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E7" fromText="presents" toID="T0" toText="02/10/1998" type="OVERLAP" />
+<TLINK id="SECTIME31" fromID="E8" fromText="progressive dyspnea" toID="T0" toText="02/10/1998" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E9" fromText="anginal pain" toID="T0" toText="02/10/1998" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E10" fromText="Ejection fraction" toID="T0" toText="02/10/1998" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E11" fromText="noted" toID="T0" toText="02/10/1998" type="OVERLAP" />
+<TLINK id="SECTIME35" fromID="E12" fromText="multiple angioplasty stents" toID="T0" toText="02/10/1998" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E13" fromText="presents" toID="T0" toText="02/10/1998" type="OVERLAP" />
+<TLINK id="SECTIME37" fromID="E14" fromText="reoperative coronary artery bypass graft" toID="T0" toText="02/10/1998" type="AFTER" />
+<TLINK id="SECTIME38" fromID="E15" fromText="admitted" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E16" fromText="the Verg Medical Center" toID="T1" toText="02/26/1998" type="OVERLAP" />
+<TLINK id="SECTIME40" fromID="E17" fromText="Subsequent exercise treadmill test" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E18" fromText="demonstrated" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E19" fromText="ischemia" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E20" fromText="EKG" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E21" fromText="the operating room" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E22" fromText="a reoperative coronary artery bypass graft times three" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E23" fromText="a subaortic proximal graft" toID="T1" toText="02/26/1998" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E24" fromText="a wide graft" toID="T1" toText="02/26/1998" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="02/10/1998" type="ADMISSION" dvalue="1998-02-10" />
+<SECTIME id="S1" start="46" end="56" text="02/26/1998" type="DISCHARGE" dvalue="1998-02-26" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

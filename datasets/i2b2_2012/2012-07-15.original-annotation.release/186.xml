@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+01/03/1997
+Discharge Date :
+01/07/1997
+Discharge Date :
+01/07/1997
+HISTORY OF PRESENT ILLNESS :
+The patient is a 59 year old gentleman who experienced a flash burn from grease while working on a stove on the night prior to admission .
+The patient at that time treated himself symptomatically at home but presented to Roing Hospital on the day after the event and was transferred to the Nimaconwood Valley Hospital immediately for evaluation because of his extensive burns .
+The patient was walking , talking , and was breathing without difficulty on arrival .
+PAST SURGICAL HISTORY :
+No significant history .
+HOSPITAL COURSE :
+The patient was taken from the emergency room and transferred to the Surgical Intensive Care Unit for airway observation .
+He was given three liters of IV hydration with good urine output response .
+His wounds were dressed with antiointment and Xeroform with the plan to take him to the operating room for debridement under general anesthesia and application of artificial skin .
+The patient remained hemodynamically stable with good urine output .
+While in the Intensive Care Unit the patient was put on delirium tremons prophylaxis with Serax around the clock .
+There was no evidence while in the hospital .
+The patient was taken to the operating room on 1/5/97 .
+At that time the patient underwent debridement of his facial wounds and debridement of his right hand and forearm with application of artificial skin which is the dermagraft TC .
+The patient tolerated the procedure well .
+There were no complications .
+Postoperatively the patient was transferred out of the Intensive Care Unit to the burn floor where he received dressing changes p.r.n.
+The patient remained afebrile and other vital signs were within normal limits .
+On the day of discharge the patient &apos;s dressing was taken down completely and evaluation of the derma graft was made .
+At that time it appeared well adhered to the underlying skin .
+There was no evidence of infection .
+The patient was screened by the rehabilitation facility and felt to be an acceptable candidate .
+The patient and his family agreed to transfer from Nimaconwood Valley Hospital to Ianehutche Medical Center .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="1046" end="1068" text="hemodynamically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="1074" end="1091" text="good urine output" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="1103" end="1126" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E10" start="1150" end="1178" text="delirium tremons prophylaxis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="1184" end="1189" text="Serax" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="1222" end="1230" text="evidence" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E55" start="1240" end="1252" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E57" start="1280" end="1298" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E12" start="1346" end="1357" text="debridement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="1361" end="1378" text="his facial wounds" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="1383" end="1424" text="debridement of his right hand and forearm" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1430" end="1460" text="application of artificial skin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E73" start="1470" end="1487" text="the dermagraft TC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="1502" end="1511" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="1512" end="1525" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="1526" end="1530" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="1547" end="1560" text="complications" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E30" start="1595" end="1606" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="1614" end="1637" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E61" start="1641" end="1655" text="the burn floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E19" start="1674" end="1690" text="dressing changes" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="169" end="181" text="a flash burn" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="1719" end="1727" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1732" end="1749" text="other vital signs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="1792" end="1801" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E62" start="1802" end="1830" text="the patient &apos;s dressing" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="1861" end="1871" text="evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E64" start="1875" end="1890" text="the derma graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E65" start="1915" end="1917" text="it" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E66" start="1927" end="1939" text="well adhered" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="1990" end="1999" text="infection" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E68" start="2018" end="2026" text="screened" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E70" start="2136" end="2144" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="2150" end="2177" text="Nimaconwood Valley Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E72" start="2181" end="2206" text="Ianehutche Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E34" start="241" end="250" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="278" end="285" text="treated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="322" end="331" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="335" end="349" text="Roing Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E37" start="367" end="376" text="the event" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="385" end="396" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="400" end="431" text="the Nimaconwood Valley Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E40" start="448" end="458" text="evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="470" end="489" text="his extensive burns" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="508" end="515" text="walking" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="518" end="525" text="talking" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="536" end="545" text="breathing" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E45" start="554" end="564" text="difficulty" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E46" start="568" end="575" text="arrival" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="57" end="66" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="672" end="690" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E25" start="695" end="706" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="710" end="742" text="the Surgical Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E2" start="747" end="765" text="airway observation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="797" end="809" text="IV hydration" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="815" end="841" text="good urine output response" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="844" end="854" text="His wounds" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="873" end="885" text="antiointment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="890" end="898" text="Xeroform" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="928" end="946" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E7" start="951" end="962" text="debridement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="969" end="987" text="general anesthesia" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="992" end="1022" text="application of artificial skin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T4" start="1302" end="1308" text="1/5/97" type="DATE" val="1997-01-05" mod="NA" />
+<TIMEX3 id="T7" start="1691" end="1697" text="p.r.n." type="FREQUENCY" val="R" mod="NA" />
+<TIMEX3 id="T6" start="1781" end="1788" text="the day" type="DATE" val="1997-01-07" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="01/03/1997" type="DATE" val="1997-01-03" mod="NA" />
+<TIMEX3 id="T0" start="222" end="231" text="the night" type="DATE" val="1997-01-02" mod="END" />
+<TIMEX3 id="T5" start="353" end="360" text="the day" type="DATE" val="1997-01-03" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="01/07/1997" type="DATE" val="1997-01-07" mod="NA" />
+<TIMEX3 id="T3" start="74" end="84" text="01/07/1997" type="DATE" val="1997-01-07" mod="NA" />
+<TLINK id="TL0" fromID="E34" fromText="admission" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E0" fromText="Admission" toID="T1" toText="01/03/1997" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E35" fromText="presented" toID="T5" toText="the day" type="SIMULTANEOUS" />
+<TLINK id="TL11" fromID="T5" fromText="the day" toID="E37" toText="the event" type="AFTER" />
+<TLINK id="TL12" fromID="E37" fromText="the event" toID="E1" toText="a flash burn" type="SIMULTANEOUS" />
+<TLINK id="TL13" fromID="E36" fromText="Roing Hospital" toID="E38" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL14" fromID="E39" fromText="the Nimaconwood Valley Hospital" toID="E38" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL15" fromID="E39" fromText="the Nimaconwood Valley Hospital" toID="E46" toText="arrival" type="BEGUN_BY" />
+<TLINK id="TL16" fromID="E55" fromText="the hospital" toID="E39" toText="the Nimaconwood Valley Hospital" type="SIMULTANEOUS" />
+<TLINK id="TL17" fromID="E40" fromText="evaluation" toID="E39" toText="the Nimaconwood Valley Hospital" type="OVERLAP" />
+<TLINK id="TL18" fromID="E41" fromText="his extensive burns" toID="E39" toText="the Nimaconwood Valley Hospital" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="E22" fromText="Discharge" toID="T2" toText="01/07/1997" type="SIMULTANEOUS" />
+<TLINK id="TL21" fromID="E42" fromText="walking" toID="E46" toText="arrival" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E43" fromText="talking" toID="E46" toText="arrival" type="SIMULTANEOUS" />
+<TLINK id="TL23" fromID="E44" fromText="breathing" toID="E45" toText="difficulty" type="OVERLAP" />
+<TLINK id="TL24" fromID="E44" fromText="breathing" toID="E46" toText="arrival" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E47" fromText="the emergency room" toID="E25" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL26" fromID="E48" fromText="the Surgical Intensive Care Unit" toID="E25" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL27" fromID="E2" fromText="airway observation" toID="E48" toText="the Surgical Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL28" fromID="E3" fromText="IV hydration" toID="E49" toText="good urine output response" type="BEFORE_OVERLAP" />
+<TLINK id="TL29" fromID="E3" fromText="IV hydration" toID="E2" toText="airway observation" type="OVERLAP" />
+<TLINK id="TL3" fromID="E23" fromText="Discharge" toID="E22" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E4" fromText="His wounds" toID="E41" toText="his extensive burns" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E4" fromText="His wounds" toID="E5" toText="antiointment" type="BEFORE_OVERLAP" />
+<TLINK id="TL32" fromID="E4" fromText="His wounds" toID="E6" toText="Xeroform" type="BEFORE_OVERLAP" />
+<TLINK id="TL33" fromID="E4" fromText="His wounds" toID="E50" toText="the operating room" type="BEFORE_OVERLAP" />
+<TLINK id="TL34" fromID="E7" fromText="debridement" toID="E50" toText="the operating room" type="DURING" />
+<TLINK id="TL35" fromID="E8" fromText="general anesthesia" toID="E7" toText="debridement" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="E9" fromText="application of artificial skin" toID="E50" toText="the operating room" type="DURING" />
+<TLINK id="TL37" fromID="E53" fromText="hemodynamically stable" toID="E52" toText="good urine output" type="OVERLAP" />
+<TLINK id="TL38" fromID="E54" fromText="the Intensive Care Unit" toID="E48" toText="the Surgical Intensive Care Unit" type="SIMULTANEOUS" />
+<TLINK id="TL39" fromID="E10" fromText="delirium tremons prophylaxis" toID="E54" toText="the Intensive Care Unit" type="DURING" />
+<TLINK id="TL4" fromID="E23" fromText="Discharge" toID="T3" toText="01/07/1997" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E11" fromText="Serax" toID="E10" toText="delirium tremons prophylaxis" type="OVERLAP" />
+<TLINK id="TL41" fromID="E56" fromText="evidence" toID="E55" toText="the hospital" type="DURING" />
+<TLINK id="TL42" fromID="E57" fromText="the operating room" toID="T4" toText="1/5/97" type="SIMULTANEOUS" />
+<TLINK id="TL43" fromID="E50" fromText="the operating room" toID="E57" toText="the operating room" type="SIMULTANEOUS" />
+<TLINK id="TL44" fromID="E12" fromText="debridement" toID="E7" toText="debridement" type="SIMULTANEOUS" />
+<TLINK id="TL45" fromID="E13" fromText="his facial wounds" toID="E12" toText="debridement" type="BEFORE_OVERLAP" />
+<TLINK id="TL46" fromID="E12" fromText="debridement" toID="E14" toText="debridement of his right hand and forearm" type="OVERLAP" />
+<TLINK id="TL47" fromID="E14" fromText="debridement of his right hand and forearm" toID="E15" toText="application of artificial skin" type="BEFORE" />
+<TLINK id="TL48" fromID="E73" fromText="the dermagraft TC" toID="E15" toText="application of artificial skin" type="SIMULTANEOUS" />
+<TLINK id="TL49" fromID="E17" fromText="the procedure" toID="E15" toText="application of artificial skin" type="OVERLAP" />
+<TLINK id="TL5" fromID="E1" fromText="a flash burn" toID="T0" toText="the night" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="E58" fromText="tolerated" toID="E59" toText="well" type="OVERLAP" />
+<TLINK id="TL51" fromID="E17" fromText="the procedure" toID="E58" toText="tolerated" type="OVERLAP" />
+<TLINK id="TL52" fromID="E18" fromText="complications" toID="E17" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL53" fromID="E60" fromText="the Intensive Care Unit" toID="E30" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL54" fromID="E61" fromText="the burn floor" toID="E30" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL55" fromID="E60" fromText="the Intensive Care Unit" toID="E54" toText="the Intensive Care Unit" type="SIMULTANEOUS" />
+<TLINK id="TL56" fromID="E19" fromText="dressing changes" toID="T7" toText="p.r.n." type="OVERLAP" />
+<TLINK id="TL57" fromID="E19" fromText="dressing changes" toID="E61" toText="the burn floor" type="OVERLAP" />
+<TLINK id="TL58" fromID="E20" fromText="afebrile" toID="E21" toText="other vital signs" type="OVERLAP" />
+<TLINK id="TL59" fromID="E20" fromText="afebrile" toID="E61" toText="the burn floor" type="OVERLAP" />
+<TLINK id="TL6" fromID="T0" fromText="the night" toID="E34" toText="admission" type="BEFORE" />
+<TLINK id="TL60" fromID="T6" fromText="the day" toID="E33" toText="discharge" type="SIMULTANEOUS" />
+<TLINK id="TL61" fromID="E62" fromText="the patient &apos;s dressing" toID="T6" toText="the day" type="ENDED_BY" />
+<TLINK id="TL62" fromID="E62" fromText="the patient &apos;s dressing" toID="E63" toText="evaluation" type="BEFORE" />
+<TLINK id="TL63" fromID="E64" fromText="the derma graft" toID="E73" toText="the dermagraft TC" type="SIMULTANEOUS" />
+<TLINK id="TL64" fromID="E64" fromText="the derma graft" toID="E63" toText="evaluation" type="BEFORE_OVERLAP" />
+<TLINK id="TL65" fromID="E65" fromText="it" toID="E64" toText="the derma graft" type="SIMULTANEOUS" />
+<TLINK id="TL66" fromID="E66" fromText="well adhered" toID="E65" toText="it" type="OVERLAP" />
+<TLINK id="TL67" fromID="E67" fromText="infection" toID="E66" toText="well adhered" type="OVERLAP" />
+<TLINK id="TL68" fromID="T6" fromText="the day" toID="E66" toText="well adhered" type="SIMULTANEOUS" />
+<TLINK id="TL69" fromID="E68" fromText="screened" toID="E67" toText="infection" type="OVERLAP" />
+<TLINK id="TL7" fromID="E1" fromText="a flash burn" toID="E24" toText="treated" type="BEFORE" />
+<TLINK id="TL70" fromID="E68" fromText="screened" toID="E70" toText="transfer" type="BEFORE" />
+<TLINK id="TL71" fromID="E71" fromText="Nimaconwood Valley Hospital" toID="E70" toText="transfer" type="ENDED_BY" />
+<TLINK id="TL72" fromID="E72" fromText="Ianehutche Medical Center" toID="E70" toText="transfer" type="BEGUN_BY" />
+<TLINK id="TL73" fromID="E71" fromText="Nimaconwood Valley Hospital" toID="E55" toText="the hospital" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E24" fromText="treated" toID="E35" toText="presented" type="BEFORE" />
+<TLINK id="TL9" fromID="E36" fromText="Roing Hospital" toID="E35" toText="presented" type="BEGUN_BY" />
+<TLINK id="Sectime0" fromID="E53" fromText="hemodynamically stable" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E52" fromText="good urine output" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E54" fromText="the Intensive Care Unit" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E10" fromText="delirium tremons prophylaxis" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E11" fromText="Serax" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E56" fromText="evidence" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E55" fromText="the hospital" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E57" fromText="the operating room" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E12" fromText="debridement" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E13" fromText="his facial wounds" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E14" fromText="debridement of his right hand and forearm" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E15" fromText="application of artificial skin" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E73" fromText="the dermagraft TC" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E58" fromText="tolerated" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E17" fromText="the procedure" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E59" fromText="well" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E18" fromText="complications" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E30" fromText="transferred" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E60" fromText="the Intensive Care Unit" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E61" fromText="the burn floor" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E19" fromText="dressing changes" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E1" fromText="a flash burn" toID="T1" toText="01/03/1997" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E20" fromText="afebrile" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E21" fromText="other vital signs" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E33" fromText="discharge" toID="T2" toText="01/07/1997" type="OVERLAP" />
+<TLINK id="Sectime24" fromID="E62" fromText="the patient &apos;s dressing" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E63" fromText="evaluation" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E64" fromText="the derma graft" toID="T2" toText="01/07/1997" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime27" fromID="E65" fromText="it" toID="T2" toText="01/07/1997" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime28" fromID="E66" fromText="well adhered" toID="T2" toText="01/07/1997" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime29" fromID="E67" fromText="infection" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E68" fromText="screened" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime31" fromID="E70" fromText="transfer" toID="T2" toText="01/07/1997" type="OVERLAP" />
+<TLINK id="Sectime32" fromID="E71" fromText="Nimaconwood Valley Hospital" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime33" fromID="E72" fromText="Ianehutche Medical Center" toID="T2" toText="01/07/1997" type="AFTER" />
+<TLINK id="Sectime1" fromID="E34" fromText="admission" toID="T1" toText="01/03/1997" type="OVERLAP" />
+<TLINK id="Sectime2" fromID="E24" fromText="treated" toID="T1" toText="01/03/1997" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E35" fromText="presented" toID="T1" toText="01/03/1997" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E36" fromText="Roing Hospital" toID="T1" toText="01/03/1997" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E37" fromText="the event" toID="T1" toText="01/03/1997" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E38" fromText="transferred" toID="T1" toText="01/03/1997" type="OVERLAP" />
+<TLINK id="Sectime7" fromID="E39" fromText="the Nimaconwood Valley Hospital" toID="T1" toText="01/03/1997" type="OVERLAP" />
+<TLINK id="Sectime8" fromID="E40" fromText="evaluation" toID="T1" toText="01/03/1997" type="OVERLAP" />
+<TLINK id="Sectime9" fromID="E41" fromText="his extensive burns" toID="T1" toText="01/03/1997" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime10" fromID="E42" fromText="walking" toID="T1" toText="01/03/1997" type="OVERLAP" />
+<TLINK id="Sectime11" fromID="E43" fromText="talking" toID="T1" toText="01/03/1997" type="OVERLAP" />
+<TLINK id="Sectime12" fromID="E44" fromText="breathing" toID="T1" toText="01/03/1997" type="OVERLAP" />
+<TLINK id="Sectime13" fromID="E45" fromText="difficulty" toID="T1" toText="01/03/1997" type="OVERLAP" />
+<TLINK id="Sectime14" fromID="E46" fromText="arrival" toID="T1" toText="01/03/1997" type="OVERLAP" />
+<TLINK id="Sectime34" fromID="E47" fromText="the emergency room" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime35" fromID="E25" fromText="transferred" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime36" fromID="E48" fromText="the Surgical Intensive Care Unit" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime37" fromID="E2" fromText="airway observation" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime38" fromID="E3" fromText="IV hydration" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime39" fromID="E49" fromText="good urine output response" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime40" fromID="E4" fromText="His wounds" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime41" fromID="E5" fromText="antiointment" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime42" fromID="E6" fromText="Xeroform" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime43" fromID="E50" fromText="the operating room" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime44" fromID="E7" fromText="debridement" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime45" fromID="E8" fromText="general anesthesia" toID="T2" toText="01/07/1997" type="BEFORE" />
+<TLINK id="Sectime46" fromID="E9" fromText="application of artificial skin" toID="T2" toText="01/07/1997" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="01/03/1997" type="ADMISSION" dvalue="1997-01-03" />
+<SECTIME id="S1" start="46" end="56" text="01/07/1997" type="DISCHARGE" dvalue="1997-01-07" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

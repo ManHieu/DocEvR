@@ -1,0 +1,64 @@
+Admission Date :
+2011-06-14
+Discharge Date :
+2011-06-18
+Service :
+FICU
+HISTORY OF PRESENT ILLNESS :
+This is a 71-year-old-female with asthma and a history of recent exacerbation of lower extremity edema who , at her baseline , gets short of breath walking across the room and sleeps on four pillows times several years .
+She has reported that she has had upper respiratory symptoms times several days with increasing dyspnea on exertion and shortness of breath , eventually at rest with marked wheezing .
+She also has a cough with a small amount of white sputum .
+At 3 a.m. on the day of admission , she became much worse and after several days of increasing her meter-dosed inhaler use , she call Emergency Medical Services which assessed her as having heart failure with elevated jugular venous distention and rales .
+She received aspirin , Lasix 40 mg intravenously times two , 0.8 mg of nitroglycerin times four , plus morphine sulfate .
+Her blood pressure was noted to be up to 220/110 .
+She was taken to the The Hospital for Orthopedics Emergency Room where she was assessed as having asthma .
+She then received continuous nebulizer treatments for approximately eight hours with minimal improvement .
+She did receive intravenous nitroglycerin in the Emergency Room for blood pressure controlled to the 170s .
+She initially received a treatment of BiPAP on arrival as she was barely able to speak .
+She also received 80 mg of Solu-Medrol in the Emergency Department .
+She was never hypoxic but initially her arterial blood gas showed a respiratory acidosis with a PCO2 of 71 .
+The patient does have a vague history of chronic obstructive pulmonary disease , but this is felt to be inaccurate .
+She also received captopril 12.5 mg times one .
+Recently , the patient has been treated with several steroid tapers .
+Depending on the family , patient , and the OMR records , the exact duration of the most recent one was unclear .
+It either ended in 2011-04-11 or continued through 2011-05-11 with use of Augmentin ; and , by report , lasted until 06-07 .
+However , the family said the patient has been on steroids for several weeks .
+The patient denies any exposure to smoke , animals , unusual dust or vapors , or other asthma triggers .
+HOSPITAL COURSE BY SYSTEM:
+1. PULMONARY :
+She was treated with albuterol and Atrovent continuous nebulizers and was weaned then to intermittent nebulizer treatments and then to her meter-dosed inhalers taking them q.4h. at the time of discharge .
+She was continued on salmeterol and Flovent .
+She was continued on Solu-Medrol 80 mg q.8h. then converted to prednisone at 60 mg p.o. q.d.
+She was started on Singulair 10 mg p.o. q.d.
+Serial arterial blood gases were followed after an arterial line was placed .
+Her PCO2 gradually declined to the 48 range .
+Despite episodes of somnolence the first night which were presumably due to having spent the entire night in the Emergency Department , she never became more hypercarbic , and her PCO2 trended to 48 by the time the arterial line was discontinued .
+On the night of admission and thereafter , she was noted to have a very stridorous sounding breathing when the patient was asleep .
+This would disappear whenever she was awake .
+Her case was discussed with Ear/Nose/Throat and the Medical Intensive Care Unit attending .
+She was given a trial of 80/20 mixed helium/oxygen to decrease the stridor but had minimal effect .
+Ear/Nose/Throat recommended not considering this an airway problem unless she was stridorous while awake .
+The patient was to arrange for Pulmonary and Medicine followup through her primary care physician upon discharge as she has not been seen in the Pulmonary Clinic in two years .
+2. CARDIOVASCULAR :
+The patient ruled out for myocardial infarction with serial creatine kinases , although these did rise to 816 .
+MB was negative .
+She was treated with captopril for hypertension , and this was switched to Norvasc 7.5 mg p.o. q.d. on discharge .
+She had an echocardiogram which showed a hyperdynamic left ventricular of normal thickness and size , and no significant valvular disease .
+She apparently did not have a cardiovascular component to her wheezing or shortness of breath ; however , she was to go home on Lasix 20 mg p.o. q.d. to help with lower extremity edema , as she experiences discomfort with this , and the team felt this may be a limiting factor with her prednisone compliance .
+3. ENDOCRINE :
+She was treated with a sliding-scale of regular insulin while she was in house .
+She was given 500 mg p.o. q.d. of metformin to treat her steroid-induced diabetes on discharge .
+This should be followed up by her primary care physician .
+4. INFECTIOUS DISEASE :
+She was treated briefly with levofloxacin because of the gram-positive cocci in her sputum culture ; however , her symptoms were felt to be consistent with a viral upper respiratory infection , and levofloxacin was continued at the time of discharge .
+MEDICATIONS ON DISCHARGE:
+1. Lasix 20 mg p.o. q.d.
+2. Combivent meter-dosed inhaler 2 puffs q.4h. weaning to albuterol meter-dosed inhaler 2 puffs q.4h.
+3. Salmeterol 2 puffs q.12h.
+4. Flovent 220 mcg 2 puffs q.12h.
+5. Prednisone 40 mg p.o. q.d. with taper .
+6. Fentress 60 mg p.o. b.i.d.
+7. Singulair 10 mg p.o. q.d.
+8. Univasc 7.5 mg p.o. q.d.
+9. Metformin 500 mg p.o. q.d.
+Dyazide was discontinued .

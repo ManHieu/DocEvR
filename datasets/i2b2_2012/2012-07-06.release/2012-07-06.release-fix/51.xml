@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+06/03/1993
+Discharge Date :
+06/06/1993
+HISTORY OF PRESENT ILLNESS :
+This is a 70 year old gravida IV , para 4 who presented for a vaginal hysterectomy secondary to uterine prolapse and also presented for evaluation of a suspicious lesion seen on a mammogram .
+Patient &apos;s problem started four years ago when she first experienced a pushing forward of her uterus .
+The patient described this sensation as uncomfortable and becoming more prominent over the following three years with increasing pressure and pain .
+Two months ago , the patient slipped and fell with valsalva that precipitated an exacerbation of her prolapse .
+She subsequently could not urinate and was in pain secondary to her problem .
+At this time , she decided that she needed the prolapse fixed and actually wrote to the Norri Hospital to try and find a Gynecologist .
+Her letter was referred to Dr. Earllamarg Para who saw her in the office and recommended vaginal hysterectomy .
+Patient has never had a pessary and refused one and denies nausea , fever , chills , dysuria , or stress incontinence on her current admission .
+HOSPITAL COURSE :
+Cardiology was consulted to evaluate this and felt that the changes seen on the EKG were not significant .
+The patient was also seen by Dr. Nusc from General Surgery for evaluation of micro calcifications in the right breast .
+The patient refused a biopsy for this admission and desires follow-up mammograms .
+She is to be followed up by General Surgery .
+The patient underwent a total vaginal hysterectomy on June 4 , 1993 which she tolerated without complications .
+Her post-operative course has been uncomplicated .
+She remained afebrile throughout her admission tolerating a regular diet by post-operative day two and was discharged on June 6 , 1993 with Percocet for pain .
+The Foley was discontinued and the patient was urinating on her own .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1025" end="1031" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E30" start="1032" end="1038" text="nausea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E31" start="1041" end="1046" text="fever" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E33" start="1049" end="1055" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E32" start="1058" end="1065" text="dysuria" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E34" start="1071" end="1090" text="stress incontinence" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E35" start="1094" end="1115" text="her current admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1164" end="1172" text="evaluate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="1192" end="1203" text="the changes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1212" end="1219" text="the EKG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="1306" end="1316" text="evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="1320" end="1360" text="micro calcifications in the right breast" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="132" end="141" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1383" end="1391" text="a biopsy" modality="PROPOSED" polarity="NEG" type="TEST" />
+<EVENT id="E42" start="1396" end="1410" text="this admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1423" end="1443" text="follow-up mammograms" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="146" end="168" text="a vaginal hysterectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1459" end="1470" text="followed up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1514" end="1542" text="a total vaginal hysterectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1570" end="1579" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="1588" end="1601" text="complications" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E48" start="1604" end="1629" text="Her post-operative course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1639" end="1652" text="uncomplicated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="1668" end="1676" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1688" end="1701" text="her admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="1713" end="1727" text="a regular diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="1762" end="1772" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="1795" end="1803" text="Percocet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="1808" end="1812" text="pain" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="182" end="198" text="uterine prolapse" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="1815" end="1824" text="The Foley" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="1862" end="1871" text="urinating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="208" end="217" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="222" end="232" text="evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="236" end="255" text="a suspicious lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="264" end="275" text="a mammogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="278" end="301" text="Patient &apos;s problem" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="352" end="383" text="a pushing forward of her uterus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="398" end="407" text="described" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E11" start="426" end="439" text="uncomfortable" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="444" end="467" text="becoming more prominent" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="504" end="523" text="increasing pressure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="528" end="532" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="576" end="580" text="fell" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="586" end="594" text="valsalva" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="613" end="628" text="an exacerbation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="632" end="644" text="her prolapse" modality="FACTUAL" polarity="POS" type="" />
+<EVENT id="E20" start="674" end="681" text="urinate" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E21" start="693" end="697" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="711" end="722" text="her problem" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="768" end="780" text="the prolapse" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="781" end="786" text="fixed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="809" end="827" text="the Norri Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E26" start="923" end="933" text="the office" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E27" start="950" end="970" text="vaginal hysterectomy" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="995" end="1004" text="a pessary" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<TIMEX3 id="T6" start="1546" end="1559" text="June 4 , 1993" type="DATE" val="1993-06-04" mod="NA" />
+<TIMEX3 id="T7" start="1731" end="1753" text="post-operative day two" type="DATE" val="1993-06-06" mod="NA" />
+<TIMEX3 id="T8" start="1776" end="1789" text="June 6 , 1993" type="DATE" val="1993-06-06" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="06/03/1993" type="DATE" val="1993-06-03" mod="NA" />
+<TIMEX3 id="T2" start="310" end="320" text="four years" type="DURATION" val="p4y" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="06/06/1993" type="DATE" val="1993-06-06" mod="NA" />
+<TIMEX3 id="T3" start="487" end="498" text="three years" type="DURATION" val="P3Y" mod="NA" />
+<TIMEX3 id="T4" start="535" end="545" text="Two months" type="DATE" val="1993-04-03" mod="APPROX" />
+<TIMEX3 id="T5" start="728" end="737" text="this time" type="DATE" val="1993-04-03" mod="APPROX" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="06/03/1993" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="Discharge" toID="T1" toText="06/06/1993" type="OVERLAP" />
+<TLINK id="TL10" fromID="E9" fromText="Patient &apos;s problem" toID="T2" toText="four years" type="AFTER" />
+<TLINK id="TL11" fromID="T2" fromText="four years" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL12" fromID="E10" fromText="a pushing forward of her uterus" toID="T2" toText="four years" type="AFTER" />
+<TLINK id="TL13" fromID="E9" fromText="Patient &apos;s problem" toID="E10" toText="a pushing forward of her uterus" type="OVERLAP" />
+<TLINK id="TL14" fromID="E14" fromText="described" toID="E2" toText="presented" type="OVERLAP" />
+<TLINK id="TL15" fromID="E9" fromText="Patient &apos;s problem" toID="E11" toText="uncomfortable" type="OVERLAP" />
+<TLINK id="TL16" fromID="E11" fromText="uncomfortable" toID="E12" toText="becoming more prominent" type="OVERLAP" />
+<TLINK id="TL17" fromID="E12" fromText="becoming more prominent" toID="T3" toText="three years" type="OVERLAP" />
+<TLINK id="TL18" fromID="E12" fromText="becoming more prominent" toID="E13" toText="increasing pressure" type="OVERLAP" />
+<TLINK id="TL19" fromID="E13" fromText="increasing pressure" toID="E15" toText="pain" type="OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="presented" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL20" fromID="T4" fromText="Two months" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL21" fromID="T4" fromText="Two months" toID="E16" toText="fell" type="OVERLAP" />
+<TLINK id="TL22" fromID="E17" fromText="valsalva" toID="E16" toText="fell" type="OVERLAP" />
+<TLINK id="TL23" fromID="E18" fromText="an exacerbation" toID="E16" toText="fell" type="AFTER" />
+<TLINK id="TL24" fromID="E19" fromText="her prolapse" toID="E18" toText="an exacerbation" type="BEFORE" />
+<TLINK id="TL25" fromID="E20" fromText="urinate" toID="E18" toText="an exacerbation" type="AFTER" />
+<TLINK id="TL26" fromID="E18" fromText="an exacerbation" toID="E21" toText="pain" type="OVERLAP" />
+<TLINK id="TL27" fromID="E21" fromText="pain" toID="E22" toText="her problem" type="OVERLAP" />
+<TLINK id="TL28" fromID="E18" fromText="an exacerbation" toID="T5" toText="this time" type="OVERLAP" />
+<TLINK id="TL29" fromID="E23" fromText="the prolapse" toID="E4" toText="uterine prolapse" type="OVERLAP" />
+<TLINK id="TL3" fromID="E3" fromText="a vaginal hysterectomy" toID="E2" toText="presented" type="AFTER" />
+<TLINK id="TL30" fromID="E24" fromText="fixed" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL31" fromID="E24" fromText="fixed" toID="E45" toText="a total vaginal hysterectomy" type="OVERLAP" />
+<TLINK id="TL32" fromID="E23" fromText="the prolapse" toID="E25" toText="the Norri Hospital" type="OVERLAP" />
+<TLINK id="TL33" fromID="E25" fromText="the Norri Hospital" toID="E26" toText="the office" type="OVERLAP" />
+<TLINK id="TL34" fromID="E28" fromText="a pessary" toID="E26" toText="the office" type="BEFORE" />
+<TLINK id="TL35" fromID="E2" fromText="presented" toID="E29" toText="denies" type="OVERLAP" />
+<TLINK id="TL36" fromID="E30" fromText="nausea" toID="E29" toText="denies" type="BEFORE" />
+<TLINK id="TL37" fromID="E30" fromText="nausea" toID="E31" toText="fever" type="OVERLAP" />
+<TLINK id="TL38" fromID="E33" fromText="chills" toID="E31" toText="fever" type="OVERLAP" />
+<TLINK id="TL39" fromID="E33" fromText="chills" toID="E32" toText="dysuria" type="OVERLAP" />
+<TLINK id="TL4" fromID="E3" fromText="a vaginal hysterectomy" toID="E27" toText="vaginal hysterectomy" type="OVERLAP" />
+<TLINK id="TL40" fromID="E32" fromText="dysuria" toID="E34" toText="stress incontinence" type="OVERLAP" />
+<TLINK id="TL41" fromID="E34" fromText="stress incontinence" toID="E35" toText="her current admission" type="OVERLAP" />
+<TLINK id="TL42" fromID="E0" fromText="Admission" toID="E35" toText="her current admission" type="OVERLAP" />
+<TLINK id="TL43" fromID="E36" fromText="evaluate" toID="E35" toText="her current admission" type="OVERLAP" />
+<TLINK id="TL44" fromID="E35" fromText="her current admission" toID="T0" toText="06/03/1993" type="AFTER" />
+<TLINK id="TL45" fromID="E35" fromText="her current admission" toID="T1" toText="06/06/1993" type="BEFORE" />
+<TLINK id="TL46" fromID="E37" fromText="the changes" toID="E38" toText="the EKG" type="BEFORE" />
+<TLINK id="TL47" fromID="E38" fromText="the EKG" toID="E35" toText="her current admission" type="OVERLAP" />
+<TLINK id="TL48" fromID="E39" fromText="evaluation" toID="E35" toText="her current admission" type="OVERLAP" />
+<TLINK id="TL49" fromID="E40" fromText="micro calcifications in the right breast" toID="E8" toText="a mammogram" type="BEFORE" />
+<TLINK id="TL5" fromID="E3" fromText="a vaginal hysterectomy" toID="E4" toText="uterine prolapse" type="AFTER" />
+<TLINK id="TL50" fromID="E42" fromText="this admission" toID="E35" toText="her current admission" type="OVERLAP" />
+<TLINK id="TL51" fromID="E41" fromText="a biopsy" toID="E42" toText="this admission" type="OVERLAP" />
+<TLINK id="TL52" fromID="E43" fromText="follow-up mammograms" toID="E42" toText="this admission" type="AFTER" />
+<TLINK id="TL53" fromID="E43" fromText="follow-up mammograms" toID="E44" toText="followed up" type="OVERLAP" />
+<TLINK id="TL54" fromID="E45" fromText="a total vaginal hysterectomy" toID="T6" toText="June 4 , 1993" type="OVERLAP" />
+<TLINK id="TL55" fromID="E45" fromText="a total vaginal hysterectomy" toID="E46" toText="tolerated" type="OVERLAP" />
+<TLINK id="TL56" fromID="E46" fromText="tolerated" toID="E47" toText="complications" type="OVERLAP" />
+<TLINK id="TL57" fromID="E48" fromText="Her post-operative course" toID="E45" toText="a total vaginal hysterectomy" type="AFTER" />
+<TLINK id="TL58" fromID="E48" fromText="Her post-operative course" toID="E49" toText="uncomplicated" type="OVERLAP" />
+<TLINK id="TL59" fromID="E50" fromText="afebrile" toID="E49" toText="uncomplicated" type="OVERLAP" />
+<TLINK id="TL6" fromID="E2" fromText="presented" toID="E5" toText="presented" type="OVERLAP" />
+<TLINK id="TL60" fromID="E51" fromText="her admission" toID="E35" toText="her current admission" type="OVERLAP" />
+<TLINK id="TL61" fromID="E48" fromText="Her post-operative course" toID="E52" toText="a regular diet" type="OVERLAP" />
+<TLINK id="TL62" fromID="E52" fromText="a regular diet" toID="T7" toText="post-operative day two" type="AFTER" />
+<TLINK id="TL63" fromID="E53" fromText="discharged" toID="T8" toText="June 6 , 1993" type="OVERLAP" />
+<TLINK id="TL64" fromID="E53" fromText="discharged" toID="E1" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL65" fromID="E54" fromText="Percocet" toID="E55" toText="pain" type="OVERLAP" />
+<TLINK id="TL66" fromID="E54" fromText="Percocet" toID="E53" toText="discharged" type="BEFORE" />
+<TLINK id="TL67" fromID="E57" fromText="urinating" toID="E56" toText="The Foley" type="AFTER" />
+<TLINK id="TL68" fromID="E56" fromText="The Foley" toID="E48" toText="Her post-operative course" type="OVERLAP" />
+<TLINK id="TL7" fromID="E5" fromText="presented" toID="E6" toText="evaluation" type="OVERLAP" />
+<TLINK id="TL8" fromID="E7" fromText="a suspicious lesion" toID="E6" toText="evaluation" type="BEFORE" />
+<TLINK id="TL9" fromID="E8" fromText="a mammogram" toID="E0" toText="Admission" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="06/03/1993" type="ADMISSION" dvalue="1993-06-03" />
+<SECTIME id="S1" start="46" end="56" text="06/06/1993" type="DISCHARGE" dvalue="1993-06-06" />
+<TLINK id="SECTIME0" fromID="E29" fromText="denies" toID="T0" toText="06/03/1993" type="OVERLAP" />
+<TLINK id="SECTIME1" fromID="E30" fromText="nausea" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E31" fromText="fever" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E33" fromText="chills" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E32" fromText="dysuria" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E34" fromText="stress incontinence" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E36" fromText="evaluate" toID="T1" toText="06/06/1993" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E37" fromText="the changes" toID="T1" toText="06/06/1993" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E38" fromText="the EKG" toID="T1" toText="06/06/1993" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E39" fromText="evaluation" toID="T1" toText="06/06/1993" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E40" fromText="micro calcifications in the right breast" toID="T1" toText="06/06/1993" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E2" fromText="presented" toID="T0" toText="06/03/1993" type="OVERLAP" />
+<TLINK id="SECTIME12" fromID="E41" fromText="a biopsy" toID="T1" toText="06/06/1993" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E42" fromText="this admission" toID="T1" toText="06/06/1993" type="OVERLAP" />
+<TLINK id="SECTIME14" fromID="E43" fromText="follow-up mammograms" toID="T1" toText="06/06/1993" type="AFTER" />
+<TLINK id="SECTIME15" fromID="E3" fromText="a vaginal hysterectomy" toID="T0" toText="06/03/1993" type="AFTER" />
+<TLINK id="SECTIME16" fromID="E44" fromText="followed up" toID="T1" toText="06/06/1993" type="AFTER" />
+<TLINK id="SECTIME17" fromID="E45" fromText="a total vaginal hysterectomy" toID="T1" toText="06/06/1993" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E46" fromText="tolerated" toID="T1" toText="06/06/1993" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E47" fromText="complications" toID="T1" toText="06/06/1993" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E48" fromText="Her post-operative course" toID="T1" toText="06/06/1993" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E49" fromText="uncomplicated" toID="T1" toText="06/06/1993" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E50" fromText="afebrile" toID="T1" toText="06/06/1993" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E51" fromText="her admission" toID="T1" toText="06/06/1993" type="OVERLAP" />
+<TLINK id="SECTIME24" fromID="E52" fromText="a regular diet" toID="T1" toText="06/06/1993" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E53" fromText="discharged" toID="T1" toText="06/06/1993" type="OVERLAP" />
+<TLINK id="SECTIME26" fromID="E54" fromText="Percocet" toID="T1" toText="06/06/1993" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E55" fromText="pain" toID="T1" toText="06/06/1993" type="AFTER" />
+<TLINK id="SECTIME28" fromID="E4" fromText="uterine prolapse" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E56" fromText="The Foley" toID="T1" toText="06/06/1993" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E57" fromText="urinating" toID="T1" toText="06/06/1993" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E5" fromText="presented" toID="T0" toText="06/03/1993" type="OVERLAP" />
+<TLINK id="SECTIME32" fromID="E6" fromText="evaluation" toID="T0" toText="06/03/1993" type="AFTER" />
+<TLINK id="SECTIME33" fromID="E7" fromText="a suspicious lesion" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E8" fromText="a mammogram" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E9" fromText="Patient &apos;s problem" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E10" fromText="a pushing forward of her uterus" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E14" fromText="described" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E11" fromText="uncomfortable" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E12" fromText="becoming more prominent" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E13" fromText="increasing pressure" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E15" fromText="pain" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E16" fromText="fell" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E17" fromText="valsalva" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E18" fromText="an exacerbation" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E19" fromText="her prolapse" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E20" fromText="urinate" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E21" fromText="pain" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E22" fromText="her problem" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E23" fromText="the prolapse" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E24" fromText="fixed" toID="T0" toText="06/03/1993" type="AFTER" />
+<TLINK id="SECTIME51" fromID="E25" fromText="the Norri Hospital" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E26" fromText="the office" toID="T0" toText="06/03/1993" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E27" fromText="vaginal hysterectomy" toID="T0" toText="06/03/1993" type="AFTER" />
+<TLINK id="SECTIME54" fromID="E28" fromText="a pessary" toID="T0" toText="06/03/1993" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

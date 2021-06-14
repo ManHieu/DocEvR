@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2013-09-05
+Discharge Date :
+2013-09-12
+Service :
+MEDICINE
+History of Present Illness :
+HPI : This is a 79 y/o M with h/o of HTN , DM , recent CVA Theresa , chronic respiratory failure on vent , trached , ESRD on HD who was sent from rehab facility for worsening mental status .
+Per refferal notes , he went to hemodyalisis today in the morning .
+1 L was removed .
+At about 2:30 pm , he was found to have worsening mental status .
+In that setting he was hypotensive down to the 92/45 , and was given 1 L NS .
+Fs was also checked 179 .
+At that time , it seems that he had been on T peace since 4 am today .
+At 2:30 he was also found with sats in the 90% .
+ABG done 7.1 , 89/72 - he was placed on AC 600 / 0.4 and 6 PEEP - sats up to 94% .
+Given persistent lethargy , patient was sent to Falkener Amanda .
+Of note , after interview with HCP , at around 07-23 , patient started having episodes of dizziness , and had unstable gait .
+he was taken to Williams ICU until 08-09 when he was discharged to Waltham/Weston Hospital Rehab .
+he had a peg tube and tracheostomy prior to d/c .
+He had been chronicallyl vent dependent .
+His companion states that they have been trying to wean him down at rehab .
+his basline mental staus apparently responds with his head shaking , and also try to write sentences .
+In the Amanda : VS T 103 rectal BP90/44 HR : 84 RR 16 Sats : 98 + guiac stool .
+He received tylenol , levofloxacin 500 mg IV , Flagyl 500 mg and Vancomycin and I L NS .
+ROS : difficult to obtain 2x2 to patient mental status baselin
+Brief Hospital Course :
+Assessment and Plan :
+This is a 79 y/o M with h/o HTN , DM , recent CVA , chronic ventilatory failure , CRI on HD who presents with change in MS and febrile in the Amanda , admitted to CMED .
+# Altered mental status : Ct scan with no evidence of new intracraneal bleeding .
+Patient febrile in the Amanda .
+High WBC .
+It was thought that it could have been a combination of hypotension , hypercapnia and infection .
+He was initially started on broad spectrum antibiotics .
+Despite having a profund limitation communicating given his neurological status , his mental changes seemed to improved initially .
+However later on during his course , his mental status deteriorated , being even less responsive .
+# ID :
+Patient febrile and with a high WBC on admission .
+After starting broad spectrum antibiotics - cefepime - vancomycin and flagyl ( for initial concern of aspiration pneumonia ), he responded clinically .
+Urine cx from Rehab showed gram negative rods > 100 K enterobacter cloacae .
+Urine Cx in house grew Citrobacter Freundi and his sputum grew Acinetobacter Baummani .
+Since there was no more evidence of gram positive infections , vancomycin was discontinued and cefepime was kept .
+# Fevers : in the Amanda , high WBC , possible pneumonia .
+Also possible source sinus infections given findings on intial CT ( see summary in significant studies ). He did not spike any fevers after being transfer to the CMED from the Amanda .
+# Resp : Patient was intermitentely switched from AC to Pressure support trials .
+However , after Patient did well .
+Then trach mask trials were done .
+He tolerated this well , although he required PS overnight .
+# ESRD on hemodyalisis : Renal service was consulted and HD was continued .
+# CV :
+Rhythm : NSR , not tachycardic .
+Pump : With trace of lower extremity edema .
+X ray suggested some pulmonary edema on admission .
+Despite this findings , he was supported with 40% FIO2 most of the time .
+CAD : On admission Ck low normal , MB not done .
+Troponin 0.44. 
+It was more likely due to CRI .
+Second set 12 hours apart , showed no changes .
+s/p stroke : continue aspirin , statin , plavix
+# Hypotension : per referral form .
+Intially concern for sepsis in the setting of fevers and high blood count .
+His BP medications were held on admission .
+Patient did not require pressors .
+His blood pressure remained stable and BP meds were restarted .
+# FEN :
+Tube feedings were started thorugh peg tube .
+On 2013-09-08 , patient pulled out peg tube .
+Temporary foley was placed and on 2013-09-11 ,
+On 2013-09-12 after deterioration of his mental status and also of his blood pressure , goals of care were discussed with his HCP .
+It was decided to direct goals of care towards confort care .
+Patient passed away accompanied by his significant other .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="1000" end="1010" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="1014" end="1043" text="Waltham/Weston Hospital Rehab" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E32" start="1053" end="1063" text="a peg tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1068" end="1080" text="tracheostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1090" end="1093" text="d/c" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1108" end="1135" text="chronicallyl vent dependent" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1152" end="1158" text="states" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E37" start="1189" end="1202" text="wean him down" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="1206" end="1211" text="rehab" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E39" start="1214" end="1238" text="his basline mental staus" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1264" end="1280" text="his head shaking" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1292" end="1314" text="try to write sentences" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1320" end="1330" text="the Amanda" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E43" start="1333" end="1335" text="VS" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="1336" end="1337" text="T" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="1349" end="1356" text="BP90/44" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="1357" end="1359" text="HR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="1365" end="1367" text="RR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="1371" end="1375" text="Sats" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E49" start="1381" end="1394" text="+ guiac stool" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="1409" end="1416" text="tylenol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="142" end="145" text="HTN" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1419" end="1431" text="levofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="1444" end="1450" text="Flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="1462" end="1472" text="Vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="148" end="150" text="DM" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="1481" end="1483" text="NS" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="1486" end="1489" text="ROS" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E56" start="1519" end="1548" text="patient mental status baselin" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="153" end="163" text="recent CVA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="1623" end="1626" text="HTN" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="1629" end="1631" text="DM" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="1634" end="1644" text="recent CVA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="1647" end="1674" text="chronic ventilatory failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="1677" end="1680" text="CRI" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="1684" end="1686" text="HD" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="1691" end="1699" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E64" start="1705" end="1717" text="change in MS" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="1722" end="1729" text="febrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="174" end="201" text="chronic respiratory failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="1733" end="1743" text="the Amanda" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E67" start="1746" end="1754" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="1758" end="1762" text="CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E69" start="1767" end="1788" text="Altered mental status" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E70" start="1791" end="1798" text="Ct scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E71" start="1819" end="1844" text="new intracraneal bleeding" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E72" start="1855" end="1862" text="febrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="1866" end="1876" text="the Amanda" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E74" start="1879" end="1887" text="High WBC" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="1946" end="1957" text="hypotension" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E76" start="1960" end="1971" text="hypercapnia" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="1976" end="1985" text="infection" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E78" start="2016" end="2042" text="broad spectrum antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="205" end="209" text="vent" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="2060" end="2094" text="a profund limitation communicating" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="2101" end="2124" text="his neurological status" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="212" end="219" text="trached" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="2127" end="2145" text="his mental changes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="2156" end="2174" text="improved initially" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E83" start="2201" end="2211" text="his course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="222" end="226" text="ESRD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E84" start="2214" end="2244" text="his mental status deteriorated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="2258" end="2273" text="less responsive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="230" end="232" text="HD" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="2291" end="2298" text="febrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E87" start="2308" end="2318" text="a high WBC" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="2322" end="2331" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E89" start="2349" end="2375" text="broad spectrum antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E90" start="2378" end="2386" text="cefepime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E91" start="2389" end="2399" text="vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E92" start="2404" end="2410" text="flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E93" start="2436" end="2456" text="aspiration pneumonia" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E94" start="2463" end="2472" text="responded" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E95" start="2486" end="2494" text="Urine cx" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E96" start="2500" end="2505" text="Rehab" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E97" start="2506" end="2512" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E10" start="251" end="265" text="rehab facility" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E98" start="2513" end="2531" text="gram negative rods" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E99" start="2532" end="2560" text="> 100 K enterobacter cloacae" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="2563" end="2571" text="Urine Cx" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E101" start="2572" end="2580" text="in house" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E102" start="2586" end="2605" text="Citrobacter Freundi" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E103" start="2610" end="2620" text="his sputum" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E104" start="2626" end="2648" text="Acinetobacter Baummani" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E105" start="2687" end="2711" text="gram positive infections" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E11" start="270" end="293" text="worsening mental status" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E106" start="2714" end="2724" text="vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E107" start="2746" end="2754" text="cefepime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E108" start="2768" end="2774" text="Fevers" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="2780" end="2790" text="the Amanda" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E110" start="2793" end="2801" text="high WBC" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E111" start="2813" end="2822" text="pneumonia" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E112" start="2846" end="2862" text="sinus infections" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E113" start="2869" end="2877" text="findings" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E114" start="2881" end="2890" text="intial CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E115" start="2952" end="2958" text="fevers" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E116" start="2971" end="2979" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E117" start="2983" end="2991" text="the CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E118" start="2997" end="3007" text="the Amanda" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E119" start="3060" end="3062" text="AC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E120" start="3066" end="3089" text="Pressure support trials" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E121" start="3108" end="3124" text="Patient did well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E122" start="3132" end="3149" text="trach mask trials" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E123" start="3165" end="3184" text="tolerated this well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E124" start="3208" end="3210" text="PS" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E125" start="3225" end="3229" text="ESRD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E126" start="3233" end="3245" text="hemodyalisis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E127" start="3266" end="3275" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="328" end="340" text="hemodyalisis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E128" start="3280" end="3282" text="HD" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E129" start="3306" end="3312" text="Rhythm" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E130" start="3315" end="3318" text="NSR" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E131" start="3325" end="3336" text="tachycardic" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E132" start="3360" end="3381" text="lower extremity edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E133" start="3384" end="3389" text="X ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E134" start="3400" end="3420" text="some pulmonary edema" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E135" start="3424" end="3433" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E136" start="3482" end="3490" text="40% FIO2" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E137" start="3510" end="3513" text="CAD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E138" start="3519" end="3528" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E139" start="3529" end="3531" text="Ck" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E140" start="3545" end="3547" text="MB" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E141" start="3559" end="3567" text="Troponin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E142" start="3601" end="3604" text="CRI" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E143" start="3614" end="3617" text="set" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E144" start="3635" end="3641" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E145" start="3645" end="3652" text="changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E146" start="3659" end="3665" text="stroke" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E147" start="3677" end="3684" text="aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E148" start="3687" end="3693" text="statin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E149" start="3696" end="3702" text="plavix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E150" start="3705" end="3716" text="Hypotension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="372" end="379" text="removed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E151" start="3760" end="3766" text="sepsis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E152" start="3785" end="3791" text="fevers" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E153" start="3796" end="3812" text="high blood count" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E154" start="3815" end="3833" text="His BP medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E155" start="3847" end="3856" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E156" start="3883" end="3891" text="pressors" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E157" start="3894" end="3912" text="His blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E158" start="3913" end="3928" text="remained stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E159" start="3933" end="3940" text="BP meds" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E160" start="3966" end="3979" text="Tube feedings" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E161" start="4001" end="4009" text="peg tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E162" start="4036" end="4046" text="pulled out" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E163" start="4047" end="4055" text="peg tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E164" start="4058" end="4073" text="Temporary foley" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E165" start="4125" end="4190" text="deterioration of his mental status and also of his blood pressure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="422" end="445" text="worsening mental status" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E166" start="4212" end="4221" text="discussed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E167" start="4284" end="4296" text="confort care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E168" start="4307" end="4318" text="passed away" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="471" end="482" text="hypotensive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="517" end="523" text="1 L NS" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="526" end="528" text="Fs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="596" end="603" text="T peace" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="654" end="658" text="sats" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="672" end="675" text="ABG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="712" end="714" text="AC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="731" end="735" text="PEEP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="738" end="742" text="sats" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="761" end="780" text="persistent lethargy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="803" end="818" text="Falkener Amanda" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E26" start="837" end="855" text="interview with HCP" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="911" end="920" text="dizziness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="931" end="944" text="unstable gait" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="963" end="975" text="Williams ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<TIMEX3 id="T0" start="18" end="28" text="2013-09-05" type="DATE" val="2013-09-05" mod="NA" />
+<TIMEX3 id="T8" start="3211" end="3220" text="overnight" type="DURATION" val="PT8H" mod="NA" />
+<TIMEX3 id="T2" start="341" end="361" text="today in the morning" type="DATE" val="2013-09-05" mod="START" />
+<TIMEX3 id="T9" start="3607" end="3613" text="Second" type="FREQUENCY" val="r2" mod="NA" />
+<TIMEX3 id="T10" start="3618" end="3626" text="12 hours" type="DURATION" val="PT12H" mod="NA" />
+<TIMEX3 id="T3" start="391" end="398" text="2:30 pm" type="TIME" val="2013-09-05T14:30" mod="APPROX" />
+<TIMEX3 id="T11" start="4015" end="4025" text="2013-09-08" type="DATE" val="2013-09-08" mod="NA" />
+<TIMEX3 id="T12" start="4092" end="4102" text="2013-09-11" type="DATE" val="2013-09-11" mod="NA" />
+<TIMEX3 id="T13" start="4108" end="4118" text="2013-09-12" type="DATE" val="2013-09-12" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2013-09-12" type="DATE" val="2013-09-12" mod="NA" />
+<TIMEX3 id="T4" start="610" end="620" text="4 am today" type="TIME" val="2013-09-05T04:00" mod="NA" />
+<TIMEX3 id="T5" start="626" end="630" text="2:30" type="TIME" val="2013-09-05T14:30" mod="NA" />
+<TIMEX3 id="T6" start="868" end="873" text="07-23" type="DATE" val="2013-07-23" mod="APPROX" />
+<TIMEX3 id="T7" start="982" end="987" text="08-09" type="DATE" val="2013-08-09" mod="NA" />
+<TLINK id="TL0" fromID="E67" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E138" fromText="admission" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E3" fromText="DM" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL100" fromID="E87" fromText="a high WBC" toID="E88" toText="admission" type="OVERLAP" />
+<TLINK id="TL101" fromID="E88" fromText="admission" toID="E67" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL102" fromID="E89" fromText="broad spectrum antibiotics" toID="E78" toText="broad spectrum antibiotics" type="SIMULTANEOUS" />
+<TLINK id="TL103" fromID="E90" fromText="cefepime" toID="E89" toText="broad spectrum antibiotics" type="OVERLAP" />
+<TLINK id="TL104" fromID="E91" fromText="vancomycin" toID="E89" toText="broad spectrum antibiotics" type="OVERLAP" />
+<TLINK id="TL105" fromID="E92" fromText="flagyl" toID="E89" toText="broad spectrum antibiotics" type="OVERLAP" />
+<TLINK id="TL108" fromID="E89" fromText="broad spectrum antibiotics" toID="E94" toText="responded" type="BEFORE_OVERLAP" />
+<TLINK id="TL109" fromID="E95" fromText="Urine cx" toID="E96" toText="Rehab" type="DURING" />
+<TLINK id="TL11" fromID="E59" fromText="recent CVA" toID="E4" toText="recent CVA" type="SIMULTANEOUS" />
+<TLINK id="TL110" fromID="E95" fromText="Urine cx" toID="E97" toText="showed" type="OVERLAP" />
+<TLINK id="TL111" fromID="E98" fromText="gram negative rods" toID="E95" toText="Urine cx" type="BEFORE_OVERLAP" />
+<TLINK id="TL112" fromID="E98" fromText="gram negative rods" toID="E99" toText="> 100 K enterobacter cloacae" type="SIMULTANEOUS" />
+<TLINK id="TL113" fromID="E100" fromText="Urine Cx" toID="E88" toText="admission" type="AFTER" />
+<TLINK id="TL114" fromID="E101" fromText="in house" toID="E83" toText="his course" type="SIMULTANEOUS" />
+<TLINK id="TL115" fromID="E102" fromText="Citrobacter Freundi" toID="E100" toText="Urine Cx" type="BEFORE_OVERLAP" />
+<TLINK id="TL116" fromID="E103" fromText="his sputum" toID="E88" toText="admission" type="AFTER" />
+<TLINK id="TL117" fromID="E104" fromText="Acinetobacter Baummani" toID="E103" toText="his sputum" type="BEFORE_OVERLAP" />
+<TLINK id="TL118" fromID="E105" fromText="gram positive infections" toID="E100" toText="Urine Cx" type="BEFORE" />
+<TLINK id="TL119" fromID="E106" fromText="vancomycin" toID="E100" toText="Urine Cx" type="ENDED_BY" />
+<TLINK id="TL12" fromID="E4" fromText="recent CVA" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL120" fromID="E106" fromText="vancomycin" toID="E91" toText="vancomycin" type="SIMULTANEOUS" />
+<TLINK id="TL121" fromID="E107" fromText="cefepime" toID="E100" toText="Urine Cx" type="BEFORE_OVERLAP" />
+<TLINK id="TL122" fromID="E107" fromText="cefepime" toID="E90" toText="cefepime" type="SIMULTANEOUS" />
+<TLINK id="TL123" fromID="E108" fromText="Fevers" toID="E86" toText="febrile" type="SIMULTANEOUS" />
+<TLINK id="TL124" fromID="E109" fromText="the Amanda" toID="E66" toText="the Amanda" type="SIMULTANEOUS" />
+<TLINK id="TL125" fromID="E110" fromText="high WBC" toID="E87" toText="a high WBC" type="SIMULTANEOUS" />
+<TLINK id="TL126" fromID="E111" fromText="pneumonia" toID="E93" toText="aspiration pneumonia" type="SIMULTANEOUS" />
+<TLINK id="TL127" fromID="E93" fromText="aspiration pneumonia" toID="E86" toText="febrile" type="OVERLAP" />
+<TLINK id="TL128" fromID="E112" fromText="sinus infections" toID="E113" toText="findings" type="BEFORE_OVERLAP" />
+<TLINK id="TL129" fromID="E112" fromText="sinus infections" toID="E111" toText="pneumonia" type="OVERLAP" />
+<TLINK id="TL13" fromID="E5" fromText="chronic respiratory failure" toID="E6" toText="vent" type="OVERLAP" />
+<TLINK id="TL130" fromID="E114" fromText="intial CT" toID="E70" toText="Ct scan" type="SIMULTANEOUS" />
+<TLINK id="TL131" fromID="E115" fromText="fevers" toID="E116" toText="transfer" type="AFTER" />
+<TLINK id="TL132" fromID="E116" fromText="transfer" toID="E67" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL133" fromID="E117" fromText="the CMED" toID="E68" toText="CMED" type="SIMULTANEOUS" />
+<TLINK id="TL134" fromID="E118" fromText="the Amanda" toID="E66" toText="the Amanda" type="" />
+<TLINK id="TL135" fromID="E119" fromText="AC" toID="E67" toText="admitted" type="AFTER" />
+<TLINK id="TL136" fromID="E120" fromText="Pressure support trials" toID="E67" toText="admitted" type="AFTER" />
+<TLINK id="TL137" fromID="E121" fromText="Patient did well" toID="E120" toText="Pressure support trials" type="OVERLAP" />
+<TLINK id="TL138" fromID="E122" fromText="trach mask trials" toID="E121" toText="Patient did well" type="AFTER" />
+<TLINK id="TL139" fromID="E123" fromText="tolerated this well" toID="E122" toText="trach mask trials" type="OVERLAP" />
+<TLINK id="TL14" fromID="E60" fromText="chronic ventilatory failure" toID="E5" toText="chronic respiratory failure" type="SIMULTANEOUS" />
+<TLINK id="TL140" fromID="E124" fromText="PS" toID="T8" toText="overnight" type="DURING" />
+<TLINK id="TL141" fromID="E124" fromText="PS" toID="E116" toText="transfer" type="AFTER" />
+<TLINK id="TL142" fromID="E125" fromText="ESRD" toID="E8" toText="ESRD" type="SIMULTANEOUS" />
+<TLINK id="TL143" fromID="E126" fromText="hemodyalisis" toID="E9" toText="HD" type="SIMULTANEOUS" />
+<TLINK id="TL144" fromID="E128" fromText="HD" toID="E126" toText="hemodyalisis" type="SIMULTANEOUS" />
+<TLINK id="TL145" fromID="E128" fromText="HD" toID="E127" toText="consulted" type="BEFORE_OVERLAP" />
+<TLINK id="TL146" fromID="E127" fromText="consulted" toID="E116" toText="transfer" type="AFTER" />
+<TLINK id="TL147" fromID="E129" fromText="Rhythm" toID="E130" toText="NSR" type="OVERLAP" />
+<TLINK id="TL148" fromID="E129" fromText="Rhythm" toID="E131" toText="tachycardic" type="OVERLAP" />
+<TLINK id="TL149" fromID="E129" fromText="Rhythm" toID="E116" toText="transfer" type="AFTER" />
+<TLINK id="TL15" fromID="E6" fromText="vent" toID="E7" toText="trached" type="OVERLAP" />
+<TLINK id="TL150" fromID="E132" fromText="lower extremity edema" toID="E116" toText="transfer" type="AFTER" />
+<TLINK id="TL151" fromID="E134" fromText="some pulmonary edema" toID="E133" toText="X ray" type="BEFORE_OVERLAP" />
+<TLINK id="TL152" fromID="E133" fromText="X ray" toID="E135" toText="admission" type="OVERLAP" />
+<TLINK id="TL153" fromID="E135" fromText="admission" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL154" fromID="E136" fromText="40% FIO2" toID="E135" toText="admission" type="AFTER" />
+<TLINK id="TL155" fromID="E137" fromText="CAD" toID="E138" toText="admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL156" fromID="E139" fromText="Ck" toID="E138" toText="admission" type="OVERLAP" />
+<TLINK id="TL157" fromID="E140" fromText="MB" toID="E138" toText="admission" type="OVERLAP" />
+<TLINK id="TL158" fromID="E141" fromText="Troponin" toID="E139" toText="Ck" type="OVERLAP" />
+<TLINK id="TL159" fromID="E142" fromText="CRI" toID="E61" toText="CRI" type="SIMULTANEOUS" />
+<TLINK id="TL16" fromID="E8" fromText="ESRD" toID="E9" toText="HD" type="BEFORE_OVERLAP" />
+<TLINK id="TL160" fromID="T9" fromText="Second" toID="E143" toText="set" type="SIMULTANEOUS" />
+<TLINK id="TL161" fromID="T10" fromText="12 hours" toID="E141" toText="Troponin" type="BEGUN_BY" />
+<TLINK id="TL163" fromID="T10" fromText="12 hours" toID="E143" toText="set" type="ENDED_BY" />
+<TLINK id="TL164" fromID="E144" fromText="showed" toID="E143" toText="set" type="OVERLAP" />
+<TLINK id="TL165" fromID="E145" fromText="changes" toID="E143" toText="set" type="OVERLAP" />
+<TLINK id="TL166" fromID="E146" fromText="stroke" toID="E4" toText="recent CVA" type="SIMULTANEOUS" />
+<TLINK id="TL167" fromID="E147" fromText="aspirin" toID="E146" toText="stroke" type="AFTER" />
+<TLINK id="TL168" fromID="E148" fromText="statin" toID="E146" toText="stroke" type="AFTER" />
+<TLINK id="TL169" fromID="E149" fromText="plavix" toID="E146" toText="stroke" type="AFTER" />
+<TLINK id="TL17" fromID="E8" fromText="ESRD" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL170" fromID="E150" fromText="Hypotension" toID="E75" toText="hypotension" type="SIMULTANEOUS" />
+<TLINK id="TL171" fromID="E151" fromText="sepsis" toID="E150" toText="Hypotension" type="OVERLAP" />
+<TLINK id="TL172" fromID="E152" fromText="fevers" toID="E108" toText="Fevers" type="SIMULTANEOUS" />
+<TLINK id="TL173" fromID="E153" fromText="high blood count" toID="E110" toText="high WBC" type="SIMULTANEOUS" />
+<TLINK id="TL174" fromID="E154" fromText="His BP medications" toID="E155" toText="admission" type="ENDED_BY" />
+<TLINK id="TL175" fromID="E155" fromText="admission" toID="E135" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL176" fromID="E156" fromText="pressors" toID="E155" toText="admission" type="AFTER" />
+<TLINK id="TL177" fromID="E157" fromText="His blood pressure" toID="E155" toText="admission" type="AFTER" />
+<TLINK id="TL178" fromID="E158" fromText="remained stable" toID="E157" toText="His blood pressure" type="OVERLAP" />
+<TLINK id="TL179" fromID="E159" fromText="BP meds" toID="E158" toText="remained stable" type="AFTER" />
+<TLINK id="TL18" fromID="E9" fromText="HD" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL180" fromID="E160" fromText="Tube feedings" toID="E161" toText="peg tube" type="OVERLAP" />
+<TLINK id="TL181" fromID="E161" fromText="peg tube" toID="E32" toText="a peg tube" type="SIMULTANEOUS" />
+<TLINK id="TL183" fromID="E161" fromText="peg tube" toID="E163" toText="peg tube" type="SIMULTANEOUS" />
+<TLINK id="TL184" fromID="E163" fromText="peg tube" toID="E162" toText="pulled out" type="ENDED_BY" />
+<TLINK id="TL185" fromID="E162" fromText="pulled out" toID="T11" toText="2013-09-08" type="SIMULTANEOUS" />
+<TLINK id="TL186" fromID="E164" fromText="Temporary foley" toID="T12" toText="2013-09-11" type="BEGUN_BY" />
+<TLINK id="TL187" fromID="E165" fromText="deterioration of his mental status and also of his blood pressure" toID="T13" toText="2013-09-12" type="BEFORE_OVERLAP" />
+<TLINK id="TL188" fromID="E166" fromText="discussed" toID="E165" toText="deterioration of his mental status and also of his blood pressure" type="AFTER" />
+<TLINK id="TL189" fromID="E166" fromText="discussed" toID="T13" toText="2013-09-12" type="OVERLAP" />
+<TLINK id="TL190" fromID="E167" fromText="confort care" toID="T13" toText="2013-09-12" type="OVERLAP" />
+<TLINK id="TL2" fromID="E83" fromText="his course" toID="E0" toText="Admission" type="BEGUN_BY" />
+<TLINK id="TL20" fromID="E64" fromText="change in MS" toID="E11" toText="worsening mental status" type="SIMULTANEOUS" />
+<TLINK id="TL21" fromID="E11" fromText="worsening mental status" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL22" fromID="E12" fromText="hemodyalisis" toID="T2" toText="today in the morning" type="SIMULTANEOUS" />
+<TLINK id="TL23" fromID="E13" fromText="removed" toID="E12" toText="hemodyalisis" type="DURING" />
+<TLINK id="TL24" fromID="E14" fromText="worsening mental status" toID="T3" toText="2:30 pm" type="BEGUN_BY" />
+<TLINK id="TL25" fromID="E14" fromText="worsening mental status" toID="E11" toText="worsening mental status" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="E15" fromText="hypotensive" toID="E14" toText="worsening mental status" type="OVERLAP" />
+<TLINK id="TL27" fromID="E16" fromText="1 L NS" toID="E15" toText="hypotensive" type="AFTER" />
+<TLINK id="TL28" fromID="E17" fromText="Fs" toID="E16" toText="1 L NS" type="OVERLAP" />
+<TLINK id="TL29" fromID="E18" fromText="T peace" toID="T4" toText="4 am today" type="BEGUN_BY" />
+<TLINK id="TL3" fromID="E0" fromText="Admission" toID="T0" toText="2013-09-05" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="T5" fromText="2:30" toID="E19" toText="sats" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E20" fromText="ABG" toID="E14" toText="worsening mental status" type="AFTER" />
+<TLINK id="TL32" fromID="E21" fromText="AC" toID="E20" toText="ABG" type="AFTER" />
+<TLINK id="TL33" fromID="E21" fromText="AC" toID="E22" toText="PEEP" type="SIMULTANEOUS" />
+<TLINK id="TL34" fromID="E23" fromText="sats" toID="E21" toText="AC" type="AFTER" />
+<TLINK id="TL35" fromID="E18" fromText="T peace" toID="E21" toText="AC" type="ENDED_BY" />
+<TLINK id="TL36" fromID="E24" fromText="persistent lethargy" toID="E14" toText="worsening mental status" type="OVERLAP" />
+<TLINK id="TL37" fromID="E10" fromText="rehab facility" toID="E25" toText="Falkener Amanda" type="ENDED_BY" />
+<TLINK id="TL38" fromID="E26" fromText="interview with HCP" toID="E25" toText="Falkener Amanda" type="OVERLAP" />
+<TLINK id="TL39" fromID="E29" fromText="Williams ICU" toID="T6" toText="07-23" type="BEGUN_BY" />
+<TLINK id="TL4" fromID="E83" fromText="his course" toID="E1" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL40" fromID="E27" fromText="dizziness" toID="T6" toText="07-23" type="BEGUN_BY" />
+<TLINK id="TL41" fromID="E28" fromText="unstable gait" toID="T6" toText="07-23" type="BEGUN_BY" />
+<TLINK id="TL43" fromID="E32" fromText="a peg tube" toID="E29" toText="Williams ICU" type="BEGUN_BY" />
+<TLINK id="TL44" fromID="T7" fromText="08-09" toID="E30" toText="discharged" type="SIMULTANEOUS" />
+<TLINK id="TL45" fromID="E34" fromText="d/c" toID="E30" toText="discharged" type="SIMULTANEOUS" />
+<TLINK id="TL46" fromID="E31" fromText="Waltham/Weston Hospital Rehab" toID="E38" toText="rehab" type="SIMULTANEOUS" />
+<TLINK id="TL47" fromID="E96" fromText="Rehab" toID="E31" toText="Waltham/Weston Hospital Rehab" type="SIMULTANEOUS" />
+<TLINK id="TL48" fromID="E31" fromText="Waltham/Weston Hospital Rehab" toID="E30" toText="discharged" type="BEGUN_BY" />
+<TLINK id="TL49" fromID="E29" fromText="Williams ICU" toID="E30" toText="discharged" type="ENDED_BY" />
+<TLINK id="TL5" fromID="E1" fromText="Discharge" toID="T1" toText="2013-09-12" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="E31" fromText="Waltham/Weston Hospital Rehab" toID="E10" toText="rehab facility" type="SIMULTANEOUS" />
+<TLINK id="TL51" fromID="E33" fromText="tracheostomy" toID="E29" toText="Williams ICU" type="BEGUN_BY" />
+<TLINK id="TL52" fromID="E33" fromText="tracheostomy" toID="E35" toText="chronicallyl vent dependent" type="OVERLAP" />
+<TLINK id="TL53" fromID="E35" fromText="chronicallyl vent dependent" toID="E6" toText="vent" type="OVERLAP" />
+<TLINK id="TL54" fromID="E36" fromText="states" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL55" fromID="E37" fromText="wean him down" toID="E38" toText="rehab" type="DURING" />
+<TLINK id="TL56" fromID="E39" fromText="his basline mental staus" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL57" fromID="E39" fromText="his basline mental staus" toID="E40" toText="his head shaking" type="OVERLAP" />
+<TLINK id="TL58" fromID="E41" fromText="try to write sentences" toID="E39" toText="his basline mental staus" type="OVERLAP" />
+<TLINK id="TL59" fromID="E42" fromText="the Amanda" toID="E25" toText="Falkener Amanda" type="SIMULTANEOUS" />
+<TLINK id="TL6" fromID="E168" fromText="passed away" toID="T1" toText="2013-09-12" type="OVERLAP" />
+<TLINK id="TL60" fromID="E66" fromText="the Amanda" toID="E42" toText="the Amanda" type="SIMULTANEOUS" />
+<TLINK id="TL61" fromID="E43" fromText="VS" toID="E42" toText="the Amanda" type="DURING" />
+<TLINK id="TL62" fromID="E44" fromText="T" toID="E43" toText="VS" type="SIMULTANEOUS" />
+<TLINK id="TL63" fromID="E45" fromText="BP90/44" toID="E43" toText="VS" type="SIMULTANEOUS" />
+<TLINK id="TL64" fromID="E46" fromText="HR" toID="E43" toText="VS" type="SIMULTANEOUS" />
+<TLINK id="TL65" fromID="E47" fromText="RR" toID="E43" toText="VS" type="SIMULTANEOUS" />
+<TLINK id="TL66" fromID="E48" fromText="Sats" toID="E43" toText="VS" type="SIMULTANEOUS" />
+<TLINK id="TL67" fromID="E49" fromText="+ guiac stool" toID="E43" toText="VS" type="OVERLAP" />
+<TLINK id="TL68" fromID="E50" fromText="tylenol" toID="E42" toText="the Amanda" type="DURING" />
+<TLINK id="TL69" fromID="E51" fromText="levofloxacin" toID="E42" toText="the Amanda" type="DURING" />
+<TLINK id="TL7" fromID="E57" fromText="HTN" toID="E2" toText="HTN" type="SIMULTANEOUS" />
+<TLINK id="TL70" fromID="E52" fromText="Flagyl" toID="E42" toText="the Amanda" type="DURING" />
+<TLINK id="TL71" fromID="E53" fromText="Vancomycin" toID="E42" toText="the Amanda" type="DURING" />
+<TLINK id="TL72" fromID="E53" fromText="Vancomycin" toID="E54" toText="NS" type="OVERLAP" />
+<TLINK id="TL73" fromID="E55" fromText="ROS" toID="E42" toText="the Amanda" type="DURING" />
+<TLINK id="TL74" fromID="E56" fromText="patient mental status baselin" toID="E55" toText="ROS" type="BEFORE_OVERLAP" />
+<TLINK id="TL75" fromID="E61" fromText="CRI" toID="E8" toText="ESRD" type="OVERLAP" />
+<TLINK id="TL76" fromID="E62" fromText="HD" toID="E9" toText="HD" type="SIMULTANEOUS" />
+<TLINK id="TL77" fromID="E63" fromText="presents" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL78" fromID="E65" fromText="febrile" toID="E63" toText="presents" type="BEFORE_OVERLAP" />
+<TLINK id="TL79" fromID="E73" fromText="the Amanda" toID="E66" toText="the Amanda" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E2" fromText="HTN" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL80" fromID="E67" fromText="admitted" toID="E68" toText="CMED" type="BEGUN_BY" />
+<TLINK id="TL81" fromID="E66" fromText="the Amanda" toID="E67" toText="admitted" type="ENDED_BY" />
+<TLINK id="TL82" fromID="E69" fromText="Altered mental status" toID="E11" toText="worsening mental status" type="SIMULTANEOUS" />
+<TLINK id="TL83" fromID="E71" fromText="new intracraneal bleeding" toID="E70" toText="Ct scan" type="BEFORE_OVERLAP" />
+<TLINK id="TL84" fromID="E70" fromText="Ct scan" toID="E67" toText="admitted" type="AFTER" />
+<TLINK id="TL85" fromID="E86" fromText="febrile" toID="E72" toText="febrile" type="SIMULTANEOUS" />
+<TLINK id="TL86" fromID="E72" fromText="febrile" toID="E65" toText="febrile" type="SIMULTANEOUS" />
+<TLINK id="TL87" fromID="E72" fromText="febrile" toID="E73" toText="the Amanda" type="OVERLAP" />
+<TLINK id="TL88" fromID="E74" fromText="High WBC" toID="E72" toText="febrile" type="OVERLAP" />
+<TLINK id="TL89" fromID="E75" fromText="hypotension" toID="E76" toText="hypercapnia" type="OVERLAP" />
+<TLINK id="TL9" fromID="E58" fromText="DM" toID="E3" toText="DM" type="SIMULTANEOUS" />
+<TLINK id="TL90" fromID="E75" fromText="hypotension" toID="E69" toText="Altered mental status" type="OVERLAP" />
+<TLINK id="TL91" fromID="E77" fromText="infection" toID="E76" toText="hypercapnia" type="OVERLAP" />
+<TLINK id="TL92" fromID="E78" fromText="broad spectrum antibiotics" toID="E67" toText="admitted" type="AFTER" />
+<TLINK id="TL93" fromID="E79" fromText="a profund limitation communicating" toID="E80" toText="his neurological status" type="OVERLAP" />
+<TLINK id="TL94" fromID="E80" fromText="his neurological status" toID="E81" toText="his mental changes" type="OVERLAP" />
+<TLINK id="TL95" fromID="E81" fromText="his mental changes" toID="E11" toText="worsening mental status" type="SIMULTANEOUS" />
+<TLINK id="TL96" fromID="E82" fromText="improved initially" toID="E67" toText="admitted" type="AFTER" />
+<TLINK id="TL97" fromID="E84" fromText="his mental status deteriorated" toID="E83" toText="his course" type="DURING" />
+<TLINK id="TL98" fromID="E84" fromText="his mental status deteriorated" toID="E85" toText="less responsive" type="OVERLAP" />
+<TLINK id="TL99" fromID="E87" fromText="a high WBC" toID="E74" toText="High WBC" type="SIMULTANEOUS" />
+<SECTIME id="S0" start="18" end="28" text="2013-09-05" type="ADMISSION" dvalue="2013-09-05" />
+<SECTIME id="S1" start="46" end="56" text="2013-09-12" type="DISCHARGE" dvalue="2013-09-12" />
+<TLINK id="SECTIME0" fromID="E30" fromText="discharged" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E31" fromText="Waltham/Weston Hospital Rehab" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E32" fromText="a peg tube" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E33" fromText="tracheostomy" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E34" fromText="d/c" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E35" fromText="chronicallyl vent dependent" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E36" fromText="states" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E37" fromText="wean him down" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E38" fromText="rehab" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E39" fromText="his basline mental staus" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E40" fromText="his head shaking" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E41" fromText="try to write sentences" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E42" fromText="the Amanda" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E43" fromText="VS" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E44" fromText="T" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E45" fromText="BP90/44" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E46" fromText="HR" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E47" fromText="RR" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E48" fromText="Sats" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E49" fromText="+ guiac stool" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E50" fromText="tylenol" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E2" fromText="HTN" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E51" fromText="levofloxacin" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E52" fromText="Flagyl" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E53" fromText="Vancomycin" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E3" fromText="DM" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E54" fromText="NS" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E55" fromText="ROS" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E56" fromText="patient mental status baselin" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E4" fromText="recent CVA" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E57" fromText="HTN" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E58" fromText="DM" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E59" fromText="recent CVA" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E60" fromText="chronic ventilatory failure" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E61" fromText="CRI" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E62" fromText="HD" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E63" fromText="presents" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E64" fromText="change in MS" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E65" fromText="febrile" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E5" fromText="chronic respiratory failure" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E66" fromText="the Amanda" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E67" fromText="admitted" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E68" fromText="CMED" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E69" fromText="Altered mental status" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E70" fromText="Ct scan" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E71" fromText="new intracraneal bleeding" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E72" fromText="febrile" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E73" fromText="the Amanda" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E74" fromText="High WBC" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E75" fromText="hypotension" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E76" fromText="hypercapnia" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E77" fromText="infection" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E78" fromText="broad spectrum antibiotics" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E6" fromText="vent" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E79" fromText="a profund limitation communicating" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E80" fromText="his neurological status" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E7" fromText="trached" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E81" fromText="his mental changes" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E82" fromText="improved initially" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E83" fromText="his course" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E8" fromText="ESRD" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E84" fromText="his mental status deteriorated" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E85" fromText="less responsive" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E9" fromText="HD" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E86" fromText="febrile" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E87" fromText="a high WBC" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E88" fromText="admission" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E89" fromText="broad spectrum antibiotics" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E90" fromText="cefepime" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E91" fromText="vancomycin" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E92" fromText="flagyl" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E93" fromText="aspiration pneumonia" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E94" fromText="responded" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E95" fromText="Urine cx" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E96" fromText="Rehab" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E97" fromText="showed" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E10" fromText="rehab facility" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E98" fromText="gram negative rods" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E99" fromText="> 100 K enterobacter cloacae" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E100" fromText="Urine Cx" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E101" fromText="in house" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E102" fromText="Citrobacter Freundi" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E103" fromText="his sputum" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E104" fromText="Acinetobacter Baummani" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E105" fromText="gram positive infections" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E11" fromText="worsening mental status" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E106" fromText="vancomycin" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E107" fromText="cefepime" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E108" fromText="Fevers" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E109" fromText="the Amanda" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E110" fromText="high WBC" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E111" fromText="pneumonia" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E112" fromText="sinus infections" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E113" fromText="findings" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E114" fromText="intial CT" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E115" fromText="fevers" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E116" fromText="transfer" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E117" fromText="the CMED" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E118" fromText="the Amanda" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E119" fromText="AC" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E120" fromText="Pressure support trials" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E121" fromText="Patient did well" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E122" fromText="trach mask trials" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E123" fromText="tolerated this well" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E124" fromText="PS" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E125" fromText="ESRD" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E126" fromText="hemodyalisis" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E127" fromText="consulted" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E12" fromText="hemodyalisis" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E128" fromText="HD" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E129" fromText="Rhythm" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E130" fromText="NSR" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E131" fromText="tachycardic" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E132" fromText="lower extremity edema" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME114" fromID="E133" fromText="X ray" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E134" fromText="some pulmonary edema" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E135" fromText="admission" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME117" fromID="E136" fromText="40% FIO2" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME118" fromID="E137" fromText="CAD" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME119" fromID="E138" fromText="admission" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME120" fromID="E139" fromText="Ck" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME121" fromID="E140" fromText="MB" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME122" fromID="E141" fromText="Troponin" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME123" fromID="E142" fromText="CRI" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME124" fromID="E143" fromText="set" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME125" fromID="E144" fromText="showed" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME126" fromID="E145" fromText="changes" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME127" fromID="E146" fromText="stroke" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME128" fromID="E147" fromText="aspirin" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME129" fromID="E148" fromText="statin" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME130" fromID="E149" fromText="plavix" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME131" fromID="E150" fromText="Hypotension" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME132" fromID="E13" fromText="removed" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME133" fromID="E151" fromText="sepsis" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME134" fromID="E152" fromText="fevers" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME135" fromID="E153" fromText="high blood count" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME136" fromID="E154" fromText="His BP medications" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME137" fromID="E155" fromText="admission" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME138" fromID="E156" fromText="pressors" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME139" fromID="E157" fromText="His blood pressure" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME140" fromID="E158" fromText="remained stable" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME141" fromID="E159" fromText="BP meds" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME142" fromID="E160" fromText="Tube feedings" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME143" fromID="E161" fromText="peg tube" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME144" fromID="E162" fromText="pulled out" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME145" fromID="E163" fromText="peg tube" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME146" fromID="E164" fromText="Temporary foley" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME147" fromID="E165" fromText="deterioration of his mental status and also of his blood pressure" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME148" fromID="E14" fromText="worsening mental status" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME149" fromID="E166" fromText="discussed" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME150" fromID="E167" fromText="confort care" toID="T1" toText="2013-09-12" type="BEFORE" />
+<TLINK id="SECTIME151" fromID="E15" fromText="hypotensive" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME152" fromID="E16" fromText="1 L NS" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME153" fromID="E17" fromText="Fs" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME154" fromID="E18" fromText="T peace" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME155" fromID="E19" fromText="sats" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME156" fromID="E20" fromText="ABG" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME157" fromID="E21" fromText="AC" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME158" fromID="E22" fromText="PEEP" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME159" fromID="E23" fromText="sats" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME160" fromID="E24" fromText="persistent lethargy" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME161" fromID="E25" fromText="Falkener Amanda" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME162" fromID="E26" fromText="interview with HCP" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME163" fromID="E27" fromText="dizziness" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME164" fromID="E28" fromText="unstable gait" toID="T0" toText="2013-09-05" type="BEFORE" />
+<TLINK id="SECTIME165" fromID="E29" fromText="Williams ICU" toID="T0" toText="2013-09-05" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+06/25/1990
+Discharge Date :
+07/05/1990
+HISTORY OF PRESENT ILLNESS :
+The patient is a 78-year-old female who has had osteoarthritis and noted the sudden onset of left knee pain in 09/89 .
+Since that time , she has used a cane and she was referred to Dr. Koors .
+MRI demonstrated a left femoral condyle osteonecrotic defect and degenerative meniscus .
+She climbs stairs one at a time and denied rest pain .
+She can one walk without difficulties .
+She presented for an elective left total knee arthroplasty .
+HOSPITAL COURSE :
+The patient was cleared for surgery by Dr. Lupevickette Ca .
+Her EKG was normal .
+She was therefore taken to the Operating Room on 6/26 and underwent a left total knee arthroplasty losing 200 cc of blood in the procedure with two drains left in which were removed on the first postoperative day .
+She was slightly agitated on the first postoperative day but this resolved by the second postoperative day .
+Her epidural catheter was removed on 6/29 .
+The Foley catheter was removed on 6/29 and she had no difficulties voiding .
+Psychiatry Service saw her on 6/28 and recommended avoiding benzodiazepines and Haldol for agitation .
+She was prophylaxed with Kefzol perioperatively and with Coumadin postoperatively .
+She was also given whiskey spirits because of the fact that she drank one to two drinks of scotch per day .
+Her hematocrit was 31.4 on 6/29 with a PT of 18.2
+Her PT drifted down to a level of 12.9 by 7/3 and therefore she will be discharged with 4 mg of Coumadin per day to be followed by the Coumadin Clinic at Cowerin Tonli Medical Center .
+She was discharged with a prescription for Tylenol #3 with Physical Therapy .
+She did quite well with Physical Therapy and was ambulating with a walker and crutches by 7/3/90 .
+She was able to flex her knees to 90 degrees by that time .
+She developed no problems with edema or with her wound during her hospital stay .
+She will follow-up with Dr. Koors in approximately five weeks .
+________________________________
+IA605/6041 DE KOORS , M.D. CU2
+D :
+07/03/90
+Batch :
+1726
+Report :
+J0929X49
+T :
+07/04/90
+Dicatated By :
+LENTNY FARSTNAPPSSHEE , M.D.
+]]></TEXT>
+<TAGS>
+<EVENT id="E24" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="1046" end="1066" text="difficulties voiding" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E47" start="1069" end="1087" text="Psychiatry Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E48" start="1108" end="1119" text="recommended" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1129" end="1144" text="benzodiazepines" modality="PROPOSED" polarity="NEG" type="TREATMENT" />
+<EVENT id="E50" start="1149" end="1155" text="Haldol" modality="PROPOSED" polarity="NEG" type="TREATMENT" />
+<EVENT id="E13" start="1160" end="1169" text="agitation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="1197" end="1203" text="Kefzol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1229" end="1237" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1275" end="1290" text="whiskey spirits" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E0" start="134" end="148" text="osteoarthritis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1347" end="1353" text="scotch" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="1364" end="1378" text="Her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="1401" end="1405" text="a PT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="1414" end="1420" text="Her PT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="1421" end="1433" text="drifted down" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="1486" end="1496" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="1510" end="1518" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="153" end="158" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E54" start="1533" end="1541" text="followed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="1545" end="1564" text="the Coumadin Clinic" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E56" start="1568" end="1596" text="Cowerin Tonli Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E27" start="1607" end="1617" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="1642" end="1652" text="Tylenol #3" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="1658" end="1674" text="Physical Therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="1685" end="1695" text="quite well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="1701" end="1717" text="Physical Therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="1726" end="1736" text="ambulating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="1742" end="1750" text="a walker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1755" end="1763" text="crutches" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="179" end="193" text="left knee pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="1792" end="1806" text="flex her knees" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E62" start="1853" end="1861" text="problems" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E63" start="1867" end="1872" text="edema" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E23" start="1881" end="1890" text="her wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="1898" end="1915" text="her hospital stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="1927" end="1936" text="follow-up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="236" end="242" text="a cane" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="279" end="282" text="MRI" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="283" end="295" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E25" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="296" end="339" text="a left femoral condyle osteonecrotic defect" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="344" end="365" text="degenerative meniscus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="372" end="399" text="climbs stairs one at a time" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="404" end="410" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E35" start="411" end="420" text="rest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E36" start="435" end="439" text="walk" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="448" end="460" text="difficulties" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E38" start="467" end="476" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E39" start="481" end="521" text="an elective left total knee arthroplasty" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="558" end="565" text="cleared" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="570" end="577" text="surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="603" end="610" text="Her EKG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="615" end="621" text="normal" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="651" end="669" text="the Operating Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E6" start="692" end="722" text="a left total knee arthroplasty" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="723" end="729" text="losing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="740" end="745" text="blood" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="749" end="762" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="768" end="778" text="two drains" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="798" end="805" text="removed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="856" end="864" text="agitated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="948" end="969" text="Her epidural catheter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="992" end="1010" text="The Foley catheter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T13" start="1026" end="1030" text="6/29" type="DATE" val="1990-06-29" mod="NA" />
+<TIMEX3 id="T5" start="1099" end="1103" text="6/28" type="DATE" val="1990-06-28" mod="NA" />
+<TIMEX3 id="T6" start="1391" end="1395" text="6/29" type="DATE" val="1990-06-29" mod="NA" />
+<TIMEX3 id="T7" start="1456" end="1459" text="7/3" type="DATE" val="1990-07-03" mod="NA" />
+<TIMEX3 id="T14" start="1519" end="1526" text="per day" type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T8" start="1767" end="1773" text="7/3/90" type="DATE" val="1990-07-03" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="06/25/1990" type="DATE" val="1990-06-25" mod="NA" />
+<TIMEX3 id="T15" start="1824" end="1833" text="that time" type="DATE" val="1990-07-03" mod="NA" />
+<TIMEX3 id="T16" start="1969" end="1979" text="five weeks" type="DATE" val="1990-08-02" mod="APPROX" />
+<TIMEX3 id="T0" start="197" end="202" text="09/89" type="DATE" val="1989-09" mod="NA" />
+<TIMEX3 id="T9" start="211" end="220" text="that time" type="DATE" val="1989-09" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="07/05/1990" type="DATE" val="1990-07-05" mod="NA" />
+<TIMEX3 id="T3" start="673" end="677" text="6/26" type="DATE" val="1990-06-26" mod="NA" />
+<TIMEX3 id="T10" start="809" end="836" text="the first postoperative day" type="DATE" val="1990-06-27" mod="NA" />
+<TIMEX3 id="T11" start="868" end="895" text="the first postoperative day" type="DATE" val="1990-06-27" mod="NA" />
+<TIMEX3 id="T12" start="917" end="945" text="the second postoperative day" type="DATE" val="1990-06-28" mod="NA" />
+<TIMEX3 id="T4" start="985" end="989" text="6/29" type="DATE" val="1990-06-29" mod="NA" />
+<TLINK id="TL0" fromID="E24" fromText="Admission" toID="T1" toText="06/25/1990" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E6" fromText="a left total knee arthroplasty" toID="E7" toText="the procedure" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E0" fromText="osteoarthritis" toID="T0" toText="09/89" type="BEFORE_OVERLAP" />
+<TLINK id="TL11" fromID="E28" fromText="noted" toID="E24" toText="Admission" type="BEFORE" />
+<TLINK id="TL12" fromID="E28" fromText="noted" toID="T0" toText="09/89" type="SIMULTANEOUS" />
+<TLINK id="TL13" fromID="E1" fromText="left knee pain" toID="E28" toText="noted" type="SIMULTANEOUS" />
+<TLINK id="TL14" fromID="T9" fromText="that time" toID="T0" toText="09/89" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E2" fromText="a cane" toID="T9" toText="that time" type="BEGUN_BY" />
+<TLINK id="TL16" fromID="E3" fromText="MRI" toID="E28" toText="noted" type="AFTER" />
+<TLINK id="TL17" fromID="E29" fromText="demonstrated" toID="E3" toText="MRI" type="SIMULTANEOUS" />
+<TLINK id="TL18" fromID="E30" fromText="a left femoral condyle osteonecrotic defect" toID="E29" toText="demonstrated" type="BEFORE_OVERLAP" />
+<TLINK id="TL19" fromID="E31" fromText="degenerative meniscus" toID="E30" toText="a left femoral condyle osteonecrotic defect" type="OVERLAP" />
+<TLINK id="TL2" fromID="E8" fromText="two drains" toID="E7" toText="the procedure" type="BEGUN_BY" />
+<TLINK id="TL20" fromID="E34" fromText="denied" toID="E24" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL21" fromID="E33" fromText="climbs stairs one at a time" toID="E34" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL22" fromID="E35" fromText="rest pain" toID="E33" toText="climbs stairs one at a time" type="OVERLAP" />
+<TLINK id="TL23" fromID="E36" fromText="walk" toID="E33" toText="climbs stairs one at a time" type="OVERLAP" />
+<TLINK id="TL24" fromID="E37" fromText="difficulties" toID="E36" toText="walk" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E39" fromText="an elective left total knee arthroplasty" toID="E38" toText="presented" type="AFTER" />
+<TLINK id="TL26" fromID="E40" fromText="cleared" toID="E38" toText="presented" type="AFTER" />
+<TLINK id="TL27" fromID="E40" fromText="cleared" toID="E4" toText="surgery" type="BEFORE" />
+<TLINK id="TL28" fromID="E4" fromText="surgery" toID="E39" toText="an elective left total knee arthroplasty" type="SIMULTANEOUS" />
+<TLINK id="TL29" fromID="E5" fromText="Her EKG" toID="E40" toText="cleared" type="OVERLAP" />
+<TLINK id="TL3" fromID="E10" fromText="Her epidural catheter" toID="T4" toText="6/29" type="ENDED_BY" />
+<TLINK id="TL31" fromID="E5" fromText="Her EKG" toID="E41" toText="normal" type="BEFORE_OVERLAP" />
+<TLINK id="TL32" fromID="E42" fromText="the Operating Room" toID="E5" toText="Her EKG" type="AFTER" />
+<TLINK id="TL33" fromID="E42" fromText="the Operating Room" toID="T3" toText="6/26" type="SIMULTANEOUS" />
+<TLINK id="TL34" fromID="E6" fromText="a left total knee arthroplasty" toID="E42" toText="the Operating Room" type="DURING" />
+<TLINK id="TL35" fromID="E43" fromText="losing" toID="E6" toText="a left total knee arthroplasty" type="OVERLAP" />
+<TLINK id="TL36" fromID="E44" fromText="blood" toID="E43" toText="losing" type="SIMULTANEOUS" />
+<TLINK id="TL37" fromID="E7" fromText="the procedure" toID="E6" toText="a left total knee arthroplasty" type="SIMULTANEOUS" />
+<TLINK id="TL39" fromID="E8" fromText="two drains" toID="E45" toText="removed" type="ENDED_BY" />
+<TLINK id="TL4" fromID="E26" fromText="discharged" toID="E25" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E45" fromText="removed" toID="T10" toText="the first postoperative day" type="SIMULTANEOUS" />
+<TLINK id="TL41" fromID="T11" fromText="the first postoperative day" toID="T10" toText="the first postoperative day" type="SIMULTANEOUS" />
+<TLINK id="TL42" fromID="E46" fromText="agitated" toID="T11" toText="the first postoperative day" type="SIMULTANEOUS" />
+<TLINK id="TL43" fromID="T12" fromText="the second postoperative day" toID="T11" toText="the first postoperative day" type="AFTER" />
+<TLINK id="TL44" fromID="E46" fromText="agitated" toID="T12" toText="the second postoperative day" type="ENDED_BY" />
+<TLINK id="TL45" fromID="T4" fromText="6/29" toID="T12" toText="the second postoperative day" type="AFTER" />
+<TLINK id="TL47" fromID="E10" fromText="Her epidural catheter" toID="E7" toText="the procedure" type="BEGUN_BY" />
+<TLINK id="TL48" fromID="T13" fromText="6/29" toID="T4" toText="6/29" type="SIMULTANEOUS" />
+<TLINK id="TL49" fromID="E11" fromText="The Foley catheter" toID="E10" toText="Her epidural catheter" type="OVERLAP" />
+<TLINK id="TL5" fromID="E64" fromText="her hospital stay" toID="E24" toText="Admission" type="BEGUN_BY" />
+<TLINK id="TL50" fromID="E11" fromText="The Foley catheter" toID="T13" toText="6/29" type="ENDED_BY" />
+<TLINK id="TL51" fromID="E12" fromText="difficulties voiding" toID="E11" toText="The Foley catheter" type="AFTER" />
+<TLINK id="TL52" fromID="T5" fromText="6/28" toID="T12" toText="the second postoperative day" type="SIMULTANEOUS" />
+<TLINK id="TL53" fromID="E47" fromText="Psychiatry Service" toID="T5" toText="6/28" type="SIMULTANEOUS" />
+<TLINK id="TL54" fromID="E48" fromText="recommended" toID="E47" toText="Psychiatry Service" type="SIMULTANEOUS" />
+<TLINK id="TL55" fromID="E49" fromText="benzodiazepines" toID="E48" toText="recommended" type="AFTER" />
+<TLINK id="TL56" fromID="E50" fromText="Haldol" toID="E49" toText="benzodiazepines" type="OVERLAP" />
+<TLINK id="TL57" fromID="E13" fromText="agitation" toID="E46" toText="agitated" type="SIMULTANEOUS" />
+<TLINK id="TL58" fromID="E14" fromText="Kefzol" toID="E4" toText="surgery" type="BEFORE" />
+<TLINK id="TL59" fromID="E15" fromText="Coumadin" toID="E4" toText="surgery" type="AFTER" />
+<TLINK id="TL6" fromID="E38" fromText="presented" toID="E24" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL60" fromID="E16" fromText="whiskey spirits" toID="E15" toText="Coumadin" type="OVERLAP" />
+<TLINK id="TL61" fromID="E51" fromText="scotch" toID="E16" toText="whiskey spirits" type="BEFORE_OVERLAP" />
+<TLINK id="TL63" fromID="T6" fromText="6/29" toID="T13" toText="6/29" type="SIMULTANEOUS" />
+<TLINK id="TL64" fromID="E17" fromText="Her hematocrit" toID="T6" toText="6/29" type="SIMULTANEOUS" />
+<TLINK id="TL65" fromID="E18" fromText="a PT" toID="E17" toText="Her hematocrit" type="SIMULTANEOUS" />
+<TLINK id="TL66" fromID="T7" fromText="7/3" toID="T6" toText="6/29" type="SIMULTANEOUS" />
+<TLINK id="TL67" fromID="T7" fromText="7/3" toID="E27" toText="discharged" type="BEFORE" />
+<TLINK id="TL68" fromID="E19" fromText="Her PT" toID="E52" toText="drifted down" type="SIMULTANEOUS" />
+<TLINK id="TL69" fromID="E52" fromText="drifted down" toID="T7" toText="7/3" type="SIMULTANEOUS" />
+<TLINK id="TL7" fromID="E25" fromText="Discharge" toID="T2" toText="07/05/1990" type="SIMULTANEOUS" />
+<TLINK id="TL70" fromID="E26" fromText="discharged" toID="T7" toText="7/3" type="AFTER" />
+<TLINK id="TL71" fromID="E53" fromText="Coumadin" toID="E26" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL72" fromID="E53" fromText="Coumadin" toID="T14" toText="per day" type="OVERLAP" />
+<TLINK id="TL73" fromID="E54" fromText="followed" toID="E26" toText="discharged" type="AFTER" />
+<TLINK id="TL74" fromID="E55" fromText="the Coumadin Clinic" toID="E54" toText="followed" type="SIMULTANEOUS" />
+<TLINK id="TL75" fromID="E56" fromText="Cowerin Tonli Medical Center" toID="E55" toText="the Coumadin Clinic" type="SIMULTANEOUS" />
+<TLINK id="TL76" fromID="E57" fromText="Tylenol #3" toID="E27" toText="discharged" type="AFTER" />
+<TLINK id="TL77" fromID="E58" fromText="Physical Therapy" toID="E57" toText="Tylenol #3" type="BEFORE" />
+<TLINK id="TL78" fromID="E20" fromText="Physical Therapy" toID="E58" toText="Physical Therapy" type="SIMULTANEOUS" />
+<TLINK id="TL79" fromID="E59" fromText="quite well" toID="E20" toText="Physical Therapy" type="DURING" />
+<TLINK id="TL8" fromID="E64" fromText="her hospital stay" toID="E25" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL80" fromID="T8" fromText="7/3/90" toID="T7" toText="7/3" type="SIMULTANEOUS" />
+<TLINK id="TL81" fromID="E60" fromText="ambulating" toID="T8" toText="7/3/90" type="BEFORE_OVERLAP" />
+<TLINK id="TL82" fromID="E21" fromText="a walker" toID="E60" toText="ambulating" type="SIMULTANEOUS" />
+<TLINK id="TL83" fromID="E22" fromText="crutches" toID="E21" toText="a walker" type="OVERLAP" />
+<TLINK id="TL84" fromID="T15" fromText="that time" toID="T8" toText="7/3/90" type="SIMULTANEOUS" />
+<TLINK id="TL85" fromID="E61" fromText="flex her knees" toID="E60" toText="ambulating" type="OVERLAP" />
+<TLINK id="TL86" fromID="E62" fromText="problems" toID="E63" toText="edema" type="SIMULTANEOUS" />
+<TLINK id="TL87" fromID="E23" fromText="her wound" toID="E63" toText="edema" type="OVERLAP" />
+<TLINK id="TL88" fromID="E62" fromText="problems" toID="E64" toText="her hospital stay" type="DURING" />
+<TLINK id="TL89" fromID="E65" fromText="follow-up" toID="E64" toText="her hospital stay" type="AFTER" />
+<TLINK id="TL9" fromID="E27" fromText="discharged" toID="E26" toText="discharged" type="SIMULTANEOUS" />
+<TLINK id="TL90" fromID="E65" fromText="follow-up" toID="T16" toText="five weeks" type="SIMULTANEOUS" />
+<TLINK id="TL91" fromID="T16" fromText="five weeks" toID="E64" toText="her hospital stay" type="AFTER" />
+<TLINK id="SECTIME0" fromID="E12" fromText="difficulties voiding" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E47" fromText="Psychiatry Service" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E48" fromText="recommended" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E49" fromText="benzodiazepines" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E50" fromText="Haldol" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E13" fromText="agitation" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E14" fromText="Kefzol" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E15" fromText="Coumadin" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E16" fromText="whiskey spirits" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E0" fromText="osteoarthritis" toID="T1" toText="06/25/1990" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME10" fromID="E51" fromText="scotch" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E17" fromText="Her hematocrit" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E18" fromText="a PT" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E19" fromText="Her PT" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E52" fromText="drifted down" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E26" fromText="discharged" toID="T2" toText="07/05/1990" type="OVERLAP" />
+<TLINK id="SECTIME16" fromID="E53" fromText="Coumadin" toID="T2" toText="07/05/1990" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME17" fromID="E28" fromText="noted" toID="T1" toText="06/25/1990" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E54" fromText="followed" toID="T2" toText="07/05/1990" type="AFTER" />
+<TLINK id="SECTIME19" fromID="E55" fromText="the Coumadin Clinic" toID="T2" toText="07/05/1990" type="AFTER" />
+<TLINK id="SECTIME20" fromID="E56" fromText="Cowerin Tonli Medical Center" toID="T2" toText="07/05/1990" type="AFTER" />
+<TLINK id="SECTIME21" fromID="E27" fromText="discharged" toID="T2" toText="07/05/1990" type="OVERLAP" />
+<TLINK id="SECTIME22" fromID="E57" fromText="Tylenol #3" toID="T2" toText="07/05/1990" type="AFTER" />
+<TLINK id="SECTIME23" fromID="E58" fromText="Physical Therapy" toID="T2" toText="07/05/1990" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME24" fromID="E59" fromText="quite well" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E20" fromText="Physical Therapy" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E60" fromText="ambulating" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E21" fromText="a walker" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E22" fromText="crutches" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E1" fromText="left knee pain" toID="T1" toText="06/25/1990" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME30" fromID="E61" fromText="flex her knees" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E62" fromText="problems" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E63" fromText="edema" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E23" fromText="her wound" toID="T2" toText="07/05/1990" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME34" fromID="E64" fromText="her hospital stay" toID="T2" toText="07/05/1990" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME35" fromID="E65" fromText="follow-up" toID="T2" toText="07/05/1990" type="AFTER" />
+<TLINK id="SECTIME36" fromID="E2" fromText="a cane" toID="T1" toText="06/25/1990" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME37" fromID="E3" fromText="MRI" toID="T1" toText="06/25/1990" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E29" fromText="demonstrated" toID="T1" toText="06/25/1990" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E30" fromText="a left femoral condyle osteonecrotic defect" toID="T1" toText="06/25/1990" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME40" fromID="E31" fromText="degenerative meniscus" toID="T1" toText="06/25/1990" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME41" fromID="E33" fromText="climbs stairs one at a time" toID="T1" toText="06/25/1990" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME42" fromID="E34" fromText="denied" toID="T1" toText="06/25/1990" type="OVERLAP" />
+<TLINK id="SECTIME43" fromID="E35" fromText="rest pain" toID="T1" toText="06/25/1990" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME44" fromID="E36" fromText="walk" toID="T1" toText="06/25/1990" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME45" fromID="E37" fromText="difficulties" toID="T1" toText="06/25/1990" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME46" fromID="E38" fromText="presented" toID="T1" toText="06/25/1990" type="OVERLAP" />
+<TLINK id="SECTIME47" fromID="E39" fromText="an elective left total knee arthroplasty" toID="T1" toText="06/25/1990" type="AFTER" />
+<TLINK id="SECTIME48" fromID="E40" fromText="cleared" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E4" fromText="surgery" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E5" fromText="Her EKG" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E41" fromText="normal" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E42" fromText="the Operating Room" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E6" fromText="a left total knee arthroplasty" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E43" fromText="losing" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E44" fromText="blood" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E7" fromText="the procedure" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E8" fromText="two drains" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E45" fromText="removed" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E46" fromText="agitated" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E10" fromText="Her epidural catheter" toID="T2" toText="07/05/1990" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E11" fromText="The Foley catheter" toID="T2" toText="07/05/1990" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="06/25/1990" type="ADMISSION" dvalue="1990-06-25" />
+<SECTIME id="S1" start="46" end="56" text="07/05/1990" type="DISCHARGE" dvalue="1990-07-05" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

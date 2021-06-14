@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+8-15-93
+DISCHARGE DATE :
+08-22-93
+HISTORY OF PRESENT ILLNESS :
+The patient is a 58 year old female with a history of Parkinson &apos;s disease for more than twenty years who presented to the Gemenadentoolpai Medical Center with a revolving anterolateral wall myocardial infarction on 08-01-93 .
+She has been under the care of Dr. Aalv Manual and was referred here for further therapy .
+She had no prior significant cardiac history and presented to her local medical doctor &apos;s office with an episode of severe retrosternal chest pain .
+Her electrocardiogram showed a new right bundle branch block and left anterior hemiblock .
+The patient was transferred to the Gemenadentoolpai Medical Center and was admitted .
+Her hospital course was remarkable for ruling in for a myocardial infarction with a peak CPK of 9,379 units with a 5.9% MB fraction .
+In addition , on telemetry she developed complete heart block and hypotension requiring temporary pacing wire and then a permanent pacemaker implantation on 08-03-93 .
+She developed congestive heart failure and required pressor support .
+She underwent cardiac catheterization on 8-15-93 and was found to have a left ventricular end diastolic pressure of 28 millimeters of mercury .
+She had a dominant right coronary artery with minor disease .
+The main left coronary artery had a 20% stenosis .
+The left anterior descending had a severe 80% proximal stenosis with a filling defect consistent with intraluminal thrombus .
+The circumflex artery had a minor 40% stenosis .
+Cine left ventriculogram revealed a dilated left ventricle with an area of anterolateral , apical , and septal akinesis .
+The left ventricular ejection fraction was estimated to 38% .
+The patient was transferred to the Heaonboburg Linpack Grant Medical Center for consideration of coronary angioplasty .
+CARDIAC RISK FACTORS :
+Her risk factors for coronary artery disease included a positive family history and an elevated cholesterol level .
+HOSPITAL COURSE :
+The patient was admitted to the Medical Service .
+The patient was seen in consultation by the Neurology Department because of the history of Parkinson &apos;s disease .
+The patient was maintained on intravenous heparin .
+On 8-17-93 , she was taken to the cardiac catheterization laboratory where she underwent percutaneous transluminal coronary angioplasty of the proximal left anterior descending .
+Following balloon angioplasty , there was a local dissection with evidence of intraluminal thrombus , with a greater than 10% loss in the initial gain following coronary angioplasty .
+Therefore , directional coronary atherectomy was performed with an excellent angiographic outcome , and a less than 10% residual narrowing .
+The patient tolerated the procedure well .
+She was maintained on intravenous heparin and was brought back to the cardiac catheterization laboratory on 08-18-93 for a relook coronary angiography .
+Coronary angiography demonstrated ongoing benefit of the initial coronary atherectomy .
+Specifically , there was no decrease in the initial gain that she achieved after directional atherectomy .
+The patient remained stable during the rest of the hospitalization .
+She was transferred in stable condition to the Pasi for further rehabilitation therapy .
+RENLAN FYFEZEIS , M.D.
+Dr. Aalv Lorjes Salv Manual Pasi
+TR :
+jb / bmot
+DD :
+9-17-93
+TD :
+09/19/93
+CC :
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="1051" end="1075" text="congestive heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="1089" end="1104" text="pressor support" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="1121" end="1144" text="cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E63" start="1164" end="1169" text="found" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="1178" end="1219" text="a left ventricular end diastolic pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="1259" end="1291" text="a dominant right coronary artery" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="1297" end="1310" text="minor disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="135" end="160" text="Parkinson &apos;s disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="1347" end="1361" text="a 20% stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="1397" end="1427" text="a severe 80% proximal stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="1433" end="1449" text="a filling defect" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="1466" end="1487" text="intraluminal thrombus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1516" end="1536" text="a minor 40% stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="1539" end="1563" text="Cine left ventriculogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E67" start="1564" end="1572" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E20" start="1573" end="1597" text="a dilated left ventricle" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1603" end="1658" text="an area of anterolateral , apical , and septal akinesis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="1661" end="1699" text="The left ventricular ejection fraction" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E69" start="1704" end="1713" text="estimated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E70" start="1739" end="1750" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="1754" end="1798" text="the Heaonboburg Linpack Grant Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E72" start="1820" end="1840" text="coronary angioplasty" modality="POSSIBLE" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1866" end="1882" text="Her risk factors" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="1887" end="1910" text="coronary artery disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="1920" end="1945" text="a positive family history" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="192" end="201" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="1950" end="1979" text="an elevated cholesterol level" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="2016" end="2024" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="2028" end="2047" text="the Medical Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E51" start="205" end="240" text="the Gemenadentoolpai Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E75" start="2066" end="2086" text="seen in consultation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="2090" end="2114" text="the Neurology Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E25" start="2141" end="2166" text="Parkinson &apos;s disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="2199" end="2218" text="intravenous heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="2251" end="2289" text="the cardiac catheterization laboratory" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E27" start="2310" end="2397" text="percutaneous transluminal coronary angioplasty of the proximal left anterior descending" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="2410" end="2429" text="balloon angioplasty" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="2442" end="2460" text="a local dissection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="246" end="298" text="a revolving anterolateral wall myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="2478" end="2499" text="intraluminal thrombus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="2507" end="2550" text="a greater than 10% loss in the initial gain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="2561" end="2581" text="coronary angioplasty" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="2596" end="2628" text="directional coronary atherectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="26" end="35" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="2648" end="2681" text="an excellent angiographic outcome" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="2688" end="2722" text="a less than 10% residual narrowing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="2737" end="2746" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="2747" end="2760" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="2761" end="2765" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="2790" end="2809" text="intravenous heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="2834" end="2872" text="the cardiac catheterization laboratory" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E37" start="2889" end="2918" text="a relook coronary angiography" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="2921" end="2941" text="Coronary angiography" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E49" start="2942" end="2954" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E82" start="2955" end="2970" text="ongoing benefit" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="2974" end="3006" text="the initial coronary atherectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E83" start="3037" end="3045" text="decrease" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E84" start="3049" end="3065" text="the initial gain" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="3090" end="3113" text="directional atherectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E85" start="3128" end="3143" text="remained stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E86" start="3151" end="3182" text="the rest of the hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="3193" end="3204" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E88" start="3208" end="3224" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E89" start="3228" end="3236" text="the Pasi" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E90" start="3241" end="3271" text="further rehabilitation therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="332" end="340" text="the care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="368" end="376" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="377" end="381" text="here" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E54" start="386" end="401" text="further therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="415" end="448" text="prior significant cardiac history" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E43" start="453" end="462" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="466" end="505" text="her local medical doctor &apos;s office" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="525" end="555" text="severe retrosternal chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="558" end="579" text="Her electrocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="580" end="586" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E57" start="587" end="618" text="a new right bundle branch block" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="623" end="646" text="left anterior hemiblock" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="665" end="676" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="680" end="715" text="the Gemenadentoolpai Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E47" start="724" end="732" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="735" end="754" text="Her hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="788" end="811" text="a myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="817" end="827" text="a peak CPK" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E58" start="855" end="866" text="MB fraction" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="886" end="895" text="telemetry" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="900" end="909" text="developed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="910" end="930" text="complete heart block" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="935" end="946" text="hypotension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="957" end="978" text="temporary pacing wire" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="988" end="1022" text="a permanent pacemaker implantation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T5" start="1026" end="1034" text="08-03-93" type="DATE" val="1993-08-03" mod="NA" />
+<TIMEX3 id="T6" start="1148" end="1155" text="8-15-93" type="DATE" val="1993-08-15" mod="NA" />
+<TIMEX3 id="T3" start="175" end="187" text="twenty years" type="DURATION" val="P20Y" mod="MORE" />
+<TIMEX3 id="T1" start="18" end="25" text="8-15-93" type="DATE" val="1993-08-15" mod="NA" />
+<TIMEX3 id="T7" start="2224" end="2231" text="8-17-93" type="DATE" val="1993-08-17" mod="NA" />
+<TIMEX3 id="T8" start="2876" end="2884" text="08-18-93" type="DATE" val="1993-08-18" mod="NA" />
+<TIMEX3 id="T4" start="302" end="310" text="08-01-93" type="DATE" val="1993-08-01" mod="NA" />
+<TIMEX3 id="T2" start="43" end="51" text="08-22-93" type="DATE" val="1993-08-22" mod="NA" />
+<TLINK id="TL0" fromID="T1" fromText="8-15-93" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL1" fromID="E28" fromText="balloon angioplasty" toID="E32" toText="coronary angioplasty" type="simultaneous" />
+<TLINK id="TL10" fromID="E10" fromText="complete heart block" toID="E9" toText="telemetry" type="DURING" />
+<TLINK id="TL11" fromID="E35" fromText="the procedure" toID="E33" toText="directional coronary atherectomy" type="SIMULTANEOUS" />
+<TLINK id="TL12" fromID="E50" fromText="DISCHARGE" toID="T2" toText="08-22-93" type="OVERLAP" />
+<TLINK id="TL13" fromID="E1" fromText="Parkinson &apos;s disease" toID="T3" toText="twenty years" type="DURING" />
+<TLINK id="TL14" fromID="T3" fromText="twenty years" toID="T4" toText="08-01-93" type="ENDED_BY" />
+<TLINK id="TL15" fromID="E51" fromText="the Gemenadentoolpai Medical Center" toID="E41" toText="presented" type="BEGUN_BY" />
+<TLINK id="TL16" fromID="E2" fromText="a revolving anterolateral wall myocardial infarction" toID="E51" toText="the Gemenadentoolpai Medical Center" type="BEFORE_OVERLAP" />
+<TLINK id="TL17" fromID="E41" fromText="presented" toID="T4" toText="08-01-93" type="OVERLAP" />
+<TLINK id="TL18" fromID="E71" fromText="the Heaonboburg Linpack Grant Medical Center" toID="E53" toText="here" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E42" fromText="referred" toID="E53" toText="here" type="BEFORE" />
+<TLINK id="TL20" fromID="E42" fromText="referred" toID="E52" toText="the care" type="DURING" />
+<TLINK id="TL21" fromID="E54" fromText="further therapy" toID="E53" toText="here" type="OVERLAP" />
+<TLINK id="TL22" fromID="E43" fromText="presented" toID="E56" toText="her local medical doctor &apos;s office" type="OVERLAP" />
+<TLINK id="TL23" fromID="E55" fromText="prior significant cardiac history" toID="E43" toText="presented" type="BEFORE" />
+<TLINK id="TL24" fromID="E3" fromText="severe retrosternal chest pain" toID="E43" toText="presented" type="BEFORE_OVERLAP" />
+<TLINK id="TL25" fromID="E4" fromText="Her electrocardiogram" toID="E44" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="E57" fromText="a new right bundle branch block" toID="E44" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL27" fromID="E5" fromText="left anterior hemiblock" toID="E44" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL28" fromID="E45" fromText="transferred" toID="E56" toText="her local medical doctor &apos;s office" type="AFTER" />
+<TLINK id="TL29" fromID="E46" fromText="the Gemenadentoolpai Medical Center" toID="E45" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL3" fromID="E37" fromText="a relook coronary angiography" toID="E38" toText="Coronary angiography" type="simultaneous" />
+<TLINK id="TL30" fromID="E47" fromText="admitted" toID="E45" toText="transferred" type="AFTER" />
+<TLINK id="TL31" fromID="E6" fromText="Her hospital course" toID="E46" toText="the Gemenadentoolpai Medical Center" type="SIMULTANEOUS" />
+<TLINK id="TL32" fromID="E7" fromText="a myocardial infarction" toID="E2" toText="a revolving anterolateral wall myocardial infarction" type="SIMULTANEOUS" />
+<TLINK id="TL33" fromID="E8" fromText="a peak CPK" toID="E7" toText="a myocardial infarction" type="OVERLAP" />
+<TLINK id="TL34" fromID="E58" fromText="MB fraction" toID="E7" toText="a myocardial infarction" type="OVERLAP" />
+<TLINK id="TL35" fromID="E9" fromText="telemetry" toID="E46" toText="the Gemenadentoolpai Medical Center" type="DURING" />
+<TLINK id="TL36" fromID="E9" fromText="telemetry" toID="E59" toText="developed" type="OVERLAP" />
+<TLINK id="TL37" fromID="E11" fromText="hypotension" toID="E59" toText="developed" type="OVERLAP" />
+<TLINK id="TL38" fromID="E12" fromText="temporary pacing wire" toID="E59" toText="developed" type="AFTER" />
+<TLINK id="TL39" fromID="E60" fromText="a permanent pacemaker implantation" toID="E12" toText="temporary pacing wire" type="AFTER" />
+<TLINK id="TL4" fromID="E26" fromText="intravenous heparin" toID="E36" toText="intravenous heparin" type="simultaneous" />
+<TLINK id="TL40" fromID="E60" fromText="a permanent pacemaker implantation" toID="T5" toText="08-03-93" type="OVERLAP" />
+<TLINK id="TL41" fromID="E61" fromText="congestive heart failure" toID="E13" toText="pressor support" type="BEFORE_OVERLAP" />
+<TLINK id="TL42" fromID="E62" fromText="cardiac catheterization" toID="T6" toText="8-15-93" type="OVERLAP" />
+<TLINK id="TL43" fromID="E63" fromText="found" toID="T6" toText="8-15-93" type="OVERLAP" />
+<TLINK id="TL44" fromID="E64" fromText="a left ventricular end diastolic pressure" toID="E63" toText="found" type="OVERLAP" />
+<TLINK id="TL45" fromID="E14" fromText="a dominant right coronary artery" toID="E65" toText="minor disease" type="OVERLAP" />
+<TLINK id="TL46" fromID="E15" fromText="a 20% stenosis" toID="E14" toText="a dominant right coronary artery" type="OVERLAP" />
+<TLINK id="TL48" fromID="E16" fromText="a severe 80% proximal stenosis" toID="E17" toText="a filling defect" type="OVERLAP" />
+<TLINK id="TL49" fromID="E17" fromText="a filling defect" toID="E18" toText="intraluminal thrombus" type="OVERLAP" />
+<TLINK id="TL5" fromID="E33" fromText="directional coronary atherectomy" toID="E39" toText="the initial coronary atherectomy" type="simultaneous" />
+<TLINK id="TL50" fromID="E19" fromText="a minor 40% stenosis" toID="E16" toText="a severe 80% proximal stenosis" type="OVERLAP" />
+<TLINK id="TL51" fromID="E66" fromText="Cine left ventriculogram" toID="E67" toText="revealed" type="SIMULTANEOUS" />
+<TLINK id="TL52" fromID="E20" fromText="a dilated left ventricle" toID="E67" toText="revealed" type="BEFORE_OVERLAP" />
+<TLINK id="TL53" fromID="E21" fromText="an area of anterolateral , apical , and septal akinesis" toID="E20" toText="a dilated left ventricle" type="OVERLAP" />
+<TLINK id="TL54" fromID="E68" fromText="The left ventricular ejection fraction" toID="E69" toText="estimated" type="OVERLAP" />
+<TLINK id="TL55" fromID="E70" fromText="transferred" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL56" fromID="E72" fromText="coronary angioplasty" toID="E71" toText="the Heaonboburg Linpack Grant Medical Center" type="DURING" />
+<TLINK id="TL58" fromID="E73" fromText="a positive family history" toID="E22" toText="Her risk factors" type="OVERLAP" />
+<TLINK id="TL59" fromID="E24" fromText="an elevated cholesterol level" toID="E22" toText="Her risk factors" type="OVERLAP" />
+<TLINK id="TL6" fromID="E2" fromText="a revolving anterolateral wall myocardial infarction" toID="E7" toText="a myocardial infarction" type="simultaneous" />
+<TLINK id="TL60" fromID="E74" fromText="the Medical Service" toID="E48" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL61" fromID="E48" fromText="admitted" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL62" fromID="E75" fromText="seen in consultation" toID="E74" toText="the Medical Service" type="DURING" />
+<TLINK id="TL63" fromID="E76" fromText="the Neurology Department" toID="E75" toText="seen in consultation" type="SIMULTANEOUS" />
+<TLINK id="TL64" fromID="E25" fromText="Parkinson &apos;s disease" toID="E76" toText="the Neurology Department" type="BEFORE_OVERLAP" />
+<TLINK id="TL65" fromID="E26" fromText="intravenous heparin" toID="E74" toText="the Medical Service" type="DURING" />
+<TLINK id="TL66" fromID="E77" fromText="the cardiac catheterization laboratory" toID="T7" toText="8-17-93" type="OVERLAP" />
+<TLINK id="TL67" fromID="E27" fromText="percutaneous transluminal coronary angioplasty of the proximal left anterior descending" toID="E77" toText="the cardiac catheterization laboratory" type="OVERLAP" />
+<TLINK id="TL68" fromID="E28" fromText="balloon angioplasty" toID="E27" toText="percutaneous transluminal coronary angioplasty of the proximal left anterior descending" type="SIMULTANEOUS" />
+<TLINK id="TL69" fromID="E29" fromText="a local dissection" toID="E28" toText="balloon angioplasty" type="AFTER" />
+<TLINK id="TL7" fromID="E18" fromText="intraluminal thrombus" toID="E30" toText="intraluminal thrombus" type="simultaneous" />
+<TLINK id="TL70" fromID="E30" fromText="intraluminal thrombus" toID="E29" toText="a local dissection" type="BEFORE_OVERLAP" />
+<TLINK id="TL71" fromID="E31" fromText="a greater than 10% loss in the initial gain" toID="E30" toText="intraluminal thrombus" type="OVERLAP" />
+<TLINK id="TL72" fromID="E31" fromText="a greater than 10% loss in the initial gain" toID="E32" toText="coronary angioplasty" type="AFTER" />
+<TLINK id="TL73" fromID="E78" fromText="an excellent angiographic outcome" toID="E33" toText="directional coronary atherectomy" type="BEGUN_BY" />
+<TLINK id="TL74" fromID="E34" fromText="a less than 10% residual narrowing" toID="E33" toText="directional coronary atherectomy" type="AFTER" />
+<TLINK id="TL75" fromID="E79" fromText="tolerated" toID="E35" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL76" fromID="E79" fromText="tolerated" toID="E80" toText="well" type="SIMULTANEOUS" />
+<TLINK id="TL77" fromID="E36" fromText="intravenous heparin" toID="E81" toText="the cardiac catheterization laboratory" type="BEFORE_OVERLAP" />
+<TLINK id="TL78" fromID="E81" fromText="the cardiac catheterization laboratory" toID="T8" toText="08-18-93" type="OVERLAP" />
+<TLINK id="TL79" fromID="E37" fromText="a relook coronary angiography" toID="E81" toText="the cardiac catheterization laboratory" type="OVERLAP" />
+<TLINK id="TL8" fromID="E39" fromText="the initial coronary atherectomy" toID="E40" toText="directional atherectomy" type="simultaneous" />
+<TLINK id="TL80" fromID="E81" fromText="the cardiac catheterization laboratory" toID="E77" toText="the cardiac catheterization laboratory" type="AFTER" />
+<TLINK id="TL81" fromID="E38" fromText="Coronary angiography" toID="E37" toText="a relook coronary angiography" type="SIMULTANEOUS" />
+<TLINK id="TL82" fromID="E38" fromText="Coronary angiography" toID="E49" toText="demonstrated" type="SIMULTANEOUS" />
+<TLINK id="TL83" fromID="E82" fromText="ongoing benefit" toID="E49" toText="demonstrated" type="BEFORE_OVERLAP" />
+<TLINK id="TL84" fromID="E82" fromText="ongoing benefit" toID="E39" toText="the initial coronary atherectomy" type="AFTER" />
+<TLINK id="TL85" fromID="E39" fromText="the initial coronary atherectomy" toID="E33" toText="directional coronary atherectomy" type="SIMULTANEOUS" />
+<TLINK id="TL86" fromID="E83" fromText="decrease" toID="E84" toText="the initial gain" type="OVERLAP" />
+<TLINK id="TL87" fromID="E84" fromText="the initial gain" toID="E40" toText="directional atherectomy" type="AFTER" />
+<TLINK id="TL88" fromID="E40" fromText="directional atherectomy" toID="E39" toText="the initial coronary atherectomy" type="SIMULTANEOUS" />
+<TLINK id="TL89" fromID="E85" fromText="remained stable" toID="E86" toText="the rest of the hospitalization" type="DURING" />
+<TLINK id="TL9" fromID="E1" fromText="Parkinson &apos;s disease" toID="E41" toText="presented" type="BEFORE_OVERLAP" />
+<TLINK id="TL90" fromID="E86" fromText="the rest of the hospitalization" toID="E87" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL91" fromID="E86" fromText="the rest of the hospitalization" toID="E40" toText="directional atherectomy" type="BEGUN_BY" />
+<TLINK id="TL92" fromID="E88" fromText="stable condition" toID="E87" toText="transferred" type="BEFORE_OVERLAP" />
+<TLINK id="TL93" fromID="E89" fromText="the Pasi" toID="E87" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL94" fromID="E90" fromText="further rehabilitation therapy" toID="E89" toText="the Pasi" type="DURING" />
+<TLINK id="SECTIME0" fromID="E61" fromText="congestive heart failure" toID="T1" toText="8-15-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME1" fromID="E13" fromText="pressor support" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E62" fromText="cardiac catheterization" toID="T1" toText="8-15-93" type="OVERLAP" />
+<TLINK id="SECTIME3" fromID="E63" fromText="found" toID="T1" toText="8-15-93" type="OVERLAP" />
+<TLINK id="SECTIME4" fromID="E64" fromText="a left ventricular end diastolic pressure" toID="T1" toText="8-15-93" type="OVERLAP" />
+<TLINK id="SECTIME5" fromID="E14" fromText="a dominant right coronary artery" toID="T1" toText="8-15-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME6" fromID="E65" fromText="minor disease" toID="T1" toText="8-15-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME7" fromID="E1" fromText="Parkinson &apos;s disease" toID="T1" toText="8-15-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME8" fromID="E15" fromText="a 20% stenosis" toID="T1" toText="8-15-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME9" fromID="E16" fromText="a severe 80% proximal stenosis" toID="T1" toText="8-15-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME10" fromID="E17" fromText="a filling defect" toID="T1" toText="8-15-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME11" fromID="E18" fromText="intraluminal thrombus" toID="T1" toText="8-15-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME12" fromID="E19" fromText="a minor 40% stenosis" toID="T1" toText="8-15-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME13" fromID="E66" fromText="Cine left ventriculogram" toID="T1" toText="8-15-93" type="OVERLAP" />
+<TLINK id="SECTIME14" fromID="E67" fromText="revealed" toID="T1" toText="8-15-93" type="OVERLAP" />
+<TLINK id="SECTIME15" fromID="E20" fromText="a dilated left ventricle" toID="T1" toText="8-15-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME16" fromID="E21" fromText="an area of anterolateral , apical , and septal akinesis" toID="T1" toText="8-15-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME17" fromID="E68" fromText="The left ventricular ejection fraction" toID="T1" toText="8-15-93" type="OVERLAP" />
+<TLINK id="SECTIME18" fromID="E69" fromText="estimated" toID="T1" toText="8-15-93" type="OVERLAP" />
+<TLINK id="SECTIME19" fromID="E70" fromText="transferred" toID="T1" toText="8-15-93" type="OVERLAP" />
+<TLINK id="SECTIME20" fromID="E71" fromText="the Heaonboburg Linpack Grant Medical Center" toID="T1" toText="8-15-93" type="OVERLAP" />
+<TLINK id="SECTIME21" fromID="E72" fromText="coronary angioplasty" toID="T1" toText="8-15-93" type="OVERLAP" />
+<TLINK id="SECTIME22" fromID="E22" fromText="Her risk factors" toID="T1" toText="8-15-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME23" fromID="E23" fromText="coronary artery disease" toID="T1" toText="8-15-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME24" fromID="E73" fromText="a positive family history" toID="T1" toText="8-15-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME25" fromID="E41" fromText="presented" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E24" fromText="an elevated cholesterol level" toID="T1" toText="8-15-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME27" fromID="E48" fromText="admitted" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E74" fromText="the Medical Service" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E51" fromText="the Gemenadentoolpai Medical Center" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E75" fromText="seen in consultation" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E76" fromText="the Neurology Department" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E25" fromText="Parkinson &apos;s disease" toID="T2" toText="08-22-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME33" fromID="E26" fromText="intravenous heparin" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E77" fromText="the cardiac catheterization laboratory" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E27" fromText="percutaneous transluminal coronary angioplasty of the proximal left anterior descending" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E28" fromText="balloon angioplasty" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E29" fromText="a local dissection" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E2" fromText="a revolving anterolateral wall myocardial infarction" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E30" fromText="intraluminal thrombus" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E31" fromText="a greater than 10% loss in the initial gain" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E32" fromText="coronary angioplasty" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E33" fromText="directional coronary atherectomy" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E78" fromText="an excellent angiographic outcome" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E34" fromText="a less than 10% residual narrowing" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E79" fromText="tolerated" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E35" fromText="the procedure" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E80" fromText="well" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E36" fromText="intravenous heparin" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E81" fromText="the cardiac catheterization laboratory" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E37" fromText="a relook coronary angiography" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E38" fromText="Coronary angiography" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E49" fromText="demonstrated" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E82" fromText="ongoing benefit" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E39" fromText="the initial coronary atherectomy" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E83" fromText="decrease" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E84" fromText="the initial gain" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E40" fromText="directional atherectomy" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E85" fromText="remained stable" toID="T2" toText="08-22-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME59" fromID="E86" fromText="the rest of the hospitalization" toID="T2" toText="08-22-93" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E87" fromText="transferred" toID="T2" toText="08-22-93" type="OVERLAP" />
+<TLINK id="SECTIME61" fromID="E88" fromText="stable condition" toID="T2" toText="08-22-93" type="BEFORE_OVERLAP" />
+<TLINK id="SECTIME62" fromID="E89" fromText="the Pasi" toID="T2" toText="08-22-93" type="AFTER" />
+<TLINK id="SECTIME63" fromID="E90" fromText="further rehabilitation therapy" toID="T2" toText="08-22-93" type="AFTER" />
+<TLINK id="SECTIME64" fromID="E52" fromText="the care" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E42" fromText="referred" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E53" fromText="here" toID="T1" toText="8-15-93" type="OVERLAP" />
+<TLINK id="SECTIME67" fromID="E54" fromText="further therapy" toID="T1" toText="8-15-93" type="OVERLAP" />
+<TLINK id="SECTIME68" fromID="E55" fromText="prior significant cardiac history" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E43" fromText="presented" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E56" fromText="her local medical doctor &apos;s office" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E3" fromText="severe retrosternal chest pain" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E4" fromText="Her electrocardiogram" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E44" fromText="showed" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E57" fromText="a new right bundle branch block" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E5" fromText="left anterior hemiblock" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E45" fromText="transferred" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E46" fromText="the Gemenadentoolpai Medical Center" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E47" fromText="admitted" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E6" fromText="Her hospital course" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E7" fromText="a myocardial infarction" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E8" fromText="a peak CPK" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E58" fromText="MB fraction" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E9" fromText="telemetry" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E59" fromText="developed" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E10" fromText="complete heart block" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E11" fromText="hypotension" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E12" fromText="temporary pacing wire" toID="T1" toText="8-15-93" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E60" fromText="a permanent pacemaker implantation" toID="T1" toText="8-15-93" type="BEFORE" />
+<SECTIME id="S0" start="18" end="25" text="8-15-93" type="ADMISSION" dvalue="1993-8-15" />
+<SECTIME id="S1" start="44" end="52" text="08-22-93" type="DISCHARGE" dvalue="1993-08-22" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

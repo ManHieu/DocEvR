@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2015-10-10
+Discharge Date :
+2015-10-21
+Service :
+CMED CSRU
+History of Present Illness :
+_62 year-old status-post gastric bypass and laprascopic cholecystectomy 7 weeks prior to admission who presented with fever , chills , and left lower extemity redness .
+The patient has a history of multiple hospitalizations for lower extremity cellulitis and noted that his symptoms and the appearance of his left leg mirrored previous episodes .
+He denied recent trauma to the area or travel .
+Review of systems was significant only for painful urination over the past few days and a reduction in urine output .
+He denied chest pain , shortness of breath , palpitations , abdominal pain , N/V , penile discharge .
+Brief Hospital Course :
+This 62 year-old obese male was admitted with cellulitis and presumed bacteremia .
+In the John , he was found to be in hypotensive atrial fibrillation .
+The patient was admitted to the Medical ICU where his hypotension was managed with IVF hydration and he was maintained on a diltiazam drip for atrial fibrillation .
+After his heart rate was controlled , he was transitioned to oral medications and transferred to the medicine service .
+1. Cellulitis / Bacteremia
+Review of the medical record revealed several previous admissions for cellulitis and bacteremia .
+Blood cultures on this admission and were positive for Beta streptococcus Group B .
+The patient had previous episodes of the same infection , with lower extremity cellulitis the likely source .
+A left lower extremity ultrasound was negative for deep venous thrombosis .
+The patient was too large to have a CTA .
+He was initially treated with vancomycin and zosyn while awaiting culture results .
+Once the organism was identified , he was transitioned to a regimen of intravenous penicillin and oral levofloxacin , which had successfully treated the infection during his most recent admission 1 year prior .
+He completed 7 days of levofloxacin and had a PICC line placed to facilitate a 2 week course of IV Penicillin .
+2. Atrial fibrillation
+The patient 's development of atrial fibrillation was believed to be secondary to infection and structural heart disease .
+It was initially managed with intravenous diltiazam , and it was later managed with metoprolol and anticoagulation .
+A transthoracic echocardiogram showed a mildly dilated and elongated left atrium , with a markedly dilated right atrium .
+He had occasional episodes of rapid atrial fibrillation that were controlled with responded to IV metoprolol .
+However , his rate proved difficult to control despite metoprolol and diltiazam .
+The EP service was consulted and recommended transesophageal echocardiogram and cardioversion .
+The TEE was negative for thrombus and the patient was successfully cardioverted to normal sinus rhythm with ibutilide .
+He was subsequently started on amiodarone and is scheduled to complete a 10 week course .
+EKG before discharge showed mild QT prolongation and no effect from amiodarone .
+EKG and LFTs should be monitored by his PCP , William given the high dose of amiodarone he will receive .
+3. FEN
+He was followed by the nutrition team throughout his admission and their recommendations were followed .
+He demonstrated several asymptomatic electrolyte deficiecies ; these were likely due to inadequate absorption following his surgery and he responded well to repletion .
+Vitamin D and parathyroid tests were pending at the time of discharge .
+The patient was discharged to Kindred Park View Specialty Hospital of Springfield Rehabilitation Hospital in good condition .
+He was sent with a King of Hearts monitor and scheduled for follow-up with cardiology and his primary care physician .
+
+]]></TEXT>
+<TAGS>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

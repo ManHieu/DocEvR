@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+06/07/2000
+Discharge Date :
+07/02/2000
+HISTORY OF PRESENT ILLNESS :
+Mr. Larsen was a 50-year-old salesman who in 12/26 was noted to have an elevated platelet count of 778,000 .
+He was found to have CML .
+He was admitted on 06/07/00 for a matched , unrelated donor bone marrow transplant .
+HOSPITAL COURSE :
+The patient received his bone marrow transplant on 06/12/00 .
+His course was then complicated by fevers and neutropenia which were treated with antibiotics and a diffuse erythroderm felt to be a drug reaction .
+On 06/24/00 the patient was found to have pulmonary infiltrates and some hemoptysis .
+A bronchoscopy was done and there was blood found in the upper airways but no evidence of blood in alveoli so it was not felt to be DAH .
+On 06/26/00 due to agitation , change in mental status and increased respiratory distress , the patient was intubated .
+It was felt at that time that the changing mental status and respiratory distress might be due to a combination of medication and worsening mucositis .
+Although the patient &apos;s pain and sedation meds were adjusted he continued to be agitated and there was difficulty weaning him off the vent .
+Because of this continued agitation , a head CT was performed on 07/01/00 and it revealed an intraparenchymal hemorrhage .
+Neurosurgery was consulted but due to the severity of the bleed surgery was not considered an option .
+The patient gradually lost brain systolic ejection murmur function and was pronounced dead on 07/02/00 .
+Dictated By :
+LAYMIE LARSEN , M.D. EM08
+Attending :
+ANA V. A , M.D. ZM0 LB414/6537
+Batch :
+67043
+Index No.
+EZCDQ560N8
+D :
+07/19/00
+T :
+07/20/00
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="1010" end="1029" text="worsening mucositis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="1041" end="1083" text="the patient &apos;s pain and sedation meds" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="1117" end="1125" text="agitated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="1167" end="1175" text="the vent" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="1189" end="1213" text="this continued agitation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1216" end="1225" text="a head CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="1268" end="1298" text="an intraparenchymal hemorrhage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1301" end="1313" text="Neurosurgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E33" start="1318" end="1327" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="1355" end="1372" text="the bleed surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1431" end="1470" text="brain systolic ejection murmur function" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1490" end="1494" text="dead" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="155" end="181" text="an elevated platelet count" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="216" end="219" text="CML" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="229" end="237" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="254" end="304" text="a matched , unrelated donor bone marrow transplant" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="346" end="372" text="his bone marrow transplant" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="422" end="428" text="fevers" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="433" end="444" text="neutropenia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="469" end="480" text="antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="485" end="506" text="a diffuse erythroderm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="518" end="533" text="a drug reaction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="578" end="599" text="pulmonary infiltrates" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="604" end="619" text="some hemoptysis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="622" end="636" text="A bronchoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="660" end="665" text="blood" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="712" end="728" text="blood in alveoli" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E17" start="754" end="757" text="DAH" modality="POSSIBLE" polarity="NEG" type="PROBLEM" />
+<EVENT id="E18" start="779" end="788" text="agitation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="791" end="814" text="change in mental status" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="819" end="849" text="increased respiratory distress" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="868" end="877" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="910" end="936" text="the changing mental status" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="941" end="961" text="respiratory distress" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="995" end="1005" text="medication" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T7" start="1243" end="1251" text="07/01/00" type="DATE" val="2000-07-01" mod="NA" />
+<TIMEX3 id="T2" start="131" end="136" text="12/26" type="DATE" val="1999-12-26" mod="NA" />
+<TIMEX3 id="T8" start="1498" end="1506" text="07/02/00" type="DATE" val="2000-07-02" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="06/07/2000" type="DATE" val="2000-06-07" mod="NA" />
+<TIMEX3 id="T3" start="241" end="249" text="06/07/00" type="DATE" val="2000-06-07" mod="NA" />
+<TIMEX3 id="T4" start="376" end="384" text="06/12/00" type="DATE" val="2000-06-12" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="07/02/2000" type="DATE" val="2000-07-02" mod="NA" />
+<TIMEX3 id="T5" start="539" end="547" text="06/24/00" type="DATE" val="2000-06-24" mod="NA" />
+<TIMEX3 id="T6" start="763" end="771" text="06/26/00" type="DATE" val="2000-06-26" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="06/07/2000" type="OVERLAP" />
+<TLINK id="TL1" fromID="E4" fromText="admitted" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL10" fromID="E10" fromText="a diffuse erythroderm" toID="E9" toText="antibiotics" type="AFTER" />
+<TLINK id="TL11" fromID="E11" fromText="a drug reaction" toID="E10" toText="a diffuse erythroderm" type="OVERLAP" />
+<TLINK id="TL12" fromID="E12" fromText="pulmonary infiltrates" toID="T5" toText="06/24/00" type="BEFORE" />
+<TLINK id="TL13" fromID="E13" fromText="some hemoptysis" toID="T5" toText="06/24/00" type="BEFORE" />
+<TLINK id="TL14" fromID="E15" fromText="blood" toID="E14" toText="A bronchoscopy" type="BEFORE" />
+<TLINK id="TL15" fromID="E15" fromText="blood" toID="E16" toText="blood in alveoli" type="OVERLAP" />
+<TLINK id="TL16" fromID="E16" fromText="blood in alveoli" toID="E17" toText="DAH" type="OVERLAP" />
+<TLINK id="TL17" fromID="E19" fromText="change in mental status" toID="E18" toText="agitation" type="OVERLAP" />
+<TLINK id="TL18" fromID="E18" fromText="agitation" toID="T6" toText="06/26/00" type="OVERLAP" />
+<TLINK id="TL19" fromID="E22" fromText="the changing mental status" toID="E19" toText="change in mental status" type="OVERLAP" />
+<TLINK id="TL2" fromID="E1" fromText="Discharge" toID="T1" toText="07/02/2000" type="OVERLAP" />
+<TLINK id="TL20" fromID="E19" fromText="change in mental status" toID="E20" toText="increased respiratory distress" type="OVERLAP" />
+<TLINK id="TL21" fromID="E20" fromText="increased respiratory distress" toID="E21" toText="intubated" type="BEFORE" />
+<TLINK id="TL22" fromID="E23" fromText="respiratory distress" toID="E20" toText="increased respiratory distress" type="OVERLAP" />
+<TLINK id="TL23" fromID="E21" fromText="intubated" toID="T6" toText="06/26/00" type="OVERLAP" />
+<TLINK id="TL24" fromID="E22" fromText="the changing mental status" toID="E23" toText="respiratory distress" type="OVERLAP" />
+<TLINK id="TL25" fromID="E24" fromText="medication" toID="E23" toText="respiratory distress" type="BEFORE" />
+<TLINK id="TL26" fromID="E24" fromText="medication" toID="E25" toText="worsening mucositis" type="OVERLAP" />
+<TLINK id="TL27" fromID="E26" fromText="the patient &apos;s pain and sedation meds" toID="E24" toText="medication" type="OVERLAP" />
+<TLINK id="TL28" fromID="E26" fromText="the patient &apos;s pain and sedation meds" toID="E27" toText="agitated" type="OVERLAP" />
+<TLINK id="TL29" fromID="E27" fromText="agitated" toID="E28" toText="the vent" type="BEFORE" />
+<TLINK id="TL3" fromID="T2" fromText="12/26" toID="E2" toText="an elevated platelet count" type="OVERLAP" />
+<TLINK id="TL30" fromID="E29" fromText="this continued agitation" toID="E27" toText="agitated" type="OVERLAP" />
+<TLINK id="TL31" fromID="E29" fromText="this continued agitation" toID="E30" toText="a head CT" type="BEFORE" />
+<TLINK id="TL32" fromID="E30" fromText="a head CT" toID="T7" toText="07/01/00" type="OVERLAP" />
+<TLINK id="TL33" fromID="E31" fromText="an intraparenchymal hemorrhage" toID="E30" toText="a head CT" type="BEFORE" />
+<TLINK id="TL34" fromID="E31" fromText="an intraparenchymal hemorrhage" toID="E32" toText="Neurosurgery" type="BEFORE" />
+<TLINK id="TL35" fromID="E32" fromText="Neurosurgery" toID="E33" toText="consulted" type="OVERLAP" />
+<TLINK id="TL36" fromID="E32" fromText="Neurosurgery" toID="E34" toText="the bleed surgery" type="OVERLAP" />
+<TLINK id="TL37" fromID="E35" fromText="brain systolic ejection murmur function" toID="E36" toText="dead" type="BEFORE" />
+<TLINK id="TL38" fromID="E36" fromText="dead" toID="T8" toText="07/02/00" type="OVERLAP" />
+<TLINK id="TL4" fromID="E2" fromText="an elevated platelet count" toID="E3" toText="CML" type="BEFORE" />
+<TLINK id="TL5" fromID="E5" fromText="a matched , unrelated donor bone marrow transplant" toID="E6" toText="his bone marrow transplant" type="OVERLAP" />
+<TLINK id="TL6" fromID="E6" fromText="his bone marrow transplant" toID="T4" toText="06/12/00" type="OVERLAP" />
+<TLINK id="TL7" fromID="E7" fromText="fevers" toID="E6" toText="his bone marrow transplant" type="AFTER" />
+<TLINK id="TL8" fromID="E8" fromText="neutropenia" toID="E7" toText="fevers" type="OVERLAP" />
+<TLINK id="TL9" fromID="E8" fromText="neutropenia" toID="E9" toText="antibiotics" type="BEFORE" />
+<TLINK id="SECTIME0" fromID="E25" fromText="worsening mucositis" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E26" fromText="the patient &apos;s pain and sedation meds" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E27" fromText="agitated" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E28" fromText="the vent" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E29" fromText="this continued agitation" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E30" fromText="a head CT" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E31" fromText="an intraparenchymal hemorrhage" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E32" fromText="Neurosurgery" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E33" fromText="consulted" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E34" fromText="the bleed surgery" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E35" fromText="brain systolic ejection murmur function" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E36" fromText="dead" toID="T1" toText="07/02/2000" type="OVERLAP" />
+<TLINK id="SECTIME12" fromID="E2" fromText="an elevated platelet count" toID="T0" toText="06/07/2000" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E3" fromText="CML" toID="T0" toText="06/07/2000" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E4" fromText="admitted" toID="T0" toText="06/07/2000" type="OVERLAP" />
+<TLINK id="SECTIME15" fromID="E5" fromText="a matched , unrelated donor bone marrow transplant" toID="T0" toText="06/07/2000" type="AFTER" />
+<TLINK id="SECTIME16" fromID="E6" fromText="his bone marrow transplant" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E7" fromText="fevers" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E8" fromText="neutropenia" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E9" fromText="antibiotics" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E10" fromText="a diffuse erythroderm" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E11" fromText="a drug reaction" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E12" fromText="pulmonary infiltrates" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E13" fromText="some hemoptysis" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E14" fromText="A bronchoscopy" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E15" fromText="blood" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E16" fromText="blood in alveoli" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E17" fromText="DAH" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E18" fromText="agitation" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E19" fromText="change in mental status" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E20" fromText="increased respiratory distress" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E21" fromText="intubated" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E22" fromText="the changing mental status" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E23" fromText="respiratory distress" toID="T1" toText="07/02/2000" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E24" fromText="medication" toID="T1" toText="07/02/2000" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="06/07/2000" type="ADMISSION" dvalue="2000-06-07" />
+<SECTIME id="S1" start="46" end="56" text="07/02/2000" type="DISCHARGE" dvalue="2000-07-02" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

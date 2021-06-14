@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2017-04-26
+Discharge Date :
+2017-05-01
+Service :
+CARD CMED
+HISTORY OF PRESENT ILLNESS :
+This is a 62 year old gentleman who underwent an exercise treadmill test for screening through the Beth Israel Deaconess Hospital-Needham Clinic .
+The test was positive for EKG changes and shortness of breath .
+The patient has no history of chest pain; no history of myocardial infarction .
+The patient was referred to Cambridge Health Alliance for cardiac catheterization .
+Cardiac catheterization showed an ejection fraction of 50% , left ventricular end diastolic pressure of 20 , 90% left anterior descending lesion , 80% left circumflex lesion , 80% mid right coronary artery lesion and 80% distal right coronary artery lesion .
+The patient was referred to Dr. Rota for coronary artery bypass grafting .
+HOSPITAL COURSE :
+The patient was admitted to Saint Vincent Hospital on 2017-04-26 and underwent a coronary artery bypass graft times four with left internal mammary artery to left anterior descending , saphenous vein graft to right coronary artery , saphenous vein graft to PDA and saphenous vein graft to obtuse marginal with Dr. Rota .
+Please see the Operative Note for further details .
+The patient was transferred to the Intensive Care Unit in stable condition on Neo-Synephrine infusion .
+The patient was weaned the next day from mechanical ventilation on his first postoperative night .
+Postoperative days one and two , the patient continued to require Neo-Synephrine to maintain systolic blood pressures greater than 100 .
+On postoperative day two , the patient 's hematocrit was noted to be 23.1 ; he was transfused one unit of packed red blood cells as well as given a dose of Lasix .
+The Neo-Synephrine was weaned off by postoperative day number three .
+The patient 's chest tubes were removed on postoperative day three without incident .
+The patient was started on low dose Lasix and Lopressor which he tolerated well .
+On postoperative day number four , the patient was transferred from the Intensive Care Unit to the regular part of the hospital where he began working with Physical Therapy and on his first session he was able to ambulate 500 feet and climb one flight of stairs while remaining hemodynamically stable without requiring any oxygen .
+On postoperative day number five , the patient continued to remain hemodynamically stable .
+The patient 's epicardial pacing wires were removed without incident and the patient was cleared for discharge to home .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="1018" end="1063" text="saphenous vein graft to right coronary artery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="1066" end="1093" text="saphenous vein graft to PDA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="1098" end="1137" text="saphenous vein graft to obtuse marginal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1222" end="1233" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1237" end="1260" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E42" start="1264" end="1280" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="1284" end="1307" text="Neo-Synephrine infusion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="1326" end="1332" text="weaned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="1351" end="1373" text="mechanical ventilation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="1475" end="1489" text="Neo-Synephrine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1502" end="1526" text="systolic blood pressures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="152" end="178" text="an exercise treadmill test" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="1573" end="1598" text="the patient 's hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="1629" end="1639" text="transfused" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="1652" end="1674" text="packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="1702" end="1707" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1710" end="1728" text="The Neo-Synephrine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1733" end="1739" text="weaned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="1780" end="1806" text="The patient 's chest tubes" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="1855" end="1863" text="incident" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E25" start="1893" end="1907" text="low dose Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="1912" end="1921" text="Lopressor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1999" end="2010" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="201" end="250" text="the Beth Israel Deaconess Hospital-Needham Clinic" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E47" start="2016" end="2039" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E48" start="2043" end="2075" text="the regular part of the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E49" start="2104" end="2120" text="Physical Therapy" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E50" start="2128" end="2145" text="his first session" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="2161" end="2169" text="ambulate" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="2183" end="2209" text="climb one flight of stairs" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="2226" end="2248" text="hemodynamically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="2267" end="2277" text="any oxygen" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E55" start="2347" end="2369" text="hemodynamically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="2372" end="2410" text="The patient 's epicardial pacing wires" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E57" start="2416" end="2423" text="removed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="2432" end="2440" text="incident" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E59" start="2473" end="2490" text="discharge to home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="253" end="261" text="The test" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="279" end="290" text="EKG changes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="295" end="314" text="shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="347" end="358" text="chest pain;" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E5" start="373" end="394" text="myocardial infarction" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E27" start="425" end="450" text="Cambridge Health Alliance" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E6" start="455" end="478" text="cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="481" end="504" text="Cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="505" end="511" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E8" start="512" end="532" text="an ejection fraction" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="542" end="581" text="left ventricular end diastolic pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="590" end="625" text="90% left anterior descending lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="628" end="654" text="80% left circumflex lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="657" end="693" text="80% mid right coronary artery lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="698" end="737" text="80% distal right coronary artery lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="781" end="812" text="coronary artery bypass grafting" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="849" end="857" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="861" end="883" text="Saint Vincent Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E10" start="912" end="942" text="a coronary artery bypass graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="959" end="1015" text="left internal mammary artery to left anterior descending" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T1" start="1333" end="1345" text="the next day" type="DATE" val="2017-04-27" mod="NA" />
+<TIMEX3 id="T6" start="1377" end="1406" text="his first postoperative night" type="DATE" val="2017-04-27" mod="END" />
+<TIMEX3 id="T7" start="1409" end="1439" text="Postoperative days one and two" type="DURATION" val="PT48H" mod="NA" />
+<TIMEX3 id="T2" start="1549" end="1570" text="postoperative day two" type="DATE" val="2017-04-28" mod="NA" />
+<TIMEX3 id="T8" start="1747" end="1777" text="postoperative day number three" type="DATE" val="2017-04-29" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2017-04-26" type="DATE" val="2017-04-26" mod="NA" />
+<TIMEX3 id="T9" start="1823" end="1846" text="postoperative day three" type="DATE" val="2017-04-29" mod="NA" />
+<TIMEX3 id="T10" start="1951" end="1980" text="postoperative day number four" type="DATE" val="2017-04-30" mod="NA" />
+<TIMEX3 id="T11" start="2283" end="2312" text="postoperative day number five" type="DATE" val="2017-05-01" mod="NA" />
+<TIMEX3 id="T3" start="46" end="56" text="2017-05-01" type="DATE" val="2017-05-01" mod="NA" />
+<TIMEX3 id="T4" start="887" end="897" text="2017-04-26" type="DATE" val="2017-04-26" mod="NA" />
+<TIMEX3 id="T5" start="943" end="953" text="times four" type="FREQUENCY" val="R4" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2017-04-26" type="OVERLAP" />
+<TLINK id="TL1" fromID="E6" fromText="cardiac catheterization" toID="E7" toText="Cardiac catheterization" type="simultaneous" />
+<TLINK id="TL10" fromID="E6" fromText="cardiac catheterization" toID="E27" toText="Cambridge Health Alliance" type="DURING" />
+<TLINK id="TL11" fromID="E6" fromText="cardiac catheterization" toID="E28" toText="showed" type="OVERLAP" />
+<TLINK id="TL12" fromID="E8" fromText="an ejection fraction" toID="E28" toText="showed" type="OVERLAP" />
+<TLINK id="TL13" fromID="E9" fromText="left ventricular end diastolic pressure" toID="E28" toText="showed" type="" />
+<TLINK id="TL14" fromID="E33" fromText="90% left anterior descending lesion" toID="E28" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E34" fromText="80% left circumflex lesion" toID="E28" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL16" fromID="E35" fromText="80% mid right coronary artery lesion" toID="E28" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL17" fromID="E36" fromText="80% distal right coronary artery lesion" toID="E28" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL18" fromID="E37" fromText="coronary artery bypass grafting" toID="E10" toText="a coronary artery bypass graft" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E38" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="E17" fromText="Neo-Synephrine" toID="E22" toText="The Neo-Synephrine" type="simultaneous" />
+<TLINK id="TL20" fromID="E39" fromText="Saint Vincent Hospital" toID="E38" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL21" fromID="E38" fromText="admitted" toID="T4" toText="2017-04-26" type="OVERLAP" />
+<TLINK id="TL22" fromID="E10" fromText="a coronary artery bypass graft" toID="E39" toText="Saint Vincent Hospital" type="DURING" />
+<TLINK id="TL23" fromID="E10" fromText="a coronary artery bypass graft" toID="T5" toText="times four" type="OVERLAP" />
+<TLINK id="TL24" fromID="E10" fromText="a coronary artery bypass graft" toID="E11" toText="left internal mammary artery to left anterior descending" type="OVERLAP" />
+<TLINK id="TL25" fromID="E10" fromText="a coronary artery bypass graft" toID="E12" toText="saphenous vein graft to right coronary artery" type="OVERLAP" />
+<TLINK id="TL26" fromID="E10" fromText="a coronary artery bypass graft" toID="E13" toText="saphenous vein graft to PDA" type="OVERLAP" />
+<TLINK id="TL27" fromID="E10" fromText="a coronary artery bypass graft" toID="E14" toText="saphenous vein graft to obtuse marginal" type="OVERLAP" />
+<TLINK id="TL28" fromID="E41" fromText="the Intensive Care Unit" toID="E40" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL29" fromID="E40" fromText="transferred" toID="E42" toText="stable condition" type="OVERLAP" />
+<TLINK id="TL3" fromID="E1" fromText="an exercise treadmill test" toID="E3" toText="The test" type="simultaneous" />
+<TLINK id="TL30" fromID="E15" fromText="Neo-Synephrine infusion" toID="E40" toText="transferred" type="OVERLAP" />
+<TLINK id="TL31" fromID="E43" fromText="weaned" toID="T1" toText="the next day" type="OVERLAP" />
+<TLINK id="TL32" fromID="E16" fromText="mechanical ventilation" toID="E43" toText="weaned" type="ENDED_BY" />
+<TLINK id="TL33" fromID="T6" fromText="his first postoperative night" toID="E43" toText="weaned" type="SIMULTANEOUS" />
+<TLINK id="TL34" fromID="E17" fromText="Neo-Synephrine" toID="T7" toText="Postoperative days one and two" type="DURING" />
+<TLINK id="TL35" fromID="E18" fromText="systolic blood pressures" toID="E17" toText="Neo-Synephrine" type="OVERLAP" />
+<TLINK id="TL36" fromID="E19" fromText="the patient 's hematocrit" toID="T2" toText="postoperative day two" type="OVERLAP" />
+<TLINK id="TL37" fromID="E44" fromText="transfused" toID="T2" toText="postoperative day two" type="OVERLAP" />
+<TLINK id="TL38" fromID="E20" fromText="packed red blood cells" toID="E44" toText="transfused" type="OVERLAP" />
+<TLINK id="TL39" fromID="E21" fromText="Lasix" toID="E44" toText="transfused" type="OVERLAP" />
+<TLINK id="TL4" fromID="E15" fromText="Neo-Synephrine infusion" toID="E17" toText="Neo-Synephrine" type="simultaneous" />
+<TLINK id="TL40" fromID="E22" fromText="The Neo-Synephrine" toID="E45" toText="weaned" type="ENDED_BY" />
+<TLINK id="TL41" fromID="E45" fromText="weaned" toID="T8" toText="postoperative day number three" type="OVERLAP" />
+<TLINK id="TL42" fromID="E23" fromText="The patient 's chest tubes" toID="T9" toText="postoperative day three" type="ENDED_BY" />
+<TLINK id="TL43" fromID="E24" fromText="incident" toID="E23" toText="The patient 's chest tubes" type="OVERLAP" />
+<TLINK id="TL44" fromID="E25" fromText="low dose Lasix" toID="E26" toText="Lopressor" type="OVERLAP" />
+<TLINK id="TL45" fromID="E25" fromText="low dose Lasix" toID="T9" toText="postoperative day three" type="BEGUN_BY" />
+<TLINK id="TL46" fromID="E46" fromText="transferred" toID="T10" toText="postoperative day number four" type="OVERLAP" />
+<TLINK id="TL47" fromID="E47" fromText="the Intensive Care Unit" toID="E46" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL48" fromID="E48" fromText="the regular part of the hospital" toID="E46" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL49" fromID="E49" fromText="Physical Therapy" toID="E48" toText="the regular part of the hospital" type="DURING" />
+<TLINK id="TL5" fromID="E29" fromText="Discharge" toID="T3" toText="2017-05-01" type="OVERLAP" />
+<TLINK id="TL50" fromID="E50" fromText="his first session" toID="E49" toText="Physical Therapy" type="DURING" />
+<TLINK id="TL51" fromID="E51" fromText="ambulate" toID="E50" toText="his first session" type="OVERLAP" />
+<TLINK id="TL52" fromID="E52" fromText="climb one flight of stairs" toID="E50" toText="his first session" type="OVERLAP" />
+<TLINK id="TL53" fromID="E53" fromText="hemodynamically stable" toID="E50" toText="his first session" type="OVERLAP" />
+<TLINK id="TL54" fromID="E54" fromText="any oxygen" toID="E50" toText="his first session" type="OVERLAP" />
+<TLINK id="TL55" fromID="E55" fromText="hemodynamically stable" toID="T11" toText="postoperative day number five" type="DURING" />
+<TLINK id="TL56" fromID="E56" fromText="The patient 's epicardial pacing wires" toID="E57" toText="removed" type="ENDED_BY" />
+<TLINK id="TL57" fromID="E57" fromText="removed" toID="E58" toText="incident" type="OVERLAP" />
+<TLINK id="TL58" fromID="E59" fromText="discharge to home" toID="E57" toText="removed" type="AFTER" />
+<TLINK id="TL59" fromID="E59" fromText="discharge to home" toID="E29" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL6" fromID="E1" fromText="an exercise treadmill test" toID="E30" toText="the Beth Israel Deaconess Hospital-Needham Clinic" type="DURING" />
+<TLINK id="TL7" fromID="E31" fromText="EKG changes" toID="E3" toText="The test" type="OVERLAP" />
+<TLINK id="TL8" fromID="E32" fromText="shortness of breath" toID="E3" toText="The test" type="BEFORE_OVERLAP" />
+<TLINK id="TL9" fromID="E4" fromText="chest pain;" toID="E5" toText="myocardial infarction" type="OVERLAP" />
+<TLINK id="Sectime0" fromID="E12" fromText="saphenous vein graft to right coronary artery" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E13" fromText="saphenous vein graft to PDA" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E14" fromText="saphenous vein graft to obtuse marginal" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E40" fromText="transferred" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E41" fromText="the Intensive Care Unit" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E42" fromText="stable condition" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E15" fromText="Neo-Synephrine infusion" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E43" fromText="weaned" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E16" fromText="mechanical ventilation" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E17" fromText="Neo-Synephrine" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E18" fromText="systolic blood pressures" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E1" fromText="an exercise treadmill test" toID="T0" toText="2017-04-26" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E19" fromText="the patient 's hematocrit" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E44" fromText="transfused" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E20" fromText="packed red blood cells" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E21" fromText="Lasix" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E22" fromText="The Neo-Synephrine" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E45" fromText="weaned" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E23" fromText="The patient 's chest tubes" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E24" fromText="incident" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E25" fromText="low dose Lasix" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E26" fromText="Lopressor" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E46" fromText="transferred" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E30" fromText="the Beth Israel Deaconess Hospital-Needham Clinic" toID="T0" toText="2017-04-26" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E47" fromText="the Intensive Care Unit" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E48" fromText="the regular part of the hospital" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E49" fromText="Physical Therapy" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E50" fromText="his first session" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E51" fromText="ambulate" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E52" fromText="climb one flight of stairs" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E53" fromText="hemodynamically stable" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E54" fromText="any oxygen" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E55" fromText="hemodynamically stable" toID="T3" toText="2017-05-01" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime31" fromID="E56" fromText="The patient 's epicardial pacing wires" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime32" fromID="E57" fromText="removed" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime33" fromID="E58" fromText="incident" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime34" fromID="E59" fromText="discharge to home" toID="T3" toText="2017-05-01" type="OVERLAP" />
+<TLINK id="Sectime2" fromID="E3" fromText="The test" toID="T0" toText="2017-04-26" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E31" fromText="EKG changes" toID="T0" toText="2017-04-26" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E32" fromText="shortness of breath" toID="T0" toText="2017-04-26" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E4" fromText="chest pain;" toID="T0" toText="2017-04-26" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E5" fromText="myocardial infarction" toID="T0" toText="2017-04-26" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E27" fromText="Cambridge Health Alliance" toID="T0" toText="2017-04-26" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E6" fromText="cardiac catheterization" toID="T0" toText="2017-04-26" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E7" fromText="Cardiac catheterization" toID="T0" toText="2017-04-26" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E28" fromText="showed" toID="T0" toText="2017-04-26" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E8" fromText="an ejection fraction" toID="T0" toText="2017-04-26" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E9" fromText="left ventricular end diastolic pressure" toID="T0" toText="2017-04-26" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E33" fromText="90% left anterior descending lesion" toID="T0" toText="2017-04-26" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E34" fromText="80% left circumflex lesion" toID="T0" toText="2017-04-26" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E35" fromText="80% mid right coronary artery lesion" toID="T0" toText="2017-04-26" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E36" fromText="80% distal right coronary artery lesion" toID="T0" toText="2017-04-26" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E37" fromText="coronary artery bypass grafting" toID="T0" toText="2017-04-26" type="BEFORE" />
+<TLINK id="Sectime35" fromID="E38" fromText="admitted" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime36" fromID="E39" fromText="Saint Vincent Hospital" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime37" fromID="E10" fromText="a coronary artery bypass graft" toID="T3" toText="2017-05-01" type="BEFORE" />
+<TLINK id="Sectime38" fromID="E11" fromText="left internal mammary artery to left anterior descending" toID="T3" toText="2017-05-01" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2017-04-26" type="ADMISSION" dvalue="2017-04-26" />
+<SECTIME id="S1" start="46" end="56" text="2017-05-01" type="DISCHARGE" dvalue="2017-05-01" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2015-08-10
+Discharge Date :
+2015-08-15
+Service :
+CT CMED CSRU
+HISTORY OF PRESENT ILLNESS :
+Mr. Bruno is a 60 year old gentleman who initially presented with hematemesis , hemoptysis and on work-up was found to have a left lower lobe mass .
+He previously underwent bronchoscopy with washings which showed to be negative for malignant cells and showed atypical bronchial epithelial cells , likely to be reactive .
+HOSPITAL COURSE :
+The patient was taken to the Operating Room the day of admission .
+He underwent a left bronchoscopy and lower lobectomy of the left side .
+The operation was subsequently complicated by a postoperative bleeding .
+The patient had to be taken back to the Operating Room where a repair of the left pulmonary artery was performed .
+The patient was then transferred to the CSRU , intubated , in stable condition .
+Vascular Surgery Service was also consulted .
+During the operation , the patient received 13 units of packed red blood cells , four units of fresh frozen plasma and one unit of platelets with an estimated blood loss of 1500 cc .
+The patient remained to be stable on the floor with subsequent monitoring of hematocrit within a normal stable range .
+He is successfully extubated on 08-12 and hypertension transferred to the floor in stable condition where the Pain Service is managing his epidural with very good effect and he is tolerating a regular p.o. diet and is making adequate amount of urine .
+His recovery was essentially unremarkable .
+His epidural was successfully discontinued and he is discharged to home on 08-15 with instructions to follow-up with Dr. Cordova in the office within the next one to two weeks .
+He is discharged to home with pain medication which is percocet .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1033" end="1042" text="platelets" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="1048" end="1071" text="an estimated blood loss" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1122" end="1131" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E32" start="1162" end="1172" text="hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="1223" end="1232" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1246" end="1258" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1259" end="1270" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1274" end="1283" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E37" start="1310" end="1326" text="the Pain Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E38" start="1339" end="1351" text="his epidural" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1500" end="1512" text="His epidural" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1553" end="1563" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="160" end="169" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1602" end="1611" text="follow-up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1684" end="1694" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1708" end="1723" text="pain medication" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1733" end="1741" text="percocet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="175" end="186" text="hematemesis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="189" end="199" text="hemoptysis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="207" end="214" text="work-up" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="233" end="255" text="a left lower lobe mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="282" end="308" text="bronchoscopy with washings" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="315" end="321" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E9" start="341" end="356" text="malignant cells" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E10" start="361" end="367" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E11" start="368" end="403" text="atypical bronchial epithelial cells" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="419" end="427" text="reactive" modality="POSSIBLE" polarity="POS" type="TEST" />
+<EVENT id="E13" start="473" end="491" text="the Operating Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E14" start="503" end="512" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="528" end="547" text="a left bronchoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="552" end="584" text="lower lobectomy of the left side" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="587" end="600" text="The operation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="633" end="657" text="a postoperative bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="682" end="692" text="taken back" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="696" end="714" text="the Operating Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E21" start="721" end="758" text="a repair of the left pulmonary artery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="796" end="807" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="811" end="819" text="the CSRU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E24" start="822" end="831" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="856" end="880" text="Vascular Surgery Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E26" start="909" end="922" text="the operation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="958" end="980" text="packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="997" end="1016" text="fresh frozen plasma" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T3" start="1236" end="1241" text="08-12" type="DATE" val="2015-08-12" mod="NA" />
+<TIMEX3 id="T4" start="1575" end="1580" text="08-15" type="DATE" val="2015-08-15" mod="NA" />
+<TIMEX3 id="T6" start="1650" end="1675" text="the next one to two weeks" type="DATE" val="2015-08-25" mod="APPROX" />
+<TIMEX3 id="T0" start="18" end="28" text="2015-08-10" type="DATE" val="2015-08-10" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2015-08-15" type="DATE" val="2015-08-15" mod="NA" />
+<TIMEX3 id="T2" start="492" end="499" text="the day" type="DATE" val="2015-08-10" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2015-08-10" type="OVERLAP" />
+<TLINK id="TL1" fromID="E2" fromText="presented" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL10" fromID="E4" fromText="hemoptysis" toID="E2" toText="presented" type="BEFORE" />
+<TLINK id="TL11" fromID="E6" fromText="a left lower lobe mass" toID="E5" toText="work-up" type="BEFORE" />
+<TLINK id="TL12" fromID="E8" fromText="showed" toID="E7" toText="bronchoscopy with washings" type="OVERLAP" />
+<TLINK id="TL13" fromID="E9" fromText="malignant cells" toID="E7" toText="bronchoscopy with washings" type="BEFORE" />
+<TLINK id="TL14" fromID="E11" fromText="atypical bronchial epithelial cells" toID="E7" toText="bronchoscopy with washings" type="BEFORE" />
+<TLINK id="TL15" fromID="E7" fromText="bronchoscopy with washings" toID="E2" toText="presented" type="BEFORE" />
+<TLINK id="TL16" fromID="E10" fromText="showed" toID="E7" toText="bronchoscopy with washings" type="OVERLAP" />
+<TLINK id="TL17" fromID="E9" fromText="malignant cells" toID="E11" toText="atypical bronchial epithelial cells" type="OVERLAP" />
+<TLINK id="TL18" fromID="E11" fromText="atypical bronchial epithelial cells" toID="E12" toText="reactive" type="OVERLAP" />
+<TLINK id="TL19" fromID="E13" fromText="the Operating Room" toID="T2" toText="the day" type="OVERLAP" />
+<TLINK id="TL20" fromID="E15" fromText="a left bronchoscopy" toID="E13" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL21" fromID="E16" fromText="lower lobectomy of the left side" toID="E13" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL22" fromID="E20" fromText="the Operating Room" toID="E13" toText="the Operating Room" type="AFTER" />
+<TLINK id="TL23" fromID="T2" fromText="the day" toID="E14" toText="admission" type="OVERLAP" />
+<TLINK id="TL24" fromID="E15" fromText="a left bronchoscopy" toID="E16" toText="lower lobectomy of the left side" type="OVERLAP" />
+<TLINK id="TL25" fromID="E17" fromText="The operation" toID="E26" toText="the operation" type="BEFORE" />
+<TLINK id="TL26" fromID="E16" fromText="lower lobectomy of the left side" toID="E17" toText="The operation" type="OVERLAP" />
+<TLINK id="TL27" fromID="E15" fromText="a left bronchoscopy" toID="E17" toText="The operation" type="OVERLAP" />
+<TLINK id="TL28" fromID="E18" fromText="a postoperative bleeding" toID="E17" toText="The operation" type="AFTER" />
+<TLINK id="TL29" fromID="E19" fromText="taken back" toID="E20" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL3" fromID="T0" fromText="2015-08-10" toID="T2" toText="the day" type="OVERLAP" />
+<TLINK id="TL30" fromID="E18" fromText="a postoperative bleeding" toID="E19" toText="taken back" type="BEFORE" />
+<TLINK id="TL32" fromID="E21" fromText="a repair of the left pulmonary artery" toID="E20" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL33" fromID="E21" fromText="a repair of the left pulmonary artery" toID="E22" toText="transferred" type="BEFORE" />
+<TLINK id="TL34" fromID="E21" fromText="a repair of the left pulmonary artery" toID="E26" toText="the operation" type="OVERLAP" />
+<TLINK id="TL35" fromID="E23" fromText="the CSRU" toID="E24" toText="intubated" type="OVERLAP" />
+<TLINK id="TL36" fromID="E22" fromText="transferred" toID="E23" toText="the CSRU" type="OVERLAP" />
+<TLINK id="TL37" fromID="E31" fromText="the floor" toID="E23" toText="the CSRU" type="OVERLAP" />
+<TLINK id="TL38" fromID="E25" fromText="Vascular Surgery Service" toID="E23" toText="the CSRU" type="OVERLAP" />
+<TLINK id="TL39" fromID="E27" fromText="packed red blood cells" toID="E26" toText="the operation" type="OVERLAP" />
+<TLINK id="TL40" fromID="E28" fromText="fresh frozen plasma" toID="E26" toText="the operation" type="OVERLAP" />
+<TLINK id="TL41" fromID="E29" fromText="platelets" toID="E26" toText="the operation" type="OVERLAP" />
+<TLINK id="TL42" fromID="E30" fromText="an estimated blood loss" toID="E26" toText="the operation" type="OVERLAP" />
+<TLINK id="TL43" fromID="E32" fromText="hematocrit" toID="E31" toText="the floor" type="OVERLAP" />
+<TLINK id="TL44" fromID="E33" fromText="extubated" toID="T3" toText="08-12" type="OVERLAP" />
+<TLINK id="TL45" fromID="E24" fromText="intubated" toID="E33" toText="extubated" type="BEFORE" />
+<TLINK id="TL46" fromID="T3" fromText="08-12" toID="E34" toText="hypertension" type="OVERLAP" />
+<TLINK id="TL47" fromID="E34" fromText="hypertension" toID="E35" toText="transferred" type="BEFORE" />
+<TLINK id="TL48" fromID="E35" fromText="transferred" toID="E36" toText="the floor" type="OVERLAP" />
+<TLINK id="TL49" fromID="E37" fromText="the Pain Service" toID="E38" toText="his epidural" type="OVERLAP" />
+<TLINK id="TL50" fromID="E36" fromText="the floor" toID="E37" toText="the Pain Service" type="OVERLAP" />
+<TLINK id="TL51" fromID="E39" fromText="His epidural" toID="E38" toText="his epidural" type="OVERLAP" />
+<TLINK id="TL52" fromID="E40" fromText="discharged" toID="E42" toText="discharged" type="OVERLAP" />
+<TLINK id="TL53" fromID="E40" fromText="discharged" toID="T4" toText="08-15" type="OVERLAP" />
+<TLINK id="TL54" fromID="E39" fromText="His epidural" toID="T4" toText="08-15" type="BEFORE" />
+<TLINK id="TL55" fromID="E39" fromText="His epidural" toID="E40" toText="discharged" type="BEFORE" />
+<TLINK id="TL56" fromID="E41" fromText="follow-up" toID="T6" toText="the next one to two weeks" type="OVERLAP" />
+<TLINK id="TL57" fromID="E41" fromText="follow-up" toID="T4" toText="08-15" type="AFTER" />
+<TLINK id="TL58" fromID="E40" fromText="discharged" toID="E41" toText="follow-up" type="BEFORE" />
+<TLINK id="TL59" fromID="E43" fromText="pain medication" toID="E42" toText="discharged" type="OVERLAP" />
+<TLINK id="TL6" fromID="E1" fromText="Discharge" toID="T1" toText="2015-08-15" type="OVERLAP" />
+<TLINK id="TL60" fromID="E44" fromText="percocet" toID="E43" toText="pain medication" type="OVERLAP" />
+<TLINK id="TL7" fromID="E5" fromText="work-up" toID="E2" toText="presented" type="AFTER" />
+<TLINK id="TL8" fromID="E3" fromText="hematemesis" toID="E2" toText="presented" type="BEFORE" />
+<TLINK id="TL9" fromID="E3" fromText="hematemesis" toID="E4" toText="hemoptysis" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2015-08-10" type="ADMISSION" dvalue="2015-08-10" />
+<SECTIME id="S1" start="46" end="56" text="2015-08-15" type="DISCHARGE" dvalue="2015-08-15" />
+<TLINK id="SECTIME0" fromID="E29" fromText="platelets" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E30" fromText="an estimated blood loss" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E31" fromText="the floor" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E32" fromText="hematocrit" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E33" fromText="extubated" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E34" fromText="hypertension" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E35" fromText="transferred" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E36" fromText="the floor" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E37" fromText="the Pain Service" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E38" fromText="his epidural" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E39" fromText="His epidural" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E40" fromText="discharged" toID="T1" toText="2015-08-15" type="OVERLAP" />
+<TLINK id="SECTIME12" fromID="E2" fromText="presented" toID="T0" toText="2015-08-10" type="OVERLAP" />
+<TLINK id="SECTIME13" fromID="E41" fromText="follow-up" toID="T1" toText="2015-08-15" type="AFTER" />
+<TLINK id="SECTIME14" fromID="E42" fromText="discharged" toID="T1" toText="2015-08-15" type="OVERLAP" />
+<TLINK id="SECTIME15" fromID="E43" fromText="pain medication" toID="T1" toText="2015-08-15" type="OVERLAP" />
+<TLINK id="SECTIME16" fromID="E44" fromText="percocet" toID="T1" toText="2015-08-15" type="OVERLAP" />
+<TLINK id="SECTIME17" fromID="E3" fromText="hematemesis" toID="T0" toText="2015-08-10" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E4" fromText="hemoptysis" toID="T0" toText="2015-08-10" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E5" fromText="work-up" toID="T0" toText="2015-08-10" type="OVERLAP" />
+<TLINK id="SECTIME20" fromID="E6" fromText="a left lower lobe mass" toID="T0" toText="2015-08-10" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E7" fromText="bronchoscopy with washings" toID="T0" toText="2015-08-10" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E8" fromText="showed" toID="T0" toText="2015-08-10" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E9" fromText="malignant cells" toID="T0" toText="2015-08-10" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E10" fromText="showed" toID="T0" toText="2015-08-10" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E11" fromText="atypical bronchial epithelial cells" toID="T0" toText="2015-08-10" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E12" fromText="reactive" toID="T0" toText="2015-08-10" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E13" fromText="the Operating Room" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E14" fromText="admission" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E15" fromText="a left bronchoscopy" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E16" fromText="lower lobectomy of the left side" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E17" fromText="The operation" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E18" fromText="a postoperative bleeding" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E19" fromText="taken back" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E20" fromText="the Operating Room" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E21" fromText="a repair of the left pulmonary artery" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E22" fromText="transferred" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E23" fromText="the CSRU" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E24" fromText="intubated" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E25" fromText="Vascular Surgery Service" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E26" fromText="the operation" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E27" fromText="packed red blood cells" toID="T1" toText="2015-08-15" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E28" fromText="fresh frozen plasma" toID="T1" toText="2015-08-15" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

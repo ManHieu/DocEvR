@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2020-05-23
+Discharge Date :
+2020-05-29
+Service :
+MEDICINE
+History of Present Illness :
+64 F with breast CA s/p mastectomy 17 y ago with local recurrence leading to paralysis of L arm ~ 5-6 y ago .
+Now declining gradually since January ( 30 lbs weight loss , becoming more confused , decreased appetite ).
+Patient declined workup / imaging for mets as outpatient .
+Moving toward home hospice .
+Over the last 2 weeks , husband reports patient becoming increasingly weak , unable to leave bed , confused , unable to feed herself .
+Seen by VNA and noted to be tachycardic and sent to Middleborough or evaluation .
+Now sent in to Amesbury by VNA because of asymptomatic sinus tachycardia .
+Transferred here for workup for CNS mets and admission .
+In John , VS - 99.6 , 135 , 122/65 , 20 .
+Neurology evaluated pt and felt to have intact brainstem reflexes but poor prognosis .
+Neurosurg evaluated pt and felt to not be surgical candidate ; recommended dilantin load and decadron .
+Received lorazepam prior to CT scan .
+Intubated for MS changes and lethargy and concern for airway protection .
+Post intubation , hypotensive and started on dopamine and transitioned to levophed .
+Received vancomycin / levafloxacin at OSH .
+Received metronidazole at Ricky in Mediplex Rehab Hospital .
+In CMED CCU , pt. responsive to noxious stimuli only .
+History obtained from husband as above .
+Brief Hospital Course :
+Metastatic breast CA - Large brain mets with midline shift .
+Intubated for airway protection .
+Treated with IV dilantin and decadron .
+Patient mental status improved slightly .
+After discussion with primary oncologist goals of care where change to comfort .
+Dilantin was stopped .
+Will go home with prn morphine , ativan , and PR decadron .
+Pnuemonia - Possible aspiration .
+Completed a 7 day course of vancomycin and levofloxacin .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E51" start="1002" end="1011" text="lorazepam" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="1021" end="1028" text="CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="1031" end="1040" text="Intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="1045" end="1055" text="MS changes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="1060" end="1068" text="lethargy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="1085" end="1102" text="airway protection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1110" end="1120" text="intubation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="1123" end="1134" text="hypotensive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="115" end="124" text="breast CA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="1150" end="1158" text="dopamine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1179" end="1187" text="levophed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1199" end="1209" text="vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1212" end="1224" text="levafloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1228" end="1231" text="OSH" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E54" start="1243" end="1256" text="metronidazole" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="1260" end="1265" text="Ricky" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E56" start="1269" end="1292" text="Mediplex Rehab Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="129" end="139" text="mastectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="1298" end="1306" text="CMED CCU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E59" start="1327" end="1342" text="noxious stimuli" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E60" start="1415" end="1435" text="Metastatic breast CA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="1438" end="1454" text="Large brain mets" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="1460" end="1473" text="midline shift" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="1476" end="1485" text="Intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="1490" end="1507" text="airway protection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E65" start="1523" end="1534" text="IV dilantin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="154" end="170" text="local recurrence" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="1539" end="1547" text="decadron" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="1558" end="1580" text="mental status improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="1598" end="1608" text="discussion" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="1614" end="1632" text="primary oncologist" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E69" start="1663" end="1670" text="comfort" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="1673" end="1681" text="Dilantin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="1718" end="1726" text="morphine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="1729" end="1735" text="ativan" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E73" start="1742" end="1753" text="PR decadron" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E74" start="1756" end="1765" text="Pnuemonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="1777" end="1787" text="aspiration" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="182" end="200" text="paralysis of L arm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E76" start="1818" end="1828" text="vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="1833" end="1845" text="levofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="219" end="228" text="declining" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="255" end="273" text="30 lbs weight loss" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="285" end="298" text="more confused" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="301" end="319" text="decreased appetite" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="340" end="346" text="workup" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="349" end="356" text="imaging" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E12" start="361" end="365" text="mets" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="396" end="408" text="home hospice" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="443" end="450" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E15" start="468" end="485" text="increasingly weak" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="488" end="507" text="unable to leave bed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="510" end="518" text="confused" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="521" end="543" text="unable to feed herself" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="554" end="557" text="VNA" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E20" start="562" end="567" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E21" start="574" end="585" text="tachycardic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E78" start="590" end="594" text="sent" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="598" end="611" text="Middleborough" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E23" start="615" end="625" text="evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="632" end="639" text="sent in" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="643" end="651" text="Amesbury" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E26" start="655" end="658" text="VNA" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E27" start="670" end="700" text="asymptomatic sinus tachycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="703" end="714" text="Transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="724" end="730" text="workup" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="735" end="743" text="CNS mets" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="748" end="757" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="763" end="767" text="John" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E32" start="770" end="772" text="VS" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="802" end="811" text="Neurology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E35" start="842" end="867" text="intact brainstem reflexes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="872" end="886" text="poor prognosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="889" end="898" text="Neurosurg" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E48" start="931" end="949" text="surgical candidate" modality="POSSIBLE" polarity="NEG" type="TREATMENT" />
+<EVENT id="E49" start="964" end="977" text="dilantin load" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="982" end="990" text="decadron" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T2" start="140" end="148" text="17 y ago" type="DATE" val="2003-05-23" mod="APPROX" />
+<TIMEX3 id="T0" start="18" end="28" text="2020-05-23" type="DATE" val="2020-05-23" mod="NA" />
+<TIMEX3 id="T7" start="1802" end="1807" text="7 day" type="DURATION" val="P7D" mod="NA" />
+<TIMEX3 id="T3" start="203" end="212" text="5-6 y ago" type="DATE" val="2014-11-23" mod="APPROX" />
+<TIMEX3 id="T4" start="245" end="252" text="January" type="DATE" val="2020-01" mod="APPROX" />
+<TIMEX3 id="T5" start="416" end="432" text="the last 2 weeks" type="DURATION" val="P2W" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2020-05-29" type="DATE" val="2020-05-29" mod="NA" />
+<TIMEX3 id="T6" start="628" end="631" text="Now" type="DATE" val="2020-05-23" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2020-05-23" type="OVERLAP" />
+<TLINK id="TL1" fromID="E2" fromText="breast CA" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL10" fromID="E7" fromText="30 lbs weight loss" toID="E6" toText="declining" type="OVERLAP" />
+<TLINK id="TL11" fromID="E8" fromText="more confused" toID="E6" toText="declining" type="OVERLAP" />
+<TLINK id="TL12" fromID="E9" fromText="decreased appetite" toID="E6" toText="declining" type="OVERLAP" />
+<TLINK id="TL13" fromID="E10" fromText="workup" toID="E11" toText="imaging" type="OVERLAP" />
+<TLINK id="TL14" fromID="E12" fromText="mets" toID="E11" toText="imaging" type="BEFORE" />
+<TLINK id="TL15" fromID="E15" fromText="increasingly weak" toID="T5" toText="the last 2 weeks" type="OVERLAP" />
+<TLINK id="TL16" fromID="T5" fromText="the last 2 weeks" toID="E16" toText="unable to leave bed" type="OVERLAP" />
+<TLINK id="TL17" fromID="T5" fromText="the last 2 weeks" toID="E17" toText="confused" type="OVERLAP" />
+<TLINK id="TL18" fromID="T5" fromText="the last 2 weeks" toID="E18" toText="unable to feed herself" type="OVERLAP" />
+<TLINK id="TL19" fromID="T5" fromText="the last 2 weeks" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL2" fromID="E6" fromText="declining" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL20" fromID="T5" fromText="the last 2 weeks" toID="E14" toText="reports" type="BEFORE" />
+<TLINK id="TL21" fromID="E20" fromText="noted" toID="E19" toText="VNA" type="OVERLAP" />
+<TLINK id="TL22" fromID="E21" fromText="tachycardic" toID="E20" toText="noted" type="BEFORE" />
+<TLINK id="TL23" fromID="E78" fromText="sent" toID="E20" toText="noted" type="AFTER" />
+<TLINK id="TL24" fromID="E22" fromText="Middleborough" toID="E23" toText="evaluation" type="BEFORE" />
+<TLINK id="TL25" fromID="E22" fromText="Middleborough" toID="E78" toText="sent" type="AFTER" />
+<TLINK id="TL26" fromID="E24" fromText="sent in" toID="T6" toText="Now" type="OVERLAP" />
+<TLINK id="TL27" fromID="E25" fromText="Amesbury" toID="E24" toText="sent in" type="AFTER" />
+<TLINK id="TL28" fromID="E24" fromText="sent in" toID="E28" toText="Transferred" type="BEFORE" />
+<TLINK id="TL29" fromID="E24" fromText="sent in" toID="E26" toText="VNA" type="OVERLAP" />
+<TLINK id="TL3" fromID="E1" fromText="Discharge" toID="T1" toText="2020-05-29" type="OVERLAP" />
+<TLINK id="TL30" fromID="E27" fromText="asymptomatic sinus tachycardia" toID="E25" toText="Amesbury" type="BEFORE" />
+<TLINK id="TL31" fromID="E29" fromText="workup" toID="E28" toText="Transferred" type="AFTER" />
+<TLINK id="TL32" fromID="E30" fromText="CNS mets" toID="E29" toText="workup" type="BEFORE" />
+<TLINK id="TL33" fromID="E31" fromText="admission" toID="E29" toText="workup" type="BEFORE" />
+<TLINK id="TL34" fromID="E12" fromText="mets" toID="E30" toText="CNS mets" type="OVERLAP" />
+<TLINK id="TL35" fromID="E30" fromText="CNS mets" toID="E61" toText="Large brain mets" type="OVERLAP" />
+<TLINK id="TL36" fromID="E31" fromText="admission" toID="T0" toText="2020-05-23" type="OVERLAP" />
+<TLINK id="TL37" fromID="E32" fromText="VS" toID="E34" toText="John" type="OVERLAP" />
+<TLINK id="TL38" fromID="E35" fromText="intact brainstem reflexes" toID="E33" toText="Neurology" type="BEFORE" />
+<TLINK id="TL39" fromID="E36" fromText="poor prognosis" toID="E33" toText="Neurology" type="OVERLAP" />
+<TLINK id="TL4" fromID="E2" fromText="breast CA" toID="E3" toText="mastectomy" type="BEFORE" />
+<TLINK id="TL40" fromID="E48" fromText="surgical candidate" toID="E37" toText="Neurosurg" type="OVERLAP" />
+<TLINK id="TL41" fromID="E49" fromText="dilantin load" toID="E37" toText="Neurosurg" type="AFTER" />
+<TLINK id="TL42" fromID="E50" fromText="decadron" toID="E49" toText="dilantin load" type="OVERLAP" />
+<TLINK id="TL43" fromID="E65" fromText="IV dilantin" toID="E49" toText="dilantin load" type="OVERLAP" />
+<TLINK id="TL44" fromID="E66" fromText="decadron" toID="E50" toText="decadron" type="OVERLAP" />
+<TLINK id="TL45" fromID="E51" fromText="lorazepam" toID="E52" toText="CT scan" type="BEFORE" />
+<TLINK id="TL46" fromID="E38" fromText="MS changes" toID="E53" toText="Intubated" type="BEFORE" />
+<TLINK id="TL47" fromID="E40" fromText="airway protection" toID="E53" toText="Intubated" type="AFTER" />
+<TLINK id="TL48" fromID="E41" fromText="intubation" toID="E53" toText="Intubated" type="OVERLAP" />
+<TLINK id="TL49" fromID="E63" fromText="Intubated" toID="E53" toText="Intubated" type="OVERLAP" />
+<TLINK id="TL5" fromID="E3" fromText="mastectomy" toID="T2" toText="17 y ago" type="OVERLAP" />
+<TLINK id="TL51" fromID="E39" fromText="lethargy" toID="E53" toText="Intubated" type="BEFORE" />
+<TLINK id="TL52" fromID="E42" fromText="hypotensive" toID="E41" toText="intubation" type="AFTER" />
+<TLINK id="TL53" fromID="E43" fromText="dopamine" toID="E42" toText="hypotensive" type="AFTER" />
+<TLINK id="TL54" fromID="E43" fromText="dopamine" toID="E44" toText="levophed" type="BEFORE" />
+<TLINK id="TL55" fromID="E44" fromText="levophed" toID="E45" toText="vancomycin" type="OVERLAP" />
+<TLINK id="TL56" fromID="E45" fromText="vancomycin" toID="E76" toText="vancomycin" type="OVERLAP" />
+<TLINK id="TL57" fromID="E46" fromText="levafloxacin" toID="E47" toText="OSH" type="OVERLAP" />
+<TLINK id="TL58" fromID="E46" fromText="levafloxacin" toID="E77" toText="levofloxacin" type="OVERLAP" />
+<TLINK id="TL59" fromID="E54" fromText="metronidazole" toID="E55" toText="Ricky" type="OVERLAP" />
+<TLINK id="TL6" fromID="E4" fromText="local recurrence" toID="E5" toText="paralysis of L arm" type="BEFORE" />
+<TLINK id="TL60" fromID="E55" fromText="Ricky" toID="E56" toText="Mediplex Rehab Hospital" type="OVERLAP" />
+<TLINK id="TL61" fromID="E59" fromText="noxious stimuli" toID="E58" toText="CMED CCU" type="OVERLAP" />
+<TLINK id="TL62" fromID="E60" fromText="Metastatic breast CA" toID="E61" toText="Large brain mets" type="OVERLAP" />
+<TLINK id="TL63" fromID="E60" fromText="Metastatic breast CA" toID="E2" toText="breast CA" type="OVERLAP" />
+<TLINK id="TL64" fromID="E61" fromText="Large brain mets" toID="E62" toText="midline shift" type="OVERLAP" />
+<TLINK id="TL65" fromID="E64" fromText="airway protection" toID="E63" toText="Intubated" type="AFTER" />
+<TLINK id="TL66" fromID="E66" fromText="decadron" toID="E79" toText="mental status improved" type="BEFORE" />
+<TLINK id="TL67" fromID="E69" fromText="comfort" toID="E67" toText="discussion" type="AFTER" />
+<TLINK id="TL68" fromID="E67" fromText="discussion" toID="E79" toText="mental status improved" type="AFTER" />
+<TLINK id="TL69" fromID="E67" fromText="discussion" toID="E68" toText="primary oncologist" type="OVERLAP" />
+<TLINK id="TL7" fromID="E4" fromText="local recurrence" toID="T2" toText="17 y ago" type="AFTER" />
+<TLINK id="TL70" fromID="E70" fromText="Dilantin" toID="E69" toText="comfort" type="BEFORE" />
+<TLINK id="TL71" fromID="E70" fromText="Dilantin" toID="E49" toText="dilantin load" type="OVERLAP" />
+<TLINK id="TL72" fromID="E72" fromText="ativan" toID="E71" toText="morphine" type="OVERLAP" />
+<TLINK id="TL73" fromID="E73" fromText="PR decadron" toID="E72" toText="ativan" type="OVERLAP" />
+<TLINK id="TL74" fromID="E74" fromText="Pnuemonia" toID="E75" toText="aspiration" type="OVERLAP" />
+<TLINK id="TL75" fromID="E76" fromText="vancomycin" toID="T7" toText="7 day" type="OVERLAP" />
+<TLINK id="TL76" fromID="E77" fromText="levofloxacin" toID="T7" toText="7 day" type="OVERLAP" />
+<TLINK id="TL8" fromID="E5" fromText="paralysis of L arm" toID="T3" toText="5-6 y ago" type="OVERLAP" />
+<TLINK id="TL9" fromID="E6" fromText="declining" toID="T4" toText="January" type="AFTER" />
+<SECTIME id="S0" start="18" end="28" text="2020-05-23" type="ADMISSION" dvalue="2020-05-23" />
+<SECTIME id="S1" start="46" end="56" text="2020-05-29" type="DISCHARGE" dvalue="2020-05-29" />
+<TLINK id="SECTIME0" fromID="E51" fromText="lorazepam" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E52" fromText="CT scan" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E53" fromText="Intubated" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E38" fromText="MS changes" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E39" fromText="lethargy" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E40" fromText="airway protection" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E41" fromText="intubation" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E42" fromText="hypotensive" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E2" fromText="breast CA" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E43" fromText="dopamine" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E44" fromText="levophed" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E45" fromText="vancomycin" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E46" fromText="levafloxacin" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E47" fromText="OSH" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E54" fromText="metronidazole" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E55" fromText="Ricky" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E56" fromText="Mediplex Rehab Hospital" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E3" fromText="mastectomy" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E58" fromText="CMED CCU" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E59" fromText="noxious stimuli" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E60" fromText="Metastatic breast CA" toID="T1" toText="2020-05-29" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E61" fromText="Large brain mets" toID="T1" toText="2020-05-29" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E62" fromText="midline shift" toID="T1" toText="2020-05-29" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E63" fromText="Intubated" toID="T1" toText="2020-05-29" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E64" fromText="airway protection" toID="T1" toText="2020-05-29" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E65" fromText="IV dilantin" toID="T1" toText="2020-05-29" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E4" fromText="local recurrence" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E66" fromText="decadron" toID="T1" toText="2020-05-29" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E79" fromText="mental status improved" toID="T1" toText="2020-05-29" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E67" fromText="discussion" toID="T1" toText="2020-05-29" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E68" fromText="primary oncologist" toID="T1" toText="2020-05-29" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E69" fromText="comfort" toID="T1" toText="2020-05-29" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E70" fromText="Dilantin" toID="T1" toText="2020-05-29" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E71" fromText="morphine" toID="T1" toText="2020-05-29" type="AFTER" />
+<TLINK id="SECTIME34" fromID="E72" fromText="ativan" toID="T1" toText="2020-05-29" type="AFTER" />
+<TLINK id="SECTIME35" fromID="E73" fromText="PR decadron" toID="T1" toText="2020-05-29" type="AFTER" />
+<TLINK id="SECTIME36" fromID="E74" fromText="Pnuemonia" toID="T1" toText="2020-05-29" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E75" fromText="aspiration" toID="T1" toText="2020-05-29" type="AFTER" />
+<TLINK id="SECTIME38" fromID="E5" fromText="paralysis of L arm" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E76" fromText="vancomycin" toID="T1" toText="2020-05-29" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E77" fromText="levofloxacin" toID="T1" toText="2020-05-29" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E6" fromText="declining" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E7" fromText="30 lbs weight loss" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E8" fromText="more confused" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E9" fromText="decreased appetite" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E10" fromText="workup" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E11" fromText="imaging" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E12" fromText="mets" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E13" fromText="home hospice" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E14" fromText="reports" toID="T0" toText="2020-05-23" type="OVERLAP" />
+<TLINK id="SECTIME50" fromID="E15" fromText="increasingly weak" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E16" fromText="unable to leave bed" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E17" fromText="confused" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E18" fromText="unable to feed herself" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E19" fromText="VNA" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E20" fromText="noted" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E21" fromText="tachycardic" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E78" fromText="sent" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E22" fromText="Middleborough" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E23" fromText="evaluation" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E24" fromText="sent in" toID="T0" toText="2020-05-23" type="OVERLAP" />
+<TLINK id="SECTIME61" fromID="E25" fromText="Amesbury" toID="T0" toText="2020-05-23" type="OVERLAP" />
+<TLINK id="SECTIME62" fromID="E26" fromText="VNA" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E27" fromText="asymptomatic sinus tachycardia" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E28" fromText="Transferred" toID="T0" toText="2020-05-23" type="OVERLAP" />
+<TLINK id="SECTIME65" fromID="E29" fromText="workup" toID="T0" toText="2020-05-23" type="OVERLAP" />
+<TLINK id="SECTIME66" fromID="E30" fromText="CNS mets" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E34" fromText="John" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E32" fromText="VS" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E33" fromText="Neurology" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E35" fromText="intact brainstem reflexes" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E36" fromText="poor prognosis" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E37" fromText="Neurosurg" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E48" fromText="surgical candidate" toID="T0" toText="2020-05-23" type="OVERLAP" />
+<TLINK id="SECTIME74" fromID="E49" fromText="dilantin load" toID="T0" toText="2020-05-23" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E50" fromText="decadron" toID="T0" toText="2020-05-23" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

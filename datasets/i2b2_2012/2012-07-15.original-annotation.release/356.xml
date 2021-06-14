@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+12-3-93
+DISCHARGE DATE :
+12-10-93
+HISTORY OF PRESENT ILLNESS :
+The patient is a 47 year old white male with a history of emphysema who presents for admission with a diagnosis of broncho-alveolar carcinoma and is scheduled for flexible bronchoscopy , mediastinoscopy and thoracotomy with questionable pneumonectomy by Dr. An on 12-4-93 .
+The patient is a native of Nahuter with a 70+ pack year smoking history ( 2 1/2-3 pack per day x 35 years ) whose symptoms began last 12/92 when he had a persistent cough and fever .
+In six months , he was hospitalized for pneumonia x four .
+He has had worsening dyspnea and paroxysmal nocturnal dyspnea , though denies orthopnea .
+No hemoptysis , no fevers , chills , sweats , when pneumonia resolved .
+The patient also noticed a loss of weight of approximately 25 pounds over a few months with increased fatigue and lower extremity weakness .
+A &quot; spot &quot; in the left lower lobe on chest X-ray was noted in October of 1993 , after his pneumonia cleared .
+A follow up chest computerized tomography scan led to a tissue biopsy via flexible bronchoscopy in 11/93 .
+Tissue returned well differentiated adenocarcinoma .
+The patient was told nothing could be done until he was referred to Dr. An .
+His appetite has been good and he has only complained of occasional sharp pain under his rib cage , right greater than left .
+ALLERGIES :
+The patient is allergic to Percodan , which gives him itchiness .
+MEDICATIONS ON ADMISSION :
+Triamcinolone , one tablet PO b.i.d. , dosage unknown , Xanax one tablet PO t.i.d. , prn anxiety , dosage unknown , MS Contin prn .
+HOSPITAL COURSE :
+A quantitative V / Q scan was also done preoperatively and Pulmonary consult was obtained preoperatively .
+Pulmonary recommended that he just be started on Albuterol and Atrovent metered dose inhalers , 2 puffs q6h , prior to surgery .
+The patient underwent his procedure on 12-4-93 , without complications .
+Findings included thickened pleura with multiple adhesions and an abscess near the margin major fissure .
+He had a firm nodule in the left lower lobe .
+The patient was transferred to the Respiratory Intensive Care Unit in stable condition and had an uneventful stay there .
+He had oxygen saturations of 99% with an Fi02 of 40% and had no complaints .
+He was transferred to the floor on postoperative day number one and tolerated his PO&apos;s well .
+His left lower lobe micro results revealed alpha hemolytic Streptococcus on culture and he was then switched to penicillin and Gentamicin after being started on triples of Flagyl , Ampicillin , and Gentamicin .
+He had low grade temperatures , though did not spike a high temperature during his hospital course .
+His hospital course was otherwise uneventful and the patient was discharged in stable condition on postoperative day , afebrile .
+The chest X-ray on the morning of discharge was unchanged from the previous day , with slight increase in left pleural fluid .
+He had completed six days of penicillin and Gentamicin and was discharged on Ciprofloxacin and Flagyl for the next seven days .
+He stayed at the local Comfort Inn before his return back to Aujer Cin .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="1020" end="1066" text="A follow up chest computerized tomography scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="1074" end="1089" text="a tissue biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="1094" end="1115" text="flexible bronchoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E56" start="1143" end="1177" text="well differentiated adenocarcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="1300" end="1310" text="complained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E58" start="1314" end="1354" text="occasional sharp pain under his rib cage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="139" end="148" text="emphysema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="1410" end="1418" text="allergic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="1422" end="1430" text="Percodan" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="1449" end="1458" text="itchiness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="1488" end="1501" text="Triamcinolone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="153" end="161" text="presents" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="1544" end="1549" text="Xanax" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="1577" end="1584" text="anxiety" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="1604" end="1613" text="MS Contin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="1638" end="1663" text="A quantitative V / Q scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="166" end="175" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E66" start="1697" end="1714" text="Pulmonary consult" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E67" start="1745" end="1754" text="Pulmonary" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E68" start="1794" end="1803" text="Albuterol" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="1808" end="1838" text="Atrovent metered dose inhalers" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="1864" end="1871" text="surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1896" end="1909" text="his procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="1931" end="1944" text="complications" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E47" start="196" end="222" text="broncho-alveolar carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="1965" end="1981" text="thickened pleura" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1987" end="2005" text="multiple adhesions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="2010" end="2050" text="an abscess near the margin major fissure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="2060" end="2096" text="a firm nodule in the left lower lobe" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="2115" end="2126" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="2130" end="2165" text="the Respiratory Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E27" start="2228" end="2246" text="oxygen saturations" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="2259" end="2266" text="an Fi02" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E72" start="2285" end="2295" text="complaints" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E73" start="2305" end="2316" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="2320" end="2329" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E75" start="2366" end="2394" text="tolerated his PO&apos;s well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="2397" end="2422" text="His left lower lobe micro" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="244" end="265" text="flexible bronchoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="2440" end="2469" text="alpha hemolytic Streptococcus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="2473" end="2480" text="culture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="2509" end="2519" text="penicillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="2524" end="2534" text="Gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="2524" end="2534" text="Gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="2569" end="2575" text="Flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="2578" end="2588" text="Ampicillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="2595" end="2605" text="Gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="26" end="35" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="2615" end="2637" text="low grade temperatures" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="2661" end="2679" text="a high temperature" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E49" start="268" end="283" text="mediastinoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E76" start="2687" end="2706" text="his hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E77" start="2709" end="2728" text="His hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="2774" end="2784" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="2828" end="2836" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="2839" end="2854" text="The chest X-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E80" start="2839" end="2854" text="The chest X-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="288" end="299" text="thoracotomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="2926" end="2963" text="slight increase in left pleural fluid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="2995" end="3005" text="penicillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E83" start="3010" end="3020" text="Gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="3029" end="3039" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E84" start="3043" end="3056" text="Ciprofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E85" start="3061" end="3067" text="Flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="318" end="331" text="pneumonectomy" modality="POSSIBLE" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="411" end="426" text="smoking history" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="469" end="477" text="symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="507" end="525" text="a persistent cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="530" end="535" text="fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="561" end="573" text="hospitalized" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="578" end="587" text="pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="608" end="625" text="worsening dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="630" end="658" text="paroxysmal nocturnal dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="675" end="684" text="orthopnea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E7" start="690" end="700" text="hemoptysis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E8" start="706" end="712" text="fevers" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E9" start="715" end="721" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E10" start="724" end="730" text="sweats" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E55" start="738" end="747" text="pneumonia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E11" start="784" end="800" text="a loss of weight" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="851" end="868" text="increased fatigue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="873" end="897" text="lower extremity weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="900" end="943" text="A &quot; spot &quot; in the left lower lobe" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="947" end="958" text="chest X-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="996" end="1009" text="his pneumonia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<TIMEX3 id="T12" start="1119" end="1124" text="11/93" type="DATE" val="1993-11" mod="NA" />
+<TIMEX3 id="T16" start="1518" end="1524" text="b.i.d." type="FREQUENCY" val="RP12H" mod="NA" />
+<TIMEX3 id="T15" start="1564" end="1570" text="t.i.d." type="FREQUENCY" val="RP8H" mod="NA" />
+<TIMEX3 id="T1" start="18" end="25" text="12-3-93" type="DATE" val="1993-12-03" mod="NA" />
+<TIMEX3 id="T17" start="1841" end="1852" text="2 puffs q6h" type="FREQUENCY" val="R2P6H" mod="NA" />
+<TIMEX3 id="T6" start="1913" end="1920" text="12-4-93" type="DATE" val="1993-12-04" mod="NA" />
+<TIMEX3 id="T7" start="2333" end="2361" text="postoperative day number one" type="DATE" val="1993-12-05" mod="NA" />
+<TIMEX3 id="T8" start="2808" end="2825" text="postoperative day" type="DATE" val="1993-12-10" mod="NA" />
+<TIMEX3 id="T18" start="2858" end="2882" text="the morning of discharge" type="DATE" val="1993-12-10" mod="START" />
+<TIMEX3 id="T11" start="2902" end="2918" text="the previous day" type="DATE" val="1993-12-09" mod="NA" />
+<TIMEX3 id="T9" start="2983" end="2991" text="six days" type="DURATION" val="P6D" mod="NA" />
+<TIMEX3 id="T10" start="3081" end="3091" text="seven days" type="DURATION" val="P7D" mod="NA" />
+<TIMEX3 id="T3" start="345" end="352" text="12-4-93" type="DATE" val="1993-12-04" mod="NA" />
+<TIMEX3 id="T2" start="43" end="51" text="12-10-93" type="DATE" val="1993-12-10" mod="NA" />
+<TIMEX3 id="T4" start="489" end="494" text="12/92" type="DATE" val="1992-12" mod="NA" />
+<TIMEX3 id="T0" start="541" end="551" text="six months" type="DURATION" val="P6M" mod="NA" />
+<TIMEX3 id="T13" start="590" end="594" text="four" type="FREQUENCY" val="R4" mod="NA" />
+<TIMEX3 id="T14" start="833" end="845" text="a few months" type="DURATION" val="P60D" mod="NA" />
+<TIMEX3 id="T5" start="972" end="987" text="October of 1993" type="DATE" val="1993-10" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T1" toText="12-3-93" type="OVERLAP" />
+<TLINK id="TL1" fromID="E21" fromText="surgery" toID="E22" toText="his procedure" type="simultaneous" />
+<TLINK id="TL10" fromID="E51" fromText="pneumonectomy" toID="T3" toText="12-4-93" type="OVERLAP" />
+<TLINK id="TL11" fromID="E52" fromText="smoking history" toID="E46" toText="admission" type="BEFORE" />
+<TLINK id="TL12" fromID="E53" fromText="symptoms" toID="T4" toText="12/92" type="OVERLAP" />
+<TLINK id="TL13" fromID="E1" fromText="a persistent cough" toID="E53" toText="symptoms" type="OVERLAP" />
+<TLINK id="TL14" fromID="E53" fromText="symptoms" toID="E2" toText="fever" type="OVERLAP" />
+<TLINK id="TL15" fromID="E54" fromText="hospitalized" toID="T0" toText="six months" type="DURING" />
+<TLINK id="TL16" fromID="E3" fromText="pneumonia" toID="E54" toText="hospitalized" type="OVERLAP" />
+<TLINK id="TL17" fromID="E3" fromText="pneumonia" toID="T13" toText="four" type="OVERLAP" />
+<TLINK id="TL19" fromID="E4" fromText="worsening dyspnea" toID="E5" toText="paroxysmal nocturnal dyspnea" type="OVERLAP" />
+<TLINK id="TL2" fromID="T5" fromText="October of 1993" toID="E16" toText="his pneumonia" type="AFTER" />
+<TLINK id="TL20" fromID="E6" fromText="orthopnea" toID="E5" toText="paroxysmal nocturnal dyspnea" type="OVERLAP" />
+<TLINK id="TL21" fromID="E7" fromText="hemoptysis" toID="E8" toText="fevers" type="OVERLAP" />
+<TLINK id="TL22" fromID="E8" fromText="fevers" toID="E9" toText="chills" type="OVERLAP" />
+<TLINK id="TL23" fromID="E9" fromText="chills" toID="E10" toText="sweats" type="OVERLAP" />
+<TLINK id="TL24" fromID="E10" fromText="sweats" toID="E55" toText="pneumonia" type="AFTER" />
+<TLINK id="TL25" fromID="E11" fromText="a loss of weight" toID="T14" toText="a few months" type="DURING" />
+<TLINK id="TL26" fromID="E12" fromText="increased fatigue" toID="T14" toText="a few months" type="DURING" />
+<TLINK id="TL27" fromID="E13" fromText="lower extremity weakness" toID="T14" toText="a few months" type="OVERLAP" />
+<TLINK id="TL28" fromID="E15" fromText="chest X-ray" toID="T5" toText="October of 1993" type="OVERLAP" />
+<TLINK id="TL29" fromID="E14" fromText="A &quot; spot &quot; in the left lower lobe" toID="E15" toText="chest X-ray" type="BEFORE_OVERLAP" />
+<TLINK id="TL3" fromID="E43" fromText="DISCHARGE" toID="T2" toText="12-10-93" type="OVERLAP" />
+<TLINK id="TL30" fromID="E16" fromText="his pneumonia" toID="E55" toText="pneumonia" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="T0" fromText="six months" toID="T4" toText="12/92" type="AFTER" />
+<TLINK id="TL32" fromID="T0" fromText="six months" toID="T5" toText="October of 1993" type="BEFORE" />
+<TLINK id="TL33" fromID="E18" fromText="a tissue biopsy" toID="E17" toText="A follow up chest computerized tomography scan" type="AFTER" />
+<TLINK id="TL34" fromID="E18" fromText="a tissue biopsy" toID="E19" toText="flexible bronchoscopy" type="SIMULTANEOUS" />
+<TLINK id="TL35" fromID="E18" fromText="a tissue biopsy" toID="T12" toText="11/93" type="OVERLAP" />
+<TLINK id="TL36" fromID="E56" fromText="well differentiated adenocarcinoma" toID="E18" toText="a tissue biopsy" type="BEFORE_OVERLAP" />
+<TLINK id="TL38" fromID="E58" fromText="occasional sharp pain under his rib cage" toID="E57" toText="complained" type="BEFORE_OVERLAP" />
+<TLINK id="TL39" fromID="E59" fromText="allergic" toID="E60" toText="Percodan" type="OVERLAP" />
+<TLINK id="TL4" fromID="E44" fromText="emphysema" toID="E45" toText="presents" type="BEFORE_OVERLAP" />
+<TLINK id="TL40" fromID="E61" fromText="itchiness" toID="E59" toText="allergic" type="OVERLAP" />
+<TLINK id="TL41" fromID="E62" fromText="Triamcinolone" toID="T16" toText="b.i.d." type="OVERLAP" />
+<TLINK id="TL42" fromID="E63" fromText="Xanax" toID="T15" toText="t.i.d." type="OVERLAP" />
+<TLINK id="TL43" fromID="E63" fromText="Xanax" toID="E64" toText="anxiety" type="OVERLAP" />
+<TLINK id="TL44" fromID="E64" fromText="anxiety" toID="E65" toText="MS Contin" type="OVERLAP" />
+<TLINK id="TL45" fromID="E66" fromText="Pulmonary consult" toID="E67" toText="Pulmonary" type="SIMULTANEOUS" />
+<TLINK id="TL46" fromID="E20" fromText="A quantitative V / Q scan" toID="E66" toText="Pulmonary consult" type="BEFORE" />
+<TLINK id="TL47" fromID="E20" fromText="A quantitative V / Q scan" toID="E21" toText="surgery" type="BEFORE" />
+<TLINK id="TL48" fromID="E67" fromText="Pulmonary" toID="E21" toText="surgery" type="BEFORE" />
+<TLINK id="TL49" fromID="E68" fromText="Albuterol" toID="E21" toText="surgery" type="BEFORE" />
+<TLINK id="TL5" fromID="E45" fromText="presents" toID="E46" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="E69" fromText="Atrovent metered dose inhalers" toID="E21" toText="surgery" type="BEFORE" />
+<TLINK id="TL51" fromID="E69" fromText="Atrovent metered dose inhalers" toID="T17" toText="2 puffs q6h" type="OVERLAP" />
+<TLINK id="TL52" fromID="E22" fromText="his procedure" toID="T6" toText="12-4-93" type="OVERLAP" />
+<TLINK id="TL53" fromID="E22" fromText="his procedure" toID="E70" toText="complications" type="OVERLAP" />
+<TLINK id="TL54" fromID="E23" fromText="thickened pleura" toID="E22" toText="his procedure" type="BEFORE_OVERLAP" />
+<TLINK id="TL55" fromID="E24" fromText="multiple adhesions" toID="E23" toText="thickened pleura" type="OVERLAP" />
+<TLINK id="TL56" fromID="E25" fromText="an abscess near the margin major fissure" toID="E22" toText="his procedure" type="BEFORE_OVERLAP" />
+<TLINK id="TL57" fromID="E26" fromText="a firm nodule in the left lower lobe" toID="E22" toText="his procedure" type="BEFORE_OVERLAP" />
+<TLINK id="TL58" fromID="E39" fromText="the Respiratory Intensive Care Unit" toID="E71" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL59" fromID="E27" fromText="oxygen saturations" toID="E28" toText="an Fi02" type="OVERLAP" />
+<TLINK id="TL6" fromID="E48" fromText="flexible bronchoscopy" toID="E47" toText="broncho-alveolar carcinoma" type="BEFORE_OVERLAP" />
+<TLINK id="TL60" fromID="E28" fromText="an Fi02" toID="E72" toText="complaints" type="OVERLAP" />
+<TLINK id="TL61" fromID="E27" fromText="oxygen saturations" toID="E39" toText="the Respiratory Intensive Care Unit" type="DURING" />
+<TLINK id="TL62" fromID="E39" fromText="the Respiratory Intensive Care Unit" toID="E73" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL63" fromID="E74" fromText="the floor" toID="E73" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL64" fromID="E73" fromText="transferred" toID="T7" toText="postoperative day number one" type="OVERLAP" />
+<TLINK id="TL65" fromID="E75" fromText="tolerated his PO&apos;s well" toID="E74" toText="the floor" type="DURING" />
+<TLINK id="TL66" fromID="E30" fromText="alpha hemolytic Streptococcus" toID="E29" toText="His left lower lobe micro" type="BEFORE_OVERLAP" />
+<TLINK id="TL67" fromID="E30" fromText="alpha hemolytic Streptococcus" toID="E31" toText="culture" type="OVERLAP" />
+<TLINK id="TL68" fromID="E32" fromText="penicillin" toID="E33" toText="Gentamicin" type="OVERLAP" />
+<TLINK id="TL69" fromID="E34" fromText="Flagyl" toID="E35" toText="Ampicillin" type="OVERLAP" />
+<TLINK id="TL7" fromID="E49" fromText="mediastinoscopy" toID="E48" toText="flexible bronchoscopy" type="OVERLAP" />
+<TLINK id="TL70" fromID="E35" fromText="Ampicillin" toID="E40" toText="Gentamicin" type="OVERLAP" />
+<TLINK id="TL71" fromID="E33" fromText="Gentamicin" toID="E34" toText="Flagyl" type="AFTER" />
+<TLINK id="TL72" fromID="E34" fromText="Flagyl" toID="E32" toText="penicillin" type="ENDED_BY" />
+<TLINK id="TL73" fromID="E37" fromText="low grade temperatures" toID="E74" toText="the floor" type="DURING" />
+<TLINK id="TL74" fromID="E76" fromText="his hospital course" toID="E0" toText="ADMISSION" type="BEGUN_BY" />
+<TLINK id="TL75" fromID="E76" fromText="his hospital course" toID="E43" toText="DISCHARGE" type="ENDED_BY" />
+<TLINK id="TL76" fromID="E38" fromText="a high temperature" toID="E76" toText="his hospital course" type="DURING" />
+<TLINK id="TL77" fromID="E77" fromText="His hospital course" toID="E76" toText="his hospital course" type="SIMULTANEOUS" />
+<TLINK id="TL78" fromID="E41" fromText="discharged" toID="E43" toText="DISCHARGE" type="SIMULTANEOUS" />
+<TLINK id="TL79" fromID="E41" fromText="discharged" toID="T8" toText="postoperative day" type="OVERLAP" />
+<TLINK id="TL8" fromID="E50" fromText="thoracotomy" toID="E49" toText="mediastinoscopy" type="" />
+<TLINK id="TL80" fromID="E78" fromText="afebrile" toID="T8" toText="postoperative day" type="OVERLAP" />
+<TLINK id="TL81" fromID="E79" fromText="The chest X-ray" toID="T18" toText="the morning of discharge" type="OVERLAP" />
+<TLINK id="TL82" fromID="E79" fromText="The chest X-ray" toID="T11" toText="the previous day" type="OVERLAP" />
+<TLINK id="TL83" fromID="E81" fromText="slight increase in left pleural fluid" toID="E79" toText="The chest X-ray" type="BEFORE_OVERLAP" />
+<TLINK id="TL84" fromID="E82" fromText="penicillin" toID="T9" toText="six days" type="DURING" />
+<TLINK id="TL85" fromID="E83" fromText="Gentamicin" toID="T9" toText="six days" type="DURING" />
+<TLINK id="TL86" fromID="E40" fromText="Gentamicin" toID="E83" toText="Gentamicin" type="SIMULTANEOUS" />
+<TLINK id="TL87" fromID="E32" fromText="penicillin" toID="E82" toText="penicillin" type="SIMULTANEOUS" />
+<TLINK id="TL88" fromID="E42" fromText="discharged" toID="E41" toText="discharged" type="SIMULTANEOUS" />
+<TLINK id="TL89" fromID="E84" fromText="Ciprofloxacin" toID="E85" toText="Flagyl" type="OVERLAP" />
+<TLINK id="TL9" fromID="E51" fromText="pneumonectomy" toID="E50" toText="thoracotomy" type="OVERLAP" />
+<TLINK id="TL90" fromID="E85" fromText="Flagyl" toID="T10" toText="seven days" type="DURING" />
+<TLINK id="TL91" fromID="T10" fromText="seven days" toID="E42" toText="discharged" type="BEGUN_BY" />
+
+
+<TLINK id="Sectime0" fromID="E17" fromText="A follow up chest computerized tomography scan" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E18" fromText="a tissue biopsy" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E19" fromText="flexible bronchoscopy" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E56" fromText="well differentiated adenocarcinoma" toID="T1" toText="12-3-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime4" fromID="E57" fromText="complained" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E58" fromText="occasional sharp pain under his rib cage" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E44" fromText="emphysema" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E59" fromText="allergic" toID="T1" toText="12-3-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime8" fromID="E60" fromText="Percodan" toID="T1" toText="12-3-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime9" fromID="E61" fromText="itchiness" toID="T1" toText="12-3-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime10" fromID="E62" fromText="Triamcinolone" toID="T1" toText="12-3-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime11" fromID="E45" fromText="presents" toID="T1" toText="12-3-93" type="OVERLAP" />
+<TLINK id="Sectime12" fromID="E63" fromText="Xanax" toID="T1" toText="12-3-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime13" fromID="E64" fromText="anxiety" toID="T1" toText="12-3-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime14" fromID="E65" fromText="MS Contin" toID="T1" toText="12-3-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime0" fromID="E20" fromText="A quantitative V / Q scan" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E46" fromText="admission" toID="T1" toText="12-3-93" type="OVERLAP" />
+<TLINK id="Sectime1" fromID="E66" fromText="Pulmonary consult" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E67" fromText="Pulmonary" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E68" fromText="Albuterol" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E69" fromText="Atrovent metered dose inhalers" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E21" fromText="surgery" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E22" fromText="his procedure" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E70" fromText="complications" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E47" fromText="broncho-alveolar carcinoma" toID="T1" toText="12-3-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime8" fromID="E23" fromText="thickened pleura" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E24" fromText="multiple adhesions" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E25" fromText="an abscess near the margin major fissure" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E26" fromText="a firm nodule in the left lower lobe" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E71" fromText="transferred" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E39" fromText="the Respiratory Intensive Care Unit" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E27" fromText="oxygen saturations" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E28" fromText="an Fi02" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E72" fromText="complaints" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E73" fromText="transferred" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E74" fromText="the floor" toID="T2" toText="12-10-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime19" fromID="E75" fromText="tolerated his PO&apos;s well" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E29" fromText="His left lower lobe micro" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E48" fromText="flexible bronchoscopy" toID="T1" toText="12-3-93" type="AFTER" />
+<TLINK id="Sectime21" fromID="E30" fromText="alpha hemolytic Streptococcus" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E31" fromText="culture" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E32" fromText="penicillin" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E33" fromText="Gentamicin" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E36" fromText="Gentamicin" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E34" fromText="Flagyl" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E35" fromText="Ampicillin" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E40" fromText="Gentamicin" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E37" fromText="low grade temperatures" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E38" fromText="a high temperature" toID="T2" toText="12-10-93" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E49" fromText="mediastinoscopy" toID="T1" toText="12-3-93" type="AFTER" />
+<TLINK id="Sectime31" fromID="E76" fromText="his hospital course" toID="T2" toText="12-10-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime32" fromID="E77" fromText="His hospital course" toID="T2" toText="12-10-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime33" fromID="E41" fromText="discharged" toID="T2" toText="12-10-93" type="OVERLAP" />
+<TLINK id="Sectime34" fromID="E78" fromText="afebrile" toID="T2" toText="12-10-93" type="OVERLAP" />
+<TLINK id="Sectime35" fromID="E79" fromText="The chest X-ray" toID="T2" toText="12-10-93" type="OVERLAP" />
+<TLINK id="Sectime36" fromID="E80" fromText="The chest X-ray" toID="T2" toText="12-10-93" type="OVERLAP" />
+<TLINK id="Sectime19" fromID="E50" fromText="thoracotomy" toID="T1" toText="12-3-93" type="AFTER" />
+<TLINK id="Sectime37" fromID="E81" fromText="slight increase in left pleural fluid" toID="T2" toText="12-10-93" type="OVERLAP" />
+<TLINK id="Sectime38" fromID="E82" fromText="penicillin" toID="T2" toText="12-10-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime39" fromID="E83" fromText="Gentamicin" toID="T2" toText="12-10-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime40" fromID="E42" fromText="discharged" toID="T2" toText="12-10-93" type="OVERLAP" />
+<TLINK id="Sectime41" fromID="E84" fromText="Ciprofloxacin" toID="T2" toText="12-10-93" type="AFTER" />
+<TLINK id="Sectime42" fromID="E85" fromText="Flagyl" toID="T2" toText="12-10-93" type="AFTER" />
+<TLINK id="Sectime20" fromID="E51" fromText="pneumonectomy" toID="T1" toText="12-3-93" type="AFTER" />
+<TLINK id="Sectime21" fromID="E52" fromText="smoking history" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E53" fromText="symptoms" toID="T1" toText="12-3-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime23" fromID="E1" fromText="a persistent cough" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E2" fromText="fever" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E54" fromText="hospitalized" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E3" fromText="pneumonia" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E4" fromText="worsening dyspnea" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E5" fromText="paroxysmal nocturnal dyspnea" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E6" fromText="orthopnea" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E7" fromText="hemoptysis" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime31" fromID="E8" fromText="fevers" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime32" fromID="E9" fromText="chills" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime33" fromID="E10" fromText="sweats" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime34" fromID="E55" fromText="pneumonia" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime35" fromID="E11" fromText="a loss of weight" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime36" fromID="E12" fromText="increased fatigue" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime37" fromID="E13" fromText="lower extremity weakness" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime38" fromID="E14" fromText="A &quot; spot &quot; in the left lower lobe" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime39" fromID="E15" fromText="chest X-ray" toID="T1" toText="12-3-93" type="BEFORE" />
+<TLINK id="Sectime40" fromID="E16" fromText="his pneumonia" toID="T1" toText="12-3-93" type="BEFORE" />
+
+
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

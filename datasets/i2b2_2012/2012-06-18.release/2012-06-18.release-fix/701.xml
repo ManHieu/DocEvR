@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+11/12/2002
+DISCHARGE DATE :
+11/15/2002
+HISTORY OF PRESENT ILLNESS :
+This is a 44 year-old right handed woman with Down &apos;s syndrome who presents with increased falling and gait unsteadiness and an increased inability to perform her activities of daily living over the past three years .
+The diagnosis of Alzheimer &apos;s was made in 1998 .
+The patient had an MRI at an outside hospital which showed enlarged lateral ventricles and the possible diagnosis of normal pressure hydrocephalus was entertained and the patient was admitted for diagnostic lumbar puncture .
+HOSPITAL COURSE :
+The patient was admitted to the Arkzie- Memorial for lumbar puncture .
+On the night of admission lumbar puncture was attempted on the floor , but we were unable to get cerebral spinal fluid due to difficulty with compliance with the patient who was severely agitated and would not comply with the examination .
+On hospital day the patient underwent conscious sedation in the operating room where lumbar puncture was performed .
+Opening pressure was 17 and approximately 20-25 cc of CSF was removed .
+CSF was notable for sugar level of 65 and total protein level of 56 .
+OTHER LABORATORIES THAT WERE NOTABLE :
+Vitamin B12 of 855 , folic acid of 15.4 .
+Chem-7 was within normal limits .
+Tube and requisition of the CSF labeled tube # 1 was notable for color pink , turbidity slight , xanthochromia yes , red blood cells 3,800 , white blood cells 3 , neutrophils 58 , bands 4 , lymphs 29 , monos 6 , eos 2 and basos 1 .
+CSF tube labeled # 4 was notable for CSF color pink , CSF turbidity slight , CSF xanthochromia yes , CSF RBCs 3,900 , CSF white blood cells 3 , CSF neutrophils 61 , CSF bands 3 , CSF lymphs 31 , CSF monos 1 , CSF eos 3 , CSF basos 1 .
+CSF gram stain was notable for no polys and no organisms seen .
+The fluid culture was no growth to date .
+One day prior to lumbar puncture , an aerobic culture was similarly pending .
+Lyme capture was pending and at the time of discharge .
+Other notable tests :
+RPR card test was negative .
+Because of poor compliance with the gait examination it was very difficult to assess changing gait post lumbar puncture .
+The patient &apos;s gait remained wide based and shuffling and requiring assist .
+Her mental status remained similarly to her admission examination .
+The patient was discharged to home on 11/15/02 with instructions to the family to observe her gait in her home environment and to observe her behavior in her home environment over the next day and to report back to the primary neurologist , Dr. Flythegach , as to changes .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="1002" end="1017" text="lumbar puncture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="1034" end="1050" text="Opening pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="1126" end="1137" text="sugar level" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="1148" end="1167" text="total protein level" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="1215" end="1226" text="Vitamin B12" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="1236" end="1246" text="folic acid" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="1257" end="1263" text="Chem-7" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="132" end="153" text="Down &apos;s syndrome" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="1315" end="1339" text="the CSF labeled tube # 1" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="1356" end="1361" text="color" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E35" start="1369" end="1378" text="turbidity" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="1388" end="1401" text="xanthochromia" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="1408" end="1423" text="red blood cells" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="1432" end="1449" text="white blood cells" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="1454" end="1465" text="neutrophils" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="1471" end="1476" text="bands" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="1481" end="1487" text="lymphs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="1493" end="1498" text="monos" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="1503" end="1506" text="eos" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="1513" end="1518" text="basos" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="1523" end="1543" text="CSF tube labeled # 4" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="1560" end="1569" text="CSF color" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="1577" end="1590" text="CSF turbidity" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="158" end="166" text="presents" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1600" end="1617" text="CSF xanthochromia" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="1624" end="1632" text="CSF RBCs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="1641" end="1662" text="CSF white blood cells" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="1667" end="1682" text="CSF neutrophils" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="1688" end="1697" text="CSF bands" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E54" start="1702" end="1712" text="CSF lymphs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="172" end="189" text="increased falling" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="1718" end="1727" text="CSF monos" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E56" start="1732" end="1739" text="CSF eos" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="1744" end="1753" text="CSF basos" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E58" start="1758" end="1772" text="CSF gram stain" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="1792" end="1797" text="polys" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E60" start="1805" end="1814" text="organisms" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E61" start="1822" end="1839" text="The fluid culture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="1847" end="1853" text="growth" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E63" start="1881" end="1896" text="lumbar puncture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E64" start="1899" end="1917" text="an aerobic culture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="194" end="211" text="gait unsteadiness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="1942" end="1954" text="Lyme capture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E66" start="1986" end="1995" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="2020" end="2033" text="RPR card test" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E79" start="2060" end="2075" text="poor compliance" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="2081" end="2101" text="the gait examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E69" start="2134" end="2147" text="changing gait" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="216" end="238" text="an increased inability" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E70" start="2153" end="2168" text="lumbar puncture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E71" start="2205" end="2215" text="wide based" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="2220" end="2229" text="shuffling" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="2234" end="2250" text="requiring assist" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="2293" end="2318" text="her admission examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E75" start="2337" end="2347" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E77" start="2403" end="2419" text="observe her gait" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="2451" end="2471" text="observe her behavior" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="2521" end="2532" text="report back" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E1" start="29" end="38" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="326" end="343" text="Alzheimer &apos;s" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="379" end="385" text="an MRI" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="389" end="408" text="an outside hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E10" start="415" end="421" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E11" start="422" end="449" text="enlarged lateral ventricles" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="480" end="509" text="normal pressure hydrocephalus" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="546" end="554" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="559" end="585" text="diagnostic lumbar puncture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="622" end="630" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="634" end="654" text="the Arkzie- Memorial" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E17" start="659" end="674" text="lumbar puncture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="693" end="702" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="703" end="718" text="lumbar puncture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="736" end="745" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E21" start="855" end="872" text="severely agitated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="887" end="893" text="comply" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E23" start="899" end="914" text="the examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="955" end="973" text="conscious sedation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="977" end="995" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<TIMEX3 id="T0" start="18" end="28" text="11/12/2002" type="DATE" val="2002-11-12" mod="NA" />
+<TIMEX3 id="T6" start="1864" end="1871" text="One day" type="DATE" val="2002-11-12" mod="NA" />
+<TIMEX3 id="T7" start="1974" end="1982" text="the time" type="DATE" val="2002-11-15" mod="NA" />
+<TIMEX3 id="T8" start="2359" end="2367" text="11/15/02" type="DATE" val="2002-11-15" mod="NA" />
+<TIMEX3 id="T9" start="2501" end="2513" text="the next day" type="DURATION" val="PT24H" mod="NA" />
+<TIMEX3 id="T3" start="286" end="306" text="the past three years" type="DURATION" val="P3Y" mod="NA" />
+<TIMEX3 id="T2" start="356" end="360" text="1998" type="DATE" val="1998" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="11/15/2002" type="DATE" val="2002-11-15" mod="NA" />
+<TIMEX3 id="T4" start="680" end="689" text="the night" type="DATE" val="2002-11-12" mod="END" />
+<TIMEX3 id="T5" start="920" end="932" text="hospital day" type="DATE" val="2002-11-13" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T0" toText="11/12/2002" type="OVERLAP" />
+<TLINK id="TL1" fromID="E13" fromText="admitted" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL10" fromID="E6" fromText="an increased inability" toID="E3" toText="presents" type="BEFORE" />
+<TLINK id="TL11" fromID="E6" fromText="an increased inability" toID="T3" toText="the past three years" type="OVERLAP" />
+<TLINK id="TL12" fromID="E7" fromText="Alzheimer &apos;s" toID="T2" toText="1998" type="AFTER" />
+<TLINK id="TL13" fromID="E10" fromText="showed" toID="E8" toText="an MRI" type="OVERLAP" />
+<TLINK id="TL14" fromID="E8" fromText="an MRI" toID="E9" toText="an outside hospital" type="OVERLAP" />
+<TLINK id="TL15" fromID="E11" fromText="enlarged lateral ventricles" toID="E8" toText="an MRI" type="BEFORE" />
+<TLINK id="TL16" fromID="E11" fromText="enlarged lateral ventricles" toID="E12" toText="normal pressure hydrocephalus" type="OVERLAP" />
+<TLINK id="TL17" fromID="E11" fromText="enlarged lateral ventricles" toID="E13" toText="admitted" type="BEFORE" />
+<TLINK id="TL18" fromID="E11" fromText="enlarged lateral ventricles" toID="E14" toText="diagnostic lumbar puncture" type="BEFORE" />
+<TLINK id="TL19" fromID="E18" fromText="admission" toID="E15" toText="admitted" type="OVERLAP" />
+<TLINK id="TL2" fromID="E66" fromText="discharge" toID="E1" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL20" fromID="E15" fromText="admitted" toID="E13" toText="admitted" type="OVERLAP" />
+<TLINK id="TL21" fromID="E15" fromText="admitted" toID="E16" toText="the Arkzie- Memorial" type="OVERLAP" />
+<TLINK id="TL22" fromID="E17" fromText="lumbar puncture" toID="E16" toText="the Arkzie- Memorial" type="OVERLAP" />
+<TLINK id="TL23" fromID="E14" fromText="diagnostic lumbar puncture" toID="E17" toText="lumbar puncture" type="OVERLAP" />
+<TLINK id="TL24" fromID="T4" fromText="the night" toID="E18" toText="admission" type="OVERLAP" />
+<TLINK id="TL25" fromID="E19" fromText="lumbar puncture" toID="T4" toText="the night" type="OVERLAP" />
+<TLINK id="TL26" fromID="E17" fromText="lumbar puncture" toID="E19" toText="lumbar puncture" type="OVERLAP" />
+<TLINK id="TL27" fromID="E19" fromText="lumbar puncture" toID="E20" toText="the floor" type="OVERLAP" />
+<TLINK id="TL28" fromID="E21" fromText="severely agitated" toID="E19" toText="lumbar puncture" type="OVERLAP" />
+<TLINK id="TL29" fromID="E22" fromText="comply" toID="E21" toText="severely agitated" type="OVERLAP" />
+<TLINK id="TL3" fromID="E75" fromText="discharged" toID="E1" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL30" fromID="E23" fromText="the examination" toID="E19" toText="lumbar puncture" type="OVERLAP" />
+<TLINK id="TL31" fromID="E22" fromText="comply" toID="E23" toText="the examination" type="OVERLAP" />
+<TLINK id="TL32" fromID="T5" fromText="hospital day" toID="T4" toText="the night" type="AFTER" />
+<TLINK id="TL33" fromID="E24" fromText="conscious sedation" toID="T5" toText="hospital day" type="OVERLAP" />
+<TLINK id="TL34" fromID="E26" fromText="lumbar puncture" toID="T5" toText="hospital day" type="OVERLAP" />
+<TLINK id="TL35" fromID="E24" fromText="conscious sedation" toID="E25" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL36" fromID="E26" fromText="lumbar puncture" toID="E25" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL37" fromID="E27" fromText="Opening pressure" toID="E26" toText="lumbar puncture" type="OVERLAP" />
+<TLINK id="TL38" fromID="E28" fromText="sugar level" toID="E29" toText="total protein level" type="OVERLAP" />
+<TLINK id="TL39" fromID="E29" fromText="total protein level" toID="E30" toText="Vitamin B12" type="OVERLAP" />
+<TLINK id="TL4" fromID="T1" fromText="11/15/2002" toID="T1" toText="11/15/2002" type="OVERLAP" />
+<TLINK id="TL40" fromID="E30" fromText="Vitamin B12" toID="E31" toText="folic acid" type="OVERLAP" />
+<TLINK id="TL41" fromID="E31" fromText="folic acid" toID="E32" toText="Chem-7" type="OVERLAP" />
+<TLINK id="TL42" fromID="E32" fromText="Chem-7" toID="E45" toText="the CSF labeled tube # 1" type="BEFORE" />
+<TLINK id="TL43" fromID="E26" fromText="lumbar puncture" toID="E45" toText="the CSF labeled tube # 1" type="BEFORE" />
+<TLINK id="TL44" fromID="E26" fromText="lumbar puncture" toID="E46" toText="CSF tube labeled # 4" type="BEFORE" />
+<TLINK id="TL45" fromID="E34" fromText="color" toID="E45" toText="the CSF labeled tube # 1" type="OVERLAP" />
+<TLINK id="TL46" fromID="E34" fromText="color" toID="E35" toText="turbidity" type="OVERLAP" />
+<TLINK id="TL47" fromID="E35" fromText="turbidity" toID="E36" toText="xanthochromia" type="OVERLAP" />
+<TLINK id="TL48" fromID="E36" fromText="xanthochromia" toID="E37" toText="red blood cells" type="OVERLAP" />
+<TLINK id="TL49" fromID="E37" fromText="red blood cells" toID="E38" toText="white blood cells" type="OVERLAP" />
+<TLINK id="TL5" fromID="E2" fromText="Down &apos;s syndrome" toID="E4" toText="increased falling" type="OVERLAP" />
+<TLINK id="TL50" fromID="E38" fromText="white blood cells" toID="E39" toText="neutrophils" type="OVERLAP" />
+<TLINK id="TL51" fromID="E39" fromText="neutrophils" toID="E40" toText="bands" type="OVERLAP" />
+<TLINK id="TL52" fromID="E40" fromText="bands" toID="E41" toText="lymphs" type="OVERLAP" />
+<TLINK id="TL53" fromID="E41" fromText="lymphs" toID="E42" toText="monos" type="OVERLAP" />
+<TLINK id="TL54" fromID="E42" fromText="monos" toID="E43" toText="eos" type="OVERLAP" />
+<TLINK id="TL55" fromID="E43" fromText="eos" toID="E44" toText="basos" type="OVERLAP" />
+<TLINK id="TL56" fromID="E46" fromText="CSF tube labeled # 4" toID="E45" toText="the CSF labeled tube # 1" type="OVERLAP" />
+<TLINK id="TL57" fromID="E46" fromText="CSF tube labeled # 4" toID="E47" toText="CSF color" type="OVERLAP" />
+<TLINK id="TL58" fromID="E47" fromText="CSF color" toID="E48" toText="CSF turbidity" type="OVERLAP" />
+<TLINK id="TL59" fromID="E48" fromText="CSF turbidity" toID="E49" toText="CSF xanthochromia" type="OVERLAP" />
+<TLINK id="TL6" fromID="E2" fromText="Down &apos;s syndrome" toID="E3" toText="presents" type="BEFORE" />
+<TLINK id="TL60" fromID="E49" fromText="CSF xanthochromia" toID="E50" toText="CSF RBCs" type="OVERLAP" />
+<TLINK id="TL61" fromID="E50" fromText="CSF RBCs" toID="E51" toText="CSF white blood cells" type="OVERLAP" />
+<TLINK id="TL62" fromID="E51" fromText="CSF white blood cells" toID="E52" toText="CSF neutrophils" type="OVERLAP" />
+<TLINK id="TL63" fromID="E52" fromText="CSF neutrophils" toID="E53" toText="CSF bands" type="OVERLAP" />
+<TLINK id="TL64" fromID="E53" fromText="CSF bands" toID="E54" toText="CSF lymphs" type="OVERLAP" />
+<TLINK id="TL65" fromID="E55" fromText="CSF monos" toID="E56" toText="CSF eos" type="OVERLAP" />
+<TLINK id="TL66" fromID="E54" fromText="CSF lymphs" toID="E55" toText="CSF monos" type="OVERLAP" />
+<TLINK id="TL67" fromID="E56" fromText="CSF eos" toID="E57" toText="CSF basos" type="OVERLAP" />
+<TLINK id="TL68" fromID="E58" fromText="CSF gram stain" toID="E59" toText="polys" type="OVERLAP" />
+<TLINK id="TL69" fromID="E58" fromText="CSF gram stain" toID="E60" toText="organisms" type="OVERLAP" />
+<TLINK id="TL7" fromID="E4" fromText="increased falling" toID="E3" toText="presents" type="BEFORE" />
+<TLINK id="TL70" fromID="E61" fromText="The fluid culture" toID="E62" toText="growth" type="OVERLAP" />
+<TLINK id="TL71" fromID="T6" fromText="One day" toID="E63" toText="lumbar puncture" type="BEFORE" />
+<TLINK id="TL72" fromID="E64" fromText="an aerobic culture" toID="T6" toText="One day" type="OVERLAP" />
+<TLINK id="TL73" fromID="E63" fromText="lumbar puncture" toID="E26" toText="lumbar puncture" type="OVERLAP" />
+<TLINK id="TL74" fromID="E19" fromText="lumbar puncture" toID="E63" toText="lumbar puncture" type="OVERLAP" />
+<TLINK id="TL75" fromID="E63" fromText="lumbar puncture" toID="E70" toText="lumbar puncture" type="OVERLAP" />
+<TLINK id="TL76" fromID="E65" fromText="Lyme capture" toID="T7" toText="the time" type="BEFORE" />
+<TLINK id="TL77" fromID="T7" fromText="the time" toID="E66" toText="discharge" type="OVERLAP" />
+<TLINK id="TL78" fromID="E79" fromText="poor compliance" toID="E68" toText="the gait examination" type="OVERLAP" />
+<TLINK id="TL79" fromID="E79" fromText="poor compliance" toID="E69" toText="changing gait" type="OVERLAP" />
+<TLINK id="TL8" fromID="E5" fromText="gait unsteadiness" toID="E4" toText="increased falling" type="OVERLAP" />
+<TLINK id="TL80" fromID="E69" fromText="changing gait" toID="E70" toText="lumbar puncture" type="AFTER" />
+<TLINK id="TL81" fromID="E71" fromText="wide based" toID="E70" toText="lumbar puncture" type="BEFORE" />
+<TLINK id="TL82" fromID="E71" fromText="wide based" toID="E72" toText="shuffling" type="OVERLAP" />
+<TLINK id="TL83" fromID="E73" fromText="requiring assist" toID="E72" toText="shuffling" type="OVERLAP" />
+<TLINK id="TL84" fromID="E74" fromText="her admission examination" toID="E15" toText="admitted" type="OVERLAP" />
+<TLINK id="TL85" fromID="E75" fromText="discharged" toID="T8" toText="11/15/02" type="OVERLAP" />
+<TLINK id="TL86" fromID="T9" fromText="the next day" toID="T8" toText="11/15/02" type="AFTER" />
+<TLINK id="TL87" fromID="E77" fromText="observe her gait" toID="T9" toText="the next day" type="OVERLAP" />
+<TLINK id="TL88" fromID="E78" fromText="observe her behavior" toID="T9" toText="the next day" type="OVERLAP" />
+<TLINK id="TL89" fromID="E76" fromText="report back" toID="T9" toText="the next day" type="OVERLAP" />
+<TLINK id="TL9" fromID="E5" fromText="gait unsteadiness" toID="E3" toText="presents" type="BEFORE" />
+<TLINK id="SECTIME0" fromID="E26" fromText="lumbar puncture" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E27" fromText="Opening pressure" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E28" fromText="sugar level" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E29" fromText="total protein level" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E30" fromText="Vitamin B12" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E31" fromText="folic acid" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E32" fromText="Chem-7" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E2" fromText="Down &apos;s syndrome" toID="T0" toText="11/12/2002" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E45" fromText="the CSF labeled tube # 1" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E34" fromText="color" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E35" fromText="turbidity" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E36" fromText="xanthochromia" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E37" fromText="red blood cells" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E38" fromText="white blood cells" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E39" fromText="neutrophils" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E40" fromText="bands" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E41" fromText="lymphs" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E42" fromText="monos" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E43" fromText="eos" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E44" fromText="basos" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E46" fromText="CSF tube labeled # 4" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E47" fromText="CSF color" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E48" fromText="CSF turbidity" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E3" fromText="presents" toID="T0" toText="11/12/2002" type="OVERLAP" />
+<TLINK id="SECTIME24" fromID="E49" fromText="CSF xanthochromia" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E50" fromText="CSF RBCs" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E51" fromText="CSF white blood cells" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E52" fromText="CSF neutrophils" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E53" fromText="CSF bands" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E54" fromText="CSF lymphs" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E4" fromText="increased falling" toID="T0" toText="11/12/2002" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E55" fromText="CSF monos" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E56" fromText="CSF eos" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E57" fromText="CSF basos" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E58" fromText="CSF gram stain" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E59" fromText="polys" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E60" fromText="organisms" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E61" fromText="The fluid culture" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E62" fromText="growth" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E63" fromText="lumbar puncture" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E64" fromText="an aerobic culture" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E5" fromText="gait unsteadiness" toID="T0" toText="11/12/2002" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E65" fromText="Lyme capture" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E66" fromText="discharge" toID="T1" toText="11/15/2002" type="OVERLAP" />
+<TLINK id="SECTIME44" fromID="E67" fromText="RPR card test" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E79" fromText="poor compliance" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E68" fromText="the gait examination" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E69" fromText="changing gait" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E6" fromText="an increased inability" toID="T0" toText="11/12/2002" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E70" fromText="lumbar puncture" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E71" fromText="wide based" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E72" fromText="shuffling" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E73" fromText="requiring assist" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E74" fromText="her admission examination" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E75" fromText="discharged" toID="T1" toText="11/15/2002" type="OVERLAP" />
+<TLINK id="SECTIME55" fromID="E77" fromText="observe her gait" toID="T1" toText="11/15/2002" type="AFTER" />
+<TLINK id="SECTIME56" fromID="E78" fromText="observe her behavior" toID="T1" toText="11/15/2002" type="AFTER" />
+<TLINK id="SECTIME57" fromID="E76" fromText="report back" toID="T1" toText="11/15/2002" type="AFTER" />
+<TLINK id="SECTIME58" fromID="E7" fromText="Alzheimer &apos;s" toID="T0" toText="11/12/2002" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E8" fromText="an MRI" toID="T0" toText="11/12/2002" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E9" fromText="an outside hospital" toID="T0" toText="11/12/2002" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E10" fromText="showed" toID="T0" toText="11/12/2002" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E11" fromText="enlarged lateral ventricles" toID="T0" toText="11/12/2002" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E12" fromText="normal pressure hydrocephalus" toID="T0" toText="11/12/2002" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E13" fromText="admitted" toID="T0" toText="11/12/2002" type="OVERLAP" />
+<TLINK id="SECTIME65" fromID="E14" fromText="diagnostic lumbar puncture" toID="T0" toText="11/12/2002" type="AFTER" />
+<TLINK id="SECTIME66" fromID="E15" fromText="admitted" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E16" fromText="the Arkzie- Memorial" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E17" fromText="lumbar puncture" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E18" fromText="admission" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E19" fromText="lumbar puncture" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E20" fromText="the floor" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E21" fromText="severely agitated" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E22" fromText="comply" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E23" fromText="the examination" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E24" fromText="conscious sedation" toID="T1" toText="11/15/2002" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E25" fromText="the operating room" toID="T1" toText="11/15/2002" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="11/12/2002" type="ADMISSION" dvalue="2002-11-12" />
+<SECTIME id="S1" start="46" end="56" text="11/15/2002" type="DISCHARGE" dvalue="2002-11-15" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

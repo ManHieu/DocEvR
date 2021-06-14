@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2012-10-31
+Discharge Date :
+2012-11-07
+History of Present Illness :
+HPI: Pt is a 71 y/o male with h/o dm2 , cad s/p cabg , DVT/PE on long term anti-coagulation , ulcerative colitis on Asacol presents with brbpr starting at 9am of the morning of admission .
+He 'd been having lower abdominal pain for approximately the past week , a symptom for which he 's been admitted in the past .
+His PCP had recently started ciprofloxacin for a UTI . 
+At 9am the morning of admission he passed a large , bloody bowel movement and came to the Michael . There , his vitals were intially stable with a hct of 36.7 , though he was felt to be hypovolemic and this hemoconcentrated ; his previous hct was 39 about five months ago .
+He refused an NG lavage .
+Although an initial DRE showed only clot , he later passed a large , bloody bowel movement , and his bp nadired to the low 90's but rested there only transiently and easily rebounded to the 130's-140's with fluid ; he then went to angiography for a tagged RBC scan where they found and embolized two vessels to the sigmoid colon .
+His HCT had dropped from 36.7 to 30.8 despite 2U PRBC and 3 U FFP .
+Is called out of the FICU as has been been HD and stable HCT .
+Currently denies CP , SOB , abd pain or continued BRBPR .
+Brief Hospital Course :
+Initial A/P :
+71 y/o male with dm2 , cad , chf , uc presents with one week of lower abdominal pain and 2 episodes of brpbr on the day of admission .
+# BRBPR -- The patient was in the intensive care unit given his lower GI bleed .
+An angiography showed bleeding in two vessels off of the Minnie supplying the sigmoid that were succesfully embolized .
+The patient was transfused from a Hct 29 to 34 on the day of discharge .
+His coumadin was held during his stay given his acute bleed but restarted per his PCP with the guidance of GI on the day of discharge .
+- The patient underwent a flex sigmoidoscopy on Friday , 11-02 , which showed old blood in the rectal vault but no active source of bleeding .
+Given this , it was advised that the patient have a colonoscopy to rule out further bleeding .
+- The patient had a colonoscopy on Monday 11-05 but unfortunately , was unable to complete the study as his bowel prep was inadequate .
+Therefore , he had a repeat colonoscopy on 11-06 which showed expected mucosal signs of moderate ulcerative colitis , no polyps , w/ 8 mm ulcer at junction of distal descending colon and sigmoid colon .
+- Biopsies were obtained during his colonoscopy and he should follow up with gastroenterology for the results .
+# Ulcerative colitis -- The patient 's Asacol was originally held but restarted the day prior to discharge per GI .
+# CAD/CHF - The patient was restarted on his home regimen prior to discharge as it was held temporarily given his acute GI bleed .
+The exception is that per his PCP , Jason aspirin will be held for 2 weeks given that he was restarted on coumadin with 
+his risk of bleeding .
+# DM-2 -- The patient was maintained on his home insulin regimen .
+# h/o DVT/PE :
+Coumadin was initially held .
+It was unclear at first as to why the patient required life-long anticoagulation .
+After discussing this with his PCP , Leon was clear that the patient had had recurrent DVTs and ultimately a PE and his PCP felt strongly that he required long-term anticoagulation .
+His goal INR should be 1.6-2.0 . If bleeding continues to occur , consider V. Winchester filter .
+# Access -- 2 large bore PIV's
+# Code -- full
+]]></TEXT>
+<TAGS>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

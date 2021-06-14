@@ -1,0 +1,48 @@
+Admission Date :
+2013-02-18
+Discharge Date :
+2013-02-27
+Service :
+MEDICINE
+History of Present Illness :
+The patient is a 78 y/o WF w/a PMH significant for HTN and afib who presented to an OSH w/ complaints of abd pain and nausea .
+She was found to have a R ureteral stone w/ resultant hydronephrosis and was transferred to Nantucket Cottage Hospital for ureteral stent placement .
+Her INR was found to be elevated when admitted and , in the course of waiting for this to normalize , the patient spiked a temperature to 105 and became hypotensive to the 70s .
+She was bolused w/out effect and had little response to neo so she was changed to levophed , given doses of cipro / vanco / gent and transferred to the CMED CSRU for management .
+In the CMED , urology was consulted and the patient received a R nephrostomy tube .
+However , tube placement was complicated by renal artery puncture , afib , and increased dyspnea .
+She was intubated for this hypoxia and treated with lasix , metoprolol , and diltiazem .
+She was weaned off her pressors on 02-21 and maintained her pressure w/out additional fluid boluses .
+Her sedation was weaned down and she was successfully extubated shortly thereafter .
+UCx grew proteus and her abx were changed to levaquin alone and she remained afebrile for > 24 hr on this regimen .
+She continued to have trouble with afib and required a dilt gtt on the day prior to call-out to control this rhythm but she was transitioned to PO diltiazem and has been in NSR since this time .
+She was restarted on heparin prior to d/c as a bridge to therapeutic coumadin anticoagulation .
+Brief Hospital Course :
+A/P :
+78 year old female with history of HTN , a.fib presenting with ureteral stone , hydronephrosis , and urosepsis .
+She originally had hypotension and a leukocytosis in the ER and was admitted to the CMED CCU .
+In the CMED , urology was consulted and the patient received a R nephrostomy tube .
+However , tube placement was complicated by renal artery puncture , afib , and increased dyspnea .
+She was intubated for this hypoxia and treated with lasix , metoprolol , and diltiazem .
+She was weaned off her pressors on 02-21 and maintained her pressure w/out additional fluid boluses .
+Her sedation was weaned down and she was successfully extubated shortly thereafter .
+UCx grew proteus and her abx were changed to levaquin alone and she remained afebrile for > 24hr on this regimen .
+She continued to have trouble with afib and required a dilt gtt on the day prior to call-out to control this rhythm but she was transitioned to PO diltiazem on the day of call-out .
+1. Sepsis - The patient was septic in the ER and her blood cultures eventually grew proteus .
+Her Bcx remained negative throughout her stay .
+She was treated with levaquin on the floor and will complete a 14d course at rehab .
+She has been afebrile since she was called out to the floor .
+2. Ureteral stone - The patient had a nephrostomy tube placed by IR to relieve her hydronephrosis .
+She was followed by urology during her stay and will see them again 2 wk after d/c for definitive treatment of her nephrolithiasis .
+At this time , urology will coordinate removal of her nephrostomy tube with IR .
+Her nephrostomy tube was draining clear yellow urine at the time of d/c .
+3. a.fib - The patient has a history of atrial fibrillation controlled with beta blockers at home .
+She was treated in the CMED as above .
+Once on the floor , the patient had one episode of afib w/ RVR that responded immediately to IV metoprolol .
+Because of this , the patient 's diltiazem was stopped and she was started on tid metoprolol .
+After this , the patient had no further problems with her rate control .
+She was maintained on a heparin gtt for bridge to coumadin while on the floor after this was cleared by IR and urology .
+She will be d/c w/out her heparin as she is trending upwards with her INR and has no MR Paul Paquettec heart disease .
+She will continue her coumadin at rehab to achieve an INR between 03-22 .
+4. delirium - The patient had troubles with agitation while in the CMED CCU .
+She received prn haldol w/ little effect and improved as her infection cleared .

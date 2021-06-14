@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2017-05-08
+Discharge Date :
+2017-05-16
+Service :
+CARDIOTHORACIC
+History of Present Illness :
+Mr. Williams is an 85 yo gentleman who has a known cardiac history and has had a h/o worsening chest pain and shortness of breath .
+He had an echocardiogram which showed an EF 40-45% and severe aortic stenosis .
+He underwent cardiac catheterization which showed an 80% LAD lesion , chronically occluded RCA , anneurysmal mid LCX w/50% lesion .
+He was refered to Dr. Barber for surgical treatment .
+Brief Hospital Course :
+Mr. Williams was admitted to Hallmark Health System on 05-08 and taken to the operating room with Dr. Barber for a CABGx2 and AVR w/ 25 mm pericardial valve .
+Please see operative note for full details .
+He was transfered to the ICU in stable condition .
+He was weaned and extubated from mechanical ventillation on POD#1 without difficulty .
+He was transfered to the regular part of the hospital on POD#2 , where he began working with physical therapy .
+He developed atrial fibrillation on POD#2 with well controlled rate and hemodynamically stable .
+He was started on heparin and coumadin for anticoagulation on POD#5 .
+On POD#7 he was cleared for discharge to home by physical therapy and on POD#8 he was discharged .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1034" end="1054" text="well controlled rate" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="1059" end="1081" text="hemodynamically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="1102" end="1109" text="heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="1114" end="1122" text="coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1127" end="1142" text="anticoagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1170" end="1177" text="cleared" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1182" end="1191" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="1240" end="1250" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="154" end="177" text="a known cardiac history" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="196" end="216" text="worsening chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="221" end="240" text="shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="250" end="267" text="an echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E22" start="274" end="280" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E3" start="281" end="286" text="an EF" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="298" end="320" text="severe aortic stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="336" end="359" text="cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="366" end="372" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E6" start="373" end="390" text="an 80% LAD lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="393" end="417" text="chronically occluded RCA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="420" end="439" text="anneurysmal mid LCX" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="440" end="452" text="w/50% lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="488" end="506" text="surgical treatment" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="550" end="558" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="562" end="584" text="Hallmark Health System" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E29" start="607" end="625" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E7" start="646" end="654" text="a CABGx2" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="659" end="662" text="AVR" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="666" end="689" text="25 mm pericardial valve" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="744" end="754" text="transfered" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="758" end="765" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E32" start="769" end="785" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="795" end="801" text="weaned" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="806" end="815" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="821" end="844" text="mechanical ventillation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="862" end="872" text="difficulty" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E17" start="882" end="892" text="transfered" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="896" end="928" text="the regular part of the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E36" start="968" end="984" text="physical therapy" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E12" start="1000" end="1019" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T8" start="1023" end="1028" text="POD#2" type="DATE" val="2017-08-10" mod="NA" />
+<TIMEX3 id="T5" start="1146" end="1151" text="POD#5" type="DATE" val="2017-05-13" mod="NA" />
+<TIMEX3 id="T9" start="1157" end="1162" text="POD#7" type="DATE" val="2017-05-15" mod="NA" />
+<TIMEX3 id="T6" start="1227" end="1232" text="POD#8" type="DATE" val="2017-05-16" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2017-05-08" type="DATE" val="2017-05-08" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2017-05-16" type="DATE" val="2017-05-16" mod="NA" />
+<TIMEX3 id="T3" start="588" end="593" text="05-08" type="DATE" val="2017-05-08" mod="NA" />
+<TIMEX3 id="T0" start="848" end="853" text="POD#1" type="DATE" val="2017-05-09" mod="NA" />
+<TIMEX3 id="T4" start="932" end="937" text="POD#2" type="DATE" val="2017-05-10" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="2017-05-08" type="OVERLAP" />
+<TLINK id="TL1" fromID="E16" fromText="admitted" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL10" fromID="E4" fromText="severe aortic stenosis" toID="E3" toText="an EF" type="OVERLAP" />
+<TLINK id="TL11" fromID="E5" fromText="cardiac catheterization" toID="E2" toText="an echocardiogram" type="AFTER" />
+<TLINK id="TL12" fromID="E23" fromText="showed" toID="E5" toText="cardiac catheterization" type="OVERLAP" />
+<TLINK id="TL13" fromID="E6" fromText="an 80% LAD lesion" toID="E23" toText="showed" type="BEFORE" />
+<TLINK id="TL14" fromID="E24" fromText="chronically occluded RCA" toID="E6" toText="an 80% LAD lesion" type="OVERLAP" />
+<TLINK id="TL15" fromID="E25" fromText="anneurysmal mid LCX" toID="E24" toText="chronically occluded RCA" type="OVERLAP" />
+<TLINK id="TL16" fromID="E26" fromText="w/50% lesion" toID="E25" toText="anneurysmal mid LCX" type="OVERLAP" />
+<TLINK id="TL17" fromID="E27" fromText="surgical treatment" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL18" fromID="E28" fromText="Hallmark Health System" toID="E16" toText="admitted" type="AFTER" />
+<TLINK id="TL19" fromID="E28" fromText="Hallmark Health System" toID="T3" toText="05-08" type="AFTER" />
+<TLINK id="TL2" fromID="E19" fromText="Discharge" toID="T2" toText="2017-05-16" type="OVERLAP" />
+<TLINK id="TL20" fromID="T3" fromText="05-08" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL21" fromID="E29" fromText="the operating room" toID="E16" toText="admitted" type="AFTER" />
+<TLINK id="TL22" fromID="E7" fromText="a CABGx2" toID="E29" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL23" fromID="E8" fromText="AVR" toID="E7" toText="a CABGx2" type="OVERLAP" />
+<TLINK id="TL24" fromID="E9" fromText="25 mm pericardial valve" toID="E8" toText="AVR" type="OVERLAP" />
+<TLINK id="TL25" fromID="E30" fromText="transfered" toID="E29" toText="the operating room" type="AFTER" />
+<TLINK id="TL26" fromID="E31" fromText="the ICU" toID="E30" toText="transfered" type="AFTER" />
+<TLINK id="TL27" fromID="E32" fromText="stable condition" toID="E31" toText="the ICU" type="BEFORE" />
+<TLINK id="TL28" fromID="E33" fromText="weaned" toID="T0" toText="POD#1" type="OVERLAP" />
+<TLINK id="TL29" fromID="T0" fromText="POD#1" toID="E31" toText="the ICU" type="OVERLAP" />
+<TLINK id="TL3" fromID="E18" fromText="discharged" toID="E19" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL30" fromID="E10" fromText="mechanical ventillation" toID="E29" toText="the operating room" type="AFTER" />
+<TLINK id="TL31" fromID="E10" fromText="mechanical ventillation" toID="E34" toText="extubated" type="BEFORE" />
+<TLINK id="TL32" fromID="E33" fromText="weaned" toID="E34" toText="extubated" type="BEFORE" />
+<TLINK id="TL33" fromID="E11" fromText="difficulty" toID="E34" toText="extubated" type="OVERLAP" />
+<TLINK id="TL34" fromID="E31" fromText="the ICU" toID="E17" toText="transfered" type="BEFORE" />
+<TLINK id="TL35" fromID="E35" fromText="the regular part of the hospital" toID="E17" toText="transfered" type="AFTER" />
+<TLINK id="TL36" fromID="E17" fromText="transfered" toID="T4" toText="POD#2" type="OVERLAP" />
+<TLINK id="TL37" fromID="T4" fromText="POD#2" toID="T0" toText="POD#1" type="AFTER" />
+<TLINK id="TL38" fromID="E36" fromText="physical therapy" toID="E35" toText="the regular part of the hospital" type="AFTER" />
+<TLINK id="TL39" fromID="T8" fromText="POD#2" toID="T4" toText="POD#2" type="OVERLAP" />
+<TLINK id="TL4" fromID="E1" fromText="a known cardiac history" toID="E20" toText="worsening chest pain" type="BEFORE" />
+<TLINK id="TL40" fromID="E12" fromText="atrial fibrillation" toID="T8" toText="POD#2" type="AFTER" />
+<TLINK id="TL41" fromID="E37" fromText="well controlled rate" toID="E12" toText="atrial fibrillation" type="OVERLAP" />
+<TLINK id="TL42" fromID="E38" fromText="hemodynamically stable" toID="E37" toText="well controlled rate" type="OVERLAP" />
+<TLINK id="TL43" fromID="T5" fromText="POD#5" toID="T4" toText="POD#2" type="AFTER" />
+<TLINK id="TL44" fromID="E13" fromText="heparin" toID="T5" toText="POD#5" type="AFTER" />
+<TLINK id="TL45" fromID="E14" fromText="coumadin" toID="E13" toText="heparin" type="OVERLAP" />
+<TLINK id="TL46" fromID="E15" fromText="anticoagulation" toID="E14" toText="coumadin" type="OVERLAP" />
+<TLINK id="TL47" fromID="T9" fromText="POD#7" toID="T5" toText="POD#5" type="AFTER" />
+<TLINK id="TL48" fromID="E39" fromText="cleared" toID="T9" toText="POD#7" type="OVERLAP" />
+<TLINK id="TL49" fromID="E40" fromText="discharge" toID="E39" toText="cleared" type="AFTER" />
+<TLINK id="TL5" fromID="E1" fromText="a known cardiac history" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL50" fromID="E40" fromText="discharge" toID="E18" toText="discharged" type="OVERLAP" />
+<TLINK id="TL51" fromID="T6" fromText="POD#8" toID="T9" toText="POD#7" type="AFTER" />
+<TLINK id="TL52" fromID="E18" fromText="discharged" toID="T6" toText="POD#8" type="OVERLAP" />
+<TLINK id="TL6" fromID="E21" fromText="shortness of breath" toID="E20" toText="worsening chest pain" type="OVERLAP" />
+<TLINK id="TL7" fromID="E2" fromText="an echocardiogram" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL8" fromID="E22" fromText="showed" toID="E2" toText="an echocardiogram" type="OVERLAP" />
+<TLINK id="TL9" fromID="E3" fromText="an EF" toID="E22" toText="showed" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2017-05-08" type="ADMISSION" dvalue="2017-05-08" />
+<SECTIME id="S1" start="46" end="56" text="2017-05-16" type="DISCHARGE" dvalue="2017-05-16" />
+<TLINK id="SECTIME0" fromID="E37" fromText="well controlled rate" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E38" fromText="hemodynamically stable" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E13" fromText="heparin" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E14" fromText="coumadin" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E15" fromText="anticoagulation" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E39" fromText="cleared" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E40" fromText="discharge" toID="T2" toText="2017-05-16" type="OVERLAP" />
+<TLINK id="SECTIME7" fromID="E18" fromText="discharged" toID="T2" toText="2017-05-16" type="OVERLAP" />
+<TLINK id="SECTIME8" fromID="E1" fromText="a known cardiac history" toID="T1" toText="2017-05-08" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E20" fromText="worsening chest pain" toID="T1" toText="2017-05-08" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E21" fromText="shortness of breath" toID="T1" toText="2017-05-08" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E2" fromText="an echocardiogram" toID="T1" toText="2017-05-08" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E22" fromText="showed" toID="T1" toText="2017-05-08" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E3" fromText="an EF" toID="T1" toText="2017-05-08" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E4" fromText="severe aortic stenosis" toID="T1" toText="2017-05-08" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E5" fromText="cardiac catheterization" toID="T1" toText="2017-05-08" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E23" fromText="showed" toID="T1" toText="2017-05-08" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E6" fromText="an 80% LAD lesion" toID="T1" toText="2017-05-08" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E24" fromText="chronically occluded RCA" toID="T1" toText="2017-05-08" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E25" fromText="anneurysmal mid LCX" toID="T1" toText="2017-05-08" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E26" fromText="w/50% lesion" toID="T1" toText="2017-05-08" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E27" fromText="surgical treatment" toID="T1" toText="2017-05-08" type="AFTER" />
+<TLINK id="SECTIME22" fromID="E16" fromText="admitted" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E28" fromText="Hallmark Health System" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E29" fromText="the operating room" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E7" fromText="a CABGx2" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E8" fromText="AVR" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E9" fromText="25 mm pericardial valve" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E30" fromText="transfered" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E31" fromText="the ICU" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E32" fromText="stable condition" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E33" fromText="weaned" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E34" fromText="extubated" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E10" fromText="mechanical ventillation" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E11" fromText="difficulty" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E17" fromText="transfered" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E35" fromText="the regular part of the hospital" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E36" fromText="physical therapy" toID="T2" toText="2017-05-16" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E12" fromText="atrial fibrillation" toID="T2" toText="2017-05-16" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

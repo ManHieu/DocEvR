@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+05/09/2004
+DISCHARGE DATE :
+05/16/2004
+HISTORY OF PRESENT ILLNESS :
+The patient is an 84-year-old woman with a history of diverticulitis who was found to have colon cancer on colonoscopy , which was performed in March of 2004 .
+An invasive moderately differentiated adenocarcinoma was noted in the transverse colon at 80 cm .
+The patient reports a history of bloating and flatulence as well as increased fatigue .
+She has also had some discomfort in her left lower abdomen and notes diarrhea every 4-5 days .
+She says that her appetite is good and has noted no weight loss .
+HOSPITAL COURSE :
+The patient was consented for surgery and on the day of admission was taken to the operating room for transverse colectomy for tumor .
+The patient tolerated the procedure well and there are no complications .
+Her postoperative course was unremarkable .
+She was maintained on an epidural and PCA for pain control .
+She was kept NPO initially and her diet was slowly advanced as tolerated .
+When she was taking clear liquids , her pain medication was switched to p.o. pain regimen with good affect .
+For blood pressure control she was maintained on metoprolol at the request of her primary care physician and enalapril was discontinued .
+With the help of physical therapy the patient was ambulated and on postoperative seven , with the patient tolerating a post surgical soft diet and with pain well controlled on oral pain medications , she was discharged to rehabilitation facility .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1020" end="1033" text="clear liquids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1036" end="1055" text="her pain medication" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1072" end="1089" text="p.o. pain regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1113" end="1135" text="blood pressure control" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1158" end="1168" text="metoprolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="1218" end="1227" text="enalapril" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="1264" end="1280" text="physical therapy" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E39" start="1297" end="1306" text="ambulated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1364" end="1389" text="a post surgical soft diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="140" end="154" text="diverticulitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1399" end="1403" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1404" end="1419" text="well controlled" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1423" end="1444" text="oral pain medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1455" end="1465" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1469" end="1492" text="rehabilitation facility" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="177" end="189" text="colon cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="193" end="204" text="colonoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="246" end="298" text="An invasive moderately differentiated adenocarcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="29" end="38" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="303" end="308" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E7" start="356" end="363" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E8" start="377" end="385" text="bloating" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="390" end="400" text="flatulence" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="412" end="429" text="increased fatigue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="449" end="490" text="some discomfort in her left lower abdomen" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="495" end="500" text="notes" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E13" start="501" end="509" text="diarrhea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="570" end="575" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E15" start="579" end="590" text="weight loss" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E16" start="641" end="648" text="surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="667" end="676" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="681" end="686" text="taken" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="690" end="708" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E20" start="713" end="733" text="transverse colectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="738" end="743" text="tumor" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="768" end="781" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="782" end="786" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="804" end="817" text="complications" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E26" start="820" end="844" text="Her postoperative course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="849" end="861" text="unremarkable" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E27" start="886" end="897" text="an epidural" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="902" end="905" text="PCA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="910" end="922" text="pain control" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="938" end="941" text="NPO" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="956" end="964" text="her diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="976" end="997" text="advanced as tolerated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T5" start="1314" end="1333" text="postoperative seven" type="DATE" val="2004-05-16" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="05/09/2004" type="DATE" val="2004-05-09" mod="NA" />
+<TIMEX3 id="T2" start="230" end="243" text="March of 2004" type="DATE" val="2004-03" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="05/16/2004" type="DATE" val="2004-05-16" mod="NA" />
+<TIMEX3 id="T3" start="516" end="524" text="4-5 days" type="FREQUENCY" val="RP4.5D" mod="APPROX" />
+<TIMEX3 id="T4" start="656" end="663" text="the day" type="DATE" val="2004-05-09" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T0" toText="05/09/2004" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E17" fromText="admission" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E5" fromText="An invasive moderately differentiated adenocarcinoma" toID="E4" toText="colonoscopy" type="BEFORE_OVERLAP" />
+<TLINK id="TL11" fromID="E8" fromText="bloating" toID="E7" toText="reports" type="BEFORE_OVERLAP" />
+<TLINK id="TL12" fromID="E8" fromText="bloating" toID="E9" toText="flatulence" type="OVERLAP" />
+<TLINK id="TL13" fromID="E9" fromText="flatulence" toID="E10" toText="increased fatigue" type="OVERLAP" />
+<TLINK id="TL14" fromID="E10" fromText="increased fatigue" toID="E11" toText="some discomfort in her left lower abdomen" type="OVERLAP" />
+<TLINK id="TL15" fromID="E11" fromText="some discomfort in her left lower abdomen" toID="E13" toText="diarrhea" type="OVERLAP" />
+<TLINK id="TL16" fromID="E13" fromText="diarrhea" toID="E12" toText="notes" type="BEFORE_OVERLAP" />
+<TLINK id="TL17" fromID="E13" fromText="diarrhea" toID="T3" toText="4-5 days" type="OVERLAP" />
+<TLINK id="TL18" fromID="E15" fromText="weight loss" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL19" fromID="E15" fromText="weight loss" toID="E14" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="E1" fromText="DISCHARGE" toID="T1" toText="05/16/2004" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E16" fromText="surgery" toID="T4" toText="the day" type="SIMULTANEOUS" />
+<TLINK id="TL21" fromID="E22" fromText="the procedure" toID="E16" toText="surgery" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E26" fromText="Her postoperative course" toID="E16" toText="surgery" type="AFTER" />
+<TLINK id="TL23" fromID="T4" fromText="the day" toID="E17" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL24" fromID="E19" fromText="the operating room" toID="T4" toText="the day" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E19" fromText="the operating room" toID="E18" toText="taken" type="OVERLAP" />
+<TLINK id="TL26" fromID="E20" fromText="transverse colectomy" toID="E19" toText="the operating room" type="DURING" />
+<TLINK id="TL27" fromID="E21" fromText="tumor" toID="E20" toText="transverse colectomy" type="BEFORE_OVERLAP" />
+<TLINK id="TL28" fromID="E24" fromText="complications" toID="E22" toText="the procedure" type="AFTER" />
+<TLINK id="TL29" fromID="E25" fromText="unremarkable" toID="E26" toText="Her postoperative course" type="OVERLAP" />
+<TLINK id="TL30" fromID="E27" fromText="an epidural" toID="E16" toText="surgery" type="AFTER" />
+<TLINK id="TL31" fromID="E27" fromText="an epidural" toID="E28" toText="PCA" type="OVERLAP" />
+<TLINK id="TL32" fromID="E27" fromText="an epidural" toID="E29" toText="pain control" type="OVERLAP" />
+<TLINK id="TL34" fromID="E30" fromText="NPO" toID="E16" toText="surgery" type="OVERLAP" />
+<TLINK id="TL35" fromID="E46" fromText="her diet" toID="E31" toText="advanced as tolerated" type="OVERLAP" />
+<TLINK id="TL36" fromID="E30" fromText="NPO" toID="E31" toText="advanced as tolerated" type="BEFORE" />
+<TLINK id="TL37" fromID="E33" fromText="her pain medication" toID="E32" toText="clear liquids" type="BEFORE_OVERLAP" />
+<TLINK id="TL38" fromID="E32" fromText="clear liquids" toID="E31" toText="advanced as tolerated" type="OVERLAP" />
+<TLINK id="TL39" fromID="E34" fromText="p.o. pain regimen" toID="E32" toText="clear liquids" type="BEGUN_BY" />
+<TLINK id="TL4" fromID="E1" fromText="DISCHARGE" toID="E44" toText="discharged" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E27" fromText="an epidural" toID="E34" toText="p.o. pain regimen" type="ENDED_BY" />
+<TLINK id="TL41" fromID="E28" fromText="PCA" toID="E34" toText="p.o. pain regimen" type="ENDED_BY" />
+<TLINK id="TL42" fromID="E33" fromText="her pain medication" toID="E28" toText="PCA" type="OVERLAP" />
+<TLINK id="TL43" fromID="E33" fromText="her pain medication" toID="E27" toText="an epidural" type="OVERLAP" />
+<TLINK id="TL44" fromID="E35" fromText="blood pressure control" toID="E36" toText="metoprolol" type="OVERLAP" />
+<TLINK id="TL45" fromID="E37" fromText="enalapril" toID="E36" toText="metoprolol" type="ENDED_BY" />
+<TLINK id="TL46" fromID="E38" fromText="physical therapy" toID="E16" toText="surgery" type="AFTER" />
+<TLINK id="TL47" fromID="E39" fromText="ambulated" toID="E38" toText="physical therapy" type="OVERLAP" />
+<TLINK id="TL48" fromID="E39" fromText="ambulated" toID="T5" toText="postoperative seven" type="SIMULTANEOUS" />
+<TLINK id="TL49" fromID="E40" fromText="a post surgical soft diet" toID="E44" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL5" fromID="E2" fromText="diverticulitis" toID="E3" toText="colon cancer" type="OVERLAP" />
+<TLINK id="TL50" fromID="E42" fromText="well controlled" toID="E40" toText="a post surgical soft diet" type="OVERLAP" />
+<TLINK id="TL51" fromID="E41" fromText="pain" toID="E43" toText="oral pain medications" type="BEFORE_OVERLAP" />
+<TLINK id="TL52" fromID="E41" fromText="pain" toID="E42" toText="well controlled" type="BEFORE_OVERLAP" />
+<TLINK id="TL53" fromID="T5" fromText="postoperative seven" toID="E44" toText="discharged" type="SIMULTANEOUS" />
+<TLINK id="TL54" fromID="E45" fromText="rehabilitation facility" toID="E44" toText="discharged" type="BEGUN_BY" />
+<TLINK id="TL55" fromID="E43" fromText="oral pain medications" toID="E44" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL56" fromID="E41" fromText="pain" toID="E29" toText="pain control" type="SIMULTANEOUS" />
+<TLINK id="TL6" fromID="E3" fromText="colon cancer" toID="E4" toText="colonoscopy" type="BEFORE_OVERLAP" />
+<TLINK id="TL7" fromID="E3" fromText="colon cancer" toID="E5" toText="An invasive moderately differentiated adenocarcinoma" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E5" fromText="An invasive moderately differentiated adenocarcinoma" toID="E6" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL9" fromID="E4" fromText="colonoscopy" toID="T2" toText="March of 2004" type="SIMULTANEOUS" />
+<TLINK id="Sectime0" fromID="E32" fromText="clear liquids" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E33" fromText="her pain medication" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E34" fromText="p.o. pain regimen" toID="T1" toText="05/16/2004" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime3" fromID="E35" fromText="blood pressure control" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E36" fromText="metoprolol" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E37" fromText="enalapril" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E38" fromText="physical therapy" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E39" fromText="ambulated" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E40" fromText="a post surgical soft diet" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E2" fromText="diverticulitis" toID="T0" toText="05/09/2004" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime9" fromID="E41" fromText="pain" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E42" fromText="well controlled" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E43" fromText="oral pain medications" toID="T1" toText="05/16/2004" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime12" fromID="E44" fromText="discharged" toID="T1" toText="05/16/2004" type="OVERLAP" />
+<TLINK id="Sectime13" fromID="E45" fromText="rehabilitation facility" toID="T1" toText="05/16/2004" type="AFTER" />
+<TLINK id="Sectime1" fromID="E3" fromText="colon cancer" toID="T0" toText="05/09/2004" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime2" fromID="E4" fromText="colonoscopy" toID="T0" toText="05/09/2004" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E5" fromText="An invasive moderately differentiated adenocarcinoma" toID="T0" toText="05/09/2004" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime4" fromID="E6" fromText="noted" toID="T0" toText="05/09/2004" type="OVERLAP" />
+<TLINK id="Sectime5" fromID="E7" fromText="reports" toID="T0" toText="05/09/2004" type="OVERLAP" />
+<TLINK id="Sectime6" fromID="E8" fromText="bloating" toID="T0" toText="05/09/2004" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime7" fromID="E9" fromText="flatulence" toID="T0" toText="05/09/2004" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime8" fromID="E10" fromText="increased fatigue" toID="T0" toText="05/09/2004" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime9" fromID="E11" fromText="some discomfort in her left lower abdomen" toID="T0" toText="05/09/2004" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime10" fromID="E12" fromText="notes" toID="T0" toText="05/09/2004" type="OVERLAP" />
+<TLINK id="Sectime11" fromID="E13" fromText="diarrhea" toID="T0" toText="05/09/2004" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime12" fromID="E14" fromText="noted" toID="T0" toText="05/09/2004" type="OVERLAP" />
+<TLINK id="Sectime13" fromID="E15" fromText="weight loss" toID="T0" toText="05/09/2004" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime14" fromID="E16" fromText="surgery" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E17" fromText="admission" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E18" fromText="taken" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E19" fromText="the operating room" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E20" fromText="transverse colectomy" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E21" fromText="tumor" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E22" fromText="the procedure" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E23" fromText="well" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E24" fromText="complications" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E26" fromText="Her postoperative course" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E25" fromText="unremarkable" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E27" fromText="an epidural" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E28" fromText="PCA" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E29" fromText="pain control" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E30" fromText="NPO" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E46" fromText="her diet" toID="T1" toText="05/16/2004" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E31" fromText="advanced as tolerated" toID="T1" toText="05/16/2004" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="05/09/2004" type="ADMISSION" dvalue="2004-05-09" />
+<SECTIME id="S1" start="46" end="56" text="05/16/2004" type="DISCHARGE" dvalue="2004-05-16" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

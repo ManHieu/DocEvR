@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+09/26/2001
+Discharge Date :
+10/06/2001
+HISTORY OF PRESENT ILLNESS :
+The patient is a 60-year-old male with a past medical history notable for coronary artery disease and CABG x2 in 2001 .
+The patient has felt unwell since 7/21 after his non-Q wave MI .
+The patient , at this time , was started on Statin and developed in arthritis approximately one month later with joint pain , myalgia and fatigue .
+No clear diagnosis was made .
+The patient was presumed to have a rheumatoid factor negative , rheumatoid arthritis and he was prescribed Naprosyn , prednisone and sulfasalazine .
+He had a CABG review in 2/21 .
+His first CABG was in 02/89 .
+Since 2/21 , he has had increasing weight loss of 30-49 pounds , night sweats which he attributed to the prednisone and increased fatigue and myalgias .
+The patient has gradually taken to bed with decreasing activity .
+In late 7/22 , sulfasalazine was started at one tab three times a day .
+The patient subsequently developed diffuse abdominal pain , nausea , vomiting , and decreased p.o. intake .
+A guaiac positive stool was also noted in the month of July .
+10 days prior to admission , the patient &apos;s primary care physician increased his sulfasalazine dose to two tabs three times a day .
+The patient &apos;s prednisone was increased to 60 mg q.d. as the patient was diagnosed with an arthritis flare .
+The prednisone dose was gradually tapered to 20 mg q.d.
+The day before admission , the patient developed a fever to 102 degrees and increasing abdominal pain .
+He presented to an outside hops where he was noted to be leukopenic with a white blood cell count of 0.6 , 0 neutrophils , a hematocrit of 32 , platelets of 326 , a MCV of 79 , and RDW of 22 .
+The patient was given IV fluids and treated with imipenem , transferred to Ca Valley Hospital ED , where it was noted that the patient had face and neck swelling , as well as erythema and cervical lymphadenopathy .
+The patient states that his swelling of his face began two days prior to admission and has doubled since then .
+In the emergency department , CT of head , neck and abdomen were performed .
+The CT of the abdomen was without lymphadenopathy , revealed a right renal cyst , otherwise unremarkable .
+The CT of head and neck was likewise unremarkable showing no evidence of fasciitis or deep tissue thread .
+No abscesses were noted .
+REVIEW OF SYSTEMS :
+The patient denies shortness of breath , chest pain , orthopnea , no dysuria , hematuria , no visual changes , no rashes , no blurry vision .
+HOSPITAL COURSE :
+The patient was started on ceftazidime , nafcillin and Flagyl for concern of a soft tissue infection .
+Neutropenic precautions were taken .
+The patient had a bone marrow biopsy which showed myeloid arrest and probable neutropenia from a drug-related cause presumed to be the sulfasalazine .
+Over the course of the hospitalization , the patient &apos;s white blood cell count rose from 0.4 to 6.3 after he was given G-CSF , a course lasting from 9/28/01 until 9/30/01 .
+After the G-CSF , the absolute neutrophil count was greater than 8000 .
+On 10/3/01 , the patient had a repeat head and neck CT , which showed a right parotitis and left submandibular lymphadenopathy with some necrosis .
+No frank abscesses .
+The patient &apos;s antibiotics were changed to clindamycin 300 mg q.i.d. and patient was also put on sialagogue .
+Over the course of the hospitalization , the swelling and tenderness and erythema have steadily decreased .
+Recommendations on antibiotics were made by infectious disease team , who was consulted .
+Rheumatology was also consulted for patient and after workup , it was believed that arthritis may be a rheumatoid factor negative , rheumatoid polyarthritis .
+Rheumatology recommended a taper of his prednisone to 20 mg q.d. and the patient will be followed by the rheumatology service .
+The oncology service was also consulted for patient and performed a bone marrow biopsy .
+Throughout his course during this hospitalization , the patient was also followed by the ENT service .
+The ENT physicians did not recommend any procedures , incision and drainage for his right parotitis or left submandibular cervical lymph node necrosis .
+The ENT team recommended watching patient in-house for two days after his repeat imaging on 10/3/01 , and to continue antibiotic coverage with clindamycin .
+The patient had no positive blood cultures during his hospitalization and remained afebrile after the second day of admission .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="1010" end="1016" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E69" start="1019" end="1027" text="vomiting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E70" start="1034" end="1055" text="decreased p.o. intake" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="1058" end="1081" text="A guaiac positive stool" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="1137" end="1146" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1192" end="1201" text="increased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="1202" end="1224" text="his sulfasalazine dose" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="1257" end="1287" text="The patient &apos;s prednisone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="1292" end="1301" text="increased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1350" end="1368" text="an arthritis flare" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="1371" end="1390" text="The prednisone dose" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1395" end="1412" text="gradually tapered" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1442" end="1451" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1476" end="1483" text="a fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1503" end="1528" text="increasing abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1534" end="1543" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E39" start="1547" end="1562" text="an outside hops" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E40" start="1588" end="1598" text="leukopenic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="160" end="183" text="coronary artery disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1604" end="1628" text="a white blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="1640" end="1651" text="neutrophils" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="1654" end="1666" text="a hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="1675" end="1684" text="platelets" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="1694" end="1699" text="a MCV" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="1712" end="1715" text="RDW" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="1746" end="1755" text="IV fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1773" end="1781" text="imipenem" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="1784" end="1795" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="1799" end="1820" text="Ca Valley Hospital ED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E51" start="1863" end="1885" text="face and neck swelling" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="188" end="192" text="CABG" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="1899" end="1907" text="erythema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="1912" end="1936" text="cervical lymphadenopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="1951" end="1957" text="states" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E55" start="1963" end="1987" text="his swelling of his face" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E135" start="2012" end="2021" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="2054" end="2078" text="the emergency department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E57" start="2081" end="2110" text="CT of head , neck and abdomen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E58" start="2128" end="2149" text="The CT of the abdomen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="2162" end="2177" text="lymphadenopathy" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E60" start="2180" end="2188" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E61" start="2189" end="2207" text="a right renal cyst" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="2235" end="2258" text="The CT of head and neck" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="227" end="233" text="unwell" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="2285" end="2292" text="showing" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E64" start="2308" end="2317" text="fasciitis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E65" start="2321" end="2339" text="deep tissue thread" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E66" start="2345" end="2354" text="abscesses" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E71" start="2400" end="2406" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E72" start="2407" end="2426" text="shortness of breath" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E73" start="2429" end="2439" text="chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E74" start="2442" end="2451" text="orthopnea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E75" start="2457" end="2464" text="dysuria" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E76" start="2467" end="2476" text="hematuria" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E77" start="2482" end="2496" text="visual changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E5" start="251" end="268" text="his non-Q wave MI" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E78" start="2502" end="2508" text="rashes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E79" start="2514" end="2527" text="blurry vision" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E80" start="2575" end="2586" text="ceftazidime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="2589" end="2598" text="nafcillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E82" start="2603" end="2609" text="Flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E83" start="2625" end="2648" text="a soft tissue infection" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E84" start="2651" end="2674" text="Neutropenic precautions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E85" start="2704" end="2724" text="a bone marrow biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E86" start="2731" end="2737" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E87" start="2738" end="2752" text="myeloid arrest" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="2766" end="2777" text="neutropenia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E89" start="2783" end="2803" text="a drug-related cause" modality="POSSIBLE" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E90" start="2819" end="2836" text="the sulfasalazine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E91" start="2858" end="2877" text="the hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E92" start="2880" end="2922" text="the patient &apos;s white blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E93" start="2923" end="2927" text="rose" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E94" start="2963" end="2968" text="G-CSF" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E95" start="3023" end="3032" text="the G-CSF" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E96" start="3035" end="3064" text="the absolute neutrophil count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E97" start="3118" end="3143" text="a repeat head and neck CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="315" end="321" text="Statin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E98" start="3152" end="3158" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E99" start="3159" end="3176" text="a right parotitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="3181" end="3215" text="left submandibular lymphadenopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E101" start="3221" end="3234" text="some necrosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E102" start="3240" end="3255" text="frank abscesses" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E103" start="3258" end="3289" text="The patient &apos;s antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E104" start="3306" end="3317" text="clindamycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E105" start="3360" end="3370" text="sialagogue" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="339" end="348" text="arthritis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E106" start="3392" end="3411" text="the hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E107" start="3414" end="3426" text="the swelling" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E108" start="3431" end="3441" text="tenderness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="3446" end="3454" text="erythema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E110" start="3460" end="3478" text="steadily decreased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E111" start="3500" end="3511" text="antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E112" start="3559" end="3568" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E113" start="3593" end="3602" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E114" start="3625" end="3631" text="workup" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E115" start="3655" end="3664" text="arthritis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E116" start="3672" end="3727" text="a rheumatoid factor negative , rheumatoid polyarthritis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E117" start="3755" end="3780" text="a taper of his prednisone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E118" start="3819" end="3827" text="followed" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="384" end="394" text="joint pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E119" start="3888" end="3897" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E120" start="3924" end="3944" text="a bone marrow biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="397" end="404" text="myalgia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E121" start="3976" end="3996" text="this hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E122" start="4020" end="4047" text="followed by the ENT service" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="409" end="416" text="fatigue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E123" start="4087" end="4101" text="any procedures" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E124" start="4104" end="4112" text="incision" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E125" start="4117" end="4125" text="drainage" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E126" start="4130" end="4149" text="his right parotitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E127" start="4153" end="4200" text="left submandibular cervical lymph node necrosis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E11" start="422" end="437" text="clear diagnosis" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E128" start="4228" end="4253" text="watching patient in-house" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E129" start="4273" end="4291" text="his repeat imaging" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E130" start="4321" end="4340" text="antibiotic coverage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E131" start="4346" end="4357" text="clindamycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E132" start="4379" end="4402" text="positive blood cultures" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E133" start="4410" end="4429" text="his hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E134" start="4443" end="4451" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E138" start="4476" end="4485" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="482" end="533" text="a rheumatoid factor negative , rheumatoid arthritis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="556" end="564" text="Naprosyn" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="567" end="577" text="prednisone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="582" end="595" text="sulfasalazine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="605" end="618" text="a CABG review" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="629" end="643" text="His first CABG" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="683" end="705" text="increasing weight loss" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="724" end="736" text="night sweats" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="760" end="774" text="the prednisone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="779" end="796" text="increased fatigue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="801" end="809" text="myalgias" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="838" end="850" text="taken to bed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="856" end="875" text="decreasing activity" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="893" end="906" text="sulfasalazine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E67" start="985" end="1007" text="diffuse abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T11" start="1113" end="1117" text="July" type="DATE" val="2001-07" mod="NA" />
+<TIMEX3 id="T12" start="1120" end="1127" text="10 days" type="DURATION" val="p10d" mod="NA" />
+<TIMEX3 id="T13" start="1237" end="1254" text="three times a day" type="FREQUENCY" val="R8H" mod="NA" />
+<TIMEX3 id="T14" start="1311" end="1315" text="q.d." type="FREQUENCY" val="R24H" mod="NA" />
+<TIMEX3 id="T15" start="1422" end="1426" text="q.d." type="FREQUENCY" val="R24H" mod="NA" />
+<TIMEX3 id="T16" start="1427" end="1434" text="The day" type="DATE" val="2001-09-25" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="09/26/2001" type="DATE" val="2001-09-26" mod="NA" />
+<TIMEX3 id="T2" start="193" end="195" text="x2" type="FREQUENCY" val="r2" mod="NA" />
+<TIMEX3 id="T3" start="199" end="203" text="2001" type="DATE" val="2001" mod="NA" />
+<TIMEX3 id="T17" start="1994" end="2002" text="two days" type="DATE" val="2001-09-24" mod="NA" />
+<TIMEX3 id="T4" start="240" end="244" text="7/21" type="DATE" val="2001-07-21" mod="NA" />
+<TIMEX3 id="T18" start="2993" end="3000" text="9/28/01" type="DATE" val="2001-09-28" mod="NA" />
+<TIMEX3 id="T19" start="3007" end="3014" text="9/30/01" type="DATE" val="2001-09-30" mod="NA" />
+<TIMEX3 id="T20" start="3092" end="3099" text="10/3/01" type="DATE" val="2001-10-03" mod="NA" />
+<TIMEX3 id="T21" start="3325" end="3331" text="q.i.d." type="FREQUENCY" val="R6H" mod="NA" />
+<TIMEX3 id="T5" start="363" end="372" text="one month" type="DURATION" val="p1m" mod="APPROX" />
+<TIMEX3 id="T22" start="3790" end="3794" text="q.d." type="FREQUENCY" val="R24H" mod="NA" />
+<TIMEX3 id="T23" start="4258" end="4266" text="two days" type="DURATION" val="p2d" mod="NA" />
+<TIMEX3 id="T24" start="4295" end="4302" text="10/3/01" type="DATE" val="2001-10-03" mod="NA" />
+<TIMEX3 id="T25" start="4458" end="4472" text="the second day" type="DATE" val="" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="10/06/2001" type="DATE" val="2001-10-06" mod="NA" />
+<TIMEX3 id="T6" start="622" end="626" text="2/21" type="DATE" val="2001-02-21" mod="NA" />
+<TIMEX3 id="T7" start="651" end="656" text="02/89" type="DATE" val="1989-02" mod="NA" />
+<TIMEX3 id="T8" start="665" end="669" text="2/21" type="DATE" val="2001-02-21" mod="NA" />
+<TIMEX3 id="T9" start="886" end="890" text="7/22" type="DATE" val="2001-07-22" mod="END" />
+<TIMEX3 id="T10" start="930" end="947" text="three times a day" type="FREQUENCY" val="RPT8H" mod="NA" />
+<TLINK id="TL0" fromID="E84" fromText="Neutropenic precautions" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL1" fromID="E91" fromText="the hospitalization" toID="E0" toText="Admission" type="BEGUN_BY" />
+<TLINK id="TL10" fromID="E3" fromText="CABG" toID="T3" toText="2001" type="OVERLAP" />
+<TLINK id="TL100" fromID="E78" fromText="rashes" toID="E71" toText="denies" type="BEFORE_OVERLAP" />
+<TLINK id="TL101" fromID="E79" fromText="blurry vision" toID="E71" toText="denies" type="BEFORE_OVERLAP" />
+<TLINK id="TL102" fromID="E83" fromText="a soft tissue infection" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL103" fromID="E49" fromText="transferred" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL104" fromID="E80" fromText="ceftazidime" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL107" fromID="E87" fromText="myeloid arrest" toID="E85" toText="a bone marrow biopsy" type="BEFORE_OVERLAP" />
+<TLINK id="TL108" fromID="E88" fromText="neutropenia" toID="E85" toText="a bone marrow biopsy" type="BEFORE_OVERLAP" />
+<TLINK id="TL109" fromID="E85" fromText="a bone marrow biopsy" toID="E86" toText="showed" type="OVERLAP" />
+<TLINK id="TL11" fromID="E4" fromText="unwell" toID="T4" toText="7/21" type="BEGUN_BY" />
+<TLINK id="TL110" fromID="E85" fromText="a bone marrow biopsy" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL111" fromID="E88" fromText="neutropenia" toID="E89" toText="a drug-related cause" type="AFTER" />
+<TLINK id="TL112" fromID="E89" fromText="a drug-related cause" toID="E90" toText="the sulfasalazine" type="SIMULTANEOUS" />
+<TLINK id="TL113" fromID="E90" fromText="the sulfasalazine" toID="E28" toText="his sulfasalazine dose" type="SIMULTANEOUS" />
+<TLINK id="TL114" fromID="E92" fromText="the patient &apos;s white blood cell count" toID="E91" toText="the hospitalization" type="DURING" />
+<TLINK id="TL115" fromID="E93" fromText="rose" toID="E91" toText="the hospitalization" type="DURING" />
+<TLINK id="TL116" fromID="E93" fromText="rose" toID="E94" toText="G-CSF" type="AFTER" />
+<TLINK id="TL117" fromID="E94" fromText="G-CSF" toID="T18" toText="9/28/01" type="BEGUN_BY" />
+<TLINK id="TL118" fromID="E94" fromText="G-CSF" toID="E95" toText="the G-CSF" type="simultaneous" />
+<TLINK id="TL119" fromID="E94" fromText="G-CSF" toID="T19" toText="9/30/01" type="ENDED_BY" />
+<TLINK id="TL12" fromID="E5" fromText="his non-Q wave MI" toID="T4" toText="7/21" type="OVERLAP" />
+<TLINK id="TL120" fromID="E96" fromText="the absolute neutrophil count" toID="E95" toText="the G-CSF" type="AFTER" />
+<TLINK id="TL121" fromID="E97" fromText="a repeat head and neck CT" toID="T20" toText="10/3/01" type="OVERLAP" />
+<TLINK id="TL122" fromID="E97" fromText="a repeat head and neck CT" toID="E98" toText="showed" type="OVERLAP" />
+<TLINK id="TL123" fromID="E99" fromText="a right parotitis" toID="E97" toText="a repeat head and neck CT" type="BEFORE_OVERLAP" />
+<TLINK id="TL124" fromID="E100" fromText="left submandibular lymphadenopathy" toID="E97" toText="a repeat head and neck CT" type="BEFORE_OVERLAP" />
+<TLINK id="TL125" fromID="E100" fromText="left submandibular lymphadenopathy" toID="E101" toText="some necrosis" type="OVERLAP" />
+<TLINK id="TL126" fromID="E102" fromText="frank abscesses" toID="E97" toText="a repeat head and neck CT" type="BEFORE_OVERLAP" />
+<TLINK id="TL127" fromID="E81" fromText="nafcillin" toID="E80" toText="ceftazidime" type="SIMULTANEOUS" />
+<TLINK id="TL128" fromID="E82" fromText="Flagyl" toID="E81" toText="nafcillin" type="SIMULTANEOUS" />
+<TLINK id="TL129" fromID="E103" fromText="The patient &apos;s antibiotics" toID="E80" toText="ceftazidime" type="SIMULTANEOUS" />
+<TLINK id="TL13" fromID="E6" fromText="Statin" toID="T4" toText="7/21" type="BEGUN_BY" />
+<TLINK id="TL130" fromID="E103" fromText="The patient &apos;s antibiotics" toID="E104" toText="clindamycin" type="ENDED_BY" />
+<TLINK id="TL131" fromID="E104" fromText="clindamycin" toID="T21" toText="q.i.d." type="SIMULTANEOUS" />
+<TLINK id="TL132" fromID="E104" fromText="clindamycin" toID="E105" toText="sialagogue" type="OVERLAP" />
+<TLINK id="TL133" fromID="E106" fromText="the hospitalization" toID="E91" toText="the hospitalization" type="SIMULTANEOUS" />
+<TLINK id="TL134" fromID="E51" fromText="face and neck swelling" toID="E107" toText="the swelling" type="simultaneous" />
+<TLINK id="TL135" fromID="E107" fromText="the swelling" toID="E108" toText="tenderness" type="OVERLAP" />
+<TLINK id="TL136" fromID="E52" fromText="erythema" toID="E109" toText="erythema" type="simultaneous" />
+<TLINK id="TL137" fromID="E110" fromText="steadily decreased" toID="E106" toText="the hospitalization" type="DURING" />
+<TLINK id="TL138" fromID="E111" fromText="antibiotics" toID="E112" toText="consulted" type="AFTER" />
+<TLINK id="TL139" fromID="E112" fromText="consulted" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL14" fromID="E7" fromText="arthritis" toID="E8" toText="joint pain" type="OVERLAP" />
+<TLINK id="TL140" fromID="E113" fromText="consulted" toID="E114" toText="workup" type="AFTER" />
+<TLINK id="TL141" fromID="E114" fromText="workup" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL142" fromID="E115" fromText="arthritis" toID="E116" toText="a rheumatoid factor negative , rheumatoid polyarthritis" type="SIMULTANEOUS" />
+<TLINK id="TL143" fromID="E115" fromText="arthritis" toID="E7" toText="arthritis" type="SIMULTANEOUS" />
+<TLINK id="TL144" fromID="E117" fromText="a taper of his prednisone" toID="E113" toText="consulted" type="AFTER" />
+<TLINK id="TL145" fromID="E117" fromText="a taper of his prednisone" toID="T22" toText="q.d." type="SIMULTANEOUS" />
+<TLINK id="TL146" fromID="E118" fromText="followed" toID="E1" toText="Discharge" type="AFTER" />
+<TLINK id="TL147" fromID="E119" fromText="consulted" toID="E120" toText="a bone marrow biopsy" type="OVERLAP" />
+<TLINK id="TL148" fromID="E120" fromText="a bone marrow biopsy" toID="E85" toText="a bone marrow biopsy" type="SIMULTANEOUS" />
+<TLINK id="TL149" fromID="E121" fromText="this hospitalization" toID="E106" toText="the hospitalization" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E7" fromText="arthritis" toID="T5" toText="one month" type="BEGUN_BY" />
+<TLINK id="TL150" fromID="E122" fromText="followed by the ENT service" toID="E121" toText="this hospitalization" type="DURING" />
+<TLINK id="TL151" fromID="E123" fromText="any procedures" toID="E121" toText="this hospitalization" type="DURING" />
+<TLINK id="TL152" fromID="E123" fromText="any procedures" toID="E124" toText="incision" type="OVERLAP" />
+<TLINK id="TL153" fromID="E124" fromText="incision" toID="E125" toText="drainage" type="OVERLAP" />
+<TLINK id="TL154" fromID="E126" fromText="his right parotitis" toID="E99" toText="a right parotitis" type="SIMULTANEOUS" />
+<TLINK id="TL155" fromID="E127" fromText="left submandibular cervical lymph node necrosis" toID="E101" toText="some necrosis" type="SIMULTANEOUS" />
+<TLINK id="TL156" fromID="E128" fromText="watching patient in-house" toID="T23" toText="two days" type="DURING" />
+<TLINK id="TL157" fromID="T23" fromText="two days" toID="T24" toText="10/3/01" type="BEGUN_BY" />
+<TLINK id="TL158" fromID="E129" fromText="his repeat imaging" toID="T24" toText="10/3/01" type="OVERLAP" />
+<TLINK id="TL159" fromID="E130" fromText="antibiotic coverage" toID="E129" toText="his repeat imaging" type="BEFORE_OVERLAP" />
+<TLINK id="TL16" fromID="E7" fromText="arthritis" toID="E9" toText="myalgia" type="OVERLAP" />
+<TLINK id="TL161" fromID="E131" fromText="clindamycin" toID="E130" toText="antibiotic coverage" type="SIMULTANEOUS" />
+<TLINK id="TL162" fromID="E131" fromText="clindamycin" toID="E104" toText="clindamycin" type="SIMULTANEOUS" />
+<TLINK id="TL163" fromID="E132" fromText="positive blood cultures" toID="E133" toText="his hospitalization" type="DURING" />
+<TLINK id="TL164" fromID="E133" fromText="his hospitalization" toID="E121" toText="this hospitalization" type="SIMULTANEOUS" />
+<TLINK id="TL165" fromID="E134" fromText="afebrile" toID="T25" toText="the second day" type="AFTER" />
+<TLINK id="TL166" fromID="E138" fromText="admission" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL17" fromID="E7" fromText="arthritis" toID="E10" toText="fatigue" type="OVERLAP" />
+<TLINK id="TL18" fromID="T5" fromText="one month" toID="E6" toText="Statin" type="BEGUN_BY" />
+<TLINK id="TL19" fromID="E9" fromText="myalgia" toID="E22" toText="myalgias" type="simultaneous" />
+<TLINK id="TL20" fromID="E10" fromText="fatigue" toID="E21" toText="increased fatigue" type="simultaneous" />
+<TLINK id="TL21" fromID="E11" fromText="clear diagnosis" toID="E7" toText="arthritis" type="AFTER" />
+<TLINK id="TL22" fromID="E12" fromText="a rheumatoid factor negative , rheumatoid arthritis" toID="E116" toText="a rheumatoid factor negative , rheumatoid polyarthritis" type="simultaneous" />
+<TLINK id="TL24" fromID="E12" fromText="a rheumatoid factor negative , rheumatoid arthritis" toID="E7" toText="arthritis" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E13" fromText="Naprosyn" toID="E12" toText="a rheumatoid factor negative , rheumatoid arthritis" type="OVERLAP" />
+<TLINK id="TL26" fromID="E14" fromText="prednisone" toID="E12" toText="a rheumatoid factor negative , rheumatoid arthritis" type="OVERLAP" />
+<TLINK id="TL27" fromID="E15" fromText="sulfasalazine" toID="E12" toText="a rheumatoid factor negative , rheumatoid arthritis" type="OVERLAP" />
+<TLINK id="TL28" fromID="E16" fromText="a CABG review" toID="T6" toText="2/21" type="SIMULTANEOUS" />
+<TLINK id="TL29" fromID="E17" fromText="His first CABG" toID="T7" toText="02/89" type="SIMULTANEOUS" />
+<TLINK id="TL3" fromID="E0" fromText="Admission" toID="T0" toText="09/26/2001" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E18" fromText="increasing weight loss" toID="T8" toText="2/21" type="BEGUN_BY" />
+<TLINK id="TL31" fromID="E19" fromText="night sweats" toID="T8" toText="2/21" type="BEGUN_BY" />
+<TLINK id="TL32" fromID="E21" fromText="increased fatigue" toID="E20" toText="the prednisone" type="OVERLAP" />
+<TLINK id="TL33" fromID="E22" fromText="myalgias" toID="E20" toText="the prednisone" type="OVERLAP" />
+<TLINK id="TL34" fromID="E19" fromText="night sweats" toID="E20" toText="the prednisone" type="OVERLAP" />
+<TLINK id="TL35" fromID="E18" fromText="increasing weight loss" toID="E19" toText="night sweats" type="OVERLAP" />
+<TLINK id="TL36" fromID="E23" fromText="taken to bed" toID="E21" toText="increased fatigue" type="OVERLAP" />
+<TLINK id="TL37" fromID="E24" fromText="decreasing activity" toID="E23" toText="taken to bed" type="OVERLAP" />
+<TLINK id="TL38" fromID="E25" fromText="sulfasalazine" toID="T9" toText="7/22" type="BEGUN_BY" />
+<TLINK id="TL39" fromID="E25" fromText="sulfasalazine" toID="E28" toText="his sulfasalazine dose" type="simultaneous" />
+<TLINK id="TL4" fromID="E27" fromText="admission" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E25" fromText="sulfasalazine" toID="T10" toText="three times a day" type="SIMULTANEOUS" />
+<TLINK id="TL41" fromID="E67" fromText="diffuse abdominal pain" toID="T9" toText="7/22" type="AFTER" />
+<TLINK id="TL42" fromID="E67" fromText="diffuse abdominal pain" toID="E68" toText="nausea" type="OVERLAP" />
+<TLINK id="TL43" fromID="E68" fromText="nausea" toID="E69" toText="vomiting" type="OVERLAP" />
+<TLINK id="TL44" fromID="E69" fromText="vomiting" toID="E70" toText="decreased p.o. intake" type="OVERLAP" />
+<TLINK id="TL45" fromID="E26" fromText="A guaiac positive stool" toID="T11" toText="July" type="OVERLAP" />
+<TLINK id="TL46" fromID="T12" fromText="10 days" toID="E27" toText="admission" type="ENDED_BY" />
+<TLINK id="TL48" fromID="T12" fromText="10 days" toID="E29" toText="increased" type="BEGUN_BY" />
+<TLINK id="TL49" fromID="T13" fromText="three times a day" toID="E29" toText="increased" type="BEGUN_BY" />
+<TLINK id="TL5" fromID="E91" fromText="the hospitalization" toID="E1" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL50" fromID="E28" fromText="his sulfasalazine dose" toID="T12" toText="10 days" type="BEFORE_OVERLAP" />
+<TLINK id="TL51" fromID="E30" fromText="The patient &apos;s prednisone" toID="T12" toText="10 days" type="BEFORE_OVERLAP" />
+<TLINK id="TL52" fromID="E30" fromText="The patient &apos;s prednisone" toID="E14" toText="prednisone" type="SIMULTANEOUS" />
+<TLINK id="TL53" fromID="E31" fromText="increased" toID="E29" toText="increased" type="OVERLAP" />
+<TLINK id="TL54" fromID="E32" fromText="an arthritis flare" toID="E29" toText="increased" type="BEFORE_OVERLAP" />
+<TLINK id="TL55" fromID="E30" fromText="The patient &apos;s prednisone" toID="T14" toText="q.d." type="OVERLAP" />
+<TLINK id="TL56" fromID="E33" fromText="The prednisone dose" toID="E30" toText="The patient &apos;s prednisone" type="SIMULTANEOUS" />
+<TLINK id="TL57" fromID="E34" fromText="gradually tapered" toID="E31" toText="increased" type="AFTER" />
+<TLINK id="TL58" fromID="E33" fromText="The prednisone dose" toID="T15" toText="q.d." type="OVERLAP" />
+<TLINK id="TL59" fromID="E36" fromText="a fever" toID="T16" toText="The day" type="BEGUN_BY" />
+<TLINK id="TL6" fromID="E1" fromText="Discharge" toID="T1" toText="10/06/2001" type="SIMULTANEOUS" />
+<TLINK id="TL60" fromID="E35" fromText="admission" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL61" fromID="E37" fromText="increasing abdominal pain" toID="T16" toText="The day" type="BEGUN_BY" />
+<TLINK id="TL62" fromID="E38" fromText="presented" toID="T16" toText="The day" type="OVERLAP" />
+<TLINK id="TL63" fromID="E39" fromText="an outside hops" toID="E38" toText="presented" type="BEGUN_BY" />
+<TLINK id="TL64" fromID="E39" fromText="an outside hops" toID="E49" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL65" fromID="E40" fromText="leukopenic" toID="E39" toText="an outside hops" type="BEFORE_OVERLAP" />
+<TLINK id="TL66" fromID="E41" fromText="a white blood cell count" toID="E39" toText="an outside hops" type="DURING" />
+<TLINK id="TL67" fromID="E41" fromText="a white blood cell count" toID="E42" toText="neutrophils" type="SIMULTANEOUS" />
+<TLINK id="TL68" fromID="E42" fromText="neutrophils" toID="E43" toText="a hematocrit" type="SIMULTANEOUS" />
+<TLINK id="TL69" fromID="E43" fromText="a hematocrit" toID="E44" toText="platelets" type="SIMULTANEOUS" />
+<TLINK id="TL7" fromID="E2" fromText="coronary artery disease" toID="E3" toText="CABG" type="BEFORE_OVERLAP" />
+<TLINK id="TL70" fromID="E44" fromText="platelets" toID="E45" toText="a MCV" type="SIMULTANEOUS" />
+<TLINK id="TL71" fromID="E45" fromText="a MCV" toID="E46" toText="RDW" type="SIMULTANEOUS" />
+<TLINK id="TL72" fromID="E47" fromText="IV fluids" toID="E38" toText="presented" type="AFTER" />
+<TLINK id="TL73" fromID="E48" fromText="imipenem" toID="E39" toText="an outside hops" type="DURING" />
+<TLINK id="TL74" fromID="E50" fromText="Ca Valley Hospital ED" toID="E49" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL75" fromID="E51" fromText="face and neck swelling" toID="E49" toText="transferred" type="BEFORE_OVERLAP" />
+<TLINK id="TL76" fromID="E52" fromText="erythema" toID="E51" toText="face and neck swelling" type="OVERLAP" />
+<TLINK id="TL77" fromID="E52" fromText="erythema" toID="E53" toText="cervical lymphadenopathy" type="OVERLAP" />
+<TLINK id="TL78" fromID="E54" fromText="states" toID="E49" toText="transferred" type="AFTER" />
+<TLINK id="TL79" fromID="E55" fromText="his swelling of his face" toID="E51" toText="face and neck swelling" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E2" fromText="coronary artery disease" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL80" fromID="E55" fromText="his swelling of his face" toID="T17" toText="two days" type="BEGUN_BY" />
+<TLINK id="TL81" fromID="T17" fromText="two days" toID="E135" toText="admission" type="ENDED_BY" />
+<TLINK id="TL82" fromID="E56" fromText="the emergency department" toID="E49" toText="transferred" type="AFTER" />
+<TLINK id="TL83" fromID="E57" fromText="CT of head , neck and abdomen" toID="E56" toText="the emergency department" type="OVERLAP" />
+<TLINK id="TL84" fromID="E58" fromText="The CT of the abdomen" toID="E57" toText="CT of head , neck and abdomen" type="OVERLAP" />
+<TLINK id="TL85" fromID="E59" fromText="lymphadenopathy" toID="E58" toText="The CT of the abdomen" type="BEFORE_OVERLAP" />
+<TLINK id="TL86" fromID="E60" fromText="revealed" toID="E58" toText="The CT of the abdomen" type="OVERLAP" />
+<TLINK id="TL87" fromID="E61" fromText="a right renal cyst" toID="E58" toText="The CT of the abdomen" type="BEFORE_OVERLAP" />
+<TLINK id="TL88" fromID="E62" fromText="The CT of head and neck" toID="E57" toText="CT of head , neck and abdomen" type="OVERLAP" />
+<TLINK id="TL89" fromID="E62" fromText="The CT of head and neck" toID="E63" toText="showing" type="OVERLAP" />
+<TLINK id="TL9" fromID="E3" fromText="CABG" toID="T2" toText="x2" type="OVERLAP" />
+<TLINK id="TL90" fromID="E64" fromText="fasciitis" toID="E62" toText="The CT of head and neck" type="BEFORE_OVERLAP" />
+<TLINK id="TL91" fromID="E65" fromText="deep tissue thread" toID="E62" toText="The CT of head and neck" type="BEFORE_OVERLAP" />
+<TLINK id="TL92" fromID="E66" fromText="abscesses" toID="E62" toText="The CT of head and neck" type="BEFORE_OVERLAP" />
+<TLINK id="TL93" fromID="E71" fromText="denies" toID="E49" toText="transferred" type="AFTER" />
+<TLINK id="TL94" fromID="E72" fromText="shortness of breath" toID="E71" toText="denies" type="BEFORE_OVERLAP" />
+<TLINK id="TL95" fromID="E73" fromText="chest pain" toID="E71" toText="denies" type="BEFORE_OVERLAP" />
+<TLINK id="TL96" fromID="E74" fromText="orthopnea" toID="E71" toText="denies" type="BEFORE_OVERLAP" />
+<TLINK id="TL97" fromID="E75" fromText="dysuria" toID="E71" toText="denies" type="BEFORE_OVERLAP" />
+<TLINK id="TL98" fromID="E76" fromText="hematuria" toID="E71" toText="denies" type="BEFORE_OVERLAP" />
+<TLINK id="TL99" fromID="E77" fromText="visual changes" toID="E71" toText="denies" type="BEFORE_OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="09/26/2001" type="ADMISSION" dvalue="2001-09-26" />
+<SECTIME id="S1" start="46" end="56" text="10/06/2001" type="DISCHARGE" dvalue="2001-10-06" />
+<TLINK id="SECTIME0" fromID="E68" fromText="nausea" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E69" fromText="vomiting" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E70" fromText="decreased p.o. intake" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E26" fromText="A guaiac positive stool" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E27" fromText="admission" toID="T0" toText="09/26/2001" type="OVERLAP" />
+<TLINK id="SECTIME5" fromID="E29" fromText="increased" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E28" fromText="his sulfasalazine dose" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E30" fromText="The patient &apos;s prednisone" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E31" fromText="increased" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E32" fromText="an arthritis flare" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E33" fromText="The prednisone dose" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E34" fromText="gradually tapered" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E35" fromText="admission" toID="T0" toText="09/26/2001" type="OVERLAP" />
+<TLINK id="SECTIME13" fromID="E36" fromText="a fever" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E37" fromText="increasing abdominal pain" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E38" fromText="presented" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E39" fromText="an outside hops" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E40" fromText="leukopenic" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E2" fromText="coronary artery disease" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E41" fromText="a white blood cell count" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E42" fromText="neutrophils" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E43" fromText="a hematocrit" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E44" fromText="platelets" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E45" fromText="a MCV" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E46" fromText="RDW" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E47" fromText="IV fluids" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E48" fromText="imipenem" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E49" fromText="transferred" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E50" fromText="Ca Valley Hospital ED" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E51" fromText="face and neck swelling" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E3" fromText="CABG" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E52" fromText="erythema" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E53" fromText="cervical lymphadenopathy" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E54" fromText="states" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E55" fromText="his swelling of his face" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E135" fromText="admission" toID="T0" toText="09/26/2001" type="OVERLAP" />
+<TLINK id="SECTIME36" fromID="E56" fromText="the emergency department" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E57" fromText="CT of head , neck and abdomen" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E58" fromText="The CT of the abdomen" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E59" fromText="lymphadenopathy" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E60" fromText="revealed" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E61" fromText="a right renal cyst" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E62" fromText="The CT of head and neck" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E4" fromText="unwell" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E63" fromText="showing" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E64" fromText="fasciitis" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E65" fromText="deep tissue thread" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E66" fromText="abscesses" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E71" fromText="denies" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E72" fromText="shortness of breath" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E73" fromText="chest pain" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E74" fromText="orthopnea" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E75" fromText="dysuria" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E76" fromText="hematuria" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E77" fromText="visual changes" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E5" fromText="his non-Q wave MI" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E78" fromText="rashes" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E79" fromText="blurry vision" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E80" fromText="ceftazidime" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E81" fromText="nafcillin" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E82" fromText="Flagyl" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E83" fromText="a soft tissue infection" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E84" fromText="Neutropenic precautions" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E85" fromText="a bone marrow biopsy" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E86" fromText="showed" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E87" fromText="myeloid arrest" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E88" fromText="neutropenia" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E89" fromText="a drug-related cause" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E90" fromText="the sulfasalazine" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E91" fromText="the hospitalization" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E92" fromText="the patient &apos;s white blood cell count" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E93" fromText="rose" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E94" fromText="G-CSF" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E95" fromText="the G-CSF" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E96" fromText="the absolute neutrophil count" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E97" fromText="a repeat head and neck CT" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E6" fromText="Statin" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E98" fromText="showed" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E99" fromText="a right parotitis" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E100" fromText="left submandibular lymphadenopathy" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E101" fromText="some necrosis" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E102" fromText="frank abscesses" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E103" fromText="The patient &apos;s antibiotics" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E104" fromText="clindamycin" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E105" fromText="sialagogue" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E7" fromText="arthritis" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E106" fromText="the hospitalization" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E107" fromText="the swelling" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E108" fromText="tenderness" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E109" fromText="erythema" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E110" fromText="steadily decreased" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E111" fromText="antibiotics" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E112" fromText="consulted" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E113" fromText="consulted" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E114" fromText="workup" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E115" fromText="arthritis" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E116" fromText="a rheumatoid factor negative , rheumatoid polyarthritis" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E117" fromText="a taper of his prednisone" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E118" fromText="followed" toID="T1" toText="10/06/2001" type="AFTER" />
+<TLINK id="SECTIME99" fromID="E8" fromText="joint pain" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E119" fromText="consulted" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E120" fromText="a bone marrow biopsy" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E9" fromText="myalgia" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E121" fromText="this hospitalization" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E122" fromText="followed by the ENT service" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E10" fromText="fatigue" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E123" fromText="any procedures" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E124" fromText="incision" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E125" fromText="drainage" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E126" fromText="his right parotitis" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E127" fromText="left submandibular cervical lymph node necrosis" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E11" fromText="clear diagnosis" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E128" fromText="watching patient in-house" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E129" fromText="his repeat imaging" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME114" fromID="E130" fromText="antibiotic coverage" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E131" fromText="clindamycin" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E132" fromText="positive blood cultures" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME117" fromID="E133" fromText="his hospitalization" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME118" fromID="E134" fromText="afebrile" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME119" fromID="E138" fromText="admission" toID="T1" toText="10/06/2001" type="BEFORE" />
+<TLINK id="SECTIME120" fromID="E12" fromText="a rheumatoid factor negative , rheumatoid arthritis" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME121" fromID="E13" fromText="Naprosyn" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME122" fromID="E14" fromText="prednisone" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME123" fromID="E15" fromText="sulfasalazine" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME124" fromID="E16" fromText="a CABG review" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME125" fromID="E17" fromText="His first CABG" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME126" fromID="E18" fromText="increasing weight loss" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME127" fromID="E19" fromText="night sweats" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME128" fromID="E20" fromText="the prednisone" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME129" fromID="E21" fromText="increased fatigue" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME130" fromID="E22" fromText="myalgias" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME131" fromID="E23" fromText="taken to bed" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME132" fromID="E24" fromText="decreasing activity" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME133" fromID="E25" fromText="sulfasalazine" toID="T0" toText="09/26/2001" type="BEFORE" />
+<TLINK id="SECTIME134" fromID="E67" fromText="diffuse abdominal pain" toID="T0" toText="09/26/2001" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+2-5-94
+DISCHARGE DATE :
+4-2-94
+HISTORY OF PRESENT ILLNESS :
+The patient was a 71 year old white female with a history of carcinoid lung cancer who presented for evaluation of a tracheoesophageal fistula .
+The patient was initially diagnosed in 1978 with atypical small cell carcinoma of the lung and treated with chemotherapy and radiation therapy until 1980 .
+She did well for approximately twelve years until she was diagnosed with carcinoid cancer of the same right upper lobe .
+This may have been the initial primary cancer although it is unclear at present .
+Bronchoscopy at that time showed an endobronchial tumor of the right upper lobe bronchus and it was felt to be unresectable .
+She underwent four treatments of brachytherapy in March through May of 1993 .
+She had been doing reasonably well until December of 1993 when she presented with persistent and worsening cough and near strangulation on attempts at eating solids or drinking liquids .
+A bronchoscopy showed a tracheoesophageal fistula with an opening into the trachea above the carina and no tumor in the right upper lobe .
+She has been on total parenteral nutrition and has been nothing by mouth since then .
+A barium swallow prior to admission showed the presence of a tracheoesophageal fistula with entrance into the right mainstem bronchus below the carina .
+HOSPITAL COURSE :
+The patient was admitted on February 5 , 1994 and had a central venous line placed in her right subclavian .
+The patient was brought to the Operating Room on February 6 , 1994 where she underwent rigid and flexible bronchoscopy and upper gastrointestinal endoscopy .
+Findings included necrotic debris in the distal trachea at the carina and right mainstem bronchus .
+Esophageal mucosa was visible through the trachea .
+Her steroids were weaned and the patient was brought to the Operating Room on February 10 , 1994 where she underwent once again flexible bronchoscopy and flexible esophagoscopy , as well as rigid bronchoscopy .
+She then had a transhiatal esophagectomy which was partial , and a substernal gastric interposition as well as a jejunostomy .
+The pathology report suggested that the area was involved with radiation esophagitis and focal ulceration .
+She remained ventilator dependent postoperatively and was taken to the Respiratory Intensive Care Unit .
+The patient was maintained on triple antibiotics which included Vancomycin , ceftazidime and Gentamicin .
+On postoperative day two , she had an electroencephalogram which showed no evidence of seizure activity but some generalized slowing .
+The patient was seen in consultation by the Neurology Service for her apparent postoperative encephalopathy and episodes of shaking .
+An endoscopy was also performed on postoperative day two which showed clean anastomosis .
+She received multiple bronchoscopies for pulmonary toilet .
+The patient was maintained on tube feedings and the ventilator .
+A repeat echocardiogram on February 18 showed no significant change of her previous echocardiogram on February 11 , which showed only a small pericardial effusion .
+A pelvic and abdominal computerized tomography scan on February 18 also showed no evidence of a focal collection or abscess .
+She remained intermittently febrile despite numerous antibiotics .
+Her chest X-ray showed bilateral air space disease , consistent with pneumonia or adult respiratory distress syndrome .
+She suffered an episode of renal failure which was felt attributable to aminoglycoside toxicity .
+Her steroids were weaned .
+Because of her prolonged intubation and inability to wean , on February 24 , 1994 , she had a tracheostomy placed .
+She remained in a coma .
+The blood cultures on February 26 , 1994 grew out Staphylococcus and she was treated for septicemia .
+Her sputum grew out Pseudomonas aeruginosa as well .
+The urine contained yeast and she was treated with amphotericin .
+On March 3 , 1994 , a repeat chest and abdominal and pelvis computerized tomography scan showed no evidence of fluid collections .
+There was a large left pleural effusion however .
+This was drained with a left chest tube .
+Her sputum then grew out Klebsiella and she was treated with amikacin and imipenem .
+She developed a right pleural effusion and had a right chest tube placed .
+On March 13 , 1994 , she regained some level of consciousness .
+She was able to fix and follow with her eyes , respond to commands .
+On March 14 , 1994 , her right lung was pleurodesed .
+Attempts were made to facilitate her wean by resting her overnight with a combination of propafol and Fentanyl .
+This was tried for approximately seven days with no real progress made toward facilitating her vent wean .
+She continued to require pressor support in the high 30 &apos;s .
+She also fell into a coma once again .
+On March 31 , 1994 , her pressor support requirement increased and she continued to have tachypneic episodes .
+On April 2 , 1994 , she had several episodes of bradycardia and asystole , which responded only to manual ventilation .
+Discussions were held with the patient &apos;s family with regard to her previously expressed wishes not to be maintained on artificial life support for extended period of time with little or no hope for recovery .
+She had expressed these wishes in writing on several legal forms from the state of Jose Pineston , as well as in discussions with her loved ones .
+Decision was made in conjunction with the family and Dr. Caslighlourdes to terminate artificial respiratory support .
+The patient was removed from the ventilator and placed on a T-piece in her trachea only and was made comfortable with narcotics .
+Her respirations ceased and she died at 10:15 a.m. on April 2 , 1994 .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E97" start="1080" end="1109" text="tumor in the right upper lobe" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E98" start="1128" end="1154" text="total parenteral nutrition" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E99" start="1168" end="1184" text="nothing by mouth" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="1198" end="1214" text="A barium swallow" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E100" start="1224" end="1233" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E101" start="1234" end="1240" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E102" start="1257" end="1284" text="a tracheoesophageal fistula" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E87" start="139" end="160" text="carcinoid lung cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="1385" end="1393" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="1423" end="1444" text="a central venous line" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E83" start="1505" end="1523" text="the Operating Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E13" start="1565" end="1596" text="rigid and flexible bronchoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="1601" end="1633" text="upper gastrointestinal endoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E88" start="165" end="174" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="1654" end="1691" text="necrotic debris in the distal trachea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E89" start="179" end="189" text="evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="1788" end="1800" text="Her steroids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E84" start="1844" end="1862" text="the Operating Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E17" start="1916" end="1937" text="flexible bronchoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E90" start="193" end="220" text="a tracheoesophageal fistula" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="1942" end="1964" text="flexible esophagoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="1978" end="1996" text="rigid bronchoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="2012" end="2039" text="a transhiatal esophagectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="2064" end="2098" text="a substernal gastric interposition" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="2110" end="2123" text="a jejunostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="2126" end="2146" text="The pathology report" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E103" start="2147" end="2156" text="suggested" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E104" start="2189" end="2210" text="radiation esophagitis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="2215" end="2231" text="focal ulceration" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="2247" end="2267" text="ventilator dependent" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="2301" end="2336" text="the Respiratory Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E26" start="2369" end="2387" text="triple antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="2403" end="2413" text="Vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="2416" end="2427" text="ceftazidime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="2432" end="2442" text="Gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="2480" end="2503" text="an electroencephalogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E86" start="25" end="34" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E105" start="2510" end="2516" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E107" start="2532" end="2548" text="seizure activity" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E31" start="2553" end="2577" text="some generalized slowing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E108" start="2620" end="2641" text="the Neurology Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E32" start="2646" end="2687" text="her apparent postoperative encephalopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="2704" end="2711" text="shaking" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="272" end="313" text="atypical small cell carcinoma of the lung" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="2714" end="2726" text="An endoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E110" start="2777" end="2783" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E34" start="2790" end="2801" text="anastomosis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="2817" end="2840" text="multiple bronchoscopies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="2845" end="2861" text="pulmonary toilet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="2894" end="2907" text="tube feedings" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="2912" end="2926" text="the ventilator" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="2929" end="2952" text="A repeat echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E111" start="2968" end="2974" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E40" start="2978" end="2996" text="significant change" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E41" start="3000" end="3027" text="her previous echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E112" start="3051" end="3057" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E42" start="3063" end="3091" text="a small pericardial effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="3094" end="3145" text="A pelvic and abdominal computerized tomography scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E113" start="3166" end="3172" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E115" start="3188" end="3206" text="a focal collection" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E116" start="3210" end="3217" text="abscess" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E44" start="3233" end="3255" text="intermittently febrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="3264" end="3284" text="numerous antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="3287" end="3302" text="Her chest X-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="331" end="343" text="chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E117" start="3303" end="3309" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E47" start="3310" end="3337" text="bilateral air space disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="3356" end="3365" text="pneumonia" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="3369" end="3404" text="adult respiratory distress syndrome" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="3434" end="3447" text="renal failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="348" end="365" text="radiation therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="3479" end="3502" text="aminoglycoside toxicity" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="3505" end="3517" text="Her steroids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E136" start="3523" end="3529" text="weaned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="3543" end="3567" text="her prolonged intubation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="3572" end="3589" text="inability to wean" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="3624" end="3638" text="a tracheostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="3664" end="3670" text="a coma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="3673" end="3691" text="The blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E58" start="3723" end="3737" text="Staphylococcus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="3762" end="3772" text="septicemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="3775" end="3785" text="Her sputum" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E61" start="3795" end="3817" text="Pseudomonas aeruginosa" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="3828" end="3837" text="The urine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E133" start="383" end="391" text="did well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="3848" end="3853" text="yeast" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="3879" end="3891" text="amphotericin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E65" start="3914" end="3982" text="a repeat chest and abdominal and pelvis computerized tomography scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E118" start="3983" end="3989" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E119" start="4005" end="4022" text="fluid collections" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E66" start="4035" end="4064" text="a large left pleural effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="4097" end="4114" text="a left chest tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E68" start="4117" end="4127" text="Her sputum" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E69" start="4142" end="4152" text="Klebsiella" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E70" start="4178" end="4186" text="amikacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="4191" end="4199" text="imipenem" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="4216" end="4240" text="a right pleural effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="4249" end="4267" text="a right chest tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E120" start="4311" end="4338" text="some level of consciousness" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E134" start="437" end="446" text="diagnosed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E121" start="4450" end="4461" text="pleurodesed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E74" start="4497" end="4505" text="her wean" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="452" end="497" text="carcinoid cancer of the same right upper lobe" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="4553" end="4561" text="propafol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="4566" end="4574" text="Fentanyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E122" start="4629" end="4642" text="real progress" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E77" start="4668" end="4681" text="her vent wean" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="4709" end="4724" text="pressor support" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="4769" end="4775" text="a coma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="4810" end="4841" text="her pressor support requirement" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E81" start="4878" end="4897" text="tachypneic episodes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E123" start="4948" end="4959" text="bradycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E124" start="4964" end="4972" text="asystole" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E125" start="4999" end="5017" text="manual ventilation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E126" start="5145" end="5168" text="artificial life support" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E5" start="519" end="545" text="the initial primary cancer" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E127" start="5467" end="5497" text="artificial respiratory support" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E128" start="5529" end="5543" text="the ventilator" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E129" start="5558" end="5582" text="a T-piece in her trachea" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E130" start="5618" end="5627" text="narcotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E131" start="5630" end="5646" text="Her respirations" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E132" start="5662" end="5666" text="died" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="582" end="594" text="Bronchoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E91" start="608" end="614" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E7" start="615" end="670" text="an endobronchial tumor of the right upper lobe bronchus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="722" end="737" text="four treatments" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="741" end="754" text="brachytherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E135" start="799" end="820" text="doing reasonably well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E92" start="853" end="862" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E93" start="868" end="898" text="persistent and worsening cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E94" start="903" end="921" text="near strangulation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="973" end="987" text="A bronchoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E95" start="988" end="994" text="showed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E96" start="995" end="1022" text="a tracheoesophageal fistula" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T23" start="1191" end="1195" text="then" type="DURATION" val="P2M" mod="APPROX" />
+<TIMEX3 id="T6" start="1397" end="1414" text="February 5 , 1994" type="DATE" val="1994-02-05" mod="NA" />
+<TIMEX3 id="T7" start="1527" end="1544" text="February 6 , 1994" type="DATE" val="1994-02-06" mod="NA" />
+<TIMEX3 id="T1" start="18" end="24" text="2-5-94" type="DATE" val="1994-02-05" mod="NA" />
+<TIMEX3 id="T8" start="1866" end="1884" text="February 10 , 1994" type="DATE" val="1994-02-10" mod="NA" />
+<TIMEX3 id="T9" start="2448" end="2469" text="postoperative day two" type="DATE" val="1994-02-12" mod="NA" />
+<TIMEX3 id="T3" start="262" end="266" text="1978" type="DATE" val="1978" mod="NA" />
+<TIMEX3 id="T10" start="2749" end="2770" text="postoperative day two" type="DATE" val="1994-02-12" mod="NA" />
+<TIMEX3 id="T11" start="2956" end="2967" text="February 18" type="DATE" val="1994-02-18" mod="NA" />
+<TIMEX3 id="T12" start="3031" end="3042" text="February 11" type="DATE" val="1994-02-11" mod="NA" />
+<TIMEX3 id="T24" start="3149" end="3160" text="February 18" type="DATE" val="1994-02-18" mod="NA" />
+<TIMEX3 id="T13" start="3595" end="3613" text="February 24 , 1994" type="DATE" val="1994-02-24" mod="NA" />
+<TIMEX3 id="T14" start="3695" end="3713" text="February 26 , 1994" type="DATE" val="1994-02-26" mod="NA" />
+<TIMEX3 id="T4" start="372" end="376" text="1980" type="DATE" val="1980" mod="NA" />
+<TIMEX3 id="T15" start="3897" end="3911" text="March 3 , 1994" type="DATE" val="1994-03-03" mod="NA" />
+<TIMEX3 id="T0" start="410" end="422" text="twelve years" type="DURATION" val="P2Y" mod="APPROX" />
+<TIMEX3 id="T2" start="42" end="48" text="4-2-94" type="DATE" val="1994-04-02" mod="NA" />
+<TIMEX3 id="T16" start="4280" end="4295" text="March 13 , 1994" type="DATE" val="1994-03-13" mod="NA" />
+<TIMEX3 id="T17" start="4413" end="4428" text="March 14 , 1994" type="DATE" val="1994-03-14" mod="NA" />
+<TIMEX3 id="T25" start="4521" end="4530" text="overnight" type="DURATION" val="P12H" mod="APPROX" />
+<TIMEX3 id="T26" start="4610" end="4620" text="seven days" type="DURATION" val="P7D" mod="APPROX" />
+<TIMEX3 id="T18" start="4792" end="4807" text="March 31 , 1994" type="DATE" val="1994-03-31" mod="NA" />
+<TIMEX3 id="T19" start="4903" end="4917" text="April 2 , 1994" type="DATE" val="1994-04-02" mod="NA" />
+<TIMEX3 id="T27" start="5670" end="5698" text="10:15 a.m. on April 2 , 1994" type="TIME" val="1994-04-02T10:15" mod="NA" />
+<TIMEX3 id="T20" start="572" end="579" text="present" type="DATE" val="1994-02-05" mod="NA" />
+<TIMEX3 id="T21" start="598" end="607" text="that time" type="DATE" val="1992" mod="NA" />
+<TIMEX3 id="T22" start="758" end="783" text="March through May of 1993" type="DURATION" val="P2M" mod="NA" />
+<TIMEX3 id="T5" start="827" end="843" text="December of 1993" type="DATE" val="1993-12" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T1" toText="2-5-94" type="OVERLAP" />
+<TLINK id="TL10" fromID="E3" fromText="radiation therapy" toID="T4" toText="1980" type="BEFORE" />
+<TLINK id="TL100" fromID="E58" fromText="Staphylococcus" toID="E57" toText="The blood cultures" type="OVERLAP" />
+<TLINK id="TL101" fromID="E59" fromText="septicemia" toID="E58" toText="Staphylococcus" type="AFTER" />
+<TLINK id="TL102" fromID="E60" fromText="Her sputum" toID="E61" toText="Pseudomonas aeruginosa" type="OVERLAP" />
+<TLINK id="TL103" fromID="E62" fromText="The urine" toID="E63" toText="yeast" type="OVERLAP" />
+<TLINK id="TL104" fromID="E63" fromText="yeast" toID="E64" toText="amphotericin" type="BEFORE" />
+<TLINK id="TL105" fromID="E65" fromText="a repeat chest and abdominal and pelvis computerized tomography scan" toID="T15" toText="March 3 , 1994" type="OVERLAP" />
+<TLINK id="TL106" fromID="E65" fromText="a repeat chest and abdominal and pelvis computerized tomography scan" toID="E118" toText="showed" type="OVERLAP" />
+<TLINK id="TL107" fromID="E118" fromText="showed" toID="E119" toText="fluid collections" type="OVERLAP" />
+<TLINK id="TL108" fromID="E66" fromText="a large left pleural effusion" toID="T15" toText="March 3 , 1994" type="OVERLAP" />
+<TLINK id="TL109" fromID="E66" fromText="a large left pleural effusion" toID="E67" toText="a left chest tube" type="OVERLAP" />
+<TLINK id="TL11" fromID="E2" fromText="chemotherapy" toID="T3" toText="1978" type="AFTER" />
+<TLINK id="TL110" fromID="E68" fromText="Her sputum" toID="E69" toText="Klebsiella" type="OVERLAP" />
+<TLINK id="TL111" fromID="E70" fromText="amikacin" toID="E69" toText="Klebsiella" type="AFTER" />
+<TLINK id="TL112" fromID="E71" fromText="imipenem" toID="E69" toText="Klebsiella" type="AFTER" />
+<TLINK id="TL113" fromID="E73" fromText="a right chest tube" toID="E72" toText="a right pleural effusion" type="AFTER" />
+<TLINK id="TL114" fromID="E120" fromText="some level of consciousness" toID="T16" toText="March 13 , 1994" type="OVERLAP" />
+<TLINK id="TL115" fromID="E56" fromText="a coma" toID="E120" toText="some level of consciousness" type="BEFORE" />
+<TLINK id="TL116" fromID="E121" fromText="pleurodesed" toID="T17" toText="March 14 , 1994" type="OVERLAP" />
+<TLINK id="TL117" fromID="E74" fromText="her wean" toID="T25" toText="overnight" type="OVERLAP" />
+<TLINK id="TL118" fromID="E75" fromText="propafol" toID="T25" toText="overnight" type="OVERLAP" />
+<TLINK id="TL119" fromID="E76" fromText="Fentanyl" toID="T25" toText="overnight" type="OVERLAP" />
+<TLINK id="TL12" fromID="E3" fromText="radiation therapy" toID="T3" toText="1978" type="AFTER" />
+<TLINK id="TL120" fromID="T25" fromText="overnight" toID="T26" toText="seven days" type="OVERLAP" />
+<TLINK id="TL121" fromID="E122" fromText="real progress" toID="T26" toText="seven days" type="AFTER" />
+<TLINK id="TL122" fromID="E77" fromText="her vent wean" toID="E122" toText="real progress" type="OVERLAP" />
+<TLINK id="TL123" fromID="E120" fromText="some level of consciousness" toID="E79" toText="a coma" type="BEFORE" />
+<TLINK id="TL124" fromID="E80" fromText="her pressor support requirement" toID="T18" toText="March 31 , 1994" type="OVERLAP" />
+<TLINK id="TL125" fromID="E78" fromText="pressor support" toID="E80" toText="her pressor support requirement" type="BEFORE" />
+<TLINK id="TL126" fromID="E81" fromText="tachypneic episodes" toID="E80" toText="her pressor support requirement" type="OVERLAP" />
+<TLINK id="TL127" fromID="E123" fromText="bradycardia" toID="T19" toText="April 2 , 1994" type="OVERLAP" />
+<TLINK id="TL128" fromID="E124" fromText="asystole" toID="T19" toText="April 2 , 1994" type="" />
+<TLINK id="TL129" fromID="E125" fromText="manual ventilation" toID="E124" toText="asystole" type="OVERLAP" />
+<TLINK id="TL13" fromID="T0" fromText="twelve years" toID="T4" toText="1980" type="AFTER" />
+<TLINK id="TL130" fromID="E125" fromText="manual ventilation" toID="E123" toText="bradycardia" type="OVERLAP" />
+<TLINK id="TL131" fromID="E126" fromText="artificial life support" toID="E80" toText="her pressor support requirement" type="OVERLAP" />
+<TLINK id="TL132" fromID="E127" fromText="artificial respiratory support" toID="E126" toText="artificial life support" type="OVERLAP" />
+<TLINK id="TL133" fromID="E128" fromText="the ventilator" toID="E129" toText="a T-piece in her trachea" type="BEFORE" />
+<TLINK id="TL134" fromID="E129" fromText="a T-piece in her trachea" toID="E130" toText="narcotics" type="OVERLAP" />
+<TLINK id="TL135" fromID="E131" fromText="Her respirations" toID="E132" toText="died" type="OVERLAP" />
+<TLINK id="TL136" fromID="E132" fromText="died" toID="T27" toText="10:15 a.m. on April 2 , 1994" type="OVERLAP" />
+<TLINK id="TL14" fromID="E133" fromText="did well" toID="T0" toText="twelve years" type="OVERLAP" />
+<TLINK id="TL15" fromID="T0" fromText="twelve years" toID="E134" toText="diagnosed" type="BEFORE" />
+<TLINK id="TL16" fromID="E4" fromText="carcinoid cancer of the same right upper lobe" toID="E134" toText="diagnosed" type="BEFORE" />
+<TLINK id="TL17" fromID="E5" fromText="the initial primary cancer" toID="E4" toText="carcinoid cancer of the same right upper lobe" type="OVERLAP" />
+<TLINK id="TL18" fromID="E6" fromText="Bronchoscopy" toID="T21" toText="that time" type="OVERLAP" />
+<TLINK id="TL19" fromID="E6" fromText="Bronchoscopy" toID="E134" toText="diagnosed" type="OVERLAP" />
+<TLINK id="TL2" fromID="E1" fromText="atypical small cell carcinoma of the lung" toID="E4" toText="carcinoid cancer of the same right upper lobe" type="OVERLAP" />
+<TLINK id="TL20" fromID="E6" fromText="Bronchoscopy" toID="E91" toText="showed" type="OVERLAP" />
+<TLINK id="TL21" fromID="E7" fromText="an endobronchial tumor of the right upper lobe bronchus" toID="E91" toText="showed" type="BEFORE" />
+<TLINK id="TL22" fromID="E8" fromText="four treatments" toID="E9" toText="brachytherapy" type="OVERLAP" />
+<TLINK id="TL23" fromID="E8" fromText="four treatments" toID="T22" toText="March through May of 1993" type="OVERLAP" />
+<TLINK id="TL24" fromID="E135" fromText="doing reasonably well" toID="T22" toText="March through May of 1993" type="AFTER" />
+<TLINK id="TL25" fromID="E135" fromText="doing reasonably well" toID="T5" toText="December of 1993" type="BEFORE" />
+<TLINK id="TL26" fromID="T5" fromText="December of 1993" toID="E92" toText="presented" type="OVERLAP" />
+<TLINK id="TL27" fromID="E93" fromText="persistent and worsening cough" toID="E92" toText="presented" type="OVERLAP" />
+<TLINK id="TL28" fromID="E92" fromText="presented" toID="E94" toText="near strangulation" type="OVERLAP" />
+<TLINK id="TL29" fromID="E10" fromText="A bronchoscopy" toID="E6" toText="Bronchoscopy" type="AFTER" />
+<TLINK id="TL3" fromID="E86" fromText="DISCHARGE" toID="T2" toText="4-2-94" type="OVERLAP" />
+<TLINK id="TL30" fromID="E10" fromText="A bronchoscopy" toID="E95" toText="showed" type="OVERLAP" />
+<TLINK id="TL31" fromID="E96" fromText="a tracheoesophageal fistula" toID="E95" toText="showed" type="BEFORE" />
+<TLINK id="TL32" fromID="E10" fromText="A bronchoscopy" toID="T5" toText="December of 1993" type="OVERLAP" />
+<TLINK id="TL33" fromID="E97" fromText="tumor in the right upper lobe" toID="E95" toText="showed" type="OVERLAP" />
+<TLINK id="TL34" fromID="E98" fromText="total parenteral nutrition" toID="E99" toText="nothing by mouth" type="OVERLAP" />
+<TLINK id="TL35" fromID="E99" fromText="nothing by mouth" toID="T23" toText="then" type="AFTER" />
+<TLINK id="TL36" fromID="E11" fromText="A barium swallow" toID="E100" toText="admission" type="BEFORE" />
+<TLINK id="TL37" fromID="E11" fromText="A barium swallow" toID="E101" toText="showed" type="OVERLAP" />
+<TLINK id="TL38" fromID="E102" fromText="a tracheoesophageal fistula" toID="E101" toText="showed" type="BEFORE" />
+<TLINK id="TL39" fromID="E82" fromText="admitted" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL4" fromID="E88" fromText="presented" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL40" fromID="E82" fromText="admitted" toID="T6" toText="February 5 , 1994" type="OVERLAP" />
+<TLINK id="TL41" fromID="E82" fromText="admitted" toID="E12" toText="a central venous line" type="OVERLAP" />
+<TLINK id="TL42" fromID="E83" fromText="the Operating Room" toID="T7" toText="February 6 , 1994" type="OVERLAP" />
+<TLINK id="TL43" fromID="E13" fromText="rigid and flexible bronchoscopy" toID="E83" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL44" fromID="E14" fromText="upper gastrointestinal endoscopy" toID="E83" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL45" fromID="E15" fromText="necrotic debris in the distal trachea" toID="E14" toText="upper gastrointestinal endoscopy" type="BEFORE" />
+<TLINK id="TL46" fromID="E84" fromText="the Operating Room" toID="T8" toText="February 10 , 1994" type="OVERLAP" />
+<TLINK id="TL47" fromID="E84" fromText="the Operating Room" toID="E83" toText="the Operating Room" type="AFTER" />
+<TLINK id="TL48" fromID="E16" fromText="Her steroids" toID="E84" toText="the Operating Room" type="BEFORE" />
+<TLINK id="TL49" fromID="E17" fromText="flexible bronchoscopy" toID="E84" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL5" fromID="E87" fromText="carcinoid lung cancer" toID="E88" toText="presented" type="BEFORE" />
+<TLINK id="TL50" fromID="E18" fromText="flexible esophagoscopy" toID="E84" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL51" fromID="E19" fromText="rigid bronchoscopy" toID="E84" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL52" fromID="E20" fromText="a transhiatal esophagectomy" toID="E19" toText="rigid bronchoscopy" type="AFTER" />
+<TLINK id="TL53" fromID="E20" fromText="a transhiatal esophagectomy" toID="E84" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL54" fromID="E20" fromText="a transhiatal esophagectomy" toID="E21" toText="a substernal gastric interposition" type="OVERLAP" />
+<TLINK id="TL55" fromID="E21" fromText="a substernal gastric interposition" toID="E22" toText="a jejunostomy" type="OVERLAP" />
+<TLINK id="TL56" fromID="E23" fromText="The pathology report" toID="E103" toText="suggested" type="OVERLAP" />
+<TLINK id="TL57" fromID="E104" fromText="radiation esophagitis" toID="E103" toText="suggested" type="OVERLAP" />
+<TLINK id="TL58" fromID="E24" fromText="focal ulceration" toID="E103" toText="suggested" type="OVERLAP" />
+<TLINK id="TL59" fromID="E25" fromText="ventilator dependent" toID="E84" toText="the Operating Room" type="AFTER" />
+<TLINK id="TL6" fromID="E89" fromText="evaluation" toID="E88" toText="presented" type="AFTER" />
+<TLINK id="TL60" fromID="E85" fromText="the Respiratory Intensive Care Unit" toID="E84" toText="the Operating Room" type="AFTER" />
+<TLINK id="TL61" fromID="E26" fromText="triple antibiotics" toID="E27" toText="Vancomycin" type="OVERLAP" />
+<TLINK id="TL62" fromID="E26" fromText="triple antibiotics" toID="E28" toText="ceftazidime" type="OVERLAP" />
+<TLINK id="TL63" fromID="E26" fromText="triple antibiotics" toID="E29" toText="Gentamicin" type="OVERLAP" />
+<TLINK id="TL64" fromID="E30" fromText="an electroencephalogram" toID="T9" toText="postoperative day two" type="OVERLAP" />
+<TLINK id="TL65" fromID="E30" fromText="an electroencephalogram" toID="E105" toText="showed" type="OVERLAP" />
+<TLINK id="TL66" fromID="E105" fromText="showed" toID="E107" toText="seizure activity" type="OVERLAP" />
+<TLINK id="TL67" fromID="E31" fromText="some generalized slowing" toID="E105" toText="showed" type="OVERLAP" />
+<TLINK id="TL68" fromID="E32" fromText="her apparent postoperative encephalopathy" toID="E108" toText="the Neurology Service" type="BEFORE" />
+<TLINK id="TL69" fromID="E109" fromText="shaking" toID="E108" toText="the Neurology Service" type="BEFORE" />
+<TLINK id="TL7" fromID="E90" fromText="a tracheoesophageal fistula" toID="E89" toText="evaluation" type="BEFORE" />
+<TLINK id="TL70" fromID="E33" fromText="An endoscopy" toID="T10" toText="postoperative day two" type="OVERLAP" />
+<TLINK id="TL71" fromID="E33" fromText="An endoscopy" toID="E110" toText="showed" type="OVERLAP" />
+<TLINK id="TL72" fromID="E110" fromText="showed" toID="E34" toText="anastomosis" type="OVERLAP" />
+<TLINK id="TL73" fromID="E35" fromText="multiple bronchoscopies" toID="E36" toText="pulmonary toilet" type="OVERLAP" />
+<TLINK id="TL74" fromID="E37" fromText="tube feedings" toID="E38" toText="the ventilator" type="OVERLAP" />
+<TLINK id="TL75" fromID="E37" fromText="tube feedings" toID="E99" toText="nothing by mouth" type="OVERLAP" />
+<TLINK id="TL76" fromID="E39" fromText="A repeat echocardiogram" toID="T11" toText="February 18" type="OVERLAP" />
+<TLINK id="TL78" fromID="E39" fromText="A repeat echocardiogram" toID="E111" toText="showed" type="OVERLAP" />
+<TLINK id="TL79" fromID="E40" fromText="significant change" toID="E111" toText="showed" type="OVERLAP" />
+<TLINK id="TL8" fromID="E1" fromText="atypical small cell carcinoma of the lung" toID="T3" toText="1978" type="BEFORE" />
+<TLINK id="TL80" fromID="E40" fromText="significant change" toID="E41" toText="her previous echocardiogram" type="AFTER" />
+<TLINK id="TL81" fromID="E41" fromText="her previous echocardiogram" toID="T12" toText="February 11" type="OVERLAP" />
+<TLINK id="TL82" fromID="E41" fromText="her previous echocardiogram" toID="E112" toText="showed" type="OVERLAP" />
+<TLINK id="TL83" fromID="E42" fromText="a small pericardial effusion" toID="E112" toText="showed" type="OVERLAP" />
+<TLINK id="TL84" fromID="T24" fromText="February 18" toID="E43" toText="A pelvic and abdominal computerized tomography scan" type="OVERLAP" />
+<TLINK id="TL85" fromID="E43" fromText="A pelvic and abdominal computerized tomography scan" toID="E113" toText="showed" type="OVERLAP" />
+<TLINK id="TL86" fromID="E115" fromText="a focal collection" toID="E113" toText="showed" type="OVERLAP" />
+<TLINK id="TL87" fromID="E116" fromText="abscess" toID="E113" toText="showed" type="OVERLAP" />
+<TLINK id="TL88" fromID="E44" fromText="intermittently febrile" toID="E45" toText="numerous antibiotics" type="OVERLAP" />
+<TLINK id="TL89" fromID="E46" fromText="Her chest X-ray" toID="E117" toText="showed" type="OVERLAP" />
+<TLINK id="TL9" fromID="E2" fromText="chemotherapy" toID="T4" toText="1980" type="BEFORE" />
+<TLINK id="TL90" fromID="E47" fromText="bilateral air space disease" toID="E117" toText="showed" type="BEFORE" />
+<TLINK id="TL91" fromID="E47" fromText="bilateral air space disease" toID="E48" toText="pneumonia" type="OVERLAP" />
+<TLINK id="TL92" fromID="E47" fromText="bilateral air space disease" toID="E49" toText="adult respiratory distress syndrome" type="OVERLAP" />
+<TLINK id="TL93" fromID="E50" fromText="renal failure" toID="E51" toText="aminoglycoside toxicity" type="OVERLAP" />
+<TLINK id="TL94" fromID="E52" fromText="Her steroids" toID="E136" toText="weaned" type="BEFORE" />
+<TLINK id="TL95" fromID="E53" fromText="her prolonged intubation" toID="E38" toText="the ventilator" type="OVERLAP" />
+<TLINK id="TL96" fromID="E54" fromText="inability to wean" toID="E53" toText="her prolonged intubation" type="OVERLAP" />
+<TLINK id="TL97" fromID="E55" fromText="a tracheostomy" toID="T13" toText="February 24 , 1994" type="AFTER" />
+<TLINK id="TL98" fromID="T13" fromText="February 24 , 1994" toID="E56" toText="a coma" type="OVERLAP" />
+<TLINK id="TL99" fromID="E57" fromText="The blood cultures" toID="T14" toText="February 26 , 1994" type="OVERLAP" />
+
+
+<TLINK id="SECTIME0" fromID="E97" fromText="tumor in the right upper lobe" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E98" fromText="total parenteral nutrition" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E99" fromText="nothing by mouth" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E11" fromText="A barium swallow" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E100" fromText="admission" toID="T1" toText="2-5-94" type="OVERLAP" />
+<TLINK id="SECTIME5" fromID="E101" fromText="showed" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E102" fromText="a tracheoesophageal fistula" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E87" fromText="carcinoid lung cancer" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E82" fromText="admitted" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E12" fromText="a central venous line" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E83" fromText="the Operating Room" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E13" fromText="rigid and flexible bronchoscopy" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E14" fromText="upper gastrointestinal endoscopy" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E88" fromText="presented" toID="T1" toText="2-5-94" type="OVERLAP" />
+<TLINK id="SECTIME14" fromID="E15" fromText="necrotic debris in the distal trachea" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E89" fromText="evaluation" toID="T1" toText="2-5-94" type="OVERLAP" />
+<TLINK id="SECTIME16" fromID="E16" fromText="Her steroids" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E84" fromText="the Operating Room" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E17" fromText="flexible bronchoscopy" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E90" fromText="a tracheoesophageal fistula" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E18" fromText="flexible esophagoscopy" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E19" fromText="rigid bronchoscopy" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E20" fromText="a transhiatal esophagectomy" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E21" fromText="a substernal gastric interposition" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E22" fromText="a jejunostomy" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E23" fromText="The pathology report" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E103" fromText="suggested" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E104" fromText="radiation esophagitis" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E24" fromText="focal ulceration" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E25" fromText="ventilator dependent" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E85" fromText="the Respiratory Intensive Care Unit" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E26" fromText="triple antibiotics" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E27" fromText="Vancomycin" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E28" fromText="ceftazidime" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E29" fromText="Gentamicin" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E30" fromText="an electroencephalogram" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E105" fromText="showed" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E107" fromText="seizure activity" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E31" fromText="some generalized slowing" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E108" fromText="the Neurology Service" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E32" fromText="her apparent postoperative encephalopathy" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E109" fromText="shaking" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E1" fromText="atypical small cell carcinoma of the lung" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E33" fromText="An endoscopy" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E110" fromText="showed" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E34" fromText="anastomosis" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E35" fromText="multiple bronchoscopies" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E36" fromText="pulmonary toilet" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E37" fromText="tube feedings" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E38" fromText="the ventilator" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E39" fromText="A repeat echocardiogram" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E111" fromText="showed" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E40" fromText="significant change" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E41" fromText="her previous echocardiogram" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E112" fromText="showed" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E42" fromText="a small pericardial effusion" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E43" fromText="A pelvic and abdominal computerized tomography scan" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E113" fromText="showed" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E115" fromText="a focal collection" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E116" fromText="abscess" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E44" fromText="intermittently febrile" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E45" fromText="numerous antibiotics" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E46" fromText="Her chest X-ray" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E2" fromText="chemotherapy" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E117" fromText="showed" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E47" fromText="bilateral air space disease" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E48" fromText="pneumonia" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E49" fromText="adult respiratory distress syndrome" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E50" fromText="renal failure" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E3" fromText="radiation therapy" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E51" fromText="aminoglycoside toxicity" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E52" fromText="Her steroids" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E136" fromText="weaned" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E53" fromText="her prolonged intubation" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E54" fromText="inability to wean" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E55" fromText="a tracheostomy" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E56" fromText="a coma" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E57" fromText="The blood cultures" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E58" fromText="Staphylococcus" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E59" fromText="septicemia" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E60" fromText="Her sputum" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E61" fromText="Pseudomonas aeruginosa" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E62" fromText="The urine" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E133" fromText="did well" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E63" fromText="yeast" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E64" fromText="amphotericin" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E65" fromText="a repeat chest and abdominal and pelvis computerized tomography scan" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E118" fromText="showed" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E119" fromText="fluid collections" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E66" fromText="a large left pleural effusion" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E67" fromText="a left chest tube" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E68" fromText="Her sputum" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E69" fromText="Klebsiella" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E70" fromText="amikacin" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E71" fromText="imipenem" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E72" fromText="a right pleural effusion" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E73" fromText="a right chest tube" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E120" fromText="some level of consciousness" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E134" fromText="diagnosed" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E121" fromText="pleurodesed" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E74" fromText="her wean" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E4" fromText="carcinoid cancer of the same right upper lobe" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E75" fromText="propafol" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E76" fromText="Fentanyl" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E122" fromText="real progress" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E77" fromText="her vent wean" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E78" fromText="pressor support" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E79" fromText="a coma" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E80" fromText="her pressor support requirement" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E81" fromText="tachypneic episodes" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E123" fromText="bradycardia" toID="T2" toText="4-2-94" type="OVERLAP" />
+<TLINK id="SECTIME111" fromID="E124" fromText="asystole" toID="T2" toText="4-2-94" type="OVERLAP" />
+<TLINK id="SECTIME112" fromID="E125" fromText="manual ventilation" toID="T2" toText="4-2-94" type="OVERLAP" />
+<TLINK id="SECTIME113" fromID="E126" fromText="artificial life support" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME114" fromID="E5" fromText="the initial primary cancer" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E127" fromText="artificial respiratory support" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E128" fromText="the ventilator" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME117" fromID="E129" fromText="a T-piece in her trachea" toID="T2" toText="4-2-94" type="OVERLAP" />
+<TLINK id="SECTIME118" fromID="E130" fromText="narcotics" toID="T2" toText="4-2-94" type="OVERLAP" />
+<TLINK id="SECTIME119" fromID="E131" fromText="Her respirations" toID="T2" toText="4-2-94" type="BEFORE" />
+<TLINK id="SECTIME120" fromID="E132" fromText="died" toID="T2" toText="4-2-94" type="OVERLAP" />
+<TLINK id="SECTIME121" fromID="E6" fromText="Bronchoscopy" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME122" fromID="E91" fromText="showed" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME123" fromID="E7" fromText="an endobronchial tumor of the right upper lobe bronchus" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME124" fromID="E8" fromText="four treatments" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME125" fromID="E9" fromText="brachytherapy" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME126" fromID="E135" fromText="doing reasonably well" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME127" fromID="E92" fromText="presented" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME128" fromID="E93" fromText="persistent and worsening cough" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME129" fromID="E94" fromText="near strangulation" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME130" fromID="E10" fromText="A bronchoscopy" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME131" fromID="E95" fromText="showed" toID="T1" toText="2-5-94" type="BEFORE" />
+<TLINK id="SECTIME132" fromID="E96" fromText="a tracheoesophageal fistula" toID="T1" toText="2-5-94" type="BEFORE" />
+<SECTIME id="S0" start="18" end="24" text="2-5-94" type="ADMISSION" dvalue="1994-02-05" />
+<SECTIME id="S1" start="42" end="48" text="4-2-94" type="DISCHARGE" dvalue="1994-04-02" />
+
+
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

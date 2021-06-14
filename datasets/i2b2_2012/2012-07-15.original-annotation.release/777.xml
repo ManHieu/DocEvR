@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2018-05-24
+Discharge Date :
+2018-05-29
+Service :
+CARDIOTHORACIC
+History of Present Illness :
+s/p AVR 05-14 .
+Postop course c/b right upper extremity DVT and postop Afib .
+Discharged home 05-19 with instructions to f/u in vascular clinic .
+Had vascular clinic f/u on day of admission .
+At that time had UE duplex which revealed RUE DVT involving IJ , Axillary , subclav , brachial , and basilic veins .
+Then referred to ER for Tx
+Brief Hospital Course :
+Pt admitted 05-24 from ER after positive RUE DVT finding in vascular lab .
+During ER evaluation pt was noted to have some degree of dyspnea as well as mental status changes , including loss of short term memory and brief unresponsive period after one dose of IV Benadry and steroids prior to CT scan .
+The CT was negative for CVA but positive for Pulmonary embolism .
+He was transferred to CSRU for evaluation .
+Neurology was consulted and the pt also had MRI which was negative .
+The pt was begun on heparin gtt and was noted to have platelet drop > 50% after infusion began , hepain was d/c 'd.
+Argatroban was started abd a HIT panel was sent , HIT panel was positive .
+Hematology was consulted .
+By the following mornig all mental status changes had cleared and the pt was transferred to the floors for continued care .
+Over the next several days the patient was maintained on Argatroban when coumadin therapy was initiated .
+On HD#6 the pt had a therapeudic INR ( 4.4 ) off Argatroban and wad discharged home .
+He was to have f/u INR check with Dr Lewis on 05-31 .
+Additionally the pt should f/u with the hematology clinic .
+]]></TEXT>
+<TAGS>
+<EVENT id="E27" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="1006" end="1019" text="platelet drop" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1032" end="1040" text="infusion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="1049" end="1055" text="hepain" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="1060" end="1067" text="d/c 'd." modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="1068" end="1078" text="Argatroban" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1095" end="1106" text="a HIT panel" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="1118" end="1127" text="HIT panel" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="1132" end="1140" text="positive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="115" end="118" text="AVR" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="1143" end="1153" text="Hematology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E38" start="1158" end="1167" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="1194" end="1219" text="all mental status changes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="1247" end="1258" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="1262" end="1272" text="the floors" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E0" start="127" end="140" text="Postop course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="1277" end="1291" text="continued care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="1351" end="1361" text="Argatroban" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="1367" end="1383" text="coumadin therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="1419" end="1436" text="a therapeudic INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="145" end="170" text="right upper extremity DVT" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="1449" end="1459" text="Argatroban" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1468" end="1478" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="1505" end="1514" text="INR check" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="1567" end="1570" text="f/u" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="1576" end="1597" text="the hematology clinic" modality="PROPOSED" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E2" start="175" end="186" text="postop Afib" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="189" end="199" text="Discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="232" end="235" text="f/u" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="239" end="254" text="vascular clinic" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E43" start="261" end="276" text="vascular clinic" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E44" start="277" end="280" text="f/u" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="320" end="329" text="UE duplex" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="336" end="344" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E3" start="345" end="352" text="RUE DVT" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="425" end="433" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="437" end="439" text="ER" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E49" start="444" end="446" text="Tx" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="474" end="482" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="494" end="496" text="ER" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E4" start="503" end="519" text="positive RUE DVT" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="531" end="543" text="vascular lab" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E5" start="553" end="566" text="ER evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="574" end="579" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E6" start="603" end="610" text="dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="622" end="643" text="mental status changes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="656" end="681" text="loss of short term memory" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="686" end="711" text="brief unresponsive period" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="730" end="740" text="IV Benadry" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="745" end="753" text="steroids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="763" end="770" text="CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E13" start="773" end="779" text="The CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="797" end="800" text="CVA" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E14" start="818" end="836" text="Pulmonary embolism" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="846" end="857" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="861" end="865" text="CSRU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E15" start="870" end="880" text="evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="883" end="892" text="Neurology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E36" start="897" end="906" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="927" end="930" text="MRI" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="972" end="983" text="heparin gtt" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="992" end="997" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<TIMEX3 id="T8" start="1173" end="1193" text="the following mornig" type="DATE" val="2018-05-25" mod="START" />
+<TIMEX3 id="T3" start="119" end="124" text="05-14" type="DATE" val="2018-05-14" mod="NA" />
+<TIMEX3 id="T9" start="1299" end="1320" text="the next several days" type="DURATION" val="p3d" mod="APPROX" />
+<TIMEX3 id="T6" start="1403" end="1407" text="HD#6" type="DATE" val="2018-05-29" mod="NA" />
+<TIMEX3 id="T10" start="1532" end="1537" text="05-31" type="DATE" val="2018-05-31" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2018-05-24" type="DATE" val="2018-05-24" mod="NA" />
+<TIMEX3 id="T4" start="205" end="210" text="05-19" type="DATE" val="2018-05-19" mod="NA" />
+<TIMEX3 id="T7" start="284" end="287" text="day" type="DATE" val="2018-05-24" mod="NA" />
+<TIMEX3 id="T0" start="306" end="315" text="that time" type="DATE" val="2018-05-24" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2018-05-29" type="DATE" val="2018-05-29" mod="NA" />
+<TIMEX3 id="T5" start="483" end="488" text="05-24" type="DATE" val="2018-05-24" mod="NA" />
+<TLINK id="TL0" fromID="E27" fromText="Admission" toID="T1" toText="2018-05-24" type="OVERLAP" />
+<TLINK id="TL1" fromID="E12" fromText="CT scan" toID="E13" toText="The CT" type="simultaneous" />
+<TLINK id="TL11" fromID="E34" fromText="transferred" toID="E13" toText="The CT" type="AFTER" />
+<TLINK id="TL12" fromID="E15" fromText="evaluation" toID="E35" toText="CSRU" type="DURING" />
+<TLINK id="TL13" fromID="E16" fromText="MRI" toID="E36" toText="consulted" type="AFTER" />
+<TLINK id="TL14" fromID="E22" fromText="a HIT panel" toID="E21" toText="Argatroban" type="OVERLAP" />
+<TLINK id="TL15" fromID="E39" fromText="transferred" toID="E24" toText="all mental status changes" type="AFTER" />
+<TLINK id="TL16" fromID="E0" fromText="Postop course" toID="E1" toText="AVR" type="BEGUN_BY" />
+<TLINK id="TL17" fromID="E2" fromText="postop Afib" toID="E1" toText="AVR" type="AFTER" />
+<TLINK id="TL18" fromID="E0" fromText="Postop course" toID="E41" toText="right upper extremity DVT" type="OVERLAP" />
+<TLINK id="TL19" fromID="E31" fromText="vascular clinic" toID="E29" toText="Discharged" type="AFTER" />
+<TLINK id="TL2" fromID="E17" fromText="heparin gtt" toID="E19" toText="infusion" type="simultaneous" />
+<TLINK id="TL20" fromID="E42" fromText="f/u" toID="E31" toText="vascular clinic" type="OVERLAP" />
+<TLINK id="TL21" fromID="E43" fromText="vascular clinic" toID="E44" toText="f/u" type="OVERLAP" />
+<TLINK id="TL22" fromID="E43" fromText="vascular clinic" toID="E31" toText="vascular clinic" type="SIMULTANEOUS" />
+<TLINK id="TL23" fromID="E44" fromText="f/u" toID="E42" toText="f/u" type="SIMULTANEOUS" />
+<TLINK id="TL24" fromID="E44" fromText="f/u" toID="T7" toText="day" type="OVERLAP" />
+<TLINK id="TL25" fromID="T0" fromText="that time" toID="E45" toText="UE duplex" type="OVERLAP" />
+<TLINK id="TL26" fromID="E45" fromText="UE duplex" toID="E46" toText="revealed" type="SIMULTANEOUS" />
+<TLINK id="TL27" fromID="E3" fromText="RUE DVT" toID="E46" toText="revealed" type="BEFORE_OVERLAP" />
+<TLINK id="TL28" fromID="E47" fromText="referred" toID="E45" toText="UE duplex" type="AFTER" />
+<TLINK id="TL29" fromID="E48" fromText="ER" toID="E47" toText="referred" type="BEGUN_BY" />
+<TLINK id="TL3" fromID="E7" fromText="mental status changes" toID="E24" toText="all mental status changes" type="simultaneous" />
+<TLINK id="TL30" fromID="E49" fromText="Tx" toID="E48" toText="ER" type="OVERLAP" />
+<TLINK id="TL31" fromID="E32" fromText="admitted" toID="T5" toText="05-24" type="OVERLAP" />
+<TLINK id="TL32" fromID="E33" fromText="ER" toID="E48" toText="ER" type="SIMULTANEOUS" />
+<TLINK id="TL33" fromID="E33" fromText="ER" toID="E32" toText="admitted" type="ENDED_BY" />
+<TLINK id="TL34" fromID="E32" fromText="admitted" toID="E4" toText="positive RUE DVT" type="AFTER" />
+<TLINK id="TL35" fromID="E4" fromText="positive RUE DVT" toID="E50" toText="vascular lab" type="BEFORE_OVERLAP" />
+<TLINK id="TL36" fromID="E5" fromText="ER evaluation" toID="E33" toText="ER" type="OVERLAP" />
+<TLINK id="TL37" fromID="E51" fromText="noted" toID="E5" toText="ER evaluation" type="SIMULTANEOUS" />
+<TLINK id="TL38" fromID="E6" fromText="dyspnea" toID="E51" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL39" fromID="E7" fromText="mental status changes" toID="E51" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL4" fromID="E19" fromText="infusion" toID="E20" toText="hepain" type="simultaneous" />
+<TLINK id="TL40" fromID="E9" fromText="brief unresponsive period" toID="E8" toText="loss of short term memory" type="OVERLAP" />
+<TLINK id="TL41" fromID="E9" fromText="brief unresponsive period" toID="E10" toText="IV Benadry" type="AFTER" />
+<TLINK id="TL42" fromID="E10" fromText="IV Benadry" toID="E11" toText="steroids" type="OVERLAP" />
+<TLINK id="TL43" fromID="E11" fromText="steroids" toID="E12" toText="CT scan" type="BEFORE" />
+<TLINK id="TL44" fromID="E52" fromText="CVA" toID="E13" toText="The CT" type="BEFORE_OVERLAP" />
+<TLINK id="TL45" fromID="E14" fromText="Pulmonary embolism" toID="E13" toText="The CT" type="BEFORE_OVERLAP" />
+<TLINK id="TL46" fromID="E35" fromText="CSRU" toID="E34" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL47" fromID="E33" fromText="ER" toID="E34" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL48" fromID="E53" fromText="Neurology" toID="E36" toText="consulted" type="SIMULTANEOUS" />
+<TLINK id="TL49" fromID="E17" fromText="heparin gtt" toID="E16" toText="MRI" type="AFTER" />
+<TLINK id="TL5" fromID="E28" fromText="Discharge" toID="T2" toText="2018-05-29" type="OVERLAP" />
+<TLINK id="TL50" fromID="E54" fromText="noted" toID="E17" toText="heparin gtt" type="DURING" />
+<TLINK id="TL51" fromID="E18" fromText="platelet drop" toID="E54" toText="noted" type="OVERLAP" />
+<TLINK id="TL52" fromID="E18" fromText="platelet drop" toID="E19" toText="infusion" type="AFTER" />
+<TLINK id="TL53" fromID="E20" fromText="hepain" toID="E55" toText="d/c 'd." type="ENDED_BY" />
+<TLINK id="TL54" fromID="E37" fromText="HIT panel" toID="E22" toText="a HIT panel" type="SIMULTANEOUS" />
+<TLINK id="TL55" fromID="E23" fromText="positive" toID="E37" toText="HIT panel" type="SIMULTANEOUS" />
+<TLINK id="TL56" fromID="E38" fromText="consulted" toID="E56" toText="Hematology" type="SIMULTANEOUS" />
+<TLINK id="TL57" fromID="E24" fromText="all mental status changes" toID="T8" toText="the following mornig" type="OVERLAP" />
+<TLINK id="TL58" fromID="E39" fromText="transferred" toID="T8" toText="the following mornig" type="OVERLAP" />
+<TLINK id="TL59" fromID="E57" fromText="the floors" toID="E39" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL6" fromID="E1" fromText="AVR" toID="T3" toText="05-14" type="OVERLAP" />
+<TLINK id="TL60" fromID="E58" fromText="continued care" toID="E57" toText="the floors" type="DURING" />
+<TLINK id="TL61" fromID="E59" fromText="Argatroban" toID="T9" toText="the next several days" type="DURING" />
+<TLINK id="TL62" fromID="E59" fromText="Argatroban" toID="E60" toText="coumadin therapy" type="BEFORE_OVERLAP" />
+<TLINK id="TL63" fromID="E61" fromText="a therapeudic INR" toID="T6" toText="HD#6" type="OVERLAP" />
+<TLINK id="TL64" fromID="E61" fromText="a therapeudic INR" toID="E25" toText="Argatroban" type="AFTER" />
+<TLINK id="TL65" fromID="E40" fromText="discharged" toID="E61" toText="a therapeudic INR" type="AFTER" />
+<TLINK id="TL66" fromID="E26" fromText="INR check" toID="T10" toText="05-31" type="SIMULTANEOUS" />
+<TLINK id="TL67" fromID="E62" fromText="f/u" toID="E63" toText="the hematology clinic" type="OVERLAP" />
+<TLINK id="TL7" fromID="E29" fromText="Discharged" toID="T4" toText="05-19" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E4" fromText="positive RUE DVT" toID="E3" toText="RUE DVT" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="E8" fromText="loss of short term memory" toID="E7" toText="mental status changes" type="SIMULTANEOUS" />
+<SECTIME id="S0" start="18" end="28" text="2018-05-24" type="ADMISSION" dvalue="2018-05-24" />
+<SECTIME id="S1" start="46" end="56" text="2018-05-29" type="DISCHARGE" dvalue="2018-05-29" />
+<TLINK id="SECTIME0" fromID="E18" fromText="platelet drop" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E19" fromText="infusion" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E20" fromText="hepain" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E55" fromText="d/c 'd." toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E21" fromText="Argatroban" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E22" fromText="a HIT panel" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E37" fromText="HIT panel" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E23" fromText="positive" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E1" fromText="AVR" toID="T1" toText="2018-05-24" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E56" fromText="Hematology" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E38" fromText="consulted" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E24" fromText="all mental status changes" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E39" fromText="transferred" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E57" fromText="the floors" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E0" fromText="Postop course" toID="T1" toText="2018-05-24" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E58" fromText="continued care" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E59" fromText="Argatroban" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E60" fromText="coumadin therapy" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E61" fromText="a therapeudic INR" toID="T2" toText="2018-05-29" type="OVERLAP" />
+<TLINK id="SECTIME19" fromID="E41" fromText="right upper extremity DVT" toID="T1" toText="2018-05-24" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E25" fromText="Argatroban" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E40" fromText="discharged" toID="T2" toText="2018-05-29" type="OVERLAP" />
+<TLINK id="SECTIME22" fromID="E26" fromText="INR check" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E62" fromText="f/u" toID="T2" toText="2018-05-29" type="AFTER" />
+<TLINK id="SECTIME24" fromID="E63" fromText="the hematology clinic" toID="T2" toText="2018-05-29" type="AFTER" />
+<TLINK id="SECTIME25" fromID="E2" fromText="postop Afib" toID="T1" toText="2018-05-24" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E29" fromText="Discharged" toID="T1" toText="2018-05-24" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E42" fromText="f/u" toID="T1" toText="2018-05-24" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E31" fromText="vascular clinic" toID="T1" toText="2018-05-24" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E43" fromText="vascular clinic" toID="T1" toText="2018-05-24" type="OVERLAP" />
+<TLINK id="SECTIME30" fromID="E44" fromText="f/u" toID="T1" toText="2018-05-24" type="OVERLAP" />
+<TLINK id="SECTIME31" fromID="E45" fromText="UE duplex" toID="T1" toText="2018-05-24" type="OVERLAP" />
+<TLINK id="SECTIME32" fromID="E46" fromText="revealed" toID="T1" toText="2018-05-24" type="OVERLAP" />
+<TLINK id="SECTIME33" fromID="E3" fromText="RUE DVT" toID="T1" toText="2018-05-24" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E47" fromText="referred" toID="T1" toText="2018-05-24" type="OVERLAP" />
+<TLINK id="SECTIME35" fromID="E48" fromText="ER" toID="T1" toText="2018-05-24" type="OVERLAP" />
+<TLINK id="SECTIME36" fromID="E49" fromText="Tx" toID="T1" toText="2018-05-24" type="OVERLAP" />
+<TLINK id="SECTIME37" fromID="E32" fromText="admitted" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E33" fromText="ER" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E4" fromText="positive RUE DVT" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E50" fromText="vascular lab" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E5" fromText="ER evaluation" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E51" fromText="noted" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E6" fromText="dyspnea" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E7" fromText="mental status changes" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E8" fromText="loss of short term memory" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E9" fromText="brief unresponsive period" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E10" fromText="IV Benadry" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E11" fromText="steroids" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E12" fromText="CT scan" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E13" fromText="The CT" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E52" fromText="CVA" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E14" fromText="Pulmonary embolism" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E34" fromText="transferred" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E35" fromText="CSRU" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E15" fromText="evaluation" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E53" fromText="Neurology" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E36" fromText="consulted" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E16" fromText="MRI" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E17" fromText="heparin gtt" toID="T2" toText="2018-05-29" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E54" fromText="noted" toID="T2" toText="2018-05-29" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2018-12-29
+Discharge Date :
+2019-01-04
+Service :
+Neonatology
+HISTORY OF PRESENT ILLNESS :
+Baby Davis is the 3.160 kilogram product of a term pregnancy .
+He was born to a 38 - year-old gravida I , para 0 ( now 1 ) mother at 37 and 1/7 weeks .
+The pregnancy was benign with an EDC of 2019-01-18 .
+Prenatal screens were O positive , antibody negative , hepatitis surface antigen negative , rapid plasma reagent nonreactive , rubella immune , group B strep negative .
+The infant delivered by spontaneous vaginal delivery with Apgar scores of 8 at one minute and 8 at five minutes .
+HOSPITAL COURSE :
+1. Respiratory .
+Without issues on this admission .
+Breath sounds are clear and equal .
+2. Cardiovascular .
+Without issues on this admission .
+He had a regular heart rate and rhythm , no murmur , pulses were 2+ and symmetric .
+3. Fluids , electrolytes and nutrition .
+The baby 's weight was 3.160 kilograms ( 7 pounds 3 ounces ).
+He is breast and bottle feeding every 3 hours with expressed breast milk and / or Enfamil .
+He is feeding well .
+His discharge weight is 3025 gm , and has been stable for past 2 days .
+4. Gastrointestinal .
+The baby 's bilirubin on 2018-12-31 , was 15.5 / 0.5 at which time double phototherapy was started .
+On 01-01 , his bilirubin was 17.3 / 0.4 at which time triple phototherapy was started and then his subsequent bilirubins are 16.5 / 0.4 on 2019-01-01 , and 16.2 / 0.5 on 2019-01-02 .
+Phototherapy was discontinued on 2019-01-04 for a bilirubin of 12.1 , and a rebound bilirubin will be checked on 01-05 .
+5. Hematology .
+The hematocrit on 01-02 , was 61 with a reticulocyte of 2.6% .
+His blood type is A+ , Coombs negative .
+6. Infectious disease .
+No issues on this admission .
+7. Neurological .
+The baby has been appropriate for gestational age with normal newborn reflexes .
+8. Sensory .
+Auditory hearing screening was performed with automated brainstem responses .
+The infant passed both ears on 2018-12-30 .
+9. Psychosocial .
+The family is invested and involved .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1005" end="1016" text="breast milk" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="1026" end="1033" text="Enfamil" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="1042" end="1054" text="feeding well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="1057" end="1077" text="His discharge weight" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="1104" end="1110" text="stable" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E10" start="1151" end="1172" text="The baby 's bilirubin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="1218" end="1237" text="double phototherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="1263" end="1276" text="his bilirubin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E13" start="1306" end="1325" text="triple phototherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="1347" end="1372" text="his subsequent bilirubins" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="1347" end="1372" text="his subsequent bilirubins" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="1347" end="1372" text="his subsequent bilirubins" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="1435" end="1447" text="Phototherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1483" end="1494" text="a bilirubin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="1509" end="1528" text="a rebound bilirubin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="152" end="168" text="a term pregnancy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="1572" end="1586" text="The hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="1610" end="1624" text="a reticulocyte" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="1635" end="1649" text="His blood type" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="1658" end="1664" text="Coombs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="1703" end="1709" text="issues" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E46" start="1713" end="1727" text="this admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="178" end="182" text="born" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="1803" end="1826" text="normal newborn reflexes" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E22" start="1842" end="1868" text="Auditory hearing screening" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="1888" end="1917" text="automated brainstem responses" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1931" end="1947" text="passed both ears" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="1996" end="2017" text="invested and involved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="260" end="273" text="The pregnancy" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="278" end="284" text="benign" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E23" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="290" end="296" text="an EDC" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="313" end="329" text="Prenatal screens" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="348" end="356" text="antibody" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="368" end="393" text="hepatitis surface antigen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="405" end="425" text="rapid plasma reagent" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="440" end="447" text="rubella" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="457" end="470" text="group B strep" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="493" end="502" text="delivered" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="506" end="534" text="spontaneous vaginal delivery" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="540" end="552" text="Apgar scores" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="639" end="645" text="issues" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E35" start="649" end="663" text="this admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="666" end="679" text="Breath sounds" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="730" end="736" text="issues" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E38" start="740" end="754" text="this admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="774" end="795" text="heart rate and rhythm" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="801" end="807" text="murmur" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E6" start="810" end="816" text="pulses" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="882" end="900" text="The baby 's weight" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="950" end="975" text="breast and bottle feeding" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T4" start="1115" end="1126" text="past 2 days" type="DURATION" val="P2D" mod="NA" />
+<TIMEX3 id="T5" start="1176" end="1186" text="2018-12-31" type="DATE" val="2018-12-31" mod="NA" />
+<TIMEX3 id="T6" start="1255" end="1260" text="01-01" type="DATE" val="2019-01-01" mod="NA" />
+<TIMEX3 id="T7" start="1391" end="1401" text="2019-01-01" type="DATE" val="2019-01-01" mod="NA" />
+<TIMEX3 id="T8" start="1422" end="1432" text="2019-01-02" type="DATE" val="2019-01-02" mod="NA" />
+<TIMEX3 id="T9" start="1468" end="1478" text="2019-01-04" type="DATE" val="2019-01-04" mod="NA" />
+<TIMEX3 id="T10" start="1548" end="1553" text="01-05" type="DATE" val="2019-01-05" mod="NA" />
+<TIMEX3 id="T11" start="1590" end="1595" text="01-02" type="DATE" val="2019-01-02" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2018-12-29" type="DATE" val="2018-12-29" mod="NA" />
+<TIMEX3 id="T12" start="1951" end="1961" text="2018-12-30" type="DATE" val="2018-12-30" mod="NA" />
+<TIMEX3 id="T2" start="300" end="310" text="2019-01-18" type="DATE" val="2018-04-13" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2019-01-04" type="DATE" val="2019-01-04" mod="NA" />
+<TIMEX3 id="T3" start="982" end="989" text="3 hours" type="FREQUENCY" val="RP3H" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2018-12-29" type="OVERLAP" />
+<TLINK id="TL1" fromID="E19" fromText="a reticulocyte" toID="E18" toText="The hematocrit" type="OVERLAP" />
+<TLINK id="TL10" fromID="E3" fromText="rapid plasma reagent" toID="E25" toText="born" type="BEFORE" />
+<TLINK id="TL11" fromID="E30" fromText="rubella" toID="E25" toText="born" type="BEFORE_OVERLAP" />
+<TLINK id="TL12" fromID="E31" fromText="group B strep" toID="E25" toText="born" type="BEFORE" />
+<TLINK id="TL13" fromID="E32" fromText="delivered" toID="E25" toText="born" type="SIMULTANEOUS" />
+<TLINK id="TL14" fromID="E32" fromText="delivered" toID="E33" toText="spontaneous vaginal delivery" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E4" fromText="Apgar scores" toID="E33" toText="spontaneous vaginal delivery" type="OVERLAP" />
+<TLINK id="TL16" fromID="E34" fromText="issues" toID="E35" toText="this admission" type="OVERLAP" />
+<TLINK id="TL17" fromID="E35" fromText="this admission" toID="E0" toText="Admission" type="BEGUN_BY" />
+<TLINK id="TL18" fromID="E35" fromText="this admission" toID="E23" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL19" fromID="E36" fromText="Breath sounds" toID="E35" toText="this admission" type="DURING" />
+<TLINK id="TL2" fromID="E23" fromText="Discharge" toID="T1" toText="2019-01-04" type="OVERLAP" />
+<TLINK id="TL20" fromID="E37" fromText="issues" toID="E38" toText="this admission" type="OVERLAP" />
+<TLINK id="TL21" fromID="E38" fromText="this admission" toID="E35" toText="this admission" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E39" fromText="heart rate and rhythm" toID="E38" toText="this admission" type="DURING" />
+<TLINK id="TL23" fromID="E5" fromText="murmur" toID="E38" toText="this admission" type="DURING" />
+<TLINK id="TL24" fromID="E6" fromText="pulses" toID="E38" toText="this admission" type="DURING" />
+<TLINK id="TL26" fromID="E40" fromText="breast and bottle feeding" toID="T3" toText="3 hours" type="OVERLAP" />
+<TLINK id="TL27" fromID="E41" fromText="breast milk" toID="E8" toText="Enfamil" type="SIMULTANEOUS" />
+<TLINK id="TL28" fromID="E41" fromText="breast milk" toID="E40" toText="breast and bottle feeding" type="SIMULTANEOUS" />
+<TLINK id="TL29" fromID="E42" fromText="feeding well" toID="E40" toText="breast and bottle feeding" type="OVERLAP" />
+<TLINK id="TL3" fromID="E24" fromText="a term pregnancy" toID="E25" toText="born" type="ENDED_BY" />
+<TLINK id="TL30" fromID="E7" fromText="The baby 's weight" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL31" fromID="E9" fromText="His discharge weight" toID="E7" toText="The baby 's weight" type="AFTER" />
+<TLINK id="TL32" fromID="E9" fromText="His discharge weight" toID="E23" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL33" fromID="E9" fromText="His discharge weight" toID="E43" toText="stable" type="SIMULTANEOUS" />
+<TLINK id="TL34" fromID="E43" fromText="stable" toID="T4" toText="past 2 days" type="DURING" />
+<TLINK id="TL35" fromID="T4" fromText="past 2 days" toID="E23" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL36" fromID="E10" fromText="The baby 's bilirubin" toID="T5" toText="2018-12-31" type="OVERLAP" />
+<TLINK id="TL37" fromID="E11" fromText="double phototherapy" toID="T5" toText="2018-12-31" type="BEGUN_BY" />
+<TLINK id="TL38" fromID="E12" fromText="his bilirubin" toID="T6" toText="01-01" type="OVERLAP" />
+<TLINK id="TL39" fromID="E13" fromText="triple phototherapy" toID="T6" toText="01-01" type="BEGUN_BY" />
+<TLINK id="TL4" fromID="E26" fromText="The pregnancy" toID="E24" toText="a term pregnancy" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E11" fromText="double phototherapy" toID="T6" toText="01-01" type="ENDED_BY" />
+<TLINK id="TL41" fromID="E14" fromText="his subsequent bilirubins" toID="T7" toText="2019-01-01" type="OVERLAP" />
+<TLINK id="TL42" fromID="E14" fromText="his subsequent bilirubins" toID="E12" toText="his bilirubin" type="AFTER" />
+<TLINK id="TL44" fromID="E15" fromText="his subsequent bilirubins" toID="T8" toText="2019-01-02" type="OVERLAP" />
+<TLINK id="TL45" fromID="E52" fromText="Phototherapy" toID="E13" toText="triple phototherapy" type="SIMULTANEOUS" />
+<TLINK id="TL46" fromID="E52" fromText="Phototherapy" toID="T9" toText="2019-01-04" type="ENDED_BY" />
+<TLINK id="TL47" fromID="E16" fromText="a bilirubin" toID="T9" toText="2019-01-04" type="OVERLAP" />
+<TLINK id="TL48" fromID="E17" fromText="a rebound bilirubin" toID="T10" toText="01-05" type="OVERLAP" />
+<TLINK id="TL49" fromID="E18" fromText="The hematocrit" toID="T11" toText="01-02" type="OVERLAP" />
+<TLINK id="TL5" fromID="E26" fromText="The pregnancy" toID="E27" toText="benign" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="T11" fromText="01-02" toID="E19" toText="a reticulocyte" type="OVERLAP" />
+<TLINK id="TL51" fromID="E20" fromText="His blood type" toID="E21" toText="Coombs" type="OVERLAP" />
+<TLINK id="TL52" fromID="E45" fromText="issues" toID="E46" toText="this admission" type="OVERLAP" />
+<TLINK id="TL53" fromID="E47" fromText="normal newborn reflexes" toID="E46" toText="this admission" type="DURING" />
+<TLINK id="TL54" fromID="E22" fromText="Auditory hearing screening" toID="E48" toText="automated brainstem responses" type="SIMULTANEOUS" />
+<TLINK id="TL55" fromID="E49" fromText="passed both ears" toID="T12" toText="2018-12-30" type="OVERLAP" />
+<TLINK id="TL56" fromID="E50" fromText="invested and involved" toID="E46" toText="this admission" type="DURING" />
+<TLINK id="TL6" fromID="E28" fromText="an EDC" toID="T2" toText="2019-01-18" type="OVERLAP" />
+<TLINK id="TL7" fromID="E1" fromText="Prenatal screens" toID="E25" toText="born" type="BEFORE" />
+<TLINK id="TL8" fromID="E2" fromText="antibody" toID="E25" toText="born" type="BEFORE" />
+<TLINK id="TL9" fromID="E29" fromText="hepatitis surface antigen" toID="E25" toText="born" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E41" fromText="breast milk" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E8" fromText="Enfamil" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E42" fromText="feeding well" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E9" fromText="His discharge weight" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E43" fromText="stable" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E10" fromText="The baby 's bilirubin" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E11" fromText="double phototherapy" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E12" fromText="his bilirubin" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E13" fromText="triple phototherapy" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E14" fromText="his subsequent bilirubins" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E15" fromText="his subsequent bilirubins" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E51" fromText="his subsequent bilirubins" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E52" fromText="Phototherapy" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E16" fromText="a bilirubin" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E17" fromText="a rebound bilirubin" toID="T1" toText="2019-01-04" type="AFTER" />
+<TLINK id="Sectime0" fromID="E24" fromText="a term pregnancy" toID="T0" toText="2018-12-29" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E18" fromText="The hematocrit" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E19" fromText="a reticulocyte" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E20" fromText="His blood type" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E21" fromText="Coombs" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E45" fromText="issues" toID="T1" toText="2019-01-04" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime20" fromID="E46" fromText="this admission" toID="T1" toText="2019-01-04" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime1" fromID="E25" fromText="born" toID="T0" toText="2018-12-29" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E47" fromText="normal newborn reflexes" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E22" fromText="Auditory hearing screening" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E48" fromText="automated brainstem responses" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E49" fromText="passed both ears" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E50" fromText="invested and involved" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E26" fromText="The pregnancy" toID="T0" toText="2018-12-29" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E27" fromText="benign" toID="T0" toText="2018-12-29" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E28" fromText="an EDC" toID="T0" toText="2018-12-29" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E1" fromText="Prenatal screens" toID="T0" toText="2018-12-29" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E2" fromText="antibody" toID="T0" toText="2018-12-29" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E29" fromText="hepatitis surface antigen" toID="T0" toText="2018-12-29" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E3" fromText="rapid plasma reagent" toID="T0" toText="2018-12-29" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E30" fromText="rubella" toID="T0" toText="2018-12-29" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E31" fromText="group B strep" toID="T0" toText="2018-12-29" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E32" fromText="delivered" toID="T0" toText="2018-12-29" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E33" fromText="spontaneous vaginal delivery" toID="T0" toText="2018-12-29" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E4" fromText="Apgar scores" toID="T0" toText="2018-12-29" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E34" fromText="issues" toID="T1" toText="2019-01-04" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime27" fromID="E35" fromText="this admission" toID="T1" toText="2019-01-04" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime28" fromID="E36" fromText="Breath sounds" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E37" fromText="issues" toID="T1" toText="2019-01-04" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime30" fromID="E38" fromText="this admission" toID="T1" toText="2019-01-04" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime31" fromID="E39" fromText="heart rate and rhythm" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime32" fromID="E5" fromText="murmur" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime33" fromID="E6" fromText="pulses" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime34" fromID="E7" fromText="The baby 's weight" toID="T1" toText="2019-01-04" type="BEFORE" />
+<TLINK id="Sectime35" fromID="E40" fromText="breast and bottle feeding" toID="T1" toText="2019-01-04" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2018-12-29" type="ADMISSION" dvalue="2018-12-29" />
+<SECTIME id="S1" start="46" end="56" text="2019-01-04" type="DISCHARGE" dvalue="2019-01-04" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

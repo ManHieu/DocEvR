@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+5-28-93
+DISCHARGE DATE :
+6-4-93
+HISTORY OF PRESENT ILLNESS :
+The patient is a 58 year old right hand dominant white male with a long history of hypertension , changed his medications from Aldomet to Clonidine six weeks ago .
+The patient has a history of adult onset diabetes mellitus , ankylosing spondylitis , status post myocardial infarction in &apos;96 ( ? ) now with acute onset of left face and arm greater than leg hemiplegia and primary hemisensory loss on the left .
+Briefly , he was talking to a friend at 5:30 p.m. the day prior to admission , when he had to grab his locker and sit down .
+His voice became slurred and he had a mild central dull headache .
+He was unable to move the left side of his body and felt numb on that side .
+He was taken to Wayskemedcalltown Talmi and transferred to Heaonboburg Linpack Grant Medical Center with a computerized tomography scan showing a 1x2 thalamic capsular hemorrhage without superficial mass effect .
+His blood pressure was 220/110 there .
+He denies any visual symptoms or cortical-type symptoms .
+He is a heavy smoker and drinks 2-3 shots per day at times .
+MEDICATIONS ON ADMISSION :
+Vasotec 40 mg q.day , Soma 1 tablet q.day , Demerolprn , Clonidine .
+ALLERGIES :
+The patient has no known drug allergies .
+HOSPITAL COURSE :
+The patient was admitted to the floor for observation .
+The neurological examination on discharge was no movement in the hand on the left or arm .
+Slight abductive and adductive movement on the left only in the upper extremity .
+On the lower extremity , could wiggle toes , flexor and plantar , 3+/5 , quadriceps 4/5 on the left .
+2. hypertension .
+The patient was managed with Vasotec , Nifedipine and Clonidine with blood pressure under good control at the time of discharge , average 125 systolic , 70 diastolic , heart rate of 72 .
+Also managed with Valium 5 mg PO t.i.d.
+Muscle spasms were managed with Flexeril 10 PO t.i.d.
+3. diabetes mellitus .
+The patient was started on 2.5 of Micronase with resulting sugars as low as 63 , decreased to 1.25 mg q.day .
+The patient is discharged in fair condition with medical approval to the Pasi .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="1018" end="1024" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E23" start="1029" end="1044" text="visual symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="1048" end="1070" text="cortical-type symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="1079" end="1093" text="a heavy smoker" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="1098" end="1104" text="drinks" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="1161" end="1168" text="Vasotec" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="1183" end="1187" text="Soma" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="1205" end="1215" text="Demerolprn" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="1218" end="1227" text="Clonidine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="1261" end="1281" text="known drug allergies" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E33" start="1318" end="1326" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="1330" end="1339" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E35" start="1358" end="1386" text="The neurological examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="1390" end="1399" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1407" end="1427" text="movement in the hand" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E38" start="1456" end="1488" text="abductive and adductive movement" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="1562" end="1573" text="wiggle toes" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="1576" end="1582" text="flexor" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="1587" end="1594" text="plantar" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="162" end="174" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1680" end="1687" text="Vasotec" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="1690" end="1700" text="Nifedipine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1705" end="1714" text="Clonidine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1720" end="1734" text="blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="1793" end="1801" text="systolic" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="1807" end="1816" text="diastolic" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="1819" end="1829" text="heart rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="185" end="200" text="his medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="1856" end="1862" text="Valium" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="1878" end="1891" text="Muscle spasms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1910" end="1918" text="Flexeril" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="1989" end="1998" text="Micronase" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="2004" end="2020" text="resulting sugars" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="206" end="213" text="Aldomet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="2080" end="2090" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="217" end="226" text="Clonidine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="26" end="35" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="272" end="301" text="adult onset diabetes mellitus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="304" end="326" text="ankylosing spondylitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="341" end="362" text="myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="440" end="450" text="hemiplegia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="455" end="491" text="primary hemisensory loss on the left" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="636" end="643" text="slurred" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="655" end="683" text="a mild central dull headache" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="693" end="733" text="unable to move the left side of his body" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="743" end="760" text="numb on that side" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="779" end="802" text="Wayskemedcalltown Talmi" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E16" start="807" end="818" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="822" end="862" text="Heaonboburg Linpack Grant Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E18" start="868" end="898" text="a computerized tomography scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="899" end="906" text="showing" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="907" end="941" text="a 1x2 thalamic capsular hemorrhage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="950" end="973" text="superficial mass effect" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="976" end="994" text="His blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T5" start="1105" end="1122" text="2-3 shots per day" type="FREQUENCY" val="RP8H" mod="APPROX" />
+<TIMEX3 id="T6" start="1175" end="1180" text="q.day" type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T7" start="1197" end="1202" text="q.day" type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T11" start="1757" end="1765" text="the time" type="DATE" val="1993-06-04" mod="NA" />
+<TIMEX3 id="T0" start="18" end="25" text="5-28-93" type="DATE" val="1993-05-28" mod="NA" />
+<TIMEX3 id="T8" start="1871" end="1877" text="t.i.d." type="FREQUENCY" val="RP8H" mod="NA" />
+<TIMEX3 id="T9" start="1925" end="1931" text="t.i.d." type="FREQUENCY" val="RP8H" mod="NA" />
+<TIMEX3 id="T10" start="2057" end="2062" text="q.day" type="FREQUENCY" val="RP24H" mod="NA" />
+<TIMEX3 id="T2" start="227" end="240" text="six weeks ago" type="DATE" val="1993-04-16" mod="APPROX" />
+<TIMEX3 id="T3" start="366" end="374" text="&apos;96" type="DATE" val="1996" mod="APPROX" />
+<TIMEX3 id="T1" start="43" end="49" text="6-4-93" type="DATE" val="1993-06-04" mod="NA" />
+<TIMEX3 id="T4" start="534" end="543" text="5:30 p.m." type="TIME" val="1993-05-27T17:30" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T0" toText="5-28-93" type="OVERLAP" />
+<TLINK id="TL1" fromID="E2" fromText="hypertension" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL10" fromID="E9" fromText="hemiplegia" toID="E10" toText="primary hemisensory loss on the left" type="OVERLAP" />
+<TLINK id="TL11" fromID="E9" fromText="hemiplegia" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL12" fromID="E10" fromText="primary hemisensory loss on the left" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL13" fromID="E11" fromText="slurred" toID="T4" toText="5:30 p.m." type="SIMULTANEOUS" />
+<TLINK id="TL14" fromID="E12" fromText="a mild central dull headache" toID="T4" toText="5:30 p.m." type="BEGUN_BY" />
+<TLINK id="TL15" fromID="E13" fromText="unable to move the left side of his body" toID="T4" toText="5:30 p.m." type="BEGUN_BY" />
+<TLINK id="TL16" fromID="E14" fromText="numb on that side" toID="T4" toText="5:30 p.m." type="BEGUN_BY" />
+<TLINK id="TL17" fromID="E15" fromText="Wayskemedcalltown Talmi" toID="T4" toText="5:30 p.m." type="AFTER" />
+<TLINK id="TL18" fromID="E15" fromText="Wayskemedcalltown Talmi" toID="E16" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL19" fromID="E17" fromText="Heaonboburg Linpack Grant Medical Center" toID="E16" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL2" fromID="T2" fromText="six weeks ago" toID="E0" toText="ADMISSION" type="ENDED_BY" />
+<TLINK id="TL20" fromID="E19" fromText="showing" toID="E18" toText="a computerized tomography scan" type="SIMULTANEOUS" />
+<TLINK id="TL21" fromID="E18" fromText="a computerized tomography scan" toID="E17" toText="Heaonboburg Linpack Grant Medical Center" type="DURING" />
+<TLINK id="TL23" fromID="E20" fromText="a 1x2 thalamic capsular hemorrhage" toID="E19" toText="showing" type="BEFORE_OVERLAP" />
+<TLINK id="TL24" fromID="E21" fromText="superficial mass effect" toID="E20" toText="a 1x2 thalamic capsular hemorrhage" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E22" fromText="His blood pressure" toID="E17" toText="Heaonboburg Linpack Grant Medical Center" type="DURING" />
+<TLINK id="TL26" fromID="E23" fromText="visual symptoms" toID="E24" toText="denies" type="BEFORE_OVERLAP" />
+<TLINK id="TL27" fromID="E25" fromText="cortical-type symptoms" toID="E24" toText="denies" type="BEFORE_OVERLAP" />
+<TLINK id="TL28" fromID="E26" fromText="a heavy smoker" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL29" fromID="E26" fromText="a heavy smoker" toID="E27" toText="drinks" type="OVERLAP" />
+<TLINK id="TL3" fromID="E33" fromText="admitted" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E27" fromText="drinks" toID="T5" toText="2-3 shots per day" type="OVERLAP" />
+<TLINK id="TL31" fromID="E28" fromText="Vasotec" toID="T6" toText="q.day" type="OVERLAP" />
+<TLINK id="TL32" fromID="E28" fromText="Vasotec" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL33" fromID="E29" fromText="Soma" toID="T7" toText="q.day" type="OVERLAP" />
+<TLINK id="TL34" fromID="E28" fromText="Vasotec" toID="E29" toText="Soma" type="OVERLAP" />
+<TLINK id="TL35" fromID="E29" fromText="Soma" toID="E30" toText="Demerolprn" type="OVERLAP" />
+<TLINK id="TL36" fromID="E30" fromText="Demerolprn" toID="E31" toText="Clonidine" type="OVERLAP" />
+<TLINK id="TL37" fromID="E32" fromText="known drug allergies" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL38" fromID="E34" fromText="the floor" toID="E33" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL39" fromID="E35" fromText="The neurological examination" toID="E36" toText="discharge" type="OVERLAP" />
+<TLINK id="TL4" fromID="E1" fromText="DISCHARGE" toID="T1" toText="6-4-93" type="OVERLAP" />
+<TLINK id="TL40" fromID="E37" fromText="movement in the hand" toID="E35" toText="The neurological examination" type="BEFORE_OVERLAP" />
+<TLINK id="TL41" fromID="E37" fromText="movement in the hand" toID="E38" toText="abductive and adductive movement" type="OVERLAP" />
+<TLINK id="TL42" fromID="E39" fromText="wiggle toes" toID="E40" toText="flexor" type="OVERLAP" />
+<TLINK id="TL44" fromID="E39" fromText="wiggle toes" toID="E35" toText="The neurological examination" type="BEFORE_OVERLAP" />
+<TLINK id="TL45" fromID="E40" fromText="flexor" toID="E41" toText="plantar" type="OVERLAP" />
+<TLINK id="TL46" fromID="E42" fromText="Vasotec" toID="E43" toText="Nifedipine" type="OVERLAP" />
+<TLINK id="TL47" fromID="E43" fromText="Nifedipine" toID="E44" toText="Clonidine" type="OVERLAP" />
+<TLINK id="TL48" fromID="E45" fromText="blood pressure" toID="T11" toText="the time" type="SIMULTANEOUS" />
+<TLINK id="TL49" fromID="E46" fromText="systolic" toID="E45" toText="blood pressure" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E4" fromText="Aldomet" toID="E3" toText="his medications" type="DURING" />
+<TLINK id="TL50" fromID="E47" fromText="diastolic" toID="E46" toText="systolic" type="SIMULTANEOUS" />
+<TLINK id="TL51" fromID="E48" fromText="heart rate" toID="E47" toText="diastolic" type="SIMULTANEOUS" />
+<TLINK id="TL52" fromID="E49" fromText="Valium" toID="T8" toText="t.i.d." type="OVERLAP" />
+<TLINK id="TL53" fromID="E50" fromText="Muscle spasms" toID="E51" toText="Flexeril" type="BEFORE_OVERLAP" />
+<TLINK id="TL54" fromID="E51" fromText="Flexeril" toID="T9" toText="t.i.d." type="OVERLAP" />
+<TLINK id="TL55" fromID="E52" fromText="Micronase" toID="E53" toText="resulting sugars" type="OVERLAP" />
+<TLINK id="TL56" fromID="E52" fromText="Micronase" toID="T10" toText="q.day" type="OVERLAP" />
+<TLINK id="TL57" fromID="E54" fromText="discharged" toID="E36" toText="discharge" type="SIMULTANEOUS" />
+<TLINK id="TL58" fromID="E6" fromText="adult onset diabetes mellitus" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL59" fromID="E7" fromText="ankylosing spondylitis" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL6" fromID="E5" fromText="Clonidine" toID="E3" toText="his medications" type="DURING" />
+<TLINK id="TL7" fromID="E4" fromText="Aldomet" toID="T2" toText="six weeks ago" type="ENDED_BY" />
+<TLINK id="TL8" fromID="E5" fromText="Clonidine" toID="T2" toText="six weeks ago" type="BEGUN_BY" />
+<TLINK id="TL9" fromID="E8" fromText="myocardial infarction" toID="T3" toText="&apos;96" type="OVERLAP" />
+
+
+<TLINK id="Sectime0" fromID="E24" fromText="denies" toID="T0" toText="5-28-93" type="OVERLAP" />
+<TLINK id="Sectime1" fromID="E23" fromText="visual symptoms" toID="T0" toText="5-28-93" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E25" fromText="cortical-type symptoms" toID="T0" toText="5-28-93" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E26" fromText="a heavy smoker" toID="T0" toText="5-28-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime4" fromID="E27" fromText="drinks" toID="T0" toText="5-28-93" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E28" fromText="Vasotec" toID="T0" toText="5-28-93" type="OVERLAP" />
+<TLINK id="Sectime6" fromID="E29" fromText="Soma" toID="T0" toText="5-28-93" type="OVERLAP" />
+<TLINK id="Sectime7" fromID="E30" fromText="Demerolprn" toID="T0" toText="5-28-93" type="OVERLAP" />
+<TLINK id="Sectime8" fromID="E31" fromText="Clonidine" toID="T0" toText="5-28-93" type="OVERLAP" />
+<TLINK id="Sectime9" fromID="E32" fromText="known drug allergies" toID="T0" toText="5-28-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime0" fromID="E33" fromText="admitted" toID="T1" toText="6-4-93" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E34" fromText="the floor" toID="T1" toText="6-4-93" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E35" fromText="The neurological examination" toID="T1" toText="6-4-93" type="OVERLAP" />
+<TLINK id="Sectime3" fromID="E36" fromText="discharge" toID="T1" toText="6-4-93" type="OVERLAP" />
+<TLINK id="Sectime4" fromID="E37" fromText="movement in the hand" toID="T1" toText="6-4-93" type="OVERLAP" />
+<TLINK id="Sectime5" fromID="E38" fromText="abductive and adductive movement" toID="T1" toText="6-4-93" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E39" fromText="wiggle toes" toID="T1" toText="6-4-93" type="OVERLAP" />
+<TLINK id="Sectime7" fromID="E40" fromText="flexor" toID="T1" toText="6-4-93" type="OVERLAP" />
+<TLINK id="Sectime8" fromID="E41" fromText="plantar" toID="T1" toText="6-4-93" type="OVERLAP" />
+<TLINK id="Sectime10" fromID="E2" fromText="hypertension" toID="T0" toText="5-28-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime9" fromID="E42" fromText="Vasotec" toID="T1" toText="6-4-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime10" fromID="E43" fromText="Nifedipine" toID="T1" toText="6-4-93" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E44" fromText="Clonidine" toID="T1" toText="6-4-93" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E45" fromText="blood pressure" toID="T1" toText="6-4-93" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E46" fromText="systolic" toID="T1" toText="6-4-93" type="OVERLAP" />
+<TLINK id="Sectime14" fromID="E47" fromText="diastolic" toID="T1" toText="6-4-93" type="OVERLAP" />
+<TLINK id="Sectime15" fromID="E48" fromText="heart rate" toID="T1" toText="6-4-93" type="OVERLAP" />
+<TLINK id="Sectime11" fromID="E3" fromText="his medications" toID="T0" toText="5-28-93" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E49" fromText="Valium" toID="T1" toText="6-4-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime17" fromID="E50" fromText="Muscle spasms" toID="T1" toText="6-4-93" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E51" fromText="Flexeril" toID="T1" toText="6-4-93" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E52" fromText="Micronase" toID="T1" toText="6-4-93" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E53" fromText="resulting sugars" toID="T1" toText="6-4-93" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E4" fromText="Aldomet" toID="T0" toText="5-28-93" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E54" fromText="discharged" toID="T1" toText="6-4-93" type="OVERLAP" />
+<TLINK id="Sectime13" fromID="E5" fromText="Clonidine" toID="T0" toText="5-28-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime14" fromID="E6" fromText="adult onset diabetes mellitus" toID="T0" toText="5-28-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime15" fromID="E7" fromText="ankylosing spondylitis" toID="T0" toText="5-28-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime16" fromID="E8" fromText="myocardial infarction" toID="T0" toText="5-28-93" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E9" fromText="hemiplegia" toID="T0" toText="5-28-93" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E10" fromText="primary hemisensory loss on the left" toID="T0" toText="5-28-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime19" fromID="E11" fromText="slurred" toID="T0" toText="5-28-93" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E12" fromText="a mild central dull headache" toID="T0" toText="5-28-93" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E13" fromText="unable to move the left side of his body" toID="T0" toText="5-28-93" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E14" fromText="numb on that side" toID="T0" toText="5-28-93" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E15" fromText="Wayskemedcalltown Talmi" toID="T0" toText="5-28-93" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E16" fromText="transferred" toID="T0" toText="5-28-93" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E17" fromText="Heaonboburg Linpack Grant Medical Center" toID="T0" toText="5-28-93" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E18" fromText="a computerized tomography scan" toID="T0" toText="5-28-93" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E19" fromText="showing" toID="T0" toText="5-28-93" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E20" fromText="a 1x2 thalamic capsular hemorrhage" toID="T0" toText="5-28-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime29" fromID="E21" fromText="superficial mass effect" toID="T0" toText="5-28-93" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E22" fromText="His blood pressure" toID="T0" toText="5-28-93" type="BEFORE" />
+
+
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

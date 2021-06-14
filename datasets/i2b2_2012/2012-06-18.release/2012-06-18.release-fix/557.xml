@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2013-09-06
+Discharge Date :
+2013-09-18
+Service :
+NEUROLOGIC MEDICINE
+HISTORY OF PRESENT ILLNESS :
+This is an 86 year old woman who has a history of atrial fibrillation , peripheral vascular disease , and a history of atrial emboli who was admitted on 2013-09-06 , to the Neurologic Intensive Care Unit service after collapsing at home at 8:30 p.m .
+She was found to have right sided weakness and was noted by her husband to have vomited .
+She was found comatose at home by EMS and was brought to the Emergency Department .
+On arrival to the Emergency Department , she was noted to have a temperature of 98.2 , blood pressure 164/110 , respiratory rate 28 , and heart rate of 74 .
+She was found to be responsive only to painful stimuli at this time .
+She was intubated for airway protection and received multiple medications prior to her initial neurologic examination .
+She was also noted to have a cold distal left upper extremity which was operated on and she is now status post left brachial artery embolectomy .
+Throughout her course on the Intensive Care Unit service , she has remained unresponsive with imaging studies consistent with a large left middle cerebral artery and posterior cerebral artery distribution cerebral infarction with mass effect and midline shift .
+There is evidence of bilateral occipital and cerebellar infarctions as well .
+Discussion with the patient 's family by the Intensive Care Unit service has resulted in focusing on her comfort care .
+This decision was made after an extensive discussion with her husband and family as the likelihood of significant meaningful recovery is extremely low .
+Based on this , she is transferred to the Neurology service for focus on comfort care .
+HOSPITAL COURSE :
+The patient 's course up to the date of transfer to Neurology has been outlined above .
+Briefly , she is an 86 year old woman who has suffered multiple cardioembolic cerebral infarctions in multiple arterial territories .
+She has remained unresponsive throughout the hospitalization and currently only withdraws to pain .
+After extensive discussion with her family , her care was focused on comfort .
+A low dose Morphine drip was initiated after further serious discussion with her husband and nieces and nephews .
+The patient passed away peacefully on 2013-09-18 .
+The family did not want postmortem examination .
+Michael P Galuszka , M.D.
+46-348
+Dictated By : Melissa U Sangi , M.D.
+MEDQUIST36
+D : 2013-11-11 18:47
+T : 2013-11-11 19:46
+JOB #:
+93375
+Signed electronically by : DR. Ryann W. U. Galuszka on : TUE 2013-11-19 12:45 PM
+( End of Report )
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="1059" end="1082" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E28" start="1110" end="1122" text="unresponsive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="1128" end="1143" text="imaging studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="1200" end="1258" text="posterior cerebral artery distribution cerebral infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1264" end="1275" text="mass effect" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1280" end="1293" text="midline shift" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="1317" end="1363" text="bilateral occipital and cerebellar infarctions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="1415" end="1438" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E35" start="1475" end="1491" text="her comfort care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="166" end="185" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1670" end="1681" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1685" end="1698" text="the Neurology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E38" start="1720" end="1732" text="comfort care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1793" end="1801" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1805" end="1814" text="Neurology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="188" end="215" text="peripheral vascular disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1896" end="1972" text="multiple cardioembolic cerebral infarctions in multiple arterial territories" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1992" end="2004" text="unresponsive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="2016" end="2035" text="the hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="2068" end="2072" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="2144" end="2151" text="comfort" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="2154" end="2178" text="A low dose Morphine drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="2280" end="2291" text="passed away" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="235" end="248" text="atrial emboli" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="2343" end="2365" text="postmortem examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="257" end="265" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="285" end="319" text="the Neurologic Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="334" end="344" text="collapsing" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="389" end="409" text="right sided weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="447" end="454" text="vomited" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="471" end="479" text="comatose" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="491" end="494" text="EMS" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E12" start="514" end="538" text="the Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E13" start="544" end="551" text="arrival" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="555" end="579" text="the Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E15" start="604" end="617" text="a temperature" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="628" end="642" text="blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="653" end="669" text="respiratory rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="679" end="689" text="heart rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="718" end="752" text="responsive only to painful stimuli" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="776" end="785" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="790" end="807" text="airway protection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="821" end="841" text="multiple medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="851" end="885" text="her initial neurologic examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="915" end="949" text="a cold distal left upper extremity" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="960" end="968" text="operated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="999" end="1031" text="left brachial artery embolectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T0" start="18" end="28" text="2013-09-06" type="DATE" val="2013-09-06" mod="NA" />
+<TIMEX3 id="T5" start="2306" end="2316" text="2013-09-18" type="DATE" val="2013-09-18" mod="NA" />
+<TIMEX3 id="T2" start="269" end="279" text="2013-09-06" type="DATE" val="2013-09-06" mod="NA" />
+<TIMEX3 id="T3" start="356" end="364" text="8:30 p.m" type="TIME" val="2013-09-06T20:30" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2013-09-18" type="DATE" val="2013-09-18" mod="NA" />
+<TIMEX3 id="T4" start="756" end="765" text="this time" type="DATE" val="2013-09-06" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="TL1" fromID="E5" fromText="admitted" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL10" fromID="E8" fromText="right sided weakness" toID="E6" toText="the Neurologic Intensive Care Unit" type="BEFORE" />
+<TLINK id="TL11" fromID="E6" fromText="the Neurologic Intensive Care Unit" toID="E27" toText="the Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL12" fromID="E7" fromText="collapsing" toID="T3" toText="8:30 p.m" type="OVERLAP" />
+<TLINK id="TL13" fromID="E8" fromText="right sided weakness" toID="E7" toText="collapsing" type="AFTER" />
+<TLINK id="TL14" fromID="E8" fromText="right sided weakness" toID="E9" toText="vomited" type="OVERLAP" />
+<TLINK id="TL15" fromID="E10" fromText="comatose" toID="E11" toText="EMS" type="BEFORE" />
+<TLINK id="TL16" fromID="E11" fromText="EMS" toID="E12" toText="the Emergency Department" type="BEFORE" />
+<TLINK id="TL17" fromID="E12" fromText="the Emergency Department" toID="E14" toText="the Emergency Department" type="OVERLAP" />
+<TLINK id="TL18" fromID="E14" fromText="the Emergency Department" toID="E13" toText="arrival" type="AFTER" />
+<TLINK id="TL19" fromID="E14" fromText="the Emergency Department" toID="E15" toText="a temperature" type="OVERLAP" />
+<TLINK id="TL2" fromID="E13" fromText="arrival" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL20" fromID="E20" fromText="intubated" toID="E14" toText="the Emergency Department" type="OVERLAP" />
+<TLINK id="TL21" fromID="E27" fromText="the Intensive Care Unit" toID="E14" toText="the Emergency Department" type="OVERLAP" />
+<TLINK id="TL22" fromID="E14" fromText="the Emergency Department" toID="E16" toText="blood pressure" type="OVERLAP" />
+<TLINK id="TL23" fromID="E14" fromText="the Emergency Department" toID="E17" toText="respiratory rate" type="OVERLAP" />
+<TLINK id="TL24" fromID="E14" fromText="the Emergency Department" toID="E18" toText="heart rate" type="OVERLAP" />
+<TLINK id="TL25" fromID="E14" fromText="the Emergency Department" toID="E19" toText="responsive only to painful stimuli" type="OVERLAP" />
+<TLINK id="TL26" fromID="T4" fromText="this time" toID="E13" toText="arrival" type="OVERLAP" />
+<TLINK id="TL27" fromID="E19" fromText="responsive only to painful stimuli" toID="T4" toText="this time" type="OVERLAP" />
+<TLINK id="TL29" fromID="E21" fromText="airway protection" toID="E20" toText="intubated" type="AFTER" />
+<TLINK id="TL3" fromID="E43" fromText="the hospitalization" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL30" fromID="E22" fromText="multiple medications" toID="E20" toText="intubated" type="OVERLAP" />
+<TLINK id="TL31" fromID="E22" fromText="multiple medications" toID="E23" toText="her initial neurologic examination" type="BEFORE" />
+<TLINK id="TL32" fromID="E21" fromText="airway protection" toID="E22" toText="multiple medications" type="OVERLAP" />
+<TLINK id="TL33" fromID="E24" fromText="a cold distal left upper extremity" toID="E14" toText="the Emergency Department" type="OVERLAP" />
+<TLINK id="TL34" fromID="E24" fromText="a cold distal left upper extremity" toID="E25" toText="operated" type="BEFORE" />
+<TLINK id="TL35" fromID="E26" fromText="left brachial artery embolectomy" toID="E25" toText="operated" type="OVERLAP" />
+<TLINK id="TL36" fromID="E28" fromText="unresponsive" toID="E27" toText="the Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL37" fromID="E29" fromText="imaging studies" toID="E27" toText="the Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL38" fromID="E27" fromText="the Intensive Care Unit" toID="E34" toText="the Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL39" fromID="E30" fromText="posterior cerebral artery distribution cerebral infarction" toID="E29" toText="imaging studies" type="BEFORE" />
+<TLINK id="TL4" fromID="E43" fromText="the hospitalization" toID="E1" toText="Discharge" type="BEFORE" />
+<TLINK id="TL40" fromID="E33" fromText="bilateral occipital and cerebellar infarctions" toID="E30" toText="posterior cerebral artery distribution cerebral infarction" type="OVERLAP" />
+<TLINK id="TL41" fromID="E30" fromText="posterior cerebral artery distribution cerebral infarction" toID="E31" toText="mass effect" type="OVERLAP" />
+<TLINK id="TL42" fromID="E31" fromText="mass effect" toID="E32" toText="midline shift" type="OVERLAP" />
+<TLINK id="TL43" fromID="E32" fromText="midline shift" toID="E33" toText="bilateral occipital and cerebellar infarctions" type="OVERLAP" />
+<TLINK id="TL44" fromID="E35" fromText="her comfort care" toID="E34" toText="the Intensive Care Unit" type="AFTER" />
+<TLINK id="TL45" fromID="E34" fromText="the Intensive Care Unit" toID="E36" toText="transferred" type="BEFORE" />
+<TLINK id="TL46" fromID="E35" fromText="her comfort care" toID="E38" toText="comfort care" type="OVERLAP" />
+<TLINK id="TL47" fromID="E37" fromText="the Neurology" toID="E36" toText="transferred" type="AFTER" />
+<TLINK id="TL48" fromID="E36" fromText="transferred" toID="E39" toText="transfer" type="OVERLAP" />
+<TLINK id="TL5" fromID="E42" fromText="unresponsive" toID="E43" toText="the hospitalization" type="OVERLAP" />
+<TLINK id="TL50" fromID="E44" fromText="pain" toID="E42" toText="unresponsive" type="OVERLAP" />
+<TLINK id="TL51" fromID="E38" fromText="comfort care" toID="E45" toText="comfort" type="OVERLAP" />
+<TLINK id="TL52" fromID="E46" fromText="A low dose Morphine drip" toID="E45" toText="comfort" type="OVERLAP" />
+<TLINK id="TL53" fromID="E46" fromText="A low dose Morphine drip" toID="E47" toText="passed away" type="BEFORE" />
+<TLINK id="TL54" fromID="E47" fromText="passed away" toID="T5" toText="2013-09-18" type="OVERLAP" />
+<TLINK id="TL55" fromID="E48" fromText="postmortem examination" toID="E47" toText="passed away" type="AFTER" />
+<TLINK id="TL6" fromID="E1" fromText="Discharge" toID="T1" toText="2013-09-18" type="OVERLAP" />
+<TLINK id="TL7" fromID="E5" fromText="admitted" toID="T2" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="TL8" fromID="E5" fromText="admitted" toID="E6" toText="the Neurologic Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL9" fromID="E6" fromText="the Neurologic Intensive Care Unit" toID="E7" toText="collapsing" type="AFTER" />
+<TLINK id="SECTIME0" fromID="E27" fromText="the Intensive Care Unit" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME1" fromID="E28" fromText="unresponsive" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME2" fromID="E29" fromText="imaging studies" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME3" fromID="E30" fromText="posterior cerebral artery distribution cerebral infarction" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME4" fromID="E31" fromText="mass effect" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME5" fromID="E32" fromText="midline shift" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME6" fromID="E33" fromText="bilateral occipital and cerebellar infarctions" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME7" fromID="E34" fromText="the Intensive Care Unit" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME8" fromID="E35" fromText="her comfort care" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME9" fromID="E2" fromText="atrial fibrillation" toID="T0" toText="2013-09-06" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E36" fromText="transferred" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME11" fromID="E37" fromText="the Neurology" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME12" fromID="E38" fromText="comfort care" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME13" fromID="E39" fromText="transfer" toID="T1" toText="2013-09-18" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E40" fromText="Neurology" toID="T1" toText="2013-09-18" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E3" fromText="peripheral vascular disease" toID="T0" toText="2013-09-06" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E41" fromText="multiple cardioembolic cerebral infarctions in multiple arterial territories" toID="T1" toText="2013-09-18" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E42" fromText="unresponsive" toID="T1" toText="2013-09-18" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E43" fromText="the hospitalization" toID="T1" toText="2013-09-18" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E44" fromText="pain" toID="T1" toText="2013-09-18" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E45" fromText="comfort" toID="T1" toText="2013-09-18" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E46" fromText="A low dose Morphine drip" toID="T1" toText="2013-09-18" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E47" fromText="passed away" toID="T1" toText="2013-09-18" type="OVERLAP" />
+<TLINK id="SECTIME23" fromID="E4" fromText="atrial emboli" toID="T0" toText="2013-09-06" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E48" fromText="postmortem examination" toID="T1" toText="2013-09-18" type="OVERLAP" />
+<TLINK id="SECTIME25" fromID="E5" fromText="admitted" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME26" fromID="E6" fromText="the Neurologic Intensive Care Unit" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME27" fromID="E7" fromText="collapsing" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME28" fromID="E8" fromText="right sided weakness" toID="T0" toText="2013-09-06" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E9" fromText="vomited" toID="T0" toText="2013-09-06" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E10" fromText="comatose" toID="T0" toText="2013-09-06" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E11" fromText="EMS" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME32" fromID="E12" fromText="the Emergency Department" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME33" fromID="E13" fromText="arrival" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME34" fromID="E14" fromText="the Emergency Department" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME35" fromID="E15" fromText="a temperature" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME36" fromID="E16" fromText="blood pressure" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME37" fromID="E17" fromText="respiratory rate" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME38" fromID="E18" fromText="heart rate" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME39" fromID="E19" fromText="responsive only to painful stimuli" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME40" fromID="E20" fromText="intubated" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME41" fromID="E21" fromText="airway protection" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME42" fromID="E22" fromText="multiple medications" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME43" fromID="E23" fromText="her initial neurologic examination" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME44" fromID="E24" fromText="a cold distal left upper extremity" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME45" fromID="E25" fromText="operated" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<TLINK id="SECTIME46" fromID="E26" fromText="left brachial artery embolectomy" toID="T0" toText="2013-09-06" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2013-09-06" type="ADMISSION" dvalue="2013-09-06" />
+<SECTIME id="S1" start="46" end="56" text="2013-09-18" type="DISCHARGE" dvalue="2013-09-18" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

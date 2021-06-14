@@ -1,0 +1,46 @@
+Admission Date :
+2019-03-29
+Discharge Date :
+2019-04-01
+Service :
+NEUROLOGY
+History of Present Illness :
+The patient is a 83 yo R-handed man with a history of multiple intracranial hemorrhages during the last few years , pacemaker , hyperlipidemia , arrhythmia who now presents with gradual decline in gait and slowing of mentation over the last week .
+The patient had a fall about ten days ago , when he was walking the dog .
+The leash got wrapped around his legs .
+According to his wife he had a small abrasion on the top of his head , but nothing major .
+He did not complain about a headache .
+He was at baseline with respect to his gait ( at baseline unsteady , though he refuses to walk with a walker ) and his mentation ( at baseline difficulties with memory since months ; keeps forgetting appointments ).
+Then about a week ago , the patient and his wife noted that his gait became even more unsteady , though he did not fall .
+He also had difficulties navigating through his apartment , having difficulties finding the fridge for example .
+They were concerned that the fall might have caused another bleed , as had happened in the past , and this prompted them to come to the Deanna .
+No headache , neckpain , nausea , vomiting or focal weakness / numbness .
+Review of systems : denies any fever , chills , weight loss , visual changes , hearing changes , dysphagia , tingling , numbness , bowel-bladder dysfunction , chest pain , shortness of breath , abdominal pain , dysuria , hematuria , or bright red blood per rectum .
+His legs have been feeling weaker , bilaterally since the last week .
+Brief Hospital Course :
+The patient is a 83 yo man with a history of past intracranial hemorrhages ( most recent 07-01 with R-frontal hemorrhage ) who presented with gradually slowing of mentation and increased gait instability since one week .
+On initial exam the patient was not oriented to time , seemed somewhat slow , and had difficulties generating a list of animals .
+His cranial nerves and strength were full , and the sensory exam showed mildly decreased vibration and proprioception in both LE , suggesting peripheral neuropathy .
+A CT was performed in the Deanna that showed a new significant R-frontal intraparenchymal hemorrhage in the same location as the prior bleed .
+The patient was seen by both neurology and neurosurgery , and the two teams agreed that the etiology seemed to be related to underlying amyloidosis .
+During the last admission the question of a mass underlying a hemorrhage in the R-frontal region was raised .
+The location of the hemorrhage was not felt to be typical for hypertensive bleed ( cortical ) and it was felt to be unlikely that the recent fall was related to the bleed .
+The patient could not undergo an MRI due to his pacer .
+He was admitted to the neurology ICU for closer monitoring and was stable overnight - BP was initially elevated and required a labetalol drip for < 24 hours , then stabilized .
+The goal SBP of < 150 was achieved .
+Coags and UA were checked and were normal .
+For the question of seizure activity associated with a cortical bleed , he was started prophylactically on Keppra ( given questionable allergy to dilantin ) , at 500 mg bid ; no seizure activity was seen .
+This medication should be continued as an outpatient at least while the bleed has time to clear up , with planned titration up to 1000 mg bid on 04-05 .
+Head CT repeated on 03-30 was unchanged , and the patient remained stable with only very suble focal exam findings ( very mild right pronator drift ) as well as his persistently poor memory related to dementia .
+The plan after 24 hours was to transfer him to the floor , but the hospital was full and he never got a bed .
+Cardiovascularly , lipitor and amiodarone were continued .
+He could not get an MRI due to his pacemaker .
+There were no telemetry events , and he ruled out by enzyme .
+Pulmonlologically , his chest xray was negative and he complained of no breathing problems .
+Endocrinologically , BG was monitored to improve outcome in ICU setting though he had no history of DM .
+Of note , Hba1c done 03-04 was slightly elevated ( " borderline DM " ) at 6.3 ; this was repeated and was still pending on the day of discharge .
+Ins / outs and electrolytes were monitored and were not abnormal ; he was on a bowel regimen , VD boots and PUD prophylaxis with protonix during the admission .
+Walking was assessed later and the patient was unstable on his feet .
+PT was asked to see him for this gait problem .
+Brandon felt well and was seen by PT who suggested a rehab/Hahnemann Hospital ( Worcester ) to work on walking with the eventual goal of returning to assisted living with his wife when walking improved .
+Follow-up was arranged with neurosurgery in 5-6 weeks with repeat head ct to be arranged by neurosurgery office to make sure blood has cleared , and if indicated , to look for a possible underlying lesion ( although unlikely ) .

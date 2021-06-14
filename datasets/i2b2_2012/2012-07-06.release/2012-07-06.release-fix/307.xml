@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2014-04-19
+Discharge Date :
+2014-04-20
+Service :
+CMED CSRU
+HISTORY OF PRESENT ILLNESS :
+Baby Thomas Moss was born at 39 and 1/2 weeks gestation to a 20-year-old gravida IV , para III , now IV woman .
+The mother 's prenatal screens were blood type B positive , antibody negative , rubella immune , RPR nonreactive , hepatitis surface antigen negative and group B strep negative .
+This pregnancy was complicated by a prenatal diagnosis of a congenital cystic adenomatoid malformation
+( CCAM ).
+The mother was followed in the Massachusetts General Hospital Advanced Fetal Care Center and was followed by Dr. Ralph Wilson .
+The mother had spontaneous onset of labor and progressed to a spontaneous vaginal delivery .
+The infant emerged vigorous with Apgars of 9 at one and five minutes .
+His birth weight was 2905 grams .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="127" end="131" text="born" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="152" end="161" text="gestation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="179" end="186" text="gravida" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="192" end="196" text="para" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="218" end="248" text="The mother 's prenatal screens" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="254" end="264" text="blood type" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="278" end="286" text="antibody" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E12" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="298" end="305" text="rubella" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="315" end="318" text="RPR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="333" end="358" text="hepatitis surface antigen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="372" end="385" text="group B strep" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="397" end="411" text="This pregnancy" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="416" end="427" text="complicated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="431" end="451" text="a prenatal diagnosis" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="455" end="499" text="a congenital cystic adenomatoid malformation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="502" end="506" text="CCAM" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="525" end="533" text="followed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="537" end="598" text="the Massachusetts General Hospital Advanced Fetal Care Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E22" start="653" end="679" text="spontaneous onset of labor" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="698" end="728" text="a spontaneous vaginal delivery" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="742" end="749" text="emerged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="750" end="758" text="vigorous" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="764" end="770" text="Apgars" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="802" end="818" text="His birth weight" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T0" start="135" end="151" text="39 and 1/2 weeks" type="DURATION" val="p39.5w" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2014-04-19" type="DATE" val="2014-04-19" mod="NA" />
+<TIMEX3 id="T3" start="187" end="189" text="IV" type="FREQUENCY" val="r4" mod="NA" />
+<TIMEX3 id="T4" start="197" end="200" text="III" type="FREQUENCY" val="r3" mod="NA" />
+<TIMEX3 id="T5" start="207" end="209" text="IV" type="FREQUENCY" val="r4" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2014-04-20" type="DATE" val="2014-04-20" mod="NA" />
+<TIMEX3 id="T6" start="779" end="782" text="one" type="DURATION" val="PT1M" mod="NA" />
+<TIMEX3 id="T7" start="787" end="799" text="five minutes" type="DURATION" val="PT5M" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="2014-04-19" type="OVERLAP" />
+<TLINK id="TL1" fromID="E22" fromText="spontaneous onset of labor" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL10" fromID="T5" fromText="IV" toID="E13" toText="born" type="AFTER" />
+<TLINK id="TL11" fromID="E1" fromText="The mother 's prenatal screens" toID="E13" toText="born" type="BEFORE" />
+<TLINK id="TL12" fromID="E2" fromText="blood type" toID="E1" toText="The mother 's prenatal screens" type="OVERLAP" />
+<TLINK id="TL13" fromID="E3" fromText="antibody" toID="E2" toText="blood type" type="OVERLAP" />
+<TLINK id="TL14" fromID="E4" fromText="rubella" toID="E3" toText="antibody" type="OVERLAP" />
+<TLINK id="TL15" fromID="E5" fromText="RPR" toID="E4" toText="rubella" type="OVERLAP" />
+<TLINK id="TL16" fromID="E6" fromText="hepatitis surface antigen" toID="E5" toText="RPR" type="OVERLAP" />
+<TLINK id="TL17" fromID="E7" fromText="group B strep" toID="E6" toText="hepatitis surface antigen" type="OVERLAP" />
+<TLINK id="TL18" fromID="E17" fromText="This pregnancy" toID="E14" toText="gestation" type="OVERLAP" />
+<TLINK id="TL19" fromID="E18" fromText="complicated" toID="E17" toText="This pregnancy" type="OVERLAP" />
+<TLINK id="TL2" fromID="E12" fromText="Discharge" toID="T2" toText="2014-04-20" type="OVERLAP" />
+<TLINK id="TL20" fromID="E19" fromText="a prenatal diagnosis" toID="E18" toText="complicated" type="OVERLAP" />
+<TLINK id="TL21" fromID="E8" fromText="a congenital cystic adenomatoid malformation" toID="E19" toText="a prenatal diagnosis" type="BEFORE" />
+<TLINK id="TL22" fromID="E9" fromText="CCAM" toID="E8" toText="a congenital cystic adenomatoid malformation" type="OVERLAP" />
+<TLINK id="TL23" fromID="E20" fromText="followed" toID="E19" toText="a prenatal diagnosis" type="OVERLAP" />
+<TLINK id="TL24" fromID="E21" fromText="the Massachusetts General Hospital Advanced Fetal Care Center" toID="E20" toText="followed" type="OVERLAP" />
+<TLINK id="TL25" fromID="E22" fromText="spontaneous onset of labor" toID="E13" toText="born" type="BEFORE" />
+<TLINK id="TL26" fromID="E23" fromText="a spontaneous vaginal delivery" toID="E13" toText="born" type="OVERLAP" />
+<TLINK id="TL27" fromID="E23" fromText="a spontaneous vaginal delivery" toID="E24" toText="emerged" type="BEFORE" />
+<TLINK id="TL28" fromID="E13" fromText="born" toID="E24" toText="emerged" type="OVERLAP" />
+<TLINK id="TL29" fromID="E25" fromText="vigorous" toID="E24" toText="emerged" type="OVERLAP" />
+<TLINK id="TL3" fromID="T0" fromText="39 and 1/2 weeks" toID="E13" toText="born" type="BEFORE" />
+<TLINK id="TL30" fromID="E10" fromText="Apgars" toID="E24" toText="emerged" type="AFTER" />
+<TLINK id="TL31" fromID="E10" fromText="Apgars" toID="T6" toText="one" type="OVERLAP" />
+<TLINK id="TL32" fromID="E10" fromText="Apgars" toID="T7" toText="five minutes" type="OVERLAP" />
+<TLINK id="TL33" fromID="T7" fromText="five minutes" toID="T6" toText="one" type="AFTER" />
+<TLINK id="TL34" fromID="E11" fromText="His birth weight" toID="E25" toText="vigorous" type="OVERLAP" />
+<TLINK id="TL4" fromID="E13" fromText="born" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL5" fromID="E14" fromText="gestation" toID="T0" toText="39 and 1/2 weeks" type="OVERLAP" />
+<TLINK id="TL6" fromID="E15" fromText="gravida" toID="E13" toText="born" type="BEFORE" />
+<TLINK id="TL7" fromID="E16" fromText="para" toID="E13" toText="born" type="BEFORE" />
+<TLINK id="TL8" fromID="E15" fromText="gravida" toID="T3" toText="IV" type="OVERLAP" />
+<TLINK id="TL9" fromID="E16" fromText="para" toID="T4" toText="III" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2014-04-19" type="ADMISSION" dvalue="2014-04-19" />
+<SECTIME id="S1" start="46" end="56" text="2014-04-20" type="DISCHARGE" dvalue="2014-04-20" />
+<TLINK id="SECTIME0" fromID="E13" fromText="born" toID="T1" toText="2014-04-19" type="OVERLAP" />
+<TLINK id="SECTIME1" fromID="E14" fromText="gestation" toID="T1" toText="2014-04-19" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E15" fromText="gravida" toID="T1" toText="2014-04-19" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E16" fromText="para" toID="T1" toText="2014-04-19" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E1" fromText="The mother 's prenatal screens" toID="T1" toText="2014-04-19" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E2" fromText="blood type" toID="T1" toText="2014-04-19" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E3" fromText="antibody" toID="T1" toText="2014-04-19" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E4" fromText="rubella" toID="T1" toText="2014-04-19" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E5" fromText="RPR" toID="T1" toText="2014-04-19" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E6" fromText="hepatitis surface antigen" toID="T1" toText="2014-04-19" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E7" fromText="group B strep" toID="T1" toText="2014-04-19" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E17" fromText="This pregnancy" toID="T1" toText="2014-04-19" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E18" fromText="complicated" toID="T1" toText="2014-04-19" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E19" fromText="a prenatal diagnosis" toID="T1" toText="2014-04-19" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E8" fromText="a congenital cystic adenomatoid malformation" toID="T1" toText="2014-04-19" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E9" fromText="CCAM" toID="T1" toText="2014-04-19" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E20" fromText="followed" toID="T1" toText="2014-04-19" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E21" fromText="the Massachusetts General Hospital Advanced Fetal Care Center" toID="T1" toText="2014-04-19" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E22" fromText="spontaneous onset of labor" toID="T1" toText="2014-04-19" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E23" fromText="a spontaneous vaginal delivery" toID="T1" toText="2014-04-19" type="OVERLAP" />
+<TLINK id="SECTIME20" fromID="E24" fromText="emerged" toID="T1" toText="2014-04-19" type="OVERLAP" />
+<TLINK id="SECTIME21" fromID="E25" fromText="vigorous" toID="T1" toText="2014-04-19" type="OVERLAP" />
+<TLINK id="SECTIME22" fromID="E10" fromText="Apgars" toID="T1" toText="2014-04-19" type="OVERLAP" />
+<TLINK id="SECTIME23" fromID="E11" fromText="His birth weight" toID="T1" toText="2014-04-19" type="OVERLAP" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

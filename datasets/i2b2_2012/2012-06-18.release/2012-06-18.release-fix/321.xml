@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+01/04/96
+DISCHARGE DATE :
+01/10/96
+HISTORY OF PRESENT ILLNESS :
+This 78-year-old woman had stage IIIB carcinoma of the cervix and she has known periaortic and splenic metastases .
+She was discharged from the hospital about 18 days prior to her admission , following a month long stay .
+When her cancer was diagnosed , she underwent total abdominal hysterectomy and bilateral salpingo-oophorectomy and pelvic lymphadenectomy .
+She had extensive disease of the uterus , ovarian tubes , omentum and the periaortic lymph nodes .
+Postoperatively , she developed ileus , then finally she recovered and she was discharged to the nursing home .
+She was readmitted because of a problem with uremia and high BUN and creatinine when she seen in the office and the BUN and creatinine was ordered .
+The BUN was 70 and creatinine was 4.6 and for this reason she had ultrasound of the kidney which showed bilateral hydronephrosis .
+The patient was admitted to the hospital for ureteral stent placement .
+On the day of admission , she was generally stable and she had no evidence of disease in the pelvis , no bleeding and no other abnormality .
+HOSPITAL COURSE :
+Dr. Jescdrig was called and a consultation was done and he placed bilateral ureteral stents in her kidneys .
+Postoperatively , she diuresed very well .
+She had dropped her BUN and creatinine to normal and she was found to have may be metastatic disease to her skin on the right paraumbilical area .
+Because of her age and mental condition and the fact that she had cerebral atrophy , the decision was made for comfort unless she has any further problem and no further chemotherapy or treatment will be given .
+The possibility that she may need to receive radiation therapy to this area to prevent her from getting further obstruction was also brought up .
+Her family felt that at the present time , because her condition was no good , they would like to just take her home so that she could enjoy the quality of life .
+Indeed , at the time of discharge she was conscious and she was cooperative and she was able to communicate very nicely with everyone including her family , except for the mental instability that she had because of her cerebral atrophy due to senility .
+FOLLOW-UP :
+She will be followed in the Centu Fairgmer Queen Medical Center .
+AZEL U. HIBBSKAYS , M.D.
+DICTATING FOR :
+EARNRA HAWNSPANTKOTE , M.D.
+TR :
+yq
+DD :
+01/26/96
+TD :
+01/30/96 12:18 P
+cc :
+AZEL USANNE HIBBSKAYS , M.D. EARNRA HAWNSPANTKOTE , M.D.
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1021" end="1030" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1041" end="1057" text="generally stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="109" end="143" text="stage IIIB carcinoma of the cervix" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="1085" end="1106" text="disease in the pelvis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="1112" end="1120" text="bleeding" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E46" start="1128" end="1145" text="other abnormality" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E47" start="1194" end="1208" text="a consultation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="1232" end="1272" text="bilateral ureteral stents in her kidneys" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="1297" end="1305" text="diuresed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="1334" end="1341" text="her BUN" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E10" start="1346" end="1356" text="creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="1360" end="1366" text="normal" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E59" start="1379" end="1384" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E51" start="1400" end="1430" text="metastatic disease to her skin" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="1531" end="1547" text="cerebral atrophy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="156" end="195" text="known periaortic and splenic metastases" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="1576" end="1583" text="comfort" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="1599" end="1618" text="any further problem" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="1634" end="1646" text="chemotherapy" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E14" start="1650" end="1659" text="treatment" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E53" start="1721" end="1738" text="radiation therapy" modality="POSSIBLE" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1780" end="1799" text="further obstruction" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="1894" end="1898" text="good" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E60" start="1925" end="1938" text="take her home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="2009" end="2018" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="2027" end="2036" text="conscious" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="2049" end="2060" text="cooperative" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="206" end="216" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="2081" end="2092" text="communicate" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="2153" end="2175" text="the mental instability" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="2200" end="2220" text="her cerebral atrophy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="222" end="234" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E17" start="2228" end="2236" text="senility" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="258" end="271" text="her admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="297" end="301" text="stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="309" end="319" text="her cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="324" end="333" text="diagnosed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E2" start="350" end="378" text="total abdominal hysterectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="383" end="414" text="bilateral salpingo-oophorectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="419" end="441" text="pelvic lymphadenectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="452" end="540" text="extensive disease of the uterus , ovarian tubes , omentum and the periaortic lymph nodes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="575" end="580" text="ileus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="600" end="609" text="recovered" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="622" end="632" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="636" end="652" text="the nursing home" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E21" start="663" end="673" text="readmitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="700" end="706" text="uremia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="711" end="734" text="high BUN and creatinine" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="752" end="762" text="the office" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E34" start="767" end="774" text="the BUN" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E35" start="779" end="789" text="creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="804" end="811" text="The BUN" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="823" end="833" text="creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="870" end="894" text="ultrasound of the kidney" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="901" end="907" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E8" start="908" end="932" text="bilateral hydronephrosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="951" end="959" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="963" end="975" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E41" start="980" end="1004" text="ureteral stent placement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T4" start="1010" end="1030" text="the day of admission" type="DATE" val="1996-01-04" mod="NA" />
+<TIMEX3 id="T1" start="18" end="26" text="01/04/96" type="DATE" val="1996-01-04" mod="NA" />
+<TIMEX3 id="T5" start="1846" end="1862" text="the present time" type="DATE" val="1996-01-10" mod="APPROX" />
+<TIMEX3 id="T6" start="1997" end="2018" text="the time of discharge" type="DATE" val="1996-01-10" mod="NA" />
+<TIMEX3 id="T0" start="241" end="248" text="18 days" type="DURATION" val="P18D" mod="NA" />
+<TIMEX3 id="T3" start="286" end="296" text="month long" type="DURATION" val="P1M" mod="NA" />
+<TIMEX3 id="T2" start="44" end="52" text="01/10/96" type="DATE" val="1996-01-10" mod="NA" />
+<TLINK id="TL0" fromID="T1" fromText="01/04/96" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL1" fromID="E11" fromText="cerebral atrophy" toID="E16" toText="her cerebral atrophy" type="OVERLAP" />
+<TLINK id="TL10" fromID="E29" fromText="her admission" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL11" fromID="T3" fromText="month long" toID="E28" toText="the hospital" type="OVERLAP" />
+<TLINK id="TL12" fromID="E27" fromText="stage IIIB carcinoma of the cervix" toID="E30" toText="her cancer" type="OVERLAP" />
+<TLINK id="TL13" fromID="E30" fromText="her cancer" toID="E58" toText="diagnosed" type="BEFORE" />
+<TLINK id="TL14" fromID="E2" fromText="total abdominal hysterectomy" toID="E58" toText="diagnosed" type="AFTER" />
+<TLINK id="TL15" fromID="E2" fromText="total abdominal hysterectomy" toID="E3" toText="bilateral salpingo-oophorectomy" type="OVERLAP" />
+<TLINK id="TL16" fromID="E3" fromText="bilateral salpingo-oophorectomy" toID="E4" toText="pelvic lymphadenectomy" type="OVERLAP" />
+<TLINK id="TL17" fromID="E31" fromText="extensive disease of the uterus , ovarian tubes , omentum and the periaortic lymph nodes" toID="E30" toText="her cancer" type="OVERLAP" />
+<TLINK id="TL18" fromID="E5" fromText="ileus" toID="E4" toText="pelvic lymphadenectomy" type="AFTER" />
+<TLINK id="TL19" fromID="E20" fromText="recovered" toID="E5" toText="ileus" type="AFTER" />
+<TLINK id="TL2" fromID="E5" fromText="ileus" toID="E25" toText="stay" type="BEFORE" />
+<TLINK id="TL20" fromID="E19" fromText="discharged" toID="E20" toText="recovered" type="AFTER" />
+<TLINK id="TL21" fromID="E32" fromText="the nursing home" toID="E19" toText="discharged" type="AFTER" />
+<TLINK id="TL22" fromID="E21" fromText="readmitted" toID="E32" toText="the nursing home" type="AFTER" />
+<TLINK id="TL23" fromID="E6" fromText="uremia" toID="E21" toText="readmitted" type="BEFORE" />
+<TLINK id="TL24" fromID="E7" fromText="high BUN and creatinine" toID="E6" toText="uremia" type="OVERLAP" />
+<TLINK id="TL25" fromID="E7" fromText="high BUN and creatinine" toID="E33" toText="the office" type="OVERLAP" />
+<TLINK id="TL26" fromID="E34" fromText="the BUN" toID="E33" toText="the office" type="OVERLAP" />
+<TLINK id="TL27" fromID="E35" fromText="creatinine" toID="E33" toText="the office" type="OVERLAP" />
+<TLINK id="TL28" fromID="E36" fromText="The BUN" toID="E34" toText="the BUN" type="OVERLAP" />
+<TLINK id="TL29" fromID="E35" fromText="creatinine" toID="E37" toText="creatinine" type="OVERLAP" />
+<TLINK id="TL30" fromID="E38" fromText="ultrasound of the kidney" toID="E37" toText="creatinine" type="AFTER" />
+<TLINK id="TL31" fromID="E38" fromText="ultrasound of the kidney" toID="E39" toText="showed" type="OVERLAP" />
+<TLINK id="TL32" fromID="E8" fromText="bilateral hydronephrosis" toID="E39" toText="showed" type="BEFORE" />
+<TLINK id="TL33" fromID="E22" fromText="admitted" toID="E39" toText="showed" type="AFTER" />
+<TLINK id="TL34" fromID="E40" fromText="the hospital" toID="E22" toText="admitted" type="AFTER" />
+<TLINK id="TL35" fromID="E40" fromText="the hospital" toID="E26" toText="DISCHARGE" type="BEFORE" />
+<TLINK id="TL36" fromID="E22" fromText="admitted" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL37" fromID="E41" fromText="ureteral stent placement" toID="E40" toText="the hospital" type="OVERLAP" />
+<TLINK id="TL38" fromID="T4" fromText="the day of admission" toID="E43" toText="generally stable" type="OVERLAP" />
+<TLINK id="TL39" fromID="E43" fromText="generally stable" toID="E44" toText="disease in the pelvis" type="OVERLAP" />
+<TLINK id="TL4" fromID="E26" fromText="DISCHARGE" toID="T2" toText="01/10/96" type="OVERLAP" />
+<TLINK id="TL40" fromID="E44" fromText="disease in the pelvis" toID="E45" toText="bleeding" type="OVERLAP" />
+<TLINK id="TL41" fromID="E45" fromText="bleeding" toID="E46" toText="other abnormality" type="OVERLAP" />
+<TLINK id="TL42" fromID="E47" fromText="a consultation" toID="E40" toText="the hospital" type="OVERLAP" />
+<TLINK id="TL43" fromID="E47" fromText="a consultation" toID="E48" toText="bilateral ureteral stents in her kidneys" type="OVERLAP" />
+<TLINK id="TL44" fromID="E49" fromText="diuresed" toID="E48" toText="bilateral ureteral stents in her kidneys" type="AFTER" />
+<TLINK id="TL45" fromID="E49" fromText="diuresed" toID="E9" toText="her BUN" type="OVERLAP" />
+<TLINK id="TL46" fromID="E49" fromText="diuresed" toID="E10" toText="creatinine" type="OVERLAP" />
+<TLINK id="TL47" fromID="E10" fromText="creatinine" toID="E50" toText="normal" type="OVERLAP" />
+<TLINK id="TL48" fromID="E59" fromText="found" toID="E50" toText="normal" type="AFTER" />
+<TLINK id="TL49" fromID="E51" fromText="metastatic disease to her skin" toID="E59" toText="found" type="BEFORE" />
+<TLINK id="TL5" fromID="E27" fromText="stage IIIB carcinoma of the cervix" toID="E1" toText="known periaortic and splenic metastases" type="OVERLAP" />
+<TLINK id="TL50" fromID="E11" fromText="cerebral atrophy" toID="E59" toText="found" type="BEFORE" />
+<TLINK id="TL51" fromID="E52" fromText="comfort" toID="E59" toText="found" type="AFTER" />
+<TLINK id="TL52" fromID="E52" fromText="comfort" toID="E12" toText="any further problem" type="OVERLAP" />
+<TLINK id="TL53" fromID="E52" fromText="comfort" toID="E13" toText="chemotherapy" type="OVERLAP" />
+<TLINK id="TL54" fromID="E13" fromText="chemotherapy" toID="E14" toText="treatment" type="OVERLAP" />
+<TLINK id="TL55" fromID="E53" fromText="radiation therapy" toID="E54" toText="further obstruction" type="BEFORE" />
+<TLINK id="TL56" fromID="E53" fromText="radiation therapy" toID="E52" toText="comfort" type="AFTER" />
+<TLINK id="TL57" fromID="E55" fromText="good" toID="T5" toText="the present time" type="BEFORE" />
+<TLINK id="TL58" fromID="E60" fromText="take her home" toID="T5" toText="the present time" type="AFTER" />
+<TLINK id="TL59" fromID="E60" fromText="take her home" toID="E56" toText="discharge" type="AFTER" />
+<TLINK id="TL6" fromID="E28" fromText="the hospital" toID="E18" toText="discharged" type="BEFORE" />
+<TLINK id="TL60" fromID="E23" fromText="conscious" toID="E56" toText="discharge" type="BEFORE" />
+<TLINK id="TL61" fromID="E23" fromText="conscious" toID="E24" toText="cooperative" type="OVERLAP" />
+<TLINK id="TL62" fromID="E24" fromText="cooperative" toID="E57" toText="communicate" type="OVERLAP" />
+<TLINK id="TL63" fromID="E57" fromText="communicate" toID="E15" toText="the mental instability" type="OVERLAP" />
+<TLINK id="TL64" fromID="E16" fromText="her cerebral atrophy" toID="E15" toText="the mental instability" type="BEFORE" />
+<TLINK id="TL65" fromID="E17" fromText="senility" toID="E16" toText="her cerebral atrophy" type="BEFORE" />
+<TLINK id="TL7" fromID="E28" fromText="the hospital" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL8" fromID="E18" fromText="discharged" toID="T0" toText="18 days" type="OVERLAP" />
+<TLINK id="TL9" fromID="T0" fromText="18 days" toID="E29" toText="her admission" type="BEFORE" />
+<TLINK id="SECTIME0" fromID="E42" fromText="admission" toID="T1" toText="01/04/96" type="OVERLAP" />
+<TLINK id="SECTIME1" fromID="E43" fromText="generally stable" toID="T1" toText="01/04/96" type="OVERLAP" />
+<TLINK id="SECTIME2" fromID="E27" fromText="stage IIIB carcinoma of the cervix" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E44" fromText="disease in the pelvis" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E45" fromText="bleeding" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E46" fromText="other abnormality" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E47" fromText="a consultation" toID="T2" toText="01/10/96" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E48" fromText="bilateral ureteral stents in her kidneys" toID="T2" toText="01/10/96" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E49" fromText="diuresed" toID="T2" toText="01/10/96" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E9" fromText="her BUN" toID="T2" toText="01/10/96" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E10" fromText="creatinine" toID="T2" toText="01/10/96" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E50" fromText="normal" toID="T2" toText="01/10/96" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E59" fromText="found" toID="T2" toText="01/10/96" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E51" fromText="metastatic disease to her skin" toID="T2" toText="01/10/96" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E11" fromText="cerebral atrophy" toID="T2" toText="01/10/96" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E1" fromText="known periaortic and splenic metastases" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E52" fromText="comfort" toID="T2" toText="01/10/96" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E12" fromText="any further problem" toID="T2" toText="01/10/96" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E13" fromText="chemotherapy" toID="T2" toText="01/10/96" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E14" fromText="treatment" toID="T2" toText="01/10/96" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E53" fromText="radiation therapy" toID="T2" toText="01/10/96" type="AFTER" />
+<TLINK id="SECTIME21" fromID="E54" fromText="further obstruction" toID="T2" toText="01/10/96" type="AFTER" />
+<TLINK id="SECTIME22" fromID="E55" fromText="good" toID="T2" toText="01/10/96" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E60" fromText="take her home" toID="T2" toText="01/10/96" type="AFTER" />
+<TLINK id="SECTIME24" fromID="E56" fromText="discharge" toID="T2" toText="01/10/96" type="OVERLAP" />
+<TLINK id="SECTIME25" fromID="E23" fromText="conscious" toID="T2" toText="01/10/96" type="OVERLAP" />
+<TLINK id="SECTIME26" fromID="E24" fromText="cooperative" toID="T2" toText="01/10/96" type="OVERLAP" />
+<TLINK id="SECTIME27" fromID="E18" fromText="discharged" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E57" fromText="communicate" toID="T2" toText="01/10/96" type="OVERLAP" />
+<TLINK id="SECTIME29" fromID="E15" fromText="the mental instability" toID="T2" toText="01/10/96" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E16" fromText="her cerebral atrophy" toID="T2" toText="01/10/96" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E28" fromText="the hospital" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E17" fromText="senility" toID="T2" toText="01/10/96" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E29" fromText="her admission" toID="T1" toText="01/04/96" type="OVERLAP" />
+<TLINK id="SECTIME34" fromID="E25" fromText="stay" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E30" fromText="her cancer" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E58" fromText="diagnosed" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E2" fromText="total abdominal hysterectomy" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E3" fromText="bilateral salpingo-oophorectomy" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E4" fromText="pelvic lymphadenectomy" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E31" fromText="extensive disease of the uterus , ovarian tubes , omentum and the periaortic lymph nodes" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E5" fromText="ileus" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E20" fromText="recovered" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E19" fromText="discharged" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E32" fromText="the nursing home" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E21" fromText="readmitted" toID="T1" toText="01/04/96" type="OVERLAP" />
+<TLINK id="SECTIME46" fromID="E6" fromText="uremia" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E7" fromText="high BUN and creatinine" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E33" fromText="the office" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E34" fromText="the BUN" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E35" fromText="creatinine" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E36" fromText="The BUN" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E37" fromText="creatinine" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E38" fromText="ultrasound of the kidney" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E39" fromText="showed" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E8" fromText="bilateral hydronephrosis" toID="T1" toText="01/04/96" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E22" fromText="admitted" toID="T1" toText="01/04/96" type="OVERLAP" />
+<TLINK id="SECTIME57" fromID="E40" fromText="the hospital" toID="T1" toText="01/04/96" type="OVERLAP" />
+<TLINK id="SECTIME58" fromID="E41" fromText="ureteral stent placement" toID="T1" toText="01/04/96" type="AFTER" />
+<SECTIME id="S0" start="18" end="26" text="01/04/96" type="ADMISSION" dvalue="1996-01-04" />
+<SECTIME id="S1" start="44" end="52" text="01/10/96" type="DISCHARGE" dvalue="1996-01-10" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

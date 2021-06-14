@@ -1,0 +1,78 @@
+Admission Date :
+2019-01-19
+Discharge Date :
+2019-01-24
+Service : MEDICINE
+Allergies :
+History of Present Illness :
+This is a 37 y/o male patient with PMH Type I DM , HTN , gastroparesis , ESRD on HD ( last in 12/26 per patient ) who presents to CMED CCU with hypertensive urgency unable from the Larry .
+The patient early this morning to the Ruthie with his usual nausea , vomiting , abdominal pain and was found to be hypertensive to 256/110 , HR 102 , T 99.2 , RR 22 , 92% RA .
+History is difficult to obtain from patient d/t somnolence and lack of desire to participate in interview , but per Frank note he was diaphoretic and ' writing in pain ', vomiting clear substance .
+He was given ativan a total of 4 mg of ativan , 6 mg of dilaudid , labetolol 20 mg IV x 1 and hydralazine 10 mg IV x 1 without good response ( 200/99 ).
+He recieved 2L NS and was started on labetolol gtt and BP decreased to 161/79 .
+Tranferred to CMED CCU for further management while on labetolol gtt .
+Of note , the patient is admitted to hospital 3 times every month for similar complaints with last admission 1/20-2/1/07 .
+At that time BP was attributed to abdominal pain and inability to take PO meds d/t nausea / vomiting .
+Also had labile blood sugars with repeated episodes of hypoglycemia , and Strickland recommended sugars in the range of 150-200 .
+He eloped prior to formal discharge when his FS was found to be critically high - recommended to patient that he stay for repeat , but left AMA without signing any forms .
+Upon transfer to the CMED CCU the patient appears somewhat uncomfortable , reporting nausea and abdominal pain , but when questioned he was unable / unwilling to participate in HPI or exam d/t sleepiness .
+He denied CP , SOB , HA , vision changes , neck stiffness , dysuria , or other symptoms .
+In the CMED CCU he became hypotensive to SBP 80 s.
+Labetalol was stopped and he received a 500 cc fluid bolus and his blood pressure rose to SBP 90 s.
+Cardiac and infectious sources of hypotension were considered , but cardiac enzymes were not changed from prior studies and he had no localizing signs of infection ; blood cultures were sent and a ultrasound of the L arm AVF ordered to rule out abscess at the site .
+He received a partial HD session , limited by hypotension .
+Over night , his blood pressure trended up to 130 s systolic .
+He was restarted on his home blood pressure regimen .
+Renal consult team saw him 2019-01-20 and plan to next dialyze him on 2019-01-21 .
+He was to be called out to the medical floor on 2019-01-20 but became somnolent after receiving pain and anti-nausea meds , so he stayed in the ICU for closer monitoring of respiratory status , which spontaneously improved .
+His blood sugar at 10 pm was low at 22 and he was disoriented , which resolved with two glasses of juice ; he did not receive his standing dose of NPH that evening .
+Blood cultures returned positive with GPC in pairs and clusters , so a TTE and surveillance cultures were ordered and vancomycin was started .
+He was then called out to the medical floor on 01-21 .
+Brief Hospital Course :
+Pt admitted to medical floor in hemodynamically stable condition without specific complaints .
+# hypertensive urgency :
+Upon presentation it was unclear when last time was that patient took meds , but hypertension likely d/t inability to take meds in setting of N/V .
+Also contribution of autonomic dysfunction .
+No evidence of active end organ damage .
+Pt was treated with labetalol gtt in CMED CCU which was weaned off on 01-20 .
+carduac enzymes mildly elevated , felt 02-08 demand ischemia in setting of hypertensive urgency , CK and MB trended Mcewen at time of admission to medical floor .
+Pt 's hypertensive urgency was resolved upon admission to the medical floor .
+His SBP s ranged 140 s- 170 s .
+He was restarted on his home regimen of antihypertensives without difficulty ( metoprolol 75 tid , clonidine patch and oral , nifedipine 30 SR q daily ).
+he was discharged home with change in his regimen .
+# bacteremia :
+pt with 2/4 bottles coag neg staph on 01-19 and again on 01-20 .
+PORT was felt most likely source , and pt has had at least 2 sets of + blood cultures since it was placed .
+TTE was obtained which was not concerning for endocarditis .
+pt without stigmata of SBE .
+ID consult obtained which recommended removal of PORT , which was taken out on 01-23 .
+Pt will compelete a 2 week course of vancomycin at hemodialysis , which has been arranged by renal service .
+A PICC was breifly placed , however removed as it is unclear if pt can reliably flush this .
+PORT will be replaced on 2019-02-11 per IR ( Dr. Welsh placed last PORT , then removed it on 01-23 ), ordered placed in OMR .
+Indication :
+diabetic gastropathy causing inability to toleral oral antihypertensive medication prompting repeated Donald presentation for hypertensive urgency .
+Pt with surveillance cultures and port tip cultures showing NGTD on 01-24 , he will have futher surveillance cultures drawn at hemodialysis and followed by his nephrologist .
+# n/v/ abdominal pain : pt with multiple admissions with similar complaints , etiology 02-08 gastroparesis , improves considerably with ativan , dilaudid , reglan , pt was tolerating PO meds / diet at time of admission to medical service and was restarted on oral reglan .
+# DMI : Pt on sliding scale as inpatient and taking NPH 2 units BID at home .
+pt with two episodes of hypoglycemia ( FSBS 22 and 27 ), etiology unclear , pt followed by Strickland , who recommend no changes to current insulin regimen .
+will discharge pt with instructions to continue NPH 2 UNITS BID as Frederick Tracey recs .
+# CAD - pt denied cp / sob throughout hospitalization .
+Troponins rose at admission , however CK and MB trending Mcewen wat time of admission to medical service .
+Etiology felt most likely demand ischemia in setting of original hypertensive urgency with persistent elevation of trop 02-08 ESRD .
+Pt was continued on aspirin , metoprolol , nifedipine .
+# ESRD : etiology likely 02-08 DM and HTN , pt tolerating HD well , and underwent dialysis without difficulty on 01-24 .
+pt will be discharged home with plan to continue current dialysis schedule ( Tue / Th / Sat ).
+In addition pt will be given vancomycin at dialysis x 2 week course ( last day 2019-02-05 ) given his PORT line infection .
+He will have levels drawn at dialysis and be dosed with vancomycin as appropriate .
+Plan is for surveillance cultures to be drawn at dialysis .
+If negative , pt is scheduled for presumptively replacement of PORT on 2019-02-11 with interventional radiology ( dr. Arevalo ).
+Pt continued on home regimen of calcium acetate 667 mg , 3 capsules TID .
+# AV fistula : pt with h/o numerous clots in AV fistula .
+No signs of infection presently , and tolerating dialysis without difficulty .
+Pt was subtherapeuticon INR on admission , thus treated with heparin gtt .
+coumadin held on 01-22 for PORT removal , and restarted on 01-24 .
+Pt discharged with instructions to continue coumadin 1.5 mg po q daily with goal INR 02-09 .
+# DISPO :
+pt discharged home on 01-24 with instructions to complete 2 week course of vancomycin at hemodialysis for his PORT line infection .
+an appointment was made with interventional radiology on 2019-02-11 to replace his PORT , under the assumption that his surveillance cultures from dialysis remain negative .
+discussed this plan with renal service ( Anthony Mcknight ) who will communicate with pt 's outpatient dialysis service .

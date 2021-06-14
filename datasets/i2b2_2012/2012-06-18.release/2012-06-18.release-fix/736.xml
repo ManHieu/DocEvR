@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+03/17/1998
+Discharge Date :
+04/12/1998
+HISTORY OF PRESENT ILLNESS :
+The patient is a 68 year old with acute leukemia .
+The patient was in her usual state of health until about three weeks prior to admission when she began to notice increased weakness and bruising .
+She presented to a Wood Emergency Department six days prior to admission .
+Platelets were 9,000 , hemoglobin 9.5 , temperature was 100.4 .
+The patient had a smear there consistent with ALL .
+The patient was transferred to Norri Hospital .
+REVIEW OF SYSTEMS :
+No headache , no nausea , vomiting or diarrhea .
+Some shortness of breath with allergies , particularly cats .
+No chest pain .
+The patient had been doing aerobics three times a week until a couple of weeks before admission .
+HOSPITAL COURSE :
+A Hickman catheter was placed and the patient was begun on chemotherapy .
+The regimen included cyclophosphamide , daunorubicin , prednisone , Vincristine and PEG-asparaginase .
+The patient tolerated the chemotherapy regimen well .
+The patient began neutropenic on day five of induction .
+The patient &apos;s liver function tests began to rise and she began to experience pulmonary symptoms including increased crackles .
+The patient began to spike and a blood culture grew out Staphylococcusaureus .
+The patient was begun on Gentamicin , Vancomycin and Piperacillin , which was changed to Gentamicin and Ceftazidime .
+The patient continued to spike and was enrolled in a randomized trial , the patient was randomized to AmBisome antifungal treatment .
+An abdominal MRI was performed to assess continued elevated liver enzymes ; however , the MRI was negative .
+The patient was begun on Nafcillin due to continued spiking .
+The patient began to experience urinary retention and was straight catheterized .
+Thepatient developed a possible drug rash and Nafcillin was changed to Ancef .
+The patient became constipated ; this resolved with laxatives .
+The patient improved significantly and was thought to be ready for discharge by the 11th of April .
+She will follow up with her primary oncologists , Dr A and Dr Dark , at IVMC , after her discharge .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1010" end="1014" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1035" end="1046" text="neutropenic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1062" end="1071" text="induction" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1074" end="1114" text="The patient &apos;s liver function tests" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="1115" end="1128" text="began to rise" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1157" end="1175" text="pulmonary symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1186" end="1204" text="increased crackles" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="120" end="134" text="acute leukemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="1228" end="1233" text="spike" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="1238" end="1253" text="a blood culture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="1263" end="1283" text="Staphylococcusaureus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="1311" end="1321" text="Gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1324" end="1334" text="Vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1339" end="1351" text="Piperacillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="1375" end="1385" text="Gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="1390" end="1401" text="Ceftazidime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="1429" end="1434" text="spike" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="1455" end="1473" text="a randomized trial" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="1506" end="1535" text="AmBisome antifungal treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1538" end="1554" text="An abdominal MRI" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="156" end="181" text="her usual state of health" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="1589" end="1611" text="elevated liver enzymes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="1624" end="1631" text="the MRI" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="1636" end="1644" text="negative" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="1672" end="1681" text="Nafcillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="1699" end="1706" text="spiking" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="1741" end="1758" text="urinary retention" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="1767" end="1788" text="straight catheterized" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="1823" end="1832" text="drug rash" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="1837" end="1846" text="Nafcillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="1862" end="1867" text="Ancef" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E65" start="1889" end="1900" text="constipated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="1922" end="1931" text="laxatives" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E67" start="1946" end="1954" text="improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="2001" end="2010" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="2043" end="2052" text="follow up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="2119" end="2132" text="her discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="215" end="224" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="250" end="268" text="increased weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="273" end="281" text="bruising" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="288" end="297" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="301" end="328" text="a Wood Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E9" start="347" end="356" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="359" end="368" text="Platelets" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="382" end="392" text="hemoglobin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E12" start="399" end="410" text="temperature" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="439" end="446" text="a smear" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="469" end="472" text="ALL" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="491" end="502" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="506" end="520" text="Norri Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E18" start="546" end="554" text="headache" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E19" start="560" end="566" text="nausea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E20" start="569" end="577" text="vomiting" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E21" start="581" end="589" text="diarrhea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E71" start="597" end="616" text="shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="622" end="631" text="allergies" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="657" end="667" text="chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E25" start="697" end="705" text="aerobics" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="756" end="765" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="786" end="804" text="A Hickman catheter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="845" end="857" text="chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="860" end="871" text="The regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="881" end="897" text="cyclophosphamide" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="900" end="912" text="daunorubicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="915" end="925" text="prednisone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="928" end="939" text="Vincristine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="944" end="960" text="PEG-asparaginase" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="985" end="1009" text="the chemotherapy regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T7" start="1050" end="1058" text="day five" type="DATE" val="1998-03-22" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="03/17/1998" type="DATE" val="1998-03-17" mod="NA" />
+<TIMEX3 id="T9" start="194" end="211" text="three weeks prior" type="DATE" val="1998-02-24" mod="APPROX" />
+<TIMEX3 id="T8" start="2014" end="2031" text="the 11th of April" type="DATE" val="1998-04-11" mod="NA" />
+<TIMEX3 id="T3" start="329" end="337" text="six days" type="DATE" val="1998-03-11" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="04/12/1998" type="DATE" val="1998-04-12" mod="NA" />
+<TIMEX3 id="T4" start="706" end="724" text="three times a week" type="FREQUENCY" val="RP2.3D" mod="APPROX" />
+<TIMEX3 id="T5" start="731" end="765" text="a couple of weeks before admission" type="DATE" val="1998-03-03" mod="APPROX" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="03/17/1998" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="Discharge" toID="T1" toText="04/12/1998" type="OVERLAP" />
+<TLINK id="TL10" fromID="E7" fromText="presented" toID="T3" toText="six days" type="OVERLAP" />
+<TLINK id="TL11" fromID="E8" fromText="a Wood Emergency Department" toID="E7" toText="presented" type="AFTER" />
+<TLINK id="TL12" fromID="T3" fromText="six days" toID="E9" toText="admission" type="BEFORE" />
+<TLINK id="TL13" fromID="E9" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL15" fromID="E11" fromText="hemoglobin" toID="E10" toText="Platelets" type="OVERLAP" />
+<TLINK id="TL16" fromID="E12" fromText="temperature" toID="E11" toText="hemoglobin" type="OVERLAP" />
+<TLINK id="TL17" fromID="E14" fromText="a smear" toID="E12" toText="temperature" type="OVERLAP" />
+<TLINK id="TL18" fromID="E10" fromText="Platelets" toID="E8" toText="a Wood Emergency Department" type="OVERLAP" />
+<TLINK id="TL19" fromID="E15" fromText="ALL" toID="E14" toText="a smear" type="BEFORE" />
+<TLINK id="TL2" fromID="E2" fromText="acute leukemia" toID="E15" toText="ALL" type="OVERLAP" />
+<TLINK id="TL20" fromID="E8" fromText="a Wood Emergency Department" toID="E16" toText="transferred" type="BEFORE" />
+<TLINK id="TL21" fromID="E17" fromText="Norri Hospital" toID="E16" toText="transferred" type="AFTER" />
+<TLINK id="TL22" fromID="E17" fromText="Norri Hospital" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL23" fromID="E18" fromText="headache" toID="E8" toText="a Wood Emergency Department" type="BEFORE" />
+<TLINK id="TL24" fromID="E19" fromText="nausea" toID="E18" toText="headache" type="OVERLAP" />
+<TLINK id="TL25" fromID="E20" fromText="vomiting" toID="E19" toText="nausea" type="OVERLAP" />
+<TLINK id="TL26" fromID="E21" fromText="diarrhea" toID="E20" toText="vomiting" type="OVERLAP" />
+<TLINK id="TL27" fromID="E71" fromText="shortness of breath" toID="E23" toText="allergies" type="OVERLAP" />
+<TLINK id="TL28" fromID="E21" fromText="diarrhea" toID="E71" toText="shortness of breath" type="OVERLAP" />
+<TLINK id="TL29" fromID="E21" fromText="diarrhea" toID="E24" toText="chest pain" type="OVERLAP" />
+<TLINK id="TL3" fromID="E2" fromText="acute leukemia" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL30" fromID="E25" fromText="aerobics" toID="T5" toText="a couple of weeks before admission" type="BEFORE" />
+<TLINK id="TL31" fromID="E25" fromText="aerobics" toID="T4" toText="three times a week" type="OVERLAP" />
+<TLINK id="TL32" fromID="E25" fromText="aerobics" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL33" fromID="E27" fromText="A Hickman catheter" toID="E17" toText="Norri Hospital" type="AFTER" />
+<TLINK id="TL34" fromID="E28" fromText="chemotherapy" toID="E27" toText="A Hickman catheter" type="AFTER" />
+<TLINK id="TL35" fromID="E29" fromText="The regimen" toID="E28" toText="chemotherapy" type="OVERLAP" />
+<TLINK id="TL36" fromID="E30" fromText="cyclophosphamide" toID="E29" toText="The regimen" type="OVERLAP" />
+<TLINK id="TL37" fromID="E31" fromText="daunorubicin" toID="E30" toText="cyclophosphamide" type="OVERLAP" />
+<TLINK id="TL38" fromID="E32" fromText="prednisone" toID="E31" toText="daunorubicin" type="OVERLAP" />
+<TLINK id="TL39" fromID="E33" fromText="Vincristine" toID="E32" toText="prednisone" type="OVERLAP" />
+<TLINK id="TL4" fromID="E3" fromText="her usual state of health" toID="T9" toText="three weeks prior" type="BEFORE" />
+<TLINK id="TL40" fromID="E34" fromText="PEG-asparaginase" toID="E33" toText="Vincristine" type="OVERLAP" />
+<TLINK id="TL41" fromID="E35" fromText="the chemotherapy regimen" toID="E29" toText="The regimen" type="OVERLAP" />
+<TLINK id="TL42" fromID="E37" fromText="neutropenic" toID="T7" toText="day five" type="AFTER" />
+<TLINK id="TL43" fromID="E38" fromText="induction" toID="E35" toText="the chemotherapy regimen" type="OVERLAP" />
+<TLINK id="TL44" fromID="T7" fromText="day five" toID="E38" toText="induction" type="OVERLAP" />
+<TLINK id="TL45" fromID="E39" fromText="The patient &apos;s liver function tests" toID="E37" toText="neutropenic" type="OVERLAP" />
+<TLINK id="TL46" fromID="E39" fromText="The patient &apos;s liver function tests" toID="E40" toText="began to rise" type="BEFORE" />
+<TLINK id="TL47" fromID="E40" fromText="began to rise" toID="E41" toText="pulmonary symptoms" type="OVERLAP" />
+<TLINK id="TL48" fromID="E41" fromText="pulmonary symptoms" toID="E42" toText="increased crackles" type="OVERLAP" />
+<TLINK id="TL49" fromID="E42" fromText="increased crackles" toID="E43" toText="spike" type="OVERLAP" />
+<TLINK id="TL5" fromID="E4" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL50" fromID="E43" fromText="spike" toID="E44" toText="a blood culture" type="OVERLAP" />
+<TLINK id="TL51" fromID="E45" fromText="Staphylococcusaureus" toID="E44" toText="a blood culture" type="BEFORE" />
+<TLINK id="TL52" fromID="E46" fromText="Gentamicin" toID="E44" toText="a blood culture" type="AFTER" />
+<TLINK id="TL53" fromID="E47" fromText="Vancomycin" toID="E46" toText="Gentamicin" type="OVERLAP" />
+<TLINK id="TL54" fromID="E48" fromText="Piperacillin" toID="E47" toText="Vancomycin" type="OVERLAP" />
+<TLINK id="TL55" fromID="E49" fromText="Gentamicin" toID="E48" toText="Piperacillin" type="AFTER" />
+<TLINK id="TL56" fromID="E50" fromText="Ceftazidime" toID="E49" toText="Gentamicin" type="OVERLAP" />
+<TLINK id="TL57" fromID="E51" fromText="spike" toID="E43" toText="spike" type="OVERLAP" />
+<TLINK id="TL58" fromID="E59" fromText="spiking" toID="E51" toText="spike" type="OVERLAP" />
+<TLINK id="TL59" fromID="E51" fromText="spike" toID="E52" toText="a randomized trial" type="BEFORE" />
+<TLINK id="TL6" fromID="T9" fromText="three weeks prior" toID="E4" toText="admission" type="BEFORE" />
+<TLINK id="TL60" fromID="E52" fromText="a randomized trial" toID="E53" toText="AmBisome antifungal treatment" type="OVERLAP" />
+<TLINK id="TL61" fromID="E53" fromText="AmBisome antifungal treatment" toID="E54" toText="An abdominal MRI" type="OVERLAP" />
+<TLINK id="TL62" fromID="E55" fromText="elevated liver enzymes" toID="E54" toText="An abdominal MRI" type="BEFORE" />
+<TLINK id="TL63" fromID="E54" fromText="An abdominal MRI" toID="E56" toText="the MRI" type="OVERLAP" />
+<TLINK id="TL64" fromID="E56" fromText="the MRI" toID="E57" toText="negative" type="OVERLAP" />
+<TLINK id="TL65" fromID="E50" fromText="Ceftazidime" toID="E58" toText="Nafcillin" type="BEFORE" />
+<TLINK id="TL66" fromID="E59" fromText="spiking" toID="E58" toText="Nafcillin" type="BEFORE" />
+<TLINK id="TL67" fromID="E61" fromText="straight catheterized" toID="E60" toText="urinary retention" type="AFTER" />
+<TLINK id="TL68" fromID="E60" fromText="urinary retention" toID="E59" toText="spiking" type="OVERLAP" />
+<TLINK id="TL69" fromID="E63" fromText="Nafcillin" toID="E62" toText="drug rash" type="BEFORE" />
+<TLINK id="TL70" fromID="E64" fromText="Ancef" toID="E62" toText="drug rash" type="AFTER" />
+<TLINK id="TL71" fromID="E63" fromText="Nafcillin" toID="E58" toText="Nafcillin" type="OVERLAP" />
+<TLINK id="TL72" fromID="E65" fromText="constipated" toID="E66" toText="laxatives" type="BEFORE" />
+<TLINK id="TL73" fromID="E65" fromText="constipated" toID="E62" toText="drug rash" type="OVERLAP" />
+<TLINK id="TL74" fromID="E67" fromText="improved" toID="E65" toText="constipated" type="AFTER" />
+<TLINK id="TL75" fromID="E67" fromText="improved" toID="E68" toText="discharge" type="BEFORE" />
+<TLINK id="TL76" fromID="T8" fromText="the 11th of April" toID="E68" toText="discharge" type="BEFORE" />
+<TLINK id="TL77" fromID="E69" fromText="follow up" toID="E70" toText="her discharge" type="AFTER" />
+<TLINK id="TL78" fromID="E70" fromText="her discharge" toID="E68" toText="discharge" type="OVERLAP" />
+<TLINK id="TL8" fromID="E5" fromText="increased weakness" toID="T9" toText="three weeks prior" type="AFTER" />
+<TLINK id="TL9" fromID="E6" fromText="bruising" toID="E5" toText="increased weakness" type="OVERLAP" />
+<TLINK id="SECTIME0" fromID="E36" fromText="well" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E37" fromText="neutropenic" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E38" fromText="induction" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E39" fromText="The patient &apos;s liver function tests" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E40" fromText="began to rise" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E41" fromText="pulmonary symptoms" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E42" fromText="increased crackles" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E2" fromText="acute leukemia" toID="T0" toText="03/17/1998" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E43" fromText="spike" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E44" fromText="a blood culture" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E45" fromText="Staphylococcusaureus" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E46" fromText="Gentamicin" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E47" fromText="Vancomycin" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E48" fromText="Piperacillin" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E49" fromText="Gentamicin" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E50" fromText="Ceftazidime" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E51" fromText="spike" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E52" fromText="a randomized trial" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E53" fromText="AmBisome antifungal treatment" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E54" fromText="An abdominal MRI" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E3" fromText="her usual state of health" toID="T0" toText="03/17/1998" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E55" fromText="elevated liver enzymes" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E56" fromText="the MRI" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E57" fromText="negative" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E58" fromText="Nafcillin" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E59" fromText="spiking" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E60" fromText="urinary retention" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E61" fromText="straight catheterized" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E62" fromText="drug rash" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E63" fromText="Nafcillin" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E64" fromText="Ancef" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E65" fromText="constipated" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E66" fromText="laxatives" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E67" fromText="improved" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E68" fromText="discharge" toID="T1" toText="04/12/1998" type="OVERLAP" />
+<TLINK id="SECTIME35" fromID="E69" fromText="follow up" toID="T1" toText="04/12/1998" type="AFTER" />
+<TLINK id="SECTIME36" fromID="E70" fromText="her discharge" toID="T1" toText="04/12/1998" type="OVERLAP" />
+<TLINK id="SECTIME37" fromID="E4" fromText="admission" toID="T0" toText="03/17/1998" type="OVERLAP" />
+<TLINK id="SECTIME38" fromID="E5" fromText="increased weakness" toID="T0" toText="03/17/1998" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E6" fromText="bruising" toID="T0" toText="03/17/1998" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E7" fromText="presented" toID="T0" toText="03/17/1998" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E8" fromText="a Wood Emergency Department" toID="T0" toText="03/17/1998" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E9" fromText="admission" toID="T0" toText="03/17/1998" type="OVERLAP" />
+<TLINK id="SECTIME43" fromID="E10" fromText="Platelets" toID="T0" toText="03/17/1998" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E11" fromText="hemoglobin" toID="T0" toText="03/17/1998" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E12" fromText="temperature" toID="T0" toText="03/17/1998" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E14" fromText="a smear" toID="T0" toText="03/17/1998" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E15" fromText="ALL" toID="T0" toText="03/17/1998" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E16" fromText="transferred" toID="T0" toText="03/17/1998" type="OVERLAP" />
+<TLINK id="SECTIME49" fromID="E17" fromText="Norri Hospital" toID="T0" toText="03/17/1998" type="OVERLAP" />
+<TLINK id="SECTIME50" fromID="E18" fromText="headache" toID="T0" toText="03/17/1998" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E19" fromText="nausea" toID="T0" toText="03/17/1998" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E20" fromText="vomiting" toID="T0" toText="03/17/1998" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E21" fromText="diarrhea" toID="T0" toText="03/17/1998" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E71" fromText="shortness of breath" toID="T0" toText="03/17/1998" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E23" fromText="allergies" toID="T0" toText="03/17/1998" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E24" fromText="chest pain" toID="T0" toText="03/17/1998" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E25" fromText="aerobics" toID="T0" toText="03/17/1998" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E26" fromText="admission" toID="T0" toText="03/17/1998" type="OVERLAP" />
+<TLINK id="SECTIME59" fromID="E27" fromText="A Hickman catheter" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E28" fromText="chemotherapy" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E29" fromText="The regimen" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E30" fromText="cyclophosphamide" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E31" fromText="daunorubicin" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E32" fromText="prednisone" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E33" fromText="Vincristine" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E34" fromText="PEG-asparaginase" toID="T1" toText="04/12/1998" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E35" fromText="the chemotherapy regimen" toID="T1" toText="04/12/1998" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="03/17/1998" type="ADMISSION" dvalue="1998-03-17" />
+<SECTIME id="S1" start="46" end="56" text="04/12/1998" type="DISCHARGE" dvalue="1998-04-12" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

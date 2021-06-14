@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2011-11-18
+Discharge Date :
+2011-11-22
+Service :
+CCU
+HISTORY OF PRESENT ILLNESS :
+The patient is a 61 - year-old Caucasian-speaking woman with a history of hypercholesterolemia and tobacco use who developed waxing and waning left substernal chest pain with radiation to the left shoulder on 2011-11-17 which lasted that entire day .
+Upon waking on the morning of admission , she had 10/10 chest pain associated with nausea .
+She presented to Charlton Memorial Hospital Hospital Emergency Department with inferior ST elevations ; at which time she became acutely hypotensive to a systolic blood pressure of 70 to 80 after receiving one ublingual nitroglycerin .
+She then became bradycardic which responded to atropine and intravenous fluids .
+In addition , she was given aspirin , Plavix , heparin , and morphine .
+Immediately prior to transfer to Worcester State Hospital , she went into ventricular fibrillation arrest at 12:30 p.m. , at which time she was intubated and defibrillated back to sinus rhythm after five shocks .
+She received an amiodarone bolus of 150 mg intravenously and was continued on an amiodarone drip while CMED CSRU-flighted to Boston Regional Medical Center_ where she underwent a catheterization .
+The cardiac catheterization revealed a total occlusion of the proximal right coronary artery and diffuse right coronary artery disease .
+She received three stents to the right coronary artery which was complicated by a proximal dissection .
+She had good post percutaneous coronary intervention angiographic results .
+Incidentally , an aortogram during the catheterization revealed a Debakey class I aortic ascending aneurysm , and the patient had a pulmonary capillary wedge pressure of 20 at the time of catheterization .
+She was transferred to the Coronary Care Unit in stable condition and still intubated .
+HOSPITAL COURSE :
+1. CARDIOVASCULAR SYSTEM :
+On the night of admission , the patient experienced post catheterization hypotension which required intravenous fluids and dopamine .
+Electrocardiogram the following morning revealed normalization of her ST segments with evolution of Q waves .
+Her dopamine was weaned off the following day , and her heparin was discontinued secondary to a right groin hematoma which had developed after the sheath had been pulled out by the fellow .
+Her creatine kinases climbed ; reaching a peak of 3523 , which was down to 1500 at the time of discharge .
+Also noted on the day of 11-20 , the patient self-extubated herself .
+For her coronary artery disease , status post catheterization , she was given Integrilin for 18 hours .
+She was continued on aspirin , Plavix , and Lipitor .
+For her rhythm , amiodarone was discontinued as she was maintained in sinus rhythm after moving to the floor .
+For pump , once transferred out of the Coronary Care Unit on 2011-11-20 , a beta blocker was begun at 12.5 mg of Lopressor p.o. b.i.d. which was titrated to 25 mg at the time of discharge .
+Also , at the time of discharge , for increased afterload reduction , she was started on lisinopril 5 mg p.o. q.d.
+On 2011-11-21 , the patient experienced atypical chest pain which was made worse with inspiration and movement .
+It was not associated with any nausea or vomiting .
+It did not radiate .
+It was felt to be pain secondary to her self-extubation and noncardiac chest pain .
+An electrocardiogram was checked which revealed no ST changes , and there was no increase in her downward trending creatine phosphokinases .
+No further intervention was done .
+The patient was treated with Tylenol orally as well as Ativan for anxiety that she had about going home .
+She was pain free on the day of discharge .
+Regarding her aortic ascending aneurysm , Cardiothoracic Surgery was consulted regarding further workup .
+At their request , a CT scan of the chest with contrast was performed on the day of discharge .
+Dr. Streeter from Cardiothoracic Surgery will follow up with the patient for further management in approximately one month as an outpatient .
+His office will contact her to make that appointment .
+2. PULMONARY SYSTEM :
+As stated above , the patient self-extubated herself .
+She complained of a sore throat which was likely the etiology of her atypical chest complaints .
+This resolved with Tylenol and as needed doses of oxycodone .
+Her lungs remained clear to auscultation bilaterally throughout the remainder of her hospital course .
+At the time of this dictation , the CT of her chest was still pending .
+The official result was not yet in .
+3. FLUIDS / ELECTROLYTES / NUTRITION :
+The patient 's electrolytes sere managed daily and repleted on an as needed basis .
+She did receive intravenous K-Phos for a low phosphorous of 1.5 .
+Her phosphorous rose appropriately to 3.6 at the time of discharge .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E135" start="1012" end="1024" text="sinus rhythm" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="1031" end="1042" text="five shocks" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="1058" end="1077" text="an amiodarone bolus" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="1123" end="1141" text="an amiodarone drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="1148" end="1166" text="CMED CSRU-flighted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="1170" end="1201" text="Boston Regional Medical Center_" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E32" start="1222" end="1239" text="a catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="1242" end="1269" text="The cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E35" start="1270" end="1278" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E34" start="1279" end="1334" text="a total occlusion of the proximal right coronary artery" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1339" end="1376" text="diffuse right coronary artery disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1392" end="1433" text="three stents to the right coronary artery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="1459" end="1480" text="a proximal dissection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="1496" end="1556" text="post percutaneous coronary intervention angiographic results" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="1574" end="1586" text="an aortogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="1594" end="1613" text="the catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="1614" end="1622" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E43" start="1623" end="1666" text="a Debakey class I aortic ascending aneurysm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="1689" end="1725" text="a pulmonary capillary wedge pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="174" end="194" text="hypercholesterolemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="1747" end="1762" text="catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="1773" end="1784" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="1788" end="1810" text="the Coronary Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E136" start="1814" end="1830" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="1841" end="1850" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="1914" end="1923" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="1950" end="1982" text="post catheterization hypotension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="199" end="210" text="tobacco use" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1998" end="2016" text="intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="2021" end="2029" text="dopamine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="2032" end="2049" text="Electrocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E54" start="2072" end="2080" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E56" start="2081" end="2113" text="normalization of her ST segments" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="2119" end="2139" text="evolution of Q waves" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="2142" end="2154" text="Her dopamine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="2194" end="2205" text="her heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="2236" end="2258" text="a right groin hematoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="225" end="269" text="waxing and waning left substernal chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="2285" end="2295" text="the sheath" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="2332" end="2352" text="Her creatine kinases" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="2353" end="2360" text="climbed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="2389" end="2394" text="which" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E63" start="2399" end="2403" text="down" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="2427" end="2436" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E66" start="2484" end="2498" text="self-extubated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="2513" end="2540" text="her coronary artery disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="2555" end="2570" text="catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E69" start="2587" end="2597" text="Integrilin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="2634" end="2641" text="aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="2644" end="2650" text="Plavix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="2657" end="2664" text="Lipitor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E73" start="2684" end="2694" text="amiodarone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E146" start="2737" end="2749" text="sinus rhythm" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="275" end="305" text="radiation to the left shoulder" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="2756" end="2762" text="moving" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="2766" end="2775" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E75" start="2794" end="2805" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="2813" end="2835" text="the Coronary Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E78" start="2852" end="2866" text="a beta blocker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="2891" end="2900" text="Lopressor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E147" start="2923" end="2931" text="titrated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E80" start="2956" end="2965" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E81" start="2990" end="2999" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E82" start="3006" end="3035" text="increased afterload reduction" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E83" start="3057" end="3067" text="lisinopril" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E84" start="3123" end="3142" text="atypical chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="3158" end="3163" text="worse" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E86" start="3169" end="3180" text="inspiration" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="3185" end="3193" text="movement" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E88" start="3196" end="3198" text="It" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E89" start="3223" end="3233" text="any nausea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E90" start="3237" end="3245" text="vomiting" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E91" start="3248" end="3250" text="It" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E92" start="3259" end="3266" text="radiate" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E93" start="3269" end="3271" text="It" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E94" start="3287" end="3291" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E95" start="3305" end="3324" text="her self-extubation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E96" start="3329" end="3350" text="noncardiac chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E97" start="3353" end="3373" text="An electrocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E98" start="3392" end="3400" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E99" start="3404" end="3414" text="ST changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E101" start="3434" end="3442" text="increase" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E100" start="3468" end="3491" text="creatine phosphokinases" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E102" start="3497" end="3517" text="further intervention" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E103" start="3558" end="3572" text="Tylenol orally" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E104" start="3584" end="3590" text="Ativan" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E105" start="3595" end="3602" text="anxiety" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E106" start="3643" end="3647" text="pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E107" start="3667" end="3676" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E108" start="3689" end="3718" text="her aortic ascending aneurysm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="3721" end="3743" text="Cardiothoracic Surgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E110" start="3768" end="3782" text="further workup" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E111" start="3804" end="3826" text="a CT scan of the chest" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="381" end="390" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E112" start="3832" end="3840" text="contrast" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E113" start="3869" end="3878" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E114" start="3899" end="3921" text="Cardiothoracic Surgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E115" start="3927" end="3936" text="follow up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E116" start="3958" end="3976" text="further management" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="407" end="417" text="chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E117" start="4130" end="4144" text="self-extubated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E118" start="4159" end="4169" text="complained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E119" start="4173" end="4186" text="a sore throat" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E120" start="4220" end="4249" text="her atypical chest complaints" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E121" start="4252" end="4256" text="This" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E122" start="4271" end="4278" text="Tylenol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E123" start="4302" end="4311" text="oxycodone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="434" end="440" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E126" start="4333" end="4338" text="clear" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E124" start="4342" end="4354" text="auscultation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E125" start="4395" end="4414" text="her hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E127" start="4432" end="4446" text="this dictation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E128" start="4449" end="4468" text="the CT of her chest" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="447" end="456" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E148" start="4489" end="4508" text="The official result" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E129" start="4565" end="4592" text="The patient 's electrolytes" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E149" start="4598" end="4605" text="managed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="460" end="516" text="Charlton Memorial Hospital Hospital Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E150" start="4616" end="4624" text="repleted" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E130" start="4665" end="4683" text="intravenous K-Phos" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E131" start="4688" end="4705" text="a low phosphorous" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E132" start="4715" end="4730" text="Her phosphorous" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E133" start="4731" end="4735" text="rose" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E134" start="4772" end="4781" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="522" end="544" text="inferior ST elevations" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="572" end="591" text="acutely hypotensive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="595" end="620" text="a systolic blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="653" end="676" text="ublingual nitroglycerin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="695" end="706" text="bradycardic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="726" end="734" text="atropine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="739" end="757" text="intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="788" end="795" text="aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="798" end="804" text="Plavix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="807" end="814" text="heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="821" end="829" text="morphine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="853" end="861" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="865" end="889" text="Worcester State Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E24" start="906" end="937" text="ventricular fibrillation arrest" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="976" end="985" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="990" end="1003" text="defibrillated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T0" start="18" end="28" text="2011-11-18" type="DATE" val="2011-11-18" mod="NA" />
+<TIMEX3 id="T7" start="1901" end="1910" text="the night" type="DATE" val="2011-11-18" mod="END" />
+<TIMEX3 id="T8" start="2050" end="2071" text="the following morning" type="DATE" val="2011-11-19" mod="START" />
+<TIMEX3 id="T9" start="2170" end="2187" text="the following day" type="DATE" val="2011-11-20" mod="NA" />
+<TIMEX3 id="T10" start="2415" end="2423" text="the time" type="DATE" val="2011-11-22" mod="NA" />
+<TIMEX3 id="T11" start="2464" end="2469" text="11-20" type="DATE" val="2011-11-20" mod="NA" />
+<TIMEX3 id="T12" start="2602" end="2610" text="18 hours" type="DURATION" val="PT18H" mod="NA" />
+<TIMEX3 id="T13" start="2839" end="2849" text="2011-11-20" type="DATE" val="2011-11-20" mod="NA" />
+<TIMEX3 id="T14" start="2906" end="2912" text="b.i.d." type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T15" start="2944" end="2952" text="the time" type="DATE" val="2011-11-22" mod="NA" />
+<TIMEX3 id="T16" start="2978" end="2986" text="the time" type="DATE" val="2011-11-22" mod="NA" />
+<TIMEX3 id="T21" start="3078" end="3082" text="q.d." type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T17" start="3086" end="3096" text="2011-11-21" type="DATE" val="2011-11-21" mod="NA" />
+<TIMEX3 id="T6" start="309" end="319" text="2011-11-17" type="DATE" val="2011-11-17" mod="NA" />
+<TIMEX3 id="T3" start="338" end="348" text="entire day" type="DURATION" val="P1D" mod="NA" />
+<TIMEX3 id="T18" start="3656" end="3663" text="the day" type="DATE" val="2011-11-22" mod="NA" />
+<TIMEX3 id="T4" start="366" end="377" text="the morning" type="DATE" val="2011-11-18" mod="START" />
+<TIMEX3 id="T19" start="3858" end="3865" text="the day" type="DATE" val="2011-11-22" mod="NA" />
+<TIMEX3 id="T20" start="3980" end="4003" text="approximately one month" type="DATE" val="2011-12-22" mod="NA" />
+<TIMEX3 id="T26" start="4286" end="4292" text="needed" type="FREQUENCY" val="R" mod="NA" />
+<TIMEX3 id="T24" start="4420" end="4428" text="the time" type="DATE" val="2012-11-22" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2011-11-22" type="DATE" val="2011-11-22" mod="NA" />
+<TIMEX3 id="T23" start="4606" end="4611" text="daily" type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T25" start="4628" end="4646" text="an as needed basis" type="FREQUENCY" val="R" mod="NA" />
+<TIMEX3 id="T22" start="4760" end="4768" text="the time" type="DATE" val="2011-11-22" mod="NA" />
+<TIMEX3 id="T5" start="941" end="951" text="12:30 p.m." type="TIME" val="2011-11-18T12:30" mod="NA" />
+<TLINK id="TL0" fromID="T6" fromText="2011-11-17" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL1" fromID="E0" fromText="Admission" toID="T0" toText="2011-11-18" type="OVERLAP" />
+<TLINK id="TL10" fromID="E4" fromText="waxing and waning left substernal chest pain" toID="T6" toText="2011-11-17" type="AFTER" />
+<TLINK id="TL100" fromID="E67" fromText="her coronary artery disease" toID="E36" toText="diffuse right coronary artery disease" type="OVERLAP" />
+<TLINK id="TL101" fromID="E68" fromText="catheterization" toID="E33" toText="The cardiac catheterization" type="OVERLAP" />
+<TLINK id="TL102" fromID="E69" fromText="Integrilin" toID="T12" toText="18 hours" type="OVERLAP" />
+<TLINK id="TL103" fromID="E69" fromText="Integrilin" toID="E70" toText="aspirin" type="OVERLAP" />
+<TLINK id="TL104" fromID="E70" fromText="aspirin" toID="E71" toText="Plavix" type="OVERLAP" />
+<TLINK id="TL105" fromID="E71" fromText="Plavix" toID="E72" toText="Lipitor" type="OVERLAP" />
+<TLINK id="TL106" fromID="E72" fromText="Lipitor" toID="E73" toText="amiodarone" type="OVERLAP" />
+<TLINK id="TL107" fromID="E73" fromText="amiodarone" toID="E146" toText="sinus rhythm" type="BEFORE" />
+<TLINK id="TL108" fromID="E146" fromText="sinus rhythm" toID="E77" toText="moving" type="AFTER" />
+<TLINK id="TL109" fromID="E74" fromText="the floor" toID="E77" toText="moving" type="AFTER" />
+<TLINK id="TL11" fromID="E4" fromText="waxing and waning left substernal chest pain" toID="T3" toText="entire day" type="OVERLAP" />
+<TLINK id="TL110" fromID="E77" fromText="moving" toID="E75" toText="transferred" type="OVERLAP" />
+<TLINK id="TL111" fromID="E76" fromText="the Coronary Care Unit" toID="E75" toText="transferred" type="BEFORE" />
+<TLINK id="TL112" fromID="E75" fromText="transferred" toID="T13" toText="2011-11-20" type="OVERLAP" />
+<TLINK id="TL113" fromID="E76" fromText="the Coronary Care Unit" toID="E47" toText="the Coronary Care Unit" type="OVERLAP" />
+<TLINK id="TL114" fromID="E76" fromText="the Coronary Care Unit" toID="T13" toText="2011-11-20" type="BEFORE" />
+<TLINK id="TL115" fromID="E79" fromText="Lopressor" toID="E78" toText="a beta blocker" type="OVERLAP" />
+<TLINK id="TL116" fromID="E78" fromText="a beta blocker" toID="T13" toText="2011-11-20" type="AFTER" />
+<TLINK id="TL117" fromID="E79" fromText="Lopressor" toID="T14" toText="b.i.d." type="OVERLAP" />
+<TLINK id="TL118" fromID="T15" fromText="the time" toID="E147" toText="titrated" type="OVERLAP" />
+<TLINK id="TL119" fromID="E147" fromText="titrated" toID="T14" toText="b.i.d." type="AFTER" />
+<TLINK id="TL12" fromID="E4" fromText="waxing and waning left substernal chest pain" toID="E5" toText="radiation to the left shoulder" type="OVERLAP" />
+<TLINK id="TL120" fromID="T15" fromText="the time" toID="E80" toText="discharge" type="OVERLAP" />
+<TLINK id="TL121" fromID="T16" fromText="the time" toID="T15" toText="the time" type="OVERLAP" />
+<TLINK id="TL122" fromID="E107" fromText="discharge" toID="E80" toText="discharge" type="OVERLAP" />
+<TLINK id="TL123" fromID="E81" fromText="discharge" toID="E80" toText="discharge" type="OVERLAP" />
+<TLINK id="TL124" fromID="T16" fromText="the time" toID="E81" toText="discharge" type="OVERLAP" />
+<TLINK id="TL125" fromID="T17" fromText="2011-11-21" toID="E81" toText="discharge" type="BEFORE" />
+<TLINK id="TL126" fromID="E83" fromText="lisinopril" toID="E81" toText="discharge" type="AFTER" />
+<TLINK id="TL127" fromID="E82" fromText="increased afterload reduction" toID="E81" toText="discharge" type="BEFORE" />
+<TLINK id="TL128" fromID="E83" fromText="lisinopril" toID="T16" toText="the time" type="AFTER" />
+<TLINK id="TL129" fromID="E83" fromText="lisinopril" toID="T21" toText="q.d." type="OVERLAP" />
+<TLINK id="TL13" fromID="E5" fromText="radiation to the left shoulder" toID="T3" toText="entire day" type="OVERLAP" />
+<TLINK id="TL130" fromID="E84" fromText="atypical chest pain" toID="T17" toText="2011-11-21" type="OVERLAP" />
+<TLINK id="TL131" fromID="E94" fromText="pain" toID="E84" toText="atypical chest pain" type="OVERLAP" />
+<TLINK id="TL132" fromID="E84" fromText="atypical chest pain" toID="E89" toText="any nausea" type="OVERLAP" />
+<TLINK id="TL133" fromID="E88" fromText="It" toID="E84" toText="atypical chest pain" type="OVERLAP" />
+<TLINK id="TL134" fromID="E84" fromText="atypical chest pain" toID="E85" toText="worse" type="OVERLAP" />
+<TLINK id="TL135" fromID="E85" fromText="worse" toID="E86" toText="inspiration" type="OVERLAP" />
+<TLINK id="TL136" fromID="E85" fromText="worse" toID="E87" toText="movement" type="OVERLAP" />
+<TLINK id="TL137" fromID="E90" fromText="vomiting" toID="E84" toText="atypical chest pain" type="OVERLAP" />
+<TLINK id="TL138" fromID="E88" fromText="It" toID="E91" toText="It" type="OVERLAP" />
+<TLINK id="TL139" fromID="E91" fromText="It" toID="E93" toText="It" type="OVERLAP" />
+<TLINK id="TL14" fromID="E5" fromText="radiation to the left shoulder" toID="T6" toText="2011-11-17" type="AFTER" />
+<TLINK id="TL140" fromID="E92" fromText="radiate" toID="E91" toText="It" type="OVERLAP" />
+<TLINK id="TL141" fromID="E93" fromText="It" toID="E94" toText="pain" type="OVERLAP" />
+<TLINK id="TL142" fromID="E94" fromText="pain" toID="E95" toText="her self-extubation" type="AFTER" />
+<TLINK id="TL143" fromID="E96" fromText="noncardiac chest pain" toID="E94" toText="pain" type="OVERLAP" />
+<TLINK id="TL144" fromID="E117" fromText="self-extubated" toID="E95" toText="her self-extubation" type="OVERLAP" />
+<TLINK id="TL145" fromID="E98" fromText="revealed" toID="E97" toText="An electrocardiogram" type="OVERLAP" />
+<TLINK id="TL146" fromID="E99" fromText="ST changes" toID="E97" toText="An electrocardiogram" type="BEFORE" />
+<TLINK id="TL147" fromID="E96" fromText="noncardiac chest pain" toID="E97" toText="An electrocardiogram" type="BEFORE" />
+<TLINK id="TL148" fromID="E101" fromText="increase" toID="E100" toText="creatine phosphokinases" type="OVERLAP" />
+<TLINK id="TL149" fromID="E102" fromText="further intervention" toID="E97" toText="An electrocardiogram" type="AFTER" />
+<TLINK id="TL15" fromID="T6" fromText="2011-11-17" toID="T3" toText="entire day" type="OVERLAP" />
+<TLINK id="TL150" fromID="E103" fromText="Tylenol orally" toID="E102" toText="further intervention" type="OVERLAP" />
+<TLINK id="TL151" fromID="E103" fromText="Tylenol orally" toID="E104" toText="Ativan" type="OVERLAP" />
+<TLINK id="TL152" fromID="E105" fromText="anxiety" toID="E104" toText="Ativan" type="BEFORE" />
+<TLINK id="TL153" fromID="E106" fromText="pain" toID="T18" toText="the day" type="OVERLAP" />
+<TLINK id="TL154" fromID="E84" fromText="atypical chest pain" toID="T18" toText="the day" type="BEFORE" />
+<TLINK id="TL155" fromID="E106" fromText="pain" toID="E84" toText="atypical chest pain" type="OVERLAP" />
+<TLINK id="TL156" fromID="T18" fromText="the day" toID="E107" toText="discharge" type="OVERLAP" />
+<TLINK id="TL157" fromID="E43" fromText="a Debakey class I aortic ascending aneurysm" toID="E108" toText="her aortic ascending aneurysm" type="OVERLAP" />
+<TLINK id="TL158" fromID="E108" fromText="her aortic ascending aneurysm" toID="E109" toText="Cardiothoracic Surgery" type="BEFORE" />
+<TLINK id="TL159" fromID="E108" fromText="her aortic ascending aneurysm" toID="E107" toText="discharge" type="BEFORE" />
+<TLINK id="TL16" fromID="T4" fromText="the morning" toID="E6" toText="admission" type="BEFORE" />
+<TLINK id="TL160" fromID="E109" fromText="Cardiothoracic Surgery" toID="E114" toText="Cardiothoracic Surgery" type="OVERLAP" />
+<TLINK id="TL161" fromID="E109" fromText="Cardiothoracic Surgery" toID="E110" toText="further workup" type="BEFORE" />
+<TLINK id="TL162" fromID="E112" fromText="contrast" toID="E111" toText="a CT scan of the chest" type="OVERLAP" />
+<TLINK id="TL163" fromID="E111" fromText="a CT scan of the chest" toID="T19" toText="the day" type="OVERLAP" />
+<TLINK id="TL164" fromID="T19" fromText="the day" toID="E113" toText="discharge" type="OVERLAP" />
+<TLINK id="TL165" fromID="E111" fromText="a CT scan of the chest" toID="E128" toText="the CT of her chest" type="OVERLAP" />
+<TLINK id="TL166" fromID="E114" fromText="Cardiothoracic Surgery" toID="E109" toText="Cardiothoracic Surgery" type="OVERLAP" />
+<TLINK id="TL167" fromID="E114" fromText="Cardiothoracic Surgery" toID="E116" toText="further management" type="OVERLAP" />
+<TLINK id="TL168" fromID="E115" fromText="follow up" toID="T20" toText="approximately one month" type="OVERLAP" />
+<TLINK id="TL169" fromID="E115" fromText="follow up" toID="E116" toText="further management" type="OVERLAP" />
+<TLINK id="TL17" fromID="T4" fromText="the morning" toID="T3" toText="entire day" type="AFTER" />
+<TLINK id="TL170" fromID="E118" fromText="complained" toID="E117" toText="self-extubated" type="AFTER" />
+<TLINK id="TL171" fromID="E119" fromText="a sore throat" toID="E120" toText="her atypical chest complaints" type="BEFORE" />
+<TLINK id="TL172" fromID="E119" fromText="a sore throat" toID="E118" toText="complained" type="BEFORE" />
+<TLINK id="TL173" fromID="E120" fromText="her atypical chest complaints" toID="E84" toText="atypical chest pain" type="OVERLAP" />
+<TLINK id="TL174" fromID="E120" fromText="her atypical chest complaints" toID="E122" toText="Tylenol" type="BEFORE" />
+<TLINK id="TL175" fromID="E121" fromText="This" toID="E120" toText="her atypical chest complaints" type="OVERLAP" />
+<TLINK id="TL176" fromID="E121" fromText="This" toID="E122" toText="Tylenol" type="BEFORE" />
+<TLINK id="TL177" fromID="E121" fromText="This" toID="E123" toText="oxycodone" type="BEFORE" />
+<TLINK id="TL178" fromID="E122" fromText="Tylenol" toID="E123" toText="oxycodone" type="OVERLAP" />
+<TLINK id="TL179" fromID="E124" fromText="auscultation" toID="E126" toText="clear" type="OVERLAP" />
+<TLINK id="TL18" fromID="E7" fromText="chest pain" toID="T4" toText="the morning" type="OVERLAP" />
+<TLINK id="TL180" fromID="E126" fromText="clear" toID="E125" toText="her hospital course" type="OVERLAP" />
+<TLINK id="TL181" fromID="E125" fromText="her hospital course" toID="E127" toText="this dictation" type="OVERLAP" />
+<TLINK id="TL182" fromID="T24" fromText="the time" toID="E127" toText="this dictation" type="OVERLAP" />
+<TLINK id="TL183" fromID="E128" fromText="the CT of her chest" toID="E127" toText="this dictation" type="BEFORE" />
+<TLINK id="TL184" fromID="E128" fromText="the CT of her chest" toID="E148" toText="The official result" type="BEFORE" />
+<TLINK id="TL185" fromID="E148" fromText="The official result" toID="T24" toText="the time" type="AFTER" />
+<TLINK id="TL186" fromID="E123" fromText="oxycodone" toID="T26" toText="needed" type="OVERLAP" />
+<TLINK id="TL187" fromID="T25" fromText="an as needed basis" toID="E150" toText="repleted" type="OVERLAP" />
+<TLINK id="TL188" fromID="T23" fromText="daily" toID="E149" toText="managed" type="OVERLAP" />
+<TLINK id="TL19" fromID="E8" fromText="nausea" toID="E7" toText="chest pain" type="OVERLAP" />
+<TLINK id="TL190" fromID="E149" fromText="managed" toID="E150" toText="repleted" type="OVERLAP" />
+<TLINK id="TL191" fromID="E149" fromText="managed" toID="E129" toText="The patient 's electrolytes" type="OVERLAP" />
+<TLINK id="TL192" fromID="E131" fromText="a low phosphorous" toID="E130" toText="intravenous K-Phos" type="BEFORE" />
+<TLINK id="TL193" fromID="E132" fromText="Her phosphorous" toID="E131" toText="a low phosphorous" type="AFTER" />
+<TLINK id="TL194" fromID="E133" fromText="rose" toID="T22" toText="the time" type="OVERLAP" />
+<TLINK id="TL195" fromID="E133" fromText="rose" toID="E130" toText="intravenous K-Phos" type="AFTER" />
+<TLINK id="TL196" fromID="T22" fromText="the time" toID="E134" toText="discharge" type="OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="hypercholesterolemia" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL20" fromID="E10" fromText="Charlton Memorial Hospital Hospital Emergency Department" toID="E9" toText="presented" type="OVERLAP" />
+<TLINK id="TL21" fromID="E11" fromText="inferior ST elevations" toID="E12" toText="acutely hypotensive" type="OVERLAP" />
+<TLINK id="TL22" fromID="E11" fromText="inferior ST elevations" toID="E9" toText="presented" type="OVERLAP" />
+<TLINK id="TL23" fromID="E12" fromText="acutely hypotensive" toID="E13" toText="a systolic blood pressure" type="OVERLAP" />
+<TLINK id="TL24" fromID="E15" fromText="bradycardic" toID="E14" toText="ublingual nitroglycerin" type="AFTER" />
+<TLINK id="TL25" fromID="E13" fromText="a systolic blood pressure" toID="E14" toText="ublingual nitroglycerin" type="AFTER" />
+<TLINK id="TL26" fromID="E15" fromText="bradycardic" toID="E16" toText="atropine" type="BEFORE" />
+<TLINK id="TL27" fromID="E16" fromText="atropine" toID="E17" toText="intravenous fluids" type="OVERLAP" />
+<TLINK id="TL28" fromID="E18" fromText="aspirin" toID="E19" toText="Plavix" type="OVERLAP" />
+<TLINK id="TL29" fromID="E17" fromText="intravenous fluids" toID="E18" toText="aspirin" type="OVERLAP" />
+<TLINK id="TL3" fromID="E49" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL30" fromID="E19" fromText="Plavix" toID="E20" toText="heparin" type="OVERLAP" />
+<TLINK id="TL31" fromID="E20" fromText="heparin" toID="E21" toText="morphine" type="OVERLAP" />
+<TLINK id="TL32" fromID="E24" fromText="ventricular fibrillation arrest" toID="E22" toText="transfer" type="BEFORE" />
+<TLINK id="TL33" fromID="E10" fromText="Charlton Memorial Hospital Hospital Emergency Department" toID="E22" toText="transfer" type="BEFORE" />
+<TLINK id="TL34" fromID="E23" fromText="Worcester State Hospital" toID="E22" toText="transfer" type="AFTER" />
+<TLINK id="TL35" fromID="E24" fromText="ventricular fibrillation arrest" toID="T5" toText="12:30 p.m." type="OVERLAP" />
+<TLINK id="TL36" fromID="E25" fromText="intubated" toID="T5" toText="12:30 p.m." type="AFTER" />
+<TLINK id="TL37" fromID="E25" fromText="intubated" toID="E26" toText="defibrillated" type="OVERLAP" />
+<TLINK id="TL38" fromID="E24" fromText="ventricular fibrillation arrest" toID="E25" toText="intubated" type="BEFORE" />
+<TLINK id="TL39" fromID="E135" fromText="sinus rhythm" toID="E24" toText="ventricular fibrillation arrest" type="AFTER" />
+<TLINK id="TL4" fromID="E6" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL40" fromID="E27" fromText="five shocks" toID="E135" toText="sinus rhythm" type="BEFORE" />
+<TLINK id="TL41" fromID="E27" fromText="five shocks" toID="E26" toText="defibrillated" type="OVERLAP" />
+<TLINK id="TL42" fromID="E28" fromText="an amiodarone bolus" toID="E27" toText="five shocks" type="OVERLAP" />
+<TLINK id="TL43" fromID="E28" fromText="an amiodarone bolus" toID="E29" toText="an amiodarone drip" type="BEFORE" />
+<TLINK id="TL44" fromID="E29" fromText="an amiodarone drip" toID="E30" toText="CMED CSRU-flighted" type="OVERLAP" />
+<TLINK id="TL45" fromID="E30" fromText="CMED CSRU-flighted" toID="E22" toText="transfer" type="AFTER" />
+<TLINK id="TL46" fromID="E30" fromText="CMED CSRU-flighted" toID="E31" toText="Boston Regional Medical Center_" type="OVERLAP" />
+<TLINK id="TL47" fromID="E10" fromText="Charlton Memorial Hospital Hospital Emergency Department" toID="E23" toText="Worcester State Hospital" type="BEFORE" />
+<TLINK id="TL48" fromID="E23" fromText="Worcester State Hospital" toID="E31" toText="Boston Regional Medical Center_" type="BEFORE" />
+<TLINK id="TL49" fromID="E32" fromText="a catheterization" toID="E31" toText="Boston Regional Medical Center_" type="OVERLAP" />
+<TLINK id="TL5" fromID="E80" fromText="discharge" toID="E1" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL50" fromID="E33" fromText="The cardiac catheterization" toID="E32" toText="a catheterization" type="OVERLAP" />
+<TLINK id="TL51" fromID="E33" fromText="The cardiac catheterization" toID="E37" toText="three stents to the right coronary artery" type="BEFORE" />
+<TLINK id="TL52" fromID="E34" fromText="a total occlusion of the proximal right coronary artery" toID="E33" toText="The cardiac catheterization" type="BEFORE" />
+<TLINK id="TL55" fromID="E33" fromText="The cardiac catheterization" toID="E35" toText="revealed" type="OVERLAP" />
+<TLINK id="TL56" fromID="E36" fromText="diffuse right coronary artery disease" toID="E33" toText="The cardiac catheterization" type="BEFORE" />
+<TLINK id="TL57" fromID="E34" fromText="a total occlusion of the proximal right coronary artery" toID="E36" toText="diffuse right coronary artery disease" type="OVERLAP" />
+<TLINK id="TL58" fromID="E34" fromText="a total occlusion of the proximal right coronary artery" toID="E37" toText="three stents to the right coronary artery" type="BEFORE" />
+<TLINK id="TL59" fromID="E37" fromText="three stents to the right coronary artery" toID="E38" toText="a proximal dissection" type="OVERLAP" />
+<TLINK id="TL6" fromID="E65" fromText="discharge" toID="E1" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL61" fromID="E39" fromText="post percutaneous coronary intervention angiographic results" toID="E33" toText="The cardiac catheterization" type="AFTER" />
+<TLINK id="TL62" fromID="E40" fromText="an aortogram" toID="E41" toText="the catheterization" type="OVERLAP" />
+<TLINK id="TL63" fromID="E43" fromText="a Debakey class I aortic ascending aneurysm" toID="E40" toText="an aortogram" type="BEFORE" />
+<TLINK id="TL64" fromID="E42" fromText="revealed" toID="E40" toText="an aortogram" type="OVERLAP" />
+<TLINK id="TL65" fromID="E44" fromText="a pulmonary capillary wedge pressure" toID="E45" toText="catheterization" type="OVERLAP" />
+<TLINK id="TL66" fromID="E46" fromText="transferred" toID="E47" toText="the Coronary Care Unit" type="OVERLAP" />
+<TLINK id="TL67" fromID="E45" fromText="catheterization" toID="E46" toText="transferred" type="BEFORE" />
+<TLINK id="TL68" fromID="E48" fromText="intubated" toID="E47" toText="the Coronary Care Unit" type="BEFORE" />
+<TLINK id="TL69" fromID="E136" fromText="stable condition" toID="E46" toText="transferred" type="OVERLAP" />
+<TLINK id="TL7" fromID="E1" fromText="Discharge" toID="T1" toText="2011-11-22" type="OVERLAP" />
+<TLINK id="TL70" fromID="E25" fromText="intubated" toID="E48" toText="intubated" type="OVERLAP" />
+<TLINK id="TL71" fromID="E48" fromText="intubated" toID="E66" toText="self-extubated" type="BEFORE" />
+<TLINK id="TL72" fromID="T7" fromText="the night" toID="E49" toText="admission" type="AFTER" />
+<TLINK id="TL73" fromID="T8" fromText="the following morning" toID="T7" toText="the night" type="AFTER" />
+<TLINK id="TL74" fromID="E50" fromText="post catheterization hypotension" toID="T7" toText="the night" type="OVERLAP" />
+<TLINK id="TL75" fromID="E50" fromText="post catheterization hypotension" toID="E51" toText="intravenous fluids" type="BEFORE" />
+<TLINK id="TL76" fromID="E50" fromText="post catheterization hypotension" toID="E52" toText="dopamine" type="BEFORE" />
+<TLINK id="TL77" fromID="E51" fromText="intravenous fluids" toID="E52" toText="dopamine" type="OVERLAP" />
+<TLINK id="TL78" fromID="E53" fromText="Electrocardiogram" toID="T8" toText="the following morning" type="OVERLAP" />
+<TLINK id="TL79" fromID="E54" fromText="revealed" toID="E53" toText="Electrocardiogram" type="OVERLAP" />
+<TLINK id="TL8" fromID="E3" fromText="tobacco use" toID="E2" toText="hypercholesterolemia" type="OVERLAP" />
+<TLINK id="TL80" fromID="E55" fromText="evolution of Q waves" toID="E53" toText="Electrocardiogram" type="BEFORE" />
+<TLINK id="TL81" fromID="E56" fromText="normalization of her ST segments" toID="E53" toText="Electrocardiogram" type="BEFORE" />
+<TLINK id="TL82" fromID="E57" fromText="Her dopamine" toID="T9" toText="the following day" type="BEFORE" />
+<TLINK id="TL83" fromID="E57" fromText="Her dopamine" toID="E58" toText="her heparin" type="OVERLAP" />
+<TLINK id="TL84" fromID="E52" fromText="dopamine" toID="E57" toText="Her dopamine" type="OVERLAP" />
+<TLINK id="TL85" fromID="E58" fromText="her heparin" toID="T9" toText="the following day" type="BEFORE" />
+<TLINK id="TL86" fromID="E59" fromText="a right groin hematoma" toID="E58" toText="her heparin" type="BEFORE" />
+<TLINK id="TL88" fromID="E59" fromText="a right groin hematoma" toID="E60" toText="the sheath" type="AFTER" />
+<TLINK id="TL89" fromID="E61" fromText="Her creatine kinases" toID="E57" toText="Her dopamine" type="OVERLAP" />
+<TLINK id="TL9" fromID="E2" fromText="hypercholesterolemia" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="TL90" fromID="E62" fromText="climbed" toID="E61" toText="Her creatine kinases" type="BEFORE" />
+<TLINK id="TL91" fromID="E64" fromText="which" toID="E61" toText="Her creatine kinases" type="AFTER" />
+<TLINK id="TL92" fromID="E63" fromText="down" toID="E64" toText="which" type="BEFORE" />
+<TLINK id="TL93" fromID="T10" fromText="the time" toID="E65" toText="discharge" type="OVERLAP" />
+<TLINK id="TL94" fromID="E63" fromText="down" toID="T10" toText="the time" type="OVERLAP" />
+<TLINK id="TL95" fromID="E66" fromText="self-extubated" toID="T11" toText="11-20" type="OVERLAP" />
+<TLINK id="TL96" fromID="E66" fromText="self-extubated" toID="E95" toText="her self-extubation" type="OVERLAP" />
+<TLINK id="TL97" fromID="E67" fromText="her coronary artery disease" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL98" fromID="E67" fromText="her coronary artery disease" toID="E68" toText="catheterization" type="BEFORE" />
+<TLINK id="TL99" fromID="E67" fromText="her coronary artery disease" toID="E69" toText="Integrilin" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2011-11-18" type="ADMISSION" dvalue="2011-11-18" />
+<SECTIME id="S1" start="46" end="56" text="2011-11-22" type="DISCHARGE" dvalue="2011-11-22" />
+<TLINK id="SECTIME0" fromID="E135" fromText="sinus rhythm" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E27" fromText="five shocks" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E28" fromText="an amiodarone bolus" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E29" fromText="an amiodarone drip" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E30" fromText="CMED CSRU-flighted" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E31" fromText="Boston Regional Medical Center_" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E32" fromText="a catheterization" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E33" fromText="The cardiac catheterization" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E35" fromText="revealed" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E34" fromText="a total occlusion of the proximal right coronary artery" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E36" fromText="diffuse right coronary artery disease" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E37" fromText="three stents to the right coronary artery" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E38" fromText="a proximal dissection" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E39" fromText="post percutaneous coronary intervention angiographic results" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E40" fromText="an aortogram" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E41" fromText="the catheterization" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E42" fromText="revealed" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E43" fromText="a Debakey class I aortic ascending aneurysm" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E44" fromText="a pulmonary capillary wedge pressure" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E45" fromText="catheterization" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E46" fromText="transferred" toID="T0" toText="2011-11-18" type="OVERLAP" />
+<TLINK id="SECTIME21" fromID="E47" fromText="the Coronary Care Unit" toID="T0" toText="2011-11-18" type="OVERLAP" />
+<TLINK id="SECTIME22" fromID="E136" fromText="stable condition" toID="T0" toText="2011-11-18" type="OVERLAP" />
+<TLINK id="SECTIME23" fromID="E48" fromText="intubated" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E49" fromText="admission" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E50" fromText="post catheterization hypotension" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E3" fromText="tobacco use" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E51" fromText="intravenous fluids" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E52" fromText="dopamine" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E53" fromText="Electrocardiogram" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E54" fromText="revealed" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E56" fromText="normalization of her ST segments" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E55" fromText="evolution of Q waves" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E57" fromText="Her dopamine" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E58" fromText="her heparin" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E59" fromText="a right groin hematoma" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E4" fromText="waxing and waning left substernal chest pain" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E60" fromText="the sheath" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E61" fromText="Her creatine kinases" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E62" fromText="climbed" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E64" fromText="which" toID="T1" toText="2011-11-22" type="OVERLAP" />
+<TLINK id="SECTIME41" fromID="E63" fromText="down" toID="T1" toText="2011-11-22" type="OVERLAP" />
+<TLINK id="SECTIME42" fromID="E65" fromText="discharge" toID="T1" toText="2011-11-22" type="OVERLAP" />
+<TLINK id="SECTIME43" fromID="E66" fromText="self-extubated" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E67" fromText="her coronary artery disease" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E68" fromText="catheterization" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E69" fromText="Integrilin" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E70" fromText="aspirin" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E71" fromText="Plavix" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E72" fromText="Lipitor" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E73" fromText="amiodarone" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E146" fromText="sinus rhythm" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E5" fromText="radiation to the left shoulder" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E77" fromText="moving" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E74" fromText="the floor" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E75" fromText="transferred" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E76" fromText="the Coronary Care Unit" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E78" fromText="a beta blocker" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E79" fromText="Lopressor" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E147" fromText="titrated" toID="T1" toText="2011-11-22" type="OVERLAP" />
+<TLINK id="SECTIME60" fromID="E80" fromText="discharge" toID="T1" toText="2011-11-22" type="OVERLAP" />
+<TLINK id="SECTIME61" fromID="E81" fromText="discharge" toID="T1" toText="2011-11-22" type="OVERLAP" />
+<TLINK id="SECTIME62" fromID="E82" fromText="increased afterload reduction" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E83" fromText="lisinopril" toID="T1" toText="2011-11-22" type="OVERLAP" />
+<TLINK id="SECTIME64" fromID="E84" fromText="atypical chest pain" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E85" fromText="worse" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E86" fromText="inspiration" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E87" fromText="movement" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E88" fromText="It" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E89" fromText="any nausea" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E90" fromText="vomiting" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E91" fromText="It" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E92" fromText="radiate" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E93" fromText="It" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E94" fromText="pain" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E95" fromText="her self-extubation" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E96" fromText="noncardiac chest pain" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E97" fromText="An electrocardiogram" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E98" fromText="revealed" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E99" fromText="ST changes" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E101" fromText="increase" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E100" fromText="creatine phosphokinases" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E102" fromText="further intervention" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E103" fromText="Tylenol orally" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E104" fromText="Ativan" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E105" fromText="anxiety" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E106" fromText="pain" toID="T1" toText="2011-11-22" type="OVERLAP" />
+<TLINK id="SECTIME87" fromID="E107" fromText="discharge" toID="T1" toText="2011-11-22" type="OVERLAP" />
+<TLINK id="SECTIME88" fromID="E108" fromText="her aortic ascending aneurysm" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E109" fromText="Cardiothoracic Surgery" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E110" fromText="further workup" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E111" fromText="a CT scan of the chest" toID="T1" toText="2011-11-22" type="OVERLAP" />
+<TLINK id="SECTIME92" fromID="E6" fromText="admission" toID="T0" toText="2011-11-18" type="OVERLAP" />
+<TLINK id="SECTIME93" fromID="E112" fromText="contrast" toID="T1" toText="2011-11-22" type="OVERLAP" />
+<TLINK id="SECTIME94" fromID="E113" fromText="discharge" toID="T1" toText="2011-11-22" type="OVERLAP" />
+<TLINK id="SECTIME95" fromID="E114" fromText="Cardiothoracic Surgery" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E115" fromText="follow up" toID="T1" toText="2011-11-22" type="AFTER" />
+<TLINK id="SECTIME97" fromID="E116" fromText="further management" toID="T1" toText="2011-11-22" type="AFTER" />
+<TLINK id="SECTIME98" fromID="E7" fromText="chest pain" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E117" fromText="self-extubated" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E118" fromText="complained" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E119" fromText="a sore throat" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E120" fromText="her atypical chest complaints" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E121" fromText="This" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E122" fromText="Tylenol" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E123" fromText="oxycodone" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E8" fromText="nausea" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E126" fromText="clear" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E124" fromText="auscultation" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E125" fromText="her hospital course" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E127" fromText="this dictation" toID="T1" toText="2011-11-22" type="OVERLAP" />
+<TLINK id="SECTIME111" fromID="E128" fromText="the CT of her chest" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E9" fromText="presented" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E148" fromText="The official result" toID="T1" toText="2011-11-22" type="AFTER" />
+<TLINK id="SECTIME114" fromID="E129" fromText="The patient 's electrolytes" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E149" fromText="managed" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E10" fromText="Charlton Memorial Hospital Hospital Emergency Department" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME117" fromID="E150" fromText="repleted" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME118" fromID="E130" fromText="intravenous K-Phos" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME119" fromID="E131" fromText="a low phosphorous" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME120" fromID="E132" fromText="Her phosphorous" toID="T1" toText="2011-11-22" type="BEFORE" />
+<TLINK id="SECTIME121" fromID="E133" fromText="rose" toID="T1" toText="2011-11-22" type="OVERLAP" />
+<TLINK id="SECTIME122" fromID="E134" fromText="discharge" toID="T1" toText="2011-11-22" type="OVERLAP" />
+<TLINK id="SECTIME123" fromID="E11" fromText="inferior ST elevations" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME124" fromID="E12" fromText="acutely hypotensive" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME125" fromID="E13" fromText="a systolic blood pressure" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME126" fromID="E14" fromText="ublingual nitroglycerin" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME127" fromID="E15" fromText="bradycardic" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME128" fromID="E16" fromText="atropine" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME129" fromID="E17" fromText="intravenous fluids" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME130" fromID="E18" fromText="aspirin" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME131" fromID="E19" fromText="Plavix" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME132" fromID="E20" fromText="heparin" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME133" fromID="E21" fromText="morphine" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME134" fromID="E22" fromText="transfer" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME135" fromID="E23" fromText="Worcester State Hospital" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME136" fromID="E24" fromText="ventricular fibrillation arrest" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME137" fromID="E25" fromText="intubated" toID="T0" toText="2011-11-18" type="BEFORE" />
+<TLINK id="SECTIME138" fromID="E26" fromText="defibrillated" toID="T0" toText="2011-11-18" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

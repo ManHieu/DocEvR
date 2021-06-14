@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2016-09-05
+Discharge Date :
+2016-09-14
+Service :
+CSU
+HISTORY OF PRESENT ILLNESS :
+Mr. Hohlt is a 76 - year-old man with a history of hypertension , hyperlipidemia and prior myocardial infarction with a percutaneous transluminal coronary angioplasty of the right coronary artery in 2005 at the Cambridge Health Alliance .
+He states that he has experienced pain and tightness in his back radiating into both shoulders starting on 2016-09-02 .
+The patient denies shortness of breath , dizziness , diaphoresis , or nausea .
+The pain lasted for 30 seconds following pushing a wheelbarrow and resolved with rest .
+The patient denied any prior episodes of pain or any since 2005 following the initial episode of pain .
+The patient informs his primary care provider who referred him to the emergency room .
+He then presented to Mass. Mental Health Center where he was ruled out for an myocardial infarction by enzymes and electrocardiograms .
+The patient also underwent a negative evaluation for dissecting aortic aneurysm .
+On 2016-09-03 , the patient began experiencing continuing chest pain of increasing intensity .
+He was treated with nitroglycerin paste and IV Integrelin as well as Plavix .
+At that time , he ruled in for an NST EMI with a peak CK of 412 and a troponin of 6.23 .
+Electrocardiograms progressed to inverted T waves in V5 and V6 .
+The patient is now transferred to Cambridge Health Alliance for cardiac catheterization .
+]]></TEXT>
+<TAGS>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

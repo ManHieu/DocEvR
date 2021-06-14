@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+12/05/1997
+Discharge Date :
+12/07/1997
+HISTORY OF PRESENT ILLNESS :
+The patient is a 50 year-old female with a history of bilateral lung nodules dating back to the July of 1995 discovered on a work-up for an adrenal abnormality .
+Diffuse adenopathy was noted at that time and an attempt was made at axillary node biopsy which was aborted secondary to positioning difficulty and difficult intubation .
+She was since then lost to follow-up with a recently re-establish primary care practitioner contact .
+Follow-up chest CT on October 26 , 1997 at the Ver Medical Center showed multiple pulmonary nodules in abundant number , very small nodes seen in the mediastinum but no hilar adenopathy , no hepatosplenomegaly or adrenal mass was noted .
+Chest x-ray on August 6 , 1997 revealed multiple pulmonary nodules increasing in size since July 22 , 1995 .
+HOSPITAL COURSE :
+The patient was admitted on December 5 , 1997 and underwent left lung wedge thoracoscopic resection and bronchoscopy .
+She was transferred to the Post Anesthesia Care Unit postoperatively in stable condition .
+Her chest tube was pulled on postoperative day number one and the patient did quite well and remained inhouse for observation until December 7 , 1997 and the patient was discharged to home in stable condition .
+]]></TEXT>
+<TAGS>
+<EVENT id="E22" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="1013" end="1024" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="1028" end="1057" text="the Post Anesthesia Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E17" start="1096" end="1110" text="Her chest tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="1170" end="1184" text="did quite well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="1210" end="1221" text="observation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="1266" end="1276" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="140" end="162" text="bilateral lung nodules" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="209" end="218" text="a work-up" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="223" end="245" text="an adrenal abnormality" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="248" end="266" text="Diffuse adenopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E0" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="317" end="337" text="axillary node biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="369" end="391" text="positioning difficulty" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="396" end="416" text="difficult intubation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="446" end="455" text="follow-up" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E7" start="521" end="539" text="Follow-up chest CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="564" end="586" text="the Ver Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E25" start="587" end="593" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E8" start="594" end="620" text="multiple pulmonary nodules" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="642" end="658" text="very small nodes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="690" end="706" text="hilar adenopathy" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E11" start="712" end="730" text="hepatosplenomegaly" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E12" start="734" end="746" text="adrenal mass" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E13" start="759" end="770" text="Chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="799" end="825" text="multiple pulmonary nodules" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="902" end="910" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="946" end="985" text="left lung wedge thoracoscopic resection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="990" end="1002" text="bronchoscopy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T6" start="1125" end="1153" text="postoperative day number one" type="DATE" val="1997-12-06" mod="NA" />
+<TIMEX3 id="T9" start="1228" end="1245" text="December 7 , 1997" type="DATE" val="1997-12-07" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="12/05/1997" type="DATE" val="1997-12-05" mod="NA" />
+<TIMEX3 id="T0" start="178" end="194" text="the July of 1995" type="DATE" val="1995-07" mod="NA" />
+<TIMEX3 id="T7" start="280" end="289" text="that time" type="DATE" val="1995-07" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="12/07/1997" type="DATE" val="1997-12-07" mod="NA" />
+<TIMEX3 id="T3" start="543" end="560" text="October 26 , 1997" type="DATE" val="1997-10-26" mod="NA" />
+<TIMEX3 id="T8" start="774" end="789" text="August 6 , 1997" type="DATE" val="1997-08-06" mod="NA" />
+<TIMEX3 id="T4" start="851" end="865" text="July 22 , 1995" type="DATE" val="1995-07-22" mod="NA" />
+<TIMEX3 id="T5" start="914" end="931" text="December 5 , 1997" type="DATE" val="1997-12-05" mod="NA" />
+<TLINK id="TL0" fromID="T1" fromText="12/05/1997" toID="E22" toText="Admission" type="OVERLAP" />
+<TLINK id="TL1" fromID="E2" fromText="an adrenal abnormality" toID="E3" toText="Diffuse adenopathy" type="OVERLAP" />
+<TLINK id="TL10" fromID="E6" fromText="follow-up" toID="T0" toText="the July of 1995" type="AFTER" />
+<TLINK id="TL12" fromID="E6" fromText="follow-up" toID="T3" toText="October 26 , 1997" type="BEFORE" />
+<TLINK id="TL13" fromID="E7" fromText="Follow-up chest CT" toID="T3" toText="October 26 , 1997" type="OVERLAP" />
+<TLINK id="TL14" fromID="E18" fromText="the Ver Medical Center" toID="T3" toText="October 26 , 1997" type="OVERLAP" />
+<TLINK id="TL15" fromID="E7" fromText="Follow-up chest CT" toID="E25" toText="showed" type="OVERLAP" />
+<TLINK id="TL16" fromID="E8" fromText="multiple pulmonary nodules" toID="E25" toText="showed" type="" />
+<TLINK id="TL17" fromID="E9" fromText="very small nodes" toID="E25" toText="showed" type="BEFORE" />
+<TLINK id="TL18" fromID="E10" fromText="hilar adenopathy" toID="E25" toText="showed" type="OVERLAP" />
+<TLINK id="TL19" fromID="E11" fromText="hepatosplenomegaly" toID="E25" toText="showed" type="" />
+<TLINK id="TL2" fromID="E0" fromText="Discharge" toID="T2" toText="12/07/1997" type="OVERLAP" />
+<TLINK id="TL20" fromID="E12" fromText="adrenal mass" toID="E25" toText="showed" type="OVERLAP" />
+<TLINK id="TL21" fromID="E13" fromText="Chest x-ray" toID="T8" toText="August 6 , 1997" type="OVERLAP" />
+<TLINK id="TL22" fromID="E14" fromText="multiple pulmonary nodules" toID="E13" toText="Chest x-ray" type="BEFORE" />
+<TLINK id="TL23" fromID="E14" fromText="multiple pulmonary nodules" toID="T4" toText="July 22 , 1995" type="AFTER" />
+<TLINK id="TL24" fromID="E26" fromText="admitted" toID="T5" toText="December 5 , 1997" type="OVERLAP" />
+<TLINK id="TL25" fromID="E26" fromText="admitted" toID="E22" toText="Admission" type="OVERLAP" />
+<TLINK id="TL26" fromID="E15" fromText="left lung wedge thoracoscopic resection" toID="E26" toText="admitted" type="OVERLAP" />
+<TLINK id="TL27" fromID="E16" fromText="bronchoscopy" toID="E15" toText="left lung wedge thoracoscopic resection" type="OVERLAP" />
+<TLINK id="TL28" fromID="E19" fromText="transferred" toID="E15" toText="left lung wedge thoracoscopic resection" type="AFTER" />
+<TLINK id="TL29" fromID="E20" fromText="the Post Anesthesia Care Unit" toID="E19" toText="transferred" type="AFTER" />
+<TLINK id="TL30" fromID="E17" fromText="Her chest tube" toID="T6" toText="postoperative day number one" type="OVERLAP" />
+<TLINK id="TL31" fromID="E28" fromText="did quite well" toID="T6" toText="postoperative day number one" type="" />
+<TLINK id="TL32" fromID="E28" fromText="did quite well" toID="E21" toText="discharged" type="BEFORE" />
+<TLINK id="TL33" fromID="E27" fromText="observation" toID="T9" toText="December 7 , 1997" type="BEFORE" />
+<TLINK id="TL34" fromID="E27" fromText="observation" toID="T6" toText="postoperative day number one" type="AFTER" />
+<TLINK id="TL4" fromID="E1" fromText="a work-up" toID="T0" toText="the July of 1995" type="OVERLAP" />
+<TLINK id="TL5" fromID="E23" fromText="bilateral lung nodules" toID="E1" toText="a work-up" type="BEFORE" />
+<TLINK id="TL6" fromID="E3" fromText="Diffuse adenopathy" toID="T7" toText="that time" type="BEFORE" />
+<TLINK id="TL7" fromID="E4" fromText="axillary node biopsy" toID="T7" toText="that time" type="AFTER" />
+<TLINK id="TL8" fromID="E4" fromText="axillary node biopsy" toID="E24" toText="positioning difficulty" type="BEFORE" />
+<TLINK id="TL9" fromID="E24" fromText="positioning difficulty" toID="E5" toText="difficult intubation" type="OVERLAP" />
+<TLINK id="SECTIME0" fromID="E19" fromText="transferred" toID="T2" toText="12/07/1997" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E20" fromText="the Post Anesthesia Care Unit" toID="T2" toText="12/07/1997" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E17" fromText="Her chest tube" toID="T2" toText="12/07/1997" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E28" fromText="did quite well" toID="T2" toText="12/07/1997" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E27" fromText="observation" toID="T2" toText="12/07/1997" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E21" fromText="discharged" toID="T2" toText="12/07/1997" type="OVERLAP" />
+<TLINK id="SECTIME6" fromID="E23" fromText="bilateral lung nodules" toID="T1" toText="12/05/1997" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E1" fromText="a work-up" toID="T1" toText="12/05/1997" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E2" fromText="an adrenal abnormality" toID="T1" toText="12/05/1997" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E3" fromText="Diffuse adenopathy" toID="T1" toText="12/05/1997" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E4" fromText="axillary node biopsy" toID="T1" toText="12/05/1997" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E24" fromText="positioning difficulty" toID="T1" toText="12/05/1997" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E5" fromText="difficult intubation" toID="T1" toText="12/05/1997" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E6" fromText="follow-up" toID="T1" toText="12/05/1997" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E7" fromText="Follow-up chest CT" toID="T1" toText="12/05/1997" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E18" fromText="the Ver Medical Center" toID="T1" toText="12/05/1997" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E25" fromText="showed" toID="T1" toText="12/05/1997" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E8" fromText="multiple pulmonary nodules" toID="T1" toText="12/05/1997" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E9" fromText="very small nodes" toID="T1" toText="12/05/1997" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E10" fromText="hilar adenopathy" toID="T1" toText="12/05/1997" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E11" fromText="hepatosplenomegaly" toID="T1" toText="12/05/1997" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E12" fromText="adrenal mass" toID="T1" toText="12/05/1997" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E13" fromText="Chest x-ray" toID="T1" toText="12/05/1997" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E14" fromText="multiple pulmonary nodules" toID="T1" toText="12/05/1997" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E26" fromText="admitted" toID="T2" toText="12/07/1997" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E15" fromText="left lung wedge thoracoscopic resection" toID="T2" toText="12/07/1997" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E16" fromText="bronchoscopy" toID="T2" toText="12/07/1997" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="12/05/1997" type="ADMISSION" dvalue="1997-12-05" />
+<SECTIME id="S1" start="46" end="56" text="12/07/1997" type="DISCHARGE" dvalue="1997-12-07" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

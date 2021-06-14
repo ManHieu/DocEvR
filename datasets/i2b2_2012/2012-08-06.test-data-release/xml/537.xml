@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2014-01-20
+Discharge Date :
+2014-01-21
+Service :
+MEDICINE
+History of Present Illness :
+CC : dyspnea
+HPI :
+86 yo man with h/o CVA , CHF , recent episodes of aspiration pneumonia , who p/w dyspnea from his NH .
+Per the pt 's daughter , the patient has had 2-3 episodes of asp pna in the last 2 months , for which he has received IV abx at the NH with apparent resolution of symptoms .
+The daughter says that on the day PTA , when she visited the patient at the NH , he was " having a good day ," more interactive than usual and in good spirits .
+She was called at 430 am today from the NH with the news that the pt was not doing well , and she came to the Deanna to meet up with her father .
+Of note , the patient 's daughter and son-in-law confirm his desire to be DNR/DNI , stating that they want him to be comfortable .
+However , when asked if she thinks he would want comfort measures even if it meant that his respiratory status would worsen , the pt 's daughter says that he would not .
+In particular , she feels that the pt would not want a morphine drip if it would negatively impact his respiratory function .
+ROS : patient unable to communicate at current time
+Brief Hospital Course :
+This 86 yo man with h/o CVA , CHF , recent episodes of aspiration pneumonia , presented with dyspnea from his NH , likely from new RLL pneumonia .
+He was started on Zosyn and Vanco for his presumed aspiration , ' hospital ' aquired PNA .
+PE was considered but less likely given his fevers and clear pneumonia on CXR .
+He was supported on BIPAP for his respiratory status .
+An ABG was attempted in the Deanna however it was limited by pt discomfort .
+ABG on arrival to the ICU was 7.29/56/75 .
+He was continued on BIPAP .
+Blood cultures and sputum cultures were sent .
+Over the course of the day he continued to decline .
+He was given some prn Morphine for comfort .
+In the evening of the day of admission he was noted to be increasingly somnolent .
+A repeat ABG was performed which was 7.03/129/148 .
+His family was notified that he was doing worse and came in to visit him .
+It was his family 's wish that he be made comfortable .
+Based upon this wish the BIPAP was removed and he was placed on nasal cannula .
+He was written for a morphine drip however he expired before this could be initiated .
+Secondary issues
+Elevated lactate :
+This was concerning for early sepsis given RLL PNA .
+His blood pressures remained elevated and he was hydrated with NS conservatively , given h/o CHF and dyspnea .
+DM2 :
+He was covered with a Insulin drip while unstable
+CV :
+CAD :
+He was not taking any PO medications per Hunt Center Rehab so all medications were held .
+]]></TEXT>
+<TAGS>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

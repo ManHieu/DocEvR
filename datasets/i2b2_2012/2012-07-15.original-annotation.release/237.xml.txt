@@ -1,0 +1,45 @@
+Admission Date :
+2016-03-31
+Discharge Date :
+2016-04-01
+Service :
+MEDICINE
+History of Present Illness :
+50 yo male , h/o CAD s/p stent to LAD in 2011 , Hypercholesterolemia , DM , cocaine abuse , presenting with chest pain .
+He states he had onset of this pain today ; described as anterior chest pain with radiation to right shoulder , 09-26 , was increasing over the course of 45 minutes to 1 hour ( occurred after arrested ).
+He states that he also felt SOB and diaphoretic but denies n/v/palpitations .
+He reports that the pain was increasing in intensity .
+He was brought to Providence Behavioral Health Hospital where he was found to have positive urine cocaine , EKG with new 2-7392 W. Second Cr. elevations in the anterior leads ( v2-5 ) and some ST depressions in II , III , AvF .
+He was given lopressor 5 mg x 2 ( 3rd dose given by medflight , 5 mg morphine , ativan , nitro gtt , heparin , and integrillin .
+Pain was 12-28 at time of transfer .
+In the cath lab , he was found to have hazy plaque in LAD ( prior stent ) , 80% hazy plaque in circumflex , and a totally occluded PLB ( with collaterals ) .
+1 cypher stent was place in the LAD while 2 were placed in Lcx .
+Right system was not intervened upon , for the PLB was unable to be crossed by wire .
+He was transferred to the CCU for observation .
+Brief Hospital Course :
+1. CAD : presented with anginal symptoms and EKG changes ( STEMI ) , with cardiac catheterization revealing lesions in LAD , LcX , and PLB .
+Unclear if hazy lesions significant or if this was cocaine induced vasospasm .
+LAD and LCX were stented , but PLB could not be crossed by guidewire ( were collaterals ) .
+- continue ASA , statin , Plavix ; will hold BB given recent cocaine use ( ? can consider labetalol if necessary ) , Integrillin for 18 hours
+- CK negative .
+TN WNL .
+- post cath check normal
+2. CHF : EF 25% on Echo , states he takes lasix at home
+- Started lisinopril .
+- Consider repeat Echo in 1 month and Quincy Medical Center - V/ICD per discretion of primary cardiologist .
+- kept euvolemic and monitored for signs of overload
+- Low Na diet with 1 liter fluid restriction
+- may need to diurese based on clinical status , swan numbers
+3. Rhythm : No ectopy post cath MI
+4. DM : on metformin at home , will hold given cath / dye adn cover with SSI
+5. Cocaine use : last use this morning , no BB given this ; considered using CCB / phentolamine if chest pain recurs .
+-- Will discuss beta-blocker risks and benefits with primary cardiologist
+-- Pt advised of medical risks of using cocaine
+6. EtOH use : unclear how much , monitor on CIWA for signs of withdrawal , ativan prn
+-- CIWAs were 0 throughout admission
+7. Hyperlipidemia : on lipitor 80 .
+LDL 79 , HDL 51
+8. Social : in police custody , with 24 hr guard , handcuffed to bed
+9. FEN : cardiac diet , watch for aspiration given somnolent status at this time , ck and replete Mg/K/Ca aggressively
+10. Code : FULL
+11. Dispo : back to prison; ? extradition to Hawaii

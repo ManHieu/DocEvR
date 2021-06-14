@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2017-08-12
+Discharge Date :
+2017-08-16
+Service : SURGERY
+Allergies :
+History of Present Illness :
+22 year old female transfer from outside hospital after a motor vehicle accident with diagnosed liver laceration by CT scan .
+Brief Hospital Course :
+Patient was admited , pain was managed with a PCA and later with PO medication .
+The liver laceration was stable , no sign of rupture or further complication , did not required surgical managment .
+The liver enzimes come down , no signs of biliary stasis .
+She was able to tolerate diet , ambulate , having a bowel movement and dischargo home in good conditions .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="135" end="143" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="149" end="165" text="outside hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E16" start="172" end="196" text="a motor vehicle accident" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="202" end="228" text="diagnosed liver laceration" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="202" end="211" text="diagnosed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E23" start="212" end="228" text="liver laceration" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="232" end="239" text="CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E12" start="278" end="285" text="admited" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="288" end="292" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="310" end="315" text="a PCA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="331" end="344" text="PO medication" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="347" end="367" text="The liver laceration" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="372" end="378" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="392" end="399" text="rupture" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E7" start="403" end="423" text="further complication" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E8" start="443" end="461" text="surgical managment" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E9" start="464" end="481" text="The liver enzimes" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E10" start="506" end="520" text="biliary stasis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E18" start="539" end="552" text="tolerate diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="555" end="563" text="ambulate" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="566" end="589" text="having a bowel movement" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="594" end="603" text="dischargo" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="612" end="627" text="good conditions" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T0" start="18" end="28" text="2017-08-12" type="DATE" val="2017-08-12" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2017-08-16" type="DATE" val="2017-08-16" mod="NA" />
+<TLINK id="TL1" fromID="E4" fromText="PO medication" toID="E3" toText="a PCA" type="AFTER" />
+<TLINK id="TL11" fromID="E17" fromText="diagnosed liver laceration" toID="E16" toText="a motor vehicle accident" type="DURING" />
+<TLINK id="TL12" fromID="E17" fromText="diagnosed liver laceration" toID="E1" toText="CT scan" type="SIMULTANEOUS" />
+<TLINK id="TL13" fromID="E1" fromText="CT scan" toID="E15" toText="outside hospital" type="DURING" />
+<TLINK id="TL14" fromID="E12" fromText="admited" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E3" fromText="a PCA" toID="E12" toText="admited" type="AFTER" />
+<TLINK id="TL16" fromID="E2" fromText="pain" toID="E3" toText="a PCA" type="ENDED_BY" />
+<TLINK id="TL18" fromID="E5" fromText="The liver laceration" toID="E17" toText="diagnosed liver laceration" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="E0" fromText="Admission" toID="T0" toText="2017-08-12" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E5" fromText="The liver laceration" toID="E13" toText="stable" type="BEFORE_OVERLAP" />
+<TLINK id="TL21" fromID="E6" fromText="rupture" toID="E13" toText="stable" type="OVERLAP" />
+<TLINK id="TL22" fromID="E7" fromText="further complication" toID="E6" toText="rupture" type="AFTER" />
+<TLINK id="TL23" fromID="E8" fromText="surgical managment" toID="E7" toText="further complication" type="OVERLAP" />
+<TLINK id="TL24" fromID="E9" fromText="The liver enzimes" toID="E7" toText="further complication" type="OVERLAP" />
+<TLINK id="TL25" fromID="E10" fromText="biliary stasis" toID="E9" toText="The liver enzimes" type="OVERLAP" />
+<TLINK id="TL26" fromID="E18" fromText="tolerate diet" toID="E10" toText="biliary stasis" type="OVERLAP" />
+<TLINK id="TL27" fromID="E19" fromText="ambulate" toID="E18" toText="tolerate diet" type="OVERLAP" />
+<TLINK id="TL28" fromID="E20" fromText="having a bowel movement" toID="E19" toText="ambulate" type="OVERLAP" />
+<TLINK id="TL29" fromID="E22" fromText="good conditions" toID="E21" toText="dischargo" type="BEFORE_OVERLAP" />
+<TLINK id="TL3" fromID="E14" fromText="Discharge" toID="T1" toText="2017-08-16" type="SIMULTANEOUS" />
+<TLINK id="TL4" fromID="E21" fromText="dischargo" toID="E14" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E11" fromText="transfer" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL6" fromID="E15" fromText="outside hospital" toID="E11" toText="transfer" type="ENDED_BY" />
+<TLINK id="TL7" fromID="E16" fromText="a motor vehicle accident" toID="E15" toText="outside hospital" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E11" fromText="transfer" toID="T0" toText="2017-08-12" type="OVERLAP" />
+<TLINK id="Sectime1" fromID="E15" fromText="outside hospital" toID="T0" toText="2017-08-12" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime2" fromID="E16" fromText="a motor vehicle accident" toID="T0" toText="2017-08-12" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E17" fromText="diagnosed liver laceration" toID="T0" toText="2017-08-12" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime4" fromID="E24" fromText="diagnosed" toID="T0" toText="2017-08-12" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E23" fromText="liver laceration" toID="T0" toText="2017-08-12" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E1" fromText="CT scan" toID="T0" toText="2017-08-12" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E12" fromText="admited" toID="T1" toText="2017-08-16" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E2" fromText="pain" toID="T1" toText="2017-08-16" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E3" fromText="a PCA" toID="T1" toText="2017-08-16" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E4" fromText="PO medication" toID="T1" toText="2017-08-16" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E5" fromText="The liver laceration" toID="T1" toText="2017-08-16" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E13" fromText="stable" toID="T1" toText="2017-08-16" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E6" fromText="rupture" toID="T1" toText="2017-08-16" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E7" fromText="further complication" toID="T1" toText="2017-08-16" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E8" fromText="surgical managment" toID="T1" toText="2017-08-16" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E9" fromText="The liver enzimes" toID="T1" toText="2017-08-16" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E10" fromText="biliary stasis" toID="T1" toText="2017-08-16" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E18" fromText="tolerate diet" toID="T1" toText="2017-08-16" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime12" fromID="E19" fromText="ambulate" toID="T1" toText="2017-08-16" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime13" fromID="E20" fromText="having a bowel movement" toID="T1" toText="2017-08-16" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E21" fromText="dischargo" toID="T1" toText="2017-08-16" type="OVERLAP" />
+<TLINK id="Sectime15" fromID="E22" fromText="good conditions" toID="T1" toText="2017-08-16" type="BEFORE_OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2017-08-12" type="ADMISSION" dvalue="2017-08-12" />
+<SECTIME id="S1" start="46" end="56" text="2017-08-16" type="DISCHARGE" dvalue="2017-08-16" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

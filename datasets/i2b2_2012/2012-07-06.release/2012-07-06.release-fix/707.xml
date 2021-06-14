@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2012-09-26
+Discharge Date :
+2012-10-01
+Service :
+NEONATOLOGY
+HISTORY OF PRESENT ILLNESS :
+This is a 5235 - gram full-term male infant of a diabetic mother born by repeat cesarean section to a 29-year-old gravida 1 , para 2 , woman .
+Prenatal screens benign .
+Group B strep status negative .
+Pregnancy complicated by insulin-dependent gestational diabetes .
+Apgar scores were 8 at 1 minute and 9 at 5 minutes .
+The infant admitted to the Neonatal Intensive Care Unit for a dextrose stick of 20 in the delivery room .
+SUMMARY OF HOSPITAL COURSE BY ISSUES-SYSTEM :
+RESPIRATORY :
+The infant has remained on room air throughout his hospitalization with oxygen saturations of greater than 95 percent .
+Respiratory rates have been 40 s to 60 s.
+The infant has had two spontaneous desaturations which quickly self-resolved on day of life one .
+No other issues .
+No apnea or bradycardia .
+CARDIOVASCULAR :
+The infant has remained hemodynamically stable with heart rates in the 120 s to 140 s and mean blood pressures of 57 to 60 .
+FLUIDS , ELECTROLYTES AND NUTRITION :
+The infant was admitted to the Neonatal Intensive Care Unit for treatment of hypoglycemia .
+The infant was started on enteral feedings of Enfamil 20 calories per ounce by mouth ad lib and maintained glucoses in the middle to high 40 s taking by mouth feedings every two to three hours by mouth ad lib .
+On day of life one , the infant had a dextrose stick of 34 .
+At that time , an intravenous of D-10-W was started at 80 cc / kilogram per day .
+On day of life two , the infant began to wean off intravenous fluids , and this was completed by day of life four .
+Calories were increased to Similac 24 calories per ounce .
+Before discharge to the Newborn Nursery , the infant was taking Similac 22 calories per ounce by mouth ad lib and maintaining dextrose sticks in the 60 s.
+Weight on discharge was 5200 grams .
+GASTROINTESTINAL :
+No issues .
+HEMATOLOGY :
+No issues .
+NEUROLOGY :
+Normal neurologic examination .
+SCREENS :
+A hearing screen was performed with automated auditory brain stem responses and the infant passed on both ears .
+PSYCHOSOCIAL :
+The parents are involved .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1005" end="1025" text="mean blood pressures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="1093" end="1101" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1105" end="1137" text="the Neonatal Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E2" start="1142" end="1151" text="treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="1155" end="1167" text="hypoglycemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="1196" end="1212" text="enteral feedings" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="1216" end="1223" text="Enfamil" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="1277" end="1285" text="glucoses" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="1323" end="1337" text="mouth feedings" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="1417" end="1433" text="a dextrose stick" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="1457" end="1471" text="an intravenous" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="1475" end="1481" text="D-10-W" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="1565" end="1573" text="wean off" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="1574" end="1592" text="intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="1667" end="1674" text="Similac" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1706" end="1715" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1719" end="1738" text="the Newborn Nursery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E41" start="1763" end="1770" text="Similac" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="181" end="204" text="repeat cesarean section" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="1825" end="1840" text="dextrose sticks" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="1854" end="1860" text="Weight" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="1864" end="1873" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1891" end="1907" text="GASTROINTESTINAL" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="1913" end="1919" text="issues" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E46" start="1922" end="1932" text="HEMATOLOGY" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="1938" end="1944" text="issues" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E47" start="1947" end="1956" text="NEUROLOGY" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="1959" end="1988" text="Normal neurologic examination" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="2001" end="2017" text="A hearing screen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="2037" end="2076" text="automated auditory brain stem responses" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E49" start="2092" end="2111" text="passed on both ears" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="251" end="267" text="Prenatal screens" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E22" start="277" end="297" text="Group B strep status" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="375" end="387" text="Apgar scores" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="439" end="447" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="451" end="483" text="the Neonatal Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E25" start="488" end="504" text="a dextrose stick" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="514" end="531" text="the delivery room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E27" start="621" end="629" text="room air" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="641" end="660" text="his hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="666" end="684" text="oxygen saturations" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="714" end="731" text="Respiratory rates" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="775" end="804" text="two spontaneous desaturations" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="857" end="869" text="other issues" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E32" start="875" end="880" text="apnea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E33" start="884" end="895" text="bradycardia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E34" start="939" end="961" text="hemodynamically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="967" end="978" text="heart rates" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T0" start="1255" end="1261" text="ad lib" type="FREQUENCY" val="R" mod="NA" />
+<TIMEX3 id="T6" start="1338" end="1362" text="every two to three hours" type="FREQUENCY" val="RPT2.5H" mod="APPROX" />
+<TIMEX3 id="T7" start="1372" end="1378" text="ad lib" type="FREQUENCY" val="R" mod="NA" />
+<TIMEX3 id="T4" start="1384" end="1399" text="day of life one" type="DATE" val="2012-09-26" mod="NA" />
+<TIMEX3 id="T8" start="1445" end="1454" text="that time" type="DATE" val="2012-09-26" mod="NA" />
+<TIMEX3 id="T5" start="1527" end="1542" text="day of life two" type="DATE" val="2012-09-27" mod="NA" />
+<TIMEX3 id="T9" start="1621" end="1637" text="day of life four" type="DATE" val="2012-09-29" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2012-09-26" type="DATE" val="2012-09-26" mod="NA" />
+<TIMEX3 id="T10" start="1802" end="1808" text="ad lib" type="FREQUENCY" val="R" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2012-10-01" type="DATE" val="2012-10-01" mod="NA" />
+<TIMEX3 id="T3" start="836" end="851" text="day of life one" type="DATE" val="2012-09-26" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="2012-09-26" type="OVERLAP" />
+<TLINK id="TL1" fromID="E6" fromText="glucoses" toID="E5" toText="Enfamil" type="OVERLAP" />
+<TLINK id="TL10" fromID="E20" fromText="repeat cesarean section" toID="E26" toText="the delivery room" type="OVERLAP" />
+<TLINK id="TL11" fromID="E26" fromText="the delivery room" toID="E18" toText="admitted" type="BEFORE" />
+<TLINK id="TL12" fromID="E28" fromText="his hospitalization" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL13" fromID="E28" fromText="his hospitalization" toID="E19" toText="Discharge" type="BEFORE" />
+<TLINK id="TL14" fromID="E27" fromText="room air" toID="E28" toText="his hospitalization" type="OVERLAP" />
+<TLINK id="TL15" fromID="E29" fromText="oxygen saturations" toID="E27" toText="room air" type="OVERLAP" />
+<TLINK id="TL16" fromID="E30" fromText="Respiratory rates" toID="E28" toText="his hospitalization" type="OVERLAP" />
+<TLINK id="TL17" fromID="E1" fromText="two spontaneous desaturations" toID="T3" toText="day of life one" type="OVERLAP" />
+<TLINK id="TL18" fromID="E31" fromText="other issues" toID="E28" toText="his hospitalization" type="OVERLAP" />
+<TLINK id="TL19" fromID="E32" fromText="apnea" toID="E28" toText="his hospitalization" type="OVERLAP" />
+<TLINK id="TL2" fromID="E19" fromText="Discharge" toID="T2" toText="2012-10-01" type="OVERLAP" />
+<TLINK id="TL20" fromID="E33" fromText="bradycardia" toID="E28" toText="his hospitalization" type="OVERLAP" />
+<TLINK id="TL21" fromID="E34" fromText="hemodynamically stable" toID="E28" toText="his hospitalization" type="OVERLAP" />
+<TLINK id="TL22" fromID="E35" fromText="heart rates" toID="E34" toText="hemodynamically stable" type="OVERLAP" />
+<TLINK id="TL23" fromID="E36" fromText="mean blood pressures" toID="E34" toText="hemodynamically stable" type="OVERLAP" />
+<TLINK id="TL24" fromID="E17" fromText="admitted" toID="E18" toText="admitted" type="OVERLAP" />
+<TLINK id="TL25" fromID="E37" fromText="the Neonatal Intensive Care Unit" toID="E24" toText="the Neonatal Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL26" fromID="E2" fromText="treatment" toID="E37" toText="the Neonatal Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL27" fromID="E3" fromText="hypoglycemia" toID="E2" toText="treatment" type="BEFORE" />
+<TLINK id="TL28" fromID="E4" fromText="enteral feedings" toID="E5" toText="Enfamil" type="AFTER" />
+<TLINK id="TL29" fromID="E4" fromText="enteral feedings" toID="T0" toText="ad lib" type="OVERLAP" />
+<TLINK id="TL3" fromID="E21" fromText="Prenatal screens" toID="E20" toText="repeat cesarean section" type="BEFORE" />
+<TLINK id="TL30" fromID="E6" fromText="glucoses" toID="E7" toText="mouth feedings" type="OVERLAP" />
+<TLINK id="TL31" fromID="E7" fromText="mouth feedings" toID="T6" toText="every two to three hours" type="OVERLAP" />
+<TLINK id="TL32" fromID="E7" fromText="mouth feedings" toID="T7" toText="ad lib" type="OVERLAP" />
+<TLINK id="TL33" fromID="E8" fromText="a dextrose stick" toID="T4" toText="day of life one" type="OVERLAP" />
+<TLINK id="TL34" fromID="E9" fromText="an intravenous" toID="T8" toText="that time" type="AFTER" />
+<TLINK id="TL35" fromID="E9" fromText="an intravenous" toID="E10" toText="D-10-W" type="OVERLAP" />
+<TLINK id="TL36" fromID="E38" fromText="wean off" toID="T5" toText="day of life two" type="AFTER" />
+<TLINK id="TL37" fromID="E38" fromText="wean off" toID="E11" toText="intravenous fluids" type="OVERLAP" />
+<TLINK id="TL38" fromID="E38" fromText="wean off" toID="T9" toText="day of life four" type="BEFORE" />
+<TLINK id="TL39" fromID="E50" fromText="Similac" toID="E5" toText="Enfamil" type="AFTER" />
+<TLINK id="TL4" fromID="E22" fromText="Group B strep status" toID="E20" toText="repeat cesarean section" type="OVERLAP" />
+<TLINK id="TL40" fromID="E39" fromText="discharge" toID="E19" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL41" fromID="E40" fromText="the Newborn Nursery" toID="E39" toText="discharge" type="AFTER" />
+<TLINK id="TL42" fromID="E41" fromText="Similac" toID="E39" toText="discharge" type="BEFORE" />
+<TLINK id="TL43" fromID="T10" fromText="ad lib" toID="E41" toText="Similac" type="OVERLAP" />
+<TLINK id="TL44" fromID="E13" fromText="dextrose sticks" toID="E39" toText="discharge" type="BEFORE" />
+<TLINK id="TL45" fromID="E39" fromText="discharge" toID="E42" toText="discharge" type="OVERLAP" />
+<TLINK id="TL46" fromID="E14" fromText="Weight" toID="E42" toText="discharge" type="OVERLAP" />
+<TLINK id="TL47" fromID="E45" fromText="GASTROINTESTINAL" toID="E43" toText="issues" type="OVERLAP" />
+<TLINK id="TL48" fromID="E46" fromText="HEMATOLOGY" toID="E44" toText="issues" type="OVERLAP" />
+<TLINK id="TL49" fromID="E47" fromText="NEUROLOGY" toID="E48" toText="Normal neurologic examination" type="OVERLAP" />
+<TLINK id="TL5" fromID="E23" fromText="Apgar scores" toID="E20" toText="repeat cesarean section" type="AFTER" />
+<TLINK id="TL50" fromID="E43" fromText="issues" toID="E28" toText="his hospitalization" type="OVERLAP" />
+<TLINK id="TL51" fromID="E44" fromText="issues" toID="E28" toText="his hospitalization" type="OVERLAP" />
+<TLINK id="TL52" fromID="E48" fromText="Normal neurologic examination" toID="E28" toText="his hospitalization" type="OVERLAP" />
+<TLINK id="TL53" fromID="E15" fromText="A hearing screen" toID="E16" toText="automated auditory brain stem responses" type="OVERLAP" />
+<TLINK id="TL54" fromID="E49" fromText="passed on both ears" toID="E15" toText="A hearing screen" type="OVERLAP" />
+<TLINK id="TL6" fromID="E18" fromText="admitted" toID="E20" toText="repeat cesarean section" type="AFTER" />
+<TLINK id="TL7" fromID="E18" fromText="admitted" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL8" fromID="E24" fromText="the Neonatal Intensive Care Unit" toID="E18" toText="admitted" type="AFTER" />
+<TLINK id="TL9" fromID="E25" fromText="a dextrose stick" toID="E26" toText="the delivery room" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2012-09-26" type="ADMISSION" dvalue="2012-09-26" />
+<SECTIME id="S1" start="46" end="56" text="2012-10-01" type="DISCHARGE" dvalue="2012-10-01" />
+<TLINK id="SECTIME0" fromID="E36" fromText="mean blood pressures" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E17" fromText="admitted" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E37" fromText="the Neonatal Intensive Care Unit" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E2" fromText="treatment" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E3" fromText="hypoglycemia" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E4" fromText="enteral feedings" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E5" fromText="Enfamil" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E6" fromText="glucoses" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E7" fromText="mouth feedings" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E8" fromText="a dextrose stick" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E9" fromText="an intravenous" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E10" fromText="D-10-W" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E38" fromText="wean off" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E11" fromText="intravenous fluids" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E50" fromText="Similac" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E39" fromText="discharge" toID="T2" toText="2012-10-01" type="OVERLAP" />
+<TLINK id="SECTIME16" fromID="E40" fromText="the Newborn Nursery" toID="T2" toText="2012-10-01" type="AFTER" />
+<TLINK id="SECTIME17" fromID="E41" fromText="Similac" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E20" fromText="repeat cesarean section" toID="T1" toText="2012-09-26" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E13" fromText="dextrose sticks" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E14" fromText="Weight" toID="T2" toText="2012-10-01" type="OVERLAP" />
+<TLINK id="SECTIME21" fromID="E42" fromText="discharge" toID="T2" toText="2012-10-01" type="OVERLAP" />
+<TLINK id="SECTIME22" fromID="E45" fromText="GASTROINTESTINAL" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E43" fromText="issues" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E46" fromText="HEMATOLOGY" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E44" fromText="issues" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E47" fromText="NEUROLOGY" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E48" fromText="Normal neurologic examination" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E15" fromText="A hearing screen" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E16" fromText="automated auditory brain stem responses" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E49" fromText="passed on both ears" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E21" fromText="Prenatal screens" toID="T1" toText="2012-09-26" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E22" fromText="Group B strep status" toID="T1" toText="2012-09-26" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E23" fromText="Apgar scores" toID="T1" toText="2012-09-26" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E18" fromText="admitted" toID="T1" toText="2012-09-26" type="OVERLAP" />
+<TLINK id="SECTIME35" fromID="E24" fromText="the Neonatal Intensive Care Unit" toID="T1" toText="2012-09-26" type="OVERLAP" />
+<TLINK id="SECTIME36" fromID="E25" fromText="a dextrose stick" toID="T1" toText="2012-09-26" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E26" fromText="the delivery room" toID="T1" toText="2012-09-26" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E27" fromText="room air" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E28" fromText="his hospitalization" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E29" fromText="oxygen saturations" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E30" fromText="Respiratory rates" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E1" fromText="two spontaneous desaturations" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E31" fromText="other issues" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E32" fromText="apnea" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E33" fromText="bradycardia" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E34" fromText="hemodynamically stable" toID="T2" toText="2012-10-01" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E35" fromText="heart rates" toID="T2" toText="2012-10-01" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

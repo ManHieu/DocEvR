@@ -1,0 +1,20 @@
+Admission Date :
+2017-05-08
+Discharge Date :
+2017-05-16
+Service :
+CARDIOTHORACIC
+History of Present Illness :
+Mr. Williams is an 85 yo gentleman who has a known cardiac history and has had a h/o worsening chest pain and shortness of breath .
+He had an echocardiogram which showed an EF 40-45% and severe aortic stenosis .
+He underwent cardiac catheterization which showed an 80% LAD lesion , chronically occluded RCA , anneurysmal mid LCX w/50% lesion .
+He was refered to Dr. Barber for surgical treatment .
+Brief Hospital Course :
+Mr. Williams was admitted to Hallmark Health System on 05-08 and taken to the operating room with Dr. Barber for a CABGx2 and AVR w/ 25 mm pericardial valve .
+Please see operative note for full details .
+He was transfered to the ICU in stable condition .
+He was weaned and extubated from mechanical ventillation on POD#1 without difficulty .
+He was transfered to the regular part of the hospital on POD#2 , where he began working with physical therapy .
+He developed atrial fibrillation on POD#2 with well controlled rate and hemodynamically stable .
+He was started on heparin and coumadin for anticoagulation on POD#5 .
+On POD#7 he was cleared for discharge to home by physical therapy and on POD#8 he was discharged .

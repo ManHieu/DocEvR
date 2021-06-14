@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+02/19/1991
+Discharge Date :
+02/25/1991
+HISTORY OF PRESENT ILLNESS :
+This is an 81-year-old who presented with postmenopausal spotting and had an endometrial biopsy which was read at the Etearal Etsystems/ Hospital as showing grade I adenocarcinoma .
+Accordingly she presents for operative therapy at this time .
+HOSPITAL COURSE :
+The patient was brought to the Operating Room on 2-19-91 where she had an exploratory laparotomy , TAH / BSO , and omental biopsy .
+She had a normal abdominal exploration of a small uterus with superficial invasion on gross examination , normal ovaries .
+Washings were sent .
+A subfascial J-P was left .
+The patient did well postoperatively and had a regular diet by the third postoperative day .
+Subfascia drain was discontinued .
+The patient &apos;s postoperative Hct was 34 .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="113" end="122" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="128" end="151" text="postmenopausal spotting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="160" end="181" text="an endometrial biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="192" end="196" text="read" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E6" start="200" end="231" text="the Etearal Etsystems/ Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E7" start="235" end="242" text="showing" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E8" start="243" end="265" text="grade I adenocarcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="284" end="292" text="presents" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="297" end="314" text="operative therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="375" end="393" text="the Operating Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E12" start="419" end="444" text="an exploratory laparotomy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E13" start="447" end="456" text="TAH / BSO" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="463" end="477" text="omental biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="488" end="518" text="a normal abdominal exploration" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="497" end="518" text="abdominal exploration" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="542" end="562" text="superficial invasion" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="566" end="583" text="gross examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="603" end="611" text="Washings" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="617" end="621" text="sent" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="624" end="640" text="A subfascial J-P" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="668" end="672" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="697" end="711" text="a regular diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="745" end="760" text="Subfascia drain" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="814" end="817" text="Hct" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T0" start="18" end="28" text="02/19/1991" type="DATE" val="1991-02-19" mod="NA" />
+<TIMEX3 id="T2" start="318" end="327" text="this time" type="DATE" val="1991-02-19" mod="NA" />
+<TIMEX3 id="T3" start="397" end="404" text="2-19-91" type="DATE" val="1991-02-19" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="02/25/1991" type="DATE" val="1991-02-25" mod="NA" />
+<TIMEX3 id="T4" start="715" end="742" text="the third postoperative day" type="DATE" val="1997-02-22" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="02/19/1991" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="Discharge" toID="T1" toText="02/25/1991" type="OVERLAP" />
+<TLINK id="TL10" fromID="E9" fromText="presents" toID="E2" toText="presented" type="OVERLAP" />
+<TLINK id="TL11" fromID="E10" fromText="operative therapy" toID="E9" toText="presents" type="AFTER" />
+<TLINK id="TL13" fromID="E10" fromText="operative therapy" toID="T2" toText="this time" type="OVERLAP" />
+<TLINK id="TL14" fromID="E9" fromText="presents" toID="E10" toText="operative therapy" type="BEFORE" />
+<TLINK id="TL15" fromID="E10" fromText="operative therapy" toID="E11" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL16" fromID="E11" fromText="the Operating Room" toID="T3" toText="2-19-91" type="OVERLAP" />
+<TLINK id="TL17" fromID="T3" fromText="2-19-91" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL18" fromID="E12" fromText="an exploratory laparotomy" toID="E11" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL19" fromID="E12" fromText="an exploratory laparotomy" toID="E13" toText="TAH / BSO" type="OVERLAP" />
+<TLINK id="TL2" fromID="E3" fromText="postmenopausal spotting" toID="E2" toText="presented" type="BEFORE" />
+<TLINK id="TL20" fromID="E13" fromText="TAH / BSO" toID="E14" toText="omental biopsy" type="OVERLAP" />
+<TLINK id="TL21" fromID="E15" fromText="a normal abdominal exploration" toID="E14" toText="omental biopsy" type="OVERLAP" />
+<TLINK id="TL22" fromID="E17" fromText="superficial invasion" toID="E15" toText="a normal abdominal exploration" type="OVERLAP" />
+<TLINK id="TL23" fromID="E16" fromText="gross examination" toID="E17" toText="superficial invasion" type="OVERLAP" />
+<TLINK id="TL24" fromID="E18" fromText="Washings" toID="E16" toText="gross examination" type="OVERLAP" />
+<TLINK id="TL25" fromID="E18" fromText="Washings" toID="E19" toText="sent" type="OVERLAP" />
+<TLINK id="TL26" fromID="E20" fromText="A subfascial J-P" toID="E23" toText="Subfascia drain" type="OVERLAP" />
+<TLINK id="TL27" fromID="E20" fromText="A subfascial J-P" toID="E11" toText="the Operating Room" type="AFTER" />
+<TLINK id="TL28" fromID="E21" fromText="well" toID="E11" toText="the Operating Room" type="AFTER" />
+<TLINK id="TL29" fromID="E22" fromText="a regular diet" toID="T4" toText="the third postoperative day" type="AFTER" />
+<TLINK id="TL3" fromID="E2" fromText="presented" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL30" fromID="E23" fromText="Subfascia drain" toID="T4" toText="the third postoperative day" type="BEFORE" />
+<TLINK id="TL31" fromID="E24" fromText="Hct" toID="E21" toText="well" type="OVERLAP" />
+<TLINK id="TL4" fromID="E4" fromText="an endometrial biopsy" toID="E0" toText="Admission" type="" />
+<TLINK id="TL5" fromID="E4" fromText="an endometrial biopsy" toID="E5" toText="read" type="OVERLAP" />
+<TLINK id="TL6" fromID="E5" fromText="read" toID="E6" toText="the Etearal Etsystems/ Hospital" type="OVERLAP" />
+<TLINK id="TL7" fromID="E6" fromText="the Etearal Etsystems/ Hospital" toID="E2" toText="presented" type="BEFORE" />
+<TLINK id="TL8" fromID="E7" fromText="showing" toID="E5" toText="read" type="OVERLAP" />
+<TLINK id="TL9" fromID="E8" fromText="grade I adenocarcinoma" toID="E7" toText="showing" type="BEFORE" />
+<TLINK id="SECTIME0" fromID="E2" fromText="presented" toID="T0" toText="02/19/1991" type="OVERLAP" />
+<TLINK id="SECTIME1" fromID="E3" fromText="postmenopausal spotting" toID="T0" toText="02/19/1991" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E4" fromText="an endometrial biopsy" toID="T0" toText="02/19/1991" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E5" fromText="read" toID="T0" toText="02/19/1991" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E6" fromText="the Etearal Etsystems/ Hospital" toID="T0" toText="02/19/1991" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E7" fromText="showing" toID="T0" toText="02/19/1991" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E8" fromText="grade I adenocarcinoma" toID="T0" toText="02/19/1991" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E9" fromText="presents" toID="T0" toText="02/19/1991" type="OVERLAP" />
+<TLINK id="SECTIME8" fromID="E10" fromText="operative therapy" toID="T0" toText="02/19/1991" type="OVERLAP" />
+<TLINK id="SECTIME9" fromID="E11" fromText="the Operating Room" toID="T1" toText="02/25/1991" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E12" fromText="an exploratory laparotomy" toID="T1" toText="02/25/1991" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E13" fromText="TAH / BSO" toID="T1" toText="02/25/1991" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E14" fromText="omental biopsy" toID="T1" toText="02/25/1991" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E15" fromText="a normal abdominal exploration" toID="T1" toText="02/25/1991" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E25" fromText="abdominal exploration" toID="T1" toText="02/25/1991" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E17" fromText="superficial invasion" toID="T1" toText="02/25/1991" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E16" fromText="gross examination" toID="T1" toText="02/25/1991" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E18" fromText="Washings" toID="T1" toText="02/25/1991" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E19" fromText="sent" toID="T1" toText="02/25/1991" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E20" fromText="A subfascial J-P" toID="T1" toText="02/25/1991" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E21" fromText="well" toID="T1" toText="02/25/1991" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E22" fromText="a regular diet" toID="T1" toText="02/25/1991" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E23" fromText="Subfascia drain" toID="T1" toText="02/25/1991" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E24" fromText="Hct" toID="T1" toText="02/25/1991" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="02/19/1991" type="ADMISSION" dvalue="1991-02-19" />
+<SECTIME id="S1" start="46" end="56" text="02/25/1991" type="DISCHARGE" dvalue="1991-02-25" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

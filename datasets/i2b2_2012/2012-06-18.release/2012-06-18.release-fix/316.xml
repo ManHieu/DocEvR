@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+03/07/2002
+DISCHARGE DATE :
+03/13/2002
+HISTORY OF PRESENT ILLNESS :
+The patient is a 79-year-old man status postradical cystoprostatectomy with ileal loop for locally invasive prostate cancer .
+This operation was performed 2/11/02 by Dr. Doje Para .
+The postoperative course was complicated by atrial fibrillation with transfer to the Cardiac Step-Down Unit .
+This transfer occurred around postoperative day 8 for anticoagulation and amiodarone load .
+The anticoagulation was stopped due to concern for postoperative bleeding .
+The patient complained of fevers .
+The patient presented to the emergency room on 3/7/02 , complaining of fevers since Monday 3/2/02 .
+He developed erythema around the wound on Wednesday and was seen by Dr. Para , who started Keflex and obtained a CT scan which demonstrated a fluid collection at the site of erythema .
+The fevers continued as high as 102.5 degrees F with chills on the morning of admission .
+He was draining pus from the wound site with subsequent relief of discomfort at the site .
+HOSPITAL COURSE :
+The patient was admitted to Urology .
+After the wound was further opened , he was started on ampicillin , Gentamicin , and Flagyl antibiotics and he was placed on a bid dressing change and packing .
+On hospital day 2 , the patient had no complaints .
+He was afebrile with stable vital signs and good urine output .
+The wound erythema was improving and the wound was packed twice a day .
+Wound cultures remained negative at that time .
+We continued his ampicillin , Gentamicin , and Flagyl .
+By hospital day 4 , he remained afebrile throughout his hospital course .
+The wound cultures demonstrated gram-positive cocci in clusters and gram-negative rods .
+Blood cultures remained negative .
+The patient was continued on antibiotics and we obtained a CT scan to check for an enterocutaneous fistula .
+We discontinued his Flagyl on that day .
+We contacted the patient &apos;s primary care physician , Dr. Aslinke ______ , regarding his cardiac medication management .
+We agreed that he should resume his atenolol .
+He was started on 2.5 mg PO qd .
+He was continued on his dressing changes .
+We changed the dressings tid instead of bid for continued drainage .
+The CT scan that was obtained on 3/10/02 demonstrated no connection between bowel and the wound .
+The drainage had been decreasing and the patient continued to be afebrile .
+On the following day , 3/11/02 , a fistulogram was obtained which was negative for a fistula from the bowel to the wound .
+The patient was continued on ampicillin and Gentamicin .
+Her remained afebrile with stable vital signs .
+He was comfortable and erythema continued to decrease with improvemeent in the appearance of the wound .
+In consultation with Infectious Disease , it was agreed to discharge the patient on Augmentin for coverage .
+We obtained sensitivities of his wound bacteria .
+His intravenous antibiotics were discontinued .
+He remaineda febrile with daily improvement in the appearance of his wound .
+On hospital day 7 , the patient remained afebrile with stable vital signs .
+His wound demonstrated no erythema with moderate dark drainage .
+The patient will be discharged with WH and continued dressing changes bid .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="1022" end="1032" text="discomfort" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E55" start="1081" end="1089" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="1093" end="1100" text="Urology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E99" start="1109" end="1137" text="the wound was further opened" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="1158" end="1168" text="ampicillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="1171" end="1181" text="Gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="1188" end="1206" text="Flagyl antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1228" end="1249" text="a bid dressing change" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="126" end="172" text="postradical cystoprostatectomy with ileal loop" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1254" end="1261" text="packing" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="1303" end="1313" text="complaints" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E17" start="1323" end="1331" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="1337" end="1355" text="stable vital signs" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="1360" end="1377" text="good urine output" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="1380" end="1398" text="The wound erythema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="1403" end="1412" text="improving" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="1417" end="1426" text="the wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="1431" end="1437" text="packed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="1452" end="1466" text="Wound cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="1513" end="1527" text="his ampicillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1530" end="1540" text="Gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="1547" end="1553" text="Flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="1588" end="1596" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="1608" end="1627" text="his hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="1630" end="1648" text="The wound cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E81" start="1649" end="1661" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E26" start="1662" end="1693" text="gram-positive cocci in clusters" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="1698" end="1716" text="gram-negative rods" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="1719" end="1733" text="Blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="177" end="209" text="locally invasive prostate cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="1783" end="1794" text="antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="1811" end="1820" text="a CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E82" start="1834" end="1860" text="an enterocutaneous fistula" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1879" end="1889" text="his Flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E83" start="1993" end="2026" text="his cardiac medication management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E84" start="2061" end="2073" text="his atenolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="212" end="226" text="This operation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="2129" end="2149" text="his dressing changes" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="2163" end="2176" text="the dressings" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="2200" end="2218" text="continued drainage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="2221" end="2232" text="The CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E85" start="2262" end="2274" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E86" start="2278" end="2288" text="connection" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E101" start="2297" end="2302" text="bowel" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="2307" end="2316" text="the wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="2319" end="2331" text="The drainage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="2384" end="2392" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="2428" end="2441" text="a fistulogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E87" start="2478" end="2502" text="a fistula from the bowel" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E40" start="2506" end="2515" text="the wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="2547" end="2557" text="ampicillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="2562" end="2572" text="Gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="2588" end="2596" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="2646" end="2654" text="erythema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="2668" end="2676" text="decrease" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E89" start="2682" end="2694" text="improvemeent" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="2716" end="2725" text="the wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E90" start="2749" end="2767" text="Infectious Disease" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E57" start="2787" end="2796" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E91" start="2812" end="2821" text="Augmentin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="2849" end="2862" text="sensitivities" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="2866" end="2884" text="his wound bacteria" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="2887" end="2914" text="His intravenous antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="29" end="38" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E92" start="2920" end="2932" text="discontinued" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="2938" end="2955" text="remaineda febrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="3000" end="3009" text="his wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E93" start="3053" end="3061" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E94" start="3088" end="3097" text="His wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="312" end="331" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E95" start="3114" end="3122" text="erythema" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E96" start="3128" end="3150" text="moderate dark drainage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="3173" end="3183" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E97" start="3196" end="3222" text="continued dressing changes" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="337" end="345" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="349" end="375" text="the Cardiac Step-Down Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E54" start="378" end="391" text="This transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="432" end="447" text="anticoagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="452" end="467" text="amiodarone load" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="470" end="489" text="The anticoagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="521" end="543" text="postoperative bleeding" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="558" end="568" text="complained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E61" start="572" end="578" text="fevers" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="593" end="602" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="606" end="624" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E64" start="637" end="648" text="complaining" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E65" start="652" end="658" text="fevers" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="694" end="702" text="erythema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="710" end="719" text="the wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E98" start="741" end="745" text="seen" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="772" end="778" text="Keflex" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="792" end="801" text="a CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E68" start="808" end="820" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E10" start="821" end="839" text="a fluid collection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E69" start="855" end="863" text="erythema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E70" start="866" end="876" text="The fevers" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="919" end="925" text="chills" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="944" end="953" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="972" end="975" text="pus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E78" start="981" end="995" text="the wound site" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T6" start="1267" end="1281" text="hospital day 2" type="DATE" val="2002-03-08" mod="NA" />
+<TIMEX3 id="T7" start="1438" end="1449" text="twice a day" type="FREQUENCY" val="RP12H" mod="NA" />
+<TIMEX3 id="T8" start="1559" end="1573" text="hospital day 4" type="DATE" val="2002-03-10" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="03/07/2002" type="DATE" val="2002-03-07" mod="NA" />
+<TIMEX3 id="T13" start="1893" end="1901" text="that day" type="DATE" val="2002-03-10" mod="NA" />
+<TIMEX3 id="T14" start="2104" end="2106" text="qd" type="FREQUENCY" val="RP24H" mod="NA" />
+<TIMEX3 id="T15" start="2177" end="2180" text="tid" type="FREQUENCY" val="RP8H" mod="NA" />
+<TIMEX3 id="T16" start="2192" end="2195" text="bid" type="FREQUENCY" val="RP12H" mod="NA" />
+<TIMEX3 id="T9" start="2254" end="2261" text="3/10/02" type="DATE" val="2002-03-10" mod="NA" />
+<TIMEX3 id="T0" start="241" end="248" text="2/11/02" type="DATE" val="2002-02-11" mod="NA" />
+<TIMEX3 id="T17" start="2418" end="2425" text="3/11/02" type="DATE" val="2002-03-11" mod="NA" />
+<TIMEX3 id="T10" start="3015" end="3029" text="hospital day 7" type="DATE" val="2002-03-13" mod="NA" />
+<TIMEX3 id="T18" start="3223" end="3226" text="bid" type="FREQUENCY" val="RP12H" mod="NA" />
+<TIMEX3 id="T11" start="408" end="427" text="postoperative day 8" type="DATE" val="2002-02-19" mod="APPROX" />
+<TIMEX3 id="T2" start="46" end="56" text="03/13/2002" type="DATE" val="2002-03-13" mod="NA" />
+<TIMEX3 id="T3" start="628" end="634" text="3/7/02" type="DATE" val="2002-03-07" mod="NA" />
+<TIMEX3 id="T4" start="672" end="678" text="3/2/02" type="DATE" val="2002-03-02" mod="NA" />
+<TIMEX3 id="T5" start="723" end="732" text="Wednesday" type="DATE" val="2002-03-04" mod="NA" />
+<TIMEX3 id="T12" start="929" end="953" text="the morning of admission" type="DATE" val="2002-03-07" mod="START" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T1" toText="03/07/2002" type="OVERLAP" />
+<TLINK id="TL1" fromID="E51" fromText="DISCHARGE" toID="T2" toText="03/13/2002" type="OVERLAP" />
+<TLINK id="TL10" fromID="E6" fromText="amiodarone load" toID="E54" toText="This transfer" type="BEFORE" />
+<TLINK id="TL11" fromID="E7" fromText="The anticoagulation" toID="E5" toText="anticoagulation" type="OVERLAP" />
+<TLINK id="TL12" fromID="E59" fromText="postoperative bleeding" toID="E3" toText="This operation" type="AFTER" />
+<TLINK id="TL13" fromID="E7" fromText="The anticoagulation" toID="E59" toText="postoperative bleeding" type="BEFORE" />
+<TLINK id="TL14" fromID="E60" fromText="complained" toID="E61" toText="fevers" type="OVERLAP" />
+<TLINK id="TL15" fromID="E62" fromText="presented" toID="T3" toText="3/7/02" type="OVERLAP" />
+<TLINK id="TL16" fromID="E63" fromText="the emergency room" toID="E62" toText="presented" type="AFTER" />
+<TLINK id="TL17" fromID="E64" fromText="complaining" toID="E62" toText="presented" type="OVERLAP" />
+<TLINK id="TL18" fromID="E65" fromText="fevers" toID="E64" toText="complaining" type="BEFORE" />
+<TLINK id="TL19" fromID="E65" fromText="fevers" toID="T4" toText="3/2/02" type="AFTER" />
+<TLINK id="TL2" fromID="E1" fromText="postradical cystoprostatectomy with ileal loop" toID="E2" toText="locally invasive prostate cancer" type="OVERLAP" />
+<TLINK id="TL20" fromID="E8" fromText="the wound" toID="E66" toText="erythema" type="BEFORE" />
+<TLINK id="TL21" fromID="E66" fromText="erythema" toID="T5" toText="Wednesday" type="AFTER" />
+<TLINK id="TL22" fromID="E98" fromText="seen" toID="E66" toText="erythema" type="OVERLAP" />
+<TLINK id="TL23" fromID="E67" fromText="Keflex" toID="E98" toText="seen" type="AFTER" />
+<TLINK id="TL24" fromID="E9" fromText="a CT scan" toID="E98" toText="seen" type="AFTER" />
+<TLINK id="TL25" fromID="E68" fromText="demonstrated" toID="E9" toText="a CT scan" type="OVERLAP" />
+<TLINK id="TL26" fromID="E10" fromText="a fluid collection" toID="E68" toText="demonstrated" type="BEFORE" />
+<TLINK id="TL27" fromID="E10" fromText="a fluid collection" toID="E69" toText="erythema" type="OVERLAP" />
+<TLINK id="TL28" fromID="E70" fromText="The fevers" toID="E61" toText="fevers" type="OVERLAP" />
+<TLINK id="TL29" fromID="E61" fromText="fevers" toID="E65" toText="fevers" type="OVERLAP" />
+<TLINK id="TL3" fromID="E3" fromText="This operation" toID="T0" toText="2/11/02" type="OVERLAP" />
+<TLINK id="TL30" fromID="E70" fromText="The fevers" toID="T12" toText="the morning of admission" type="OVERLAP" />
+<TLINK id="TL31" fromID="E71" fromText="chills" toID="T12" toText="the morning of admission" type="OVERLAP" />
+<TLINK id="TL32" fromID="E78" fromText="the wound site" toID="E73" toText="pus" type="BEFORE" />
+<TLINK id="TL33" fromID="E74" fromText="discomfort" toID="E73" toText="pus" type="AFTER" />
+<TLINK id="TL34" fromID="E56" fromText="Urology" toID="E55" toText="admitted" type="AFTER" />
+<TLINK id="TL35" fromID="E55" fromText="admitted" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL36" fromID="E12" fromText="ampicillin" toID="E99" toText="the wound was further opened" type="AFTER" />
+<TLINK id="TL37" fromID="E12" fromText="ampicillin" toID="E13" toText="Gentamicin" type="OVERLAP" />
+<TLINK id="TL38" fromID="E13" fromText="Gentamicin" toID="E14" toText="Flagyl antibiotics" type="OVERLAP" />
+<TLINK id="TL39" fromID="E15" fromText="a bid dressing change" toID="E99" toText="the wound was further opened" type="AFTER" />
+<TLINK id="TL4" fromID="E4" fromText="atrial fibrillation" toID="E3" toText="This operation" type="AFTER" />
+<TLINK id="TL40" fromID="E15" fromText="a bid dressing change" toID="E16" toText="packing" type="OVERLAP" />
+<TLINK id="TL41" fromID="E75" fromText="complaints" toID="T6" toText="hospital day 2" type="OVERLAP" />
+<TLINK id="TL42" fromID="E17" fromText="afebrile" toID="E76" toText="good urine output" type="OVERLAP" />
+<TLINK id="TL43" fromID="E17" fromText="afebrile" toID="E100" toText="stable vital signs" type="OVERLAP" />
+<TLINK id="TL44" fromID="E18" fromText="The wound erythema" toID="E79" toText="improving" type="OVERLAP" />
+<TLINK id="TL45" fromID="E19" fromText="the wound" toID="E77" toText="packed" type="OVERLAP" />
+<TLINK id="TL46" fromID="E77" fromText="packed" toID="T7" toText="twice a day" type="OVERLAP" />
+<TLINK id="TL47" fromID="E20" fromText="Wound cultures" toID="E18" toText="The wound erythema" type="OVERLAP" />
+<TLINK id="TL48" fromID="E21" fromText="his ampicillin" toID="E12" toText="ampicillin" type="OVERLAP" />
+<TLINK id="TL49" fromID="E22" fromText="Gentamicin" toID="E13" toText="Gentamicin" type="OVERLAP" />
+<TLINK id="TL5" fromID="E4" fromText="atrial fibrillation" toID="E52" toText="transfer" type="BEFORE" />
+<TLINK id="TL50" fromID="E23" fromText="Flagyl" toID="E14" toText="Flagyl antibiotics" type="OVERLAP" />
+<TLINK id="TL51" fromID="E24" fromText="afebrile" toID="T8" toText="hospital day 4" type="OVERLAP" />
+<TLINK id="TL52" fromID="E80" fromText="his hospital course" toID="T8" toText="hospital day 4" type="AFTER" />
+<TLINK id="TL53" fromID="E80" fromText="his hospital course" toID="E51" toText="DISCHARGE" type="BEFORE" />
+<TLINK id="TL54" fromID="E24" fromText="afebrile" toID="E80" toText="his hospital course" type="OVERLAP" />
+<TLINK id="TL55" fromID="E25" fromText="The wound cultures" toID="E81" toText="demonstrated" type="OVERLAP" />
+<TLINK id="TL56" fromID="E26" fromText="gram-positive cocci in clusters" toID="E81" toText="demonstrated" type="BEFORE" />
+<TLINK id="TL57" fromID="E27" fromText="gram-negative rods" toID="E81" toText="demonstrated" type="BEFORE" />
+<TLINK id="TL58" fromID="E28" fromText="Blood cultures" toID="E25" toText="The wound cultures" type="OVERLAP" />
+<TLINK id="TL59" fromID="E29" fromText="antibiotics" toID="E21" toText="his ampicillin" type="OVERLAP" />
+<TLINK id="TL6" fromID="E53" fromText="the Cardiac Step-Down Unit" toID="E52" toText="transfer" type="AFTER" />
+<TLINK id="TL60" fromID="E82" fromText="an enterocutaneous fistula" toID="E30" toText="a CT scan" type="BEFORE" />
+<TLINK id="TL61" fromID="E31" fromText="his Flagyl" toID="T13" toText="that day" type="BEFORE" />
+<TLINK id="TL62" fromID="E83" fromText="his cardiac medication management" toID="T13" toText="that day" type="AFTER" />
+<TLINK id="TL63" fromID="E84" fromText="his atenolol" toID="E83" toText="his cardiac medication management" type="OVERLAP" />
+<TLINK id="TL64" fromID="T14" fromText="qd" toID="E84" toText="his atenolol" type="OVERLAP" />
+<TLINK id="TL65" fromID="E32" fromText="his dressing changes" toID="E33" toText="the dressings" type="OVERLAP" />
+<TLINK id="TL66" fromID="E33" fromText="the dressings" toID="T16" toText="bid" type="OVERLAP" />
+<TLINK id="TL67" fromID="T16" fromText="bid" toID="E34" toText="continued drainage" type="OVERLAP" />
+<TLINK id="TL68" fromID="T15" fromText="tid" toID="T16" toText="bid" type="BEFORE" />
+<TLINK id="TL69" fromID="E35" fromText="The CT scan" toID="T9" toText="3/10/02" type="OVERLAP" />
+<TLINK id="TL7" fromID="E54" fromText="This transfer" toID="E52" toText="transfer" type="OVERLAP" />
+<TLINK id="TL70" fromID="E35" fromText="The CT scan" toID="E85" toText="demonstrated" type="OVERLAP" />
+<TLINK id="TL71" fromID="E85" fromText="demonstrated" toID="E86" toText="connection" type="OVERLAP" />
+<TLINK id="TL72" fromID="E86" fromText="connection" toID="E36" toText="the wound" type="OVERLAP" />
+<TLINK id="TL73" fromID="E86" fromText="connection" toID="E101" toText="bowel" type="OVERLAP" />
+<TLINK id="TL74" fromID="E37" fromText="The drainage" toID="E35" toText="The CT scan" type="AFTER" />
+<TLINK id="TL75" fromID="E38" fromText="afebrile" toID="E24" toText="afebrile" type="OVERLAP" />
+<TLINK id="TL76" fromID="E39" fromText="a fistulogram" toID="T17" toText="3/11/02" type="OVERLAP" />
+<TLINK id="TL77" fromID="E87" fromText="a fistula from the bowel" toID="E39" toText="a fistulogram" type="OVERLAP" />
+<TLINK id="TL78" fromID="E87" fromText="a fistula from the bowel" toID="E40" toText="the wound" type="OVERLAP" />
+<TLINK id="TL79" fromID="E41" fromText="ampicillin" toID="E21" toText="his ampicillin" type="OVERLAP" />
+<TLINK id="TL8" fromID="E54" fromText="This transfer" toID="T11" toText="postoperative day 8" type="OVERLAP" />
+<TLINK id="TL80" fromID="E42" fromText="Gentamicin" toID="E22" toText="Gentamicin" type="OVERLAP" />
+<TLINK id="TL81" fromID="E43" fromText="afebrile" toID="E38" toText="afebrile" type="OVERLAP" />
+<TLINK id="TL82" fromID="E44" fromText="erythema" toID="E18" toText="The wound erythema" type="OVERLAP" />
+<TLINK id="TL83" fromID="E44" fromText="erythema" toID="E88" toText="decrease" type="OVERLAP" />
+<TLINK id="TL84" fromID="E89" fromText="improvemeent" toID="E45" toText="the wound" type="OVERLAP" />
+<TLINK id="TL85" fromID="E91" fromText="Augmentin" toID="E90" toText="Infectious Disease" type="AFTER" />
+<TLINK id="TL86" fromID="E57" fromText="discharge" toID="E51" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL87" fromID="E46" fromText="sensitivities" toID="E47" toText="his wound bacteria" type="OVERLAP" />
+<TLINK id="TL88" fromID="E48" fromText="His intravenous antibiotics" toID="E92" toText="discontinued" type="OVERLAP" />
+<TLINK id="TL89" fromID="E49" fromText="remaineda febrile" toID="E50" toText="his wound" type="OVERLAP" />
+<TLINK id="TL9" fromID="E5" fromText="anticoagulation" toID="E54" toText="This transfer" type="BEFORE" />
+<TLINK id="TL90" fromID="E93" fromText="afebrile" toID="T10" toText="hospital day 7" type="OVERLAP" />
+<TLINK id="TL91" fromID="E93" fromText="afebrile" toID="E43" toText="afebrile" type="OVERLAP" />
+<TLINK id="TL92" fromID="E95" fromText="erythema" toID="T10" toText="hospital day 7" type="BEFORE" />
+<TLINK id="TL93" fromID="E94" fromText="His wound" toID="E96" toText="moderate dark drainage" type="OVERLAP" />
+<TLINK id="TL94" fromID="E95" fromText="erythema" toID="E94" toText="His wound" type="OVERLAP" />
+<TLINK id="TL95" fromID="E58" fromText="discharged" toID="E57" toText="discharge" type="OVERLAP" />
+<TLINK id="TL96" fromID="E97" fromText="continued dressing changes" toID="E58" toText="discharged" type="OVERLAP" />
+<TLINK id="TL97" fromID="T18" fromText="bid" toID="E97" toText="continued dressing changes" type="OVERLAP" />
+<TLINK id="SECTIME0" fromID="E74" fromText="discomfort" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E55" fromText="admitted" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E56" fromText="Urology" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E99" fromText="the wound was further opened" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E12" fromText="ampicillin" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E13" fromText="Gentamicin" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E14" fromText="Flagyl antibiotics" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E15" fromText="a bid dressing change" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E1" fromText="postradical cystoprostatectomy with ileal loop" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E16" fromText="packing" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E75" fromText="complaints" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E17" fromText="afebrile" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E100" fromText="stable vital signs" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E76" fromText="good urine output" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E18" fromText="The wound erythema" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E79" fromText="improving" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E19" fromText="the wound" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E77" fromText="packed" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E20" fromText="Wound cultures" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E21" fromText="his ampicillin" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E22" fromText="Gentamicin" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E23" fromText="Flagyl" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E24" fromText="afebrile" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E80" fromText="his hospital course" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E25" fromText="The wound cultures" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E81" fromText="demonstrated" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E26" fromText="gram-positive cocci in clusters" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E27" fromText="gram-negative rods" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E28" fromText="Blood cultures" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E2" fromText="locally invasive prostate cancer" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E29" fromText="antibiotics" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E30" fromText="a CT scan" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E82" fromText="an enterocutaneous fistula" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E31" fromText="his Flagyl" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E83" fromText="his cardiac medication management" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E84" fromText="his atenolol" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E3" fromText="This operation" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E32" fromText="his dressing changes" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E33" fromText="the dressings" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E34" fromText="continued drainage" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E35" fromText="The CT scan" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E85" fromText="demonstrated" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E86" fromText="connection" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E101" fromText="bowel" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E36" fromText="the wound" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E37" fromText="The drainage" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E38" fromText="afebrile" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E39" fromText="a fistulogram" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E87" fromText="a fistula from the bowel" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E40" fromText="the wound" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E41" fromText="ampicillin" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E42" fromText="Gentamicin" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E43" fromText="afebrile" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E44" fromText="erythema" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E88" fromText="decrease" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E89" fromText="improvemeent" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E45" fromText="the wound" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E90" fromText="Infectious Disease" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E57" fromText="discharge" toID="T2" toText="03/13/2002" type="OVERLAP" />
+<TLINK id="SECTIME59" fromID="E91" fromText="Augmentin" toID="T2" toText="03/13/2002" type="OVERLAP" />
+<TLINK id="SECTIME60" fromID="E46" fromText="sensitivities" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E47" fromText="his wound bacteria" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E48" fromText="His intravenous antibiotics" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E92" fromText="discontinued" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E49" fromText="remaineda febrile" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E50" fromText="his wound" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E93" fromText="afebrile" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E94" fromText="His wound" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E4" fromText="atrial fibrillation" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E95" fromText="erythema" toID="T2" toText="03/13/2002" type="OVERLAP" />
+<TLINK id="SECTIME70" fromID="E96" fromText="moderate dark drainage" toID="T2" toText="03/13/2002" type="OVERLAP" />
+<TLINK id="SECTIME71" fromID="E58" fromText="discharged" toID="T2" toText="03/13/2002" type="OVERLAP" />
+<TLINK id="SECTIME72" fromID="E97" fromText="continued dressing changes" toID="T2" toText="03/13/2002" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E52" fromText="transfer" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E53" fromText="the Cardiac Step-Down Unit" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E54" fromText="This transfer" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E5" fromText="anticoagulation" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E6" fromText="amiodarone load" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E7" fromText="The anticoagulation" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E59" fromText="postoperative bleeding" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E60" fromText="complained" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E61" fromText="fevers" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E62" fromText="presented" toID="T1" toText="03/07/2002" type="OVERLAP" />
+<TLINK id="SECTIME83" fromID="E63" fromText="the emergency room" toID="T1" toText="03/07/2002" type="OVERLAP" />
+<TLINK id="SECTIME84" fromID="E64" fromText="complaining" toID="T1" toText="03/07/2002" type="OVERLAP" />
+<TLINK id="SECTIME85" fromID="E65" fromText="fevers" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E66" fromText="erythema" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E8" fromText="the wound" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E98" fromText="seen" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E67" fromText="Keflex" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E9" fromText="a CT scan" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E68" fromText="demonstrated" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E10" fromText="a fluid collection" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E69" fromText="erythema" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E70" fromText="The fevers" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E71" fromText="chills" toID="T1" toText="03/07/2002" type="OVERLAP" />
+<TLINK id="SECTIME96" fromID="E72" fromText="admission" toID="T1" toText="03/07/2002" type="OVERLAP" />
+<TLINK id="SECTIME97" fromID="E73" fromText="pus" toID="T1" toText="03/07/2002" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E78" fromText="the wound site" toID="T1" toText="03/07/2002" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="03/07/2002" type="ADMISSION" dvalue="2002-03-07" />
+<SECTIME id="S1" start="46" end="56" text="03/13/2002" type="DISCHARGE" dvalue="2002-03-13" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

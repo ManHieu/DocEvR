@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+10/25/1997
+Discharge Date :
+11/03/1997
+HISTORY OF PRESENT ILLNESS :
+The patient is a 67-year-old woman with occasional abdominal pain in the right lower quadrant and left lower quadrant .
+She has not complained of any fever , shaking , or chills .
+No nausea or vomiting , no change in her bowel movements .
+She has had attacks treated with antibiotics in the past notably in 12/96 and 08/97 .
+She has had a diagnosis of diverticulitis flairs and baseline diverticulosis flairing in 09/96 .
+Also , three years prior in 1993 , she had an attack of diverticulitis .
+She has been worked up with barium enema in 09/97 which showed multiple diverticula throughout the colon , but mostly in the sigmoid .
+At this time , there was diverticulosis with no acute diverticulitis .
+There was also no obstruction .
+The patient is also status post aortic valve replacement in 1996 , and presented for heparinization prior to her elective valve surgery .
+HOSPITAL COURSE :
+The patient was admitted and begun on cefotetan and Flagyl , as well as heparin .
+Her INR dropped to 1.6 prior to surgery , and her PTT was in the mid 80s prior to surgery .
+She was admitted and placed on a bowel prep two days before surgery and was taken to the Operating Room on hospital day # 3 , 10/28/97 .
+At that time , she underwent sigmoid colectomy and ventral hernia repair . ( A full account of this operation can be found in the Operative Note ) .
+She tolerated this procedure without complications initially and was taken to the Recovery Room in stable condition .
+Postoperatively , she had her heparin restarted , and had a PTT rising to 142.8 and then down to 92 .
+Her primary postoperative development was the passage of some blood clots and blood per rectum on postoperative day # 2 .
+She continued to pass blood per rectum and was transfused with one unit of packed red blood cells .
+Her preoperative hematocrit was 41 and her hematocrit dropped to 30.4 on postoperative day # 2 .
+This was a drop from an immediate postoperative hematocrit of 35.4 .
+Upon receiving the one unit of red blood cells , her hematocrit returned to 33 , and in the two days subsequent to the transfusion , returned to 34 .
+Otherwise , her postoperative course was uneventful with gradual resolution of the passage of blood per rectum .
+Her heparin was discontinued when it was noted that she was bleeding per rectum and her PTT drifted to a normal range of 35 by postoperative day # 3 .
+On postoperative day # 1 , the patient was restarted on 2 mg of Coumadin .
+However , due to the episode of bleeding on postoperative day # 2 , the Coumadin was held for two consecutive days , and then restarted on postoperative day # 4 .
+At this time , she is given 3 mg and was gradually increased to her regular regimen of 4 mg alternating with 3 mg.
+The patient &apos;s INR had dropped to 1.7 at the time of operation , and remained in this range initially , but began to rise to 2.0 with her Coumadin dosing .
+At the time of discharge , it was 1.9 , for which she received 4 mg.
+On the next day , it was 1.6 and she returned to a normal dosing of 4 mg followed by outpatient draws to determine the further Coumadin dosing .
+This was postoperative day # 6 , at which time she is ready for discharge .
+The rest of her hospital course was unremarkable , with perioperative ampicillin , gentamicin and Flagyl discontinued on postoperative day # 1 .
+She had some initial nausea but had no emesis .
+Her nasogastric tube was discontinued on postoperative day # 1 , and she tolerated a regular diet by postoperative day # 3 .
+She had flatus and regular bowel movements by postoperative day # 5 .
+She also complained of some slight dizziness upon getting up .
+For this reason , her normal Lopressor and Norvasc were held .
+It was felt that this was re-equalibration after being sedentary and mostly in bed following the operation .
+She had some slight headaches which resolved with Tylenol , and the dizziness resolved as well .
+She was ready for discharge on postoperative day # 6 .
+Her wound remained benign and was healing nicely at the time of discharge .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="1013" end="1022" text="cefotetan" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="1027" end="1033" text="Flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="1047" end="1054" text="heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="1057" end="1064" text="Her INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="1089" end="1096" text="surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1089" end="1096" text="surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1103" end="1110" text="her PTT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E75" start="1139" end="1146" text="surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="1157" end="1165" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="1180" end="1192" text="a bowel prep" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1209" end="1216" text="surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1234" end="1252" text="the Operating Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E19" start="1315" end="1332" text="sigmoid colectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="1337" end="1358" text="ventral hernia repair" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="1363" end="1377" text="A full account" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E62" start="137" end="151" text="abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1381" end="1395" text="this operation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="1412" end="1430" text="the Operative Note" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E22" start="1449" end="1463" text="this procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="1472" end="1485" text="complications" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E56" start="1504" end="1509" text="taken" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="1513" end="1530" text="the Recovery Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E79" start="1534" end="1550" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="1579" end="1590" text="her heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="1611" end="1616" text="a PTT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="1697" end="1728" text="the passage of some blood clots" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="1733" end="1749" text="blood per rectum" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E81" start="1799" end="1815" text="blood per rectum" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="1824" end="1834" text="transfused" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="1840" end="1874" text="one unit of packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="1877" end="1904" text="Her preoperative hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="1916" end="1930" text="her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E82" start="1931" end="1938" text="dropped" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E83" start="1983" end="1989" text="a drop" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="1995" end="2032" text="an immediate postoperative hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="2058" end="2089" text="the one unit of red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="2092" end="2106" text="her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E84" start="2107" end="2115" text="returned" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="2158" end="2173" text="the transfusion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E85" start="2176" end="2184" text="returned" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E64" start="218" end="228" text="complained" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E86" start="2205" end="2229" text="her postoperative course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="2287" end="2303" text="blood per rectum" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="2306" end="2317" text="Her heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="2347" end="2352" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E66" start="236" end="241" text="fever" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E34" start="2366" end="2385" text="bleeding per rectum" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="2390" end="2397" text="her PTT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E89" start="2398" end="2405" text="drifted" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E67" start="244" end="251" text="shaking" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E36" start="2521" end="2529" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E68" start="257" end="263" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E37" start="2564" end="2572" text="bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E90" start="2600" end="2612" text="the Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="269" end="275" text="nausea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E91" start="2746" end="2755" text="increased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="2759" end="2778" text="her regular regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="279" end="287" text="vomiting" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E39" start="2810" end="2833" text="The patient &apos;s INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E92" start="2838" end="2845" text="dropped" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="2868" end="2877" text="operation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="293" end="322" text="change in her bowel movements" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E93" start="2923" end="2936" text="began to rise" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="2949" end="2968" text="her Coumadin dosing" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E94" start="2986" end="2995" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E95" start="3089" end="3104" text="a normal dosing" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E96" start="3125" end="3141" text="outpatient draws" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E97" start="3155" end="3182" text="the further Coumadin dosing" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E98" start="3249" end="3258" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E99" start="3273" end="3292" text="her hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="3317" end="3341" text="perioperative ampicillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="3344" end="3354" text="gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="3359" end="3365" text="Flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="337" end="344" text="attacks" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="3414" end="3433" text="some initial nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="3419" end="3433" text="initial nausea" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="3445" end="3451" text="emesis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E47" start="3454" end="3474" text="Her nasogastric tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E101" start="3537" end="3551" text="a regular diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="358" end="369" text="antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E102" start="3587" end="3593" text="flatus" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E103" start="3598" end="3621" text="regular bowel movements" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E104" start="3658" end="3668" text="complained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E105" start="3684" end="3693" text="dizziness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E106" start="3730" end="3750" text="her normal Lopressor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E107" start="3755" end="3762" text="Norvasc" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E108" start="3801" end="3817" text="re-equalibration" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E109" start="3830" end="3839" text="sedentary" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E110" start="3844" end="3857" text="mostly in bed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="3868" end="3881" text="the operation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="3892" end="3913" text="some slight headaches" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E111" start="3904" end="3913" text="headaches" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="3934" end="3941" text="Tylenol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="3948" end="3961" text="the dizziness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E112" start="3999" end="4008" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E113" start="4036" end="4045" text="Her wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E114" start="4055" end="4061" text="benign" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E115" start="4070" end="4077" text="healing" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E116" start="4100" end="4109" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="438" end="459" text="diverticulitis flairs" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="464" end="496" text="baseline diverticulosis flairing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="551" end="578" text="an attack of diverticulitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="609" end="621" text="barium enema" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E61" start="637" end="643" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E63" start="644" end="664" text="multiple diverticula" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="741" end="755" text="diverticulosis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E72" start="764" end="784" text="acute diverticulitis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E73" start="805" end="816" text="obstruction" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E8" start="851" end="875" text="aortic valve replacement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="890" end="899" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="904" end="918" text="heparinization" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="928" end="954" text="her elective valve surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="991" end="999" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T23" start="1193" end="1208" text="two days before" type="DATE" val="1997-10-26" mod="NA" />
+<TIMEX3 id="T24" start="1256" end="1272" text="hospital day # 3" type="DATE" val="1997-10-28" mod="NA" />
+<TIMEX3 id="T25" start="1275" end="1283" text="10/28/97" type="DATE" val="1997-10-28" mod="NA" />
+<TIMEX3 id="T26" start="1289" end="1298" text="that time" type="DATE" val="1997-10-28" mod="NA" />
+<TIMEX3 id="T5" start="1753" end="1774" text="postoperative day # 2" type="DATE" val="1997-10-30" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="10/25/1997" type="DATE" val="1997-10-25" mod="NA" />
+<TIMEX3 id="T6" start="1950" end="1971" text="postoperative day # 2" type="DATE" val="1997-10-30" mod="NA" />
+<TIMEX3 id="T27" start="2131" end="2143" text="the two days" type="DURATION" val="P2D" mod="NA" />
+<TIMEX3 id="T7" start="2433" end="2454" text="postoperative day # 3" type="DATE" val="1997-10-31" mod="NA" />
+<TIMEX3 id="T8" start="2460" end="2481" text="postoperative day # 1" type="DATE" val="1997-10-29" mod="NA" />
+<TIMEX3 id="T9" start="2576" end="2597" text="postoperative day # 2" type="DATE" val="1997-10-30" mod="NA" />
+<TIMEX3 id="T28" start="2626" end="2646" text="two consecutive days" type="DURATION" val="P2D" mod="NA" />
+<TIMEX3 id="T29" start="2671" end="2692" text="postoperative day # 4" type="DATE" val="1997-11-01" mod="NA" />
+<TIMEX3 id="T30" start="2698" end="2707" text="this time" type="DATE" val="1997-11-01" mod="NA" />
+<TIMEX3 id="T31" start="2856" end="2877" text="the time of operation" type="DATE" val="1997-10-28" mod="NA" />
+<TIMEX3 id="T32" start="2974" end="2982" text="the time" type="DATE" val="1997-11-03" mod="NA" />
+<TIMEX3 id="T33" start="3043" end="3055" text="the next day" type="DATE" val="1997-11-04" mod="NA" />
+<TIMEX3 id="T10" start="3194" end="3215" text="postoperative day # 6" type="DATE" val="1997-11-03" mod="NA" />
+<TIMEX3 id="T34" start="3227" end="3231" text="time" type="DATE" val="1997-11-03" mod="NA" />
+<TIMEX3 id="T11" start="3382" end="3403" text="postoperative day # 1" type="DATE" val="1997-10-29" mod="NA" />
+<TIMEX3 id="T12" start="3495" end="3516" text="postoperative day # 1" type="DATE" val="1997-10-29" mod="NA" />
+<TIMEX3 id="T14" start="3555" end="3576" text="postoperative day # 3" type="DATE" val="1997-10-31" mod="NA" />
+<TIMEX3 id="T13" start="3625" end="3646" text="postoperative day # 5" type="DATE" val="1997-11-02" mod="NA" />
+<TIMEX3 id="T1" start="393" end="398" text="12/96" type="DATE" val="1996-12" mod="NA" />
+<TIMEX3 id="T15" start="4012" end="4033" text="postoperative day # 6" type="DATE" val="1997-11-03" mod="NA" />
+<TIMEX3 id="T2" start="403" end="408" text="08/97" type="DATE" val="1997-08" mod="NA" />
+<TIMEX3 id="T35" start="4088" end="4096" text="the time" type="DATE" val="1997-11-03" mod="NA" />
+<TIMEX3 id="T16" start="46" end="56" text="11/03/1997" type="DATE" val="1997-11-03" mod="NA" />
+<TIMEX3 id="T3" start="500" end="505" text="09/96" type="DATE" val="1996-09" mod="NA" />
+<TIMEX3 id="T18" start="515" end="532" text="three years prior" type="DATE" val="1993" mod="NA" />
+<TIMEX3 id="T19" start="536" end="540" text="1993" type="DATE" val="1993" mod="NA" />
+<TIMEX3 id="T4" start="625" end="630" text="09/97" type="DATE" val="1997-09" mod="NA" />
+<TIMEX3 id="T20" start="719" end="728" text="this time" type="DATE" val="1997-10-25" mod="NA" />
+<TIMEX3 id="T21" start="879" end="883" text="1996" type="DATE" val="1996" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="10/25/1997" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E9" fromText="heparinization" toID="E10" toText="her elective valve surgery" type="BEFORE" />
+<TLINK id="TL10" fromID="E68" fromText="chills" toID="E69" toText="nausea" type="OVERLAP" />
+<TLINK id="TL100" fromID="E90" fromText="the Coumadin" toID="E37" toText="bleeding" type="ENDED_BY" />
+<TLINK id="TL101" fromID="E90" fromText="the Coumadin" toID="T28" toText="two consecutive days" type="DURING" />
+<TLINK id="TL102" fromID="E90" fromText="the Coumadin" toID="T29" toText="postoperative day # 4" type="BEGUN_BY" />
+<TLINK id="TL103" fromID="T30" fromText="this time" toID="T29" toText="postoperative day # 4" type="SIMULTANEOUS" />
+<TLINK id="TL104" fromID="E91" fromText="increased" toID="T30" toText="this time" type="SIMULTANEOUS" />
+<TLINK id="TL105" fromID="E38" fromText="her regular regimen" toID="E91" toText="increased" type="BEGUN_BY" />
+<TLINK id="TL106" fromID="E39" fromText="The patient &apos;s INR" toID="E92" toText="dropped" type="SIMULTANEOUS" />
+<TLINK id="TL107" fromID="T31" fromText="the time of operation" toID="E21" toText="this operation" type="SIMULTANEOUS" />
+<TLINK id="TL108" fromID="E92" fromText="dropped" toID="T31" toText="the time of operation" type="SIMULTANEOUS" />
+<TLINK id="TL109" fromID="E41" fromText="her Coumadin dosing" toID="E90" toText="the Coumadin" type="SIMULTANEOUS" />
+<TLINK id="TL11" fromID="E71" fromText="change in her bowel movements" toID="E70" toText="vomiting" type="OVERLAP" />
+<TLINK id="TL110" fromID="E93" fromText="began to rise" toID="E41" toText="her Coumadin dosing" type="BEGUN_BY" />
+<TLINK id="TL111" fromID="T32" fromText="the time" toID="E94" toText="discharge" type="SIMULTANEOUS" />
+<TLINK id="TL112" fromID="E94" fromText="discharge" toID="E60" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL113" fromID="T33" fromText="the next day" toID="E94" toText="discharge" type="AFTER" />
+<TLINK id="TL114" fromID="E95" fromText="a normal dosing" toID="T33" toText="the next day" type="BEGUN_BY" />
+<TLINK id="TL115" fromID="E95" fromText="a normal dosing" toID="E96" toText="outpatient draws" type="BEFORE_OVERLAP" />
+<TLINK id="TL116" fromID="E97" fromText="the further Coumadin dosing" toID="E96" toText="outpatient draws" type="AFTER" />
+<TLINK id="TL117" fromID="T10" fromText="postoperative day # 6" toID="T32" toText="the time" type="SIMULTANEOUS" />
+<TLINK id="TL118" fromID="T34" fromText="time" toID="T10" toText="postoperative day # 6" type="SIMULTANEOUS" />
+<TLINK id="TL119" fromID="E98" fromText="discharge" toID="T34" toText="time" type="SIMULTANEOUS" />
+<TLINK id="TL12" fromID="E21" fromText="this operation" toID="E18" toText="surgery" type="SIMULTANEOUS" />
+<TLINK id="TL120" fromID="E99" fromText="her hospital course" toID="E0" toText="Admission" type="BEGUN_BY" />
+<TLINK id="TL121" fromID="E99" fromText="her hospital course" toID="E60" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL123" fromID="T11" fromText="postoperative day # 1" toID="T8" toText="postoperative day # 1" type="SIMULTANEOUS" />
+<TLINK id="TL124" fromID="E42" fromText="perioperative ampicillin" toID="T11" toText="postoperative day # 1" type="ENDED_BY" />
+<TLINK id="TL125" fromID="E43" fromText="gentamicin" toID="E42" toText="perioperative ampicillin" type="SIMULTANEOUS" />
+<TLINK id="TL126" fromID="E44" fromText="Flagyl" toID="E43" toText="gentamicin" type="SIMULTANEOUS" />
+<TLINK id="TL127" fromID="E100" fromText="initial nausea" toID="E99" toText="her hospital course" type="DURING" />
+<TLINK id="TL128" fromID="E46" fromText="emesis" toID="E100" toText="initial nausea" type="OVERLAP" />
+<TLINK id="TL129" fromID="T12" fromText="postoperative day # 1" toID="T11" toText="postoperative day # 1" type="SIMULTANEOUS" />
+<TLINK id="TL13" fromID="E1" fromText="attacks" toID="E2" toText="antibiotics" type="ENDED_BY" />
+<TLINK id="TL130" fromID="E47" fromText="Her nasogastric tube" toID="T12" toText="postoperative day # 1" type="ENDED_BY" />
+<TLINK id="TL131" fromID="T14" fromText="postoperative day # 3" toID="T7" toText="postoperative day # 3" type="SIMULTANEOUS" />
+<TLINK id="TL132" fromID="E101" fromText="a regular diet" toID="T14" toText="postoperative day # 3" type="BEGUN_BY" />
+<TLINK id="TL133" fromID="T13" fromText="postoperative day # 5" toID="T14" toText="postoperative day # 3" type="AFTER" />
+<TLINK id="TL134" fromID="E102" fromText="flatus" toID="T13" toText="postoperative day # 5" type="BEGUN_BY" />
+<TLINK id="TL135" fromID="E103" fromText="regular bowel movements" toID="E102" toText="flatus" type="OVERLAP" />
+<TLINK id="TL136" fromID="E104" fromText="complained" toID="E103" toText="regular bowel movements" type="OVERLAP" />
+<TLINK id="TL137" fromID="E105" fromText="dizziness" toID="E104" toText="complained" type="BEFORE_OVERLAP" />
+<TLINK id="TL138" fromID="E106" fromText="her normal Lopressor" toID="E104" toText="complained" type="ENDED_BY" />
+<TLINK id="TL139" fromID="E107" fromText="Norvasc" toID="E106" toText="her normal Lopressor" type="OVERLAP" />
+<TLINK id="TL14" fromID="E1" fromText="attacks" toID="T1" toText="12/96" type="SIMULTANEOUS" />
+<TLINK id="TL140" fromID="E108" fromText="re-equalibration" toID="E105" toText="dizziness" type="SIMULTANEOUS" />
+<TLINK id="TL141" fromID="E108" fromText="re-equalibration" toID="E109" toText="sedentary" type="AFTER" />
+<TLINK id="TL142" fromID="E110" fromText="mostly in bed" toID="E109" toText="sedentary" type="OVERLAP" />
+<TLINK id="TL143" fromID="E110" fromText="mostly in bed" toID="E48" toText="the operation" type="AFTER" />
+<TLINK id="TL144" fromID="E48" fromText="the operation" toID="E21" toText="this operation" type="SIMULTANEOUS" />
+<TLINK id="TL145" fromID="E111" fromText="headaches" toID="E99" toText="her hospital course" type="DURING" />
+<TLINK id="TL146" fromID="E111" fromText="headaches" toID="E50" toText="Tylenol" type="ENDED_BY" />
+<TLINK id="TL147" fromID="E51" fromText="the dizziness" toID="E111" toText="headaches" type="OVERLAP" />
+<TLINK id="TL148" fromID="E112" fromText="discharge" toID="T15" toText="postoperative day # 6" type="SIMULTANEOUS" />
+<TLINK id="TL149" fromID="T15" fromText="postoperative day # 6" toID="T10" toText="postoperative day # 6" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E1" fromText="attacks" toID="T2" toText="08/97" type="SIMULTANEOUS" />
+<TLINK id="TL150" fromID="E112" fromText="discharge" toID="E98" toText="discharge" type="SIMULTANEOUS" />
+<TLINK id="TL151" fromID="T35" fromText="the time" toID="T15" toText="postoperative day # 6" type="SIMULTANEOUS" />
+<TLINK id="TL152" fromID="E116" fromText="discharge" toID="E112" toText="discharge" type="SIMULTANEOUS" />
+<TLINK id="TL153" fromID="E113" fromText="Her wound" toID="E114" toText="benign" type="SIMULTANEOUS" />
+<TLINK id="TL154" fromID="E113" fromText="Her wound" toID="E116" toText="discharge" type="BEFORE_OVERLAP" />
+<TLINK id="TL155" fromID="E113" fromText="Her wound" toID="E115" toText="healing" type="BEFORE_OVERLAP" />
+<TLINK id="TL156" fromID="E115" fromText="healing" toID="T35" toText="the time" type="OVERLAP" />
+<TLINK id="TL16" fromID="E3" fromText="diverticulitis flairs" toID="T3" toText="09/96" type="BEGUN_BY" />
+<TLINK id="TL17" fromID="E77" fromText="A full account" toID="E78" toText="the Operative Note" type="SIMULTANEOUS" />
+<TLINK id="TL18" fromID="T3" fromText="09/96" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL19" fromID="T18" fromText="three years prior" toID="T19" toText="1993" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="E13" fromText="Her INR" toID="E14" toText="surgery" type="BEFORE" />
+<TLINK id="TL20" fromID="T19" fromText="1993" toID="T3" toText="09/96" type="BEFORE" />
+<TLINK id="TL21" fromID="E5" fromText="an attack of diverticulitis" toID="T19" toText="1993" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E3" fromText="diverticulitis flairs" toID="E4" toText="baseline diverticulosis flairing" type="OVERLAP" />
+<TLINK id="TL23" fromID="E6" fromText="barium enema" toID="T4" toText="09/97" type="SIMULTANEOUS" />
+<TLINK id="TL24" fromID="T4" fromText="09/97" toID="T3" toText="09/96" type="AFTER" />
+<TLINK id="TL25" fromID="T4" fromText="09/97" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL26" fromID="E61" fromText="showed" toID="E6" toText="barium enema" type="SIMULTANEOUS" />
+<TLINK id="TL27" fromID="E63" fromText="multiple diverticula" toID="E6" toText="barium enema" type="" />
+<TLINK id="TL28" fromID="E63" fromText="multiple diverticula" toID="E4" toText="baseline diverticulosis flairing" type="SIMULTANEOUS" />
+<TLINK id="TL29" fromID="T20" fromText="this time" toID="T4" toText="09/97" type="SIMULTANEOUS" />
+<TLINK id="TL3" fromID="E34" fromText="bleeding per rectum" toID="E35" toText="her PTT" type="OVERLAP" />
+<TLINK id="TL30" fromID="E65" fromText="diverticulosis" toID="E4" toText="baseline diverticulosis flairing" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E65" fromText="diverticulosis" toID="E72" toText="acute diverticulitis" type="OVERLAP" />
+<TLINK id="TL32" fromID="E72" fromText="acute diverticulitis" toID="T20" toText="this time" type="OVERLAP" />
+<TLINK id="TL33" fromID="E73" fromText="obstruction" toID="E65" toText="diverticulosis" type="OVERLAP" />
+<TLINK id="TL34" fromID="E8" fromText="aortic valve replacement" toID="T21" toText="1996" type="SIMULTANEOUS" />
+<TLINK id="TL35" fromID="T21" fromText="1996" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL36" fromID="E52" fromText="presented" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL37" fromID="E9" fromText="heparinization" toID="E52" toText="presented" type="AFTER" />
+<TLINK id="TL38" fromID="E53" fromText="admitted" toID="E52" toText="presented" type="SIMULTANEOUS" />
+<TLINK id="TL39" fromID="E74" fromText="cefotetan" toID="E53" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL4" fromID="E60" fromText="Discharge" toID="T16" toText="11/03/1997" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E11" fromText="Flagyl" toID="E74" toText="cefotetan" type="OVERLAP" />
+<TLINK id="TL41" fromID="E12" fromText="heparin" toID="E11" toText="Flagyl" type="OVERLAP" />
+<TLINK id="TL42" fromID="E15" fromText="her PTT" toID="E13" toText="Her INR" type="OVERLAP" />
+<TLINK id="TL43" fromID="E75" fromText="surgery" toID="E14" toText="surgery" type="SIMULTANEOUS" />
+<TLINK id="TL44" fromID="E76" fromText="admitted" toID="E53" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL45" fromID="E17" fromText="a bowel prep" toID="E76" toText="admitted" type="AFTER" />
+<TLINK id="TL46" fromID="E17" fromText="a bowel prep" toID="T23" toText="two days before" type="BEGUN_BY" />
+<TLINK id="TL47" fromID="T23" fromText="two days before" toID="E18" toText="surgery" type="BEFORE" />
+<TLINK id="TL48" fromID="T24" fromText="hospital day # 3" toID="T25" toText="10/28/97" type="SIMULTANEOUS" />
+<TLINK id="TL49" fromID="T25" fromText="10/28/97" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL5" fromID="E62" fromText="abdominal pain" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL50" fromID="T25" fromText="10/28/97" toID="E60" toText="Discharge" type="BEFORE" />
+<TLINK id="TL51" fromID="E54" fromText="the Operating Room" toID="T24" toText="hospital day # 3" type="SIMULTANEOUS" />
+<TLINK id="TL52" fromID="E18" fromText="surgery" toID="E54" toText="the Operating Room" type="DURING" />
+<TLINK id="TL53" fromID="T26" fromText="that time" toID="T25" toText="10/28/97" type="SIMULTANEOUS" />
+<TLINK id="TL54" fromID="E19" fromText="sigmoid colectomy" toID="E18" toText="surgery" type="SIMULTANEOUS" />
+<TLINK id="TL55" fromID="E20" fromText="ventral hernia repair" toID="E19" toText="sigmoid colectomy" type="OVERLAP" />
+<TLINK id="TL56" fromID="E78" fromText="the Operative Note" toID="E21" toText="this operation" type="AFTER" />
+<TLINK id="TL57" fromID="E22" fromText="this procedure" toID="E21" toText="this operation" type="SIMULTANEOUS" />
+<TLINK id="TL58" fromID="E23" fromText="complications" toID="E22" toText="this procedure" type="DURING" />
+<TLINK id="TL59" fromID="E56" fromText="taken" toID="E22" toText="this procedure" type="AFTER" />
+<TLINK id="TL6" fromID="E66" fromText="fever" toID="E64" toText="complained" type="BEFORE_OVERLAP" />
+<TLINK id="TL60" fromID="E57" fromText="the Recovery Room" toID="E56" toText="taken" type="BEGUN_BY" />
+<TLINK id="TL61" fromID="E79" fromText="stable condition" toID="E57" toText="the Recovery Room" type="BEFORE_OVERLAP" />
+<TLINK id="TL62" fromID="E24" fromText="her heparin" toID="E57" toText="the Recovery Room" type="BEGUN_BY" />
+<TLINK id="TL63" fromID="E25" fromText="a PTT" toID="E57" toText="the Recovery Room" type="DURING" />
+<TLINK id="TL64" fromID="E26" fromText="the passage of some blood clots" toID="E25" toText="a PTT" type="OVERLAP" />
+<TLINK id="TL65" fromID="E80" fromText="blood per rectum" toID="E26" toText="the passage of some blood clots" type="OVERLAP" />
+<TLINK id="TL66" fromID="E80" fromText="blood per rectum" toID="T5" toText="postoperative day # 2" type="SIMULTANEOUS" />
+<TLINK id="TL67" fromID="T5" fromText="postoperative day # 2" toID="E54" toText="the Operating Room" type="AFTER" />
+<TLINK id="TL68" fromID="E81" fromText="blood per rectum" toID="E80" toText="blood per rectum" type="SIMULTANEOUS" />
+<TLINK id="TL69" fromID="E81" fromText="blood per rectum" toID="E58" toText="transfused" type="BEFORE_OVERLAP" />
+<TLINK id="TL7" fromID="E67" fromText="shaking" toID="E68" toText="chills" type="OVERLAP" />
+<TLINK id="TL70" fromID="E27" fromText="one unit of packed red blood cells" toID="E58" toText="transfused" type="SIMULTANEOUS" />
+<TLINK id="TL71" fromID="E28" fromText="Her preoperative hematocrit" toID="E18" toText="surgery" type="BEFORE" />
+<TLINK id="TL72" fromID="E29" fromText="her hematocrit" toID="E28" toText="Her preoperative hematocrit" type="AFTER" />
+<TLINK id="TL73" fromID="E82" fromText="dropped" toID="E29" toText="her hematocrit" type="SIMULTANEOUS" />
+<TLINK id="TL74" fromID="E82" fromText="dropped" toID="T6" toText="postoperative day # 2" type="SIMULTANEOUS" />
+<TLINK id="TL75" fromID="T6" fromText="postoperative day # 2" toID="T5" toText="postoperative day # 2" type="SIMULTANEOUS" />
+<TLINK id="TL76" fromID="E83" fromText="a drop" toID="E82" toText="dropped" type="SIMULTANEOUS" />
+<TLINK id="TL77" fromID="E30" fromText="an immediate postoperative hematocrit" toID="E83" toText="a drop" type="BEFORE" />
+<TLINK id="TL78" fromID="E30" fromText="an immediate postoperative hematocrit" toID="E28" toText="Her preoperative hematocrit" type="AFTER" />
+<TLINK id="TL79" fromID="E31" fromText="the one unit of red blood cells" toID="E27" toText="one unit of packed red blood cells" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E66" fromText="fever" toID="E67" toText="shaking" type="OVERLAP" />
+<TLINK id="TL80" fromID="E32" fromText="her hematocrit" toID="E31" toText="the one unit of red blood cells" type="AFTER" />
+<TLINK id="TL81" fromID="E84" fromText="returned" toID="E32" toText="her hematocrit" type="SIMULTANEOUS" />
+<TLINK id="TL82" fromID="E33" fromText="the transfusion" toID="E31" toText="the one unit of red blood cells" type="SIMULTANEOUS" />
+<TLINK id="TL83" fromID="T27" fromText="the two days" toID="E33" toText="the transfusion" type="AFTER" />
+<TLINK id="TL85" fromID="E85" fromText="returned" toID="T27" toText="the two days" type="SIMULTANEOUS" />
+<TLINK id="TL86" fromID="E86" fromText="her postoperative course" toID="E57" toText="the Recovery Room" type="BEGUN_BY" />
+<TLINK id="TL87" fromID="E86" fromText="her postoperative course" toID="E60" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL88" fromID="E87" fromText="blood per rectum" toID="E80" toText="blood per rectum" type="SIMULTANEOUS" />
+<TLINK id="TL89" fromID="E34" fromText="bleeding per rectum" toID="E87" toText="blood per rectum" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="E69" fromText="nausea" toID="E70" toText="vomiting" type="OVERLAP" />
+<TLINK id="TL90" fromID="E34" fromText="bleeding per rectum" toID="E59" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL91" fromID="E88" fromText="Her heparin" toID="E59" toText="noted" type="ENDED_BY" />
+<TLINK id="TL92" fromID="T7" fromText="postoperative day # 3" toID="T6" toText="postoperative day # 2" type="AFTER" />
+<TLINK id="TL93" fromID="E35" fromText="her PTT" toID="E89" toText="drifted" type="SIMULTANEOUS" />
+<TLINK id="TL94" fromID="E89" fromText="drifted" toID="T7" toText="postoperative day # 3" type="SIMULTANEOUS" />
+<TLINK id="TL95" fromID="T8" fromText="postoperative day # 1" toID="T5" toText="postoperative day # 2" type="BEFORE" />
+<TLINK id="TL96" fromID="T8" fromText="postoperative day # 1" toID="E21" toText="this operation" type="AFTER" />
+<TLINK id="TL97" fromID="E36" fromText="Coumadin" toID="T8" toText="postoperative day # 1" type="BEGUN_BY" />
+<TLINK id="TL98" fromID="T9" fromText="postoperative day # 2" toID="T6" toText="postoperative day # 2" type="SIMULTANEOUS" />
+<TLINK id="TL99" fromID="E37" fromText="bleeding" toID="T9" toText="postoperative day # 2" type="SIMULTANEOUS" />
+<TLINK id="Sectime0" fromID="E74" fromText="cefotetan" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E11" fromText="Flagyl" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E12" fromText="heparin" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E13" fromText="Her INR" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E14" fromText="surgery" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E16" fromText="surgery" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E15" fromText="her PTT" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E75" fromText="surgery" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E76" fromText="admitted" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E17" fromText="a bowel prep" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E18" fromText="surgery" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E54" fromText="the Operating Room" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E19" fromText="sigmoid colectomy" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E20" fromText="ventral hernia repair" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E77" fromText="A full account" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E62" fromText="abdominal pain" toID="T0" toText="10/25/1997" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime15" fromID="E21" fromText="this operation" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E78" fromText="the Operative Note" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E22" fromText="this procedure" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E23" fromText="complications" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E56" fromText="taken" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E57" fromText="the Recovery Room" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E79" fromText="stable condition" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E24" fromText="her heparin" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E25" fromText="a PTT" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E26" fromText="the passage of some blood clots" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E80" fromText="blood per rectum" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E81" fromText="blood per rectum" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E58" fromText="transfused" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E27" fromText="one unit of packed red blood cells" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E28" fromText="Her preoperative hematocrit" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E29" fromText="her hematocrit" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime31" fromID="E82" fromText="dropped" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime32" fromID="E83" fromText="a drop" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime33" fromID="E30" fromText="an immediate postoperative hematocrit" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime34" fromID="E31" fromText="the one unit of red blood cells" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime35" fromID="E32" fromText="her hematocrit" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime36" fromID="E84" fromText="returned" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime37" fromID="E33" fromText="the transfusion" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime38" fromID="E85" fromText="returned" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E64" fromText="complained" toID="T0" toText="10/25/1997" type="OVERLAP" />
+<TLINK id="Sectime39" fromID="E86" fromText="her postoperative course" toID="T16" toText="11/03/1997" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime40" fromID="E87" fromText="blood per rectum" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime41" fromID="E88" fromText="Her heparin" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime42" fromID="E59" fromText="noted" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E66" fromText="fever" toID="T0" toText="10/25/1997" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime43" fromID="E34" fromText="bleeding per rectum" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime44" fromID="E35" fromText="her PTT" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime45" fromID="E89" fromText="drifted" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E67" fromText="shaking" toID="T0" toText="10/25/1997" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime46" fromID="E36" fromText="Coumadin" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E68" fromText="chills" toID="T0" toText="10/25/1997" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime47" fromID="E37" fromText="bleeding" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime48" fromID="E90" fromText="the Coumadin" toID="T16" toText="11/03/1997" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime5" fromID="E69" fromText="nausea" toID="T0" toText="10/25/1997" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime49" fromID="E91" fromText="increased" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime50" fromID="E38" fromText="her regular regimen" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E70" fromText="vomiting" toID="T0" toText="10/25/1997" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime51" fromID="E39" fromText="The patient &apos;s INR" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime52" fromID="E92" fromText="dropped" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime53" fromID="E40" fromText="operation" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E71" fromText="change in her bowel movements" toID="T0" toText="10/25/1997" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime54" fromID="E93" fromText="began to rise" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime55" fromID="E41" fromText="her Coumadin dosing" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime56" fromID="E94" fromText="discharge" toID="T16" toText="11/03/1997" type="OVERLAP" />
+<TLINK id="Sectime57" fromID="E95" fromText="a normal dosing" toID="T16" toText="11/03/1997" type="AFTER" />
+<TLINK id="Sectime58" fromID="E96" fromText="outpatient draws" toID="T16" toText="11/03/1997" type="AFTER" />
+<TLINK id="Sectime59" fromID="E97" fromText="the further Coumadin dosing" toID="T16" toText="11/03/1997" type="AFTER" />
+<TLINK id="Sectime60" fromID="E98" fromText="discharge" toID="T16" toText="11/03/1997" type="OVERLAP" />
+<TLINK id="Sectime61" fromID="E99" fromText="her hospital course" toID="T16" toText="11/03/1997" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime62" fromID="E42" fromText="perioperative ampicillin" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime63" fromID="E43" fromText="gentamicin" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime64" fromID="E44" fromText="Flagyl" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E1" fromText="attacks" toID="T0" toText="10/25/1997" type="BEFORE" />
+<TLINK id="Sectime65" fromID="E45" fromText="some initial nausea" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime66" fromID="E100" fromText="initial nausea" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime67" fromID="E46" fromText="emesis" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime68" fromID="E47" fromText="Her nasogastric tube" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime69" fromID="E101" fromText="a regular diet" toID="T16" toText="11/03/1997" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime9" fromID="E2" fromText="antibiotics" toID="T0" toText="10/25/1997" type="BEFORE" />
+<TLINK id="Sectime70" fromID="E102" fromText="flatus" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime71" fromID="E103" fromText="regular bowel movements" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime72" fromID="E104" fromText="complained" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime73" fromID="E105" fromText="dizziness" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime74" fromID="E106" fromText="her normal Lopressor" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime75" fromID="E107" fromText="Norvasc" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime76" fromID="E108" fromText="re-equalibration" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime77" fromID="E109" fromText="sedentary" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime78" fromID="E110" fromText="mostly in bed" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime79" fromID="E48" fromText="the operation" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime80" fromID="E49" fromText="some slight headaches" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime81" fromID="E111" fromText="headaches" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime82" fromID="E50" fromText="Tylenol" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime83" fromID="E51" fromText="the dizziness" toID="T16" toText="11/03/1997" type="BEFORE" />
+<TLINK id="Sectime84" fromID="E112" fromText="discharge" toID="T16" toText="11/03/1997" type="OVERLAP" />
+<TLINK id="Sectime85" fromID="E113" fromText="Her wound" toID="T16" toText="11/03/1997" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime86" fromID="E114" fromText="benign" toID="T16" toText="11/03/1997" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime87" fromID="E115" fromText="healing" toID="T16" toText="11/03/1997" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime88" fromID="E116" fromText="discharge" toID="T16" toText="11/03/1997" type="OVERLAP" />
+<TLINK id="Sectime10" fromID="E3" fromText="diverticulitis flairs" toID="T0" toText="10/25/1997" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E4" fromText="baseline diverticulosis flairing" toID="T0" toText="10/25/1997" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E5" fromText="an attack of diverticulitis" toID="T0" toText="10/25/1997" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E6" fromText="barium enema" toID="T0" toText="10/25/1997" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E61" fromText="showed" toID="T0" toText="10/25/1997" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E63" fromText="multiple diverticula" toID="T0" toText="10/25/1997" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime16" fromID="E65" fromText="diverticulosis" toID="T0" toText="10/25/1997" type="OVERLAP" />
+<TLINK id="Sectime17" fromID="E72" fromText="acute diverticulitis" toID="T0" toText="10/25/1997" type="OVERLAP" />
+<TLINK id="Sectime18" fromID="E73" fromText="obstruction" toID="T0" toText="10/25/1997" type="OVERLAP" />
+<TLINK id="Sectime19" fromID="E8" fromText="aortic valve replacement" toID="T0" toText="10/25/1997" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E52" fromText="presented" toID="T0" toText="10/25/1997" type="OVERLAP" />
+<TLINK id="Sectime21" fromID="E9" fromText="heparinization" toID="T0" toText="10/25/1997" type="OVERLAP" />
+<TLINK id="Sectime22" fromID="E10" fromText="her elective valve surgery" toID="T0" toText="10/25/1997" type="AFTER" />
+<TLINK id="Sectime89" fromID="E53" fromText="admitted" toID="T16" toText="11/03/1997" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="10/25/1997" type="ADMISSION" dvalue="1997-10-25" />
+<SECTIME id="S1" start="46" end="56" text="11/03/1997" type="DISCHARGE" dvalue="1997-11-03" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

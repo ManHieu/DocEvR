@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+07/04/1999
+Discharge Date :
+07/09/1999
+Discharge Date :
+07/09/1999
+HISTORY OF THE PRESENT ILLNESS :
+This is a 49 year-old male with a history of a low anterior resection in May of 1998 and a recurrence of metastasis with asleeve of section of left colon diverting ileostomy for recurrent metastasis later in May of 1999 who presents with anterior midepigastric abdominal pain .
+The patient states that the pain began at 10:30 on the day of admission with increase during the day of admission with positive nausea and vomiting , no diarrhea , decreased output from the ostomy , and the pain was radiating to the back .
+HOSPITAL COURSE :
+Assessment was continued with laboratory studies which showed the patient to have a white blood cell count of 9 , hematocrit 39 , and platelets 470 .
+The patient had a normal amylase and lipase , and a normal basic metabolic panel .
+The patient had KUB that showed multiple dilated loops of small bowel and was admitted for a partial small bowel obstruction .
+An nasogastric tube was placed and had an H2 blocker started , and was admitted for bowel rest and decompression .
+The patient tolerated the nasogastric tube well .
+The nasogastric tube was removed on hsp day # 3 .
+The pain improved quickly and the patient was started on a clear liquid diet which was advanced as tolerated .
+On 7/9/99 , the patient was tolerating a house diet .
+The patient had some minimal back pain that occurred after food but with negative urinalysis and negative fever spikes over the entire course of this stay .
+The patient will be discharged home on Zantac , Simethicone , and preoperative medications with follow-up with Dr. Ur in two weeks .
+Dictated By :
+NISTE BLOCKER , M.D. AQ36
+Attending :
+STIE FYFE , M.D. BW3 BL436/5666
+Batch :
+85114
+Index No.
+FNQXCX58 EM
+D :
+07/09/99
+T :
+07/09/99 HP8
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="1014" end="1033" text="An nasogastric tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1053" end="1066" text="an H2 blocker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="1085" end="1093" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="1098" end="1108" text="bowel rest" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="1113" end="1126" text="decompression" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="1151" end="1171" text="the nasogastric tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1172" end="1176" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="1179" end="1199" text="The nasogastric tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="1229" end="1237" text="The pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="1238" end="1246" text="improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="1286" end="1305" text="a clear liquid diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="1316" end="1337" text="advanced as tolerated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="1379" end="1391" text="a house diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="1423" end="1432" text="back pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="1453" end="1457" text="food" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="1476" end="1486" text="urinalysis" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="1500" end="1512" text="fever spikes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E56" start="1518" end="1548" text="the entire course of this stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="1571" end="1581" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="1590" end="1596" text="Zantac" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="1599" end="1610" text="Simethicone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="1617" end="1641" text="preoperative medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="163" end="187" text="a low anterior resection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="1647" end="1656" text="follow-up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="207" end="219" text="a recurrence" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="223" end="233" text="metastasis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="261" end="291" text="left colon diverting ileostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="296" end="316" text="recurrent metastasis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="342" end="350" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E37" start="356" end="393" text="anterior midepigastric abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="408" end="414" text="states" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E39" start="420" end="428" text="the pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="458" end="467" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="473" end="481" text="increase" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="500" end="509" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="524" end="530" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="535" end="543" text="vomiting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="549" end="557" text="diarrhea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E7" start="560" end="592" text="decreased output from the ostomy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="599" end="607" text="the pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="612" end="633" text="radiating to the back" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="654" end="664" text="Assessment" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="684" end="702" text="laboratory studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="709" end="715" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E10" start="736" end="760" text="a white blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="768" end="778" text="hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E12" start="788" end="797" text="platelets" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="829" end="836" text="amylase" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E13" start="841" end="847" text="lipase" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="869" end="884" text="metabolic panel" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="903" end="906" text="KUB" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="912" end="918" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E15" start="919" end="956" text="multiple dilated loops of small bowel" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="965" end="973" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="978" end="1011" text="a partial small bowel obstruction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T7" start="1215" end="1226" text="hsp day # 3" type="DATE" val="1999-07-07" mod="NA" />
+<TIMEX3 id="T3" start="1343" end="1349" text="7/9/99" type="DATE" val="1999-07-09" mod="NA" />
+<TIMEX3 id="T8" start="1672" end="1681" text="two weeks" type="DURATION" val="p2w" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="07/04/1999" type="DATE" val="1999-07-04" mod="NA" />
+<TIMEX3 id="T1" start="191" end="202" text="May of 1998" type="DATE" val="1998-05" mod="NA" />
+<TIMEX3 id="T2" start="326" end="337" text="May of 1999" type="DATE" val="1999-05" mod="NA" />
+<TIMEX3 id="T5" start="438" end="454" text="10:30 on the day" type="TIME" val="1999-07-04T10:30" mod="NA" />
+<TIMEX3 id="T4" start="46" end="56" text="07/09/1999" type="DATE" val="1999-07-09" mod="NA" />
+<TIMEX3 id="T6" start="489" end="496" text="the day" type="DATE" val="1999-07-04" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="07/04/1999" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E11" fromText="hematocrit" toID="E10" toText="a white blood cell count" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="T2" fromText="May of 1999" toID="T1" toText="May of 1998" type="AFTER" />
+<TLINK id="TL11" fromID="T2" fromText="May of 1999" toID="E36" toText="presents" type="BEFORE" />
+<TLINK id="TL12" fromID="E2" fromText="a recurrence" toID="T1" toText="May of 1998" type="AFTER" />
+<TLINK id="TL13" fromID="E35" fromText="metastasis" toID="E2" toText="a recurrence" type="SIMULTANEOUS" />
+<TLINK id="TL14" fromID="E34" fromText="recurrent metastasis" toID="E2" toText="a recurrence" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E34" fromText="recurrent metastasis" toID="E3" toText="left colon diverting ileostomy" type="ENDED_BY" />
+<TLINK id="TL16" fromID="E3" fromText="left colon diverting ileostomy" toID="T2" toText="May of 1999" type="SIMULTANEOUS" />
+<TLINK id="TL17" fromID="E37" fromText="anterior midepigastric abdominal pain" toID="E36" toText="presents" type="BEFORE_OVERLAP" />
+<TLINK id="TL18" fromID="E38" fromText="states" toID="E36" toText="presents" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E39" fromText="the pain" toID="E37" toText="anterior midepigastric abdominal pain" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="E9" fromText="laboratory studies" toID="E8" toText="Assessment" type="OVERLAP" />
+<TLINK id="TL20" fromID="E39" fromText="the pain" toID="T5" toText="10:30 on the day" type="BEGUN_BY" />
+<TLINK id="TL21" fromID="T5" fromText="10:30 on the day" toID="E40" toText="admission" type="BEFORE" />
+<TLINK id="TL22" fromID="E27" fromText="increase" toID="T5" toText="10:30 on the day" type="AFTER" />
+<TLINK id="TL23" fromID="E27" fromText="increase" toID="T6" toText="the day" type="DURING" />
+<TLINK id="TL24" fromID="T5" fromText="10:30 on the day" toID="T6" toText="the day" type="DURING" />
+<TLINK id="TL25" fromID="T6" fromText="the day" toID="E41" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="E41" fromText="admission" toID="E40" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL27" fromID="E4" fromText="nausea" toID="E39" toText="the pain" type="OVERLAP" />
+<TLINK id="TL28" fromID="E5" fromText="vomiting" toID="E4" toText="nausea" type="OVERLAP" />
+<TLINK id="TL29" fromID="E6" fromText="diarrhea" toID="E5" toText="vomiting" type="OVERLAP" />
+<TLINK id="TL3" fromID="E23" fromText="The pain" toID="E29" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E7" fromText="decreased output from the ostomy" toID="E6" toText="diarrhea" type="OVERLAP" />
+<TLINK id="TL31" fromID="E42" fromText="the pain" toID="E39" toText="the pain" type="SIMULTANEOUS" />
+<TLINK id="TL32" fromID="E42" fromText="the pain" toID="E43" toText="radiating to the back" type="OVERLAP" />
+<TLINK id="TL33" fromID="E8" fromText="Assessment" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL35" fromID="E28" fromText="showed" toID="E9" toText="laboratory studies" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="E10" fromText="a white blood cell count" toID="E28" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL38" fromID="E12" fromText="platelets" toID="E11" toText="hematocrit" type="OVERLAP" />
+<TLINK id="TL39" fromID="E46" fromText="amylase" toID="E12" toText="platelets" type="OVERLAP" />
+<TLINK id="TL4" fromID="E40" fromText="admission" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E13" fromText="lipase" toID="E46" toText="amylase" type="OVERLAP" />
+<TLINK id="TL41" fromID="E45" fromText="metabolic panel" toID="E13" toText="lipase" type="OVERLAP" />
+<TLINK id="TL42" fromID="E14" fromText="KUB" toID="E45" toText="metabolic panel" type="OVERLAP" />
+<TLINK id="TL43" fromID="E47" fromText="showed" toID="E14" toText="KUB" type="SIMULTANEOUS" />
+<TLINK id="TL44" fromID="E15" fromText="multiple dilated loops of small bowel" toID="E47" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL45" fromID="E29" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL46" fromID="E16" fromText="a partial small bowel obstruction" toID="E29" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL47" fromID="E17" fromText="An nasogastric tube" toID="E29" toText="admitted" type="AFTER" />
+<TLINK id="TL48" fromID="E18" fromText="an H2 blocker" toID="E17" toText="An nasogastric tube" type="OVERLAP" />
+<TLINK id="TL49" fromID="E30" fromText="admitted" toID="E29" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E36" fromText="presents" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="E19" fromText="bowel rest" toID="E30" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL51" fromID="E20" fromText="decompression" toID="E19" toText="bowel rest" type="OVERLAP" />
+<TLINK id="TL52" fromID="E21" fromText="the nasogastric tube" toID="E17" toText="An nasogastric tube" type="SIMULTANEOUS" />
+<TLINK id="TL53" fromID="E21" fromText="the nasogastric tube" toID="E48" toText="well" type="SIMULTANEOUS" />
+<TLINK id="TL54" fromID="E22" fromText="The nasogastric tube" toID="E21" toText="the nasogastric tube" type="SIMULTANEOUS" />
+<TLINK id="TL55" fromID="T7" fromText="hsp day # 3" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL56" fromID="T7" fromText="hsp day # 3" toID="E33" toText="Discharge" type="BEFORE" />
+<TLINK id="TL57" fromID="E22" fromText="The nasogastric tube" toID="T7" toText="hsp day # 3" type="ENDED_BY" />
+<TLINK id="TL58" fromID="E23" fromText="The pain" toID="E42" toText="the pain" type="SIMULTANEOUS" />
+<TLINK id="TL59" fromID="E23" fromText="The pain" toID="E49" toText="improved" type="BEFORE_OVERLAP" />
+<TLINK id="TL6" fromID="E33" fromText="Discharge" toID="T4" toText="07/09/1999" type="SIMULTANEOUS" />
+<TLINK id="TL60" fromID="E24" fromText="a clear liquid diet" toID="E49" toText="improved" type="BEGUN_BY" />
+<TLINK id="TL61" fromID="E50" fromText="advanced as tolerated" toID="E24" toText="a clear liquid diet" type="AFTER" />
+<TLINK id="TL62" fromID="T3" fromText="7/9/99" toID="E33" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL63" fromID="E51" fromText="a house diet" toID="T3" toText="7/9/99" type="BEGUN_BY" />
+<TLINK id="TL64" fromID="E56" fromText="the entire course of this stay" toID="E0" toText="Admission" type="BEGUN_BY" />
+<TLINK id="TL65" fromID="E56" fromText="the entire course of this stay" toID="E33" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL66" fromID="E52" fromText="back pain" toID="E53" toText="food" type="AFTER" />
+<TLINK id="TL67" fromID="E53" fromText="food" toID="E56" toText="the entire course of this stay" type="DURING" />
+<TLINK id="TL68" fromID="E54" fromText="urinalysis" toID="E52" toText="back pain" type="OVERLAP" />
+<TLINK id="TL69" fromID="E26" fromText="fever spikes" toID="E54" toText="urinalysis" type="OVERLAP" />
+<TLINK id="TL7" fromID="E57" fromText="discharged" toID="E33" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL71" fromID="E58" fromText="Zantac" toID="E57" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL72" fromID="E59" fromText="Simethicone" toID="E58" toText="Zantac" type="OVERLAP" />
+<TLINK id="TL73" fromID="E60" fromText="preoperative medications" toID="E59" toText="Simethicone" type="OVERLAP" />
+<TLINK id="TL74" fromID="E32" fromText="follow-up" toID="E57" toText="discharged" type="AFTER" />
+<TLINK id="TL75" fromID="E32" fromText="follow-up" toID="T8" toText="two weeks" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="T1" fromText="May of 1998" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL9" fromID="E1" fromText="a low anterior resection" toID="T1" toText="May of 1998" type="SIMULTANEOUS" />
+<SECTIME id="S0" start="18" end="28" text="07/04/1999" type="ADMISSION" dvalue="1999-07-04" />
+<SECTIME id="S1" start="46" end="56" text="07/09/1999" type="DISCHARGE" dvalue="1999-07-09" />
+<TLINK id="SECTIME0" fromID="E17" fromText="An nasogastric tube" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E18" fromText="an H2 blocker" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E30" fromText="admitted" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E19" fromText="bowel rest" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E20" fromText="decompression" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E21" fromText="the nasogastric tube" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E48" fromText="well" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E22" fromText="The nasogastric tube" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E23" fromText="The pain" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E49" fromText="improved" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E24" fromText="a clear liquid diet" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E50" fromText="advanced as tolerated" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E51" fromText="a house diet" toID="T4" toText="07/09/1999" type="OVERLAP" />
+<TLINK id="SECTIME13" fromID="E52" fromText="back pain" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E53" fromText="food" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E54" fromText="urinalysis" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E26" fromText="fever spikes" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E56" fromText="the entire course of this stay" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E57" fromText="discharged" toID="T4" toText="07/09/1999" type="OVERLAP" />
+<TLINK id="SECTIME19" fromID="E58" fromText="Zantac" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E59" fromText="Simethicone" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E60" fromText="preoperative medications" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E1" fromText="a low anterior resection" toID="T0" toText="07/04/1999" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E32" fromText="follow-up" toID="T4" toText="07/09/1999" type="AFTER" />
+<TLINK id="SECTIME24" fromID="E2" fromText="a recurrence" toID="T0" toText="07/04/1999" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E35" fromText="metastasis" toID="T0" toText="07/04/1999" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E3" fromText="left colon diverting ileostomy" toID="T0" toText="07/04/1999" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E34" fromText="recurrent metastasis" toID="T0" toText="07/04/1999" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E36" fromText="presents" toID="T0" toText="07/04/1999" type="OVERLAP" />
+<TLINK id="SECTIME29" fromID="E37" fromText="anterior midepigastric abdominal pain" toID="T0" toText="07/04/1999" type="OVERLAP" />
+<TLINK id="SECTIME30" fromID="E38" fromText="states" toID="T0" toText="07/04/1999" type="OVERLAP" />
+<TLINK id="SECTIME31" fromID="E39" fromText="the pain" toID="T0" toText="07/04/1999" type="OVERLAP" />
+<TLINK id="SECTIME32" fromID="E40" fromText="admission" toID="T0" toText="07/04/1999" type="OVERLAP" />
+<TLINK id="SECTIME33" fromID="E27" fromText="increase" toID="T0" toText="07/04/1999" type="OVERLAP" />
+<TLINK id="SECTIME34" fromID="E41" fromText="admission" toID="T0" toText="07/04/1999" type="OVERLAP" />
+<TLINK id="SECTIME35" fromID="E4" fromText="nausea" toID="T0" toText="07/04/1999" type="OVERLAP" />
+<TLINK id="SECTIME36" fromID="E5" fromText="vomiting" toID="T0" toText="07/04/1999" type="OVERLAP" />
+<TLINK id="SECTIME37" fromID="E6" fromText="diarrhea" toID="T0" toText="07/04/1999" type="OVERLAP" />
+<TLINK id="SECTIME38" fromID="E7" fromText="decreased output from the ostomy" toID="T0" toText="07/04/1999" type="OVERLAP" />
+<TLINK id="SECTIME39" fromID="E42" fromText="the pain" toID="T0" toText="07/04/1999" type="OVERLAP" />
+<TLINK id="SECTIME40" fromID="E43" fromText="radiating to the back" toID="T0" toText="07/04/1999" type="OVERLAP" />
+<TLINK id="SECTIME41" fromID="E8" fromText="Assessment" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E9" fromText="laboratory studies" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E28" fromText="showed" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E10" fromText="a white blood cell count" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E11" fromText="hematocrit" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E12" fromText="platelets" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E46" fromText="amylase" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E13" fromText="lipase" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E45" fromText="metabolic panel" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E14" fromText="KUB" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E47" fromText="showed" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E15" fromText="multiple dilated loops of small bowel" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E29" fromText="admitted" toID="T4" toText="07/09/1999" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E16" fromText="a partial small bowel obstruction" toID="T4" toText="07/09/1999" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

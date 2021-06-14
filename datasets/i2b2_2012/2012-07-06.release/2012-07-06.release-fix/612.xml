@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2014-08-07
+Discharge Date :
+2014-08-09
+Service :
+NEUROSURG
+HISTORY OF PRESENT ILLNESS :
+This is a 56 - year-old man without any significant past medical history who presented to the emergency room after the sudden onset of headache while he was riding a bicycle .
+He characterized this headache as the worst headache of his life and had associated nausea and vomiting times one .
+He also complained of dizziness at the time of headache onset .
+He presented to the Edith Nourse Rogers Memorial VA Hospital emergency room , where an initial head CT scan was read as negative .
+However , a lumbar puncture was done , in which tube 1 showed 4800 red blood cells and tube 4 showed 4000 red blood cells .
+The patient was sent for an MRI of the head , which raised the question of a right posterior cerebral artery aneurysm .
+The CT scan was revealed and , on second analysis , it was thought that it was suspicious for a subarachnoid hemorrhage in the suprasellar cistern .
+The patient was then admitted for further evaluation .
+HOSPITAL COURSE :
+The patient was admitted to the surgical intensive care unit , where a continued cerebral angiogram was done that was essentially normal , without evidence of any obvious aneurysm .
+The patient was observed for two days with a repeat CT scan showing no changes from the previous examination .
+The headache stabilized after the patient was transferred to the floor .
+The patient continued to do well and the decision was made to discharge him .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="1007" end="1015" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1020" end="1038" text="further evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="1075" end="1083" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1087" end="1119" text="the surgical intensive care unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E1" start="1128" end="1158" text="a continued cerebral angiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="1177" end="1195" text="essentially normal" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="1218" end="1238" text="any obvious aneurysm" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E40" start="1257" end="1265" text="observed" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="1284" end="1300" text="a repeat CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E8" start="1301" end="1308" text="showing" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E3" start="1312" end="1319" text="changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E4" start="1325" end="1349" text="the previous examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="1352" end="1364" text="The headache" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1365" end="1375" text="stabilized" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="1398" end="1409" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1413" end="1422" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E43" start="1450" end="1457" text="do well" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E12" start="146" end="178" text="significant past medical history" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E10" start="1487" end="1496" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="183" end="192" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="196" end="214" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E15" start="241" end="249" text="headache" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="263" end="279" text="riding a bicycle" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="285" end="298" text="characterized" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E11" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="299" end="312" text="this headache" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="316" end="334" text="the worst headache" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="366" end="372" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="377" end="385" text="vomiting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="406" end="416" text="complained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E23" start="420" end="429" text="dizziness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="445" end="453" text="headache" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="465" end="474" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="478" end="537" text="the Edith Nourse Rogers Memorial VA Hospital emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E27" start="546" end="569" text="an initial head CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="582" end="590" text="negative" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="603" end="620" text="a lumbar puncture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="655" end="675" text="4800 red blood cells" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="694" end="714" text="4000 red blood cells" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="742" end="760" text="an MRI of the head" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="792" end="834" text="a right posterior cerebral artery aneurysm" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="837" end="848" text="The CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E35" start="931" end="983" text="a subarachnoid hemorrhage in the suprasellar cistern" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T3" start="1270" end="1278" text="two days" type="DURATION" val="P2D" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2014-08-07" type="DATE" val="2014-08-07" mod="NA" />
+<TIMEX3 id="T0" start="386" end="395" text="times one" type="FREQUENCY" val="R1" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2014-08-09" type="DATE" val="2014-08-09" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="2014-08-07" type="OVERLAP" />
+<TLINK id="TL1" fromID="E11" fromText="Discharge" toID="T2" toText="2014-08-09" type="OVERLAP" />
+<TLINK id="TL10" fromID="E21" fromText="vomiting" toID="E18" toText="this headache" type="OVERLAP" />
+<TLINK id="TL11" fromID="E21" fromText="vomiting" toID="T0" toText="times one" type="OVERLAP" />
+<TLINK id="TL12" fromID="E23" fromText="dizziness" toID="E22" toText="complained" type="BEFORE" />
+<TLINK id="TL13" fromID="E23" fromText="dizziness" toID="E24" toText="headache" type="OVERLAP" />
+<TLINK id="TL14" fromID="E25" fromText="presented" toID="E13" toText="presented" type="OVERLAP" />
+<TLINK id="TL15" fromID="E26" fromText="the Edith Nourse Rogers Memorial VA Hospital emergency room" toID="E25" toText="presented" type="AFTER" />
+<TLINK id="TL16" fromID="E26" fromText="the Edith Nourse Rogers Memorial VA Hospital emergency room" toID="E14" toText="the emergency room" type="OVERLAP" />
+<TLINK id="TL17" fromID="E27" fromText="an initial head CT scan" toID="E26" toText="the Edith Nourse Rogers Memorial VA Hospital emergency room" type="OVERLAP" />
+<TLINK id="TL18" fromID="E27" fromText="an initial head CT scan" toID="E28" toText="negative" type="OVERLAP" />
+<TLINK id="TL19" fromID="E29" fromText="a lumbar puncture" toID="E26" toText="the Edith Nourse Rogers Memorial VA Hospital emergency room" type="OVERLAP" />
+<TLINK id="TL2" fromID="E12" fromText="significant past medical history" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL20" fromID="E29" fromText="a lumbar puncture" toID="E30" toText="4800 red blood cells" type="OVERLAP" />
+<TLINK id="TL21" fromID="E30" fromText="4800 red blood cells" toID="E31" toText="4000 red blood cells" type="OVERLAP" />
+<TLINK id="TL22" fromID="E32" fromText="an MRI of the head" toID="E29" toText="a lumbar puncture" type="AFTER" />
+<TLINK id="TL23" fromID="E33" fromText="a right posterior cerebral artery aneurysm" toID="E32" toText="an MRI of the head" type="BEFORE" />
+<TLINK id="TL24" fromID="E35" fromText="a subarachnoid hemorrhage in the suprasellar cistern" toID="E34" toText="The CT scan" type="BEFORE" />
+<TLINK id="TL25" fromID="E6" fromText="admitted" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL26" fromID="E36" fromText="further evaluation" toID="E6" toText="admitted" type="AFTER" />
+<TLINK id="TL27" fromID="E7" fromText="admitted" toID="E6" toText="admitted" type="OVERLAP" />
+<TLINK id="TL28" fromID="E37" fromText="the surgical intensive care unit" toID="E7" toText="admitted" type="AFTER" />
+<TLINK id="TL29" fromID="E1" fromText="a continued cerebral angiogram" toID="E37" toText="the surgical intensive care unit" type="OVERLAP" />
+<TLINK id="TL3" fromID="E13" fromText="presented" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL30" fromID="E38" fromText="essentially normal" toID="E1" toText="a continued cerebral angiogram" type="OVERLAP" />
+<TLINK id="TL31" fromID="E39" fromText="any obvious aneurysm" toID="E38" toText="essentially normal" type="OVERLAP" />
+<TLINK id="TL32" fromID="E40" fromText="observed" toID="T3" toText="two days" type="OVERLAP" />
+<TLINK id="TL33" fromID="T3" fromText="two days" toID="T1" toText="2014-08-07" type="AFTER" />
+<TLINK id="TL34" fromID="E2" fromText="a repeat CT scan" toID="E8" toText="showing" type="OVERLAP" />
+<TLINK id="TL35" fromID="E3" fromText="changes" toID="E8" toText="showing" type="OVERLAP" />
+<TLINK id="TL36" fromID="E2" fromText="a repeat CT scan" toID="E34" toText="The CT scan" type="AFTER" />
+<TLINK id="TL37" fromID="E4" fromText="the previous examination" toID="E34" toText="The CT scan" type="OVERLAP" />
+<TLINK id="TL38" fromID="E5" fromText="The headache" toID="E41" toText="stabilized" type="OVERLAP" />
+<TLINK id="TL39" fromID="E41" fromText="stabilized" toID="E9" toText="transferred" type="AFTER" />
+<TLINK id="TL4" fromID="E14" fromText="the emergency room" toID="E13" toText="presented" type="AFTER" />
+<TLINK id="TL40" fromID="E42" fromText="the floor" toID="E9" toText="transferred" type="BEFORE" />
+<TLINK id="TL41" fromID="E43" fromText="do well" toID="E42" toText="the floor" type="OVERLAP" />
+<TLINK id="TL42" fromID="E10" fromText="discharge" toID="E11" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL5" fromID="E13" fromText="presented" toID="E15" toText="headache" type="AFTER" />
+<TLINK id="TL6" fromID="E15" fromText="headache" toID="E16" toText="riding a bicycle" type="OVERLAP" />
+<TLINK id="TL7" fromID="E18" fromText="this headache" toID="E19" toText="the worst headache" type="OVERLAP" />
+<TLINK id="TL8" fromID="E17" fromText="characterized" toID="E18" toText="this headache" type="AFTER" />
+<TLINK id="TL9" fromID="E18" fromText="this headache" toID="E20" toText="nausea" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2014-08-07" type="ADMISSION" dvalue="2014-08-07" />
+<SECTIME id="S1" start="46" end="56" text="2014-08-09" type="DISCHARGE" dvalue="2014-08-09" />
+<TLINK id="SECTIME0" fromID="E6" fromText="admitted" toID="T1" toText="2014-08-07" type="OVERLAP" />
+<TLINK id="SECTIME1" fromID="E36" fromText="further evaluation" toID="T1" toText="2014-08-07" type="AFTER" />
+<TLINK id="SECTIME2" fromID="E7" fromText="admitted" toID="T2" toText="2014-08-09" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E37" fromText="the surgical intensive care unit" toID="T2" toText="2014-08-09" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E1" fromText="a continued cerebral angiogram" toID="T2" toText="2014-08-09" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E38" fromText="essentially normal" toID="T2" toText="2014-08-09" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E39" fromText="any obvious aneurysm" toID="T2" toText="2014-08-09" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E40" fromText="observed" toID="T2" toText="2014-08-09" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E2" fromText="a repeat CT scan" toID="T2" toText="2014-08-09" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E8" fromText="showing" toID="T2" toText="2014-08-09" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E3" fromText="changes" toID="T2" toText="2014-08-09" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E4" fromText="the previous examination" toID="T2" toText="2014-08-09" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E5" fromText="The headache" toID="T2" toText="2014-08-09" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E41" fromText="stabilized" toID="T2" toText="2014-08-09" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E9" fromText="transferred" toID="T2" toText="2014-08-09" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E42" fromText="the floor" toID="T2" toText="2014-08-09" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E43" fromText="do well" toID="T2" toText="2014-08-09" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E12" fromText="significant past medical history" toID="T1" toText="2014-08-07" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E10" fromText="discharge" toID="T2" toText="2014-08-09" type="OVERLAP" />
+<TLINK id="SECTIME19" fromID="E13" fromText="presented" toID="T1" toText="2014-08-07" type="OVERLAP" />
+<TLINK id="SECTIME20" fromID="E14" fromText="the emergency room" toID="T1" toText="2014-08-07" type="OVERLAP" />
+<TLINK id="SECTIME21" fromID="E15" fromText="headache" toID="T1" toText="2014-08-07" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E16" fromText="riding a bicycle" toID="T1" toText="2014-08-07" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E17" fromText="characterized" toID="T1" toText="2014-08-07" type="OVERLAP" />
+<TLINK id="SECTIME24" fromID="E18" fromText="this headache" toID="T1" toText="2014-08-07" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E19" fromText="the worst headache" toID="T1" toText="2014-08-07" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E20" fromText="nausea" toID="T1" toText="2014-08-07" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E21" fromText="vomiting" toID="T1" toText="2014-08-07" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E22" fromText="complained" toID="T1" toText="2014-08-07" type="OVERLAP" />
+<TLINK id="SECTIME29" fromID="E23" fromText="dizziness" toID="T1" toText="2014-08-07" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E24" fromText="headache" toID="T1" toText="2014-08-07" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E25" fromText="presented" toID="T1" toText="2014-08-07" type="OVERLAP" />
+<TLINK id="SECTIME32" fromID="E26" fromText="the Edith Nourse Rogers Memorial VA Hospital emergency room" toID="T1" toText="2014-08-07" type="OVERLAP" />
+<TLINK id="SECTIME33" fromID="E27" fromText="an initial head CT scan" toID="T1" toText="2014-08-07" type="OVERLAP" />
+<TLINK id="SECTIME34" fromID="E28" fromText="negative" toID="T1" toText="2014-08-07" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E29" fromText="a lumbar puncture" toID="T1" toText="2014-08-07" type="OVERLAP" />
+<TLINK id="SECTIME36" fromID="E30" fromText="4800 red blood cells" toID="T1" toText="2014-08-07" type="OVERLAP" />
+<TLINK id="SECTIME37" fromID="E31" fromText="4000 red blood cells" toID="T1" toText="2014-08-07" type="OVERLAP" />
+<TLINK id="SECTIME38" fromID="E32" fromText="an MRI of the head" toID="T1" toText="2014-08-07" type="OVERLAP" />
+<TLINK id="SECTIME39" fromID="E33" fromText="a right posterior cerebral artery aneurysm" toID="T1" toText="2014-08-07" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E34" fromText="The CT scan" toID="T1" toText="2014-08-07" type="OVERLAP" />
+<TLINK id="SECTIME41" fromID="E35" fromText="a subarachnoid hemorrhage in the suprasellar cistern" toID="T1" toText="2014-08-07" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

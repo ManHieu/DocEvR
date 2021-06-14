@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+12/26/96
+DISCHARGE DATE :
+01/01/97
+HISTORY OF PRESENT ILLNESS :
+The patient is an 83-year-old female who presents for surgical evaluation for her hyperparathyroidism .
+This is an 83-year-old female with a history of hypertrophic obstructive cardiomyopathy , status post mitral valve replacement in 1988 , chronic atrial fibrillation , hypertension , who presents for parathyroidectomy .
+In August of 1996 while the patient was at Retelk County Medical Center for replacement of her knees bilaterally , and on preoperative evaluation she was noted to have a high calcium and therefore the surgery was canceled .
+Further testing revealed hyperparathyroidism as evidenced by an elevated PTH .
+The patient reports no masses in her neck .
+She has noticed some generalized hoarseness in her voice for the past 5-6 months .
+In addition , she has some dysphagia , particularly has had some difficulties with swallowing .
+She has been seen by Dr. Tokbelb , her primary care physician in Itgreenredan Hospital , and also Dr. Kotefyfechird , her cardiologist , and also an endocrinologist at Retelk County Medical Center .
+HOSPITAL COURSE AND TREATMENT :
+On the day of admission , the patient was brought to the operating room for parathyroidectomy .
+The right superior parathyroid gland was found to be markedly enlarged and consistent with an adenoma .
+Her right superior parathyroid gland was removed and the rest of her parathyroid glands were left in place .
+Postoperatively , the patient did well and was able to cough and phonate completely with no changes from preoperative .
+The plan was to start her on heparin and Coumadin and discontinue her heparin when her Coumadin levels became therapeutic as judged by the prothrombin time / INR .
+However , on postoperative day number two , the patient in the afternoon noticed some tingling in her hands and also some tingling hear her perioral region .
+She had a negative Chvostek &apos;s and negative Trousseau &apos;s sign .
+She had no muscular weakness noted .
+An ionized calcium was drawn which was low at 1.0 .
+As a result , the patient was started on Os-Cal 250 mg PO q.i.d. On postoperative day number three , her ionized calcium was 1.06 and her Os-Cal was increased to 500 q.i.d.
+However , her ionized calcium decreased to 0.97 and she was given one amp of calcium gluconate .
+On postoperative day number five , the patient felt fine and had an INR of 1.9 with a prothrombin time of 16.6 .
+Her calcium was 8.5 , albumin 3.6 , and phosphate 4.5 .
+She had had no further episodes of tingling in her fingers after the initial episode which had prompted us originally to draw the ionized calcium .
+]]></TEXT>
+<TAGS>
+<EVENT id="E34" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="1049" end="1065" text="her cardiologist" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E59" start="1077" end="1095" text="an endocrinologist" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E39" start="1099" end="1127" text="Retelk County Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E41" start="1215" end="1233" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E0" start="123" end="131" text="presents" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="1238" end="1255" text="parathyroidectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="1311" end="1328" text="markedly enlarged" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="1349" end="1359" text="an adenoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="136" end="155" text="surgical evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E61" start="1362" end="1410" text="Her right superior parathyroid gland was removed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E62" start="1415" end="1468" text="the rest of her parathyroid glands were left in place" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="1505" end="1509" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="1526" end="1531" text="cough" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="1536" end="1554" text="phonate completely" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="1563" end="1570" text="changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E1" start="160" end="183" text="her hyperparathyroidism" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="1620" end="1627" text="heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E66" start="1632" end="1640" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E67" start="1645" end="1656" text="discontinue" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="1657" end="1668" text="her heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E68" start="1674" end="1712" text="her Coumadin levels became therapeutic" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="1726" end="1746" text="the prothrombin time" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="1749" end="1752" text="INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="1836" end="1862" text="some tingling in her hands" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1872" end="1910" text="some tingling hear her perioral region" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1932" end="1948" text="Chvostek &apos;s" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="1962" end="1984" text="Trousseau &apos;s sign" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E22" start="1998" end="2015" text="muscular weakness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E23" start="2024" end="2042" text="An ionized calcium" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="2117" end="2123" text="Os-Cal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="2177" end="2196" text="her ionized calcium" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E69" start="2210" end="2220" text="her Os-Cal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="2225" end="2234" text="increased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="2259" end="2288" text="her ionized calcium decreased" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="2326" end="2343" text="calcium gluconate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="234" end="273" text="hypertrophic obstructive cardiomyopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="2393" end="2402" text="felt fine" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E28" start="2411" end="2417" text="an INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="2430" end="2448" text="a prothrombin time" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="2459" end="2470" text="Her calcium" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="2481" end="2488" text="albumin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="2499" end="2508" text="phosphate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E72" start="2550" end="2573" text="tingling in her fingers" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E44" start="2580" end="2599" text="the initial episode" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="2641" end="2660" text="the ionized calcium" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E35" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="288" end="312" text="mitral valve replacement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="323" end="350" text="chronic atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="353" end="365" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="372" end="380" text="presents" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="385" end="402" text="parathyroidectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="448" end="476" text="Retelk County Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E48" start="481" end="517" text="replacement of her knees bilaterally" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="527" end="550" text="preoperative evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E49" start="559" end="564" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E7" start="573" end="587" text="a high calcium" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="602" end="613" text="the surgery" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E50" start="618" end="626" text="canceled" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="629" end="644" text="Further testing" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="645" end="653" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E10" start="654" end="673" text="hyperparathyroidism" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="690" end="705" text="an elevated PTH" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="720" end="727" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E53" start="731" end="749" text="masses in her neck" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E11" start="773" end="808" text="generalized hoarseness in her voice" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="857" end="871" text="some dysphagia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="895" end="928" text="some difficulties with swallowing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="944" end="948" text="seen" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="966" end="992" text="her primary care physician" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E38" start="996" end="1017" text="Itgreenredan Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<TIMEX3 id="T11" start="1165" end="1185" text="the day of admission" type="DATE" val="1996-12-26" mod="NA" />
+<TIMEX3 id="T8" start="1768" end="1796" text="postoperative day number two" type="DATE" val="1996-12-28" mod="NA" />
+<TIMEX3 id="T1" start="18" end="26" text="12/26/96" type="DATE" val="1996-12-26" mod="NA" />
+<TIMEX3 id="T9" start="1814" end="1827" text="the afternoon" type="TIME" val="1996-12-28t15:00" mod="APPROX" />
+<TIMEX3 id="T10" start="2134" end="2140" text="q.i.d." type="FREQUENCY" val="RPT6H" mod="NA" />
+<TIMEX3 id="T6" start="2144" end="2174" text="postoperative day number three" type="DATE" val="1996-12-29" mod="NA" />
+<TIMEX3 id="T12" start="2242" end="2248" text="q.i.d." type="FREQUENCY" val="RPT6H" mod="NA" />
+<TIMEX3 id="T7" start="2349" end="2378" text="postoperative day number five" type="DATE" val="" mod="NA" />
+<TIMEX3 id="T3" start="316" end="320" text="1988" type="DATE" val="1988" mod="NA" />
+<TIMEX3 id="T4" start="408" end="422" text="August of 1996" type="DATE" val="1996-08" mod="NA" />
+<TIMEX3 id="T2" start="44" end="52" text="01/01/97" type="DATE" val="1997-01-01" mod="NA" />
+<TIMEX3 id="T0" start="813" end="832" text="the past 5-6 months" type="DURATION" val="p5.5m" mod="APPROX" />
+<TLINK id="TL0" fromID="E0" fromText="presents" toID="E45" toText="surgical evaluation" type="BEFORE" />
+<TLINK id="TL1" fromID="E34" fromText="ADMISSION" toID="T1" toText="12/26/96" type="OVERLAP" />
+<TLINK id="TL10" fromID="E15" fromText="heparin" toID="E16" toText="her heparin" type="OVERLAP" />
+<TLINK id="TL11" fromID="E1" fromText="her hyperparathyroidism" toID="E45" toText="surgical evaluation" type="BEFORE" />
+<TLINK id="TL12" fromID="E21" fromText="some tingling hear her perioral region" toID="E20" toText="some tingling in her hands" type="OVERLAP" />
+<TLINK id="TL13" fromID="E22" fromText="muscular weakness" toID="E43" toText="Trousseau &apos;s sign" type="OVERLAP" />
+<TLINK id="TL14" fromID="E24" fromText="Os-Cal" toID="E23" toText="An ionized calcium" type="AFTER" />
+<TLINK id="TL15" fromID="E29" fromText="a prothrombin time" toID="E28" toText="an INR" type="OVERLAP" />
+<TLINK id="TL17" fromID="E44" fromText="the initial episode" toID="E20" toText="some tingling in her hands" type="OVERLAP" />
+<TLINK id="TL18" fromID="E33" fromText="the ionized calcium" toID="E23" toText="An ionized calcium" type="OVERLAP" />
+<TLINK id="TL19" fromID="E47" fromText="presents" toID="E5" toText="parathyroidectomy" type="BEFORE" />
+<TLINK id="TL2" fromID="E35" fromText="DISCHARGE" toID="T2" toText="01/01/97" type="OVERLAP" />
+<TLINK id="TL20" fromID="E36" fromText="Retelk County Medical Center" toID="T4" toText="August of 1996" type="OVERLAP" />
+<TLINK id="TL21" fromID="E48" fromText="replacement of her knees bilaterally" toID="E36" toText="Retelk County Medical Center" type="OVERLAP" />
+<TLINK id="TL22" fromID="E6" fromText="preoperative evaluation" toID="E36" toText="Retelk County Medical Center" type="OVERLAP" />
+<TLINK id="TL23" fromID="E6" fromText="preoperative evaluation" toID="E49" toText="noted" type="OVERLAP" />
+<TLINK id="TL24" fromID="E7" fromText="a high calcium" toID="E49" toText="noted" type="BEFORE" />
+<TLINK id="TL25" fromID="E8" fromText="the surgery" toID="E50" toText="canceled" type="OVERLAP" />
+<TLINK id="TL26" fromID="E8" fromText="the surgery" toID="E48" toText="replacement of her knees bilaterally" type="OVERLAP" />
+<TLINK id="TL27" fromID="E9" fromText="Further testing" toID="E50" toText="canceled" type="AFTER" />
+<TLINK id="TL28" fromID="E9" fromText="Further testing" toID="E37" toText="revealed" type="OVERLAP" />
+<TLINK id="TL29" fromID="E51" fromText="an elevated PTH" toID="E10" toText="hyperparathyroidism" type="OVERLAP" />
+<TLINK id="TL3" fromID="E2" fromText="mitral valve replacement" toID="T3" toText="1988" type="OVERLAP" />
+<TLINK id="TL30" fromID="E52" fromText="reports" toID="E53" toText="masses in her neck" type="OVERLAP" />
+<TLINK id="TL31" fromID="E11" fromText="generalized hoarseness in her voice" toID="T0" toText="the past 5-6 months" type="OVERLAP" />
+<TLINK id="TL32" fromID="T0" fromText="the past 5-6 months" toID="E34" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL33" fromID="E54" fromText="some dysphagia" toID="E55" toText="some difficulties with swallowing" type="OVERLAP" />
+<TLINK id="TL34" fromID="E56" fromText="seen" toID="E57" toText="her primary care physician" type="OVERLAP" />
+<TLINK id="TL35" fromID="E56" fromText="seen" toID="E38" toText="Itgreenredan Hospital" type="OVERLAP" />
+<TLINK id="TL36" fromID="E58" fromText="her cardiologist" toID="E39" toText="Retelk County Medical Center" type="OVERLAP" />
+<TLINK id="TL37" fromID="E59" fromText="an endocrinologist" toID="E39" toText="Retelk County Medical Center" type="OVERLAP" />
+<TLINK id="TL38" fromID="E41" fromText="the operating room" toID="T11" toText="the day of admission" type="OVERLAP" />
+<TLINK id="TL39" fromID="E12" fromText="parathyroidectomy" toID="E41" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL4" fromID="E3" fromText="chronic atrial fibrillation" toID="E34" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL40" fromID="E60" fromText="markedly enlarged" toID="E12" toText="parathyroidectomy" type="BEFORE" />
+<TLINK id="TL41" fromID="E60" fromText="markedly enlarged" toID="E13" toText="an adenoma" type="OVERLAP" />
+<TLINK id="TL42" fromID="E12" fromText="parathyroidectomy" toID="E61" toText="Her right superior parathyroid gland was removed" type="OVERLAP" />
+<TLINK id="TL43" fromID="E12" fromText="parathyroidectomy" toID="E62" toText="the rest of her parathyroid glands were left in place" type="OVERLAP" />
+<TLINK id="TL44" fromID="E63" fromText="well" toID="E12" toText="parathyroidectomy" type="AFTER" />
+<TLINK id="TL45" fromID="E63" fromText="well" toID="E64" toText="cough" type="OVERLAP" />
+<TLINK id="TL46" fromID="E63" fromText="well" toID="E65" toText="phonate completely" type="OVERLAP" />
+<TLINK id="TL47" fromID="E16" fromText="her heparin" toID="E67" toText="discontinue" type="BEFORE" />
+<TLINK id="TL48" fromID="E68" fromText="her Coumadin levels became therapeutic" toID="E66" toText="Coumadin" type="OVERLAP" />
+<TLINK id="TL49" fromID="E67" fromText="discontinue" toID="E68" toText="her Coumadin levels became therapeutic" type="OVERLAP" />
+<TLINK id="TL50" fromID="E68" fromText="her Coumadin levels became therapeutic" toID="E18" toText="the prothrombin time" type="OVERLAP" />
+<TLINK id="TL51" fromID="E68" fromText="her Coumadin levels became therapeutic" toID="E19" toText="INR" type="OVERLAP" />
+<TLINK id="TL52" fromID="T8" fromText="postoperative day number two" toID="T9" toText="the afternoon" type="OVERLAP" />
+<TLINK id="TL53" fromID="E20" fromText="some tingling in her hands" toID="T9" toText="the afternoon" type="OVERLAP" />
+<TLINK id="TL54" fromID="E42" fromText="Chvostek &apos;s" toID="E43" toText="Trousseau &apos;s sign" type="OVERLAP" />
+<TLINK id="TL55" fromID="E42" fromText="Chvostek &apos;s" toID="T8" toText="postoperative day number two" type="OVERLAP" />
+<TLINK id="TL56" fromID="E24" fromText="Os-Cal" toID="T10" toText="q.i.d." type="OVERLAP" />
+<TLINK id="TL57" fromID="E25" fromText="her ionized calcium" toID="T6" toText="postoperative day number three" type="OVERLAP" />
+<TLINK id="TL58" fromID="E69" fromText="her Os-Cal" toID="E70" toText="increased" type="OVERLAP" />
+<TLINK id="TL59" fromID="E70" fromText="increased" toID="T12" toText="q.i.d." type="OVERLAP" />
+<TLINK id="TL6" fromID="E10" fromText="hyperparathyroidism" toID="E9" toText="Further testing" type="BEFORE" />
+<TLINK id="TL60" fromID="E69" fromText="her Os-Cal" toID="E24" toText="Os-Cal" type="AFTER" />
+<TLINK id="TL61" fromID="E27" fromText="calcium gluconate" toID="E26" toText="her ionized calcium decreased" type="AFTER" />
+<TLINK id="TL62" fromID="E26" fromText="her ionized calcium decreased" toID="E25" toText="her ionized calcium" type="AFTER" />
+<TLINK id="TL63" fromID="E71" fromText="felt fine" toID="T7" toText="postoperative day number five" type="OVERLAP" />
+<TLINK id="TL64" fromID="E30" fromText="Her calcium" toID="T7" toText="postoperative day number five" type="OVERLAP" />
+<TLINK id="TL65" fromID="E31" fromText="albumin" toID="T7" toText="postoperative day number five" type="OVERLAP" />
+<TLINK id="TL66" fromID="E32" fromText="phosphate" toID="T7" toText="postoperative day number five" type="OVERLAP" />
+<TLINK id="TL67" fromID="E72" fromText="tingling in her fingers" toID="E44" toText="the initial episode" type="AFTER" />
+<TLINK id="TL9" fromID="E14" fromText="changes" toID="E41" toText="the operating room" type="AFTER" />
+<SECTIME id="S0" start="18" end="26" text="12/26/96" type="ADMISSION" dvalue="1996-12-26" />
+<SECTIME id="S1" start="44" end="52" text="01/01/97" type="DISCHARGE" dvalue="1997-01-01" />
+<TLINK id="SECTIME0" fromID="E58" fromText="her cardiologist" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E59" fromText="an endocrinologist" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E39" fromText="Retelk County Medical Center" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E41" fromText="the operating room" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E0" fromText="presents" toID="T1" toText="12/26/96" type="OVERLAP" />
+<TLINK id="SECTIME5" fromID="E12" fromText="parathyroidectomy" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E60" fromText="markedly enlarged" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E13" fromText="an adenoma" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E45" fromText="surgical evaluation" toID="T1" toText="12/26/96" type="AFTER" />
+<TLINK id="SECTIME9" fromID="E61" fromText="Her right superior parathyroid gland was removed" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E62" fromText="the rest of her parathyroid glands were left in place" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E63" fromText="well" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E64" fromText="cough" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E65" fromText="phonate completely" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E14" fromText="changes" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E1" fromText="her hyperparathyroidism" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E15" fromText="heparin" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E66" fromText="Coumadin" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E67" fromText="discontinue" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E16" fromText="her heparin" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E68" fromText="her Coumadin levels became therapeutic" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E18" fromText="the prothrombin time" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E19" fromText="INR" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E20" fromText="some tingling in her hands" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E21" fromText="some tingling hear her perioral region" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E42" fromText="Chvostek &apos;s" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E43" fromText="Trousseau &apos;s sign" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E22" fromText="muscular weakness" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E23" fromText="An ionized calcium" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E24" fromText="Os-Cal" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E25" fromText="her ionized calcium" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E69" fromText="her Os-Cal" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E70" fromText="increased" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E26" fromText="her ionized calcium decreased" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E27" fromText="calcium gluconate" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E46" fromText="hypertrophic obstructive cardiomyopathy" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E71" fromText="felt fine" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E28" fromText="an INR" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E29" fromText="a prothrombin time" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E30" fromText="Her calcium" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E31" fromText="albumin" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E32" fromText="phosphate" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E72" fromText="tingling in her fingers" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E44" fromText="the initial episode" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E33" fromText="the ionized calcium" toID="T2" toText="01/01/97" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E2" fromText="mitral valve replacement" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E3" fromText="chronic atrial fibrillation" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E4" fromText="hypertension" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E47" fromText="presents" toID="T1" toText="12/26/96" type="OVERLAP" />
+<TLINK id="SECTIME49" fromID="E5" fromText="parathyroidectomy" toID="T1" toText="12/26/96" type="AFTER" />
+<TLINK id="SECTIME50" fromID="E36" fromText="Retelk County Medical Center" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E48" fromText="replacement of her knees bilaterally" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E6" fromText="preoperative evaluation" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E49" fromText="noted" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E7" fromText="a high calcium" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E8" fromText="the surgery" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E50" fromText="canceled" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E9" fromText="Further testing" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E37" fromText="revealed" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E10" fromText="hyperparathyroidism" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E51" fromText="an elevated PTH" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E52" fromText="reports" toID="T1" toText="12/26/96" type="OVERLAP" />
+<TLINK id="SECTIME62" fromID="E53" fromText="masses in her neck" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E11" fromText="generalized hoarseness in her voice" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E54" fromText="some dysphagia" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E55" fromText="some difficulties with swallowing" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E56" fromText="seen" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E57" fromText="her primary care physician" toID="T1" toText="12/26/96" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E38" fromText="Itgreenredan Hospital" toID="T1" toText="12/26/96" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

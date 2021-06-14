@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+4/28/93
+DISCHARGE DATE :
+5/15/93
+HISTORY OF PRESENT ILLNESS :
+The patient is a 74 year old female with metastatic papillary carcinoma of the thyroid who presented to the Fairm of Ijordcompmac Hospital on 4/28/93 with progressive weakness , weight loss and shortness of breath .
+The patient was in a good state of health until January of 1993 when she developed a serious upper respiratory tract infection associated with weakness and fatigue .
+She had also reported a weight loss of 15 pounds over the past two months .
+Although her upper respiratory tract infection seemed to be resolving , her weakness persisted .
+A work up begun by her internist , Dr. Brain , revealed a white blood cell count of 49,000 with 50% eosinophils .
+She was admitted to Box Memorial Hospital Nursing Home for further evaluation .
+Data collected there included a chest x-ray which was unremarkable .
+The liver function tests showed an alkaline phosphatase of 303 , LDH 310 , SGOT 66 , albumin 2.5 .
+A peripheral blood smear showed mature eosinophils in increased numbers .
+Chromosomal studies were negative .
+A bone scan showed increased uptake at the manubrium at the site of an old fracture , as well as in the right supraclavicular area .
+A thyroid ultrasound showed an inferior thyroid mass .
+This was followed by an abdominal CT which showed an enlarged spleen , a lytic lesion on the right iliac bone and a benign renal cyst .
+Biopsy of the lytic lesion was consistent with metastases papillary carcinoma of the thyroid .
+An upper gastrointestinal was unremarkable .
+The small bowel follow through was within normal limits .
+A thyroid scan revealed decreased function and displacement of the thyroid by a cold mass located inferiorly with calcifications on the right side .
+A chest CT also revealed a small pulmonary nodule with a necrotic mass involving the right lung posteriorly .
+The patient was subsequently referred to the Fairm of Ijordcompmac Hospital under the service of Dr. Brain .
+She continued to have profound weakness , a decreased appetite and weight loss .
+She also developed lower extremity edema as well as left upper extremity swelling associated with increased shortness of breath on exertion .
+A needle biopsy of the right thyroid nodule showed papillary thyroid carcinoma .
+The patient reports no history of radiation exposure , no family history of thyroid carcinoma , no recent travels or exposure to tuberculosis .
+HOSPITAL COURSE :
+The patient was admitted to Dr. Shatermivaet S Brain on 4/28/93 with a history of papillary carcinoma of the thyroid with bone involvement and possible lung involvement .
+Work up was begun for the possible myeloproliferative / myelodysplastic disorder associated with the hyper-eosinophilic syndrome .
+Accordingly , an Oncology consult was called on 4/29/93 and a bone marrow aspirate biopsy was performed .
+This revealed maturation of leukocytes to all stages with markedly increased eosinophilic proliferation .
+A lung biopsy was performed on 4/30/93 without definitive results .
+During this time the patient &apos;s coagulation status had improved with Vitamin K therapy with PTs normalizing .
+ANCA serum results were negative .
+ANA results were also nonsuggestive .
+The patient continued to suffer from edema of the left upper extremity and a Vascular Radiology consult revealed a thrombosis of the left subclavian vein extending into the axillary vein .
+There was some thrombosis of the left internal jugular vein as well .
+A head CT was performed and was completely negative for any metastatic process involving the brain .
+Thus , a heparin sliding scale was begun .
+Meanwhile , the patient &apos;s eosinophilia was treated with a trial of prednisone .
+She also developed a mild urinary tract infection which responded to Bactrim , but which was subsequently stopped because of diarrhea .
+The conclusions at this time of the thyroid cytologist , as well as the bone pathologist , were that the findings were diagnostic of papillary thyroid carcinoma with pulmonary metastases .
+Dr. Trial was subsequently consulted on 5/5 for surgical intervention .
+On 5/6/93 the patient underwent a right thyroidectomy with sacrifice of the right recurrent laryngeal nerve as well as the right sternothyroid muscle and lower parathyroid gland .
+She underwent autotransplantation of the right upper parathyroid gland , as well as repair of a right posterior membranous tracheotomy .
+She was received in the Respiratory Intensive Care Unit immediately postoperatively in stable condition .
+Her rate was well controlled on Digoxin .
+The patient was transferred to the floor on 5/7 .
+On the ward she continued a gentle diuresis as well as Solu-Medrol therapy .
+Calcium levels remained 7.2 to 7.5 postoperatively .
+She continued to improve with a slight hoarseness in her voice that was expected .
+She continued to exhibit asymptomatic atrial fibrillation .
+Anticoagulation was begun on the third postoperative day with Coumadin .
+She was effectively anticoagulated with a PT in the range between 15 and 17 over a control of 10 .
+She also received a Radiation Therapy consult for local control of her invasive carcinoma .
+She did well on the ward and was discharged on her ninth postoperative day .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="1022" end="1028" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E70" start="1029" end="1047" text="mature eosinophils" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="1071" end="1090" text="Chromosomal studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E72" start="1107" end="1118" text="A bone scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="1119" end="1125" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E74" start="1126" end="1159" text="increased uptake at the manubrium" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="1175" end="1190" text="an old fracture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="121" end="166" text="metastatic papillary carcinoma of the thyroid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="1240" end="1260" text="A thyroid ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E76" start="1261" end="1267" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E77" start="1268" end="1292" text="an inferior thyroid mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E78" start="1316" end="1331" text="an abdominal CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E79" start="1338" end="1344" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E80" start="1345" end="1363" text="an enlarged spleen" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E81" start="1366" end="1404" text="a lytic lesion on the right iliac bone" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="1409" end="1428" text="a benign renal cyst" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="1431" end="1457" text="Biopsy of the lytic lesion" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E84" start="1478" end="1523" text="metastases papillary carcinoma of the thyroid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="1526" end="1551" text="An upper gastrointestinal" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E86" start="1571" end="1601" text="The small bowel follow through" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E87" start="1629" end="1643" text="A thyroid scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E88" start="1644" end="1652" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E89" start="1653" end="1671" text="decreased function" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E90" start="1676" end="1703" text="displacement of the thyroid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E91" start="1707" end="1718" text="a cold mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="171" end="180" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E92" start="1743" end="1775" text="calcifications on the right side" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E93" start="1778" end="1788" text="A chest CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E94" start="1794" end="1802" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E95" start="1803" end="1827" text="a small pulmonary nodule" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E96" start="1833" end="1848" text="a necrotic mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E97" start="1859" end="1885" text="the right lung posteriorly" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E44" start="184" end="218" text="the Fairm of Ijordcompmac Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E98" start="1917" end="1925" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E99" start="1929" end="1963" text="the Fairm of Ijordcompmac Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E100" start="2019" end="2036" text="profound weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E101" start="2039" end="2059" text="a decreased appetite" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E102" start="2064" end="2075" text="weight loss" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E103" start="2097" end="2118" text="lower extremity edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E104" start="2130" end="2159" text="left upper extremity swelling" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E105" start="2176" end="2205" text="increased shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E106" start="2220" end="2263" text="A needle biopsy of the right thyroid nodule" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E107" start="2264" end="2270" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E108" start="2271" end="2298" text="papillary thyroid carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="2313" end="2320" text="reports" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E110" start="2335" end="2353" text="radiation exposure" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E45" start="235" end="255" text="progressive weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E111" start="2377" end="2394" text="thyroid carcinoma" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E112" start="2400" end="2414" text="recent travels" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E113" start="2418" end="2442" text="exposure to tuberculosis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E38" start="2479" end="2487" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E114" start="2545" end="2579" text="papillary carcinoma of the thyroid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="258" end="269" text="weight loss" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E115" start="2585" end="2601" text="bone involvement" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="26" end="35" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E116" start="2615" end="2631" text="lung involvement" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="2634" end="2641" text="Work up" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E117" start="2669" end="2714" text="myeloproliferative / myelodysplastic disorder" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="274" end="293" text="shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E118" start="2731" end="2762" text="the hyper-eosinophilic syndrome" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E119" start="2779" end="2798" text="an Oncology consult" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="2825" end="2854" text="a bone marrow aspirate biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E120" start="2871" end="2884" text="This revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E135" start="2885" end="2909" text="maturation of leukocytes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="2929" end="2974" text="markedly increased eosinophilic proliferation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="2977" end="2990" text="A lung biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E121" start="3024" end="3042" text="definitive results" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E122" start="3062" end="3100" text="the patient &apos;s coagulation status" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="3119" end="3136" text="Vitamin K therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="3142" end="3145" text="PTs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E123" start="3160" end="3164" text="ANCA" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="315" end="337" text="a good state of health" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E124" start="3195" end="3198" text="ANA" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E8" start="3270" end="3303" text="edema of the left upper extremity" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E125" start="3308" end="3328" text="a Vascular Radiology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E126" start="3337" end="3345" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E9" start="3346" end="3386" text="a thrombosis of the left subclavian vein" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="3432" end="3481" text="some thrombosis of the left internal jugular vein" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="3492" end="3501" text="A head CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E127" start="3548" end="3570" text="any metastatic process" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E12" start="3600" end="3623" text="a heparin sliding scale" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="3648" end="3680" text="the patient &apos;s eosinophilia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="3698" end="3719" text="a trial of prednisone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="3741" end="3771" text="a mild urinary tract infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="379" end="422" text="a serious upper respiratory tract infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="3791" end="3798" text="Bactrim" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="3847" end="3855" text="diarrhea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E128" start="3890" end="3912" text="the thyroid cytologist" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E129" start="3926" end="3946" text="the bone pathologist" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E18" start="3991" end="4018" text="papillary thyroid carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="4024" end="4044" text="pulmonary metastases" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E136" start="4074" end="4083" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="4095" end="4116" text="surgical intervention" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="4151" end="4172" text="a right thyroidectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E137" start="4178" end="4226" text="sacrifice of the right recurrent laryngeal nerve" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="4313" end="4369" text="autotransplantation of the right upper parathyroid gland" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="439" end="447" text="weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="4383" end="4389" text="repair" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="4393" end="4433" text="a right posterior membranous tracheotomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="4456" end="4491" text="the Respiratory Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E51" start="452" end="459" text="fatigue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="4542" end="4550" text="Her rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="4574" end="4581" text="Digoxin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="4600" end="4611" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E130" start="4615" end="4624" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E131" start="4637" end="4645" text="the ward" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E27" start="4660" end="4677" text="a gentle diuresis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="4689" end="4708" text="Solu-Medrol therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="4711" end="4725" text="Calcium levels" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="475" end="483" text="reported" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E30" start="4794" end="4826" text="a slight hoarseness in her voice" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="484" end="510" text="a weight loss of 15 pounds" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="4872" end="4904" text="asymptomatic atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="4907" end="4922" text="Anticoagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="4969" end="4977" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="4988" end="5014" text="effectively anticoagulated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="5020" end="5024" text="a PT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E132" start="5097" end="5116" text="a Radiation Therapy" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E36" start="5129" end="5142" text="local control" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E133" start="5146" end="5168" text="her invasive carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E134" start="5187" end="5195" text="the ward" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E41" start="5204" end="5214" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="547" end="584" text="her upper respiratory tract infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="610" end="622" text="her weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="635" end="644" text="A work up" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="691" end="715" text="a white blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E58" start="757" end="765" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E59" start="769" end="803" text="Box Memorial Hospital Nursing Home" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E60" start="808" end="826" text="further evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E61" start="859" end="872" text="a chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="898" end="922" text="The liver function tests" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E63" start="923" end="929" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E64" start="930" end="953" text="an alkaline phosphatase" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="963" end="966" text="LDH" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E66" start="973" end="977" text="SGOT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E67" start="983" end="990" text="albumin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E68" start="997" end="1021" text="A peripheral blood smear" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T1" start="18" end="25" text="4/28/93" type="DATE" val="1993-04-28" mod="NA" />
+<TIMEX3 id="T3" start="222" end="229" text="4/28/93" type="DATE" val="1993-04-28" mod="NA" />
+<TIMEX3 id="T4" start="2519" end="2526" text="4/28/93" type="DATE" val="1993-04-28" mod="NA" />
+<TIMEX3 id="T5" start="2813" end="2820" text="4/29/93" type="DATE" val="1993-04-29" mod="NA" />
+<TIMEX3 id="T11" start="3008" end="3015" text="4/30/93" type="DATE" val="1993-04-30" mod="NA" />
+<TIMEX3 id="T0" start="344" end="359" text="January of 1993" type="DATE" val="1993-01" mod="NA" />
+<TIMEX3 id="T6" start="4087" end="4090" text="5/5" type="DATE" val="1993-05-05" mod="NA" />
+<TIMEX3 id="T7" start="4122" end="4128" text="5/6/93" type="DATE" val="1993-05-06" mod="NA" />
+<TIMEX3 id="T2" start="43" end="50" text="5/15/93" type="DATE" val="1993-05-15" mod="NA" />
+<TIMEX3 id="T8" start="4628" end="4631" text="5/7" type="DATE" val="1993-05-07" mod="NA" />
+<TIMEX3 id="T9" start="4936" end="4963" text="the third postoperative day" type="DATE" val="1993-05-09" mod="NA" />
+<TIMEX3 id="T12" start="5218" end="5245" text="her ninth postoperative day" type="DATE" val="1993-05-15" mod="NA" />
+<TIMEX3 id="T10" start="525" end="535" text="two months" type="DURATION" val="P2M" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T1" toText="4/28/93" type="OVERLAP" />
+<TLINK id="TL1" fromID="E32" fromText="Anticoagulation" toID="E34" toText="effectively anticoagulated" type="simultaneous" />
+<TLINK id="TL10" fromID="E48" fromText="a good state of health" toID="T0" toText="January of 1993" type="ENDED_BY" />
+<TLINK id="TL100" fromID="E136" fromText="consulted" toID="T6" toText="5/5" type="OVERLAP" />
+<TLINK id="TL101" fromID="E20" fromText="surgical intervention" toID="E136" toText="consulted" type="AFTER" />
+<TLINK id="TL102" fromID="E21" fromText="a right thyroidectomy" toID="T7" toText="5/6/93" type="OVERLAP" />
+<TLINK id="TL103" fromID="E21" fromText="a right thyroidectomy" toID="E137" toText="sacrifice of the right recurrent laryngeal nerve" type="SIMULTANEOUS" />
+<TLINK id="TL104" fromID="E22" fromText="autotransplantation of the right upper parathyroid gland" toID="E23" toText="repair" type="SIMULTANEOUS" />
+<TLINK id="TL105" fromID="E23" fromText="repair" toID="E24" toText="a right posterior membranous tracheotomy" type="SIMULTANEOUS" />
+<TLINK id="TL106" fromID="E39" fromText="the Respiratory Intensive Care Unit" toID="E22" toText="autotransplantation of the right upper parathyroid gland" type="AFTER" />
+<TLINK id="TL107" fromID="E25" fromText="Her rate" toID="E26" toText="Digoxin" type="OVERLAP" />
+<TLINK id="TL108" fromID="E40" fromText="transferred" toID="T8" toText="5/7" type="OVERLAP" />
+<TLINK id="TL109" fromID="E130" fromText="the floor" toID="E40" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL11" fromID="E49" fromText="a serious upper respiratory tract infection" toID="T0" toText="January of 1993" type="BEGUN_BY" />
+<TLINK id="TL110" fromID="E130" fromText="the floor" toID="E37" toText="DISCHARGE" type="ENDED_BY" />
+<TLINK id="TL111" fromID="E131" fromText="the ward" toID="E130" toText="the floor" type="SIMULTANEOUS" />
+<TLINK id="TL112" fromID="E27" fromText="a gentle diuresis" toID="E131" toText="the ward" type="BEFORE_OVERLAP" />
+<TLINK id="TL113" fromID="E28" fromText="Solu-Medrol therapy" toID="E131" toText="the ward" type="BEFORE_OVERLAP" />
+<TLINK id="TL114" fromID="E29" fromText="Calcium levels" toID="E131" toText="the ward" type="DURING" />
+<TLINK id="TL115" fromID="E30" fromText="a slight hoarseness in her voice" toID="E131" toText="the ward" type="DURING" />
+<TLINK id="TL116" fromID="E31" fromText="asymptomatic atrial fibrillation" toID="E131" toText="the ward" type="DURING" />
+<TLINK id="TL117" fromID="E32" fromText="Anticoagulation" toID="T9" toText="the third postoperative day" type="BEGUN_BY" />
+<TLINK id="TL118" fromID="E32" fromText="Anticoagulation" toID="E33" toText="Coumadin" type="SIMULTANEOUS" />
+<TLINK id="TL119" fromID="E34" fromText="effectively anticoagulated" toID="E32" toText="Anticoagulation" type="SIMULTANEOUS" />
+<TLINK id="TL12" fromID="E50" fromText="weakness" toID="E49" toText="a serious upper respiratory tract infection" type="OVERLAP" />
+<TLINK id="TL120" fromID="E34" fromText="effectively anticoagulated" toID="E35" toText="a PT" type="OVERLAP" />
+<TLINK id="TL121" fromID="E132" fromText="a Radiation Therapy" toID="E36" toText="local control" type="OVERLAP" />
+<TLINK id="TL122" fromID="E133" fromText="her invasive carcinoma" toID="E36" toText="local control" type="BEFORE_OVERLAP" />
+<TLINK id="TL123" fromID="E134" fromText="the ward" toID="E131" toText="the ward" type="SIMULTANEOUS" />
+<TLINK id="TL124" fromID="E132" fromText="a Radiation Therapy" toID="E134" toText="the ward" type="DURING" />
+<TLINK id="TL125" fromID="E41" fromText="discharged" toID="T12" toText="her ninth postoperative day" type="OVERLAP" />
+<TLINK id="TL126" fromID="E41" fromText="discharged" toID="E37" toText="DISCHARGE" type="SIMULTANEOUS" />
+<TLINK id="TL13" fromID="E51" fromText="fatigue" toID="E49" toText="a serious upper respiratory tract infection" type="OVERLAP" />
+<TLINK id="TL14" fromID="E53" fromText="a weight loss of 15 pounds" toID="T10" toText="two months" type="DURING" />
+<TLINK id="TL15" fromID="T10" fromText="two months" toID="E0" toText="ADMISSION" type="ENDED_BY" />
+<TLINK id="TL16" fromID="E54" fromText="her upper respiratory tract infection" toID="E49" toText="a serious upper respiratory tract infection" type="SIMULTANEOUS" />
+<TLINK id="TL17" fromID="E50" fromText="weakness" toID="E55" toText="her weakness" type="SIMULTANEOUS" />
+<TLINK id="TL18" fromID="E57" fromText="a white blood cell count" toID="E56" toText="A work up" type="BEFORE_OVERLAP" />
+<TLINK id="TL19" fromID="E53" fromText="a weight loss of 15 pounds" toID="E52" toText="reported" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="E37" fromText="DISCHARGE" toID="T2" toText="5/15/93" type="OVERLAP" />
+<TLINK id="TL20" fromID="E59" fromText="Box Memorial Hospital Nursing Home" toID="E58" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL21" fromID="E60" fromText="further evaluation" toID="E59" toText="Box Memorial Hospital Nursing Home" type="DURING" />
+<TLINK id="TL22" fromID="E61" fromText="a chest x-ray" toID="E59" toText="Box Memorial Hospital Nursing Home" type="DURING" />
+<TLINK id="TL23" fromID="E62" fromText="The liver function tests" toID="E63" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL24" fromID="E64" fromText="an alkaline phosphatase" toID="E63" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E63" fromText="showed" toID="E65" toText="LDH" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="E63" fromText="showed" toID="E66" toText="SGOT" type="SIMULTANEOUS" />
+<TLINK id="TL27" fromID="E63" fromText="showed" toID="E67" toText="albumin" type="SIMULTANEOUS" />
+<TLINK id="TL28" fromID="E68" fromText="A peripheral blood smear" toID="E69" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL29" fromID="E70" fromText="mature eosinophils" toID="E69" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL3" fromID="E43" fromText="presented" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E71" fromText="Chromosomal studies" toID="E68" toText="A peripheral blood smear" type="OVERLAP" />
+<TLINK id="TL31" fromID="E72" fromText="A bone scan" toID="E71" toText="Chromosomal studies" type="OVERLAP" />
+<TLINK id="TL32" fromID="E72" fromText="A bone scan" toID="E73" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL33" fromID="E74" fromText="increased uptake at the manubrium" toID="E73" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL34" fromID="E74" fromText="increased uptake at the manubrium" toID="E1" toText="an old fracture" type="SIMULTANEOUS" />
+<TLINK id="TL35" fromID="E75" fromText="A thyroid ultrasound" toID="E72" toText="A bone scan" type="OVERLAP" />
+<TLINK id="TL36" fromID="E75" fromText="A thyroid ultrasound" toID="E76" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL37" fromID="E76" fromText="showed" toID="E77" toText="an inferior thyroid mass" type="OVERLAP" />
+<TLINK id="TL38" fromID="E78" fromText="an abdominal CT" toID="E75" toText="A thyroid ultrasound" type="AFTER" />
+<TLINK id="TL39" fromID="E78" fromText="an abdominal CT" toID="E79" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL4" fromID="E44" fromText="the Fairm of Ijordcompmac Hospital" toID="E43" toText="presented" type="BEGUN_BY" />
+<TLINK id="TL40" fromID="E80" fromText="an enlarged spleen" toID="E79" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL41" fromID="E81" fromText="a lytic lesion on the right iliac bone" toID="E79" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL42" fromID="E82" fromText="a benign renal cyst" toID="E79" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL43" fromID="E83" fromText="Biopsy of the lytic lesion" toID="E84" toText="metastases papillary carcinoma of the thyroid" type="OVERLAP" />
+<TLINK id="TL44" fromID="E85" fromText="An upper gastrointestinal" toID="E83" toText="Biopsy of the lytic lesion" type="OVERLAP" />
+<TLINK id="TL45" fromID="E86" fromText="The small bowel follow through" toID="E85" toText="An upper gastrointestinal" type="OVERLAP" />
+<TLINK id="TL46" fromID="E87" fromText="A thyroid scan" toID="E88" toText="revealed" type="SIMULTANEOUS" />
+<TLINK id="TL47" fromID="E89" fromText="decreased function" toID="E88" toText="revealed" type="BEFORE_OVERLAP" />
+<TLINK id="TL48" fromID="E90" fromText="displacement of the thyroid" toID="E88" toText="revealed" type="BEFORE_OVERLAP" />
+<TLINK id="TL49" fromID="E91" fromText="a cold mass" toID="E90" toText="displacement of the thyroid" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E43" fromText="presented" toID="T3" toText="4/28/93" type="OVERLAP" />
+<TLINK id="TL50" fromID="E92" fromText="calcifications on the right side" toID="E91" toText="a cold mass" type="OVERLAP" />
+<TLINK id="TL51" fromID="E93" fromText="A chest CT" toID="E94" toText="revealed" type="SIMULTANEOUS" />
+<TLINK id="TL52" fromID="E95" fromText="a small pulmonary nodule" toID="E94" toText="revealed" type="BEFORE_OVERLAP" />
+<TLINK id="TL53" fromID="E95" fromText="a small pulmonary nodule" toID="E96" toText="a necrotic mass" type="SIMULTANEOUS" />
+<TLINK id="TL54" fromID="E95" fromText="a small pulmonary nodule" toID="E97" toText="the right lung posteriorly" type="OVERLAP" />
+<TLINK id="TL55" fromID="E98" fromText="referred" toID="E93" toText="A chest CT" type="AFTER" />
+<TLINK id="TL56" fromID="E99" fromText="the Fairm of Ijordcompmac Hospital" toID="E98" toText="referred" type="AFTER" />
+<TLINK id="TL57" fromID="E100" fromText="profound weakness" toID="E45" toText="progressive weakness" type="SIMULTANEOUS" />
+<TLINK id="TL58" fromID="E102" fromText="weight loss" toID="E46" toText="weight loss" type="SIMULTANEOUS" />
+<TLINK id="TL59" fromID="E101" fromText="a decreased appetite" toID="E102" toText="weight loss" type="OVERLAP" />
+<TLINK id="TL6" fromID="E42" fromText="metastatic papillary carcinoma of the thyroid" toID="T3" toText="4/28/93" type="BEFORE_OVERLAP" />
+<TLINK id="TL60" fromID="E103" fromText="lower extremity edema" toID="E104" toText="left upper extremity swelling" type="OVERLAP" />
+<TLINK id="TL61" fromID="E104" fromText="left upper extremity swelling" toID="E105" toText="increased shortness of breath" type="OVERLAP" />
+<TLINK id="TL62" fromID="E105" fromText="increased shortness of breath" toID="E47" toText="shortness of breath" type="SIMULTANEOUS" />
+<TLINK id="TL63" fromID="E106" fromText="A needle biopsy of the right thyroid nodule" toID="E107" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL64" fromID="E108" fromText="papillary thyroid carcinoma" toID="E107" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL65" fromID="E109" fromText="reports" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL66" fromID="E110" fromText="radiation exposure" toID="E109" toText="reports" type="BEFORE_OVERLAP" />
+<TLINK id="TL67" fromID="E111" fromText="thyroid carcinoma" toID="E109" toText="reports" type="SIMULTANEOUS" />
+<TLINK id="TL68" fromID="E112" fromText="recent travels" toID="E109" toText="reports" type="BEFORE_OVERLAP" />
+<TLINK id="TL69" fromID="E113" fromText="exposure to tuberculosis" toID="E109" toText="reports" type="BEFORE_OVERLAP" />
+<TLINK id="TL7" fromID="E45" fromText="progressive weakness" toID="T3" toText="4/28/93" type="BEFORE_OVERLAP" />
+<TLINK id="TL70" fromID="E38" fromText="admitted" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL71" fromID="E38" fromText="admitted" toID="T4" toText="4/28/93" type="OVERLAP" />
+<TLINK id="TL72" fromID="E114" fromText="papillary carcinoma of the thyroid" toID="T4" toText="4/28/93" type="BEFORE_OVERLAP" />
+<TLINK id="TL73" fromID="E114" fromText="papillary carcinoma of the thyroid" toID="E115" toText="bone involvement" type="OVERLAP" />
+<TLINK id="TL74" fromID="E116" fromText="lung involvement" toID="E114" toText="papillary carcinoma of the thyroid" type="OVERLAP" />
+<TLINK id="TL75" fromID="E117" fromText="myeloproliferative / myelodysplastic disorder" toID="E2" toText="Work up" type="BEFORE_OVERLAP" />
+<TLINK id="TL76" fromID="E118" fromText="the hyper-eosinophilic syndrome" toID="E117" toText="myeloproliferative / myelodysplastic disorder" type="OVERLAP" />
+<TLINK id="TL77" fromID="E119" fromText="an Oncology consult" toID="T5" toText="4/29/93" type="OVERLAP" />
+<TLINK id="TL78" fromID="E3" fromText="a bone marrow aspirate biopsy" toID="T5" toText="4/29/93" type="OVERLAP" />
+<TLINK id="TL79" fromID="E3" fromText="a bone marrow aspirate biopsy" toID="E120" toText="This revealed" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E46" fromText="weight loss" toID="T3" toText="4/28/93" type="BEFORE_OVERLAP" />
+<TLINK id="TL80" fromID="E135" fromText="maturation of leukocytes" toID="E120" toText="This revealed" type="BEFORE_OVERLAP" />
+<TLINK id="TL81" fromID="E4" fromText="markedly increased eosinophilic proliferation" toID="E120" toText="This revealed" type="BEFORE_OVERLAP" />
+<TLINK id="TL82" fromID="E5" fromText="A lung biopsy" toID="T11" toText="4/30/93" type="OVERLAP" />
+<TLINK id="TL83" fromID="E5" fromText="A lung biopsy" toID="E121" toText="definitive results" type="SIMULTANEOUS" />
+<TLINK id="TL84" fromID="E5" fromText="A lung biopsy" toID="E122" toText="the patient &apos;s coagulation status" type="OVERLAP" />
+<TLINK id="TL85" fromID="E122" fromText="the patient &apos;s coagulation status" toID="E6" toText="Vitamin K therapy" type="OVERLAP" />
+<TLINK id="TL86" fromID="E6" fromText="Vitamin K therapy" toID="E7" toText="PTs" type="OVERLAP" />
+<TLINK id="TL87" fromID="E123" fromText="ANCA" toID="E124" toText="ANA" type="OVERLAP" />
+<TLINK id="TL88" fromID="E8" fromText="edema of the left upper extremity" toID="E125" toText="a Vascular Radiology" type="BEFORE_OVERLAP" />
+<TLINK id="TL89" fromID="E125" fromText="a Vascular Radiology" toID="E126" toText="revealed" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="E47" fromText="shortness of breath" toID="T3" toText="4/28/93" type="BEFORE_OVERLAP" />
+<TLINK id="TL90" fromID="E9" fromText="a thrombosis of the left subclavian vein" toID="E126" toText="revealed" type="BEFORE_OVERLAP" />
+<TLINK id="TL91" fromID="E10" fromText="some thrombosis of the left internal jugular vein" toID="E126" toText="revealed" type="BEFORE_OVERLAP" />
+<TLINK id="TL92" fromID="E11" fromText="A head CT" toID="E127" toText="any metastatic process" type="SIMULTANEOUS" />
+<TLINK id="TL93" fromID="E12" fromText="a heparin sliding scale" toID="E11" toText="A head CT" type="AFTER" />
+<TLINK id="TL94" fromID="E13" fromText="the patient &apos;s eosinophilia" toID="E14" toText="a trial of prednisone" type="OVERLAP" />
+<TLINK id="TL95" fromID="E15" fromText="a mild urinary tract infection" toID="E16" toText="Bactrim" type="OVERLAP" />
+<TLINK id="TL96" fromID="E16" fromText="Bactrim" toID="E17" toText="diarrhea" type="ENDED_BY" />
+<TLINK id="TL97" fromID="E128" fromText="the thyroid cytologist" toID="E129" toText="the bone pathologist" type="OVERLAP" />
+<TLINK id="TL98" fromID="E18" fromText="papillary thyroid carcinoma" toID="E129" toText="the bone pathologist" type="BEFORE_OVERLAP" />
+<TLINK id="TL99" fromID="E18" fromText="papillary thyroid carcinoma" toID="E19" toText="pulmonary metastases" type="OVERLAP" />
+
+
+<TLINK id="Sectime0" fromID="E69" fromText="showed" toID="T1" toText="4/28/93" type="OVERLAP" />
+<TLINK id="Sectime1" fromID="E70" fromText="mature eosinophils" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E71" fromText="Chromosomal studies" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E72" fromText="A bone scan" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E73" fromText="showed" toID="T1" toText="4/28/93" type="OVERLAP" />
+<TLINK id="Sectime5" fromID="E74" fromText="increased uptake at the manubrium" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E1" fromText="an old fracture" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E42" fromText="metastatic papillary carcinoma of the thyroid" toID="T1" toText="4/28/93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime8" fromID="E75" fromText="A thyroid ultrasound" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E76" fromText="showed" toID="T1" toText="4/28/93" type="OVERLAP" />
+<TLINK id="Sectime10" fromID="E77" fromText="an inferior thyroid mass" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E78" fromText="an abdominal CT" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E79" fromText="showed" toID="T1" toText="4/28/93" type="OVERLAP" />
+<TLINK id="Sectime13" fromID="E80" fromText="an enlarged spleen" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E81" fromText="a lytic lesion on the right iliac bone" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E82" fromText="a benign renal cyst" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E83" fromText="Biopsy of the lytic lesion" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E84" fromText="metastases papillary carcinoma of the thyroid" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E85" fromText="An upper gastrointestinal" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E86" fromText="The small bowel follow through" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E87" fromText="A thyroid scan" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E88" fromText="revealed" toID="T1" toText="4/28/93" type="OVERLAP" />
+<TLINK id="Sectime22" fromID="E89" fromText="decreased function" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E90" fromText="displacement of the thyroid" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E91" fromText="a cold mass" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E43" fromText="presented" toID="T1" toText="4/28/93" type="OVERLAP" />
+<TLINK id="Sectime26" fromID="E92" fromText="calcifications on the right side" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E93" fromText="A chest CT" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E94" fromText="revealed" toID="T1" toText="4/28/93" type="OVERLAP" />
+<TLINK id="Sectime29" fromID="E95" fromText="a small pulmonary nodule" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E96" fromText="a necrotic mass" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime31" fromID="E97" fromText="the right lung posteriorly" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime32" fromID="E44" fromText="the Fairm of Ijordcompmac Hospital" toID="T1" toText="4/28/93" type="OVERLAP" />
+<TLINK id="Sectime33" fromID="E98" fromText="referred" toID="T1" toText="4/28/93" type="OVERLAP" />
+<TLINK id="Sectime34" fromID="E99" fromText="the Fairm of Ijordcompmac Hospital" toID="T1" toText="4/28/93" type="OVERLAP" />
+<TLINK id="Sectime35" fromID="E100" fromText="profound weakness" toID="T1" toText="4/28/93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime36" fromID="E101" fromText="a decreased appetite" toID="T1" toText="4/28/93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime37" fromID="E102" fromText="weight loss" toID="T1" toText="4/28/93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime38" fromID="E103" fromText="lower extremity edema" toID="T1" toText="4/28/93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime39" fromID="E104" fromText="left upper extremity swelling" toID="T1" toText="4/28/93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime40" fromID="E105" fromText="increased shortness of breath" toID="T1" toText="4/28/93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime41" fromID="E106" fromText="A needle biopsy of the right thyroid nodule" toID="T1" toText="4/28/93" type="OVERLAP" />
+<TLINK id="Sectime42" fromID="E107" fromText="showed" toID="T1" toText="4/28/93" type="OVERLAP" />
+<TLINK id="Sectime43" fromID="E108" fromText="papillary thyroid carcinoma" toID="T1" toText="4/28/93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime44" fromID="E109" fromText="reports" toID="T1" toText="4/28/93" type="OVERLAP" />
+<TLINK id="Sectime45" fromID="E110" fromText="radiation exposure" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime46" fromID="E45" fromText="progressive weakness" toID="T1" toText="4/28/93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime47" fromID="E111" fromText="thyroid carcinoma" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime48" fromID="E112" fromText="recent travels" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime49" fromID="E113" fromText="exposure to tuberculosis" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E38" fromText="admitted" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E114" fromText="papillary carcinoma of the thyroid" toID="T2" toText="5/15/93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime50" fromID="E46" fromText="weight loss" toID="T1" toText="4/28/93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime2" fromID="E115" fromText="bone involvement" toID="T2" toText="5/15/93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime3" fromID="E116" fromText="lung involvement" toID="T2" toText="5/15/93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime4" fromID="E2" fromText="Work up" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E117" fromText="myeloproliferative / myelodysplastic disorder" toID="T2" toText="5/15/93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime51" fromID="E47" fromText="shortness of breath" toID="T1" toText="4/28/93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime6" fromID="E118" fromText="the hyper-eosinophilic syndrome" toID="T2" toText="5/15/93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime7" fromID="E119" fromText="an Oncology consult" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E3" fromText="a bone marrow aspirate biopsy" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E120" fromText="This revealed" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E135" fromText="maturation of leukocytes" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E4" fromText="markedly increased eosinophilic proliferation" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E5" fromText="A lung biopsy" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E121" fromText="definitive results" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E122" fromText="the patient &apos;s coagulation status" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E6" fromText="Vitamin K therapy" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E7" fromText="PTs" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E123" fromText="ANCA" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime52" fromID="E48" fromText="a good state of health" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E124" fromText="ANA" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E8" fromText="edema of the left upper extremity" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E125" fromText="a Vascular Radiology" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E126" fromText="revealed" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E9" fromText="a thrombosis of the left subclavian vein" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E10" fromText="some thrombosis of the left internal jugular vein" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E11" fromText="A head CT" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E127" fromText="any metastatic process" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E12" fromText="a heparin sliding scale" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E13" fromText="the patient &apos;s eosinophilia" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E14" fromText="a trial of prednisone" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E15" fromText="a mild urinary tract infection" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime53" fromID="E49" fromText="a serious upper respiratory tract infection" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E16" fromText="Bactrim" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime31" fromID="E17" fromText="diarrhea" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime32" fromID="E128" fromText="the thyroid cytologist" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime33" fromID="E129" fromText="the bone pathologist" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime34" fromID="E18" fromText="papillary thyroid carcinoma" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime35" fromID="E19" fromText="pulmonary metastases" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime36" fromID="E136" fromText="consulted" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime37" fromID="E20" fromText="surgical intervention" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime38" fromID="E21" fromText="a right thyroidectomy" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime39" fromID="E137" fromText="sacrifice of the right recurrent laryngeal nerve" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime40" fromID="E22" fromText="autotransplantation of the right upper parathyroid gland" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime54" fromID="E50" fromText="weakness" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime41" fromID="E23" fromText="repair" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime42" fromID="E24" fromText="a right posterior membranous tracheotomy" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime43" fromID="E39" fromText="the Respiratory Intensive Care Unit" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime55" fromID="E51" fromText="fatigue" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime44" fromID="E25" fromText="Her rate" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime45" fromID="E26" fromText="Digoxin" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime46" fromID="E40" fromText="transferred" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime47" fromID="E130" fromText="the floor" toID="T2" toText="5/15/93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime48" fromID="E131" fromText="the ward" toID="T2" toText="5/15/93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime49" fromID="E27" fromText="a gentle diuresis" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime50" fromID="E28" fromText="Solu-Medrol therapy" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime51" fromID="E29" fromText="Calcium levels" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime56" fromID="E52" fromText="reported" toID="T1" toText="4/28/93" type="OVERLAP" />
+<TLINK id="Sectime52" fromID="E30" fromText="a slight hoarseness in her voice" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime57" fromID="E53" fromText="a weight loss of 15 pounds" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime53" fromID="E31" fromText="asymptomatic atrial fibrillation" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime54" fromID="E32" fromText="Anticoagulation" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime55" fromID="E33" fromText="Coumadin" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime56" fromID="E34" fromText="effectively anticoagulated" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime57" fromID="E35" fromText="a PT" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime58" fromID="E132" fromText="a Radiation Therapy" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime59" fromID="E36" fromText="local control" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime60" fromID="E133" fromText="her invasive carcinoma" toID="T2" toText="5/15/93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime61" fromID="E134" fromText="the ward" toID="T2" toText="5/15/93" type="BEFORE" />
+<TLINK id="Sectime62" fromID="E41" fromText="discharged" toID="T2" toText="5/15/93" type="OVERLAP" />
+<TLINK id="Sectime58" fromID="E54" fromText="her upper respiratory tract infection" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime59" fromID="E55" fromText="her weakness" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime60" fromID="E56" fromText="A work up" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime61" fromID="E57" fromText="a white blood cell count" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime62" fromID="E58" fromText="admitted" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime63" fromID="E59" fromText="Box Memorial Hospital Nursing Home" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime64" fromID="E60" fromText="further evaluation" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime65" fromID="E61" fromText="a chest x-ray" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime66" fromID="E62" fromText="The liver function tests" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime67" fromID="E63" fromText="showed" toID="T1" toText="4/28/93" type="OVERLAP" />
+<TLINK id="Sectime68" fromID="E64" fromText="an alkaline phosphatase" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime69" fromID="E65" fromText="LDH" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime70" fromID="E66" fromText="SGOT" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime71" fromID="E67" fromText="albumin" toID="T1" toText="4/28/93" type="BEFORE" />
+<TLINK id="Sectime72" fromID="E68" fromText="A peripheral blood smear" toID="T1" toText="4/28/93" type="BEFORE" />
+
+
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

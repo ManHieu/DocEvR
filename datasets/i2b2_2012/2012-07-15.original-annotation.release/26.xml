@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+12/11/2005
+Discharge Date :
+12/13/2005
+Service :
+ORT
+HPI :
+Hibbskote has severe low back pain radiating down the right leg .
+She has been suffering from this problem for the last few weeks .
+A week and half ago , she had a steroid injection in an efforts to ameliorate the pain .
+She presents now with worsening low back pain radiating down the right leg .
+She denies numbness or weakness in any part of the body .
+She denies fever .
+She denies nausea , vomiting , and diarrhea .
+She denies chest pain .
+She says the pain is sharp in character , and radiates with a shock like intensity down the right leg .
+She says that oral analgesics have been of little help .
+On detailed review of systems , she admitted to one episode of urinary incontinence .
+She denied any changes in bowel habits .
+HOSPITAL COURSE :
+Patient was evaluated by the orthopedic service .
+An MRI of the spine showed L4/5 facet enhancement .
+It was evaluated by the IR radiology .
+Thad lesion was read as a facet hypertrophy and not an infectious process .
+Patient remained afebrile .
+ESR was within normal limits and CPR was mildly elevated .
+An AP of pelvis and R hip films were unremarkable .
+Physical examination of the RLE showed mild pain in right hip with some movements .
+When patient was distracted , some maneuvers were not painful .
+Patient remained cardiovascularly stable .
+Patient was weaned from supplemental oxygen and tolerated a regular diet prior to discharge .
+The patient received pneumoboots and lovenox for DVT prophylaxis . .
+Patient was instructed by PT on the correct way to ambulate , weight bearing as tolerated in the RLE . .
+Patient was able to void and ambulated without assistance as directed by P.T.
+The team decided that the patient was ready for discharge .
+Patient should follow up with her pain doctor , Dr. Maa Bloch 381-389-5852 , for her chronic pain management
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="1021" end="1042" text="an infectious process" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E15" start="1062" end="1070" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="1073" end="1076" text="ESR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E61" start="1088" end="1101" text="normal limits" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="1106" end="1109" text="CPR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="1114" end="1129" text="mildly elevated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="112" end="140" text="radiating down the right leg" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1132" end="1147" text="An AP of pelvis" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="1152" end="1163" text="R hip films" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="1169" end="1181" text="unremarkable" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E21" start="1184" end="1215" text="Physical examination of the RLE" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="1216" end="1222" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E63" start="1223" end="1245" text="mild pain in right hip" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="1256" end="1265" text="movements" modality="HYPOTHETICAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1285" end="1295" text="distracted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="1303" end="1312" text="maneuvers" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E66" start="1322" end="1329" text="painful" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E67" start="1349" end="1372" text="cardiovascularly stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="1399" end="1418" text="supplemental oxygen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E68" start="1423" end="1447" text="tolerated a regular diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="1457" end="1466" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="1490" end="1501" text="pneumoboots" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="1506" end="1513" text="lovenox" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="1518" end="1533" text="DVT prophylaxis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="1550" end="1566" text="instructed by PT" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="1570" end="1597" text="the correct way to ambulate" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="1600" end="1614" text="weight bearing" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="1618" end="1627" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E72" start="1631" end="1638" text="the RLE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1663" end="1667" text="void" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1672" end="1681" text="ambulated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="1690" end="1700" text="assistance" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E42" start="171" end="183" text="this problem" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1730" end="1737" text="decided" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1769" end="1778" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="1796" end="1805" text="follow up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E75" start="1862" end="1889" text="her chronic pain management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="239" end="258" text="a steroid injection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="287" end="295" text="the pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="302" end="310" text="presents" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="320" end="343" text="worsening low back pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="344" end="372" text="radiating down the right leg" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="379" end="385" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E2" start="386" end="394" text="numbness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E3" start="398" end="406" text="weakness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E27" start="437" end="443" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E4" start="444" end="449" text="fever" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E28" start="456" end="462" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E5" start="463" end="469" text="nausea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E6" start="472" end="480" text="vomiting" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E7" start="487" end="495" text="diarrhea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E29" start="502" end="508" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E8" start="509" end="519" text="chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E47" start="531" end="539" text="the pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="543" end="548" text="sharp" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="568" end="576" text="radiates" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="582" end="623" text="a shock like intensity down the right leg" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="640" end="655" text="oral analgesics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="669" end="680" text="little help" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="686" end="712" text="detailed review of systems" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E54" start="719" end="727" text="admitted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E10" start="746" end="766" text="urinary incontinence" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="773" end="779" text="denied" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E11" start="780" end="807" text="any changes in bowel habits" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E56" start="840" end="849" text="evaluated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E12" start="878" end="897" text="An MRI of the spine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="898" end="904" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E40" start="91" end="111" text="severe low back pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="905" end="927" text="L4/5 facet enhancement" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="937" end="946" text="evaluated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E58" start="969" end="980" text="Thad lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="985" end="989" text="read" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E60" start="993" end="1012" text="a facet hypertrophy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T0" start="18" end="28" text="12/11/2005" type="DATE" val="2005-12-11" mod="NA" />
+<TIMEX3 id="T2" start="197" end="206" text="few weeks" type="DURATION" val="P3W" mod="APPROX" />
+<TIMEX3 id="T3" start="209" end="228" text="A week and half ago" type="DURATION" val="p1.5w" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="12/13/2005" type="DATE" val="2005-12-13" mod="NA" />
+<TLINK id="TL0" fromID="T0" fromText="12/11/2005" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="T1" fromText="12/13/2005" toID="E39" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E44" fromText="presents" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL11" fromID="E45" fromText="worsening low back pain" toID="E44" toText="presents" type="BEFORE_OVERLAP" />
+<TLINK id="TL12" fromID="E45" fromText="worsening low back pain" toID="E46" toText="radiating down the right leg" type="OVERLAP" />
+<TLINK id="TL13" fromID="E46" fromText="radiating down the right leg" toID="E41" toText="radiating down the right leg" type="SIMULTANEOUS" />
+<TLINK id="TL14" fromID="E2" fromText="numbness" toID="E44" toText="presents" type="BEFORE_OVERLAP" />
+<TLINK id="TL15" fromID="E44" fromText="presents" toID="E2" toText="numbness" type="OVERLAP" />
+<TLINK id="TL16" fromID="E2" fromText="numbness" toID="E3" toText="weakness" type="OVERLAP" />
+<TLINK id="TL17" fromID="E2" fromText="numbness" toID="E27" toText="denies" type="OVERLAP" />
+<TLINK id="TL18" fromID="E27" fromText="denies" toID="E28" toText="denies" type="OVERLAP" />
+<TLINK id="TL19" fromID="E28" fromText="denies" toID="E29" toText="denies" type="OVERLAP" />
+<TLINK id="TL2" fromID="E40" fromText="severe low back pain" toID="E42" toText="this problem" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E4" fromText="fever" toID="E27" toText="denies" type="BEFORE_OVERLAP" />
+<TLINK id="TL21" fromID="E5" fromText="nausea" toID="E28" toText="denies" type="BEFORE_OVERLAP" />
+<TLINK id="TL22" fromID="E5" fromText="nausea" toID="E6" toText="vomiting" type="OVERLAP" />
+<TLINK id="TL23" fromID="E6" fromText="vomiting" toID="E7" toText="diarrhea" type="OVERLAP" />
+<TLINK id="TL24" fromID="E8" fromText="chest pain" toID="E29" toText="denies" type="BEFORE_OVERLAP" />
+<TLINK id="TL25" fromID="E47" fromText="the pain" toID="E40" toText="severe low back pain" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="E47" fromText="the pain" toID="E48" toText="sharp" type="SIMULTANEOUS" />
+<TLINK id="TL27" fromID="E47" fromText="the pain" toID="E49" toText="radiates" type="OVERLAP" />
+<TLINK id="TL28" fromID="E49" fromText="radiates" toID="E50" toText="a shock like intensity down the right leg" type="SIMULTANEOUS" />
+<TLINK id="TL29" fromID="E47" fromText="the pain" toID="E9" toText="oral analgesics" type="BEFORE_OVERLAP" />
+<TLINK id="TL3" fromID="E40" fromText="severe low back pain" toID="E41" toText="radiating down the right leg" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E9" fromText="oral analgesics" toID="E52" toText="little help" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E53" fromText="detailed review of systems" toID="E54" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL32" fromID="E10" fromText="urinary incontinence" toID="E54" toText="admitted" type="BEFORE" />
+<TLINK id="TL33" fromID="E54" fromText="admitted" toID="E11" toText="any changes in bowel habits" type="OVERLAP" />
+<TLINK id="TL34" fromID="E11" fromText="any changes in bowel habits" toID="E55" toText="denied" type="BEFORE_OVERLAP" />
+<TLINK id="TL36" fromID="E56" fromText="evaluated" toID="E53" toText="detailed review of systems" type="AFTER" />
+<TLINK id="TL37" fromID="E56" fromText="evaluated" toID="E12" toText="An MRI of the spine" type="OVERLAP" />
+<TLINK id="TL38" fromID="E12" fromText="An MRI of the spine" toID="E30" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL39" fromID="E13" fromText="L4/5 facet enhancement" toID="E30" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL4" fromID="E42" fromText="this problem" toID="T2" toText="few weeks" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E57" fromText="evaluated" toID="E12" toText="An MRI of the spine" type="AFTER" />
+<TLINK id="TL41" fromID="E59" fromText="read" toID="E58" toText="Thad lesion" type="AFTER" />
+<TLINK id="TL42" fromID="E60" fromText="a facet hypertrophy" toID="E59" toText="read" type="BEFORE_OVERLAP" />
+<TLINK id="TL43" fromID="E14" fromText="an infectious process" toID="E60" toText="a facet hypertrophy" type="SIMULTANEOUS" />
+<TLINK id="TL44" fromID="E56" fromText="evaluated" toID="E15" toText="afebrile" type="OVERLAP" />
+<TLINK id="TL45" fromID="E15" fromText="afebrile" toID="E16" toText="ESR" type="OVERLAP" />
+<TLINK id="TL46" fromID="E16" fromText="ESR" toID="E61" toText="normal limits" type="OVERLAP" />
+<TLINK id="TL47" fromID="E17" fromText="CPR" toID="E18" toText="mildly elevated" type="OVERLAP" />
+<TLINK id="TL48" fromID="E19" fromText="An AP of pelvis" toID="E20" toText="R hip films" type="OVERLAP" />
+<TLINK id="TL49" fromID="E20" fromText="R hip films" toID="E62" toText="unremarkable" type="OVERLAP" />
+<TLINK id="TL5" fromID="T2" fromText="few weeks" toID="E0" toText="Admission" type="ENDED_BY" />
+<TLINK id="TL50" fromID="E21" fromText="Physical examination of the RLE" toID="E31" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL51" fromID="E63" fromText="mild pain in right hip" toID="E31" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL52" fromID="E63" fromText="mild pain in right hip" toID="E64" toText="movements" type="SIMULTANEOUS" />
+<TLINK id="TL53" fromID="E21" fromText="Physical examination of the RLE" toID="E32" toText="distracted" type="OVERLAP" />
+<TLINK id="TL54" fromID="E32" fromText="distracted" toID="E65" toText="maneuvers" type="SIMULTANEOUS" />
+<TLINK id="TL55" fromID="E65" fromText="maneuvers" toID="E66" toText="painful" type="SIMULTANEOUS" />
+<TLINK id="TL56" fromID="E68" fromText="tolerated a regular diet" toID="E22" toText="supplemental oxygen" type="AFTER" />
+<TLINK id="TL57" fromID="E33" fromText="discharge" toID="E68" toText="tolerated a regular diet" type="AFTER" />
+<TLINK id="TL58" fromID="E23" fromText="pneumoboots" toID="E24" toText="lovenox" type="OVERLAP" />
+<TLINK id="TL59" fromID="E24" fromText="lovenox" toID="E25" toText="DVT prophylaxis" type="SIMULTANEOUS" />
+<TLINK id="TL6" fromID="T3" fromText="A week and half ago" toID="E0" toText="Admission" type="ENDED_BY" />
+<TLINK id="TL60" fromID="E67" fromText="cardiovascularly stable" toID="E22" toText="supplemental oxygen" type="OVERLAP" />
+<TLINK id="TL61" fromID="E70" fromText="the correct way to ambulate" toID="E69" toText="instructed by PT" type="OVERLAP" />
+<TLINK id="TL62" fromID="E70" fromText="the correct way to ambulate" toID="E71" toText="weight bearing" type="OVERLAP" />
+<TLINK id="TL63" fromID="E71" fromText="weight bearing" toID="E34" toText="tolerated" type="SIMULTANEOUS" />
+<TLINK id="TL64" fromID="E71" fromText="weight bearing" toID="E72" toText="the RLE" type="SIMULTANEOUS" />
+<TLINK id="TL65" fromID="E35" fromText="void" toID="E36" toText="ambulated" type="OVERLAP" />
+<TLINK id="TL66" fromID="E36" fromText="ambulated" toID="E73" toText="assistance" type="OVERLAP" />
+<TLINK id="TL67" fromID="E37" fromText="discharge" toID="E38" toText="decided" type="AFTER" />
+<TLINK id="TL68" fromID="E74" fromText="follow up" toID="E37" toText="discharge" type="AFTER" />
+<TLINK id="TL69" fromID="E37" fromText="discharge" toID="E39" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL7" fromID="E1" fromText="a steroid injection" toID="T3" toText="A week and half ago" type="SIMULTANEOUS" />
+<TLINK id="TL70" fromID="E75" fromText="her chronic pain management" toID="E74" toText="follow up" type="OVERLAP" />
+<TLINK id="TL8" fromID="E43" fromText="the pain" toID="E1" toText="a steroid injection" type="BEFORE_OVERLAP" />
+<TLINK id="TL9" fromID="E43" fromText="the pain" toID="E40" toText="severe low back pain" type="SIMULTANEOUS" />
+<TLINK id="Sectime0" fromID="E14" fromText="an infectious process" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E15" fromText="afebrile" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E16" fromText="ESR" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E61" fromText="normal limits" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E17" fromText="CPR" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E18" fromText="mildly elevated" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E41" fromText="radiating down the right leg" toID="T0" toText="12/11/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime6" fromID="E19" fromText="An AP of pelvis" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E20" fromText="R hip films" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E62" fromText="unremarkable" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E21" fromText="Physical examination of the RLE" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E31" fromText="showed" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E63" fromText="mild pain in right hip" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E64" fromText="movements" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E32" fromText="distracted" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E65" fromText="maneuvers" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E66" fromText="painful" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E67" fromText="cardiovascularly stable" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E22" fromText="supplemental oxygen" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E68" fromText="tolerated a regular diet" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E33" fromText="discharge" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E23" fromText="pneumoboots" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E24" fromText="lovenox" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E25" fromText="DVT prophylaxis" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E69" fromText="instructed by PT" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E70" fromText="the correct way to ambulate" toID="T1" toText="12/13/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime25" fromID="E71" fromText="weight bearing" toID="T1" toText="12/13/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime26" fromID="E34" fromText="tolerated" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E72" fromText="the RLE" toID="T1" toText="12/13/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime28" fromID="E35" fromText="void" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E36" fromText="ambulated" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E73" fromText="assistance" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E42" fromText="this problem" toID="T0" toText="12/11/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime31" fromID="E38" fromText="decided" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime32" fromID="E37" fromText="discharge" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime33" fromID="E74" fromText="follow up" toID="T1" toText="12/13/2005" type="AFTER" />
+<TLINK id="Sectime34" fromID="E75" fromText="her chronic pain management" toID="T1" toText="12/13/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime2" fromID="E1" fromText="a steroid injection" toID="T0" toText="12/11/2005" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E43" fromText="the pain" toID="T0" toText="12/11/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime4" fromID="E44" fromText="presents" toID="T0" toText="12/11/2005" type="OVERLAP" />
+<TLINK id="Sectime5" fromID="E45" fromText="worsening low back pain" toID="T0" toText="12/11/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime6" fromID="E46" fromText="radiating down the right leg" toID="T0" toText="12/11/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime7" fromID="E26" fromText="denies" toID="T0" toText="12/11/2005" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E2" fromText="numbness" toID="T0" toText="12/11/2005" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E3" fromText="weakness" toID="T0" toText="12/11/2005" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E27" fromText="denies" toID="T0" toText="12/11/2005" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E4" fromText="fever" toID="T0" toText="12/11/2005" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E28" fromText="denies" toID="T0" toText="12/11/2005" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E5" fromText="nausea" toID="T0" toText="12/11/2005" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E6" fromText="vomiting" toID="T0" toText="12/11/2005" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E7" fromText="diarrhea" toID="T0" toText="12/11/2005" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E29" fromText="denies" toID="T0" toText="12/11/2005" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E8" fromText="chest pain" toID="T0" toText="12/11/2005" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E47" fromText="the pain" toID="T0" toText="12/11/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime19" fromID="E48" fromText="sharp" toID="T0" toText="12/11/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime20" fromID="E49" fromText="radiates" toID="T0" toText="12/11/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime21" fromID="E50" fromText="a shock like intensity down the right leg" toID="T0" toText="12/11/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime22" fromID="E9" fromText="oral analgesics" toID="T0" toText="12/11/2005" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E52" fromText="little help" toID="T0" toText="12/11/2005" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E53" fromText="detailed review of systems" toID="T0" toText="12/11/2005" type="AFTER" />
+<TLINK id="Sectime25" fromID="E54" fromText="admitted" toID="T0" toText="12/11/2005" type="AFTER" />
+<TLINK id="Sectime26" fromID="E10" fromText="urinary incontinence" toID="T0" toText="12/11/2005" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E55" fromText="denied" toID="T0" toText="12/11/2005" type="AFTER" />
+<TLINK id="Sectime28" fromID="E11" fromText="any changes in bowel habits" toID="T0" toText="12/11/2005" type="BEFORE" />
+<TLINK id="Sectime35" fromID="E56" fromText="evaluated" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime36" fromID="E12" fromText="An MRI of the spine" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime37" fromID="E30" fromText="showed" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E40" fromText="severe low back pain" toID="T0" toText="12/11/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime38" fromID="E13" fromText="L4/5 facet enhancement" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime39" fromID="E57" fromText="evaluated" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime40" fromID="E58" fromText="Thad lesion" toID="T1" toText="12/13/2005" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime41" fromID="E59" fromText="read" toID="T1" toText="12/13/2005" type="BEFORE" />
+<TLINK id="Sectime42" fromID="E60" fromText="a facet hypertrophy" toID="T1" toText="12/13/2005" type="BEFORE_OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="12/11/2005" type="ADMISSION" dvalue="2005-12-11" />
+<SECTIME id="S1" start="46" end="56" text="12/13/2005" type="DISCHARGE" dvalue="2005-12-13" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

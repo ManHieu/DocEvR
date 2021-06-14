@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+02/21/1991
+Discharge Date :
+02/26/1991
+HISTORY OF PRESENT ILLNESS :
+The patient was a 63 year old female with long-standing history of polycythemia vera , managed medically , who on a routine follow-up examination complained of left side pain and had an ultrasound that demonstrated a complex left renal mass .
+A computerized tomography scan demonstrated a contrast enhancing complex left renal mass .
+Metastatic work-up was negative .
+The patient presented for nephrectomy .
+HOSPITAL COURSE :
+The patient was taken to the operating room by Dr. Suot N. Dragtente on 02-21-91 , where a left radical nephrectomy was performed .
+At operation , there was no gross adenopathy or renal vein involvement , and it was felt that the tumor was completely excised .
+The patient thereafter had a benign convalescence , and was discharged on the 5th postoperative day .
+The oncology fellows from Venbonlea Health followed her course and recommended holding off on her Hydrea while she is hospitalized , and they will follow her as an outpatient and restart her Hydrea when her hematocrit is over 40% .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="1022" end="1028" text="follow" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1036" end="1049" text="an outpatient" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1062" end="1072" text="her Hydrea" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="1078" end="1104" text="her hematocrit is over 40%" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="153" end="170" text="polycythemia vera" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="200" end="231" text="a routine follow-up examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="232" end="242" text="complained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E5" start="246" end="260" text="left side pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="269" end="282" text="an ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="288" end="300" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="301" end="326" text="a complex left renal mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="329" end="359" text="A computerized tomography scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E10" start="360" end="372" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E14" start="373" end="393" text="a contrast enhancing" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="394" end="417" text="complex left renal mass" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="394" end="417" text="complex left renal mass" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="394" end="417" text="complex left renal mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="420" end="438" text="Metastatic work-up" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="466" end="475" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E17" start="480" end="491" text="nephrectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="537" end="555" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E19" start="601" end="627" text="a left radical nephrectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="647" end="656" text="operation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="672" end="688" text="gross adenopathy" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E22" start="692" end="714" text="renal vein involvement" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E23" start="738" end="747" text="the tumor" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="763" end="770" text="excised" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="800" end="822" text="a benign convalescence" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="833" end="843" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="875" end="895" text="The oncology fellows" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="901" end="917" text="Venbonlea Health" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E29" start="918" end="926" text="followed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="927" end="937" text="her course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="954" end="961" text="holding" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="969" end="979" text="her Hydrea" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="993" end="1005" text="hospitalized" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T0" start="18" end="28" text="02/21/1991" type="DATE" val="1991-02-21" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="02/26/1991" type="DATE" val="1991-02-26" mod="NA" />
+<TIMEX3 id="T2" start="584" end="592" text="02-21-91" type="DATE" val="1991-02-21" mod="NA" />
+<TIMEX3 id="T3" start="847" end="872" text="the 5th postoperative day" type="DATE" val="1991-02-26" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="02/21/1991" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E1" fromText="Discharge" toID="T1" toText="02/26/1991" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E8" fromText="a complex left renal mass" toID="E11" toText="complex left renal mass" type="SIMULTANEOUS" />
+<TLINK id="TL11" fromID="E11" fromText="complex left renal mass" toID="E9" toText="A computerized tomography scan" type="BEFORE_OVERLAP" />
+<TLINK id="TL12" fromID="E15" fromText="Metastatic work-up" toID="E9" toText="A computerized tomography scan" type="OVERLAP" />
+<TLINK id="TL13" fromID="E10" fromText="demonstrated" toID="E9" toText="A computerized tomography scan" type="DURING" />
+<TLINK id="TL14" fromID="E17" fromText="nephrectomy" toID="E16" toText="presented" type="AFTER" />
+<TLINK id="TL15" fromID="E19" fromText="a left radical nephrectomy" toID="E18" toText="the operating room" type="SIMULTANEOUS" />
+<TLINK id="TL16" fromID="E20" fromText="operation" toID="E18" toText="the operating room" type="SIMULTANEOUS" />
+<TLINK id="TL17" fromID="T2" fromText="02-21-91" toID="E19" toText="a left radical nephrectomy" type="SIMULTANEOUS" />
+<TLINK id="TL18" fromID="E19" fromText="a left radical nephrectomy" toID="E20" toText="operation" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E23" fromText="the tumor" toID="E20" toText="operation" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="E16" fromText="presented" toID="T0" toText="02/21/1991" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E24" fromText="excised" toID="E20" toText="operation" type="OVERLAP" />
+<TLINK id="TL22" fromID="E21" fromText="gross adenopathy" toID="E20" toText="operation" type="BEFORE_OVERLAP" />
+<TLINK id="TL23" fromID="E22" fromText="renal vein involvement" toID="E21" toText="gross adenopathy" type="OVERLAP" />
+<TLINK id="TL24" fromID="E22" fromText="renal vein involvement" toID="E23" toText="the tumor" type="OVERLAP" />
+<TLINK id="TL25" fromID="E23" fromText="the tumor" toID="E24" toText="excised" type="ENDED_BY" />
+<TLINK id="TL26" fromID="E25" fromText="a benign convalescence" toID="E26" toText="discharged" type="BEFORE" />
+<TLINK id="TL27" fromID="E20" fromText="operation" toID="E25" toText="a benign convalescence" type="BEFORE" />
+<TLINK id="TL28" fromID="E26" fromText="discharged" toID="T3" toText="the 5th postoperative day" type="SIMULTANEOUS" />
+<TLINK id="TL29" fromID="E27" fromText="The oncology fellows" toID="E28" toText="Venbonlea Health" type="SIMULTANEOUS" />
+<TLINK id="TL3" fromID="T0" fromText="02/21/1991" toID="E2" toText="polycythemia vera" type="BEFORE_OVERLAP" />
+<TLINK id="TL31" fromID="E27" fromText="The oncology fellows" toID="E29" toText="followed" type="OVERLAP" />
+<TLINK id="TL32" fromID="E29" fromText="followed" toID="E30" toText="her course" type="SIMULTANEOUS" />
+<TLINK id="TL33" fromID="E32" fromText="her Hydrea" toID="E31" toText="holding" type="ENDED_BY" />
+<TLINK id="TL34" fromID="E31" fromText="holding" toID="E33" toText="hospitalized" type="DURING" />
+<TLINK id="TL35" fromID="E33" fromText="hospitalized" toID="E1" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL36" fromID="E33" fromText="hospitalized" toID="E0" toText="Admission" type="BEGUN_BY" />
+<TLINK id="TL37" fromID="E30" fromText="her course" toID="E33" toText="hospitalized" type="OVERLAP" />
+<TLINK id="TL38" fromID="E25" fromText="a benign convalescence" toID="E30" toText="her course" type="OVERLAP" />
+<TLINK id="TL39" fromID="E34" fromText="follow" toID="E35" toText="an outpatient" type="BEGUN_BY" />
+<TLINK id="TL4" fromID="E4" fromText="complained" toID="E3" toText="a routine follow-up examination" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E35" fromText="an outpatient" toID="E1" toText="Discharge" type="BEGUN_BY" />
+<TLINK id="TL41" fromID="E36" fromText="her Hydrea" toID="E35" toText="an outpatient" type="OVERLAP" />
+<TLINK id="TL42" fromID="E36" fromText="her Hydrea" toID="E37" toText="her hematocrit is over 40%" type="BEGUN_BY" />
+<TLINK id="TL5" fromID="E5" fromText="left side pain" toID="E3" toText="a routine follow-up examination" type="BEFORE_OVERLAP" />
+<TLINK id="TL6" fromID="E6" fromText="an ultrasound" toID="E4" toText="complained" type="AFTER" />
+<TLINK id="TL7" fromID="E5" fromText="left side pain" toID="E6" toText="an ultrasound" type="BEFORE_OVERLAP" />
+<TLINK id="TL8" fromID="E8" fromText="a complex left renal mass" toID="E6" toText="an ultrasound" type="BEFORE_OVERLAP" />
+<TLINK id="TL9" fromID="E7" fromText="demonstrated" toID="E6" toText="an ultrasound" type="DURING" />
+<TLINK id="Sectime0" fromID="E34" fromText="follow" toID="T1" toText="02/26/1991" type="AFTER" />
+<TLINK id="Sectime1" fromID="E35" fromText="an outpatient" toID="T1" toText="02/26/1991" type="AFTER" />
+<TLINK id="Sectime2" fromID="E36" fromText="her Hydrea" toID="T1" toText="02/26/1991" type="AFTER" />
+<TLINK id="Sectime3" fromID="E37" fromText="her hematocrit is over 40%" toID="T1" toText="02/26/1991" type="AFTER" />
+<TLINK id="Sectime0" fromID="E2" fromText="polycythemia vera" toID="T0" toText="02/21/1991" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime1" fromID="E3" fromText="a routine follow-up examination" toID="T0" toText="02/21/1991" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E4" fromText="complained" toID="T0" toText="02/21/1991" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E5" fromText="left side pain" toID="T0" toText="02/21/1991" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E6" fromText="an ultrasound" toID="T0" toText="02/21/1991" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E7" fromText="demonstrated" toID="T0" toText="02/21/1991" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E8" fromText="a complex left renal mass" toID="T0" toText="02/21/1991" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime7" fromID="E9" fromText="A computerized tomography scan" toID="T0" toText="02/21/1991" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E10" fromText="demonstrated" toID="T0" toText="02/21/1991" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E14" fromText="a contrast enhancing" toID="T0" toText="02/21/1991" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E11" fromText="complex left renal mass" toID="T0" toText="02/21/1991" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E12" fromText="complex left renal mass" toID="T0" toText="02/21/1991" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E13" fromText="complex left renal mass" toID="T0" toText="02/21/1991" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime13" fromID="E15" fromText="Metastatic work-up" toID="T0" toText="02/21/1991" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E17" fromText="nephrectomy" toID="T0" toText="02/21/1991" type="AFTER" />
+<TLINK id="Sectime4" fromID="E18" fromText="the operating room" toID="T1" toText="02/26/1991" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E19" fromText="a left radical nephrectomy" toID="T1" toText="02/26/1991" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E20" fromText="operation" toID="T1" toText="02/26/1991" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E21" fromText="gross adenopathy" toID="T1" toText="02/26/1991" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E22" fromText="renal vein involvement" toID="T1" toText="02/26/1991" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E23" fromText="the tumor" toID="T1" toText="02/26/1991" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E24" fromText="excised" toID="T1" toText="02/26/1991" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E25" fromText="a benign convalescence" toID="T1" toText="02/26/1991" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E26" fromText="discharged" toID="T1" toText="02/26/1991" type="OVERLAP" />
+<TLINK id="Sectime13" fromID="E27" fromText="The oncology fellows" toID="T1" toText="02/26/1991" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E28" fromText="Venbonlea Health" toID="T1" toText="02/26/1991" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime15" fromID="E29" fromText="followed" toID="T1" toText="02/26/1991" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E30" fromText="her course" toID="T1" toText="02/26/1991" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E31" fromText="holding" toID="T1" toText="02/26/1991" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E32" fromText="her Hydrea" toID="T1" toText="02/26/1991" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E33" fromText="hospitalized" toID="T1" toText="02/26/1991" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="02/21/1991" type="ADMISSION" dvalue="1991-02-21" />
+<SECTIME id="S1" start="46" end="56" text="02/26/1991" type="DISCHARGE" dvalue="1991-02-26" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

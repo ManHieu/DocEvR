@@ -1,0 +1,42 @@
+Admission Date :
+03/13/2006
+Discharge Date :
+03/19/2006
+Service :
+MED
+HPI :
+75 y / o F with DM , COPD on 2L NC and Bipap at night p / w generalized weakness and fatigue , urinary incontinence and shaking as well as increased sputum production .
+Per daughter these symptoms are typical of COPD flare .
+ROS otherwise negative .
+Admission Status :
+ED :
+REc&apos;d duonebs , solumedrol 125
+Vitals :
+t97.5 , hr 117 , bp156/81 , rr28 , o2 sats 87% RA ; 95% 4L
+Exam :
+NAD , pleasant , speaking in complete sentences , poor air movement bilaterally , L &gt; R , no wheezes or rales , rrr , distant , abd benign , no edema , alert and oriented times three , no focal deficits , conversant Studies :
+- EKG sinus 92 , no ST changes
+- CXR no focal consolidation or edema , old biapical scarring ABG 7.34/79/74 U / A negative
+Daily Status :
+improving , but still poor air movement , diffusely wheezy on exam , at baseline 2L o2 requirement
+A / P :
+75 y / o F with h / o COPD c / b frequent exacerbations p / w typical flare symptoms .
+Problem List :
+CV - Ischemia ASA , lisinopril Pump no evidence of failure
+Rhythm Resp - COPD
+flare - steroids , cont prednisone 60 , taper slowly as tolerated , duonebs , advair , singulair , spiriva , claritin azithromycin for atypical bronchitis to complete a 5 day course , keep o2 sat 90-94 , home nocturnal CPAP not tolerated in house , does well on nc , appears ato be at baseline
+Renal -
+Cr 0.8 , stress incontinence by symptoms with increased cough , no evidence of uti , cont to closely monitor
+GI - Bowel regimen
+Heme - Chronic Fe deficiency anemia , cont iron
+Endo - DM on insulin with steroids
+ID - afebrile , no wbc , started on Azithromycin for COPD flare
+FEN - ADA diet
+PPx - Lovenox , PPI
+Dispo - to rehab when resp status improved , PT consulted
+Code - FC
+ADDITIONAL COMMENTS :
+DISCHARGE CONDITION :
+Stable
+TO DO / PLAN :
+f / u with PCP and Dr. Pump as scheduled , return to ED with worsening sob or increased cough or sputum production

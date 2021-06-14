@@ -1,0 +1,39 @@
+Admission Date :
+2015-08-22
+Discharge Date :
+2015-08-26
+Service :
+CMED
+History of Present Illness :
+68 year old right handed man with multiple vascular risk factors , including 2 previous strokes and two myocardial infarctions , hypertension and hypercholesterolemia , who presents with acute onset right sided hemiplegia and dysarthria .
+He went to the bathroom on his own at 6:12 AM and then called for help at 6:15 AM .
+His wife found him with weak right leg , flaccid right arm , and severe dysarthria .
+She called 911 and he was brought to Hahnemann General Hospital Lydia .
+ROS :
+Wife denies any recent bleeding , surgeries , or upper respiratory infection .
+Brief Hospital Course :
+Assessment :
+68M with multiple vascular risk factors presents with acute onset right-sided hemiparesis and dysarthria , aphasia concerning for acute left MCA infarct .
+Patient arrived in Daniel within 3 hours of symptom onset and head CT showed no evidence of bleed .
+However , as wife had not seen patient before he became symptomatic , there was some concern that he had symptoms earlier than 6 am , and therefore would be outside the 3 hour window for TPA .
+MRI was performed which showed diffusion abnormalities but no hyperintensity on T2 / FLAIR imaging supporting the acute onset .
+Therefore , IV tpa thrombolytics were administered within 3 hours of symptom onset .
+Within minutes the patient showed decreased right sided weakness and improved from a global aphasia to an anterior aphasia picture .
+Given the likely embolic etiology of infarct , carotid doppler and TTE were performed .
+Doppler revealed no hemodynamically significant lesions bilaterally .
+Echo did not reveal potential source of emboli , but showed striking left ventricle akinesis and hypokinesis presumbly due to past MI x 2 .
+Given that the stroke occurred while taking aspirin and plavix , and given the severe akinesis of the left ventricle , we decided to initiate anticoagulation with warfarin to help prevent future strokes .
+Anticoagulation therapy was initiated with heparin and coumadin beginning on the evening of 2016-08-23 .
+The patient and his wife , a nurse , were educated on low molecular wt heparin , which was started in the hospital on 2015-08-26 with close follow-up scheduled with Dr. Demmert of the Wareham VA primary care clinic the next morning .
+His depakote was continued for his bipolar disorder .
+On discharge , strength was nearly intact in the limbs , though he still had a right-sided facial droop .
+Additionally , he still had mild dysarthria and mild anterior aphasia .
+Additionally , risk factor modification was continued .
+Lipid panel was checked and showed good control of lipids on his home dose of zocor .
+Patient has no history of diabetes , and fasting glucose was 78 , but A1C was slightly elevated at 5.9 .
+He may need further glucose monitoring in the future .
+His home hypertensive medications were held while in the hospital to help increase cerebral perfusion and prevent further ischemia .
+They will be restarted on discharge .
+Speech therapy was also consulted , and recommended oupatient speech therapy .
+Similarly , outpatient PT was recommended for his gait difficulties from his previous strokes .
+Residual deficits include right side facial droop from previous stroke and moderately severe dysarthria and anterior aphasia with word finding difficulties .

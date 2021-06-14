@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+10/30/2006
+Discharge Date :
+11/03/2006
+Service :
+RNM
+HPI :
+62 yo m w / IgA nephropathy , developmental delay , began HD 7/31 .
+Was seen in dialysis on day of admission and was seen to have &quot; raccoon eyes &quot; and HD staff was worried about sending home .
+Head CT w / o bleed .
+Trauma series normal .
+Pt denies abuse or loc associated w / fall , but has noticed several recent falls .
+Recent neuro w / u including EEG , carotid u / s , head ct ( old stroke ) , dobutamine-MIBI ( fixed defect and small inferolateral reversible ) were all negative .
+Notable
+HOSPITAL COURSE :
+1. Falls A PT consult was obtained to assist with ambulation .
+A social work consult was also obtained and deemed that the patient has appropriate support at home and is safe at home .
+The patient was placed on telemetry and had no telemetry events while an inpatient .
+He was also seen by the Electrophysiology service , his pacemaker was interrogated and working fine , with no signs of recent ventricular arrhythmia .
+The patient his undergoing a TTE prior to discharge to rule out a thrombus .
+His TTE showed EF 45-50% , moderate cLVH , abnormal diastolic function , moderate MR , moderate TR and severe LAE .
+THere was a question of ionfiltrative cardiomyopathy , and the patient underwent abdominal fat pad biopsy to assess for amyloidosis .
+He also currently has an SPEP / UPEP/Beta 2 microglobulin / ACE test that are currently pending .
+These should be followed up as an outaptient .
+He had carotid ultrasound studies 3 months ago that were normal without evidence for stenosis .
+2. Renal - cont MWF HD ; electrolytes have been stable .
+Perhaps his recent falls are related to orthostatic hypotension after dialysis .
+3. CV -The pt has a small area of reversible ischemia on recent MIBI , and has troponins persistently elevated in the setting of his renal disease .
+His troponins remained lower than his baseline levels and there was no suspicion of ACS causing syncope .
+He continued on his zocor , cozaar and labetalol .
+We will now hold his coumadin given his recent falls and bleeding risk .
+His aspirin was restarted prior to discharge .
+4. Endo - TSH was 4.7 and normal .
+5. Heme :
+The patient has a macrocytosis .
+His B12 level was 418 and normal .
+He does have a history of B12 deficiency in the past , and evidence for peripheral neuropathy BLE which may also be contributing to his recent falls . ? EtOH
+6. Psych :
+watch for EtOH WD .
+THe patient had no signs of alcohol withdrawal .
+His serum toxicology screen was negative .
+7. Pulm :
+COPD and R pleural effusion , off oxygen and stable .
+8. GU :
+R complex renal cyst , bladder diverticula .
+THe patient will need a follow up ultrasound to further evaluate these incidental findings seen on imaging upon admission .
+9. ID :
+The patient &apos;s urinalysis was normal .
+He had no fecal leukocytes .
+A c.difficile test is negative on prelim read , however very low suspicion given no recent antibiotic use .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="1047" end="1052" text="a TTE" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="107" end="126" text="developmental delay" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="1062" end="1071" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="1084" end="1094" text="a thrombus" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="1097" end="1104" text="His TTE" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="1112" end="1114" text="EF" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E70" start="1124" end="1137" text="moderate cLVH" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="1140" end="1167" text="abnormal diastolic function" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="1170" end="1181" text="moderate MR" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="1184" end="1195" text="moderate TR" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="1200" end="1210" text="severe LAE" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="1237" end="1265" text="ionfiltrative cardiomyopathy" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="1294" end="1318" text="abdominal fat pad biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E75" start="1333" end="1344" text="amyloidosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E102" start="135" end="137" text="HD" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1369" end="1376" text="an SPEP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="1379" end="1404" text="UPEP/Beta 2 microglobulin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="1407" end="1415" text="ACE test" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E76" start="1461" end="1472" text="followed up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="1499" end="1525" text="carotid ultrasound studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="157" end="165" text="dialysis" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E77" start="1577" end="1585" text="stenosis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E22" start="1608" end="1610" text="HD" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="1613" end="1625" text="electrolytes" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E78" start="1636" end="1642" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E79" start="1653" end="1669" text="his recent falls" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E80" start="1685" end="1708" text="orthostatic hypotension" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E81" start="1715" end="1723" text="dialysis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="1760" end="1779" text="reversible ischemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="176" end="185" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="1783" end="1794" text="recent MIBI" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E82" start="1805" end="1836" text="troponins persistently elevated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="1855" end="1872" text="his renal disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="1875" end="1888" text="His troponins" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="1959" end="1962" text="ACS" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E84" start="1971" end="1978" text="syncope" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E28" start="1997" end="2006" text="his zocor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="2009" end="2015" text="cozaar" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="2020" end="2029" text="labetalol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="2044" end="2048" text="hold" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="2049" end="2061" text="his coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="207" end="233" text="&quot; raccoon eyes &quot;" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E86" start="2068" end="2084" text="his recent falls" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="2089" end="2102" text="bleeding risk" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="2105" end="2116" text="His aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="2121" end="2130" text="restarted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="2140" end="2149" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="2162" end="2165" text="TSH" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E101" start="2213" end="2227" text="a macrocytosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="2230" end="2243" text="His B12 level" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="2291" end="2305" text="B12 deficiency" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="2337" end="2362" text="peripheral neuropathy BLE" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E88" start="2397" end="2413" text="his recent falls" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E89" start="2444" end="2451" text="EtOH WD" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E90" start="2482" end="2500" text="alcohol withdrawal" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E35" start="2503" end="2530" text="His serum toxicology screen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E91" start="2556" end="2560" text="COPD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E92" start="2565" end="2583" text="R pleural effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E93" start="2590" end="2596" text="oxygen" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E94" start="2601" end="2607" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E95" start="2618" end="2638" text="R complex renal cyst" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E96" start="2641" end="2660" text="bladder diverticula" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="2685" end="2707" text="a follow up ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E97" start="2728" end="2753" text="these incidental findings" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="2762" end="2769" text="imaging" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="2775" end="2784" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="280" end="287" text="Head CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="2795" end="2825" text="The patient &apos;s urinalysis" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E98" start="2849" end="2865" text="fecal leukocytes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="2868" end="2886" text="A c.difficile test" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="294" end="299" text="bleed" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E99" start="2952" end="2973" text="recent antibiotic use" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E57" start="302" end="315" text="Trauma series" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="328" end="334" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E58" start="335" end="340" text="abuse" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E1" start="344" end="347" text="loc" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E42" start="363" end="367" text="fall" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E59" start="401" end="406" text="falls" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="409" end="427" text="Recent neuro w / u" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="438" end="441" text="EEG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="444" end="457" text="carotid u / s" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="460" end="467" text="head ct" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="470" end="480" text="old stroke" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="485" end="500" text="dobutamine-MIBI" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E8" start="503" end="515" text="fixed defect" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="520" end="550" text="small inferolateral reversible" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="562" end="570" text="negative" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E61" start="602" end="607" text="Falls" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E62" start="610" end="620" text="PT consult" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="637" end="643" text="assist" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="649" end="659" text="ambulation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="662" end="683" text="A social work consult" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="734" end="753" text="appropriate support" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="769" end="773" text="safe" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="810" end="819" text="telemetry" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="831" end="847" text="telemetry events" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E51" start="89" end="104" text="IgA nephropathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="921" end="934" text="his pacemaker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="939" end="951" text="interrogated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="956" end="968" text="working fine" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="988" end="1017" text="recent ventricular arrhythmia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<TIMEX3 id="T2" start="138" end="142" text="7/31" type="DATE" val="2006-07-31" mod="NA" />
+<TIMEX3 id="T4" start="1526" end="1534" text="3 months" type="DURATION" val="p3m" mod="NA" />
+<TIMEX3 id="T3" start="169" end="185" text="day of admission" type="DATE" val="2006-10-30" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="10/30/2006" type="DATE" val="2006-10-30" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="11/03/2006" type="DATE" val="2006-11-03" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="10/30/2006" type="OVERLAP" />
+<TLINK id="TL1" fromID="E7" fromText="dobutamine-MIBI" toID="E25" toText="recent MIBI" type="OVERLAP" />
+<TLINK id="TL10" fromID="E40" fromText="dialysis" toID="E102" toText="HD" type="OVERLAP" />
+<TLINK id="TL11" fromID="E40" fromText="dialysis" toID="T3" toText="day of admission" type="OVERLAP" />
+<TLINK id="TL12" fromID="E54" fromText="&quot; raccoon eyes &quot;" toID="E40" toText="dialysis" type="BEFORE" />
+<TLINK id="TL13" fromID="E56" fromText="bleed" toID="E55" toText="Head CT" type="BEFORE" />
+<TLINK id="TL14" fromID="E54" fromText="&quot; raccoon eyes &quot;" toID="E55" toText="Head CT" type="BEFORE" />
+<TLINK id="TL15" fromID="E57" fromText="Trauma series" toID="E54" toText="&quot; raccoon eyes &quot;" type="AFTER" />
+<TLINK id="TL16" fromID="E41" fromText="denies" toID="E1" toText="loc" type="OVERLAP" />
+<TLINK id="TL17" fromID="E41" fromText="denies" toID="E58" toText="abuse" type="OVERLAP" />
+<TLINK id="TL18" fromID="E1" fromText="loc" toID="E42" toText="fall" type="BEFORE" />
+<TLINK id="TL19" fromID="E42" fromText="fall" toID="E59" toText="falls" type="OVERLAP" />
+<TLINK id="TL2" fromID="E4" fromText="carotid u / s" toID="E21" toText="carotid ultrasound studies" type="OVERLAP" />
+<TLINK id="TL20" fromID="E2" fromText="Recent neuro w / u" toID="E3" toText="EEG" type="OVERLAP" />
+<TLINK id="TL21" fromID="E2" fromText="Recent neuro w / u" toID="E4" toText="carotid u / s" type="OVERLAP" />
+<TLINK id="TL22" fromID="E2" fromText="Recent neuro w / u" toID="E5" toText="head ct" type="OVERLAP" />
+<TLINK id="TL23" fromID="E6" fromText="old stroke" toID="E5" toText="head ct" type="BEFORE" />
+<TLINK id="TL24" fromID="E2" fromText="Recent neuro w / u" toID="E60" toText="negative" type="OVERLAP" />
+<TLINK id="TL25" fromID="E61" fromText="Falls" toID="E59" toText="falls" type="OVERLAP" />
+<TLINK id="TL26" fromID="E62" fromText="PT consult" toID="E61" toText="Falls" type="AFTER" />
+<TLINK id="TL27" fromID="E62" fromText="PT consult" toID="E49" toText="ambulation" type="OVERLAP" />
+<TLINK id="TL28" fromID="E64" fromText="appropriate support" toID="E63" toText="A social work consult" type="AFTER" />
+<TLINK id="TL29" fromID="E64" fromText="appropriate support" toID="E65" toText="safe" type="OVERLAP" />
+<TLINK id="TL3" fromID="E13" fromText="a TTE" toID="E14" toText="His TTE" type="OVERLAP" />
+<TLINK id="TL30" fromID="E63" fromText="A social work consult" toID="E10" toText="telemetry" type="OVERLAP" />
+<TLINK id="TL31" fromID="E10" fromText="telemetry" toID="E11" toText="telemetry events" type="OVERLAP" />
+<TLINK id="TL32" fromID="E66" fromText="his pacemaker" toID="E43" toText="interrogated" type="BEFORE" />
+<TLINK id="TL33" fromID="E66" fromText="his pacemaker" toID="E67" toText="working fine" type="OVERLAP" />
+<TLINK id="TL34" fromID="E67" fromText="working fine" toID="E12" toText="recent ventricular arrhythmia" type="OVERLAP" />
+<TLINK id="TL35" fromID="E13" fromText="a TTE" toID="E68" toText="discharge" type="BEFORE" />
+<TLINK id="TL37" fromID="E69" fromText="a thrombus" toID="E13" toText="a TTE" type="BEFORE" />
+<TLINK id="TL38" fromID="E14" fromText="His TTE" toID="E15" toText="EF" type="OVERLAP" />
+<TLINK id="TL39" fromID="E15" fromText="EF" toID="E70" toText="moderate cLVH" type="OVERLAP" />
+<TLINK id="TL4" fromID="E9" fromText="small inferolateral reversible" toID="E8" toText="fixed defect" type="OVERLAP" />
+<TLINK id="TL40" fromID="E70" fromText="moderate cLVH" toID="E71" toText="abnormal diastolic function" type="OVERLAP" />
+<TLINK id="TL41" fromID="E71" fromText="abnormal diastolic function" toID="E72" toText="moderate MR" type="OVERLAP" />
+<TLINK id="TL42" fromID="E72" fromText="moderate MR" toID="E73" toText="moderate TR" type="OVERLAP" />
+<TLINK id="TL43" fromID="E73" fromText="moderate TR" toID="E74" toText="severe LAE" type="OVERLAP" />
+<TLINK id="TL45" fromID="E16" fromText="ionfiltrative cardiomyopathy" toID="E17" toText="abdominal fat pad biopsy" type="BEFORE" />
+<TLINK id="TL46" fromID="E16" fromText="ionfiltrative cardiomyopathy" toID="E75" toText="amyloidosis" type="OVERLAP" />
+<TLINK id="TL47" fromID="E18" fromText="an SPEP" toID="E19" toText="UPEP/Beta 2 microglobulin" type="OVERLAP" />
+<TLINK id="TL48" fromID="E19" fromText="UPEP/Beta 2 microglobulin" toID="E20" toText="ACE test" type="OVERLAP" />
+<TLINK id="TL49" fromID="E76" fromText="followed up" toID="E50" toText="Discharge" type="AFTER" />
+<TLINK id="TL5" fromID="E48" fromText="assist" toID="E43" toText="interrogated" type="OVERLAP" />
+<TLINK id="TL50" fromID="E21" fromText="carotid ultrasound studies" toID="T4" toText="3 months" type="OVERLAP" />
+<TLINK id="TL51" fromID="T4" fromText="3 months" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL52" fromID="E77" fromText="stenosis" toID="E21" toText="carotid ultrasound studies" type="BEFORE" />
+<TLINK id="TL53" fromID="E23" fromText="electrolytes" toID="E22" toText="HD" type="OVERLAP" />
+<TLINK id="TL54" fromID="E23" fromText="electrolytes" toID="E78" toText="stable" type="OVERLAP" />
+<TLINK id="TL55" fromID="E79" fromText="his recent falls" toID="E59" toText="falls" type="OVERLAP" />
+<TLINK id="TL56" fromID="E84" fromText="syncope" toID="E79" toText="his recent falls" type="OVERLAP" />
+<TLINK id="TL57" fromID="E86" fromText="his recent falls" toID="E79" toText="his recent falls" type="OVERLAP" />
+<TLINK id="TL58" fromID="E80" fromText="orthostatic hypotension" toID="E79" toText="his recent falls" type="OVERLAP" />
+<TLINK id="TL59" fromID="E80" fromText="orthostatic hypotension" toID="E81" toText="dialysis" type="AFTER" />
+<TLINK id="TL6" fromID="E29" fromText="cozaar" toID="E28" toText="his zocor" type="OVERLAP" />
+<TLINK id="TL60" fromID="E24" fromText="reversible ischemia" toID="E25" toText="recent MIBI" type="OVERLAP" />
+<TLINK id="TL61" fromID="E83" fromText="his renal disease" toID="E82" toText="troponins persistently elevated" type="BEFORE" />
+<TLINK id="TL62" fromID="E26" fromText="His troponins" toID="E82" toText="troponins persistently elevated" type="OVERLAP" />
+<TLINK id="TL63" fromID="E84" fromText="syncope" toID="E27" toText="ACS" type="AFTER" />
+<TLINK id="TL64" fromID="E30" fromText="labetalol" toID="E29" toText="cozaar" type="OVERLAP" />
+<TLINK id="TL65" fromID="E31" fromText="his coumadin" toID="E87" toText="bleeding risk" type="OVERLAP" />
+<TLINK id="TL66" fromID="E31" fromText="his coumadin" toID="E86" toText="his recent falls" type="OVERLAP" />
+<TLINK id="TL68" fromID="E85" fromText="His aspirin" toID="E45" toText="discharge" type="AFTER" />
+<TLINK id="TL69" fromID="E100" fromText="peripheral neuropathy BLE" toID="E88" toText="his recent falls" type="BEFORE" />
+<TLINK id="TL7" fromID="T1" fromText="11/03/2006" toID="E50" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL70" fromID="E89" fromText="EtOH WD" toID="E90" toText="alcohol withdrawal" type="OVERLAP" />
+<TLINK id="TL71" fromID="E90" fromText="alcohol withdrawal" toID="E35" toText="His serum toxicology screen" type="OVERLAP" />
+<TLINK id="TL72" fromID="E91" fromText="COPD" toID="E92" toText="R pleural effusion" type="OVERLAP" />
+<TLINK id="TL73" fromID="E93" fromText="oxygen" toID="E94" toText="stable" type="OVERLAP" />
+<TLINK id="TL74" fromID="E92" fromText="R pleural effusion" toID="E93" toText="oxygen" type="BEFORE" />
+<TLINK id="TL75" fromID="E95" fromText="R complex renal cyst" toID="E96" toText="bladder diverticula" type="OVERLAP" />
+<TLINK id="TL76" fromID="E96" fromText="bladder diverticula" toID="E36" toText="a follow up ultrasound" type="BEFORE" />
+<TLINK id="TL77" fromID="E96" fromText="bladder diverticula" toID="E97" toText="these incidental findings" type="OVERLAP" />
+<TLINK id="TL78" fromID="E37" fromText="imaging" toID="E46" toText="admission" type="OVERLAP" />
+<TLINK id="TL79" fromID="E97" fromText="these incidental findings" toID="E37" toText="imaging" type="BEFORE" />
+<TLINK id="TL8" fromID="E51" fromText="IgA nephropathy" toID="E52" toText="developmental delay" type="OVERLAP" />
+<TLINK id="TL80" fromID="E38" fromText="The patient &apos;s urinalysis" toID="E36" toText="a follow up ultrasound" type="OVERLAP" />
+<TLINK id="TL81" fromID="E38" fromText="The patient &apos;s urinalysis" toID="E98" toText="fecal leukocytes" type="OVERLAP" />
+<TLINK id="TL82" fromID="E99" fromText="recent antibiotic use" toID="E39" toText="A c.difficile test" type="BEFORE" />
+<TLINK id="TL9" fromID="E102" fromText="HD" toID="T2" toText="7/31" type="AFTER" />
+<SECTIME id="S0" start="18" end="28" text="10/30/2006" type="ADMISSION" dvalue="2006-10-30" />
+<SECTIME id="S1" start="46" end="56" text="11/03/2006" type="DISCHARGE" dvalue="2006-11-03" />
+<TLINK id="SECTIME0" fromID="E13" fromText="a TTE" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E52" fromText="developmental delay" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E68" fromText="discharge" toID="T1" toText="11/03/2006" type="OVERLAP" />
+<TLINK id="SECTIME3" fromID="E69" fromText="a thrombus" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E14" fromText="His TTE" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E15" fromText="EF" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E70" fromText="moderate cLVH" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E71" fromText="abnormal diastolic function" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E72" fromText="moderate MR" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E73" fromText="moderate TR" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E74" fromText="severe LAE" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E16" fromText="ionfiltrative cardiomyopathy" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E17" fromText="abdominal fat pad biopsy" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E75" fromText="amyloidosis" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E102" fromText="HD" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E18" fromText="an SPEP" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E19" fromText="UPEP/Beta 2 microglobulin" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E20" fromText="ACE test" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E76" fromText="followed up" toID="T1" toText="11/03/2006" type="AFTER" />
+<TLINK id="SECTIME19" fromID="E21" fromText="carotid ultrasound studies" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E40" fromText="dialysis" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E77" fromText="stenosis" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E22" fromText="HD" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E23" fromText="electrolytes" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E78" fromText="stable" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E79" fromText="his recent falls" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E80" fromText="orthostatic hypotension" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E81" fromText="dialysis" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E24" fromText="reversible ischemia" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E53" fromText="admission" toID="T0" toText="10/30/2006" type="OVERLAP" />
+<TLINK id="SECTIME30" fromID="E25" fromText="recent MIBI" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E82" fromText="troponins persistently elevated" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E83" fromText="his renal disease" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E26" fromText="His troponins" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E27" fromText="ACS" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E84" fromText="syncope" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E28" fromText="his zocor" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E29" fromText="cozaar" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E30" fromText="labetalol" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E47" fromText="hold" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E31" fromText="his coumadin" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E54" fromText="&quot; raccoon eyes &quot;" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E86" fromText="his recent falls" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E87" fromText="bleeding risk" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E85" fromText="His aspirin" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E44" fromText="restarted" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E45" fromText="discharge" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E32" fromText="TSH" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E101" fromText="a macrocytosis" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E33" fromText="His B12 level" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E34" fromText="B12 deficiency" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E100" fromText="peripheral neuropathy BLE" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E88" fromText="his recent falls" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E89" fromText="EtOH WD" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E90" fromText="alcohol withdrawal" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E35" fromText="His serum toxicology screen" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E91" fromText="COPD" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E92" fromText="R pleural effusion" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E93" fromText="oxygen" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E94" fromText="stable" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E95" fromText="R complex renal cyst" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E96" fromText="bladder diverticula" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E36" fromText="a follow up ultrasound" toID="T1" toText="11/03/2006" type="AFTER" />
+<TLINK id="SECTIME63" fromID="E97" fromText="these incidental findings" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E37" fromText="imaging" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E46" fromText="admission" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E55" fromText="Head CT" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E38" fromText="The patient &apos;s urinalysis" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E98" fromText="fecal leukocytes" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E39" fromText="A c.difficile test" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E56" fromText="bleed" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E99" fromText="recent antibiotic use" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E57" fromText="Trauma series" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E41" fromText="denies" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E58" fromText="abuse" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E1" fromText="loc" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E42" fromText="fall" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E59" fromText="falls" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E2" fromText="Recent neuro w / u" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E3" fromText="EEG" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E4" fromText="carotid u / s" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E5" fromText="head ct" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E6" fromText="old stroke" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E7" fromText="dobutamine-MIBI" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E8" fromText="fixed defect" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E9" fromText="small inferolateral reversible" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E60" fromText="negative" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E61" fromText="Falls" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E62" fromText="PT consult" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E48" fromText="assist" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E49" fromText="ambulation" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E63" fromText="A social work consult" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E64" fromText="appropriate support" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E65" fromText="safe" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E10" fromText="telemetry" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E11" fromText="telemetry events" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E51" fromText="IgA nephropathy" toID="T0" toText="10/30/2006" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E66" fromText="his pacemaker" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E43" fromText="interrogated" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E67" fromText="working fine" toID="T1" toText="11/03/2006" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E12" fromText="recent ventricular arrhythmia" toID="T1" toText="11/03/2006" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

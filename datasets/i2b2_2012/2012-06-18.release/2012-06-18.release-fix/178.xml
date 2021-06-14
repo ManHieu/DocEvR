@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2012-01-20
+Discharge Date :
+2012-01-23
+Service :
+UROLOGY
+HISTORY OF PRESENT ILLNESS :
+The patient is a 64 year old gentleman with a history of elevated PSA , prostate cancer .
+He was diagnosed with needle biopsy on either side of the prostate with 3+3 equals 6 on the right side and 3+4 equals 7 on the left side .
+HOSPITAL COURSE :
+The patient underwent radical retropubic prostatectomy on 2012-01-20 .
+Dr. Marie Anderson performed the surgery .
+The patient tolerated the procedure well .
+On postoperative day number one , he was administered 1 mg Coumadin per protocol as well as on the operative day 1 mg of Coumadin .
+The patient was advanced to regular diet on postoperative day one .
+His laboratories were checked and his hematocrit was noted to be stable .
+He was made to ambulate on postoperative day one .
+His pain was well controlled with oral medication at this time .
+On postoperative day two , he continued to convalesce as planned .
+His intravenous fluids were discontinued at this time .
+He was on a house diet and tolerating it well at this time as well .
+His Penrose drain was discontinued at this time .
+He was ready for discharge home on postoperative day three .
+He was discharged home with a Foley catheter and he will follow-up with Dr. Ross in one to two weeks .
+COMPLICATIONS DURING STAY :
+None .
+CONDITION ON DISCHARGE :
+Stable .
+DISCHARGE STATUS :
+To home .
+Terry CR Dennis , M.D.
+68-233
+Dictated By : Tracy C Rea , M.D.
+MEDQUIST36
+D : 2012-04-28 17:18
+T : 2012-05-01 20:32
+JOB #:
+21454
+Signed electronically by : DR. Antonio Hall on : FRI 2012-05-04 7:48 AM
+( End of Report )
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="1031" end="1043" text="a house diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="1048" end="1058" text="tolerating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="1048" end="1066" text="tolerating it well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="1059" end="1061" text="it" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1090" end="1107" text="His Penrose drain" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="1157" end="1166" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="1208" end="1218" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1229" end="1245" text="a Foley catheter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1258" end="1267" text="follow-up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1352" end="1361" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="1364" end="1370" text="Stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="161" end="173" text="elevated PSA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="176" end="191" text="prostate cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="201" end="210" text="diagnosed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="216" end="229" text="needle biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="373" end="405" text="radical retropubic prostatectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="451" end="462" text="the surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="477" end="486" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="487" end="500" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="501" end="505" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="567" end="575" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="629" end="637" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="656" end="664" text="advanced" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="668" end="680" text="regular diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="708" end="724" text="His laboratories" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="742" end="756" text="his hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="761" end="766" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E18" start="773" end="779" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="797" end="805" text="ambulate" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="833" end="841" text="His pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="846" end="861" text="well controlled" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="867" end="882" text="oral medication" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="941" end="951" text="convalesce" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="965" end="987" text="His intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T8" start="1175" end="1198" text="postoperative day three" type="DATE" val="2012-01-23" mod="NA" />
+<TIMEX3 id="T9" start="1285" end="1301" text="one to two weeks" type="DATE" val="2012-02-03" mod="APPROX" />
+<TIMEX3 id="T0" start="18" end="28" text="2012-01-20" type="DATE" val="2012-01-20" mod="NA" />
+<TIMEX3 id="T2" start="409" end="419" text="2012-01-20" type="DATE" val="2012-01-20" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2012-01-23" type="DATE" val="2012-01-23" mod="NA" />
+<TIMEX3 id="T3" start="511" end="539" text="postoperative day number one" type="DATE" val="2012-01-21" mod="NA" />
+<TIMEX3 id="T4" start="603" end="620" text="the operative day" type="DATE" val="2012-01-20" mod="NA" />
+<TIMEX3 id="T5" start="684" end="705" text="postoperative day one" type="DATE" val="2012-01-21" mod="NA" />
+<TIMEX3 id="T6" start="809" end="830" text="postoperative day one" type="DATE" val="2012-01-21" mod="NA" />
+<TIMEX3 id="T7" start="901" end="922" text="postoperative day two" type="DATE" val="2012-01-22" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2012-01-20" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="Discharge" toID="T1" toText="2012-01-23" type="OVERLAP" />
+<TLINK id="TL10" fromID="E8" fromText="tolerated" toID="E9" toText="well" type="OVERLAP" />
+<TLINK id="TL11" fromID="E11" fromText="Coumadin" toID="T3" toText="postoperative day number one" type="OVERLAP" />
+<TLINK id="TL12" fromID="E12" fromText="Coumadin" toID="T4" toText="the operative day" type="OVERLAP" />
+<TLINK id="TL13" fromID="E13" fromText="advanced" toID="E14" toText="regular diet" type="BEFORE" />
+<TLINK id="TL14" fromID="E14" fromText="regular diet" toID="T5" toText="postoperative day one" type="OVERLAP" />
+<TLINK id="TL15" fromID="E16" fromText="his hematocrit" toID="E15" toText="His laboratories" type="OVERLAP" />
+<TLINK id="TL16" fromID="E16" fromText="his hematocrit" toID="E17" toText="noted" type="OVERLAP" />
+<TLINK id="TL17" fromID="E18" fromText="stable" toID="E16" toText="his hematocrit" type="BEFORE" />
+<TLINK id="TL18" fromID="E19" fromText="ambulate" toID="T6" toText="postoperative day one" type="OVERLAP" />
+<TLINK id="TL19" fromID="E20" fromText="His pain" toID="T6" toText="postoperative day one" type="OVERLAP" />
+<TLINK id="TL2" fromID="E3" fromText="prostate cancer" toID="E2" toText="elevated PSA" type="OVERLAP" />
+<TLINK id="TL20" fromID="E20" fromText="His pain" toID="E21" toText="well controlled" type="OVERLAP" />
+<TLINK id="TL21" fromID="E22" fromText="oral medication" toID="E21" toText="well controlled" type="OVERLAP" />
+<TLINK id="TL22" fromID="E23" fromText="convalesce" toID="T7" toText="postoperative day two" type="OVERLAP" />
+<TLINK id="TL23" fromID="E24" fromText="His intravenous fluids" toID="T7" toText="postoperative day two" type="BEFORE" />
+<TLINK id="TL24" fromID="E25" fromText="a house diet" toID="T7" toText="postoperative day two" type="OVERLAP" />
+<TLINK id="TL25" fromID="E25" fromText="a house diet" toID="E27" toText="it" type="OVERLAP" />
+<TLINK id="TL26" fromID="E26" fromText="tolerating" toID="E27" toText="it" type="OVERLAP" />
+<TLINK id="TL27" fromID="E28" fromText="tolerating it well" toID="E26" toText="tolerating" type="OVERLAP" />
+<TLINK id="TL28" fromID="E29" fromText="His Penrose drain" toID="T7" toText="postoperative day two" type="BEFORE" />
+<TLINK id="TL29" fromID="E31" fromText="discharged" toID="E30" toText="discharge" type="OVERLAP" />
+<TLINK id="TL3" fromID="E3" fromText="prostate cancer" toID="E5" toText="diagnosed" type="BEFORE" />
+<TLINK id="TL30" fromID="E30" fromText="discharge" toID="T8" toText="postoperative day three" type="OVERLAP" />
+<TLINK id="TL31" fromID="E32" fromText="a Foley catheter" toID="E31" toText="discharged" type="BEFORE" />
+<TLINK id="TL32" fromID="E33" fromText="follow-up" toID="T9" toText="one to two weeks" type="OVERLAP" />
+<TLINK id="TL33" fromID="E33" fromText="follow-up" toID="E31" toText="discharged" type="AFTER" />
+<TLINK id="TL34" fromID="E31" fromText="discharged" toID="E35" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL36" fromID="E34" fromText="Stable" toID="E35" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL4" fromID="E4" fromText="needle biopsy" toID="E5" toText="diagnosed" type="OVERLAP" />
+<TLINK id="TL5" fromID="E3" fromText="prostate cancer" toID="E6" toText="radical retropubic prostatectomy" type="BEFORE" />
+<TLINK id="TL6" fromID="E6" fromText="radical retropubic prostatectomy" toID="T2" toText="2012-01-20" type="OVERLAP" />
+<TLINK id="TL7" fromID="E6" fromText="radical retropubic prostatectomy" toID="E7" toText="the surgery" type="OVERLAP" />
+<TLINK id="TL8" fromID="E10" fromText="the procedure" toID="E7" toText="the surgery" type="OVERLAP" />
+<TLINK id="TL9" fromID="E8" fromText="tolerated" toID="E10" toText="the procedure" type="OVERLAP" />
+<TLINK id="SECTIME0" fromID="E25" fromText="a house diet" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E26" fromText="tolerating" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E28" fromText="tolerating it well" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E27" fromText="it" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E29" fromText="His Penrose drain" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E30" fromText="discharge" toID="T1" toText="2012-01-23" type="OVERLAP" />
+<TLINK id="SECTIME6" fromID="E31" fromText="discharged" toID="T1" toText="2012-01-23" type="OVERLAP" />
+<TLINK id="SECTIME7" fromID="E32" fromText="a Foley catheter" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E33" fromText="follow-up" toID="T1" toText="2012-01-23" type="AFTER" />
+<TLINK id="SECTIME9" fromID="E35" fromText="DISCHARGE" toID="T1" toText="2012-01-23" type="OVERLAP" />
+<TLINK id="SECTIME10" fromID="E34" fromText="Stable" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E2" fromText="elevated PSA" toID="T0" toText="2012-01-20" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E3" fromText="prostate cancer" toID="T0" toText="2012-01-20" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E5" fromText="diagnosed" toID="T0" toText="2012-01-20" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E4" fromText="needle biopsy" toID="T0" toText="2012-01-20" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E6" fromText="radical retropubic prostatectomy" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E7" fromText="the surgery" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E8" fromText="tolerated" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E10" fromText="the procedure" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E9" fromText="well" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E11" fromText="Coumadin" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E12" fromText="Coumadin" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E13" fromText="advanced" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E14" fromText="regular diet" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E15" fromText="His laboratories" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E16" fromText="his hematocrit" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E17" fromText="noted" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E18" fromText="stable" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E19" fromText="ambulate" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E20" fromText="His pain" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E21" fromText="well controlled" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E22" fromText="oral medication" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E23" fromText="convalesce" toID="T1" toText="2012-01-23" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E24" fromText="His intravenous fluids" toID="T1" toText="2012-01-23" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2012-01-20" type="ADMISSION" dvalue="2012-01-20" />
+<SECTIME id="S1" start="46" end="56" text="2012-01-23" type="DISCHARGE" dvalue="2012-01-23" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

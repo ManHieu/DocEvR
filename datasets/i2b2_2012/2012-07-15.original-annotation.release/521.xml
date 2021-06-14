@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+01/25/97
+DISCHARGE DATE :
+01/30/97
+HISTORY OF PRESENT ILLNESS :
+The patient is a 70-year-old female with cryptogenic cirrhosis .
+She has a history of esophageal varices and a history of an Upper GI bleed .
+She has had one pervious episode of variceal bleeding with an unclear date .
+However she is followed by a Dr. Joasscchird at Vaila Medical Center .
+She was in her usual state of health until one day prior to admission when she felt increasing fatigue , nausea and vomiting productive of bright red blood and coffee ground emesis .
+She also had some black , tarry stool in her colostomy bag .
+At Vaila Medical Center , she had a hematocrit of 25 and was transfused 2 units of packed red blood cells .
+She had an upper endoscopy at Va Sit Namar Healthcare showing an esophagus filled with clots and small amount of bleeding varices , clot in the stomach with antral gastritis , and a normal duodenum .
+She was started on Pitressin , a Blakemore tube was inserted .
+She was transferred to the Ph University Of Medical Center Intensive Care Unit where on January 25 in the morning her hematocrit was found to be 27.4 .
+She was transfused another 2 units of packed red blood cells over the course of the day and her hematocrit improved to 29.4 and then 31.2 .
+The GI service was consulted and an upper endoscopy study showed grade III varices with no active bleeding and a clean base gastric ulcer possibly secondary to the Blakemore tube .
+Her varices had stigmata of recent bleeding , were banded successfully .
+after the procedure and 2 more units of packed red blood cells , the patient was hemodynamically stable and hematocrit was stable at 31.2 .
+At that time she was transferred from the Intensive Care Unit to Coden 2 for the Lemgarson Hospital service .
+HOSPITAL COURSE AND TREATMENT :
+As described above the patient was transfused an additional 2 units in the Intensive Care Unit and the patient also received an upper endoscopy study and her varices were banded .
+On transfer to the Lemgarson Hospital service , her hematocrit was 31.2 , white count 11.1 and a platelet count 80 .
+Her PT was 13.1 , PTT 26.7 .
+The rest of her labs were unremarkable .
+She was watched very closely while on the floor .
+She was on GI bleed precautions at all times , was too large for IV .
+She had a clot at the blood bank and she had BID hematocrits checked .
+She was kept NPO until January 26 when she began to feel hungry .
+At that time clear liquids were started .
+All of her stools were guaiaced .
+She also began Nadolol 40 mg QD to reduce her portal hypertension .
+The GI consult team continued to follow her .
+We also tried to contact her physician at Va Sit Namar Healthcare and was unsuccessful .
+Therefore we decided to work up her cirrhosis .
+She was described as having _______ cirrhosis and we decided that we wanted to try to figure out the etiology .
+Her ferritin and iron studies did not reveal any evidence of hemochromatosis and her hep serologies were all negative .
+She also had negative antimitochondrial antibody and she also had no evidence of ceruloplasmin .
+Over the course of her admission were also sent an alpha-1-antitrypsin , which was negative .
+She did very well over the course of her admission with no evidence of further bleeding .
+Her hematocrit stayed stable at approximately 32 .
+We also did an ultrasound guided paracentesis .
+The peritoneal fluid showed a glucose of 244 , total protein 0.8 and a albumin of 0.5 , globulin 0.3 , amylase 16 , LDH of 51 .
+The serum albumin gradient was 1.8 consistent with portal hypertension .
+The cell count showed a white blood cell count of 160 with 16% polys .
+She therefore _________ criteria for a spontaneous bacterial peritonitis .
+Her platelet count stayed persistently low and we decided that it might be due to Cimetidine .
+Therefore we switched her Cimetidine to Prilosec .
+By the 2th the patient was feeling very well and desired to transfer or discharge to home .
+She wanted to be closer to North Dakota .
+After discussion with her private physician , Dr. Joasscchird , tel. 090-249-6079 , at Va Sit Namar Healthcare and Dr. Acrookesjo at Do Of Hospital , the patient was judged to be fit for discharge and she was sent home with AH and physical therapy .
+She was quite able to climb stairs on her own in the hospital .
+She is to follow up with Dr. Acrookesjo in one week and Dr. Work the gastrointestinal fellow here at PUOMC in 2 weeks .
+She may require a repeat upper endoscopy study to see if she needs any rebanding .
+The patient however complained of a persistent wheeze with beta blocker , therefore it was agreed that we would stop the beta blocker until the patient was followed up as an outpatient .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1010" end="1065" text="the Ph University Of Medical Center Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E33" start="1101" end="1115" text="her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="1147" end="1157" text="transfused" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1177" end="1199" text="packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="123" end="144" text="cryptogenic cirrhosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1231" end="1245" text="her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="1298" end="1307" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="1312" end="1336" text="an upper endoscopy study" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E148" start="1337" end="1343" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E39" start="1344" end="1361" text="grade III varices" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="1370" end="1385" text="active bleeding" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E41" start="1390" end="1416" text="a clean base gastric ulcer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1439" end="1457" text="the Blakemore tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="1460" end="1471" text="Her varices" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="1476" end="1484" text="stigmata" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="1488" end="1503" text="recent bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="1511" end="1517" text="banded" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1539" end="1552" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1573" end="1595" text="packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="1614" end="1636" text="hemodynamically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="1641" end="1651" text="hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="1656" end="1662" text="stable" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E3" start="168" end="186" text="esophageal varices" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="1694" end="1705" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="1711" end="1734" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E54" start="1750" end="1780" text="the Lemgarson Hospital service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E55" start="1850" end="1860" text="transfused" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="1861" end="1882" text="an additional 2 units" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="1886" end="1909" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E58" start="1940" end="1964" text="an upper endoscopy study" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="1969" end="1980" text="her varices" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="1986" end="1992" text="banded" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="1998" end="2006" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E62" start="2010" end="2040" text="the Lemgarson Hospital service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E4" start="204" end="221" text="an Upper GI bleed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="2043" end="2057" text="her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E64" start="2069" end="2080" text="white count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="2090" end="2106" text="a platelet count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E66" start="2112" end="2118" text="Her PT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E67" start="2130" end="2133" text="PTT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E68" start="2153" end="2161" text="her labs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E69" start="2167" end="2179" text="unremarkable" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E70" start="2190" end="2210" text="watched very closely" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E71" start="2220" end="2229" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E72" start="2243" end="2263" text="GI bleed precautions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E73" start="2297" end="2299" text="IV" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E74" start="2310" end="2316" text="a clot" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="2347" end="2362" text="BID hematocrits" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E76" start="2386" end="2389" text="NPO" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="2425" end="2436" text="feel hungry" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E78" start="2452" end="2465" text="clear liquids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="2488" end="2498" text="her stools" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="2504" end="2512" text="guaiaced" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E81" start="2530" end="2537" text="Nadolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E82" start="2557" end="2580" text="her portal hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="260" end="277" text="variceal bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="2603" end="2612" text="continued" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E84" start="2616" end="2622" text="follow" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E85" start="2646" end="2667" text="contact her physician" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E86" start="2671" end="2694" text="Va Sit Namar Healthcare" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E1" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="2742" end="2749" text="work up" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E88" start="2750" end="2763" text="her cirrhosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E89" start="2774" end="2783" text="described" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E90" start="2802" end="2811" text="cirrhosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E91" start="2878" end="2890" text="Her ferritin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E92" start="2895" end="2907" text="iron studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E93" start="2916" end="2922" text="reveal" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E94" start="2939" end="2954" text="hemochromatosis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E95" start="2959" end="2977" text="her hep serologies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E96" start="3011" end="3046" text="negative antimitochondrial antibody" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E97" start="3079" end="3092" text="ceruloplasmin" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E98" start="3100" end="3127" text="the course of her admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E99" start="3143" end="3165" text="an alpha-1-antitrypsin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="316" end="324" text="followed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E100" start="3202" end="3206" text="well" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E101" start="3212" end="3239" text="the course of her admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E102" start="3260" end="3276" text="further bleeding" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E103" start="3279" end="3293" text="Her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E104" start="3301" end="3307" text="stable" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E105" start="3342" end="3375" text="an ultrasound guided paracentesis" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E106" start="3378" end="3398" text="The peritoneal fluid" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E108" start="3399" end="3405" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E107" start="3406" end="3415" text="a glucose" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E109" start="3425" end="3438" text="total protein" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E110" start="3447" end="3456" text="a albumin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E111" start="3466" end="3474" text="globulin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E112" start="3481" end="3488" text="amylase" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="349" end="369" text="Vaila Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E113" start="3494" end="3497" text="LDH" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E114" start="3506" end="3532" text="The serum albumin gradient" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E115" start="3557" end="3576" text="portal hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E116" start="3579" end="3593" text="The cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E117" start="3594" end="3600" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E118" start="3601" end="3625" text="a white blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E119" start="3687" end="3722" text="a spontaneous bacterial peritonitis" modality="HYPOTHETICAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E120" start="3725" end="3743" text="Her platelet count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E121" start="3751" end="3767" text="persistently low" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E123" start="3775" end="3782" text="decided" modality="POSSIBLE" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E122" start="3807" end="3817" text="Cimetidine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="383" end="408" text="her usual state of health" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E124" start="3842" end="3856" text="her Cimetidine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E125" start="3860" end="3868" text="Prilosec" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E126" start="3911" end="3915" text="well" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E128" start="4011" end="4021" text="discussion" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E129" start="4092" end="4115" text="Va Sit Namar Healthcare" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E131" start="4138" end="4152" text="Do Of Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E132" start="4192" end="4201" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E133" start="4214" end="4223" text="sent home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E134" start="4229" end="4231" text="AH" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E135" start="4236" end="4252" text="physical therapy" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E136" start="4263" end="4289" text="quite able to climb stairs" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E137" start="4304" end="4316" text="the hospital" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E138" start="4329" end="4338" text="follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E139" start="4420" end="4425" text="PUOMC" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E140" start="4455" end="4485" text="a repeat upper endoscopy study" modality="HYPOTHETICAL" polarity="POS" type="TEST" />
+<EVENT id="E141" start="4506" end="4519" text="any rebanding" modality="HYPOTHETICAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E142" start="4542" end="4552" text="complained" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E10" start="456" end="474" text="increasing fatigue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E143" start="4556" end="4575" text="a persistent wheeze" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E144" start="4581" end="4593" text="beta blocker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E145" start="4639" end="4655" text="the beta blocker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E146" start="4678" end="4689" text="followed up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="477" end="483" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="488" end="496" text="vomiting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="511" end="527" text="bright red blood" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="532" end="552" text="coffee ground emesis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="568" end="592" text="some black , tarry stool" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="596" end="613" text="her colostomy bag" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="619" end="639" text="Vaila Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E18" start="650" end="662" text="a hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="677" end="687" text="transfused" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="699" end="721" text="packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="732" end="750" text="an upper endoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E22" start="754" end="777" text="Va Sit Namar Healthcare" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E23" start="778" end="785" text="showing" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E147" start="786" end="816" text="an esophagus filled with clots" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="837" end="853" text="bleeding varices" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="856" end="875" text="clot in the stomach" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="881" end="897" text="antral gastritis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="904" end="921" text="a normal duodenum" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="943" end="952" text="Pitressin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="955" end="971" text="a Blakemore tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="995" end="1006" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T3" start="1075" end="1085" text="January 25" type="DATE" val="1997-01-25" mod="START" />
+<TIMEX3 id="T4" start="1205" end="1226" text="the course of the day" type="DURATION" val="PT24H" mod="NA" />
+<TIMEX3 id="T0" start="18" end="26" text="01/25/97" type="DATE" val="1997-01-25" mod="NA" />
+<TIMEX3 id="T5" start="2347" end="2350" text="BID" type="FREQUENCY" val="rp12h" mod="NA" />
+<TIMEX3 id="T6" start="2396" end="2406" text="January 26" type="DATE" val="1997-01-26" mod="NA" />
+<TIMEX3 id="T7" start="2544" end="2546" text="QD" type="FREQUENCY" val="RP24H" mod="NA" />
+<TIMEX3 id="T10" start="3874" end="3881" text="the 2th" type="DATE" val="1997-01-29" mod="APPROX" />
+<TIMEX3 id="T2" start="415" end="422" text="one day" type="DATE" val="1997-01-24" mod="NA" />
+<TIMEX3 id="T8" start="4362" end="4370" text="one week" type="DURATION" val="p1w" mod="NA" />
+<TIMEX3 id="T1" start="44" end="52" text="01/30/97" type="DATE" val="1997-01-30" mod="NA" />
+<TIMEX3 id="T9" start="4429" end="4436" text="2 weeks" type="DURATION" val="p2w" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T0" toText="01/25/97" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="DISCHARGE" toID="T1" toText="01/30/97" type="OVERLAP" />
+<TLINK id="TL10" fromID="E12" fromText="vomiting" toID="E10" toText="increasing fatigue" type="OVERLAP" />
+<TLINK id="TL100" fromID="E102" fromText="further bleeding" toID="E103" toText="Her hematocrit" type="OVERLAP" />
+<TLINK id="TL101" fromID="E103" fromText="Her hematocrit" toID="E100" toText="well" type="OVERLAP" />
+<TLINK id="TL102" fromID="E103" fromText="Her hematocrit" toID="E104" toText="stable" type="OVERLAP" />
+<TLINK id="TL103" fromID="E106" fromText="The peritoneal fluid" toID="E105" toText="an ultrasound guided paracentesis" type="OVERLAP" />
+<TLINK id="TL104" fromID="E106" fromText="The peritoneal fluid" toID="E107" toText="a glucose" type="SIMULTANEOUS" />
+<TLINK id="TL105" fromID="E106" fromText="The peritoneal fluid" toID="E109" toText="total protein" type="OVERLAP" />
+<TLINK id="TL106" fromID="E106" fromText="The peritoneal fluid" toID="E110" toText="a albumin" type="OVERLAP" />
+<TLINK id="TL107" fromID="E106" fromText="The peritoneal fluid" toID="E111" toText="globulin" type="OVERLAP" />
+<TLINK id="TL108" fromID="E106" fromText="The peritoneal fluid" toID="E112" toText="amylase" type="OVERLAP" />
+<TLINK id="TL109" fromID="E106" fromText="The peritoneal fluid" toID="E113" toText="LDH" type="OVERLAP" />
+<TLINK id="TL11" fromID="E13" fromText="bright red blood" toID="E10" toText="increasing fatigue" type="OVERLAP" />
+<TLINK id="TL110" fromID="E114" fromText="The serum albumin gradient" toID="E106" toText="The peritoneal fluid" type="OVERLAP" />
+<TLINK id="TL111" fromID="E116" fromText="The cell count" toID="E114" toText="The serum albumin gradient" type="OVERLAP" />
+<TLINK id="TL112" fromID="E114" fromText="The serum albumin gradient" toID="E115" toText="portal hypertension" type="OVERLAP" />
+<TLINK id="TL113" fromID="E117" fromText="showed" toID="E116" toText="The cell count" type="OVERLAP" />
+<TLINK id="TL114" fromID="E117" fromText="showed" toID="E118" toText="a white blood cell count" type="SIMULTANEOUS" />
+<TLINK id="TL115" fromID="E118" fromText="a white blood cell count" toID="E119" toText="a spontaneous bacterial peritonitis" type="OVERLAP" />
+<TLINK id="TL116" fromID="E121" fromText="persistently low" toID="E120" toText="Her platelet count" type="OVERLAP" />
+<TLINK id="TL117" fromID="E120" fromText="Her platelet count" toID="E116" toText="The cell count" type="OVERLAP" />
+<TLINK id="TL118" fromID="E121" fromText="persistently low" toID="E123" toText="decided" type="BEFORE" />
+<TLINK id="TL12" fromID="E14" fromText="coffee ground emesis" toID="E10" toText="increasing fatigue" type="OVERLAP" />
+<TLINK id="TL120" fromID="E124" fromText="her Cimetidine" toID="E122" toText="Cimetidine" type="SIMULTANEOUS" />
+<TLINK id="TL121" fromID="E122" fromText="Cimetidine" toID="E123" toText="decided" type="ENDED_BY" />
+<TLINK id="TL122" fromID="E125" fromText="Prilosec" toID="E124" toText="her Cimetidine" type="AFTER" />
+<TLINK id="TL123" fromID="E126" fromText="well" toID="T10" toText="the 2th" type="BEFORE_OVERLAP" />
+<TLINK id="TL124" fromID="E128" fromText="discussion" toID="E132" toText="discharge" type="BEFORE" />
+<TLINK id="TL125" fromID="E128" fromText="discussion" toID="T10" toText="the 2th" type="OVERLAP" />
+<TLINK id="TL126" fromID="E131" fromText="Do Of Hospital" toID="E129" toText="Va Sit Namar Healthcare" type="OVERLAP" />
+<TLINK id="TL127" fromID="E129" fromText="Va Sit Namar Healthcare" toID="E22" toText="Va Sit Namar Healthcare" type="SIMULTANEOUS" />
+<TLINK id="TL128" fromID="E133" fromText="sent home" toID="E132" toText="discharge" type="SIMULTANEOUS" />
+<TLINK id="TL129" fromID="T8" fromText="one week" toID="E132" toText="discharge" type="BEGUN_BY" />
+<TLINK id="TL13" fromID="E15" fromText="some black , tarry stool" toID="E10" toText="increasing fatigue" type="OVERLAP" />
+<TLINK id="TL130" fromID="T9" fromText="2 weeks" toID="E132" toText="discharge" type="BEGUN_BY" />
+<TLINK id="TL131" fromID="E140" fromText="a repeat upper endoscopy study" toID="E132" toText="discharge" type="AFTER" />
+<TLINK id="TL132" fromID="E135" fromText="physical therapy" toID="E134" toText="AH" type="OVERLAP" />
+<TLINK id="TL133" fromID="E134" fromText="AH" toID="E133" toText="sent home" type="AFTER" />
+<TLINK id="TL134" fromID="E136" fromText="quite able to climb stairs" toID="E137" toText="the hospital" type="DURING" />
+<TLINK id="TL135" fromID="T8" fromText="one week" toID="E138" toText="follow up" type="ENDED_BY" />
+<TLINK id="TL136" fromID="E141" fromText="any rebanding" toID="E140" toText="a repeat upper endoscopy study" type="OVERLAP" />
+<TLINK id="TL137" fromID="T9" fromText="2 weeks" toID="E139" toText="PUOMC" type="ENDED_BY" />
+<TLINK id="TL138" fromID="E143" fromText="a persistent wheeze" toID="E142" toText="complained" type="BEFORE_OVERLAP" />
+<TLINK id="TL139" fromID="E144" fromText="beta blocker" toID="E143" toText="a persistent wheeze" type="OVERLAP" />
+<TLINK id="TL14" fromID="E15" fromText="some black , tarry stool" toID="T2" toText="one day" type="BEGUN_BY" />
+<TLINK id="TL140" fromID="E145" fromText="the beta blocker" toID="E144" toText="beta blocker" type="SIMULTANEOUS" />
+<TLINK id="TL141" fromID="E145" fromText="the beta blocker" toID="E142" toText="complained" type="ENDED_BY" />
+<TLINK id="TL15" fromID="E16" fromText="her colostomy bag" toID="E15" toText="some black , tarry stool" type="OVERLAP" />
+<TLINK id="TL16" fromID="E17" fromText="Vaila Medical Center" toID="E7" toText="Vaila Medical Center" type="SIMULTANEOUS" />
+<TLINK id="TL17" fromID="E18" fromText="a hematocrit" toID="E17" toText="Vaila Medical Center" type="OVERLAP" />
+<TLINK id="TL18" fromID="E19" fromText="transfused" toID="E17" toText="Vaila Medical Center" type="OVERLAP" />
+<TLINK id="TL19" fromID="E20" fromText="packed red blood cells" toID="E19" toText="transfused" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="E2" fromText="cryptogenic cirrhosis" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL20" fromID="E21" fromText="an upper endoscopy" toID="E22" toText="Va Sit Namar Healthcare" type="OVERLAP" />
+<TLINK id="TL21" fromID="E23" fromText="showing" toID="E21" toText="an upper endoscopy" type="OVERLAP" />
+<TLINK id="TL23" fromID="E147" fromText="an esophagus filled with clots" toID="E23" toText="showing" type="BEFORE_OVERLAP" />
+<TLINK id="TL24" fromID="E25" fromText="bleeding varices" toID="E23" toText="showing" type="BEFORE_OVERLAP" />
+<TLINK id="TL25" fromID="E26" fromText="clot in the stomach" toID="E23" toText="showing" type="BEFORE_OVERLAP" />
+<TLINK id="TL26" fromID="E27" fromText="antral gastritis" toID="E26" toText="clot in the stomach" type="OVERLAP" />
+<TLINK id="TL27" fromID="E28" fromText="a normal duodenum" toID="E23" toText="showing" type="BEFORE_OVERLAP" />
+<TLINK id="TL28" fromID="E29" fromText="Pitressin" toID="E22" toText="Va Sit Namar Healthcare" type="BEGUN_BY" />
+<TLINK id="TL29" fromID="E30" fromText="a Blakemore tube" toID="E22" toText="Va Sit Namar Healthcare" type="OVERLAP" />
+<TLINK id="TL30" fromID="E22" fromText="Va Sit Namar Healthcare" toID="E31" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL31" fromID="E32" fromText="the Ph University Of Medical Center Intensive Care Unit" toID="E31" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL32" fromID="E31" fromText="transferred" toID="T3" toText="January 25" type="OVERLAP" />
+<TLINK id="TL33" fromID="E33" fromText="her hematocrit" toID="T3" toText="January 25" type="OVERLAP" />
+<TLINK id="TL34" fromID="E35" fromText="packed red blood cells" toID="E34" toText="transfused" type="SIMULTANEOUS" />
+<TLINK id="TL35" fromID="E34" fromText="transfused" toID="T4" toText="the course of the day" type="DURING" />
+<TLINK id="TL36" fromID="E36" fromText="her hematocrit" toID="T4" toText="the course of the day" type="DURING" />
+<TLINK id="TL37" fromID="E37" fromText="consulted" toID="E36" toText="her hematocrit" type="AFTER" />
+<TLINK id="TL38" fromID="E38" fromText="an upper endoscopy study" toID="E37" toText="consulted" type="OVERLAP" />
+<TLINK id="TL39" fromID="E148" fromText="showed" toID="E38" toText="an upper endoscopy study" type="OVERLAP" />
+<TLINK id="TL40" fromID="E39" fromText="grade III varices" toID="E148" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL41" fromID="E148" fromText="showed" toID="E41" toText="a clean base gastric ulcer" type="OVERLAP" />
+<TLINK id="TL42" fromID="E40" fromText="active bleeding" toID="E39" toText="grade III varices" type="OVERLAP" />
+<TLINK id="TL43" fromID="E42" fromText="the Blakemore tube" toID="E41" toText="a clean base gastric ulcer" type="BEFORE_OVERLAP" />
+<TLINK id="TL44" fromID="E42" fromText="the Blakemore tube" toID="E30" toText="a Blakemore tube" type="SIMULTANEOUS" />
+<TLINK id="TL45" fromID="E43" fromText="Her varices" toID="E39" toText="grade III varices" type="SIMULTANEOUS" />
+<TLINK id="TL46" fromID="E44" fromText="stigmata" toID="E43" toText="Her varices" type="SIMULTANEOUS" />
+<TLINK id="TL47" fromID="E43" fromText="Her varices" toID="E46" toText="banded" type="OVERLAP" />
+<TLINK id="TL48" fromID="E45" fromText="recent bleeding" toID="E44" toText="stigmata" type="BEFORE" />
+<TLINK id="TL49" fromID="E44" fromText="stigmata" toID="E38" toText="an upper endoscopy study" type="BEFORE_OVERLAP" />
+<TLINK id="TL50" fromID="E60" fromText="banded" toID="E46" toText="banded" type="SIMULTANEOUS" />
+<TLINK id="TL51" fromID="E48" fromText="packed red blood cells" toID="E47" toText="the procedure" type="AFTER" />
+<TLINK id="TL52" fromID="E47" fromText="the procedure" toID="E38" toText="an upper endoscopy study" type="SIMULTANEOUS" />
+<TLINK id="TL53" fromID="E49" fromText="hemodynamically stable" toID="E48" toText="packed red blood cells" type="AFTER" />
+<TLINK id="TL54" fromID="E50" fromText="hematocrit" toID="E48" toText="packed red blood cells" type="AFTER" />
+<TLINK id="TL55" fromID="E56" fromText="an additional 2 units" toID="E48" toText="packed red blood cells" type="SIMULTANEOUS" />
+<TLINK id="TL56" fromID="E50" fromText="hematocrit" toID="E51" toText="stable" type="SIMULTANEOUS" />
+<TLINK id="TL57" fromID="E52" fromText="transferred" toID="E49" toText="hemodynamically stable" type="AFTER" />
+<TLINK id="TL58" fromID="E53" fromText="the Intensive Care Unit" toID="E52" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL59" fromID="E54" fromText="the Lemgarson Hospital service" toID="E52" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL6" fromID="E7" fromText="Vaila Medical Center" toID="E6" toText="followed" type="SIMULTANEOUS" />
+<TLINK id="TL60" fromID="E61" fromText="transfer" toID="E52" toText="transferred" type="SIMULTANEOUS" />
+<TLINK id="TL61" fromID="E57" fromText="the Intensive Care Unit" toID="E53" toText="the Intensive Care Unit" type="SIMULTANEOUS" />
+<TLINK id="TL62" fromID="E62" fromText="the Lemgarson Hospital service" toID="E54" toText="the Lemgarson Hospital service" type="SIMULTANEOUS" />
+<TLINK id="TL64" fromID="E63" fromText="her hematocrit" toID="E61" toText="transfer" type="OVERLAP" />
+<TLINK id="TL65" fromID="E71" fromText="the floor" toID="E62" toText="the Lemgarson Hospital service" type="SIMULTANEOUS" />
+<TLINK id="TL66" fromID="E64" fromText="white count" toID="E63" toText="her hematocrit" type="OVERLAP" />
+<TLINK id="TL67" fromID="E65" fromText="a platelet count" toID="E64" toText="white count" type="OVERLAP" />
+<TLINK id="TL68" fromID="E66" fromText="Her PT" toID="E65" toText="a platelet count" type="OVERLAP" />
+<TLINK id="TL69" fromID="E67" fromText="PTT" toID="E66" toText="Her PT" type="OVERLAP" />
+<TLINK id="TL7" fromID="E8" fromText="her usual state of health" toID="T2" toText="one day" type="ENDED_BY" />
+<TLINK id="TL70" fromID="E68" fromText="her labs" toID="E67" toText="PTT" type="OVERLAP" />
+<TLINK id="TL71" fromID="E68" fromText="her labs" toID="E69" toText="unremarkable" type="OVERLAP" />
+<TLINK id="TL72" fromID="E70" fromText="watched very closely" toID="E71" toText="the floor" type="DURING" />
+<TLINK id="TL73" fromID="E72" fromText="GI bleed precautions" toID="E70" toText="watched very closely" type="OVERLAP" />
+<TLINK id="TL74" fromID="E73" fromText="IV" toID="E72" toText="GI bleed precautions" type="OVERLAP" />
+<TLINK id="TL75" fromID="E73" fromText="IV" toID="E71" toText="the floor" type="OVERLAP" />
+<TLINK id="TL76" fromID="E75" fromText="BID hematocrits" toID="E74" toText="a clot" type="OVERLAP" />
+<TLINK id="TL77" fromID="E76" fromText="NPO" toID="T6" toText="January 26" type="ENDED_BY" />
+<TLINK id="TL78" fromID="E78" fromText="clear liquids" toID="E77" toText="feel hungry" type="AFTER" />
+<TLINK id="TL79" fromID="E77" fromText="feel hungry" toID="T6" toText="January 26" type="OVERLAP" />
+<TLINK id="TL8" fromID="E10" fromText="increasing fatigue" toID="T2" toText="one day" type="BEGUN_BY" />
+<TLINK id="TL80" fromID="E79" fromText="her stools" toID="E80" toText="guaiaced" type="SIMULTANEOUS" />
+<TLINK id="TL81" fromID="E81" fromText="Nadolol" toID="T7" toText="QD" type="SIMULTANEOUS" />
+<TLINK id="TL82" fromID="E81" fromText="Nadolol" toID="E82" toText="her portal hypertension" type="AFTER" />
+<TLINK id="TL83" fromID="E84" fromText="follow" toID="E83" toText="continued" type="SIMULTANEOUS" />
+<TLINK id="TL84" fromID="E86" fromText="Va Sit Namar Healthcare" toID="E85" toText="contact her physician" type="SIMULTANEOUS" />
+<TLINK id="TL85" fromID="E88" fromText="her cirrhosis" toID="E87" toText="work up" type="BEFORE_OVERLAP" />
+<TLINK id="TL86" fromID="E91" fromText="Her ferritin" toID="E87" toText="work up" type="OVERLAP" />
+<TLINK id="TL87" fromID="E92" fromText="iron studies" toID="E87" toText="work up" type="OVERLAP" />
+<TLINK id="TL88" fromID="E94" fromText="hemochromatosis" toID="E87" toText="work up" type="BEFORE_OVERLAP" />
+<TLINK id="TL89" fromID="E92" fromText="iron studies" toID="E93" toText="reveal" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="E11" fromText="nausea" toID="E10" toText="increasing fatigue" type="OVERLAP" />
+<TLINK id="TL90" fromID="E93" fromText="reveal" toID="E94" toText="hemochromatosis" type="OVERLAP" />
+<TLINK id="TL91" fromID="E95" fromText="her hep serologies" toID="E94" toText="hemochromatosis" type="OVERLAP" />
+<TLINK id="TL92" fromID="E95" fromText="her hep serologies" toID="E87" toText="work up" type="OVERLAP" />
+<TLINK id="TL93" fromID="E96" fromText="negative antimitochondrial antibody" toID="E87" toText="work up" type="OVERLAP" />
+<TLINK id="TL94" fromID="E97" fromText="ceruloplasmin" toID="E87" toText="work up" type="BEFORE_OVERLAP" />
+<TLINK id="TL95" fromID="E105" fromText="an ultrasound guided paracentesis" toID="E87" toText="work up" type="OVERLAP" />
+<TLINK id="TL96" fromID="E99" fromText="an alpha-1-antitrypsin" toID="E98" toText="the course of her admission" type="DURING" />
+<TLINK id="TL97" fromID="E101" fromText="the course of her admission" toID="E98" toText="the course of her admission" type="SIMULTANEOUS" />
+<TLINK id="TL98" fromID="E100" fromText="well" toID="E101" toText="the course of her admission" type="DURING" />
+<TLINK id="TL99" fromID="E102" fromText="further bleeding" toID="E100" toText="well" type="OVERLAP" />
+<TLINK id="Sectime0" fromID="E32" fromText="the Ph University Of Medical Center Intensive Care Unit" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E33" fromText="her hematocrit" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E34" fromText="transfused" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E35" fromText="packed red blood cells" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E2" fromText="cryptogenic cirrhosis" toID="T0" toText="01/25/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime5" fromID="E36" fromText="her hematocrit" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E37" fromText="consulted" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E38" fromText="an upper endoscopy study" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E148" fromText="showed" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E39" fromText="grade III varices" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E40" fromText="active bleeding" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E41" fromText="a clean base gastric ulcer" toID="T0" toText="01/25/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime12" fromID="E42" fromText="the Blakemore tube" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E43" fromText="Her varices" toID="T0" toText="01/25/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime14" fromID="E44" fromText="stigmata" toID="T0" toText="01/25/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime15" fromID="E45" fromText="recent bleeding" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E46" fromText="banded" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E47" fromText="the procedure" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E48" fromText="packed red blood cells" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E49" fromText="hemodynamically stable" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E50" fromText="hematocrit" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E51" fromText="stable" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E3" fromText="esophageal varices" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E52" fromText="transferred" toID="T0" toText="01/25/97" type="OVERLAP" />
+<TLINK id="Sectime24" fromID="E53" fromText="the Intensive Care Unit" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E54" fromText="the Lemgarson Hospital service" toID="T0" toText="01/25/97" type="OVERLAP" />
+<TLINK id="Sectime0" fromID="E55" fromText="transfused" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E56" fromText="an additional 2 units" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E57" fromText="the Intensive Care Unit" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E58" fromText="an upper endoscopy study" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E59" fromText="her varices" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E60" fromText="banded" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E61" fromText="transfer" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E62" fromText="the Lemgarson Hospital service" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E4" fromText="an Upper GI bleed" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E63" fromText="her hematocrit" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E64" fromText="white count" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E65" fromText="a platelet count" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E66" fromText="Her PT" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E67" fromText="PTT" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E68" fromText="her labs" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E69" fromText="unremarkable" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E70" fromText="watched very closely" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E71" fromText="the floor" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E72" fromText="GI bleed precautions" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E73" fromText="IV" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E74" fromText="a clot" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E75" fromText="BID hematocrits" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E76" fromText="NPO" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E77" fromText="feel hungry" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E78" fromText="clear liquids" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E79" fromText="her stools" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E80" fromText="guaiaced" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E81" fromText="Nadolol" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E82" fromText="her portal hypertension" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E5" fromText="variceal bleeding" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E83" fromText="continued" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E84" fromText="follow" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E85" fromText="contact her physician" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime31" fromID="E86" fromText="Va Sit Namar Healthcare" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime32" fromID="E87" fromText="work up" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime33" fromID="E88" fromText="her cirrhosis" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime34" fromID="E89" fromText="described" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime35" fromID="E90" fromText="cirrhosis" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime36" fromID="E91" fromText="Her ferritin" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime37" fromID="E92" fromText="iron studies" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime38" fromID="E93" fromText="reveal" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime39" fromID="E94" fromText="hemochromatosis" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime40" fromID="E95" fromText="her hep serologies" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime41" fromID="E96" fromText="negative antimitochondrial antibody" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime42" fromID="E97" fromText="ceruloplasmin" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime43" fromID="E98" fromText="the course of her admission" toID="T1" toText="01/30/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime44" fromID="E99" fromText="an alpha-1-antitrypsin" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E6" fromText="followed" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime45" fromID="E100" fromText="well" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime46" fromID="E101" fromText="the course of her admission" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime47" fromID="E102" fromText="further bleeding" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime48" fromID="E103" fromText="Her hematocrit" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime49" fromID="E104" fromText="stable" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime50" fromID="E105" fromText="an ultrasound guided paracentesis" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime51" fromID="E106" fromText="The peritoneal fluid" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime52" fromID="E108" fromText="showed" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime53" fromID="E107" fromText="a glucose" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime54" fromID="E109" fromText="total protein" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime55" fromID="E110" fromText="a albumin" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime56" fromID="E111" fromText="globulin" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime57" fromID="E112" fromText="amylase" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E7" fromText="Vaila Medical Center" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime58" fromID="E113" fromText="LDH" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime59" fromID="E114" fromText="The serum albumin gradient" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime60" fromID="E115" fromText="portal hypertension" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime61" fromID="E116" fromText="The cell count" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime62" fromID="E117" fromText="showed" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime63" fromID="E118" fromText="a white blood cell count" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime64" fromID="E119" fromText="a spontaneous bacterial peritonitis" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime65" fromID="E120" fromText="Her platelet count" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime66" fromID="E121" fromText="persistently low" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime67" fromID="E123" fromText="decided" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime68" fromID="E122" fromText="Cimetidine" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E8" fromText="her usual state of health" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime69" fromID="E124" fromText="her Cimetidine" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime70" fromID="E125" fromText="Prilosec" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime71" fromID="E126" fromText="well" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime72" fromID="E128" fromText="discussion" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime73" fromID="E129" fromText="Va Sit Namar Healthcare" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime74" fromID="E131" fromText="Do Of Hospital" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime75" fromID="E132" fromText="discharge" toID="T1" toText="01/30/97" type="OVERLAP" />
+<TLINK id="Sectime76" fromID="E133" fromText="sent home" toID="T1" toText="01/30/97" type="OVERLAP" />
+<TLINK id="Sectime77" fromID="E134" fromText="AH" toID="T1" toText="01/30/97" type="AFTER" />
+<TLINK id="Sectime78" fromID="E135" fromText="physical therapy" toID="T1" toText="01/30/97" type="AFTER" />
+<TLINK id="Sectime79" fromID="E136" fromText="quite able to climb stairs" toID="T1" toText="01/30/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime80" fromID="E137" fromText="the hospital" toID="T1" toText="01/30/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime81" fromID="E138" fromText="follow up" toID="T1" toText="01/30/97" type="AFTER" />
+<TLINK id="Sectime82" fromID="E139" fromText="PUOMC" toID="T1" toText="01/30/97" type="AFTER" />
+<TLINK id="Sectime83" fromID="E140" fromText="a repeat upper endoscopy study" toID="T1" toText="01/30/97" type="AFTER" />
+<TLINK id="Sectime84" fromID="E141" fromText="any rebanding" toID="T1" toText="01/30/97" type="AFTER" />
+<TLINK id="Sectime85" fromID="E142" fromText="complained" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime31" fromID="E10" fromText="increasing fatigue" toID="T0" toText="01/25/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime86" fromID="E143" fromText="a persistent wheeze" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime87" fromID="E144" fromText="beta blocker" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime88" fromID="E145" fromText="the beta blocker" toID="T1" toText="01/30/97" type="BEFORE" />
+<TLINK id="Sectime89" fromID="E146" fromText="followed up" toID="T1" toText="01/30/97" type="AFTER" />
+<TLINK id="Sectime32" fromID="E11" fromText="nausea" toID="T0" toText="01/25/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime33" fromID="E12" fromText="vomiting" toID="T0" toText="01/25/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime34" fromID="E13" fromText="bright red blood" toID="T0" toText="01/25/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime35" fromID="E14" fromText="coffee ground emesis" toID="T0" toText="01/25/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime36" fromID="E15" fromText="some black , tarry stool" toID="T0" toText="01/25/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime37" fromID="E16" fromText="her colostomy bag" toID="T0" toText="01/25/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime38" fromID="E17" fromText="Vaila Medical Center" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime39" fromID="E18" fromText="a hematocrit" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime40" fromID="E19" fromText="transfused" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime41" fromID="E20" fromText="packed red blood cells" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime42" fromID="E21" fromText="an upper endoscopy" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime43" fromID="E22" fromText="Va Sit Namar Healthcare" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime44" fromID="E23" fromText="showing" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime45" fromID="E147" fromText="an esophagus filled with clots" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime46" fromID="E25" fromText="bleeding varices" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime47" fromID="E26" fromText="clot in the stomach" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime48" fromID="E27" fromText="antral gastritis" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime49" fromID="E28" fromText="a normal duodenum" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime50" fromID="E29" fromText="Pitressin" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime51" fromID="E30" fromText="a Blakemore tube" toID="T0" toText="01/25/97" type="BEFORE" />
+<TLINK id="Sectime52" fromID="E31" fromText="transferred" toID="T0" toText="01/25/97" type="BEFORE" />
+<SECTIME id="S0" start="18" end="26" text="01/25/97" type="ADMISSION" dvalue="1997-01-25" />
+<SECTIME id="S1" start="44" end="52" text="01/30/97" type="DISCHARGE" dvalue="1997-01-30" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

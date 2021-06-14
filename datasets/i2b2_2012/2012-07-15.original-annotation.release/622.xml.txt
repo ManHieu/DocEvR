@@ -1,0 +1,34 @@
+Admission Date :
+2014-04-17
+Discharge Date :
+2014-04-25
+Service :
+CARDIOTHORACIC
+History of Present Illness :
+This is a 60 year old male with new onset chest pain .
+Nuclear myocardial perfusion study was notable for a moderate fixed defect within the inferior wall and cardiac apex .
+His ejection fraction however appeared preserved at 73% with mild inferior wall hypokinesis .
+Subsequent cardiac catheterization at Nantucket Cottage Hospital Hospital on 2014-04-16 was significant for severe two vessel coronary artery disease .
+Angiography revealed a right dominant system with a 40% lesion in the distal left main, several tight lesions in the proximal and mid left anterior descending artery , and a 90% stenosis in the proximal circumflex .
+The right coronary artery had mild diffuse plaquing but no evidence of focal stenosis .
+Based upon the above results , he was transferred to the Mediplex Rehab Hospital for surgical revascularization .
+Brief Hospital Course :
+Mr. Chester was admitted to the cardiac surgical service and underwent routine preoperative evaluation .
+He remained pain free on medical therapy .
+Workup was unremarkable and he was cleared for surgery .
+On 04-18 , Dr. Oneill performed off pump coronary artery bypass grafting .
+For surgical details , please see seperate dictated operative note .
+Following the operation , he was brought to the CSRU for invasive monitoring .
+Within 24 hours , he awoke neurologically intact and was extubated without incident .
+Given hypotension and bradycardia , he was slow to wean from Neosynephrine .
+Low dose beta blockade was eventually resumed .
+Chest tubes and pacing wires were removed without complication .
+On postoperative day three , he transferred to the SDU .
+He maintained a normal sinus rhythm without atrial or ventricular arrhythmias .
+He remained in sinus bradycardia ( rate 50-60 ) and tolerated low dose beta blockade .
+On POD #6 his creatinine became slightly elevated at 1.4 , his lasix was discontinued and the following day his creatinine was stable at 1.4 .
+He continued to progress and was eventually cleared for discharge to home on postoperative day 7 .
+His discharge chest x-ray showed persistent bibasilar atelectasis with only tiny pleural effusions .
+Of note , he will need to remain on Plavix for three months postop given the off pump procedure .
+In addition , he will need to remain on Imdur given use of his right internal mammary artery as a " free " arterial graft in preventing 
+vasospasm .

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+11/17/2003
+Discharge Date :
+12/22/2003
+HISTORY OF PRESENT ILLNESS :
+This is a 57-year-old female status post ERT with recurrence of a pelvic mass and resection at an outside hospital in 06/22 .
+Per the patient , the mass was benign .
+The patient developed severe left lower quadrant pain in 07/24 .
+An MRI was done on 08/27/03 that showed an 8 cm left lower quadrant mass with both cystic and solid components .
+The patient was started on Lupron on 10/18/03 , but pain was not affected .
+She was put on Vicodin ES and Ultram with minimal relief .
+On 11/16/03 , the patient &apos;s pain increased and she presented to an outside hospital with nausea and vomiting and an inability to tolerate p.o. intake .
+The left lower quadrant pain in the groin radiated to the left knee .
+No fevers or chills , no vaginal discharge or bleeding .
+Potassium at the outside hospital was 3.1 .
+White count was 27.3 with 16% bands .
+Hematocrit was 28.7 .
+The patient was transferred to NVH after receiving intravenous fluid with potassium , Demerol for pain control and clindamycin , Valium and droperidol .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="1005" end="1022" text="intravenous fluid" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="1028" end="1037" text="potassium" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="1040" end="1047" text="Demerol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="1052" end="1064" text="pain control" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="1069" end="1080" text="clindamycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="1083" end="1089" text="Valium" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="1094" end="1104" text="droperidol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="127" end="130" text="ERT" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="150" end="163" text="a pelvic mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="168" end="177" text="resection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="181" end="200" text="an outside hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E34" start="212" end="227" text="Per the patient" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E4" start="230" end="238" text="the mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="243" end="249" text="benign" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="274" end="305" text="severe left lower quadrant pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="317" end="323" text="An MRI" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="350" end="356" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E7" start="357" end="389" text="an 8 cm left lower quadrant mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="395" end="427" text="both cystic and solid components" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="457" end="463" text="Lupron" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="482" end="486" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="495" end="503" text="affected" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E11" start="521" end="531" text="Vicodin ES" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="536" end="542" text="Ultram" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="556" end="562" text="relief" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="579" end="603" text="the patient &apos;s pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="604" end="613" text="increased" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="622" end="631" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="635" end="654" text="an outside hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E13" start="660" end="666" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="671" end="679" text="vomiting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="684" end="720" text="an inability to tolerate p.o. intake" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="723" end="764" text="The left lower quadrant pain in the groin" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="765" end="773" text="radiated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="777" end="790" text="the left knee" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="796" end="802" text="fevers" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E17" start="806" end="812" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E18" start="818" end="835" text="vaginal discharge" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E19" start="839" end="847" text="bleeding" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E20" start="850" end="859" text="Potassium" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="863" end="883" text="the outside hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E21" start="894" end="905" text="White count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E22" start="920" end="929" text="16% bands" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="932" end="942" text="Hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="970" end="981" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="985" end="988" text="NVH" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<TIMEX3 id="T0" start="18" end="28" text="11/17/2003" type="DATE" val="2003-11-17" mod="NA" />
+<TIMEX3 id="T1" start="204" end="209" text="06/22" type="DATE" val="2003-06-22" mod="NA" />
+<TIMEX3 id="T5" start="309" end="314" text="07/24" type="DATE" val="2003-07-24" mod="NA" />
+<TIMEX3 id="T2" start="336" end="344" text="08/27/03" type="DATE" val="2003-08-27" mod="NA" />
+<TIMEX3 id="T4" start="46" end="56" text="12/22/2003" type="DATE" val="2003-12-22" mod="NA" />
+<TIMEX3 id="T6" start="467" end="475" text="10/18/03" type="DATE" val="2003-10-18" mod="NA" />
+<TIMEX3 id="T3" start="568" end="576" text="11/16/03" type="DATE" val="2003-11-16" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="11/17/2003" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E32" fromText="Discharge" toID="T4" toText="12/22/2003" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E5" fromText="severe left lower quadrant pain" toID="T5" toText="07/24" type="BEGUN_BY" />
+<TLINK id="TL11" fromID="T5" fromText="07/24" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL12" fromID="E6" fromText="An MRI" toID="T2" toText="08/27/03" type="SIMULTANEOUS" />
+<TLINK id="TL13" fromID="T2" fromText="08/27/03" toID="T5" toText="07/24" type="AFTER" />
+<TLINK id="TL14" fromID="T2" fromText="08/27/03" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL15" fromID="E36" fromText="showed" toID="E6" toText="An MRI" type="SIMULTANEOUS" />
+<TLINK id="TL16" fromID="E7" fromText="an 8 cm left lower quadrant mass" toID="E36" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL17" fromID="E8" fromText="both cystic and solid components" toID="E7" toText="an 8 cm left lower quadrant mass" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E9" fromText="Lupron" toID="T6" toText="10/18/03" type="BEGUN_BY" />
+<TLINK id="TL2" fromID="E1" fromText="ERT" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL20" fromID="T6" fromText="10/18/03" toID="T2" toText="08/27/03" type="AFTER" />
+<TLINK id="TL21" fromID="T6" fromText="10/18/03" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL22" fromID="E10" fromText="pain" toID="E5" toText="severe left lower quadrant pain" type="SIMULTANEOUS" />
+<TLINK id="TL23" fromID="E37" fromText="affected" toID="T6" toText="10/18/03" type="AFTER" />
+<TLINK id="TL24" fromID="E11" fromText="Vicodin ES" toID="E37" toText="affected" type="BEGUN_BY" />
+<TLINK id="TL25" fromID="E12" fromText="Ultram" toID="E11" toText="Vicodin ES" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="E12" fromText="Ultram" toID="E38" toText="relief" type="BEFORE_OVERLAP" />
+<TLINK id="TL27" fromID="T3" fromText="11/16/03" toID="T6" toText="10/18/03" type="AFTER" />
+<TLINK id="TL28" fromID="T3" fromText="11/16/03" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL29" fromID="E39" fromText="the patient &apos;s pain" toID="E10" toText="pain" type="SIMULTANEOUS" />
+<TLINK id="TL3" fromID="E2" fromText="a pelvic mass" toID="E1" toText="ERT" type="OVERLAP" />
+<TLINK id="TL30" fromID="E40" fromText="increased" toID="T3" toText="11/16/03" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E31" fromText="presented" toID="E40" toText="increased" type="AFTER" />
+<TLINK id="TL32" fromID="E41" fromText="an outside hospital" toID="E31" toText="presented" type="BEGUN_BY" />
+<TLINK id="TL33" fromID="E31" fromText="presented" toID="T3" toText="11/16/03" type="SIMULTANEOUS" />
+<TLINK id="TL34" fromID="E13" fromText="nausea" toID="E31" toText="presented" type="BEFORE_OVERLAP" />
+<TLINK id="TL35" fromID="E14" fromText="vomiting" toID="E13" toText="nausea" type="OVERLAP" />
+<TLINK id="TL36" fromID="E15" fromText="an inability to tolerate p.o. intake" toID="E14" toText="vomiting" type="OVERLAP" />
+<TLINK id="TL37" fromID="E42" fromText="The left lower quadrant pain in the groin" toID="E39" toText="the patient &apos;s pain" type="SIMULTANEOUS" />
+<TLINK id="TL38" fromID="E43" fromText="radiated" toID="E44" toText="the left knee" type="SIMULTANEOUS" />
+<TLINK id="TL39" fromID="E42" fromText="The left lower quadrant pain in the groin" toID="E43" toText="radiated" type="BEFORE_OVERLAP" />
+<TLINK id="TL4" fromID="E2" fromText="a pelvic mass" toID="E3" toText="resection" type="ENDED_BY" />
+<TLINK id="TL40" fromID="E43" fromText="radiated" toID="E15" toText="an inability to tolerate p.o. intake" type="OVERLAP" />
+<TLINK id="TL41" fromID="E16" fromText="fevers" toID="E43" toText="radiated" type="OVERLAP" />
+<TLINK id="TL42" fromID="E17" fromText="chills" toID="E16" toText="fevers" type="OVERLAP" />
+<TLINK id="TL43" fromID="E18" fromText="vaginal discharge" toID="E17" toText="chills" type="OVERLAP" />
+<TLINK id="TL44" fromID="E19" fromText="bleeding" toID="E18" toText="vaginal discharge" type="OVERLAP" />
+<TLINK id="TL45" fromID="E45" fromText="the outside hospital" toID="E41" toText="an outside hospital" type="SIMULTANEOUS" />
+<TLINK id="TL46" fromID="E20" fromText="Potassium" toID="E45" toText="the outside hospital" type="DURING" />
+<TLINK id="TL47" fromID="E21" fromText="White count" toID="E20" toText="Potassium" type="OVERLAP" />
+<TLINK id="TL48" fromID="E22" fromText="16% bands" toID="E21" toText="White count" type="SIMULTANEOUS" />
+<TLINK id="TL49" fromID="E23" fromText="Hematocrit" toID="E21" toText="White count" type="OVERLAP" />
+<TLINK id="TL5" fromID="E3" fromText="resection" toID="E33" toText="an outside hospital" type="DURING" />
+<TLINK id="TL50" fromID="E45" fromText="the outside hospital" toID="E46" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL51" fromID="E47" fromText="NVH" toID="E46" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL52" fromID="E46" fromText="transferred" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL53" fromID="E46" fromText="transferred" toID="E24" toText="intravenous fluid" type="AFTER" />
+<TLINK id="TL54" fromID="E25" fromText="potassium" toID="E24" toText="intravenous fluid" type="SIMULTANEOUS" />
+<TLINK id="TL55" fromID="E26" fromText="Demerol" toID="E25" toText="potassium" type="OVERLAP" />
+<TLINK id="TL56" fromID="E27" fromText="pain control" toID="E26" toText="Demerol" type="SIMULTANEOUS" />
+<TLINK id="TL57" fromID="E28" fromText="clindamycin" toID="E26" toText="Demerol" type="OVERLAP" />
+<TLINK id="TL58" fromID="E29" fromText="Valium" toID="E28" toText="clindamycin" type="OVERLAP" />
+<TLINK id="TL59" fromID="E30" fromText="droperidol" toID="E29" toText="Valium" type="OVERLAP" />
+<TLINK id="TL6" fromID="E3" fromText="resection" toID="T1" toText="06/22" type="SIMULTANEOUS" />
+<TLINK id="TL7" fromID="E34" fromText="Per the patient" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E4" fromText="the mass" toID="E2" toText="a pelvic mass" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="E35" fromText="benign" toID="E4" toText="the mass" type="SIMULTANEOUS" />
+<TLINK id="Sectime0" fromID="E24" fromText="intravenous fluid" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E25" fromText="potassium" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E26" fromText="Demerol" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E27" fromText="pain control" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E28" fromText="clindamycin" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E29" fromText="Valium" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E30" fromText="droperidol" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E1" fromText="ERT" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E2" fromText="a pelvic mass" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E3" fromText="resection" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E33" fromText="an outside hospital" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E34" fromText="Per the patient" toID="T0" toText="11/17/2003" type="OVERLAP" />
+<TLINK id="Sectime12" fromID="E4" fromText="the mass" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E35" fromText="benign" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E5" fromText="severe left lower quadrant pain" toID="T0" toText="11/17/2003" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime15" fromID="E6" fromText="An MRI" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E36" fromText="showed" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E7" fromText="an 8 cm left lower quadrant mass" toID="T0" toText="11/17/2003" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime18" fromID="E8" fromText="both cystic and solid components" toID="T0" toText="11/17/2003" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime19" fromID="E9" fromText="Lupron" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E10" fromText="pain" toID="T0" toText="11/17/2003" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime21" fromID="E37" fromText="affected" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E11" fromText="Vicodin ES" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E12" fromText="Ultram" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E38" fromText="relief" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E39" fromText="the patient &apos;s pain" toID="T0" toText="11/17/2003" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime26" fromID="E40" fromText="increased" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E31" fromText="presented" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E41" fromText="an outside hospital" toID="T0" toText="11/17/2003" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime29" fromID="E13" fromText="nausea" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E14" fromText="vomiting" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime31" fromID="E15" fromText="an inability to tolerate p.o. intake" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime32" fromID="E42" fromText="The left lower quadrant pain in the groin" toID="T0" toText="11/17/2003" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime33" fromID="E43" fromText="radiated" toID="T0" toText="11/17/2003" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime34" fromID="E44" fromText="the left knee" toID="T0" toText="11/17/2003" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime35" fromID="E16" fromText="fevers" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime36" fromID="E17" fromText="chills" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime37" fromID="E18" fromText="vaginal discharge" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime38" fromID="E19" fromText="bleeding" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime39" fromID="E20" fromText="Potassium" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime40" fromID="E45" fromText="the outside hospital" toID="T0" toText="11/17/2003" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime41" fromID="E21" fromText="White count" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime42" fromID="E22" fromText="16% bands" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime43" fromID="E23" fromText="Hematocrit" toID="T0" toText="11/17/2003" type="BEFORE" />
+<TLINK id="Sectime44" fromID="E46" fromText="transferred" toID="T0" toText="11/17/2003" type="OVERLAP" />
+<TLINK id="Sectime45" fromID="E47" fromText="NVH" toID="T0" toText="11/17/2003" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="11/17/2003" type="ADMISSION" dvalue="2003-11-17" />
+<SECTIME id="S1" start="46" end="56" text="12/22/2003" type="DISCHARGE" dvalue="2003-12-22" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

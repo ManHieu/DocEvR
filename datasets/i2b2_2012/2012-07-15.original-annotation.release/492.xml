@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2016-02-14
+Discharge Date :
+Date of Birth :
+Service :
+ADMISSION DIAGNOSIS :
+HISTORY OF PRESENT ILLNESS :
+The patient is a 63 year old gentleman who had initially presented with exertional chest pressure several weeks prior to this admission that would resolve with rest .
+Stress echocardiogram demonstrated an ejection fraction of 40% , hypokinesis of distal anterior wall , akinesis of distal inferior wall and apex .
+The patient had a cardiac catheterization which revealed three vessel disease and the patient now presents for elective coronary artery bypass grafting .
+HOSPITAL COURSE :
+The patient was initially admitted to the medical service for optimization prior to his coronary artery bypass graft .
+The patient was given stress dose steroids on the day prior to his surgery .
+He was closely followed from his admission through to his discharge by the renal service for his transplant issues .
+On 2016-02-15 , the patient was taken to the operating room and had an off pump coronary artery bypass graft performed with the left internal mammary artery to the left anterior descending , saphenous vein graft to obtuse marginal and posterior descending artery .
+For details of this operation , please see the previously dictated operative note .
+Postoperatively , the patient was transferred to the CSRU for close monitoring .
+On the evening of postoperative day number zero , the patient had decreased urine output and was placed on a Lasix drip for diuresis .
+The patient tolerated this well .
+The renal service continued to follow close management of his immunosuppression .
+On postoperative day number one , the patient was extubated and awakened from sedation .
+He did well on this and his Levophed drip was weaned to off as tolerated .
+Over the course of his Intensive Care Unit stay , the patient received six units of packed red blood cells for a low hematocrit .
+He otherwise had a fairly uncomplicated postoperative course .
+On postoperative day number three , the patient was transferred to the floor .
+On postoperative day number four , the patient was noted to have a low platelet level of 43,000 .
+Heparin induced thrombocytopenia antibody panel was sent .
+Other than this , the patient did very well .
+Chest tubes were removed when output was low .
+Pacing wires were removed .
+Physical therapy saw the patient and cleared the patient for discharge .
+Ultimately , the patient was discharged on postoperative day number six tolerating a regular diet , adequate pain control on p.o. pain medications , and ambulating well with clearance of physical therapy .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1046" end="1110" text="the left internal mammary artery to the left anterior descending" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1113" end="1152" text="saphenous vein graft to obtuse marginal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1202" end="1216" text="this operation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1245" end="1253" text="dictated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E36" start="1305" end="1316" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1320" end="1328" text="the CSRU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E38" start="1333" end="1349" text="close monitoring" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="1418" end="1440" text="decreased urine output" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="1459" end="1471" text="a Lasix drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1476" end="1484" text="diuresis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="1499" end="1508" text="tolerated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E43" start="1514" end="1518" text="well" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E44" start="1559" end="1575" text="close management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1579" end="1600" text="his immunosuppression" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1653" end="1662" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1667" end="1675" text="awakened" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="1681" end="1689" text="sedation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="1695" end="1703" text="did well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="1716" end="1733" text="his Levophed drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="1738" end="1751" text="weaned to off" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="1772" end="1814" text="the course of his Intensive Care Unit stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="180" end="189" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E53" start="1851" end="1873" text="packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1878" end="1894" text="a low hematocrit" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="1923" end="1936" text="uncomplicated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E77" start="1937" end="1957" text="postoperative course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="195" end="220" text="exertional chest pressure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="2012" end="2023" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="2027" end="2036" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E59" start="2104" end="2124" text="a low platelet level" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="2137" end="2184" text="Heparin induced thrombocytopenia antibody panel" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E61" start="2235" end="2239" text="well" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E62" start="2242" end="2253" text="Chest tubes" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="2259" end="2266" text="removed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="2272" end="2278" text="output" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="2283" end="2286" text="low" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E66" start="2289" end="2301" text="Pacing wires" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E67" start="2307" end="2314" text="removed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="2317" end="2333" text="Physical therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="2354" end="2361" text="cleared" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="2378" end="2387" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="2419" end="2429" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E72" start="2462" end="2487" text="tolerating a regular diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="244" end="258" text="this admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="2499" end="2511" text="pain control" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E74" start="2515" end="2536" text="p.o. pain medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="2543" end="2553" text="ambulating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="2564" end="2593" text="clearance of physical therapy" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="270" end="277" text="resolve" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="283" end="287" text="rest" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="290" end="311" text="Stress echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="312" end="324" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E9" start="325" end="345" text="an ejection fraction" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E12" start="355" end="390" text="hypokinesis of distal anterior wall" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="393" end="434" text="akinesis of distal inferior wall and apex" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="453" end="478" text="a cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="485" end="493" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E16" start="494" end="514" text="three vessel disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="535" end="543" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E18" start="548" end="588" text="elective coronary artery bypass grafting" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="635" end="643" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="647" end="666" text="the medical service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E21" start="671" end="683" text="optimization" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="693" end="725" text="his coronary artery bypass graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="750" end="770" text="stress dose steroids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="791" end="802" text="his surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="820" end="828" text="followed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="834" end="847" text="his admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="859" end="872" text="his discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="898" end="919" text="his transplant issues" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="954" end="959" text="taken" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="963" end="981" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E31" start="990" end="1030" text="an off pump coronary artery bypass graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T4" start="1355" end="1399" text="the evening of postoperative day number zero" type="DATE" val="2016-02-15" mod="END" />
+<TIMEX3 id="T5" start="1606" end="1634" text="postoperative day number one" type="DATE" val="2016-02-16" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2016-02-14" type="DATE" val="2016-02-14" mod="NA" />
+<TIMEX3 id="T6" start="1963" end="1993" text="postoperative day number three" type="DATE" val="2016-02-18" mod="NA" />
+<TIMEX3 id="T7" start="2042" end="2071" text="postoperative day number four" type="DATE" val="2016-02-19" mod="NA" />
+<TIMEX3 id="T1" start="221" end="234" text="several weeks" type="DURATION" val="P3W" mod="APPROX" />
+<TIMEX3 id="T8" start="2433" end="2461" text="postoperative day number six" type="DATE" val="2016-02-21" mod="NA" />
+<TIMEX3 id="T2" start="774" end="781" text="the day" type="DATE" val="2016-02-14" mod="NA" />
+<TIMEX3 id="T3" start="925" end="935" text="2016-02-15" type="DATE" val="2016-02-15" mod="NA" />
+<TLINK id="TL0" fromID="E18" fromText="elective coronary artery bypass grafting" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL1" fromID="E28" fromText="his transplant issues" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL10" fromID="T1" fromText="several weeks" toID="E5" toText="this admission" type="BEFORE" />
+<TLINK id="TL13" fromID="E4" fromText="exertional chest pressure" toID="E7" toText="rest" type="ENDED_BY" />
+<TLINK id="TL14" fromID="E8" fromText="Stress echocardiogram" toID="E2" toText="presented" type="AFTER" />
+<TLINK id="TL15" fromID="E8" fromText="Stress echocardiogram" toID="E11" toText="demonstrated" type="SIMULTANEOUS" />
+<TLINK id="TL16" fromID="E12" fromText="hypokinesis of distal anterior wall" toID="E8" toText="Stress echocardiogram" type="BEFORE_OVERLAP" />
+<TLINK id="TL17" fromID="E9" fromText="an ejection fraction" toID="E8" toText="Stress echocardiogram" type="OVERLAP" />
+<TLINK id="TL18" fromID="E13" fromText="akinesis of distal inferior wall and apex" toID="E8" toText="Stress echocardiogram" type="BEFORE_OVERLAP" />
+<TLINK id="TL19" fromID="E14" fromText="a cardiac catheterization" toID="E8" toText="Stress echocardiogram" type="AFTER" />
+<TLINK id="TL2" fromID="E0" fromText="Admission" toID="T0" toText="2016-02-14" type="SIMULTANEOUS" />
+<TLINK id="TL21" fromID="E16" fromText="three vessel disease" toID="E14" toText="a cardiac catheterization" type="BEFORE_OVERLAP" />
+<TLINK id="TL22" fromID="E14" fromText="a cardiac catheterization" toID="E15" toText="revealed" type="SIMULTANEOUS" />
+<TLINK id="TL23" fromID="E17" fromText="presents" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL24" fromID="E18" fromText="elective coronary artery bypass grafting" toID="E17" toText="presents" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E17" fromText="presents" toID="E14" toText="a cardiac catheterization" type="AFTER" />
+<TLINK id="TL26" fromID="E21" fromText="optimization" toID="E19" toText="admitted" type="AFTER" />
+<TLINK id="TL28" fromID="E19" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL29" fromID="T2" fromText="the day" toID="E19" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E18" fromText="elective coronary artery bypass grafting" toID="E22" toText="his coronary artery bypass graft" type="simultaneous" />
+<TLINK id="TL31" fromID="E21" fromText="optimization" toID="E22" toText="his coronary artery bypass graft" type="BEFORE" />
+<TLINK id="TL32" fromID="E22" fromText="his coronary artery bypass graft" toID="E18" toText="elective coronary artery bypass grafting" type="SIMULTANEOUS" />
+<TLINK id="TL33" fromID="E22" fromText="his coronary artery bypass graft" toID="E24" toText="his surgery" type="simultaneous" />
+<TLINK id="TL34" fromID="E66" fromText="Pacing wires" toID="E22" toText="his coronary artery bypass graft" type="BEGUN_BY" />
+<TLINK id="TL35" fromID="E24" fromText="his surgery" toID="E22" toText="his coronary artery bypass graft" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="E48" fromText="sedation" toID="E22" toText="his coronary artery bypass graft" type="BEGUN_BY" />
+<TLINK id="TL37" fromID="E62" fromText="Chest tubes" toID="E22" toText="his coronary artery bypass graft" type="BEGUN_BY" />
+<TLINK id="TL38" fromID="E23" fromText="stress dose steroids" toID="T2" toText="the day" type="SIMULTANEOUS" />
+<TLINK id="TL39" fromID="E44" fromText="close management" toID="E25" toText="followed" type="SIMULTANEOUS" />
+<TLINK id="TL4" fromID="E1" fromText="Discharge" toID="T8" toText="postoperative day number six" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E25" fromText="followed" toID="E27" toText="his discharge" type="ENDED_BY" />
+<TLINK id="TL41" fromID="E25" fromText="followed" toID="E26" toText="his admission" type="BEGUN_BY" />
+<TLINK id="TL42" fromID="E29" fromText="taken" toID="T3" toText="2016-02-15" type="SIMULTANEOUS" />
+<TLINK id="TL43" fromID="E31" fromText="an off pump coronary artery bypass graft" toID="E30" toText="the operating room" type="DURING" />
+<TLINK id="TL44" fromID="E30" fromText="the operating room" toID="T3" toText="2016-02-15" type="OVERLAP" />
+<TLINK id="TL45" fromID="E30" fromText="the operating room" toID="E36" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL46" fromID="E34" fromText="this operation" toID="E31" toText="an off pump coronary artery bypass graft" type="SIMULTANEOUS" />
+<TLINK id="TL47" fromID="E24" fromText="his surgery" toID="E31" toText="an off pump coronary artery bypass graft" type="simultaneous" />
+<TLINK id="TL48" fromID="E31" fromText="an off pump coronary artery bypass graft" toID="E34" toText="this operation" type="simultaneous" />
+<TLINK id="TL49" fromID="E32" fromText="the left internal mammary artery to the left anterior descending" toID="E31" toText="an off pump coronary artery bypass graft" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="E33" fromText="saphenous vein graft to obtuse marginal" toID="E32" toText="the left internal mammary artery to the left anterior descending" type="OVERLAP" />
+<TLINK id="TL51" fromID="E35" fromText="dictated" toID="E34" toText="this operation" type="AFTER" />
+<TLINK id="TL52" fromID="E37" fromText="the CSRU" toID="E57" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL53" fromID="E37" fromText="the CSRU" toID="E36" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL54" fromID="E52" fromText="the course of his Intensive Care Unit stay" toID="E37" toText="the CSRU" type="SIMULTANEOUS" />
+<TLINK id="TL55" fromID="E38" fromText="close monitoring" toID="E37" toText="the CSRU" type="DURING" />
+<TLINK id="TL56" fromID="E39" fromText="decreased urine output" toID="T4" toText="the evening of postoperative day number zero" type="SIMULTANEOUS" />
+<TLINK id="TL58" fromID="E40" fromText="a Lasix drip" toID="T4" toText="the evening of postoperative day number zero" type="BEGUN_BY" />
+<TLINK id="TL6" fromID="E4" fromText="exertional chest pressure" toID="E2" toText="presented" type="BEFORE_OVERLAP" />
+<TLINK id="TL60" fromID="E41" fromText="diuresis" toID="E40" toText="a Lasix drip" type="BEFORE_OVERLAP" />
+<TLINK id="TL61" fromID="E40" fromText="a Lasix drip" toID="E39" toText="decreased urine output" type="AFTER" />
+<TLINK id="TL63" fromID="E40" fromText="a Lasix drip" toID="E42" toText="tolerated" type="SIMULTANEOUS" />
+<TLINK id="TL64" fromID="E43" fromText="well" toID="E42" toText="tolerated" type="SIMULTANEOUS" />
+<TLINK id="TL65" fromID="E45" fromText="his immunosuppression" toID="E44" toText="close management" type="BEFORE_OVERLAP" />
+<TLINK id="TL66" fromID="E46" fromText="extubated" toID="T5" toText="postoperative day number one" type="SIMULTANEOUS" />
+<TLINK id="TL67" fromID="E48" fromText="sedation" toID="E47" toText="awakened" type="ENDED_BY" />
+<TLINK id="TL68" fromID="E46" fromText="extubated" toID="E47" toText="awakened" type="AFTER" />
+<TLINK id="TL69" fromID="E49" fromText="did well" toID="E46" toText="extubated" type="OVERLAP" />
+<TLINK id="TL7" fromID="T1" fromText="several weeks" toID="E2" toText="presented" type="ENDED_BY" />
+<TLINK id="TL70" fromID="E50" fromText="his Levophed drip" toID="E49" toText="did well" type="SIMULTANEOUS" />
+<TLINK id="TL71" fromID="E50" fromText="his Levophed drip" toID="E51" toText="weaned to off" type="ENDED_BY" />
+<TLINK id="TL72" fromID="E51" fromText="weaned to off" toID="E46" toText="extubated" type="AFTER" />
+<TLINK id="TL73" fromID="E54" fromText="a low hematocrit" toID="E52" toText="the course of his Intensive Care Unit stay" type="DURING" />
+<TLINK id="TL75" fromID="E54" fromText="a low hematocrit" toID="E53" toText="packed red blood cells" type="OVERLAP" />
+<TLINK id="TL76" fromID="E55" fromText="uncomplicated" toID="E22" toText="his coronary artery bypass graft" type="BEGUN_BY" />
+<TLINK id="TL77" fromID="E55" fromText="uncomplicated" toID="E77" toText="postoperative course" type="OVERLAP" />
+<TLINK id="TL78" fromID="E57" fromText="transferred" toID="T6" toText="postoperative day number three" type="SIMULTANEOUS" />
+<TLINK id="TL79" fromID="E58" fromText="the floor" toID="E71" toText="discharged" type="ENDED_BY" />
+<TLINK id="TL8" fromID="E7" fromText="rest" toID="E5" toText="this admission" type="BEFORE" />
+<TLINK id="TL80" fromID="E58" fromText="the floor" toID="E57" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL81" fromID="E59" fromText="a low platelet level" toID="T7" toText="postoperative day number four" type="SIMULTANEOUS" />
+<TLINK id="TL82" fromID="E60" fromText="Heparin induced thrombocytopenia antibody panel" toID="E59" toText="a low platelet level" type="AFTER" />
+<TLINK id="TL83" fromID="E61" fromText="well" toID="E59" toText="a low platelet level" type="OVERLAP" />
+<TLINK id="TL84" fromID="E64" fromText="output" toID="E62" toText="Chest tubes" type="OVERLAP" />
+<TLINK id="TL85" fromID="E62" fromText="Chest tubes" toID="E63" toText="removed" type="ENDED_BY" />
+<TLINK id="TL86" fromID="E65" fromText="low" toID="E63" toText="removed" type="SIMULTANEOUS" />
+<TLINK id="TL87" fromID="E66" fromText="Pacing wires" toID="E67" toText="removed" type="ENDED_BY" />
+<TLINK id="TL88" fromID="E69" fromText="cleared" toID="E68" toText="Physical therapy" type="AFTER" />
+<TLINK id="TL89" fromID="E69" fromText="cleared" toID="E70" toText="discharge" type="BEFORE" />
+<TLINK id="TL9" fromID="E5" fromText="this admission" toID="T0" toText="2016-02-14" type="BEGUN_BY" />
+<TLINK id="TL90" fromID="E70" fromText="discharge" toID="E71" toText="discharged" type="SIMULTANEOUS" />
+<TLINK id="TL91" fromID="E55" fromText="uncomplicated" toID="E71" toText="discharged" type="ENDED_BY" />
+<TLINK id="TL93" fromID="E71" fromText="discharged" toID="T8" toText="postoperative day number six" type="SIMULTANEOUS" />
+<TLINK id="TL95" fromID="E72" fromText="tolerating a regular diet" toID="E71" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL96" fromID="E73" fromText="pain control" toID="E74" toText="p.o. pain medications" type="OVERLAP" />
+<TLINK id="TL97" fromID="E75" fromText="ambulating" toID="E73" toText="pain control" type="OVERLAP" />
+<TLINK id="TL98" fromID="E73" fromText="pain control" toID="E72" toText="tolerating a regular diet" type="OVERLAP" />
+<TLINK id="TL99" fromID="E76" fromText="clearance of physical therapy" toID="E69" toText="cleared" type="SIMULTANEOUS" />
+
+<SECTIME id="S0" start="18" end="28" text="2016-02-14" type="ADMISSION" dvalue="2016-02-14" />
+
+<TLINK id="SECTIME0" fromID="E32" fromText="the left internal mammary artery to the left anterior descending" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E33" fromText="saphenous vein graft to obtuse marginal" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E34" fromText="this operation" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E35" fromText="dictated" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E36" fromText="transferred" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E37" fromText="the CSRU" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E38" fromText="close monitoring" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E39" fromText="decreased urine output" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E40" fromText="a Lasix drip" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E41" fromText="diuresis" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E42" fromText="tolerated" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E43" fromText="well" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E44" fromText="close management" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E45" fromText="his immunosuppression" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E46" fromText="extubated" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E47" fromText="awakened" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E48" fromText="sedation" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E49" fromText="did well" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E50" fromText="his Levophed drip" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E51" fromText="weaned to off" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E52" fromText="the course of his Intensive Care Unit stay" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME0" fromID="E2" fromText="presented" toID="T0" toText="2016-02-14" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E53" fromText="packed red blood cells" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E54" fromText="a low hematocrit" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E55" fromText="uncomplicated" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E77" fromText="postoperative course" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E4" fromText="exertional chest pressure" toID="T0" toText="2016-02-14" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E57" fromText="transferred" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E58" fromText="the floor" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E59" fromText="a low platelet level" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E60" fromText="Heparin induced thrombocytopenia antibody panel" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E61" fromText="well" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E62" fromText="Chest tubes" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E63" fromText="removed" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E64" fromText="output" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E65" fromText="low" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E66" fromText="Pacing wires" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E67" fromText="removed" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E68" fromText="Physical therapy" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E69" fromText="cleared" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E70" fromText="discharge" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E71" fromText="discharged" toID="Discharge" toText="Discharge" type="OVERLAP" />
+<TLINK id="SECTIME43" fromID="E72" fromText="tolerating a regular diet" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E73" fromText="pain control" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E74" fromText="p.o. pain medications" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E75" fromText="ambulating" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E76" fromText="clearance of physical therapy" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E6" fromText="resolve" toID="T0" toText="2016-02-14" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E7" fromText="rest" toID="T0" toText="2016-02-14" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E8" fromText="Stress echocardiogram" toID="T0" toText="2016-02-14" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E11" fromText="demonstrated" toID="T0" toText="2016-02-14" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E9" fromText="an ejection fraction" toID="T0" toText="2016-02-14" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E12" fromText="hypokinesis of distal anterior wall" toID="T0" toText="2016-02-14" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E13" fromText="akinesis of distal inferior wall and apex" toID="T0" toText="2016-02-14" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E14" fromText="a cardiac catheterization" toID="T0" toText="2016-02-14" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E15" fromText="revealed" toID="T0" toText="2016-02-14" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E16" fromText="three vessel disease" toID="T0" toText="2016-02-14" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E17" fromText="presents" toID="T0" toText="2016-02-14" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E18" fromText="elective coronary artery bypass grafting" toID="T0" toText="2016-02-14" type="AFTER" />
+<TLINK id="SECTIME61" fromID="E19" fromText="admitted" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E20" fromText="the medical service" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E21" fromText="optimization" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E22" fromText="his coronary artery bypass graft" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E23" fromText="stress dose steroids" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E24" fromText="his surgery" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E25" fromText="followed" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E26" fromText="his admission" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E27" fromText="his discharge" toID="Discharge" toText="Discharge" type="OVERLAP" />
+<TLINK id="SECTIME70" fromID="E28" fromText="his transplant issues" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E29" fromText="taken" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E30" fromText="the operating room" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E31" fromText="an off pump coronary artery bypass graft" toID="Discharge" toText="Discharge" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

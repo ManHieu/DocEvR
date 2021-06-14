@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+08/07/1992
+Discharge Date :
+08/10/1992
+HISTORY OF PRESENT ILLNESS :
+This is an 81 year old female with a right breast mass with a discharge .
+A mammogram of the right breast with shadow biopsy was negative .
+In the fall of 1991 , nipple changes and discomfort was again noted .
+A mmamogram showed no change on right , but new biopsy was positive .
+On the left , there was a new shawdown but the biopsy was negative .
+The patient presents now for right modified radical mastectomy with impant .
+HOSPITAL COURSE :
+The patient was taken to the Operting Room on 8/7/92 , where a right modified radical mastectomy was performed .
+Subsequently a saline-filled right breast implant was performed .
+The patient tolerated the procedure extremely well .
+Two drains were used .
+One drain was removed on postoperative day number two , and the second drain she will be discharged to home with .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="121" end="140" text="a right breast mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="146" end="157" text="a discharge" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="160" end="191" text="A mammogram of the right breast" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="197" end="210" text="shadow biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="215" end="223" text="negative" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="248" end="262" text="nipple changes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="267" end="277" text="discomfort" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="288" end="293" text="noted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="296" end="307" text="A mmamogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="308" end="314" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E12" start="318" end="333" text="change on right" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E13" start="340" end="350" text="new biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="355" end="363" text="positive" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="369" end="377" text="the left" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="390" end="404" text="a new shawdown" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="409" end="419" text="the biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="424" end="432" text="negative" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="447" end="455" text="presents" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="464" end="497" text="right modified radical mastectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="503" end="509" text="impant" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="555" end="572" text="the Operting Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E23" start="591" end="626" text="a right modified radical mastectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="656" end="692" text="a saline-filled right breast implant" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="731" end="744" text="the procedure" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="731" end="744" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="745" end="759" text="extremely well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="762" end="772" text="Two drains" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="785" end="794" text="One drain" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="845" end="861" text="the second drain" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="874" end="884" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T0" start="18" end="28" text="08/07/1992" type="DATE" val="1992-08-07" mod="NA" />
+<TIMEX3 id="T2" start="229" end="245" text="the fall of 1991" type="DATE" val="1991-10" mod="APPROX" />
+<TIMEX3 id="T5" start="456" end="459" text="now" type="DATE" val="1992-08-07" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="08/10/1992" type="DATE" val="1992-08-10" mod="NA" />
+<TIMEX3 id="T3" start="576" end="582" text="8/7/92" type="DATE" val="1992-08-07" mod="NA" />
+<TIMEX3 id="T4" start="810" end="838" text="postoperative day number two" type="DATE" val="1992-08-09" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="08/07/1992" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="Discharge" toID="T1" toText="08/10/1992" type="OVERLAP" />
+<TLINK id="TL10" fromID="E7" fromText="nipple changes" toID="T2" toText="the fall of 1991" type="AFTER" />
+<TLINK id="TL11" fromID="E8" fromText="discomfort" toID="E7" toText="nipple changes" type="OVERLAP" />
+<TLINK id="TL12" fromID="E9" fromText="noted" toID="T2" toText="the fall of 1991" type="OVERLAP" />
+<TLINK id="TL13" fromID="E10" fromText="A mmamogram" toID="E9" toText="noted" type="AFTER" />
+<TLINK id="TL14" fromID="E10" fromText="A mmamogram" toID="E11" toText="showed" type="OVERLAP" />
+<TLINK id="TL15" fromID="E12" fromText="change on right" toID="E11" toText="showed" type="BEFORE" />
+<TLINK id="TL16" fromID="E10" fromText="A mmamogram" toID="E13" toText="new biopsy" type="OVERLAP" />
+<TLINK id="TL17" fromID="E13" fromText="new biopsy" toID="E14" toText="positive" type="OVERLAP" />
+<TLINK id="TL18" fromID="E15" fromText="the left" toID="E12" toText="change on right" type="OVERLAP" />
+<TLINK id="TL19" fromID="E15" fromText="the left" toID="E16" toText="a new shawdown" type="OVERLAP" />
+<TLINK id="TL2" fromID="E3" fromText="a discharge" toID="E2" toText="a right breast mass" type="OVERLAP" />
+<TLINK id="TL20" fromID="E16" fromText="a new shawdown" toID="E17" toText="the biopsy" type="OVERLAP" />
+<TLINK id="TL21" fromID="E17" fromText="the biopsy" toID="E18" toText="negative" type="OVERLAP" />
+<TLINK id="TL22" fromID="E19" fromText="presents" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL23" fromID="E19" fromText="presents" toID="T5" toText="now" type="OVERLAP" />
+<TLINK id="TL24" fromID="E20" fromText="right modified radical mastectomy" toID="E19" toText="presents" type="AFTER" />
+<TLINK id="TL25" fromID="E20" fromText="right modified radical mastectomy" toID="E21" toText="impant" type="AFTER" />
+<TLINK id="TL26" fromID="E22" fromText="the Operting Room" toID="T3" toText="8/7/92" type="OVERLAP" />
+<TLINK id="TL27" fromID="T3" fromText="8/7/92" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL28" fromID="E22" fromText="the Operting Room" toID="E23" toText="a right modified radical mastectomy" type="OVERLAP" />
+<TLINK id="TL29" fromID="E24" fromText="a saline-filled right breast implant" toID="E23" toText="a right modified radical mastectomy" type="AFTER" />
+<TLINK id="TL3" fromID="E2" fromText="a right breast mass" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL30" fromID="E24" fromText="a saline-filled right breast implant" toID="E22" toText="the Operting Room" type="OVERLAP" />
+<TLINK id="TL31" fromID="E25" fromText="the procedure" toID="E23" toText="a right modified radical mastectomy" type="OVERLAP" />
+<TLINK id="TL32" fromID="E25" fromText="the procedure" toID="E24" toText="a saline-filled right breast implant" type="OVERLAP" />
+<TLINK id="TL33" fromID="E25" fromText="the procedure" toID="E27" toText="extremely well" type="OVERLAP" />
+<TLINK id="TL34" fromID="E28" fromText="Two drains" toID="E25" toText="the procedure" type="AFTER" />
+<TLINK id="TL35" fromID="E29" fromText="One drain" toID="T4" toText="postoperative day number two" type="BEFORE" />
+<TLINK id="TL36" fromID="E28" fromText="Two drains" toID="E29" toText="One drain" type="OVERLAP" />
+<TLINK id="TL37" fromID="T4" fromText="postoperative day number two" toID="T3" toText="8/7/92" type="AFTER" />
+<TLINK id="TL38" fromID="T4" fromText="postoperative day number two" toID="E1" toText="Discharge" type="BEFORE" />
+<TLINK id="TL39" fromID="E30" fromText="the second drain" toID="E31" toText="discharged" type="BEFORE" />
+<TLINK id="TL4" fromID="E4" fromText="A mammogram of the right breast" toID="E5" toText="shadow biopsy" type="OVERLAP" />
+<TLINK id="TL40" fromID="E30" fromText="the second drain" toID="E28" toText="Two drains" type="OVERLAP" />
+<TLINK id="TL41" fromID="E29" fromText="One drain" toID="E30" toText="the second drain" type="OVERLAP" />
+<TLINK id="TL5" fromID="E2" fromText="a right breast mass" toID="E4" toText="A mammogram of the right breast" type="BEFORE" />
+<TLINK id="TL6" fromID="E4" fromText="A mammogram of the right breast" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL7" fromID="E5" fromText="shadow biopsy" toID="E6" toText="negative" type="OVERLAP" />
+<TLINK id="TL8" fromID="T2" fromText="the fall of 1991" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL9" fromID="E4" fromText="A mammogram of the right breast" toID="T2" toText="the fall of 1991" type="BEFORE" />
+<TLINK id="SECTIME0" fromID="E2" fromText="a right breast mass" toID="T0" toText="08/07/1992" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E3" fromText="a discharge" toID="T0" toText="08/07/1992" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E4" fromText="A mammogram of the right breast" toID="T0" toText="08/07/1992" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E5" fromText="shadow biopsy" toID="T0" toText="08/07/1992" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E6" fromText="negative" toID="T0" toText="08/07/1992" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E7" fromText="nipple changes" toID="T0" toText="08/07/1992" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E8" fromText="discomfort" toID="T0" toText="08/07/1992" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E9" fromText="noted" toID="T0" toText="08/07/1992" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E10" fromText="A mmamogram" toID="T0" toText="08/07/1992" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E11" fromText="showed" toID="T0" toText="08/07/1992" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E12" fromText="change on right" toID="T0" toText="08/07/1992" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E13" fromText="new biopsy" toID="T0" toText="08/07/1992" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E14" fromText="positive" toID="T0" toText="08/07/1992" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E15" fromText="the left" toID="T0" toText="08/07/1992" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E16" fromText="a new shawdown" toID="T0" toText="08/07/1992" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E17" fromText="the biopsy" toID="T0" toText="08/07/1992" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E18" fromText="negative" toID="T0" toText="08/07/1992" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E19" fromText="presents" toID="T0" toText="08/07/1992" type="OVERLAP" />
+<TLINK id="SECTIME18" fromID="E20" fromText="right modified radical mastectomy" toID="T0" toText="08/07/1992" type="OVERLAP" />
+<TLINK id="SECTIME19" fromID="E21" fromText="impant" toID="T0" toText="08/07/1992" type="OVERLAP" />
+<TLINK id="SECTIME20" fromID="E22" fromText="the Operting Room" toID="T1" toText="08/10/1992" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E23" fromText="a right modified radical mastectomy" toID="T1" toText="08/10/1992" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E24" fromText="a saline-filled right breast implant" toID="T1" toText="08/10/1992" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E25" fromText="the procedure" toID="T1" toText="08/10/1992" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E26" fromText="the procedure" toID="T1" toText="08/10/1992" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E27" fromText="extremely well" toID="T1" toText="08/10/1992" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E28" fromText="Two drains" toID="T1" toText="08/10/1992" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E29" fromText="One drain" toID="T1" toText="08/10/1992" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E30" fromText="the second drain" toID="T1" toText="08/10/1992" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E31" fromText="discharged" toID="T1" toText="08/10/1992" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="08/07/1992" type="ADMISSION" dvalue="1992-08-07" />
+<SECTIME id="S1" start="46" end="56" text="08/10/1992" type="DISCHARGE" dvalue="1992-08-10" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

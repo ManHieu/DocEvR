@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+05/29/2000
+DISCHARGE DATE :
+05/30/2000
+HISTORY OF PRESENT ILLNESS :
+The patient is a 51 year-old female , with a non-toxic multinodular goiter .
+She has developed symptoms from a right lower dominant nodule with pressure discomfort in the neck .
+She has no dyspnea or dysphagia .
+She is euthyroid .
+There is no family history of thyroid cancer .
+She has not received prior radiation exposure .
+HOSPITAL COURSE :
+On 5-29-00 , she underwent thyroidectomy with removal of a 3.3 centimeter right lobe microfollicular adenoma and left lobe 6 mm .
+papillary carcinoma .
+There was no evidence of any middle compartment lymphadenopathy or spread of the tumor outside the thyroid .
+She had an uncomplicated postoperative recovery period .
+Her sutures were removed on postoperative day # one , at which time she went home in satisfactory condition .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="129" end="160" text="a non-toxic multinodular goiter" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="181" end="189" text="symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="195" end="224" text="a right lower dominant nodule" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="230" end="261" text="pressure discomfort in the neck" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="275" end="282" text="dyspnea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E5" start="286" end="295" text="dysphagia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E14" start="29" end="38" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="305" end="314" text="euthyroid" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="329" end="361" text="family history of thyroid cancer" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E6" start="385" end="409" text="prior radiation exposure" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E7" start="457" end="470" text="thyroidectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="476" end="483" text="removal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="515" end="538" text="microfollicular adenoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="560" end="579" text="papillary carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="595" end="603" text="evidence" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E20" start="611" end="645" text="middle compartment lymphadenopathy" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E22" start="649" end="655" text="spread" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="659" end="668" text="the tumor" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="699" end="715" text="an uncomplicated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="730" end="745" text="recovery period" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="748" end="759" text="Her sutures" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="825" end="829" text="home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="833" end="855" text="satisfactory condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T1" start="18" end="28" text="05/29/2000" type="DATE" val="2000-05-29" mod="NA" />
+<TIMEX3 id="T3" start="433" end="440" text="5-29-00" type="DATE" val="2000-05-29" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="05/30/2000" type="DATE" val="2000-05-30" mod="NA" />
+<TIMEX3 id="T0" start="776" end="799" text="postoperative day # one" type="DATE" val="2000-05-30" mod="NA" />
+<TIMEX3 id="T4" start="811" end="815" text="time" type="DATE" val="2000-05-30" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T1" toText="05/29/2000" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="symptoms" toID="E2" toText="a right lower dominant nodule" type="OVERLAP" />
+<TLINK id="TL10" fromID="E4" fromText="dyspnea" toID="E1" toText="symptoms" type="OVERLAP" />
+<TLINK id="TL11" fromID="E5" fromText="dysphagia" toID="E4" toText="dyspnea" type="OVERLAP" />
+<TLINK id="TL12" fromID="E16" fromText="euthyroid" toID="E5" toText="dysphagia" type="OVERLAP" />
+<TLINK id="TL13" fromID="E17" fromText="family history of thyroid cancer" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL14" fromID="E6" fromText="prior radiation exposure" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL15" fromID="T3" fromText="5-29-00" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL16" fromID="E7" fromText="thyroidectomy" toID="T3" toText="5-29-00" type="OVERLAP" />
+<TLINK id="TL17" fromID="E8" fromText="removal" toID="E7" toText="thyroidectomy" type="OVERLAP" />
+<TLINK id="TL18" fromID="E19" fromText="microfollicular adenoma" toID="E8" toText="removal" type="BEFORE" />
+<TLINK id="TL19" fromID="E10" fromText="papillary carcinoma" toID="E19" toText="microfollicular adenoma" type="OVERLAP" />
+<TLINK id="TL2" fromID="E4" fromText="dyspnea" toID="E5" toText="dysphagia" type="OVERLAP" />
+<TLINK id="TL20" fromID="E21" fromText="evidence" toID="E7" toText="thyroidectomy" type="OVERLAP" />
+<TLINK id="TL21" fromID="E20" fromText="middle compartment lymphadenopathy" toID="E21" toText="evidence" type="" />
+<TLINK id="TL22" fromID="E22" fromText="spread" toID="E20" toText="middle compartment lymphadenopathy" type="OVERLAP" />
+<TLINK id="TL23" fromID="E23" fromText="the tumor" toID="E10" toText="papillary carcinoma" type="OVERLAP" />
+<TLINK id="TL24" fromID="E26" fromText="recovery period" toID="E7" toText="thyroidectomy" type="AFTER" />
+<TLINK id="TL25" fromID="E13" fromText="an uncomplicated" toID="E26" toText="recovery period" type="OVERLAP" />
+<TLINK id="TL26" fromID="T0" fromText="postoperative day # one" toID="T2" toText="05/30/2000" type="OVERLAP" />
+<TLINK id="TL27" fromID="E12" fromText="Her sutures" toID="T0" toText="postoperative day # one" type="BEFORE" />
+<TLINK id="TL28" fromID="T4" fromText="time" toID="T0" toText="postoperative day # one" type="OVERLAP" />
+<TLINK id="TL29" fromID="E24" fromText="home" toID="T4" toText="time" type="OVERLAP" />
+<TLINK id="TL3" fromID="E7" fromText="thyroidectomy" toID="E8" toText="removal" type="OVERLAP" />
+<TLINK id="TL30" fromID="E25" fromText="satisfactory condition" toID="E24" toText="home" type="BEFORE" />
+<TLINK id="TL4" fromID="E13" fromText="an uncomplicated" toID="E7" toText="thyroidectomy" type="AFTER" />
+<TLINK id="TL5" fromID="E14" fromText="DISCHARGE" toID="T2" toText="05/30/2000" type="OVERLAP" />
+<TLINK id="TL6" fromID="E15" fromText="a non-toxic multinodular goiter" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL7" fromID="E1" fromText="symptoms" toID="E15" toText="a non-toxic multinodular goiter" type="OVERLAP" />
+<TLINK id="TL8" fromID="E2" fromText="a right lower dominant nodule" toID="E1" toText="symptoms" type="BEFORE" />
+<TLINK id="TL9" fromID="E3" fromText="pressure discomfort in the neck" toID="E1" toText="symptoms" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="05/29/2000" type="ADMISSION" dvalue="2000-05-29" />
+<SECTIME id="S1" start="46" end="56" text="05/30/2000" type="DISCHARGE" dvalue="2000-05-30" />
+<TLINK id="SECTIME0" fromID="E15" fromText="a non-toxic multinodular goiter" toID="T1" toText="05/29/2000" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E1" fromText="symptoms" toID="T1" toText="05/29/2000" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E2" fromText="a right lower dominant nodule" toID="T1" toText="05/29/2000" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E3" fromText="pressure discomfort in the neck" toID="T1" toText="05/29/2000" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E4" fromText="dyspnea" toID="T1" toText="05/29/2000" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E5" fromText="dysphagia" toID="T1" toText="05/29/2000" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E16" fromText="euthyroid" toID="T1" toText="05/29/2000" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E17" fromText="family history of thyroid cancer" toID="T1" toText="05/29/2000" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E6" fromText="prior radiation exposure" toID="T1" toText="05/29/2000" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E7" fromText="thyroidectomy" toID="T2" toText="05/30/2000" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E8" fromText="removal" toID="T2" toText="05/30/2000" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E19" fromText="microfollicular adenoma" toID="T2" toText="05/30/2000" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E10" fromText="papillary carcinoma" toID="T2" toText="05/30/2000" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E21" fromText="evidence" toID="T2" toText="05/30/2000" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E20" fromText="middle compartment lymphadenopathy" toID="T2" toText="05/30/2000" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E22" fromText="spread" toID="T2" toText="05/30/2000" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E23" fromText="the tumor" toID="T2" toText="05/30/2000" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E13" fromText="an uncomplicated" toID="T2" toText="05/30/2000" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E26" fromText="recovery period" toID="T2" toText="05/30/2000" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E12" fromText="Her sutures" toID="T2" toText="05/30/2000" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E24" fromText="home" toID="T2" toText="05/30/2000" type="OVERLAP" />
+<TLINK id="SECTIME21" fromID="E25" fromText="satisfactory condition" toID="T2" toText="05/30/2000" type="OVERLAP" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

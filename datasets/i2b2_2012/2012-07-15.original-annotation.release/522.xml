@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2011-10-17
+Discharge Date :
+2011-10-31
+Service :
+Cardiothor
+HISTORY OF PRESENT ILLNESS :
+This is a 56 year-old gentleman with severe aortic stenosis , reports having been told he had a heart murmur many years ago but just recently diagnosed with aortic stenosis .
+He has had mild dyspnea on exertion increasing over the past couple of months prior to admission .
+An echocardiogram in 2011-09-05 revealed a left ventricular ejection fraction of 20 to 25% .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="144" end="166" text="severe aortic stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="169" end="176" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E4" start="201" end="215" text="a heart murmur" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="249" end="258" text="diagnosed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="264" end="279" text="aortic stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="293" end="305" text="mild dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="318" end="328" text="increasing" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="369" end="378" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="381" end="398" text="An echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="413" end="421" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E12" start="422" end="458" text="a left ventricular ejection fraction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T0" start="18" end="28" text="2011-10-17" type="DATE" val="2011-10-17" mod="NA" />
+<TIMEX3 id="T2" start="216" end="230" text="many years ago" type="DATE" val="1991" mod="APPROX" />
+<TIMEX3 id="T3" start="343" end="359" text="couple of months" type="DURATION" val="P2M" mod="APPROX" />
+<TIMEX3 id="T4" start="402" end="412" text="2011-09-05" type="DATE" val="2011-09-05" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2011-10-31" type="DATE" val="2011-10-31" mod="NA" />
+<TLINK id="TL0" fromID="T0" fromText="2011-10-17" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="Discharge" toID="T1" toText="2011-10-31" type="OVERLAP" />
+<TLINK id="TL10" fromID="E10" fromText="An echocardiogram" toID="E11" toText="revealed" type="OVERLAP" />
+<TLINK id="TL11" fromID="E10" fromText="An echocardiogram" toID="T4" toText="2011-09-05" type="OVERLAP" />
+<TLINK id="TL12" fromID="E12" fromText="a left ventricular ejection fraction" toID="E11" toText="revealed" type="OVERLAP" />
+<TLINK id="TL2" fromID="E6" fromText="aortic stenosis" toID="E2" toText="severe aortic stenosis" type="SIMULTANEOUS" />
+<TLINK id="TL3" fromID="E2" fromText="severe aortic stenosis" toID="E3" toText="reports" type="OVERLAP" />
+<TLINK id="TL4" fromID="E4" fromText="a heart murmur" toID="T2" toText="many years ago" type="BEFORE_OVERLAP" />
+<TLINK id="TL5" fromID="E3" fromText="reports" toID="E4" toText="a heart murmur" type="AFTER" />
+<TLINK id="TL6" fromID="E5" fromText="diagnosed" toID="E6" toText="aortic stenosis" type="OVERLAP" />
+<TLINK id="TL7" fromID="E7" fromText="mild dyspnea" toID="E8" toText="increasing" type="BEFORE_OVERLAP" />
+<TLINK id="TL8" fromID="E8" fromText="increasing" toID="T3" toText="couple of months" type="DURING" />
+<TLINK id="TL9" fromID="T3" fromText="couple of months" toID="E9" toText="admission" type="ENDED_BY" />
+<TLINK id="Sectime0" fromID="E2" fromText="severe aortic stenosis" toID="T0" toText="2011-10-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime1" fromID="E3" fromText="reports" toID="T0" toText="2011-10-17" type="OVERLAP" />
+<TLINK id="Sectime2" fromID="E4" fromText="a heart murmur" toID="T0" toText="2011-10-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime3" fromID="E5" fromText="diagnosed" toID="T0" toText="2011-10-17" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E6" fromText="aortic stenosis" toID="T0" toText="2011-10-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime5" fromID="E7" fromText="mild dyspnea" toID="T0" toText="2011-10-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime6" fromID="E8" fromText="increasing" toID="T0" toText="2011-10-17" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E9" fromText="admission" toID="T0" toText="2011-10-17" type="OVERLAP" />
+<TLINK id="Sectime8" fromID="E10" fromText="An echocardiogram" toID="T0" toText="2011-10-17" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E11" fromText="revealed" toID="T0" toText="2011-10-17" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E12" fromText="a left ventricular ejection fraction" toID="T0" toText="2011-10-17" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2011-10-17" type="ADMISSION" dvalue="2011-10-17" />
+<SECTIME id="S1" start="46" end="56" text="2011-10-31" type="DISCHARGE" dvalue="2011-10-31" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

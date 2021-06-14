@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2018-10-25
+Discharge Date :
+2018-10-31
+Service : 
+CARDIOTHORACIC
+History of Present Illness :
+67 y/o male with worsening shortness of breath. Had abnormal ETT and referred for cath .
+Cath revealed severe 3 vessel disease .
+Then referred for surgical intervention .
+Brief Hospital Course :
+Mr. Kammerer was a same day admit and on 10-25 was brought to the operating room where he underwent a coronary artery bypass graft x 3 .
+Please see operative report for surgical details .
+He tolerated the procedure well and was transferred to the CSRU for invasive monitoring in stable condition .
+Later on op day he was weaned from sedation , awoke neurologically intact , and 
+extubated .
+Beta blockers and diuretics were initiated on post-op day one .
+He was diuresed towards his pre-op weight .
+He appeared to be doing well and was transferred to the SDU on this day .
+He did have burst of atrial fibrillation and was started on a Amiodarone gtt .
+His beta blockers were also titrated for maximal BP and HR control .
+Chest tubes were removed on post-op day two and epicardial pacing wires on post-op day three .
+Over the next several days he continued to improve his ambulation and mobility with physical therapy .
+He had no further episodes of AFIB while on po Amiodarone .
+On post-op day five he appeared to have left arm phlebitis and was started on antibiotics .
+He was discharged home on post-op day six with antibiotics and appropriate meds .
+He will have VNA services and make the appropriate follow-up appointments .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="1028" end="1039" text="Chest tubes" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="1076" end="1099" text="epicardial pacing wires" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="1166" end="1173" text="improve" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1174" end="1188" text="his ambulation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="1193" end="1201" text="mobility" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="1207" end="1223" text="physical therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="1236" end="1260" text="further episodes of AFIB" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E20" start="1270" end="1283" text="po Amiodarone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="129" end="159" text="worsening shortness of breath." modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1326" end="1344" text="left arm phlebitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="1364" end="1375" text="antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1385" end="1400" text="discharged home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="1425" end="1436" text="antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="1441" end="1457" text="appropriate meds" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1473" end="1485" text="VNA services" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1511" end="1533" text="follow-up appointments" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="164" end="176" text="abnormal ETT" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="194" end="198" text="cath" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="201" end="205" text="Cath" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="206" end="214" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E30" start="215" end="238" text="severe 3 vessel disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="259" end="280" text="surgical intervention" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="324" end="340" text="a same day admit" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="369" end="387" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E4" start="407" end="437" text="a coronary artery bypass graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="498" end="507" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="508" end="521" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="522" end="526" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="535" end="546" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="550" end="558" text="the CSRU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E6" start="563" end="582" text="invasive monitoring" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="586" end="602" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="640" end="648" text="sedation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="651" end="656" text="awoke" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="657" end="678" text="neurologically intact" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="686" end="695" text="extubated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="698" end="711" text="Beta blockers" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="716" end="725" text="diuretics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="769" end="777" text="diuresed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="786" end="803" text="his pre-op weight" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="830" end="834" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="843" end="854" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="858" end="865" text="the SDU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E12" start="892" end="920" text="burst of atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="940" end="956" text="a Amiodarone gtt" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="959" end="976" text="His beta blockers" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1000" end="1025" text="maximal BP and HR control" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T6" start="1056" end="1071" text="post-op day two" type="DATE" val="2018-10-27" mod="NA" />
+<TIMEX3 id="T7" start="1103" end="1120" text="post-op day three" type="DATE" val="2018-10-28" mod="NA" />
+<TIMEX3 id="T10" start="1128" end="1149" text="the next several days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T8" start="1289" end="1305" text="post-op day five" type="DATE" val="2018-10-30" mod="NA" />
+<TIMEX3 id="T9" start="1404" end="1419" text="post-op day six" type="DATE" val="2018-10-31" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2018-10-25" type="DATE" val="2018-10-25" mod="NA" />
+<TIMEX3 id="T3" start="348" end="353" text="10-25" type="DATE" val="2018-10-25" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2018-10-31" type="DATE" val="2018-10-31" mod="NA" />
+<TIMEX3 id="T0" start="605" end="620" text="Later on op day" type="DATE" val="2018-10-25" mod="END" />
+<TIMEX3 id="T4" start="744" end="759" text="post-op day one" type="DATE" val="2018-10-26" mod="NA" />
+<TIMEX3 id="T5" start="869" end="877" text="this day" type="DATE" val="2018-10-26" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="2018-10-25" type="OVERLAP" />
+<TLINK id="TL1" fromID="E13" fromText="a Amiodarone gtt" toID="E20" toText="po Amiodarone" type="OVERLAP" />
+<TLINK id="TL10" fromID="E13" fromText="a Amiodarone gtt" toID="E12" toText="burst of atrial fibrillation" type="AFTER" />
+<TLINK id="TL11" fromID="E14" fromText="His beta blockers" toID="E15" toText="maximal BP and HR control" type="OVERLAP" />
+<TLINK id="TL12" fromID="E16" fromText="Chest tubes" toID="T6" toText="post-op day two" type="BEFORE" />
+<TLINK id="TL13" fromID="E17" fromText="epicardial pacing wires" toID="T7" toText="post-op day three" type="BEFORE" />
+<TLINK id="TL14" fromID="E27" fromText="Discharge" toID="T2" toText="2018-10-31" type="OVERLAP" />
+<TLINK id="TL15" fromID="E28" fromText="worsening shortness of breath." toID="E1" toText="abnormal ETT" type="BEFORE" />
+<TLINK id="TL16" fromID="E2" fromText="cath" toID="E1" toText="abnormal ETT" type="AFTER" />
+<TLINK id="TL17" fromID="E30" fromText="severe 3 vessel disease" toID="E3" toText="Cath" type="BEFORE" />
+<TLINK id="TL18" fromID="E31" fromText="surgical intervention" toID="E3" toText="Cath" type="AFTER" />
+<TLINK id="TL19" fromID="E29" fromText="revealed" toID="E3" toText="Cath" type="OVERLAP" />
+<TLINK id="TL2" fromID="E8" fromText="Beta blockers" toID="E14" toText="His beta blockers" type="OVERLAP" />
+<TLINK id="TL20" fromID="E32" fromText="a same day admit" toID="T3" toText="10-25" type="OVERLAP" />
+<TLINK id="TL21" fromID="E33" fromText="the operating room" toID="T3" toText="10-25" type="OVERLAP" />
+<TLINK id="TL22" fromID="E4" fromText="a coronary artery bypass graft" toID="E33" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL23" fromID="E16" fromText="Chest tubes" toID="E4" toText="a coronary artery bypass graft" type="AFTER" />
+<TLINK id="TL24" fromID="E34" fromText="tolerated" toID="E5" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL26" fromID="E35" fromText="well" toID="E34" toText="tolerated" type="OVERLAP" />
+<TLINK id="TL27" fromID="E37" fromText="the CSRU" toID="E36" toText="transferred" type="AFTER" />
+<TLINK id="TL28" fromID="E33" fromText="the operating room" toID="E36" toText="transferred" type="BEFORE" />
+<TLINK id="TL29" fromID="E6" fromText="invasive monitoring" toID="E37" toText="the CSRU" type="OVERLAP" />
+<TLINK id="TL3" fromID="E9" fromText="diuretics" toID="E10" toText="diuresed" type="OVERLAP" />
+<TLINK id="TL30" fromID="E38" fromText="stable condition" toID="E36" toText="transferred" type="OVERLAP" />
+<TLINK id="TL31" fromID="E7" fromText="sedation" toID="T0" toText="Later on op day" type="BEFORE" />
+<TLINK id="TL32" fromID="E7" fromText="sedation" toID="E40" toText="awoke" type="BEFORE" />
+<TLINK id="TL33" fromID="E39" fromText="neurologically intact" toID="E40" toText="awoke" type="OVERLAP" />
+<TLINK id="TL34" fromID="E40" fromText="awoke" toID="E41" toText="extubated" type="BEFORE" />
+<TLINK id="TL35" fromID="E11" fromText="his pre-op weight" toID="E10" toText="diuresed" type="BEFORE" />
+<TLINK id="TL36" fromID="E11" fromText="his pre-op weight" toID="E5" toText="the procedure" type="BEFORE" />
+<TLINK id="TL37" fromID="E10" fromText="diuresed" toID="E5" toText="the procedure" type="AFTER" />
+<TLINK id="TL38" fromID="E10" fromText="diuresed" toID="E42" toText="well" type="OVERLAP" />
+<TLINK id="TL39" fromID="E25" fromText="transferred" toID="T5" toText="this day" type="OVERLAP" />
+<TLINK id="TL4" fromID="E2" fromText="cath" toID="E3" toText="Cath" type="OVERLAP" />
+<TLINK id="TL40" fromID="E37" fromText="the CSRU" toID="E25" toText="transferred" type="BEFORE" />
+<TLINK id="TL41" fromID="E49" fromText="the SDU" toID="E25" toText="transferred" type="AFTER" />
+<TLINK id="TL42" fromID="E42" fromText="well" toID="E25" toText="transferred" type="OVERLAP" />
+<TLINK id="TL43" fromID="E43" fromText="improve" toID="T10" toText="the next several days" type="OVERLAP" />
+<TLINK id="TL44" fromID="E44" fromText="mobility" toID="E43" toText="improve" type="OVERLAP" />
+<TLINK id="TL45" fromID="E45" fromText="his ambulation" toID="E43" toText="improve" type="OVERLAP" />
+<TLINK id="TL46" fromID="E43" fromText="improve" toID="E18" toText="physical therapy" type="OVERLAP" />
+<TLINK id="TL47" fromID="E19" fromText="further episodes of AFIB" toID="E20" toText="po Amiodarone" type="OVERLAP" />
+<TLINK id="TL48" fromID="E22" fromText="antibiotics" toID="T8" toText="post-op day five" type="AFTER" />
+<TLINK id="TL49" fromID="E21" fromText="left arm phlebitis" toID="E22" toText="antibiotics" type="BEFORE" />
+<TLINK id="TL5" fromID="E4" fromText="a coronary artery bypass graft" toID="E5" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL50" fromID="E46" fromText="discharged home" toID="T9" toText="post-op day six" type="OVERLAP" />
+<TLINK id="TL51" fromID="E23" fromText="antibiotics" toID="E46" toText="discharged home" type="BEFORE" />
+<TLINK id="TL52" fromID="E24" fromText="appropriate meds" toID="E46" toText="discharged home" type="BEFORE" />
+<TLINK id="TL53" fromID="E49" fromText="the SDU" toID="E46" toText="discharged home" type="BEFORE" />
+<TLINK id="TL54" fromID="E48" fromText="follow-up appointments" toID="E46" toText="discharged home" type="AFTER" />
+<TLINK id="TL55" fromID="E47" fromText="VNA services" toID="E46" toText="discharged home" type="AFTER" />
+<TLINK id="TL6" fromID="E22" fromText="antibiotics" toID="E23" toText="antibiotics" type="OVERLAP" />
+<TLINK id="TL7" fromID="E8" fromText="Beta blockers" toID="T4" toText="post-op day one" type="AFTER" />
+<TLINK id="TL8" fromID="E9" fromText="diuretics" toID="T4" toText="post-op day one" type="AFTER" />
+<SECTIME id="S0" start="18" end="28" text="2018-10-25" type="ADMISSION" dvalue="2018-10-25" />
+<SECTIME id="S1" start="46" end="56" text="2018-10-31" type="DISCHARGE" dvalue="2018-10-31" />
+<TLINK id="SECTIME0" fromID="E16" fromText="Chest tubes" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E17" fromText="epicardial pacing wires" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E43" fromText="improve" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E45" fromText="his ambulation" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E44" fromText="mobility" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E18" fromText="physical therapy" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E19" fromText="further episodes of AFIB" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E20" fromText="po Amiodarone" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E28" fromText="worsening shortness of breath." toID="T1" toText="2018-10-25" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E21" fromText="left arm phlebitis" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E22" fromText="antibiotics" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E46" fromText="discharged home" toID="T2" toText="2018-10-31" type="OVERLAP" />
+<TLINK id="SECTIME12" fromID="E23" fromText="antibiotics" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E24" fromText="appropriate meds" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E47" fromText="VNA services" toID="T2" toText="2018-10-31" type="AFTER" />
+<TLINK id="SECTIME15" fromID="E48" fromText="follow-up appointments" toID="T2" toText="2018-10-31" type="AFTER" />
+<TLINK id="SECTIME16" fromID="E1" fromText="abnormal ETT" toID="T1" toText="2018-10-25" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E2" fromText="cath" toID="T1" toText="2018-10-25" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E3" fromText="Cath" toID="T1" toText="2018-10-25" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E29" fromText="revealed" toID="T1" toText="2018-10-25" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E30" fromText="severe 3 vessel disease" toID="T1" toText="2018-10-25" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E31" fromText="surgical intervention" toID="T1" toText="2018-10-25" type="AFTER" />
+<TLINK id="SECTIME22" fromID="E32" fromText="a same day admit" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E33" fromText="the operating room" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E4" fromText="a coronary artery bypass graft" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E34" fromText="tolerated" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E5" fromText="the procedure" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E35" fromText="well" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E36" fromText="transferred" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E37" fromText="the CSRU" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E6" fromText="invasive monitoring" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E38" fromText="stable condition" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E7" fromText="sedation" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E40" fromText="awoke" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E39" fromText="neurologically intact" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E41" fromText="extubated" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E8" fromText="Beta blockers" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E9" fromText="diuretics" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E10" fromText="diuresed" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E11" fromText="his pre-op weight" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E42" fromText="well" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E25" fromText="transferred" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E49" fromText="the SDU" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E12" fromText="burst of atrial fibrillation" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E13" fromText="a Amiodarone gtt" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E14" fromText="His beta blockers" toID="T2" toText="2018-10-31" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E15" fromText="maximal BP and HR control" toID="T2" toText="2018-10-31" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

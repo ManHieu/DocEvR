@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE : 
+3-26-93 
+DISCHARGE DATE : 
+4-3-93 
+HISTORY OF PRESENT ILLNESS : 
+The patient is a 73 year old female who was transferred for cardiac catheterization after ventricular fibrillation arrest in the setting of an acute inferior myocardial infarction and a urinary tract infection . 
+The patient was admitted on 3-16-93 to Diy Hospital for an E. coli urinary tract infection . 
+The patient was readmitted on 3-20-93 because of fever , chills and a sudden onset of ventricular fibrillation arrest , successfully cardioverted back to rapid atrial fibrillation and finally to sinus rhythm , where an electrocardiogram then showed ST elevation in inferior leads . 
+Peak CPK was 2494 with 18% MB 's . 
+She required intubation for mild to moderate congestive heart failure , treated with diuretics , intravenous nitroglycerin and heparin . 
+She had post-infarction angina , was transferred here for angiography and possible percutaneous transluminal coronary angioplasty . 
+HOSPITAL COURSE : 
+On 3-27-93 , patient underwent cardiac catheterization , coronary and left ventricular angiography without complications . 
+Review of these angiograms demonstrated a dominant right coronary artery with a focal 50% stenosis in the mid-portion . 
+The left main coronary artery was clear . 
+The left anterior descending had moderate plaques with a 50% proximal stenosis of the right anterior oblique caudal view . 
+The proximal diagonal D1 had a 50% stenosis . 
+The circumflex had a long 30% stenosis proximally and an 80% stenosis at the origin of the second major marginal artery . 
+The left ventricular angiogram showed akinesis of the posterobasal walls , severe hypokinesis of the diaphragmatic wall and trace mitral regurgitation . 
+The patient was maintained on heparin anticoagulation . 
+An exercise tolerance test with Thallium was to be performed in order to assess myocardial viability in the infarct zone . 
+The right coronary artery lesion was complex and there was severe stenosis in the obtuse marginal 1 . 
+The patient had no further angina . 
+On 4-2-93 , she underwent a Persantine Thallium study . 
+This showed no diagnostic electrocardiogram changes for ischemia and no angina pectoris . 
+The thallium images showed a large region of persistently reduced blood flow involving the apex and inferoposterior segments of the left ventricular wall . 
+This was consistent with scar . 
+There was no definite perfusion abnormality in the circumflex zone . 
+In view of these findings , it was elected to discharge her on her present medical program . 
+The patient is to return to the follow up care of Dr. Ko Kollciem at the Diy Hospital . 
+CHPO E. JESCOBEA , M.D. 
+TR : 
+sq / bmot 
+DD : 
+06-13-93 
+TD : 
+06/15/93 
+CC : 
+Dr. Ko Kollciem , Retchard Healthcare to Dr. Wall 
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="1031" end="1054" text="cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="1057" end="1098" text="coronary and left ventricular angiography" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="1107" end="1120" text="complications" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E21" start="1134" end="1150" text="these angiograms" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E49" start="1151" end="1163" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E22" start="1202" end="1241" text="a focal 50% stenosis in the mid-portion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="128" end="139" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="1321" end="1337" text="moderate plaques" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1343" end="1403" text="a 50% proximal stenosis of the right anterior oblique caudal" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="144" end="167" text="cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="1441" end="1455" text="a 50% stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="1478" end="1497" text="a long 30% stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="1513" end="1528" text="an 80% stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="1582" end="1612" text="The left ventricular angiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="1613" end="1619" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E29" start="1620" end="1654" text="akinesis of the posterobasal walls" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1657" end="1701" text="severe hypokinesis of the diaphragmatic wall" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1706" end="1732" text="trace mitral regurgitation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="174" end="205" text="ventricular fibrillation arrest" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="1752" end="1762" text="maintained" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1766" end="1789" text="heparin anticoagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1793" end="1833" text="An exercise tolerance test with Thallium" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E63" start="1873" end="1893" text="myocardial viability" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="1897" end="1913" text="the infarct zone" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1917" end="1949" text="The right coronary artery lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1976" end="2016" text="severe stenosis in the obtuse marginal 1" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="2039" end="2053" text="further angina" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E38" start="2083" end="2110" text="a Persantine Thallium study" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="2114" end="2125" text="This showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E39" start="2129" end="2165" text="diagnostic electrocardiogram changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E64" start="2170" end="2178" text="ischemia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E40" start="2186" end="2201" text="angina pectoris" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E41" start="2205" end="2224" text="The thallium images" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="2225" end="2231" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E3" start="224" end="263" text="an acute inferior myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="2232" end="2281" text="a large region of persistently reduced blood flow" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="2387" end="2391" text="scar" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="2408" end="2461" text="definite perfusion abnormality in the circumflex zone" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E65" start="2511" end="2520" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E66" start="2528" end="2555" text="her present medical program" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E67" start="2577" end="2583" text="return" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="2587" end="2605" text="the follow up care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="2628" end="2644" text="the Diy Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E4" start="268" end="293" text="a urinary tract infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="28" end="37" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="313" end="321" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="336" end="348" text="Diy Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E5" start="353" end="387" text="an E. coli urinary tract infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="407" end="417" text="readmitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="440" end="445" text="fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="448" end="454" text="chills" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="477" end="508" text="ventricular fibrillation arrest" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="524" end="536" text="cardioverted" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="545" end="570" text="rapid atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="586" end="598" text="sinus rhythm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="607" end="627" text="an electrocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="633" end="639" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E11" start="640" end="670" text="ST elevation in inferior leads" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="674" end="682" text="Peak CPK" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E70" start="701" end="706" text="MB 's" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="723" end="733" text="intubation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="738" end="779" text="mild to moderate congestive heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="795" end="804" text="diuretics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="807" end="832" text="intravenous nitroglycerin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="837" end="844" text="heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="856" end="878" text="post-infarction angina" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="885" end="896" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="906" end="917" text="angiography" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E61" start="931" end="977" text="percutaneous transluminal coronary angioplasty" modality="POSSIBLE" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T2" start="1003" end="1010" text="3-27-93" type="DATE" val="1993-03-27" mod="NA" />
+<TIMEX3 id="T0" start="19" end="26" text="3-26-93" type="DATE" val="1993-03-26" mod="NA" />
+<TIMEX3 id="T5" start="2060" end="2066" text="4-2-93" type="DATE" val="1993-04-02" mod="NA" />
+<TIMEX3 id="T4" start="325" end="332" text="3-16-93" type="DATE" val="1993-03-16" mod="NA" />
+<TIMEX3 id="T1" start="421" end="428" text="3-20-93" type="DATE" val="1993-03-20" mod="NA" />
+<TIMEX3 id="T3" start="46" end="52" text="4-3-93" type="DATE" val="1993-04-03" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T0" toText="3-26-93" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="cardiac catheterization" toID="E18" toText="cardiac catheterization" type="OVERLAP" />
+<TLINK id="TL10" fromID="E1" fromText="cardiac catheterization" toID="E54" toText="transferred" type="AFTER" />
+<TLINK id="TL11" fromID="E54" fromText="transferred" toID="E2" toText="ventricular fibrillation arrest" type="AFTER" />
+<TLINK id="TL12" fromID="E2" fromText="ventricular fibrillation arrest" toID="E3" toText="an acute inferior myocardial infarction" type="OVERLAP" />
+<TLINK id="TL13" fromID="E45" fromText="admitted" toID="T4" toText="3-16-93" type="OVERLAP" />
+<TLINK id="TL14" fromID="E55" fromText="Diy Hospital" toID="E45" toText="admitted" type="AFTER" />
+<TLINK id="TL15" fromID="E5" fromText="an E. coli urinary tract infection" toID="E45" toText="admitted" type="BEFORE" />
+<TLINK id="TL16" fromID="E46" fromText="readmitted" toID="T1" toText="3-20-93" type="OVERLAP" />
+<TLINK id="TL17" fromID="E6" fromText="fever" toID="E46" toText="readmitted" type="BEFORE" />
+<TLINK id="TL18" fromID="E7" fromText="chills" toID="E46" toText="readmitted" type="BEFORE" />
+<TLINK id="TL19" fromID="E8" fromText="ventricular fibrillation arrest" toID="E46" toText="readmitted" type="BEFORE" />
+<TLINK id="TL2" fromID="E4" fromText="a urinary tract infection" toID="E5" toText="an E. coli urinary tract infection" type="OVERLAP" />
+<TLINK id="TL20" fromID="E9" fromText="rapid atrial fibrillation" toID="E48" toText="cardioverted" type="AFTER" />
+<TLINK id="TL21" fromID="E56" fromText="sinus rhythm" toID="E9" toText="rapid atrial fibrillation" type="AFTER" />
+<TLINK id="TL22" fromID="E10" fromText="an electrocardiogram" toID="E47" toText="showed" type="OVERLAP" />
+<TLINK id="TL23" fromID="E11" fromText="ST elevation in inferior leads" toID="E47" toText="showed" type="BEFORE" />
+<TLINK id="TL24" fromID="E12" fromText="Peak CPK" toID="E70" toText="MB 's" type="OVERLAP" />
+<TLINK id="TL25" fromID="E57" fromText="mild to moderate congestive heart failure" toID="E14" toText="intubation" type="BEFORE" />
+<TLINK id="TL26" fromID="E15" fromText="diuretics" toID="E16" toText="intravenous nitroglycerin" type="OVERLAP" />
+<TLINK id="TL27" fromID="E16" fromText="intravenous nitroglycerin" toID="E17" toText="heparin" type="OVERLAP" />
+<TLINK id="TL28" fromID="E58" fromText="post-infarction angina" toID="E59" toText="transferred" type="BEFORE" />
+<TLINK id="TL29" fromID="E60" fromText="angiography" toID="E59" toText="transferred" type="AFTER" />
+<TLINK id="TL3" fromID="E33" fromText="An exercise tolerance test with Thallium" toID="E38" toText="a Persantine Thallium study" type="OVERLAP" />
+<TLINK id="TL30" fromID="E61" fromText="percutaneous transluminal coronary angioplasty" toID="E59" toText="transferred" type="AFTER" />
+<TLINK id="TL31" fromID="E18" fromText="cardiac catheterization" toID="T2" toText="3-27-93" type="OVERLAP" />
+<TLINK id="TL32" fromID="E18" fromText="cardiac catheterization" toID="E19" toText="coronary and left ventricular angiography" type="OVERLAP" />
+<TLINK id="TL33" fromID="E20" fromText="complications" toID="E19" toText="coronary and left ventricular angiography" type="OVERLAP" />
+<TLINK id="TL34" fromID="E22" fromText="a focal 50% stenosis in the mid-portion" toID="E49" toText="demonstrated" type="BEFORE" />
+<TLINK id="TL35" fromID="E23" fromText="moderate plaques" toID="E24" toText="a 50% proximal stenosis of the right anterior oblique caudal" type="OVERLAP" />
+<TLINK id="TL36" fromID="E25" fromText="a 50% stenosis" toID="E24" toText="a 50% proximal stenosis of the right anterior oblique caudal" type="OVERLAP" />
+<TLINK id="TL37" fromID="E25" fromText="a 50% stenosis" toID="E26" toText="a long 30% stenosis" type="OVERLAP" />
+<TLINK id="TL38" fromID="E26" fromText="a long 30% stenosis" toID="E27" toText="an 80% stenosis" type="OVERLAP" />
+<TLINK id="TL39" fromID="E28" fromText="The left ventricular angiogram" toID="E50" toText="showed" type="OVERLAP" />
+<TLINK id="TL40" fromID="E29" fromText="akinesis of the posterobasal walls" toID="E50" toText="showed" type="BEFORE" />
+<TLINK id="TL41" fromID="E30" fromText="severe hypokinesis of the diaphragmatic wall" toID="E50" toText="showed" type="BEFORE" />
+<TLINK id="TL42" fromID="E31" fromText="trace mitral regurgitation" toID="E50" toText="showed" type="BEFORE" />
+<TLINK id="TL43" fromID="E62" fromText="maintained" toID="E32" toText="heparin anticoagulation" type="OVERLAP" />
+<TLINK id="TL44" fromID="E63" fromText="myocardial viability" toID="E33" toText="An exercise tolerance test with Thallium" type="BEFORE" />
+<TLINK id="TL45" fromID="E63" fromText="myocardial viability" toID="E34" toText="the infarct zone" type="OVERLAP" />
+<TLINK id="TL46" fromID="E35" fromText="The right coronary artery lesion" toID="E36" toText="severe stenosis in the obtuse marginal 1" type="OVERLAP" />
+<TLINK id="TL47" fromID="E37" fromText="further angina" toID="E35" toText="The right coronary artery lesion" type="OVERLAP" />
+<TLINK id="TL48" fromID="E38" fromText="a Persantine Thallium study" toID="T5" toText="4-2-93" type="OVERLAP" />
+<TLINK id="TL49" fromID="E38" fromText="a Persantine Thallium study" toID="E51" toText="This showed" type="OVERLAP" />
+<TLINK id="TL5" fromID="E8" fromText="ventricular fibrillation arrest" toID="E48" toText="cardioverted" type="BEFORE" />
+<TLINK id="TL50" fromID="E39" fromText="diagnostic electrocardiogram changes" toID="E51" toText="This showed" type="OVERLAP" />
+<TLINK id="TL51" fromID="E42" fromText="a large region of persistently reduced blood flow" toID="E52" toText="showed" type="BEFORE" />
+<TLINK id="TL52" fromID="E43" fromText="scar" toID="E42" toText="a large region of persistently reduced blood flow" type="OVERLAP" />
+<TLINK id="TL53" fromID="E44" fromText="definite perfusion abnormality in the circumflex zone" toID="E43" toText="scar" type="OVERLAP" />
+<TLINK id="TL54" fromID="E65" fromText="discharge" toID="E67" toText="return" type="OVERLAP" />
+<TLINK id="TL55" fromID="E65" fromText="discharge" toID="E53" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL56" fromID="E66" fromText="her present medical program" toID="E65" toText="discharge" type="OVERLAP" />
+<TLINK id="TL57" fromID="E68" fromText="the follow up care" toID="E69" toText="the Diy Hospital" type="OVERLAP" />
+<TLINK id="TL6" fromID="E21" fromText="these angiograms" toID="E49" toText="demonstrated" type="OVERLAP" />
+<TLINK id="TL7" fromID="E41" fromText="The thallium images" toID="E52" toText="showed" type="OVERLAP" />
+<TLINK id="TL8" fromID="E53" fromText="DISCHARGE" toID="T3" toText="4-3-93" type="OVERLAP" />
+
+
+<TLINK id="SECTIME0" fromID="E18" fromText="cardiac catheterization" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E19" fromText="coronary and left ventricular angiography" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E20" fromText="complications" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E21" fromText="these angiograms" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E49" fromText="demonstrated" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E22" fromText="a focal 50% stenosis in the mid-portion" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E54" fromText="transferred" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E23" fromText="moderate plaques" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E24" fromText="a 50% proximal stenosis of the right anterior oblique caudal" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E1" fromText="cardiac catheterization" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E25" fromText="a 50% stenosis" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E26" fromText="a long 30% stenosis" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E27" fromText="an 80% stenosis" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E28" fromText="The left ventricular angiogram" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E50" fromText="showed" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E29" fromText="akinesis of the posterobasal walls" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E30" fromText="severe hypokinesis of the diaphragmatic wall" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E31" fromText="trace mitral regurgitation" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E2" fromText="ventricular fibrillation arrest" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E62" fromText="maintained" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E32" fromText="heparin anticoagulation" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E33" fromText="An exercise tolerance test with Thallium" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E63" fromText="myocardial viability" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E34" fromText="the infarct zone" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E35" fromText="The right coronary artery lesion" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E36" fromText="severe stenosis in the obtuse marginal 1" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E37" fromText="further angina" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E38" fromText="a Persantine Thallium study" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E51" fromText="This showed" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E39" fromText="diagnostic electrocardiogram changes" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E64" fromText="ischemia" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E40" fromText="angina pectoris" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E41" fromText="The thallium images" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E52" fromText="showed" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E3" fromText="an acute inferior myocardial infarction" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E42" fromText="a large region of persistently reduced blood flow" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E43" fromText="scar" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E44" fromText="definite perfusion abnormality in the circumflex zone" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E65" fromText="discharge" toID="T3" toText="4-3-93" type="OVERLAP" />
+<TLINK id="SECTIME39" fromID="E66" fromText="her present medical program" toID="T3" toText="4-3-93" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E67" fromText="return" toID="T3" toText="4-3-93" type="AFTER" />
+<TLINK id="SECTIME41" fromID="E68" fromText="the follow up care" toID="T3" toText="4-3-93" type="AFTER" />
+<TLINK id="SECTIME42" fromID="E69" fromText="the Diy Hospital" toID="T3" toText="4-3-93" type="AFTER" />
+<TLINK id="SECTIME43" fromID="E4" fromText="a urinary tract infection" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E45" fromText="admitted" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E55" fromText="Diy Hospital" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E5" fromText="an E. coli urinary tract infection" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E46" fromText="readmitted" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E6" fromText="fever" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E7" fromText="chills" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E8" fromText="ventricular fibrillation arrest" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E48" fromText="cardioverted" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E9" fromText="rapid atrial fibrillation" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E56" fromText="sinus rhythm" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E10" fromText="an electrocardiogram" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E47" fromText="showed" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E11" fromText="ST elevation in inferior leads" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E12" fromText="Peak CPK" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E70" fromText="MB 's" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E14" fromText="intubation" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E57" fromText="mild to moderate congestive heart failure" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E15" fromText="diuretics" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E16" fromText="intravenous nitroglycerin" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E17" fromText="heparin" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E58" fromText="post-infarction angina" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E59" fromText="transferred" toID="T0" toText="3-26-93" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E60" fromText="angiography" toID="T0" toText="3-26-93" type="AFTER" />
+<TLINK id="SECTIME67" fromID="E61" fromText="percutaneous transluminal coronary angioplasty" toID="T0" toText="3-26-93" type="AFTER" />
+<SECTIME id="S0" start="19" end="26" text="3-26-93" type="ADMISSION" dvalue="1993-03-26" />
+<SECTIME id="S1" start="46" end="52" text="4-3-93" type="DISCHARGE" dvalue="1993-04-03" />
+
+
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

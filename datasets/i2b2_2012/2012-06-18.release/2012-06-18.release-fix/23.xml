@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2014-04-23
+Discharge Date :
+2014-04-28
+Service :
+MEDICINE
+History of Present Illness :
+HPI :
+Ms. Franklin is a 34 - year-old woman with Bipolar disorder and group home resident who by way of EMS for apparent alprazolam overdose .
+In the St. Margaret 's Center for Women & Infants , the patient was lethargic and unable to give a history .
+She was promptly intubated for airway protection and in order to administer charcoal .
+Patient was found at group home in am laying on floor by bed unresponsive , last seen awake 8 hours prior at dinner .
+Group home states that patient " may have taken too many Xanax .
+Patient has a history of suicidal ideations and self mutilation .
+Later patient told CMED CCU that she was feeling down and impulsively ingested 5 days worth of medications , she states that her intent at that time was to end her life .
+Brief Hospital Course :
+CMED CSRU Course :
+Patient was intubated in John for airway protection and administation of charcoal .
+Toxicology consulted and felt that patient most likely had benzo overdose .
+ABG revealed widened A-a gradient so a d-dimer was sent which was elevated .
+Patient had CTA which showed bilateral pulmonary embolisms .
+Patient was started on heparin drip and bilateral lower extremeties were done which were negative for DVT .
+Patient was exubated after 1 day in ICU after waking up .
+Overnight in the ICU patient was noticed to have painful bullae on hands and arm along with swelling .
+Dermatology and plastic surgery were consulted who felt that symptoms were due to trauma ; it was not felt that patient had compartment syndrome .
+Patient was splinted and UE were kept elevated .
+Patient was gradually put back on her outpatient xanax dose of 1 mg qid and clozaril was restarted .
+Patient was transferred to floor after spending 1 day in the ICU .
+Once on the floor patient stable .
+Plastic did not feel that patient had any compartment syndrome and recommended aggresive upper extremity elevation for swelling reduction .
+While on the floor patient 's hands improved with good range of motion of left hand , however Jones some poor range of motion of right .
+X-ray of the hands and wrist were obtained which were negative .
+Patient seen by PT and OT who recommended hand exercises and splints for patient .
+Patient was put on coumadin that was bridged with lovenox unti lINR theraputic 01-23 .
+Patient conitnued to have SI while on floor and was transferred to psychiatry .
+While on the floor patient 's urinalysis suggestive of UTI and was put on 6 day course of levofloxacin .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1050" end="1064" text="benzo overdose" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="1067" end="1070" text="ABG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E35" start="1071" end="1079" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E34" start="1080" end="1100" text="widened A-a gradient" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1104" end="1113" text="a d-dimer" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="1133" end="1141" text="elevated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1156" end="1159" text="CTA" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="1166" end="1172" text="showed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E94" start="1166" end="1172" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E39" start="1173" end="1202" text="bilateral pulmonary embolisms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1173" end="1202" text="bilateral pulmonary embolisms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1228" end="1240" text="heparin drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="1245" end="1272" text="bilateral lower extremeties" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="1307" end="1310" text="DVT" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E45" start="1325" end="1333" text="exubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1349" end="1352" text="ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E47" start="1359" end="1368" text="waking up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="1384" end="1391" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E95" start="1404" end="1411" text="noticed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E49" start="1420" end="1451" text="painful bullae on hands and arm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="1463" end="1471" text="swelling" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1474" end="1485" text="Dermatology" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="1490" end="1505" text="plastic surgery" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="1511" end="1520" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="154" end="170" text="Bipolar disorder" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="1535" end="1543" text="symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="1556" end="1562" text="trauma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="1598" end="1618" text="compartment syndrome" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E57" start="1633" end="1641" text="splinted" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="1654" end="1667" text="kept elevated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="1704" end="1729" text="her outpatient xanax dose" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="1746" end="1754" text="clozaril" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="1783" end="1794" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="1798" end="1803" text="floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E65" start="1828" end="1835" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E66" start="1846" end="1855" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E67" start="1864" end="1870" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="1873" end="1880" text="Plastic" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="1911" end="1935" text="any compartment syndrome" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E70" start="1952" end="1987" text="aggresive upper extremity elevation" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="1992" end="2010" text="swelling reduction" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="2022" end="2031" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E73" start="2049" end="2057" text="improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="2063" end="2083" text="good range of motion" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="209" end="212" text="EMS" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E75" start="2113" end="2138" text="some poor range of motion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E76" start="2150" end="2178" text="X-ray of the hands and wrist" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="217" end="245" text="apparent alprazolam overdose" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="2223" end="2240" text="seen by PT and OT" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="2257" end="2271" text="hand exercises" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="2276" end="2283" text="splints" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="2317" end="2325" text="coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="2348" end="2355" text="lovenox" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E82" start="2361" end="2376" text="lINR theraputic" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E83" start="2411" end="2413" text="SI" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E84" start="2423" end="2428" text="floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E85" start="2437" end="2448" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E86" start="2452" end="2462" text="psychiatry" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E90" start="2474" end="2483" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E96" start="2474" end="2483" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E97" start="2474" end="2483" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E88" start="2484" end="2505" text="patient 's urinalysis" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E91" start="2520" end="2523" text="UTI" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="251" end="297" text="the St. Margaret 's Center for Women & Infants" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E92" start="2555" end="2567" text="levofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="316" end="325" text="lethargic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="330" end="354" text="unable to give a history" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="374" end="383" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="388" end="405" text="airway protection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="433" end="441" text="charcoal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="456" end="461" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E12" start="505" end="517" text="unresponsive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="530" end="535" text="awake" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="553" end="559" text="dinner" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="573" end="579" text="states" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E16" start="619" end="624" text="Xanax" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="652" end="670" text="suicidal ideations" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="675" end="690" text="self mutilation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="707" end="711" text="told" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E20" start="712" end="720" text="CMED CCU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E21" start="734" end="746" text="feeling down" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="763" end="771" text="ingested" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E93" start="772" end="784" text="5 days worth" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="788" end="799" text="medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="806" end="812" text="states" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E25" start="818" end="828" text="her intent" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="849" end="861" text="end her life" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="919" end="928" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="932" end="936" text="John" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E29" start="941" end="958" text="airway protection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="980" end="988" text="charcoal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="991" end="1011" text="Toxicology consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T4" start="1340" end="1345" text="1 day" type="DURATION" val="p1d" mod="NA" />
+<TIMEX3 id="T5" start="1371" end="1380" text="Overnight" type="DURATION" val="p12h" mod="APPROX" />
+<TIMEX3 id="T6" start="1738" end="1741" text="qid" type="FREQUENCY" val="rp6h" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2014-04-23" type="DATE" val="2014-04-23" mod="NA" />
+<TIMEX3 id="T7" start="1819" end="1824" text="1 day" type="DURATION" val="p1d" mod="NA" />
+<TIMEX3 id="T8" start="2539" end="2544" text="6 day" type="DURATION" val="p6d" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2014-04-28" type="DATE" val="2014-04-28" mod="NA" />
+<TIMEX3 id="T9" start="479" end="481" text="am" type="DATE" val="2014-02-23" mod="START" />
+<TIMEX3 id="T2" start="536" end="543" text="8 hours" type="DURATION" val="p8h" mod="NA" />
+<TIMEX3 id="T3" start="772" end="778" text="5 days" type="DURATION" val="p5d" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="TL10" fromID="E6" fromText="lethargic" toID="E5" toText="the St. Margaret 's Center for Women & Infants" type="OVERLAP" />
+<TLINK id="TL100" fromID="E75" fromText="some poor range of motion" toID="E73" toText="improved" type="OVERLAP" />
+<TLINK id="TL101" fromID="E74" fromText="good range of motion" toID="E73" toText="improved" type="OVERLAP" />
+<TLINK id="TL102" fromID="E74" fromText="good range of motion" toID="E75" toText="some poor range of motion" type="OVERLAP" />
+<TLINK id="TL103" fromID="E76" fromText="X-ray of the hands and wrist" toID="E75" toText="some poor range of motion" type="AFTER" />
+<TLINK id="TL104" fromID="E76" fromText="X-ray of the hands and wrist" toID="E78" toText="hand exercises" type="BEFORE" />
+<TLINK id="TL105" fromID="E77" fromText="seen by PT and OT" toID="E76" toText="X-ray of the hands and wrist" type="AFTER" />
+<TLINK id="TL106" fromID="E78" fromText="hand exercises" toID="E77" toText="seen by PT and OT" type="AFTER" />
+<TLINK id="TL107" fromID="E79" fromText="splints" toID="E78" toText="hand exercises" type="OVERLAP" />
+<TLINK id="TL108" fromID="E82" fromText="lINR theraputic" toID="E80" toText="coumadin" type="BEFORE" />
+<TLINK id="TL109" fromID="E80" fromText="coumadin" toID="E81" toText="lovenox" type="OVERLAP" />
+<TLINK id="TL11" fromID="E7" fromText="unable to give a history" toID="E6" toText="lethargic" type="OVERLAP" />
+<TLINK id="TL110" fromID="E81" fromText="lovenox" toID="E82" toText="lINR theraputic" type="BEFORE" />
+<TLINK id="TL111" fromID="E26" fromText="end her life" toID="E83" toText="SI" type="OVERLAP" />
+<TLINK id="TL112" fromID="E83" fromText="SI" toID="E84" toText="floor" type="BEFORE" />
+<TLINK id="TL113" fromID="E86" fromText="psychiatry" toID="E85" toText="transferred" type="AFTER" />
+<TLINK id="TL114" fromID="E84" fromText="floor" toID="E85" toText="transferred" type="BEFORE" />
+<TLINK id="TL115" fromID="E88" fromText="patient 's urinalysis" toID="E72" toText="the floor" type="OVERLAP" />
+<TLINK id="TL119" fromID="E72" fromText="the floor" toID="E90" toText="the floor" type="OVERLAP" />
+<TLINK id="TL12" fromID="E8" fromText="intubated" toID="E6" toText="lethargic" type="AFTER" />
+<TLINK id="TL120" fromID="E91" fromText="UTI" toID="E88" toText="patient 's urinalysis" type="BEFORE" />
+<TLINK id="TL121" fromID="E92" fromText="levofloxacin" toID="T8" toText="6 day" type="OVERLAP" />
+<TLINK id="TL122" fromID="E92" fromText="levofloxacin" toID="E88" toText="patient 's urinalysis" type="AFTER" />
+<TLINK id="TL13" fromID="E9" fromText="airway protection" toID="E8" toText="intubated" type="OVERLAP" />
+<TLINK id="TL14" fromID="E27" fromText="intubated" toID="E8" toText="intubated" type="OVERLAP" />
+<TLINK id="TL15" fromID="E10" fromText="charcoal" toID="E8" toText="intubated" type="AFTER" />
+<TLINK id="TL16" fromID="E11" fromText="found" toID="T9" toText="am" type="OVERLAP" />
+<TLINK id="TL17" fromID="E12" fromText="unresponsive" toID="E11" toText="found" type="BEFORE" />
+<TLINK id="TL18" fromID="E13" fromText="awake" toID="E14" toText="dinner" type="OVERLAP" />
+<TLINK id="TL19" fromID="T2" fromText="8 hours" toID="E11" toText="found" type="AFTER" />
+<TLINK id="TL2" fromID="E5" fromText="the St. Margaret 's Center for Women & Infants" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL20" fromID="T2" fromText="8 hours" toID="E14" toText="dinner" type="OVERLAP" />
+<TLINK id="TL21" fromID="E15" fromText="states" toID="E11" toText="found" type="AFTER" />
+<TLINK id="TL22" fromID="E16" fromText="Xanax" toID="E12" toText="unresponsive" type="BEFORE" />
+<TLINK id="TL23" fromID="E22" fromText="ingested" toID="E16" toText="Xanax" type="OVERLAP" />
+<TLINK id="TL24" fromID="E14" fromText="dinner" toID="E16" toText="Xanax" type="BEFORE" />
+<TLINK id="TL25" fromID="E21" fromText="feeling down" toID="E16" toText="Xanax" type="BEFORE" />
+<TLINK id="TL26" fromID="E32" fromText="benzo overdose" toID="E16" toText="Xanax" type="AFTER" />
+<TLINK id="TL27" fromID="E18" fromText="self mutilation" toID="E17" toText="suicidal ideations" type="OVERLAP" />
+<TLINK id="TL28" fromID="E24" fromText="states" toID="E19" toText="told" type="OVERLAP" />
+<TLINK id="TL29" fromID="E20" fromText="CMED CCU" toID="E21" toText="feeling down" type="BEFORE" />
+<TLINK id="TL30" fromID="E20" fromText="CMED CCU" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL31" fromID="E20" fromText="CMED CCU" toID="E1" toText="Discharge" type="BEFORE" />
+<TLINK id="TL32" fromID="E21" fromText="feeling down" toID="E22" toText="ingested" type="OVERLAP" />
+<TLINK id="TL33" fromID="E26" fromText="end her life" toID="E22" toText="ingested" type="AFTER" />
+<TLINK id="TL34" fromID="E23" fromText="medications" toID="E22" toText="ingested" type="OVERLAP" />
+<TLINK id="TL37" fromID="E22" fromText="ingested" toID="E93" toText="5 days worth" type="OVERLAP" />
+<TLINK id="TL38" fromID="E93" fromText="5 days worth" toID="E23" toText="medications" type="OVERLAP" />
+<TLINK id="TL39" fromID="E26" fromText="end her life" toID="E25" toText="her intent" type="OVERLAP" />
+<TLINK id="TL4" fromID="E1" fromText="Discharge" toID="T1" toText="2014-04-28" type="OVERLAP" />
+<TLINK id="TL40" fromID="E27" fromText="intubated" toID="E28" toText="John" type="OVERLAP" />
+<TLINK id="TL41" fromID="E29" fromText="airway protection" toID="E27" toText="intubated" type="OVERLAP" />
+<TLINK id="TL42" fromID="E30" fromText="charcoal" toID="E27" toText="intubated" type="AFTER" />
+<TLINK id="TL43" fromID="E31" fromText="Toxicology consulted" toID="E30" toText="charcoal" type="AFTER" />
+<TLINK id="TL45" fromID="E34" fromText="widened A-a gradient" toID="E33" toText="ABG" type="OVERLAP" />
+<TLINK id="TL46" fromID="E35" fromText="revealed" toID="E33" toText="ABG" type="OVERLAP" />
+<TLINK id="TL49" fromID="E33" fromText="ABG" toID="E36" toText="a d-dimer" type="BEFORE" />
+<TLINK id="TL5" fromID="E85" fromText="transferred" toID="E1" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL50" fromID="E37" fromText="elevated" toID="E36" toText="a d-dimer" type="OVERLAP" />
+<TLINK id="TL51" fromID="E39" fromText="bilateral pulmonary embolisms" toID="E38" toText="CTA" type="BEFORE" />
+<TLINK id="TL52" fromID="E40" fromText="showed" toID="E38" toText="CTA" type="OVERLAP" />
+<TLINK id="TL54" fromID="E43" fromText="bilateral lower extremeties" toID="E42" toText="heparin drip" type="BEFORE" />
+<TLINK id="TL57" fromID="E44" fromText="DVT" toID="E43" toText="bilateral lower extremeties" type="BEFORE" />
+<TLINK id="TL58" fromID="E45" fromText="exubated" toID="E47" toText="waking up" type="AFTER" />
+<TLINK id="TL59" fromID="E45" fromText="exubated" toID="E46" toText="ICU" type="OVERLAP" />
+<TLINK id="TL6" fromID="E2" fromText="Bipolar disorder" toID="E5" toText="the St. Margaret 's Center for Women & Infants" type="BEFORE" />
+<TLINK id="TL61" fromID="E46" fromText="ICU" toID="T4" toText="1 day" type="OVERLAP" />
+<TLINK id="TL62" fromID="E45" fromText="exubated" toID="T4" toText="1 day" type="AFTER" />
+<TLINK id="TL63" fromID="E47" fromText="waking up" toID="T4" toText="1 day" type="AFTER" />
+<TLINK id="TL64" fromID="E48" fromText="the ICU" toID="T5" toText="Overnight" type="OVERLAP" />
+<TLINK id="TL65" fromID="E49" fromText="painful bullae on hands and arm" toID="T5" toText="Overnight" type="OVERLAP" />
+<TLINK id="TL66" fromID="T5" fromText="Overnight" toID="E95" toText="noticed" type="OVERLAP" />
+<TLINK id="TL67" fromID="E95" fromText="noticed" toID="E49" toText="painful bullae on hands and arm" type="AFTER" />
+<TLINK id="TL68" fromID="E50" fromText="swelling" toID="E49" toText="painful bullae on hands and arm" type="OVERLAP" />
+<TLINK id="TL7" fromID="E2" fromText="Bipolar disorder" toID="E4" toText="apparent alprazolam overdose" type="BEFORE" />
+<TLINK id="TL70" fromID="E56" fromText="compartment syndrome" toID="E50" toText="swelling" type="OVERLAP" />
+<TLINK id="TL71" fromID="E53" fromText="consulted" toID="E50" toText="swelling" type="AFTER" />
+<TLINK id="TL72" fromID="E54" fromText="symptoms" toID="E50" toText="swelling" type="OVERLAP" />
+<TLINK id="TL73" fromID="E52" fromText="plastic surgery" toID="E51" toText="Dermatology" type="OVERLAP" />
+<TLINK id="TL74" fromID="E52" fromText="plastic surgery" toID="E53" toText="consulted" type="OVERLAP" />
+<TLINK id="TL75" fromID="E57" fromText="splinted" toID="E53" toText="consulted" type="AFTER" />
+<TLINK id="TL76" fromID="E55" fromText="trauma" toID="E54" toText="symptoms" type="BEFORE" />
+<TLINK id="TL77" fromID="E59" fromText="kept elevated" toID="E57" toText="splinted" type="OVERLAP" />
+<TLINK id="TL78" fromID="E70" fromText="aggresive upper extremity elevation" toID="E59" toText="kept elevated" type="OVERLAP" />
+<TLINK id="TL79" fromID="E60" fromText="her outpatient xanax dose" toID="E63" toText="transferred" type="BEFORE" />
+<TLINK id="TL8" fromID="E4" fromText="apparent alprazolam overdose" toID="E11" toText="found" type="BEFORE" />
+<TLINK id="TL80" fromID="E60" fromText="her outpatient xanax dose" toID="T6" toText="qid" type="OVERLAP" />
+<TLINK id="TL81" fromID="E60" fromText="her outpatient xanax dose" toID="E61" toText="clozaril" type="OVERLAP" />
+<TLINK id="TL83" fromID="E48" fromText="the ICU" toID="E63" toText="transferred" type="BEFORE" />
+<TLINK id="TL84" fromID="E61" fromText="clozaril" toID="E63" toText="transferred" type="BEFORE" />
+<TLINK id="TL85" fromID="E64" fromText="floor" toID="E63" toText="transferred" type="AFTER" />
+<TLINK id="TL86" fromID="E66" fromText="the floor" toID="E64" toText="floor" type="OVERLAP" />
+<TLINK id="TL87" fromID="E65" fromText="the ICU" toID="T7" toText="1 day" type="OVERLAP" />
+<TLINK id="TL88" fromID="E64" fromText="floor" toID="T7" toText="1 day" type="AFTER" />
+<TLINK id="TL89" fromID="E65" fromText="the ICU" toID="E46" toText="ICU" type="OVERLAP" />
+<TLINK id="TL9" fromID="E4" fromText="apparent alprazolam overdose" toID="E5" toText="the St. Margaret 's Center for Women & Infants" type="BEFORE" />
+<TLINK id="TL90" fromID="E65" fromText="the ICU" toID="E63" toText="transferred" type="BEFORE" />
+<TLINK id="TL91" fromID="E72" fromText="the floor" toID="E66" toText="the floor" type="OVERLAP" />
+<TLINK id="TL92" fromID="E67" fromText="stable" toID="E66" toText="the floor" type="OVERLAP" />
+<TLINK id="TL93" fromID="E67" fromText="stable" toID="E68" toText="Plastic" type="OVERLAP" />
+<TLINK id="TL94" fromID="E69" fromText="any compartment syndrome" toID="E68" toText="Plastic" type="BEFORE" />
+<TLINK id="TL95" fromID="E69" fromText="any compartment syndrome" toID="E56" toText="compartment syndrome" type="OVERLAP" />
+<TLINK id="TL96" fromID="E69" fromText="any compartment syndrome" toID="E70" toText="aggresive upper extremity elevation" type="OVERLAP" />
+<TLINK id="TL97" fromID="E71" fromText="swelling reduction" toID="E70" toText="aggresive upper extremity elevation" type="AFTER" />
+<TLINK id="TL98" fromID="E73" fromText="improved" toID="E72" toText="the floor" type="OVERLAP" />
+<TLINK id="TL99" fromID="E84" fromText="floor" toID="E72" toText="the floor" type="OVERLAP" />
+<TLINK id="SECTIME0" fromID="E32" fromText="benzo overdose" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E33" fromText="ABG" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E35" fromText="revealed" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E34" fromText="widened A-a gradient" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E36" fromText="a d-dimer" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E37" fromText="elevated" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E38" fromText="CTA" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E40" fromText="showed" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E94" fromText="showed" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E39" fromText="bilateral pulmonary embolisms" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E41" fromText="bilateral pulmonary embolisms" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E42" fromText="heparin drip" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E43" fromText="bilateral lower extremeties" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E44" fromText="DVT" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E45" fromText="exubated" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E46" fromText="ICU" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E47" fromText="waking up" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E48" fromText="the ICU" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E95" fromText="noticed" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E49" fromText="painful bullae on hands and arm" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E50" fromText="swelling" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E51" fromText="Dermatology" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E52" fromText="plastic surgery" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E53" fromText="consulted" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E2" fromText="Bipolar disorder" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E54" fromText="symptoms" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E55" fromText="trauma" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E56" fromText="compartment syndrome" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E57" fromText="splinted" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E59" fromText="kept elevated" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E60" fromText="her outpatient xanax dose" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E61" fromText="clozaril" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E63" fromText="transferred" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E64" fromText="floor" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E65" fromText="the ICU" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E66" fromText="the floor" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E67" fromText="stable" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E68" fromText="Plastic" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E69" fromText="any compartment syndrome" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E70" fromText="aggresive upper extremity elevation" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E71" fromText="swelling reduction" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E72" fromText="the floor" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E73" fromText="improved" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E74" fromText="good range of motion" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E3" fromText="EMS" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E75" fromText="some poor range of motion" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E76" fromText="X-ray of the hands and wrist" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E4" fromText="apparent alprazolam overdose" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E77" fromText="seen by PT and OT" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E78" fromText="hand exercises" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E79" fromText="splints" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E80" fromText="coumadin" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E81" fromText="lovenox" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E82" fromText="lINR theraputic" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E83" fromText="SI" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E84" fromText="floor" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E85" fromText="transferred" toID="T1" toText="2014-04-28" type="OVERLAP" />
+<TLINK id="SECTIME57" fromID="E86" fromText="psychiatry" toID="T1" toText="2014-04-28" type="AFTER" />
+<TLINK id="SECTIME58" fromID="E90" fromText="the floor" toID="T1" toText="2014-04-28" type="OVERLAP" />
+<TLINK id="SECTIME59" fromID="E96" fromText="the floor" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E97" fromText="the floor" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E88" fromText="patient 's urinalysis" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E91" fromText="UTI" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E5" fromText="the St. Margaret 's Center for Women & Infants" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E92" fromText="levofloxacin" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E6" fromText="lethargic" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E7" fromText="unable to give a history" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E8" fromText="intubated" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E9" fromText="airway protection" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E10" fromText="charcoal" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E11" fromText="found" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E12" fromText="unresponsive" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E13" fromText="awake" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E14" fromText="dinner" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E15" fromText="states" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E16" fromText="Xanax" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E17" fromText="suicidal ideations" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E18" fromText="self mutilation" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E19" fromText="told" toID="T0" toText="2014-04-23" type="AFTER" />
+<TLINK id="SECTIME79" fromID="E20" fromText="CMED CCU" toID="T0" toText="2014-04-23" type="OVERLAP" />
+<TLINK id="SECTIME80" fromID="E21" fromText="feeling down" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E22" fromText="ingested" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E93" fromText="5 days worth" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E23" fromText="medications" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E24" fromText="states" toID="T0" toText="2014-04-23" type="AFTER" />
+<TLINK id="SECTIME85" fromID="E25" fromText="her intent" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E26" fromText="end her life" toID="T0" toText="2014-04-23" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E27" fromText="intubated" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E28" fromText="John" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E29" fromText="airway protection" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E30" fromText="charcoal" toID="T1" toText="2014-04-28" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E31" fromText="Toxicology consulted" toID="T1" toText="2014-04-28" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2014-04-23" type="ADMISSION" dvalue="2014-04-23" />
+<SECTIME id="S1" start="46" end="56" text="2014-04-28" type="DISCHARGE" dvalue="2014-04-28" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

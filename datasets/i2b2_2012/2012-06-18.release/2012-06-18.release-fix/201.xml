@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+03/11/2002
+DISCHARGE DATE :
+03/14/2002
+DISCHARGE DATE :
+03/14/2002
+HISTORY OF PRESENT ILLNESS :
+This is a 62-year-old hospice chaplain who was referred by Dr. Tomedankell Flowayles and Dr. Es Oarekote for evaluation of his right hip pain .
+He states that his pain has been of seven to eight durations , and rated as moderate to severe ( 7/10 ) .
+He does limp .
+He does not use a cane and he requires a bannister for going up and down stairs .
+He has trouble with his shoes and socks .
+He uses a walker .
+He can walk about a quarter of a mile without stopping .
+HOSPITAL COURSE :
+The patient was taken to the operating room on March 11 , 2002 , and underwent an uncomplicated right total hip replacement .
+The patient tolerated the procedure well and was transferred to the Post Anesthesia Care Unit and then to the floor in stable condition .
+On postoperative check , he was doing well .
+He was afebrile and his vital signs were stable .
+He was neurovascularly intact .
+His hematocrit was 34.7 .
+He was started on Coumadin for DVT prophylaxis and Ancef for routine antimicrobial coverage .
+He was made partial weight-bearing for his right lower extremity .
+He was placed on posterior hip dislocation precautions and was out of bed with physical therapy and occupational therapy .
+On postoperative day one , there were no active issues .
+He was afebrile .
+His vital signs were stable .
+He was neurovascularly intact .
+On postoperative day two , he was afebrile , vital signs were stable .
+His incision was clean , dry and intact with no erythema .
+He remained neurovascularly intact .
+His hematocrit was 34.8 .
+On postoperative day three , lower extremity noninvasive ultrasounds were performed , which showed no evidence of deep venous thrombosis in the lower extremities .
+The remainder of his hospitalization was uncomplicated .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1032" end="1040" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="1045" end="1060" text="DVT prophylaxis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="1065" end="1070" text="Ancef" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="1075" end="1105" text="routine antimicrobial coverage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="1120" end="1142" text="partial weight-bearing" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1192" end="1229" text="posterior hip dislocation precautions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1238" end="1248" text="out of bed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1339" end="1352" text="active issues" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E37" start="1362" end="1370" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1373" end="1388" text="His vital signs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="1394" end="1400" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1410" end="1432" text="neurovascularly intact" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1469" end="1477" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1480" end="1491" text="vital signs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="1497" end="1503" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="1506" end="1518" text="His incision" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="1523" end="1545" text="clean , dry and intact" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1554" end="1562" text="erythema" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E47" start="1577" end="1599" text="neurovascularly intact" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="1602" end="1616" text="His hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="161" end="169" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1657" end="1696" text="lower extremity noninvasive ultrasounds" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="1720" end="1726" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E51" start="1742" end="1789" text="deep venous thrombosis in the lower extremities" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E52" start="1809" end="1828" text="his hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="1833" end="1848" text="uncomplicated ." modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="223" end="233" text="evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="237" end="255" text="his right hip pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="261" end="267" text="states" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E7" start="273" end="281" text="his pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="29" end="38" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="372" end="376" text="limp" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="395" end="401" text="a cane" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E10" start="409" end="429" text="requires a bannister" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="468" end="500" text="trouble with his shoes and socks" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="511" end="519" text="a walker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="529" end="549" text="walk about a quarter" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="57" end="66" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="622" end="640" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E15" start="676" end="720" text="an uncomplicated right total hip replacement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="735" end="744" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="745" end="758" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="772" end="783" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="787" end="816" text="the Post Anesthesia Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E20" start="829" end="838" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E21" start="842" end="858" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="864" end="883" text="postoperative check" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="893" end="903" text="doing well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="913" end="921" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="926" end="941" text="his vital signs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="947" end="953" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="963" end="985" text="neurovascularly intact" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="988" end="1002" text="His hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T4" start="1315" end="1322" text="day one" type="DATE" val="2002-03-12" mod="NA" />
+<TIMEX3 id="T5" start="1452" end="1459" text="day two" type="DATE" val="2002-03-13" mod="NA" />
+<TIMEX3 id="T6" start="1645" end="1654" text="day three" type="DATE" val="2002-03-14" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="03/11/2002" type="DATE" val="2002-03-11" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="03/14/2002" type="DATE" val="2002-03-14" mod="NA" />
+<TIMEX3 id="T3" start="644" end="659" text="March 11 , 2002" type="DATE" val="2002-03-11" mod="NA" />
+<TIMEX3 id="T2" start="74" end="84" text="03/14/2002" type="DATE" val="2002-03-14" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T0" toText="03/11/2002" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="DISCHARGE" toID="T1" toText="03/14/2002" type="OVERLAP" />
+<TLINK id="TL10" fromID="E9" fromText="a cane" toID="E8" toText="limp" type="OVERLAP" />
+<TLINK id="TL11" fromID="E11" fromText="trouble with his shoes and socks" toID="E7" toText="his pain" type="OVERLAP" />
+<TLINK id="TL12" fromID="E12" fromText="a walker" toID="E7" toText="his pain" type="OVERLAP" />
+<TLINK id="TL13" fromID="E13" fromText="walk about a quarter" toID="E12" toText="a walker" type="OVERLAP" />
+<TLINK id="TL14" fromID="T3" fromText="March 11 , 2002" toID="E14" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL15" fromID="E15" fromText="an uncomplicated right total hip replacement" toID="E14" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL16" fromID="E15" fromText="an uncomplicated right total hip replacement" toID="E17" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL17" fromID="E16" fromText="tolerated" toID="E17" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL18" fromID="E14" fromText="the operating room" toID="E18" toText="transferred" type="BEFORE" />
+<TLINK id="TL19" fromID="E19" fromText="the Post Anesthesia Care Unit" toID="E18" toText="transferred" type="AFTER" />
+<TLINK id="TL2" fromID="E2" fromText="DISCHARGE" toID="E1" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL20" fromID="E20" fromText="the floor" toID="E19" toText="the Post Anesthesia Care Unit" type="AFTER" />
+<TLINK id="TL21" fromID="E21" fromText="stable condition" toID="E20" toText="the floor" type="BEFORE" />
+<TLINK id="TL22" fromID="E22" fromText="postoperative check" toID="E23" toText="doing well" type="OVERLAP" />
+<TLINK id="TL23" fromID="E22" fromText="postoperative check" toID="E17" toText="the procedure" type="AFTER" />
+<TLINK id="TL24" fromID="E22" fromText="postoperative check" toID="E24" toText="afebrile" type="OVERLAP" />
+<TLINK id="TL25" fromID="E24" fromText="afebrile" toID="E25" toText="his vital signs" type="OVERLAP" />
+<TLINK id="TL26" fromID="E25" fromText="his vital signs" toID="E26" toText="stable" type="OVERLAP" />
+<TLINK id="TL27" fromID="E27" fromText="neurovascularly intact" toID="E22" toText="postoperative check" type="OVERLAP" />
+<TLINK id="TL28" fromID="E28" fromText="His hematocrit" toID="E22" toText="postoperative check" type="OVERLAP" />
+<TLINK id="TL29" fromID="E29" fromText="Coumadin" toID="E30" toText="DVT prophylaxis" type="OVERLAP" />
+<TLINK id="TL3" fromID="E2" fromText="DISCHARGE" toID="T2" toText="03/14/2002" type="OVERLAP" />
+<TLINK id="TL30" fromID="E29" fromText="Coumadin" toID="E17" toText="the procedure" type="AFTER" />
+<TLINK id="TL31" fromID="E31" fromText="Ancef" toID="E32" toText="routine antimicrobial coverage" type="OVERLAP" />
+<TLINK id="TL32" fromID="E31" fromText="Ancef" toID="E17" toText="the procedure" type="AFTER" />
+<TLINK id="TL33" fromID="E34" fromText="posterior hip dislocation precautions" toID="E33" toText="partial weight-bearing" type="OVERLAP" />
+<TLINK id="TL34" fromID="E33" fromText="partial weight-bearing" toID="E20" toText="the floor" type="OVERLAP" />
+<TLINK id="TL35" fromID="E20" fromText="the floor" toID="T2" toText="03/14/2002" type="BEFORE" />
+<TLINK id="TL36" fromID="E35" fromText="out of bed" toID="E33" toText="partial weight-bearing" type="OVERLAP" />
+<TLINK id="TL37" fromID="E36" fromText="active issues" toID="T4" toText="day one" type="OVERLAP" />
+<TLINK id="TL38" fromID="E37" fromText="afebrile" toID="T4" toText="day one" type="OVERLAP" />
+<TLINK id="TL39" fromID="E40" fromText="neurovascularly intact" toID="T4" toText="day one" type="OVERLAP" />
+<TLINK id="TL4" fromID="E3" fromText="referred" toID="E4" toText="evaluation" type="BEFORE" />
+<TLINK id="TL40" fromID="E38" fromText="His vital signs" toID="T4" toText="day one" type="OVERLAP" />
+<TLINK id="TL41" fromID="E38" fromText="His vital signs" toID="E39" toText="stable" type="OVERLAP" />
+<TLINK id="TL42" fromID="E41" fromText="afebrile" toID="T5" toText="day two" type="OVERLAP" />
+<TLINK id="TL43" fromID="E42" fromText="vital signs" toID="T5" toText="day two" type="OVERLAP" />
+<TLINK id="TL44" fromID="E46" fromText="erythema" toID="T5" toText="day two" type="OVERLAP" />
+<TLINK id="TL45" fromID="E42" fromText="vital signs" toID="E43" toText="stable" type="OVERLAP" />
+<TLINK id="TL46" fromID="E44" fromText="His incision" toID="E15" toText="an uncomplicated right total hip replacement" type="AFTER" />
+<TLINK id="TL47" fromID="E45" fromText="clean , dry and intact" toID="T5" toText="day two" type="OVERLAP" />
+<TLINK id="TL48" fromID="E47" fromText="neurovascularly intact" toID="T5" toText="day two" type="OVERLAP" />
+<TLINK id="TL49" fromID="E48" fromText="His hematocrit" toID="T5" toText="day two" type="OVERLAP" />
+<TLINK id="TL5" fromID="E5" fromText="his right hip pain" toID="E4" toText="evaluation" type="BEFORE" />
+<TLINK id="TL50" fromID="E49" fromText="lower extremity noninvasive ultrasounds" toID="T6" toText="day three" type="OVERLAP" />
+<TLINK id="TL51" fromID="E49" fromText="lower extremity noninvasive ultrasounds" toID="E50" toText="showed" type="OVERLAP" />
+<TLINK id="TL52" fromID="E51" fromText="deep venous thrombosis in the lower extremities" toID="E49" toText="lower extremity noninvasive ultrasounds" type="BEFORE" />
+<TLINK id="TL53" fromID="E53" fromText="uncomplicated ." toID="E52" toText="his hospitalization" type="OVERLAP" />
+<TLINK id="TL54" fromID="E52" fromText="his hospitalization" toID="T0" toText="03/11/2002" type="AFTER" />
+<TLINK id="TL55" fromID="E52" fromText="his hospitalization" toID="T2" toText="03/14/2002" type="BEFORE" />
+<TLINK id="TL6" fromID="E5" fromText="his right hip pain" toID="E7" toText="his pain" type="OVERLAP" />
+<TLINK id="TL7" fromID="E6" fromText="states" toID="E4" toText="evaluation" type="OVERLAP" />
+<TLINK id="TL8" fromID="E7" fromText="his pain" toID="E8" toText="limp" type="OVERLAP" />
+<TLINK id="TL9" fromID="E9" fromText="a cane" toID="E10" toText="requires a bannister" type="OVERLAP" />
+<TLINK id="SECTIME0" fromID="E29" fromText="Coumadin" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E30" fromText="DVT prophylaxis" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E31" fromText="Ancef" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E32" fromText="routine antimicrobial coverage" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E33" fromText="partial weight-bearing" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E34" fromText="posterior hip dislocation precautions" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E35" fromText="out of bed" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E36" fromText="active issues" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E37" fromText="afebrile" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E38" fromText="His vital signs" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E39" fromText="stable" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E40" fromText="neurovascularly intact" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E41" fromText="afebrile" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E42" fromText="vital signs" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E43" fromText="stable" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E44" fromText="His incision" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E45" fromText="clean , dry and intact" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E46" fromText="erythema" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E47" fromText="neurovascularly intact" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E48" fromText="His hematocrit" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E3" fromText="referred" toID="T0" toText="03/11/2002" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E49" fromText="lower extremity noninvasive ultrasounds" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E50" fromText="showed" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E51" fromText="deep venous thrombosis in the lower extremities" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E52" fromText="his hospitalization" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E53" fromText="uncomplicated ." toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E4" fromText="evaluation" toID="T0" toText="03/11/2002" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E5" fromText="his right hip pain" toID="T0" toText="03/11/2002" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E6" fromText="states" toID="T0" toText="03/11/2002" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E7" fromText="his pain" toID="T0" toText="03/11/2002" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E8" fromText="limp" toID="T0" toText="03/11/2002" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E9" fromText="a cane" toID="T0" toText="03/11/2002" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E10" fromText="requires a bannister" toID="T0" toText="03/11/2002" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E11" fromText="trouble with his shoes and socks" toID="T0" toText="03/11/2002" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E12" fromText="a walker" toID="T0" toText="03/11/2002" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E13" fromText="walk about a quarter" toID="T0" toText="03/11/2002" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E14" fromText="the operating room" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E15" fromText="an uncomplicated right total hip replacement" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E16" fromText="tolerated" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E17" fromText="the procedure" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E18" fromText="transferred" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E19" fromText="the Post Anesthesia Care Unit" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E20" fromText="the floor" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E21" fromText="stable condition" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E22" fromText="postoperative check" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E23" fromText="doing well" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E24" fromText="afebrile" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E25" fromText="his vital signs" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E26" fromText="stable" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E27" fromText="neurovascularly intact" toID="T1" toText="03/14/2002" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E28" fromText="His hematocrit" toID="T1" toText="03/14/2002" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="03/11/2002" type="ADMISSION" dvalue="2002-03-11" />
+<SECTIME id="S1" start="46" end="56" text="03/14/2002" type="DISCHARGE" dvalue="2002-03-14" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

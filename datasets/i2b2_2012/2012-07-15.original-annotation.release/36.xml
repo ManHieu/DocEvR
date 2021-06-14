@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+02/01/2002
+Discharge Date :
+02/08/2002
+HISTORY OF PRESENT ILLNESS :
+Saujule Study is a 77-year-old woman with a history of obesity and hypertension who presents with increased shortness of breath x 5 days .
+Her shortness of breath has been progressive over the last 2-3 years .
+She has an associated dry cough but no fevers , chills , or leg pain .
+She has dyspnea on exertion .
+She ambulates with walker and a cane secondary to osteoarthritis .
+She becomes short of breath just by getting up from her chair and can only walk 2-3 steps on a flat surface .
+She feels light headed when getting up .
+Her shortness of breath and dyspnea on exertion has been progressive for the past several years .
+It has not been sudden or acute .
+She sleeps in a chair up right for the last 2 1/2 years secondary to osteoarthritis .
+She has orthopnea as well but noparoxysmal nocturnal dyspnea .
+She occasionally feels chest twinges which are nonradiating but are sharp .
+They last a few seconds on the left side and are not associated with sweating , nausea , vomiting or syncope .
+She has had lower extremity edema for thelast several years with multiple episodes of cellulitis .
+Her lower extremity edema has increased for the several weeks prior to admission secondary to an inability to elevate her legs due to a broken chair at home .
+She denies any pleural chest pain .
+REVIEW OF SYSTEMS :
+Negative for headaches , vision changes , numbness , tingling , dyspnea , hematuria , abdominal pain , diarrhea , melena or hematochezia .
+HOSPITAL COURSE :
+The patient was admitted to the hospital for acute and chronic shortness of breath .
+1. Cardiovascular :
+The patient was found to be in congestive heart failure and thought likely secondary to diastolic dysfunction secondary to hypertension .
+The patient was also found to have pulmonary hypertension .
+She ruled out for myocardial infarction with 3 negative enzymes .
+On admission , she was diuresed with Lasix and was negative 1-2 liters per day for several days .
+The diuresis was backed off when her bicarbonate increased from 36 to 39 .
+She was restarted on 20 mg p.o. q day prior to discharge .
+Her lipids were checked with a total cholesterol of 110 , triglycerides 59 , HDL32 , LDL 64 .
+The patient had a D-dimer greater than 1000 with lower extremity non-invasive studies which were positive for a small right common femoral clot .
+It was unclear whether this was old or new .
+A TTE showed an ejection fraction of 60% , mild mitral regurgitation , left atrial enlargement , mild tricuspid regurgitation , pulmonary artery pressures of 44 plus right atrial pressure .
+There was an intra-atrial shunt from the right to the left through a patent foramen ovale .
+Chest CT was a poor study but did not show a pulmonary embolus .
+The patient had subsequent dobutamine MIBI which was positive for inducible ischemia in the distribution of posterior descending coronary artery and posterolateral coronary artery with a small to medium perfusion defect in the inferolateral wall and basal inferior wall which was partially reversible .
+The cardiology service saw the patient and recommended medical management only without catheterization .
+Her blood pressure was high so Captopril was titrated up to 50 mg p.o. t.i.d. .
+She will be discharged on Lisinopril with further titration as an outpatient .
+She is on hydrochlorothiazide 50 mg p.o. q day .
+Her atenolol was stopped due to bradycardia on admission but this may be restarted as an outpatient in gentle doses with careful monitoring of heart rate .
+She is on an aspirin .
+She will be discharged on Lasix 20 mg for continued control of her edema .
+2. Pulmonary ;
+Pulmonary hypertension as seen on echocardiogram .
+Unclear whether there are chronic pulmonary embolus but did have positive test for deep venous thrombosis and will be treated with Coumadin .
+An ABG was done which showed pH 7.34 , pCO2 78 , pO2 92 on 2 liters .
+Her bicarbonate peaked at 39 and generally is in the 36-38 range .
+She has severe sleep apnea and falls asleep midsentence .
+She has episodes of not breathing .
+BIPAP was attempted for 3 nights in a row and the patient did not tolerate this .
+She will need pulmonary function studies as an outpatient as these were not done in the hospital .
+The pulmonary team saw the patient and only recommended the above testing .
+She needs home oxygen and is currently at 2 liters nasal cannula oxygen .
+3. Infectious disease :
+Evidence for cellulitis on her legs , likely due to distention from edema and poor perfusion .
+She was originally started on cefazolin which was then changed to Keflex with good improvement .
+She will need to continue for at least 10 more days or as clinically indicated by the course of her cellulitis .
+4. Hematology :
+D-dimer in the emergency room was greater than 1000 and a right common femoral clot was seen .
+This clot was small and it was questionable as to whether it was old or new .
+She was started on anticoagulation given the positive D-dimer .
+Chest CT was nondiagnostic but did not show pulmonary embolus .
+It was a poor study .
+Heparin was maintained during her hospital course and then Lovenox was started .
+Her dose was increased to 7.5 mg q day the day prior to discharge .
+She will be discharged on this dose in addition to 1 day of Lovenox .
+Discharge INR 1.8 .
+Goal INR is 2.0-3.0 .
+5. Fluids / electrolytes / nutrition :
+Low salt diet .
+Low cholesterol , low fat diet .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="1041" end="1049" text="sweating" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E6" start="1052" end="1058" text="nausea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E7" start="1061" end="1069" text="vomiting" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E8" start="1073" end="1080" text="syncope" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E113" start="1095" end="1116" text="lower extremity edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E114" start="1169" end="1179" text="cellulitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E115" start="1182" end="1207" text="Her lower extremity edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E116" start="1253" end="1262" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E117" start="1276" end="1308" text="an inability to elevate her legs" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E118" start="1316" end="1330" text="a broken chair" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E119" start="1345" end="1351" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E9" start="1352" end="1374" text="any pleural chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E93" start="141" end="148" text="obesity" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="1410" end="1419" text="headaches" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E11" start="1422" end="1436" text="vision changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E12" start="1439" end="1447" text="numbness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E13" start="1450" end="1458" text="tingling" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E14" start="1461" end="1468" text="dyspnea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E15" start="1471" end="1480" text="hematuria" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E16" start="1483" end="1497" text="abdominal pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E17" start="1500" end="1508" text="diarrhea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E18" start="1511" end="1517" text="melena" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E94" start="153" end="165" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1521" end="1533" text="hematochezia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E84" start="1570" end="1578" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E120" start="1582" end="1594" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E20" start="1599" end="1636" text="acute and chronic shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E121" start="1675" end="1680" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E21" start="1690" end="1714" text="congestive heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="170" end="178" text="presents" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E122" start="1747" end="1768" text="diastolic dysfunction" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E123" start="1782" end="1794" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E129" start="1818" end="1823" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E95" start="184" end="213" text="increased shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E124" start="1832" end="1854" text="pulmonary hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E125" start="1861" end="1870" text="ruled out" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="1875" end="1896" text="myocardial infarction" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E126" start="1904" end="1920" text="negative enzymes" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E85" start="1926" end="1935" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E127" start="1946" end="1954" text="diuresed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="1960" end="1965" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E128" start="1974" end="2001" text="negative 1-2 liters per day" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="2021" end="2033" text="The diuresis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E87" start="2038" end="2048" text="backed off" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="2054" end="2069" text="her bicarbonate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E86" start="2104" end="2113" text="restarted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E130" start="2143" end="2152" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="2155" end="2165" text="Her lipids" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="2184" end="2203" text="a total cholesterol" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="2213" end="2226" text="triglycerides" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="2232" end="2237" text="HDL32" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="2240" end="2243" text="LDL" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E96" start="225" end="248" text="Her shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="2265" end="2274" text="a D-dimer" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="2298" end="2334" text="lower extremity non-invasive studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="2359" end="2392" text="a small right common femoral clot" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="2440" end="2445" text="A TTE" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E131" start="2446" end="2452" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E35" start="2453" end="2473" text="an ejection fraction" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E132" start="2483" end="2508" text="mild mitral regurgitation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E133" start="2511" end="2534" text="left atrial enlargement" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E134" start="2537" end="2565" text="mild tricuspid regurgitation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="2568" end="2594" text="pulmonary artery pressures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="2598" end="2627" text="44 plus right atrial pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E135" start="2640" end="2661" text="an intra-atrial shunt" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E136" start="2697" end="2719" text="a patent foramen ovale" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="2722" end="2730" text="Chest CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="2735" end="2747" text="a poor study" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="2765" end="2784" text="a pulmonary embolus" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E41" start="2803" end="2829" text="subsequent dobutamine MIBI" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="2853" end="2871" text="inducible ischemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E92" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="2972" end="3006" text="a small to medium perfusion defect" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E97" start="304" end="327" text="an associated dry cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E137" start="3090" end="3128" text="The cardiology service saw the patient" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E138" start="3145" end="3163" text="medical management" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E139" start="3177" end="3192" text="catheterization" modality="PROPOSED" polarity="NEG" type="TEST" />
+<EVENT id="E44" start="3195" end="3213" text="Her blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="3218" end="3222" text="high" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="3226" end="3235" text="Captopril" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E140" start="3240" end="3251" text="titrated up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E141" start="3287" end="3297" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E142" start="3301" end="3311" text="Lisinopril" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E143" start="3317" end="3334" text="further titration" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="335" end="341" text="fevers" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E47" start="3364" end="3383" text="hydrochlorothiazide" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="3403" end="3415" text="Her atenolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E88" start="3420" end="3427" text="stopped" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="344" end="350" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E49" start="3435" end="3446" text="bradycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E89" start="3450" end="3459" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E144" start="3476" end="3485" text="restarted" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="3506" end="3518" text="gentle doses" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E145" start="3524" end="3542" text="careful monitoring" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="3546" end="3556" text="heart rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="356" end="364" text="leg pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E52" start="3569" end="3579" text="an aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E146" start="3594" end="3604" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="3608" end="3613" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="3645" end="3654" text="her edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E147" start="3672" end="3694" text="Pulmonary hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="3706" end="3720" text="echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E98" start="375" end="382" text="dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="3749" end="3774" text="chronic pulmonary embolus" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="3806" end="3828" text="deep venous thrombosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E148" start="3854" end="3862" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="3865" end="3871" text="An ABG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E149" start="3887" end="3893" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E59" start="3894" end="3896" text="pH" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E60" start="3904" end="3908" text="pCO2" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E61" start="3914" end="3917" text="pO2" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="3935" end="3950" text="Her bicarbonate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E150" start="4010" end="4028" text="severe sleep apnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="401" end="410" text="ambulates" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E151" start="4033" end="4057" text="falls asleep midsentence" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E152" start="4080" end="4093" text="not breathing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="4096" end="4101" text="BIPAP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E99" start="416" end="422" text="walker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E153" start="4162" end="4170" text="tolerate" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E154" start="4192" end="4218" text="pulmonary function studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E100" start="427" end="433" text="a cane" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E155" start="4262" end="4274" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E156" start="4277" end="4311" text="The pulmonary team saw the patient" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E157" start="4333" end="4350" text="the above testing" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E158" start="4363" end="4374" text="home oxygen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E159" start="4395" end="4424" text="2 liters nasal cannula oxygen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="4430" end="4448" text="Infectious disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E101" start="447" end="461" text="osteoarthritis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="4464" end="4486" text="cellulitis on her legs" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="4503" end="4513" text="distention" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="4519" end="4524" text="edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="4529" end="4543" text="poor perfusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E69" start="4576" end="4585" text="cefazolin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="4612" end="4618" text="Keflex" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E160" start="4629" end="4640" text="improvement" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="4739" end="4753" text="her cellulitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E102" start="476" end="491" text="short of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="4772" end="4779" text="D-dimer" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E90" start="4783" end="4801" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E73" start="4828" end="4855" text="a right common femoral clot" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E170" start="4860" end="4864" text="seen" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E74" start="4867" end="4876" text="This clot" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="4964" end="4979" text="anticoagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="4986" end="5006" text="the positive D-dimer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E103" start="500" end="525" text="getting up from her chair" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E77" start="5009" end="5017" text="Chest CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E78" start="5053" end="5070" text="pulmonary embolus" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E79" start="5080" end="5092" text="a poor study" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E80" start="5095" end="5102" text="Heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E161" start="5125" end="5144" text="her hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E162" start="5154" end="5161" text="Lovenox" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E163" start="5176" end="5184" text="Her dose" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E91" start="5189" end="5198" text="increased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E164" start="5232" end="5241" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E165" start="5256" end="5266" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E166" start="5304" end="5311" text="Lovenox" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="5314" end="5327" text="Discharge INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E167" start="5334" end="5342" text="Goal INR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E168" start="5395" end="5408" text="Low salt diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E169" start="5411" end="5441" text="Low cholesterol , low fat diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E104" start="584" end="596" text="light headed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E105" start="615" end="638" text="Her shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E106" start="643" end="650" text="dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E107" start="751" end="777" text="sleeps in a chair up right" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E108" start="816" end="830" text="osteoarthritis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="841" end="850" text="orthopnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E110" start="863" end="893" text="noparoxysmal nocturnal dyspnea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E4" start="919" end="932" text="chest twinges" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E111" start="943" end="955" text="nonradiating" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E112" start="964" end="969" text="sharp" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T7" start="1129" end="1142" text="several years" type="DURATION" val="P3Y" mod="APPROX" />
+<TIMEX3 id="T8" start="1226" end="1243" text="the several weeks" type="DURATION" val="P3W" mod="APPROX" />
+<TIMEX3 id="T0" start="18" end="28" text="02/01/2002" type="DATE" val="2002-02-01" mod="NA" />
+<TIMEX3 id="T9" start="2006" end="2018" text="several days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T10" start="2128" end="2133" text="q day" type="FREQUENCY" val="rp24h" mod="NA" />
+<TIMEX3 id="T2" start="216" end="222" text="5 days" type="DURATION" val="P5D" mod="NA" />
+<TIMEX3 id="T3" start="284" end="293" text="2-3 years" type="DURATION" val="P2.5Y" mod="APPROX" />
+<TIMEX3 id="T12" start="3266" end="3272" text="t.i.d." type="FREQUENCY" val="rp8h" mod="NA" />
+<TIMEX3 id="T13" start="3395" end="3400" text="q day" type="FREQUENCY" val="rp24h" mod="NA" />
+<TIMEX3 id="T15" start="4120" end="4128" text="3 nights" type="DURATION" val="PT36H" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="02/08/2002" type="DATE" val="2002-02-08" mod="NA" />
+<TIMEX3 id="T16" start="4682" end="4694" text="10 more days" type="DURATION" val="P10D" mod="APPROX" />
+<TIMEX3 id="T18" start="5209" end="5214" text="q day" type="FREQUENCY" val="rp24h" mod="NA" />
+<TIMEX3 id="T17" start="5215" end="5241" text="the day prior to discharge" type="DATE" val="" mod="NA" />
+<TIMEX3 id="T19" start="5295" end="5300" text="1 day" type="DURATION" val="p1d" mod="NA" />
+<TIMEX3 id="T4" start="697" end="710" text="several years" type="DURATION" val="P3Y" mod="APPROX" />
+<TIMEX3 id="T5" start="791" end="802" text="2 1/2 years" type="DURATION" val="P2.5.Y" mod="NA" />
+<TIMEX3 id="T6" start="982" end="995" text="a few seconds" type="DURATION" val="PT5S" mod="APPROX" />
+<TLINK id="TL0" fromID="E116" fromText="admission" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E65" fromText="cellulitis on her legs" toID="E71" toText="her cellulitis" type="simultaneous" />
+<TLINK id="TL10" fromID="E24" fromText="The diuresis" toID="E87" toText="backed off" type="OVERLAP" />
+<TLINK id="TL100" fromID="E33" fromText="a small right common femoral clot" toID="E32" toText="lower extremity non-invasive studies" type="BEFORE_OVERLAP" />
+<TLINK id="TL101" fromID="E34" fromText="A TTE" toID="E131" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL102" fromID="E35" fromText="an ejection fraction" toID="E131" toText="showed" type="OVERLAP" />
+<TLINK id="TL103" fromID="E35" fromText="an ejection fraction" toID="E132" toText="mild mitral regurgitation" type="OVERLAP" />
+<TLINK id="TL104" fromID="E132" fromText="mild mitral regurgitation" toID="E133" toText="left atrial enlargement" type="OVERLAP" />
+<TLINK id="TL105" fromID="E133" fromText="left atrial enlargement" toID="E134" toText="mild tricuspid regurgitation" type="OVERLAP" />
+<TLINK id="TL106" fromID="E134" fromText="mild tricuspid regurgitation" toID="E36" toText="pulmonary artery pressures" type="OVERLAP" />
+<TLINK id="TL107" fromID="E36" fromText="pulmonary artery pressures" toID="E37" toText="44 plus right atrial pressure" type="OVERLAP" />
+<TLINK id="TL108" fromID="E135" fromText="an intra-atrial shunt" toID="E136" toText="a patent foramen ovale" type="OVERLAP" />
+<TLINK id="TL109" fromID="E135" fromText="an intra-atrial shunt" toID="E34" toText="A TTE" type="BEFORE_OVERLAP" />
+<TLINK id="TL11" fromID="E79" fromText="a poor study" toID="E77" toText="Chest CT" type="SIMULTANEOUS" />
+<TLINK id="TL110" fromID="E39" fromText="a poor study" toID="E34" toText="A TTE" type="SIMULTANEOUS" />
+<TLINK id="TL111" fromID="E41" fromText="subsequent dobutamine MIBI" toID="E39" toText="a poor study" type="AFTER" />
+<TLINK id="TL112" fromID="E42" fromText="inducible ischemia" toID="E41" toText="subsequent dobutamine MIBI" type="BEFORE_OVERLAP" />
+<TLINK id="TL113" fromID="E42" fromText="inducible ischemia" toID="E43" toText="a small to medium perfusion defect" type="OVERLAP" />
+<TLINK id="TL114" fromID="E138" fromText="medical management" toID="E137" toText="The cardiology service saw the patient" type="AFTER" />
+<TLINK id="TL115" fromID="E138" fromText="medical management" toID="E139" toText="catheterization" type="OVERLAP" />
+<TLINK id="TL116" fromID="E44" fromText="Her blood pressure" toID="E45" toText="high" type="OVERLAP" />
+<TLINK id="TL117" fromID="E46" fromText="Captopril" toID="E45" toText="high" type="AFTER" />
+<TLINK id="TL118" fromID="E46" fromText="Captopril" toID="E140" toText="titrated up" type="BEFORE_OVERLAP" />
+<TLINK id="TL119" fromID="E140" fromText="titrated up" toID="T12" toText="t.i.d." type="SIMULTANEOUS" />
+<TLINK id="TL12" fromID="E0" fromText="Admission" toID="T0" toText="02/01/2002" type="SIMULTANEOUS" />
+<TLINK id="TL120" fromID="E141" fromText="discharged" toID="E92" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL121" fromID="E142" fromText="Lisinopril" toID="E141" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL122" fromID="E142" fromText="Lisinopril" toID="E143" toText="further titration" type="BEFORE_OVERLAP" />
+<TLINK id="TL123" fromID="E47" fromText="hydrochlorothiazide" toID="T13" toText="q day" type="SIMULTANEOUS" />
+<TLINK id="TL124" fromID="E142" fromText="Lisinopril" toID="E47" toText="hydrochlorothiazide" type="OVERLAP" />
+<TLINK id="TL125" fromID="E48" fromText="Her atenolol" toID="E49" toText="bradycardia" type="ENDED_BY" />
+<TLINK id="TL126" fromID="E49" fromText="bradycardia" toID="E89" toText="admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL127" fromID="E49" fromText="bradycardia" toID="E50" toText="gentle doses" type="BEGUN_BY" />
+<TLINK id="TL128" fromID="E50" fromText="gentle doses" toID="E141" toText="discharged" type="AFTER" />
+<TLINK id="TL129" fromID="E50" fromText="gentle doses" toID="E145" toText="careful monitoring" type="OVERLAP" />
+<TLINK id="TL13" fromID="E93" fromText="obesity" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL130" fromID="E145" fromText="careful monitoring" toID="E51" toText="heart rate" type="SIMULTANEOUS" />
+<TLINK id="TL131" fromID="E47" fromText="hydrochlorothiazide" toID="E52" toText="an aspirin" type="OVERLAP" />
+<TLINK id="TL132" fromID="E146" fromText="discharged" toID="E141" toText="discharged" type="SIMULTANEOUS" />
+<TLINK id="TL133" fromID="E53" fromText="Lasix" toID="E146" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL134" fromID="E147" fromText="Pulmonary hypertension" toID="E55" toText="echocardiogram" type="BEFORE_OVERLAP" />
+<TLINK id="TL135" fromID="E57" fromText="deep venous thrombosis" toID="E148" toText="Coumadin" type="BEFORE_OVERLAP" />
+<TLINK id="TL136" fromID="E58" fromText="An ABG" toID="E149" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL137" fromID="E58" fromText="An ABG" toID="E59" toText="pH" type="OVERLAP" />
+<TLINK id="TL138" fromID="E59" fromText="pH" toID="E60" toText="pCO2" type="OVERLAP" />
+<TLINK id="TL139" fromID="E60" fromText="pCO2" toID="E61" toText="pO2" type="OVERLAP" />
+<TLINK id="TL14" fromID="E92" fromText="Discharge" toID="T1" toText="02/08/2002" type="SIMULTANEOUS" />
+<TLINK id="TL140" fromID="E61" fromText="pO2" toID="E62" toText="Her bicarbonate" type="OVERLAP" />
+<TLINK id="TL141" fromID="E150" fromText="severe sleep apnea" toID="E151" toText="falls asleep midsentence" type="BEFORE_OVERLAP" />
+<TLINK id="TL142" fromID="E150" fromText="severe sleep apnea" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL143" fromID="E150" fromText="severe sleep apnea" toID="E152" toText="not breathing" type="SIMULTANEOUS" />
+<TLINK id="TL144" fromID="E150" fromText="severe sleep apnea" toID="E63" toText="BIPAP" type="BEFORE_OVERLAP" />
+<TLINK id="TL145" fromID="E63" fromText="BIPAP" toID="T15" toText="3 nights" type="SIMULTANEOUS" />
+<TLINK id="TL146" fromID="E63" fromText="BIPAP" toID="E153" toText="tolerate" type="SIMULTANEOUS" />
+<TLINK id="TL147" fromID="E154" fromText="pulmonary function studies" toID="E146" toText="discharged" type="AFTER" />
+<TLINK id="TL148" fromID="E155" fromText="the hospital" toID="T0" toText="02/01/2002" type="BEGUN_BY" />
+<TLINK id="TL149" fromID="E155" fromText="the hospital" toID="E92" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL15" fromID="E93" fromText="obesity" toID="E94" toText="hypertension" type="OVERLAP" />
+<TLINK id="TL150" fromID="E154" fromText="pulmonary function studies" toID="E155" toText="the hospital" type="AFTER" />
+<TLINK id="TL151" fromID="E156" fromText="The pulmonary team saw the patient" toID="E155" toText="the hospital" type="DURING" />
+<TLINK id="TL152" fromID="E157" fromText="the above testing" toID="E156" toText="The pulmonary team saw the patient" type="AFTER" />
+<TLINK id="TL153" fromID="E158" fromText="home oxygen" toID="E155" toText="the hospital" type="AFTER" />
+<TLINK id="TL154" fromID="E159" fromText="2 liters nasal cannula oxygen" toID="E158" toText="home oxygen" type="BEFORE_OVERLAP" />
+<TLINK id="TL155" fromID="E64" fromText="Infectious disease" toID="E65" toText="cellulitis on her legs" type="SIMULTANEOUS" />
+<TLINK id="TL156" fromID="E66" fromText="distention" toID="E65" toText="cellulitis on her legs" type="BEFORE_OVERLAP" />
+<TLINK id="TL157" fromID="E67" fromText="edema" toID="E66" toText="distention" type="BEFORE_OVERLAP" />
+<TLINK id="TL158" fromID="E68" fromText="poor perfusion" toID="E67" toText="edema" type="BEFORE_OVERLAP" />
+<TLINK id="TL159" fromID="E69" fromText="cefazolin" toID="E70" toText="Keflex" type="ENDED_BY" />
+<TLINK id="TL16" fromID="E83" fromText="presents" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL160" fromID="E160" fromText="improvement" toID="E70" toText="Keflex" type="AFTER" />
+<TLINK id="TL161" fromID="E65" fromText="cellulitis on her legs" toID="E69" toText="cefazolin" type="BEFORE_OVERLAP" />
+<TLINK id="TL162" fromID="E70" fromText="Keflex" toID="T16" toText="10 more days" type="OVERLAP" />
+<TLINK id="TL163" fromID="E72" fromText="D-dimer" toID="E90" toText="the emergency room" type="DURING" />
+<TLINK id="TL164" fromID="E90" fromText="the emergency room" toID="E0" toText="Admission" type="ENDED_BY" />
+<TLINK id="TL165" fromID="E73" fromText="a right common femoral clot" toID="E90" toText="the emergency room" type="BEFORE_OVERLAP" />
+<TLINK id="TL166" fromID="E75" fromText="anticoagulation" toID="E170" toText="seen" type="AFTER" />
+<TLINK id="TL167" fromID="E75" fromText="anticoagulation" toID="E76" toText="the positive D-dimer" type="AFTER" />
+<TLINK id="TL168" fromID="E155" fromText="the hospital" toID="E161" toText="her hospital course" type="SIMULTANEOUS" />
+<TLINK id="TL169" fromID="E80" fromText="Heparin" toID="E161" toText="her hospital course" type="DURING" />
+<TLINK id="TL17" fromID="E95" fromText="increased shortness of breath" toID="E83" toText="presents" type="OVERLAP" />
+<TLINK id="TL170" fromID="E162" fromText="Lovenox" toID="E80" toText="Heparin" type="AFTER" />
+<TLINK id="TL171" fromID="E162" fromText="Lovenox" toID="E91" toText="increased" type="BEFORE_OVERLAP" />
+<TLINK id="TL172" fromID="E91" fromText="increased" toID="T17" toText="the day prior to discharge" type="BEGUN_BY" />
+<TLINK id="TL173" fromID="E91" fromText="increased" toID="T18" toText="q day" type="SIMULTANEOUS" />
+<TLINK id="TL174" fromID="E165" fromText="discharged" toID="E92" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL175" fromID="E166" fromText="Lovenox" toID="E165" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL176" fromID="T19" fromText="1 day" toID="E166" toText="Lovenox" type="SIMULTANEOUS" />
+<TLINK id="TL177" fromID="E81" fromText="Discharge INR" toID="E164" toText="discharge" type="OVERLAP" />
+<TLINK id="TL178" fromID="E167" fromText="Goal INR" toID="E81" toText="Discharge INR" type="AFTER" />
+<TLINK id="TL179" fromID="E168" fromText="Low salt diet" toID="E165" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL18" fromID="E95" fromText="increased shortness of breath" toID="T2" toText="5 days" type="SIMULTANEOUS" />
+<TLINK id="TL180" fromID="E169" fromText="Low cholesterol , low fat diet" toID="E168" toText="Low salt diet" type="OVERLAP" />
+<TLINK id="TL19" fromID="T2" fromText="5 days" toID="E0" toText="Admission" type="ENDED_BY" />
+<TLINK id="TL2" fromID="E31" fromText="a D-dimer" toID="E72" toText="D-dimer" type="simultaneous" />
+<TLINK id="TL20" fromID="E95" fromText="increased shortness of breath" toID="E96" toText="Her shortness of breath" type="SIMULTANEOUS" />
+<TLINK id="TL21" fromID="E96" fromText="Her shortness of breath" toID="T3" toText="2-3 years" type="OVERLAP" />
+<TLINK id="TL22" fromID="E96" fromText="Her shortness of breath" toID="E97" toText="an associated dry cough" type="OVERLAP" />
+<TLINK id="TL23" fromID="E97" fromText="an associated dry cough" toID="E1" toText="fevers" type="OVERLAP" />
+<TLINK id="TL24" fromID="E1" fromText="fevers" toID="E2" toText="chills" type="OVERLAP" />
+<TLINK id="TL25" fromID="E2" fromText="chills" toID="E3" toText="leg pain" type="OVERLAP" />
+<TLINK id="TL26" fromID="E97" fromText="an associated dry cough" toID="E98" toText="dyspnea" type="OVERLAP" />
+<TLINK id="TL27" fromID="E82" fromText="ambulates" toID="E99" toText="walker" type="SIMULTANEOUS" />
+<TLINK id="TL28" fromID="E100" fromText="a cane" toID="E99" toText="walker" type="OVERLAP" />
+<TLINK id="TL29" fromID="E101" fromText="osteoarthritis" toID="E100" toText="a cane" type="BEFORE_OVERLAP" />
+<TLINK id="TL3" fromID="E57" fromText="deep venous thrombosis" toID="E73" toText="a right common femoral clot" type="simultaneous" />
+<TLINK id="TL30" fromID="E102" fromText="short of breath" toID="E103" toText="getting up from her chair" type="AFTER" />
+<TLINK id="TL31" fromID="E103" fromText="getting up from her chair" toID="E104" toText="light headed" type="OVERLAP" />
+<TLINK id="TL32" fromID="E102" fromText="short of breath" toID="E105" toText="Her shortness of breath" type="OVERLAP" />
+<TLINK id="TL33" fromID="E105" fromText="Her shortness of breath" toID="E106" toText="dyspnea" type="OVERLAP" />
+<TLINK id="TL34" fromID="E106" fromText="dyspnea" toID="T4" toText="several years" type="SIMULTANEOUS" />
+<TLINK id="TL35" fromID="T4" fromText="several years" toID="E0" toText="Admission" type="ENDED_BY" />
+<TLINK id="TL36" fromID="E95" fromText="increased shortness of breath" toID="E107" toText="sleeps in a chair up right" type="OVERLAP" />
+<TLINK id="TL37" fromID="E107" fromText="sleeps in a chair up right" toID="T5" toText="2 1/2 years" type="SIMULTANEOUS" />
+<TLINK id="TL38" fromID="E108" fromText="osteoarthritis" toID="E107" toText="sleeps in a chair up right" type="BEFORE_OVERLAP" />
+<TLINK id="TL39" fromID="E107" fromText="sleeps in a chair up right" toID="E109" toText="orthopnea" type="OVERLAP" />
+<TLINK id="TL4" fromID="E38" fromText="Chest CT" toID="E77" toText="Chest CT" type="simultaneous" />
+<TLINK id="TL40" fromID="E109" fromText="orthopnea" toID="E110" toText="noparoxysmal nocturnal dyspnea" type="OVERLAP" />
+<TLINK id="TL41" fromID="T4" fromText="several years" toID="E4" toText="chest twinges" type="OVERLAP" />
+<TLINK id="TL42" fromID="E4" fromText="chest twinges" toID="E111" toText="nonradiating" type="SIMULTANEOUS" />
+<TLINK id="TL43" fromID="E4" fromText="chest twinges" toID="E112" toText="sharp" type="SIMULTANEOUS" />
+<TLINK id="TL44" fromID="T6" fromText="a few seconds" toID="E4" toText="chest twinges" type="SIMULTANEOUS" />
+<TLINK id="TL45" fromID="E4" fromText="chest twinges" toID="E5" toText="sweating" type="OVERLAP" />
+<TLINK id="TL46" fromID="E5" fromText="sweating" toID="E6" toText="nausea" type="OVERLAP" />
+<TLINK id="TL47" fromID="E6" fromText="nausea" toID="E7" toText="vomiting" type="OVERLAP" />
+<TLINK id="TL48" fromID="E7" fromText="vomiting" toID="E8" toText="syncope" type="OVERLAP" />
+<TLINK id="TL49" fromID="E113" fromText="lower extremity edema" toID="T7" toText="several years" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E40" fromText="a pulmonary embolus" toID="E56" toText="chronic pulmonary embolus" type="simultaneous" />
+<TLINK id="TL50" fromID="T7" fromText="several years" toID="T4" toText="several years" type="SIMULTANEOUS" />
+<TLINK id="TL51" fromID="T7" fromText="several years" toID="E0" toText="Admission" type="ENDED_BY" />
+<TLINK id="TL52" fromID="E114" fromText="cellulitis" toID="T7" toText="several years" type="DURING" />
+<TLINK id="TL53" fromID="E115" fromText="Her lower extremity edema" toID="E113" toText="lower extremity edema" type="SIMULTANEOUS" />
+<TLINK id="TL54" fromID="E113" fromText="lower extremity edema" toID="E115" toText="Her lower extremity edema" type="OVERLAP" />
+<TLINK id="TL55" fromID="E115" fromText="Her lower extremity edema" toID="T8" toText="the several weeks" type="BEFORE_OVERLAP" />
+<TLINK id="TL56" fromID="T8" fromText="the several weeks" toID="E116" toText="admission" type="ENDED_BY" />
+<TLINK id="TL57" fromID="E117" fromText="an inability to elevate her legs" toID="E115" toText="Her lower extremity edema" type="BEFORE_OVERLAP" />
+<TLINK id="TL58" fromID="E117" fromText="an inability to elevate her legs" toID="E118" toText="a broken chair" type="AFTER" />
+<TLINK id="TL59" fromID="E119" fromText="denies" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL6" fromID="E56" fromText="chronic pulmonary embolus" toID="E78" toText="pulmonary embolus" type="simultaneous" />
+<TLINK id="TL60" fromID="E9" fromText="any pleural chest pain" toID="E119" toText="denies" type="BEFORE_OVERLAP" />
+<TLINK id="TL61" fromID="E11" fromText="vision changes" toID="E10" toText="headaches" type="OVERLAP" />
+<TLINK id="TL62" fromID="E11" fromText="vision changes" toID="E12" toText="numbness" type="OVERLAP" />
+<TLINK id="TL63" fromID="E12" fromText="numbness" toID="E13" toText="tingling" type="OVERLAP" />
+<TLINK id="TL64" fromID="E13" fromText="tingling" toID="E14" toText="dyspnea" type="OVERLAP" />
+<TLINK id="TL65" fromID="E14" fromText="dyspnea" toID="E15" toText="hematuria" type="OVERLAP" />
+<TLINK id="TL66" fromID="E15" fromText="hematuria" toID="E16" toText="abdominal pain" type="OVERLAP" />
+<TLINK id="TL67" fromID="E16" fromText="abdominal pain" toID="E17" toText="diarrhea" type="OVERLAP" />
+<TLINK id="TL68" fromID="E17" fromText="diarrhea" toID="E18" toText="melena" type="OVERLAP" />
+<TLINK id="TL69" fromID="E18" fromText="melena" toID="E19" toText="hematochezia" type="OVERLAP" />
+<TLINK id="TL7" fromID="E54" fromText="her edema" toID="E67" toText="edema" type="simultaneous" />
+<TLINK id="TL70" fromID="E10" fromText="headaches" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL71" fromID="E120" fromText="the hospital" toID="E84" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL72" fromID="E84" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL73" fromID="E120" fromText="the hospital" toID="E92" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL74" fromID="E20" fromText="acute and chronic shortness of breath" toID="E84" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL75" fromID="E84" fromText="admitted" toID="E121" toText="found" type="OVERLAP" />
+<TLINK id="TL76" fromID="E21" fromText="congestive heart failure" toID="E121" toText="found" type="BEFORE_OVERLAP" />
+<TLINK id="TL77" fromID="E122" fromText="diastolic dysfunction" toID="E21" toText="congestive heart failure" type="BEFORE_OVERLAP" />
+<TLINK id="TL78" fromID="E123" fromText="hypertension" toID="E122" toText="diastolic dysfunction" type="BEFORE_OVERLAP" />
+<TLINK id="TL79" fromID="E121" fromText="found" toID="E129" toText="found" type="OVERLAP" />
+<TLINK id="TL8" fromID="E73" fromText="a right common femoral clot" toID="E74" toText="This clot" type="simultaneous" />
+<TLINK id="TL80" fromID="E124" fromText="pulmonary hypertension" toID="E21" toText="congestive heart failure" type="OVERLAP" />
+<TLINK id="TL81" fromID="E125" fromText="ruled out" toID="E129" toText="found" type="AFTER" />
+<TLINK id="TL82" fromID="E22" fromText="myocardial infarction" toID="E125" toText="ruled out" type="BEFORE" />
+<TLINK id="TL83" fromID="E126" fromText="negative enzymes" toID="E22" toText="myocardial infarction" type="AFTER" />
+<TLINK id="TL84" fromID="E126" fromText="negative enzymes" toID="E125" toText="ruled out" type="OVERLAP" />
+<TLINK id="TL85" fromID="E0" fromText="Admission" toID="E85" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL86" fromID="E127" fromText="diuresed" toID="E85" toText="admission" type="BEGUN_BY" />
+<TLINK id="TL87" fromID="E127" fromText="diuresed" toID="E23" toText="Lasix" type="SIMULTANEOUS" />
+<TLINK id="TL88" fromID="E23" fromText="Lasix" toID="E128" toText="negative 1-2 liters per day" type="BEFORE_OVERLAP" />
+<TLINK id="TL89" fromID="E128" fromText="negative 1-2 liters per day" toID="T9" toText="several days" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="E6" fromText="nausea" toID="E5" toText="sweating" type="SIMULTANEOUS" />
+<TLINK id="TL90" fromID="E87" fromText="backed off" toID="E25" toText="her bicarbonate" type="BEGUN_BY" />
+<TLINK id="TL91" fromID="E24" fromText="The diuresis" toID="E86" toText="restarted" type="BEGUN_BY" />
+<TLINK id="TL92" fromID="E24" fromText="The diuresis" toID="T10" toText="q day" type="OVERLAP" />
+<TLINK id="TL93" fromID="E130" fromText="discharge" toID="E86" toText="restarted" type="AFTER" />
+<TLINK id="TL94" fromID="E26" fromText="Her lipids" toID="E27" toText="a total cholesterol" type="SIMULTANEOUS" />
+<TLINK id="TL95" fromID="E27" fromText="a total cholesterol" toID="E28" toText="triglycerides" type="" />
+<TLINK id="TL96" fromID="E28" fromText="triglycerides" toID="E29" toText="HDL32" type="" />
+<TLINK id="TL97" fromID="E29" fromText="HDL32" toID="E30" toText="LDL" type="" />
+<TLINK id="TL98" fromID="E32" fromText="lower extremity non-invasive studies" toID="E31" toText="a D-dimer" type="AFTER" />
+<TLINK id="Sectime0" fromID="E5" fromText="sweating" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E6" fromText="nausea" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E7" fromText="vomiting" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E8" fromText="syncope" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E113" fromText="lower extremity edema" toID="T0" toText="02/01/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime5" fromID="E114" fromText="cellulitis" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E115" fromText="Her lower extremity edema" toID="T0" toText="02/01/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime7" fromID="E116" fromText="admission" toID="T0" toText="02/01/2002" type="OVERLAP" />
+<TLINK id="Sectime8" fromID="E117" fromText="an inability to elevate her legs" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E118" fromText="a broken chair" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E119" fromText="denies" toID="T0" toText="02/01/2002" type="AFTER" />
+<TLINK id="Sectime11" fromID="E9" fromText="any pleural chest pain" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E93" fromText="obesity" toID="T0" toText="02/01/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime13" fromID="E10" fromText="headaches" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E11" fromText="vision changes" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E12" fromText="numbness" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E13" fromText="tingling" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E14" fromText="dyspnea" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E15" fromText="hematuria" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E16" fromText="abdominal pain" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E17" fromText="diarrhea" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E18" fromText="melena" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E94" fromText="hypertension" toID="T0" toText="02/01/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime23" fromID="E19" fromText="hematochezia" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E84" fromText="admitted" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E120" fromText="the hospital" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E20" fromText="acute and chronic shortness of breath" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E121" fromText="found" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E21" fromText="congestive heart failure" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E83" fromText="presents" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E122" fromText="diastolic dysfunction" toID="T1" toText="02/08/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime6" fromID="E123" fromText="hypertension" toID="T1" toText="02/08/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime7" fromID="E129" fromText="found" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E95" fromText="increased shortness of breath" toID="T0" toText="02/01/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime8" fromID="E124" fromText="pulmonary hypertension" toID="T1" toText="02/08/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime9" fromID="E125" fromText="ruled out" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E22" fromText="myocardial infarction" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E126" fromText="negative enzymes" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E85" fromText="admission" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E127" fromText="diuresed" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E23" fromText="Lasix" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E128" fromText="negative 1-2 liters per day" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E24" fromText="The diuresis" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E87" fromText="backed off" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E25" fromText="her bicarbonate" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E86" fromText="restarted" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E130" fromText="discharge" toID="T1" toText="02/08/2002" type="OVERLAP" />
+<TLINK id="Sectime21" fromID="E26" fromText="Her lipids" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E27" fromText="a total cholesterol" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E28" fromText="triglycerides" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E29" fromText="HDL32" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E30" fromText="LDL" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E96" fromText="Her shortness of breath" toID="T0" toText="02/01/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime26" fromID="E31" fromText="a D-dimer" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E32" fromText="lower extremity non-invasive studies" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E33" fromText="a small right common femoral clot" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E34" fromText="A TTE" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E131" fromText="showed" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime31" fromID="E35" fromText="an ejection fraction" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime32" fromID="E132" fromText="mild mitral regurgitation" toID="T1" toText="02/08/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime33" fromID="E133" fromText="left atrial enlargement" toID="T1" toText="02/08/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime34" fromID="E134" fromText="mild tricuspid regurgitation" toID="T1" toText="02/08/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime35" fromID="E36" fromText="pulmonary artery pressures" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime36" fromID="E37" fromText="44 plus right atrial pressure" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime37" fromID="E135" fromText="an intra-atrial shunt" toID="T1" toText="02/08/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime38" fromID="E136" fromText="a patent foramen ovale" toID="T1" toText="02/08/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime39" fromID="E38" fromText="Chest CT" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime40" fromID="E39" fromText="a poor study" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime41" fromID="E40" fromText="a pulmonary embolus" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime42" fromID="E41" fromText="subsequent dobutamine MIBI" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime43" fromID="E42" fromText="inducible ischemia" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime44" fromID="E43" fromText="a small to medium perfusion defect" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E97" fromText="an associated dry cough" toID="T0" toText="02/01/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime45" fromID="E137" fromText="The cardiology service saw the patient" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime46" fromID="E138" fromText="medical management" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime47" fromID="E139" fromText="catheterization" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime48" fromID="E44" fromText="Her blood pressure" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime49" fromID="E45" fromText="high" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime50" fromID="E46" fromText="Captopril" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime51" fromID="E140" fromText="titrated up" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime52" fromID="E141" fromText="discharged" toID="T1" toText="02/08/2002" type="OVERLAP" />
+<TLINK id="Sectime53" fromID="E142" fromText="Lisinopril" toID="T1" toText="02/08/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime54" fromID="E143" fromText="further titration" toID="T1" toText="02/08/2002" type="AFTER" />
+<TLINK id="Sectime28" fromID="E1" fromText="fevers" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime55" fromID="E47" fromText="hydrochlorothiazide" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime56" fromID="E48" fromText="Her atenolol" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime57" fromID="E88" fromText="stopped" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E2" fromText="chills" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime58" fromID="E49" fromText="bradycardia" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime59" fromID="E89" fromText="admission" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime60" fromID="E144" fromText="restarted" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime61" fromID="E50" fromText="gentle doses" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime62" fromID="E145" fromText="careful monitoring" toID="T1" toText="02/08/2002" type="AFTER" />
+<TLINK id="Sectime63" fromID="E51" fromText="heart rate" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E3" fromText="leg pain" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime64" fromID="E52" fromText="an aspirin" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime65" fromID="E146" fromText="discharged" toID="T1" toText="02/08/2002" type="OVERLAP" />
+<TLINK id="Sectime66" fromID="E53" fromText="Lasix" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime67" fromID="E54" fromText="her edema" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime68" fromID="E147" fromText="Pulmonary hypertension" toID="T1" toText="02/08/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime69" fromID="E55" fromText="echocardiogram" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime31" fromID="E98" fromText="dyspnea" toID="T0" toText="02/01/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime70" fromID="E56" fromText="chronic pulmonary embolus" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime71" fromID="E57" fromText="deep venous thrombosis" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime72" fromID="E148" fromText="Coumadin" toID="T1" toText="02/08/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime73" fromID="E58" fromText="An ABG" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime74" fromID="E149" fromText="showed" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime75" fromID="E59" fromText="pH" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime76" fromID="E60" fromText="pCO2" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime77" fromID="E61" fromText="pO2" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime78" fromID="E62" fromText="Her bicarbonate" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime79" fromID="E150" fromText="severe sleep apnea" toID="T1" toText="02/08/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime32" fromID="E82" fromText="ambulates" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime80" fromID="E151" fromText="falls asleep midsentence" toID="T1" toText="02/08/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime81" fromID="E152" fromText="not breathing" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime82" fromID="E63" fromText="BIPAP" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime33" fromID="E99" fromText="walker" toID="T0" toText="02/01/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime83" fromID="E153" fromText="tolerate" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime84" fromID="E154" fromText="pulmonary function studies" toID="T1" toText="02/08/2002" type="AFTER" />
+<TLINK id="Sectime34" fromID="E100" fromText="a cane" toID="T0" toText="02/01/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime85" fromID="E155" fromText="the hospital" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime86" fromID="E156" fromText="The pulmonary team saw the patient" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime87" fromID="E157" fromText="the above testing" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime88" fromID="E158" fromText="home oxygen" toID="T1" toText="02/08/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime89" fromID="E159" fromText="2 liters nasal cannula oxygen" toID="T1" toText="02/08/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime90" fromID="E64" fromText="Infectious disease" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime35" fromID="E101" fromText="osteoarthritis" toID="T0" toText="02/01/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime91" fromID="E65" fromText="cellulitis on her legs" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime92" fromID="E66" fromText="distention" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime93" fromID="E67" fromText="edema" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime94" fromID="E68" fromText="poor perfusion" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime95" fromID="E69" fromText="cefazolin" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime96" fromID="E70" fromText="Keflex" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime97" fromID="E160" fromText="improvement" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime98" fromID="E71" fromText="her cellulitis" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime36" fromID="E102" fromText="short of breath" toID="T0" toText="02/01/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime99" fromID="E72" fromText="D-dimer" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime100" fromID="E90" fromText="the emergency room" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime101" fromID="E73" fromText="a right common femoral clot" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime102" fromID="E170" fromText="seen" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime103" fromID="E74" fromText="This clot" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime104" fromID="E75" fromText="anticoagulation" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime105" fromID="E76" fromText="the positive D-dimer" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime37" fromID="E103" fromText="getting up from her chair" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime106" fromID="E77" fromText="Chest CT" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime107" fromID="E78" fromText="pulmonary embolus" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime108" fromID="E79" fromText="a poor study" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime109" fromID="E80" fromText="Heparin" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime110" fromID="E161" fromText="her hospital course" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime111" fromID="E162" fromText="Lovenox" toID="T1" toText="02/08/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime112" fromID="E163" fromText="Her dose" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime113" fromID="E91" fromText="increased" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime114" fromID="E164" fromText="discharge" toID="T1" toText="02/08/2002" type="OVERLAP" />
+<TLINK id="Sectime115" fromID="E165" fromText="discharged" toID="T1" toText="02/08/2002" type="OVERLAP" />
+<TLINK id="Sectime116" fromID="E166" fromText="Lovenox" toID="T1" toText="02/08/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime117" fromID="E81" fromText="Discharge INR" toID="T1" toText="02/08/2002" type="BEFORE" />
+<TLINK id="Sectime118" fromID="E167" fromText="Goal INR" toID="T1" toText="02/08/2002" type="AFTER" />
+<TLINK id="Sectime119" fromID="E168" fromText="Low salt diet" toID="T1" toText="02/08/2002" type="AFTER" />
+<TLINK id="Sectime120" fromID="E169" fromText="Low cholesterol , low fat diet" toID="T1" toText="02/08/2002" type="AFTER" />
+<TLINK id="Sectime38" fromID="E104" fromText="light headed" toID="T0" toText="02/01/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime39" fromID="E105" fromText="Her shortness of breath" toID="T0" toText="02/01/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime40" fromID="E106" fromText="dyspnea" toID="T0" toText="02/01/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime41" fromID="E107" fromText="sleeps in a chair up right" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime42" fromID="E108" fromText="osteoarthritis" toID="T0" toText="02/01/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime43" fromID="E109" fromText="orthopnea" toID="T0" toText="02/01/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime44" fromID="E110" fromText="noparoxysmal nocturnal dyspnea" toID="T0" toText="02/01/2002" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime45" fromID="E4" fromText="chest twinges" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime46" fromID="E111" fromText="nonradiating" toID="T0" toText="02/01/2002" type="BEFORE" />
+<TLINK id="Sectime47" fromID="E112" fromText="sharp" toID="T0" toText="02/01/2002" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="02/01/2002" type="ADMISSION" dvalue="2002-02-01" />
+<SECTIME id="S1" start="46" end="56" text="02/08/2002" type="DISCHARGE" dvalue="2002-02-08" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

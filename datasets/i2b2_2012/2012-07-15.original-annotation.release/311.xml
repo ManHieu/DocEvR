@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+04/07/97
+DISCHARGE DATE :
+04/08/97
+HISTORY OF PRESENT ILLNESS :
+Mr. Vessels is a 49-year-old man status post orthotopic heart transplantation in 1991 at Dautenorwe Stuart Erec Hillpa Of Hospital who is admitted with dyspnea and severe heart failure .
+Mr. Vessels &apos;s postoperative course has been marked by CMV infection , hypertension , poorly controlled lipids , peripheral vascular disease , and chronic renal insufficiency with a creatinine of 1.8 or so .
+Recently he had documented coronary angiography based on a catheterization performed in January 1996 with moderate to diffuse atherosclerosis .
+A repeat angiogram performed a year later showed marked progression of coronary allograft disease .
+A biopsy at that time revealed grade 1B rejection with endothelialitis and eosinophils .
+He was treated with pulsed IV steroids and Imuran , was augmented with mycophenolate Mofetil .
+Chest x-ray showed cariogenic pulmonary edema and he was faring poorly .
+Prior to admission he was seen approximately 1 week in the office with mild congestive heart failure .
+An echocardiogram then revealed an ejection fraction of 40% and an endomyocardial biopsy revealed no ejection .
+HOSPITAL COURSE AND TREATMENT :
+The patient was admitted to the hospital via the emergency room where a bedside echocardiogram was performed .
+The echocardiogram revealed no pericardial effusion , an ejection fraction of 30% and worsening systolic dysfunction .
+Hydrocortisone was given 1 g in an attempt to reverse what was thought to be aggressive coronary allograft vasculopathy .
+The patient diuresed and responded to Lasix 100 mg administered in the emergency room and was admitted to a monitored bed .
+At 2:30 AM the following morning the patient was found in cardiac arrest .
+Despite intravenous fluids , intravenous epinephrine , and multiple attempts at defibrillation , the patient was unable to be resuscitated .
+Upon arrival of the covering access physician the patient was being ventilated mechanically and CPR was being performed .
+The rhythm revealed sinus tachycardia with no palpable or measurable blood pressure .
+There were also runs of ventricular tachycardia which generated into ventricular fibrillation that was refractory to multiple cardioversions .
+A pericardiocentesis was attempted with no yield of pericardial fluid .
+A transvenous pacing wire was attempted and a pacing rhythm was obtained but with no palpable blood pressure .
+In total , the patient was defibrillated 10 times , given 5 courses of intravenous epinephrine , one course of intravenous Atropine and intravenous calcium x 1 in addition to an amp of bicarbonate .
+The resuscitation efforts were discontinued at 4:15 AM and were begun at 3:38 AM .
+The patient was pronounced dead .
+Patient &apos;s mother was informed by Dr. Vessels .
+An autopsy permission was granted .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="1054" end="1083" text="mild congestive heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1086" end="1103" text="An echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="1109" end="1117" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E34" start="1118" end="1138" text="an ejection fraction" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1150" end="1174" text="an endomyocardial biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="1187" end="1195" text="ejection" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E37" start="1246" end="1254" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="1258" end="1270" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E82" start="127" end="159" text="orthotopic heart transplantation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1275" end="1293" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E40" start="1300" end="1324" text="a bedside echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="1341" end="1359" text="The echocardiogram" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1360" end="1368" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E43" start="1372" end="1392" text="pericardial effusion" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E44" start="1395" end="1415" text="an ejection fraction" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1427" end="1457" text="worsening systolic dysfunction" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1460" end="1474" text="Hydrocortisone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1537" end="1579" text="aggressive coronary allograft vasculopathy" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="1594" end="1602" text="diuresed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1620" end="1625" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="1649" end="1667" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E51" start="1676" end="1684" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="1688" end="1703" text="a monitored bed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="171" end="212" text="Dautenorwe Stuart Erec Hillpa Of Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E53" start="1755" end="1760" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E54" start="1764" end="1778" text="cardiac arrest" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="1789" end="1807" text="intravenous fluids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="1810" end="1833" text="intravenous epinephrine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="1861" end="1875" text="defibrillation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="1907" end="1919" text="resuscitated" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E59" start="1990" end="2013" text="ventilated mechanically" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="2018" end="2021" text="CPR" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="2044" end="2054" text="The rhythm" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E64" start="2055" end="2063" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E65" start="2064" end="2081" text="sinus tachycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="2102" end="2127" text="measurable blood pressure" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E67" start="2154" end="2177" text="ventricular tachycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="2199" end="2223" text="ventricular fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="220" end="228" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="2247" end="2270" text="multiple cardioversions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="2273" end="2293" text="A pericardiocentesis" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="234" end="241" text="dyspnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="2345" end="2370" text="A transvenous pacing wire" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="2430" end="2453" text="palpable blood pressure" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E2" start="246" end="266" text="severe heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="2483" end="2496" text="defibrillated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E74" start="2527" end="2550" text="intravenous epinephrine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="2567" end="2587" text="intravenous Atropine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="2592" end="2611" text="intravenous calcium" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="2631" end="2652" text="an amp of bicarbonate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="2655" end="2680" text="The resuscitation efforts" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E79" start="2754" end="2764" text="pronounced" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E80" start="2765" end="2769" text="dead" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E81" start="2825" end="2835" text="An autopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="289" end="309" text="postoperative course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="329" end="342" text="CMV infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="345" end="357" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="360" end="384" text="poorly controlled lipids" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="387" end="414" text="peripheral vascular disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="421" end="448" text="chronic renal insufficiency" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="454" end="466" text="a creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E13" start="509" end="529" text="coronary angiography" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="539" end="556" text="a catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="608" end="623" text="atherosclerosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="626" end="644" text="A repeat angiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="668" end="674" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E18" start="682" end="723" text="progression of coronary allograft disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="726" end="734" text="A biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="748" end="756" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E21" start="757" end="775" text="grade 1B rejection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="781" end="796" text="endothelialitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="801" end="812" text="eosinophils" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="835" end="853" text="pulsed IV steroids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="858" end="864" text="Imuran" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="886" end="907" text="mycophenolate Mofetil" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="910" end="921" text="Chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="922" end="928" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E29" start="929" end="955" text="cariogenic pulmonary edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="992" end="1001" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T4" start="1028" end="1034" text="1 week" type="DATE" val="1997-03-31" mod="APPROX" />
+<TIMEX3 id="T2" start="163" end="167" text="1991" type="DATE" val="1991" mod="NA" />
+<TIMEX3 id="T5" start="1709" end="1716" text="2:30 AM" type="TIME" val="1997-04-08T2:30" mod="NA" />
+<TIMEX3 id="T6" start="1717" end="1738" text="the following morning" type="DATE" val="1997-04-08" mod="START" />
+<TIMEX3 id="T0" start="18" end="26" text="04/07/97" type="DATE" val="1997-04-07" mod="NA" />
+<TIMEX3 id="T7" start="2702" end="2709" text="4:15 AM" type="TIME" val="1997-04-08T4:15" mod="NA" />
+<TIMEX3 id="T8" start="2728" end="2735" text="3:38 AM" type="TIME" val="1997-04-08T3:38" mod="NA" />
+<TIMEX3 id="T1" start="44" end="52" text="04/08/97" type="DATE" val="1997-04-08" mod="NA" />
+<TIMEX3 id="T9" start="570" end="582" text="January 1996" type="DATE" val="1996-01" mod="NA" />
+<TIMEX3 id="T3" start="655" end="661" text="a year" type="DURATION" val="p1y" mod="NA" />
+<TLINK id="TL0" fromID="T0" fromText="04/07/97" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E1" fromText="DISCHARGE" toID="T1" toText="04/08/97" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E8" fromText="hypertension" toID="E9" toText="poorly controlled lipids" type="OVERLAP" />
+<TLINK id="TL11" fromID="E9" fromText="poorly controlled lipids" toID="E10" toText="peripheral vascular disease" type="OVERLAP" />
+<TLINK id="TL12" fromID="E10" fromText="peripheral vascular disease" toID="E11" toText="chronic renal insufficiency" type="OVERLAP" />
+<TLINK id="TL13" fromID="E11" fromText="chronic renal insufficiency" toID="E12" toText="a creatinine" type="OVERLAP" />
+<TLINK id="TL14" fromID="E6" fromText="postoperative course" toID="E13" toText="coronary angiography" type="OVERLAP" />
+<TLINK id="TL15" fromID="E14" fromText="a catheterization" toID="T9" toText="January 1996" type="SIMULTANEOUS" />
+<TLINK id="TL16" fromID="E13" fromText="coronary angiography" toID="E14" toText="a catheterization" type="BEFORE_OVERLAP" />
+<TLINK id="TL17" fromID="E16" fromText="A repeat angiogram" toID="E13" toText="coronary angiography" type="AFTER" />
+<TLINK id="TL18" fromID="E15" fromText="atherosclerosis" toID="E13" toText="coronary angiography" type="BEFORE_OVERLAP" />
+<TLINK id="TL19" fromID="E16" fromText="A repeat angiogram" toID="T3" toText="a year" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="E82" fromText="orthotopic heart transplantation" toID="T2" toText="1991" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E16" fromText="A repeat angiogram" toID="E17" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL21" fromID="E18" fromText="progression of coronary allograft disease" toID="E16" toText="A repeat angiogram" type="BEFORE_OVERLAP" />
+<TLINK id="TL22" fromID="E19" fromText="A biopsy" toID="E16" toText="A repeat angiogram" type="SIMULTANEOUS" />
+<TLINK id="TL23" fromID="E19" fromText="A biopsy" toID="E20" toText="revealed" type="OVERLAP" />
+<TLINK id="TL24" fromID="E21" fromText="grade 1B rejection" toID="E20" toText="revealed" type="BEFORE_OVERLAP" />
+<TLINK id="TL25" fromID="E21" fromText="grade 1B rejection" toID="E22" toText="endothelialitis" type="OVERLAP" />
+<TLINK id="TL26" fromID="E22" fromText="endothelialitis" toID="E23" toText="eosinophils" type="OVERLAP" />
+<TLINK id="TL27" fromID="E24" fromText="pulsed IV steroids" toID="E20" toText="revealed" type="AFTER" />
+<TLINK id="TL28" fromID="E25" fromText="Imuran" toID="E24" toText="pulsed IV steroids" type="OVERLAP" />
+<TLINK id="TL29" fromID="E25" fromText="Imuran" toID="E26" toText="mycophenolate Mofetil" type="OVERLAP" />
+<TLINK id="TL3" fromID="E82" fromText="orthotopic heart transplantation" toID="E3" toText="Dautenorwe Stuart Erec Hillpa Of Hospital" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E27" fromText="Chest x-ray" toID="E28" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E29" fromText="cariogenic pulmonary edema" toID="E27" toText="Chest x-ray" type="BEFORE_OVERLAP" />
+<TLINK id="TL32" fromID="E30" fromText="admission" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL33" fromID="E31" fromText="mild congestive heart failure" toID="E30" toText="admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL34" fromID="E32" fromText="An echocardiogram" toID="E33" toText="revealed" type="SIMULTANEOUS" />
+<TLINK id="TL35" fromID="E34" fromText="an ejection fraction" toID="E33" toText="revealed" type="OVERLAP" />
+<TLINK id="TL36" fromID="E34" fromText="an ejection fraction" toID="E35" toText="an endomyocardial biopsy" type="OVERLAP" />
+<TLINK id="TL37" fromID="E35" fromText="an endomyocardial biopsy" toID="E36" toText="ejection" type="OVERLAP" />
+<TLINK id="TL38" fromID="E37" fromText="admitted" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL39" fromID="E38" fromText="the hospital" toID="E37" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL4" fromID="E4" fromText="admitted" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E38" fromText="the hospital" toID="E1" toText="DISCHARGE" type="ENDED_BY" />
+<TLINK id="TL41" fromID="E39" fromText="the emergency room" toID="E37" toText="admitted" type="BEFORE" />
+<TLINK id="TL42" fromID="E40" fromText="a bedside echocardiogram" toID="E39" toText="the emergency room" type="DURING" />
+<TLINK id="TL44" fromID="E40" fromText="a bedside echocardiogram" toID="E41" toText="The echocardiogram" type="SIMULTANEOUS" />
+<TLINK id="TL45" fromID="E41" fromText="The echocardiogram" toID="E42" toText="revealed" type="SIMULTANEOUS" />
+<TLINK id="TL46" fromID="E43" fromText="pericardial effusion" toID="E42" toText="revealed" type="BEFORE_OVERLAP" />
+<TLINK id="TL47" fromID="E43" fromText="pericardial effusion" toID="E44" toText="an ejection fraction" type="OVERLAP" />
+<TLINK id="TL48" fromID="E44" fromText="an ejection fraction" toID="E45" toText="worsening systolic dysfunction" type="OVERLAP" />
+<TLINK id="TL49" fromID="E41" fromText="The echocardiogram" toID="E46" toText="Hydrocortisone" type="BEFORE" />
+<TLINK id="TL5" fromID="E5" fromText="dyspnea" toID="E4" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL50" fromID="E47" fromText="aggressive coronary allograft vasculopathy" toID="E46" toText="Hydrocortisone" type="BEFORE_OVERLAP" />
+<TLINK id="TL51" fromID="E46" fromText="Hydrocortisone" toID="E41" toText="The echocardiogram" type="AFTER" />
+<TLINK id="TL52" fromID="E48" fromText="diuresed" toID="E49" toText="Lasix" type="OVERLAP" />
+<TLINK id="TL53" fromID="E49" fromText="Lasix" toID="E50" toText="the emergency room" type="OVERLAP" />
+<TLINK id="TL54" fromID="E50" fromText="the emergency room" toID="E39" toText="the emergency room" type="SIMULTANEOUS" />
+<TLINK id="TL55" fromID="E50" fromText="the emergency room" toID="E51" toText="admitted" type="ENDED_BY" />
+<TLINK id="TL56" fromID="E52" fromText="a monitored bed" toID="E51" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL57" fromID="E51" fromText="admitted" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL58" fromID="T5" fromText="2:30 AM" toID="E53" toText="found" type="SIMULTANEOUS" />
+<TLINK id="TL59" fromID="E54" fromText="cardiac arrest" toID="E53" toText="found" type="OVERLAP" />
+<TLINK id="TL6" fromID="E5" fromText="dyspnea" toID="E2" toText="severe heart failure" type="OVERLAP" />
+<TLINK id="TL60" fromID="T5" fromText="2:30 AM" toID="T6" toText="the following morning" type="SIMULTANEOUS" />
+<TLINK id="TL61" fromID="E55" fromText="intravenous fluids" toID="E53" toText="found" type="AFTER" />
+<TLINK id="TL62" fromID="E56" fromText="intravenous epinephrine" toID="E55" toText="intravenous fluids" type="OVERLAP" />
+<TLINK id="TL63" fromID="E56" fromText="intravenous epinephrine" toID="E57" toText="defibrillation" type="OVERLAP" />
+<TLINK id="TL64" fromID="E57" fromText="defibrillation" toID="E58" toText="resuscitated" type="BEFORE_OVERLAP" />
+<TLINK id="TL65" fromID="E57" fromText="defibrillation" toID="E59" toText="ventilated mechanically" type="OVERLAP" />
+<TLINK id="TL66" fromID="E59" fromText="ventilated mechanically" toID="E60" toText="CPR" type="OVERLAP" />
+<TLINK id="TL67" fromID="E62" fromText="The rhythm" toID="E64" toText="revealed" type="SIMULTANEOUS" />
+<TLINK id="TL68" fromID="E65" fromText="sinus tachycardia" toID="E64" toText="revealed" type="BEFORE_OVERLAP" />
+<TLINK id="TL69" fromID="E65" fromText="sinus tachycardia" toID="E66" toText="measurable blood pressure" type="OVERLAP" />
+<TLINK id="TL7" fromID="E6" fromText="postoperative course" toID="E82" toText="orthotopic heart transplantation" type="AFTER" />
+<TLINK id="TL70" fromID="E65" fromText="sinus tachycardia" toID="E67" toText="ventricular tachycardia" type="OVERLAP" />
+<TLINK id="TL71" fromID="E67" fromText="ventricular tachycardia" toID="E68" toText="ventricular fibrillation" type="OVERLAP" />
+<TLINK id="TL72" fromID="E68" fromText="ventricular fibrillation" toID="E69" toText="multiple cardioversions" type="OVERLAP" />
+<TLINK id="TL73" fromID="E70" fromText="A pericardiocentesis" toID="E69" toText="multiple cardioversions" type="AFTER" />
+<TLINK id="TL74" fromID="E70" fromText="A pericardiocentesis" toID="E71" toText="A transvenous pacing wire" type="OVERLAP" />
+<TLINK id="TL75" fromID="E71" fromText="A transvenous pacing wire" toID="E72" toText="palpable blood pressure" type="OVERLAP" />
+<TLINK id="TL76" fromID="E72" fromText="palpable blood pressure" toID="E73" toText="defibrillated" type="OVERLAP" />
+<TLINK id="TL77" fromID="E73" fromText="defibrillated" toID="E74" toText="intravenous epinephrine" type="OVERLAP" />
+<TLINK id="TL78" fromID="E74" fromText="intravenous epinephrine" toID="E75" toText="intravenous Atropine" type="OVERLAP" />
+<TLINK id="TL79" fromID="E75" fromText="intravenous Atropine" toID="E76" toText="intravenous calcium" type="OVERLAP" />
+<TLINK id="TL8" fromID="E6" fromText="postoperative course" toID="E7" toText="CMV infection" type="OVERLAP" />
+<TLINK id="TL80" fromID="E76" fromText="intravenous calcium" toID="E77" toText="an amp of bicarbonate" type="OVERLAP" />
+<TLINK id="TL81" fromID="E78" fromText="The resuscitation efforts" toID="E77" toText="an amp of bicarbonate" type="AFTER" />
+<TLINK id="TL82" fromID="E78" fromText="The resuscitation efforts" toID="T7" toText="4:15 AM" type="ENDED_BY" />
+<TLINK id="TL83" fromID="E78" fromText="The resuscitation efforts" toID="T8" toText="3:38 AM" type="BEGUN_BY" />
+<TLINK id="TL84" fromID="E79" fromText="pronounced" toID="E80" toText="dead" type="OVERLAP" />
+<TLINK id="TL85" fromID="E79" fromText="pronounced" toID="T7" toText="4:15 AM" type="SIMULTANEOUS" />
+<TLINK id="TL86" fromID="E81" fromText="An autopsy" toID="E80" toText="dead" type="AFTER" />
+<TLINK id="TL9" fromID="E7" fromText="CMV infection" toID="E8" toText="hypertension" type="OVERLAP" />
+<TLINK id="Sectime0" fromID="E31" fromText="mild congestive heart failure" toID="T0" toText="04/07/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime1" fromID="E32" fromText="An echocardiogram" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E33" fromText="revealed" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E34" fromText="an ejection fraction" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E35" fromText="an endomyocardial biopsy" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E36" fromText="ejection" toID="T0" toText="04/07/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime0" fromID="E37" fromText="admitted" toID="T1" toText="04/08/97" type="OVERLAP" />
+<TLINK id="Sectime1" fromID="E38" fromText="the hospital" toID="T1" toText="04/08/97" type="OVERLAP" />
+<TLINK id="Sectime6" fromID="E82" fromText="orthotopic heart transplantation" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E39" fromText="the emergency room" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E40" fromText="a bedside echocardiogram" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E41" fromText="The echocardiogram" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E42" fromText="revealed" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E43" fromText="pericardial effusion" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E44" fromText="an ejection fraction" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E45" fromText="worsening systolic dysfunction" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E46" fromText="Hydrocortisone" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E47" fromText="aggressive coronary allograft vasculopathy" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E48" fromText="diuresed" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E49" fromText="Lasix" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E50" fromText="the emergency room" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E51" fromText="admitted" toID="T1" toText="04/08/97" type="OVERLAP" />
+<TLINK id="Sectime15" fromID="E52" fromText="a monitored bed" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E3" fromText="Dautenorwe Stuart Erec Hillpa Of Hospital" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E53" fromText="found" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E54" fromText="cardiac arrest" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E55" fromText="intravenous fluids" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E56" fromText="intravenous epinephrine" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E57" fromText="defibrillation" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E58" fromText="resuscitated" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E59" fromText="ventilated mechanically" toID="T1" toText="04/08/97" type="OVERLAP" />
+<TLINK id="Sectime23" fromID="E60" fromText="CPR" toID="T1" toText="04/08/97" type="OVERLAP" />
+<TLINK id="Sectime24" fromID="E62" fromText="The rhythm" toID="T1" toText="04/08/97" type="OVERLAP" />
+<TLINK id="Sectime25" fromID="E64" fromText="revealed" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E65" fromText="sinus tachycardia" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E66" fromText="measurable blood pressure" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E67" fromText="ventricular tachycardia" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E68" fromText="ventricular fibrillation" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E4" fromText="admitted" toID="T0" toText="04/07/97" type="OVERLAP" />
+<TLINK id="Sectime30" fromID="E69" fromText="multiple cardioversions" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime31" fromID="E70" fromText="A pericardiocentesis" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E5" fromText="dyspnea" toID="T0" toText="04/07/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime32" fromID="E71" fromText="A transvenous pacing wire" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime33" fromID="E72" fromText="palpable blood pressure" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E2" fromText="severe heart failure" toID="T0" toText="04/07/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime34" fromID="E73" fromText="defibrillated" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime35" fromID="E74" fromText="intravenous epinephrine" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime36" fromID="E75" fromText="intravenous Atropine" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime37" fromID="E76" fromText="intravenous calcium" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime38" fromID="E77" fromText="an amp of bicarbonate" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime39" fromID="E78" fromText="The resuscitation efforts" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime40" fromID="E79" fromText="pronounced" toID="T1" toText="04/08/97" type="BEFORE" />
+<TLINK id="Sectime41" fromID="E80" fromText="dead" toID="T1" toText="04/08/97" type="OVERLAP" />
+<TLINK id="Sectime42" fromID="E81" fromText="An autopsy" toID="T1" toText="04/08/97" type="AFTER" />
+<TLINK id="Sectime11" fromID="E6" fromText="postoperative course" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E7" fromText="CMV infection" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E8" fromText="hypertension" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E9" fromText="poorly controlled lipids" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E10" fromText="peripheral vascular disease" toID="T0" toText="04/07/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime16" fromID="E11" fromText="chronic renal insufficiency" toID="T0" toText="04/07/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime17" fromID="E12" fromText="a creatinine" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E13" fromText="coronary angiography" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E14" fromText="a catheterization" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E15" fromText="atherosclerosis" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E16" fromText="A repeat angiogram" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E17" fromText="showed" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E18" fromText="progression of coronary allograft disease" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E19" fromText="A biopsy" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E20" fromText="revealed" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E21" fromText="grade 1B rejection" toID="T0" toText="04/07/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime27" fromID="E22" fromText="endothelialitis" toID="T0" toText="04/07/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime28" fromID="E23" fromText="eosinophils" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E24" fromText="pulsed IV steroids" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E25" fromText="Imuran" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime31" fromID="E26" fromText="mycophenolate Mofetil" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime32" fromID="E27" fromText="Chest x-ray" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime33" fromID="E28" fromText="showed" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime34" fromID="E29" fromText="cariogenic pulmonary edema" toID="T0" toText="04/07/97" type="BEFORE" />
+<TLINK id="Sectime35" fromID="E30" fromText="admission" toID="T0" toText="04/07/97" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="26" text="04/07/97" type="ADMISSION" dvalue="1997-04-07" />
+<SECTIME id="S1" start="44" end="52" text="04/08/97" type="DISCHARGE" dvalue="1997-04-08" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

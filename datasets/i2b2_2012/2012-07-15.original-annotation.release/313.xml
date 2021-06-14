@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE : 
+06/22/94 
+DISCHARGE DATE : 
+07/04/94 
+HISTORY OF PRESENT ILLNESS : 
+This 68 year old female had rheumatic fever in the past , and has had chronic atrial fibrillation . 
+She has had progressive heart failure and an evaluation demonstrated worsening mitral stenosis with severe pulmonary hypertension . 
+Because of her deteriorating status , she underwent prior cardiac catheterization , which confirmed severe mitral stenosis with secondary tricuspid valve regurgitation due to pulmonary hypertension . 
+She was referred for valve surgery . 
+HOSPITAL COURSE : 
+The patient was brought to the Operating Room , on April 22 . 
+She underwent a mitral valve replacement , utilizing a 27 mm . 
+St. Jude prosthesis , and tricuspid valve reconstruction by ring anuloplasty . 
+She weaned from cardiopulmonary bypass with good hemodynamics . 
+She initially awoke after surgery , with good hemodynamics . 
+She was transiently in sinus rhythm , but atrial fibrillation recurred . 
+She was extubated on the third postoperative day , and was initially slightly agitated and confused , largely due to an Intensive Care Unit psychosis . 
+She continued to improve , with mobilization of fluid . 
+She was initially noted to have a slow ventricular response in atrial fibrillation , but this gradually improved over time . 
+She was initially noted to be somewhat anemic , and received transfusions . 
+Coumadin was restarted , and her anticoagulation came into range . 
+She was ultimately discharged with a heart rate in the 90 's , and with resolving edema and a clear chest . 
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="1046" end="1073" text="initially slightly agitated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="1078" end="1086" text="confused" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="1104" end="1136" text="an Intensive Care Unit psychosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="115" end="130" text="rheumatic fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1215" end="1220" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E12" start="1229" end="1256" text="a slow ventricular response" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="1260" end="1279" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1301" end="1309" text="improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="1353" end="1368" text="somewhat anemic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="1384" end="1396" text="transfusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1400" end="1408" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="1429" end="1448" text="her anticoagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="1487" end="1497" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="1503" end="1515" text="a heart rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="1540" end="1555" text="resolving edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="157" end="184" text="chronic atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="1560" end="1573" text="a clear chest" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="200" end="225" text="progressive heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="230" end="243" text="an evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="257" end="282" text="worsening mitral stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="288" end="317" text="severe pulmonary hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="29" end="38" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="332" end="349" text="her deteriorating" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E2" start="373" end="402" text="prior cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="421" end="443" text="severe mitral stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="449" end="488" text="secondary tricuspid valve regurgitation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="496" end="518" text="pulmonary hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="530" end="538" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="543" end="556" text="valve surgery" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="606" end="624" text="the Operating Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="656" end="682" text="a mitral valve replacement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="715" end="725" text="prosthesis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="732" end="762" text="tricuspid valve reconstruction" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="766" end="782" text="ring anuloplasty" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="790" end="796" text="weaned" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="802" end="824" text="cardiopulmonary bypass" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="830" end="847" text="good hemodynamics" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E37" start="865" end="870" text="awoke" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="877" end="884" text="surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="892" end="909" text="good hemodynamics" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E39" start="936" end="948" text="sinus rhythm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="955" end="974" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="995" end="1004" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T3" start="1008" end="1035" text="the third postoperative day" type="DATE" val="1994-06-25" mod="NA" />
+<TIMEX3 id="T1" start="19" end="27" text="06/22/94" type="DATE" val="1994-06-22" mod="NA" />
+<TIMEX3 id="T2" start="47" end="55" text="07/04/94" type="DATE" val="1994-07-04" mod="NA" />
+<TIMEX3 id="T0" start="630" end="638" text="April 22" type="DATE" val="1994-04-22" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T1" toText="06/22/94" type="OVERLAP" />
+<TLINK id="TL1" fromID="E20" fromText="DISCHARGE" toID="T2" toText="07/04/94" type="OVERLAP" />
+<TLINK id="TL10" fromID="E29" fromText="secondary tricuspid valve regurgitation" toID="E30" toText="pulmonary hypertension" type="AFTER" />
+<TLINK id="TL11" fromID="E31" fromText="referred" toID="E32" toText="valve surgery" type="OVERLAP" />
+<TLINK id="TL12" fromID="E31" fromText="referred" toID="E24" toText="an evaluation" type="AFTER" />
+<TLINK id="TL13" fromID="E33" fromText="the Operating Room" toID="T0" toText="April 22" type="OVERLAP" />
+<TLINK id="TL14" fromID="E3" fromText="a mitral valve replacement" toID="E33" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL15" fromID="E34" fromText="prosthesis" toID="E33" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL16" fromID="E4" fromText="tricuspid valve reconstruction" toID="E33" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL17" fromID="E4" fromText="tricuspid valve reconstruction" toID="E5" toText="ring anuloplasty" type="SIMULTANEOUS" />
+<TLINK id="TL18" fromID="E6" fromText="cardiopulmonary bypass" toID="E35" toText="weaned" type="ENDED_BY" />
+<TLINK id="TL19" fromID="E35" fromText="weaned" toID="E36" toText="good hemodynamics" type="OVERLAP" />
+<TLINK id="TL2" fromID="E1" fromText="rheumatic fever" toID="E22" toText="chronic atrial fibrillation" type="OVERLAP" />
+<TLINK id="TL20" fromID="E37" fromText="awoke" toID="E7" toText="surgery" type="AFTER" />
+<TLINK id="TL21" fromID="E7" fromText="surgery" toID="E3" toText="a mitral valve replacement" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E37" fromText="awoke" toID="E38" toText="good hemodynamics" type="OVERLAP" />
+<TLINK id="TL23" fromID="E39" fromText="sinus rhythm" toID="E38" toText="good hemodynamics" type="OVERLAP" />
+<TLINK id="TL24" fromID="E8" fromText="atrial fibrillation" toID="E39" toText="sinus rhythm" type="AFTER" />
+<TLINK id="TL25" fromID="E40" fromText="extubated" toID="T3" toText="the third postoperative day" type="OVERLAP" />
+<TLINK id="TL26" fromID="E9" fromText="initially slightly agitated" toID="E40" toText="extubated" type="AFTER" />
+<TLINK id="TL27" fromID="E9" fromText="initially slightly agitated" toID="E10" toText="confused" type="OVERLAP" />
+<TLINK id="TL28" fromID="E10" fromText="confused" toID="E11" toText="an Intensive Care Unit psychosis" type="AFTER" />
+<TLINK id="TL29" fromID="E12" fromText="a slow ventricular response" toID="E41" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL3" fromID="E25" fromText="worsening mitral stenosis" toID="E24" toText="an evaluation" type="BEFORE_OVERLAP" />
+<TLINK id="TL30" fromID="E12" fromText="a slow ventricular response" toID="E13" toText="atrial fibrillation" type="OVERLAP" />
+<TLINK id="TL31" fromID="E42" fromText="improved" toID="E12" toText="a slow ventricular response" type="AFTER" />
+<TLINK id="TL32" fromID="E14" fromText="somewhat anemic" toID="E12" toText="a slow ventricular response" type="OVERLAP" />
+<TLINK id="TL33" fromID="E15" fromText="transfusions" toID="E14" toText="somewhat anemic" type="AFTER" />
+<TLINK id="TL34" fromID="E16" fromText="Coumadin" toID="E17" toText="her anticoagulation" type="OVERLAP" />
+<TLINK id="TL35" fromID="E16" fromText="Coumadin" toID="E14" toText="somewhat anemic" type="AFTER" />
+<TLINK id="TL36" fromID="E21" fromText="discharged" toID="E20" toText="DISCHARGE" type="SIMULTANEOUS" />
+<TLINK id="TL37" fromID="E18" fromText="a heart rate" toID="E21" toText="discharged" type="OVERLAP" />
+<TLINK id="TL38" fromID="E19" fromText="resolving edema" toID="E21" toText="discharged" type="OVERLAP" />
+<TLINK id="TL39" fromID="E43" fromText="a clear chest" toID="E21" toText="discharged" type="OVERLAP" />
+<TLINK id="TL4" fromID="E23" fromText="progressive heart failure" toID="E24" toText="an evaluation" type="BEFORE_OVERLAP" />
+<TLINK id="TL5" fromID="E25" fromText="worsening mitral stenosis" toID="E26" toText="severe pulmonary hypertension" type="OVERLAP" />
+<TLINK id="TL6" fromID="E27" fromText="her deteriorating" toID="E25" toText="worsening mitral stenosis" type="OVERLAP" />
+<TLINK id="TL7" fromID="E2" fromText="prior cardiac catheterization" toID="E27" toText="her deteriorating" type="AFTER" />
+<TLINK id="TL8" fromID="E28" fromText="severe mitral stenosis" toID="E2" toText="prior cardiac catheterization" type="BEFORE_OVERLAP" />
+<TLINK id="TL9" fromID="E28" fromText="severe mitral stenosis" toID="E29" toText="secondary tricuspid valve regurgitation" type="OVERLAP" />
+<TLINK id="Sectime0" fromID="E9" fromText="initially slightly agitated" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E10" fromText="confused" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E11" fromText="an Intensive Care Unit psychosis" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E1" fromText="rheumatic fever" toID="T1" toText="06/22/94" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E41" fromText="noted" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E12" fromText="a slow ventricular response" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E13" fromText="atrial fibrillation" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E42" fromText="improved" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E14" fromText="somewhat anemic" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E15" fromText="transfusions" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E16" fromText="Coumadin" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E17" fromText="her anticoagulation" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E21" fromText="discharged" toID="T2" toText="07/04/94" type="OVERLAP" />
+<TLINK id="Sectime12" fromID="E18" fromText="a heart rate" toID="T2" toText="07/04/94" type="OVERLAP" />
+<TLINK id="Sectime13" fromID="E19" fromText="resolving edema" toID="T2" toText="07/04/94" type="OVERLAP" />
+<TLINK id="Sectime1" fromID="E22" fromText="chronic atrial fibrillation" toID="T1" toText="06/22/94" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime14" fromID="E43" fromText="a clear chest" toID="T2" toText="07/04/94" type="OVERLAP" />
+<TLINK id="Sectime2" fromID="E23" fromText="progressive heart failure" toID="T1" toText="06/22/94" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime3" fromID="E24" fromText="an evaluation" toID="T1" toText="06/22/94" type="OVERLAP" />
+<TLINK id="Sectime4" fromID="E25" fromText="worsening mitral stenosis" toID="T1" toText="06/22/94" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime5" fromID="E26" fromText="severe pulmonary hypertension" toID="T1" toText="06/22/94" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime6" fromID="E27" fromText="her deteriorating" toID="T1" toText="06/22/94" type="OVERLAP" />
+<TLINK id="Sectime7" fromID="E2" fromText="prior cardiac catheterization" toID="T1" toText="06/22/94" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E28" fromText="severe mitral stenosis" toID="T1" toText="06/22/94" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime9" fromID="E29" fromText="secondary tricuspid valve regurgitation" toID="T1" toText="06/22/94" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime10" fromID="E30" fromText="pulmonary hypertension" toID="T1" toText="06/22/94" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime11" fromID="E31" fromText="referred" toID="T1" toText="06/22/94" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E32" fromText="valve surgery" toID="T1" toText="06/22/94" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E33" fromText="the Operating Room" toID="T2" toText="07/04/94" type="OVERLAP" />
+<TLINK id="Sectime16" fromID="E3" fromText="a mitral valve replacement" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E34" fromText="prosthesis" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E4" fromText="tricuspid valve reconstruction" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E5" fromText="ring anuloplasty" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E35" fromText="weaned" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E6" fromText="cardiopulmonary bypass" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E36" fromText="good hemodynamics" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E37" fromText="awoke" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E7" fromText="surgery" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E38" fromText="good hemodynamics" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E39" fromText="sinus rhythm" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E8" fromText="atrial fibrillation" toID="T2" toText="07/04/94" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E40" fromText="extubated" toID="T2" toText="07/04/94" type="BEFORE" />
+<SECTIME id="S0" start="18" end="26" text="06/22/94" type="ADMISSION" dvalue="1994-06-22" />
+<SECTIME id="S1" start="44" end="52" text="07/04/94" type="DISCHARGE" dvalue="1994-07-04" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

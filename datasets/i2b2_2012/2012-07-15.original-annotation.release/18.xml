@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2016-08-08
+Discharge Date :
+2016-08-15
+Discharge Date :
+2016-08-15
+HISTORY OF PRESENT ILLNESS :
+The patient is a 37 year old lady with type 1 diabetes mellitus , who is four months postcadaveric kidney transplantation and now has good graft function .
+She presents for cadaveric pancreas transplantation .
+Her diabetes mellitus has been complicated by retinopathy and nephropathy as well as peripheral neuropathy .
+She takes 14 units of NPH insulin twice a day supplementing with a sliding scale .
+HOSPITAL COURSE :
+She underwent cadaveric pancreas transplantation without complication .
+She received induction therapy with thymoglobulin intraoperative and postoperatively for five days .
+She was kept on a similar immunosuppressive regimen as with her kidney transplant .
+She had excellent pancreas graft function immediately .
+Her renal function also remained stable in the perioperative period .
+She was quickly placed on a diet and advanced to regular diet .
+She was discharged home in stable condition on postoperative day six .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="1008" end="1024" text="stable condition" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="153" end="177" text="type 1 diabetes mellitus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="199" end="235" text="postcadaveric kidney transplantation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="248" end="267" text="good graft function" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="274" end="282" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E7" start="287" end="321" text="cadaveric pancreas transplantation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="324" end="345" text="Her diabetes mellitus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="370" end="381" text="retinopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="386" end="397" text="nephropathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="409" end="430" text="peripheral neuropathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="455" end="466" text="NPH insulin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="498" end="513" text="a sliding scale" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="548" end="582" text="cadaveric pancreas transplantation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="57" end="66" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="591" end="603" text="complication" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E17" start="619" end="636" text="induction therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="642" end="655" text="thymoglobulin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="723" end="758" text="a similar immunosuppressive regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="767" end="788" text="her kidney transplant" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="799" end="832" text="excellent pancreas graft function" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="847" end="865" text="Her renal function" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="871" end="886" text="remained stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="943" end="949" text="a diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="954" end="978" text="advanced to regular diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="989" end="999" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T6" start="1028" end="1049" text="postoperative day six" type="DATE" val="2016-08-15" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2016-08-08" type="DATE" val="2016-08-08" mod="NA" />
+<TIMEX3 id="T3" start="187" end="198" text="four months" type="DURATION" val="p4m" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2016-08-15" type="DATE" val="2016-08-15" mod="NA" />
+<TIMEX3 id="T4" start="467" end="478" text="twice a day" type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T5" start="695" end="704" text="five days" type="DURATION" val="P5D" mod="NA" />
+<TIMEX3 id="T2" start="74" end="84" text="2016-08-15" type="DATE" val="2016-08-15" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2016-08-08" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E4" fromText="postcadaveric kidney transplantation" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL10" fromID="E4" fromText="postcadaveric kidney transplantation" toID="T3" toText="four months" type="BEGUN_BY" />
+<TLINK id="TL11" fromID="E4" fromText="postcadaveric kidney transplantation" toID="E5" toText="good graft function" type="OVERLAP" />
+<TLINK id="TL12" fromID="E7" fromText="cadaveric pancreas transplantation" toID="E6" toText="presents" type="OVERLAP" />
+<TLINK id="TL13" fromID="E7" fromText="cadaveric pancreas transplantation" toID="E15" toText="cadaveric pancreas transplantation" type="SIMULTANEOUS" />
+<TLINK id="TL14" fromID="E8" fromText="Her diabetes mellitus" toID="E6" toText="presents" type="BEFORE_OVERLAP" />
+<TLINK id="TL15" fromID="E8" fromText="Her diabetes mellitus" toID="E10" toText="retinopathy" type="BEFORE_OVERLAP" />
+<TLINK id="TL16" fromID="E8" fromText="Her diabetes mellitus" toID="E13" toText="NPH insulin" type="OVERLAP" />
+<TLINK id="TL17" fromID="E10" fromText="retinopathy" toID="E11" toText="nephropathy" type="OVERLAP" />
+<TLINK id="TL18" fromID="E11" fromText="nephropathy" toID="E12" toText="peripheral neuropathy" type="OVERLAP" />
+<TLINK id="TL19" fromID="E13" fromText="NPH insulin" toID="E14" toText="a sliding scale" type="OVERLAP" />
+<TLINK id="TL2" fromID="E15" fromText="cadaveric pancreas transplantation" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL20" fromID="E13" fromText="NPH insulin" toID="T4" toText="twice a day" type="OVERLAP" />
+<TLINK id="TL21" fromID="E16" fromText="complication" toID="E15" toText="cadaveric pancreas transplantation" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="T0" fromText="2016-08-08" toID="E15" toText="cadaveric pancreas transplantation" type="BEFORE" />
+<TLINK id="TL23" fromID="E17" fromText="induction therapy" toID="E15" toText="cadaveric pancreas transplantation" type="OVERLAP" />
+<TLINK id="TL24" fromID="E24" fromText="a diet" toID="E15" toText="cadaveric pancreas transplantation" type="AFTER" />
+<TLINK id="TL25" fromID="E21" fromText="excellent pancreas graft function" toID="E15" toText="cadaveric pancreas transplantation" type="AFTER" />
+<TLINK id="TL26" fromID="E26" fromText="discharged" toID="E15" toText="cadaveric pancreas transplantation" type="AFTER" />
+<TLINK id="TL27" fromID="E20" fromText="her kidney transplant" toID="E15" toText="cadaveric pancreas transplantation" type="BEFORE" />
+<TLINK id="TL28" fromID="E22" fromText="Her renal function" toID="E15" toText="cadaveric pancreas transplantation" type="BEFORE_OVERLAP" />
+<TLINK id="TL29" fromID="E19" fromText="a similar immunosuppressive regimen" toID="E15" toText="cadaveric pancreas transplantation" type="BEFORE_OVERLAP" />
+<TLINK id="TL3" fromID="E5" fromText="good graft function" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL30" fromID="E17" fromText="induction therapy" toID="E18" toText="thymoglobulin" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E18" fromText="thymoglobulin" toID="T5" toText="five days" type="SIMULTANEOUS" />
+<TLINK id="TL32" fromID="E19" fromText="a similar immunosuppressive regimen" toID="E20" toText="her kidney transplant" type="OVERLAP" />
+<TLINK id="TL33" fromID="E4" fromText="postcadaveric kidney transplantation" toID="E20" toText="her kidney transplant" type="SIMULTANEOUS" />
+<TLINK id="TL34" fromID="E21" fromText="excellent pancreas graft function" toID="E22" toText="Her renal function" type="BEFORE_OVERLAP" />
+<TLINK id="TL35" fromID="E22" fromText="Her renal function" toID="E23" toText="remained stable" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="E24" fromText="a diet" toID="E25" toText="advanced to regular diet" type="BEFORE" />
+<TLINK id="TL37" fromID="E23" fromText="remained stable" toID="E26" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL38" fromID="E26" fromText="discharged" toID="T6" toText="postoperative day six" type="SIMULTANEOUS" />
+<TLINK id="TL39" fromID="E27" fromText="stable condition" toID="T6" toText="postoperative day six" type="BEFORE_OVERLAP" />
+<TLINK id="TL4" fromID="T0" fromText="2016-08-08" toID="T3" toText="four months" type="ENDED_BY" />
+<TLINK id="TL40" fromID="E1" fromText="Discharge" toID="T1" toText="2016-08-15" type="SIMULTANEOUS" />
+<TLINK id="TL41" fromID="E2" fromText="Discharge" toID="T2" toText="2016-08-15" type="SIMULTANEOUS" />
+<TLINK id="TL6" fromID="T0" fromText="2016-08-08" toID="E3" toText="type 1 diabetes mellitus" type="BEFORE_OVERLAP" />
+<TLINK id="TL7" fromID="E6" fromText="presents" toID="T0" toText="2016-08-08" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E8" fromText="Her diabetes mellitus" toID="E3" toText="type 1 diabetes mellitus" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="E3" fromText="type 1 diabetes mellitus" toID="E4" toText="postcadaveric kidney transplantation" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2016-08-08" type="ADMISSION" dvalue="2016-08-08" />
+<SECTIME id="S1" start="46" end="56" text="2016-08-15" type="DISCHARGE" dvalue="2016-08-15" />
+<TLINK id="SECTIME0" fromID="E27" fromText="stable condition" toID="T1" toText="2016-08-15" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E3" fromText="type 1 diabetes mellitus" toID="T0" toText="2016-08-08" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E4" fromText="postcadaveric kidney transplantation" toID="T0" toText="2016-08-08" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E5" fromText="good graft function" toID="T0" toText="2016-08-08" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E7" fromText="cadaveric pancreas transplantation" toID="T0" toText="2016-08-08" type="AFTER" />
+<TLINK id="SECTIME5" fromID="E8" fromText="Her diabetes mellitus" toID="T0" toText="2016-08-08" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E10" fromText="retinopathy" toID="T0" toText="2016-08-08" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E11" fromText="nephropathy" toID="T0" toText="2016-08-08" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E12" fromText="peripheral neuropathy" toID="T0" toText="2016-08-08" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E13" fromText="NPH insulin" toID="T0" toText="2016-08-08" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E14" fromText="a sliding scale" toID="T0" toText="2016-08-08" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E15" fromText="cadaveric pancreas transplantation" toID="T1" toText="2016-08-15" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E16" fromText="complication" toID="T1" toText="2016-08-15" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E17" fromText="induction therapy" toID="T1" toText="2016-08-15" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E18" fromText="thymoglobulin" toID="T1" toText="2016-08-15" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E19" fromText="a similar immunosuppressive regimen" toID="T1" toText="2016-08-15" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E20" fromText="her kidney transplant" toID="T1" toText="2016-08-15" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E21" fromText="excellent pancreas graft function" toID="T1" toText="2016-08-15" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E22" fromText="Her renal function" toID="T1" toText="2016-08-15" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E23" fromText="remained stable" toID="T1" toText="2016-08-15" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E24" fromText="a diet" toID="T1" toText="2016-08-15" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E25" fromText="advanced to regular diet" toID="T1" toText="2016-08-15" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E26" fromText="discharged" toID="T1" toText="2016-08-15" type="OVERLAP" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

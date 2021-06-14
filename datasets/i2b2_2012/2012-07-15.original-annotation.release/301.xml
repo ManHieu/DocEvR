@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+03/30/97
+DISCHARGE DATE :
+04/01/97
+HISTORY OF PRESENT ILLNESS AND REASON FOR HOSPITALIZATION :
+The patient was a 108-year-old nursing home resident , who was admitted with a two-day history of increased respiratory secretions and a 24-hour history of elevated fever .
+Despite Augmentin , the patient &apos;s delirium worsened in the 24 hours prior to admission , and her temperature was up to 102 .
+She was refusing to take p.o.&apos;s .
+HOSPITAL COURSE AND TREATMENT :
+The patient was admitted for treatment of a presumed aspiration pneumonia and for rehydration .
+She was started on Clindamycin and Ofloxacin at renal dose to cover the aspiration pneumonia and positive urine culture , which subsequently came back .
+She had some wheezing , which responded well to Albuterol nebulizers .
+She was generally doing well with resolution of her temperature until 4/1/97 at 9:20 P.M. , when she was noted to be unresponsive with fixed dilated pupils .
+She was certified dead at 9:20 P.M.
+MI CUCHSLI , M.D.
+TR :
+vgo
+DD :
+05/11/97
+TD :
+05/15/97 8:26
+Acc :
+MI CUCHSLI , M.D.
+cc :
+Nursing Director Pcaer,ter Medical Center Sco , Ohio
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="176" end="184" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="211" end="243" text="increased respiratory secretions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="269" end="283" text="elevated fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="294" end="303" text="Augmentin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="306" end="334" text="the patient &apos;s delirium" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="335" end="343" text="worsened" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="369" end="378" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="385" end="400" text="her temperature" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E13" start="425" end="433" text="refusing" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="437" end="453" text="take p.o.&apos;s" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E14" start="504" end="512" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="517" end="526" text="treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="541" end="561" text="aspiration pneumonia" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="570" end="581" text="rehydration" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="603" end="614" text="Clindamycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="619" end="628" text="Ofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="652" end="676" text="the aspiration pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="681" end="703" text="positive urine culture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="725" end="734" text="came back" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="745" end="758" text="some wheezing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="767" end="781" text="responded well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="785" end="805" text="Albuterol nebulizers" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="832" end="836" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="842" end="852" text="resolution" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="856" end="871" text="her temperature" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="913" end="918" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E11" start="925" end="937" text="unresponsive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="943" end="963" text="fixed dilated pupils" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="974" end="988" text="certified dead" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T0" start="18" end="26" text="03/30/97" type="DATE" val="1997-03-30" mod="NA" />
+<TIMEX3 id="T2" start="190" end="199" text="a two-day" type="DURATION" val="p2d" mod="NA" />
+<TIMEX3 id="T3" start="248" end="257" text="a 24-hour" type="DURATION" val="p24h" mod="NA" />
+<TIMEX3 id="T4" start="347" end="359" text="the 24 hours" type="DURATION" val="p24h" mod="NA" />
+<TIMEX3 id="T1" start="44" end="52" text="04/01/97" type="DATE" val="1997-04-01" mod="NA" />
+<TIMEX3 id="T5" start="878" end="897" text="4/1/97 at 9:20 P.M." type="TIME" val="1997-04-01t17:20" mod="NA" />
+<TIMEX3 id="T6" start="992" end="1001" text="9:20 P.M." type="TIME" val="1997-04-01t17:20" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T0" toText="03/30/97" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E6" fromText="Ofloxacin" toID="E5" toText="Clindamycin" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E22" fromText="the patient &apos;s delirium" toID="E23" toText="worsened" type="BEFORE_OVERLAP" />
+<TLINK id="TL11" fromID="E23" fromText="worsened" toID="T4" toText="the 24 hours" type="DURING" />
+<TLINK id="TL12" fromID="T4" fromText="the 24 hours" toID="E24" toText="admission" type="ENDED_BY" />
+<TLINK id="TL13" fromID="E24" fromText="admission" toID="E18" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL14" fromID="E1" fromText="her temperature" toID="E20" toText="elevated fever" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E1" fromText="her temperature" toID="E13" toText="refusing" type="OVERLAP" />
+<TLINK id="TL16" fromID="E13" fromText="refusing" toID="E25" toText="take p.o.&apos;s" type="SIMULTANEOUS" />
+<TLINK id="TL17" fromID="E18" fromText="admitted" toID="E14" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL18" fromID="E2" fromText="treatment" toID="E14" toText="admitted" type="OVERLAP" />
+<TLINK id="TL19" fromID="E3" fromText="aspiration pneumonia" toID="E2" toText="treatment" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="E12" fromText="fixed dilated pupils" toID="E11" toText="unresponsive" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E2" fromText="treatment" toID="E4" toText="rehydration" type="OVERLAP" />
+<TLINK id="TL21" fromID="E7" fromText="the aspiration pneumonia" toID="E5" toText="Clindamycin" type="BEFORE_OVERLAP" />
+<TLINK id="TL22" fromID="E7" fromText="the aspiration pneumonia" toID="E8" toText="positive urine culture" type="OVERLAP" />
+<TLINK id="TL23" fromID="E15" fromText="came back" toID="E8" toText="positive urine culture" type="AFTER" />
+<TLINK id="TL24" fromID="E26" fromText="some wheezing" toID="E3" toText="aspiration pneumonia" type="OVERLAP" />
+<TLINK id="TL25" fromID="E26" fromText="some wheezing" toID="E27" toText="responded well" type="OVERLAP" />
+<TLINK id="TL26" fromID="E9" fromText="Albuterol nebulizers" toID="E27" toText="responded well" type="BEFORE_OVERLAP" />
+<TLINK id="TL27" fromID="E27" fromText="responded well" toID="E28" toText="well" type="OVERLAP" />
+<TLINK id="TL28" fromID="E10" fromText="her temperature" toID="E16" toText="resolution" type="ENDED_BY" />
+<TLINK id="TL29" fromID="E28" fromText="well" toID="T5" toText="4/1/97 at 9:20 P.M." type="ENDED_BY" />
+<TLINK id="TL3" fromID="E17" fromText="DISCHARGE" toID="T1" toText="04/01/97" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="T5" fromText="4/1/97 at 9:20 P.M." toID="E29" toText="noted" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E30" fromText="certified dead" toID="E29" toText="noted" type="OVERLAP" />
+<TLINK id="TL32" fromID="E30" fromText="certified dead" toID="T6" toText="9:20 P.M." type="OVERLAP" />
+<TLINK id="TL4" fromID="E0" fromText="ADMISSION" toID="E18" toText="admitted" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="T2" fromText="a two-day" toID="E19" toText="increased respiratory secretions" type="OVERLAP" />
+<TLINK id="TL6" fromID="T2" fromText="a two-day" toID="E18" toText="admitted" type="ENDED_BY" />
+<TLINK id="TL7" fromID="T3" fromText="a 24-hour" toID="E20" toText="elevated fever" type="OVERLAP" />
+<TLINK id="TL8" fromID="T3" fromText="a 24-hour" toID="E18" toText="admitted" type="ENDED_BY" />
+<TLINK id="TL9" fromID="E21" fromText="Augmentin" toID="E22" toText="the patient &apos;s delirium" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime0" fromID="E18" fromText="admitted" toID="T0" toText="03/30/97" type="OVERLAP" />
+<TLINK id="Sectime1" fromID="E19" fromText="increased respiratory secretions" toID="T0" toText="03/30/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime2" fromID="E20" fromText="elevated fever" toID="T0" toText="03/30/97" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E21" fromText="Augmentin" toID="T0" toText="03/30/97" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime4" fromID="E22" fromText="the patient &apos;s delirium" toID="T0" toText="03/30/97" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E23" fromText="worsened" toID="T0" toText="03/30/97" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E24" fromText="admission" toID="T0" toText="03/30/97" type="OVERLAP" />
+<TLINK id="Sectime7" fromID="E1" fromText="her temperature" toID="T0" toText="03/30/97" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E13" fromText="refusing" toID="T0" toText="03/30/97" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E25" fromText="take p.o.&apos;s" toID="T0" toText="03/30/97" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E14" fromText="admitted" toID="T1" toText="04/01/97" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E2" fromText="treatment" toID="T1" toText="04/01/97" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E3" fromText="aspiration pneumonia" toID="T1" toText="04/01/97" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E4" fromText="rehydration" toID="T1" toText="04/01/97" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E5" fromText="Clindamycin" toID="T1" toText="04/01/97" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E6" fromText="Ofloxacin" toID="T1" toText="04/01/97" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E7" fromText="the aspiration pneumonia" toID="T1" toText="04/01/97" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E8" fromText="positive urine culture" toID="T1" toText="04/01/97" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E15" fromText="came back" toID="T1" toText="04/01/97" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E26" fromText="some wheezing" toID="T1" toText="04/01/97" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E27" fromText="responded well" toID="T1" toText="04/01/97" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E9" fromText="Albuterol nebulizers" toID="T1" toText="04/01/97" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E28" fromText="well" toID="T1" toText="04/01/97" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E16" fromText="resolution" toID="T1" toText="04/01/97" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E10" fromText="her temperature" toID="T1" toText="04/01/97" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E29" fromText="noted" toID="T1" toText="04/01/97" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E11" fromText="unresponsive" toID="T1" toText="04/01/97" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E12" fromText="fixed dilated pupils" toID="T1" toText="04/01/97" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E30" fromText="certified dead" toID="T1" toText="04/01/97" type="BEFORE" />
+<SECTIME id="S0" start="18" end="26" text="03/30/97" type="ADMISSION" dvalue="1997-03-30" />
+<SECTIME id="S1" start="44" end="52" text="04/01/97" type="DISCHARGE" dvalue="1997-04-01" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

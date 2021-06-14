@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+4/6/95
+DISCHARGE DATE :
+4/16/95
+HISTORY OF PRESENT ILLNESS :
+The patient is a seventy two year old man who a number of years ago underwent coronary bypass surgery at another institution .
+This took place in 1983 .
+In 1992 he underwent redo surgery and aortic valve replacement .
+In April 1994 he presented with an acute inferior myocardial infarction and was given Streptokinase .
+He had recurrent pain and went to the Catheter Laboratory where a proximal right coronary artery lesion was angioplastied .
+A relook several days later led to a repeat percutaneous transluminal coronary angioplasty .
+He has has stable , mild angina , subsequently , mostly in the setting of stress .
+Slightly increased in recent months .
+On the day of admission , he was involved in a minor motor vehicle accident , and there was some apparent controversy with the driver of the other vehicle , during the course of which he developed substernal chest pain radiating to the left arm and shoulder .
+This waxed and waned for thirty to sixty minutes , and he took a number of nitroglycerins .
+After returning home after conferring with his wife , and the pain lasted another half hour , he came to the emergency room .
+His electrocardiogram showed increased T wave inversions in V3 and V4 and 1 mm .
+ST segment depression in V3 through V6 .
+His examination was largely benign after he was made pain free .
+The pulse was 75 , blood pressure 120/80 , respirations 18 , and he was afebrile .
+The jugular veins were not distended , the carotid volume was diminished .
+The chest was clear and the cardiac rhythm was regular .
+There were normal prothetic valves .
+There was a grade II-II apical and systolic murmur .
+The abdomen was negative and there was no edema of the feet .
+The electrocardiogram demonstrated normal sinus rhythm with poor R wave progression , left atrial enlargement and T wave inversion in leads V 4 , 5 , and
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="997" end="1017" text="This waxed and waned" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="1072" end="1086" text="nitroglycerins" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1147" end="1155" text="the pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1194" end="1212" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E9" start="1215" end="1236" text="His electrocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E22" start="1237" end="1243" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E37" start="1244" end="1277" text="increased T wave inversions in V3" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1296" end="1323" text="ST segment depression in V3" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="1337" end="1352" text="His examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="1357" end="1371" text="largely benign" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="1390" end="1394" text="pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E12" start="1402" end="1411" text="The pulse" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E13" start="1421" end="1435" text="blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="1445" end="1457" text="respirations" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="1474" end="1482" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="1512" end="1521" text="distended" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E17" start="1524" end="1542" text="the carotid volume" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="1547" end="1557" text="diminished" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="157" end="180" text="coronary bypass surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1628" end="1651" text="normal prothetic valves" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="1664" end="1704" text="a grade II-II apical and systolic murmur" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="1749" end="1766" text="edema of the feet" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E18" start="1769" end="1790" text="The electrocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="1791" end="1803" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E47" start="1804" end="1823" text="normal sinus rhythm" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="1829" end="1852" text="poor R wave progression" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="184" end="203" text="another institution" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E45" start="1855" end="1878" text="left atrial enlargement" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="1883" end="1916" text="T wave inversion in leads V 4 , 5" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="25" end="34" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="253" end="265" text="redo surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="270" end="294" text="aortic valve replacement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="314" end="323" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E4" start="329" end="368" text="an acute inferior myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="383" end="396" text="Streptokinase" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="406" end="420" text="recurrent pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="433" end="456" text="the Catheter Laboratory" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E7" start="463" end="502" text="a proximal right coronary artery lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="507" end="520" text="angioplastied" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="523" end="531" text="A relook" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E8" start="558" end="613" text="a repeat percutaneous transluminal coronary angioplasty" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="627" end="647" text="stable , mild angina" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="690" end="696" text="stress" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="751" end="760" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="782" end="812" text="a minor motor vehicle accident" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="829" end="891" text="some apparent controversy with the driver of the other vehicle" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="934" end="955" text="substernal chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T6" start="1022" end="1045" text="thirty to sixty minutes" type="DURATION" val="PT45M" mod="APPROX" />
+<TIMEX3 id="T10" start="1163" end="1180" text="another half hour" type="DURATION" val="PT30M" mod="NA" />
+<TIMEX3 id="T0" start="125" end="142" text="a number of years" type="DURATION" val="P3Y" mod="APPROX" />
+<TIMEX3 id="T1" start="18" end="24" text="4/6/95" type="DATE" val="1995-04-06" mod="NA" />
+<TIMEX3 id="T3" start="225" end="229" text="1983" type="DATE" val="1983" mod="NA" />
+<TIMEX3 id="T4" start="235" end="239" text="1992" type="DATE" val="1992" mod="NA" />
+<TIMEX3 id="T5" start="300" end="310" text="April 1994" type="DATE" val="1994-04" mod="NA" />
+<TIMEX3 id="T2" start="42" end="49" text="4/16/95" type="DATE" val="1995-04-16" mod="NA" />
+<TIMEX3 id="T7" start="532" end="544" text="several days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T8" start="721" end="734" text="recent months" type="DURATION" val="P3M" mod="APPROX" />
+<TIMEX3 id="T9" start="740" end="747" text="the day" type="DATE" val="1995-04-06" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T1" toText="4/6/95" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="T2" fromText="4/16/95" toID="E24" toText="DISCHARGE" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E6" fromText="recurrent pain" toID="E5" toText="Streptokinase" type="AFTER" />
+<TLINK id="TL11" fromID="E26" fromText="the Catheter Laboratory" toID="E6" toText="recurrent pain" type="AFTER" />
+<TLINK id="TL12" fromID="E7" fromText="a proximal right coronary artery lesion" toID="E26" toText="the Catheter Laboratory" type="OVERLAP" />
+<TLINK id="TL13" fromID="E7" fromText="a proximal right coronary artery lesion" toID="E20" toText="angioplastied" type="OVERLAP" />
+<TLINK id="TL14" fromID="E27" fromText="A relook" toID="T7" toText="several days" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E27" fromText="A relook" toID="E20" toText="angioplastied" type="AFTER" />
+<TLINK id="TL16" fromID="E8" fromText="a repeat percutaneous transluminal coronary angioplasty" toID="E27" toText="A relook" type="AFTER" />
+<TLINK id="TL17" fromID="E28" fromText="stable , mild angina" toID="E8" toText="a repeat percutaneous transluminal coronary angioplasty" type="AFTER" />
+<TLINK id="TL18" fromID="E28" fromText="stable , mild angina" toID="E29" toText="stress" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E28" fromText="stable , mild angina" toID="T8" toText="recent months" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="T0" fromText="a number of years" toID="E1" toText="coronary bypass surgery" type="OVERLAP" />
+<TLINK id="TL20" fromID="E21" fromText="admission" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL21" fromID="T9" fromText="the day" toID="E21" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E30" fromText="a minor motor vehicle accident" toID="E21" toText="admission" type="BEFORE" />
+<TLINK id="TL23" fromID="E31" fromText="some apparent controversy with the driver of the other vehicle" toID="E30" toText="a minor motor vehicle accident" type="OVERLAP" />
+<TLINK id="TL24" fromID="E32" fromText="substernal chest pain" toID="E31" toText="some apparent controversy with the driver of the other vehicle" type="AFTER" />
+<TLINK id="TL25" fromID="E32" fromText="substernal chest pain" toID="E33" toText="This waxed and waned" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="E33" fromText="This waxed and waned" toID="T6" toText="thirty to sixty minutes" type="SIMULTANEOUS" />
+<TLINK id="TL27" fromID="E34" fromText="nitroglycerins" toID="T6" toText="thirty to sixty minutes" type="DURING" />
+<TLINK id="TL28" fromID="E32" fromText="substernal chest pain" toID="E35" toText="the pain" type="SIMULTANEOUS" />
+<TLINK id="TL29" fromID="T10" fromText="another half hour" toID="T6" toText="thirty to sixty minutes" type="AFTER" />
+<TLINK id="TL3" fromID="E1" fromText="coronary bypass surgery" toID="E19" toText="another institution" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="T10" fromText="another half hour" toID="E36" toText="the emergency room" type="ENDED_BY" />
+<TLINK id="TL31" fromID="E36" fromText="the emergency room" toID="E9" toText="His electrocardiogram" type="OVERLAP" />
+<TLINK id="TL32" fromID="E22" fromText="showed" toID="E9" toText="His electrocardiogram" type="SIMULTANEOUS" />
+<TLINK id="TL33" fromID="E37" fromText="increased T wave inversions in V3" toID="E22" toText="showed" type="OVERLAP" />
+<TLINK id="TL34" fromID="E37" fromText="increased T wave inversions in V3" toID="E38" toText="ST segment depression in V3" type="OVERLAP" />
+<TLINK id="TL35" fromID="E9" fromText="His electrocardiogram" toID="E10" toText="His examination" type="OVERLAP" />
+<TLINK id="TL36" fromID="E10" fromText="His examination" toID="E39" toText="largely benign" type="OVERLAP" />
+<TLINK id="TL37" fromID="E11" fromText="pain" toID="E10" toText="His examination" type="AFTER" />
+<TLINK id="TL38" fromID="E12" fromText="The pulse" toID="E10" toText="His examination" type="OVERLAP" />
+<TLINK id="TL39" fromID="E12" fromText="The pulse" toID="E13" toText="blood pressure" type="OVERLAP" />
+<TLINK id="TL4" fromID="E1" fromText="coronary bypass surgery" toID="T3" toText="1983" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E13" fromText="blood pressure" toID="E14" toText="respirations" type="OVERLAP" />
+<TLINK id="TL41" fromID="E14" fromText="respirations" toID="E15" toText="afebrile" type="OVERLAP" />
+<TLINK id="TL42" fromID="E10" fromText="His examination" toID="E16" toText="distended" type="OVERLAP" />
+<TLINK id="TL43" fromID="E16" fromText="distended" toID="E17" toText="the carotid volume" type="OVERLAP" />
+<TLINK id="TL44" fromID="E17" fromText="the carotid volume" toID="E40" toText="diminished" type="OVERLAP" />
+<TLINK id="TL45" fromID="E10" fromText="His examination" toID="E41" toText="normal prothetic valves" type="OVERLAP" />
+<TLINK id="TL46" fromID="E41" fromText="normal prothetic valves" toID="E42" toText="a grade II-II apical and systolic murmur" type="OVERLAP" />
+<TLINK id="TL47" fromID="E42" fromText="a grade II-II apical and systolic murmur" toID="E43" toText="edema of the feet" type="OVERLAP" />
+<TLINK id="TL48" fromID="E18" fromText="The electrocardiogram" toID="E23" toText="demonstrated" type="SIMULTANEOUS" />
+<TLINK id="TL49" fromID="E47" fromText="normal sinus rhythm" toID="E23" toText="demonstrated" type="BEFORE_OVERLAP" />
+<TLINK id="TL5" fromID="T4" fromText="1992" toID="E2" toText="redo surgery" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="E47" fromText="normal sinus rhythm" toID="E44" toText="poor R wave progression" type="OVERLAP" />
+<TLINK id="TL51" fromID="E44" fromText="poor R wave progression" toID="E45" toText="left atrial enlargement" type="OVERLAP" />
+<TLINK id="TL52" fromID="E45" fromText="left atrial enlargement" toID="E46" toText="T wave inversion in leads V 4 , 5" type="OVERLAP" />
+<TLINK id="TL6" fromID="E3" fromText="aortic valve replacement" toID="E2" toText="redo surgery" type="SIMULTANEOUS" />
+<TLINK id="TL7" fromID="E25" fromText="presented" toID="T5" toText="April 1994" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E4" fromText="an acute inferior myocardial infarction" toID="E25" toText="presented" type="BEFORE_OVERLAP" />
+<TLINK id="TL9" fromID="E5" fromText="Streptokinase" toID="E4" toText="an acute inferior myocardial infarction" type="AFTER" />
+
+
+<TLINK id="Sectime0" fromID="E33" fromText="This waxed and waned" toID="T1" toText="4/6/95" type="OVERLAP" />
+<TLINK id="Sectime1" fromID="E34" fromText="nitroglycerins" toID="T1" toText="4/6/95" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E35" fromText="the pain" toID="T1" toText="4/6/95" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime3" fromID="E36" fromText="the emergency room" toID="T1" toText="4/6/95" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E9" fromText="His electrocardiogram" toID="T1" toText="4/6/95" type="OVERLAP" />
+<TLINK id="Sectime5" fromID="E22" fromText="showed" toID="T1" toText="4/6/95" type="OVERLAP" />
+<TLINK id="Sectime6" fromID="E37" fromText="increased T wave inversions in V3" toID="T1" toText="4/6/95" type="OVERLAP" />
+<TLINK id="Sectime7" fromID="E38" fromText="ST segment depression in V3" toID="T1" toText="4/6/95" type="OVERLAP" />
+<TLINK id="Sectime8" fromID="E10" fromText="His examination" toID="T1" toText="4/6/95" type="OVERLAP" />
+<TLINK id="Sectime9" fromID="E39" fromText="largely benign" toID="T1" toText="4/6/95" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E11" fromText="pain" toID="T1" toText="4/6/95" type="OVERLAP" />
+<TLINK id="Sectime11" fromID="E12" fromText="The pulse" toID="T1" toText="4/6/95" type="OVERLAP" />
+<TLINK id="Sectime12" fromID="E13" fromText="blood pressure" toID="T1" toText="4/6/95" type="OVERLAP" />
+<TLINK id="Sectime13" fromID="E14" fromText="respirations" toID="T1" toText="4/6/95" type="OVERLAP" />
+<TLINK id="Sectime14" fromID="E15" fromText="afebrile" toID="T1" toText="4/6/95" type="OVERLAP" />
+<TLINK id="Sectime15" fromID="E16" fromText="distended" toID="T1" toText="4/6/95" type="OVERLAP" />
+<TLINK id="Sectime16" fromID="E17" fromText="the carotid volume" toID="T1" toText="4/6/95" type="OVERLAP" />
+<TLINK id="Sectime17" fromID="E40" fromText="diminished" toID="T1" toText="4/6/95" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime18" fromID="E1" fromText="coronary bypass surgery" toID="T1" toText="4/6/95" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E41" fromText="normal prothetic valves" toID="T1" toText="4/6/95" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime20" fromID="E42" fromText="a grade II-II apical and systolic murmur" toID="T1" toText="4/6/95" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime21" fromID="E43" fromText="edema of the feet" toID="T1" toText="4/6/95" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime22" fromID="E18" fromText="The electrocardiogram" toID="T1" toText="4/6/95" type="OVERLAP" />
+<TLINK id="Sectime23" fromID="E23" fromText="demonstrated" toID="T1" toText="4/6/95" type="OVERLAP" />
+<TLINK id="Sectime24" fromID="E47" fromText="normal sinus rhythm" toID="T1" toText="4/6/95" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E44" fromText="poor R wave progression" toID="T1" toText="4/6/95" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime26" fromID="E19" fromText="another institution" toID="T1" toText="4/6/95" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E45" fromText="left atrial enlargement" toID="T1" toText="4/6/95" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime28" fromID="E46" fromText="T wave inversion in leads V 4 , 5" toID="T1" toText="4/6/95" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime29" fromID="E2" fromText="redo surgery" toID="T1" toText="4/6/95" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E3" fromText="aortic valve replacement" toID="T1" toText="4/6/95" type="BEFORE" />
+<TLINK id="Sectime31" fromID="E25" fromText="presented" toID="T1" toText="4/6/95" type="BEFORE" />
+<TLINK id="Sectime32" fromID="E4" fromText="an acute inferior myocardial infarction" toID="T1" toText="4/6/95" type="BEFORE" />
+<TLINK id="Sectime33" fromID="E5" fromText="Streptokinase" toID="T1" toText="4/6/95" type="BEFORE" />
+<TLINK id="Sectime34" fromID="E6" fromText="recurrent pain" toID="T1" toText="4/6/95" type="BEFORE" />
+<TLINK id="Sectime35" fromID="E26" fromText="the Catheter Laboratory" toID="T1" toText="4/6/95" type="BEFORE" />
+<TLINK id="Sectime36" fromID="E7" fromText="a proximal right coronary artery lesion" toID="T1" toText="4/6/95" type="BEFORE" />
+<TLINK id="Sectime37" fromID="E20" fromText="angioplastied" toID="T1" toText="4/6/95" type="BEFORE" />
+<TLINK id="Sectime38" fromID="E27" fromText="A relook" toID="T1" toText="4/6/95" type="BEFORE" />
+<TLINK id="Sectime39" fromID="E8" fromText="a repeat percutaneous transluminal coronary angioplasty" toID="T1" toText="4/6/95" type="BEFORE" />
+<TLINK id="Sectime40" fromID="E28" fromText="stable , mild angina" toID="T1" toText="4/6/95" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime41" fromID="E29" fromText="stress" toID="T1" toText="4/6/95" type="BEFORE" />
+<TLINK id="Sectime42" fromID="E21" fromText="admission" toID="T1" toText="4/6/95" type="OVERLAP" />
+<TLINK id="Sectime43" fromID="E30" fromText="a minor motor vehicle accident" toID="T1" toText="4/6/95" type="BEFORE" />
+<TLINK id="Sectime44" fromID="E31" fromText="some apparent controversy with the driver of the other vehicle" toID="T1" toText="4/6/95" type="BEFORE" />
+<TLINK id="Sectime45" fromID="E32" fromText="substernal chest pain" toID="T1" toText="4/6/95" type="BEFORE" />
+
+
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

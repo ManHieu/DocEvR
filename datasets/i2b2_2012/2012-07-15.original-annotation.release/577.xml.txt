@@ -1,0 +1,50 @@
+Admission Date :
+2009-06-23
+Discharge Date :
+2009-07-12
+Service :
+CMI ; then to Medcine ; then transferred to CCU
+HISTORY OF PRESENT ILLNESS :
+The patient is an 83-year-old male with a history of diabetes mellitus , steroid-treated polymyalgia rheumatica , hypertension , benign prostatic hypertrophy , and high cholesterol who presented for a lower extremity peripheral angiography for bilateral foot ulcers , and he was found to an evaluated blood urea nitrogen , and creatinine , and potassium .
+The patient notes he developed worsening foot pain and ulcers four months ago .
+Due to his worsening blood glucose , he was started on insulin .
+His foot ulcers continued to develop , and the patient complained of pain in his feet ; primarily at night .
+The patient was referred to for Vascular consultation because of the ulcerations and pain and scheduled for a lower extremity angiography on the day of admission , but due to his renal failure the procedure was cancelled .
+The patient showed peaked T waves on electrocardiogram , and he was transferred to Medicine .
+The patient denied any oliguria , hematuria , dysuria , foamy urine , flank pain , abdominal pain , or urinary hesitancy .
+He has complained of fatigue , anorexia , and a 10-pound weight loss in the last four months .
+He gets short of breath with one flight of stairs .
+He denies any fevers , chills , recent infections , chest pain , orthopnea , nausea , vomiting , diarrhea , hematemesis , melena , or hematochezia .
+The patient also notes he has had hoarseness for the last two to three weeks .
+HOSPITAL COURSE :
+The patient is an 83 - year-old male with a history of diabetes , steroid-treated polymyalgia rheumatica , hypertension , benign prostatic hypertrophy , and high cholesterol without presented to the hospital for lower extremity angiograph ; however , that was deferred due to new onset renal failure .
+1. RENAL FAILURE :
+The patient was initially thought to be prerenal , and his renal status improved after hydration and increased oral intake .
+He did have a magnetic resonance angiography of his kidneys which showed mild right-sided renal artery stenosis .
+His renal function fluctuated throughout his hospital stay , and when he was in the Medical Intensive Care Unit he did have decreased urine output in the setting of cardiogenic shock .
+2. CARDIOVASCULAR :
+The patient with severe peripheral vascular disease .
+During his hospital stay , he developed some nonsustained ventricular tachycardia .
+He also became hypotensive on 07-02 in the setting of infection .
+The patient had a central line placed and went into sustained ventricular tachycardia that was treated with lidocaine .
+After being treated with lidocaine , the patient became apneic requiring intubation and transfer to the Coronary Care Unit .
+His nonsustained ventricular tachycardia was treated with a lidocaine drip .
+It was found that he had elevated troponins and likely an ischemic event on the 07-02 .
+A repeat echocardiogram showed a decreased ejection fraction from prior .
+He had a cardiac catheterization which revealed 3-vessel disease .
+Cardiothoracic Surgery was consulted , and due to the patient 's acute illness , they wanted to re-evaluate after the patient was extubated .
+The patient continued to have intermittent episodes of ventricular tachycardia .
+He was continued on lidocaine and eventually changed over to amiodarone .
+He was noted to be cardiogenic shock requiring pressors .
+Of note , he likely suffered a second ischemic event during his Coronary Care Unit stay .
+The patient did have a Swan-Ganz catheter in place and had a low cardiac output .
+The patient 's family eventually decided to withdraw care , and the patient was extubated and passed away on 2009-07-12 .
+2. INFECTIOUS DISEASE :
+The patient was initially treated with levofloxacin for a left lower lobe infiltrate and a urinary tract infection .
+He then developed positive blood cultures with Staphylococcus aureus sensitive to levofloxacin , and that was continued .
+When the patient became hypotensive and required intubation and pressors , his antibiotics were broadened , and he was put on stress-dose steroids .
+He was found to have bilateral Staphylococcus pneumonia .
+3. PULMONARY :
+The patient required intubation in the setting of hypotension and ventricular tachycardia .
+He was actually extubated on 07-09 , but then reintubated one hour later due to hypoxia .
+He was also found to have a bilateral Staphylococcus pneumonia .

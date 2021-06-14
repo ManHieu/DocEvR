@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+08/15/1998
+DISCHARGE DATE :
+08/22/1998
+DISCHARGE DATE :
+08/22/1998
+HISTORY OF PRESENT ILLNESS :
+Breunlinke is a 70-year-old patient of Dr. Brendniungand Asilbekote in California .
+She is referred for progressive angina .
+She had rheumatoid fever as a child and a heart murmur noted but no further testing .
+She has used antibiotic prophylaxis since 1980 .
+In 1980 she had quadruple coronary artery bypass graft surgery by Dr. Elks at Feargunwake Otacaa Community Hospital and did well until 1988 when she had exertional angina and a positive stress test and found that three or four grafts were occluded .
+In October , 1989 , Dr. No re-did her bypass operation .
+She had a left internal mammary artery graft to the left anterior descending , saphenous vein graft to the obtuse marginal 1 and a saphenous vein graft to the obtuse marginal 2 .
+In 1993 she had a DDD pacemaker for complete heart block .
+She had exertional angina at that time .
+In November , 1997 she had a small myocardial infarction as was transferred to Ona Hospital where a cardiac catheterization showed a tight left internal mammary artery to left anterior descending stenosis , high grade saphenous vein graft to obtuse marginal 1 stenosis and patent obtuse marginal 2 graft .
+She had normal left ventricular function with apical tip akinesis .
+Since that time she has continued to have exertional left chest burning , radiating to the left neck and arm , relieved by nitroglycerin .
+She was turned down for re-do surgery at that time and did not have a percutaneous transluminal coronary angioplasty .
+Because these symptoms have been increasing , particularly at cardiac rehabilitation , she was referred here .
+In May , 1998 she had an exercise tolerance test in which her heart rate went to 112 and her blood pressure fell to 95 systolic .
+She had diffuse ischemic ST segment changes and increased lung uptake and a reversible anterior and lateral defect .
+She has had no syncope .
+Her cardiac risk factors are hypertension and elevated cholesterol .
+She has a very strong family history of coronary artery disease with a mother , sister and brother dying of myocardial infarction .
+She is a remote cigarette smoker .
+She also has a history of lactose intolerance , peptic ulcer disease , with a remote gastrointestinal bleed and multiple ectopic pregnancies and mid term miscarriages .
+She has had a total abdominal hysterectomy .
+SOCIAL HISTORY :
+She is a widow for 20 years and retired 18 years from Palmci
+She lives alone .
+Her son , Nertland is nearby and he works at the Em Nysonken Medical Center on Verville .
+They live in Ohio .
+HOSPITAL COURSE AND TREATMENT :
+The patient was admitted to the Cardiac Catheterization Laboratory .
+There , her pulmonary wedge pressure was 12 and her right atrial pressure was 4 and pulmonary artery pressure 44/17 .
+Her left ventricular contraction showed akinesis of the anterior wall with dyskinesis of the apex .
+She had preserved inferior contraction and basal contraction .
+Her native right and left anterior descending vessels were occluded as was an obtuse marginal branch .
+The saphenous vein to the high diagonal or high obtuse marginal was occluded .
+The left internal mammary artery to the left anterior descending was also occluded .
+The saphenous vein graft to the second obtuse marginal was open with no significant stenosis , but there was an outflow lesion in the obtuse marginal 2 as well as severe distal lesion as the obtuse marginal 2 fed the posterior descending artery .
+This was considered her culprit lesion .
+This was considered too high risk for angioplasty because of the severe disease in the graft .
+In addition , it was noted that she had saphenous vein harvested from both thighs .
+Her left internal mammary artery was also unused .
+It was also noted that she had failure to sense with the atrial lead .
+She would not sense the atrial contraction and the fire and this occasionally led to competition of firing .
+This was intermittent .
+The P wave amplitude was .6 and this could not be totally sensed .
+The patient was admitted for management of her coronary artery disease and evaluation of her pacemaker .
+It was noted that she became very symptomatic when she was not on a beta blocker but that on a beta blocker she had significant pacemaker failure .
+Her pacemaker was set to a VVI mode which sensed appropriately .
+She was in sinus rhythm with most of the time .
+When her pacemaker was in a sinus rhythm without a beta blocker , she had significant angina .
+Carotid non-invasive testing was unremarkable .
+The situation was reviewed with Dr. Niste Graft .
+He felt the patient was not a coronary artery bypass graft candidate because of the lack of conduit and because of the presence of a large anterior myocardial infarction .
+For this reason , it was decided to maximize her beta blockers and nitrates .
+The situation was reviewed with Dr. No of the Pacemaker Service .
+On August 20 , under local anesthesia the right pectoral region was explored and the leads disconnected and the pulse generator changed to a CPI unit in which the sensitivity could be adjusted to .15 mm. , which permitted appropriate atrial sensing .
+There was nothing wrong with the prior generator and nothing wrong with the leads .
+It just needed a unit that could have more sensitivity in the atrial mode .
+She tolerated this well .
+Her medications were resumed .
+She ambulated without difficulty and was discharged to home to be followed medically for her coronary artery disease following two failed bypass graft procedure by Dr. Brendniungand Asilbekote in Bi Masase , KS .
+ACHASTHA N. GRAFT , M.D.
+TR :
+hfr
+DD :
+08/22/1998
+TD :
+08/27/1998 3:56 P
+cc :
+ACHASTHA NICEMAEN GRAFT , M.D. GITTETUMN DARNNAMAN NO , M.D.
+]]></TEXT>
+<TAGS>
+<EVENT id="E75" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E84" start="1024" end="1035" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E85" start="1039" end="1051" text="Ona Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E17" start="1058" end="1083" text="a cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E86" start="1084" end="1090" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E18" start="1091" end="1127" text="a tight left internal mammary artery" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1131" end="1164" text="left anterior descending stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E87" start="1167" end="1198" text="high grade saphenous vein graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="1202" end="1228" text="obtuse marginal 1 stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="1233" end="1263" text="patent obtuse marginal 2 graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E89" start="1274" end="1306" text="normal left ventricular function" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="1312" end="1331" text="apical tip akinesis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="1376" end="1405" text="exertional left chest burning" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E90" start="1408" end="1442" text="radiating to the left neck and arm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="1457" end="1470" text="nitroglycerin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="1497" end="1510" text="re-do surgery" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E25" start="1541" end="1589" text="a percutaneous transluminal coronary angioplasty" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E91" start="1600" end="1614" text="these symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E92" start="1625" end="1635" text="increasing" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E93" start="1654" end="1676" text="cardiac rehabilitation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E94" start="1687" end="1695" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="1725" end="1751" text="an exercise tolerance test" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="1761" end="1775" text="her heart rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="1792" end="1810" text="her blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="1841" end="1876" text="diffuse ischemic ST segment changes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1881" end="1902" text="increased lung uptake" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1907" end="1947" text="a reversible anterior and lateral defect" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1965" end="1972" text="syncope" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E95" start="1975" end="1999" text="Her cardiac risk factors" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E96" start="2004" end="2016" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E97" start="2021" end="2041" text="elevated cholesterol" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="205" end="213" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E98" start="2084" end="2107" text="coronary artery disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E99" start="2152" end="2173" text="myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E81" start="218" end="236" text="progressive angina" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E100" start="2192" end="2208" text="cigarette smoker" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E101" start="2237" end="2256" text="lactose intolerance" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E102" start="2259" end="2279" text="peptic ulcer disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="2287" end="2318" text="a remote gastrointestinal bleed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="2323" end="2351" text="multiple ectopic pregnancies" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="2356" end="2377" text="mid term miscarriages" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E103" start="2392" end="2422" text="a total abdominal hysterectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E104" start="2449" end="2456" text="a widow" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="247" end="263" text="rheumatoid fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E105" start="2474" end="2481" text="retired" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E77" start="2679" end="2687" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E106" start="2691" end="2729" text="the Cardiac Catheterization Laboratory" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E36" start="2740" end="2768" text="her pulmonary wedge pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="2780" end="2805" text="her right atrial pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="279" end="293" text="a heart murmur" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="2816" end="2841" text="pulmonary artery pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="2850" end="2882" text="Her left ventricular contraction" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E107" start="2883" end="2889" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E40" start="2890" end="2919" text="akinesis of the anterior wall" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E76" start="29" end="38" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="2925" end="2947" text="dyskinesis of the apex" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E108" start="2958" end="3010" text="preserved inferior contraction and basal contraction" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="307" end="322" text="further testing" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E42" start="3072" end="3080" text="occluded" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="3116" end="3179" text="The saphenous vein to the high diagonal or high obtuse marginal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="3184" end="3192" text="occluded" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E110" start="3195" end="3259" text="The left internal mammary artery to the left anterior descending" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="3269" end="3277" text="occluded" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="3280" end="3334" text="The saphenous vein graft to the second obtuse marginal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E111" start="3352" end="3372" text="significant stenosis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E82" start="338" end="360" text="antibiotic prophylaxis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="3389" end="3431" text="an outflow lesion in the obtuse marginal 2" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="3443" end="3463" text="severe distal lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="3547" end="3565" text="her culprit lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E112" start="3588" end="3601" text="too high risk" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E113" start="3606" end="3617" text="angioplasty" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E49" start="3629" end="3647" text="the severe disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="3651" end="3660" text="the graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E114" start="3703" end="3727" text="saphenous vein harvested" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E115" start="3829" end="3845" text="failure to sense" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E116" start="3879" end="3911" text="not sense the atrial contraction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="390" end="436" text="quadruple coronary artery bypass graft surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="3954" end="3975" text="competition of firing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="4002" end="4022" text="The P wave amplitude" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E117" start="4085" end="4093" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="4098" end="4108" text="management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="4112" end="4139" text="her coronary artery disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="4144" end="4154" text="evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E56" start="4158" end="4171" text="her pacemaker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="4203" end="4219" text="very symptomatic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E118" start="4240" end="4254" text="a beta blocker" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E119" start="4267" end="4281" text="a beta blocker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="4290" end="4319" text="significant pacemaker failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="4322" end="4335" text="Her pacemaker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E120" start="4340" end="4357" text="set to a VVI mode" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E121" start="4364" end="4384" text="sensed appropriately" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E122" start="4398" end="4410" text="sinus rhythm" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="4440" end="4453" text="her pacemaker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E123" start="4461" end="4475" text="a sinus rhythm" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="4484" end="4498" text="a beta blocker" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E62" start="4509" end="4527" text="significant angina" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="452" end="489" text="Feargunwake Otacaa Community Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E63" start="4530" end="4558" text="Carotid non-invasive testing" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E124" start="4596" end="4604" text="reviewed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E125" start="4656" end="4686" text="a coronary artery bypass graft" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E64" start="4708" end="4727" text="the lack of conduit" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="4759" end="4797" text="a large anterior myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="4845" end="4862" text="her beta blockers" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E67" start="4867" end="4875" text="nitrates" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E126" start="4896" end="4904" text="reviewed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E79" start="494" end="502" text="did well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="4965" end="4981" text="local anesthesia" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E127" start="5012" end="5020" text="explored" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E128" start="5025" end="5047" text="the leads disconnected" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="5052" end="5071" text="the pulse generator" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="5083" end="5093" text="a CPI unit" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E129" start="5166" end="5192" text="appropriate atrial sensing" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="5224" end="5243" text="the prior generator" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="527" end="544" text="exertional angina" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="5267" end="5276" text="the leads" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E130" start="5359" end="5378" text="tolerated this well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="5381" end="5396" text="Her medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E131" start="5416" end="5425" text="ambulated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E132" start="5434" end="5444" text="difficulty" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E78" start="5453" end="5463" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E133" start="5478" end="5496" text="followed medically" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="549" end="571" text="a positive stress test" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E134" start="5501" end="5528" text="her coronary artery disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="5539" end="5572" text="two failed bypass graft procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E0" start="57" end="66" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="587" end="607" text="three or four grafts" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="613" end="621" text="occluded" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="658" end="678" text="her bypass operation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="689" end="757" text="a left internal mammary artery graft to the left anterior descending" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="760" end="805" text="saphenous vein graft to the obtuse marginal 1" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="810" end="857" text="a saphenous vein graft to the obtuse marginal 2" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="876" end="891" text="a DDD pacemaker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="896" end="916" text="complete heart block" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="927" end="944" text="exertional angina" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="987" end="1016" text="a small myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T9" start="1706" end="1716" text="May , 1998" type="DATE" val="1998-05" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="08/15/1998" type="DATE" val="1998-08-15" mod="NA" />
+<TIMEX3 id="T10" start="2461" end="2469" text="20 years" type="DURATION" val="p20y" mod="NA" />
+<TIMEX3 id="T11" start="2482" end="2490" text="18 years" type="DURATION" val="p18y" mod="NA" />
+<TIMEX3 id="T4" start="367" end="371" text="1980" type="DATE" val="1980" mod="NA" />
+<TIMEX3 id="T5" start="377" end="381" text="1980" type="DATE" val="1980" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="08/22/1998" type="DATE" val="1998-08-22" mod="NA" />
+<TIMEX3 id="T12" start="4947" end="4956" text="August 20" type="DATE" val="1998-08-20" mod="NA" />
+<TIMEX3 id="T6" start="509" end="513" text="1988" type="DATE" val="1988" mod="NA" />
+<TIMEX3 id="T7" start="627" end="641" text="October , 1989" type="DATE" val="1989-10" mod="NA" />
+<TIMEX3 id="T3" start="74" end="84" text="08/22/1998" type="DATE" val="1998-08-22" mod="NA" />
+<TIMEX3 id="T8" start="863" end="867" text="1993" type="DATE" val="1993" mod="NA" />
+<TIMEX3 id="T0" start="963" end="978" text="November , 1997" type="DATE" val="1997-11" mod="NA" />
+<TLINK id="TL0" fromID="T1" fromText="08/15/1998" toID="E75" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL1" fromID="E59" fromText="Her pacemaker" toID="E60" toText="her pacemaker" type="OVERLAP" />
+<TLINK id="TL10" fromID="E5" fromText="exertional angina" toID="E6" toText="a positive stress test" type="BEFORE" />
+<TLINK id="TL100" fromID="E47" fromText="severe distal lesion" toID="E46" toText="an outflow lesion in the obtuse marginal 2" type="OVERLAP" />
+<TLINK id="TL101" fromID="E48" fromText="her culprit lesion" toID="E47" toText="severe distal lesion" type="OVERLAP" />
+<TLINK id="TL102" fromID="E112" fromText="too high risk" toID="E106" toText="the Cardiac Catheterization Laboratory" type="BEFORE" />
+<TLINK id="TL103" fromID="E113" fromText="angioplasty" toID="E106" toText="the Cardiac Catheterization Laboratory" type="OVERLAP" />
+<TLINK id="TL104" fromID="E49" fromText="the severe disease" toID="E106" toText="the Cardiac Catheterization Laboratory" type="BEFORE" />
+<TLINK id="TL105" fromID="E50" fromText="the graft" toID="E109" toText="The saphenous vein to the high diagonal or high obtuse marginal" type="OVERLAP" />
+<TLINK id="TL106" fromID="E114" fromText="saphenous vein harvested" toID="E11" toText="saphenous vein graft to the obtuse marginal 1" type="OVERLAP" />
+<TLINK id="TL107" fromID="E115" fromText="failure to sense" toID="E106" toText="the Cardiac Catheterization Laboratory" type="BEFORE" />
+<TLINK id="TL108" fromID="E116" fromText="not sense the atrial contraction" toID="E115" toText="failure to sense" type="OVERLAP" />
+<TLINK id="TL109" fromID="E51" fromText="competition of firing" toID="E116" toText="not sense the atrial contraction" type="OVERLAP" />
+<TLINK id="TL11" fromID="E7" fromText="three or four grafts" toID="E6" toText="a positive stress test" type="BEFORE" />
+<TLINK id="TL111" fromID="E52" fromText="The P wave amplitude" toID="E106" toText="the Cardiac Catheterization Laboratory" type="OVERLAP" />
+<TLINK id="TL112" fromID="E106" fromText="the Cardiac Catheterization Laboratory" toID="E117" toText="admitted" type="BEFORE" />
+<TLINK id="TL113" fromID="E53" fromText="management" toID="E117" toText="admitted" type="AFTER" />
+<TLINK id="TL114" fromID="E55" fromText="evaluation" toID="E53" toText="management" type="OVERLAP" />
+<TLINK id="TL115" fromID="E54" fromText="her coronary artery disease" toID="E75" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL116" fromID="E57" fromText="very symptomatic" toID="E118" toText="a beta blocker" type="" />
+<TLINK id="TL117" fromID="E118" fromText="a beta blocker" toID="E117" toText="admitted" type="AFTER" />
+<TLINK id="TL118" fromID="E58" fromText="significant pacemaker failure" toID="E119" toText="a beta blocker" type="OVERLAP" />
+<TLINK id="TL119" fromID="E119" fromText="a beta blocker" toID="E117" toText="admitted" type="AFTER" />
+<TLINK id="TL12" fromID="E11" fromText="saphenous vein graft to the obtuse marginal 1" toID="E12" toText="a saphenous vein graft to the obtuse marginal 2" type="OVERLAP" />
+<TLINK id="TL120" fromID="E120" fromText="set to a VVI mode" toID="E58" toText="significant pacemaker failure" type="AFTER" />
+<TLINK id="TL121" fromID="E121" fromText="sensed appropriately" toID="E120" toText="set to a VVI mode" type="AFTER" />
+<TLINK id="TL122" fromID="E122" fromText="sinus rhythm" toID="E117" toText="admitted" type="AFTER" />
+<TLINK id="TL123" fromID="E123" fromText="a sinus rhythm" toID="E122" toText="sinus rhythm" type="OVERLAP" />
+<TLINK id="TL124" fromID="E123" fromText="a sinus rhythm" toID="E61" toText="a beta blocker" type="OVERLAP" />
+<TLINK id="TL125" fromID="E62" fromText="significant angina" toID="E61" toText="a beta blocker" type="OVERLAP" />
+<TLINK id="TL126" fromID="E63" fromText="Carotid non-invasive testing" toID="E117" toText="admitted" type="AFTER" />
+<TLINK id="TL127" fromID="E124" fromText="reviewed" toID="E63" toText="Carotid non-invasive testing" type="AFTER" />
+<TLINK id="TL128" fromID="E125" fromText="a coronary artery bypass graft" toID="E124" toText="reviewed" type="AFTER" />
+<TLINK id="TL129" fromID="E64" fromText="the lack of conduit" toID="E125" toText="a coronary artery bypass graft" type="BEFORE" />
+<TLINK id="TL13" fromID="E18" fromText="a tight left internal mammary artery" toID="E17" toText="a cardiac catheterization" type="BEFORE" />
+<TLINK id="TL130" fromID="E65" fromText="a large anterior myocardial infarction" toID="E54" toText="her coronary artery disease" type="OVERLAP" />
+<TLINK id="TL131" fromID="E65" fromText="a large anterior myocardial infarction" toID="E125" toText="a coronary artery bypass graft" type="BEFORE" />
+<TLINK id="TL132" fromID="E66" fromText="her beta blockers" toID="E124" toText="reviewed" type="AFTER" />
+<TLINK id="TL133" fromID="E67" fromText="nitrates" toID="E66" toText="her beta blockers" type="OVERLAP" />
+<TLINK id="TL134" fromID="E126" fromText="reviewed" toID="E124" toText="reviewed" type="AFTER" />
+<TLINK id="TL135" fromID="E68" fromText="local anesthesia" toID="T12" toText="August 20" type="OVERLAP" />
+<TLINK id="TL136" fromID="E127" fromText="explored" toID="E68" toText="local anesthesia" type="OVERLAP" />
+<TLINK id="TL137" fromID="E128" fromText="the leads disconnected" toID="E127" toText="explored" type="OVERLAP" />
+<TLINK id="TL139" fromID="E69" fromText="the pulse generator" toID="E127" toText="explored" type="BEFORE" />
+<TLINK id="TL14" fromID="E77" fromText="admitted" toID="E75" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL140" fromID="E70" fromText="a CPI unit" toID="E127" toText="explored" type="AFTER" />
+<TLINK id="TL141" fromID="E129" fromText="appropriate atrial sensing" toID="E70" toText="a CPI unit" type="OVERLAP" />
+<TLINK id="TL142" fromID="E71" fromText="the prior generator" toID="E69" toText="the pulse generator" type="OVERLAP" />
+<TLINK id="TL144" fromID="E72" fromText="the leads" toID="E70" toText="a CPI unit" type="BEFORE" />
+<TLINK id="TL145" fromID="E130" fromText="tolerated this well" toID="E68" toText="local anesthesia" type="OVERLAP" />
+<TLINK id="TL146" fromID="E73" fromText="Her medications" toID="T12" toText="August 20" type="AFTER" />
+<TLINK id="TL147" fromID="E131" fromText="ambulated" toID="E78" toText="discharged" type="BEFORE" />
+<TLINK id="TL148" fromID="E132" fromText="difficulty" toID="E131" toText="ambulated" type="OVERLAP" />
+<TLINK id="TL149" fromID="E78" fromText="discharged" toID="E0" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL15" fromID="E76" fromText="DISCHARGE" toID="T2" toText="08/22/1998" type="OVERLAP" />
+<TLINK id="TL150" fromID="E133" fromText="followed medically" toID="E78" toText="discharged" type="AFTER" />
+<TLINK id="TL151" fromID="E134" fromText="her coronary artery disease" toID="E54" toText="her coronary artery disease" type="OVERLAP" />
+<TLINK id="TL152" fromID="E134" fromText="her coronary artery disease" toID="E78" toText="discharged" type="BEFORE" />
+<TLINK id="TL153" fromID="E74" fromText="two failed bypass graft procedure" toID="E75" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL16" fromID="E0" fromText="DISCHARGE" toID="T3" toText="08/22/1998" type="OVERLAP" />
+<TLINK id="TL17" fromID="E0" fromText="DISCHARGE" toID="E76" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL18" fromID="E81" fromText="progressive angina" toID="E80" toText="referred" type="BEFORE" />
+<TLINK id="TL19" fromID="E80" fromText="referred" toID="E75" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL2" fromID="E12" fromText="a saphenous vein graft to the obtuse marginal 2" toID="E45" toText="The saphenous vein graft to the second obtuse marginal" type="OVERLAP" />
+<TLINK id="TL20" fromID="E1" fromText="rheumatoid fever" toID="E81" toText="progressive angina" type="BEFORE" />
+<TLINK id="TL21" fromID="E2" fromText="a heart murmur" toID="E1" toText="rheumatoid fever" type="OVERLAP" />
+<TLINK id="TL22" fromID="E3" fromText="further testing" toID="E2" toText="a heart murmur" type="AFTER" />
+<TLINK id="TL23" fromID="E82" fromText="antibiotic prophylaxis" toID="T4" toText="1980" type="AFTER" />
+<TLINK id="TL24" fromID="E4" fromText="quadruple coronary artery bypass graft surgery" toID="T5" toText="1980" type="OVERLAP" />
+<TLINK id="TL25" fromID="E4" fromText="quadruple coronary artery bypass graft surgery" toID="E83" toText="Feargunwake Otacaa Community Hospital" type="OVERLAP" />
+<TLINK id="TL26" fromID="E79" fromText="did well" toID="E4" toText="quadruple coronary artery bypass graft surgery" type="AFTER" />
+<TLINK id="TL27" fromID="E79" fromText="did well" toID="T6" toText="1988" type="BEFORE" />
+<TLINK id="TL28" fromID="E5" fromText="exertional angina" toID="T6" toText="1988" type="AFTER" />
+<TLINK id="TL29" fromID="E7" fromText="three or four grafts" toID="E4" toText="quadruple coronary artery bypass graft surgery" type="AFTER" />
+<TLINK id="TL3" fromID="E13" fromText="a DDD pacemaker" toID="E56" toText="her pacemaker" type="OVERLAP" />
+<TLINK id="TL30" fromID="E8" fromText="occluded" toID="E5" toText="exertional angina" type="OVERLAP" />
+<TLINK id="TL31" fromID="E9" fromText="her bypass operation" toID="T7" toText="October , 1989" type="OVERLAP" />
+<TLINK id="TL32" fromID="E10" fromText="a left internal mammary artery graft to the left anterior descending" toID="E9" toText="her bypass operation" type="AFTER" />
+<TLINK id="TL34" fromID="E11" fromText="saphenous vein graft to the obtuse marginal 1" toID="E10" toText="a left internal mammary artery graft to the left anterior descending" type="OVERLAP" />
+<TLINK id="TL35" fromID="E14" fromText="complete heart block" toID="E13" toText="a DDD pacemaker" type="BEFORE" />
+<TLINK id="TL36" fromID="E13" fromText="a DDD pacemaker" toID="T8" toText="1993" type="AFTER" />
+<TLINK id="TL37" fromID="E16" fromText="a small myocardial infarction" toID="T0" toText="November , 1997" type="OVERLAP" />
+<TLINK id="TL38" fromID="E84" fromText="transferred" toID="E16" toText="a small myocardial infarction" type="AFTER" />
+<TLINK id="TL39" fromID="E85" fromText="Ona Hospital" toID="E84" toText="transferred" type="AFTER" />
+<TLINK id="TL4" fromID="E15" fromText="exertional angina" toID="E22" toText="exertional left chest burning" type="OVERLAP" />
+<TLINK id="TL40" fromID="E17" fromText="a cardiac catheterization" toID="E85" toText="Ona Hospital" type="OVERLAP" />
+<TLINK id="TL41" fromID="E86" fromText="showed" toID="E17" toText="a cardiac catheterization" type="OVERLAP" />
+<TLINK id="TL43" fromID="E19" fromText="left anterior descending stenosis" toID="E17" toText="a cardiac catheterization" type="BEFORE" />
+<TLINK id="TL44" fromID="E87" fromText="high grade saphenous vein graft" toID="E12" toText="a saphenous vein graft to the obtuse marginal 2" type="OVERLAP" />
+<TLINK id="TL45" fromID="E20" fromText="obtuse marginal 1 stenosis" toID="E17" toText="a cardiac catheterization" type="BEFORE" />
+<TLINK id="TL46" fromID="E88" fromText="patent obtuse marginal 2 graft" toID="E17" toText="a cardiac catheterization" type="BEFORE" />
+<TLINK id="TL47" fromID="E89" fromText="normal left ventricular function" toID="E17" toText="a cardiac catheterization" type="BEFORE" />
+<TLINK id="TL48" fromID="E21" fromText="apical tip akinesis" toID="E17" toText="a cardiac catheterization" type="BEFORE" />
+<TLINK id="TL49" fromID="E22" fromText="exertional left chest burning" toID="T0" toText="November , 1997" type="AFTER" />
+<TLINK id="TL5" fromID="E56" fromText="her pacemaker" toID="E59" toText="Her pacemaker" type="OVERLAP" />
+<TLINK id="TL50" fromID="E90" fromText="radiating to the left neck and arm" toID="E91" toText="these symptoms" type="OVERLAP" />
+<TLINK id="TL51" fromID="E90" fromText="radiating to the left neck and arm" toID="E22" toText="exertional left chest burning" type="OVERLAP" />
+<TLINK id="TL52" fromID="E23" fromText="nitroglycerin" toID="E90" toText="radiating to the left neck and arm" type="OVERLAP" />
+<TLINK id="TL53" fromID="E24" fromText="re-do surgery" toID="E85" toText="Ona Hospital" type="OVERLAP" />
+<TLINK id="TL54" fromID="E25" fromText="a percutaneous transluminal coronary angioplasty" toID="E24" toText="re-do surgery" type="OVERLAP" />
+<TLINK id="TL55" fromID="E92" fromText="increasing" toID="T0" toText="November , 1997" type="AFTER" />
+<TLINK id="TL56" fromID="E93" fromText="cardiac rehabilitation" toID="E92" toText="increasing" type="OVERLAP" />
+<TLINK id="TL58" fromID="E94" fromText="referred" toID="E80" toText="referred" type="OVERLAP" />
+<TLINK id="TL59" fromID="E26" fromText="an exercise tolerance test" toID="T9" toText="May , 1998" type="OVERLAP" />
+<TLINK id="TL60" fromID="E27" fromText="her heart rate" toID="E26" toText="an exercise tolerance test" type="OVERLAP" />
+<TLINK id="TL61" fromID="E28" fromText="her blood pressure" toID="E27" toText="her heart rate" type="OVERLAP" />
+<TLINK id="TL62" fromID="E29" fromText="diffuse ischemic ST segment changes" toID="E26" toText="an exercise tolerance test" type="OVERLAP" />
+<TLINK id="TL63" fromID="E30" fromText="increased lung uptake" toID="E26" toText="an exercise tolerance test" type="OVERLAP" />
+<TLINK id="TL64" fromID="E31" fromText="a reversible anterior and lateral defect" toID="E26" toText="an exercise tolerance test" type="OVERLAP" />
+<TLINK id="TL65" fromID="E32" fromText="syncope" toID="E26" toText="an exercise tolerance test" type="OVERLAP" />
+<TLINK id="TL66" fromID="E95" fromText="Her cardiac risk factors" toID="E75" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL67" fromID="E96" fromText="hypertension" toID="E75" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL68" fromID="E97" fromText="elevated cholesterol" toID="E75" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL69" fromID="E98" fromText="coronary artery disease" toID="E75" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL70" fromID="E99" fromText="myocardial infarction" toID="E98" toText="coronary artery disease" type="OVERLAP" />
+<TLINK id="TL71" fromID="E100" fromText="cigarette smoker" toID="E75" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL72" fromID="E101" fromText="lactose intolerance" toID="E75" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL73" fromID="E102" fromText="peptic ulcer disease" toID="E75" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL74" fromID="E33" fromText="a remote gastrointestinal bleed" toID="E75" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL75" fromID="E34" fromText="multiple ectopic pregnancies" toID="E75" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL76" fromID="E35" fromText="mid term miscarriages" toID="E75" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL77" fromID="E103" fromText="a total abdominal hysterectomy" toID="E35" toText="mid term miscarriages" type="AFTER" />
+<TLINK id="TL78" fromID="E103" fromText="a total abdominal hysterectomy" toID="E75" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL79" fromID="E104" fromText="a widow" toID="T10" toText="20 years" type="OVERLAP" />
+<TLINK id="TL8" fromID="E45" fromText="The saphenous vein graft to the second obtuse marginal" toID="E50" toText="the graft" type="OVERLAP" />
+<TLINK id="TL80" fromID="E105" fromText="retired" toID="T11" toText="18 years" type="OVERLAP" />
+<TLINK id="TL81" fromID="T10" fromText="20 years" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="TL82" fromID="T11" fromText="18 years" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="TL83" fromID="E106" fromText="the Cardiac Catheterization Laboratory" toID="E77" toText="admitted" type="AFTER" />
+<TLINK id="TL84" fromID="E36" fromText="her pulmonary wedge pressure" toID="E106" toText="the Cardiac Catheterization Laboratory" type="OVERLAP" />
+<TLINK id="TL85" fromID="E37" fromText="her right atrial pressure" toID="E36" toText="her pulmonary wedge pressure" type="OVERLAP" />
+<TLINK id="TL86" fromID="E38" fromText="pulmonary artery pressure" toID="E37" toText="her right atrial pressure" type="OVERLAP" />
+<TLINK id="TL87" fromID="E39" fromText="Her left ventricular contraction" toID="E38" toText="pulmonary artery pressure" type="OVERLAP" />
+<TLINK id="TL88" fromID="E107" fromText="showed" toID="E39" toText="Her left ventricular contraction" type="OVERLAP" />
+<TLINK id="TL90" fromID="E41" fromText="dyskinesis of the apex" toID="E106" toText="the Cardiac Catheterization Laboratory" type="BEFORE" />
+<TLINK id="TL91" fromID="E40" fromText="akinesis of the anterior wall" toID="E106" toText="the Cardiac Catheterization Laboratory" type="BEFORE" />
+<TLINK id="TL92" fromID="E108" fromText="preserved inferior contraction and basal contraction" toID="E106" toText="the Cardiac Catheterization Laboratory" type="BEFORE" />
+<TLINK id="TL93" fromID="E42" fromText="occluded" toID="E106" toText="the Cardiac Catheterization Laboratory" type="BEFORE" />
+<TLINK id="TL94" fromID="E109" fromText="The saphenous vein to the high diagonal or high obtuse marginal" toID="E11" toText="saphenous vein graft to the obtuse marginal 1" type="OVERLAP" />
+<TLINK id="TL95" fromID="E43" fromText="occluded" toID="E42" toText="occluded" type="OVERLAP" />
+<TLINK id="TL96" fromID="E44" fromText="occluded" toID="E43" toText="occluded" type="OVERLAP" />
+<TLINK id="TL97" fromID="E110" fromText="The left internal mammary artery to the left anterior descending" toID="E10" toText="a left internal mammary artery graft to the left anterior descending" type="OVERLAP" />
+<TLINK id="TL98" fromID="E111" fromText="significant stenosis" toID="E44" toText="occluded" type="OVERLAP" />
+<TLINK id="TL99" fromID="E46" fromText="an outflow lesion in the obtuse marginal 2" toID="E111" toText="significant stenosis" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="08/15/1998" type="ADMISSION" dvalue="1998-08-15" />
+<SECTIME id="S1" start="46" end="56" text="08/22/1998" type="DISCHARGE" dvalue="1998-08-22" />
+<TLINK id="SECTIME0" fromID="E84" fromText="transferred" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E85" fromText="Ona Hospital" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E17" fromText="a cardiac catheterization" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E86" fromText="showed" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E18" fromText="a tight left internal mammary artery" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E19" fromText="left anterior descending stenosis" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E87" fromText="high grade saphenous vein graft" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E20" fromText="obtuse marginal 1 stenosis" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E88" fromText="patent obtuse marginal 2 graft" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E89" fromText="normal left ventricular function" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E21" fromText="apical tip akinesis" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E22" fromText="exertional left chest burning" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E90" fromText="radiating to the left neck and arm" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E23" fromText="nitroglycerin" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E24" fromText="re-do surgery" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E25" fromText="a percutaneous transluminal coronary angioplasty" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E91" fromText="these symptoms" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E92" fromText="increasing" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E93" fromText="cardiac rehabilitation" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E94" fromText="referred" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E26" fromText="an exercise tolerance test" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E27" fromText="her heart rate" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E28" fromText="her blood pressure" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E29" fromText="diffuse ischemic ST segment changes" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E30" fromText="increased lung uptake" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E31" fromText="a reversible anterior and lateral defect" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E32" fromText="syncope" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E95" fromText="Her cardiac risk factors" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E96" fromText="hypertension" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E97" fromText="elevated cholesterol" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E80" fromText="referred" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E98" fromText="coronary artery disease" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E99" fromText="myocardial infarction" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E81" fromText="progressive angina" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E100" fromText="cigarette smoker" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E101" fromText="lactose intolerance" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E102" fromText="peptic ulcer disease" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E33" fromText="a remote gastrointestinal bleed" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E34" fromText="multiple ectopic pregnancies" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E35" fromText="mid term miscarriages" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E103" fromText="a total abdominal hysterectomy" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E104" fromText="a widow" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E1" fromText="rheumatoid fever" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E105" fromText="retired" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E77" fromText="admitted" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E106" fromText="the Cardiac Catheterization Laboratory" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E36" fromText="her pulmonary wedge pressure" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E37" fromText="her right atrial pressure" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E2" fromText="a heart murmur" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E38" fromText="pulmonary artery pressure" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E39" fromText="Her left ventricular contraction" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E107" fromText="showed" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E40" fromText="akinesis of the anterior wall" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E41" fromText="dyskinesis of the apex" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E108" fromText="preserved inferior contraction and basal contraction" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E3" fromText="further testing" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E42" fromText="occluded" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E109" fromText="The saphenous vein to the high diagonal or high obtuse marginal" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E43" fromText="occluded" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E110" fromText="The left internal mammary artery to the left anterior descending" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E44" fromText="occluded" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E45" fromText="The saphenous vein graft to the second obtuse marginal" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E111" fromText="significant stenosis" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E82" fromText="antibiotic prophylaxis" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E46" fromText="an outflow lesion in the obtuse marginal 2" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E47" fromText="severe distal lesion" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E48" fromText="her culprit lesion" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E112" fromText="too high risk" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E113" fromText="angioplasty" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E49" fromText="the severe disease" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E50" fromText="the graft" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E114" fromText="saphenous vein harvested" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E115" fromText="failure to sense" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E116" fromText="not sense the atrial contraction" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E4" fromText="quadruple coronary artery bypass graft surgery" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E51" fromText="competition of firing" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E52" fromText="The P wave amplitude" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E117" fromText="admitted" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E53" fromText="management" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E54" fromText="her coronary artery disease" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E55" fromText="evaluation" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E56" fromText="her pacemaker" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E57" fromText="very symptomatic" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E118" fromText="a beta blocker" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E119" fromText="a beta blocker" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E58" fromText="significant pacemaker failure" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E59" fromText="Her pacemaker" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E120" fromText="set to a VVI mode" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E121" fromText="sensed appropriately" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E122" fromText="sinus rhythm" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E60" fromText="her pacemaker" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E123" fromText="a sinus rhythm" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E61" fromText="a beta blocker" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E62" fromText="significant angina" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E83" fromText="Feargunwake Otacaa Community Hospital" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E63" fromText="Carotid non-invasive testing" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E124" fromText="reviewed" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E125" fromText="a coronary artery bypass graft" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E64" fromText="the lack of conduit" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E65" fromText="a large anterior myocardial infarction" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E66" fromText="her beta blockers" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E67" fromText="nitrates" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E126" fromText="reviewed" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E79" fromText="did well" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E68" fromText="local anesthesia" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E127" fromText="explored" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E128" fromText="the leads disconnected" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E69" fromText="the pulse generator" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E70" fromText="a CPI unit" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E129" fromText="appropriate atrial sensing" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E71" fromText="the prior generator" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E5" fromText="exertional angina" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E72" fromText="the leads" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E130" fromText="tolerated this well" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME114" fromID="E73" fromText="Her medications" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E131" fromText="ambulated" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E132" fromText="difficulty" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME117" fromID="E78" fromText="discharged" toID="T2" toText="08/22/1998" type="OVERLAP" />
+<TLINK id="SECTIME118" fromID="E133" fromText="followed medically" toID="T2" toText="08/22/1998" type="AFTER" />
+<TLINK id="SECTIME119" fromID="E6" fromText="a positive stress test" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME120" fromID="E134" fromText="her coronary artery disease" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME121" fromID="E74" fromText="two failed bypass graft procedure" toID="T2" toText="08/22/1998" type="BEFORE" />
+<TLINK id="SECTIME122" fromID="E7" fromText="three or four grafts" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME123" fromID="E8" fromText="occluded" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME124" fromID="E9" fromText="her bypass operation" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME125" fromID="E10" fromText="a left internal mammary artery graft to the left anterior descending" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME126" fromID="E11" fromText="saphenous vein graft to the obtuse marginal 1" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME127" fromID="E12" fromText="a saphenous vein graft to the obtuse marginal 2" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME128" fromID="E13" fromText="a DDD pacemaker" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME129" fromID="E14" fromText="complete heart block" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME130" fromID="E15" fromText="exertional angina" toID="T1" toText="08/15/1998" type="BEFORE" />
+<TLINK id="SECTIME131" fromID="E16" fromText="a small myocardial infarction" toID="T1" toText="08/15/1998" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

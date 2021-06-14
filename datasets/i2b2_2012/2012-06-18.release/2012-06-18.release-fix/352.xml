@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2010-03-11
+Discharge Date :
+2010-03-28
+HISTORY OF THE PRESENT ILLNESS :
+The patient is a 63 - year-old man with a history of hypertension and prior history of atrial fibrillation secondary to hyperthyroidism who presented to an outside hospital with a history of left-sided chest pain at rest .
+The patient awoke with chest pressure radiating to the right chest associated with diaphoresis .
+The patient was found to have a blood pressure of 170/108 with atrial fibrillation and rapid ventricular response to a heart rate of 140s .
+The patient was rate controlled and transferred to the Stillman Infirmary for emergent cardiac catheterization .
+HOSPITAL COURSE :
+The patient was transferred for cardiac catheterization .
+Emergent cardiac catheterization revealed an ejection fraction of 45% , right dominant coronary artery system with occlusive single vessel disease of the LAD .
+Multiple wires were used to attempt to cross the total occlusion , but were ultimately unsuccessful .
+The patient was continued on a heparin drip for atrial fibrillation .
+Cardiothoracic Surgery consultation was obtained and the patient was taken to the Operating Room on 2010-03-12 for coronary artery bypass grafting times two ; LIMA to the LAD , saphenous vein graft to the diagonal artery .
+Subsequent to this , the patient was transferred to the CRSU for closer monitoring .
+He was deemed to be too lethargic and sleepy to be extubated on postoperative day number zero .
+The patient was extubated early on postoperative day number one without significant complication .
+He remained in atrial fibrillation .
+The EP Service was consulted regarding the patient 's atrial fibrillation .
+This was his main issue in the postoperative course .
+He was attempted on multiple different drugs including Procainamide , Diltiazem , Esmolol , Sotalol , Amiodarone .
+The patient was kept therapeutically anticoagulated throughout this period .
+The patient was also started on digoxin .
+Ultimately , the patient was transferred to the floor and anticoagulation with Coumadin was begun .
+The patient arrived on the floor with medications as follows :
+Sotalol 180 mg b.i.d. , Diltiazem 90 mg q.i.d. , digoxin 0.125 mg q.d.
+While the patient was awaiting therapeutic anticoagulation with Coumadin , he spontaneously converted into normal sinus rhythm .
+The patient was found to have a resting heart rate of approximately 50 subsequent to this .
+In consultation with the EP Service , Diltiazem was stopped .
+After approximately 24 hours , the patient converted back into atrial fibrillation and Diltiazem was restarted at 60 mg q.i.d.
+The patient then had one more episode where he was converted to normal sinus rhythm but this lasted only a few hours before reverting back to atrial fibrillation .
+The patient was ultimately discharged on postoperative day number 16 , tolerating a regular diet , and adequate pain control on p.o. pain medications , having no anginal symptoms and with an INR of 2.0 .
+The patient failed multiple attempts at cardioversion .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="1030" end="1044" text="a heparin drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="1049" end="1068" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="1071" end="1106" text="Cardiothoracic Surgery consultation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1140" end="1145" text="taken" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E62" start="1149" end="1167" text="the Operating Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E63" start="1186" end="1217" text="coronary artery bypass grafting" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="1230" end="1245" text="LIMA to the LAD" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E65" start="1248" end="1291" text="saphenous vein graft to the diagonal artery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1331" end="1342" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1346" end="1354" text="the CRSU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E66" start="1359" end="1376" text="closer monitoring" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="1399" end="1412" text="too lethargic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="1417" end="1423" text="sleepy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="143" end="155" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="1430" end="1439" text="extubated" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E38" start="1491" end="1500" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="1547" end="1571" text="significant complication" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E14" start="1589" end="1608" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="1650" end="1684" text="the patient 's atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="1696" end="1710" text="his main issue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="1714" end="1738" text="the postoperative course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="177" end="196" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="1761" end="1785" text="multiple different drugs" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1796" end="1808" text="Procainamide" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="1811" end="1820" text="Diltiazem" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="1823" end="1830" text="Esmolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="1833" end="1840" text="Sotalol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1843" end="1853" text="Amiodarone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="1877" end="1907" text="therapeutically anticoagulated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="1965" end="1972" text="digoxin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="2004" end="2015" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="2019" end="2028" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E71" start="2033" end="2048" text="anticoagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="2054" end="2062" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="2087" end="2094" text="arrived" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="210" end="225" text="hyperthyroidism" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="2098" end="2107" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E73" start="2113" end="2124" text="medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E74" start="2138" end="2145" text="Sotalol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="2162" end="2171" text="Diltiazem" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="2187" end="2194" text="digoxin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="2240" end="2267" text="therapeutic anticoagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="2273" end="2281" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="2287" end="2335" text="spontaneously converted into normal sinus rhythm" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="230" end="239" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E79" start="2354" end="2359" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E24" start="2368" end="2388" text="a resting heart rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="243" end="262" text="an outside hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E25" start="2468" end="2477" text="Diltiazem" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="2535" end="2544" text="converted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="2555" end="2574" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E81" start="2579" end="2588" text="Diltiazem" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="2640" end="2656" text="one more episode" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="2670" end="2702" text="converted to normal sinus rhythm" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E83" start="2743" end="2757" text="reverting back" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E84" start="2761" end="2780" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="281" end="302" text="left-sided chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="2810" end="2820" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E86" start="2854" end="2879" text="tolerating a regular diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="2886" end="2907" text="adequate pain control" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E88" start="2911" end="2932" text="p.o. pain medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="2945" end="2961" text="anginal symptoms" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E89" start="2971" end="2977" text="an INR" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E91" start="2999" end="3005" text="failed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E90" start="3015" end="3023" text="attempts" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="3027" end="3040" text="cardioversion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="306" end="310" text="rest" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="325" end="330" text="awoke" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E51" start="336" end="350" text="chest pressure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="351" end="379" text="radiating to the right chest" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="396" end="407" text="diaphoresis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="426" end="431" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E1" start="440" end="456" text="a blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E55" start="473" end="492" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="497" end="523" text="rapid ventricular response" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="527" end="539" text="a heart rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="566" end="581" text="rate controlled" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="586" end="597" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="601" end="623" text="the Stillman Infirmary" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E59" start="628" end="660" text="emergent cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="697" end="708" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="713" end="736" text="cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="739" end="771" text="Emergent cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="772" end="780" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E5" start="781" end="801" text="an ejection fraction" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E60" start="811" end="848" text="right dominant coronary artery system" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="854" end="896" text="occlusive single vessel disease of the LAD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="899" end="913" text="Multiple wires" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="944" end="963" text="the total occlusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T3" start="1171" end="1181" text="2010-03-12" type="DATE" val="2010-03-12" mod="NA" />
+<TIMEX3 id="T2" start="1443" end="1472" text="postoperative day number zero" type="DATE" val="2010-03-12" mod="NA" />
+<TIMEX3 id="T4" start="1510" end="1538" text="postoperative day number one" type="DATE" val="2010-03-13" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2010-03-11" type="DATE" val="2010-03-11" mod="NA" />
+<TIMEX3 id="T5" start="2153" end="2159" text="b.i.d." type="FREQUENCY" val="rp12h" mod="NA" />
+<TIMEX3 id="T6" start="2178" end="2184" text="q.i.d." type="FREQUENCY" val="RP6H" mod="NA" />
+<TIMEX3 id="T7" start="2204" end="2208" text="q.d." type="FREQUENCY" val="rp24h" mod="NA" />
+<TIMEX3 id="T8" start="2512" end="2520" text="24 hours" type="DURATION" val="pt24h" mod="APPROX" />
+<TIMEX3 id="T9" start="2612" end="2618" text="q.i.d." type="FREQUENCY" val="RP6H" mod="NA" />
+<TIMEX3 id="T10" start="2724" end="2735" text="a few hours" type="DURATION" val="pt2h" mod="APPROX" />
+<TIMEX3 id="T11" start="2824" end="2851" text="postoperative day number 16" type="DATE" val="2010-03-28" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2010-03-28" type="DATE" val="2010-03-28" mod="NA" />
+<TLINK id="TL0" fromID="T0" fromText="2010-03-11" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL1" fromID="E15" fromText="the patient 's atrial fibrillation" toID="E14" toText="atrial fibrillation" type="OVERLAP" />
+<TLINK id="TL10" fromID="E49" fromText="left-sided chest pain" toID="E30" toText="an outside hospital" type="BEFORE" />
+<TLINK id="TL11" fromID="E49" fromText="left-sided chest pain" toID="E50" toText="rest" type="OVERLAP" />
+<TLINK id="TL12" fromID="E50" fromText="rest" toID="E31" toText="awoke" type="OVERLAP" />
+<TLINK id="TL13" fromID="E51" fromText="chest pressure" toID="E31" toText="awoke" type="OVERLAP" />
+<TLINK id="TL14" fromID="E51" fromText="chest pressure" toID="E52" toText="radiating to the right chest" type="OVERLAP" />
+<TLINK id="TL15" fromID="E52" fromText="radiating to the right chest" toID="E53" toText="diaphoresis" type="OVERLAP" />
+<TLINK id="TL16" fromID="E53" fromText="diaphoresis" toID="E54" toText="found" type="OVERLAP" />
+<TLINK id="TL17" fromID="E1" fromText="a blood pressure" toID="E54" toText="found" type="OVERLAP" />
+<TLINK id="TL18" fromID="E55" fromText="atrial fibrillation" toID="E1" toText="a blood pressure" type="OVERLAP" />
+<TLINK id="TL19" fromID="E55" fromText="atrial fibrillation" toID="E56" toText="rapid ventricular response" type="OVERLAP" />
+<TLINK id="TL2" fromID="E19" fromText="Diltiazem" toID="E18" toText="Procainamide" type="OVERLAP" />
+<TLINK id="TL20" fromID="E56" fromText="rapid ventricular response" toID="E2" toText="a heart rate" type="OVERLAP" />
+<TLINK id="TL21" fromID="E57" fromText="rate controlled" toID="E54" toText="found" type="AFTER" />
+<TLINK id="TL22" fromID="E32" fromText="transferred" toID="E57" toText="rate controlled" type="AFTER" />
+<TLINK id="TL23" fromID="E58" fromText="the Stillman Infirmary" toID="E32" toText="transferred" type="AFTER" />
+<TLINK id="TL24" fromID="E59" fromText="emergent cardiac catheterization" toID="E58" toText="the Stillman Infirmary" type="OVERLAP" />
+<TLINK id="TL25" fromID="E32" fromText="transferred" toID="E33" toText="transferred" type="OVERLAP" />
+<TLINK id="TL26" fromID="E3" fromText="cardiac catheterization" toID="E33" toText="transferred" type="AFTER" />
+<TLINK id="TL27" fromID="E3" fromText="cardiac catheterization" toID="E4" toText="Emergent cardiac catheterization" type="OVERLAP" />
+<TLINK id="TL28" fromID="E4" fromText="Emergent cardiac catheterization" toID="E34" toText="revealed" type="OVERLAP" />
+<TLINK id="TL29" fromID="E5" fromText="an ejection fraction" toID="E34" toText="revealed" type="BEFORE" />
+<TLINK id="TL3" fromID="E44" fromText="Discharge" toID="T1" toText="2010-03-28" type="OVERLAP" />
+<TLINK id="TL30" fromID="E60" fromText="right dominant coronary artery system" toID="E5" toText="an ejection fraction" type="OVERLAP" />
+<TLINK id="TL31" fromID="E60" fromText="right dominant coronary artery system" toID="E6" toText="occlusive single vessel disease of the LAD" type="OVERLAP" />
+<TLINK id="TL32" fromID="E7" fromText="Multiple wires" toID="E4" toText="Emergent cardiac catheterization" type="OVERLAP" />
+<TLINK id="TL34" fromID="E8" fromText="the total occlusion" toID="E7" toText="Multiple wires" type="BEFORE" />
+<TLINK id="TL35" fromID="E9" fromText="a heparin drip" toID="E7" toText="Multiple wires" type="BEFORE" />
+<TLINK id="TL36" fromID="E10" fromText="atrial fibrillation" toID="E9" toText="a heparin drip" type="BEFORE" />
+<TLINK id="TL37" fromID="E61" fromText="Cardiothoracic Surgery consultation" toID="E7" toText="Multiple wires" type="AFTER" />
+<TLINK id="TL38" fromID="E35" fromText="taken" toID="E61" toText="Cardiothoracic Surgery consultation" type="AFTER" />
+<TLINK id="TL39" fromID="E62" fromText="the Operating Room" toID="E35" toText="taken" type="AFTER" />
+<TLINK id="TL4" fromID="E45" fromText="hypertension" toID="E46" toText="atrial fibrillation" type="OVERLAP" />
+<TLINK id="TL40" fromID="E62" fromText="the Operating Room" toID="T3" toText="2010-03-12" type="OVERLAP" />
+<TLINK id="TL41" fromID="E63" fromText="coronary artery bypass grafting" toID="E62" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL42" fromID="E63" fromText="coronary artery bypass grafting" toID="E64" toText="LIMA to the LAD" type="OVERLAP" />
+<TLINK id="TL43" fromID="E64" fromText="LIMA to the LAD" toID="E65" toText="saphenous vein graft to the diagonal artery" type="OVERLAP" />
+<TLINK id="TL44" fromID="E37" fromText="the CRSU" toID="E36" toText="transferred" type="AFTER" />
+<TLINK id="TL45" fromID="E37" fromText="the CRSU" toID="E66" toText="closer monitoring" type="OVERLAP" />
+<TLINK id="TL46" fromID="E36" fromText="transferred" toID="E35" toText="taken" type="BEFORE" />
+<TLINK id="TL47" fromID="E12" fromText="sleepy" toID="E11" toText="too lethargic" type="OVERLAP" />
+<TLINK id="TL48" fromID="E12" fromText="sleepy" toID="E67" toText="extubated" type="BEFORE" />
+<TLINK id="TL49" fromID="E67" fromText="extubated" toID="T2" toText="postoperative day number zero" type="OVERLAP" />
+<TLINK id="TL5" fromID="E47" fromText="hyperthyroidism" toID="E46" toText="atrial fibrillation" type="BEFORE" />
+<TLINK id="TL50" fromID="E11" fromText="too lethargic" toID="E11" toText="too lethargic" type="OVERLAP" />
+<TLINK id="TL51" fromID="E38" fromText="extubated" toID="T4" toText="postoperative day number one" type="OVERLAP" />
+<TLINK id="TL52" fromID="E38" fromText="extubated" toID="E13" toText="significant complication" type="OVERLAP" />
+<TLINK id="TL53" fromID="E16" fromText="his main issue" toID="E68" toText="the postoperative course" type="OVERLAP" />
+<TLINK id="TL54" fromID="E17" fromText="multiple different drugs" toID="E18" toText="Procainamide" type="OVERLAP" />
+<TLINK id="TL55" fromID="E19" fromText="Diltiazem" toID="E20" toText="Esmolol" type="OVERLAP" />
+<TLINK id="TL56" fromID="E21" fromText="Sotalol" toID="E20" toText="Esmolol" type="OVERLAP" />
+<TLINK id="TL57" fromID="E21" fromText="Sotalol" toID="E22" toText="Amiodarone" type="OVERLAP" />
+<TLINK id="TL58" fromID="E17" fromText="multiple different drugs" toID="E69" toText="therapeutically anticoagulated" type="OVERLAP" />
+<TLINK id="TL59" fromID="E22" fromText="Amiodarone" toID="E70" toText="digoxin" type="OVERLAP" />
+<TLINK id="TL6" fromID="E47" fromText="hyperthyroidism" toID="E48" toText="presented" type="BEFORE" />
+<TLINK id="TL60" fromID="E37" fromText="the CRSU" toID="E39" toText="transferred" type="BEFORE" />
+<TLINK id="TL61" fromID="E40" fromText="the floor" toID="E39" toText="transferred" type="AFTER" />
+<TLINK id="TL62" fromID="E71" fromText="anticoagulation" toID="E40" toText="the floor" type="AFTER" />
+<TLINK id="TL63" fromID="E72" fromText="Coumadin" toID="E40" toText="the floor" type="AFTER" />
+<TLINK id="TL64" fromID="E39" fromText="transferred" toID="E41" toText="arrived" type="OVERLAP" />
+<TLINK id="TL65" fromID="E42" fromText="the floor" toID="E41" toText="arrived" type="AFTER" />
+<TLINK id="TL66" fromID="E42" fromText="the floor" toID="E40" toText="the floor" type="OVERLAP" />
+<TLINK id="TL67" fromID="E42" fromText="the floor" toID="E73" toText="medications" type="OVERLAP" />
+<TLINK id="TL68" fromID="E74" fromText="Sotalol" toID="T5" toText="b.i.d." type="OVERLAP" />
+<TLINK id="TL69" fromID="E23" fromText="Diltiazem" toID="T6" toText="q.i.d." type="OVERLAP" />
+<TLINK id="TL7" fromID="E48" fromText="presented" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL70" fromID="T7" fromText="q.d." toID="E75" toText="digoxin" type="OVERLAP" />
+<TLINK id="TL71" fromID="E76" fromText="therapeutic anticoagulation" toID="E77" toText="Coumadin" type="OVERLAP" />
+<TLINK id="TL72" fromID="E71" fromText="anticoagulation" toID="E76" toText="therapeutic anticoagulation" type="OVERLAP" />
+<TLINK id="TL73" fromID="E78" fromText="spontaneously converted into normal sinus rhythm" toID="E76" toText="therapeutic anticoagulation" type="OVERLAP" />
+<TLINK id="TL74" fromID="E24" fromText="a resting heart rate" toID="E79" toText="found" type="BEFORE" />
+<TLINK id="TL75" fromID="E25" fromText="Diltiazem" toID="E24" toText="a resting heart rate" type="AFTER" />
+<TLINK id="TL76" fromID="E80" fromText="converted" toID="T8" toText="24 hours" type="AFTER" />
+<TLINK id="TL77" fromID="E26" fromText="atrial fibrillation" toID="E80" toText="converted" type="AFTER" />
+<TLINK id="TL78" fromID="E81" fromText="Diltiazem" toID="E80" toText="converted" type="AFTER" />
+<TLINK id="TL79" fromID="E81" fromText="Diltiazem" toID="T9" toText="q.i.d." type="OVERLAP" />
+<TLINK id="TL80" fromID="E27" fromText="one more episode" toID="E80" toText="converted" type="AFTER" />
+<TLINK id="TL81" fromID="E27" fromText="one more episode" toID="E82" toText="converted to normal sinus rhythm" type="OVERLAP" />
+<TLINK id="TL82" fromID="E82" fromText="converted to normal sinus rhythm" toID="T10" toText="a few hours" type="OVERLAP" />
+<TLINK id="TL83" fromID="T10" fromText="a few hours" toID="E83" toText="reverting back" type="BEFORE" />
+<TLINK id="TL84" fromID="E84" fromText="atrial fibrillation" toID="E83" toText="reverting back" type="AFTER" />
+<TLINK id="TL85" fromID="E85" fromText="discharged" toID="E27" toText="one more episode" type="AFTER" />
+<TLINK id="TL86" fromID="T11" fromText="postoperative day number 16" toID="E85" toText="discharged" type="OVERLAP" />
+<TLINK id="TL87" fromID="E86" fromText="tolerating a regular diet" toID="T11" toText="postoperative day number 16" type="BEFORE" />
+<TLINK id="TL88" fromID="E86" fromText="tolerating a regular diet" toID="E87" toText="adequate pain control" type="OVERLAP" />
+<TLINK id="TL89" fromID="E87" fromText="adequate pain control" toID="E88" toText="p.o. pain medications" type="OVERLAP" />
+<TLINK id="TL9" fromID="E30" fromText="an outside hospital" toID="E48" toText="presented" type="AFTER" />
+<TLINK id="TL90" fromID="E88" fromText="p.o. pain medications" toID="E28" toText="anginal symptoms" type="OVERLAP" />
+<TLINK id="TL91" fromID="E28" fromText="anginal symptoms" toID="E89" toText="an INR" type="OVERLAP" />
+<TLINK id="TL92" fromID="E91" fromText="failed" toID="E90" toText="attempts" type="OVERLAP" />
+<TLINK id="TL93" fromID="E90" fromText="attempts" toID="E29" toText="cardioversion" type="OVERLAP" />
+<TLINK id="SECTIME0" fromID="E9" fromText="a heparin drip" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E10" fromText="atrial fibrillation" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E61" fromText="Cardiothoracic Surgery consultation" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E35" fromText="taken" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E62" fromText="the Operating Room" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E63" fromText="coronary artery bypass grafting" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E64" fromText="LIMA to the LAD" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E65" fromText="saphenous vein graft to the diagonal artery" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E36" fromText="transferred" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E37" fromText="the CRSU" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E66" fromText="closer monitoring" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E11" fromText="too lethargic" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E12" fromText="sleepy" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E45" fromText="hypertension" toID="T0" toText="2010-03-11" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E67" fromText="extubated" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E38" fromText="extubated" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E13" fromText="significant complication" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E14" fromText="atrial fibrillation" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E15" fromText="the patient 's atrial fibrillation" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E16" fromText="his main issue" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E68" fromText="the postoperative course" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E46" fromText="atrial fibrillation" toID="T0" toText="2010-03-11" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E17" fromText="multiple different drugs" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E18" fromText="Procainamide" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E19" fromText="Diltiazem" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E20" fromText="Esmolol" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E21" fromText="Sotalol" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E22" fromText="Amiodarone" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E69" fromText="therapeutically anticoagulated" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E70" fromText="digoxin" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E39" fromText="transferred" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E40" fromText="the floor" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E71" fromText="anticoagulation" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E72" fromText="Coumadin" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E41" fromText="arrived" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E47" fromText="hyperthyroidism" toID="T0" toText="2010-03-11" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E42" fromText="the floor" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E73" fromText="medications" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E74" fromText="Sotalol" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E23" fromText="Diltiazem" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E75" fromText="digoxin" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E76" fromText="therapeutic anticoagulation" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E77" fromText="Coumadin" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E78" fromText="spontaneously converted into normal sinus rhythm" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E48" fromText="presented" toID="T0" toText="2010-03-11" type="OVERLAP" />
+<TLINK id="SECTIME45" fromID="E79" fromText="found" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E24" fromText="a resting heart rate" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E30" fromText="an outside hospital" toID="T0" toText="2010-03-11" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E25" fromText="Diltiazem" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E80" fromText="converted" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E26" fromText="atrial fibrillation" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E81" fromText="Diltiazem" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E27" fromText="one more episode" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E82" fromText="converted to normal sinus rhythm" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E83" fromText="reverting back" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E84" fromText="atrial fibrillation" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E49" fromText="left-sided chest pain" toID="T0" toText="2010-03-11" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E85" fromText="discharged" toID="T1" toText="2010-03-28" type="OVERLAP" />
+<TLINK id="SECTIME58" fromID="E86" fromText="tolerating a regular diet" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E87" fromText="adequate pain control" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E88" fromText="p.o. pain medications" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E28" fromText="anginal symptoms" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E89" fromText="an INR" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E91" fromText="failed" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E90" fromText="attempts" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E29" fromText="cardioversion" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E50" fromText="rest" toID="T0" toText="2010-03-11" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E31" fromText="awoke" toID="T0" toText="2010-03-11" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E51" fromText="chest pressure" toID="T0" toText="2010-03-11" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E52" fromText="radiating to the right chest" toID="T0" toText="2010-03-11" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E53" fromText="diaphoresis" toID="T0" toText="2010-03-11" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E54" fromText="found" toID="T0" toText="2010-03-11" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E1" fromText="a blood pressure" toID="T0" toText="2010-03-11" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E55" fromText="atrial fibrillation" toID="T0" toText="2010-03-11" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E56" fromText="rapid ventricular response" toID="T0" toText="2010-03-11" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E2" fromText="a heart rate" toID="T0" toText="2010-03-11" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E57" fromText="rate controlled" toID="T0" toText="2010-03-11" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E32" fromText="transferred" toID="T0" toText="2010-03-11" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E58" fromText="the Stillman Infirmary" toID="T0" toText="2010-03-11" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E59" fromText="emergent cardiac catheterization" toID="T0" toText="2010-03-11" type="AFTER" />
+<TLINK id="SECTIME80" fromID="E33" fromText="transferred" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E3" fromText="cardiac catheterization" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E4" fromText="Emergent cardiac catheterization" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E34" fromText="revealed" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E5" fromText="an ejection fraction" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E60" fromText="right dominant coronary artery system" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E6" fromText="occlusive single vessel disease of the LAD" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E7" fromText="Multiple wires" toID="T1" toText="2010-03-28" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E8" fromText="the total occlusion" toID="T1" toText="2010-03-28" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2010-03-11" type="ADMISSION" dvalue="2010-03-11" />
+<SECTIME id="S1" start="46" end="56" text="2010-03-28" type="DISCHARGE" dvalue="2010-03-28" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

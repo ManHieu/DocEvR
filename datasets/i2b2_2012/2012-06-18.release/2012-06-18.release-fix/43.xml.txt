@@ -1,0 +1,45 @@
+Admission Date :
+2019-06-14
+Discharge Date :
+2019-06-19
+Service :
+MEDICINE
+History of Present Illness :
+Mr. Mcelveen is a 51 year-old male with metastatic RCC status post left radical nephrectomy in 2018-03-21 , status post Avastin and sorafenib , most recently on Sutent monotherapy since 2018-12-21 , with mild renal insufficiency , who presented from home on 2019-06-14 with shortness of breath and fever .
+Of note , he was hospitalized at Dana-Farber Cancer Institute from 9/25-10/6 with chest pain , at which time he reportedly had cardiac enzymes , an echocardiogram and a pharmacological stress test performed .
+It is unclear from history what these studies revealed .
+He reports that he felt fatigued during the week prior to the current admission .
+On the day of admission , he felt " congested " in his chest , and had a new fever .
+He was taken to the Deanna by his wife .
+Patrick reports a mild cough for 2 days PTA , non-productive .
+He denies a history of aspiration events or choking with food intake .
+He describes mild reflux symptoms at night .
+Further ROS reveals mild SOB in the days preceding admission , but he tells me that he was surprised to find out about his low oxygen saturation because he did not feel that bad .
+He denies chills , no chest pain , no LE swelling .
+In the Deanna , Tmax 102.8 , BP 100 - 140/60 s, HR 80 s, RR 20 s, Sat 75% on RA in triage , up to 100% on NRB .
+CXR with bibasilar consolidations .
+He was given Levo 750 mg PO X1 , and Flagyl 500 mg PO X1 .
+His BP decreased to 100 systolic despite hydration with 2L of NS .
+He was subsquently admitted to the ICU for further care .
+He was placed on Levo and Ceftriaxone .
+A cosyntropin stimulation test revealed cortisol 32.1 --> 36.4 .
+His oxygen requirement decreased , and his overall status improved quickly .
+He is being transferred to the floor for ongoing care .
+Brief Hospital Course :
+Mr. Mcelveen 51 year-old male with metastatic RCC on Sutent since 2018-12-21 , admitted with fever , hypoxemia , and bibasilar pneumonia .
+1) Bibasilar pneumonia : Patient was treated for community-acquired pneumonia .
+He was initially placed on Ceftriaxone , Levaquin , and Flagyl in the ICU but then changed to 
+Azithromycin & CTX at time of transfer to the oncology service .
+He continued to have an oxygen requirement and CT scan suggested ground glass opacities , suggestive of an underlying infectious process .
+ECHO was done and confirmed normal ejection fraction .
+His respiratory status improved slowly , oxygen was weaned off , and he was discharged on course of Levaquin .
+2) Metastatic RCC : Sutent was held on admission in light of acute infection .
+He underwent a staging CT scan torso which suggested no significant increase in tumor burden .
+Patient was also found to have abnormal TFTs on Sutent and was started on replacement therapy .
+He will need follow-up bloodwork as an outpatient .
+Recent CT scan showed destruction of L femoral neck .
+He underwent an xray of the L femur which did not suggest an acute fracture .
+No limitations were placed in regards to weightbearing status .
+Patient was instructed to restart Sutent next Monday .
+3) Renal insufficiency : Creatinine improved from 2.1 to 1.3 at time of discharge .
+Likely related to underlying malignancy as well as prerenal component given improvement with gentle hydration .

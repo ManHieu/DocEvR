@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+06/16/1997
+Discharge Date :
+06/18/1997
+HISTORY OF PRESENT ILLNESS :
+This is a 70 year old gentleman with metastatic rectal cancer who presented with biliary obstruction .
+In the past , he had biliary stents placed which clotted off .
+The patient was admitted to the Short Stay Unit for further evaluation .
+The day prior , the patient had endoscopic retrograde cholangiopancreatography done with dilated ducts times two and eventually had interventional radiology attempt to place percutaneous drains to decompress his biliary tree .
+The patient had two drains placed after a prolonged course and difficult procedure .
+After being transferred from the interventional radiology table to the stretcher , one of his lateral percutaneous drains had been pulled out inadvertently .
+He was admitted to the Short Stay Unit , given Ancef and Gentamicin per the team for antibiotic prophylaxis and observed overnight .
+HOSPITAL COURSE :
+The patient was admitted to the Short Stay Unit and continued to receive antibiotics overnight .
+The next morning , he was doing well with the intact drain draining bilious material without any difficulty .
+The patient was doing well with minimal to no belly pain and no nausea or vomiting .
+The patient was taken back to surgery by the interventional radiology team and had a second drain placed without any difficulty and was transferred back to the Short Stay Unit .
+The patient was observed overnight without any problems .
+He was tolerating p.o. and feeling back to his baseline .
+He was discharged in stable condition .
+]]></TEXT>
+<TAGS>
+<EVENT id="E14" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="1019" end="1030" text="antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1069" end="1079" text="doing well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="1085" end="1101" text="the intact drain" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1102" end="1127" text="draining bilious material" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1140" end="1150" text="difficulty" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E38" start="1169" end="1179" text="doing well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="1199" end="1209" text="belly pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E11" start="1217" end="1223" text="nausea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E0" start="123" end="147" text="metastatic rectal cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="1227" end="1235" text="vomiting" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E18" start="1268" end="1275" text="surgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E13" start="1321" end="1335" text="a second drain" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1355" end="1365" text="difficulty" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E41" start="1374" end="1385" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1394" end="1413" text="the Short Stay Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E43" start="1432" end="1440" text="observed" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="1459" end="1471" text="any problems" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E45" start="1481" end="1496" text="tolerating p.o." modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1517" end="1529" text="his baseline" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="152" end="161" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="1539" end="1549" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="1553" end="1569" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="167" end="186" text="biliary obstruction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="210" end="224" text="biliary stents" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="238" end="249" text="clotted off" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="268" end="276" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="280" end="299" text="the Short Stay Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E15" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="304" end="322" text="further evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="357" end="403" text="endoscopic retrograde cholangiopancreatography" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="414" end="427" text="dilated ducts" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="499" end="518" text="percutaneous drains" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="522" end="549" text="decompress his biliary tree" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="568" end="578" text="two drains" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="592" end="610" text="a prolonged course" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="615" end="634" text="difficult procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="649" end="660" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="727" end="758" text="his lateral percutaneous drains" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="768" end="778" text="pulled out" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="802" end="810" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="814" end="833" text="the Short Stay Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E30" start="842" end="847" text="Ancef" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="852" end="862" text="Gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="880" end="902" text="antibiotic prophylaxis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="907" end="915" text="observed" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="962" end="970" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="974" end="993" text="the Short Stay Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<TIMEX3 id="T6" start="1031" end="1040" text="overnight" type="DURATION" val="PT12H" mod="APPROX" />
+<TIMEX3 id="T3" start="1043" end="1059" text="The next morning" type="DATE" val="1997-06-17" mod="START" />
+<TIMEX3 id="T7" start="1441" end="1450" text="overnight" type="DURATION" val="PT12H" mod="APPROX" />
+<TIMEX3 id="T1" start="18" end="28" text="06/16/1997" type="DATE" val="1997-06-16" mod="NA" />
+<TIMEX3 id="T0" start="325" end="338" text="The day prior" type="DATE" val="1997-06-15" mod="NA" />
+<TIMEX3 id="T4" start="434" end="437" text="two" type="FREQUENCY" val="r2" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="06/18/1997" type="DATE" val="1997-06-18" mod="NA" />
+<TIMEX3 id="T5" start="916" end="925" text="overnight" type="DURATION" val="PT12H" mod="APPROX" />
+<TLINK id="TL0" fromID="E14" fromText="Admission" toID="T1" toText="06/16/1997" type="OVERLAP" />
+<TLINK id="TL1" fromID="E2" fromText="endoscopic retrograde cholangiopancreatography" toID="E3" toText="dilated ducts" type="OVERLAP" />
+<TLINK id="TL10" fromID="E1" fromText="biliary stents" toID="E14" toText="Admission" type="BEFORE" />
+<TLINK id="TL11" fromID="E22" fromText="clotted off" toID="E1" toText="biliary stents" type="OVERLAP" />
+<TLINK id="TL12" fromID="E23" fromText="admitted" toID="E14" toText="Admission" type="OVERLAP" />
+<TLINK id="TL13" fromID="E24" fromText="the Short Stay Unit" toID="E23" toText="admitted" type="AFTER" />
+<TLINK id="TL14" fromID="E24" fromText="the Short Stay Unit" toID="E25" toText="further evaluation" type="OVERLAP" />
+<TLINK id="TL15" fromID="E2" fromText="endoscopic retrograde cholangiopancreatography" toID="T0" toText="The day prior" type="OVERLAP" />
+<TLINK id="TL16" fromID="E3" fromText="dilated ducts" toID="E2" toText="endoscopic retrograde cholangiopancreatography" type="BEFORE" />
+<TLINK id="TL17" fromID="E4" fromText="percutaneous drains" toID="E2" toText="endoscopic retrograde cholangiopancreatography" type="AFTER" />
+<TLINK id="TL18" fromID="E26" fromText="decompress his biliary tree" toID="E4" toText="percutaneous drains" type="OVERLAP" />
+<TLINK id="TL19" fromID="E6" fromText="a prolonged course" toID="E7" toText="difficult procedure" type="OVERLAP" />
+<TLINK id="TL2" fromID="E5" fromText="two drains" toID="E4" toText="percutaneous drains" type="OVERLAP" />
+<TLINK id="TL20" fromID="E7" fromText="difficult procedure" toID="E2" toText="endoscopic retrograde cholangiopancreatography" type="OVERLAP" />
+<TLINK id="TL21" fromID="E7" fromText="difficult procedure" toID="E27" toText="transferred" type="BEFORE" />
+<TLINK id="TL22" fromID="E28" fromText="pulled out" toID="E27" toText="transferred" type="OVERLAP" />
+<TLINK id="TL23" fromID="E8" fromText="his lateral percutaneous drains" toID="E5" toText="two drains" type="OVERLAP" />
+<TLINK id="TL24" fromID="E34" fromText="the Short Stay Unit" toID="E29" toText="the Short Stay Unit" type="OVERLAP" />
+<TLINK id="TL25" fromID="E29" fromText="the Short Stay Unit" toID="E24" toText="the Short Stay Unit" type="OVERLAP" />
+<TLINK id="TL27" fromID="E30" fromText="Ancef" toID="E16" toText="admitted" type="AFTER" />
+<TLINK id="TL28" fromID="E30" fromText="Ancef" toID="E31" toText="Gentamicin" type="OVERLAP" />
+<TLINK id="TL29" fromID="E31" fromText="Gentamicin" toID="E32" toText="antibiotic prophylaxis" type="OVERLAP" />
+<TLINK id="TL3" fromID="E16" fromText="admitted" toID="E14" toText="Admission" type="OVERLAP" />
+<TLINK id="TL30" fromID="E29" fromText="the Short Stay Unit" toID="E33" toText="observed" type="OVERLAP" />
+<TLINK id="TL31" fromID="E33" fromText="observed" toID="T5" toText="overnight" type="OVERLAP" />
+<TLINK id="TL32" fromID="E16" fromText="admitted" toID="E17" toText="admitted" type="OVERLAP" />
+<TLINK id="TL33" fromID="E9" fromText="antibiotics" toID="E32" toText="antibiotic prophylaxis" type="OVERLAP" />
+<TLINK id="TL34" fromID="T6" fromText="overnight" toID="T5" toText="overnight" type="OVERLAP" />
+<TLINK id="TL35" fromID="T6" fromText="overnight" toID="T3" toText="The next morning" type="BEFORE" />
+<TLINK id="TL36" fromID="E35" fromText="doing well" toID="T3" toText="The next morning" type="OVERLAP" />
+<TLINK id="TL37" fromID="E10" fromText="the intact drain" toID="E5" toText="two drains" type="OVERLAP" />
+<TLINK id="TL38" fromID="E36" fromText="draining bilious material" toID="T3" toText="The next morning" type="OVERLAP" />
+<TLINK id="TL39" fromID="E36" fromText="draining bilious material" toID="E37" toText="difficulty" type="OVERLAP" />
+<TLINK id="TL4" fromID="E11" fromText="nausea" toID="E12" toText="vomiting" type="OVERLAP" />
+<TLINK id="TL40" fromID="E35" fromText="doing well" toID="E38" toText="doing well" type="OVERLAP" />
+<TLINK id="TL41" fromID="E38" fromText="doing well" toID="E39" toText="belly pain" type="OVERLAP" />
+<TLINK id="TL42" fromID="E11" fromText="nausea" toID="E38" toText="doing well" type="OVERLAP" />
+<TLINK id="TL43" fromID="E12" fromText="vomiting" toID="E38" toText="doing well" type="OVERLAP" />
+<TLINK id="TL44" fromID="E18" fromText="surgery" toID="T3" toText="The next morning" type="OVERLAP" />
+<TLINK id="TL45" fromID="E34" fromText="the Short Stay Unit" toID="E18" toText="surgery" type="BEFORE" />
+<TLINK id="TL46" fromID="E13" fromText="a second drain" toID="E18" toText="surgery" type="AFTER" />
+<TLINK id="TL47" fromID="E40" fromText="difficulty" toID="E18" toText="surgery" type="OVERLAP" />
+<TLINK id="TL48" fromID="E18" fromText="surgery" toID="E41" toText="transferred" type="BEFORE" />
+<TLINK id="TL49" fromID="E42" fromText="the Short Stay Unit" toID="E41" toText="transferred" type="AFTER" />
+<TLINK id="TL5" fromID="E19" fromText="discharged" toID="E15" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL50" fromID="E42" fromText="the Short Stay Unit" toID="E43" toText="observed" type="OVERLAP" />
+<TLINK id="TL51" fromID="E43" fromText="observed" toID="T7" toText="overnight" type="OVERLAP" />
+<TLINK id="TL52" fromID="E43" fromText="observed" toID="E44" toText="any problems" type="OVERLAP" />
+<TLINK id="TL53" fromID="E45" fromText="tolerating p.o." toID="E46" toText="his baseline" type="OVERLAP" />
+<TLINK id="TL54" fromID="E46" fromText="his baseline" toID="E19" toText="discharged" type="BEFORE" />
+<TLINK id="TL55" fromID="E47" fromText="stable condition" toID="E19" toText="discharged" type="BEFORE" />
+<TLINK id="TL56" fromID="T7" fromText="overnight" toID="E19" toText="discharged" type="BEFORE" />
+<TLINK id="TL6" fromID="E15" fromText="Discharge" toID="T2" toText="06/18/1997" type="OVERLAP" />
+<TLINK id="TL7" fromID="E0" fromText="metastatic rectal cancer" toID="E14" toText="Admission" type="BEFORE" />
+<TLINK id="TL8" fromID="E20" fromText="presented" toID="E23" toText="admitted" type="OVERLAP" />
+<TLINK id="TL9" fromID="E21" fromText="biliary obstruction" toID="E14" toText="Admission" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="06/16/1997" type="ADMISSION" dvalue="1997-06-16" />
+<SECTIME id="S1" start="46" end="56" text="06/18/1997" type="DISCHARGE" dvalue="1997-06-18" />
+<TLINK id="SECTIME0" fromID="E9" fromText="antibiotics" toID="T2" toText="06/18/1997" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E35" fromText="doing well" toID="T2" toText="06/18/1997" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E10" fromText="the intact drain" toID="T2" toText="06/18/1997" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E36" fromText="draining bilious material" toID="T2" toText="06/18/1997" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E37" fromText="difficulty" toID="T2" toText="06/18/1997" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E38" fromText="doing well" toID="T2" toText="06/18/1997" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E39" fromText="belly pain" toID="T2" toText="06/18/1997" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E11" fromText="nausea" toID="T2" toText="06/18/1997" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E0" fromText="metastatic rectal cancer" toID="T1" toText="06/16/1997" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E12" fromText="vomiting" toID="T2" toText="06/18/1997" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E18" fromText="surgery" toID="T2" toText="06/18/1997" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E13" fromText="a second drain" toID="T2" toText="06/18/1997" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E40" fromText="difficulty" toID="T2" toText="06/18/1997" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E41" fromText="transferred" toID="T2" toText="06/18/1997" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E42" fromText="the Short Stay Unit" toID="T2" toText="06/18/1997" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E43" fromText="observed" toID="T2" toText="06/18/1997" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E44" fromText="any problems" toID="T2" toText="06/18/1997" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E45" fromText="tolerating p.o." toID="T2" toText="06/18/1997" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E46" fromText="his baseline" toID="T2" toText="06/18/1997" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E20" fromText="presented" toID="T1" toText="06/16/1997" type="OVERLAP" />
+<TLINK id="SECTIME20" fromID="E19" fromText="discharged" toID="T2" toText="06/18/1997" type="OVERLAP" />
+<TLINK id="SECTIME21" fromID="E47" fromText="stable condition" toID="T2" toText="06/18/1997" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E21" fromText="biliary obstruction" toID="T1" toText="06/16/1997" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E1" fromText="biliary stents" toID="T1" toText="06/16/1997" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E22" fromText="clotted off" toID="T1" toText="06/16/1997" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E23" fromText="admitted" toID="T1" toText="06/16/1997" type="OVERLAP" />
+<TLINK id="SECTIME26" fromID="E24" fromText="the Short Stay Unit" toID="T1" toText="06/16/1997" type="AFTER" />
+<TLINK id="SECTIME27" fromID="E25" fromText="further evaluation" toID="T1" toText="06/16/1997" type="AFTER" />
+<TLINK id="SECTIME28" fromID="E2" fromText="endoscopic retrograde cholangiopancreatography" toID="T1" toText="06/16/1997" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E3" fromText="dilated ducts" toID="T1" toText="06/16/1997" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E4" fromText="percutaneous drains" toID="T1" toText="06/16/1997" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E26" fromText="decompress his biliary tree" toID="T1" toText="06/16/1997" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E5" fromText="two drains" toID="T1" toText="06/16/1997" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E6" fromText="a prolonged course" toID="T1" toText="06/16/1997" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E7" fromText="difficult procedure" toID="T1" toText="06/16/1997" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E27" fromText="transferred" toID="T1" toText="06/16/1997" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E8" fromText="his lateral percutaneous drains" toID="T1" toText="06/16/1997" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E28" fromText="pulled out" toID="T1" toText="06/16/1997" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E16" fromText="admitted" toID="T1" toText="06/16/1997" type="OVERLAP" />
+<TLINK id="SECTIME39" fromID="E29" fromText="the Short Stay Unit" toID="T1" toText="06/16/1997" type="AFTER" />
+<TLINK id="SECTIME40" fromID="E30" fromText="Ancef" toID="T1" toText="06/16/1997" type="AFTER" />
+<TLINK id="SECTIME41" fromID="E31" fromText="Gentamicin" toID="T1" toText="06/16/1997" type="AFTER" />
+<TLINK id="SECTIME42" fromID="E32" fromText="antibiotic prophylaxis" toID="T1" toText="06/16/1997" type="AFTER" />
+<TLINK id="SECTIME43" fromID="E33" fromText="observed" toID="T1" toText="06/16/1997" type="AFTER" />
+<TLINK id="SECTIME44" fromID="E17" fromText="admitted" toID="T2" toText="06/18/1997" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E34" fromText="the Short Stay Unit" toID="T2" toText="06/18/1997" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

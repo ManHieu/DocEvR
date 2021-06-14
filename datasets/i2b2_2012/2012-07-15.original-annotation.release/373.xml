@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+06/29/92
+DISCHARGE DATE :
+07/27/92
+HISTORY OF PRESENT ILLNESS :
+Mr. Villesatelkscurb is a fifty year old black gentleman with a long history of hepatitis C , believed to be contracted during transfusions in a previous trauma .
+The patient had recently prior to this admission , had a rise in his alpha feta protein and a biopsy of his liver had shown hepatocellular carcinoma .
+The patient was admitted for liver transplant workup and to await liver transplant .
+PAST MEDICAL and
+SURGICAL HISTORY :
+Significant for motor vehicle accident in 1966 , requiring exploratory laparotomy and splenectomy , tonsillectomy as a child , pneumonia in the past , hepatitis C and recent diagnosis of hepatocellular carcinoma .
+ADVERSE DRUG REACTIONS :
+no known drug allergies .
+MEDICATIONS ON ADMISSION :
+On admission medications included Lasix and iron .
+HOSPITAL COURSE :
+Preoperatively , the patient underwent chemo-embolization for his hepatocellular carcinoma .
+The remainder of his preoperative course was benign .
+On July 15 , 1992 , a liver became available , and the patient underwent hepatectomy and orthotopic liver transplant .
+His operation was complicated by severe coagulopathy requiring fifty-nine units of packed red blood cells , 64 units of FFP and 34 units of platelets .
+Postoperatively , the patient continued to have a coagulopathy requiring re-exploration on postoperatively day 2 , with findings only of hematoma and no active bleeding .
+Initially , the patient did well in the Intensive Care Unit , mentally alert , and oriented , however , he continued to be coagulopathic and was requiring large amounts of blood and FFP transfusions , with a resultant pulmonary edema .
+He developed renal failure felt to be ATN secondary to ischemia of his kidneys .
+The patient remained intubated in the Intensive Care Unit for twelve days prior to his death .
+He had daily transfusions of FFP and blood , and continued coagulopathy .
+He also developed thrombocytopenia , requiring persistent platelet transfusions on a daily basis .
+His immunosuppression was OKT3 and Solu Medrol , and he underwent hemodialysis and ultra filtration to remove fluid .
+While in the ICU he developed seizures , requiring large amounts of intravenous Valium to break his seizures , and he was maintained on Tegretol and Dilantin .
+However , he became progressively more mentally obtunded .
+During the seizure , he bit his tongue , resulting in a large bleed from his tongue , which was sutured by the ENT Service , however , his continued coagulopathy resulted in bleeding from his nasopharynx , which could never be identified , and also upper gastrointestinal bleeding .
+Endoscopy never revealed specific sources of bleeding , although he appeared to have a diffuse duodenitis .
+He was started on Pitressin to try to control the gastrointestinal bleeding , but he continued to have severe bleeding , and became progressively hypotensive , with eventual bradycardia and cardiac arrest .
+He was pronounced dead at 3:49 PM on July 27 , 1992 .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="1098" end="1109" text="hepatectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="1114" end="1141" text="orthotopic liver transplant" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="1144" end="1157" text="His operation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="1177" end="1196" text="severe coagulopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="1227" end="1249" text="packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1264" end="1267" text="FFP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="1284" end="1293" text="platelets" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1344" end="1358" text="a coagulopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1369" end="1383" text="re-exploration" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="1433" end="1441" text="hematoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="1449" end="1464" text="active bleeding" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E61" start="1503" end="1526" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E80" start="1529" end="1558" text="mentally alert , and oriented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="1590" end="1603" text="coagulopathic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="162" end="173" text="hepatitis C" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="1622" end="1644" text="large amounts of blood" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="1649" end="1665" text="FFP transfusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="1673" end="1700" text="a resultant pulmonary edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="1716" end="1729" text="renal failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E81" start="1741" end="1744" text="ATN" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="1758" end="1781" text="ischemia of his kidneys" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="1805" end="1814" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="1818" end="1841" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E63" start="1867" end="1876" text="his death" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="1886" end="1904" text="daily transfusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="1908" end="1911" text="FFP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="1916" end="1921" text="blood" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="1938" end="1950" text="coagulopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1971" end="1987" text="thrombocytopenia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="2000" end="2032" text="persistent platelet transfusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="2052" end="2073" text="His immunosuppression" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="2078" end="2082" text="OKT3" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="209" end="221" text="transfusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="2087" end="2098" text="Solu Medrol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="2118" end="2130" text="hemodialysis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="2135" end="2151" text="ultra filtration" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="2179" end="2186" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E38" start="2200" end="2208" text="seizures" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="2221" end="2256" text="large amounts of intravenous Valium" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="225" end="242" text="a previous trauma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="2266" end="2278" text="his seizures" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="2306" end="2314" text="Tegretol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="2319" end="2327" text="Dilantin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="2369" end="2386" text="mentally obtunded" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="2396" end="2407" text="the seizure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="2413" end="2427" text="bit his tongue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="2443" end="2472" text="a large bleed from his tongue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="2485" end="2492" text="sutured" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E83" start="2496" end="2511" text="the ENT Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E47" start="2524" end="2550" text="his continued coagulopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="2563" end="2592" text="bleeding from his nasopharynx" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="2638" end="2669" text="upper gastrointestinal bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="2672" end="2681" text="Endoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E51" start="2717" end="2725" text="bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="2757" end="2777" text="a diffuse duodenitis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="2798" end="2807" text="Pitressin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="2826" end="2855" text="the gastrointestinal bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="279" end="293" text="this admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="2883" end="2898" text="severe bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="2912" end="2937" text="progressively hypotensive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="2945" end="2965" text="eventual bradycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="2970" end="2984" text="cardiac arrest" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="300" end="332" text="a rise in his alpha feta protein" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E84" start="3005" end="3009" text="dead" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="337" end="358" text="a biopsy of his liver" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E68" start="369" end="393" text="hepatocellular carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E69" start="412" end="420" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="425" end="448" text="liver transplant workup" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E71" start="462" end="478" text="liver transplant" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="533" end="555" text="motor vehicle accident" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="576" end="598" text="exploratory laparotomy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="603" end="614" text="splenectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="617" end="630" text="tonsillectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="644" end="653" text="pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="668" end="679" text="hepatitis C" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="704" end="728" text="hepatocellular carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="759" end="779" text="known drug allergies" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E76" start="812" end="821" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E75" start="822" end="833" text="medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="843" end="848" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="853" end="857" text="iron" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="917" end="935" text="chemo-embolization" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="940" end="968" text="his hepatocellular carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T4" start="1028" end="1042" text="July 15 , 1992" type="DATE" val="1992-07-15" mod="NA" />
+<TIMEX3 id="T5" start="1387" end="1408" text="postoperatively day 2" type="DATE" val="1992-07-17" mod="NA" />
+<TIMEX3 id="T1" start="18" end="26" text="06/29/92" type="DATE" val="1992-06-29" mod="NA" />
+<TIMEX3 id="T6" start="1846" end="1857" text="twelve days" type="DURATION" val="P12D" mod="NA" />
+<TIMEX3 id="T0" start="2036" end="2043" text="a daily" type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T7" start="3013" end="3020" text="3:49 PM" type="TIME" val="T15:49" mod="NA" />
+<TIMEX3 id="T8" start="3024" end="3038" text="July 27 , 1992" type="DATE" val="1992-07-27" mod="NA" />
+<TIMEX3 id="T2" start="44" end="52" text="07/27/92" type="DATE" val="1992-07-27" mod="NA" />
+<TIMEX3 id="T3" start="559" end="563" text="1966" type="DATE" val="1966" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T1" toText="06/29/92" type="OVERLAP" />
+<TLINK id="TL1" fromID="E54" fromText="the gastrointestinal bleeding" toID="E55" toText="severe bleeding" type="simultaneous" />
+<TLINK id="TL10" fromID="E59" fromText="DISCHARGE" toID="T2" toText="07/27/92" type="OVERLAP" />
+<TLINK id="TL11" fromID="E66" fromText="hepatitis C" toID="E1" toText="transfusions" type="BEGUN_BY" />
+<TLINK id="TL12" fromID="E1" fromText="transfusions" toID="E2" toText="a previous trauma" type="AFTER" />
+<TLINK id="TL13" fromID="E67" fromText="this admission" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL14" fromID="E4" fromText="a biopsy of his liver" toID="E3" toText="a rise in his alpha feta protein" type="AFTER" />
+<TLINK id="TL15" fromID="E68" fromText="hepatocellular carcinoma" toID="E4" toText="a biopsy of his liver" type="BEFORE_OVERLAP" />
+<TLINK id="TL16" fromID="E69" fromText="admitted" toID="E67" toText="this admission" type="SIMULTANEOUS" />
+<TLINK id="TL17" fromID="E70" fromText="liver transplant workup" toID="E69" toText="admitted" type="AFTER" />
+<TLINK id="TL18" fromID="E71" fromText="liver transplant" toID="E69" toText="admitted" type="AFTER" />
+<TLINK id="TL19" fromID="E70" fromText="liver transplant workup" toID="E71" toText="liver transplant" type="BEFORE" />
+<TLINK id="TL2" fromID="E30" fromText="coagulopathy" toID="E47" toText="his continued coagulopathy" type="simultaneous" />
+<TLINK id="TL20" fromID="E60" fromText="motor vehicle accident" toID="E2" toText="a previous trauma" type="SIMULTANEOUS" />
+<TLINK id="TL21" fromID="E60" fromText="motor vehicle accident" toID="T3" toText="1966" type="OVERLAP" />
+<TLINK id="TL22" fromID="E5" fromText="exploratory laparotomy" toID="E60" toText="motor vehicle accident" type="AFTER" />
+<TLINK id="TL23" fromID="E6" fromText="splenectomy" toID="E5" toText="exploratory laparotomy" type="OVERLAP" />
+<TLINK id="TL24" fromID="E7" fromText="tonsillectomy" toID="E6" toText="splenectomy" type="OVERLAP" />
+<TLINK id="TL25" fromID="E8" fromText="pneumonia" toID="E7" toText="tonsillectomy" type="AFTER" />
+<TLINK id="TL26" fromID="E72" fromText="hepatitis C" toID="E5" toText="exploratory laparotomy" type="AFTER" />
+<TLINK id="TL27" fromID="E73" fromText="hepatocellular carcinoma" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL28" fromID="E74" fromText="known drug allergies" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL29" fromID="E76" fromText="admission" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL3" fromID="E22" fromText="large amounts of blood" toID="E29" toText="blood" type="simultaneous" />
+<TLINK id="TL30" fromID="E75" fromText="medications" toID="E76" toText="admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL31" fromID="E77" fromText="Lasix" toID="E75" toText="medications" type="OVERLAP" />
+<TLINK id="TL32" fromID="E78" fromText="iron" toID="E75" toText="medications" type="OVERLAP" />
+<TLINK id="TL33" fromID="E9" fromText="chemo-embolization" toID="E11" toText="hepatectomy" type="BEFORE" />
+<TLINK id="TL34" fromID="E9" fromText="chemo-embolization" toID="E76" toText="admission" type="AFTER" />
+<TLINK id="TL35" fromID="E10" fromText="his hepatocellular carcinoma" toID="E9" toText="chemo-embolization" type="BEFORE_OVERLAP" />
+<TLINK id="TL36" fromID="E11" fromText="hepatectomy" toID="T4" toText="July 15 , 1992" type="OVERLAP" />
+<TLINK id="TL37" fromID="E12" fromText="orthotopic liver transplant" toID="E11" toText="hepatectomy" type="OVERLAP" />
+<TLINK id="TL38" fromID="E13" fromText="His operation" toID="E12" toText="orthotopic liver transplant" type="SIMULTANEOUS" />
+<TLINK id="TL39" fromID="E15" fromText="packed red blood cells" toID="E14" toText="severe coagulopathy" type="OVERLAP" />
+<TLINK id="TL4" fromID="E23" fromText="FFP transfusions" toID="E28" toText="FFP" type="simultaneous" />
+<TLINK id="TL40" fromID="E16" fromText="FFP" toID="E14" toText="severe coagulopathy" type="OVERLAP" />
+<TLINK id="TL41" fromID="E17" fromText="platelets" toID="E14" toText="severe coagulopathy" type="OVERLAP" />
+<TLINK id="TL42" fromID="E18" fromText="a coagulopathy" toID="E12" toText="orthotopic liver transplant" type="AFTER" />
+<TLINK id="TL43" fromID="E19" fromText="re-exploration" toID="E18" toText="a coagulopathy" type="AFTER" />
+<TLINK id="TL44" fromID="E19" fromText="re-exploration" toID="T5" toText="postoperatively day 2" type="OVERLAP" />
+<TLINK id="TL45" fromID="E20" fromText="hematoma" toID="E19" toText="re-exploration" type="BEFORE_OVERLAP" />
+<TLINK id="TL46" fromID="E79" fromText="active bleeding" toID="E19" toText="re-exploration" type="OVERLAP" />
+<TLINK id="TL47" fromID="E61" fromText="the Intensive Care Unit" toID="E12" toText="orthotopic liver transplant" type="AFTER" />
+<TLINK id="TL48" fromID="E80" fromText="mentally alert , and oriented" toID="E61" toText="the Intensive Care Unit" type="DURING" />
+<TLINK id="TL49" fromID="E22" fromText="large amounts of blood" toID="E21" toText="coagulopathic" type="DURING" />
+<TLINK id="TL5" fromID="E38" fromText="seizures" toID="E40" toText="his seizures" type="simultaneous" />
+<TLINK id="TL50" fromID="E23" fromText="FFP transfusions" toID="E21" toText="coagulopathic" type="DURING" />
+<TLINK id="TL51" fromID="E24" fromText="a resultant pulmonary edema" toID="E23" toText="FFP transfusions" type="OVERLAP" />
+<TLINK id="TL52" fromID="E62" fromText="the Intensive Care Unit" toID="E61" toText="the Intensive Care Unit" type="SIMULTANEOUS" />
+<TLINK id="TL53" fromID="E25" fromText="renal failure" toID="E81" toText="ATN" type="OVERLAP" />
+<TLINK id="TL54" fromID="E81" fromText="ATN" toID="E82" toText="ischemia of his kidneys" type="AFTER" />
+<TLINK id="TL55" fromID="E26" fromText="intubated" toID="E62" toText="the Intensive Care Unit" type="DURING" />
+<TLINK id="TL56" fromID="E26" fromText="intubated" toID="T6" toText="twelve days" type="DURING" />
+<TLINK id="TL57" fromID="T6" fromText="twelve days" toID="E63" toText="his death" type="ENDED_BY" />
+<TLINK id="TL58" fromID="E27" fromText="daily transfusions" toID="E23" toText="FFP transfusions" type="SIMULTANEOUS" />
+<TLINK id="TL59" fromID="E31" fromText="thrombocytopenia" toID="E32" toText="persistent platelet transfusions" type="BEFORE_OVERLAP" />
+<TLINK id="TL6" fromID="E21" fromText="coagulopathic" toID="E30" toText="coagulopathy" type="simultaneous" />
+<TLINK id="TL60" fromID="E32" fromText="persistent platelet transfusions" toID="T0" toText="a daily" type="OVERLAP" />
+<TLINK id="TL61" fromID="E33" fromText="His immunosuppression" toID="E34" toText="OKT3" type="OVERLAP" />
+<TLINK id="TL62" fromID="E33" fromText="His immunosuppression" toID="E35" toText="Solu Medrol" type="OVERLAP" />
+<TLINK id="TL63" fromID="E36" fromText="hemodialysis" toID="E37" toText="ultra filtration" type="OVERLAP" />
+<TLINK id="TL64" fromID="E36" fromText="hemodialysis" toID="E25" toText="renal failure" type="AFTER" />
+<TLINK id="TL65" fromID="E64" fromText="the ICU" toID="E62" toText="the Intensive Care Unit" type="SIMULTANEOUS" />
+<TLINK id="TL66" fromID="E38" fromText="seizures" toID="E64" toText="the ICU" type="DURING" />
+<TLINK id="TL67" fromID="E39" fromText="large amounts of intravenous Valium" toID="E38" toText="seizures" type="AFTER" />
+<TLINK id="TL68" fromID="E41" fromText="Tegretol" toID="E42" toText="Dilantin" type="OVERLAP" />
+<TLINK id="TL69" fromID="E44" fromText="the seizure" toID="E40" toText="his seizures" type="SIMULTANEOUS" />
+<TLINK id="TL7" fromID="E14" fromText="severe coagulopathy" toID="E18" toText="a coagulopathy" type="simultaneous" />
+<TLINK id="TL70" fromID="E43" fromText="mentally obtunded" toID="E64" toText="the ICU" type="DURING" />
+<TLINK id="TL71" fromID="E65" fromText="bit his tongue" toID="E44" toText="the seizure" type="DURING" />
+<TLINK id="TL72" fromID="E45" fromText="a large bleed from his tongue" toID="E65" toText="bit his tongue" type="AFTER" />
+<TLINK id="TL73" fromID="E45" fromText="a large bleed from his tongue" toID="E46" toText="sutured" type="ENDED_BY" />
+<TLINK id="TL74" fromID="E46" fromText="sutured" toID="E83" toText="the ENT Service" type="OVERLAP" />
+<TLINK id="TL75" fromID="E47" fromText="his continued coagulopathy" toID="E48" toText="bleeding from his nasopharynx" type="" />
+<TLINK id="TL76" fromID="E47" fromText="his continued coagulopathy" toID="E49" toText="upper gastrointestinal bleeding" type="BEFORE_OVERLAP" />
+<TLINK id="TL77" fromID="E51" fromText="bleeding" toID="E50" toText="Endoscopy" type="BEFORE_OVERLAP" />
+<TLINK id="TL78" fromID="E52" fromText="a diffuse duodenitis" toID="E51" toText="bleeding" type="OVERLAP" />
+<TLINK id="TL79" fromID="E53" fromText="Pitressin" toID="E54" toText="the gastrointestinal bleeding" type="DURING" />
+<TLINK id="TL8" fromID="E49" fromText="upper gastrointestinal bleeding" toID="E54" toText="the gastrointestinal bleeding" type="simultaneous" />
+<TLINK id="TL80" fromID="E56" fromText="progressively hypotensive" toID="E55" toText="severe bleeding" type="DURING" />
+<TLINK id="TL81" fromID="E56" fromText="progressively hypotensive" toID="E57" toText="eventual bradycardia" type="BEFORE_OVERLAP" />
+<TLINK id="TL82" fromID="E56" fromText="progressively hypotensive" toID="E58" toText="cardiac arrest" type="BEFORE_OVERLAP" />
+<TLINK id="TL83" fromID="E84" fromText="dead" toID="E58" toText="cardiac arrest" type="AFTER" />
+<TLINK id="TL84" fromID="E84" fromText="dead" toID="T7" toText="3:49 PM" type="" />
+<TLINK id="TL85" fromID="T7" fromText="3:49 PM" toID="T8" toText="July 27 , 1992" type="OVERLAP" />
+<TLINK id="TL86" fromID="E84" fromText="dead" toID="E59" toText="DISCHARGE" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="E18" fromText="a coagulopathy" toID="E21" toText="coagulopathic" type="simultaneous" />
+<TLINK id="Sectime0" fromID="E11" fromText="hepatectomy" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E12" fromText="orthotopic liver transplant" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E13" fromText="His operation" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E14" fromText="severe coagulopathy" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E15" fromText="packed red blood cells" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E16" fromText="FFP" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E17" fromText="platelets" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E18" fromText="a coagulopathy" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E19" fromText="re-exploration" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E20" fromText="hematoma" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E79" fromText="active bleeding" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E61" fromText="the Intensive Care Unit" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E80" fromText="mentally alert , and oriented" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E21" fromText="coagulopathic" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E66" fromText="hepatitis C" toID="T1" toText="06/29/92" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime14" fromID="E22" fromText="large amounts of blood" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E23" fromText="FFP transfusions" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E24" fromText="a resultant pulmonary edema" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E25" fromText="renal failure" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E81" fromText="ATN" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E82" fromText="ischemia of his kidneys" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E26" fromText="intubated" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E62" fromText="the Intensive Care Unit" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E63" fromText="his death" toID="T2" toText="07/27/92" type="OVERLAP" />
+<TLINK id="Sectime23" fromID="E27" fromText="daily transfusions" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E28" fromText="FFP" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E29" fromText="blood" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E30" fromText="coagulopathy" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E31" fromText="thrombocytopenia" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E32" fromText="persistent platelet transfusions" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E33" fromText="His immunosuppression" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E34" fromText="OKT3" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E1" fromText="transfusions" toID="T1" toText="06/29/92" type="BEFORE" />
+<TLINK id="Sectime31" fromID="E35" fromText="Solu Medrol" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime32" fromID="E36" fromText="hemodialysis" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime33" fromID="E37" fromText="ultra filtration" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime34" fromID="E64" fromText="the ICU" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime35" fromID="E38" fromText="seizures" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime36" fromID="E39" fromText="large amounts of intravenous Valium" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E2" fromText="a previous trauma" toID="T1" toText="06/29/92" type="BEFORE" />
+<TLINK id="Sectime37" fromID="E40" fromText="his seizures" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime38" fromID="E41" fromText="Tegretol" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime39" fromID="E42" fromText="Dilantin" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime40" fromID="E43" fromText="mentally obtunded" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime41" fromID="E44" fromText="the seizure" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime42" fromID="E65" fromText="bit his tongue" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime43" fromID="E45" fromText="a large bleed from his tongue" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime44" fromID="E46" fromText="sutured" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime45" fromID="E83" fromText="the ENT Service" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime46" fromID="E47" fromText="his continued coagulopathy" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime47" fromID="E48" fromText="bleeding from his nasopharynx" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime48" fromID="E49" fromText="upper gastrointestinal bleeding" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime49" fromID="E50" fromText="Endoscopy" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime50" fromID="E51" fromText="bleeding" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime51" fromID="E52" fromText="a diffuse duodenitis" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime52" fromID="E53" fromText="Pitressin" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime53" fromID="E54" fromText="the gastrointestinal bleeding" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E67" fromText="this admission" toID="T1" toText="06/29/92" type="OVERLAP" />
+<TLINK id="Sectime54" fromID="E55" fromText="severe bleeding" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime55" fromID="E56" fromText="progressively hypotensive" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime56" fromID="E57" fromText="eventual bradycardia" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime57" fromID="E58" fromText="cardiac arrest" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E3" fromText="a rise in his alpha feta protein" toID="T1" toText="06/29/92" type="BEFORE" />
+<TLINK id="Sectime58" fromID="E84" fromText="dead" toID="T2" toText="07/27/92" type="OVERLAP" />
+<TLINK id="Sectime5" fromID="E4" fromText="a biopsy of his liver" toID="T1" toText="06/29/92" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E68" fromText="hepatocellular carcinoma" toID="T1" toText="06/29/92" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime7" fromID="E69" fromText="admitted" toID="T1" toText="06/29/92" type="OVERLAP" />
+<TLINK id="Sectime8" fromID="E70" fromText="liver transplant workup" toID="T1" toText="06/29/92" type="AFTER" />
+<TLINK id="Sectime9" fromID="E71" fromText="liver transplant" toID="T1" toText="06/29/92" type="AFTER" />
+<TLINK id="Sectime10" fromID="E60" fromText="motor vehicle accident" toID="T1" toText="06/29/92" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E5" fromText="exploratory laparotomy" toID="T1" toText="06/29/92" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E6" fromText="splenectomy" toID="T1" toText="06/29/92" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E7" fromText="tonsillectomy" toID="T1" toText="06/29/92" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E8" fromText="pneumonia" toID="T1" toText="06/29/92" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E72" fromText="hepatitis C" toID="T1" toText="06/29/92" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime16" fromID="E73" fromText="hepatocellular carcinoma" toID="T1" toText="06/29/92" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime17" fromID="E74" fromText="known drug allergies" toID="T1" toText="06/29/92" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E76" fromText="admission" toID="T1" toText="06/29/92" type="OVERLAP" />
+<TLINK id="Sectime19" fromID="E75" fromText="medications" toID="T1" toText="06/29/92" type="OVERLAP" />
+<TLINK id="Sectime20" fromID="E77" fromText="Lasix" toID="T1" toText="06/29/92" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime21" fromID="E78" fromText="iron" toID="T1" toText="06/29/92" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime59" fromID="E9" fromText="chemo-embolization" toID="T2" toText="07/27/92" type="BEFORE" />
+<TLINK id="Sectime60" fromID="E10" fromText="his hepatocellular carcinoma" toID="T2" toText="07/27/92" type="BEFORE" />
+<SECTIME id="S0" start="18" end="26" text="06/29/92" type="ADMISSION" dvalue="1992-06-29" />
+<SECTIME id="S1" start="44" end="52" text="07/27/92" type="DISCHARGE" dvalue="1992-07-27" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

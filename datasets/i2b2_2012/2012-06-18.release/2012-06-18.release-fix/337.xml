@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2017-06-12
+Discharge Date :
+2017-06-14
+Service :
+MEDICINE
+History of Present Illness :
+70 y/o F w/ tracheobronchomalacia , COPD , PMR , recurrent pneumonias who was recently discharged from Hallmark Health System to Pocasset Mental Health Center
+06-07 after tracheobronchoplasty / tracheostomy and pigtail catheter placement for pleural effusions .
+Since discharge pt has continued at rehab on ps vent settings but pigtail catheter fell out today so pt was referred here for monitoring .
+On ROS , she notes feeling poorly , nausea , and diarrhea since d/c .
+She has pleuritic chest pain which she has had since she arrested during her admission here and had CPR .
+Per husband she has no cardiac history , and had a stress test ( unclr how recent ) that was normal
+Brief Hospital Course:
+Pleural effusion : s/p pigtail cath drain .
+Imaging indicated that the pleural effusions had resolved .
+Thoracics agreed to no need for pigtail placement .
+CHF :
+Patient was seen by CHF ( echo results are detailed above ) .
+They recommended continuing beta-blocker and titarting ace as tolerated .
+Patient should be kept euvolemic once peripheral edema resolves ( may use lasix to decrease edema ).
+She will need a repeat echo in 3-6 months ( since this echo showed a question of focal wall motion abnormality ).
+Also , patient was started on amiodarone and digoxin was held secondary to high levels ( please restart when level less than 2 )
+Diarrhea :
+Stool c. diff neg x1 .
+She will need two more specimens .
+COPD : cont nebs .
+PAF : started on amio , cont b-blocker , and patient was started on coumadin - levels ( inr ) should be monitored .
+Nutrition :
+Patient should be started on tube feeds at rehab
+Rash :
+Patient developed a diffuse erythematous rash , though to be an ID reaction to a recent fungal infection .
+She has been satrted on benadryl and hydrocort for sx relief .
+Please monitor this ( may need dermatology consult ).
+Also a drug reaction is in the ddx but unlikely as rash started at rehab prior to receiving drugs here .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="1057" end="1069" text="beta-blocker" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1084" end="1087" text="ace" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1126" end="1135" text="euvolemic" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1141" end="1157" text="peripheral edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="1158" end="1166" text="resolves" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="117" end="138" text="tracheobronchomalacia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="1177" end="1182" text="lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="1195" end="1200" text="edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1218" end="1231" text="a repeat echo" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E12" start="1254" end="1263" text="this echo" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="1264" end="1270" text="showed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="1285" end="1314" text="focal wall motion abnormality" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="1348" end="1358" text="amiodarone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="1363" end="1370" text="digoxin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="1393" end="1404" text="high levels" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="141" end="145" text="COPD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="1414" end="1421" text="restart" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="1458" end="1471" text="Stool c. diff" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="148" end="151" text="PMR" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="1495" end="1513" text="two more specimens" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E58" start="1528" end="1532" text="nebs" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="154" end="174" text="recurrent pneumonias" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="1552" end="1556" text="amio" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="1564" end="1573" text="b-blocker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="1603" end="1611" text="coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="1639" end="1648" text="monitored" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E63" start="1692" end="1702" text="tube feeds" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="1706" end="1711" text="rehab" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E65" start="1737" end="1764" text="a diffuse erythematous rash" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="1780" end="1794" text="an ID reaction" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="1798" end="1823" text="a recent fungal infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="1850" end="1858" text="benadryl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="1863" end="1872" text="hydrocort" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="1896" end="1903" text="monitor" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E17" start="192" end="202" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="1920" end="1939" text="dermatology consult" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E72" start="1948" end="1963" text="a drug reaction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="1994" end="1998" text="rash" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="2010" end="2015" text="rehab" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E75" start="2035" end="2040" text="drugs" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="208" end="230" text="Hallmark Health System" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E25" start="234" end="263" text="Pocasset Mental Health Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E1" start="276" end="296" text="tracheobronchoplasty" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="299" end="311" text="tracheostomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="316" end="342" text="pigtail catheter placement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="347" end="364" text="pleural effusions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="373" end="382" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="403" end="408" text="rehab" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E27" start="412" end="428" text="ps vent settings" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="433" end="449" text="pigtail catheter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="475" end="483" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="493" end="503" text="monitoring" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="509" end="512" text="ROS" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="519" end="524" text="notes" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E33" start="533" end="539" text="poorly" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="542" end="548" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="555" end="563" text="diarrhea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="570" end="573" text="d/c" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="584" end="604" text="pleuritic chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="633" end="641" text="arrested" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="649" end="662" text="her admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="676" end="679" text="CPR" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="705" end="720" text="cardiac history" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E5" start="731" end="744" text="a stress test" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="805" end="821" text="Pleural effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="828" end="846" text="pigtail cath drain" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="849" end="856" text="Imaging" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="857" end="866" text="indicated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E9" start="872" end="893" text="the pleural effusions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="909" end="918" text="Thoracics" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E10" start="941" end="958" text="pigtail placement" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E11" start="961" end="964" text="CHF" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="987" end="990" text="CHF" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<TIMEX3 id="T0" start="1235" end="1245" text="3-6 months" type="DATE" val="2017-10-29" mod="APPROX" />
+<TIMEX3 id="T1" start="18" end="28" text="2017-06-12" type="DATE" val="2017-06-12" mod="NA" />
+<TIMEX3 id="T3" start="264" end="269" text="06-07" type="DATE" val="2017-06-07" mod="NA" />
+<TIMEX3 id="T4" start="459" end="464" text="today" type="DATE" val="2017-06-12" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2017-06-14" type="DATE" val="2017-06-14" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="2017-06-12" type="OVERLAP" />
+<TLINK id="TL1" fromID="E3" fromText="pigtail catheter placement" toID="E10" toText="pigtail placement" type="OVERLAP" />
+<TLINK id="TL10" fromID="E1" fromText="tracheobronchoplasty" toID="E2" toText="tracheostomy" type="OVERLAP" />
+<TLINK id="TL11" fromID="E2" fromText="tracheostomy" toID="E3" toText="pigtail catheter placement" type="OVERLAP" />
+<TLINK id="TL12" fromID="E3" fromText="pigtail catheter placement" toID="E4" toText="pleural effusions" type="OVERLAP" />
+<TLINK id="TL13" fromID="E19" fromText="discharge" toID="E17" toText="discharged" type="OVERLAP" />
+<TLINK id="TL14" fromID="E26" fromText="rehab" toID="E25" toText="Pocasset Mental Health Center" type="OVERLAP" />
+<TLINK id="TL15" fromID="E27" fromText="ps vent settings" toID="E26" toText="rehab" type="OVERLAP" />
+<TLINK id="TL16" fromID="E28" fromText="pigtail catheter" toID="T4" toText="today" type="OVERLAP" />
+<TLINK id="TL17" fromID="E29" fromText="referred" toID="E28" toText="pigtail catheter" type="AFTER" />
+<TLINK id="TL18" fromID="E29" fromText="referred" toID="T4" toText="today" type="OVERLAP" />
+<TLINK id="TL19" fromID="E30" fromText="monitoring" toID="E29" toText="referred" type="AFTER" />
+<TLINK id="TL2" fromID="E6" fromText="Pleural effusion" toID="E9" toText="the pleural effusions" type="OVERLAP" />
+<TLINK id="TL20" fromID="E31" fromText="ROS" toID="E32" toText="notes" type="OVERLAP" />
+<TLINK id="TL21" fromID="E33" fromText="poorly" toID="E32" toText="notes" type="BEFORE" />
+<TLINK id="TL22" fromID="E34" fromText="nausea" toID="E32" toText="notes" type="BEFORE" />
+<TLINK id="TL23" fromID="E35" fromText="diarrhea" toID="E32" toText="notes" type="BEFORE" />
+<TLINK id="TL24" fromID="E35" fromText="diarrhea" toID="E20" toText="d/c" type="AFTER" />
+<TLINK id="TL25" fromID="E34" fromText="nausea" toID="E20" toText="d/c" type="AFTER" />
+<TLINK id="TL26" fromID="E33" fromText="poorly" toID="E20" toText="d/c" type="AFTER" />
+<TLINK id="TL27" fromID="E36" fromText="pleuritic chest pain" toID="E37" toText="arrested" type="AFTER" />
+<TLINK id="TL28" fromID="E37" fromText="arrested" toID="E38" toText="her admission" type="OVERLAP" />
+<TLINK id="TL29" fromID="E39" fromText="CPR" toID="E37" toText="arrested" type="AFTER" />
+<TLINK id="TL3" fromID="E16" fromText="Discharge" toID="T2" toText="2017-06-14" type="OVERLAP" />
+<TLINK id="TL30" fromID="E40" fromText="cardiac history" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL31" fromID="E5" fromText="a stress test" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL32" fromID="E7" fromText="pigtail cath drain" toID="E6" toText="Pleural effusion" type="OVERLAP" />
+<TLINK id="TL33" fromID="E9" fromText="the pleural effusions" toID="E41" toText="indicated" type="BEFORE" />
+<TLINK id="TL34" fromID="E8" fromText="Imaging" toID="E41" toText="indicated" type="OVERLAP" />
+<TLINK id="TL35" fromID="E42" fromText="Thoracics" toID="E10" toText="pigtail placement" type="OVERLAP" />
+<TLINK id="TL36" fromID="E44" fromText="beta-blocker" toID="E43" toText="CHF" type="AFTER" />
+<TLINK id="TL37" fromID="E45" fromText="ace" toID="E44" toText="beta-blocker" type="OVERLAP" />
+<TLINK id="TL38" fromID="E46" fromText="euvolemic" toID="E48" toText="resolves" type="AFTER" />
+<TLINK id="TL39" fromID="E47" fromText="peripheral edema" toID="E48" toText="resolves" type="BEFORE" />
+<TLINK id="TL4" fromID="E21" fromText="tracheobronchomalacia" toID="E22" toText="COPD" type="OVERLAP" />
+<TLINK id="TL40" fromID="E49" fromText="lasix" toID="E50" toText="edema" type="OVERLAP" />
+<TLINK id="TL41" fromID="E49" fromText="lasix" toID="E48" toText="resolves" type="BEFORE" />
+<TLINK id="TL42" fromID="E51" fromText="a repeat echo" toID="T0" toText="3-6 months" type="OVERLAP" />
+<TLINK id="TL43" fromID="E12" fromText="this echo" toID="E52" toText="showed" type="OVERLAP" />
+<TLINK id="TL44" fromID="E53" fromText="focal wall motion abnormality" toID="E52" toText="showed" type="BEFORE" />
+<TLINK id="TL45" fromID="E13" fromText="digoxin" toID="E14" toText="high levels" type="BEFORE" />
+<TLINK id="TL46" fromID="E54" fromText="amiodarone" toID="E13" toText="digoxin" type="AFTER" />
+<TLINK id="TL47" fromID="E55" fromText="restart" toID="E13" toText="digoxin" type="AFTER" />
+<TLINK id="TL48" fromID="E56" fromText="Stool c. diff" toID="E57" toText="two more specimens" type="OVERLAP" />
+<TLINK id="TL49" fromID="E60" fromText="b-blocker" toID="E44" toText="beta-blocker" type="OVERLAP" />
+<TLINK id="TL5" fromID="E22" fromText="COPD" toID="E23" toText="PMR" type="OVERLAP" />
+<TLINK id="TL50" fromID="E61" fromText="coumadin" toID="E62" toText="monitored" type="OVERLAP" />
+<TLINK id="TL51" fromID="E59" fromText="amio" toID="E60" toText="b-blocker" type="OVERLAP" />
+<TLINK id="TL52" fromID="E63" fromText="tube feeds" toID="E64" toText="rehab" type="OVERLAP" />
+<TLINK id="TL53" fromID="E66" fromText="an ID reaction" toID="E67" toText="a recent fungal infection" type="AFTER" />
+<TLINK id="TL54" fromID="E65" fromText="a diffuse erythematous rash" toID="E66" toText="an ID reaction" type="OVERLAP" />
+<TLINK id="TL55" fromID="E68" fromText="benadryl" toID="E65" toText="a diffuse erythematous rash" type="AFTER" />
+<TLINK id="TL56" fromID="E69" fromText="hydrocort" toID="E65" toText="a diffuse erythematous rash" type="AFTER" />
+<TLINK id="TL57" fromID="E70" fromText="monitor" toID="E68" toText="benadryl" type="OVERLAP" />
+<TLINK id="TL58" fromID="E71" fromText="dermatology consult" toID="E70" toText="monitor" type="OVERLAP" />
+<TLINK id="TL59" fromID="E73" fromText="rash" toID="E74" toText="rehab" type="AFTER" />
+<TLINK id="TL6" fromID="E18" fromText="Hallmark Health System" toID="E17" toText="discharged" type="BEFORE" />
+<TLINK id="TL60" fromID="E75" fromText="drugs" toID="E73" toText="rash" type="OVERLAP" />
+<TLINK id="TL61" fromID="E72" fromText="a drug reaction" toID="E75" toText="drugs" type="OVERLAP" />
+<TLINK id="TL62" fromID="E24" fromText="recurrent pneumonias" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL7" fromID="E25" fromText="Pocasset Mental Health Center" toID="E17" toText="discharged" type="AFTER" />
+<TLINK id="TL8" fromID="E17" fromText="discharged" toID="T3" toText="06-07" type="OVERLAP" />
+<TLINK id="TL9" fromID="E1" fromText="tracheobronchoplasty" toID="E18" toText="Hallmark Health System" type="OVERLAP" />
+<TLINK id="SECTIME0" fromID="E44" fromText="beta-blocker" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E45" fromText="ace" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E46" fromText="euvolemic" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E47" fromText="peripheral edema" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E48" fromText="resolves" toID="T2" toText="2017-06-14" type="AFTER" />
+<TLINK id="SECTIME5" fromID="E21" fromText="tracheobronchomalacia" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E49" fromText="lasix" toID="T2" toText="2017-06-14" type="AFTER" />
+<TLINK id="SECTIME7" fromID="E50" fromText="edema" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E51" fromText="a repeat echo" toID="T2" toText="2017-06-14" type="AFTER" />
+<TLINK id="SECTIME9" fromID="E12" fromText="this echo" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E52" fromText="showed" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E53" fromText="focal wall motion abnormality" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E54" fromText="amiodarone" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E13" fromText="digoxin" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E14" fromText="high levels" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E22" fromText="COPD" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E55" fromText="restart" toID="T2" toText="2017-06-14" type="AFTER" />
+<TLINK id="SECTIME17" fromID="E56" fromText="Stool c. diff" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E23" fromText="PMR" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E57" fromText="two more specimens" toID="T2" toText="2017-06-14" type="AFTER" />
+<TLINK id="SECTIME20" fromID="E58" fromText="nebs" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E24" fromText="recurrent pneumonias" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E59" fromText="amio" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E60" fromText="b-blocker" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E61" fromText="coumadin" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E62" fromText="monitored" toID="T2" toText="2017-06-14" type="AFTER" />
+<TLINK id="SECTIME26" fromID="E63" fromText="tube feeds" toID="T2" toText="2017-06-14" type="AFTER" />
+<TLINK id="SECTIME27" fromID="E64" fromText="rehab" toID="T2" toText="2017-06-14" type="AFTER" />
+<TLINK id="SECTIME28" fromID="E65" fromText="a diffuse erythematous rash" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E66" fromText="an ID reaction" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E67" fromText="a recent fungal infection" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E68" fromText="benadryl" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E69" fromText="hydrocort" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E70" fromText="monitor" toID="T2" toText="2017-06-14" type="AFTER" />
+<TLINK id="SECTIME34" fromID="E17" fromText="discharged" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E71" fromText="dermatology consult" toID="T2" toText="2017-06-14" type="AFTER" />
+<TLINK id="SECTIME36" fromID="E72" fromText="a drug reaction" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E73" fromText="rash" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E74" fromText="rehab" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E75" fromText="drugs" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E18" fromText="Hallmark Health System" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E25" fromText="Pocasset Mental Health Center" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E1" fromText="tracheobronchoplasty" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E2" fromText="tracheostomy" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E3" fromText="pigtail catheter placement" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E4" fromText="pleural effusions" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E19" fromText="discharge" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E26" fromText="rehab" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E27" fromText="ps vent settings" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E28" fromText="pigtail catheter" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E29" fromText="referred" toID="T1" toText="2017-06-12" type="OVERLAP" />
+<TLINK id="SECTIME51" fromID="E30" fromText="monitoring" toID="T1" toText="2017-06-12" type="OVERLAP" />
+<TLINK id="SECTIME52" fromID="E31" fromText="ROS" toID="T1" toText="2017-06-12" type="OVERLAP" />
+<TLINK id="SECTIME53" fromID="E32" fromText="notes" toID="T1" toText="2017-06-12" type="OVERLAP" />
+<TLINK id="SECTIME54" fromID="E33" fromText="poorly" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E34" fromText="nausea" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E35" fromText="diarrhea" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E20" fromText="d/c" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E36" fromText="pleuritic chest pain" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E37" fromText="arrested" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E38" fromText="her admission" toID="T1" toText="2017-06-12" type="OVERLAP" />
+<TLINK id="SECTIME61" fromID="E39" fromText="CPR" toID="T1" toText="2017-06-12" type="OVERLAP" />
+<TLINK id="SECTIME62" fromID="E40" fromText="cardiac history" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E5" fromText="a stress test" toID="T1" toText="2017-06-12" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E6" fromText="Pleural effusion" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E7" fromText="pigtail cath drain" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E8" fromText="Imaging" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E41" fromText="indicated" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E9" fromText="the pleural effusions" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E42" fromText="Thoracics" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E10" fromText="pigtail placement" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E11" fromText="CHF" toID="T2" toText="2017-06-14" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E43" fromText="CHF" toID="T2" toText="2017-06-14" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2017-06-12" type="ADMISSION" dvalue="2017-06-12" />
+<SECTIME id="S1" start="46" end="56" text="2017-06-14" type="DISCHARGE" dvalue="2017-06-14" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

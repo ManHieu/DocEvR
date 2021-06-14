@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+08/16/1998
+Discharge Date :
+08/18/1998
+HISTORY OF PRESENT ILLNESS :
+The patient is an 88 year-old woman undergoing treatment for a right lower extremity cellulitis who was transferred from Child for worsening cellulitis and new confusion .
+The patient has a history of severe aortic stenosis and was recently admitted to the Retelk County Medical Center for a Nafcillin sensitive Staphylococcus aureus cellulitis of the right leg treated with a course of Nafcillin and Levofloxacin .
+There was also a right leg fluid collection that was incised and drained on August 1 , 1998 .
+The patient was sent to rehabilitation on Levofloxacin orally .
+Although details were not available at the time of admission , apparently , she had done well until the 24 hours proceeding admission when the cellulitis was felt to be worsening .
+She had also been noted to be confused and combative during that 24 hour period .
+As her baseline mental status is completely alert and oriented , this caused concern amongst the staff of the rehabilitation center and the patient was transferred to the Retelk County Medical Center .
+HOSPITAL COURSE :
+1) Mental status changes :
+On admission to the emergency room , the patient was somewhat argumentative and confused as well as uncooperative with procedures .
+A neurologic work-up was undertaken which included a CT scan of the head which revealed no acute bleed and a lumbar puncture which revealed a glucose of 72 , protein 65 , white blood cell count 19 , red blood cell count 11,500 with no evidence of xanthrochromasia .
+The Neurology Service evaluated the patient who felt that her agitation was most likely due to infection , her multiple medications , or her metabolic condition .
+The patient &apos;s mental status slowly began to recover , however on the morning of the first day of admission , August 16 , 1998 , the patient was found after having fallen .
+A neurological examination was performed which revealed no abnormality and imaging included a head scan which revealed no bleed and a cervical spine series which revealed degenerative joint disease but no obvious fracture .
+The patient decided not to pursue further testing with a neck CT scan .
+At the time of discharge , the patient &apos;s mental status is back to its baseline .
+2) Right lower extremity cellulitis :
+The patient was evaluated by the Surgical Service who felt that the wound was clean with some erythema but without evidence of true cellulitis .
+The patient &apos;s antibiotics were discontinued with the thought that prolonged antibiotics only put her at more risk for infection .
+3) Cardiac :
+The patient has a history of critical aortic stenosis and mitral regurgitation .
+Fortunately , these issues were not active during the present admission .
+4) Status post fall :
+The patient did fall while inhouse .
+A head CT scan and cervical spine series were negative .
+The patient appeared to have no deficits at the time of discharge .
+5) Atrial fibrillation :
+The patient &apos;s Coumadin was continued .
+6) Abnormal liver function tests :
+On admission , the patient was noted to have elevated bilirubins in the 3 range and mildly elevated alkaline phosphatase consistent with a cholestatic picture .
+These liver function tests will be followed closely as an outpatient .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E51" start="1029" end="1054" text="the rehabilitation center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E52" start="1075" end="1086" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="1090" end="1122" text="the Retelk County Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E6" start="1146" end="1167" text="Mental status changes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="1173" end="1182" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="1186" end="1204" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E7" start="1232" end="1245" text="argumentative" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="1250" end="1258" text="confused" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="1270" end="1299" text="uncooperative with procedures" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="1302" end="1322" text="A neurologic work-up" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="133" end="142" text="treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="1353" end="1374" text="a CT scan of the head" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E56" start="1393" end="1404" text="acute bleed" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E12" start="1409" end="1426" text="a lumbar puncture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E13" start="1442" end="1451" text="a glucose" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="1460" end="1467" text="protein" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="147" end="181" text="a right lower extremity cellulitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="1473" end="1495" text="white blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="1501" end="1521" text="red blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="1549" end="1565" text="xanthrochromasia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E58" start="1568" end="1589" text="The Neurology Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E17" start="1626" end="1639" text="her agitation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="1663" end="1672" text="infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1675" end="1699" text="her multiple medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="1705" end="1728" text="her metabolic condition" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="1751" end="1764" text="mental status" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="1765" end="1788" text="slowly began to recover" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="1881" end="1886" text="found" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="190" end="201" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E62" start="1900" end="1906" text="fallen" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1909" end="1935" text="A neurological examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E63" start="1968" end="1979" text="abnormality" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E22" start="1984" end="1991" text="imaging" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="2001" end="2012" text="a head scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E64" start="2031" end="2036" text="bleed" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E24" start="2041" end="2064" text="a cervical spine series" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="207" end="212" text="Child" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E65" start="2080" end="2106" text="degenerative joint disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="2114" end="2130" text="obvious fracture" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E37" start="217" end="237" text="worsening cellulitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="2167" end="2182" text="further testing" modality="PROPOSED" polarity="NEG" type="TEST" />
+<EVENT id="E68" start="2188" end="2202" text="a neck CT scan" modality="PROPOSED" polarity="NEG" type="TEST" />
+<EVENT id="E71" start="2232" end="2265" text="the patient &apos;s mental status" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="2269" end="2289" text="back to its baseline" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="2295" end="2327" text="Right lower extremity cellulitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="2359" end="2379" text="the Surgical Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E26" start="2394" end="2403" text="the wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="242" end="255" text="new confusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="2419" end="2432" text="some erythema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="2457" end="2472" text="true cellulitis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E75" start="2475" end="2506" text="The patient &apos;s antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="2547" end="2568" text="prolonged antibiotics" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="2599" end="2608" text="infection" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E78" start="2653" end="2677" text="critical aortic stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="2682" end="2702" text="mitral regurgitation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="2719" end="2731" text="these issues" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E81" start="2741" end="2747" text="active" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E82" start="2755" end="2776" text="the present admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="2794" end="2798" text="fall" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="2817" end="2821" text="fall" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E84" start="2828" end="2835" text="inhouse" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E29" start="2838" end="2852" text="A head CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="2857" end="2878" text="cervical spine series" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="287" end="309" text="severe aortic stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E98" start="2884" end="2892" text="negative" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E85" start="2927" end="2935" text="deficits" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E87" start="2966" end="2985" text="Atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="2988" end="3016" text="The patient &apos;s Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E89" start="3071" end="3080" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E90" start="3113" end="3132" text="elevated bilirubins" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E91" start="3152" end="3188" text="mildly elevated alkaline phosphatase" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E92" start="3205" end="3226" text="a cholestatic picture" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E93" start="3229" end="3255" text="These liver function tests" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="327" end="335" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E94" start="3264" end="3280" text="followed closely" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E95" start="3284" end="3297" text="an outpatient" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="339" end="371" text="the Retelk County Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E42" start="376" end="447" text="a Nafcillin sensitive Staphylococcus aureus cellulitis of the right leg" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="461" end="482" text="a course of Nafcillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="487" end="499" text="Levofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="517" end="545" text="a right leg fluid collection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="555" end="562" text="incised" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="567" end="574" text="drained" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="620" end="634" text="rehabilitation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="638" end="650" text="Levofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="744" end="753" text="done well" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E46" start="784" end="793" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="799" end="813" text="the cellulitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="829" end="838" text="worsening" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="871" end="879" text="confused" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="884" end="893" text="combative" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E96" start="926" end="952" text="her baseline mental status" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E97" start="956" end="985" text="completely alert and oriented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T0" start="18" end="28" text="08/16/1998" type="DATE" val="1998-08-16" mod="NA" />
+<TIMEX3 id="T6" start="1802" end="1862" text="the morning of the first day of admission , August 16 , 1998" type="DATE" val="1998-08-16" mod="START" />
+<TIMEX3 id="T7" start="2208" end="2216" text="the time" type="DATE" val="1998-08-18" mod="NA" />
+<TIMEX3 id="T8" start="2939" end="2960" text="the time of discharge" type="DATE" val="1998-08-18" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="08/18/1998" type="DATE" val="1998-08-18" mod="NA" />
+<TIMEX3 id="T1" start="578" end="593" text="August 1 , 1998" type="DATE" val="1998-08-01" mod="NA" />
+<TIMEX3 id="T9" start="699" end="720" text="the time of admission" type="DATE" val="1998-08-16" mod="NA" />
+<TIMEX3 id="T4" start="760" end="772" text="the 24 hours" type="DATE" val="1998-08-15" mod="START" />
+<TIMEX3 id="T5" start="906" end="913" text="24 hour" type="DURATION" val="PT24H" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="08/16/1998" type="OVERLAP" />
+<TLINK id="TL1" fromID="E4" fromText="rehabilitation" toID="E5" toText="Levofloxacin" type="OVERLAP" />
+<TLINK id="TL10" fromID="E41" fromText="the Retelk County Medical Center" toID="E40" toText="admitted" type="AFTER" />
+<TLINK id="TL11" fromID="E39" fromText="severe aortic stenosis" toID="E40" toText="admitted" type="BEFORE" />
+<TLINK id="TL12" fromID="E42" fromText="a Nafcillin sensitive Staphylococcus aureus cellulitis of the right leg" toID="E41" toText="the Retelk County Medical Center" type="BEFORE" />
+<TLINK id="TL13" fromID="E1" fromText="a course of Nafcillin" toID="E41" toText="the Retelk County Medical Center" type="OVERLAP" />
+<TLINK id="TL14" fromID="E2" fromText="Levofloxacin" toID="E41" toText="the Retelk County Medical Center" type="OVERLAP" />
+<TLINK id="TL15" fromID="E3" fromText="a right leg fluid collection" toID="E43" toText="incised" type="BEFORE" />
+<TLINK id="TL16" fromID="E44" fromText="drained" toID="E43" toText="incised" type="OVERLAP" />
+<TLINK id="TL17" fromID="E44" fromText="drained" toID="T1" toText="August 1 , 1998" type="OVERLAP" />
+<TLINK id="TL18" fromID="T9" fromText="the time of admission" toID="E46" toText="admission" type="OVERLAP" />
+<TLINK id="TL19" fromID="E45" fromText="done well" toID="T4" toText="the 24 hours" type="BEFORE" />
+<TLINK id="TL2" fromID="E8" fromText="confused" toID="E9" toText="uncooperative with procedures" type="OVERLAP" />
+<TLINK id="TL20" fromID="E48" fromText="worsening" toID="E47" toText="the cellulitis" type="OVERLAP" />
+<TLINK id="TL21" fromID="E48" fromText="worsening" toID="T4" toText="the 24 hours" type="AFTER" />
+<TLINK id="TL22" fromID="E49" fromText="confused" toID="T5" toText="24 hour" type="OVERLAP" />
+<TLINK id="TL23" fromID="E50" fromText="combative" toID="T5" toText="24 hour" type="OVERLAP" />
+<TLINK id="TL24" fromID="T5" fromText="24 hour" toID="E46" toText="admission" type="BEFORE" />
+<TLINK id="TL25" fromID="E97" fromText="completely alert and oriented" toID="E96" toText="her baseline mental status" type="OVERLAP" />
+<TLINK id="TL26" fromID="E50" fromText="combative" toID="E51" toText="the rehabilitation center" type="OVERLAP" />
+<TLINK id="TL27" fromID="E51" fromText="the rehabilitation center" toID="E52" toText="transferred" type="BEFORE" />
+<TLINK id="TL28" fromID="E53" fromText="the Retelk County Medical Center" toID="E52" toText="transferred" type="AFTER" />
+<TLINK id="TL29" fromID="E6" fromText="Mental status changes" toID="E96" toText="her baseline mental status" type="AFTER" />
+<TLINK id="TL3" fromID="E22" fromText="imaging" toID="E23" toText="a head scan" type="OVERLAP" />
+<TLINK id="TL30" fromID="E54" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL31" fromID="E55" fromText="the emergency room" toID="E54" toText="admission" type="AFTER" />
+<TLINK id="TL32" fromID="E7" fromText="argumentative" toID="E54" toText="admission" type="OVERLAP" />
+<TLINK id="TL33" fromID="E8" fromText="confused" toID="E54" toText="admission" type="OVERLAP" />
+<TLINK id="TL34" fromID="E10" fromText="A neurologic work-up" toID="E54" toText="admission" type="AFTER" />
+<TLINK id="TL35" fromID="E11" fromText="a CT scan of the head" toID="E10" toText="A neurologic work-up" type="OVERLAP" />
+<TLINK id="TL36" fromID="E56" fromText="acute bleed" toID="E11" toText="a CT scan of the head" type="OVERLAP" />
+<TLINK id="TL37" fromID="E12" fromText="a lumbar puncture" toID="E10" toText="A neurologic work-up" type="OVERLAP" />
+<TLINK id="TL38" fromID="E13" fromText="a glucose" toID="E12" toText="a lumbar puncture" type="OVERLAP" />
+<TLINK id="TL39" fromID="E14" fromText="protein" toID="E12" toText="a lumbar puncture" type="OVERLAP" />
+<TLINK id="TL4" fromID="E32" fromText="Discharge" toID="T2" toText="08/18/1998" type="OVERLAP" />
+<TLINK id="TL40" fromID="E15" fromText="white blood cell count" toID="E12" toText="a lumbar puncture" type="OVERLAP" />
+<TLINK id="TL41" fromID="E16" fromText="red blood cell count" toID="E12" toText="a lumbar puncture" type="OVERLAP" />
+<TLINK id="TL42" fromID="E57" fromText="xanthrochromasia" toID="E12" toText="a lumbar puncture" type="BEFORE" />
+<TLINK id="TL43" fromID="E17" fromText="her agitation" toID="E58" toText="The Neurology Service" type="BEFORE" />
+<TLINK id="TL44" fromID="E17" fromText="her agitation" toID="E18" toText="infection" type="OVERLAP" />
+<TLINK id="TL45" fromID="E17" fromText="her agitation" toID="E19" toText="her multiple medications" type="OVERLAP" />
+<TLINK id="TL46" fromID="E17" fromText="her agitation" toID="E20" toText="her metabolic condition" type="OVERLAP" />
+<TLINK id="TL47" fromID="E59" fromText="mental status" toID="E6" toText="Mental status changes" type="OVERLAP" />
+<TLINK id="TL48" fromID="E60" fromText="slowly began to recover" toID="E59" toText="mental status" type="OVERLAP" />
+<TLINK id="TL49" fromID="E61" fromText="found" toID="T6" toText="the morning of the first day of admission , August 16 , 1998" type="OVERLAP" />
+<TLINK id="TL5" fromID="E34" fromText="a right lower extremity cellulitis" toID="E33" toText="treatment" type="BEFORE" />
+<TLINK id="TL50" fromID="E61" fromText="found" toID="E62" toText="fallen" type="AFTER" />
+<TLINK id="TL51" fromID="E21" fromText="A neurological examination" toID="E61" toText="found" type="AFTER" />
+<TLINK id="TL52" fromID="E63" fromText="abnormality" toID="E21" toText="A neurological examination" type="BEFORE" />
+<TLINK id="TL53" fromID="E64" fromText="bleed" toID="E23" toText="a head scan" type="OVERLAP" />
+<TLINK id="TL55" fromID="E24" fromText="a cervical spine series" toID="E22" toText="imaging" type="OVERLAP" />
+<TLINK id="TL56" fromID="E65" fromText="degenerative joint disease" toID="E24" toText="a cervical spine series" type="BEFORE" />
+<TLINK id="TL57" fromID="E66" fromText="obvious fracture" toID="E24" toText="a cervical spine series" type="BEFORE" />
+<TLINK id="TL58" fromID="E24" fromText="a cervical spine series" toID="E67" toText="further testing" type="BEFORE" />
+<TLINK id="TL59" fromID="E67" fromText="further testing" toID="E68" toText="a neck CT scan" type="OVERLAP" />
+<TLINK id="TL6" fromID="E36" fromText="Child" toID="E35" toText="transferred" type="BEFORE" />
+<TLINK id="TL60" fromID="E71" fromText="the patient &apos;s mental status" toID="T7" toText="the time" type="OVERLAP" />
+<TLINK id="TL61" fromID="E71" fromText="the patient &apos;s mental status" toID="E72" toText="back to its baseline" type="OVERLAP" />
+<TLINK id="TL62" fromID="E73" fromText="the Surgical Service" toID="E25" toText="Right lower extremity cellulitis" type="OVERLAP" />
+<TLINK id="TL63" fromID="E26" fromText="the wound" toID="E73" toText="the Surgical Service" type="BEFORE" />
+<TLINK id="TL64" fromID="E26" fromText="the wound" toID="E27" toText="some erythema" type="OVERLAP" />
+<TLINK id="TL65" fromID="E26" fromText="the wound" toID="E74" toText="true cellulitis" type="OVERLAP" />
+<TLINK id="TL66" fromID="E75" fromText="The patient &apos;s antibiotics" toID="E73" toText="the Surgical Service" type="BEFORE" />
+<TLINK id="TL67" fromID="E76" fromText="prolonged antibiotics" toID="E75" toText="The patient &apos;s antibiotics" type="AFTER" />
+<TLINK id="TL68" fromID="E76" fromText="prolonged antibiotics" toID="E77" toText="infection" type="OVERLAP" />
+<TLINK id="TL69" fromID="E78" fromText="critical aortic stenosis" toID="E79" toText="mitral regurgitation" type="OVERLAP" />
+<TLINK id="TL7" fromID="E35" fromText="transferred" toID="E33" toText="treatment" type="OVERLAP" />
+<TLINK id="TL70" fromID="E78" fromText="critical aortic stenosis" toID="E80" toText="these issues" type="OVERLAP" />
+<TLINK id="TL71" fromID="E80" fromText="these issues" toID="E81" toText="active" type="OVERLAP" />
+<TLINK id="TL72" fromID="E81" fromText="active" toID="E82" toText="the present admission" type="OVERLAP" />
+<TLINK id="TL73" fromID="E82" fromText="the present admission" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL74" fromID="E82" fromText="the present admission" toID="E32" toText="Discharge" type="BEFORE" />
+<TLINK id="TL75" fromID="E28" fromText="fall" toID="E62" toText="fallen" type="" />
+<TLINK id="TL76" fromID="E83" fromText="fall" toID="E28" toText="fall" type="OVERLAP" />
+<TLINK id="TL77" fromID="E83" fromText="fall" toID="E84" toText="inhouse" type="OVERLAP" />
+<TLINK id="TL78" fromID="E29" fromText="A head CT scan" toID="E98" toText="negative" type="OVERLAP" />
+<TLINK id="TL79" fromID="E30" fromText="cervical spine series" toID="E98" toText="negative" type="OVERLAP" />
+<TLINK id="TL8" fromID="E37" fromText="worsening cellulitis" toID="E38" toText="new confusion" type="OVERLAP" />
+<TLINK id="TL80" fromID="E30" fromText="cervical spine series" toID="E24" toText="a cervical spine series" type="OVERLAP" />
+<TLINK id="TL81" fromID="E29" fromText="A head CT scan" toID="E23" toText="a head scan" type="OVERLAP" />
+<TLINK id="TL82" fromID="E85" fromText="deficits" toID="T8" toText="the time of discharge" type="BEFORE" />
+<TLINK id="TL83" fromID="E88" fromText="The patient &apos;s Coumadin" toID="E87" toText="Atrial fibrillation" type="OVERLAP" />
+<TLINK id="TL84" fromID="E89" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL85" fromID="E90" fromText="elevated bilirubins" toID="E89" toText="admission" type="OVERLAP" />
+<TLINK id="TL86" fromID="E91" fromText="mildly elevated alkaline phosphatase" toID="E89" toText="admission" type="OVERLAP" />
+<TLINK id="TL87" fromID="E91" fromText="mildly elevated alkaline phosphatase" toID="E92" toText="a cholestatic picture" type="OVERLAP" />
+<TLINK id="TL88" fromID="E93" fromText="These liver function tests" toID="E94" toText="followed closely" type="OVERLAP" />
+<TLINK id="TL89" fromID="E94" fromText="followed closely" toID="E95" toText="an outpatient" type="OVERLAP" />
+<TLINK id="TL9" fromID="E37" fromText="worsening cellulitis" toID="E35" toText="transferred" type="BEFORE" />
+<TLINK id="TL90" fromID="E95" fromText="an outpatient" toID="E32" toText="Discharge" type="AFTER" />
+<SECTIME id="S0" start="18" end="28" text="08/16/1998" type="ADMISSION" dvalue="1998-08-16" />
+<SECTIME id="S1" start="46" end="56" text="08/18/1998" type="DISCHARGE" dvalue="1998-08-18" />
+<TLINK id="SECTIME0" fromID="E51" fromText="the rehabilitation center" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E52" fromText="transferred" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E53" fromText="the Retelk County Medical Center" toID="T0" toText="08/16/1998" type="OVERLAP" />
+<TLINK id="SECTIME3" fromID="E6" fromText="Mental status changes" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E54" fromText="admission" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E55" fromText="the emergency room" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E7" fromText="argumentative" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E8" fromText="confused" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E9" fromText="uncooperative with procedures" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E10" fromText="A neurologic work-up" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E33" fromText="treatment" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E11" fromText="a CT scan of the head" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E56" fromText="acute bleed" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E12" fromText="a lumbar puncture" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E13" fromText="a glucose" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E14" fromText="protein" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E34" fromText="a right lower extremity cellulitis" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E15" fromText="white blood cell count" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E16" fromText="red blood cell count" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E57" fromText="xanthrochromasia" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E58" fromText="The Neurology Service" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E17" fromText="her agitation" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E18" fromText="infection" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E19" fromText="her multiple medications" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E20" fromText="her metabolic condition" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E59" fromText="mental status" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E60" fromText="slowly began to recover" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E61" fromText="found" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E35" fromText="transferred" toID="T0" toText="08/16/1998" type="OVERLAP" />
+<TLINK id="SECTIME29" fromID="E62" fromText="fallen" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E21" fromText="A neurological examination" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E63" fromText="abnormality" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E22" fromText="imaging" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E23" fromText="a head scan" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E64" fromText="bleed" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E24" fromText="a cervical spine series" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E36" fromText="Child" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E65" fromText="degenerative joint disease" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E66" fromText="obvious fracture" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E37" fromText="worsening cellulitis" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E67" fromText="further testing" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E68" fromText="a neck CT scan" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E71" fromText="the patient &apos;s mental status" toID="T2" toText="08/18/1998" type="OVERLAP" />
+<TLINK id="SECTIME43" fromID="E72" fromText="back to its baseline" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E25" fromText="Right lower extremity cellulitis" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E73" fromText="the Surgical Service" toID="T2" toText="08/18/1998" type="AFTER" />
+<TLINK id="SECTIME46" fromID="E26" fromText="the wound" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E38" fromText="new confusion" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E27" fromText="some erythema" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E74" fromText="true cellulitis" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E75" fromText="The patient &apos;s antibiotics" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E76" fromText="prolonged antibiotics" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E77" fromText="infection" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E78" fromText="critical aortic stenosis" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E79" fromText="mitral regurgitation" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E80" fromText="these issues" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E81" fromText="active" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E82" fromText="the present admission" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E28" fromText="fall" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E83" fromText="fall" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E84" fromText="inhouse" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E29" fromText="A head CT scan" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E30" fromText="cervical spine series" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E39" fromText="severe aortic stenosis" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E98" fromText="negative" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E85" fromText="deficits" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E87" fromText="Atrial fibrillation" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E88" fromText="The patient &apos;s Coumadin" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E89" fromText="admission" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E90" fromText="elevated bilirubins" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E91" fromText="mildly elevated alkaline phosphatase" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E92" fromText="a cholestatic picture" toID="T2" toText="08/18/1998" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E93" fromText="These liver function tests" toID="T2" toText="08/18/1998" type="AFTER" />
+<TLINK id="SECTIME73" fromID="E40" fromText="admitted" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E94" fromText="followed closely" toID="T2" toText="08/18/1998" type="AFTER" />
+<TLINK id="SECTIME75" fromID="E95" fromText="an outpatient" toID="T2" toText="08/18/1998" type="AFTER" />
+<TLINK id="SECTIME76" fromID="E41" fromText="the Retelk County Medical Center" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E42" fromText="a Nafcillin sensitive Staphylococcus aureus cellulitis of the right leg" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E1" fromText="a course of Nafcillin" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E2" fromText="Levofloxacin" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E3" fromText="a right leg fluid collection" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E43" fromText="incised" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E44" fromText="drained" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E4" fromText="rehabilitation" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E5" fromText="Levofloxacin" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E45" fromText="done well" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E46" fromText="admission" toID="T0" toText="08/16/1998" type="OVERLAP" />
+<TLINK id="SECTIME87" fromID="E47" fromText="the cellulitis" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E48" fromText="worsening" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E49" fromText="confused" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E50" fromText="combative" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E96" fromText="her baseline mental status" toID="T0" toText="08/16/1998" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E97" fromText="completely alert and oriented" toID="T0" toText="08/16/1998" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

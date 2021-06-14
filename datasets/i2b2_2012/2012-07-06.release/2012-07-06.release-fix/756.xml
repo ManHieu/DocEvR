@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+10/23/1999
+Discharge Date :
+11/02/1999
+HISTORY OF PRESENT ILLNESS :
+Ms. Breunlinke is a 69 year-old right handed woman , status post surgical correction of a C-1 to C-2 dural AVM in January , 1998 , now presenting with a one month history of increasing left sided weakness and pain with spasticity , occasional difficulty swallowing and abdominal pain .
+She was originally admitted to the Verg Medical Center in January , 1998 , because of a one year history of left sided weakness and spasticity .
+She was found to have intermedullary lesion at C1-2 level which on biopsy showed abnormal vasculature , hemosiderin deposit , leading in turn to the discovery of a dural arteriovenous malformation at that level which was surgically corrected .
+The postoperative period was complicated by transient swallowing difficulty , increasing left sided weakness and urinary retention .
+She was discharged to inpatient rehabilitation where she made significant progress toward recovery .
+As of the beginning of September , 1999 , she was able to swallow without difficulty , urinate without difficulty ( although bowel movements have been problematic ) .
+Functionally , she was at the level of pre-gait training and able to stand and take several steps with upper body support .
+Over the past 4-5 weeks her functional level has progressively deteriorated .
+She is now unable to stand and needs assistance to sit up .
+Her left arm has developed a flexure contraction and she reports intermitttent pain in the left arm and leg which occurs both spontaneously and is also triggered by contact .
+She has developed some new swallowing difficulty and since her transfer to a long term inpatient care facility , she has lost ten pounds .
+She denies dysuria or excessive urinary frequency .
+Over the past several weeks she has also developed severe intermittent abdominal pain , localized to the suprapubic area , left greater than right , occurring intermittently .
+The patient feels this is secondary to her hemorrhoids , although it does not clearly localize to the rectum .
+This pain often follows bowel movement but does occur spontaneously .
+HOSPITAL COURSE :
+On admission , a CT scan of the head with and without contrast was performed , showing a missing posterior arch at C-1 and metallic clips at the craniocervical junction consistent with prior surgical intervention .
+No arteriovenous malformations are identified ; there is no evidence of recurrence of her former vascular malformation .
+No intraspinal lesions are identified .
+Upon further review of Dr. Laymie Fields , Department of Neuroradiology , review of the cervical spine on CT reveals no extrinsic compressive lesions impacting the spinal cord and no enhancing lesions of the spinal cord with contrast .
+Angiography performed on October 31 , 1999 , showed normal vascular distribution of the head and neck with no recurrence of arteriovenous malformation .
+During this admission , the patient was started on Baclofen 10 mg p.o. t.i.d. for spasticity .
+Coumadin was discontinued .
+The patient was given aspirin 325 mg p.o. q.d.
+The patient was also given Valium 5-10 mg p.o. t.i.d. for muscle spasm .
+She was continued on Demerol 50 mg q 6-8 hours p.r.n. for left arm and leg pain .
+Upon further review of CT and angiography results with Neuroradiology and Neurology service , it was decided that CT myelography was not indicated at this time .
+Note , the patient is not a candidate for magnetic resonance imaging secondary to ferromagnetic intracardiac pacing device .
+]]></TEXT>
+<TAGS>
+<EVENT id="E35" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1053" end="1060" text="swallow" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="1069" end="1079" text="difficulty" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E44" start="1082" end="1089" text="urinate" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1098" end="1108" text="difficulty" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E58" start="1120" end="1135" text="bowel movements" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E59" start="1146" end="1157" text="problematic" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E14" start="1201" end="1218" text="pre-gait training" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="1223" end="1236" text="able to stand" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1241" end="1259" text="take several steps" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="1265" end="1283" text="upper body support" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1310" end="1330" text="her functional level" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="1335" end="1361" text="progressively deteriorated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="1375" end="1390" text="unable to stand" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="1395" end="1421" text="needs assistance to sit up" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="1451" end="1472" text="a flexure contraction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="1481" end="1488" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E18" start="1489" end="1531" text="intermitttent pain in the left arm and leg" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="151" end="196" text="surgical correction of a C-1 to C-2 dural AVM" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="1550" end="1563" text="spontaneously" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="1576" end="1596" text="triggered by contact" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="1622" end="1647" text="new swallowing difficulty" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="1658" end="1670" text="her transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="1674" end="1709" text="a long term inpatient care facility" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E68" start="1720" end="1735" text="lost ten pounds" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E69" start="1749" end="1756" text="dysuria" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E70" start="1760" end="1787" text="excessive urinary frequency" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E71" start="1841" end="1875" text="severe intermittent abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="2005" end="2020" text="her hemorrhoids" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="2077" end="2086" text="This pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="2101" end="2115" text="bowel movement" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="2131" end="2144" text="spontaneously" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="2168" end="2177" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="2180" end="2201" text="a CT scan of the head" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E0" start="221" end="231" text="presenting" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="2244" end="2251" text="showing" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E75" start="2252" end="2283" text="a missing posterior arch at C-1" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E76" start="2288" end="2333" text="metallic clips at the craniocervical junction" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="2350" end="2377" text="prior surgical intervention" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="2383" end="2410" text="arteriovenous malformations" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E22" start="2452" end="2462" text="recurrence" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E78" start="2466" end="2498" text="her former vascular malformation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="2504" end="2523" text="intraspinal lesions" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E79" start="2546" end="2560" text="further review" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E80" start="2584" end="2612" text="Department of Neuroradiology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E2" start="260" end="290" text="increasing left sided weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E81" start="2615" end="2621" text="review" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="2647" end="2649" text="CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="2650" end="2657" text="reveals" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E25" start="2661" end="2690" text="extrinsic compressive lesions" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E26" start="2724" end="2760" text="enhancing lesions of the spinal cord" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E27" start="2766" end="2774" text="contrast" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="2777" end="2788" text="Angiography" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E52" start="2822" end="2828" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E82" start="2829" end="2878" text="normal vascular distribution of the head and neck" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E83" start="2887" end="2927" text="recurrence of arteriovenous malformation" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E36" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="295" end="299" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E84" start="2937" end="2951" text="this admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E85" start="2981" end="2989" text="Baclofen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="3012" end="3022" text="spasticity" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="3025" end="3033" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E87" start="3038" end="3050" text="discontinued" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="305" end="315" text="spasticity" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="3075" end="3082" text="aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E88" start="3127" end="3133" text="Valium" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E89" start="3158" end="3170" text="muscle spasm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E90" start="3194" end="3201" text="Demerol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="3231" end="3252" text="left arm and leg pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E91" start="3268" end="3274" text="review" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E32" start="3278" end="3280" text="CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="329" end="350" text="difficulty swallowing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="3285" end="3296" text="angiography" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E92" start="3310" end="3346" text="Neuroradiology and Neurology service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E93" start="3369" end="3383" text="CT myelography" modality="PROPOSED" polarity="NEG" type="TEST" />
+<EVENT id="E94" start="3459" end="3485" text="magnetic resonance imaging" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E34" start="3499" end="3539" text="ferromagnetic intracardiac pacing device" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="355" end="369" text="abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="391" end="399" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="403" end="426" text="the Verg Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E5" start="480" end="499" text="left sided weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="504" end="514" text="spasticity" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="539" end="574" text="intermedullary lesion at C1-2 level" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="584" end="590" text="biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="591" end="597" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E9" start="598" end="618" text="abnormal vasculature" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="621" end="640" text="hemosiderin deposit" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="679" end="713" text="a dural arteriovenous malformation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="738" end="758" text="surgically corrected" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="761" end="785" text="The postoperative period" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="805" end="836" text="transient swallowing difficulty" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="839" end="869" text="increasing left sided weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="874" end="891" text="urinary retention" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="902" end="912" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="916" end="940" text="inpatient rehabilitation" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E95" start="956" end="976" text="significant progress" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T5" start="1018" end="1034" text="September , 1999" type="DATE" val="1999-09" mod="START" />
+<TIMEX3 id="T8" start="1291" end="1309" text="the past 4-5 weeks" type="DURATION" val="p4.5w" mod="APPROX" />
+<TIMEX3 id="T1" start="18" end="28" text="10/23/1999" type="DATE" val="1999-10-23" mod="NA" />
+<TIMEX3 id="T9" start="1804" end="1817" text="several weeks" type="DURATION" val="P4W" mod="APPROX" />
+<TIMEX3 id="T3" start="200" end="214" text="January , 1998" type="DATE" val="1998-01" mod="NA" />
+<TIMEX3 id="T0" start="239" end="248" text="one month" type="DURATION" val="P1M" mod="NA" />
+<TIMEX3 id="T6" start="2802" end="2819" text="October 31 , 1999" type="DATE" val="1999-10-31" mod="NA" />
+<TIMEX3 id="T10" start="3001" end="3007" text="t.i.d." type="FREQUENCY" val="RPT8H" mod="NA" />
+<TIMEX3 id="T11" start="3095" end="3099" text="q.d." type="FREQUENCY" val="RPT24H" mod="NA" />
+<TIMEX3 id="T12" start="3147" end="3153" text="t.i.d." type="FREQUENCY" val="RPT8H" mod="NA" />
+<TIMEX3 id="T13" start="3208" end="3226" text="q 6-8 hours p.r.n." type="DATE" val="rp7h" mod="APPROX" />
+<TIMEX3 id="T4" start="430" end="444" text="January , 1998" type="DATE" val="1998-01" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="11/02/1999" type="DATE" val="1999-11-02" mod="NA" />
+<TIMEX3 id="T7" start="460" end="468" text="one year" type="DURATION" val="P1Y" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="presenting" toID="E35" toText="Admission" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="surgical correction of a C-1 to C-2 dural AVM" toID="E21" toText="prior surgical intervention" type="OVERLAP" />
+<TLINK id="TL10" fromID="E36" fromText="Discharge" toID="T2" toText="11/02/1999" type="OVERLAP" />
+<TLINK id="TL100" fromID="E88" fromText="Valium" toID="T12" toText="t.i.d." type="OVERLAP" />
+<TLINK id="TL101" fromID="E88" fromText="Valium" toID="E89" toText="muscle spasm" type="OVERLAP" />
+<TLINK id="TL102" fromID="E90" fromText="Demerol" toID="T13" toText="q 6-8 hours p.r.n." type="OVERLAP" />
+<TLINK id="TL103" fromID="E90" fromText="Demerol" toID="E31" toText="left arm and leg pain" type="OVERLAP" />
+<TLINK id="TL104" fromID="E91" fromText="review" toID="E92" toText="Neuroradiology and Neurology service" type="OVERLAP" />
+<TLINK id="TL105" fromID="E32" fromText="CT" toID="E91" toText="review" type="BEFORE" />
+<TLINK id="TL106" fromID="E33" fromText="angiography" toID="E91" toText="review" type="BEFORE" />
+<TLINK id="TL107" fromID="E93" fromText="CT myelography" toID="E92" toText="Neuroradiology and Neurology service" type="OVERLAP" />
+<TLINK id="TL108" fromID="E94" fromText="magnetic resonance imaging" toID="E34" toText="ferromagnetic intracardiac pacing device" type="AFTER" />
+<TLINK id="TL11" fromID="E1" fromText="surgical correction of a C-1 to C-2 dural AVM" toID="T3" toText="January , 1998" type="OVERLAP" />
+<TLINK id="TL12" fromID="E37" fromText="admitted" toID="T4" toText="January , 1998" type="OVERLAP" />
+<TLINK id="TL13" fromID="E42" fromText="inpatient rehabilitation" toID="E41" toText="discharged" type="AFTER" />
+<TLINK id="TL15" fromID="E45" fromText="difficulty" toID="E44" toText="urinate" type="OVERLAP" />
+<TLINK id="TL16" fromID="E24" fromText="CT" toID="E20" toText="a CT scan of the head" type="OVERLAP" />
+<TLINK id="TL17" fromID="E25" fromText="extrinsic compressive lesions" toID="E24" toText="CT" type="BEFORE" />
+<TLINK id="TL19" fromID="E28" fromText="Angiography" toID="T6" toText="October 31 , 1999" type="OVERLAP" />
+<TLINK id="TL2" fromID="E4" fromText="spasticity" toID="E6" toText="spasticity" type="OVERLAP" />
+<TLINK id="TL20" fromID="E32" fromText="CT" toID="E24" toText="CT" type="OVERLAP" />
+<TLINK id="TL21" fromID="E33" fromText="angiography" toID="E28" toText="Angiography" type="OVERLAP" />
+<TLINK id="TL22" fromID="T0" fromText="one month" toID="E0" toText="presenting" type="BEFORE" />
+<TLINK id="TL23" fromID="E2" fromText="increasing left sided weakness" toID="T0" toText="one month" type="OVERLAP" />
+<TLINK id="TL24" fromID="E3" fromText="pain" toID="E2" toText="increasing left sided weakness" type="OVERLAP" />
+<TLINK id="TL25" fromID="E4" fromText="spasticity" toID="E3" toText="pain" type="OVERLAP" />
+<TLINK id="TL26" fromID="E53" fromText="difficulty swallowing" toID="E54" toText="abdominal pain" type="OVERLAP" />
+<TLINK id="TL27" fromID="E38" fromText="the Verg Medical Center" toID="E37" toText="admitted" type="AFTER" />
+<TLINK id="TL28" fromID="E38" fromText="the Verg Medical Center" toID="T4" toText="January , 1998" type="OVERLAP" />
+<TLINK id="TL29" fromID="T7" fromText="one year" toID="T4" toText="January , 1998" type="BEFORE" />
+<TLINK id="TL3" fromID="E28" fromText="Angiography" toID="E33" toText="angiography" type="OVERLAP" />
+<TLINK id="TL30" fromID="E5" fromText="left sided weakness" toID="T7" toText="one year" type="OVERLAP" />
+<TLINK id="TL31" fromID="E6" fromText="spasticity" toID="E5" toText="left sided weakness" type="OVERLAP" />
+<TLINK id="TL32" fromID="E8" fromText="biopsy" toID="E39" toText="showed" type="OVERLAP" />
+<TLINK id="TL33" fromID="E7" fromText="intermedullary lesion at C1-2 level" toID="E8" toText="biopsy" type="BEFORE" />
+<TLINK id="TL34" fromID="E9" fromText="abnormal vasculature" toID="E39" toText="showed" type="BEFORE" />
+<TLINK id="TL35" fromID="E10" fromText="hemosiderin deposit" toID="E39" toText="showed" type="BEFORE" />
+<TLINK id="TL36" fromID="E11" fromText="a dural arteriovenous malformation" toID="E8" toText="biopsy" type="BEFORE" />
+<TLINK id="TL38" fromID="E40" fromText="surgically corrected" toID="E11" toText="a dural arteriovenous malformation" type="OVERLAP" />
+<TLINK id="TL39" fromID="E56" fromText="transient swallowing difficulty" toID="E55" toText="The postoperative period" type="OVERLAP" />
+<TLINK id="TL40" fromID="E55" fromText="The postoperative period" toID="E40" toText="surgically corrected" type="AFTER" />
+<TLINK id="TL41" fromID="E12" fromText="increasing left sided weakness" toID="E55" toText="The postoperative period" type="OVERLAP" />
+<TLINK id="TL42" fromID="E13" fromText="urinary retention" toID="E55" toText="The postoperative period" type="OVERLAP" />
+<TLINK id="TL43" fromID="E55" fromText="The postoperative period" toID="E41" toText="discharged" type="BEFORE" />
+<TLINK id="TL45" fromID="E95" fromText="significant progress" toID="E42" toText="inpatient rehabilitation" type="OVERLAP" />
+<TLINK id="TL46" fromID="E43" fromText="swallow" toID="T5" toText="September , 1999" type="AFTER" />
+<TLINK id="TL47" fromID="E43" fromText="swallow" toID="E57" toText="difficulty" type="OVERLAP" />
+<TLINK id="TL48" fromID="E44" fromText="urinate" toID="T5" toText="September , 1999" type="AFTER" />
+<TLINK id="TL49" fromID="E58" fromText="bowel movements" toID="E44" toText="urinate" type="OVERLAP" />
+<TLINK id="TL50" fromID="E59" fromText="problematic" toID="E58" toText="bowel movements" type="OVERLAP" />
+<TLINK id="TL51" fromID="E14" fromText="pre-gait training" toID="T5" toText="September , 1999" type="OVERLAP" />
+<TLINK id="TL52" fromID="E60" fromText="able to stand" toID="E14" toText="pre-gait training" type="OVERLAP" />
+<TLINK id="TL53" fromID="E46" fromText="take several steps" toID="E60" toText="able to stand" type="OVERLAP" />
+<TLINK id="TL54" fromID="E15" fromText="upper body support" toID="E46" toText="take several steps" type="OVERLAP" />
+<TLINK id="TL55" fromID="T8" fromText="the past 4-5 weeks" toID="E35" toText="Admission" type="BEFORE" />
+<TLINK id="TL56" fromID="E16" fromText="her functional level" toID="T8" toText="the past 4-5 weeks" type="OVERLAP" />
+<TLINK id="TL57" fromID="E16" fromText="her functional level" toID="E61" toText="progressively deteriorated" type="OVERLAP" />
+<TLINK id="TL58" fromID="E47" fromText="unable to stand" toID="E48" toText="needs assistance to sit up" type="OVERLAP" />
+<TLINK id="TL59" fromID="E47" fromText="unable to stand" toID="E35" toText="Admission" type="OVERLAP" />
+<TLINK id="TL60" fromID="E17" fromText="a flexure contraction" toID="E18" toText="intermitttent pain in the left arm and leg" type="OVERLAP" />
+<TLINK id="TL61" fromID="E18" fromText="intermitttent pain in the left arm and leg" toID="E64" toText="spontaneously" type="OVERLAP" />
+<TLINK id="TL62" fromID="E63" fromText="triggered by contact" toID="E18" toText="intermitttent pain in the left arm and leg" type="OVERLAP" />
+<TLINK id="TL63" fromID="E18" fromText="intermitttent pain in the left arm and leg" toID="E62" toText="reports" type="BEFORE" />
+<TLINK id="TL64" fromID="E65" fromText="new swallowing difficulty" toID="E35" toText="Admission" type="BEFORE" />
+<TLINK id="TL65" fromID="E67" fromText="a long term inpatient care facility" toID="E66" toText="her transfer" type="AFTER" />
+<TLINK id="TL66" fromID="E66" fromText="her transfer" toID="E41" toText="discharged" type="OVERLAP" />
+<TLINK id="TL67" fromID="E66" fromText="her transfer" toID="E68" toText="lost ten pounds" type="BEFORE" />
+<TLINK id="TL68" fromID="E69" fromText="dysuria" toID="E70" toText="excessive urinary frequency" type="OVERLAP" />
+<TLINK id="TL69" fromID="T9" fromText="several weeks" toID="E35" toText="Admission" type="BEFORE" />
+<TLINK id="TL70" fromID="E71" fromText="severe intermittent abdominal pain" toID="T9" toText="several weeks" type="OVERLAP" />
+<TLINK id="TL71" fromID="E19" fromText="her hemorrhoids" toID="E71" toText="severe intermittent abdominal pain" type="BEFORE" />
+<TLINK id="TL72" fromID="E72" fromText="This pain" toID="E71" toText="severe intermittent abdominal pain" type="OVERLAP" />
+<TLINK id="TL73" fromID="E72" fromText="This pain" toID="E73" toText="bowel movement" type="AFTER" />
+<TLINK id="TL74" fromID="E72" fromText="This pain" toID="E74" toText="spontaneously" type="OVERLAP" />
+<TLINK id="TL75" fromID="E20" fromText="a CT scan of the head" toID="E49" toText="admission" type="OVERLAP" />
+<TLINK id="TL76" fromID="E50" fromText="showing" toID="E20" toText="a CT scan of the head" type="OVERLAP" />
+<TLINK id="TL77" fromID="E75" fromText="a missing posterior arch at C-1" toID="E50" toText="showing" type="BEFORE" />
+<TLINK id="TL78" fromID="E76" fromText="metallic clips at the craniocervical junction" toID="E50" toText="showing" type="BEFORE" />
+<TLINK id="TL79" fromID="E22" fromText="recurrence" toID="E78" toText="her former vascular malformation" type="OVERLAP" />
+<TLINK id="TL8" fromID="E24" fromText="CT" toID="E32" toText="CT" type="OVERLAP" />
+<TLINK id="TL80" fromID="E77" fromText="arteriovenous malformations" toID="E50" toText="showing" type="OVERLAP" />
+<TLINK id="TL81" fromID="E22" fromText="recurrence" toID="E50" toText="showing" type="OVERLAP" />
+<TLINK id="TL82" fromID="E23" fromText="intraspinal lesions" toID="E50" toText="showing" type="OVERLAP" />
+<TLINK id="TL83" fromID="E79" fromText="further review" toID="E20" toText="a CT scan of the head" type="AFTER" />
+<TLINK id="TL84" fromID="E79" fromText="further review" toID="E80" toText="Department of Neuroradiology" type="OVERLAP" />
+<TLINK id="TL85" fromID="E81" fromText="review" toID="E79" toText="further review" type="OVERLAP" />
+<TLINK id="TL86" fromID="E51" fromText="reveals" toID="E24" toText="CT" type="OVERLAP" />
+<TLINK id="TL87" fromID="E26" fromText="enhancing lesions of the spinal cord" toID="E51" toText="reveals" type="OVERLAP" />
+<TLINK id="TL88" fromID="E26" fromText="enhancing lesions of the spinal cord" toID="E27" toText="contrast" type="OVERLAP" />
+<TLINK id="TL89" fromID="E52" fromText="showed" toID="E28" toText="Angiography" type="OVERLAP" />
+<TLINK id="TL9" fromID="E35" fromText="Admission" toID="T1" toText="10/23/1999" type="OVERLAP" />
+<TLINK id="TL90" fromID="E82" fromText="normal vascular distribution of the head and neck" toID="E52" toText="showed" type="BEFORE" />
+<TLINK id="TL91" fromID="E82" fromText="normal vascular distribution of the head and neck" toID="E83" toText="recurrence of arteriovenous malformation" type="OVERLAP" />
+<TLINK id="TL92" fromID="E84" fromText="this admission" toID="E35" toText="Admission" type="AFTER" />
+<TLINK id="TL93" fromID="E84" fromText="this admission" toID="E36" toText="Discharge" type="BEFORE" />
+<TLINK id="TL94" fromID="E85" fromText="Baclofen" toID="E84" toText="this admission" type="OVERLAP" />
+<TLINK id="TL95" fromID="E85" fromText="Baclofen" toID="T10" toText="t.i.d." type="OVERLAP" />
+<TLINK id="TL96" fromID="E85" fromText="Baclofen" toID="E86" toText="spasticity" type="OVERLAP" />
+<TLINK id="TL97" fromID="E29" fromText="Coumadin" toID="E87" toText="discontinued" type="BEFORE" />
+<TLINK id="TL98" fromID="E87" fromText="discontinued" toID="E84" toText="this admission" type="OVERLAP" />
+<TLINK id="TL99" fromID="E30" fromText="aspirin" toID="T11" toText="q.d." type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="10/23/1999" type="ADMISSION" dvalue="1999-10-23" />
+<SECTIME id="S1" start="46" end="56" text="11/02/1999" type="DISCHARGE" dvalue="1999-11-02" />
+<TLINK id="SECTIME0" fromID="E43" fromText="swallow" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E57" fromText="difficulty" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E44" fromText="urinate" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E45" fromText="difficulty" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E58" fromText="bowel movements" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E59" fromText="problematic" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E14" fromText="pre-gait training" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E60" fromText="able to stand" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E46" fromText="take several steps" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E15" fromText="upper body support" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E16" fromText="her functional level" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E61" fromText="progressively deteriorated" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E47" fromText="unable to stand" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E48" fromText="needs assistance to sit up" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E17" fromText="a flexure contraction" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E62" fromText="reports" toID="T1" toText="10/23/1999" type="OVERLAP" />
+<TLINK id="SECTIME16" fromID="E18" fromText="intermitttent pain in the left arm and leg" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E1" fromText="surgical correction of a C-1 to C-2 dural AVM" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E64" fromText="spontaneously" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E63" fromText="triggered by contact" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E65" fromText="new swallowing difficulty" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E66" fromText="her transfer" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E67" fromText="a long term inpatient care facility" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E68" fromText="lost ten pounds" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E69" fromText="dysuria" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E70" fromText="excessive urinary frequency" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E71" fromText="severe intermittent abdominal pain" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E19" fromText="her hemorrhoids" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E72" fromText="This pain" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E73" fromText="bowel movement" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E74" fromText="spontaneously" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E49" fromText="admission" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E20" fromText="a CT scan of the head" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E0" fromText="presenting" toID="T1" toText="10/23/1999" type="OVERLAP" />
+<TLINK id="SECTIME34" fromID="E50" fromText="showing" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E75" fromText="a missing posterior arch at C-1" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E76" fromText="metallic clips at the craniocervical junction" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E21" fromText="prior surgical intervention" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E77" fromText="arteriovenous malformations" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E22" fromText="recurrence" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E78" fromText="her former vascular malformation" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E23" fromText="intraspinal lesions" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E79" fromText="further review" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E80" fromText="Department of Neuroradiology" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E2" fromText="increasing left sided weakness" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E81" fromText="review" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E24" fromText="CT" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E51" fromText="reveals" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E25" fromText="extrinsic compressive lesions" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E26" fromText="enhancing lesions of the spinal cord" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E27" fromText="contrast" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E28" fromText="Angiography" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E52" fromText="showed" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E82" fromText="normal vascular distribution of the head and neck" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E83" fromText="recurrence of arteriovenous malformation" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E3" fromText="pain" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E84" fromText="this admission" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E85" fromText="Baclofen" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E86" fromText="spasticity" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E29" fromText="Coumadin" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E87" fromText="discontinued" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E4" fromText="spasticity" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E30" fromText="aspirin" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E88" fromText="Valium" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E89" fromText="muscle spasm" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E90" fromText="Demerol" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E31" fromText="left arm and leg pain" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E91" fromText="review" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E32" fromText="CT" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E53" fromText="difficulty swallowing" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E33" fromText="angiography" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E92" fromText="Neuroradiology and Neurology service" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E93" fromText="CT myelography" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E94" fromText="magnetic resonance imaging" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E34" fromText="ferromagnetic intracardiac pacing device" toID="T2" toText="11/02/1999" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E54" fromText="abdominal pain" toID="T1" toText="10/23/1999" type="OVERLAP" />
+<TLINK id="SECTIME76" fromID="E37" fromText="admitted" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E38" fromText="the Verg Medical Center" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E5" fromText="left sided weakness" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E6" fromText="spasticity" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E7" fromText="intermedullary lesion at C1-2 level" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E8" fromText="biopsy" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E39" fromText="showed" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E9" fromText="abnormal vasculature" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E10" fromText="hemosiderin deposit" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E11" fromText="a dural arteriovenous malformation" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E40" fromText="surgically corrected" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E55" fromText="The postoperative period" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E56" fromText="transient swallowing difficulty" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E12" fromText="increasing left sided weakness" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E13" fromText="urinary retention" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E41" fromText="discharged" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E42" fromText="inpatient rehabilitation" toID="T1" toText="10/23/1999" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E95" fromText="significant progress" toID="T1" toText="10/23/1999" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

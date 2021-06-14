@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2011-01-19
+Discharge Date :
+2011-01-25
+Service :
+MEDICINE
+HISTORY OF PRESENT ILLNESS :
+Mr. Eugene is a 67 year old male with a remote history of chronic pancreatitis due to alcohol abuse 30 years ago , who is transferred now from Rehab Hospital of the Cape & Islands Hospital for an ERCP and work-up for a cystic lesion at the head of his pancreas on CT scan shown at the outside hospital .
+The patient presented initially to Rehab Hospital of the Cape & Islands Hospital at the end of December for abdominal pain , and was found to have pancreatitis .
+During this admission , two CT scans had shown a question of an enlargement of the head of his pancreas
+versus early pseudocyst .
+The patient was discharged home early from this admission due to family needs .
+While at home , the patient did not do well and could tolerate minimal food intake and lost about 20 pounds in one month .
+On an office visit on 01-14 , the patient was found to have significantly elevated alkaline phosphatase .
+That evening , the patient again developed abdominal pain " like his pancreatitis " with nausea and vomiting , for which he was admitted to the Rehab Hospital of the Cape & Islands Hospital .
+In the Emergency Department at the Rehab Hospital of the Cape & Islands Hospital , the patient was noted to have vomited some heme positive material .
+His complete blood count showed 11% bandemia with a total white count of 10 .
+A HIDA scan showed no flow , question of pancreatitis versus common bile duct obstruction .
+His electrocardiogram showed a normal sinus rhythm .
+A chest x-ray was unremarkable .
+During his admission to Rehab Hospital of the Cape & Islands Hospital , the patient had dropped his hematocrit to the 30 s with recorded melena .
+He received an MRCP which was negative for evidence of stones .
+An ultrasound showed normal gallbladder with no wall thickening but a dilated common bile duct of 8 mm measured on CT scan .
+The patient had an attempted ERCP on 01-18 , which was unsuccessful due to a long nipple like papilla .
+He was therefore transferred to Saints Medical Center for endoscopic retrogram cholangiopancreatography .
+The patient 's blood cultures at outside hospital grew out Streptococcus sanguis-gordonii on 01-18 .
+This was sensitive to Clindamycin , Erythromycin , penicillin S and Vancomycin .
+Prior to this result , the patient had already been on Ampicillin , Sulbactam and Gentamycin .
+It appears from the Discharge summary that the patient was placed on Unasyn 3 grams intravenously every six hours after his ERCP .
+]]></TEXT>
+<TAGS>
+<EVENT id="E44" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="1053" end="1067" text="abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="1075" end="1091" text="his pancreatitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="1099" end="1105" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="1110" end="1118" text="vomiting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="1138" end="1146" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="1150" end="1199" text="the Rehab Hospital of the Cape & Islands Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E70" start="1205" end="1229" text="the Emergency Department" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E71" start="1233" end="1282" text="the Rehab Hospital of the Cape & Islands Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E72" start="1301" end="1306" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E51" start="1315" end="1322" text="vomited" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="1328" end="1350" text="heme positive material" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="1353" end="1377" text="His complete blood count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E74" start="1378" end="1384" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E16" start="1385" end="1397" text="11% bandemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="1403" end="1422" text="a total white count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="1431" end="1442" text="A HIDA scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="1443" end="1449" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E66" start="1453" end="1457" text="flow" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E20" start="1472" end="1484" text="pancreatitis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1492" end="1520" text="common bile duct obstruction" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="1523" end="1544" text="His electrocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E75" start="1545" end="1551" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E76" start="1552" end="1573" text="a normal sinus rhythm" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="1576" end="1589" text="A chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="163" end="183" text="chronic pancreatitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="1616" end="1629" text="his admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="1633" end="1678" text="Rehab Hospital of the Cape & Islands Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E79" start="1697" end="1704" text="dropped" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E84" start="1697" end="1704" text="dropped" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1705" end="1719" text="his hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="1737" end="1752" text="recorded melena" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="1767" end="1774" text="an MRCP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="1810" end="1816" text="stones" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E27" start="1819" end="1832" text="An ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E81" start="1833" end="1839" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E82" start="1840" end="1858" text="normal gallbladder" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="1867" end="1882" text="wall thickening" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E29" start="1887" end="1913" text="a dilated common bile duct" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E0" start="191" end="204" text="alcohol abuse" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1934" end="1941" text="CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E83" start="1973" end="1977" text="ERCP" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E31" start="2019" end="2045" text="a long nipple like papilla" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="2065" end="2076" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="2080" end="2101" text="Saints Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E32" start="2106" end="2151" text="endoscopic retrogram cholangiopancreatography" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="2154" end="2183" text="The patient 's blood cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E85" start="2187" end="2203" text="outside hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E34" start="2213" end="2243" text="Streptococcus sanguis-gordonii" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="227" end="238" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="2277" end="2288" text="Clindamycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="2291" end="2303" text="Erythromycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="2306" end="2318" text="penicillin S" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="2323" end="2333" text="Vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="2391" end="2401" text="Ampicillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="2404" end="2413" text="Sulbactam" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="2418" end="2428" text="Gentamycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="2447" end="2460" text="the Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="248" end="293" text="Rehab Hospital of the Cape & Islands Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E42" start="2500" end="2506" text="Unasyn" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="2551" end="2559" text="his ERCP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="298" end="305" text="an ERCP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="310" end="317" text="work-up" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="322" end="337" text="a cystic lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="369" end="376" text="CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E55" start="377" end="382" text="shown" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E56" start="386" end="406" text="the outside hospital" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="421" end="430" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="444" end="489" text="Rehab Hospital of the Cape & Islands Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E6" start="517" end="531" text="abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="542" end="547" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E7" start="556" end="568" text="pancreatitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="578" end="592" text="this admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="595" end="607" text="two CT scans" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E61" start="608" end="617" text="had shown" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E9" start="632" end="674" text="an enlargement of the head of his pancreas" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="682" end="698" text="early pseudocyst" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="717" end="727" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="744" end="758" text="this admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="790" end="794" text="home" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E65" start="813" end="824" text="not do well" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="844" end="863" text="minimal food intake" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="868" end="888" text="lost about 20 pounds" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="950" end="955" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E11" start="964" end="1007" text="significantly elevated alkaline phosphatase" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T6" start="1010" end="1022" text="That evening" type="DATE" val="2011-01-14" mod="END" />
+<TIMEX3 id="T1" start="18" end="28" text="2011-01-19" type="DATE" val="2011-01-19" mod="NA" />
+<TIMEX3 id="T7" start="1981" end="1986" text="01-18" type="DATE" val="2011-01-18" mod="NA" />
+<TIMEX3 id="T3" start="205" end="217" text="30 years ago" type="DATE" val="1981" mod="APPROX" />
+<TIMEX3 id="T8" start="2247" end="2252" text="01-18" type="DATE" val="2011-01-18" mod="NA" />
+<TIMEX3 id="T9" start="2529" end="2544" text="every six hours" type="FREQUENCY" val="RPT6H" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2011-01-25" type="DATE" val="2011-01-25" mod="NA" />
+<TIMEX3 id="T4" start="493" end="512" text="the end of December" type="DATE" val="2010-12" mod="END" />
+<TIMEX3 id="T0" start="892" end="901" text="one month" type="DURATION" val="P1M" mod="NA" />
+<TIMEX3 id="T5" start="926" end="931" text="01-14" type="DATE" val="2011-01-14" mod="NA" />
+<TLINK id="TL0" fromID="E1" fromText="chronic pancreatitis" toID="E44" toText="Admission" type="BEFORE" />
+<TLINK id="TL1" fromID="E44" fromText="Admission" toID="T1" toText="2011-01-19" type="OVERLAP" />
+<TLINK id="TL10" fromID="E4" fromText="a cystic lesion" toID="E3" toText="work-up" type="BEFORE" />
+<TLINK id="TL100" fromID="E43" fromText="his ERCP" toID="E32" toText="endoscopic retrogram cholangiopancreatography" type="OVERLAP" />
+<TLINK id="TL101" fromID="E42" fromText="Unasyn" toID="E86" toText="the Discharge" type="BEFORE" />
+<TLINK id="TL102" fromID="E42" fromText="Unasyn" toID="E43" toText="his ERCP" type="AFTER" />
+<TLINK id="TL103" fromID="E42" fromText="Unasyn" toID="T9" toText="every six hours" type="OVERLAP" />
+<TLINK id="TL11" fromID="E56" fromText="the outside hospital" toID="E54" toText="Rehab Hospital of the Cape & Islands Hospital" type="OVERLAP" />
+<TLINK id="TL12" fromID="E5" fromText="CT scan" toID="E56" toText="the outside hospital" type="OVERLAP" />
+<TLINK id="TL13" fromID="E55" fromText="shown" toID="E5" toText="CT scan" type="OVERLAP" />
+<TLINK id="TL14" fromID="E58" fromText="Rehab Hospital of the Cape & Islands Hospital" toID="E54" toText="Rehab Hospital of the Cape & Islands Hospital" type="BEFORE" />
+<TLINK id="TL15" fromID="E58" fromText="Rehab Hospital of the Cape & Islands Hospital" toID="E57" toText="presented" type="AFTER" />
+<TLINK id="TL16" fromID="T4" fromText="the end of December" toID="E44" toText="Admission" type="BEFORE" />
+<TLINK id="TL17" fromID="E57" fromText="presented" toID="T4" toText="the end of December" type="OVERLAP" />
+<TLINK id="TL18" fromID="E6" fromText="abdominal pain" toID="E57" toText="presented" type="BEFORE" />
+<TLINK id="TL19" fromID="E59" fromText="found" toID="E58" toText="Rehab Hospital of the Cape & Islands Hospital" type="OVERLAP" />
+<TLINK id="TL2" fromID="E45" fromText="Discharge" toID="T2" toText="2011-01-25" type="OVERLAP" />
+<TLINK id="TL20" fromID="E7" fromText="pancreatitis" toID="E59" toText="found" type="BEFORE" />
+<TLINK id="TL21" fromID="E7" fromText="pancreatitis" toID="E6" toText="abdominal pain" type="OVERLAP" />
+<TLINK id="TL22" fromID="E60" fromText="this admission" toID="E58" toText="Rehab Hospital of the Cape & Islands Hospital" type="OVERLAP" />
+<TLINK id="TL23" fromID="E8" fromText="two CT scans" toID="E60" toText="this admission" type="OVERLAP" />
+<TLINK id="TL24" fromID="E61" fromText="had shown" toID="E8" toText="two CT scans" type="OVERLAP" />
+<TLINK id="TL25" fromID="E9" fromText="an enlargement of the head of his pancreas" toID="E8" toText="two CT scans" type="BEFORE" />
+<TLINK id="TL26" fromID="E10" fromText="early pseudocyst" toID="E9" toText="an enlargement of the head of his pancreas" type="OVERLAP" />
+<TLINK id="TL27" fromID="E63" fromText="this admission" toID="E60" toText="this admission" type="OVERLAP" />
+<TLINK id="TL28" fromID="E63" fromText="this admission" toID="E47" toText="discharged" type="BEFORE" />
+<TLINK id="TL29" fromID="E47" fromText="discharged" toID="E8" toText="two CT scans" type="AFTER" />
+<TLINK id="TL3" fromID="E49" fromText="lost about 20 pounds" toID="T7" toText="01-18" type="OVERLAP" />
+<TLINK id="TL30" fromID="E64" fromText="home" toID="E47" toText="discharged" type="AFTER" />
+<TLINK id="TL31" fromID="E65" fromText="not do well" toID="E64" toText="home" type="OVERLAP" />
+<TLINK id="TL32" fromID="E48" fromText="minimal food intake" toID="E65" toText="not do well" type="OVERLAP" />
+<TLINK id="TL33" fromID="E49" fromText="lost about 20 pounds" toID="E48" toText="minimal food intake" type="OVERLAP" />
+<TLINK id="TL34" fromID="E49" fromText="lost about 20 pounds" toID="T0" toText="one month" type="OVERLAP" />
+<TLINK id="TL35" fromID="T5" fromText="01-14" toID="E64" toText="home" type="OVERLAP" />
+<TLINK id="TL36" fromID="E67" fromText="found" toID="T5" toText="01-14" type="OVERLAP" />
+<TLINK id="TL37" fromID="E11" fromText="significantly elevated alkaline phosphatase" toID="E67" toText="found" type="BEFORE" />
+<TLINK id="TL38" fromID="T6" fromText="That evening" toID="E67" toText="found" type="AFTER" />
+<TLINK id="TL39" fromID="E12" fromText="abdominal pain" toID="T6" toText="That evening" type="AFTER" />
+<TLINK id="TL4" fromID="E0" fromText="alcohol abuse" toID="E1" toText="chronic pancreatitis" type="BEFORE" />
+<TLINK id="TL40" fromID="E68" fromText="his pancreatitis" toID="E12" toText="abdominal pain" type="BEFORE" />
+<TLINK id="TL41" fromID="E13" fromText="nausea" toID="E12" toText="abdominal pain" type="OVERLAP" />
+<TLINK id="TL42" fromID="E14" fromText="vomiting" toID="E13" toText="nausea" type="OVERLAP" />
+<TLINK id="TL43" fromID="E12" fromText="abdominal pain" toID="E50" toText="admitted" type="BEFORE" />
+<TLINK id="TL44" fromID="E69" fromText="the Rehab Hospital of the Cape & Islands Hospital" toID="E50" toText="admitted" type="AFTER" />
+<TLINK id="TL45" fromID="E71" fromText="the Rehab Hospital of the Cape & Islands Hospital" toID="E69" toText="the Rehab Hospital of the Cape & Islands Hospital" type="OVERLAP" />
+<TLINK id="TL46" fromID="E70" fromText="the Emergency Department" toID="E71" toText="the Rehab Hospital of the Cape & Islands Hospital" type="OVERLAP" />
+<TLINK id="TL47" fromID="E72" fromText="noted" toID="E70" toText="the Emergency Department" type="OVERLAP" />
+<TLINK id="TL48" fromID="E51" fromText="vomited" toID="E72" toText="noted" type="BEFORE" />
+<TLINK id="TL49" fromID="E73" fromText="heme positive material" toID="E51" toText="vomited" type="OVERLAP" />
+<TLINK id="TL5" fromID="E1" fromText="chronic pancreatitis" toID="T3" toText="30 years ago" type="OVERLAP" />
+<TLINK id="TL50" fromID="E51" fromText="vomited" toID="E70" toText="the Emergency Department" type="OVERLAP" />
+<TLINK id="TL51" fromID="E15" fromText="His complete blood count" toID="E51" toText="vomited" type="AFTER" />
+<TLINK id="TL52" fromID="E74" fromText="showed" toID="E15" toText="His complete blood count" type="OVERLAP" />
+<TLINK id="TL53" fromID="E16" fromText="11% bandemia" toID="E15" toText="His complete blood count" type="BEFORE" />
+<TLINK id="TL54" fromID="E17" fromText="a total white count" toID="E16" toText="11% bandemia" type="OVERLAP" />
+<TLINK id="TL55" fromID="E18" fromText="A HIDA scan" toID="E15" toText="His complete blood count" type="OVERLAP" />
+<TLINK id="TL56" fromID="E62" fromText="showed" toID="E18" toText="A HIDA scan" type="OVERLAP" />
+<TLINK id="TL57" fromID="E66" fromText="flow" toID="E18" toText="A HIDA scan" type="BEFORE" />
+<TLINK id="TL58" fromID="E20" fromText="pancreatitis" toID="E66" toText="flow" type="OVERLAP" />
+<TLINK id="TL59" fromID="E21" fromText="common bile duct obstruction" toID="E20" toText="pancreatitis" type="OVERLAP" />
+<TLINK id="TL6" fromID="E46" fromText="transferred" toID="E44" toText="Admission" type="OVERLAP" />
+<TLINK id="TL60" fromID="E22" fromText="His electrocardiogram" toID="E18" toText="A HIDA scan" type="OVERLAP" />
+<TLINK id="TL61" fromID="E75" fromText="showed" toID="E22" toText="His electrocardiogram" type="OVERLAP" />
+<TLINK id="TL62" fromID="E76" fromText="a normal sinus rhythm" toID="E22" toText="His electrocardiogram" type="BEFORE" />
+<TLINK id="TL63" fromID="E23" fromText="A chest x-ray" toID="E22" toText="His electrocardiogram" type="OVERLAP" />
+<TLINK id="TL64" fromID="E77" fromText="his admission" toID="E78" toText="Rehab Hospital of the Cape & Islands Hospital" type="OVERLAP" />
+<TLINK id="TL65" fromID="E78" fromText="Rehab Hospital of the Cape & Islands Hospital" toID="E71" toText="the Rehab Hospital of the Cape & Islands Hospital" type="OVERLAP" />
+<TLINK id="TL67" fromID="E79" fromText="dropped" toID="E77" toText="his admission" type="OVERLAP" />
+<TLINK id="TL68" fromID="E24" fromText="his hematocrit" toID="E79" toText="dropped" type="OVERLAP" />
+<TLINK id="TL69" fromID="E25" fromText="recorded melena" toID="E24" toText="his hematocrit" type="OVERLAP" />
+<TLINK id="TL7" fromID="E54" fromText="Rehab Hospital of the Cape & Islands Hospital" toID="E46" toText="transferred" type="BEFORE" />
+<TLINK id="TL70" fromID="E80" fromText="an MRCP" toID="E24" toText="his hematocrit" type="OVERLAP" />
+<TLINK id="TL71" fromID="E26" fromText="stones" toID="E80" toText="an MRCP" type="BEFORE" />
+<TLINK id="TL72" fromID="E27" fromText="An ultrasound" toID="E80" toText="an MRCP" type="OVERLAP" />
+<TLINK id="TL73" fromID="E81" fromText="showed" toID="E27" toText="An ultrasound" type="OVERLAP" />
+<TLINK id="TL74" fromID="E82" fromText="normal gallbladder" toID="E27" toText="An ultrasound" type="BEFORE" />
+<TLINK id="TL75" fromID="E28" fromText="wall thickening" toID="E82" toText="normal gallbladder" type="OVERLAP" />
+<TLINK id="TL76" fromID="E29" fromText="a dilated common bile duct" toID="E28" toText="wall thickening" type="OVERLAP" />
+<TLINK id="TL77" fromID="E29" fromText="a dilated common bile duct" toID="E30" toText="CT scan" type="BEFORE" />
+<TLINK id="TL78" fromID="E30" fromText="CT scan" toID="E27" toText="An ultrasound" type="OVERLAP" />
+<TLINK id="TL79" fromID="E83" fromText="ERCP" toID="E30" toText="CT scan" type="AFTER" />
+<TLINK id="TL8" fromID="E2" fromText="an ERCP" toID="E46" toText="transferred" type="AFTER" />
+<TLINK id="TL80" fromID="E83" fromText="ERCP" toID="T7" toText="01-18" type="OVERLAP" />
+<TLINK id="TL81" fromID="T7" fromText="01-18" toID="E44" toText="Admission" type="BEFORE" />
+<TLINK id="TL82" fromID="E31" fromText="a long nipple like papilla" toID="E83" toText="ERCP" type="BEFORE" />
+<TLINK id="TL83" fromID="E53" fromText="transferred" toID="E83" toText="ERCP" type="AFTER" />
+<TLINK id="TL84" fromID="E52" fromText="Saints Medical Center" toID="E53" toText="transferred" type="AFTER" />
+<TLINK id="TL85" fromID="E53" fromText="transferred" toID="E44" toText="Admission" type="OVERLAP" />
+<TLINK id="TL86" fromID="E32" fromText="endoscopic retrogram cholangiopancreatography" toID="E52" toText="Saints Medical Center" type="OVERLAP" />
+<TLINK id="TL87" fromID="E85" fromText="outside hospital" toID="E78" toText="Rehab Hospital of the Cape & Islands Hospital" type="OVERLAP" />
+<TLINK id="TL88" fromID="E33" fromText="The patient 's blood cultures" toID="E85" toText="outside hospital" type="OVERLAP" />
+<TLINK id="TL89" fromID="T8" fromText="01-18" toID="T7" toText="01-18" type="OVERLAP" />
+<TLINK id="TL9" fromID="E3" fromText="work-up" toID="E2" toText="an ERCP" type="OVERLAP" />
+<TLINK id="TL90" fromID="E34" fromText="Streptococcus sanguis-gordonii" toID="T8" toText="01-18" type="OVERLAP" />
+<TLINK id="TL91" fromID="E33" fromText="The patient 's blood cultures" toID="E34" toText="Streptococcus sanguis-gordonii" type="BEFORE" />
+<TLINK id="TL92" fromID="E34" fromText="Streptococcus sanguis-gordonii" toID="E35" toText="Clindamycin" type="BEFORE" />
+<TLINK id="TL93" fromID="E36" fromText="Erythromycin" toID="E35" toText="Clindamycin" type="OVERLAP" />
+<TLINK id="TL94" fromID="E37" fromText="penicillin S" toID="E36" toText="Erythromycin" type="OVERLAP" />
+<TLINK id="TL95" fromID="E38" fromText="Vancomycin" toID="E37" toText="penicillin S" type="OVERLAP" />
+<TLINK id="TL96" fromID="E39" fromText="Ampicillin" toID="E34" toText="Streptococcus sanguis-gordonii" type="BEFORE" />
+<TLINK id="TL97" fromID="E40" fromText="Sulbactam" toID="E39" toText="Ampicillin" type="OVERLAP" />
+<TLINK id="TL98" fromID="E41" fromText="Gentamycin" toID="E40" toText="Sulbactam" type="OVERLAP" />
+<TLINK id="TL99" fromID="E86" fromText="the Discharge" toID="E45" toText="Discharge" type="OVERLAP" />
+<TLINK id="SECTIME0" fromID="E12" fromText="abdominal pain" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E68" fromText="his pancreatitis" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E13" fromText="nausea" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E14" fromText="vomiting" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E50" fromText="admitted" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E69" fromText="the Rehab Hospital of the Cape & Islands Hospital" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E70" fromText="the Emergency Department" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E71" fromText="the Rehab Hospital of the Cape & Islands Hospital" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E72" fromText="noted" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E51" fromText="vomited" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E73" fromText="heme positive material" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E15" fromText="His complete blood count" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E74" fromText="showed" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E16" fromText="11% bandemia" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E17" fromText="a total white count" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E18" fromText="A HIDA scan" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E62" fromText="showed" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E66" fromText="flow" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E20" fromText="pancreatitis" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E21" fromText="common bile duct obstruction" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E22" fromText="His electrocardiogram" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E75" fromText="showed" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E76" fromText="a normal sinus rhythm" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E23" fromText="A chest x-ray" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E1" fromText="chronic pancreatitis" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E77" fromText="his admission" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E78" fromText="Rehab Hospital of the Cape & Islands Hospital" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E79" fromText="dropped" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E84" fromText="dropped" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E24" fromText="his hematocrit" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E25" fromText="recorded melena" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E80" fromText="an MRCP" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E26" fromText="stones" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E27" fromText="An ultrasound" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E81" fromText="showed" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E82" fromText="normal gallbladder" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E28" fromText="wall thickening" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E29" fromText="a dilated common bile duct" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E0" fromText="alcohol abuse" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E30" fromText="CT scan" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E83" fromText="ERCP" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E31" fromText="a long nipple like papilla" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E53" fromText="transferred" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E52" fromText="Saints Medical Center" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E32" fromText="endoscopic retrogram cholangiopancreatography" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E33" fromText="The patient 's blood cultures" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E85" fromText="outside hospital" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E34" fromText="Streptococcus sanguis-gordonii" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E46" fromText="transferred" toID="T1" toText="2011-01-19" type="OVERLAP" />
+<TLINK id="SECTIME49" fromID="E35" fromText="Clindamycin" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E36" fromText="Erythromycin" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E37" fromText="penicillin S" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E38" fromText="Vancomycin" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E39" fromText="Ampicillin" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E40" fromText="Sulbactam" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E41" fromText="Gentamycin" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E86" fromText="the Discharge" toID="T1" toText="2011-01-19" type="OVERLAP" />
+<TLINK id="SECTIME57" fromID="E54" fromText="Rehab Hospital of the Cape & Islands Hospital" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E42" fromText="Unasyn" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E43" fromText="his ERCP" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E2" fromText="an ERCP" toID="T1" toText="2011-01-19" type="OVERLAP" />
+<TLINK id="SECTIME61" fromID="E3" fromText="work-up" toID="T1" toText="2011-01-19" type="OVERLAP" />
+<TLINK id="SECTIME62" fromID="E4" fromText="a cystic lesion" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E5" fromText="CT scan" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E55" fromText="shown" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E56" fromText="the outside hospital" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E57" fromText="presented" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E58" fromText="Rehab Hospital of the Cape & Islands Hospital" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E6" fromText="abdominal pain" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E59" fromText="found" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E7" fromText="pancreatitis" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E60" fromText="this admission" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E8" fromText="two CT scans" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E61" fromText="had shown" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E9" fromText="an enlargement of the head of his pancreas" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E10" fromText="early pseudocyst" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E47" fromText="discharged" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E63" fromText="this admission" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E64" fromText="home" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E65" fromText="not do well" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E48" fromText="minimal food intake" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E49" fromText="lost about 20 pounds" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E67" fromText="found" toID="T1" toText="2011-01-19" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E11" fromText="significantly elevated alkaline phosphatase" toID="T1" toText="2011-01-19" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2011-01-19" type="ADMISSION" dvalue="2011-01-19" />
+<SECTIME id="S1" start="46" end="56" text="2011-01-25" type="DISCHARGE" dvalue="2011-01-25" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

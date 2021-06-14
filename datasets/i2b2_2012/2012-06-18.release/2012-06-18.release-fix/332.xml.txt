@@ -1,0 +1,107 @@
+Admission Date :
+2019-07-17
+Discharge Date :
+2019-07-27
+Service :
+MEDICINE
+History of Present Illness :
+This is a 39 year-old female with a history of diabetes type I on an insulin pump , anemia , hypothyroidism , gastroparesis , GERD , who was transferred from Mediplex Rehab Hospital Hospital for further management of hypoxic respiratory failure .
+She arrived at Mediplex Rehab Hospital Hospital on 07-01 for 1 day of nausea and vomiting and was found to be febrile to 99 at that time .
+She was admitted for likely gastroparesis and eventually had a complete fever work-up that included a negative chest x-ray , blood cultures , and urine culture .
+She was discharged on 07-02 and represented that day with continued nause , vomiting , and fever .
+She was readmitted and had a complete febrile work-up that included CT abdomene / pelvis , chest x-ray , blood culture 's , urine cultures , all of which were unremarkable .
+She was intubated on 07-03 for progressive respiratory failure .
+Workup continued to be negative .
+Extubation was attempted on 07-14 , but she was re-intubated due to inspiratory stridor .
+A CT neck showed soft tissue swelling obliterating the airway surrounding the ETT tube .
+She was transferred to Providence Behavioral Health Hospital for further management .
+Brief Hospital Course :
+This is a 39 year-old female with diabetes type I , hypothyroidism , gastroparesis who was transfered for hypoxic respiratory failure .
+1. Hypoxic Rspiratory Failure :
+She arrived intubated and sedated from Esteban Hospital .
+On arrival a chest x-ray showed perihilar and bibasilar opacities , which appeared conistent with pulmonary edema but also possibly consistent with a pneumonia .
+There was no evidence of ARDS .
+She was known to have gram-positive cocci in her sputum at the outside hospital .
+A bronchoscopy with BAL was performed and a sputum sample eventually grew out MRSA .
+She was treated with vancomycin to cover her MRSA pneumonia .
+A CT scan was performed on 07-17 to evaluate the soft tissue swelling seen on CT at the outside hospital .
+The CT showed increased soft tissues within the pharynx which was felt to be secondary to prolonged intubation / trauma .
+She was treated with steroids for this swelling at the outside hospital , and these were continued .
+It was decided that patient should receive one more trial off the vent before committing her to a tracheotomy .
+She did well on minimal vent settings but it was decided to delay extubating the patient until the morning of 6/2 .
+Overnight , the patient became hypoxic , dropping to the 80 's .
+A chest x-ray showed that the ET tube was displaced to very high in the trachea .
+The cuff was deflated and the patient was extubated .
+She was placed in supplemental oxygen by shovel mask and her sats immediately improved .
+She was weaned down until she was maintaining her oxygen saturation above 90% on 6L by nasal cannuala .
+As she was doing well without evidence of stridor , the steroids were stopped .
+She did well and was weaned from supplemental oxygen .
+At the time of discharge , she was oxygenating well on room air .
+She Will need to complete a 14 day course of vancomycin for her MRSA pneumonia on 2019-07-30 .
+2. Enterobacter bacteremia :
+She was initially covered broadly with vancomycin , ciprofloxacin , and falgyl .
+She had positive blood cultures at Mediplex Rehab Hospital Hospital for gram negative rods .
+Subsequently , zosyn was added .
+The cultures grew out enterobacter cloacae .
+It was unclear the source of her bacteremia .
+Her stool cultures were negative .
+Her central line was removed and the tip was culture negative .
+She was transitioned to on levofloxacin for her bacteremia .
+She had no positive cultures during this admission .
+Once she was more stable , an abdominal CT was performed to look for an abscess .
+This study was negative .
+However , the study was limited due to inadequate po contrast intake by the patient ; it did show a question of a cecal cystic lesion verse normal loop of bowel .
+This study will need to be repeated once she is tolerating po 's .
+She will complete a 14 day course of levofloxacin for her bacteremia on 2019-07-30 .
+3. Diabetes type I :
+She was intially maintained on an insulin drip for tight glycemic control .
+She was followed by Albano during the admission .
+She was initially maintained on D5W , which was increased to D10W as the patient was persistently borderline hypoglycemic while on insulin drip .
+Once she began to take PO 's , the insulin drip was stopped and patient was started on glargine with a humalog sliding scale .
+While her po intake was minimal she was maintained on supplemental IV dextrose to suppress ketosis .
+While she was on the IV dextrose , she required up to 26 units of glargine for glycemic control .
+As she starting taking some foods , her glargine was decrease .
+At the time of discharge her glargine was 10 .
+Her blood glucose were under good control .
+The day prior to discharge , she was nauseated and not taking pos .
+Therefore , she received 1L of D5 , and her sugars were elevated to 400 the day of discharge .
+4. Gastroparesis :
+She has a history of gastroparesis secondary to long-standing type I diabetes .
+Once she was extubated , she was nauseated with emesis .
+She was intially treated with erythromycin for pro-motility as she had a bad reaction to reglan in the past .
+She continued to remained nauseated so she was treated with phenergan , anzemet , zofran , and ativan .
+She intermittently was able tolerate pos .
+Her nausea was accompanied by abdominal pain for which she was treated with morphine .
+She was transitioned to a PCA for better pain control .
+She continued to have nausea despite an agressive anti-emetic regimen .
+It was felt that her symptoms were secondary to gastroparesis .
+However , other causes were looked for including adrenal insufficiency and bowel obstruction .
+She had a normal cortisol stimulation test .
+A abdominal plain film showed non-specific bowel gas patterns that may represent an early obstruction .
+A NG tube was placed for decompression given the signs of early obstruction the day of transfer .
+The GI service was consulted and they felt that her symptoms were all gastroparesis .
+They recommended erythromycin and zelnorm .
+She should eventually have a tissue transglutaminase to rule out celiac disease .
+5. Transaminitis :
+Per report , She had elevated LFTs at the outside hospital .
+A right upper quadrant ultrasound was performed and was negative for any acute pathology .
+Her LFTs trended down during this admission .
+6. Hypothyroidism :
+She was maintained on her levothyroxine .
+While she was not taking adequate pos , she was on IV levothyroxine .
+7. F/E/N :
+She was NPO while intubated and recived tube feedings for nutrition .
+After extubation , patient was started on sips and had a speech and swallow evaluation .
+She was cleared to advance her diet as tolerated .
+She only tolerated some clear liquids .
+At the time of transfer , she was NPO given her NG tube .
+8. Prophylaxis :
+PPI , Heparin SQ .
+9. Access :
+Her central line was removed given the concern for a line infection .
+She had a double lumen PICC place .
+10. CODE :
+FULL
+11. Dispo :
+She was transfered back to Mediplex Rehab Hospital Hospital per the patient 's and husband 's request so that she would be closer to home once her respiratory status was stable .
+anti-GBM is pending .

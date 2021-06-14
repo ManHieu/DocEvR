@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2015-10-26
+Discharge Date :
+2015-10-30
+Service :
+SURGERY
+History of Present Illness :
+17 yo male pedestrian who was struck by auto at unknown speed ; +LOC .
+He was medflighted to The Hospital for Orthopedics for ongoing trauma care .
+Upon arrival GCS 15 , alert and oriented x3 .
+Brief Hospital Course :
+He was admitted to the trauma service . Orthopedics and Neurosurgery were consulted because of his injuries .
+His Neurosurgical issues were nonoperative ; he was loaded with Dilantin ; serial head CT scans were performed and were stable .
+He will need to follow up with Dr. Mckinney in 4 weeks for repeat head imaging and continue with Dilantin for one month .
+His right tib / fib fracture was repaired by Orthopedics on 10-27 ; postoperatively there were no complications .
+Weight bearing status was increased to weight bearing as tolerated .
+He was fitted with a hinged Mcdonald brace for his LLE .
+He will need to continue on Lovenox injections for at least 4-6 weeks .
+He was transfused with 3 u packed cells for a hematocrit of 21 , post transfusion HCT was 26.1 ; there was a questionable transfusion reaction at the end of his first unit of packed cells ; he did subsequently receive the remaining 2 units without any further reaction .
+Physical and Occupational therapy were consulted and have recommended home with services .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1002" end="1012" text="transfused" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="1018" end="1034" text="3 u packed cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="1039" end="1051" text="a hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E12" start="1060" end="1080" text="post transfusion HCT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E13" start="1117" end="1137" text="transfusion reaction" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="1152" end="1182" text="his first unit of packed cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1213" end="1234" text="the remaining 2 units" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1243" end="1263" text="any further reaction" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E44" start="1266" end="1299" text="Physical and Occupational therapy" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E45" start="1305" end="1314" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1336" end="1354" text="home with services" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="134" end="148" text="struck by auto" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="168" end="172" text="+LOC" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="182" end="193" text="medflighted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="197" end="225" text="The Hospital for Orthopedics" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E23" start="230" end="249" text="ongoing trauma care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="257" end="264" text="arrival" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="265" end="268" text="GCS" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="274" end="279" text="alert" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="284" end="292" text="oriented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="329" end="337" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="341" end="359" text="the trauma service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E26" start="341" end="359" text="the trauma service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E47" start="362" end="390" text="Orthopedics and Neurosurgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E28" start="396" end="405" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="417" end="429" text="his injuries" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="432" end="456" text="His Neurosurgical issues" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="462" end="474" text="nonoperative" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="496" end="504" text="Dilantin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="507" end="527" text="serial head CT scans" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="552" end="558" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="577" end="586" text="follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="620" end="639" text="repeat head imaging" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="658" end="666" text="Dilantin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="683" end="711" text="His right tib / fib fracture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="716" end="724" text="repaired" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="728" end="739" text="Orthopedics" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E8" start="781" end="794" text="complications" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E36" start="797" end="818" text="Weight bearing status" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="823" end="832" text="increased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="836" end="863" text="weight bearing as tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="873" end="879" text="fitted" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="885" end="908" text="a hinged Mcdonald brace" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="951" end="969" text="Lovenox injections" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T0" start="18" end="28" text="2015-10-26" type="DATE" val="2015-10-26" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2015-10-30" type="DATE" val="2015-10-30" mod="NA" />
+<TIMEX3 id="T4" start="608" end="615" text="4 weeks" type="DATE" val="2015-11-27" mod="APPROX" />
+<TIMEX3 id="T5" start="671" end="680" text="one month" type="DURATION" val="P1M" mod="NA" />
+<TIMEX3 id="T1" start="743" end="748" text="10-27" type="DATE" val="2015-10-27" mod="NA" />
+<TIMEX3 id="T6" start="983" end="992" text="4-6 weeks" type="DURATION" val="P5W" mod="APPROX" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2015-10-26" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E20" fromText="Discharge" toID="T2" toText="2015-10-30" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E24" fromText="alert" toID="E2" toText="GCS" type="OVERLAP" />
+<TLINK id="TL11" fromID="E25" fromText="oriented" toID="E24" toText="alert" type="OVERLAP" />
+<TLINK id="TL12" fromID="E18" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL13" fromID="E26" fromText="the trauma service" toID="E18" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL14" fromID="E47" fromText="Orthopedics and Neurosurgery" toID="E28" toText="consulted" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E28" fromText="consulted" toID="E26" toText="the trauma service" type="DURING" />
+<TLINK id="TL16" fromID="E3" fromText="his injuries" toID="E21" toText="struck by auto" type="BEGUN_BY" />
+<TLINK id="TL17" fromID="E1" fromText="+LOC" toID="E21" toText="struck by auto" type="BEGUN_BY" />
+<TLINK id="TL18" fromID="E4" fromText="His Neurosurgical issues" toID="E3" toText="his injuries" type="OVERLAP" />
+<TLINK id="TL19" fromID="E29" fromText="nonoperative" toID="E4" toText="His Neurosurgical issues" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="E46" fromText="home with services" toID="E20" toText="Discharge" type="BEGUN_BY" />
+<TLINK id="TL20" fromID="E30" fromText="Dilantin" toID="E26" toText="the trauma service" type="BEGUN_BY" />
+<TLINK id="TL21" fromID="E33" fromText="Dilantin" toID="E30" toText="Dilantin" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E33" fromText="Dilantin" toID="T5" toText="one month" type="DURING" />
+<TLINK id="TL23" fromID="E5" fromText="serial head CT scans" toID="E30" toText="Dilantin" type="OVERLAP" />
+<TLINK id="TL24" fromID="E31" fromText="stable" toID="E5" toText="serial head CT scans" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E32" fromText="follow up" toID="T4" toText="4 weeks" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="T4" fromText="4 weeks" toID="E20" toText="Discharge" type="AFTER" />
+<TLINK id="TL27" fromID="E6" fromText="repeat head imaging" toID="E32" toText="follow up" type="SIMULTANEOUS" />
+<TLINK id="TL28" fromID="E7" fromText="His right tib / fib fracture" toID="E34" toText="repaired" type="ENDED_BY" />
+<TLINK id="TL29" fromID="E35" fromText="Orthopedics" toID="E34" toText="repaired" type="SIMULTANEOUS" />
+<TLINK id="TL3" fromID="E22" fromText="The Hospital for Orthopedics" toID="E20" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL30" fromID="E34" fromText="repaired" toID="T1" toText="10-27" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="T1" fromText="10-27" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL32" fromID="T1" fromText="10-27" toID="E20" toText="Discharge" type="BEFORE" />
+<TLINK id="TL33" fromID="E8" fromText="complications" toID="E34" toText="repaired" type="AFTER" />
+<TLINK id="TL34" fromID="E36" fromText="Weight bearing status" toID="E8" toText="complications" type="OVERLAP" />
+<TLINK id="TL35" fromID="E36" fromText="Weight bearing status" toID="E38" toText="increased" type="BEFORE_OVERLAP" />
+<TLINK id="TL36" fromID="E39" fromText="weight bearing as tolerated" toID="E38" toText="increased" type="BEGUN_BY" />
+<TLINK id="TL37" fromID="E40" fromText="fitted" toID="E38" toText="increased" type="OVERLAP" />
+<TLINK id="TL38" fromID="E41" fromText="a hinged Mcdonald brace" toID="E40" toText="fitted" type="BEGUN_BY" />
+<TLINK id="TL39" fromID="E42" fromText="Lovenox injections" toID="T6" toText="4-6 weeks" type="DURING" />
+<TLINK id="TL4" fromID="E21" fromText="struck by auto" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL40" fromID="E42" fromText="Lovenox injections" toID="E20" toText="Discharge" type="BEFORE_OVERLAP" />
+<TLINK id="TL41" fromID="E43" fromText="transfused" toID="E40" toText="fitted" type="OVERLAP" />
+<TLINK id="TL42" fromID="E10" fromText="3 u packed cells" toID="E43" toText="transfused" type="SIMULTANEOUS" />
+<TLINK id="TL43" fromID="E11" fromText="a hematocrit" toID="E10" toText="3 u packed cells" type="AFTER" />
+<TLINK id="TL44" fromID="E12" fromText="post transfusion HCT" toID="E11" toText="a hematocrit" type="OVERLAP" />
+<TLINK id="TL46" fromID="E14" fromText="his first unit of packed cells" toID="E10" toText="3 u packed cells" type="DURING" />
+<TLINK id="TL47" fromID="E13" fromText="transfusion reaction" toID="E14" toText="his first unit of packed cells" type="SIMULTANEOUS" />
+<TLINK id="TL48" fromID="E15" fromText="the remaining 2 units" toID="E14" toText="his first unit of packed cells" type="AFTER" />
+<TLINK id="TL49" fromID="E15" fromText="the remaining 2 units" toID="E10" toText="3 u packed cells" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E17" fromText="medflighted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="E16" fromText="any further reaction" toID="E15" toText="the remaining 2 units" type="OVERLAP" />
+<TLINK id="TL51" fromID="E44" fromText="Physical and Occupational therapy" toID="E45" toText="consulted" type="SIMULTANEOUS" />
+<TLINK id="TL52" fromID="E44" fromText="Physical and Occupational therapy" toID="E43" toText="transfused" type="OVERLAP" />
+<TLINK id="TL53" fromID="E46" fromText="home with services" toID="E45" toText="consulted" type="AFTER" />
+<TLINK id="TL6" fromID="E22" fromText="The Hospital for Orthopedics" toID="E17" toText="medflighted" type="BEGUN_BY" />
+<TLINK id="TL7" fromID="E23" fromText="ongoing trauma care" toID="E22" toText="The Hospital for Orthopedics" type="BEGUN_BY" />
+<TLINK id="TL8" fromID="E19" fromText="arrival" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="E2" fromText="GCS" toID="E19" toText="arrival" type="SIMULTANEOUS" />
+<TLINK id="Sectime0" fromID="E43" fromText="transfused" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E10" fromText="3 u packed cells" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E11" fromText="a hematocrit" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E12" fromText="post transfusion HCT" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E13" fromText="transfusion reaction" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E14" fromText="his first unit of packed cells" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E15" fromText="the remaining 2 units" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E16" fromText="any further reaction" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E44" fromText="Physical and Occupational therapy" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E45" fromText="consulted" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E46" fromText="home with services" toID="T2" toText="2015-10-30" type="AFTER" />
+<TLINK id="Sectime0" fromID="E21" fromText="struck by auto" toID="T0" toText="2015-10-26" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E1" fromText="+LOC" toID="T0" toText="2015-10-26" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E17" fromText="medflighted" toID="T0" toText="2015-10-26" type="OVERLAP" />
+<TLINK id="Sectime3" fromID="E22" fromText="The Hospital for Orthopedics" toID="T0" toText="2015-10-26" type="OVERLAP" />
+<TLINK id="Sectime4" fromID="E23" fromText="ongoing trauma care" toID="T0" toText="2015-10-26" type="OVERLAP" />
+<TLINK id="Sectime5" fromID="E19" fromText="arrival" toID="T0" toText="2015-10-26" type="OVERLAP" />
+<TLINK id="Sectime6" fromID="E2" fromText="GCS" toID="T0" toText="2015-10-26" type="OVERLAP" />
+<TLINK id="Sectime7" fromID="E24" fromText="alert" toID="T0" toText="2015-10-26" type="OVERLAP" />
+<TLINK id="Sectime8" fromID="E25" fromText="oriented" toID="T0" toText="2015-10-26" type="OVERLAP" />
+<TLINK id="Sectime11" fromID="E18" fromText="admitted" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E27" fromText="the trauma service" toID="T2" toText="2015-10-30" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime13" fromID="E26" fromText="the trauma service" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E47" fromText="Orthopedics and Neurosurgery" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E28" fromText="consulted" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E3" fromText="his injuries" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E4" fromText="His Neurosurgical issues" toID="T2" toText="2015-10-30" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime18" fromID="E29" fromText="nonoperative" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E30" fromText="Dilantin" toID="T2" toText="2015-10-30" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime20" fromID="E5" fromText="serial head CT scans" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E31" fromText="stable" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E32" fromText="follow up" toID="T2" toText="2015-10-30" type="AFTER" />
+<TLINK id="Sectime23" fromID="E6" fromText="repeat head imaging" toID="T2" toText="2015-10-30" type="AFTER" />
+<TLINK id="Sectime24" fromID="E33" fromText="Dilantin" toID="T2" toText="2015-10-30" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime25" fromID="E7" fromText="His right tib / fib fracture" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E34" fromText="repaired" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E35" fromText="Orthopedics" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E8" fromText="complications" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E36" fromText="Weight bearing status" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E38" fromText="increased" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime31" fromID="E39" fromText="weight bearing as tolerated" toID="T2" toText="2015-10-30" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime32" fromID="E40" fromText="fitted" toID="T2" toText="2015-10-30" type="BEFORE" />
+<TLINK id="Sectime33" fromID="E41" fromText="a hinged Mcdonald brace" toID="T2" toText="2015-10-30" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime34" fromID="E42" fromText="Lovenox injections" toID="T2" toText="2015-10-30" type="BEFORE_OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2015-10-26" type="ADMISSION" dvalue="2015-10-26" />
+<SECTIME id="S1" start="46" end="56" text="2015-10-30" type="DISCHARGE" dvalue="2015-10-30" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

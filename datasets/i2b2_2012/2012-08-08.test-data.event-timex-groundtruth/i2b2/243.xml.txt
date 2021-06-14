@@ -1,0 +1,23 @@
+Admission Date :
+2015-12-03
+Discharge Date :
+2015-12-08
+Service :
+MEDICINE
+History of Present Illness :
+55 yo M w/ h/o recurrent bladder ca s/p cystectomy w/ ileal conduit p/w BRBPR to OSH .
+Hct dropped 34 -> 22 .
+EGD normal .
+Cscope unable to complete due to blood but tics seen .
+Tagged RBC + activity in RLQ .
+Transferred to Mediplex Rehab Hospital ICU where Hct has remained stable .
+Seen by GI and plan is to continue holding anticoagulation and repeat scope on Monday .
+Pt feeling well , denies abd pain , N/V , LH , SOB , CP .
+Brief Hospital Course :
+55 year old man with history of metastatic bladder cancer and recurrent DVT s on Lovenox admitted with lower GI bleeding .
+Right lower quadrant source of bleed on red blood cell scan .
+Attempts to visualize colon by conventional and CT virtual colonoscopy failed because of sigmoid angulation and inadequate preparation , respectively .
+On Ct scan , a right psoas mass , most consistent with a hematoma , was seen .
+Since the hematocrit of the patient was stable and outside records from 2015-03-28 mentioned a mass in the right pelvis , the patient was discharged .
+Lovenox was held until follow-up with primary care doctor .
+Also , a repeat outpatient CT colonoscopy with better preparation should be considered .

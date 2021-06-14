@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2013-11-21
+Discharge Date :
+2013-11-26
+Service :
+PLASTIC
+History of Present Illness :
+MS. Marshall IS A 64-YEAR OLD , MENTALLY RETARDED , FEMALE WHO PRESENTED WITH AN AQUIRED DEFECT OF THE RIGHT NASAL ALA AND MEDIAL CHEEK REGION AFTER BASAL CELL CARCINOMA WAS RESECTED BY DERMATOLOGY .
+Brief Hospital Course :
+UPON ADMISSION , THE PATIENT WAS PRE-OP 'D AND MADE NPO / IVF .
+SHE WENT TO SURGERY THE NEXT MORNING AND TOLERATED THE SURGERY WELL .
+HOWEVER , SHE WAS SLOW TO AWAKE FROM ANESTHESIA , AND WAS ADMITTED TO THE CMED CCU OBSERVATION .
+SHE WAS TRANSFERED TO THE FLOOR POST-OP DAY 2 WHERE SHE HAD BEEN AFEBRILE WITH NORMAL VITALS , MAKING GOOD URINE , AND TOLERATING A REGULAR DIET .
+HER WOUND HAS REMAIND DRY AND CLOSED , WITHOUT EVIDENCE OF INFECTION OR BREAKDOWN .
+SHE HAS BEEN WATCHED BY A SITTER AT ALL TIMES .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="136" end="153" text="MENTALLY RETARDED" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="167" end="176" text="PRESENTED" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="182" end="246" text="AN AQUIRED DEFECT OF THE RIGHT NASAL ALA AND MEDIAL CHEEK REGION" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="253" end="273" text="BASAL CELL CARCINOMA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="278" end="286" text="RESECTED" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="290" end="301" text="DERMATOLOGY" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E8" start="333" end="342" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="361" end="370" text="PRE-OP 'D" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="380" end="383" text="NPO" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="386" end="389" text="IVF" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="404" end="411" text="SURGERY" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E13" start="433" end="442" text="TOLERATED" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="443" end="454" text="THE SURGERY" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="455" end="459" text="WELL" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="480" end="493" text="SLOW TO AWAKE" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="499" end="509" text="ANESTHESIA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="520" end="528" text="ADMITTED" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="532" end="556" text="THE CMED CCU OBSERVATION" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E19" start="567" end="577" text="TRANSFERED" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="581" end="590" text="THE FLOOR" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E21" start="624" end="632" text="AFEBRILE" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="638" end="651" text="NORMAL VITALS" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="654" end="671" text="MAKING GOOD URINE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="678" end="703" text="TOLERATING A REGULAR DIET" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="689" end="703" text="A REGULAR DIET" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="706" end="715" text="HER WOUND" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="728" end="731" text="DRY" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="736" end="742" text="CLOSED" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="765" end="774" text="INFECTION" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E30" start="778" end="787" text="BREAKDOWN" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E31" start="803" end="810" text="WATCHED" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="814" end="822" text="A SITTER" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T0" start="18" end="28" text="2013-11-21" type="DATE" val="2013-11-21" mod="NA" />
+<TIMEX3 id="T2" start="412" end="428" text="THE NEXT MORNING" type="DATE" val="2013-11-22" mod="START" />
+<TIMEX3 id="T1" start="46" end="56" text="2013-11-26" type="DATE" val="2013-11-26" mod="NA" />
+<TIMEX3 id="T4" start="591" end="604" text="POST-OP DAY 2" type="DATE" val="2013-11-24" mod="NA" />
+<TIMEX3 id="T3" start="826" end="835" text="ALL TIMES" type="DURATION" val="P6D" mod="APPROX" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2013-11-21" type="OVERLAP" />
+<TLINK id="TL1" fromID="E0" fromText="Admission" toID="E8" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL10" fromID="T3" fromText="ALL TIMES" toID="E8" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL11" fromID="E10" fromText="NPO" toID="E9" toText="PRE-OP 'D" type="OVERLAP" />
+<TLINK id="TL12" fromID="E10" fromText="NPO" toID="E11" toText="IVF" type="OVERLAP" />
+<TLINK id="TL13" fromID="E12" fromText="SURGERY" toID="E14" toText="THE SURGERY" type="OVERLAP" />
+<TLINK id="TL14" fromID="E12" fromText="SURGERY" toID="T2" toText="THE NEXT MORNING" type="OVERLAP" />
+<TLINK id="TL15" fromID="E14" fromText="THE SURGERY" toID="T2" toText="THE NEXT MORNING" type="OVERLAP" />
+<TLINK id="TL16" fromID="E13" fromText="TOLERATED" toID="E14" toText="THE SURGERY" type="OVERLAP" />
+<TLINK id="TL17" fromID="E15" fromText="SLOW TO AWAKE" toID="E16" toText="ANESTHESIA" type="AFTER" />
+<TLINK id="TL18" fromID="E15" fromText="SLOW TO AWAKE" toID="E17" toText="ADMITTED" type="BEFORE" />
+<TLINK id="TL19" fromID="E14" fromText="THE SURGERY" toID="E16" toText="ANESTHESIA" type="OVERLAP" />
+<TLINK id="TL2" fromID="E1" fromText="Discharge" toID="T1" toText="2013-11-26" type="OVERLAP" />
+<TLINK id="TL20" fromID="E17" fromText="ADMITTED" toID="E18" toText="THE CMED CCU OBSERVATION" type="OVERLAP" />
+<TLINK id="TL21" fromID="E20" fromText="THE FLOOR" toID="E19" toText="TRANSFERED" type="AFTER" />
+<TLINK id="TL22" fromID="E21" fromText="AFEBRILE" toID="E20" toText="THE FLOOR" type="OVERLAP" />
+<TLINK id="TL23" fromID="E23" fromText="MAKING GOOD URINE" toID="E20" toText="THE FLOOR" type="OVERLAP" />
+<TLINK id="TL24" fromID="E22" fromText="NORMAL VITALS" toID="E20" toText="THE FLOOR" type="OVERLAP" />
+<TLINK id="TL25" fromID="E24" fromText="TOLERATING A REGULAR DIET" toID="E20" toText="THE FLOOR" type="OVERLAP" />
+<TLINK id="TL26" fromID="E20" fromText="THE FLOOR" toID="T4" toText="POST-OP DAY 2" type="AFTER" />
+<TLINK id="TL27" fromID="E18" fromText="THE CMED CCU OBSERVATION" toID="E20" toText="THE FLOOR" type="BEFORE" />
+<TLINK id="TL28" fromID="E29" fromText="INFECTION" toID="E26" toText="HER WOUND" type="OVERLAP" />
+<TLINK id="TL29" fromID="E26" fromText="HER WOUND" toID="E27" toText="DRY" type="OVERLAP" />
+<TLINK id="TL3" fromID="E2" fromText="MENTALLY RETARDED" toID="E3" toText="PRESENTED" type="BEFORE" />
+<TLINK id="TL30" fromID="E30" fromText="BREAKDOWN" toID="E26" toText="HER WOUND" type="OVERLAP" />
+<TLINK id="TL31" fromID="E28" fromText="CLOSED" toID="E26" toText="HER WOUND" type="OVERLAP" />
+<TLINK id="TL32" fromID="E31" fromText="WATCHED" toID="T3" toText="ALL TIMES" type="OVERLAP" />
+<TLINK id="TL33" fromID="E32" fromText="A SITTER" toID="E31" toText="WATCHED" type="OVERLAP" />
+<TLINK id="TL34" fromID="E33" fromText="WELL" toID="E13" toText="TOLERATED" type="OVERLAP" />
+<TLINK id="TL4" fromID="E4" fromText="AN AQUIRED DEFECT OF THE RIGHT NASAL ALA AND MEDIAL CHEEK REGION" toID="E3" toText="PRESENTED" type="BEFORE" />
+<TLINK id="TL5" fromID="E4" fromText="AN AQUIRED DEFECT OF THE RIGHT NASAL ALA AND MEDIAL CHEEK REGION" toID="E5" toText="BASAL CELL CARCINOMA" type="AFTER" />
+<TLINK id="TL6" fromID="E4" fromText="AN AQUIRED DEFECT OF THE RIGHT NASAL ALA AND MEDIAL CHEEK REGION" toID="E6" toText="RESECTED" type="AFTER" />
+<TLINK id="TL7" fromID="E6" fromText="RESECTED" toID="E5" toText="BASAL CELL CARCINOMA" type="BEFORE" />
+<TLINK id="TL8" fromID="E6" fromText="RESECTED" toID="E7" toText="DERMATOLOGY" type="OVERLAP" />
+<TLINK id="TL9" fromID="E8" fromText="ADMISSION" toID="E9" toText="PRE-OP 'D" type="OVERLAP" />
+<TLINK id="SECTIME0" fromID="E2" fromText="MENTALLY RETARDED" toID="T0" toText="2013-11-21" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E3" fromText="PRESENTED" toID="T0" toText="2013-11-21" type="OVERLAP" />
+<TLINK id="SECTIME2" fromID="E4" fromText="AN AQUIRED DEFECT OF THE RIGHT NASAL ALA AND MEDIAL CHEEK REGION" toID="T0" toText="2013-11-21" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E5" fromText="BASAL CELL CARCINOMA" toID="T0" toText="2013-11-21" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E6" fromText="RESECTED" toID="T0" toText="2013-11-21" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E7" fromText="DERMATOLOGY" toID="T0" toText="2013-11-21" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E8" fromText="ADMISSION" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E9" fromText="PRE-OP 'D" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E10" fromText="NPO" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E11" fromText="IVF" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E12" fromText="SURGERY" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E13" fromText="TOLERATED" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E14" fromText="THE SURGERY" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E33" fromText="WELL" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E15" fromText="SLOW TO AWAKE" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E16" fromText="ANESTHESIA" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E17" fromText="ADMITTED" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E18" fromText="THE CMED CCU OBSERVATION" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E19" fromText="TRANSFERED" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E20" fromText="THE FLOOR" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E21" fromText="AFEBRILE" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E22" fromText="NORMAL VITALS" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E23" fromText="MAKING GOOD URINE" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E24" fromText="TOLERATING A REGULAR DIET" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E25" fromText="A REGULAR DIET" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E26" fromText="HER WOUND" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E27" fromText="DRY" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E28" fromText="CLOSED" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E29" fromText="INFECTION" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E30" fromText="BREAKDOWN" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E31" fromText="WATCHED" toID="T1" toText="2013-11-26" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E32" fromText="A SITTER" toID="T1" toText="2013-11-26" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2013-11-21" type="ADMISSION" dvalue="2013-11-21" />
+<SECTIME id="S1" start="46" end="56" text="2013-11-26" type="DISCHARGE" dvalue="2013-11-26" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

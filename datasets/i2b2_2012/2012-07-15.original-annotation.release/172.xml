@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2018-04-23
+Discharge Date :
+2018-05-01
+Service :
+MEDICINE
+History of Present Illness :
+95 yo male with PMH large right thyroid cystic mass eroding into trachea , who presented to St. Anne 's Hospital 2018-04-22 with hemoptysis and respiratory distress , now diagnosed with anaplastic thyroid carcinoma .
+.
+Pt reports that he noticed a right neck mass last October .
+The mass grew larger , to the size of a baseball .
+It appears that FNA was performed but was non-diagnostic ( probably because anaplastic tumors tend to be necrotic ) .
+The mass appears to be cystic in nature and has been aspirated at least 3 times , which decrease in size each time .
+Now size is 6.5cm*6.5cm .
+Plan for surgery in Oct was deferred 04-05 syncope and pacer placement for SSS; again deferred 2 weeks ago 04-05 URI; was planned for surgery this Thurday .
+.
+Pt was o/w in his USOH until 2-3 weeks ago when he developed a URI with symptoms of dry cough; no fever , chills , sore throat , myalgias .
+Pt was treated with 3 days of an antibiotics , followed by a 10 day course of levaquin ( completed 2 days PTA ) .
+Per pt and son , no James pna .
+2 days prior to admission , pt developed hemoptysis; states he coughed up 4 tsp of blood .
+1 day PTA , pt developed stridorous breathing and respiratory distress .
+Pt was initially seen at Lahey North , where he was given steroids , with improvement in respiratory status .
+Pt was transferred to New England Baptist Hospital , where his surgeon is located .
+There he was admitted to the CMED .
+Thyroid cyst was aspirated with removal of 300cc of fluid . 
+Pt was given racemic epinephrine and Decadron 10mg IV x1. CT neck showed tracheal mass per nursing s/o ( pt brought CT ) .
+.
+Pt now breathing more comfortably .
+He has not had fever and night sweats but reports weakness and weight loss for several months recently .
+Brief Hospital Course :
+Pt was transferred here for further mgmt of airway and large thyroid mass by our IP team .
+IP found endotracheal obstructing tumor and extrinsic compression of the high trachea by thyroid mass .
+After rigid bronchoscopy with removal of the intratracheal tumor component on 2018-04-24 , stat pathology showed anaplastic tumor .
+He was tranferred to the CMED .
+Subsequently extubated and his respiratory Sx are now improved .
+Pt was seen by Rad Onc , who recommended transfer to the East Campus for XRT .
+On the morning of possible radiation , patient and family met with interventional pulmonary team who explained that the most recent CT showed further invasion of the tumor into the trachea .
+After a long discussion , patient and family asked to be made CMO .
+Patient was started on morphine drip and palliative care team was consulted with recommendations to ensure comfort .
+Mr . Davison died approximately 24 hours after decision to be CMO , on 2018-05-01 .
+Discharge Disposition :
+Expired
+Discharge Diagnosis :
+NC
+Discharge Condition :
+NC
+Discharge Instructions :
+NC
+Followup Instructions :
+NC
+John Iris MD 70-363
+Completed by :
+Patricia Rojas MD 73-701 2018-05-06 @ 1434
+Signed electronically by :
+DR. John J. Booker on :
+WED 2018-05-30 5:50 PM
+( End of Report )
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="1025" end="1039" text="an antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1073" end="1081" text="levaquin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1129" end="1138" text="James pna" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E37" start="1182" end="1193" text="hemoptysis;" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1194" end="1200" text="states" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E39" start="1204" end="1214" text="coughed up" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="1224" end="1229" text="blood" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="125" end="156" text="large right thyroid cystic mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1257" end="1277" text="stridorous breathing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1282" end="1302" text="respiratory distress" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="1330" end="1341" text="Lahey North" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E44" start="1363" end="1371" text="steroids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1379" end="1390" text="improvement" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1394" end="1412" text="respiratory status" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="1422" end="1433" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="1437" end="1465" text="New England Baptist Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E51" start="1499" end="1504" text="There" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E49" start="1512" end="1520" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="1524" end="1532" text="the CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E52" start="1535" end="1547" text="Thyroid cyst" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="1552" end="1561" text="aspirated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1567" end="1574" text="removal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="157" end="164" text="eroding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="1609" end="1628" text="racemic epinephrine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="1633" end="1641" text="Decadron" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="1654" end="1661" text="CT neck" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="1662" end="1668" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E60" start="1669" end="1682" text="tracheal mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="1712" end="1714" text="CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="1728" end="1754" text="breathing more comfortably" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="1772" end="1777" text="fever" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E64" start="1782" end="1794" text="night sweats" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E65" start="1799" end="1806" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E66" start="1807" end="1815" text="weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="1820" end="1831" text="weight loss" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="184" end="193" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="1893" end="1904" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="1905" end="1909" text="here" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E70" start="1914" end="1936" text="further mgmt of airway" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="1941" end="1959" text="large thyroid mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="197" end="217" text="St. Anne 's Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E72" start="1986" end="2016" text="endotracheal obstructing tumor" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="2021" end="2062" text="extrinsic compression of the high trachea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="2066" end="2078" text="thyroid mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="2087" end="2105" text="rigid bronchoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E76" start="2111" end="2118" text="removal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="2122" end="2155" text="the intratracheal tumor component" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E78" start="2172" end="2186" text="stat pathology" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E99" start="2187" end="2193" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E79" start="2194" end="2210" text="anaplastic tumor" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E80" start="2220" end="2230" text="tranferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E81" start="2234" end="2242" text="the CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E82" start="2258" end="2267" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E83" start="2272" end="2290" text="his respiratory Sx" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E84" start="2299" end="2307" text="improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E97" start="2325" end="2332" text="Rad Onc" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E6" start="234" end="244" text="hemoptysis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="2351" end="2359" text="transfer" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E86" start="2363" end="2378" text="the East Campus" modality="PROPOSED" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E87" start="2383" end="2386" text="XRT" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E88" start="2407" end="2425" text="possible radiation" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="249" end="269" text="respiratory distress" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E89" start="2505" end="2523" text="the most recent CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E90" start="2524" end="2530" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E91" start="2531" end="2547" text="further invasion" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E92" start="2551" end="2560" text="the tumor" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E93" start="2642" end="2645" text="CMO" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E94" start="2671" end="2684" text="morphine drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E95" start="2778" end="2782" text="died" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E96" start="2827" end="2830" text="CMO" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="291" end="319" text="anaplastic thyroid carcinoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="327" end="334" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E10" start="351" end="368" text="a right neck mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="384" end="392" text="The mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="393" end="404" text="grew larger" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="451" end="454" text="FNA" modality="POSSIBLE" polarity="POS" type="TEST" />
+<EVENT id="E14" start="511" end="528" text="anaplastic tumors" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="540" end="548" text="necrotic" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="553" end="561" text="The mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="576" end="582" text="cystic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="606" end="615" text="aspirated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E98" start="641" end="649" text="decrease" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="705" end="712" text="surgery" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="724" end="732" text="deferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="739" end="746" text="syncope" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="751" end="766" text="pacer placement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="771" end="775" text="SSS;" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="776" end="790" text="again deferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="809" end="813" text="URI;" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="830" end="837" text="surgery" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="869" end="877" text="his USOH" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="916" end="921" text="a URI" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="939" end="949" text="dry cough;" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="953" end="958" text="fever" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E31" start="961" end="967" text="chills" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="970" end="981" text="sore throat" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="984" end="992" text="myalgias" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T10" start="1015" end="1021" text="3 days" type="DURATION" val="P3D" mod="NA" />
+<TIMEX3 id="T12" start="1054" end="1069" text="a 10 day course" type="DURATION" val="P10D" mod="NA" />
+<TIMEX3 id="T13" start="1094" end="1100" text="2 days" type="DATE" val="2018-04-21" mod="NA" />
+<TIMEX3 id="T14" start="1141" end="1147" text="2 days" type="DATE" val="2018-04-21" mod="NA" />
+<TIMEX3 id="T15" start="1232" end="1237" text="1 day" type="DATE" val="2018-04-22" mod="NA" />
+<TIMEX3 id="T21" start="1650" end="1653" text="x1." type="FREQUENCY" val="R1" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2018-04-23" type="DATE" val="2018-04-23" mod="NA" />
+<TIMEX3 id="T16" start="1836" end="1850" text="several months" type="DURATION" val="P3M" mod="APPROX" />
+<TIMEX3 id="T17" start="2159" end="2169" text="2018-04-24" type="DATE" val="2018-04-24" mod="NA" />
+<TIMEX3 id="T2" start="218" end="228" text="2018-04-22" type="DATE" val="2018-04-22" mod="NA" />
+<TIMEX3 id="T18" start="2392" end="2403" text="the morning" type="DATE" val="2017-04-30" mod="START" />
+<TIMEX3 id="T20" start="2797" end="2805" text="24 hours" type="DURATION" val="PT24H" mod="APPROX" />
+<TIMEX3 id="T19" start="2836" end="2846" text="2018-05-01" type="DATE" val="2018-05-01" mod="NA" />
+<TIMEX3 id="T3" start="369" end="381" text="last October" type="DATE" val="2017-10" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2018-05-01" type="DATE" val="2018-05-01" mod="NA" />
+<TIMEX3 id="T4" start="625" end="632" text="3 times" type="FREQUENCY" val="R3" mod="NA" />
+<TIMEX3 id="T5" start="716" end="719" text="Oct" type="DATE" val="2018-10" mod="NA" />
+<TIMEX3 id="T6" start="733" end="738" text="04-05" type="DATE" val="2018-04-05" mod="NA" />
+<TIMEX3 id="T7" start="791" end="808" text="2 weeks ago 04-05" type="DATE" val="2018-04-05" mod="NA" />
+<TIMEX3 id="T8" start="838" end="850" text="this Thurday" type="DATE" val="2018-04-26" mod="APPROX" />
+<TIMEX3 id="T9" start="884" end="897" text="2-3 weeks ago" type="DATE" val="2018-04-05" mod="APPROX" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2018-04-23" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="T1" fromText="2018-05-01" toID="E1" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E10" fromText="a right neck mass" toID="E9" toText="reports" type="BEFORE_OVERLAP" />
+<TLINK id="TL100" fromID="E86" fromText="the East Campus" toID="E87" toText="XRT" type="OVERLAP" />
+<TLINK id="TL101" fromID="E93" fromText="CMO" toID="T18" toText="the morning" type="BEGUN_BY" />
+<TLINK id="TL102" fromID="E89" fromText="the most recent CT" toID="T18" toText="the morning" type="BEFORE" />
+<TLINK id="TL103" fromID="E88" fromText="possible radiation" toID="T18" toText="the morning" type="SIMULTANEOUS" />
+<TLINK id="TL104" fromID="E87" fromText="XRT" toID="E88" toText="possible radiation" type="simultaneous" />
+<TLINK id="TL106" fromID="E90" fromText="showed" toID="E89" toText="the most recent CT" type="OVERLAP" />
+<TLINK id="TL107" fromID="E91" fromText="further invasion" toID="E89" toText="the most recent CT" type="BEFORE_OVERLAP" />
+<TLINK id="TL108" fromID="E92" fromText="the tumor" toID="E91" toText="further invasion" type="OVERLAP" />
+<TLINK id="TL109" fromID="E92" fromText="the tumor" toID="E71" toText="large thyroid mass" type="SIMULTANEOUS" />
+<TLINK id="TL11" fromID="E10" fromText="a right neck mass" toID="T3" toText="last October" type="BEGUN_BY" />
+<TLINK id="TL110" fromID="E71" fromText="large thyroid mass" toID="E74" toText="thyroid mass" type="simultaneous" />
+<TLINK id="TL111" fromID="E71" fromText="large thyroid mass" toID="E11" toText="The mass" type="SIMULTANEOUS" />
+<TLINK id="TL112" fromID="E94" fromText="morphine drip" toID="E93" toText="CMO" type="OVERLAP" />
+<TLINK id="TL113" fromID="E95" fromText="died" toID="T20" toText="24 hours" type="SIMULTANEOUS" />
+<TLINK id="TL114" fromID="E95" fromText="died" toID="T19" toText="2018-05-01" type="SIMULTANEOUS" />
+<TLINK id="TL115" fromID="T20" fromText="24 hours" toID="E95" toText="died" type="ENDED_BY" />
+<TLINK id="TL116" fromID="E96" fromText="CMO" toID="T20" toText="24 hours" type="DURING" />
+<TLINK id="TL117" fromID="E96" fromText="CMO" toID="E93" toText="CMO" type="SIMULTANEOUS" />
+<TLINK id="TL12" fromID="E10" fromText="a right neck mass" toID="E11" toText="The mass" type="simultaneous" />
+<TLINK id="TL13" fromID="E11" fromText="The mass" toID="E16" toText="The mass" type="simultaneous" />
+<TLINK id="TL14" fromID="E12" fromText="grew larger" toID="E11" toText="The mass" type="OVERLAP" />
+<TLINK id="TL15" fromID="E11" fromText="The mass" toID="E13" toText="FNA" type="BEFORE_OVERLAP" />
+<TLINK id="TL16" fromID="E15" fromText="necrotic" toID="E14" toText="anaplastic tumors" type="OVERLAP" />
+<TLINK id="TL17" fromID="E8" fromText="anaplastic thyroid carcinoma" toID="E14" toText="anaplastic tumors" type="SIMULTANEOUS" />
+<TLINK id="TL18" fromID="E16" fromText="The mass" toID="E17" toText="cystic" type="OVERLAP" />
+<TLINK id="TL19" fromID="E16" fromText="The mass" toID="E18" toText="aspirated" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="large right thyroid cystic mass" toID="E3" toText="eroding" type="OVERLAP" />
+<TLINK id="TL20" fromID="E18" fromText="aspirated" toID="T4" toText="3 times" type="OVERLAP" />
+<TLINK id="TL22" fromID="E98" fromText="decrease" toID="E18" toText="aspirated" type="AFTER" />
+<TLINK id="TL23" fromID="E19" fromText="surgery" toID="T5" toText="Oct" type="SIMULTANEOUS" />
+<TLINK id="TL24" fromID="E20" fromText="deferred" toID="T6" toText="04-05" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E20" fromText="deferred" toID="E19" toText="surgery" type="BEFORE" />
+<TLINK id="TL26" fromID="E20" fromText="deferred" toID="E24" toText="again deferred" type="BEFORE" />
+<TLINK id="TL27" fromID="E22" fromText="pacer placement" toID="E21" toText="syncope" type="OVERLAP" />
+<TLINK id="TL28" fromID="E21" fromText="syncope" toID="T6" toText="04-05" type="OVERLAP" />
+<TLINK id="TL29" fromID="E23" fromText="SSS;" toID="E22" toText="pacer placement" type="BEFORE_OVERLAP" />
+<TLINK id="TL3" fromID="E2" fromText="large right thyroid cystic mass" toID="E10" toText="a right neck mass" type="OVERLAP" />
+<TLINK id="TL30" fromID="E24" fromText="again deferred" toID="T7" toText="2 weeks ago 04-05" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E25" fromText="URI;" toID="T7" toText="2 weeks ago 04-05" type="OVERLAP" />
+<TLINK id="TL32" fromID="E26" fromText="surgery" toID="T8" toText="this Thurday" type="SIMULTANEOUS" />
+<TLINK id="TL33" fromID="E25" fromText="URI;" toID="E28" toText="a URI" type="simultaneous" />
+<TLINK id="TL34" fromID="T9" fromText="2-3 weeks ago" toID="T7" toText="2 weeks ago 04-05" type="SIMULTANEOUS" />
+<TLINK id="TL35" fromID="E27" fromText="his USOH" toID="T9" toText="2-3 weeks ago" type="ENDED_BY" />
+<TLINK id="TL36" fromID="E28" fromText="a URI" toID="T9" toText="2-3 weeks ago" type="BEGUN_BY" />
+<TLINK id="TL37" fromID="E30" fromText="fever" toID="E29" toText="dry cough;" type="OVERLAP" />
+<TLINK id="TL38" fromID="E28" fromText="a URI" toID="E29" toText="dry cough;" type="OVERLAP" />
+<TLINK id="TL39" fromID="E31" fromText="chills" toID="E30" toText="fever" type="OVERLAP" />
+<TLINK id="TL4" fromID="E2" fromText="large right thyroid cystic mass" toID="E4" toText="presented" type="BEFORE_OVERLAP" />
+<TLINK id="TL40" fromID="E32" fromText="sore throat" toID="E31" toText="chills" type="OVERLAP" />
+<TLINK id="TL41" fromID="E33" fromText="myalgias" toID="E32" toText="sore throat" type="OVERLAP" />
+<TLINK id="TL42" fromID="E34" fromText="an antibiotics" toID="T10" toText="3 days" type="DURING" />
+<TLINK id="TL43" fromID="T12" fromText="a 10 day course" toID="E34" toText="an antibiotics" type="AFTER" />
+<TLINK id="TL44" fromID="E35" fromText="levaquin" toID="T12" toText="a 10 day course" type="DURING" />
+<TLINK id="TL45" fromID="E35" fromText="levaquin" toID="T13" toText="2 days" type="ENDED_BY" />
+<TLINK id="TL46" fromID="E6" fromText="hemoptysis" toID="E37" toText="hemoptysis;" type="simultaneous" />
+<TLINK id="TL47" fromID="E37" fromText="hemoptysis;" toID="T14" toText="2 days" type="BEGUN_BY" />
+<TLINK id="TL48" fromID="E39" fromText="coughed up" toID="E37" toText="hemoptysis;" type="OVERLAP" />
+<TLINK id="TL49" fromID="E40" fromText="blood" toID="E37" toText="hemoptysis;" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E5" fromText="St. Anne 's Hospital" toID="E4" toText="presented" type="OVERLAP" />
+<TLINK id="TL50" fromID="E38" fromText="states" toID="E39" toText="coughed up" type="AFTER" />
+<TLINK id="TL51" fromID="E41" fromText="stridorous breathing" toID="T15" toText="1 day" type="BEGUN_BY" />
+<TLINK id="TL52" fromID="E42" fromText="respiratory distress" toID="T15" toText="1 day" type="BEGUN_BY" />
+<TLINK id="TL53" fromID="E43" fromText="Lahey North" toID="E44" toText="steroids" type="OVERLAP" />
+<TLINK id="TL54" fromID="E44" fromText="steroids" toID="E45" toText="improvement" type="BEFORE_OVERLAP" />
+<TLINK id="TL55" fromID="E46" fromText="respiratory status" toID="E45" toText="improvement" type="OVERLAP" />
+<TLINK id="TL56" fromID="E43" fromText="Lahey North" toID="E47" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL57" fromID="E47" fromText="transferred" toID="E48" toText="New England Baptist Hospital" type="BEGUN_BY" />
+<TLINK id="TL58" fromID="E51" fromText="There" toID="E48" toText="New England Baptist Hospital" type="SIMULTANEOUS" />
+<TLINK id="TL59" fromID="E49" fromText="admitted" toID="E51" toText="There" type="OVERLAP" />
+<TLINK id="TL6" fromID="E4" fromText="presented" toID="T2" toText="2018-04-22" type="SIMULTANEOUS" />
+<TLINK id="TL60" fromID="E49" fromText="admitted" toID="E50" toText="the CMED" type="OVERLAP" />
+<TLINK id="TL61" fromID="E52" fromText="Thyroid cyst" toID="E49" toText="admitted" type="AFTER" />
+<TLINK id="TL62" fromID="E52" fromText="Thyroid cyst" toID="E53" toText="aspirated" type="BEFORE_OVERLAP" />
+<TLINK id="TL63" fromID="E54" fromText="removal" toID="E53" toText="aspirated" type="SIMULTANEOUS" />
+<TLINK id="TL64" fromID="E55" fromText="racemic epinephrine" toID="E56" toText="Decadron" type="OVERLAP" />
+<TLINK id="TL65" fromID="T21" fromText="x1." toID="E56" toText="Decadron" type="OVERLAP" />
+<TLINK id="TL66" fromID="E58" fromText="CT neck" toID="E59" toText="showed" type="OVERLAP" />
+<TLINK id="TL67" fromID="E58" fromText="CT neck" toID="E61" toText="CT" type="SIMULTANEOUS" />
+<TLINK id="TL68" fromID="E60" fromText="tracheal mass" toID="E58" toText="CT neck" type="BEFORE_OVERLAP" />
+<TLINK id="TL69" fromID="E50" fromText="the CMED" toID="E62" toText="breathing more comfortably" type="OVERLAP" />
+<TLINK id="TL7" fromID="E6" fromText="hemoptysis" toID="E4" toText="presented" type="BEFORE_OVERLAP" />
+<TLINK id="TL70" fromID="E63" fromText="fever" toID="E64" toText="night sweats" type="OVERLAP" />
+<TLINK id="TL71" fromID="E64" fromText="night sweats" toID="E66" toText="weakness" type="OVERLAP" />
+<TLINK id="TL73" fromID="E66" fromText="weakness" toID="E65" toText="reports" type="BEFORE_OVERLAP" />
+<TLINK id="TL74" fromID="E67" fromText="weight loss" toID="T16" toText="several months" type="DURING" />
+<TLINK id="TL75" fromID="E66" fromText="weakness" toID="E67" toText="weight loss" type="OVERLAP" />
+<TLINK id="TL79" fromID="E69" fromText="here" toID="E68" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL8" fromID="E7" fromText="respiratory distress" toID="E4" toText="presented" type="BEFORE_OVERLAP" />
+<TLINK id="TL80" fromID="E71" fromText="large thyroid mass" toID="E70" toText="further mgmt of airway" type="OVERLAP" />
+<TLINK id="TL81" fromID="E69" fromText="here" toID="E70" toText="further mgmt of airway" type="BEFORE_OVERLAP" />
+<TLINK id="TL82" fromID="E72" fromText="endotracheal obstructing tumor" toID="E73" toText="extrinsic compression of the high trachea" type="OVERLAP" />
+<TLINK id="TL83" fromID="E73" fromText="extrinsic compression of the high trachea" toID="E74" toText="thyroid mass" type="OVERLAP" />
+<TLINK id="TL84" fromID="E75" fromText="rigid bronchoscopy" toID="T17" toText="2018-04-24" type="SIMULTANEOUS" />
+<TLINK id="TL85" fromID="E76" fromText="removal" toID="E75" toText="rigid bronchoscopy" type="OVERLAP" />
+<TLINK id="TL86" fromID="E76" fromText="removal" toID="T17" toText="2018-04-24" type="SIMULTANEOUS" />
+<TLINK id="TL87" fromID="E77" fromText="the intratracheal tumor component" toID="E76" toText="removal" type="BEFORE_OVERLAP" />
+<TLINK id="TL88" fromID="E79" fromText="anaplastic tumor" toID="E78" toText="stat pathology" type="BEFORE_OVERLAP" />
+<TLINK id="TL89" fromID="E78" fromText="stat pathology" toID="E99" toText="showed" type="OVERLAP" />
+<TLINK id="TL9" fromID="E8" fromText="anaplastic thyroid carcinoma" toID="E2" toText="large right thyroid cystic mass" type="OVERLAP" />
+<TLINK id="TL90" fromID="E78" fromText="stat pathology" toID="E75" toText="rigid bronchoscopy" type="AFTER" />
+<TLINK id="TL91" fromID="E81" fromText="the CMED" toID="E80" toText="tranferred" type="BEGUN_BY" />
+<TLINK id="TL92" fromID="E69" fromText="here" toID="E48" toText="New England Baptist Hospital" type="SIMULTANEOUS" />
+<TLINK id="TL93" fromID="E80" fromText="tranferred" toID="E68" toText="transferred" type="AFTER" />
+<TLINK id="TL94" fromID="E81" fromText="the CMED" toID="E50" toText="the CMED" type="SIMULTANEOUS" />
+<TLINK id="TL95" fromID="E82" fromText="extubated" toID="E80" toText="tranferred" type="AFTER" />
+<TLINK id="TL96" fromID="E83" fromText="his respiratory Sx" toID="E82" toText="extubated" type="AFTER" />
+<TLINK id="TL97" fromID="E84" fromText="improved" toID="E82" toText="extubated" type="AFTER" />
+<TLINK id="TL98" fromID="E97" fromText="Rad Onc" toID="E85" toText="transfer" type="BEFORE" />
+<TLINK id="TL99" fromID="E86" fromText="the East Campus" toID="E85" toText="transfer" type="BEGUN_BY" />
+<SECTIME id="S0" start="18" end="28" text="2018-04-23" type="ADMISSION" dvalue="2018-04-23" />
+<SECTIME id="S1" start="46" end="56" text="2018-05-01" type="DISCHARGE" dvalue="2018-05-01" />
+<TLINK id="SECTIME0" fromID="E34" fromText="an antibiotics" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E35" fromText="levaquin" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E36" fromText="James pna" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E37" fromText="hemoptysis;" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E38" fromText="states" toID="T0" toText="2018-04-23" type="OVERLAP" />
+<TLINK id="SECTIME5" fromID="E39" fromText="coughed up" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E40" fromText="blood" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E2" fromText="large right thyroid cystic mass" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E41" fromText="stridorous breathing" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E42" fromText="respiratory distress" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E43" fromText="Lahey North" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E44" fromText="steroids" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E45" fromText="improvement" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E46" fromText="respiratory status" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E47" fromText="transferred" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E48" fromText="New England Baptist Hospital" toID="T0" toText="2018-04-23" type="OVERLAP" />
+<TLINK id="SECTIME16" fromID="E51" fromText="There" toID="T0" toText="2018-04-23" type="OVERLAP" />
+<TLINK id="SECTIME17" fromID="E49" fromText="admitted" toID="T0" toText="2018-04-23" type="OVERLAP" />
+<TLINK id="SECTIME18" fromID="E50" fromText="the CMED" toID="T0" toText="2018-04-23" type="OVERLAP" />
+<TLINK id="SECTIME19" fromID="E52" fromText="Thyroid cyst" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E53" fromText="aspirated" toID="T0" toText="2018-04-23" type="OVERLAP" />
+<TLINK id="SECTIME21" fromID="E54" fromText="removal" toID="T0" toText="2018-04-23" type="OVERLAP" />
+<TLINK id="SECTIME22" fromID="E3" fromText="eroding" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E55" fromText="racemic epinephrine" toID="T0" toText="2018-04-23" type="OVERLAP" />
+<TLINK id="SECTIME24" fromID="E56" fromText="Decadron" toID="T0" toText="2018-04-23" type="OVERLAP" />
+<TLINK id="SECTIME25" fromID="E58" fromText="CT neck" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E59" fromText="showed" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E60" fromText="tracheal mass" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E61" fromText="CT" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E62" fromText="breathing more comfortably" toID="T0" toText="2018-04-23" type="OVERLAP" />
+<TLINK id="SECTIME30" fromID="E63" fromText="fever" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E64" fromText="night sweats" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E65" fromText="reports" toID="T0" toText="2018-04-23" type="OVERLAP" />
+<TLINK id="SECTIME33" fromID="E66" fromText="weakness" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E67" fromText="weight loss" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E4" fromText="presented" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E68" fromText="transferred" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E69" fromText="here" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E70" fromText="further mgmt of airway" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E71" fromText="large thyroid mass" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E5" fromText="St. Anne 's Hospital" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E72" fromText="endotracheal obstructing tumor" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E73" fromText="extrinsic compression of the high trachea" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E74" fromText="thyroid mass" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E75" fromText="rigid bronchoscopy" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E76" fromText="removal" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E77" fromText="the intratracheal tumor component" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E78" fromText="stat pathology" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E99" fromText="showed" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E79" fromText="anaplastic tumor" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E80" fromText="tranferred" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E81" fromText="the CMED" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E82" fromText="extubated" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E83" fromText="his respiratory Sx" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E84" fromText="improved" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E97" fromText="Rad Onc" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E6" fromText="hemoptysis" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E85" fromText="transfer" toID="T1" toText="2018-05-01" type="AFTER" />
+<TLINK id="SECTIME58" fromID="E86" fromText="the East Campus" toID="T1" toText="2018-05-01" type="AFTER" />
+<TLINK id="SECTIME59" fromID="E87" fromText="XRT" toID="T1" toText="2018-05-01" type="AFTER" />
+<TLINK id="SECTIME60" fromID="E88" fromText="possible radiation" toID="T1" toText="2018-05-01" type="AFTER" />
+<TLINK id="SECTIME61" fromID="E7" fromText="respiratory distress" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E89" fromText="the most recent CT" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E90" fromText="showed" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E91" fromText="further invasion" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E92" fromText="the tumor" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E93" fromText="CMO" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E94" fromText="morphine drip" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E95" fromText="died" toID="T1" toText="2018-05-01" type="OVERLAP" />
+<TLINK id="SECTIME69" fromID="E96" fromText="CMO" toID="T1" toText="2018-05-01" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E8" fromText="anaplastic thyroid carcinoma" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E9" fromText="reports" toID="T0" toText="2018-04-23" type="OVERLAP" />
+<TLINK id="SECTIME72" fromID="E10" fromText="a right neck mass" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E11" fromText="The mass" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E12" fromText="grew larger" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E13" fromText="FNA" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E14" fromText="anaplastic tumors" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E15" fromText="necrotic" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E16" fromText="The mass" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E17" fromText="cystic" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E18" fromText="aspirated" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E98" fromText="decrease" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E19" fromText="surgery" toID="T0" toText="2018-04-23" type="AFTER" />
+<TLINK id="SECTIME83" fromID="E20" fromText="deferred" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E21" fromText="syncope" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E22" fromText="pacer placement" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E23" fromText="SSS;" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E24" fromText="again deferred" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E25" fromText="URI;" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E26" fromText="surgery" toID="T0" toText="2018-04-23" type="AFTER" />
+<TLINK id="SECTIME90" fromID="E27" fromText="his USOH" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E28" fromText="a URI" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E29" fromText="dry cough;" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E30" fromText="fever" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E31" fromText="chills" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E32" fromText="sore throat" toID="T0" toText="2018-04-23" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E33" fromText="myalgias" toID="T0" toText="2018-04-23" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

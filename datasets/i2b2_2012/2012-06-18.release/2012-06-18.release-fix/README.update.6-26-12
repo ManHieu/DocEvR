@@ -1,0 +1,22 @@
+file: README.update.6-26-12
+
+This update includes the following:
+
+1. Determiners placed outside tag extents corrected for all
+   non-EVIDENTIAL events (e.g. 'a [CT scan]' -> '[a CT scan]') and
+   TIMEX3s (e.g. '[day] of discharge' -> '[the day] of discharge').
+
+2. Prepositions removed from extent spans for EVENTs and TIMEX3s
+   (e.g. '[at the day] of discharge' -> 'at [the day] of discharge').
+
+3. SECTIME tag: reported instances of spans and/or absent tags fixed.
+
+4. Corrected the mismatch between EVENT modality value in the
+   guidelines and in the annotation ('hypothetical' replaced with
+   'conditional').
+
+5. Corrected TLINK id error for	TLINKs linking to SECTIME.
+
+6. Corrected sec_time_rel to TLINK conversion for records that
+   did not contain explicit section time TIMEX.
+

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2016-12-15
+Discharge Date :
+2016-12-21
+Service :
+OBSTETRICS / GYNECOLOGY
+History of Present Illness :
+36 yo G3P2 at 38+5 weeks GA presented to L&D for elective induction of labor .
+Antenatal course benign .
+Brief Hospital Course :
+After admission to L&D , the patient was administered Pitocin for elective induction of labor and progressed uneventfully and went on to deliver a viable female infant , weight 3595 g , Apgars 11-11 .
+EBL during delivery was 300 cc .
+Patient was transferred to the PP floor in stable condition .
+Soon after transfer , patient had a large post partum hemorrhage .
+This was treated with transfer back to L&D , bimanual massage , administration of various uterotonics , namely pitocin 100 U , Methergine x 1 , Hemabate x 1 , and cytotec 1000 mcgs with minimal response .
+Patient underwent suction curettage and finally a supercervical hysterectomy .
+EBL 4000 cc ; IVF 6000 cc crystalloid ; U/O 3500 cc .
+Products :
+8 units RBC , 6FFP , 1 cryo , 1 pack plt .
+After this procedure , the patient again hemorrhaged in the ICU and was taken back to the OR for reexploration and ligation of a bleeding vaginal artery .
+EBL 3500 ; IVF 4000 ; UO 45 ; RBC 9U ; Plt 12 pack ; 1u Cryo ; 6U FFP .
+For details of these procedures , please see op notes dictated by Dr. Day on 2016-12-16 .
+Overall , the pt maintained good BP throughout and was on pressors only briefly .
+Hct was maintained in stable range with product transfusions .
+Patient did well and was extubated uneventfully on 12-17 .
+She was transferred from the ICU back to the PP floor on 12-19 .
+There , she made great progress .
+Her vital signs were stable , she remained afebrile off antibiotics .
+Her pain was controlled with percocet and motrin .
+Her foley was removed and she voided without problems .
+She John , tolerated a regular diet , and was discharged home in good condition on 12-21 .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="1010" end="1024" text="this procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1045" end="1056" text="hemorrhaged" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="1060" end="1067" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E68" start="1090" end="1096" text="the OR" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E22" start="1101" end="1114" text="reexploration" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="1119" end="1127" text="ligation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="1131" end="1156" text="a bleeding vaginal artery" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E69" start="1159" end="1162" text="EBL" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="1170" end="1173" text="IVF" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="1181" end="1183" text="UO" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="1189" end="1192" text="RBC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="1198" end="1201" text="Plt" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="1212" end="1219" text="1u Cryo" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="1222" end="1228" text="6U FFP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="1246" end="1262" text="these procedures" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="1354" end="1356" text="BP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="1379" end="1387" text="pressors" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1403" end="1406" text="Hct" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E70" start="1425" end="1437" text="stable range" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1443" end="1463" text="product transfusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="1478" end="1482" text="well" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E51" start="148" end="157" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E72" start="1491" end="1500" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E73" start="1533" end="1544" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="1550" end="1557" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E75" start="1566" end="1578" text="the PP floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E52" start="161" end="164" text="L&D" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E76" start="1613" end="1621" text="progress" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1624" end="1639" text="Her vital signs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E77" start="1645" end="1651" text="stable" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E37" start="1667" end="1675" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1680" end="1691" text="antibiotics" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E53" start="169" end="196" text="elective induction of labor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1694" end="1702" text="Her pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="1707" end="1717" text="controlled" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1723" end="1731" text="percocet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1736" end="1742" text="motrin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="1745" end="1754" text="Her foley" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E79" start="1759" end="1766" text="removed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1775" end="1781" text="voided" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1790" end="1798" text="problems" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E80" start="1812" end="1821" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E81" start="1822" end="1836" text="a regular diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E82" start="1847" end="1862" text="discharged home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E83" start="1866" end="1880" text="good condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="199" end="215" text="Antenatal course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="255" end="264" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="268" end="271" text="L&D" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E50" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="290" end="302" text="administered" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="303" end="310" text="Pitocin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="315" end="342" text="elective induction of labor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="347" end="370" text="progressed uneventfully" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="386" end="393" text="deliver" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="419" end="425" text="weight" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="435" end="441" text="Apgars" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E58" start="450" end="453" text="EBL" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="461" end="469" text="delivery" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E59" start="495" end="506" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E60" start="510" end="522" text="the PP floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E61" start="526" end="542" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="556" end="564" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="579" end="609" text="a large post partum hemorrhage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="621" end="628" text="treated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="634" end="642" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="651" end="654" text="L&D" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E6" start="657" end="673" text="bimanual massage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="694" end="713" text="various uterotonics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="723" end="730" text="pitocin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="739" end="749" text="Methergine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="756" end="764" text="Hemabate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="775" end="782" text="cytotec" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E65" start="806" end="814" text="response" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="835" end="852" text="suction curettage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="865" end="893" text="a supercervical hysterectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E66" start="896" end="899" text="EBL" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="910" end="913" text="IVF" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="922" end="933" text="crystalloid" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="936" end="939" text="U/O" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="961" end="972" text="8 units RBC" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="975" end="979" text="6FFP" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="982" end="988" text="1 cryo" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="991" end="1001" text="1 pack plt" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T1" start="1517" end="1522" text="12-17" type="DATE" val="2016-12-17" mod="NA" />
+<TIMEX3 id="T2" start="1582" end="1587" text="12-19" type="DATE" val="2016-12-19" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2016-12-15" type="DATE" val="2016-12-15" mod="NA" />
+<TIMEX3 id="T6" start="1884" end="1889" text="12-21" type="DATE" val="2016-12-21" mod="NA" />
+<TIMEX3 id="T3" start="46" end="56" text="2016-12-21" type="DATE" val="2016-12-21" mod="NA" />
+<TIMEX3 id="T4" start="750" end="753" text="x 1" type="FREQUENCY" val="R1" mod="NA" />
+<TIMEX3 id="T5" start="765" end="768" text="x 1" type="FREQUENCY" val="R1" mod="NA" />
+<TLINK id="TL0" fromID="T0" fromText="2016-12-15" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL1" fromID="E50" fromText="Discharge" toID="T3" toText="2016-12-21" type="OVERLAP" />
+<TLINK id="TL10" fromID="E57" fromText="progressed uneventfully" toID="E56" toText="administered" type="AFTER" />
+<TLINK id="TL11" fromID="E57" fromText="progressed uneventfully" toID="E44" toText="deliver" type="BEFORE" />
+<TLINK id="TL12" fromID="E3" fromText="weight" toID="E44" toText="deliver" type="OVERLAP" />
+<TLINK id="TL13" fromID="E4" fromText="Apgars" toID="E44" toText="deliver" type="OVERLAP" />
+<TLINK id="TL14" fromID="E45" fromText="delivery" toID="E44" toText="deliver" type="OVERLAP" />
+<TLINK id="TL15" fromID="E58" fromText="EBL" toID="E45" toText="delivery" type="OVERLAP" />
+<TLINK id="TL16" fromID="E59" fromText="transferred" toID="E45" toText="delivery" type="AFTER" />
+<TLINK id="TL17" fromID="E60" fromText="the PP floor" toID="E59" toText="transferred" type="AFTER" />
+<TLINK id="TL18" fromID="E61" fromText="stable condition" toID="E59" toText="transferred" type="OVERLAP" />
+<TLINK id="TL19" fromID="E46" fromText="transfer" toID="E59" toText="transferred" type="OVERLAP" />
+<TLINK id="TL2" fromID="E52" fromText="L&D" toID="E51" toText="presented" type="AFTER" />
+<TLINK id="TL20" fromID="E5" fromText="a large post partum hemorrhage" toID="E46" toText="transfer" type="AFTER" />
+<TLINK id="TL21" fromID="E5" fromText="a large post partum hemorrhage" toID="E62" toText="treated" type="BEFORE" />
+<TLINK id="TL22" fromID="E62" fromText="treated" toID="E63" toText="transfer" type="OVERLAP" />
+<TLINK id="TL23" fromID="E52" fromText="L&D" toID="E59" toText="transferred" type="BEFORE" />
+<TLINK id="TL24" fromID="E64" fromText="L&D" toID="E63" toText="transfer" type="AFTER" />
+<TLINK id="TL25" fromID="E64" fromText="L&D" toID="E52" toText="L&D" type="AFTER" />
+<TLINK id="TL26" fromID="E6" fromText="bimanual massage" toID="E64" toText="L&D" type="OVERLAP" />
+<TLINK id="TL27" fromID="E7" fromText="various uterotonics" toID="E64" toText="L&D" type="OVERLAP" />
+<TLINK id="TL28" fromID="E8" fromText="pitocin" toID="E7" toText="various uterotonics" type="OVERLAP" />
+<TLINK id="TL29" fromID="E9" fromText="Methergine" toID="E7" toText="various uterotonics" type="OVERLAP" />
+<TLINK id="TL3" fromID="E53" fromText="elective induction of labor" toID="E51" toText="presented" type="AFTER" />
+<TLINK id="TL30" fromID="E9" fromText="Methergine" toID="T4" toText="x 1" type="OVERLAP" />
+<TLINK id="TL31" fromID="E10" fromText="Hemabate" toID="E7" toText="various uterotonics" type="OVERLAP" />
+<TLINK id="TL32" fromID="E10" fromText="Hemabate" toID="T5" toText="x 1" type="OVERLAP" />
+<TLINK id="TL33" fromID="E11" fromText="cytotec" toID="E7" toText="various uterotonics" type="OVERLAP" />
+<TLINK id="TL34" fromID="E65" fromText="response" toID="E7" toText="various uterotonics" type="AFTER" />
+<TLINK id="TL35" fromID="E12" fromText="suction curettage" toID="E7" toText="various uterotonics" type="AFTER" />
+<TLINK id="TL36" fromID="E13" fromText="a supercervical hysterectomy" toID="E12" toText="suction curettage" type="AFTER" />
+<TLINK id="TL37" fromID="E66" fromText="EBL" toID="E64" toText="L&D" type="OVERLAP" />
+<TLINK id="TL38" fromID="E14" fromText="IVF" toID="E64" toText="L&D" type="OVERLAP" />
+<TLINK id="TL39" fromID="E15" fromText="crystalloid" toID="E64" toText="L&D" type="OVERLAP" />
+<TLINK id="TL4" fromID="E54" fromText="Antenatal course" toID="E51" toText="presented" type="BEFORE" />
+<TLINK id="TL40" fromID="E16" fromText="U/O" toID="E64" toText="L&D" type="OVERLAP" />
+<TLINK id="TL41" fromID="E17" fromText="8 units RBC" toID="E18" toText="6FFP" type="OVERLAP" />
+<TLINK id="TL42" fromID="E18" fromText="6FFP" toID="E19" toText="1 cryo" type="OVERLAP" />
+<TLINK id="TL43" fromID="E19" fromText="1 cryo" toID="E20" toText="1 pack plt" type="OVERLAP" />
+<TLINK id="TL44" fromID="E17" fromText="8 units RBC" toID="E13" toText="a supercervical hysterectomy" type="OVERLAP" />
+<TLINK id="TL45" fromID="E21" fromText="this procedure" toID="E13" toText="a supercervical hysterectomy" type="OVERLAP" />
+<TLINK id="TL46" fromID="E47" fromText="hemorrhaged" toID="E21" toText="this procedure" type="AFTER" />
+<TLINK id="TL47" fromID="E47" fromText="hemorrhaged" toID="E67" toText="the ICU" type="OVERLAP" />
+<TLINK id="TL48" fromID="E67" fromText="the ICU" toID="E64" toText="L&D" type="OVERLAP" />
+<TLINK id="TL49" fromID="E67" fromText="the ICU" toID="E68" toText="the OR" type="BEFORE" />
+<TLINK id="TL5" fromID="E43" fromText="admission" toID="E51" toText="presented" type="OVERLAP" />
+<TLINK id="TL50" fromID="E22" fromText="reexploration" toID="E68" toText="the OR" type="OVERLAP" />
+<TLINK id="TL51" fromID="E23" fromText="ligation" toID="E68" toText="the OR" type="OVERLAP" />
+<TLINK id="TL52" fromID="E24" fromText="a bleeding vaginal artery" toID="E23" toText="ligation" type="BEFORE" />
+<TLINK id="TL53" fromID="E69" fromText="EBL" toID="E25" toText="IVF" type="OVERLAP" />
+<TLINK id="TL54" fromID="E25" fromText="IVF" toID="E26" toText="UO" type="OVERLAP" />
+<TLINK id="TL55" fromID="E26" fromText="UO" toID="E27" toText="RBC" type="OVERLAP" />
+<TLINK id="TL56" fromID="E27" fromText="RBC" toID="E28" toText="Plt" type="OVERLAP" />
+<TLINK id="TL57" fromID="E28" fromText="Plt" toID="E29" toText="1u Cryo" type="OVERLAP" />
+<TLINK id="TL58" fromID="E29" fromText="1u Cryo" toID="E30" toText="6U FFP" type="OVERLAP" />
+<TLINK id="TL59" fromID="E31" fromText="these procedures" toID="E23" toText="ligation" type="OVERLAP" />
+<TLINK id="TL6" fromID="E55" fromText="L&D" toID="E52" toText="L&D" type="OVERLAP" />
+<TLINK id="TL60" fromID="E31" fromText="these procedures" toID="E22" toText="reexploration" type="OVERLAP" />
+<TLINK id="TL61" fromID="E69" fromText="EBL" toID="E31" toText="these procedures" type="OVERLAP" />
+<TLINK id="TL62" fromID="E32" fromText="BP" toID="E31" toText="these procedures" type="OVERLAP" />
+<TLINK id="TL63" fromID="E33" fromText="pressors" toID="E31" toText="these procedures" type="OVERLAP" />
+<TLINK id="TL64" fromID="E34" fromText="Hct" toID="E70" toText="stable range" type="OVERLAP" />
+<TLINK id="TL65" fromID="E70" fromText="stable range" toID="E35" toText="product transfusions" type="OVERLAP" />
+<TLINK id="TL66" fromID="E34" fromText="Hct" toID="E31" toText="these procedures" type="OVERLAP" />
+<TLINK id="TL67" fromID="E71" fromText="well" toID="E31" toText="these procedures" type="OVERLAP" />
+<TLINK id="TL68" fromID="E72" fromText="extubated" toID="T1" toText="12-17" type="OVERLAP" />
+<TLINK id="TL69" fromID="E74" fromText="the ICU" toID="E73" toText="transferred" type="BEFORE" />
+<TLINK id="TL7" fromID="E56" fromText="administered" toID="E43" toText="admission" type="AFTER" />
+<TLINK id="TL70" fromID="E75" fromText="the PP floor" toID="E73" toText="transferred" type="AFTER" />
+<TLINK id="TL71" fromID="E73" fromText="transferred" toID="T2" toText="12-19" type="OVERLAP" />
+<TLINK id="TL72" fromID="E76" fromText="progress" toID="E75" toText="the PP floor" type="OVERLAP" />
+<TLINK id="TL73" fromID="E36" fromText="Her vital signs" toID="E77" toText="stable" type="" />
+<TLINK id="TL74" fromID="E37" fromText="afebrile" toID="E38" toText="antibiotics" type="OVERLAP" />
+<TLINK id="TL75" fromID="E37" fromText="afebrile" toID="E75" toText="the PP floor" type="OVERLAP" />
+<TLINK id="TL76" fromID="E39" fromText="Her pain" toID="E48" toText="controlled" type="OVERLAP" />
+<TLINK id="TL77" fromID="E48" fromText="controlled" toID="E40" toText="percocet" type="OVERLAP" />
+<TLINK id="TL78" fromID="E48" fromText="controlled" toID="E41" toText="motrin" type="OVERLAP" />
+<TLINK id="TL79" fromID="E78" fromText="Her foley" toID="E79" toText="removed" type="BEFORE" />
+<TLINK id="TL8" fromID="E56" fromText="administered" toID="E1" toText="Pitocin" type="OVERLAP" />
+<TLINK id="TL80" fromID="E49" fromText="voided" toID="E42" toText="problems" type="OVERLAP" />
+<TLINK id="TL81" fromID="E80" fromText="tolerated" toID="E81" toText="a regular diet" type="OVERLAP" />
+<TLINK id="TL82" fromID="E82" fromText="discharged home" toID="T6" toText="12-21" type="OVERLAP" />
+<TLINK id="TL83" fromID="E83" fromText="good condition" toID="E82" toText="discharged home" type="BEFORE" />
+<TLINK id="TL9" fromID="E2" fromText="elective induction of labor" toID="E1" toText="Pitocin" type="AFTER" />
+<TLINK id="SECTIME0" fromID="E21" fromText="this procedure" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E47" fromText="hemorrhaged" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E67" fromText="the ICU" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E68" fromText="the OR" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E22" fromText="reexploration" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E23" fromText="ligation" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E24" fromText="a bleeding vaginal artery" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E69" fromText="EBL" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E25" fromText="IVF" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E26" fromText="UO" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E27" fromText="RBC" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E28" fromText="Plt" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E29" fromText="1u Cryo" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E30" fromText="6U FFP" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E31" fromText="these procedures" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E32" fromText="BP" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E33" fromText="pressors" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E34" fromText="Hct" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E70" fromText="stable range" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E35" fromText="product transfusions" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E71" fromText="well" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E51" fromText="presented" toID="T0" toText="2016-12-15" type="OVERLAP" />
+<TLINK id="SECTIME22" fromID="E72" fromText="extubated" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E73" fromText="transferred" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E74" fromText="the ICU" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E75" fromText="the PP floor" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E52" fromText="L&D" toID="T0" toText="2016-12-15" type="OVERLAP" />
+<TLINK id="SECTIME27" fromID="E76" fromText="progress" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E36" fromText="Her vital signs" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E77" fromText="stable" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E37" fromText="afebrile" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E38" fromText="antibiotics" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E53" fromText="elective induction of labor" toID="T0" toText="2016-12-15" type="AFTER" />
+<TLINK id="SECTIME33" fromID="E39" fromText="Her pain" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E48" fromText="controlled" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E40" fromText="percocet" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E41" fromText="motrin" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E78" fromText="Her foley" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E79" fromText="removed" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E49" fromText="voided" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E42" fromText="problems" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E80" fromText="tolerated" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E81" fromText="a regular diet" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E82" fromText="discharged home" toID="T3" toText="2016-12-21" type="OVERLAP" />
+<TLINK id="SECTIME44" fromID="E83" fromText="good condition" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E54" fromText="Antenatal course" toID="T0" toText="2016-12-15" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E43" fromText="admission" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E55" fromText="L&D" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E56" fromText="administered" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E1" fromText="Pitocin" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E2" fromText="elective induction of labor" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E57" fromText="progressed uneventfully" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E44" fromText="deliver" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E3" fromText="weight" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E4" fromText="Apgars" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E58" fromText="EBL" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E45" fromText="delivery" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E59" fromText="transferred" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E60" fromText="the PP floor" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E61" fromText="stable condition" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E46" fromText="transfer" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E5" fromText="a large post partum hemorrhage" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E62" fromText="treated" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E63" fromText="transfer" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E64" fromText="L&D" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E6" fromText="bimanual massage" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E7" fromText="various uterotonics" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E8" fromText="pitocin" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E9" fromText="Methergine" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E10" fromText="Hemabate" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E11" fromText="cytotec" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E65" fromText="response" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E12" fromText="suction curettage" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E13" fromText="a supercervical hysterectomy" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E66" fromText="EBL" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E14" fromText="IVF" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E15" fromText="crystalloid" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E16" fromText="U/O" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E17" fromText="8 units RBC" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E18" fromText="6FFP" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E19" fromText="1 cryo" toID="T3" toText="2016-12-21" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E20" fromText="1 pack plt" toID="T3" toText="2016-12-21" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2016-12-15" type="ADMISSION" dvalue="2016-12-15" />
+<SECTIME id="S1" start="46" end="56" text="2016-12-21" type="DISCHARGE" dvalue="2016-12-21" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

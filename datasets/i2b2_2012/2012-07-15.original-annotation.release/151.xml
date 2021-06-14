@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+09/20/2000
+Discharge Date :
+09/22/2000
+HISTORY OF PRESENT ILLNESS :
+This is a 48-year-old G 3 P 3 who presented to Dr. Fuscmadril &apos;s clinic after having an abnormal pap smear followed by an endometrial biopsy that was suggestive of grade 1 endometrial cancer .
+This is a patient who , over the past year , has had no menses and thought she had become menopausal .
+She then began spotting for several months with some constant brown discharge .
+A pap smear that was obtained by her primary care physician showed an endometrial cell and thus she was referred to a gynecologist for an endometrial biopsy .
+The endometrial biopsy showed grade 1 endometrial cancer .
+A decision was made to proceed with surgical management for this finding .
+HOSPITAL COURSE :
+The patient was admitted on the day of her surgery which was 09/20/00 .
+She underwent a TAH-BSO which was uncomplicated .
+Details of the procedure can be found in the operative dictation .
+In short , frozen pathology from the uterus showed that there was a grade 1 cancer with no invasion of the myometrium .
+There was no nodal dissection done at that time .
+The patient tolerated the procedure extremely well and did well during her postoperative course .
+By postoperative day #2 she was eating , ambulating and voiding on her own .
+She decided to now be discharged home at this time .
+She was discharged home with the following medications :
+]]></TEXT>
+<TAGS>
+<EVENT id="E20" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="1011" end="1017" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E15" start="1033" end="1049" text="a grade 1 cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="1058" end="1084" text="invasion of the myometrium" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E17" start="1100" end="1116" text="nodal dissection" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E18" start="1159" end="1172" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1173" end="1187" text="extremely well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1196" end="1200" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E0" start="120" end="129" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="1208" end="1232" text="her postoperative course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="1267" end="1273" text="eating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1276" end="1286" text="ambulating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1291" end="1298" text="voiding" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="1291" end="1298" text="voiding" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1334" end="1344" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="137" end="162" text="Fuscmadril &apos;s clinic" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E23" start="1373" end="1383" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="1394" end="1419" text="the following medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="176" end="197" text="an abnormal pap smear" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="210" end="231" text="an endometrial biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="255" end="281" text="grade 1 endometrial cancer" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="340" end="346" text="menses" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E3" start="374" end="384" text="menopausal" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="402" end="410" text="spotting" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="435" end="464" text="some constant brown discharge" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="440" end="464" text="constant brown discharge" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="467" end="478" text="A pap smear" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="527" end="533" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E7" start="534" end="553" text="an endometrial cell" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="602" end="623" text="an endometrial biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="626" end="648" text="The endometrial biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="649" end="655" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E31" start="656" end="682" text="grade 1 endometrial cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="721" end="740" text="surgical management" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="794" end="802" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="817" end="828" text="her surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="864" end="873" text="a TAH-BSO" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="911" end="924" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="941" end="964" text="the operative dictation" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E14" start="978" end="1010" text="frozen pathology from the uterus" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T7" start="1125" end="1134" text="that time" type="DATE" val="2000-09-20" mod="NA" />
+<TIMEX3 id="T8" start="1238" end="1258" text="postoperative day #2" type="DATE" val="2000-09-22" mod="NA" />
+<TIMEX3 id="T9" start="1353" end="1362" text="this time" type="DATE" val="2000-09-22" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="09/20/2000" type="DATE" val="2000-09-20" mod="NA" />
+<TIMEX3 id="T2" start="313" end="326" text="the past year" type="DURATION" val="P1Y" mod="NA" />
+<TIMEX3 id="T3" start="415" end="429" text="several months" type="DURATION" val="P3M" mod="APPROX" />
+<TIMEX3 id="T0" start="46" end="56" text="09/22/2000" type="DATE" val="2000-09-20" mod="NA" />
+<TIMEX3 id="T5" start="806" end="813" text="the day" type="DATE" val="2000-09-20" mod="NA" />
+<TIMEX3 id="T6" start="839" end="847" text="09/20/00" type="DATE" val="2000-09-20" mod="NA" />
+<TLINK id="TL0" fromID="E21" fromText="Discharge" toID="T0" toText="09/22/2000" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E20" fromText="Admission" toID="T1" toText="09/20/2000" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E27" fromText="menses" toID="T2" toText="the past year" type="DURING" />
+<TLINK id="TL11" fromID="E3" fromText="menopausal" toID="E27" toText="menses" type="OVERLAP" />
+<TLINK id="TL12" fromID="E4" fromText="spotting" toID="E27" toText="menses" type="AFTER" />
+<TLINK id="TL13" fromID="E4" fromText="spotting" toID="T3" toText="several months" type="DURING" />
+<TLINK id="TL14" fromID="E5" fromText="some constant brown discharge" toID="E4" toText="spotting" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E6" fromText="A pap smear" toID="E1" toText="an abnormal pap smear" type="SIMULTANEOUS" />
+<TLINK id="TL16" fromID="E29" fromText="showed" toID="E6" toText="A pap smear" type="SIMULTANEOUS" />
+<TLINK id="TL17" fromID="E7" fromText="an endometrial cell" toID="E29" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL18" fromID="E8" fromText="an endometrial biopsy" toID="E29" toText="showed" type="AFTER" />
+<TLINK id="TL19" fromID="E9" fromText="The endometrial biopsy" toID="E8" toText="an endometrial biopsy" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="E0" fromText="presented" toID="E20" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E30" fromText="showed" toID="E9" toText="The endometrial biopsy" type="SIMULTANEOUS" />
+<TLINK id="TL21" fromID="E31" fromText="grade 1 endometrial cancer" toID="E30" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL22" fromID="E32" fromText="surgical management" toID="E30" toText="showed" type="AFTER" />
+<TLINK id="TL23" fromID="E22" fromText="admitted" toID="E20" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL24" fromID="E22" fromText="admitted" toID="T5" toText="the day" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="T5" fromText="the day" toID="E10" toText="her surgery" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="T5" fromText="the day" toID="T6" toText="09/20/00" type="SIMULTANEOUS" />
+<TLINK id="TL27" fromID="E11" fromText="a TAH-BSO" toID="E22" toText="admitted" type="AFTER" />
+<TLINK id="TL28" fromID="E11" fromText="a TAH-BSO" toID="E10" toText="her surgery" type="DURING" />
+<TLINK id="TL29" fromID="E13" fromText="the procedure" toID="E11" toText="a TAH-BSO" type="SIMULTANEOUS" />
+<TLINK id="TL3" fromID="E24" fromText="Fuscmadril &apos;s clinic" toID="E0" toText="presented" type="BEGUN_BY" />
+<TLINK id="TL31" fromID="E33" fromText="the operative dictation" toID="E10" toText="her surgery" type="AFTER" />
+<TLINK id="TL32" fromID="E14" fromText="frozen pathology from the uterus" toID="E13" toText="the procedure" type="SIMULTANEOUS" />
+<TLINK id="TL33" fromID="E34" fromText="showed" toID="E14" toText="frozen pathology from the uterus" type="SIMULTANEOUS" />
+<TLINK id="TL34" fromID="E15" fromText="a grade 1 cancer" toID="E34" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL35" fromID="E16" fromText="invasion of the myometrium" toID="E15" toText="a grade 1 cancer" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="E17" fromText="nodal dissection" toID="E14" toText="frozen pathology from the uterus" type="OVERLAP" />
+<TLINK id="TL37" fromID="T7" fromText="that time" toID="E10" toText="her surgery" type="SIMULTANEOUS" />
+<TLINK id="TL38" fromID="E18" fromText="the procedure" toID="E13" toText="the procedure" type="SIMULTANEOUS" />
+<TLINK id="TL39" fromID="E36" fromText="extremely well" toID="E18" toText="the procedure" type="DURING" />
+<TLINK id="TL4" fromID="T3" fromText="several months" toID="E20" toText="Admission" type="ENDED_BY" />
+<TLINK id="TL40" fromID="E37" fromText="well" toID="E36" toText="extremely well" type="AFTER" />
+<TLINK id="TL41" fromID="E38" fromText="her postoperative course" toID="E18" toText="the procedure" type="AFTER" />
+<TLINK id="TL42" fromID="E37" fromText="well" toID="E38" toText="her postoperative course" type="SIMULTANEOUS" />
+<TLINK id="TL43" fromID="T8" fromText="postoperative day #2" toID="E10" toText="her surgery" type="AFTER" />
+<TLINK id="TL44" fromID="E39" fromText="eating" toID="T8" toText="postoperative day #2" type="BEFORE_OVERLAP" />
+<TLINK id="TL45" fromID="E40" fromText="ambulating" toID="E39" toText="eating" type="OVERLAP" />
+<TLINK id="TL46" fromID="E42" fromText="voiding" toID="E40" toText="ambulating" type="OVERLAP" />
+<TLINK id="TL47" fromID="E43" fromText="discharged" toID="T8" toText="postoperative day #2" type="SIMULTANEOUS" />
+<TLINK id="TL48" fromID="E43" fromText="discharged" toID="T9" toText="this time" type="SIMULTANEOUS" />
+<TLINK id="TL49" fromID="T9" fromText="this time" toID="E21" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E0" fromText="presented" toID="E1" toText="an abnormal pap smear" type="AFTER" />
+<TLINK id="TL50" fromID="E23" fromText="discharged" toID="E43" toText="discharged" type="SIMULTANEOUS" />
+<TLINK id="TL51" fromID="E19" fromText="the following medications" toID="E23" toText="discharged" type="BEFORE_OVERLAP" />
+<TLINK id="TL6" fromID="E2" fromText="an endometrial biopsy" toID="E1" toText="an abnormal pap smear" type="AFTER" />
+<TLINK id="TL7" fromID="E25" fromText="grade 1 endometrial cancer" toID="E1" toText="an abnormal pap smear" type="BEFORE_OVERLAP" />
+<TLINK id="TL8" fromID="E2" fromText="an endometrial biopsy" toID="E20" toText="Admission" type="BEFORE" />
+<TLINK id="TL9" fromID="T2" fromText="the past year" toID="E0" toText="presented" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E34" fromText="showed" toID="T0" toText="09/22/2000" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E15" fromText="a grade 1 cancer" toID="T0" toText="09/22/2000" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime2" fromID="E16" fromText="invasion of the myometrium" toID="T0" toText="09/22/2000" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E17" fromText="nodal dissection" toID="T0" toText="09/22/2000" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E18" fromText="the procedure" toID="T0" toText="09/22/2000" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E36" fromText="extremely well" toID="T0" toText="09/22/2000" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E37" fromText="well" toID="T0" toText="09/22/2000" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E0" fromText="presented" toID="T1" toText="09/20/2000" type="OVERLAP" />
+<TLINK id="Sectime7" fromID="E38" fromText="her postoperative course" toID="T0" toText="09/22/2000" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime8" fromID="E39" fromText="eating" toID="T0" toText="09/22/2000" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime9" fromID="E40" fromText="ambulating" toID="T0" toText="09/22/2000" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime10" fromID="E42" fromText="voiding" toID="T0" toText="09/22/2000" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E44" fromText="voiding" toID="T0" toText="09/22/2000" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime12" fromID="E43" fromText="discharged" toID="T0" toText="09/22/2000" type="OVERLAP" />
+<TLINK id="Sectime1" fromID="E24" fromText="Fuscmadril &apos;s clinic" toID="T1" toText="09/20/2000" type="OVERLAP" />
+<TLINK id="Sectime13" fromID="E23" fromText="discharged" toID="T0" toText="09/22/2000" type="OVERLAP" />
+<TLINK id="Sectime14" fromID="E19" fromText="the following medications" toID="T0" toText="09/22/2000" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime2" fromID="E1" fromText="an abnormal pap smear" toID="T1" toText="09/20/2000" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E2" fromText="an endometrial biopsy" toID="T1" toText="09/20/2000" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E25" fromText="grade 1 endometrial cancer" toID="T1" toText="09/20/2000" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime5" fromID="E27" fromText="menses" toID="T1" toText="09/20/2000" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E3" fromText="menopausal" toID="T1" toText="09/20/2000" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E4" fromText="spotting" toID="T1" toText="09/20/2000" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime8" fromID="E5" fromText="some constant brown discharge" toID="T1" toText="09/20/2000" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E28" fromText="constant brown discharge" toID="T1" toText="09/20/2000" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime10" fromID="E6" fromText="A pap smear" toID="T1" toText="09/20/2000" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E29" fromText="showed" toID="T1" toText="09/20/2000" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E7" fromText="an endometrial cell" toID="T1" toText="09/20/2000" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime13" fromID="E8" fromText="an endometrial biopsy" toID="T1" toText="09/20/2000" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E9" fromText="The endometrial biopsy" toID="T1" toText="09/20/2000" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E30" fromText="showed" toID="T1" toText="09/20/2000" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E31" fromText="grade 1 endometrial cancer" toID="T1" toText="09/20/2000" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime17" fromID="E32" fromText="surgical management" toID="T1" toText="09/20/2000" type="OVERLAP" />
+<TLINK id="Sectime15" fromID="E22" fromText="admitted" toID="T0" toText="09/22/2000" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E10" fromText="her surgery" toID="T0" toText="09/22/2000" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E11" fromText="a TAH-BSO" toID="T0" toText="09/22/2000" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E13" fromText="the procedure" toID="T0" toText="09/22/2000" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E33" fromText="the operative dictation" toID="T0" toText="09/22/2000" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E14" fromText="frozen pathology from the uterus" toID="T0" toText="09/22/2000" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="09/20/2000" type="ADMISSION" dvalue="2000-09-20" />
+<SECTIME id="S1" start="46" end="56" text="09/22/2000" type="DISCHARGE" dvalue="2000-09-22" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

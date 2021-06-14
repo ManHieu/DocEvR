@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2015-10-05
+Discharge Date :
+2015-10-08
+Service :
+MEDICINE
+History of Present Illness:
+The patient is a 91 yo woman with h/o HTN who came from Bridgewater State Hospital Rehab with substernal chest pain after exercise .
+Pt had been in her usual state of health and performed here regular exercises .
+After returning to her room she w noted SSCP without radiation .
+No nausea , vomiting , diaphoresis .
+They did an ECG at Bridgewater State Hospital rehab which demonstarted new ST depressions in V1-V4 .
+She received ASA 81 mg x 2 and nitro SL x 2 with partial relief at nursing home .
+On presentation to Providence Behavioral Health Hospital Amanda , her vitals were HR 68 , BP 142/68 , RR 28 , O2 sat 100% RA .
+Exam was notable for RRR with no murmur , bibasilar crackles , guaiac negative .
+EKG showed sinus brady , with old LAD and new ST depressions in V1-V4 .
+Troponin was 0.07 .
+She received ASA , nitro SL then gtt , morphine , metoprolol , and heparin gtt .
+Cardiology discussed cath however , patient 's family turned down .
+Transferred to CCU for further management and observation .
+Brief Hospital Course:
+INITIAL IMPRESSION :
+90 year-old woman with h/o of HTN p/w substernal chest pain shortly after exercise at nursing home , with EKG showing ST depressions in V1-V4 and troponin 0.07.
+Likely NSTEMI .
+.
+HOSPITAL COURSE BY SYSTEM :
+.
+* CV :
+The patient 's family refused coronary artery catheterization .
+The patient was given ASA , Plavix , heparin drip x 24 hours , nitro drip , atorvastatin , metoprolol , and lisinopril .
+Her chest pain was controlled with morphine .
+Her SBP remained in the 160s-170s on hospital day 1 and she was gently diuresed .
+On hospital day 2 she experienced atrial fibrillation with HR in the 140s .
+Her metoprolol dose was increased from 25 mg PO bid to 50 mg PO bid then 75 mg PO tid .
+Her HR decreased to 70s-80s .
+Her BP remained stable .
+An ECHO showed that she had preserved EF and no wall motion abnormalities .
+We decided given her age that she would not be a good candidate for cardioversion for her afib nor would she be a good candidate for coumadin .
+Therefore we will continue rate control with metoprolol this can be titrated if needed , and aspirin and plavix for anti-coagulation .
+She should also continue on lipitor and lisinopril .
+She should have her chem 7 checked next week given the start of her new meds .
+Will also need LFT 's checked in 3-6 months .
+.
+* Pulmonary :
+Bilateral crackles at bases and midlungs , elevated JVP , trace bilateral ankle edema , and CXR with diffuse opacities suggest possible pulmonary edema , likely secondary to acute MI .
+Her O2 sat was stable at 94-97% on 2.5L of supplemental O2 .
+She experienced no respiratory difficulty during the hospital stay .
+She was diuresed small amount .
+Her CXR prior to discharge showed mild pulm edema and thus was given 40 of lasix prior to going to rehab .
+She can be given prn lasix for weight gain or shortness of breath .
+.
+* Leukocytosis- She developed mild elevated WBC .
+UA had 12-14
+WBC 's , few bacteria .
+She was initially started on Bactrim , but this was stopped as she was afebrile .
+SHe has a culture pending which needs to be followed up at the nursing home and treated if positive .
+.
+* Code :
+DNR/DNI
+]]></TEXT>
+<TAGS>
+<EVENT id="E45" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E92" start="1004" end="1008" text="cath" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E93" start="1019" end="1048" text="patient 's family turned down" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E94" start="1051" end="1062" text="Transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E95" start="1066" end="1069" text="CCU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E96" start="1074" end="1092" text="further management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E97" start="1097" end="1108" text="observation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="1185" end="1188" text="HTN" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="1193" end="1214" text="substernal chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E98" start="1229" end="1237" text="exercise" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E99" start="1241" end="1253" text="nursing home" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E6" start="1261" end="1264" text="EKG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="1265" end="1272" text="showing" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E100" start="1273" end="1296" text="ST depressions in V1-V4" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="1301" end="1309" text="troponin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E101" start="1323" end="1329" text="NSTEMI" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E102" start="1371" end="1400" text="The patient 's family refused" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E103" start="1401" end="1432" text="coronary artery catheterization" modality="PROPOSED" polarity="NEG" type="TREATMENT" />
+<EVENT id="E1" start="142" end="145" text="HTN" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="1457" end="1460" text="ASA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="1463" end="1469" text="Plavix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="1472" end="1484" text="heparin drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="1498" end="1508" text="nitro drip" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="1511" end="1523" text="atorvastatin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="1526" end="1536" text="metoprolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="1543" end="1553" text="lisinopril" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1556" end="1570" text="Her chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="1591" end="1599" text="morphine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E0" start="160" end="192" text="Bridgewater State Hospital Rehab" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E17" start="1602" end="1609" text="Her SBP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E104" start="1666" end="1681" text="gently diuresed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E105" start="1718" end="1737" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="1743" end="1745" text="HR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="1760" end="1779" text="Her metoprolol dose" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E106" start="1784" end="1793" text="increased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="1848" end="1854" text="Her HR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E107" start="1855" end="1864" text="decreased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="1878" end="1884" text="Her BP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E108" start="1894" end="1900" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="1903" end="1910" text="An ECHO" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="1911" end="1917" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E109" start="1931" end="1943" text="preserved EF" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E110" start="1951" end="1976" text="wall motion abnormalities" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E51" start="198" end="219" text="substernal chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E111" start="2047" end="2060" text="cardioversion" modality="PROPOSED" polarity="NEG" type="TREATMENT" />
+<EVENT id="E23" start="2065" end="2073" text="her afib" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E112" start="2112" end="2120" text="coumadin" modality="PROPOSED" polarity="NEG" type="TREATMENT" />
+<EVENT id="E113" start="2150" end="2162" text="rate control" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="2168" end="2178" text="metoprolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="2216" end="2223" text="aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="2228" end="2234" text="plavix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="2239" end="2255" text="anti-coagulation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="226" end="234" text="exercise" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="2286" end="2293" text="lipitor" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="2298" end="2308" text="lisinopril" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E114" start="2327" end="2337" text="her chem 7" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E30" start="2375" end="2387" text="her new meds" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E115" start="2405" end="2408" text="LFT" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E116" start="2452" end="2492" text="Bilateral crackles at bases and midlungs" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E117" start="2495" end="2507" text="elevated JVP" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E118" start="2510" end="2537" text="trace bilateral ankle edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="252" end="277" text="her usual state of health" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="2544" end="2547" text="CXR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="2553" end="2570" text="diffuse opacities" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E119" start="2588" end="2603" text="pulmonary edema" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="2626" end="2634" text="acute MI" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="2637" end="2647" text="Her O2 sat" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E120" start="2652" end="2658" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="2680" end="2695" text="supplemental O2" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="2717" end="2739" text="respiratory difficulty" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E121" start="2747" end="2764" text="the hospital stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E122" start="2775" end="2783" text="diuresed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="2799" end="2806" text="Her CXR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E49" start="2816" end="2825" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="282" end="314" text="performed here regular exercises" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="2826" end="2832" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E123" start="2833" end="2848" text="mild pulm edema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="2874" end="2879" text="lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E124" start="2889" end="2903" text="going to rehab" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E125" start="2927" end="2932" text="lasix" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="2937" end="2948" text="weight gain" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="2952" end="2971" text="shortness of breath" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E126" start="2978" end="2991" text="Leukocytosis-" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E127" start="3006" end="3023" text="mild elevated WBC" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="3026" end="3028" text="UA" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="3039" end="3042" text="WBC" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="3048" end="3060" text="few bacteria" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="3092" end="3099" text="Bactrim" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E128" start="3115" end="3122" text="stopped" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E129" start="3134" end="3142" text="afebrile" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E130" start="3153" end="3162" text="a culture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E131" start="3189" end="3200" text="followed up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E132" start="3204" end="3220" text="the nursing home" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E133" start="3225" end="3232" text="treated" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E134" start="3236" end="3244" text="positive" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="351" end="356" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E55" start="357" end="361" text="SSCP" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="370" end="379" text="radiation" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E58" start="385" end="391" text="nausea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E59" start="394" end="402" text="vomiting" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E60" start="405" end="416" text="diaphoresis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E61" start="428" end="434" text="an ECG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="438" end="470" text="Bridgewater State Hospital rehab" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E63" start="477" end="489" text="demonstarted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E64" start="490" end="517" text="new ST depressions in V1-V4" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="533" end="536" text="ASA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E66" start="551" end="559" text="nitro SL" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E67" start="569" end="583" text="partial relief" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="587" end="599" text="nursing home" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E69" start="605" end="617" text="presentation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E70" start="621" end="665" text="Providence Behavioral Health Hospital Amanda" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E71" start="668" end="678" text="her vitals" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E72" start="684" end="686" text="HR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="692" end="694" text="BP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E74" start="704" end="706" text="RR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E75" start="712" end="718" text="O2 sat" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E76" start="729" end="733" text="Exam" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E77" start="750" end="753" text="RRR" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E78" start="762" end="768" text="murmur" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E79" start="771" end="789" text="bibasilar crackles" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E80" start="792" end="798" text="guaiac" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E81" start="810" end="813" text="EKG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E82" start="814" end="820" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E2" start="821" end="832" text="sinus brady" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="840" end="879" text="old LAD and new ST depressions in V1-V4" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="882" end="890" text="Troponin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E84" start="915" end="918" text="ASA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E85" start="921" end="929" text="nitro SL" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E86" start="935" end="938" text="gtt" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E87" start="941" end="949" text="morphine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E88" start="952" end="962" text="metoprolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E89" start="969" end="980" text="heparin gtt" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E90" start="983" end="993" text="Cardiology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E91" start="994" end="1003" text="discussed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T6" start="1487" end="1495" text="24 hours" type="DURATION" val="PT24H" mod="NA" />
+<TIMEX3 id="T3" start="1639" end="1653" text="hospital day 1" type="DATE" val="2015-10-05" mod="NA" />
+<TIMEX3 id="T4" start="1687" end="1701" text="hospital day 2" type="DATE" val="2015-10-06" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2015-10-05" type="DATE" val="2015-10-05" mod="NA" />
+<TIMEX3 id="T7" start="1808" end="1811" text="bid" type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T8" start="1824" end="1827" text="bid" type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T9" start="1842" end="1845" text="tid" type="FREQUENCY" val="RPT8H" mod="NA" />
+<TIMEX3 id="T10" start="2346" end="2355" text="next week" type="DURATION" val="p1w" mod="APPROX" />
+<TIMEX3 id="T11" start="2423" end="2433" text="3-6 months" type="DATE" val="2016-02-23" mod="APPROX" />
+<TIMEX3 id="T2" start="46" end="56" text="2015-10-08" type="DATE" val="2015-10-08" mod="NA" />
+<TIMEX3 id="T0" start="543" end="546" text="x 2" type="FREQUENCY" val="R2" mod="NA" />
+<TIMEX3 id="T5" start="560" end="563" text="x 2" type="FREQUENCY" val="R2" mod="NA" />
+<TLINK id="TL0" fromID="E46" fromText="Discharge" toID="T2" toText="2015-10-08" type="OVERLAP" />
+<TLINK id="TL1" fromID="E9" fromText="Plavix" toID="E26" toText="plavix" type="simultaneous" />
+<TLINK id="TL10" fromID="E4" fromText="HTN" toID="E1" toText="HTN" type="SIMULTANEOUS" />
+<TLINK id="TL100" fromID="E112" fromText="coumadin" toID="E111" toText="cardioversion" type="OVERLAP" />
+<TLINK id="TL101" fromID="E113" fromText="rate control" toID="E24" toText="metoprolol" type="OVERLAP" />
+<TLINK id="TL103" fromID="E25" fromText="aspirin" toID="E27" toText="anti-coagulation" type="OVERLAP" />
+<TLINK id="TL104" fromID="E26" fromText="plavix" toID="E27" toText="anti-coagulation" type="OVERLAP" />
+<TLINK id="TL105" fromID="E114" fromText="her chem 7" toID="T10" toText="next week" type="OVERLAP" />
+<TLINK id="TL107" fromID="E114" fromText="her chem 7" toID="E30" toText="her new meds" type="DURING" />
+<TLINK id="TL108" fromID="E115" fromText="LFT" toID="T11" toText="3-6 months" type="OVERLAP" />
+<TLINK id="TL109" fromID="E116" fromText="Bilateral crackles at bases and midlungs" toID="E117" toText="elevated JVP" type="OVERLAP" />
+<TLINK id="TL11" fromID="E9" fromText="Plavix" toID="E8" toText="ASA" type="OVERLAP" />
+<TLINK id="TL110" fromID="E117" fromText="elevated JVP" toID="E118" toText="trace bilateral ankle edema" type="OVERLAP" />
+<TLINK id="TL112" fromID="E32" fromText="diffuse opacities" toID="E31" toText="CXR" type="OVERLAP" />
+<TLINK id="TL113" fromID="E119" fromText="pulmonary edema" toID="E32" toText="diffuse opacities" type="" />
+<TLINK id="TL114" fromID="E119" fromText="pulmonary edema" toID="E33" toText="acute MI" type="OVERLAP" />
+<TLINK id="TL115" fromID="E34" fromText="Her O2 sat" toID="E120" toText="stable" type="OVERLAP" />
+<TLINK id="TL116" fromID="E120" fromText="stable" toID="E35" toText="supplemental O2" type="OVERLAP" />
+<TLINK id="TL117" fromID="E36" fromText="respiratory difficulty" toID="E121" toText="the hospital stay" type="DURING" />
+<TLINK id="TL118" fromID="E121" fromText="the hospital stay" toID="E45" toText="Admission" type="BEGUN_BY" />
+<TLINK id="TL119" fromID="E121" fromText="the hospital stay" toID="E46" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL12" fromID="E14" fromText="lisinopril" toID="E13" toText="metoprolol" type="OVERLAP" />
+<TLINK id="TL120" fromID="E122" fromText="diuresed" toID="E121" toText="the hospital stay" type="DURING" />
+<TLINK id="TL121" fromID="E49" fromText="discharge" toID="E50" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL122" fromID="E123" fromText="mild pulm edema" toID="E50" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL123" fromID="E38" fromText="lasix" toID="E124" toText="going to rehab" type="BEFORE" />
+<TLINK id="TL124" fromID="E125" fromText="lasix" toID="E38" toText="lasix" type="AFTER" />
+<TLINK id="TL125" fromID="E39" fromText="weight gain" toID="E125" toText="lasix" type="OVERLAP" />
+<TLINK id="TL126" fromID="E40" fromText="shortness of breath" toID="E125" toText="lasix" type="OVERLAP" />
+<TLINK id="TL127" fromID="E126" fromText="Leukocytosis-" toID="E127" toText="mild elevated WBC" type="OVERLAP" />
+<TLINK id="TL128" fromID="E41" fromText="UA" toID="E121" toText="the hospital stay" type="DURING" />
+<TLINK id="TL129" fromID="E42" fromText="WBC" toID="E121" toText="the hospital stay" type="DURING" />
+<TLINK id="TL13" fromID="E29" fromText="lisinopril" toID="E14" toText="lisinopril" type="SIMULTANEOUS" />
+<TLINK id="TL130" fromID="E43" fromText="few bacteria" toID="E121" toText="the hospital stay" type="DURING" />
+<TLINK id="TL131" fromID="E44" fromText="Bactrim" toID="E121" toText="the hospital stay" type="DURING" />
+<TLINK id="TL132" fromID="E44" fromText="Bactrim" toID="E128" toText="stopped" type="ENDED_BY" />
+<TLINK id="TL133" fromID="E129" fromText="afebrile" toID="E128" toText="stopped" type="BEFORE" />
+<TLINK id="TL134" fromID="E130" fromText="a culture" toID="E121" toText="the hospital stay" type="DURING" />
+<TLINK id="TL135" fromID="E130" fromText="a culture" toID="E131" toText="followed up" type="BEFORE" />
+<TLINK id="TL136" fromID="E131" fromText="followed up" toID="E132" toText="the nursing home" type="OVERLAP" />
+<TLINK id="TL137" fromID="E133" fromText="treated" toID="E131" toText="followed up" type="AFTER" />
+<TLINK id="TL138" fromID="E133" fromText="treated" toID="E134" toText="positive" type="AFTER" />
+<TLINK id="TL14" fromID="E37" fromText="Her CXR" toID="E49" toText="discharge" type="BEFORE" />
+<TLINK id="TL15" fromID="E49" fromText="discharge" toID="E46" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL16" fromID="E38" fromText="lasix" toID="E37" toText="Her CXR" type="AFTER" />
+<TLINK id="TL17" fromID="E39" fromText="weight gain" toID="E49" toText="discharge" type="AFTER" />
+<TLINK id="TL18" fromID="E0" fromText="Bridgewater State Hospital Rehab" toID="E45" toText="Admission" type="ENDED_BY" />
+<TLINK id="TL19" fromID="E51" fromText="substernal chest pain" toID="E0" toText="Bridgewater State Hospital Rehab" type="DURING" />
+<TLINK id="TL2" fromID="E12" fromText="atorvastatin" toID="E28" toText="lipitor" type="simultaneous" />
+<TLINK id="TL20" fromID="E62" fromText="Bridgewater State Hospital rehab" toID="E0" toText="Bridgewater State Hospital Rehab" type="SIMULTANEOUS" />
+<TLINK id="TL21" fromID="E51" fromText="substernal chest pain" toID="E52" toText="exercise" type="AFTER" />
+<TLINK id="TL22" fromID="E53" fromText="her usual state of health" toID="E51" toText="substernal chest pain" type="BEFORE" />
+<TLINK id="TL23" fromID="E54" fromText="performed here regular exercises" toID="E52" toText="exercise" type="BEFORE" />
+<TLINK id="TL24" fromID="E55" fromText="SSCP" toID="E52" toText="exercise" type="AFTER" />
+<TLINK id="TL25" fromID="E55" fromText="SSCP" toID="E56" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL26" fromID="E55" fromText="SSCP" toID="E57" toText="radiation" type="OVERLAP" />
+<TLINK id="TL28" fromID="E58" fromText="nausea" toID="E55" toText="SSCP" type="AFTER" />
+<TLINK id="TL29" fromID="E59" fromText="vomiting" toID="E55" toText="SSCP" type="AFTER" />
+<TLINK id="TL3" fromID="E8" fromText="ASA" toID="E25" toText="aspirin" type="simultaneous" />
+<TLINK id="TL30" fromID="E60" fromText="diaphoresis" toID="E55" toText="SSCP" type="AFTER" />
+<TLINK id="TL31" fromID="E61" fromText="an ECG" toID="E62" toText="Bridgewater State Hospital rehab" type="DURING" />
+<TLINK id="TL32" fromID="E61" fromText="an ECG" toID="E63" toText="demonstarted" type="SIMULTANEOUS" />
+<TLINK id="TL33" fromID="E64" fromText="new ST depressions in V1-V4" toID="E63" toText="demonstarted" type="BEFORE_OVERLAP" />
+<TLINK id="TL34" fromID="E65" fromText="ASA" toID="E61" toText="an ECG" type="AFTER" />
+<TLINK id="TL35" fromID="E65" fromText="ASA" toID="T0" toText="x 2" type="OVERLAP" />
+<TLINK id="TL36" fromID="E66" fromText="nitro SL" toID="E61" toText="an ECG" type="AFTER" />
+<TLINK id="TL37" fromID="E66" fromText="nitro SL" toID="T5" toText="x 2" type="AFTER" />
+<TLINK id="TL38" fromID="E66" fromText="nitro SL" toID="E67" toText="partial relief" type="OVERLAP" />
+<TLINK id="TL39" fromID="E65" fromText="ASA" toID="E67" toText="partial relief" type="OVERLAP" />
+<TLINK id="TL4" fromID="E13" fromText="metoprolol" toID="E19" toText="Her metoprolol dose" type="simultaneous" />
+<TLINK id="TL40" fromID="E67" fromText="partial relief" toID="E68" toText="nursing home" type="DURING" />
+<TLINK id="TL41" fromID="E68" fromText="nursing home" toID="E62" toText="Bridgewater State Hospital rehab" type="SIMULTANEOUS" />
+<TLINK id="TL42" fromID="E70" fromText="Providence Behavioral Health Hospital Amanda" toID="E69" toText="presentation" type="BEGUN_BY" />
+<TLINK id="TL43" fromID="E71" fromText="her vitals" toID="E69" toText="presentation" type="OVERLAP" />
+<TLINK id="TL44" fromID="E71" fromText="her vitals" toID="E72" toText="HR" type="OVERLAP" />
+<TLINK id="TL45" fromID="E71" fromText="her vitals" toID="E73" toText="BP" type="OVERLAP" />
+<TLINK id="TL46" fromID="E71" fromText="her vitals" toID="E74" toText="RR" type="OVERLAP" />
+<TLINK id="TL47" fromID="E71" fromText="her vitals" toID="E75" toText="O2 sat" type="OVERLAP" />
+<TLINK id="TL48" fromID="E76" fromText="Exam" toID="E70" toText="Providence Behavioral Health Hospital Amanda" type="DURING" />
+<TLINK id="TL49" fromID="E76" fromText="Exam" toID="E77" toText="RRR" type="OVERLAP" />
+<TLINK id="TL5" fromID="E14" fromText="lisinopril" toID="E29" toText="lisinopril" type="simultaneous" />
+<TLINK id="TL50" fromID="E76" fromText="Exam" toID="E78" toText="murmur" type="OVERLAP" />
+<TLINK id="TL51" fromID="E76" fromText="Exam" toID="E79" toText="bibasilar crackles" type="OVERLAP" />
+<TLINK id="TL52" fromID="E76" fromText="Exam" toID="E80" toText="guaiac" type="OVERLAP" />
+<TLINK id="TL53" fromID="E82" fromText="showed" toID="E81" toText="EKG" type="SIMULTANEOUS" />
+<TLINK id="TL54" fromID="E2" fromText="sinus brady" toID="E82" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL55" fromID="E2" fromText="sinus brady" toID="E3" toText="old LAD and new ST depressions in V1-V4" type="OVERLAP" />
+<TLINK id="TL56" fromID="E83" fromText="Troponin" toID="E76" toText="Exam" type="OVERLAP" />
+<TLINK id="TL57" fromID="E84" fromText="ASA" toID="E76" toText="Exam" type="AFTER" />
+<TLINK id="TL58" fromID="E85" fromText="nitro SL" toID="E76" toText="Exam" type="AFTER" />
+<TLINK id="TL59" fromID="E86" fromText="gtt" toID="E85" toText="nitro SL" type="AFTER" />
+<TLINK id="TL6" fromID="E19" fromText="Her metoprolol dose" toID="E24" toText="metoprolol" type="simultaneous" />
+<TLINK id="TL60" fromID="E87" fromText="morphine" toID="E76" toText="Exam" type="AFTER" />
+<TLINK id="TL61" fromID="E88" fromText="metoprolol" toID="E76" toText="Exam" type="AFTER" />
+<TLINK id="TL62" fromID="E89" fromText="heparin gtt" toID="E76" toText="Exam" type="AFTER" />
+<TLINK id="TL63" fromID="E90" fromText="Cardiology" toID="E91" toText="discussed" type="SIMULTANEOUS" />
+<TLINK id="TL64" fromID="E91" fromText="discussed" toID="E92" toText="cath" type="OVERLAP" />
+<TLINK id="TL65" fromID="E93" fromText="patient 's family turned down" toID="E91" toText="discussed" type="OVERLAP" />
+<TLINK id="TL66" fromID="E94" fromText="Transferred" toID="E90" toText="Cardiology" type="AFTER" />
+<TLINK id="TL67" fromID="E95" fromText="CCU" toID="E94" toText="Transferred" type="BEGUN_BY" />
+<TLINK id="TL68" fromID="E96" fromText="further management" toID="E95" toText="CCU" type="DURING" />
+<TLINK id="TL69" fromID="E97" fromText="observation" toID="E95" toText="CCU" type="DURING" />
+<TLINK id="TL7" fromID="E5" fromText="substernal chest pain" toID="E15" toText="Her chest pain" type="simultaneous" />
+<TLINK id="TL70" fromID="E5" fromText="substernal chest pain" toID="E51" toText="substernal chest pain" type="SIMULTANEOUS" />
+<TLINK id="TL71" fromID="E52" fromText="exercise" toID="E98" toText="exercise" type="SIMULTANEOUS" />
+<TLINK id="TL72" fromID="E99" fromText="nursing home" toID="E0" toText="Bridgewater State Hospital Rehab" type="SIMULTANEOUS" />
+<TLINK id="TL73" fromID="E6" fromText="EKG" toID="E81" toText="EKG" type="SIMULTANEOUS" />
+<TLINK id="TL74" fromID="E47" fromText="showing" toID="E6" toText="EKG" type="SIMULTANEOUS" />
+<TLINK id="TL75" fromID="E100" fromText="ST depressions in V1-V4" toID="E3" toText="old LAD and new ST depressions in V1-V4" type="SIMULTANEOUS" />
+<TLINK id="TL76" fromID="E7" fromText="troponin" toID="E83" toText="Troponin" type="SIMULTANEOUS" />
+<TLINK id="TL77" fromID="E101" fromText="NSTEMI" toID="E5" toText="substernal chest pain" type="OVERLAP" />
+<TLINK id="TL78" fromID="E102" fromText="The patient 's family refused" toID="E103" toText="coronary artery catheterization" type="SIMULTANEOUS" />
+<TLINK id="TL79" fromID="E8" fromText="ASA" toID="E10" toText="heparin drip" type="OVERLAP" />
+<TLINK id="TL8" fromID="E45" fromText="Admission" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="TL80" fromID="E10" fromText="heparin drip" toID="T6" toText="24 hours" type="DURING" />
+<TLINK id="TL81" fromID="E10" fromText="heparin drip" toID="E11" toText="nitro drip" type="OVERLAP" />
+<TLINK id="TL82" fromID="E15" fromText="Her chest pain" toID="E16" toText="morphine" type="OVERLAP" />
+<TLINK id="TL83" fromID="E17" fromText="Her SBP" toID="T3" toText="hospital day 1" type="OVERLAP" />
+<TLINK id="TL84" fromID="E104" fromText="gently diuresed" toID="T3" toText="hospital day 1" type="OVERLAP" />
+<TLINK id="TL85" fromID="E105" fromText="atrial fibrillation" toID="T4" toText="hospital day 2" type="OVERLAP" />
+<TLINK id="TL86" fromID="E105" fromText="atrial fibrillation" toID="E18" toText="HR" type="OVERLAP" />
+<TLINK id="TL87" fromID="E19" fromText="Her metoprolol dose" toID="E106" toText="increased" type="OVERLAP" />
+<TLINK id="TL88" fromID="T7" fromText="bid" toID="E106" toText="increased" type="DURING" />
+<TLINK id="TL89" fromID="T8" fromText="bid" toID="E106" toText="increased" type="DURING" />
+<TLINK id="TL9" fromID="E1" fromText="HTN" toID="E45" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL90" fromID="T9" fromText="tid" toID="E106" toText="increased" type="DURING" />
+<TLINK id="TL91" fromID="T8" fromText="bid" toID="T7" toText="bid" type="AFTER" />
+<TLINK id="TL92" fromID="T9" fromText="tid" toID="T8" toText="bid" type="AFTER" />
+<TLINK id="TL93" fromID="E20" fromText="Her HR" toID="E107" toText="decreased" type="OVERLAP" />
+<TLINK id="TL94" fromID="E21" fromText="Her BP" toID="E108" toText="stable" type="OVERLAP" />
+<TLINK id="TL95" fromID="E21" fromText="Her BP" toID="E17" toText="Her SBP" type="AFTER" />
+<TLINK id="TL96" fromID="E22" fromText="An ECHO" toID="E48" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL97" fromID="E109" fromText="preserved EF" toID="E48" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL98" fromID="E110" fromText="wall motion abnormalities" toID="E48" toText="showed" type="OVERLAP" />
+<TLINK id="TL99" fromID="E111" fromText="cardioversion" toID="E23" toText="her afib" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2015-10-05" type="ADMISSION" dvalue="2015-10-05" />
+<SECTIME id="S1" start="46" end="56" text="2015-10-08" type="DISCHARGE" dvalue="2015-10-08" />
+<TLINK id="SECTIME0" fromID="E92" fromText="cath" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME1" fromID="E93" fromText="patient 's family turned down" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME2" fromID="E94" fromText="Transferred" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME3" fromID="E95" fromText="CCU" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME4" fromID="E96" fromText="further management" toID="T1" toText="2015-10-05" type="AFTER" />
+<TLINK id="SECTIME5" fromID="E97" fromText="observation" toID="T1" toText="2015-10-05" type="AFTER" />
+<TLINK id="SECTIME6" fromID="E4" fromText="HTN" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E5" fromText="substernal chest pain" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E98" fromText="exercise" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E99" fromText="nursing home" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E6" fromText="EKG" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E47" fromText="showing" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E100" fromText="ST depressions in V1-V4" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E7" fromText="troponin" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E101" fromText="NSTEMI" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E102" fromText="The patient 's family refused" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E103" fromText="coronary artery catheterization" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E1" fromText="HTN" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E8" fromText="ASA" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E9" fromText="Plavix" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E10" fromText="heparin drip" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E11" fromText="nitro drip" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E12" fromText="atorvastatin" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E13" fromText="metoprolol" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E14" fromText="lisinopril" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E15" fromText="Her chest pain" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E16" fromText="morphine" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E0" fromText="Bridgewater State Hospital Rehab" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E17" fromText="Her SBP" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E104" fromText="gently diuresed" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E105" fromText="atrial fibrillation" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E18" fromText="HR" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E19" fromText="Her metoprolol dose" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E106" fromText="increased" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E20" fromText="Her HR" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E107" fromText="decreased" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E21" fromText="Her BP" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E108" fromText="stable" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E22" fromText="An ECHO" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E48" fromText="showed" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E109" fromText="preserved EF" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E110" fromText="wall motion abnormalities" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E51" fromText="substernal chest pain" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E111" fromText="cardioversion" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E23" fromText="her afib" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E112" fromText="coumadin" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E113" fromText="rate control" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E24" fromText="metoprolol" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E25" fromText="aspirin" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E26" fromText="plavix" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E27" fromText="anti-coagulation" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E52" fromText="exercise" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E28" fromText="lipitor" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E29" fromText="lisinopril" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E114" fromText="her chem 7" toID="T2" toText="2015-10-08" type="AFTER" />
+<TLINK id="SECTIME55" fromID="E30" fromText="her new meds" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E115" fromText="LFT" toID="T2" toText="2015-10-08" type="AFTER" />
+<TLINK id="SECTIME57" fromID="E116" fromText="Bilateral crackles at bases and midlungs" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E117" fromText="elevated JVP" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E118" fromText="trace bilateral ankle edema" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E53" fromText="her usual state of health" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E31" fromText="CXR" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E32" fromText="diffuse opacities" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E119" fromText="pulmonary edema" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E33" fromText="acute MI" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E34" fromText="Her O2 sat" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E120" fromText="stable" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E35" fromText="supplemental O2" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E36" fromText="respiratory difficulty" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E121" fromText="the hospital stay" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E122" fromText="diuresed" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E37" fromText="Her CXR" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E49" fromText="discharge" toID="T2" toText="2015-10-08" type="OVERLAP" />
+<TLINK id="SECTIME73" fromID="E54" fromText="performed here regular exercises" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E50" fromText="showed" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E123" fromText="mild pulm edema" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E38" fromText="lasix" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E124" fromText="going to rehab" toID="T2" toText="2015-10-08" type="AFTER" />
+<TLINK id="SECTIME78" fromID="E125" fromText="lasix" toID="T2" toText="2015-10-08" type="AFTER" />
+<TLINK id="SECTIME79" fromID="E39" fromText="weight gain" toID="T2" toText="2015-10-08" type="AFTER" />
+<TLINK id="SECTIME80" fromID="E40" fromText="shortness of breath" toID="T2" toText="2015-10-08" type="AFTER" />
+<TLINK id="SECTIME81" fromID="E126" fromText="Leukocytosis-" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E127" fromText="mild elevated WBC" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E41" fromText="UA" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E42" fromText="WBC" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E43" fromText="few bacteria" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E44" fromText="Bactrim" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E128" fromText="stopped" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E129" fromText="afebrile" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E130" fromText="a culture" toID="T2" toText="2015-10-08" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E131" fromText="followed up" toID="T2" toText="2015-10-08" type="AFTER" />
+<TLINK id="SECTIME91" fromID="E132" fromText="the nursing home" toID="T2" toText="2015-10-08" type="AFTER" />
+<TLINK id="SECTIME92" fromID="E133" fromText="treated" toID="T2" toText="2015-10-08" type="AFTER" />
+<TLINK id="SECTIME93" fromID="E134" fromText="positive" toID="T2" toText="2015-10-08" type="AFTER" />
+<TLINK id="SECTIME94" fromID="E56" fromText="noted" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E55" fromText="SSCP" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E57" fromText="radiation" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E58" fromText="nausea" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E59" fromText="vomiting" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E60" fromText="diaphoresis" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E61" fromText="an ECG" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E62" fromText="Bridgewater State Hospital rehab" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E63" fromText="demonstarted" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E64" fromText="new ST depressions in V1-V4" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E65" fromText="ASA" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E66" fromText="nitro SL" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E67" fromText="partial relief" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E68" fromText="nursing home" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E69" fromText="presentation" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME109" fromID="E70" fromText="Providence Behavioral Health Hospital Amanda" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME110" fromID="E71" fromText="her vitals" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME111" fromID="E72" fromText="HR" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME112" fromID="E73" fromText="BP" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME113" fromID="E74" fromText="RR" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME114" fromID="E75" fromText="O2 sat" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME115" fromID="E76" fromText="Exam" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME116" fromID="E77" fromText="RRR" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME117" fromID="E78" fromText="murmur" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME118" fromID="E79" fromText="bibasilar crackles" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME119" fromID="E80" fromText="guaiac" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME120" fromID="E81" fromText="EKG" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME121" fromID="E82" fromText="showed" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME122" fromID="E2" fromText="sinus brady" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME123" fromID="E3" fromText="old LAD and new ST depressions in V1-V4" toID="T1" toText="2015-10-05" type="BEFORE" />
+<TLINK id="SECTIME124" fromID="E83" fromText="Troponin" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME125" fromID="E84" fromText="ASA" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME126" fromID="E85" fromText="nitro SL" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME127" fromID="E86" fromText="gtt" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME128" fromID="E87" fromText="morphine" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME129" fromID="E88" fromText="metoprolol" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME130" fromID="E89" fromText="heparin gtt" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME131" fromID="E90" fromText="Cardiology" toID="T1" toText="2015-10-05" type="OVERLAP" />
+<TLINK id="SECTIME132" fromID="E91" fromText="discussed" toID="T1" toText="2015-10-05" type="OVERLAP" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

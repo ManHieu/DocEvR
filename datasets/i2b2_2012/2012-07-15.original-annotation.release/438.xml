@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+06-22-93
+DISCHARGE DATE :
+06-27-93
+HISTORY OF PRESENT ILLNESS :
+Mrs. Cast is a 50 year old white female with a history of chronic obstructive pulmonary disease and evidence of severe lobular emphysema , who has progressive shortness of breath and inability to carry on with activities of daily living without assistance .
+She was admitted to the hospital for a pre lung transplant evaluation .
+The patient has been steroid dependent for two years and has been intubated in the past only once for a surgical repair of trigeminal neuralgia .
+Her previous occupation was an executive secretary , home trainer / nurse , rental aide .
+She has no history of asbestos exposure or tuberculosis exposure .
+HOSPITAL COURSE :
+The patient was seen in consultation by a variety of consultants including Infectious Disease , Cardiology , Endocrine , Psychiatry , ENT , and Neuro-ophthalmology .
+She was noted to have mild cataracts , possibly due to chronic steroids , as well as a subtle temporal disc pallor OD , possibly due to previous episode of optic neuritis .
+No acute pathology was noted and no treatment was necessary at this time .
+Dr. Koteelks indicated that the patient did not have sinus problems currently but thought that the trigeminal pain might be investigated further and that the sphenoid might account for some of the patient &apos;s discomfort .
+If so , he considers the possibility that this could be opened .
+This is left for further follow up as an outpatient .
+Dr. Tikkerth felt that the patient had mild adjustment related anxiety under good control with a history of tobacco abuse in the past .
+The patient completed the studies and to be informed of the results as an outpatient .
+She knows to return to her local physician for her routine care with her condition unchanged at the time of discharge .
+I L. STERPSKOLK , M.D.
+TR :
+bg / bmot
+DD :
+09-08-93
+TD :
+09/09/93
+CC :
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1055" end="1069" text="optic neuritis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="1075" end="1090" text="acute pathology" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E37" start="1095" end="1100" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E38" start="1108" end="1117" text="treatment" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E39" start="1160" end="1169" text="indicated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E40" start="1200" end="1214" text="sinus problems" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E13" start="1242" end="1261" text="the trigeminal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1271" end="1291" text="investigated further" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="1301" end="1313" text="the sphenoid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="1340" end="1370" text="the patient &apos;s discomfort" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="140" end="177" text="chronic obstructive pulmonary disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="1531" end="1562" text="mild adjustment related anxiety" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1569" end="1581" text="good control" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="1600" end="1613" text="tobacco abuse" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="1650" end="1661" text="the studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="1738" end="1757" text="her local physician" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E18" start="1762" end="1778" text="her routine care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="1784" end="1797" text="her condition" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="194" end="218" text="severe lobular emphysema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="229" end="260" text="progressive shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="265" end="318" text="inability to carry on with activities of daily living" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="327" end="337" text="assistance" modality="HYPOTHETICAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="348" end="356" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="360" end="372" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E27" start="377" end="409" text="a pre lung transplant evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="433" end="450" text="steroid dependent" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="478" end="487" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="514" end="555" text="a surgical repair of trigeminal neuralgia" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="670" end="687" text="asbestos exposure" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E8" start="691" end="712" text="tuberculosis exposure" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E28" start="749" end="769" text="seen in consultation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="808" end="826" text="Infectious Disease" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E30" start="829" end="839" text="Cardiology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E31" start="842" end="851" text="Endocrine" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E32" start="854" end="864" text="Psychiatry" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E33" start="867" end="870" text="ENT" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E34" start="877" end="896" text="Neuro-ophthalmology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E35" start="907" end="912" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E9" start="921" end="935" text="mild cataracts" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="954" end="970" text="chronic steroids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="984" end="1016" text="a subtle temporal disc pallor OD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T4" start="1135" end="1144" text="this time" type="DATE" val="1993-06-27" mod="NA" />
+<TIMEX3 id="T1" start="18" end="26" text="06-22-93" type="DATE" val="1993-06-22" mod="NA" />
+<TIMEX3 id="T0" start="1811" end="1819" text="the time" type="DATE" val="1993-06-27" mod="NA" />
+<TIMEX3 id="T2" start="44" end="52" text="06-27-93" type="DATE" val="1993-06-27" mod="NA" />
+<TIMEX3 id="T3" start="455" end="464" text="two years" type="DURATION" val="P2Y" mod="NA" />
+<TIMEX3 id="T5" start="505" end="509" text="once" type="FREQUENCY" val="R1" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T1" toText="06-22-93" type="OVERLAP" />
+<TLINK id="TL1" fromID="E2" fromText="severe lobular emphysema" toID="E3" toText="progressive shortness of breath" type="OVERLAP" />
+<TLINK id="TL10" fromID="E27" fromText="a pre lung transplant evaluation" toID="E26" toText="the hospital" type="DURING" />
+<TLINK id="TL11" fromID="E4" fromText="steroid dependent" toID="T3" toText="two years" type="DURING" />
+<TLINK id="TL12" fromID="T3" fromText="two years" toID="E0" toText="ADMISSION" type="ENDED_BY" />
+<TLINK id="TL13" fromID="E5" fromText="intubated" toID="E6" toText="a surgical repair of trigeminal neuralgia" type="OVERLAP" />
+<TLINK id="TL14" fromID="E5" fromText="intubated" toID="T5" toText="once" type="OVERLAP" />
+<TLINK id="TL15" fromID="E7" fromText="asbestos exposure" toID="E8" toText="tuberculosis exposure" type="OVERLAP" />
+<TLINK id="TL16" fromID="E28" fromText="seen in consultation" toID="E29" toText="Infectious Disease" type="OVERLAP" />
+<TLINK id="TL17" fromID="E28" fromText="seen in consultation" toID="E30" toText="Cardiology" type="OVERLAP" />
+<TLINK id="TL18" fromID="E28" fromText="seen in consultation" toID="E31" toText="Endocrine" type="OVERLAP" />
+<TLINK id="TL19" fromID="E28" fromText="seen in consultation" toID="E32" toText="Psychiatry" type="OVERLAP" />
+<TLINK id="TL2" fromID="E15" fromText="the patient &apos;s discomfort" toID="E13" toText="the trigeminal pain" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E33" fromText="ENT" toID="E28" toText="seen in consultation" type="OVERLAP" />
+<TLINK id="TL21" fromID="E34" fromText="Neuro-ophthalmology" toID="E28" toText="seen in consultation" type="OVERLAP" />
+<TLINK id="TL22" fromID="E9" fromText="mild cataracts" toID="E35" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL23" fromID="E10" fromText="chronic steroids" toID="E9" toText="mild cataracts" type="OVERLAP" />
+<TLINK id="TL24" fromID="E11" fromText="a subtle temporal disc pallor OD" toID="E35" toText="noted" type="BEFORE_OVERLAP" />
+<TLINK id="TL25" fromID="E36" fromText="optic neuritis" toID="E11" toText="a subtle temporal disc pallor OD" type="OVERLAP" />
+<TLINK id="TL26" fromID="E12" fromText="acute pathology" toID="E37" toText="noted" type="OVERLAP" />
+<TLINK id="TL27" fromID="E38" fromText="treatment" toID="T4" toText="this time" type="OVERLAP" />
+<TLINK id="TL28" fromID="E40" fromText="sinus problems" toID="E39" toText="indicated" type="OVERLAP" />
+<TLINK id="TL29" fromID="E13" fromText="the trigeminal pain" toID="E41" toText="investigated further" type="OVERLAP" />
+<TLINK id="TL3" fromID="E19" fromText="her condition" toID="E18" toText="her routine care" type="BEFORE_OVERLAP" />
+<TLINK id="TL30" fromID="E14" fromText="the sphenoid" toID="E15" toText="the patient &apos;s discomfort" type="OVERLAP" />
+<TLINK id="TL31" fromID="E16" fromText="mild adjustment related anxiety" toID="E42" toText="good control" type="OVERLAP" />
+<TLINK id="TL32" fromID="E21" fromText="tobacco abuse" toID="E16" toText="mild adjustment related anxiety" type="BEFORE" />
+<TLINK id="TL33" fromID="E17" fromText="the studies" toID="E0" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL34" fromID="E43" fromText="her local physician" toID="E18" toText="her routine care" type="SIMULTANEOUS" />
+<TLINK id="TL35" fromID="E19" fromText="her condition" toID="T0" toText="the time" type="BEFORE_OVERLAP" />
+<TLINK id="TL36" fromID="E43" fromText="her local physician" toID="T0" toText="the time" type="AFTER" />
+<TLINK id="TL4" fromID="E23" fromText="DISCHARGE" toID="T2" toText="06-27-93" type="OVERLAP" />
+<TLINK id="TL5" fromID="E1" fromText="chronic obstructive pulmonary disease" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL6" fromID="E24" fromText="inability to carry on with activities of daily living" toID="E25" toText="assistance" type="OVERLAP" />
+<TLINK id="TL7" fromID="E24" fromText="inability to carry on with activities of daily living" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP" />
+<TLINK id="TL8" fromID="E20" fromText="admitted" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="E26" fromText="the hospital" toID="E20" toText="admitted" type="BEGUN_BY" />
+
+
+<TLINK id="Sectime0" fromID="E36" fromText="optic neuritis" toID="T2" toText="06-27-93" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E12" fromText="acute pathology" toID="T2" toText="06-27-93" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E37" fromText="noted" toID="T2" toText="06-27-93" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E38" fromText="treatment" toID="T2" toText="06-27-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime4" fromID="E39" fromText="indicated" toID="T2" toText="06-27-93" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E40" fromText="sinus problems" toID="T2" toText="06-27-93" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E13" fromText="the trigeminal pain" toID="T2" toText="06-27-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime7" fromID="E41" fromText="investigated further" toID="T2" toText="06-27-93" type="AFTER" />
+<TLINK id="Sectime8" fromID="E14" fromText="the sphenoid" toID="T2" toText="06-27-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime9" fromID="E15" fromText="the patient &apos;s discomfort" toID="T2" toText="06-27-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime0" fromID="E1" fromText="chronic obstructive pulmonary disease" toID="T1" toText="06-22-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime10" fromID="E16" fromText="mild adjustment related anxiety" toID="T2" toText="06-27-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime11" fromID="E42" fromText="good control" toID="T2" toText="06-27-93" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E21" fromText="tobacco abuse" toID="T2" toText="06-27-93" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E17" fromText="the studies" toID="T2" toText="06-27-93" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E43" fromText="her local physician" toID="T2" toText="06-27-93" type="AFTER" />
+<TLINK id="Sectime15" fromID="E18" fromText="her routine care" toID="T2" toText="06-27-93" type="AFTER" />
+<TLINK id="Sectime16" fromID="E19" fromText="her condition" toID="T2" toText="06-27-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime1" fromID="E2" fromText="severe lobular emphysema" toID="T1" toText="06-22-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime2" fromID="E3" fromText="progressive shortness of breath" toID="T1" toText="06-22-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime3" fromID="E24" fromText="inability to carry on with activities of daily living" toID="T1" toText="06-22-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime4" fromID="E25" fromText="assistance" toID="T1" toText="06-22-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime5" fromID="E20" fromText="admitted" toID="T1" toText="06-22-93" type="OVERLAP" />
+<TLINK id="Sectime6" fromID="E26" fromText="the hospital" toID="T1" toText="06-22-93" type="OVERLAP" />
+<TLINK id="Sectime7" fromID="E27" fromText="a pre lung transplant evaluation" toID="T1" toText="06-22-93" type="AFTER" />
+<TLINK id="Sectime8" fromID="E4" fromText="steroid dependent" toID="T1" toText="06-22-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime9" fromID="E5" fromText="intubated" toID="T1" toText="06-22-93" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E6" fromText="a surgical repair of trigeminal neuralgia" toID="T1" toText="06-22-93" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E7" fromText="asbestos exposure" toID="T1" toText="06-22-93" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E8" fromText="tuberculosis exposure" toID="T1" toText="06-22-93" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E28" fromText="seen in consultation" toID="T2" toText="06-27-93" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E29" fromText="Infectious Disease" toID="T2" toText="06-27-93" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E30" fromText="Cardiology" toID="T2" toText="06-27-93" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E31" fromText="Endocrine" toID="T2" toText="06-27-93" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E32" fromText="Psychiatry" toID="T2" toText="06-27-93" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E33" fromText="ENT" toID="T2" toText="06-27-93" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E34" fromText="Neuro-ophthalmology" toID="T2" toText="06-27-93" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E35" fromText="noted" toID="T2" toText="06-27-93" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E9" fromText="mild cataracts" toID="T2" toText="06-27-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime26" fromID="E10" fromText="chronic steroids" toID="T2" toText="06-27-93" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime27" fromID="E11" fromText="a subtle temporal disc pallor OD" toID="T2" toText="06-27-93" type="BEFORE_OVERLAP" />
+
+
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

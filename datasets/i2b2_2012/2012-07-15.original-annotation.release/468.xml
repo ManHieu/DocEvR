@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+05/09/1998
+Discharge Date :
+05/25/1998
+HISTORY OF PRESENT ILLNESS :
+The patient is a 74-year-old woman , well known to the cardiac surgery service , readmitted from Glasmif/putdi Health Network with sternal wound infection .
+She has been previously hospitalized on 12 April 1998 for the same diagnosis .
+She is now coming for surgical treatment , wound debridement , and possible wound closure with bilateral pectoralis flap .
+She underwent coronary artery bypass graft times two with saphenous vein graft on 29 March 1998 .
+Of note , the patient is status post lymphoma with treatment of chemotherapy and radiation six years ago , and is an insulin-dependent diabetic .
+HOSPITAL COURSE :
+The patient was placed on IV antibiotics , Ancef 1 gm q.8h.
+On 10 May 1998 , she underwent sternal wound debridement and closure , performed by Dr. Falccouette and Dr. Shuffzeln .
+The patient was switched to ampicillin , gentamicin , and clindamycin , according to the culture , Enterococci and Staphylococcus in the wound .
+Due to the persistent fevers , the patient underwent vancomycin desensitization in the surgical Intensive Care Unit followed by a change of antibiotics to vancomycin and levofloxacin .
+Further cultures from sputum and urine revealed yeast sensitive to Diflucan , which was administered shortly after .
+Because of expected long term antibiotic administration , a PICC line was placed and the patient was prepared for transfer back to Fo Hospital .
+As a small complication , the patient opened a left ankle wound post saphenous vein harvest , which persists up until now and is of a size 2 x 1 cm .
+Due to difficult ambulation , the patient developed a small ulcer in the sacral area , which was treated with Duoderm dressing .
+During the course of hospitalization , the patient was followed by cardiac surgery , cardiology , infectious disease , allergy , and medicine , including GI teams .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="1002" end="1016" text="Staphylococcus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="1020" end="1029" text="the wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1039" end="1060" text="the persistent fevers" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1085" end="1111" text="vancomycin desensitization" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="1115" end="1147" text="the surgical Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E33" start="1160" end="1183" text="a change of antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1187" end="1197" text="vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1202" end="1214" text="levofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1217" end="1255" text="Further cultures from sputum and urine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="1256" end="1264" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E38" start="1265" end="1270" text="yeast" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="1284" end="1292" text="Diflucan" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1345" end="1389" text="expected long term antibiotic administration" modality="HYPOTHETICAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="137" end="164" text="the cardiac surgery service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E42" start="1392" end="1403" text="a PICC line" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="1435" end="1443" text="prepared" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="1448" end="1456" text="transfer" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1465" end="1476" text="Fo Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E46" start="1482" end="1502" text="a small complication" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="1517" end="1523" text="opened" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="1524" end="1542" text="a left ankle wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="1548" end="1570" text="saphenous vein harvest" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="1579" end="1587" text="persists" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="1636" end="1656" text="difficult ambulation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="167" end="177" text="readmitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E51" start="1681" end="1713" text="a small ulcer in the sacral area" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="1739" end="1755" text="Duoderm dressing" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="1765" end="1794" text="the course of hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="1825" end="1840" text="cardiac surgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E4" start="183" end="211" text="Glasmif/putdi Health Network" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E55" start="1843" end="1853" text="cardiology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E56" start="1856" end="1874" text="infectious disease" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E57" start="1877" end="1884" text="allergy" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E58" start="1891" end="1899" text="medicine" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E59" start="1912" end="1920" text="GI teams" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E5" start="217" end="240" text="sternal wound infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="267" end="279" text="hospitalized" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="301" end="319" text="the same diagnosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="333" end="339" text="coming" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="344" end="362" text="surgical treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="365" end="382" text="wound debridement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="398" end="442" text="wound closure with bilateral pectoralis flap" modality="POSSIBLE" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="459" end="487" text="coronary artery bypass graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="503" end="523" text="saphenous vein graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="580" end="588" text="lymphoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="607" end="619" text="chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="624" end="633" text="radiation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="657" end="686" text="an insulin-dependent diabetic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="733" end="747" text="IV antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="750" end="755" text="Ancef" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="798" end="823" text="sternal wound debridement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="828" end="835" text="closure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="903" end="911" text="switched" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="915" end="925" text="ampicillin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="928" end="938" text="gentamicin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="945" end="956" text="clindamycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="972" end="983" text="the culture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="986" end="997" text="Enterococci" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T7" start="1597" end="1600" text="now" type="DATE" val="1998-05-25" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="05/09/1998" type="DATE" val="1998-05-09" mod="NA" />
+<TIMEX3 id="T2" start="283" end="296" text="12 April 1998" type="DATE" val="1998-04-12" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="05/25/1998" type="DATE" val="1998-05-25" mod="NA" />
+<TIMEX3 id="T3" start="527" end="540" text="29 March 1998" type="DATE" val="1998-03-29" mod="NA" />
+<TIMEX3 id="T4" start="634" end="647" text="six years ago" type="DATE" val="1992-05-09" mod="APPROX" />
+<TIMEX3 id="T5" start="761" end="766" text="q.8h." type="FREQUENCY" val="RPT8H" mod="NA" />
+<TIMEX3 id="T6" start="770" end="781" text="10 May 1998" type="DATE" val="1998-05-10" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="05/09/1998" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E1" fromText="Discharge" toID="T1" toText="05/25/1998" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E8" fromText="coming" toID="E3" toText="readmitted" type="SIMULTANEOUS" />
+<TLINK id="TL11" fromID="E9" fromText="surgical treatment" toID="E8" toText="coming" type="BEGUN_BY" />
+<TLINK id="TL12" fromID="E9" fromText="surgical treatment" toID="E10" toText="wound debridement" type="OVERLAP" />
+<TLINK id="TL13" fromID="E10" fromText="wound debridement" toID="E11" toText="wound closure with bilateral pectoralis flap" type="OVERLAP" />
+<TLINK id="TL14" fromID="E12" fromText="coronary artery bypass graft" toID="T3" toText="29 March 1998" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E12" fromText="coronary artery bypass graft" toID="E13" toText="saphenous vein graft" type="SIMULTANEOUS" />
+<TLINK id="TL16" fromID="T3" fromText="29 March 1998" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL17" fromID="E14" fromText="lymphoma" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL18" fromID="E18" fromText="IV antibiotics" toID="T5" toText="q.8h." type="OVERLAP" />
+<TLINK id="TL19" fromID="E14" fromText="lymphoma" toID="E15" toText="chemotherapy" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="the cardiac surgery service" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL20" fromID="E15" fromText="chemotherapy" toID="E16" toText="radiation" type="OVERLAP" />
+<TLINK id="TL21" fromID="E16" fromText="radiation" toID="T4" toText="six years ago" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="T4" fromText="six years ago" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL23" fromID="E17" fromText="an insulin-dependent diabetic" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL24" fromID="E18" fromText="IV antibiotics" toID="E0" toText="Admission" type="BEGUN_BY" />
+<TLINK id="TL25" fromID="E18" fromText="IV antibiotics" toID="E19" toText="Ancef" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="E23" fromText="ampicillin" toID="E22" toText="switched" type="BEGUN_BY" />
+<TLINK id="TL27" fromID="E19" fromText="Ancef" toID="E22" toText="switched" type="ENDED_BY" />
+<TLINK id="TL28" fromID="E20" fromText="sternal wound debridement" toID="T6" toText="10 May 1998" type="SIMULTANEOUS" />
+<TLINK id="TL29" fromID="T6" fromText="10 May 1998" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL3" fromID="E3" fromText="readmitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL30" fromID="E20" fromText="sternal wound debridement" toID="E21" toText="closure" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E22" fromText="switched" toID="E21" toText="closure" type="AFTER" />
+<TLINK id="TL32" fromID="E23" fromText="ampicillin" toID="E24" toText="gentamicin" type="OVERLAP" />
+<TLINK id="TL33" fromID="E24" fromText="gentamicin" toID="E25" toText="clindamycin" type="OVERLAP" />
+<TLINK id="TL34" fromID="E54" fromText="cardiac surgery" toID="E55" toText="cardiology" type="OVERLAP" />
+<TLINK id="TL35" fromID="E27" fromText="Enterococci" toID="E26" toText="the culture" type="" />
+<TLINK id="TL36" fromID="E27" fromText="Enterococci" toID="E28" toText="Staphylococcus" type="SIMULTANEOUS" />
+<TLINK id="TL37" fromID="E29" fromText="the wound" toID="E28" toText="Staphylococcus" type="BEFORE_OVERLAP" />
+<TLINK id="TL38" fromID="E53" fromText="the course of hospitalization" toID="E0" toText="Admission" type="BEGUN_BY" />
+<TLINK id="TL39" fromID="E53" fromText="the course of hospitalization" toID="E1" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL4" fromID="E4" fromText="Glasmif/putdi Health Network" toID="E3" toText="readmitted" type="ENDED_BY" />
+<TLINK id="TL40" fromID="E30" fromText="the persistent fevers" toID="E53" toText="the course of hospitalization" type="OVERLAP" />
+<TLINK id="TL41" fromID="E30" fromText="the persistent fevers" toID="E31" toText="vancomycin desensitization" type="BEFORE_OVERLAP" />
+<TLINK id="TL43" fromID="E31" fromText="vancomycin desensitization" toID="E32" toText="the surgical Intensive Care Unit" type="DURING" />
+<TLINK id="TL44" fromID="E33" fromText="a change of antibiotics" toID="E31" toText="vancomycin desensitization" type="AFTER" />
+<TLINK id="TL45" fromID="E34" fromText="vancomycin" toID="E33" toText="a change of antibiotics" type="BEGUN_BY" />
+<TLINK id="TL46" fromID="E34" fromText="vancomycin" toID="E35" toText="levofloxacin" type="OVERLAP" />
+<TLINK id="TL47" fromID="E36" fromText="Further cultures from sputum and urine" toID="E26" toText="the culture" type="AFTER" />
+<TLINK id="TL48" fromID="E37" fromText="revealed" toID="E36" toText="Further cultures from sputum and urine" type="SIMULTANEOUS" />
+<TLINK id="TL49" fromID="E37" fromText="revealed" toID="E38" toText="yeast" type="BEFORE_OVERLAP" />
+<TLINK id="TL5" fromID="E5" fromText="sternal wound infection" toID="E3" toText="readmitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL50" fromID="E39" fromText="Diflucan" toID="E36" toText="Further cultures from sputum and urine" type="AFTER" />
+<TLINK id="TL51" fromID="E42" fromText="a PICC line" toID="E41" toText="expected long term antibiotic administration" type="BEGUN_BY" />
+<TLINK id="TL52" fromID="E41" fromText="expected long term antibiotic administration" toID="E1" toText="Discharge" type="BEFORE_OVERLAP" />
+<TLINK id="TL53" fromID="E42" fromText="a PICC line" toID="E43" toText="prepared" type="BEFORE_OVERLAP" />
+<TLINK id="TL54" fromID="E44" fromText="transfer" toID="T7" toText="now" type="SIMULTANEOUS" />
+<TLINK id="TL55" fromID="E43" fromText="prepared" toID="E44" toText="transfer" type="BEFORE" />
+<TLINK id="TL56" fromID="E45" fromText="Fo Hospital" toID="E44" toText="transfer" type="BEFORE_OVERLAP" />
+<TLINK id="TL57" fromID="E55" fromText="cardiology" toID="E56" toText="infectious disease" type="OVERLAP" />
+<TLINK id="TL58" fromID="E46" fromText="a small complication" toID="E40" toText="opened" type="SIMULTANEOUS" />
+<TLINK id="TL59" fromID="E47" fromText="a left ankle wound" toID="E40" toText="opened" type="BEFORE_OVERLAP" />
+<TLINK id="TL6" fromID="E7" fromText="the same diagnosis" toID="E5" toText="sternal wound infection" type="SIMULTANEOUS" />
+<TLINK id="TL60" fromID="E47" fromText="a left ankle wound" toID="E48" toText="saphenous vein harvest" type="OVERLAP" />
+<TLINK id="TL61" fromID="E40" fromText="opened" toID="E48" toText="saphenous vein harvest" type="AFTER" />
+<TLINK id="TL62" fromID="E49" fromText="persists" toID="T7" toText="now" type="BEFORE_OVERLAP" />
+<TLINK id="TL63" fromID="E47" fromText="a left ankle wound" toID="E49" toText="persists" type="SIMULTANEOUS" />
+<TLINK id="TL64" fromID="E56" fromText="infectious disease" toID="E55" toText="cardiology" type="OVERLAP" />
+<TLINK id="TL65" fromID="E44" fromText="transfer" toID="E1" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL66" fromID="E50" fromText="difficult ambulation" toID="E51" toText="a small ulcer in the sacral area" type="BEFORE_OVERLAP" />
+<TLINK id="TL67" fromID="E50" fromText="difficult ambulation" toID="E53" toText="the course of hospitalization" type="OVERLAP" />
+<TLINK id="TL68" fromID="E51" fromText="a small ulcer in the sacral area" toID="E52" toText="Duoderm dressing" type="ENDED_BY" />
+<TLINK id="TL69" fromID="E57" fromText="allergy" toID="E56" toText="infectious disease" type="OVERLAP" />
+<TLINK id="TL7" fromID="E6" fromText="hospitalized" toID="T2" toText="12 April 1998" type="SIMULTANEOUS" />
+<TLINK id="TL70" fromID="E58" fromText="medicine" toID="E57" toText="allergy" type="OVERLAP" />
+<TLINK id="TL71" fromID="E58" fromText="medicine" toID="E59" toText="GI teams" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E7" fromText="the same diagnosis" toID="E6" toText="hospitalized" type="BEFORE_OVERLAP" />
+<TLINK id="TL9" fromID="T2" fromText="12 April 1998" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E28" fromText="Staphylococcus" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E29" fromText="the wound" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E30" fromText="the persistent fevers" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E31" fromText="vancomycin desensitization" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E32" fromText="the surgical Intensive Care Unit" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E33" fromText="a change of antibiotics" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E34" fromText="vancomycin" toID="T1" toText="05/25/1998" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime7" fromID="E35" fromText="levofloxacin" toID="T1" toText="05/25/1998" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime8" fromID="E36" fromText="Further cultures from sputum and urine" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E37" fromText="revealed" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E38" fromText="yeast" toID="T1" toText="05/25/1998" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime11" fromID="E39" fromText="Diflucan" toID="T1" toText="05/25/1998" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime12" fromID="E41" fromText="expected long term antibiotic administration" toID="T1" toText="05/25/1998" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime0" fromID="E2" fromText="the cardiac surgery service" toID="T0" toText="05/09/1998" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime13" fromID="E42" fromText="a PICC line" toID="T1" toText="05/25/1998" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime14" fromID="E43" fromText="prepared" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E44" fromText="transfer" toID="T1" toText="05/25/1998" type="OVERLAP" />
+<TLINK id="Sectime16" fromID="E45" fromText="Fo Hospital" toID="T1" toText="05/25/1998" type="OVERLAP" />
+<TLINK id="Sectime17" fromID="E46" fromText="a small complication" toID="T1" toText="05/25/1998" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime18" fromID="E40" fromText="opened" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E47" fromText="a left ankle wound" toID="T1" toText="05/25/1998" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime20" fromID="E48" fromText="saphenous vein harvest" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E49" fromText="persists" toID="T1" toText="05/25/1998" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime22" fromID="E50" fromText="difficult ambulation" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E3" fromText="readmitted" toID="T0" toText="05/09/1998" type="OVERLAP" />
+<TLINK id="Sectime23" fromID="E51" fromText="a small ulcer in the sacral area" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E52" fromText="Duoderm dressing" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E53" fromText="the course of hospitalization" toID="T1" toText="05/25/1998" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime26" fromID="E54" fromText="cardiac surgery" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E4" fromText="Glasmif/putdi Health Network" toID="T0" toText="05/09/1998" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime27" fromID="E55" fromText="cardiology" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E56" fromText="infectious disease" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E57" fromText="allergy" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E58" fromText="medicine" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime31" fromID="E59" fromText="GI teams" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E5" fromText="sternal wound infection" toID="T0" toText="05/09/1998" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime4" fromID="E6" fromText="hospitalized" toID="T0" toText="05/09/1998" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E7" fromText="the same diagnosis" toID="T0" toText="05/09/1998" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E8" fromText="coming" toID="T0" toText="05/09/1998" type="OVERLAP" />
+<TLINK id="Sectime7" fromID="E9" fromText="surgical treatment" toID="T0" toText="05/09/1998" type="OVERLAP" />
+<TLINK id="Sectime8" fromID="E10" fromText="wound debridement" toID="T0" toText="05/09/1998" type="AFTER" />
+<TLINK id="Sectime9" fromID="E11" fromText="wound closure with bilateral pectoralis flap" toID="T0" toText="05/09/1998" type="AFTER" />
+<TLINK id="Sectime10" fromID="E12" fromText="coronary artery bypass graft" toID="T0" toText="05/09/1998" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E13" fromText="saphenous vein graft" toID="T0" toText="05/09/1998" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E14" fromText="lymphoma" toID="T0" toText="05/09/1998" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E15" fromText="chemotherapy" toID="T0" toText="05/09/1998" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E16" fromText="radiation" toID="T0" toText="05/09/1998" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E17" fromText="an insulin-dependent diabetic" toID="T0" toText="05/09/1998" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime32" fromID="E18" fromText="IV antibiotics" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime33" fromID="E19" fromText="Ancef" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime34" fromID="E20" fromText="sternal wound debridement" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime35" fromID="E21" fromText="closure" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime36" fromID="E22" fromText="switched" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime37" fromID="E23" fromText="ampicillin" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime38" fromID="E24" fromText="gentamicin" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime39" fromID="E25" fromText="clindamycin" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime40" fromID="E26" fromText="the culture" toID="T1" toText="05/25/1998" type="BEFORE" />
+<TLINK id="Sectime41" fromID="E27" fromText="Enterococci" toID="T1" toText="05/25/1998" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="05/09/1998" type="ADMISSION" dvalue="1998-05-09" />
+<SECTIME id="S1" start="46" end="56" text="05/25/1998" type="DISCHARGE" dvalue="1998-05-25" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

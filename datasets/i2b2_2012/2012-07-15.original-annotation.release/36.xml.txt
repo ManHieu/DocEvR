@@ -1,0 +1,75 @@
+Admission Date :
+02/01/2002
+Discharge Date :
+02/08/2002
+HISTORY OF PRESENT ILLNESS :
+Saujule Study is a 77-year-old woman with a history of obesity and hypertension who presents with increased shortness of breath x 5 days .
+Her shortness of breath has been progressive over the last 2-3 years .
+She has an associated dry cough but no fevers , chills , or leg pain .
+She has dyspnea on exertion .
+She ambulates with walker and a cane secondary to osteoarthritis .
+She becomes short of breath just by getting up from her chair and can only walk 2-3 steps on a flat surface .
+She feels light headed when getting up .
+Her shortness of breath and dyspnea on exertion has been progressive for the past several years .
+It has not been sudden or acute .
+She sleeps in a chair up right for the last 2 1/2 years secondary to osteoarthritis .
+She has orthopnea as well but noparoxysmal nocturnal dyspnea .
+She occasionally feels chest twinges which are nonradiating but are sharp .
+They last a few seconds on the left side and are not associated with sweating , nausea , vomiting or syncope .
+She has had lower extremity edema for thelast several years with multiple episodes of cellulitis .
+Her lower extremity edema has increased for the several weeks prior to admission secondary to an inability to elevate her legs due to a broken chair at home .
+She denies any pleural chest pain .
+REVIEW OF SYSTEMS :
+Negative for headaches , vision changes , numbness , tingling , dyspnea , hematuria , abdominal pain , diarrhea , melena or hematochezia .
+HOSPITAL COURSE :
+The patient was admitted to the hospital for acute and chronic shortness of breath .
+1. Cardiovascular :
+The patient was found to be in congestive heart failure and thought likely secondary to diastolic dysfunction secondary to hypertension .
+The patient was also found to have pulmonary hypertension .
+She ruled out for myocardial infarction with 3 negative enzymes .
+On admission , she was diuresed with Lasix and was negative 1-2 liters per day for several days .
+The diuresis was backed off when her bicarbonate increased from 36 to 39 .
+She was restarted on 20 mg p.o. q day prior to discharge .
+Her lipids were checked with a total cholesterol of 110 , triglycerides 59 , HDL32 , LDL 64 .
+The patient had a D-dimer greater than 1000 with lower extremity non-invasive studies which were positive for a small right common femoral clot .
+It was unclear whether this was old or new .
+A TTE showed an ejection fraction of 60% , mild mitral regurgitation , left atrial enlargement , mild tricuspid regurgitation , pulmonary artery pressures of 44 plus right atrial pressure .
+There was an intra-atrial shunt from the right to the left through a patent foramen ovale .
+Chest CT was a poor study but did not show a pulmonary embolus .
+The patient had subsequent dobutamine MIBI which was positive for inducible ischemia in the distribution of posterior descending coronary artery and posterolateral coronary artery with a small to medium perfusion defect in the inferolateral wall and basal inferior wall which was partially reversible .
+The cardiology service saw the patient and recommended medical management only without catheterization .
+Her blood pressure was high so Captopril was titrated up to 50 mg p.o. t.i.d. .
+She will be discharged on Lisinopril with further titration as an outpatient .
+She is on hydrochlorothiazide 50 mg p.o. q day .
+Her atenolol was stopped due to bradycardia on admission but this may be restarted as an outpatient in gentle doses with careful monitoring of heart rate .
+She is on an aspirin .
+She will be discharged on Lasix 20 mg for continued control of her edema .
+2. Pulmonary ;
+Pulmonary hypertension as seen on echocardiogram .
+Unclear whether there are chronic pulmonary embolus but did have positive test for deep venous thrombosis and will be treated with Coumadin .
+An ABG was done which showed pH 7.34 , pCO2 78 , pO2 92 on 2 liters .
+Her bicarbonate peaked at 39 and generally is in the 36-38 range .
+She has severe sleep apnea and falls asleep midsentence .
+She has episodes of not breathing .
+BIPAP was attempted for 3 nights in a row and the patient did not tolerate this .
+She will need pulmonary function studies as an outpatient as these were not done in the hospital .
+The pulmonary team saw the patient and only recommended the above testing .
+She needs home oxygen and is currently at 2 liters nasal cannula oxygen .
+3. Infectious disease :
+Evidence for cellulitis on her legs , likely due to distention from edema and poor perfusion .
+She was originally started on cefazolin which was then changed to Keflex with good improvement .
+She will need to continue for at least 10 more days or as clinically indicated by the course of her cellulitis .
+4. Hematology :
+D-dimer in the emergency room was greater than 1000 and a right common femoral clot was seen .
+This clot was small and it was questionable as to whether it was old or new .
+She was started on anticoagulation given the positive D-dimer .
+Chest CT was nondiagnostic but did not show pulmonary embolus .
+It was a poor study .
+Heparin was maintained during her hospital course and then Lovenox was started .
+Her dose was increased to 7.5 mg q day the day prior to discharge .
+She will be discharged on this dose in addition to 1 day of Lovenox .
+Discharge INR 1.8 .
+Goal INR is 2.0-3.0 .
+5. Fluids / electrolytes / nutrition :
+Low salt diet .
+Low cholesterol , low fat diet .

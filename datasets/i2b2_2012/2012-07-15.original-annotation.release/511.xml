@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+Report Status :
+Discharge Date :
+01/23/2003
+HISTORY OF PRESENT ILLNESS :
+The patient is a 50-year-old female with history of low back pain radiating to both legs .
+She had increasing symptoms overtime , not controlled by conservative management .
+She therefore elected to undergo surgical treatment .
+HOSPITAL COURSE :
+She was taken to the operating room on 01/16/2003 for decompression at L2 , L5 and laminectomy with posterior instrumented fusion at L3 to L5 .
+She tolerated the surgery well .
+She was transferred to recovery room in stable condition .
+She received blood transfusions intraoperatively and postoperatively in addition to autologous blood .
+Her hematocrit was stable postoperatively .
+Her neurologic exam was stable postoperatively with 5/5 bilaterally , tibial , EHL , FHL , gastroc soleus , and intact quadriceps .
+She has intact sensation L3 to S1 and bilateral lower extremities .
+She was fitted for Verholl Aet over leg brace and mobilized out of the bed in the brace with physical therapy .
+Her wounds were stable without any erythema or drainage .
+She reported nausea on pain medications .
+Her pain medications were changed around until an acceptable regime was accomplished .
+She is stable for discharge to rehab .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="1013" end="1029" text="physical therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1032" end="1042" text="Her wounds" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1048" end="1054" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1067" end="1075" text="erythema" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E37" start="1079" end="1087" text="drainage" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E38" start="1094" end="1102" text="reported" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E39" start="1103" end="1109" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="1113" end="1129" text="pain medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1132" end="1152" text="Her pain medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="1158" end="1165" text="changed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1179" end="1199" text="an acceptable regime" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1226" end="1232" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1237" end="1246" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="143" end="179" text="low back pain radiating to both legs" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="190" end="209" text="increasing symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="239" end="262" text="conservative management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="279" end="286" text="elected" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="298" end="316" text="surgical treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="34" end="43" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="354" end="372" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E10" start="391" end="415" text="decompression at L2 , L5" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="420" end="431" text="laminectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="437" end="478" text="posterior instrumented fusion at L3 to L5" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="495" end="506" text="the surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="522" end="533" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="537" end="550" text="recovery room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E16" start="554" end="570" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="586" end="604" text="blood transfusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="657" end="673" text="autologous blood" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="676" end="690" text="Her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="695" end="701" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="720" end="739" text="Her neurologic exam" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E22" start="744" end="750" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="790" end="796" text="tibial" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="799" end="802" text="EHL" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="805" end="808" text="FHL" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E26" start="811" end="825" text="gastroc soleus" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="832" end="849" text="intact quadriceps" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="867" end="917" text="sensation L3 to S1 and bilateral lower extremities" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="928" end="934" text="fitted" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="939" end="965" text="Verholl Aet over leg brace" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="970" end="979" text="mobilized" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="998" end="1007" text="the brace" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T1" start="376" end="386" text="01/16/2003" type="DATE" val="2003-01-16" mod="NA" />
+<TIMEX3 id="T0" start="51" end="61" text="01/23/2003" type="DATE" val="2003-01-23" mod="NA" />
+<TLINK id="TL0" fromID="E9" fromText="low back pain radiating to both legs" toID="E3" toText="increasing symptoms" type="OVERLAP" />
+<TLINK id="TL1" fromID="E9" fromText="low back pain radiating to both legs" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL10" fromID="E15" fromText="recovery room" toID="E14" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL11" fromID="E8" fromText="the operating room" toID="E14" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL12" fromID="E0" fromText="Admission" toID="T1" toText="01/16/2003" type="SIMULTANEOUS" />
+<TLINK id="TL13" fromID="E1" fromText="Discharge" toID="T0" toText="01/23/2003" type="SIMULTANEOUS" />
+<TLINK id="TL14" fromID="E45" fromText="discharge" toID="E1" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E16" fromText="stable condition" toID="E15" toText="recovery room" type="BEFORE_OVERLAP" />
+<TLINK id="TL16" fromID="E18" fromText="autologous blood" toID="E17" toText="blood transfusions" type="OVERLAP" />
+<TLINK id="TL17" fromID="E17" fromText="blood transfusions" toID="E13" toText="the surgery" type="OVERLAP" />
+<TLINK id="TL18" fromID="E19" fromText="Her hematocrit" toID="E13" toText="the surgery" type="AFTER" />
+<TLINK id="TL19" fromID="E19" fromText="Her hematocrit" toID="E20" toText="stable" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="E3" fromText="increasing symptoms" toID="E5" toText="conservative management" type="OVERLAP" />
+<TLINK id="TL20" fromID="E21" fromText="Her neurologic exam" toID="E19" toText="Her hematocrit" type="OVERLAP" />
+<TLINK id="TL21" fromID="E21" fromText="Her neurologic exam" toID="E22" toText="stable" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E23" fromText="tibial" toID="E21" toText="Her neurologic exam" type="OVERLAP" />
+<TLINK id="TL23" fromID="E24" fromText="EHL" toID="E23" toText="tibial" type="OVERLAP" />
+<TLINK id="TL24" fromID="E25" fromText="FHL" toID="E24" toText="EHL" type="OVERLAP" />
+<TLINK id="TL25" fromID="E26" fromText="gastroc soleus" toID="E25" toText="FHL" type="OVERLAP" />
+<TLINK id="TL26" fromID="E27" fromText="intact quadriceps" toID="E26" toText="gastroc soleus" type="OVERLAP" />
+<TLINK id="TL27" fromID="E28" fromText="sensation L3 to S1 and bilateral lower extremities" toID="E27" toText="intact quadriceps" type="OVERLAP" />
+<TLINK id="TL28" fromID="E21" fromText="Her neurologic exam" toID="E29" toText="fitted" type="BEFORE" />
+<TLINK id="TL29" fromID="E29" fromText="fitted" toID="E30" toText="Verholl Aet over leg brace" type="SIMULTANEOUS" />
+<TLINK id="TL3" fromID="E5" fromText="conservative management" toID="E6" toText="elected" type="BEFORE" />
+<TLINK id="TL30" fromID="E29" fromText="fitted" toID="E31" toText="mobilized" type="BEFORE" />
+<TLINK id="TL31" fromID="E32" fromText="the brace" toID="E31" toText="mobilized" type="BEFORE_OVERLAP" />
+<TLINK id="TL32" fromID="E32" fromText="the brace" toID="E33" toText="physical therapy" type="OVERLAP" />
+<TLINK id="TL33" fromID="E34" fromText="Her wounds" toID="E13" toText="the surgery" type="OVERLAP" />
+<TLINK id="TL34" fromID="E34" fromText="Her wounds" toID="E35" toText="stable" type="OVERLAP" />
+<TLINK id="TL35" fromID="E35" fromText="stable" toID="E36" toText="erythema" type="OVERLAP" />
+<TLINK id="TL36" fromID="E36" fromText="erythema" toID="E37" toText="drainage" type="OVERLAP" />
+<TLINK id="TL37" fromID="E38" fromText="reported" toID="E33" toText="physical therapy" type="OVERLAP" />
+<TLINK id="TL38" fromID="E39" fromText="nausea" toID="E38" toText="reported" type="BEFORE_OVERLAP" />
+<TLINK id="TL39" fromID="E40" fromText="pain medications" toID="E39" toText="nausea" type="BEFORE_OVERLAP" />
+<TLINK id="TL4" fromID="E7" fromText="surgical treatment" toID="E6" toText="elected" type="AFTER" />
+<TLINK id="TL40" fromID="E41" fromText="Her pain medications" toID="E40" toText="pain medications" type="SIMULTANEOUS" />
+<TLINK id="TL41" fromID="E41" fromText="Her pain medications" toID="E42" toText="changed" type="OVERLAP" />
+<TLINK id="TL42" fromID="E42" fromText="changed" toID="E43" toText="an acceptable regime" type="ENDED_BY" />
+<TLINK id="TL43" fromID="E44" fromText="stable" toID="E45" toText="discharge" type="OVERLAP" />
+<TLINK id="TL5" fromID="E8" fromText="the operating room" toID="T1" toText="01/16/2003" type="SIMULTANEOUS" />
+<TLINK id="TL6" fromID="E8" fromText="the operating room" toID="E10" toText="decompression at L2 , L5" type="DURING" />
+<TLINK id="TL7" fromID="E10" fromText="decompression at L2 , L5" toID="E11" toText="laminectomy" type="SIMULTANEOUS" />
+<TLINK id="TL8" fromID="E11" fromText="laminectomy" toID="E12" toText="posterior instrumented fusion at L3 to L5" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="E13" fromText="the surgery" toID="E10" toText="decompression at L2 , L5" type="SIMULTANEOUS" />
+
+
+<SECTIME id="S1" start="46" end="56" text="01/23/2003" type="DISCHARGE" dvalue="2003-01-23" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

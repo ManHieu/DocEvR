@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+12/12/1996
+Discharge Date :
+12/16/1996
+HISTORY / REASON FOR HOSPITALIZATION :
+The patient is a 42 year old gravida II , para I female with a long history of menorrhagia and pelvic pain .
+She also has a history of endometriosis that is symptomatic .
+She used Danocrine for approximately nine months and was pain free , but was unable to tolerate the side effects .
+She is status post several laparoscopies in the past with which she was diagnosed with endometriosis .
+She has recently been on Depo-Provera and has had episodes of break-through bleeding for six weeks at a time .
+She desired surgical therapy .
+HOSPITAL COURSE :
+On 12/12/96 she had an uncomplicated total abdominal hysterectomy and bilateral salpingo-oophorectomy .
+Estimated blood loss was 100 cc and she tolerated the procedure well .
+On postop day number one she was afebrile and doing well with a PCA for pain control .
+On postop day number two she was also afebrile and had not passed any flatus yet .
+She was ambulating frequently .
+Her hematocrit was 34.2 and stable from her preoperative value .
+On postop day number three her abdomen was noted to be distended with a few bowel sounds and she still had not passed gas .
+The patient decreased the amount of Demerol she was using and supplemented with Tylenol and continued her frequent ambulation .
+On postop day number four she had passed flatus and was feeling much better .
+She was discharged to home in good condition on the following medications .
+DISCHARGE MEDICATIONS :
+Demerol for pain .
+Motrin for pain .
+Colace stool softener .
+DISPOSITION :
+The patient should follow-up with Dr. Side in two weeks .
+Dictated By :
+IEDEARC SIDE , M.D. LB28
+Attending :
+MITERY D. LOSS , M.D. CB51 II795/2112
+Batch :
+42100
+Index No. ZMFX3O4G1
+D :
+01/04/97
+T :
+01/06/97
+CC :
+1. MITERY D. LOSS , M.D. NT11
+[ report _ end ]
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="1022" end="1036" text="Her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="1050" end="1056" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="1062" end="1084" text="her preoperative value" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="1142" end="1151" text="distended" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1163" end="1175" text="bowel sounds" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1198" end="1208" text="passed gas" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E34" start="1223" end="1232" text="decreased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="1247" end="1254" text="Demerol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1291" end="1298" text="Tylenol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1313" end="1336" text="her frequent ambulation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="1380" end="1386" text="flatus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="1395" end="1414" text="feeling much better" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1425" end="1435" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1447" end="1461" text="good condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1465" end="1490" text="the following medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="1517" end="1524" text="Demerol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1529" end="1533" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="1536" end="1542" text="Motrin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1547" end="1551" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="1554" end="1575" text="Colace stool softener" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="175" end="186" text="menorrhagia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="191" end="202" text="pelvic pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="231" end="244" text="endometriosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="253" end="264" text="symptomatic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="276" end="285" text="Danocrine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="324" end="328" text="pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E8" start="363" end="379" text="the side effects" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="401" end="422" text="several laparoscopies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E10" start="469" end="482" text="endometriosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="510" end="522" text="Depo-Provera" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="547" end="569" text="break-through bleeding" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="608" end="624" text="surgical therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="665" end="710" text="an uncomplicated total abdominal hysterectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="715" end="746" text="bilateral salpingo-oophorectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="749" end="769" text="Estimated blood loss" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="799" end="812" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="853" end="861" text="afebrile" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E19" start="872" end="876" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="882" end="887" text="a PCA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="892" end="904" text="pain control" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="945" end="953" text="afebrile" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E23" start="966" end="983" text="passed any flatus" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E24" start="998" end="1021" text="ambulating frequently ." modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T7" start="1090" end="1113" text="postop day number three" type="DATE" val="1996-12-15" mod="NA" />
+<TIMEX3 id="T8" start="1342" end="1364" text="postop day number four" type="DATE" val="1996-12-16" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="12/12/1996" type="DATE" val="1996-12-12" mod="NA" />
+<TIMEX3 id="T2" start="304" end="315" text="nine months" type="DURATION" val="P9M" mod="APPROX" />
+<TIMEX3 id="T1" start="46" end="56" text="12/16/1996" type="DATE" val="1996-12-16" mod="NA" />
+<TIMEX3 id="T3" start="574" end="583" text="six weeks" type="DURATION" val="P6W" mod="NA" />
+<TIMEX3 id="T4" start="648" end="656" text="12/12/96" type="DATE" val="1996-12-12" mod="NA" />
+<TIMEX3 id="T5" start="823" end="844" text="postop day number one" type="DATE" val="1996-12-13" mod="NA" />
+<TIMEX3 id="T6" start="910" end="931" text="postop day number two" type="DATE" val="1996-12-14" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="12/12/1996" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="Discharge" toID="T1" toText="12/16/1996" type="OVERLAP" />
+<TLINK id="TL10" fromID="E9" fromText="several laparoscopies" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL11" fromID="E10" fromText="endometriosis" toID="E9" toText="several laparoscopies" type="OVERLAP" />
+<TLINK id="TL12" fromID="E11" fromText="Depo-Provera" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL13" fromID="E12" fromText="break-through bleeding" toID="E11" toText="Depo-Provera" type="OVERLAP" />
+<TLINK id="TL14" fromID="E12" fromText="break-through bleeding" toID="T3" toText="six weeks" type="OVERLAP" />
+<TLINK id="TL15" fromID="E13" fromText="surgical therapy" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL16" fromID="T4" fromText="12/12/96" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL17" fromID="E14" fromText="an uncomplicated total abdominal hysterectomy" toID="T4" toText="12/12/96" type="OVERLAP" />
+<TLINK id="TL18" fromID="E15" fromText="bilateral salpingo-oophorectomy" toID="E14" toText="an uncomplicated total abdominal hysterectomy" type="OVERLAP" />
+<TLINK id="TL19" fromID="E16" fromText="Estimated blood loss" toID="E15" toText="bilateral salpingo-oophorectomy" type="OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="menorrhagia" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL20" fromID="E17" fromText="the procedure" toID="E14" toText="an uncomplicated total abdominal hysterectomy" type="OVERLAP" />
+<TLINK id="TL21" fromID="T5" fromText="postop day number one" toID="E17" toText="the procedure" type="AFTER" />
+<TLINK id="TL22" fromID="E18" fromText="afebrile" toID="T5" toText="postop day number one" type="OVERLAP" />
+<TLINK id="TL23" fromID="E19" fromText="well" toID="E18" toText="afebrile" type="OVERLAP" />
+<TLINK id="TL24" fromID="E20" fromText="a PCA" toID="E19" toText="well" type="OVERLAP" />
+<TLINK id="TL25" fromID="E21" fromText="pain control" toID="E20" toText="a PCA" type="OVERLAP" />
+<TLINK id="TL26" fromID="T6" fromText="postop day number two" toID="T5" toText="postop day number one" type="AFTER" />
+<TLINK id="TL27" fromID="E22" fromText="afebrile" toID="T6" toText="postop day number two" type="OVERLAP" />
+<TLINK id="TL28" fromID="E23" fromText="passed any flatus" toID="E22" toText="afebrile" type="OVERLAP" />
+<TLINK id="TL29" fromID="E24" fromText="ambulating frequently ." toID="E22" toText="afebrile" type="OVERLAP" />
+<TLINK id="TL3" fromID="E3" fromText="pelvic pain" toID="E2" toText="menorrhagia" type="OVERLAP" />
+<TLINK id="TL30" fromID="E25" fromText="Her hematocrit" toID="E24" toText="ambulating frequently ." type="OVERLAP" />
+<TLINK id="TL31" fromID="E26" fromText="stable" toID="E25" toText="Her hematocrit" type="BEFORE" />
+<TLINK id="TL32" fromID="E26" fromText="stable" toID="E27" toText="her preoperative value" type="AFTER" />
+<TLINK id="TL33" fromID="E27" fromText="her preoperative value" toID="E25" toText="Her hematocrit" type="BEFORE" />
+<TLINK id="TL34" fromID="T7" fromText="postop day number three" toID="T6" toText="postop day number two" type="AFTER" />
+<TLINK id="TL35" fromID="E28" fromText="distended" toID="T7" toText="postop day number three" type="OVERLAP" />
+<TLINK id="TL36" fromID="E30" fromText="bowel sounds" toID="E28" toText="distended" type="OVERLAP" />
+<TLINK id="TL37" fromID="E32" fromText="passed gas" toID="E30" toText="bowel sounds" type="OVERLAP" />
+<TLINK id="TL38" fromID="E34" fromText="decreased" toID="E32" toText="passed gas" type="OVERLAP" />
+<TLINK id="TL39" fromID="E33" fromText="Demerol" toID="E34" toText="decreased" type="BEFORE" />
+<TLINK id="TL4" fromID="E4" fromText="endometriosis" toID="E3" toText="pelvic pain" type="OVERLAP" />
+<TLINK id="TL40" fromID="E35" fromText="Tylenol" toID="E34" toText="decreased" type="AFTER" />
+<TLINK id="TL41" fromID="E36" fromText="her frequent ambulation" toID="E24" toText="ambulating frequently ." type="OVERLAP" />
+<TLINK id="TL42" fromID="T8" fromText="postop day number four" toID="T7" toText="postop day number three" type="AFTER" />
+<TLINK id="TL43" fromID="E38" fromText="flatus" toID="T8" toText="postop day number four" type="BEFORE" />
+<TLINK id="TL44" fromID="E39" fromText="feeling much better" toID="E38" toText="flatus" type="AFTER" />
+<TLINK id="TL45" fromID="E40" fromText="discharged" toID="E1" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL46" fromID="E41" fromText="good condition" toID="E40" toText="discharged" type="OVERLAP" />
+<TLINK id="TL47" fromID="E42" fromText="the following medications" toID="E41" toText="good condition" type="OVERLAP" />
+<TLINK id="TL48" fromID="E43" fromText="Demerol" toID="E33" toText="Demerol" type="OVERLAP" />
+<TLINK id="TL49" fromID="E44" fromText="pain" toID="E40" toText="discharged" type="BEFORE" />
+<TLINK id="TL5" fromID="E5" fromText="symptomatic" toID="E4" toText="endometriosis" type="OVERLAP" />
+<TLINK id="TL50" fromID="E46" fromText="pain" toID="E44" toText="pain" type="OVERLAP" />
+<TLINK id="TL51" fromID="E45" fromText="Motrin" toID="E40" toText="discharged" type="AFTER" />
+<TLINK id="TL52" fromID="E47" fromText="Colace stool softener" toID="E45" toText="Motrin" type="OVERLAP" />
+<TLINK id="TL6" fromID="E6" fromText="Danocrine" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL7" fromID="E6" fromText="Danocrine" toID="T2" toText="nine months" type="OVERLAP" />
+<TLINK id="TL8" fromID="E7" fromText="pain" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL9" fromID="E8" fromText="the side effects" toID="E7" toText="pain" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="12/12/1996" type="ADMISSION" dvalue="1996-12-12" />
+<SECTIME id="S1" start="46" end="56" text="12/16/1996" type="DISCHARGE" dvalue="1996-12-16" />
+<TLINK id="SECTIME0" fromID="E25" fromText="Her hematocrit" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E26" fromText="stable" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E27" fromText="her preoperative value" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E28" fromText="distended" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E30" fromText="bowel sounds" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E32" fromText="passed gas" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E34" fromText="decreased" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E33" fromText="Demerol" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E35" fromText="Tylenol" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E36" fromText="her frequent ambulation" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E38" fromText="flatus" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E39" fromText="feeling much better" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E40" fromText="discharged" toID="T1" toText="12/16/1996" type="OVERLAP" />
+<TLINK id="SECTIME13" fromID="E41" fromText="good condition" toID="T1" toText="12/16/1996" type="OVERLAP" />
+<TLINK id="SECTIME14" fromID="E42" fromText="the following medications" toID="T1" toText="12/16/1996" type="OVERLAP" />
+<TLINK id="SECTIME15" fromID="E43" fromText="Demerol" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E44" fromText="pain" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E45" fromText="Motrin" toID="T1" toText="12/16/1996" type="OVERLAP" />
+<TLINK id="SECTIME18" fromID="E46" fromText="pain" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E47" fromText="Colace stool softener" toID="T1" toText="12/16/1996" type="OVERLAP" />
+<TLINK id="SECTIME20" fromID="E2" fromText="menorrhagia" toID="T0" toText="12/12/1996" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E3" fromText="pelvic pain" toID="T0" toText="12/12/1996" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E4" fromText="endometriosis" toID="T0" toText="12/12/1996" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E5" fromText="symptomatic" toID="T0" toText="12/12/1996" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E6" fromText="Danocrine" toID="T0" toText="12/12/1996" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E7" fromText="pain" toID="T0" toText="12/12/1996" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E8" fromText="the side effects" toID="T0" toText="12/12/1996" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E9" fromText="several laparoscopies" toID="T0" toText="12/12/1996" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E10" fromText="endometriosis" toID="T0" toText="12/12/1996" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E11" fromText="Depo-Provera" toID="T0" toText="12/12/1996" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E12" fromText="break-through bleeding" toID="T0" toText="12/12/1996" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E13" fromText="surgical therapy" toID="T0" toText="12/12/1996" type="AFTER" />
+<TLINK id="SECTIME32" fromID="E14" fromText="an uncomplicated total abdominal hysterectomy" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E15" fromText="bilateral salpingo-oophorectomy" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E16" fromText="Estimated blood loss" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E17" fromText="the procedure" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E18" fromText="afebrile" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E19" fromText="well" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E20" fromText="a PCA" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E21" fromText="pain control" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E22" fromText="afebrile" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E23" fromText="passed any flatus" toID="T1" toText="12/16/1996" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E24" fromText="ambulating frequently ." toID="T1" toText="12/16/1996" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

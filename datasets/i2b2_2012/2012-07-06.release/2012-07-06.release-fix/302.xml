@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2010-02-05
+Discharge Date :
+2010-02-06
+Service :
+TRAUMA
+HISTORY OF PRESENT ILLNESS :
+The patient is a 23 year old female , status post fall from standing position after slipping on ice .
+She had no loss of consciousness .
+She recalled the entire event .
+She was found by family and friends to be somewhat confused and was therefore taken to Newton-Wellesley Hospital thereafter .
+Workup at the outside hospital included a CT scan of the head revealing a possible parietal subdural bleed on the right side .
+The patient 's GCS was 15 .
+She was hemodynamically stable .
+She was thereafter transferred to Beverly Hospital for further evaluation and management .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="153" end="157" text="fall" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="216" end="237" text="loss of consciousness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E9" start="264" end="269" text="event" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="323" end="331" text="confused" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="359" end="384" text="Newton-Wellesley Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E2" start="398" end="404" text="Workup" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E12" start="408" end="428" text="the outside hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="438" end="459" text="a CT scan of the head" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E13" start="460" end="469" text="revealing" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E14" start="481" end="522" text="parietal subdural bleed on the right side" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="525" end="543" text="The patient 's GCS" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="605" end="616" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="620" end="636" text="Beverly Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E5" start="641" end="659" text="further evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="664" end="674" text="management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T1" start="18" end="28" text="2010-02-05" type="DATE" val="2010-02-05" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2010-02-06" type="DATE" val="2010-02-06" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="2010-02-05" type="OVERLAP" />
+<TLINK id="TL1" fromID="E8" fromText="fall" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL10" fromID="E3" fromText="a CT scan of the head" toID="E2" toText="Workup" type="OVERLAP" />
+<TLINK id="TL11" fromID="E3" fromText="a CT scan of the head" toID="E13" toText="revealing" type="OVERLAP" />
+<TLINK id="TL12" fromID="E14" fromText="parietal subdural bleed on the right side" toID="E13" toText="revealing" type="BEFORE" />
+<TLINK id="TL13" fromID="E4" fromText="The patient 's GCS" toID="E3" toText="a CT scan of the head" type="OVERLAP" />
+<TLINK id="TL14" fromID="E15" fromText="transferred" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL15" fromID="E11" fromText="Newton-Wellesley Hospital" toID="E15" toText="transferred" type="BEFORE" />
+<TLINK id="TL16" fromID="E16" fromText="Beverly Hospital" toID="E15" toText="transferred" type="AFTER" />
+<TLINK id="TL17" fromID="E5" fromText="further evaluation" toID="E16" toText="Beverly Hospital" type="AFTER" />
+<TLINK id="TL18" fromID="E6" fromText="management" toID="E5" toText="further evaluation" type="AFTER" />
+<TLINK id="TL2" fromID="E4" fromText="The patient 's GCS" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL3" fromID="E7" fromText="Discharge" toID="T2" toText="2010-02-06" type="OVERLAP" />
+<TLINK id="TL4" fromID="E8" fromText="fall" toID="E1" toText="loss of consciousness" type="OVERLAP" />
+<TLINK id="TL5" fromID="E8" fromText="fall" toID="E9" toText="event" type="OVERLAP" />
+<TLINK id="TL6" fromID="E10" fromText="confused" toID="E8" toText="fall" type="AFTER" />
+<TLINK id="TL7" fromID="E10" fromText="confused" toID="E11" toText="Newton-Wellesley Hospital" type="BEFORE" />
+<TLINK id="TL8" fromID="E12" fromText="the outside hospital" toID="E11" toText="Newton-Wellesley Hospital" type="OVERLAP" />
+<TLINK id="TL9" fromID="E2" fromText="Workup" toID="E12" toText="the outside hospital" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2010-02-05" type="ADMISSION" dvalue="2010-02-05" />
+<SECTIME id="S1" start="46" end="56" text="2010-02-06" type="DISCHARGE" dvalue="2010-02-06" />
+<TLINK id="SECTIME0" fromID="E8" fromText="fall" toID="T1" toText="2010-02-05" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E1" fromText="loss of consciousness" toID="T1" toText="2010-02-05" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E9" fromText="event" toID="T1" toText="2010-02-05" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E10" fromText="confused" toID="T1" toText="2010-02-05" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E11" fromText="Newton-Wellesley Hospital" toID="T1" toText="2010-02-05" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E2" fromText="Workup" toID="T1" toText="2010-02-05" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E12" fromText="the outside hospital" toID="T1" toText="2010-02-05" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E3" fromText="a CT scan of the head" toID="T1" toText="2010-02-05" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E13" fromText="revealing" toID="T1" toText="2010-02-05" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E14" fromText="parietal subdural bleed on the right side" toID="T1" toText="2010-02-05" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E4" fromText="The patient 's GCS" toID="T1" toText="2010-02-05" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E15" fromText="transferred" toID="T1" toText="2010-02-05" type="OVERLAP" />
+<TLINK id="SECTIME12" fromID="E16" fromText="Beverly Hospital" toID="T1" toText="2010-02-05" type="OVERLAP" />
+<TLINK id="SECTIME13" fromID="E5" fromText="further evaluation" toID="T1" toText="2010-02-05" type="OVERLAP" />
+<TLINK id="SECTIME14" fromID="E6" fromText="management" toID="T1" toText="2010-02-05" type="AFTER" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

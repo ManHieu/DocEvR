@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+9/14/93
+DISCHARGE DATE :
+9/15/93
+HISTORY OF PRESENT ILLNESS :
+Patient is a 49 year old previously healthy female , who was diagnosed in June , 1992 , with a breast carcinoma , after she presented with some breast discomfort on the left side .
+She underwent a wide resection of a left breast mass by Dr. Ausguall on 8/17/93 .
+Pathology of this resection revealed a Grade III / III infiltrating ductal carcinoma .
+She now presents for left axillary node dissection , to complete her staging .
+She has no complaints at the time of presentation .
+REVIEW OF SYSTEMS :
+noncontributory , her last menstrual period was regular , and last week .
+MEDICATIONS ON ADMISSION :
+:w
+:q
+none .
+HOSPITAL COURSE :
+The patient was admitted on 9/14/93 , and underwent on that same day , a left axillary lymph nodes dissection , by Dr. Ausguall .
+The patient tolerated the procedure well , there were no complications .
+Postoperative course was unremarkable .
+The patient was discharged home on 9/15/93 .
+At that time her JP was still in place .
+]]></TEXT>
+<TAGS>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

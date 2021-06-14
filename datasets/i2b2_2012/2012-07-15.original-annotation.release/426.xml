@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+10/14/2004
+Discharge Date :
+10/17/2004
+HISTORY OF PRESENT ILLNESS :
+This is a 56-year-old menopausal female G3 , P3 who presented initially for evaluation of a pelvic mass while recently vacationing in An Saintcafield Terland .
+She had a physical over there , and the evaluation included an ultrasound which showed an ovarian mass .
+She was seen in the emergency room here on 08/31/04 where they performed an abdominal CT that showed a 14 x 14 x 10 cm pelvic mass with multiple enlarged lymph nodes .
+The patient was thus sent to GYN for further workup and is now here for surgical management of pelvic mass .
+Her CA-125 is 9 .
+HOSPITAL COURSE :
+The patient was taken to the operating room on hospital day # 1 where she underwent an uncomplicated total abdominal hysterectomy , bilateral salpingo-oophorectomy , right lymph node dissection , appendectomy , omental biopsy , pelvic washings , and Pap of the diaphragm .
+An estimated blood loss was 100 cc .
+At the time of surgery , frozen section revealed benign mucinous cystadenoma .
+By postoperative day #3 , the patient was tolerating p.o.&apos; s , tolerating oral pain medications , ambulating , passing flatus , and having a bowel movement .
+She was voiding without difficulty .
+Her hematocrit preoperatively was 36 and postoperatively was 33 and then 32 .
+The patient did have some tachycardia postoperatively ; however , her hematocrit remained stable .
+She was asymptomatic , and her EKG was within normal limits .
+Her tachycardia improved .
+Throughout this time , she had normal vital signs with a normal O2 saturation .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1014" end="1022" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E18" start="1023" end="1050" text="benign mucinous cystadenoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="1095" end="1118" text="tolerating p.o.&apos; s" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="1132" end="1153" text="oral pain medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1156" end="1166" text="ambulating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1169" end="1183" text="passing flatus" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="1190" end="1213" text="having a bowel movement" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="1224" end="1231" text="voiding" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1240" end="1250" text="difficulty" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E20" start="1253" end="1267" text="Her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E55" start="1253" end="1267" text="Her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="126" end="133" text="G3 , P3" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="1352" end="1384" text="some tachycardia postoperatively" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="1357" end="1368" text="tachycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="138" end="147" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E22" start="1397" end="1411" text="her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="1421" end="1427" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="1438" end="1450" text="asymptomatic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="1457" end="1464" text="her EKG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="1492" end="1507" text="Her tachycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="1508" end="1516" text="improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="1550" end="1568" text="normal vital signs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E54" start="1574" end="1596" text="a normal O2 saturation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="162" end="172" text="evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="176" end="189" text="a pelvic mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="205" end="216" text="vacationing" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="254" end="264" text="a physical" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="282" end="296" text="the evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="306" end="319" text="an ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="326" end="332" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E36" start="333" end="348" text="an ovarian mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="367" end="385" text="the emergency room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E5" start="424" end="439" text="an abdominal CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="445" end="451" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E38" start="452" end="481" text="a 14 x 14 x 10 cm pelvic mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="487" end="516" text="multiple enlarged lymph nodes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="540" end="551" text="sent to GYN" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="556" end="570" text="further workup" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E41" start="591" end="610" text="surgical management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="614" end="625" text="pelvic mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="628" end="638" text="Her CA-125" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="689" end="707" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E28" start="689" end="707" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E8" start="748" end="793" text="an uncomplicated total abdominal hysterectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="796" end="827" text="bilateral salpingo-oophorectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="830" end="857" text="right lymph node dissection" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="860" end="872" text="appendectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="875" end="889" text="omental biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E13" start="892" end="907" text="pelvic washings" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="914" end="934" text="Pap of the diaphragm" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="937" end="960" text="An estimated blood loss" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="989" end="996" text="surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="999" end="1013" text="frozen section" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T4" start="1056" end="1076" text="postoperative day #3" type="DATE" val="2004-10-17" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="10/14/2004" type="DATE" val="2004-10-14" mod="NA" />
+<TIMEX3 id="T3" start="394" end="402" text="08/31/04" type="DATE" val="2004-08-31" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="10/17/2004" type="DATE" val="2004-10-17" mod="NA" />
+<TIMEX3 id="T1" start="711" end="727" text="hospital day # 1" type="DATE" val="2004-10-14" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="10/14/2004" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E21" fromText="some tachycardia postoperatively" toID="E25" toText="Her tachycardia" type="simultaneous" />
+<TLINK id="TL10" fromID="E2" fromText="a physical" toID="E1" toText="evaluation" type="OVERLAP" />
+<TLINK id="TL11" fromID="E1" fromText="evaluation" toID="E33" toText="presented" type="SIMULTANEOUS" />
+<TLINK id="TL12" fromID="E34" fromText="a pelvic mass" toID="E1" toText="evaluation" type="BEFORE_OVERLAP" />
+<TLINK id="TL13" fromID="E1" fromText="evaluation" toID="E3" toText="the evaluation" type="simultaneous" />
+<TLINK id="TL14" fromID="E26" fromText="showed" toID="E4" toText="an ultrasound" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E36" fromText="an ovarian mass" toID="E4" toText="an ultrasound" type="BEFORE_OVERLAP" />
+<TLINK id="TL16" fromID="E37" fromText="the emergency room" toID="T3" toText="08/31/04" type="SIMULTANEOUS" />
+<TLINK id="TL17" fromID="E5" fromText="an abdominal CT" toID="E37" toText="the emergency room" type="DURING" />
+<TLINK id="TL18" fromID="T3" fromText="08/31/04" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL19" fromID="E5" fromText="an abdominal CT" toID="E27" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="E4" fromText="an ultrasound" toID="E3" toText="the evaluation" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E38" fromText="a 14 x 14 x 10 cm pelvic mass" toID="E27" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL21" fromID="E39" fromText="multiple enlarged lymph nodes" toID="E38" toText="a 14 x 14 x 10 cm pelvic mass" type="OVERLAP" />
+<TLINK id="TL22" fromID="E40" fromText="sent to GYN" toID="E5" toText="an abdominal CT" type="AFTER" />
+<TLINK id="TL23" fromID="E6" fromText="further workup" toID="E40" toText="sent to GYN" type="AFTER" />
+<TLINK id="TL24" fromID="E42" fromText="pelvic mass" toID="E41" toText="surgical management" type="BEFORE_OVERLAP" />
+<TLINK id="TL25" fromID="E38" fromText="a 14 x 14 x 10 cm pelvic mass" toID="E42" toText="pelvic mass" type="simultaneous" />
+<TLINK id="TL26" fromID="E38" fromText="a 14 x 14 x 10 cm pelvic mass" toID="E36" toText="an ovarian mass" type="SIMULTANEOUS" />
+<TLINK id="TL27" fromID="E41" fromText="surgical management" toID="E0" toText="Admission" type="BEGUN_BY" />
+<TLINK id="TL28" fromID="T1" fromText="hospital day # 1" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL29" fromID="E9" fromText="bilateral salpingo-oophorectomy" toID="E8" toText="an uncomplicated total abdominal hysterectomy" type="OVERLAP" />
+<TLINK id="TL3" fromID="E7" fromText="Her CA-125" toID="E6" toText="further workup" type="OVERLAP" />
+<TLINK id="TL31" fromID="E10" fromText="right lymph node dissection" toID="E9" toText="bilateral salpingo-oophorectomy" type="OVERLAP" />
+<TLINK id="TL32" fromID="E11" fromText="appendectomy" toID="E10" toText="right lymph node dissection" type="OVERLAP" />
+<TLINK id="TL33" fromID="E12" fromText="omental biopsy" toID="E11" toText="appendectomy" type="OVERLAP" />
+<TLINK id="TL34" fromID="E13" fromText="pelvic washings" toID="E12" toText="omental biopsy" type="OVERLAP" />
+<TLINK id="TL35" fromID="E14" fromText="Pap of the diaphragm" toID="E13" toText="pelvic washings" type="OVERLAP" />
+<TLINK id="TL36" fromID="E15" fromText="An estimated blood loss" toID="E14" toText="Pap of the diaphragm" type="OVERLAP" />
+<TLINK id="TL37" fromID="E8" fromText="an uncomplicated total abdominal hysterectomy" toID="E28" toText="the operating room" type="DURING" />
+<TLINK id="TL38" fromID="E16" fromText="surgery" toID="E8" toText="an uncomplicated total abdominal hysterectomy" type="SIMULTANEOUS" />
+<TLINK id="TL39" fromID="E29" fromText="revealed" toID="E17" toText="frozen section" type="SIMULTANEOUS" />
+<TLINK id="TL4" fromID="E28" fromText="the operating room" toID="T1" toText="hospital day # 1" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E18" fromText="benign mucinous cystadenoma" toID="E29" toText="revealed" type="BEFORE_OVERLAP" />
+<TLINK id="TL41" fromID="T4" fromText="postoperative day #3" toID="T1" toText="hospital day # 1" type="AFTER" />
+<TLINK id="TL42" fromID="E44" fromText="tolerating p.o.&apos; s" toID="T4" toText="postoperative day #3" type="BEGUN_BY" />
+<TLINK id="TL43" fromID="E19" fromText="oral pain medications" toID="E44" toText="tolerating p.o.&apos; s" type="OVERLAP" />
+<TLINK id="TL44" fromID="E19" fromText="oral pain medications" toID="E45" toText="ambulating" type="OVERLAP" />
+<TLINK id="TL45" fromID="E46" fromText="passing flatus" toID="E45" toText="ambulating" type="OVERLAP" />
+<TLINK id="TL46" fromID="E47" fromText="having a bowel movement" toID="E47" toText="having a bowel movement" type="OVERLAP" />
+<TLINK id="TL47" fromID="E48" fromText="voiding" toID="E47" toText="having a bowel movement" type="OVERLAP" />
+<TLINK id="TL48" fromID="E49" fromText="difficulty" toID="E48" toText="voiding" type="SIMULTANEOUS" />
+<TLINK id="TL49" fromID="E20" fromText="Her hematocrit" toID="E28" toText="the operating room" type="BEFORE" />
+<TLINK id="TL5" fromID="E17" fromText="frozen section" toID="E16" toText="surgery" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="E55" fromText="Her hematocrit" toID="E28" toText="the operating room" type="AFTER" />
+<TLINK id="TL51" fromID="E55" fromText="Her hematocrit" toID="E20" toText="Her hematocrit" type="AFTER" />
+<TLINK id="TL52" fromID="E21" fromText="some tachycardia postoperatively" toID="E28" toText="the operating room" type="AFTER" />
+<TLINK id="TL53" fromID="E22" fromText="her hematocrit" toID="E55" toText="Her hematocrit" type="SIMULTANEOUS" />
+<TLINK id="TL54" fromID="E51" fromText="stable" toID="E22" toText="her hematocrit" type="SIMULTANEOUS" />
+<TLINK id="TL55" fromID="E23" fromText="asymptomatic" toID="E21" toText="some tachycardia postoperatively" type="OVERLAP" />
+<TLINK id="TL56" fromID="E24" fromText="her EKG" toID="E23" toText="asymptomatic" type="OVERLAP" />
+<TLINK id="TL57" fromID="E25" fromText="Her tachycardia" toID="E21" toText="some tachycardia postoperatively" type="SIMULTANEOUS" />
+<TLINK id="TL58" fromID="E25" fromText="Her tachycardia" toID="E52" toText="improved" type="BEFORE_OVERLAP" />
+<TLINK id="TL59" fromID="E53" fromText="normal vital signs" toID="E25" toText="Her tachycardia" type="OVERLAP" />
+<TLINK id="TL6" fromID="E33" fromText="presented" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL60" fromID="E54" fromText="a normal O2 saturation" toID="E53" toText="normal vital signs" type="OVERLAP" />
+<TLINK id="TL7" fromID="E31" fromText="G3 , P3" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL9" fromID="E30" fromText="Discharge" toID="T2" toText="10/17/2004" type="SIMULTANEOUS" />
+<SECTIME id="S0" start="18" end="28" text="10/14/2004" type="ADMISSION" dvalue="2004-10-14" />
+<SECTIME id="S1" start="46" end="56" text="10/17/2004" type="DISCHARGE" dvalue="2004-10-17" />
+<TLINK id="SECTIME0" fromID="E29" fromText="revealed" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E18" fromText="benign mucinous cystadenoma" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E44" fromText="tolerating p.o.&apos; s" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E19" fromText="oral pain medications" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E45" fromText="ambulating" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E46" fromText="passing flatus" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E47" fromText="having a bowel movement" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E48" fromText="voiding" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E49" fromText="difficulty" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E20" fromText="Her hematocrit" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E55" fromText="Her hematocrit" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E31" fromText="G3 , P3" toID="T0" toText="10/14/2004" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E21" fromText="some tachycardia postoperatively" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E50" fromText="tachycardia" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E33" fromText="presented" toID="T0" toText="10/14/2004" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E22" fromText="her hematocrit" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E51" fromText="stable" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E23" fromText="asymptomatic" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E24" fromText="her EKG" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E25" fromText="Her tachycardia" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E52" fromText="improved" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E53" fromText="normal vital signs" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E54" fromText="a normal O2 saturation" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E1" fromText="evaluation" toID="T0" toText="10/14/2004" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E34" fromText="a pelvic mass" toID="T0" toText="10/14/2004" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E35" fromText="vacationing" toID="T0" toText="10/14/2004" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E2" fromText="a physical" toID="T0" toText="10/14/2004" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E3" fromText="the evaluation" toID="T0" toText="10/14/2004" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E4" fromText="an ultrasound" toID="T0" toText="10/14/2004" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E26" fromText="showed" toID="T0" toText="10/14/2004" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E36" fromText="an ovarian mass" toID="T0" toText="10/14/2004" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E37" fromText="the emergency room" toID="T0" toText="10/14/2004" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E5" fromText="an abdominal CT" toID="T0" toText="10/14/2004" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E27" fromText="showed" toID="T0" toText="10/14/2004" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E38" fromText="a 14 x 14 x 10 cm pelvic mass" toID="T0" toText="10/14/2004" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E39" fromText="multiple enlarged lymph nodes" toID="T0" toText="10/14/2004" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E40" fromText="sent to GYN" toID="T0" toText="10/14/2004" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E6" fromText="further workup" toID="T0" toText="10/14/2004" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E41" fromText="surgical management" toID="T0" toText="10/14/2004" type="OVERLAP" />
+<TLINK id="SECTIME39" fromID="E42" fromText="pelvic mass" toID="T0" toText="10/14/2004" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E7" fromText="Her CA-125" toID="T0" toText="10/14/2004" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E43" fromText="the operating room" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E28" fromText="the operating room" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E8" fromText="an uncomplicated total abdominal hysterectomy" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E9" fromText="bilateral salpingo-oophorectomy" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E10" fromText="right lymph node dissection" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E11" fromText="appendectomy" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E12" fromText="omental biopsy" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E13" fromText="pelvic washings" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E14" fromText="Pap of the diaphragm" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E15" fromText="An estimated blood loss" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E16" fromText="surgery" toID="T2" toText="10/17/2004" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E17" fromText="frozen section" toID="T2" toText="10/17/2004" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+4/16/93
+DISCHARGE DATE :
+4/23/93
+HISTORY OF PRESENT ILLNESS :
+The patient is a generally healthy 85 year old female , who has had a five year history of right hip pain , worsening over the past several months .
+Her pain is located in the groin and thigh .
+It is aggravated by activity and improved by sitting or lying down .
+It is associated with rest pain as well .
+She uses a cane or walker for ambulation , and is limited to one to two blocks .
+She does stairs one at a time and only with help .
+She has difficulty with shoes and socks and foot care .
+The patient &apos;s pain has not been relieved by Darvocet and Advil .
+Radiographs demonstrate right hip osteoarthritis .
+Having failed conservative management , the patient presented for elective right total hip replacement .
+HOSPITAL COURSE :
+The patient was admitted to the Orthopedic Service on 4/16/93 .
+On that day she underwent clearance from the Cardiology Service , Dr. Shuff .
+It was his impression that the patient &apos;s hypertension was controlled on hydrochlorothiazide .
+Given the patient &apos;s low potassium level of 2.4 on the day of admission , he suggested supplementation with potassium .
+The patient was cleared from surgery from a cardiology standpoint .
+On the following morning 4/17/93 , the patient was taken to the operating room where she underwent a right total hip replacement , using a hybrid S-ROM system .
+Postoperatively , the patient did extremely well .
+The patient was seen in consultation with the physical therapy service initially for routine rehabilitation after a total hip replacement .
+Her hemovac drains were removed on postoperative day # 2 as was her Foley catheter .
+Her hematocrit remained stable in the low to mid 30 &apos;s and she did not require a transfusion .
+The patient did have postoperatively hypokalemia to a level of 2.7 and subsequently was corrected with oral and intravenous potassium on 4/22/93 , the patient underwent a duplex ultrasound examination , which showed no evidence of of deep venous thrombosis .
+The patient &apos;s Coumadin was thus stopped and she was switched to Bufferin .
+The patient &apos;s hospitalization was uncomplicated .
+She was discharged to the Encharlea Il Medical Center in New Hampshire .
+]]></TEXT>
+<TAGS>
+<EVENT id="E25" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="1038" end="1057" text="hydrochlorothiazide" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="1066" end="1105" text="the patient &apos;s low potassium level" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="1127" end="1136" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1173" end="1182" text="potassium" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1201" end="1208" text="cleared" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="1313" end="1331" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E12" start="1352" end="1381" text="a right total hip replacement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="1390" end="1411" text="a hybrid S-ROM system" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="1444" end="1462" text="did extremely well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="1489" end="1501" text="consultation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="1550" end="1572" text="routine rehabilitation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="1579" end="1602" text="a total hip replacement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1605" end="1623" text="Her hemovac drains" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="1669" end="1687" text="her Foley catheter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1690" end="1704" text="Her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="171" end="185" text="right hip pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1714" end="1720" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="1774" end="1787" text="a transfusion" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E52" start="1811" end="1838" text="postoperatively hypokalemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="188" end="197" text="worsening" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="1893" end="1923" text="oral and intravenous potassium" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="1959" end="1990" text="a duplex ultrasound examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="1999" end="2005" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E22" start="2024" end="2046" text="deep venous thrombosis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E23" start="2049" end="2077" text="The patient &apos;s Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="2119" end="2127" text="Bufferin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="2150" end="2165" text="hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="2170" end="2183" text="uncomplicated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="2194" end="2204" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="2208" end="2239" text="the Encharlea Il Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E31" start="229" end="237" text="Her pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="26" end="35" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="280" end="290" text="aggravated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="294" end="302" text="activity" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="307" end="315" text="improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="319" end="340" text="sitting or lying down" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="365" end="374" text="rest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="394" end="400" text="a cane" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="404" end="410" text="walker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="415" end="425" text="ambulation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="475" end="481" text="stairs" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="510" end="514" text="help" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="525" end="570" text="difficulty with shoes and socks and foot care" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="573" end="597" text="The patient &apos;s pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="623" end="631" text="Darvocet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="636" end="641" text="Advil" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="644" end="655" text="Radiographs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="656" end="667" text="demonstrate" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E8" start="668" end="692" text="right hip osteoarthritis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="709" end="732" text="conservative management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="747" end="756" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E42" start="761" end="797" text="elective right total hip replacement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="834" end="842" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="908" end="917" text="clearance" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E0" start="95" end="114" text="a generally healthy" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="987" end="1019" text="the patient &apos;s hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T8" start="1116" end="1123" text="the day" type="DATE" val="1993-04-16" mod="NA" />
+<TIMEX3 id="T9" start="1270" end="1285" text="morning 4/17/93" type="DATE" val="1993-04-17" mod="START" />
+<TIMEX3 id="T0" start="150" end="159" text="five year" type="DURATION" val="p5y" mod="NA" />
+<TIMEX3 id="T4" start="1640" end="1661" text="postoperative day # 2" type="DATE" val="1993-04-19" mod="NA" />
+<TIMEX3 id="T1" start="18" end="25" text="4/16/93" type="DATE" val="1993-04-16" mod="NA" />
+<TIMEX3 id="T5" start="1927" end="1934" text="4/22/93" type="DATE" val="1993-04-22" mod="NA" />
+<TIMEX3 id="T6" start="203" end="226" text="the past several months" type="DURATION" val="p3m" mod="APPROX" />
+<TIMEX3 id="T2" start="43" end="50" text="4/23/93" type="DATE" val="1993-04-23" mod="NA" />
+<TIMEX3 id="T3" start="872" end="879" text="4/16/93" type="DATE" val="1993-04-16" mod="NA" />
+<TIMEX3 id="T7" start="885" end="893" text="that day" type="DATE" val="1993-04-16" mod="NA" />
+<TLINK id="TL0" fromID="E25" fromText="ADMISSION" toID="T1" toText="4/16/93" type="OVERLAP" />
+<TLINK id="TL1" fromID="E12" fromText="a right total hip replacement" toID="E15" toText="a total hip replacement" type="OVERLAP" />
+<TLINK id="TL10" fromID="T0" fromText="five year" toID="E25" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL11" fromID="E29" fromText="right hip pain" toID="T0" toText="five year" type="OVERLAP" />
+<TLINK id="TL12" fromID="E30" fromText="worsening" toID="T6" toText="the past several months" type="OVERLAP" />
+<TLINK id="TL13" fromID="E29" fromText="right hip pain" toID="E31" toText="Her pain" type="OVERLAP" />
+<TLINK id="TL14" fromID="E31" fromText="Her pain" toID="E32" toText="aggravated" type="BEFORE" />
+<TLINK id="TL15" fromID="E33" fromText="activity" toID="E32" toText="aggravated" type="OVERLAP" />
+<TLINK id="TL16" fromID="E35" fromText="sitting or lying down" toID="E34" toText="improved" type="OVERLAP" />
+<TLINK id="TL17" fromID="E31" fromText="Her pain" toID="E1" toText="rest pain" type="OVERLAP" />
+<TLINK id="TL18" fromID="E31" fromText="Her pain" toID="E2" toText="a cane" type="OVERLAP" />
+<TLINK id="TL19" fromID="E2" fromText="a cane" toID="E3" toText="walker" type="OVERLAP" />
+<TLINK id="TL20" fromID="E3" fromText="walker" toID="E36" toText="ambulation" type="OVERLAP" />
+<TLINK id="TL21" fromID="E37" fromText="stairs" toID="E38" toText="help" type="OVERLAP" />
+<TLINK id="TL22" fromID="E2" fromText="a cane" toID="E37" toText="stairs" type="OVERLAP" />
+<TLINK id="TL23" fromID="E4" fromText="difficulty with shoes and socks and foot care" toID="E31" toText="Her pain" type="OVERLAP" />
+<TLINK id="TL24" fromID="E39" fromText="The patient &apos;s pain" toID="E31" toText="Her pain" type="OVERLAP" />
+<TLINK id="TL25" fromID="E5" fromText="Darvocet" toID="E39" toText="The patient &apos;s pain" type="OVERLAP" />
+<TLINK id="TL26" fromID="E6" fromText="Advil" toID="E39" toText="The patient &apos;s pain" type="OVERLAP" />
+<TLINK id="TL27" fromID="E7" fromText="Radiographs" toID="E40" toText="demonstrate" type="OVERLAP" />
+<TLINK id="TL28" fromID="E8" fromText="right hip osteoarthritis" toID="E7" toText="Radiographs" type="BEFORE" />
+<TLINK id="TL29" fromID="E7" fromText="Radiographs" toID="E25" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL30" fromID="E42" fromText="elective right total hip replacement" toID="E9" toText="conservative management" type="AFTER" />
+<TLINK id="TL31" fromID="E9" fromText="conservative management" toID="E31" toText="Her pain" type="OVERLAP" />
+<TLINK id="TL32" fromID="E41" fromText="presented" toID="E25" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL33" fromID="E27" fromText="admitted" toID="E25" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL34" fromID="T7" fromText="that day" toID="E43" toText="clearance" type="OVERLAP" />
+<TLINK id="TL35" fromID="E43" fromText="clearance" toID="E27" toText="admitted" type="AFTER" />
+<TLINK id="TL36" fromID="E44" fromText="the patient &apos;s hypertension" toID="E10" toText="hydrochlorothiazide" type="OVERLAP" />
+<TLINK id="TL37" fromID="E44" fromText="the patient &apos;s hypertension" toID="E25" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL38" fromID="E11" fromText="the patient &apos;s low potassium level" toID="T8" toText="the day" type="OVERLAP" />
+<TLINK id="TL39" fromID="E45" fromText="admission" toID="E25" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL4" fromID="E14" fromText="routine rehabilitation" toID="E15" toText="a total hip replacement" type="AFTER" />
+<TLINK id="TL40" fromID="E46" fromText="potassium" toID="E11" toText="the patient &apos;s low potassium level" type="AFTER" />
+<TLINK id="TL41" fromID="E47" fromText="cleared" toID="E43" toText="clearance" type="OVERLAP" />
+<TLINK id="TL42" fromID="E48" fromText="the operating room" toID="T9" toText="morning 4/17/93" type="OVERLAP" />
+<TLINK id="TL43" fromID="E12" fromText="a right total hip replacement" toID="E48" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL44" fromID="E13" fromText="a hybrid S-ROM system" toID="E12" toText="a right total hip replacement" type="AFTER" />
+<TLINK id="TL45" fromID="E49" fromText="did extremely well" toID="E12" toText="a right total hip replacement" type="AFTER" />
+<TLINK id="TL46" fromID="E50" fromText="consultation" toID="E12" toText="a right total hip replacement" type="AFTER" />
+<TLINK id="TL47" fromID="E16" fromText="Her hemovac drains" toID="E12" toText="a right total hip replacement" type="AFTER" />
+<TLINK id="TL49" fromID="E17" fromText="her Foley catheter" toID="E48" toText="the operating room" type="AFTER" />
+<TLINK id="TL5" fromID="E16" fromText="Her hemovac drains" toID="T4" toText="postoperative day # 2" type="BEFORE" />
+<TLINK id="TL50" fromID="E18" fromText="Her hematocrit" toID="E51" toText="stable" type="OVERLAP" />
+<TLINK id="TL51" fromID="E18" fromText="Her hematocrit" toID="E19" toText="a transfusion" type="OVERLAP" />
+<TLINK id="TL52" fromID="E18" fromText="Her hematocrit" toID="E12" toText="a right total hip replacement" type="AFTER" />
+<TLINK id="TL53" fromID="E52" fromText="postoperatively hypokalemia" toID="E15" toText="a total hip replacement" type="AFTER" />
+<TLINK id="TL54" fromID="E52" fromText="postoperatively hypokalemia" toID="E20" toText="oral and intravenous potassium" type="BEFORE" />
+<TLINK id="TL55" fromID="T5" fromText="4/22/93" toID="E20" toText="oral and intravenous potassium" type="OVERLAP" />
+<TLINK id="TL56" fromID="E21" fromText="a duplex ultrasound examination" toID="E53" toText="showed" type="OVERLAP" />
+<TLINK id="TL57" fromID="E22" fromText="deep venous thrombosis" toID="E21" toText="a duplex ultrasound examination" type="BEFORE" />
+<TLINK id="TL58" fromID="E21" fromText="a duplex ultrasound examination" toID="E48" toText="the operating room" type="AFTER" />
+<TLINK id="TL59" fromID="E23" fromText="The patient &apos;s Coumadin" toID="E21" toText="a duplex ultrasound examination" type="BEFORE" />
+<TLINK id="TL6" fromID="E17" fromText="her Foley catheter" toID="T4" toText="postoperative day # 2" type="BEFORE" />
+<TLINK id="TL60" fromID="E24" fromText="Bufferin" toID="E21" toText="a duplex ultrasound examination" type="AFTER" />
+<TLINK id="TL61" fromID="E54" fromText="hospitalization" toID="E25" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL62" fromID="E54" fromText="hospitalization" toID="E28" toText="discharged" type="BEFORE" />
+<TLINK id="TL63" fromID="E54" fromText="hospitalization" toID="E55" toText="uncomplicated" type="OVERLAP" />
+<TLINK id="TL64" fromID="E56" fromText="the Encharlea Il Medical Center" toID="E28" toText="discharged" type="AFTER" />
+<TLINK id="TL7" fromID="E28" fromText="discharged" toID="E26" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL8" fromID="T2" fromText="4/23/93" toID="E26" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL9" fromID="E0" fromText="a generally healthy" toID="E25" toText="ADMISSION" type="BEFORE" />
+<SECTIME id="S0" start="18" end="25" text="4/16/93" type="ADMISSION" dvalue="1993-4-16" />
+<SECTIME id="S1" start="43" end="50" text="4/23/93" type="DISCHARGE" dvalue="1993-4-23" />
+<TLINK id="SECTIME0" fromID="E10" fromText="hydrochlorothiazide" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E11" fromText="the patient &apos;s low potassium level" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E45" fromText="admission" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E46" fromText="potassium" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E47" fromText="cleared" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E48" fromText="the operating room" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E12" fromText="a right total hip replacement" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E13" fromText="a hybrid S-ROM system" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E49" fromText="did extremely well" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E50" fromText="consultation" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E14" fromText="routine rehabilitation" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E15" fromText="a total hip replacement" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E16" fromText="Her hemovac drains" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E17" fromText="her Foley catheter" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E18" fromText="Her hematocrit" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E29" fromText="right hip pain" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E51" fromText="stable" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E19" fromText="a transfusion" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E52" fromText="postoperatively hypokalemia" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E30" fromText="worsening" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E20" fromText="oral and intravenous potassium" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E21" fromText="a duplex ultrasound examination" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E53" fromText="showed" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E22" fromText="deep venous thrombosis" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E23" fromText="The patient &apos;s Coumadin" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E24" fromText="Bufferin" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E54" fromText="hospitalization" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E55" fromText="uncomplicated" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E28" fromText="discharged" toID="T2" toText="4/23/93" type="OVERLAP" />
+<TLINK id="SECTIME29" fromID="E56" fromText="the Encharlea Il Medical Center" toID="T2" toText="4/23/93" type="AFTER" />
+<TLINK id="SECTIME30" fromID="E31" fromText="Her pain" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E32" fromText="aggravated" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E33" fromText="activity" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E34" fromText="improved" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E35" fromText="sitting or lying down" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E1" fromText="rest pain" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E2" fromText="a cane" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E3" fromText="walker" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E36" fromText="ambulation" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E37" fromText="stairs" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E38" fromText="help" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E4" fromText="difficulty with shoes and socks and foot care" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E39" fromText="The patient &apos;s pain" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E5" fromText="Darvocet" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E6" fromText="Advil" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E7" fromText="Radiographs" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E40" fromText="demonstrate" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E8" fromText="right hip osteoarthritis" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E9" fromText="conservative management" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E41" fromText="presented" toID="T1" toText="4/16/93" type="OVERLAP" />
+<TLINK id="SECTIME50" fromID="E42" fromText="elective right total hip replacement" toID="T1" toText="4/16/93" type="AFTER" />
+<TLINK id="SECTIME51" fromID="E27" fromText="admitted" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E43" fromText="clearance" toID="T2" toText="4/23/93" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E0" fromText="a generally healthy" toID="T1" toText="4/16/93" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E44" fromText="the patient &apos;s hypertension" toID="T2" toText="4/23/93" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

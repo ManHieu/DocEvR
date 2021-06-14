@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+06-06-93
+DISCHARGE DATE :
+06-07-93
+HISTORY OF PRESENT ILLNESS :
+The patient is a 68 year old male status post three and a half cycles of adjuvant EAP chemotherapy .
+He had a good response to preoperative therapy and negative nodes , and is admitted for the final portion of his postoperative cycles .
+His chemotherapy the week before was decreased because the white blood count dropped to 2.8 .
+In the interim , the white blood count rose again to 4.2 with a hematocrit of 30.5 , platelet count of 196 thousand .
+HOSPITAL COURSE :
+The patient was treated with Adriamycin 25 mg , Cis-platinum 40 mg , preceded by Mannitol 12.5 grams intravenous bolus , and Zofran 11 mg on two occasions given as an antiemetic .
+The chemotherapy was well tolerated .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="155" end="180" text="adjuvant EAP chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="190" end="205" text="a good response" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="209" end="229" text="preoperative therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="234" end="248" text="negative nodes" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="258" end="266" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="292" end="316" text="his postoperative cycles" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="319" end="335" text="His chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="356" end="365" text="decreased" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="374" end="395" text="the white blood count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="396" end="403" text="dropped" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="430" end="451" text="the white blood count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E13" start="452" end="456" text="rose" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="475" end="487" text="a hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="498" end="512" text="platelet count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="578" end="588" text="Adriamycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="597" end="609" text="Cis-platinum" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="630" end="638" text="Mannitol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="674" end="680" text="Zofran" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="713" end="726" text="an antiemetic" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="729" end="745" text="The chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="750" end="764" text="well tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T0" start="18" end="26" text="06-06-93" type="DATE" val="1993-06-06" mod="NA" />
+<TIMEX3 id="T2" start="336" end="351" text="the week before" type="DURATION" val="" mod="NA" />
+<TIMEX3 id="T1" start="44" end="52" text="06-07-93" type="DATE" val="1993-06-07" mod="NA" />
+<TIMEX3 id="T3" start="690" end="703" text="two occasions" type="FREQUENCY" val="r2" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T0" toText="06-06-93" type="OVERLAP" />
+<TLINK id="TL1" fromID="E2" fromText="adjuvant EAP chemotherapy" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL10" fromID="T2" fromText="the week before" toID="E8" toText="His chemotherapy" type="BEGUN_BY" />
+<TLINK id="TL11" fromID="E9" fromText="decreased" toID="E8" toText="His chemotherapy" type="OVERLAP" />
+<TLINK id="TL12" fromID="E10" fromText="the white blood count" toID="E8" toText="His chemotherapy" type="BEFORE" />
+<TLINK id="TL13" fromID="E12" fromText="the white blood count" toID="T2" toText="the week before" type="DURING" />
+<TLINK id="TL14" fromID="E9" fromText="decreased" toID="E10" toText="the white blood count" type="AFTER" />
+<TLINK id="TL15" fromID="E10" fromText="the white blood count" toID="E11" toText="dropped" type="OVERLAP" />
+<TLINK id="TL16" fromID="E12" fromText="the white blood count" toID="E13" toText="rose" type="OVERLAP" />
+<TLINK id="TL17" fromID="E14" fromText="a hematocrit" toID="E12" toText="the white blood count" type="OVERLAP" />
+<TLINK id="TL18" fromID="E15" fromText="platelet count" toID="E14" toText="a hematocrit" type="OVERLAP" />
+<TLINK id="TL19" fromID="E22" fromText="The chemotherapy" toID="E17" toText="Adriamycin" type="OVERLAP" />
+<TLINK id="TL2" fromID="E4" fromText="preoperative therapy" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL20" fromID="E18" fromText="Cis-platinum" toID="E17" toText="Adriamycin" type="OVERLAP" />
+<TLINK id="TL21" fromID="E18" fromText="Cis-platinum" toID="E19" toText="Mannitol" type="AFTER" />
+<TLINK id="TL22" fromID="E20" fromText="Zofran" toID="E18" toText="Cis-platinum" type="OVERLAP" />
+<TLINK id="TL23" fromID="E20" fromText="Zofran" toID="T3" toText="two occasions" type="SIMULTANEOUS" />
+<TLINK id="TL24" fromID="E21" fromText="an antiemetic" toID="E20" toText="Zofran" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E23" fromText="well tolerated" toID="E22" toText="The chemotherapy" type="OVERLAP" />
+<TLINK id="TL3" fromID="E6" fromText="admitted" toID="E0" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL4" fromID="T2" fromText="the week before" toID="T0" toText="06-06-93" type="ENDED_BY" />
+<TLINK id="TL5" fromID="E1" fromText="DISCHARGE" toID="T1" toText="06-07-93" type="OVERLAP" />
+<TLINK id="TL7" fromID="E3" fromText="a good response" toID="E4" toText="preoperative therapy" type="AFTER" />
+<TLINK id="TL8" fromID="E5" fromText="negative nodes" toID="E3" toText="a good response" type="OVERLAP" />
+<TLINK id="TL9" fromID="E7" fromText="his postoperative cycles" toID="E6" toText="admitted" type="AFTER" />
+
+
+<TLINK id="Sectime0" fromID="E2" fromText="adjuvant EAP chemotherapy" toID="T0" toText="06-06-93" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E3" fromText="a good response" toID="T0" toText="06-06-93" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E4" fromText="preoperative therapy" toID="T0" toText="06-06-93" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E5" fromText="negative nodes" toID="T0" toText="06-06-93" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E6" fromText="admitted" toID="T0" toText="06-06-93" type="OVERLAP" />
+<TLINK id="Sectime5" fromID="E7" fromText="his postoperative cycles" toID="T0" toText="06-06-93" type="AFTER" />
+<TLINK id="Sectime6" fromID="E8" fromText="His chemotherapy" toID="T0" toText="06-06-93" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E9" fromText="decreased" toID="T0" toText="06-06-93" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E10" fromText="the white blood count" toID="T0" toText="06-06-93" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E11" fromText="dropped" toID="T0" toText="06-06-93" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E12" fromText="the white blood count" toID="T0" toText="06-06-93" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E13" fromText="rose" toID="T0" toText="06-06-93" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E14" fromText="a hematocrit" toID="T0" toText="06-06-93" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E15" fromText="platelet count" toID="T0" toText="06-06-93" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E17" fromText="Adriamycin" toID="T1" toText="06-07-93" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E18" fromText="Cis-platinum" toID="T1" toText="06-07-93" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E19" fromText="Mannitol" toID="T1" toText="06-07-93" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E20" fromText="Zofran" toID="T1" toText="06-07-93" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E21" fromText="an antiemetic" toID="T1" toText="06-07-93" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E22" fromText="The chemotherapy" toID="T1" toText="06-07-93" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E23" fromText="well tolerated" toID="T1" toText="06-07-93" type="BEFORE" />
+
+
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

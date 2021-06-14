@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2012-07-17
+Discharge Date :
+2012-07-22
+Service :
+SURGERY
+History of Present Illness :
+58 YEAR-OLD FEMALE S/P GASTRIC BYPASS 03-01 WITHOUT COMPLICATIONS POST-OPERATIVELY , NOW PRESENTS WITH ABOMENAL AND AND ASCOCIATED NAUSEA SINCE THE NIGHT BEFORE ADMISSION .
+PAIN IS DIFFUSED , 06-05 OUT OF 10 IN INTENSITY , AND HAS NOT IMPROVED OVERNIGHT .
+NO FLATUS X 1 DAY .
+Brief Hospital Course :
+UPON PRESENTATION TO THE HOSPITAL AND INTIAL WORK-UP , THE PATIENT WAS IMMEDIATELY TAKEN TO THE OPERATING ROOM FOR AN EXPLORATORY LAPORATOMY .
+INTRAOPERATIVELY , THE PATIENT WAS FOUND TO HAVE SMALL BOWEL OBSTRUCTION WITH ISCHEMIC SMALL BOWEL .
+PORTIONS OF THE SMALL BOWEL WERE RESECTED .
+SHE TOLERATED THE PROCEDURE AND WAS ADMITTED TO THE INTENSIVE CARE UNIT .
+SHE DID WELL IN THE ICU AND WAS SUBSEQUENTLY TRANSFERED TO THE FLOOR .
+SHE HAS BEEN AFEBRILE POST-OPERATIVELY , MAKING GOOD URINE , AMBULATING , EATING A REGULAR DIET WITHOUT ANY COMPLICATIONS .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="127" end="141" text="GASTRIC BYPASS" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="156" end="169" text="COMPLICATIONS" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E13" start="193" end="201" text="PRESENTS" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="207" end="241" text="ABOMENAL AND AND ASCOCIATED NAUSEA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="277" end="281" text="PAIN" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="363" end="369" text="FLATUS" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E17" start="409" end="421" text="PRESENTATION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="425" end="437" text="THE HOSPITAL" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="442" end="456" text="INTIAL WORK-UP" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="496" end="514" text="THE OPERATING ROOM" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E4" start="519" end="544" text="AN EXPLORATORY LAPORATOMY" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="596" end="619" text="SMALL BOWEL OBSTRUCTION" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="625" end="645" text="ISCHEMIC SMALL BOWEL" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="681" end="689" text="RESECTED" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="706" end="719" text="THE PROCEDURE" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="728" end="736" text="ADMITTED" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="740" end="763" text="THE INTENSIVE CARE UNIT" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E20" start="782" end="789" text="THE ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E12" start="811" end="821" text="TRANSFERED" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="825" end="834" text="THE FLOOR" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E22" start="850" end="858" text="AFEBRILE" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="878" end="895" text="MAKING GOOD URINE" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E24" start="898" end="908" text="AMBULATING" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="911" end="932" text="EATING A REGULAR DIET" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="941" end="958" text="ANY COMPLICATIONS" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<TIMEX3 id="T3" start="142" end="147" text="03-01" type="DATE" val="2012-03-01" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2012-07-17" type="DATE" val="2012-07-17" mod="NA" />
+<TIMEX3 id="T5" start="248" end="274" text="THE NIGHT BEFORE ADMISSION" type="DATE" val="2012-07-16" mod="END" />
+<TIMEX3 id="T0" start="348" end="357" text="OVERNIGHT" type="DURATION" val="P12H" mod="APPROX" />
+<TIMEX3 id="T4" start="372" end="377" text="1 DAY" type="DURATION" val="P1D" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2012-07-22" type="DATE" val="2012-07-22" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="2012-07-17" type="OVERLAP" />
+<TLINK id="TL1" fromID="E8" fromText="Discharge" toID="T2" toText="2012-07-22" type="OVERLAP" />
+<TLINK id="TL10" fromID="E18" fromText="THE HOSPITAL" toID="E17" toText="PRESENTATION" type="BEGUN_BY" />
+<TLINK id="TL11" fromID="E17" fromText="PRESENTATION" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL12" fromID="E3" fromText="INTIAL WORK-UP" toID="E17" toText="PRESENTATION" type="AFTER" />
+<TLINK id="TL13" fromID="E9" fromText="THE OPERATING ROOM" toID="E3" toText="INTIAL WORK-UP" type="AFTER" />
+<TLINK id="TL14" fromID="E4" fromText="AN EXPLORATORY LAPORATOMY" toID="E9" toText="THE OPERATING ROOM" type="DURING" />
+<TLINK id="TL15" fromID="E5" fromText="SMALL BOWEL OBSTRUCTION" toID="E4" toText="AN EXPLORATORY LAPORATOMY" type="OVERLAP" />
+<TLINK id="TL16" fromID="E6" fromText="ISCHEMIC SMALL BOWEL" toID="E5" toText="SMALL BOWEL OBSTRUCTION" type="OVERLAP" />
+<TLINK id="TL17" fromID="E19" fromText="RESECTED" toID="E4" toText="AN EXPLORATORY LAPORATOMY" type="OVERLAP" />
+<TLINK id="TL18" fromID="E7" fromText="THE PROCEDURE" toID="E4" toText="AN EXPLORATORY LAPORATOMY" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E10" fromText="ADMITTED" toID="E7" toText="THE PROCEDURE" type="AFTER" />
+<TLINK id="TL2" fromID="E1" fromText="GASTRIC BYPASS" toID="T3" toText="03-01" type="OVERLAP" />
+<TLINK id="TL20" fromID="E11" fromText="THE INTENSIVE CARE UNIT" toID="E10" toText="ADMITTED" type="BEGUN_BY" />
+<TLINK id="TL21" fromID="E20" fromText="THE ICU" toID="E11" toText="THE INTENSIVE CARE UNIT" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E11" fromText="THE INTENSIVE CARE UNIT" toID="E12" toText="TRANSFERED" type="ENDED_BY" />
+<TLINK id="TL23" fromID="E21" fromText="THE FLOOR" toID="E12" toText="TRANSFERED" type="BEGUN_BY" />
+<TLINK id="TL24" fromID="E22" fromText="AFEBRILE" toID="E7" toText="THE PROCEDURE" type="AFTER" />
+<TLINK id="TL25" fromID="E23" fromText="MAKING GOOD URINE" toID="E7" toText="THE PROCEDURE" type="AFTER" />
+<TLINK id="TL26" fromID="E24" fromText="AMBULATING" toID="E7" toText="THE PROCEDURE" type="AFTER" />
+<TLINK id="TL27" fromID="E25" fromText="EATING A REGULAR DIET" toID="E7" toText="THE PROCEDURE" type="AFTER" />
+<TLINK id="TL28" fromID="E26" fromText="ANY COMPLICATIONS" toID="E7" toText="THE PROCEDURE" type="AFTER" />
+<TLINK id="TL3" fromID="E2" fromText="COMPLICATIONS" toID="E1" toText="GASTRIC BYPASS" type="" />
+<TLINK id="TL4" fromID="E13" fromText="PRESENTS" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E14" fromText="ABOMENAL AND AND ASCOCIATED NAUSEA" toID="E13" toText="PRESENTS" type="BEFORE_OVERLAP" />
+<TLINK id="TL6" fromID="E14" fromText="ABOMENAL AND AND ASCOCIATED NAUSEA" toID="T5" toText="THE NIGHT BEFORE ADMISSION" type="BEGUN_BY" />
+<TLINK id="TL7" fromID="E15" fromText="PAIN" toID="T0" toText="OVERNIGHT" type="OVERLAP" />
+<TLINK id="TL8" fromID="E16" fromText="FLATUS" toID="T4" toText="1 DAY" type="DURING" />
+<TLINK id="TL9" fromID="T4" fromText="1 DAY" toID="E0" toText="Admission" type="ENDED_BY" />
+<TLINK id="Sectime0" fromID="E1" fromText="GASTRIC BYPASS" toID="T1" toText="2012-07-17" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E2" fromText="COMPLICATIONS" toID="T1" toText="2012-07-17" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E13" fromText="PRESENTS" toID="T1" toText="2012-07-17" type="OVERLAP" />
+<TLINK id="Sectime3" fromID="E14" fromText="ABOMENAL AND AND ASCOCIATED NAUSEA" toID="T1" toText="2012-07-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime4" fromID="E15" fromText="PAIN" toID="T1" toText="2012-07-17" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime5" fromID="E16" fromText="FLATUS" toID="T1" toText="2012-07-17" type="OVERLAP" />
+<TLINK id="Sectime0" fromID="E17" fromText="PRESENTATION" toID="T2" toText="2012-07-22" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E18" fromText="THE HOSPITAL" toID="T2" toText="2012-07-22" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime2" fromID="E3" fromText="INTIAL WORK-UP" toID="T2" toText="2012-07-22" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E9" fromText="THE OPERATING ROOM" toID="T2" toText="2012-07-22" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E4" fromText="AN EXPLORATORY LAPORATOMY" toID="T2" toText="2012-07-22" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E5" fromText="SMALL BOWEL OBSTRUCTION" toID="T2" toText="2012-07-22" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E6" fromText="ISCHEMIC SMALL BOWEL" toID="T2" toText="2012-07-22" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E19" fromText="RESECTED" toID="T2" toText="2012-07-22" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E7" fromText="THE PROCEDURE" toID="T2" toText="2012-07-22" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E10" fromText="ADMITTED" toID="T2" toText="2012-07-22" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E11" fromText="THE INTENSIVE CARE UNIT" toID="T2" toText="2012-07-22" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E20" fromText="THE ICU" toID="T2" toText="2012-07-22" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E12" fromText="TRANSFERED" toID="T2" toText="2012-07-22" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E21" fromText="THE FLOOR" toID="T2" toText="2012-07-22" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime14" fromID="E22" fromText="AFEBRILE" toID="T2" toText="2012-07-22" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E23" fromText="MAKING GOOD URINE" toID="T2" toText="2012-07-22" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E24" fromText="AMBULATING" toID="T2" toText="2012-07-22" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E25" fromText="EATING A REGULAR DIET" toID="T2" toText="2012-07-22" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E26" fromText="ANY COMPLICATIONS" toID="T2" toText="2012-07-22" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2012-07-17" type="ADMISSION" dvalue="2012-07-17" />
+<SECTIME id="S1" start="46" end="56" text="2012-07-22" type="DISCHARGE" dvalue="2012-07-22" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

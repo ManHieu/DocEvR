@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2018-05-26
+Discharge Date :
+2018-06-13
+Service :
+MEDICINE
+History of Present Illness :
+52 y.o. male with ESLD due to HCV / EtOH Cirrhosis now with delta MS .
+Recently d/c 'd on 05-15 after admission for hepatic encephalopathy versus opiate abuse .
+Brought in by family for ams .
+No hx available at Youville Hospital Katherine , except for abdominal pain .
+Increasing tachypnea and tachycardia in Leola , cxr with likely aspiration pna versus chf , intubated .
+Started on levo / flagyl / ceftriaxone and lasix for sbp and questionable meningitis .
+Brief Hospital Course :
+SBP :
+Pt admitted with E coli SPB and bacteremia .
+Was treated with ceftriaxone 2 gm IV daily with multiple repeat paracenteses .
+Repeat taps did not revealed evidence of infection .
+Patient was treated with 14 days of levoflox .
+Resp failure :
+Unclear etiology , but likely aspiration event in Monica .
+Treated aspiration pneumonia .
+Weaning and potential extubation complicated by mechanical disadvantage from large ascites as well as continued somnolence ( off sedation ).
+we Performed frequent large vol taps and attempted to give diuretics , but were limited by renal failure .
+The ascites quickly accumulated after each tap .
+Patient was not a TIPS candidate .
+Cirrhosis :
+End-stage cirrhosis with refractory ascites .
+Each time we have initiated diuretics , creatinine rose .
+Patient was continued on nadolol ( as bp tolerated ) and lactulose )
+Renal failure :
+Creatinine elevation appears to be related to both elevated abdominal pressures from ascites as well as to attempts at diuresis .
+AMS :
+Likely hepatic encepholopathy initially , and later likely related to sedation and delayed clearance from liver disease .
+Patient became increasingly hypotensive with a rising cr , eventually becoming pressor dependent .
+Family meeting was held to discuss grave prognosis , and patient was made cmo .
+He passed away shortly thereafter .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1001" end="1014" text="large ascites" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="1026" end="1046" text="continued somnolence" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="1053" end="1061" text="sedation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1078" end="1101" text="frequent large vol taps" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="1124" end="1133" text="diuretics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="1156" end="1169" text="renal failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1172" end="1183" text="The ascites" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="1210" end="1218" text="each tap" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="123" end="127" text="ESLD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="1237" end="1253" text="a TIPS candidate" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E54" start="1256" end="1265" text="Cirrhosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="1268" end="1287" text="End-stage cirrhosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="1293" end="1311" text="refractory ascites" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="135" end="138" text="HCV" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="1342" end="1351" text="diuretics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="1354" end="1364" text="creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E59" start="1397" end="1404" text="nadolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="141" end="155" text="EtOH Cirrhosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="1410" end="1412" text="bp" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E61" start="1429" end="1438" text="lactulose" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="1441" end="1454" text="Renal failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="1457" end="1477" text="Creatinine elevation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="1508" end="1536" text="elevated abdominal pressures" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="1542" end="1549" text="ascites" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="1576" end="1584" text="diuresis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E67" start="1587" end="1590" text="AMS" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="1600" end="1622" text="hepatic encepholopathy" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="165" end="173" text="delta MS" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E69" start="1663" end="1671" text="sedation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="1676" end="1693" text="delayed clearance" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="1699" end="1712" text="liver disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="1743" end="1754" text="hypotensive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="1760" end="1771" text="a rising cr" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="1794" end="1811" text="pressor dependent" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="185" end="191" text="d/c 'd" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E75" start="1888" end="1891" text="cmo" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="1897" end="1908" text="passed away" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="207" end="216" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="221" end="243" text="hepatic encephalopathy" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="251" end="263" text="opiate abuse" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E11" start="291" end="294" text="ams" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="316" end="343" text="Youville Hospital Katherine" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E13" start="357" end="371" text="abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="374" end="394" text="Increasing tachypnea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="399" end="410" text="tachycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="414" end="419" text="Leola" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E17" start="422" end="425" text="cxr" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="438" end="452" text="aspiration pna" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="460" end="463" text="chf" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="466" end="475" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="489" end="493" text="levo" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="496" end="502" text="flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="505" end="516" text="ceftriaxone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="521" end="526" text="lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="531" end="534" text="sbp" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="552" end="562" text="meningitis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="589" end="592" text="SBP" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="598" end="606" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="612" end="622" text="E coli SPB" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="627" end="637" text="bacteremia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="657" end="668" text="ceftriaxone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="688" end="716" text="multiple repeat paracenteses" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="719" end="730" text="Repeat taps" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="739" end="747" text="revealed" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E35" start="760" end="769" text="infection" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E36" start="808" end="816" text="levoflox" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="819" end="831" text="Resp failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="864" end="880" text="aspiration event" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="884" end="890" text="Monica" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E40" start="893" end="900" text="Treated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="901" end="921" text="aspiration pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="924" end="931" text="Weaning" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="936" end="956" text="potential extubation" modality="HYPOTHETICAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="972" end="995" text="mechanical disadvantage" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T0" start="18" end="28" text="2018-05-26" type="DATE" val="2018-05-26" mod="NA" />
+<TIMEX3 id="T2" start="195" end="200" text="05-15" type="DATE" val="2018-05-15" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2018-06-13" type="DATE" val="2018-06-13" mod="NA" />
+<TIMEX3 id="T3" start="677" end="682" text="daily" type="FREQUENCY" val="RT24H" mod="NA" />
+<TIMEX3 id="T4" start="797" end="804" text="14 days" type="DURATION" val="P14D" mod="NA" />
+<TLINK id="TL0" fromID="T0" fromText="2018-05-26" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL1" fromID="E1" fromText="Discharge" toID="T1" toText="2018-06-13" type="OVERLAP" />
+<TLINK id="TL10" fromID="E10" fromText="hepatic encephalopathy" toID="E68" toText="hepatic encepholopathy" type="simultaneous" />
+<TLINK id="TL11" fromID="E11" fromText="ams" toID="E67" toText="AMS" type="simultaneous" />
+<TLINK id="TL12" fromID="E11" fromText="ams" toID="E5" toText="delta MS" type="SIMULTANEOUS" />
+<TLINK id="TL13" fromID="E12" fromText="Youville Hospital Katherine" toID="E0" toText="Admission" type="BEGUN_BY" />
+<TLINK id="TL14" fromID="E12" fromText="Youville Hospital Katherine" toID="E13" toText="abdominal pain" type="OVERLAP" />
+<TLINK id="TL15" fromID="E14" fromText="Increasing tachypnea" toID="E15" toText="tachycardia" type="OVERLAP" />
+<TLINK id="TL16" fromID="E14" fromText="Increasing tachypnea" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL17" fromID="E14" fromText="Increasing tachypnea" toID="E16" toText="Leola" type="OVERLAP" />
+<TLINK id="TL18" fromID="E17" fromText="cxr" toID="E12" toText="Youville Hospital Katherine" type="DURING" />
+<TLINK id="TL19" fromID="E18" fromText="aspiration pna" toID="E17" toText="cxr" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="E3" fromText="HCV" toID="E2" toText="ESLD" type="BEFORE_OVERLAP" />
+<TLINK id="TL20" fromID="E19" fromText="chf" toID="E17" toText="cxr" type="BEFORE_OVERLAP" />
+<TLINK id="TL21" fromID="E20" fromText="intubated" toID="E17" toText="cxr" type="OVERLAP" />
+<TLINK id="TL22" fromID="E18" fromText="aspiration pna" toID="E38" toText="aspiration event" type="simultaneous" />
+<TLINK id="TL23" fromID="E21" fromText="levo" toID="E22" toText="flagyl" type="OVERLAP" />
+<TLINK id="TL24" fromID="E21" fromText="levo" toID="E36" toText="levoflox" type="simultaneous" />
+<TLINK id="TL25" fromID="E23" fromText="ceftriaxone" toID="E21" toText="levo" type="OVERLAP" />
+<TLINK id="TL26" fromID="E25" fromText="sbp" toID="E24" toText="lasix" type="BEFORE_OVERLAP" />
+<TLINK id="TL27" fromID="E26" fromText="meningitis" toID="E24" toText="lasix" type="BEFORE_OVERLAP" />
+<TLINK id="TL28" fromID="E23" fromText="ceftriaxone" toID="E24" toText="lasix" type="OVERLAP" />
+<TLINK id="TL29" fromID="E27" fromText="SBP" toID="E25" toText="sbp" type="SIMULTANEOUS" />
+<TLINK id="TL3" fromID="E4" fromText="EtOH Cirrhosis" toID="E2" toText="ESLD" type="BEFORE_OVERLAP" />
+<TLINK id="TL30" fromID="E27" fromText="SBP" toID="E29" toText="E coli SPB" type="simultaneous" />
+<TLINK id="TL31" fromID="E29" fromText="E coli SPB" toID="E28" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL32" fromID="E30" fromText="bacteremia" toID="E28" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL33" fromID="E28" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL34" fromID="E31" fromText="ceftriaxone" toID="E28" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL35" fromID="E23" fromText="ceftriaxone" toID="E31" toText="ceftriaxone" type="simultaneous" />
+<TLINK id="TL36" fromID="E31" fromText="ceftriaxone" toID="T3" toText="daily" type="OVERLAP" />
+<TLINK id="TL37" fromID="E31" fromText="ceftriaxone" toID="E32" toText="multiple repeat paracenteses" type="OVERLAP" />
+<TLINK id="TL38" fromID="E33" fromText="Repeat taps" toID="E32" toText="multiple repeat paracenteses" type="SIMULTANEOUS" />
+<TLINK id="TL39" fromID="E33" fromText="Repeat taps" toID="E34" toText="revealed" type="OVERLAP" />
+<TLINK id="TL4" fromID="E2" fromText="ESLD" toID="E5" toText="delta MS" type="OVERLAP" />
+<TLINK id="TL40" fromID="E35" fromText="infection" toID="E33" toText="Repeat taps" type="BEFORE_OVERLAP" />
+<TLINK id="TL41" fromID="E36" fromText="levoflox" toID="T4" toText="14 days" type="DURING" />
+<TLINK id="TL42" fromID="E38" fromText="aspiration event" toID="E37" toText="Resp failure" type="BEFORE" />
+<TLINK id="TL43" fromID="E38" fromText="aspiration event" toID="E39" toText="Monica" type="OVERLAP" />
+<TLINK id="TL44" fromID="E41" fromText="aspiration pneumonia" toID="E40" toText="Treated" type="BEFORE_OVERLAP" />
+<TLINK id="TL45" fromID="E38" fromText="aspiration event" toID="E41" toText="aspiration pneumonia" type="BEFORE_OVERLAP" />
+<TLINK id="TL46" fromID="E42" fromText="Weaning" toID="E43" toText="potential extubation" type="OVERLAP" />
+<TLINK id="TL47" fromID="E44" fromText="mechanical disadvantage" toID="E43" toText="potential extubation" type="BEFORE_OVERLAP" />
+<TLINK id="TL48" fromID="E45" fromText="large ascites" toID="E44" toText="mechanical disadvantage" type="BEFORE_OVERLAP" />
+<TLINK id="TL49" fromID="E45" fromText="large ascites" toID="E51" toText="The ascites" type="simultaneous" />
+<TLINK id="TL5" fromID="E6" fromText="d/c 'd" toID="T2" toText="05-15" type="OVERLAP" />
+<TLINK id="TL50" fromID="E44" fromText="mechanical disadvantage" toID="E46" toText="continued somnolence" type="OVERLAP" />
+<TLINK id="TL51" fromID="E47" fromText="sedation" toID="E46" toText="continued somnolence" type="OVERLAP" />
+<TLINK id="TL52" fromID="E32" fromText="multiple repeat paracenteses" toID="E48" toText="frequent large vol taps" type="simultaneous" />
+<TLINK id="TL53" fromID="E49" fromText="diuretics" toID="E57" toText="diuretics" type="simultaneous" />
+<TLINK id="TL54" fromID="E50" fromText="renal failure" toID="E49" toText="diuretics" type="OVERLAP" />
+<TLINK id="TL55" fromID="E48" fromText="frequent large vol taps" toID="E49" toText="diuretics" type="OVERLAP" />
+<TLINK id="TL56" fromID="E50" fromText="renal failure" toID="E62" toText="Renal failure" type="simultaneous" />
+<TLINK id="TL57" fromID="E51" fromText="The ascites" toID="E52" toText="each tap" type="AFTER" />
+<TLINK id="TL58" fromID="E51" fromText="The ascites" toID="E56" toText="refractory ascites" type="simultaneous" />
+<TLINK id="TL59" fromID="E53" fromText="a TIPS candidate" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL6" fromID="E7" fromText="admission" toID="E6" toText="d/c 'd" type="BEFORE" />
+<TLINK id="TL60" fromID="E54" fromText="Cirrhosis" toID="E55" toText="End-stage cirrhosis" type="simultaneous" />
+<TLINK id="TL61" fromID="E55" fromText="End-stage cirrhosis" toID="E56" toText="refractory ascites" type="OVERLAP" />
+<TLINK id="TL62" fromID="E56" fromText="refractory ascites" toID="E65" toText="ascites" type="simultaneous" />
+<TLINK id="TL63" fromID="E58" fromText="creatinine" toID="E57" toText="diuretics" type="OVERLAP" />
+<TLINK id="TL64" fromID="E60" fromText="bp" toID="E59" toText="nadolol" type="OVERLAP" />
+<TLINK id="TL65" fromID="E59" fromText="nadolol" toID="E61" toText="lactulose" type="OVERLAP" />
+<TLINK id="TL66" fromID="E63" fromText="Creatinine elevation" toID="E62" toText="Renal failure" type="OVERLAP" />
+<TLINK id="TL67" fromID="E64" fromText="elevated abdominal pressures" toID="E63" toText="Creatinine elevation" type="OVERLAP" />
+<TLINK id="TL68" fromID="E66" fromText="diuresis" toID="E63" toText="Creatinine elevation" type="BEFORE_OVERLAP" />
+<TLINK id="TL69" fromID="E63" fromText="Creatinine elevation" toID="E58" toText="creatinine" type="SIMULTANEOUS" />
+<TLINK id="TL7" fromID="E10" fromText="hepatic encephalopathy" toID="E7" toText="admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL70" fromID="E65" fromText="ascites" toID="E64" toText="elevated abdominal pressures" type="OVERLAP" />
+<TLINK id="TL71" fromID="E66" fromText="diuresis" toID="E64" toText="elevated abdominal pressures" type="OVERLAP" />
+<TLINK id="TL72" fromID="E57" fromText="diuretics" toID="E66" toText="diuresis" type="simultaneous" />
+<TLINK id="TL73" fromID="E68" fromText="hepatic encepholopathy" toID="E67" toText="AMS" type="OVERLAP" />
+<TLINK id="TL74" fromID="E69" fromText="sedation" toID="E68" toText="hepatic encepholopathy" type="AFTER" />
+<TLINK id="TL75" fromID="E47" fromText="sedation" toID="E69" toText="sedation" type="simultaneous" />
+<TLINK id="TL76" fromID="E71" fromText="liver disease" toID="E70" toText="delayed clearance" type="BEFORE_OVERLAP" />
+<TLINK id="TL77" fromID="E70" fromText="delayed clearance" toID="E69" toText="sedation" type="OVERLAP" />
+<TLINK id="TL78" fromID="E2" fromText="ESLD" toID="E71" toText="liver disease" type="simultaneous" />
+<TLINK id="TL79" fromID="E72" fromText="hypotensive" toID="E73" toText="a rising cr" type="OVERLAP" />
+<TLINK id="TL8" fromID="E9" fromText="opiate abuse" toID="E7" toText="admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL80" fromID="E72" fromText="hypotensive" toID="E74" toText="pressor dependent" type="OVERLAP" />
+<TLINK id="TL81" fromID="E74" fromText="pressor dependent" toID="E72" toText="hypotensive" type="OVERLAP" />
+<TLINK id="TL82" fromID="E75" fromText="cmo" toID="E76" toText="passed away" type="ENDED_BY" />
+<TLINK id="TL83" fromID="E74" fromText="pressor dependent" toID="E75" toText="cmo" type="BEFORE_OVERLAP" />
+<TLINK id="TL9" fromID="E7" fromText="admission" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E45" fromText="large ascites" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E46" fromText="continued somnolence" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E47" fromText="sedation" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E48" fromText="frequent large vol taps" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E49" fromText="diuretics" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E50" fromText="renal failure" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E51" fromText="The ascites" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E52" fromText="each tap" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E2" fromText="ESLD" toID="T0" toText="2018-05-26" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime8" fromID="E53" fromText="a TIPS candidate" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E54" fromText="Cirrhosis" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E55" fromText="End-stage cirrhosis" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E56" fromText="refractory ascites" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E3" fromText="HCV" toID="T0" toText="2018-05-26" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime12" fromID="E57" fromText="diuretics" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E58" fromText="creatinine" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E59" fromText="nadolol" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E4" fromText="EtOH Cirrhosis" toID="T0" toText="2018-05-26" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime15" fromID="E60" fromText="bp" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E61" fromText="lactulose" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E62" fromText="Renal failure" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E63" fromText="Creatinine elevation" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E64" fromText="elevated abdominal pressures" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E65" fromText="ascites" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E66" fromText="diuresis" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E67" fromText="AMS" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E68" fromText="hepatic encepholopathy" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E5" fromText="delta MS" toID="T0" toText="2018-05-26" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime24" fromID="E69" fromText="sedation" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E70" fromText="delayed clearance" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E71" fromText="liver disease" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E72" fromText="hypotensive" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E73" fromText="a rising cr" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E74" fromText="pressor dependent" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E6" fromText="d/c 'd" toID="T0" toText="2018-05-26" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E75" fromText="cmo" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime31" fromID="E76" fromText="passed away" toID="T1" toText="2018-06-13" type="OVERLAP" />
+<TLINK id="Sectime5" fromID="E7" fromText="admission" toID="T0" toText="2018-05-26" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E10" fromText="hepatic encephalopathy" toID="T0" toText="2018-05-26" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime7" fromID="E9" fromText="opiate abuse" toID="T0" toText="2018-05-26" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E11" fromText="ams" toID="T0" toText="2018-05-26" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime9" fromID="E12" fromText="Youville Hospital Katherine" toID="T0" toText="2018-05-26" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime10" fromID="E13" fromText="abdominal pain" toID="T0" toText="2018-05-26" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E14" fromText="Increasing tachypnea" toID="T0" toText="2018-05-26" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E15" fromText="tachycardia" toID="T0" toText="2018-05-26" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E16" fromText="Leola" toID="T0" toText="2018-05-26" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E17" fromText="cxr" toID="T0" toText="2018-05-26" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E18" fromText="aspiration pna" toID="T0" toText="2018-05-26" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E19" fromText="chf" toID="T0" toText="2018-05-26" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E20" fromText="intubated" toID="T0" toText="2018-05-26" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E21" fromText="levo" toID="T0" toText="2018-05-26" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E22" fromText="flagyl" toID="T0" toText="2018-05-26" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E23" fromText="ceftriaxone" toID="T0" toText="2018-05-26" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E24" fromText="lasix" toID="T0" toText="2018-05-26" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E25" fromText="sbp" toID="T0" toText="2018-05-26" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime23" fromID="E26" fromText="meningitis" toID="T0" toText="2018-05-26" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime32" fromID="E27" fromText="SBP" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime33" fromID="E28" fromText="admitted" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime34" fromID="E29" fromText="E coli SPB" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime35" fromID="E30" fromText="bacteremia" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime36" fromID="E31" fromText="ceftriaxone" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime37" fromID="E32" fromText="multiple repeat paracenteses" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime38" fromID="E33" fromText="Repeat taps" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime39" fromID="E34" fromText="revealed" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime40" fromID="E35" fromText="infection" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime41" fromID="E36" fromText="levoflox" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime42" fromID="E37" fromText="Resp failure" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime43" fromID="E38" fromText="aspiration event" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime44" fromID="E39" fromText="Monica" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime45" fromID="E40" fromText="Treated" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime46" fromID="E41" fromText="aspiration pneumonia" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime47" fromID="E42" fromText="Weaning" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime48" fromID="E43" fromText="potential extubation" toID="T1" toText="2018-06-13" type="BEFORE" />
+<TLINK id="Sectime49" fromID="E44" fromText="mechanical disadvantage" toID="T1" toText="2018-06-13" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2018-05-26" type="ADMISSION" dvalue="2018-05-26" />
+<SECTIME id="S1" start="46" end="56" text="2018-06-13" type="DISCHARGE" dvalue="2018-06-13" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

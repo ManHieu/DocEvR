@@ -1,0 +1,57 @@
+Admission Date :
+2015-03-26
+Discharge Date :
+2015-03-30
+Service :
+MEDICINE
+History of Present Illness :
+47 female with h/o HCV cirrhosis compocated by encephalopathy , ascites , and h/o portal vein thrombosis ( right anterior portal vein ) and portalcaval shunt ( reversed flow in main portal vein ) presents from liver clinic with increasing abdominal girth .
+She also described sob , nausea , worsening lower ext edema .
+She denied abd pain , fevers , chills .
+She was admitted for a large volume paracentesis but her INR on admission was 3.8 .
+She received 4units of FFP which decreased her INR to 2.2 and then 2 more units during the tap .
+She then had 6L of non-bloody ascitic fluid removed without complication .
+She received 36gm of albumin following the tap .
+Her BP on admission was 120/70 and remained stable following the tap .
+Over the next several hours , pt complained of abd pain but this resolved on its own without medication .
+In the am , she was found to have a hct of 24 , down from 32 and plts 35 , down from 72 .
+She received 2 units of plts and 1 unit of PRBC s.
+Her BP was then noted to be decreased at 80/40 which improved mildly to 90/30 with 1.5L of NS .
+Temp noted to be low at 94 and she was placed on bear hugger which improved temp to 96.7 .
+Her mental status also had decreased from admission and her urine output was minimal , 225cc over the past 12 hours .
+Creatinine this am was 1.9 from 0.9 yesterday .
+Previous hospital course ( per H&P ):
+She was recently hospitalised from 02-23 / 03-04 for abdominal discomfort at which time she underwent paracentesis that ruled out SBP and relieved her abdominal pain .
+She also underwent US that revealed patent portal and hepatic vessels .
+While her discharge summary maintains that she was continued on Furosemide / Spirinolactone / Propranolol , the patient did not receive any scripts on discharge and as a result did not take these medications .
+Also , due to worsening renal function , she was started on octreotide / midodrine / albumin for hepatorenal ssyndrome ( Cr 3.3 at its worst ) which resolved prior to her discharge .
+The hospitalisation was also significant for mild DIC for which she received cryoglobulins and UTI (+ Enterococcus and + Klebsiella ).
+She received a 7 day course of amoxicillin for which Enterococcus was sensitive but Klebsiella unknown .
+Brief Hospital Course :
+A/P : 48 yo morbidly obese woman with HCV cirrhosis c/b encephalopathy , esophageal varices and partial vein thrombosis ( but no hx of SBP ) presents with increasing abdominal girth likely secondary to ascites .
+Admitted for diagnostic / therapeutic paracentesis and then transferred to the ICU for hypotension , confusion and anemia .
+# Liver cirrhosis : MELD score of 34 on admission .
+Pt became more encephalopathic during her hospital course .
+She was not a transplant candidate due to her obesity .
+A family meeting was held on hospital day #4 which included the pt 's closest family members , her hepatologist , Dr. Steidl , her PCP , Dr. Popoff and the ICU team .
+After it was explained that the pt 's prognosis was very poor given that she was not a transplant candidate , the 
+decision was made by the family and the medical team to withdraw care .
+The pt was made comfortable and she expired several hours later .
+# Recurrent ascites : On the medical floor , pt had a large volume paracentesis ( 6 liters ) followed by replacement with albumin .
+She had no evidence of SBP .
+# Hypotension : Pt became hypotensive following the large volume paracentesis despite replacement with albumin .
+This was thought to be 04-09 the large volume tap verses sepsis though she had no other evidence of sepsis .
+She was placed on pressors to maintain a MAP > 55 .
+Once the decision was made to withdraw care , the pressors were discontinued .
+# Anemia : Hct dropped following the tap and there was concern for bleed into her abdomen .
+She received one unit of PRBC s.
+CT of the abdomen and pelvis showed no evidence of bleed .
+Her hematocrit remained stable at 24-26 following the acute drop.
+# ARF : Creatinine has increased from 0.9 on admission to 1.9 on admission to ICU .
+Urine lytes with Na of 10 indicating either pre-renal or hepatorenal .
+Fluid challenge with 36gm of albumin , one unit of PRBCs and 2L of NS .
+Will check creatinine this afternoon .
+Pt previously diagnosed with hepatorenal and was started on midodrine , octreotide and albumin ; these were 
+continued .
+Her creatinine continued to increase , likely due to her worsening liver failure .
+Pt expired during this admission after family discussion to make her comfort care only .

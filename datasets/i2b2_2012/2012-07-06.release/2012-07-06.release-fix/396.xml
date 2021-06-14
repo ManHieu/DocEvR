@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+05/12/2000
+DISCHARGE DATE :
+05/20/2000
+HISTORY OF PRESENT ILLNESS :
+Provided in the house staff note from the admission date .
+Briefly this is a Hispanic patient with history of advanced lung cancer , small cell in histology .
+The patient presented with almost a stridor and a large mediastinal mass with shortness of breath .
+He was transferred to the Oncology Service after discussions about the utility of chemotherapy .
+HOSPITAL COURSE :
+In the Oncology Floor he received Carboplatin and Etoposide to which he reacted well .
+There were no major issues and he was discharged home on 5/20/00 .
+________________________
+MAREN TLANDFLENT , M.D.
+Electronically Signed
+MAREN STEA TLANDFLENT , M.D.
+07/15/2000 21:36
+TR :
+se
+DD :
+07/06/2000
+TD :
+07/11/2000 12:44 P
+cc :
+MAREN STEA TLANDFLENT , M.D.
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="196" end="216" text="advanced lung cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="219" end="229" text="small cell" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="257" end="266" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="272" end="288" text="almost a stridor" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="29" end="38" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="293" end="317" text="a large mediastinal mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="323" end="342" text="shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="352" end="363" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="367" end="387" text="the Oncology Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E14" start="427" end="439" text="chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="463" end="481" text="the Oncology Floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E1" start="494" end="505" text="Carboplatin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="510" end="519" text="Etoposide" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="561" end="573" text="major issues" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="585" end="595" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T0" start="124" end="142" text="the admission date" type="DATE" val="2000-05-12" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="05/12/2000" type="DATE" val="2000-05-12" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="05/20/2000" type="DATE" val="2000-05-20" mod="NA" />
+<TIMEX3 id="T3" start="604" end="611" text="5/20/00" type="DATE" val="2000-05-20" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T1" toText="05/12/2000" type="OVERLAP" />
+<TLINK id="TL1" fromID="E3" fromText="DISCHARGE" toID="T2" toText="05/20/2000" type="OVERLAP" />
+<TLINK id="TL10" fromID="E14" fromText="chemotherapy" toID="E8" toText="presented" type="AFTER" />
+<TLINK id="TL11" fromID="E12" fromText="transferred" toID="E14" toText="chemotherapy" type="AFTER" />
+<TLINK id="TL12" fromID="E4" fromText="the Oncology Floor" toID="E13" toText="the Oncology Service" type="OVERLAP" />
+<TLINK id="TL13" fromID="E1" fromText="Carboplatin" toID="E4" toText="the Oncology Floor" type="OVERLAP" />
+<TLINK id="TL14" fromID="E2" fromText="Etoposide" toID="E4" toText="the Oncology Floor" type="OVERLAP" />
+<TLINK id="TL15" fromID="E15" fromText="major issues" toID="E4" toText="the Oncology Floor" type="OVERLAP" />
+<TLINK id="TL16" fromID="E5" fromText="discharged" toID="T3" toText="5/20/00" type="OVERLAP" />
+<TLINK id="TL17" fromID="E5" fromText="discharged" toID="E3" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL18" fromID="E4" fromText="the Oncology Floor" toID="E5" toText="discharged" type="BEFORE" />
+<TLINK id="TL2" fromID="T0" fromText="the admission date" toID="T1" toText="05/12/2000" type="OVERLAP" />
+<TLINK id="TL3" fromID="E6" fromText="advanced lung cancer" toID="E7" toText="small cell" type="OVERLAP" />
+<TLINK id="TL4" fromID="E8" fromText="presented" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL5" fromID="E9" fromText="almost a stridor" toID="E8" toText="presented" type="BEFORE" />
+<TLINK id="TL6" fromID="E10" fromText="a large mediastinal mass" toID="E8" toText="presented" type="BEFORE" />
+<TLINK id="TL7" fromID="E11" fromText="shortness of breath" toID="E8" toText="presented" type="BEFORE" />
+<TLINK id="TL8" fromID="E12" fromText="transferred" toID="E8" toText="presented" type="AFTER" />
+<TLINK id="TL9" fromID="E13" fromText="the Oncology Service" toID="E12" toText="transferred" type="AFTER" />
+<SECTIME id="S0" start="18" end="28" text="05/12/2000" type="ADMISSION" dvalue="2000-05-12" />
+<SECTIME id="S1" start="46" end="56" text="05/20/2000" type="DISCHARGE" dvalue="2000-05-20" />
+<TLINK id="SECTIME0" fromID="E6" fromText="advanced lung cancer" toID="T1" toText="05/12/2000" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E7" fromText="small cell" toID="T1" toText="05/12/2000" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E8" fromText="presented" toID="T1" toText="05/12/2000" type="OVERLAP" />
+<TLINK id="SECTIME3" fromID="E9" fromText="almost a stridor" toID="T1" toText="05/12/2000" type="OVERLAP" />
+<TLINK id="SECTIME4" fromID="E10" fromText="a large mediastinal mass" toID="T1" toText="05/12/2000" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E11" fromText="shortness of breath" toID="T1" toText="05/12/2000" type="OVERLAP" />
+<TLINK id="SECTIME6" fromID="E12" fromText="transferred" toID="T1" toText="05/12/2000" type="OVERLAP" />
+<TLINK id="SECTIME7" fromID="E13" fromText="the Oncology Service" toID="T1" toText="05/12/2000" type="OVERLAP" />
+<TLINK id="SECTIME8" fromID="E14" fromText="chemotherapy" toID="T1" toText="05/12/2000" type="OVERLAP" />
+<TLINK id="SECTIME9" fromID="E4" fromText="the Oncology Floor" toID="T2" toText="05/20/2000" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E1" fromText="Carboplatin" toID="T2" toText="05/20/2000" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E2" fromText="Etoposide" toID="T2" toText="05/20/2000" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E15" fromText="major issues" toID="T2" toText="05/20/2000" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E5" fromText="discharged" toID="T2" toText="05/20/2000" type="OVERLAP" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

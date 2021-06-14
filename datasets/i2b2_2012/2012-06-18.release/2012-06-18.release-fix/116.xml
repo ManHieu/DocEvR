@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+11/30/1993
+Discharge Date :
+12/07/1993
+HISTORY OF PRESENT ILLNESS :
+The patient is a 40 year old woman with end stage renal disease , on hemodialysis since 12/91 .
+This was secondary to polycystic kidneydisease , which was noted since age 12 .
+She is status post cadaveric renal allograft in 03/93 , and she subsequently underwent an early postoperative transplant nephrectomy secondary to rupture .
+He has been having difficult access problems and now has a left upper arm PTFE .
+She had been placed on emergency transplant for this difficult access problem .
+Otherwise , she has been healthy and her last hemodialysis was the day prior to transplant .
+HOSPITAL COURSE :
+She was taken to the Operating Room on 11/30/93 where Dr. Tiveloydherdes performed a cadaveric renal allograft to the left iliac fossa which she tolerated well .
+Postoperative course was unremarkable .
+She was started on her immunosuppressive agents as per protocol .
+Her creatinine fell to the normal range early .
+Over several days she continued to make good amounts or urine .
+She was gradually advanced to a regular diet .
+Her prednisone was tapered to a stable dose .
+]]></TEXT>
+<TAGS>
+<EVENT id="E18" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="1046" end="1067" text="good amounts or urine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="1100" end="1114" text="a regular diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1117" end="1131" text="Her prednisone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="1136" end="1143" text="tapered" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="1147" end="1160" text="a stable dose" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E1" start="126" end="149" text="end stage renal disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="155" end="167" text="hemodialysis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="204" end="228" text="polycystic kidneydisease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="241" end="246" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E4" start="281" end="306" text="cadaveric renal allograft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E0" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="349" end="394" text="an early postoperative transplant nephrectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="408" end="415" text="rupture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="437" end="462" text="difficult access problems" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="475" end="496" text="a left upper arm PTFE" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="522" end="542" text="emergency transplant" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="547" end="576" text="this difficult access problem" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="616" end="637" text="her last hemodialysis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="659" end="669" text="transplant" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="707" end="725" text="the Operating Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E13" start="773" end="824" text="a cadaveric renal allograft to the left iliac fossa" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="835" end="849" text="tolerated well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="852" end="872" text="Postoperative course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E22" start="877" end="889" text="unremarkable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="911" end="939" text="her immunosuppressive agents" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="958" end="972" text="Her creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T6" start="1011" end="1023" text="several days" type="DURATION" val="P6D" mod="APPROX" />
+<TIMEX3 id="T8" start="1011" end="1023" text="several days" type="DURATION" val="P5D" mod="APPROX" />
+<TIMEX3 id="T0" start="174" end="179" text="12/91" type="DATE" val="1991-12" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="11/30/1993" type="DATE" val="1993-11-30" mod="NA" />
+<TIMEX3 id="T4" start="253" end="259" text="age 12" type="DATE" val="1965" mod="APPROX" />
+<TIMEX3 id="T5" start="310" end="315" text="03/93" type="DATE" val="1993-03" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="12/07/1993" type="DATE" val="1993-12-07" mod="NA" />
+<TIMEX3 id="T9" start="642" end="649" text="the day" type="DATE" val="1993-11-29" mod="NA" />
+<TIMEX3 id="T3" start="729" end="737" text="11/30/93" type="DATE" val="1993-11-30" mod="NA" />
+<TLINK id="TL0" fromID="E18" fromText="Admission" toID="T1" toText="11/30/1993" type="OVERLAP" />
+<TLINK id="TL1" fromID="E7" fromText="difficult access problems" toID="E10" toText="this difficult access problem" type="OVERLAP" />
+<TLINK id="TL10" fromID="E3" fromText="polycystic kidneydisease" toID="T4" toText="age 12" type="AFTER" />
+<TLINK id="TL11" fromID="E4" fromText="cadaveric renal allograft" toID="T5" toText="03/93" type="OVERLAP" />
+<TLINK id="TL12" fromID="T5" fromText="03/93" toID="T0" toText="12/91" type="AFTER" />
+<TLINK id="TL13" fromID="T5" fromText="03/93" toID="E18" toText="Admission" type="BEFORE" />
+<TLINK id="TL14" fromID="E5" fromText="an early postoperative transplant nephrectomy" toID="E4" toText="cadaveric renal allograft" type="AFTER" />
+<TLINK id="TL15" fromID="E6" fromText="rupture" toID="E5" toText="an early postoperative transplant nephrectomy" type="BEFORE" />
+<TLINK id="TL16" fromID="E7" fromText="difficult access problems" toID="E8" toText="a left upper arm PTFE" type="BEFORE" />
+<TLINK id="TL17" fromID="E8" fromText="a left upper arm PTFE" toID="E18" toText="Admission" type="BEFORE" />
+<TLINK id="TL18" fromID="E9" fromText="emergency transplant" toID="E13" toText="a cadaveric renal allograft to the left iliac fossa" type="OVERLAP" />
+<TLINK id="TL2" fromID="E16" fromText="Her prednisone" toID="E17" toText="a stable dose" type="OVERLAP" />
+<TLINK id="TL20" fromID="E11" fromText="her last hemodialysis" toID="T9" toText="the day" type="OVERLAP" />
+<TLINK id="TL21" fromID="T9" fromText="the day" toID="E12" toText="transplant" type="BEFORE" />
+<TLINK id="TL22" fromID="T3" fromText="11/30/93" toID="E18" toText="Admission" type="OVERLAP" />
+<TLINK id="TL23" fromID="E19" fromText="the Operating Room" toID="T3" toText="11/30/93" type="OVERLAP" />
+<TLINK id="TL24" fromID="E13" fromText="a cadaveric renal allograft to the left iliac fossa" toID="E19" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL25" fromID="E20" fromText="tolerated well" toID="E13" toText="a cadaveric renal allograft to the left iliac fossa" type="OVERLAP" />
+<TLINK id="TL26" fromID="E19" fromText="the Operating Room" toID="E21" toText="Postoperative course" type="BEFORE" />
+<TLINK id="TL27" fromID="E21" fromText="Postoperative course" toID="E0" toText="Discharge" type="BEFORE" />
+<TLINK id="TL28" fromID="E22" fromText="unremarkable" toID="E21" toText="Postoperative course" type="OVERLAP" />
+<TLINK id="TL29" fromID="E14" fromText="her immunosuppressive agents" toID="E21" toText="Postoperative course" type="OVERLAP" />
+<TLINK id="TL3" fromID="E12" fromText="transplant" toID="E13" toText="a cadaveric renal allograft to the left iliac fossa" type="OVERLAP" />
+<TLINK id="TL30" fromID="E15" fromText="Her creatinine" toID="E14" toText="her immunosuppressive agents" type="OVERLAP" />
+<TLINK id="TL31" fromID="T6" fromText="several days" toID="E21" toText="Postoperative course" type="OVERLAP" />
+<TLINK id="TL32" fromID="E23" fromText="good amounts or urine" toID="T6" toText="several days" type="OVERLAP" />
+<TLINK id="TL33" fromID="E24" fromText="a regular diet" toID="E23" toText="good amounts or urine" type="OVERLAP" />
+<TLINK id="TL34" fromID="E16" fromText="Her prednisone" toID="E25" toText="tapered" type="BEFORE" />
+<TLINK id="TL35" fromID="E17" fromText="a stable dose" toID="E25" toText="tapered" type="AFTER" />
+<TLINK id="TL4" fromID="E0" fromText="Discharge" toID="T2" toText="12/07/1993" type="OVERLAP" />
+<TLINK id="TL5" fromID="E1" fromText="end stage renal disease" toID="E18" toText="Admission" type="BEFORE" />
+<TLINK id="TL6" fromID="E2" fromText="hemodialysis" toID="E1" toText="end stage renal disease" type="OVERLAP" />
+<TLINK id="TL7" fromID="E2" fromText="hemodialysis" toID="T0" toText="12/91" type="AFTER" />
+<TLINK id="TL8" fromID="T4" fromText="age 12" toID="T0" toText="12/91" type="BEFORE" />
+<TLINK id="TL9" fromID="E26" fromText="noted" toID="T4" toText="age 12" type="OVERLAP" />
+<TLINK id="SECTIME0" fromID="E23" fromText="good amounts or urine" toID="T2" toText="12/07/1993" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E24" fromText="a regular diet" toID="T2" toText="12/07/1993" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E16" fromText="Her prednisone" toID="T2" toText="12/07/1993" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E25" fromText="tapered" toID="T2" toText="12/07/1993" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E17" fromText="a stable dose" toID="T2" toText="12/07/1993" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E1" fromText="end stage renal disease" toID="T1" toText="11/30/1993" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E2" fromText="hemodialysis" toID="T1" toText="11/30/1993" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E3" fromText="polycystic kidneydisease" toID="T1" toText="11/30/1993" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E26" fromText="noted" toID="T1" toText="11/30/1993" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E4" fromText="cadaveric renal allograft" toID="T1" toText="11/30/1993" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E5" fromText="an early postoperative transplant nephrectomy" toID="T1" toText="11/30/1993" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E6" fromText="rupture" toID="T1" toText="11/30/1993" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E7" fromText="difficult access problems" toID="T1" toText="11/30/1993" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E8" fromText="a left upper arm PTFE" toID="T1" toText="11/30/1993" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E9" fromText="emergency transplant" toID="T1" toText="11/30/1993" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E10" fromText="this difficult access problem" toID="T1" toText="11/30/1993" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E11" fromText="her last hemodialysis" toID="T1" toText="11/30/1993" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E12" fromText="transplant" toID="T1" toText="11/30/1993" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E19" fromText="the Operating Room" toID="T2" toText="12/07/1993" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E13" fromText="a cadaveric renal allograft to the left iliac fossa" toID="T2" toText="12/07/1993" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E20" fromText="tolerated well" toID="T2" toText="12/07/1993" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E21" fromText="Postoperative course" toID="T2" toText="12/07/1993" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E22" fromText="unremarkable" toID="T2" toText="12/07/1993" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E14" fromText="her immunosuppressive agents" toID="T2" toText="12/07/1993" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E15" fromText="Her creatinine" toID="T2" toText="12/07/1993" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="11/30/1993" type="ADMISSION" dvalue="1993-11-30" />
+<SECTIME id="S1" start="46" end="56" text="12/07/1993" type="DISCHARGE" dvalue="1993-12-07" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+03/03/1999
+Discharge Date :
+03/08/1999
+HISTORY OF PRESENT ILLNESS :
+Mr. Prehekote is an 88-year-old Portuguese speaking only male who was diagnosed with adenocarcinoma of the prostate in 1998 .
+He received transurethral resection of the prostate one year ago because of persistent urinary retention .
+After that , he was on Lupron and Nilandron hormone therapy .
+The patient was admitted on February 23 , 1999 to Eifro Medical Center because of failure to thrive and decreased hematocrit .
+He was noted to have elevated BUN and creatinine .
+BUN was 34 and creatinine was 2.6 , up from his baseline of 1.0 .
+Prostate specific antigen increased from 77.9 to 88 , and the patient also had urinary incontinence and body weight loss .
+Further evaluation of his renal failure showed that the patient has bilateral hydronephrosis , most likely obstructive uropathy due to prostate CA in the pelvic area .
+Because of the increasing creatinine to 8.0 on February 28 , 1999 , a left nephrostomy tube was placed .
+However after the procedure , the patient &apos;s hematocrit dropped to 24 and he was transfused two units of packed red blood cells .
+His hematocrit increased to about 30 , but he continued to have hematuria and his renal function only improved very slowly .
+He also received Kayexalate for hyperkalemia .
+Due to the persistent blood in the urine , he was transferred from Eifro Medical Center to the Retelk County Medical Center for angiographic studies to rule out any vascular injuries .
+The patient was transferred to Genearocktemp Ry Health on March 3 , 1999 .
+REVIEW OF SYSTEMS :
+The patient had constipation with dysuria , but no fever or chills .
+No cough .
+No chest pain .
+No palpitations , history of epigastric pain and body weight loss .
+No headache .
+No bone pain .
+HOSPITAL COURSE :
+After admission , urology , nephrology as well as interventional radiology was consulted about the management of this patient .
+The specialist concluded that because the patient &apos;s hematuria seemed to be stable and hematocrit to maintain at about 29-30 , there is no urgent need to do an arteriogram which may cause further damage to the patient &apos;s kidney .
+Urology consultation thinks that cystoscopy would not add any benefit to the management and only would consider a right nephrostomy if renal function failed to improve .
+After admission , the patient was treated conservatively to correct his electrolyte and metabolic acidosis .
+He was given blood transfusion , two units when his hematocrit dropped to 29.4 .
+After transfusion , the patient &apos;s hematocrit rose to 37.7 on the day of discharge .
+The patient was also given sodium bicarbonate to correct his metabolic acidosis .
+He continued to pass about 1500-2000 cc of urine a day and his renal function improved slowly with creatinine decreased to 4.2 on the day of discharge .
+During this admission , the patient also developed atrial fibrillation with ventricular rate of about 70-80 .
+CPK was tracked , but was totally normal .
+No beta blockers were given .
+A long discussion amongst the specialist , nephrology , urology , interventional radiology , primary oncology as well with the family lead to the conclusion that conservative management may give the patient more comfort than crisis treatment in this well advanced prostate CA .
+Dr. Lucreamull discussed the patient &apos;s clinical status and overall situation with the patient &apos;s family and the family decided that Mr. Prehekote could return home with hospice .
+The patient &apos;s primary care physician , Dr. Tomedankell Flowayles will manage the hospice issues .
+The patient was discharged to home for hospice on March 8 , 1999 .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="1035" end="1048" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="1051" end="1081" text="the patient &apos;s hematocrit" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="1107" end="1117" text="transfused" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1156" end="1170" text="His hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E30" start="1220" end="1229" text="hematuria" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1234" end="1252" text="his renal function" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="1258" end="1266" text="improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="1298" end="1308" text="Kayexalate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1313" end="1325" text="hyperkalemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1335" end="1368" text="the persistent blood in the urine" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1378" end="1389" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1395" end="1415" text="Eifro Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E38" start="1419" end="1451" text="the Retelk County Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E39" start="1456" end="1476" text="angiographic studies" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E40" start="1493" end="1510" text="vascular injuries" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1529" end="1540" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1544" end="1567" text="Genearocktemp Ry Health" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E4" start="156" end="165" text="diagnosed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1624" end="1636" text="constipation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="1642" end="1649" text="dysuria" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="1659" end="1664" text="fever" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E46" start="1668" end="1674" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E47" start="1680" end="1685" text="cough" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E48" start="1691" end="1701" text="chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E5" start="171" end="201" text="adenocarcinoma of the prostate" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="1707" end="1719" text="palpitations" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E50" start="1733" end="1748" text="epigastric pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1753" end="1769" text="body weight loss" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="1775" end="1783" text="headache" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E53" start="1789" end="1798" text="bone pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E54" start="1825" end="1834" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="1898" end="1907" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="1914" end="1928" text="the management" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="1962" end="1971" text="concluded" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="1985" end="2014" text="the patient &apos;s hematuria" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="2039" end="2049" text="hematocrit" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E60" start="2109" end="2123" text="an arteriogram" modality="CONDITIONAL" polarity="NEG" type="TEST" />
+<EVENT id="E61" start="2140" end="2184" text="further damage to the patient &apos;s kidney" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="2187" end="2207" text="Urology consultation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E63" start="2220" end="2230" text="cystoscopy" modality="CONDITIONAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E2" start="224" end="263" text="transurethral resection of the prostate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="2260" end="2274" text="the management" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E65" start="2299" end="2318" text="a right nephrostomy" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E66" start="2322" end="2336" text="renal function" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="2347" end="2354" text="improve" modality="CONDITIONAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E68" start="2363" end="2372" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="2391" end="2413" text="treated conservatively" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E70" start="2425" end="2463" text="his electrolyte and metabolic acidosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="2479" end="2496" text="blood transfusion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="2514" end="2528" text="his hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="2553" end="2564" text="transfusion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E74" start="2567" end="2597" text="the patient &apos;s hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E75" start="2625" end="2634" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="2664" end="2682" text="sodium bicarbonate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="2694" end="2716" text="his metabolic acidosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E78" start="2762" end="2767" text="urine" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E79" start="2778" end="2796" text="his renal function" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E80" start="2797" end="2805" text="improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E81" start="2818" end="2828" text="creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E82" start="2860" end="2869" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="288" end="316" text="persistent urinary retention" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="2879" end="2893" text="this admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E84" start="2923" end="2942" text="atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="2948" end="2964" text="ventricular rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E86" start="2982" end="2985" text="CPK" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E87" start="3016" end="3022" text="normal" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E88" start="3028" end="3041" text="beta blockers" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E89" start="3055" end="3072" text="A long discussion" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E90" start="3197" end="3211" text="the conclusion" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E91" start="3217" end="3240" text="conservative management" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E92" start="3280" end="3296" text="crisis treatment" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E93" start="3300" end="3330" text="this well advanced prostate CA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E94" start="3348" end="3357" text="discussed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E95" start="3387" end="3393" text="status" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="342" end="348" text="Lupron" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E98" start="3463" end="3470" text="decided" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E99" start="3496" end="3507" text="return home" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E100" start="3513" end="3520" text="hospice" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="353" end="378" text="Nilandron hormone therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E101" start="3606" end="3624" text="the hospice issues" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E102" start="3643" end="3653" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E103" start="3657" end="3661" text="home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E104" start="3666" end="3673" text="hospice" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="397" end="405" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="431" end="451" text="Eifro Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E10" start="463" end="480" text="failure to thrive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="485" end="505" text="decreased hematocrit" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="529" end="541" text="elevated BUN" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="546" end="556" text="creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="559" end="562" text="BUN" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="574" end="584" text="creatinine" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="625" end="650" text="Prostate specific antigen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="704" end="724" text="urinary incontinence" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="729" end="745" text="body weight loss" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="748" end="766" text="Further evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="770" end="787" text="his renal failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="816" end="840" text="bilateral hydronephrosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="855" end="875" text="obstructive uropathy" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="883" end="913" text="prostate CA in the pelvic area" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="927" end="952" text="the increasing creatinine" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="984" end="1007" text="a left nephrostomy tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T7" start="1571" end="1585" text="March 3 , 1999" type="DATE" val="1999-03-03" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="03/03/1999" type="DATE" val="1999-03-03" mod="NA" />
+<TIMEX3 id="T2" start="205" end="209" text="1998" type="DATE" val="1998" mod="NA" />
+<TIMEX3 id="T8" start="2614" end="2634" text="the day of discharge" type="DATE" val="1999-03-08" mod="NA" />
+<TIMEX3 id="T3" start="264" end="276" text="one year ago" type="DATE" val="1998-03-03" mod="APPROX" />
+<TIMEX3 id="T9" start="2849" end="2869" text="the day of discharge" type="DATE" val="1999-03-08" mod="NA" />
+<TIMEX3 id="T10" start="3677" end="3691" text="March 8 , 1999" type="DATE" val="1999-03-08" mod="NA" />
+<TIMEX3 id="T5" start="409" end="427" text="February 23 , 1999" type="DATE" val="1999-02-23" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="03/08/1999" type="DATE" val="1999-03-08" mod="NA" />
+<TIMEX3 id="T6" start="963" end="981" text="February 28 , 1999" type="DATE" val="1999-02-28" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="03/03/1999" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E54" fromText="admission" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E3" fromText="persistent urinary retention" toID="E2" toText="transurethral resection of the prostate" type="BEFORE_OVERLAP" />
+<TLINK id="TL100" fromID="E84" fromText="atrial fibrillation" toID="E83" toText="this admission" type="DURING" />
+<TLINK id="TL101" fromID="E86" fromText="CPK" toID="E83" toText="this admission" type="OVERLAP" />
+<TLINK id="TL102" fromID="E85" fromText="ventricular rate" toID="E84" toText="atrial fibrillation" type="OVERLAP" />
+<TLINK id="TL103" fromID="E87" fromText="normal" toID="E86" toText="CPK" type="SIMULTANEOUS" />
+<TLINK id="TL104" fromID="E88" fromText="beta blockers" toID="E83" toText="this admission" type="DURING" />
+<TLINK id="TL105" fromID="E90" fromText="the conclusion" toID="E89" toText="A long discussion" type="AFTER" />
+<TLINK id="TL106" fromID="E89" fromText="A long discussion" toID="E54" toText="admission" type="AFTER" />
+<TLINK id="TL107" fromID="E91" fromText="conservative management" toID="E90" toText="the conclusion" type="AFTER" />
+<TLINK id="TL108" fromID="E91" fromText="conservative management" toID="E82" toText="discharge" type="BEFORE_OVERLAP" />
+<TLINK id="TL109" fromID="E90" fromText="the conclusion" toID="E92" toText="crisis treatment" type="BEFORE" />
+<TLINK id="TL11" fromID="E6" fromText="Lupron" toID="E2" toText="transurethral resection of the prostate" type="AFTER" />
+<TLINK id="TL110" fromID="E93" fromText="this well advanced prostate CA" toID="E92" toText="crisis treatment" type="OVERLAP" />
+<TLINK id="TL111" fromID="E94" fromText="discussed" toID="E98" toText="decided" type="BEFORE" />
+<TLINK id="TL112" fromID="E95" fromText="status" toID="E94" toText="discussed" type="BEFORE" />
+<TLINK id="TL113" fromID="E99" fromText="return home" toID="E98" toText="decided" type="AFTER" />
+<TLINK id="TL114" fromID="E100" fromText="hospice" toID="E99" toText="return home" type="AFTER" />
+<TLINK id="TL115" fromID="E101" fromText="the hospice issues" toID="E100" toText="hospice" type="OVERLAP" />
+<TLINK id="TL116" fromID="E104" fromText="hospice" toID="E100" toText="hospice" type="SIMULTANEOUS" />
+<TLINK id="TL117" fromID="E102" fromText="discharged" toID="T10" toText="March 8 , 1999" type="SIMULTANEOUS" />
+<TLINK id="TL118" fromID="E103" fromText="home" toID="E102" toText="discharged" type="SIMULTANEOUS" />
+<TLINK id="TL119" fromID="E103" fromText="home" toID="E99" toText="return home" type="OVERLAP" />
+<TLINK id="TL12" fromID="E7" fromText="Nilandron hormone therapy" toID="E2" toText="transurethral resection of the prostate" type="AFTER" />
+<TLINK id="TL13" fromID="E8" fromText="admitted" toID="T5" toText="February 23 , 1999" type="SIMULTANEOUS" />
+<TLINK id="TL14" fromID="E10" fromText="failure to thrive" toID="E8" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL15" fromID="E11" fromText="decreased hematocrit" toID="E8" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL16" fromID="E12" fromText="elevated BUN" toID="E8" toText="admitted" type="OVERLAP" />
+<TLINK id="TL17" fromID="E9" fromText="Eifro Medical Center" toID="E8" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL18" fromID="E19" fromText="Further evaluation" toID="E8" toText="admitted" type="AFTER" />
+<TLINK id="TL19" fromID="E33" fromText="Kayexalate" toID="E8" toText="admitted" type="AFTER" />
+<TLINK id="TL2" fromID="E83" fromText="this admission" toID="T0" toText="03/03/1999" type="BEGUN_BY" />
+<TLINK id="TL20" fromID="E37" fromText="Eifro Medical Center" toID="E9" toText="Eifro Medical Center" type="SIMULTANEOUS" />
+<TLINK id="TL21" fromID="E11" fromText="decreased hematocrit" toID="E10" toText="failure to thrive" type="OVERLAP" />
+<TLINK id="TL22" fromID="E14" fromText="BUN" toID="E12" toText="elevated BUN" type="SIMULTANEOUS" />
+<TLINK id="TL23" fromID="E13" fromText="creatinine" toID="E12" toText="elevated BUN" type="OVERLAP" />
+<TLINK id="TL24" fromID="E15" fromText="creatinine" toID="E13" toText="creatinine" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E17" fromText="urinary incontinence" toID="E16" toText="Prostate specific antigen" type="OVERLAP" />
+<TLINK id="TL26" fromID="E16" fromText="Prostate specific antigen" toID="E12" toText="elevated BUN" type="OVERLAP" />
+<TLINK id="TL27" fromID="E18" fromText="body weight loss" toID="E17" toText="urinary incontinence" type="OVERLAP" />
+<TLINK id="TL28" fromID="E18" fromText="body weight loss" toID="E51" toText="body weight loss" type="simultaneous" />
+<TLINK id="TL29" fromID="E20" fromText="his renal failure" toID="E19" toText="Further evaluation" type="BEFORE_OVERLAP" />
+<TLINK id="TL3" fromID="T3" fromText="one year ago" toID="T0" toText="03/03/1999" type="ENDED_BY" />
+<TLINK id="TL30" fromID="E31" fromText="his renal function" toID="E20" toText="his renal failure" type="SIMULTANEOUS" />
+<TLINK id="TL31" fromID="E22" fromText="obstructive uropathy" toID="E21" toText="bilateral hydronephrosis" type="OVERLAP" />
+<TLINK id="TL34" fromID="E21" fromText="bilateral hydronephrosis" toID="E19" toText="Further evaluation" type="BEFORE_OVERLAP" />
+<TLINK id="TL35" fromID="E22" fromText="obstructive uropathy" toID="E23" toText="prostate CA in the pelvic area" type="AFTER" />
+<TLINK id="TL36" fromID="E93" fromText="this well advanced prostate CA" toID="E23" toText="prostate CA in the pelvic area" type="SIMULTANEOUS" />
+<TLINK id="TL37" fromID="E24" fromText="the increasing creatinine" toID="T6" toText="February 28 , 1999" type="SIMULTANEOUS" />
+<TLINK id="TL38" fromID="E25" fromText="a left nephrostomy tube" toID="E24" toText="the increasing creatinine" type="AFTER" />
+<TLINK id="TL39" fromID="E25" fromText="a left nephrostomy tube" toID="E26" toText="the procedure" type="simultaneous" />
+<TLINK id="TL4" fromID="E1" fromText="Discharge" toID="T1" toText="03/08/1999" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E27" fromText="the patient &apos;s hematocrit" toID="E26" toText="the procedure" type="AFTER" />
+<TLINK id="TL41" fromID="E30" fromText="hematuria" toID="E28" toText="transfused" type="AFTER" />
+<TLINK id="TL42" fromID="E26" fromText="the procedure" toID="E28" toText="transfused" type="BEFORE" />
+<TLINK id="TL43" fromID="E35" fromText="the persistent blood in the urine" toID="E30" toText="hematuria" type="SIMULTANEOUS" />
+<TLINK id="TL44" fromID="E31" fromText="his renal function" toID="E32" toText="improved" type="BEFORE_OVERLAP" />
+<TLINK id="TL45" fromID="E34" fromText="hyperkalemia" toID="E33" toText="Kayexalate" type="BEFORE_OVERLAP" />
+<TLINK id="TL46" fromID="E35" fromText="the persistent blood in the urine" toID="E36" toText="transferred" type="BEFORE_OVERLAP" />
+<TLINK id="TL47" fromID="E58" fromText="the patient &apos;s hematuria" toID="E30" toText="hematuria" type="SIMULTANEOUS" />
+<TLINK id="TL48" fromID="E58" fromText="the patient &apos;s hematuria" toID="E57" toText="concluded" type="BEFORE_OVERLAP" />
+<TLINK id="TL49" fromID="E59" fromText="hematocrit" toID="E58" toText="the patient &apos;s hematuria" type="OVERLAP" />
+<TLINK id="TL5" fromID="E83" fromText="this admission" toID="T1" toText="03/08/1999" type="ENDED_BY" />
+<TLINK id="TL50" fromID="E37" fromText="Eifro Medical Center" toID="E36" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL51" fromID="E38" fromText="the Retelk County Medical Center" toID="E36" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL52" fromID="E39" fromText="angiographic studies" toID="E36" toText="transferred" type="AFTER" />
+<TLINK id="TL53" fromID="E40" fromText="vascular injuries" toID="E36" toText="transferred" type="BEFORE_OVERLAP" />
+<TLINK id="TL55" fromID="E39" fromText="angiographic studies" toID="E38" toText="the Retelk County Medical Center" type="DURING" />
+<TLINK id="TL57" fromID="E40" fromText="vascular injuries" toID="E39" toText="angiographic studies" type="BEFORE_OVERLAP" />
+<TLINK id="TL58" fromID="E41" fromText="transferred" toID="T7" toText="March 3 , 1999" type="SIMULTANEOUS" />
+<TLINK id="TL59" fromID="E42" fromText="Genearocktemp Ry Health" toID="E41" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL6" fromID="E5" fromText="adenocarcinoma of the prostate" toID="E4" toText="diagnosed" type="BEFORE_OVERLAP" />
+<TLINK id="TL60" fromID="E43" fromText="constipation" toID="E41" toText="transferred" type="OVERLAP" />
+<TLINK id="TL61" fromID="E50" fromText="epigastric pain" toID="E41" toText="transferred" type="BEFORE" />
+<TLINK id="TL62" fromID="E51" fromText="body weight loss" toID="E41" toText="transferred" type="BEFORE" />
+<TLINK id="TL63" fromID="E38" fromText="the Retelk County Medical Center" toID="E41" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL64" fromID="E44" fromText="dysuria" toID="E43" toText="constipation" type="OVERLAP" />
+<TLINK id="TL65" fromID="E45" fromText="fever" toID="E43" toText="constipation" type="OVERLAP" />
+<TLINK id="TL66" fromID="E47" fromText="cough" toID="E43" toText="constipation" type="OVERLAP" />
+<TLINK id="TL67" fromID="E48" fromText="chest pain" toID="E43" toText="constipation" type="OVERLAP" />
+<TLINK id="TL68" fromID="E49" fromText="palpitations" toID="E43" toText="constipation" type="OVERLAP" />
+<TLINK id="TL69" fromID="E52" fromText="headache" toID="E43" toText="constipation" type="OVERLAP" />
+<TLINK id="TL7" fromID="E4" fromText="diagnosed" toID="T2" toText="1998" type="SIMULTANEOUS" />
+<TLINK id="TL70" fromID="E53" fromText="bone pain" toID="E43" toText="constipation" type="OVERLAP" />
+<TLINK id="TL71" fromID="E45" fromText="fever" toID="E44" toText="dysuria" type="OVERLAP" />
+<TLINK id="TL72" fromID="E46" fromText="chills" toID="E45" toText="fever" type="OVERLAP" />
+<TLINK id="TL74" fromID="E55" fromText="consulted" toID="E54" toText="admission" type="AFTER" />
+<TLINK id="TL75" fromID="E68" fromText="admission" toID="E54" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL76" fromID="E57" fromText="concluded" toID="E55" toText="consulted" type="OVERLAP" />
+<TLINK id="TL77" fromID="E62" fromText="Urology consultation" toID="E55" toText="consulted" type="SIMULTANEOUS" />
+<TLINK id="TL78" fromID="E64" fromText="the management" toID="E56" toText="the management" type="SIMULTANEOUS" />
+<TLINK id="TL79" fromID="E56" fromText="the management" toID="E54" toText="admission" type="AFTER" />
+<TLINK id="TL8" fromID="E23" fromText="prostate CA in the pelvic area" toID="E5" toText="adenocarcinoma of the prostate" type="SIMULTANEOUS" />
+<TLINK id="TL80" fromID="E60" fromText="an arteriogram" toID="E61" toText="further damage to the patient &apos;s kidney" type="OVERLAP" />
+<TLINK id="TL81" fromID="E57" fromText="concluded" toID="E60" toText="an arteriogram" type="AFTER" />
+<TLINK id="TL82" fromID="E63" fromText="cystoscopy" toID="E62" toText="Urology consultation" type="AFTER" />
+<TLINK id="TL83" fromID="E65" fromText="a right nephrostomy" toID="E62" toText="Urology consultation" type="AFTER" />
+<TLINK id="TL84" fromID="E63" fromText="cystoscopy" toID="E64" toText="the management" type="AFTER" />
+<TLINK id="TL85" fromID="E65" fromText="a right nephrostomy" toID="E67" toText="improve" type="AFTER" />
+<TLINK id="TL86" fromID="E66" fromText="renal function" toID="E67" toText="improve" type="OVERLAP" />
+<TLINK id="TL87" fromID="E69" fromText="treated conservatively" toID="E68" toText="admission" type="AFTER" />
+<TLINK id="TL88" fromID="E70" fromText="his electrolyte and metabolic acidosis" toID="E69" toText="treated conservatively" type="BEFORE" />
+<TLINK id="TL89" fromID="E70" fromText="his electrolyte and metabolic acidosis" toID="E77" toText="his metabolic acidosis" type="simultaneous" />
+<TLINK id="TL9" fromID="T3" fromText="one year ago" toID="E2" toText="transurethral resection of the prostate" type="OVERLAP" />
+<TLINK id="TL90" fromID="E71" fromText="blood transfusion" toID="E72" toText="his hematocrit" type="AFTER" />
+<TLINK id="TL91" fromID="E71" fromText="blood transfusion" toID="E69" toText="treated conservatively" type="OVERLAP" />
+<TLINK id="TL92" fromID="E71" fromText="blood transfusion" toID="E73" toText="transfusion" type="simultaneous" />
+<TLINK id="TL93" fromID="E74" fromText="the patient &apos;s hematocrit" toID="E73" toText="transfusion" type="AFTER" />
+<TLINK id="TL94" fromID="E74" fromText="the patient &apos;s hematocrit" toID="T8" toText="the day of discharge" type="OVERLAP" />
+<TLINK id="TL95" fromID="E76" fromText="sodium bicarbonate" toID="E77" toText="his metabolic acidosis" type="OVERLAP" />
+<TLINK id="TL96" fromID="E78" fromText="urine" toID="E54" toText="admission" type="AFTER" />
+<TLINK id="TL97" fromID="E79" fromText="his renal function" toID="E80" toText="improved" type="BEFORE_OVERLAP" />
+<TLINK id="TL98" fromID="E81" fromText="creatinine" toID="T9" toText="the day of discharge" type="OVERLAP" />
+<TLINK id="TL99" fromID="E81" fromText="creatinine" toID="E80" toText="improved" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="03/03/1999" type="ADMISSION" dvalue="1999-03-03" />
+<SECTIME id="S1" start="46" end="56" text="03/08/1999" type="DISCHARGE" dvalue="1999-03-08" />
+<TLINK id="SECTIME0" fromID="E26" fromText="the procedure" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E27" fromText="the patient &apos;s hematocrit" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E28" fromText="transfused" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E29" fromText="His hematocrit" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E30" fromText="hematuria" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E31" fromText="his renal function" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E32" fromText="improved" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E33" fromText="Kayexalate" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E34" fromText="hyperkalemia" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E35" fromText="the persistent blood in the urine" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E36" fromText="transferred" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E37" fromText="Eifro Medical Center" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E38" fromText="the Retelk County Medical Center" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E39" fromText="angiographic studies" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E40" fromText="vascular injuries" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E41" fromText="transferred" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E42" fromText="Genearocktemp Ry Health" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E4" fromText="diagnosed" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E43" fromText="constipation" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E44" fromText="dysuria" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E45" fromText="fever" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E46" fromText="chills" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E47" fromText="cough" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E48" fromText="chest pain" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E5" fromText="adenocarcinoma of the prostate" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E49" fromText="palpitations" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E50" fromText="epigastric pain" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E51" fromText="body weight loss" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E52" fromText="headache" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E53" fromText="bone pain" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E54" fromText="admission" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E55" fromText="consulted" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E56" fromText="the management" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E57" fromText="concluded" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E58" fromText="the patient &apos;s hematuria" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E59" fromText="hematocrit" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E60" fromText="an arteriogram" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E61" fromText="further damage to the patient &apos;s kidney" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E62" fromText="Urology consultation" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E63" fromText="cystoscopy" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E2" fromText="transurethral resection of the prostate" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E64" fromText="the management" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E65" fromText="a right nephrostomy" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E66" fromText="renal function" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E67" fromText="improve" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E68" fromText="admission" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E69" fromText="treated conservatively" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E70" fromText="his electrolyte and metabolic acidosis" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E71" fromText="blood transfusion" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E72" fromText="his hematocrit" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E73" fromText="transfusion" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E74" fromText="the patient &apos;s hematocrit" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E75" fromText="discharge" toID="T1" toText="03/08/1999" type="OVERLAP" />
+<TLINK id="SECTIME53" fromID="E76" fromText="sodium bicarbonate" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E77" fromText="his metabolic acidosis" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E78" fromText="urine" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E79" fromText="his renal function" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E80" fromText="improved" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E81" fromText="creatinine" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E82" fromText="discharge" toID="T1" toText="03/08/1999" type="OVERLAP" />
+<TLINK id="SECTIME60" fromID="E3" fromText="persistent urinary retention" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E84" fromText="atrial fibrillation" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E85" fromText="ventricular rate" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E86" fromText="CPK" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E87" fromText="normal" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E88" fromText="beta blockers" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E89" fromText="A long discussion" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E90" fromText="the conclusion" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E91" fromText="conservative management" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E92" fromText="crisis treatment" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E93" fromText="this well advanced prostate CA" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E94" fromText="discussed" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E95" fromText="status" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E6" fromText="Lupron" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E98" fromText="decided" toID="T1" toText="03/08/1999" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E99" fromText="return home" toID="T1" toText="03/08/1999" type="AFTER" />
+<TLINK id="SECTIME76" fromID="E100" fromText="hospice" toID="T1" toText="03/08/1999" type="AFTER" />
+<TLINK id="SECTIME77" fromID="E7" fromText="Nilandron hormone therapy" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E101" fromText="the hospice issues" toID="T1" toText="03/08/1999" type="AFTER" />
+<TLINK id="SECTIME79" fromID="E102" fromText="discharged" toID="T1" toText="03/08/1999" type="OVERLAP" />
+<TLINK id="SECTIME80" fromID="E103" fromText="home" toID="T1" toText="03/08/1999" type="AFTER" />
+<TLINK id="SECTIME81" fromID="E104" fromText="hospice" toID="T1" toText="03/08/1999" type="AFTER" />
+<TLINK id="SECTIME82" fromID="E8" fromText="admitted" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E9" fromText="Eifro Medical Center" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E10" fromText="failure to thrive" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E11" fromText="decreased hematocrit" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E12" fromText="elevated BUN" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E13" fromText="creatinine" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E14" fromText="BUN" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E15" fromText="creatinine" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E16" fromText="Prostate specific antigen" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E17" fromText="urinary incontinence" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E18" fromText="body weight loss" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E19" fromText="Further evaluation" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E20" fromText="his renal failure" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E21" fromText="bilateral hydronephrosis" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E22" fromText="obstructive uropathy" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E23" fromText="prostate CA in the pelvic area" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E24" fromText="the increasing creatinine" toID="T0" toText="03/03/1999" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E25" fromText="a left nephrostomy tube" toID="T0" toText="03/03/1999" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

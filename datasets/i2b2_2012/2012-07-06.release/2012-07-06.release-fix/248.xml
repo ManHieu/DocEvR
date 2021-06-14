@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2016-04-05
+Discharge Date :
+2016-04-11
+Service :
+Cardiothoracic Surgery
+HISTORY OF PRESENT ILLNESS :
+This is a 67 - year-old male with a history of high cholesterol who was in his usual state of health until 2016-04-03 .
+He was raking leaves on 04-02 and then developed episodes of mid chest pain and burning which radiated to the left arm .
+That night he reportedly stopped breathing and was unresponsive .
+His wife gave him mouth-to-mouth resuscitation and he regained consciousness .
+He presented to an outside hospital with an acute inferior myocardial infarction and was treated with thrombolytic therapy .
+His troponin was 20 and he had EKG changes .
+He underwent catheterization on 2016-04-05 which revealed a left ventricular ejection fraction of 50% , no mitral regurgitation , insufficiency or hypokinesis .
+Left main coronary artery was narrowed 50-60% , left anterior descending coronary artery 70% proximally , right coronary artery dominant diseased up to 90% proximally in the midportion , 70% distally .
+The left circumflex coronary artery was 50% proximally , 90% obtuse marginal #3 .
+HOSPITAL COURSE :
+The patient was admitted to the hospital and on 2016-04-06 the patient underwent coronary artery bypass grafting x 4 with left internal mammary artery to the left anterior descending coronary artery , saphenous vein graft to the diagonal , saphenous vein graft to obtuse marginal , saphenous vein graft to right coronary artery , posterior descending coronary artery .
+The patient appeared to have tolerated the procedure and was transferred to the cardiac intensive care unit for postoperative management .
+He was started on beta blockers .
+The patient had pacing wires and chest tubes in place , both of which over the course of his stay were removed successfully .
+The patient did well postoperatively and was transported to the regular cardiac surgery floor where he tolerated a regular diet , ambulated well , did well with his activities of daily living .
+He was seen by physical therapy and cleared .
+They requested that he follow up in three to five weeks for endurance training , however then physical therapy followed him a number of times afterward and decided that he was in good condition and did not need further physical therapy .
+On 2016-04-11 the patient was in good condition and he is being discharged on a regular heart-healthy diet .
+He may observe regular activity although he should avoid strenuous activity and should not drive while on pain medications .
+He should follow up with Dr. Dushaj in four weeks .
+He should follow up with his cardiologist in two to three weeks and he should follow up with his primary care physician in one to two weeks .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="1154" end="1162" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="1166" end="1178" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E28" start="1219" end="1250" text="coronary artery bypass grafting" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="1339" end="1375" text="saphenous vein graft to the diagonal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="1378" end="1417" text="saphenous vein graft to obtuse marginal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="1420" end="1465" text="saphenous vein graft to right coronary artery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="1536" end="1545" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="1546" end="1559" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E34" start="1568" end="1579" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="1583" end="1614" text="the cardiac intensive care unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E36" start="1619" end="1643" text="postoperative management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="166" end="182" text="high cholesterol" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1664" end="1677" text="beta blockers" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="1696" end="1708" text="pacing wires" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1713" end="1724" text="chest tubes" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1755" end="1777" text="the course of his stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1818" end="1826" text="did well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1851" end="1862" text="transported" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1866" end="1899" text="the regular cardiac surgery floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E45" start="1909" end="1918" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="1919" end="1933" text="a regular diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1936" end="1950" text="ambulated well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E47" start="1953" end="1961" text="did well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E48" start="1967" end="1997" text="his activities of daily living" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="194" end="219" text="his usual state of health" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="2007" end="2031" text="seen by physical therapy" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="2069" end="2078" text="follow up" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="2106" end="2124" text="endurance training" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="2257" end="2281" text="further physical therapy" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E53" start="2317" end="2331" text="good condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="2348" end="2358" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="2362" end="2390" text="a regular heart-healthy diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="2408" end="2424" text="regular activity" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="2450" end="2468" text="strenuous activity" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E4" start="246" end="259" text="raking leaves" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="2484" end="2489" text="drive" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E59" start="2499" end="2515" text="pain medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="2528" end="2537" text="follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E61" start="2580" end="2589" text="follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E62" start="2648" end="2657" text="follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="300" end="314" text="mid chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="319" end="326" text="burning" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="333" end="357" text="radiated to the left arm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="385" end="402" text="stopped breathing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="411" end="423" text="unresponsive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="444" end="472" text="mouth-to-mouth resuscitation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="480" end="502" text="regained consciousness" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="508" end="517" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E13" start="521" end="540" text="an outside hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E14" start="546" end="585" text="an acute inferior myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="607" end="627" text="thrombolytic therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="630" end="642" text="His troponin" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="661" end="672" text="EKG changes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="688" end="703" text="catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="724" end="732" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E20" start="733" end="769" text="a left ventricular ejection fraction" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="782" end="802" text="mitral regurgitation" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E22" start="805" end="818" text="insufficiency" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E23" start="822" end="833" text="hypokinesis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E24" start="866" end="874" text="narrowed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="942" end="981" text="right coronary artery dominant diseased" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T6" start="1186" end="1196" text="2016-04-06" type="DATE" val="2016-04-06" mod="NA" />
+<TIMEX3 id="T8" start="1251" end="1254" text="x 4" type="FREQUENCY" val="r4" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2016-04-05" type="DATE" val="2016-04-05" mod="NA" />
+<TIMEX3 id="T7" start="2082" end="2101" text="three to five weeks" type="DURATION" val="p4w" mod="APPROX" />
+<TIMEX3 id="T2" start="226" end="236" text="2016-04-03" type="DATE" val="2016-04-03" mod="NA" />
+<TIMEX3 id="T9" start="2287" end="2297" text="2016-04-11" type="DATE" val="2016-04-11" mod="NA" />
+<TIMEX3 id="T10" start="2557" end="2567" text="four weeks" type="DURATION" val="p4w" mod="NA" />
+<TIMEX3 id="T11" start="2615" end="2633" text="two to three weeks" type="DURATION" val="p2.5w" mod="APPROX" />
+<TIMEX3 id="T3" start="263" end="268" text="04-02" type="DATE" val="2016-04-02" mod="NA" />
+<TIMEX3 id="T12" start="2693" end="2709" text="one to two weeks" type="DURATION" val="p1.5w" mod="APPROX" />
+<TIMEX3 id="T4" start="360" end="370" text="That night" type="DATE" val="2016-04-02" mod="END" />
+<TIMEX3 id="T1" start="46" end="56" text="2016-04-11" type="DATE" val="2016-04-11" mod="NA" />
+<TIMEX3 id="T5" start="707" end="717" text="2016-04-05" type="DATE" val="2016-04-05" mod="NA" />
+<TLINK id="TL1" fromID="E2" fromText="high cholesterol" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL10" fromID="T4" fromText="That night" toID="E8" toText="stopped breathing" type="OVERLAP" />
+<TLINK id="TL11" fromID="E9" fromText="unresponsive" toID="E8" toText="stopped breathing" type="OVERLAP" />
+<TLINK id="TL12" fromID="E10" fromText="mouth-to-mouth resuscitation" toID="E8" toText="stopped breathing" type="AFTER" />
+<TLINK id="TL13" fromID="E11" fromText="regained consciousness" toID="E10" toText="mouth-to-mouth resuscitation" type="AFTER" />
+<TLINK id="TL14" fromID="E12" fromText="presented" toID="E11" toText="regained consciousness" type="AFTER" />
+<TLINK id="TL15" fromID="E13" fromText="an outside hospital" toID="E12" toText="presented" type="AFTER" />
+<TLINK id="TL16" fromID="E14" fromText="an acute inferior myocardial infarction" toID="E13" toText="an outside hospital" type="BEFORE" />
+<TLINK id="TL17" fromID="E15" fromText="thrombolytic therapy" toID="E12" toText="presented" type="AFTER" />
+<TLINK id="TL18" fromID="E16" fromText="His troponin" toID="E12" toText="presented" type="AFTER" />
+<TLINK id="TL19" fromID="E17" fromText="EKG changes" toID="E12" toText="presented" type="AFTER" />
+<TLINK id="TL2" fromID="E0" fromText="Admission" toID="T0" toText="2016-04-05" type="OVERLAP" />
+<TLINK id="TL20" fromID="E18" fromText="catheterization" toID="T5" toText="2016-04-05" type="OVERLAP" />
+<TLINK id="TL21" fromID="E18" fromText="catheterization" toID="E12" toText="presented" type="AFTER" />
+<TLINK id="TL22" fromID="E18" fromText="catheterization" toID="E20" toText="a left ventricular ejection fraction" type="OVERLAP" />
+<TLINK id="TL23" fromID="E19" fromText="revealed" toID="E18" toText="catheterization" type="OVERLAP" />
+<TLINK id="TL24" fromID="E21" fromText="mitral regurgitation" toID="E18" toText="catheterization" type="BEFORE" />
+<TLINK id="TL25" fromID="E22" fromText="insufficiency" toID="E18" toText="catheterization" type="BEFORE" />
+<TLINK id="TL26" fromID="E23" fromText="hypokinesis" toID="E18" toText="catheterization" type="BEFORE" />
+<TLINK id="TL27" fromID="E24" fromText="narrowed" toID="E18" toText="catheterization" type="BEFORE" />
+<TLINK id="TL28" fromID="E25" fromText="right coronary artery dominant diseased" toID="E18" toText="catheterization" type="BEFORE" />
+<TLINK id="TL29" fromID="E26" fromText="admitted" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL3" fromID="E1" fromText="Discharge" toID="T1" toText="2016-04-11" type="OVERLAP" />
+<TLINK id="TL30" fromID="E27" fromText="the hospital" toID="T0" toText="2016-04-05" type="AFTER" />
+<TLINK id="TL31" fromID="E28" fromText="coronary artery bypass grafting" toID="T6" toText="2016-04-06" type="OVERLAP" />
+<TLINK id="TL32" fromID="E28" fromText="coronary artery bypass grafting" toID="E33" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL33" fromID="T8" fromText="x 4" toID="E28" toText="coronary artery bypass grafting" type="OVERLAP" />
+<TLINK id="TL34" fromID="E29" fromText="saphenous vein graft to the diagonal" toID="E28" toText="coronary artery bypass grafting" type="OVERLAP" />
+<TLINK id="TL35" fromID="E30" fromText="saphenous vein graft to obtuse marginal" toID="E28" toText="coronary artery bypass grafting" type="OVERLAP" />
+<TLINK id="TL36" fromID="E31" fromText="saphenous vein graft to right coronary artery" toID="E28" toText="coronary artery bypass grafting" type="OVERLAP" />
+<TLINK id="TL37" fromID="E32" fromText="tolerated" toID="E33" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL38" fromID="E34" fromText="transferred" toID="E33" toText="the procedure" type="AFTER" />
+<TLINK id="TL39" fromID="E35" fromText="the cardiac intensive care unit" toID="E34" toText="transferred" type="AFTER" />
+<TLINK id="TL4" fromID="E54" fromText="discharged" toID="E1" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL40" fromID="E35" fromText="the cardiac intensive care unit" toID="E36" toText="postoperative management" type="OVERLAP" />
+<TLINK id="TL41" fromID="E37" fromText="beta blockers" toID="E33" toText="the procedure" type="AFTER" />
+<TLINK id="TL42" fromID="E38" fromText="pacing wires" toID="E33" toText="the procedure" type="AFTER" />
+<TLINK id="TL43" fromID="E39" fromText="chest tubes" toID="E33" toText="the procedure" type="AFTER" />
+<TLINK id="TL44" fromID="E40" fromText="the course of his stay" toID="T0" toText="2016-04-05" type="AFTER" />
+<TLINK id="TL45" fromID="E40" fromText="the course of his stay" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="TL46" fromID="E39" fromText="chest tubes" toID="E43" toText="the regular cardiac surgery floor" type="BEFORE" />
+<TLINK id="TL48" fromID="E41" fromText="did well" toID="E33" toText="the procedure" type="AFTER" />
+<TLINK id="TL49" fromID="E38" fromText="pacing wires" toID="E43" toText="the regular cardiac surgery floor" type="BEFORE" />
+<TLINK id="TL5" fromID="E3" fromText="his usual state of health" toID="T2" toText="2016-04-03" type="BEFORE" />
+<TLINK id="TL50" fromID="E35" fromText="the cardiac intensive care unit" toID="E42" toText="transported" type="BEFORE" />
+<TLINK id="TL51" fromID="E43" fromText="the regular cardiac surgery floor" toID="E42" toText="transported" type="AFTER" />
+<TLINK id="TL53" fromID="E45" fromText="tolerated" toID="E44" toText="a regular diet" type="OVERLAP" />
+<TLINK id="TL54" fromID="E44" fromText="a regular diet" toID="E43" toText="the regular cardiac surgery floor" type="OVERLAP" />
+<TLINK id="TL55" fromID="E46" fromText="ambulated well" toID="E44" toText="a regular diet" type="OVERLAP" />
+<TLINK id="TL56" fromID="E47" fromText="did well" toID="E48" toText="his activities of daily living" type="OVERLAP" />
+<TLINK id="TL57" fromID="E48" fromText="his activities of daily living" toID="E44" toText="a regular diet" type="OVERLAP" />
+<TLINK id="TL58" fromID="E49" fromText="seen by physical therapy" toID="E42" toText="transported" type="AFTER" />
+<TLINK id="TL59" fromID="E52" fromText="further physical therapy" toID="E51" toText="endurance training" type="OVERLAP" />
+<TLINK id="TL6" fromID="E4" fromText="raking leaves" toID="T3" toText="04-02" type="OVERLAP" />
+<TLINK id="TL60" fromID="E51" fromText="endurance training" toID="T7" toText="three to five weeks" type="OVERLAP" />
+<TLINK id="TL61" fromID="E51" fromText="endurance training" toID="E50" toText="follow up" type="OVERLAP" />
+<TLINK id="TL62" fromID="E50" fromText="follow up" toID="E1" toText="Discharge" type="AFTER" />
+<TLINK id="TL63" fromID="T9" fromText="2016-04-11" toID="E54" toText="discharged" type="OVERLAP" />
+<TLINK id="TL64" fromID="E53" fromText="good condition" toID="T9" toText="2016-04-11" type="OVERLAP" />
+<TLINK id="TL65" fromID="E55" fromText="a regular heart-healthy diet" toID="E54" toText="discharged" type="BEFORE" />
+<TLINK id="TL66" fromID="E56" fromText="regular activity" toID="E54" toText="discharged" type="AFTER" />
+<TLINK id="TL67" fromID="E57" fromText="strenuous activity" toID="E54" toText="discharged" type="AFTER" />
+<TLINK id="TL68" fromID="E58" fromText="drive" toID="E59" toText="pain medications" type="OVERLAP" />
+<TLINK id="TL69" fromID="E59" fromText="pain medications" toID="E54" toText="discharged" type="AFTER" />
+<TLINK id="TL7" fromID="E5" fromText="mid chest pain" toID="E4" toText="raking leaves" type="OVERLAP" />
+<TLINK id="TL70" fromID="T10" fromText="four weeks" toID="E60" toText="follow up" type="BEFORE" />
+<TLINK id="TL71" fromID="T10" fromText="four weeks" toID="E54" toText="discharged" type="AFTER" />
+<TLINK id="TL72" fromID="T11" fromText="two to three weeks" toID="E54" toText="discharged" type="AFTER" />
+<TLINK id="TL73" fromID="T11" fromText="two to three weeks" toID="E61" toText="follow up" type="BEFORE" />
+<TLINK id="TL74" fromID="T12" fromText="one to two weeks" toID="E54" toText="discharged" type="AFTER" />
+<TLINK id="TL75" fromID="T12" fromText="one to two weeks" toID="E62" toText="follow up" type="BEFORE" />
+<TLINK id="TL8" fromID="E6" fromText="burning" toID="E5" toText="mid chest pain" type="OVERLAP" />
+<TLINK id="TL9" fromID="E7" fromText="radiated to the left arm" toID="E5" toText="mid chest pain" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2016-04-05" type="ADMISSION" dvalue="2016-04-05" />
+<SECTIME id="S1" start="46" end="56" text="2016-04-11" type="DISCHARGE" dvalue="2016-04-11" />
+<TLINK id="SECTIME0" fromID="E26" fromText="admitted" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E27" fromText="the hospital" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E28" fromText="coronary artery bypass grafting" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E29" fromText="saphenous vein graft to the diagonal" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E30" fromText="saphenous vein graft to obtuse marginal" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E31" fromText="saphenous vein graft to right coronary artery" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E32" fromText="tolerated" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E33" fromText="the procedure" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E34" fromText="transferred" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E35" fromText="the cardiac intensive care unit" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E36" fromText="postoperative management" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E2" fromText="high cholesterol" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E37" fromText="beta blockers" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E38" fromText="pacing wires" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E39" fromText="chest tubes" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E41" fromText="did well" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E42" fromText="transported" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E43" fromText="the regular cardiac surgery floor" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E45" fromText="tolerated" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E44" fromText="a regular diet" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E46" fromText="ambulated well" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E47" fromText="did well" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E48" fromText="his activities of daily living" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E3" fromText="his usual state of health" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E49" fromText="seen by physical therapy" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E50" fromText="follow up" toID="T1" toText="2016-04-11" type="AFTER" />
+<TLINK id="SECTIME26" fromID="E51" fromText="endurance training" toID="T1" toText="2016-04-11" type="AFTER" />
+<TLINK id="SECTIME27" fromID="E52" fromText="further physical therapy" toID="T1" toText="2016-04-11" type="AFTER" />
+<TLINK id="SECTIME28" fromID="E53" fromText="good condition" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E54" fromText="discharged" toID="T1" toText="2016-04-11" type="OVERLAP" />
+<TLINK id="SECTIME30" fromID="E55" fromText="a regular heart-healthy diet" toID="T1" toText="2016-04-11" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E56" fromText="regular activity" toID="T1" toText="2016-04-11" type="AFTER" />
+<TLINK id="SECTIME32" fromID="E57" fromText="strenuous activity" toID="T1" toText="2016-04-11" type="AFTER" />
+<TLINK id="SECTIME33" fromID="E4" fromText="raking leaves" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E58" fromText="drive" toID="T1" toText="2016-04-11" type="AFTER" />
+<TLINK id="SECTIME35" fromID="E59" fromText="pain medications" toID="T1" toText="2016-04-11" type="AFTER" />
+<TLINK id="SECTIME36" fromID="E60" fromText="follow up" toID="T1" toText="2016-04-11" type="AFTER" />
+<TLINK id="SECTIME37" fromID="E61" fromText="follow up" toID="T1" toText="2016-04-11" type="AFTER" />
+<TLINK id="SECTIME38" fromID="E62" fromText="follow up" toID="T1" toText="2016-04-11" type="AFTER" />
+<TLINK id="SECTIME39" fromID="E5" fromText="mid chest pain" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E6" fromText="burning" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E7" fromText="radiated to the left arm" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E8" fromText="stopped breathing" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E9" fromText="unresponsive" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E10" fromText="mouth-to-mouth resuscitation" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E11" fromText="regained consciousness" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E12" fromText="presented" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E13" fromText="an outside hospital" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E14" fromText="an acute inferior myocardial infarction" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E15" fromText="thrombolytic therapy" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E16" fromText="His troponin" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E17" fromText="EKG changes" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E18" fromText="catheterization" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E19" fromText="revealed" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E20" fromText="a left ventricular ejection fraction" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E21" fromText="mitral regurgitation" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E22" fromText="insufficiency" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E23" fromText="hypokinesis" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E24" fromText="narrowed" toID="T0" toText="2016-04-05" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E25" fromText="right coronary artery dominant diseased" toID="T0" toText="2016-04-05" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

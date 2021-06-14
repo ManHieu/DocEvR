@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+09/10/1999
+DISCHARGE DATE :
+09/14/1999
+HISTORY OF PRESENT ILLNESS :
+Ms. Sterpkoteneish is a 69-year-old woman , who over the past six months has noted increasing pain in her left upper quadrant radiating to the back .
+She described the pain as being exacerbated by eating and described an associated weight loss .
+She presented to her primary care physician , Dr. Tlandtaze , in Aersing Rocuch Sun , who obtained a CT scan , which demonstrated a mass in the tail of the pancreas .
+She was then referred to the Fairm of Ijordcompmac Hospital under the El Memorial and was seen by Dr. Blinjesc , who scheduled her for an exploratory laparoscopy .
+HOSPITAL COURSE AND TREATMENT :
+The patient was admitted through same day surgery and taken to the operating room where Dr. Blinjesc , assisted by Dr. Zockbeathe , performed a diagnostic laparoscopy with peritoneal washings .
+Findings included no gross evidence seating in the abdominal wall ; one nodule on the posterior surface of the right lobe of the liver ; one nodule in the inferior edge of the falciform ligament .
+Specimens sent to pathology included peritoneal washings and permanent specimens from the liver and falciform nodules .
+There were no complications , and the patient tolerated the procedure well .
+Postoperatively , the patient had some abdominal bloating with evidence of subcutaneous emphysema over the abdomen .
+She was uncomfortable and slow to have bowel movements , although she did have flatus .
+She tolerated a full diet well , but continued to have abdominal cramping and a mild ileus for the following three days .
+She was treated with repeated Fleet &apos;s enemas , and on postoperative day three , she had a number of bowel movements , was considerably more comfortable , and deemed ready for discharge .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="1026" end="1036" text="one nodule" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1086" end="1095" text="Specimens" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="1123" end="1142" text="peritoneal washings" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="1147" end="1181" text="permanent specimens from the liver" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E34" start="1186" end="1203" text="falciform nodules" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1220" end="1233" text="complications" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E36" start="1252" end="1261" text="tolerated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E37" start="1262" end="1275" text="the procedure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="1317" end="1340" text="some abdominal bloating" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E39" start="1346" end="1354" text="evidence" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E40" start="1358" end="1397" text="subcutaneous emphysema over the abdomen" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1408" end="1421" text="uncomfortable" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1426" end="1454" text="slow to have bowel movements" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="1479" end="1485" text="flatus" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="1492" end="1501" text="tolerated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E45" start="1509" end="1513" text="diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1525" end="1534" text="continued" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E47" start="1543" end="1561" text="abdominal cramping" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E48" start="1566" end="1578" text="a mild ileus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="1618" end="1625" text="treated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="163" end="168" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E50" start="1631" end="1660" text="repeated Fleet &apos;s enemas" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="169" end="211" text="increasing pain in her left upper quadrant" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="1704" end="1731" text="a number of bowel movements" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="1756" end="1767" text="comfortable" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E53" start="1781" end="1786" text="ready" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E54" start="1791" end="1800" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="240" end="249" text="described" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E4" start="250" end="258" text="the pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E5" start="268" end="279" text="exacerbated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="283" end="289" text="eating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="29" end="38" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="294" end="303" text="described" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E9" start="304" end="329" text="an associated weight loss" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="336" end="345" text="presented" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E11" start="397" end="415" text="Aersing Rocuch Sun" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E12" start="422" end="430" text="obtained" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="431" end="440" text="a CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="443" end="448" text="which" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="449" end="461" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E16" start="462" end="468" text="a mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="512" end="520" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="524" end="558" text="the Fairm of Ijordcompmac Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E19" start="565" end="580" text="the El Memorial" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E20" start="616" end="625" text="scheduled" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="634" end="660" text="an exploratory laparoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E22" start="711" end="719" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="728" end="744" text="same day surgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E24" start="758" end="776" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E25" start="827" end="836" text="performed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="837" end="861" text="a diagnostic laparoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="867" end="886" text="peritoneal washings" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="907" end="954" text="no gross evidence seating in the abdominal wall" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E29" start="957" end="967" text="one nodule" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T2" start="139" end="158" text="the past six months" type="DURATION" val="P6M" mod="NA" />
+<TIMEX3 id="T4" start="1583" end="1607" text="the following three days" type="DURATION" val="P3D" mod="NA" />
+<TIMEX3 id="T5" start="1670" end="1693" text="postoperative day three" type="DATE" val="1999-09-13" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="09/10/1999" type="DATE" val="1999-09-10" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="09/14/1999" type="DATE" val="1999-09-14" mod="NA" />
+<TIMEX3 id="T3" start="728" end="736" text="same day" type="DATE" val="1999-09-10" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T0" toText="09/10/1999" type="OVERLAP" />
+<TLINK id="TL1" fromID="T0" fromText="09/10/1999" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL10" fromID="E7" fromText="described" toID="E8" toText="described" type="OVERLAP" />
+<TLINK id="TL11" fromID="E9" fromText="an associated weight loss" toID="E3" toText="increasing pain in her left upper quadrant" type="OVERLAP" />
+<TLINK id="TL12" fromID="E10" fromText="presented" toID="E11" toText="Aersing Rocuch Sun" type="OVERLAP" />
+<TLINK id="TL13" fromID="E10" fromText="presented" toID="E4" toText="the pain" type="AFTER" />
+<TLINK id="TL14" fromID="E13" fromText="a CT scan" toID="E12" toText="obtained" type="OVERLAP" />
+<TLINK id="TL15" fromID="E16" fromText="a mass" toID="E15" toText="demonstrated" type="BEFORE" />
+<TLINK id="TL16" fromID="E17" fromText="referred" toID="E15" toText="demonstrated" type="AFTER" />
+<TLINK id="TL17" fromID="E18" fromText="the Fairm of Ijordcompmac Hospital" toID="E17" toText="referred" type="AFTER" />
+<TLINK id="TL18" fromID="E19" fromText="the El Memorial" toID="E18" toText="the Fairm of Ijordcompmac Hospital" type="OVERLAP" />
+<TLINK id="TL19" fromID="E21" fromText="an exploratory laparoscopy" toID="E20" toText="scheduled" type="AFTER" />
+<TLINK id="TL2" fromID="E1" fromText="DISCHARGE" toID="T1" toText="09/14/1999" type="OVERLAP" />
+<TLINK id="TL20" fromID="E20" fromText="scheduled" toID="E18" toText="the Fairm of Ijordcompmac Hospital" type="OVERLAP" />
+<TLINK id="TL21" fromID="E22" fromText="admitted" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL22" fromID="E23" fromText="same day surgery" toID="E22" toText="admitted" type="OVERLAP" />
+<TLINK id="TL23" fromID="E22" fromText="admitted" toID="E24" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL24" fromID="E26" fromText="a diagnostic laparoscopy" toID="E24" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL25" fromID="E26" fromText="a diagnostic laparoscopy" toID="E25" toText="performed" type="OVERLAP" />
+<TLINK id="TL26" fromID="E27" fromText="peritoneal washings" toID="E26" toText="a diagnostic laparoscopy" type="OVERLAP" />
+<TLINK id="TL27" fromID="E32" fromText="peritoneal washings" toID="E27" toText="peritoneal washings" type="OVERLAP" />
+<TLINK id="TL28" fromID="E28" fromText="no gross evidence seating in the abdominal wall" toID="E26" toText="a diagnostic laparoscopy" type="OVERLAP" />
+<TLINK id="TL29" fromID="E30" fromText="one nodule" toID="E28" toText="no gross evidence seating in the abdominal wall" type="OVERLAP" />
+<TLINK id="TL3" fromID="E13" fromText="a CT scan" toID="E15" toText="demonstrated" type="OVERLAP" />
+<TLINK id="TL30" fromID="E29" fromText="one nodule" toID="E28" toText="no gross evidence seating in the abdominal wall" type="OVERLAP" />
+<TLINK id="TL31" fromID="E33" fromText="permanent specimens from the liver" toID="E31" toText="Specimens" type="OVERLAP" />
+<TLINK id="TL32" fromID="E32" fromText="peritoneal washings" toID="E31" toText="Specimens" type="OVERLAP" />
+<TLINK id="TL33" fromID="E34" fromText="falciform nodules" toID="E31" toText="Specimens" type="OVERLAP" />
+<TLINK id="TL34" fromID="E35" fromText="complications" toID="E37" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL35" fromID="E36" fromText="tolerated" toID="E37" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL36" fromID="E38" fromText="some abdominal bloating" toID="E37" toText="the procedure" type="AFTER" />
+<TLINK id="TL37" fromID="E40" fromText="subcutaneous emphysema over the abdomen" toID="E39" toText="evidence" type="OVERLAP" />
+<TLINK id="TL38" fromID="E40" fromText="subcutaneous emphysema over the abdomen" toID="E37" toText="the procedure" type="AFTER" />
+<TLINK id="TL39" fromID="E41" fromText="uncomfortable" toID="E38" toText="some abdominal bloating" type="OVERLAP" />
+<TLINK id="TL4" fromID="E2" fromText="noted" toID="T2" toText="the past six months" type="OVERLAP" />
+<TLINK id="TL40" fromID="E41" fromText="uncomfortable" toID="E42" toText="slow to have bowel movements" type="OVERLAP" />
+<TLINK id="TL41" fromID="E43" fromText="flatus" toID="E38" toText="some abdominal bloating" type="OVERLAP" />
+<TLINK id="TL42" fromID="E45" fromText="diet" toID="E44" toText="tolerated" type="OVERLAP" />
+<TLINK id="TL43" fromID="E47" fromText="abdominal cramping" toID="E46" toText="continued" type="BEFORE" />
+<TLINK id="TL44" fromID="E46" fromText="continued" toID="T4" toText="the following three days" type="OVERLAP" />
+<TLINK id="TL45" fromID="E48" fromText="a mild ileus" toID="T4" toText="the following three days" type="OVERLAP" />
+<TLINK id="TL46" fromID="E50" fromText="repeated Fleet &apos;s enemas" toID="E49" toText="treated" type="OVERLAP" />
+<TLINK id="TL47" fromID="E51" fromText="a number of bowel movements" toID="T5" toText="postoperative day three" type="OVERLAP" />
+<TLINK id="TL48" fromID="E52" fromText="comfortable" toID="E51" toText="a number of bowel movements" type="AFTER" />
+<TLINK id="TL49" fromID="T5" fromText="postoperative day three" toID="E52" toText="comfortable" type="OVERLAP" />
+<TLINK id="TL5" fromID="E3" fromText="increasing pain in her left upper quadrant" toID="E2" toText="noted" type="BEFORE" />
+<TLINK id="TL50" fromID="T5" fromText="postoperative day three" toID="E53" toText="ready" type="OVERLAP" />
+<TLINK id="TL51" fromID="E53" fromText="ready" toID="E54" toText="discharge" type="OVERLAP" />
+<TLINK id="TL52" fromID="E54" fromText="discharge" toID="T1" toText="09/14/1999" type="OVERLAP" />
+<TLINK id="TL6" fromID="E8" fromText="described" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL7" fromID="E4" fromText="the pain" toID="E3" toText="increasing pain in her left upper quadrant" type="OVERLAP" />
+<TLINK id="TL8" fromID="E4" fromText="the pain" toID="E5" toText="exacerbated" type="OVERLAP" />
+<TLINK id="TL9" fromID="E5" fromText="exacerbated" toID="E6" toText="eating" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="09/10/1999" type="ADMISSION" dvalue="1999-09-10" />
+<SECTIME id="S1" start="46" end="56" text="09/14/1999" type="DISCHARGE" dvalue="1999-09-14" />
+<TLINK id="SECTIME0" fromID="E30" fromText="one nodule" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E31" fromText="Specimens" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E32" fromText="peritoneal washings" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E33" fromText="permanent specimens from the liver" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E34" fromText="falciform nodules" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E35" fromText="complications" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E36" fromText="tolerated" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E37" fromText="the procedure" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E38" fromText="some abdominal bloating" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E39" fromText="evidence" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E40" fromText="subcutaneous emphysema over the abdomen" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E41" fromText="uncomfortable" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E42" fromText="slow to have bowel movements" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E43" fromText="flatus" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E44" fromText="tolerated" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E45" fromText="diet" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E46" fromText="continued" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E47" fromText="abdominal cramping" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E48" fromText="a mild ileus" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E49" fromText="treated" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E2" fromText="noted" toID="T0" toText="09/10/1999" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E50" fromText="repeated Fleet &apos;s enemas" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E3" fromText="increasing pain in her left upper quadrant" toID="T0" toText="09/10/1999" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E51" fromText="a number of bowel movements" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E52" fromText="comfortable" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E53" fromText="ready" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E8" fromText="described" toID="T0" toText="09/10/1999" type="OVERLAP" />
+<TLINK id="SECTIME27" fromID="E4" fromText="the pain" toID="T0" toText="09/10/1999" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E5" fromText="exacerbated" toID="T0" toText="09/10/1999" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E6" fromText="eating" toID="T0" toText="09/10/1999" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E7" fromText="described" toID="T0" toText="09/10/1999" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E9" fromText="an associated weight loss" toID="T0" toText="09/10/1999" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E10" fromText="presented" toID="T0" toText="09/10/1999" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E11" fromText="Aersing Rocuch Sun" toID="T0" toText="09/10/1999" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E12" fromText="obtained" toID="T0" toText="09/10/1999" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E13" fromText="a CT scan" toID="T0" toText="09/10/1999" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E14" fromText="which" toID="T0" toText="09/10/1999" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E15" fromText="demonstrated" toID="T0" toText="09/10/1999" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E16" fromText="a mass" toID="T0" toText="09/10/1999" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E17" fromText="referred" toID="T0" toText="09/10/1999" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E18" fromText="the Fairm of Ijordcompmac Hospital" toID="T0" toText="09/10/1999" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E19" fromText="the El Memorial" toID="T0" toText="09/10/1999" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E20" fromText="scheduled" toID="T0" toText="09/10/1999" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E21" fromText="an exploratory laparoscopy" toID="T0" toText="09/10/1999" type="AFTER" />
+<TLINK id="SECTIME44" fromID="E22" fromText="admitted" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E23" fromText="same day surgery" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E24" fromText="the operating room" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E25" fromText="performed" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E26" fromText="a diagnostic laparoscopy" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E27" fromText="peritoneal washings" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E28" fromText="no gross evidence seating in the abdominal wall" toID="T1" toText="09/14/1999" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E29" fromText="one nodule" toID="T1" toText="09/14/1999" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

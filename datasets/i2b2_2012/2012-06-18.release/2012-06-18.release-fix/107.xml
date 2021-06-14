@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+02/01/2000
+DISCHARGE DATE :
+02/08/2000
+HISTORY OF PRESENT ILLNESS :
+This patient is an seventy eight year old female with history of peripheral vascular disease who is status post above knee to fem pop bypass graft with 6 millimeter PTFE .
+This operation was performed for two months of increased rest pain .
+Her pain resolved after surgery and she has been doing well since , although at baseline now she is minimally ambulatory from bed to commode .
+For the past couple of months the patient has had a non-healing right dorsal foot ulcer which has been increasing in size and started as a pin hole and she does not recollect any trauma , as similar small ulcers developed on the left foot as well around the same time , but that has subsequently healed .
+The ulcer was managed conservatively at Har Hospital by Dr. Holes with Silvadene b.i.d. lower extremity non-invasive study obtained at that time showed poor distal right extremity perfusion .
+The patient was referred back to Dr. Pop for the possibility of a revascularization procedure .
+She is status post angiography today .
+She has just finished a ten day course of Ciprofloxacin .
+She denies any fevers or chills .
+She does have rest pain in the right foot and ankle .
+HOSPITAL COURSE AND TREATMENT :
+The patient was admitted and taken to the operating room on the following day and she underwent a right fem to below knee popliteal bypass graft using a six millimeter ring PTFE .
+She had a strong popliteal doppler pulse intraoperatively and good PVR on the right postoperatively .
+The patient did well in the postoperative period .
+She was afebrile , her vital signs were stable .
+She was making adequate urine output anywhere between 20 to 50 ccs an hour .
+Her hematocrit was 26.8 and she was transfused 1 unit of packed red blood cells .
+Her diet was advanced from clears to a diet as tolerated .
+On postoperative day two the patient was noted to have some swelling in her left lower extremity and this was felt to be a hematoma secondary to her PVR cuff .
+There is mild amount of surrounding erythema and the patient was started on Ancef at that time .
+The patient was seen by physical therapy .
+The area of erythema on her left leg enlarged slightly and the patient was placed on Vancomycin for several days after which time her erythema again began to decrease .
+Her right foot remained warm .
+She had wounds which were clean , dry and intact and the patient was stable from a respiratory standpoint using her respirator at night .
+The patient required an additional blood transfusion during her hospital stay as her hematocrit had decreased to 27 on postoperative day three .
+The patient while in bed had her legs elevated .
+The patient was tolerating a general diet , she was voiding on her own and the patient was discharged to home as her daughter is a nurse .
+She was discharged with PO Keflex that she was to take for the next ten days .
+The patient is to follow up with Dr. Pop in one week and the patient was afebrile with stable vital signs at the time of discharge .
+LAYMIE ASLINKE , M.D.
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1031" end="1060" text="a revascularization procedure" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="1082" end="1093" text="angiography" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="1144" end="1157" text="Ciprofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1164" end="1170" text="denies" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E48" start="1175" end="1181" text="fevers" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E49" start="1185" end="1191" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E15" start="1208" end="1245" text="rest pain in the right foot and ankle" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="1296" end="1304" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E51" start="1318" end="1336" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E16" start="1376" end="1424" text="a right fem to below knee popliteal bypass graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="1431" end="1457" text="a six millimeter ring PTFE" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="1477" end="1500" text="popliteal doppler pulse" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="151" end="178" text="peripheral vascular disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="1527" end="1530" text="PVR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E54" start="1578" end="1582" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="1621" end="1629" text="afebrile" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E18" start="1632" end="1647" text="her vital signs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E80" start="1653" end="1659" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="1686" end="1698" text="urine output" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="1739" end="1753" text="Her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="1775" end="1785" text="transfused" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="1796" end="1818" text="packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E58" start="1821" end="1829" text="Her diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="1848" end="1854" text="clears" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="1858" end="1877" text="a diet as tolerated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="1921" end="1926" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E21" start="1935" end="1976" text="some swelling in her left lower extremity" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="204" end="232" text="knee to fem pop bypass graft" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="2001" end="2011" text="a hematoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="2025" end="2037" text="her PVR cuff" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="2064" end="2084" text="surrounding erythema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="2116" end="2121" text="Ancef" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="2161" end="2177" text="physical therapy" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E26" start="2192" end="2216" text="erythema on her left leg" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="2265" end="2275" text="Vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="2310" end="2322" text="her erythema" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="2329" end="2346" text="began to decrease" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="238" end="255" text="6 millimeter PTFE" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="2373" end="2377" text="warm" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="2388" end="2394" text="wounds" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="2406" end="2411" text="clean" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E66" start="2414" end="2417" text="dry" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E67" start="2422" end="2428" text="intact" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="2449" end="2455" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="2492" end="2506" text="her respirator" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="2539" end="2570" text="an additional blood transfusion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="258" end="272" text="This operation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="2578" end="2595" text="her hospital stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="2599" end="2613" text="her hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E70" start="2701" end="2709" text="elevated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="2739" end="2753" text="a general diet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="2764" end="2782" text="voiding on her own" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="2803" end="2813" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="2859" end="2869" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="2875" end="2884" text="PO Keflex" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="29" end="38" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="2948" end="2957" text="follow up" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="3003" end="3011" text="afebrile" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E76" start="3017" end="3035" text="stable vital signs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="305" end="324" text="increased rest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="3051" end="3060" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="327" end="335" text="Her pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E78" start="336" end="344" text="resolved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="351" end="358" text="surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="382" end="386" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="427" end="447" text="minimally ambulatory" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="520" end="557" text="a non-healing right dorsal foot ulcer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="573" end="591" text="increasing in size" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="607" end="617" text="a pin hole" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="635" end="644" text="recollect" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E42" start="645" end="655" text="any trauma" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E8" start="661" end="681" text="similar small ulcers" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="766" end="772" text="healed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="775" end="784" text="The ulcer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="789" end="811" text="managed conservatively" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="815" end="827" text="Har Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E10" start="846" end="855" text="Silvadene" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="863" end="897" text="lower extremity non-invasive study" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E79" start="920" end="926" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E12" start="927" end="964" text="poor distal right extremity perfusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T3" start="1094" end="1099" text="today" type="DATE" val="" mod="NA" />
+<TIMEX3 id="T6" start="1126" end="1133" text="ten day" type="DURATION" val="P10D" mod="NA" />
+<TIMEX3 id="T7" start="1340" end="1357" text="the following day" type="DATE" val="2000-02-02" mod="NA" />
+<TIMEX3 id="T8" start="1586" end="1610" text="the postoperative period" type="DURATION" val="P7D" mod="NA" />
+<TIMEX3 id="T9" start="1729" end="1736" text="an hour" type="FREQUENCY" val="RPT1H" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="02/01/2000" type="DATE" val="2000-02-01" mod="NA" />
+<TIMEX3 id="T10" start="1883" end="1904" text="postoperative day two" type="DATE" val="2000-02-04" mod="NA" />
+<TIMEX3 id="T11" start="2280" end="2292" text="several days" type="DATE" val="P3D" mod="APPROX" />
+<TIMEX3 id="T12" start="2637" end="2660" text="postoperative day three" type="DATE" val="2000-02-05" mod="NA" />
+<TIMEX3 id="T0" start="291" end="301" text="two months" type="DURATION" val="P2M" mod="NA" />
+<TIMEX3 id="T13" start="2919" end="2927" text="ten days" type="DURATION" val="P10D" mod="NA" />
+<TIMEX3 id="T14" start="2974" end="2982" text="one week" type="DATE" val="2000-02-15" mod="APPROX" />
+<TIMEX3 id="T15" start="3039" end="3047" text="the time" type="DATE" val="2000-02-08" mod="NA" />
+<TIMEX3 id="T16" start="416" end="419" text="now" type="DATE" val="" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="02/08/2000" type="DATE" val="2000-02-08" mod="NA" />
+<TIMEX3 id="T4" start="483" end="499" text="couple of months" type="DURATION" val="P2M" mod="APPROX" />
+<TIMEX3 id="T5" start="724" end="737" text="the same time" type="DATE" val="1999-12-01" mod="APPROX" />
+<TIMEX3 id="T17" start="856" end="862" text="b.i.d." type="FREQUENCY" val="RPT12H" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T1" toText="02/01/2000" type="OVERLAP" />
+<TLINK id="TL1" fromID="E24" fromText="surrounding erythema" toID="E26" toText="erythema on her left leg" type="OVERLAP" />
+<TLINK id="TL10" fromID="E36" fromText="Her pain" toID="E78" toText="resolved" type="BEFORE" />
+<TLINK id="TL11" fromID="E78" fromText="resolved" toID="E37" toText="surgery" type="AFTER" />
+<TLINK id="TL12" fromID="E38" fromText="well" toID="E78" toText="resolved" type="AFTER" />
+<TLINK id="TL13" fromID="E39" fromText="minimally ambulatory" toID="T16" toText="now" type="" />
+<TLINK id="TL14" fromID="T16" fromText="now" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL15" fromID="T4" fromText="couple of months" toID="T16" toText="now" type="BEFORE" />
+<TLINK id="TL16" fromID="E6" fromText="a non-healing right dorsal foot ulcer" toID="T4" toText="couple of months" type="OVERLAP" />
+<TLINK id="TL17" fromID="E6" fromText="a non-healing right dorsal foot ulcer" toID="E40" toText="increasing in size" type="BEFORE" />
+<TLINK id="TL18" fromID="E6" fromText="a non-healing right dorsal foot ulcer" toID="E7" toText="a pin hole" type="AFTER" />
+<TLINK id="TL19" fromID="E41" fromText="recollect" toID="T16" toText="now" type="OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="knee to fem pop bypass graft" toID="E4" toText="This operation" type="OVERLAP" />
+<TLINK id="TL20" fromID="E42" fromText="any trauma" toID="E6" toText="a non-healing right dorsal foot ulcer" type="BEFORE" />
+<TLINK id="TL21" fromID="E8" fromText="similar small ulcers" toID="T5" toText="the same time" type="AFTER" />
+<TLINK id="TL22" fromID="T5" fromText="the same time" toID="T4" toText="couple of months" type="OVERLAP" />
+<TLINK id="TL23" fromID="E8" fromText="similar small ulcers" toID="E43" toText="healed" type="BEFORE" />
+<TLINK id="TL24" fromID="E43" fromText="healed" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL25" fromID="E9" fromText="The ulcer" toID="E6" toText="a non-healing right dorsal foot ulcer" type="OVERLAP" />
+<TLINK id="TL26" fromID="E9" fromText="The ulcer" toID="E44" toText="managed conservatively" type="BEFORE" />
+<TLINK id="TL27" fromID="E44" fromText="managed conservatively" toID="E45" toText="Har Hospital" type="OVERLAP" />
+<TLINK id="TL28" fromID="E10" fromText="Silvadene" toID="E44" toText="managed conservatively" type="OVERLAP" />
+<TLINK id="TL29" fromID="E10" fromText="Silvadene" toID="T17" toText="b.i.d." type="OVERLAP" />
+<TLINK id="TL3" fromID="E3" fromText="6 millimeter PTFE" toID="E17" toText="a six millimeter ring PTFE" type="OVERLAP" />
+<TLINK id="TL30" fromID="E11" fromText="lower extremity non-invasive study" toID="E44" toText="managed conservatively" type="OVERLAP" />
+<TLINK id="TL31" fromID="E12" fromText="poor distal right extremity perfusion" toID="E11" toText="lower extremity non-invasive study" type="BEFORE" />
+<TLINK id="TL32" fromID="E79" fromText="showed" toID="E11" toText="lower extremity non-invasive study" type="OVERLAP" />
+<TLINK id="TL33" fromID="E46" fromText="a revascularization procedure" toID="E11" toText="lower extremity non-invasive study" type="AFTER" />
+<TLINK id="TL34" fromID="T3" fromText="today" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL35" fromID="T6" fromText="ten day" toID="T3" toText="today" type="BEFORE" />
+<TLINK id="TL36" fromID="E14" fromText="Ciprofloxacin" toID="T6" toText="ten day" type="OVERLAP" />
+<TLINK id="TL37" fromID="E47" fromText="denies" toID="T3" toText="today" type="OVERLAP" />
+<TLINK id="TL38" fromID="E48" fromText="fevers" toID="E47" toText="denies" type="BEFORE" />
+<TLINK id="TL39" fromID="E49" fromText="chills" toID="E48" toText="fevers" type="OVERLAP" />
+<TLINK id="TL4" fromID="E26" fromText="erythema on her left leg" toID="E28" toText="her erythema" type="OVERLAP" />
+<TLINK id="TL40" fromID="E15" fromText="rest pain in the right foot and ankle" toID="E49" toText="chills" type="OVERLAP" />
+<TLINK id="TL41" fromID="E50" fromText="admitted" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL42" fromID="T7" fromText="the following day" toID="E50" toText="admitted" type="AFTER" />
+<TLINK id="TL43" fromID="E51" fromText="the operating room" toID="T7" toText="the following day" type="OVERLAP" />
+<TLINK id="TL44" fromID="E16" fromText="a right fem to below knee popliteal bypass graft" toID="E51" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL45" fromID="E17" fromText="a six millimeter ring PTFE" toID="E16" toText="a right fem to below knee popliteal bypass graft" type="OVERLAP" />
+<TLINK id="TL46" fromID="E52" fromText="popliteal doppler pulse" toID="E16" toText="a right fem to below knee popliteal bypass graft" type="OVERLAP" />
+<TLINK id="TL47" fromID="E53" fromText="PVR" toID="E52" toText="popliteal doppler pulse" type="AFTER" />
+<TLINK id="TL48" fromID="T8" fromText="the postoperative period" toID="E51" toText="the operating room" type="AFTER" />
+<TLINK id="TL49" fromID="E54" fromText="well" toID="T8" toText="the postoperative period" type="OVERLAP" />
+<TLINK id="TL5" fromID="E13" fromText="angiography" toID="T3" toText="today" type="BEFORE" />
+<TLINK id="TL50" fromID="E55" fromText="afebrile" toID="E54" toText="well" type="OVERLAP" />
+<TLINK id="TL51" fromID="E18" fromText="her vital signs" toID="E55" toText="afebrile" type="OVERLAP" />
+<TLINK id="TL52" fromID="E18" fromText="her vital signs" toID="E80" toText="stable" type="OVERLAP" />
+<TLINK id="TL53" fromID="E56" fromText="urine output" toID="E18" toText="her vital signs" type="OVERLAP" />
+<TLINK id="TL54" fromID="E56" fromText="urine output" toID="T9" toText="an hour" type="OVERLAP" />
+<TLINK id="TL55" fromID="E19" fromText="Her hematocrit" toID="E56" toText="urine output" type="OVERLAP" />
+<TLINK id="TL56" fromID="E57" fromText="transfused" toID="E19" toText="Her hematocrit" type="OVERLAP" />
+<TLINK id="TL57" fromID="E20" fromText="packed red blood cells" toID="E57" toText="transfused" type="OVERLAP" />
+<TLINK id="TL58" fromID="E58" fromText="Her diet" toID="E19" toText="Her hematocrit" type="OVERLAP" />
+<TLINK id="TL59" fromID="E59" fromText="clears" toID="E58" toText="Her diet" type="BEFORE" />
+<TLINK id="TL6" fromID="E35" fromText="DISCHARGE" toID="T2" toText="02/08/2000" type="OVERLAP" />
+<TLINK id="TL60" fromID="E60" fromText="a diet as tolerated" toID="E58" toText="Her diet" type="AFTER" />
+<TLINK id="TL61" fromID="E61" fromText="noted" toID="T10" toText="postoperative day two" type="OVERLAP" />
+<TLINK id="TL62" fromID="E21" fromText="some swelling in her left lower extremity" toID="E61" toText="noted" type="BEFORE" />
+<TLINK id="TL63" fromID="E22" fromText="a hematoma" toID="E21" toText="some swelling in her left lower extremity" type="OVERLAP" />
+<TLINK id="TL64" fromID="E22" fromText="a hematoma" toID="E23" toText="her PVR cuff" type="AFTER" />
+<TLINK id="TL65" fromID="E24" fromText="surrounding erythema" toID="E21" toText="some swelling in her left lower extremity" type="OVERLAP" />
+<TLINK id="TL66" fromID="E24" fromText="surrounding erythema" toID="E25" toText="Ancef" type="BEFORE" />
+<TLINK id="TL67" fromID="E62" fromText="physical therapy" toID="E25" toText="Ancef" type="OVERLAP" />
+<TLINK id="TL68" fromID="E27" fromText="Vancomycin" toID="E25" toText="Ancef" type="AFTER" />
+<TLINK id="TL69" fromID="E27" fromText="Vancomycin" toID="T11" toText="several days" type="OVERLAP" />
+<TLINK id="TL7" fromID="E1" fromText="peripheral vascular disease" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL70" fromID="E28" fromText="her erythema" toID="E26" toText="erythema on her left leg" type="OVERLAP" />
+<TLINK id="TL71" fromID="E63" fromText="began to decrease" toID="T11" toText="several days" type="AFTER" />
+<TLINK id="TL72" fromID="E64" fromText="warm" toID="E63" toText="began to decrease" type="OVERLAP" />
+<TLINK id="TL73" fromID="E29" fromText="wounds" toID="E64" toText="warm" type="OVERLAP" />
+<TLINK id="TL74" fromID="E65" fromText="clean" toID="E29" toText="wounds" type="OVERLAP" />
+<TLINK id="TL75" fromID="E66" fromText="dry" toID="E65" toText="clean" type="OVERLAP" />
+<TLINK id="TL76" fromID="E67" fromText="intact" toID="E66" toText="dry" type="OVERLAP" />
+<TLINK id="TL77" fromID="E68" fromText="stable" toID="E67" toText="intact" type="OVERLAP" />
+<TLINK id="TL78" fromID="E68" fromText="stable" toID="E30" toText="her respirator" type="OVERLAP" />
+<TLINK id="TL79" fromID="E69" fromText="her hospital stay" toID="E0" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL8" fromID="T0" fromText="two months" toID="E5" toText="increased rest pain" type="OVERLAP" />
+<TLINK id="TL80" fromID="E69" fromText="her hospital stay" toID="E35" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL81" fromID="E31" fromText="an additional blood transfusion" toID="E69" toText="her hospital stay" type="OVERLAP" />
+<TLINK id="TL82" fromID="E32" fromText="her hematocrit" toID="T12" toText="postoperative day three" type="OVERLAP" />
+<TLINK id="TL83" fromID="T12" fromText="postoperative day three" toID="T10" toText="postoperative day two" type="AFTER" />
+<TLINK id="TL84" fromID="E70" fromText="elevated" toID="T8" toText="the postoperative period" type="OVERLAP" />
+<TLINK id="TL85" fromID="E71" fromText="a general diet" toID="E70" toText="elevated" type="OVERLAP" />
+<TLINK id="TL86" fromID="E72" fromText="voiding on her own" toID="E71" toText="a general diet" type="OVERLAP" />
+<TLINK id="TL87" fromID="E34" fromText="discharged" toID="E35" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL88" fromID="E73" fromText="discharged" toID="E34" toText="discharged" type="OVERLAP" />
+<TLINK id="TL89" fromID="E33" fromText="PO Keflex" toID="E73" toText="discharged" type="AFTER" />
+<TLINK id="TL9" fromID="E5" fromText="increased rest pain" toID="E4" toText="This operation" type="BEFORE" />
+<TLINK id="TL90" fromID="E33" fromText="PO Keflex" toID="T13" toText="ten days" type="OVERLAP" />
+<TLINK id="TL91" fromID="E74" fromText="follow up" toID="E73" toText="discharged" type="AFTER" />
+<TLINK id="TL92" fromID="E74" fromText="follow up" toID="T14" toText="one week" type="OVERLAP" />
+<TLINK id="TL93" fromID="T15" fromText="the time" toID="E77" toText="discharge" type="OVERLAP" />
+<TLINK id="TL94" fromID="E77" fromText="discharge" toID="E34" toText="discharged" type="OVERLAP" />
+<TLINK id="TL95" fromID="E75" fromText="afebrile" toID="T15" toText="the time" type="OVERLAP" />
+<TLINK id="TL96" fromID="E76" fromText="stable vital signs" toID="E75" toText="afebrile" type="OVERLAP" />
+<TLINK id="SECTIME0" fromID="E46" fromText="a revascularization procedure" toID="T1" toText="02/01/2000" type="AFTER" />
+<TLINK id="SECTIME1" fromID="E13" fromText="angiography" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E14" fromText="Ciprofloxacin" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E47" fromText="denies" toID="T1" toText="02/01/2000" type="OVERLAP" />
+<TLINK id="SECTIME4" fromID="E48" fromText="fevers" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E49" fromText="chills" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E15" fromText="rest pain in the right foot and ankle" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E50" fromText="admitted" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E51" fromText="the operating room" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E16" fromText="a right fem to below knee popliteal bypass graft" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E17" fromText="a six millimeter ring PTFE" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E52" fromText="popliteal doppler pulse" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E1" fromText="peripheral vascular disease" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E53" fromText="PVR" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E54" fromText="well" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E55" fromText="afebrile" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E18" fromText="her vital signs" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E80" fromText="stable" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E56" fromText="urine output" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E19" fromText="Her hematocrit" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E57" fromText="transfused" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E20" fromText="packed red blood cells" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E58" fromText="Her diet" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E59" fromText="clears" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E60" fromText="a diet as tolerated" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E61" fromText="noted" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E21" fromText="some swelling in her left lower extremity" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E2" fromText="knee to fem pop bypass graft" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E22" fromText="a hematoma" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E23" fromText="her PVR cuff" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E24" fromText="surrounding erythema" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E25" fromText="Ancef" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E62" fromText="physical therapy" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E26" fromText="erythema on her left leg" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E27" fromText="Vancomycin" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E28" fromText="her erythema" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E63" fromText="began to decrease" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E3" fromText="6 millimeter PTFE" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E64" fromText="warm" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E29" fromText="wounds" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E65" fromText="clean" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E66" fromText="dry" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E67" fromText="intact" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E68" fromText="stable" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E30" fromText="her respirator" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E31" fromText="an additional blood transfusion" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E4" fromText="This operation" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E69" fromText="her hospital stay" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E32" fromText="her hematocrit" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E70" fromText="elevated" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E71" fromText="a general diet" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E72" fromText="voiding on her own" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E34" fromText="discharged" toID="T2" toText="02/08/2000" type="OVERLAP" />
+<TLINK id="SECTIME53" fromID="E73" fromText="discharged" toID="T2" toText="02/08/2000" type="OVERLAP" />
+<TLINK id="SECTIME54" fromID="E33" fromText="PO Keflex" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E74" fromText="follow up" toID="T2" toText="02/08/2000" type="AFTER" />
+<TLINK id="SECTIME56" fromID="E75" fromText="afebrile" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E76" fromText="stable vital signs" toID="T2" toText="02/08/2000" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E5" fromText="increased rest pain" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E77" fromText="discharge" toID="T2" toText="02/08/2000" type="OVERLAP" />
+<TLINK id="SECTIME60" fromID="E36" fromText="Her pain" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E78" fromText="resolved" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E37" fromText="surgery" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E38" fromText="well" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E39" fromText="minimally ambulatory" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E6" fromText="a non-healing right dorsal foot ulcer" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E40" fromText="increasing in size" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E7" fromText="a pin hole" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E41" fromText="recollect" toID="T1" toText="02/01/2000" type="OVERLAP" />
+<TLINK id="SECTIME69" fromID="E42" fromText="any trauma" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E8" fromText="similar small ulcers" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E43" fromText="healed" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E9" fromText="The ulcer" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E44" fromText="managed conservatively" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E45" fromText="Har Hospital" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E10" fromText="Silvadene" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E11" fromText="lower extremity non-invasive study" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E79" fromText="showed" toID="T1" toText="02/01/2000" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E12" fromText="poor distal right extremity perfusion" toID="T1" toText="02/01/2000" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="02/01/2000" type="ADMISSION" dvalue="2000-02-01" />
+<SECTIME id="S1" start="46" end="56" text="02/08/2000" type="DISCHARGE" dvalue="2000-02-08" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

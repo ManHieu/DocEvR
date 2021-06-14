@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2012-04-27
+Discharge Date :
+2012-04-30
+Service :
+Neurosurgery
+HISTORY OF PRESENT ILLNESS :
+Patient is a 79 - year-old female with a history of cataracts , glaucoma , and diabetes , who fell and tripped over a wheelchair of a friend with no loss of consciousness , no dizziness , no chest pain , and no shortness of breath .
+PHYSICAL EXAM :
+She was afebrile .
+Heart rate was 77 .
+Blood pressure 132/48 .
+Respiratory rate was 17 .
+Sats 96% on room air .
+Her temperature was 97.6 .
+She neurologically , she had a nonfocal neurologic examination .
+Her cardiovascular was regular rate and rhythm .
+Her pulmonary :
+Chest was clear to auscultation bilaterally .
+Extremities :
+No cyanosis , clubbing , or edema .
+Head CT showed a front focal hemorrhage in the left occipital lobe adjacent to the falx with intraparenchymal hemorrhage or epidural or subdural hemorrhage near the falx with no shift .
+CT of the C spine was negative and her cervical spine was cleared .
+HOSPITAL COURSE :
+She was admitted to the ICU for close neurosurgical and neurological observation .
+She remained neurologically stable .
+Repeat head CT showed stable bleed .
+The patient was transferred to the regular floor .
+She was out of bed ambulating , tolerating a regular diet , voiding spontaneously .
+She will be discharged to home with followup with Dr. Wilson in two weeks with a repeat head CT .
+MEDICATIONS ON DISCHARGE :
+1. Levofloxacin 250 mg p.o. q.24h. x3 days .
+2. Dilantin 100 mg p.o. t.i.d.
+3. Colace 100 mg p.o. b.i.d.
+4. Timoptic 0.25 one drop O.U. b.i.d.
+5. Lantoprost 0.005 ophthalmic solution one drop O.U. q.h.s.
+6. Zantac 150 mg p.o. b.i.d.
+7. Insulin-sliding scale as well as 40 units of Humalog in the a.m. and 20 at night .
+CONDITION ON DISCHARGE :
+Stable .
+FOLLOW-UP INSTRUCTIONS :
+She will follow up with Dr. Perez in two weeks with repeat head CT .
+Danvers T Sharp , M.D.
+16-530
+Dictated By : David GA Crane , M.D.
+MEDQUIST36
+D : 2012-04-30 11:30
+T : 2012-05-01 08:13
+JOB #: 10027
+Signed electronically by : DR. Margarita Martin on : TUE 2012-06-05 8:08 AM
+( End of Report )
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="1003" end="1011" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="1015" end="1022" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E35" start="1027" end="1075" text="close neurosurgical and neurological observation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E53" start="1082" end="1112" text="remained neurologically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="1115" end="1129" text="Repeat head CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="1130" end="1136" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E6" start="1137" end="1149" text="stable bleed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="1168" end="1179" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1183" end="1200" text="the regular floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E38" start="1222" end="1232" text="ambulating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="1235" end="1260" text="tolerating a regular diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1263" end="1284" text="voiding spontaneously" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="1299" end="1309" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1323" end="1331" text="followup" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="1366" end="1382" text="a repeat head CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E42" start="1415" end="1427" text="Levofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="1460" end="1468" text="Dilantin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1491" end="1497" text="Colace" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1520" end="1528" text="Timoptic" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1558" end="1568" text="Lantoprost" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="161" end="170" text="cataracts" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="1619" end="1625" text="Zantac" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1648" end="1669" text="Insulin-sliding scale" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1648" end="1669" text="Insulin-sliding scale" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="1693" end="1700" text="Humalog" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="1693" end="1700" text="Humalog" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="173" end="181" text="glaucoma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="1756" end="1762" text="Stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E51" start="1799" end="1808" text="follow up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E52" start="1842" end="1856" text="repeat head CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="188" end="196" text="diabetes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="203" end="219" text="fell and tripped" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="258" end="279" text="loss of consciousness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E2" start="285" end="294" text="dizziness" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E8" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="300" end="310" text="chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E4" start="320" end="339" text="shortness of breath" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E17" start="366" end="374" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="377" end="387" text="Heart rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E19" start="397" end="411" text="Blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="421" end="437" text="Respiratory rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="447" end="451" text="Sats" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E22" start="470" end="485" text="Her temperature" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="537" end="559" text="neurologic examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="646" end="658" text="auscultation" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E25" start="690" end="698" text="cyanosis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E26" start="701" end="709" text="clubbing" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E27" start="715" end="720" text="edema" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E28" start="723" end="730" text="Head CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="731" end="737" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E30" start="738" end="789" text="a front focal hemorrhage in the left occipital lobe" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="816" end="843" text="intraparenchymal hemorrhage" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="847" end="892" text="epidural or subdural hemorrhage near the falx" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="901" end="906" text="shift" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E34" start="909" end="926" text="CT of the C spine" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T0" start="1351" end="1360" text="two weeks" type="DATE" val="2012-05-14" mod="APPROX" />
+<TIMEX3 id="T3" start="1440" end="1454" text="q.24h. x3 days" type="FREQUENCY" val="R3P24H" mod="NA" />
+<TIMEX3 id="T4" start="1481" end="1487" text="t.i.d." type="FREQUENCY" val="RP8H" mod="NA" />
+<TIMEX3 id="T5" start="1510" end="1516" text="b.i.d." type="FREQUENCY" val="RP12H" mod="NA" />
+<TIMEX3 id="T6" start="1548" end="1554" text="b.i.d." type="FREQUENCY" val="RP12H" mod="NA" />
+<TIMEX3 id="T7" start="1609" end="1615" text="q.h.s." type="FREQUENCY" val="RP24H" mod="NA" />
+<TIMEX3 id="T8" start="1638" end="1644" text="b.i.d." type="FREQUENCY" val="RP12H" mod="NA" />
+<TIMEX3 id="T9" start="1704" end="1712" text="the a.m." type="FREQUENCY" val="RP1D" mod="START" />
+<TIMEX3 id="T10" start="1723" end="1728" text="night" type="FREQUENCY" val="RP1D" mod="END" />
+<TIMEX3 id="T1" start="18" end="28" text="2012-04-27" type="DATE" val="2012-04-27" mod="NA" />
+<TIMEX3 id="T11" start="1827" end="1836" text="two weeks" type="DATE" val="2012-05-14" mod="NA" />
+<TIMEX3 id="T2" start="46" end="56" text="2012-04-30" type="DATE" val="2012-04-30" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="2012-04-27" type="OVERLAP" />
+<TLINK id="TL1" fromID="E8" fromText="Discharge" toID="T2" toText="2012-04-30" type="OVERLAP" />
+<TLINK id="TL10" fromID="E19" fromText="Blood pressure" toID="E20" toText="Respiratory rate" type="OVERLAP" />
+<TLINK id="TL11" fromID="E20" fromText="Respiratory rate" toID="E21" toText="Sats" type="OVERLAP" />
+<TLINK id="TL12" fromID="E21" fromText="Sats" toID="E22" toText="Her temperature" type="OVERLAP" />
+<TLINK id="TL13" fromID="E23" fromText="neurologic examination" toID="E22" toText="Her temperature" type="OVERLAP" />
+<TLINK id="TL14" fromID="E23" fromText="neurologic examination" toID="E24" toText="auscultation" type="OVERLAP" />
+<TLINK id="TL15" fromID="E25" fromText="cyanosis" toID="E26" toText="clubbing" type="OVERLAP" />
+<TLINK id="TL16" fromID="E26" fromText="clubbing" toID="E27" toText="edema" type="OVERLAP" />
+<TLINK id="TL17" fromID="E28" fromText="Head CT" toID="E29" toText="showed" type="SIMULTANEOUS" />
+<TLINK id="TL18" fromID="E30" fromText="a front focal hemorrhage in the left occipital lobe" toID="E29" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL19" fromID="E31" fromText="intraparenchymal hemorrhage" toID="E29" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL2" fromID="E13" fromText="cataracts" toID="E14" toText="glaucoma" type="OVERLAP" />
+<TLINK id="TL20" fromID="E32" fromText="epidural or subdural hemorrhage near the falx" toID="E29" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL21" fromID="E33" fromText="shift" toID="E32" toText="epidural or subdural hemorrhage near the falx" type="OVERLAP" />
+<TLINK id="TL22" fromID="E34" fromText="CT of the C spine" toID="E28" toText="Head CT" type="OVERLAP" />
+<TLINK id="TL23" fromID="E9" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL24" fromID="E10" fromText="the ICU" toID="E9" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL25" fromID="E35" fromText="close neurosurgical and neurological observation" toID="E10" toText="the ICU" type="DURING" />
+<TLINK id="TL26" fromID="E53" fromText="remained neurologically stable" toID="E10" toText="the ICU" type="DURING" />
+<TLINK id="TL27" fromID="E5" fromText="Repeat head CT" toID="E10" toText="the ICU" type="DURING" />
+<TLINK id="TL28" fromID="E36" fromText="showed" toID="E5" toText="Repeat head CT" type="SIMULTANEOUS" />
+<TLINK id="TL29" fromID="E6" fromText="stable bleed" toID="E36" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL3" fromID="E14" fromText="glaucoma" toID="E15" toText="diabetes" type="OVERLAP" />
+<TLINK id="TL30" fromID="E10" fromText="the ICU" toID="E11" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL31" fromID="E37" fromText="the regular floor" toID="E11" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL32" fromID="E38" fromText="ambulating" toID="E37" toText="the regular floor" type="DURING" />
+<TLINK id="TL33" fromID="E39" fromText="tolerating a regular diet" toID="E37" toText="the regular floor" type="DURING" />
+<TLINK id="TL34" fromID="E40" fromText="voiding spontaneously" toID="E37" toText="the regular floor" type="DURING" />
+<TLINK id="TL35" fromID="E12" fromText="discharged" toID="E8" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="E37" fromText="the regular floor" toID="E12" toText="discharged" type="ENDED_BY" />
+<TLINK id="TL37" fromID="E41" fromText="followup" toID="T0" toText="two weeks" type="OVERLAP" />
+<TLINK id="TL38" fromID="E7" fromText="a repeat head CT" toID="T0" toText="two weeks" type="OVERLAP" />
+<TLINK id="TL39" fromID="E42" fromText="Levofloxacin" toID="T3" toText="q.24h. x3 days" type="OVERLAP" />
+<TLINK id="TL4" fromID="E1" fromText="loss of consciousness" toID="E16" toText="fell and tripped" type="AFTER" />
+<TLINK id="TL40" fromID="E43" fromText="Dilantin" toID="T4" toText="t.i.d." type="OVERLAP" />
+<TLINK id="TL41" fromID="E44" fromText="Colace" toID="T5" toText="b.i.d." type="OVERLAP" />
+<TLINK id="TL42" fromID="E45" fromText="Timoptic" toID="T6" toText="b.i.d." type="OVERLAP" />
+<TLINK id="TL43" fromID="E46" fromText="Lantoprost" toID="T7" toText="q.h.s." type="OVERLAP" />
+<TLINK id="TL44" fromID="E47" fromText="Zantac" toID="T8" toText="b.i.d." type="OVERLAP" />
+<TLINK id="TL45" fromID="E48" fromText="Insulin-sliding scale" toID="E49" toText="Humalog" type="SIMULTANEOUS" />
+<TLINK id="TL46" fromID="E54" fromText="Insulin-sliding scale" toID="E55" toText="Humalog" type="SIMULTANEOUS" />
+<TLINK id="TL47" fromID="E49" fromText="Humalog" toID="T9" toText="the a.m." type="OVERLAP" />
+<TLINK id="TL48" fromID="E55" fromText="Humalog" toID="T10" toText="night" type="OVERLAP" />
+<TLINK id="TL49" fromID="E50" fromText="Stable" toID="E12" toText="discharged" type="OVERLAP" />
+<TLINK id="TL5" fromID="E2" fromText="dizziness" toID="E16" toText="fell and tripped" type="AFTER" />
+<TLINK id="TL50" fromID="E51" fromText="follow up" toID="E52" toText="repeat head CT" type="OVERLAP" />
+<TLINK id="TL51" fromID="E51" fromText="follow up" toID="T11" toText="two weeks" type="OVERLAP" />
+<TLINK id="TL6" fromID="E3" fromText="chest pain" toID="E16" toText="fell and tripped" type="AFTER" />
+<TLINK id="TL7" fromID="E4" fromText="shortness of breath" toID="E16" toText="fell and tripped" type="AFTER" />
+<TLINK id="TL8" fromID="E17" fromText="afebrile" toID="E18" toText="Heart rate" type="OVERLAP" />
+<TLINK id="TL9" fromID="E18" fromText="Heart rate" toID="E19" toText="Blood pressure" type="OVERLAP" />
+<TLINK id="Sectime0" fromID="E9" fromText="admitted" toID="T2" toText="2012-04-30" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E10" fromText="the ICU" toID="T2" toText="2012-04-30" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E35" fromText="close neurosurgical and neurological observation" toID="T2" toText="2012-04-30" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E53" fromText="remained neurologically stable" toID="T2" toText="2012-04-30" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E5" fromText="Repeat head CT" toID="T2" toText="2012-04-30" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E36" fromText="showed" toID="T2" toText="2012-04-30" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E6" fromText="stable bleed" toID="T2" toText="2012-04-30" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E11" fromText="transferred" toID="T2" toText="2012-04-30" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E37" fromText="the regular floor" toID="T2" toText="2012-04-30" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime9" fromID="E38" fromText="ambulating" toID="T2" toText="2012-04-30" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E39" fromText="tolerating a regular diet" toID="T2" toText="2012-04-30" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E40" fromText="voiding spontaneously" toID="T2" toText="2012-04-30" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E12" fromText="discharged" toID="T2" toText="2012-04-30" type="OVERLAP" />
+<TLINK id="Sectime13" fromID="E41" fromText="followup" toID="T2" toText="2012-04-30" type="AFTER" />
+<TLINK id="Sectime14" fromID="E7" fromText="a repeat head CT" toID="T2" toText="2012-04-30" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E42" fromText="Levofloxacin" toID="T2" toText="2012-04-30" type="OVERLAP" />
+<TLINK id="Sectime16" fromID="E43" fromText="Dilantin" toID="T2" toText="2012-04-30" type="OVERLAP" />
+<TLINK id="Sectime17" fromID="E44" fromText="Colace" toID="T2" toText="2012-04-30" type="OVERLAP" />
+<TLINK id="Sectime18" fromID="E45" fromText="Timoptic" toID="T2" toText="2012-04-30" type="OVERLAP" />
+<TLINK id="Sectime19" fromID="E46" fromText="Lantoprost" toID="T2" toText="2012-04-30" type="OVERLAP" />
+<TLINK id="Sectime0" fromID="E13" fromText="cataracts" toID="T1" toText="2012-04-27" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime20" fromID="E47" fromText="Zantac" toID="T2" toText="2012-04-30" type="OVERLAP" />
+<TLINK id="Sectime21" fromID="E48" fromText="Insulin-sliding scale" toID="T2" toText="2012-04-30" type="OVERLAP" />
+<TLINK id="Sectime22" fromID="E54" fromText="Insulin-sliding scale" toID="T2" toText="2012-04-30" type="OVERLAP" />
+<TLINK id="Sectime23" fromID="E49" fromText="Humalog" toID="T2" toText="2012-04-30" type="OVERLAP" />
+<TLINK id="Sectime24" fromID="E55" fromText="Humalog" toID="T2" toText="2012-04-30" type="OVERLAP" />
+<TLINK id="Sectime1" fromID="E14" fromText="glaucoma" toID="T1" toText="2012-04-27" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime25" fromID="E50" fromText="Stable" toID="T2" toText="2012-04-30" type="OVERLAP" />
+<TLINK id="Sectime26" fromID="E51" fromText="follow up" toID="T2" toText="2012-04-30" type="AFTER" />
+<TLINK id="Sectime27" fromID="E52" fromText="repeat head CT" toID="T2" toText="2012-04-30" type="AFTER" />
+<TLINK id="Sectime2" fromID="E15" fromText="diabetes" toID="T1" toText="2012-04-27" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime3" fromID="E16" fromText="fell and tripped" toID="T1" toText="2012-04-27" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E1" fromText="loss of consciousness" toID="T1" toText="2012-04-27" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E2" fromText="dizziness" toID="T1" toText="2012-04-27" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E3" fromText="chest pain" toID="T1" toText="2012-04-27" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E4" fromText="shortness of breath" toID="T1" toText="2012-04-27" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E17" fromText="afebrile" toID="T1" toText="2012-04-27" type="OVERLAP" />
+<TLINK id="Sectime9" fromID="E18" fromText="Heart rate" toID="T1" toText="2012-04-27" type="OVERLAP" />
+<TLINK id="Sectime10" fromID="E19" fromText="Blood pressure" toID="T1" toText="2012-04-27" type="OVERLAP" />
+<TLINK id="Sectime11" fromID="E20" fromText="Respiratory rate" toID="T1" toText="2012-04-27" type="OVERLAP" />
+<TLINK id="Sectime12" fromID="E21" fromText="Sats" toID="T1" toText="2012-04-27" type="OVERLAP" />
+<TLINK id="Sectime13" fromID="E22" fromText="Her temperature" toID="T1" toText="2012-04-27" type="OVERLAP" />
+<TLINK id="Sectime14" fromID="E23" fromText="neurologic examination" toID="T1" toText="2012-04-27" type="OVERLAP" />
+<TLINK id="Sectime15" fromID="E24" fromText="auscultation" toID="T1" toText="2012-04-27" type="OVERLAP" />
+<TLINK id="Sectime16" fromID="E25" fromText="cyanosis" toID="T1" toText="2012-04-27" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime17" fromID="E26" fromText="clubbing" toID="T1" toText="2012-04-27" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime18" fromID="E27" fromText="edema" toID="T1" toText="2012-04-27" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime19" fromID="E28" fromText="Head CT" toID="T1" toText="2012-04-27" type="OVERLAP" />
+<TLINK id="Sectime20" fromID="E29" fromText="showed" toID="T1" toText="2012-04-27" type="OVERLAP" />
+<TLINK id="Sectime21" fromID="E30" fromText="a front focal hemorrhage in the left occipital lobe" toID="T1" toText="2012-04-27" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime22" fromID="E31" fromText="intraparenchymal hemorrhage" toID="T1" toText="2012-04-27" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime23" fromID="E32" fromText="epidural or subdural hemorrhage near the falx" toID="T1" toText="2012-04-27" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime24" fromID="E33" fromText="shift" toID="T1" toText="2012-04-27" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime25" fromID="E34" fromText="CT of the C spine" toID="T1" toText="2012-04-27" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2012-04-27" type="ADMISSION" dvalue="2012-04-27" />
+<SECTIME id="S1" start="46" end="56" text="2012-04-30" type="DISCHARGE" dvalue="2012-04-30" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

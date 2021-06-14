@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+06/02/2005
+DISCHARGE DATE :
+06/05/2005
+HISTORY OF PRESENT ILLNESS :
+The patient is a 63-year-old female with a three-year history of bilateral hand numbness and occasional weakness .
+Within the past year , these symptoms have progressively gotten worse , to encompass also her feet .
+She had a workup by her neurologist and an MRI revealed a C5-6 disc herniation with cord compression and a T2 signal change at that level .
+HOSPITAL COURSE :
+The patient tolerated a C5-6 ACDF by Dr. Miezetri Gach quite well .
+She had a postoperative CT scan that revealed partial decompression of the spinal canal and good placement of her hardware .
+Immediately postop , her exam only improved slightly in her hyperreflexia .
+She was ambulating by postoperative day number two .
+She tolerated a regular diet .
+Her pain was under good control with PO pain medications and she was deemed suitable for discharge .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E10" start="151" end="174" text="bilateral hand numbness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="179" end="198" text="occasional weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="224" end="238" text="these symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="244" end="270" text="progressively gotten worse" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="29" end="38" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="310" end="318" text="a workup" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E2" start="342" end="348" text="an MRI" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="349" end="357" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E14" start="358" end="380" text="a C5-6 disc herniation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="386" end="402" text="cord compression" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="407" end="425" text="a T2 signal change" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="472" end="481" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="482" end="493" text="a C5-6 ACDF" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="521" end="525" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="536" end="559" text="a postoperative CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E7" start="565" end="573" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E19" start="574" end="615" text="partial decompression of the spinal canal" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="620" end="634" text="good placement" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="638" end="650" text="her hardware" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="674" end="682" text="her exam" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="688" end="696" text="improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="709" end="726" text="her hyperreflexia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="737" end="747" text="ambulating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="796" end="810" text="a regular diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="813" end="821" text="Her pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="832" end="844" text="good control" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="850" end="869" text="PO pain medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="902" end="911" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T2" start="129" end="139" text="three-year" type="DURATION" val="P3Y" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="06/02/2005" type="DATE" val="2005-06-02" mod="NA" />
+<TIMEX3 id="T3" start="217" end="221" text="year" type="DURATION" val="p1y" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="06/05/2005" type="DATE" val="2005-06-05" mod="NA" />
+<TIMEX3 id="T4" start="751" end="779" text="postoperative day number two" type="DATE" val="2005-06-04" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T0" toText="06/02/2005" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E2" fromText="an MRI" toID="E1" toText="a workup" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="T3" fromText="year" toID="T0" toText="06/02/2005" type="ENDED_BY" />
+<TLINK id="TL11" fromID="E13" fromText="progressively gotten worse" toID="T3" toText="year" type="DURING" />
+<TLINK id="TL12" fromID="E12" fromText="these symptoms" toID="E10" toText="bilateral hand numbness" type="SIMULTANEOUS" />
+<TLINK id="TL13" fromID="E12" fromText="these symptoms" toID="E13" toText="progressively gotten worse" type="BEFORE_OVERLAP" />
+<TLINK id="TL14" fromID="E14" fromText="a C5-6 disc herniation" toID="E2" toText="an MRI" type="BEFORE_OVERLAP" />
+<TLINK id="TL15" fromID="E6" fromText="revealed" toID="E2" toText="an MRI" type="SIMULTANEOUS" />
+<TLINK id="TL16" fromID="E15" fromText="cord compression" toID="E14" toText="a C5-6 disc herniation" type="OVERLAP" />
+<TLINK id="TL17" fromID="E16" fromText="a T2 signal change" toID="E15" toText="cord compression" type="OVERLAP" />
+<TLINK id="TL18" fromID="E17" fromText="tolerated" toID="E18" toText="well" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E17" fromText="tolerated" toID="E3" toText="a C5-6 ACDF" type="SIMULTANEOUS" />
+<TLINK id="TL2" fromID="E1" fromText="a workup" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL20" fromID="E4" fromText="a postoperative CT scan" toID="E3" toText="a C5-6 ACDF" type="AFTER" />
+<TLINK id="TL21" fromID="E7" fromText="revealed" toID="E4" toText="a postoperative CT scan" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E19" fromText="partial decompression of the spinal canal" toID="E7" toText="revealed" type="BEFORE_OVERLAP" />
+<TLINK id="TL23" fromID="E21" fromText="her hardware" toID="E20" toText="good placement" type="SIMULTANEOUS" />
+<TLINK id="TL24" fromID="E20" fromText="good placement" toID="E19" toText="partial decompression of the spinal canal" type="OVERLAP" />
+<TLINK id="TL25" fromID="E5" fromText="her exam" toID="E4" toText="a postoperative CT scan" type="OVERLAP" />
+<TLINK id="TL26" fromID="E23" fromText="improved" toID="E5" toText="her exam" type="SIMULTANEOUS" />
+<TLINK id="TL27" fromID="E24" fromText="her hyperreflexia" toID="E23" toText="improved" type="BEFORE_OVERLAP" />
+<TLINK id="TL28" fromID="E8" fromText="ambulating" toID="T4" toText="postoperative day number two" type="BEGUN_BY" />
+<TLINK id="TL29" fromID="E25" fromText="a regular diet" toID="E8" toText="ambulating" type="OVERLAP" />
+<TLINK id="TL3" fromID="E3" fromText="a C5-6 ACDF" toID="E0" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL30" fromID="E26" fromText="Her pain" toID="E25" toText="a regular diet" type="OVERLAP" />
+<TLINK id="TL31" fromID="E26" fromText="Her pain" toID="E27" toText="good control" type="BEFORE_OVERLAP" />
+<TLINK id="TL32" fromID="E27" fromText="good control" toID="E28" toText="PO pain medications" type="BEGUN_BY" />
+<TLINK id="TL4" fromID="E9" fromText="DISCHARGE" toID="T1" toText="06/05/2005" type="SIMULTANEOUS" />
+<TLINK id="TL5" fromID="E29" fromText="discharge" toID="E9" toText="DISCHARGE" type="SIMULTANEOUS" />
+<TLINK id="TL6" fromID="T2" fromText="three-year" toID="T0" toText="06/02/2005" type="ENDED_BY" />
+<TLINK id="TL7" fromID="E10" fromText="bilateral hand numbness" toID="T2" toText="three-year" type="DURING" />
+<TLINK id="TL8" fromID="E11" fromText="occasional weakness" toID="E10" toText="bilateral hand numbness" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="06/02/2005" type="ADMISSION" dvalue="2005-06-02" />
+<SECTIME id="S1" start="46" end="56" text="06/05/2005" type="DISCHARGE" dvalue="2005-06-05" />
+<TLINK id="SECTIME0" fromID="E10" fromText="bilateral hand numbness" toID="T0" toText="06/02/2005" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E11" fromText="occasional weakness" toID="T0" toText="06/02/2005" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E12" fromText="these symptoms" toID="T0" toText="06/02/2005" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E13" fromText="progressively gotten worse" toID="T0" toText="06/02/2005" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E1" fromText="a workup" toID="T0" toText="06/02/2005" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E2" fromText="an MRI" toID="T0" toText="06/02/2005" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E6" fromText="revealed" toID="T0" toText="06/02/2005" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E14" fromText="a C5-6 disc herniation" toID="T0" toText="06/02/2005" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E15" fromText="cord compression" toID="T0" toText="06/02/2005" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E16" fromText="a T2 signal change" toID="T0" toText="06/02/2005" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E17" fromText="tolerated" toID="T1" toText="06/05/2005" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E3" fromText="a C5-6 ACDF" toID="T1" toText="06/05/2005" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E18" fromText="well" toID="T1" toText="06/05/2005" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E4" fromText="a postoperative CT scan" toID="T1" toText="06/05/2005" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E7" fromText="revealed" toID="T1" toText="06/05/2005" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E19" fromText="partial decompression of the spinal canal" toID="T1" toText="06/05/2005" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E20" fromText="good placement" toID="T1" toText="06/05/2005" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E21" fromText="her hardware" toID="T1" toText="06/05/2005" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E5" fromText="her exam" toID="T1" toText="06/05/2005" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E23" fromText="improved" toID="T1" toText="06/05/2005" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E24" fromText="her hyperreflexia" toID="T1" toText="06/05/2005" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E8" fromText="ambulating" toID="T1" toText="06/05/2005" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E25" fromText="a regular diet" toID="T1" toText="06/05/2005" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E26" fromText="Her pain" toID="T1" toText="06/05/2005" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E27" fromText="good control" toID="T1" toText="06/05/2005" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E28" fromText="PO pain medications" toID="T1" toText="06/05/2005" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E29" fromText="discharge" toID="T1" toText="06/05/2005" type="OVERLAP" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

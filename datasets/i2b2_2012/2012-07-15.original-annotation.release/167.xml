@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2019-06-25
+Discharge Date :
+2019-07-01
+Service :
+CARDIOTHORACIC
+History of Present Illness :
+69yoM with OA having workup for knee replacements found to be in Afib , had stress test that was positive followed by cardiac catheterization which revealed severe 3VD .
+Then referred for CABG
+Brief Hospital Course :
+69 yo M with known Atrial fibrillation and coronary artery disease admitted preop for transition fro Coumadin to Heparin .
+Brought to the OR on 06-26 for CABG , please see OR report for details .
+In summary pt had off pump CABGx4 with LIMA-LAD , SVG OM-Y graft - Diag , SVG-PDA .
+Pt tolerated surgery well and was transferred to CT CMED ICU .
+He did well in immediate post-op period was extubated and on POD1 he was transferred to the step down floor .
+On POD2 his chest tubes and epicardial pacing wires were removed and his Coumadin was restarted .
+Over the next several days his activity was advanced on POD5 it was decided he was stable and ready to be discharged home with visiting nurses .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1006" end="1021" text="visiting nurses" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="122" end="124" text="OA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="132" end="138" text="workup" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="143" end="160" text="knee replacements" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="161" end="166" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E21" start="176" end="180" text="Afib" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="187" end="198" text="stress test" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="229" end="252" text="cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E22" start="259" end="267" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E23" start="268" end="278" text="severe 3VD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="286" end="294" text="referred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="299" end="303" text="CABG" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="341" end="366" text="known Atrial fibrillation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="371" end="394" text="coronary artery disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="395" end="403" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="429" end="437" text="Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="441" end="448" text="Heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="462" end="468" text="the OR" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E7" start="482" end="486" text="CABG" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="500" end="509" text="OR report" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E8" start="542" end="557" text="off pump CABGx4" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="563" end="571" text="LIMA-LAD" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="574" end="595" text="SVG OM-Y graft - Diag" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="598" end="605" text="SVG-PDA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="621" end="628" text="surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="642" end="653" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="657" end="668" text="CT CMED ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E30" start="678" end="682" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="715" end="724" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="744" end="755" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="759" end="778" text="the step down floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E14" start="789" end="804" text="his chest tubes" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="809" end="832" text="epicardial pacing wires" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="850" end="862" text="his Coumadin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="923" end="931" text="advanced" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="962" end="968" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="985" end="995" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T0" start="18" end="28" text="2019-06-25" type="DATE" val="2019-06-25" mod="NA" />
+<TIMEX3 id="T3" start="46" end="56" text="2019-07-01" type="DATE" val="2019-07-01" mod="NA" />
+<TIMEX3 id="T4" start="472" end="477" text="06-26" type="DATE" val="2019-06-26" mod="NA" />
+<TIMEX3 id="T5" start="686" end="710" text="immediate post-op period" type="DURATION" val="P1D" mod="APPROX" />
+<TIMEX3 id="T1" start="732" end="736" text="POD1" type="DATE" val="2019-06-27" mod="NA" />
+<TIMEX3 id="T2" start="784" end="788" text="POD2" type="DATE" val="2019-06-28" mod="NA" />
+<TIMEX3 id="T6" start="893" end="905" text="several days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T7" start="935" end="939" text="POD5" type="DATE" val="2019-07-01" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2019-06-25" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E7" fromText="CABG" toID="E8" toText="off pump CABGx4" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E22" fromText="revealed" toID="E3" toText="cardiac catheterization" type="SIMULTANEOUS" />
+<TLINK id="TL11" fromID="E23" fromText="severe 3VD" toID="E22" toText="revealed" type="BEFORE_OVERLAP" />
+<TLINK id="TL12" fromID="E16" fromText="referred" toID="E3" toText="cardiac catheterization" type="AFTER" />
+<TLINK id="TL13" fromID="E24" fromText="CABG" toID="E16" toText="referred" type="AFTER" />
+<TLINK id="TL14" fromID="E4" fromText="known Atrial fibrillation" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL15" fromID="E25" fromText="coronary artery disease" toID="E4" toText="known Atrial fibrillation" type="OVERLAP" />
+<TLINK id="TL16" fromID="E17" fromText="admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL17" fromID="E5" fromText="Coumadin" toID="E17" toText="admitted" type="ENDED_BY" />
+<TLINK id="TL18" fromID="E6" fromText="Heparin" toID="E17" toText="admitted" type="BEGUN_BY" />
+<TLINK id="TL19" fromID="T4" fromText="06-26" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL2" fromID="E18" fromText="Discharge" toID="T3" toText="2019-07-01" type="SIMULTANEOUS" />
+<TLINK id="TL20" fromID="E26" fromText="the OR" toID="T4" toText="06-26" type="SIMULTANEOUS" />
+<TLINK id="TL21" fromID="T4" fromText="06-26" toID="E18" toText="Discharge" type="BEFORE" />
+<TLINK id="TL23" fromID="E27" fromText="OR report" toID="E7" toText="CABG" type="AFTER" />
+<TLINK id="TL24" fromID="E8" fromText="off pump CABGx4" toID="E26" toText="the OR" type="DURING" />
+<TLINK id="TL25" fromID="E9" fromText="LIMA-LAD" toID="E8" toText="off pump CABGx4" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="E10" fromText="SVG OM-Y graft - Diag" toID="E9" toText="LIMA-LAD" type="SIMULTANEOUS" />
+<TLINK id="TL27" fromID="E11" fromText="SVG-PDA" toID="E10" toText="SVG OM-Y graft - Diag" type="SIMULTANEOUS" />
+<TLINK id="TL28" fromID="E12" fromText="surgery" toID="E7" toText="CABG" type="SIMULTANEOUS" />
+<TLINK id="TL29" fromID="E28" fromText="transferred" toID="E12" toText="surgery" type="AFTER" />
+<TLINK id="TL3" fromID="E19" fromText="OA" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL30" fromID="E29" fromText="CT CMED ICU" toID="E28" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL31" fromID="T5" fromText="immediate post-op period" toID="E29" toText="CT CMED ICU" type="OVERLAP" />
+<TLINK id="TL32" fromID="E30" fromText="well" toID="T5" toText="immediate post-op period" type="DURING" />
+<TLINK id="TL33" fromID="E13" fromText="extubated" toID="T5" toText="immediate post-op period" type="DURING" />
+<TLINK id="TL34" fromID="T1" fromText="POD1" toID="E13" toText="extubated" type="AFTER" />
+<TLINK id="TL35" fromID="E31" fromText="transferred" toID="T1" toText="POD1" type="SIMULTANEOUS" />
+<TLINK id="TL36" fromID="E32" fromText="the step down floor" toID="E31" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL37" fromID="T2" fromText="POD2" toID="T1" toText="POD1" type="AFTER" />
+<TLINK id="TL38" fromID="E14" fromText="his chest tubes" toID="T2" toText="POD2" type="ENDED_BY" />
+<TLINK id="TL39" fromID="E15" fromText="epicardial pacing wires" toID="E14" toText="his chest tubes" type="SIMULTANEOUS" />
+<TLINK id="TL4" fromID="E1" fromText="workup" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL40" fromID="E33" fromText="his Coumadin" toID="T2" toText="POD2" type="BEGUN_BY" />
+<TLINK id="TL41" fromID="T6" fromText="several days" toID="T2" toText="POD2" type="AFTER" />
+<TLINK id="TL42" fromID="E38" fromText="advanced" toID="T6" toText="several days" type="DURING" />
+<TLINK id="TL43" fromID="T6" fromText="several days" toID="T7" toText="POD5" type="ENDED_BY" />
+<TLINK id="TL44" fromID="T7" fromText="POD5" toID="T2" toText="POD2" type="AFTER" />
+<TLINK id="TL45" fromID="E34" fromText="stable" toID="T7" toText="POD5" type="BEFORE_OVERLAP" />
+<TLINK id="TL46" fromID="T7" fromText="POD5" toID="E35" toText="discharged" type="SIMULTANEOUS" />
+<TLINK id="TL47" fromID="E35" fromText="discharged" toID="E18" toText="Discharge" type="SIMULTANEOUS" />
+<TLINK id="TL48" fromID="E36" fromText="visiting nurses" toID="E35" toText="discharged" type="AFTER" />
+<TLINK id="TL5" fromID="E20" fromText="knee replacements" toID="E1" toText="workup" type="AFTER" />
+<TLINK id="TL6" fromID="E21" fromText="Afib" toID="E1" toText="workup" type="BEFORE_OVERLAP" />
+<TLINK id="TL7" fromID="E37" fromText="found" toID="E1" toText="workup" type="DURING" />
+<TLINK id="TL8" fromID="E2" fromText="stress test" toID="E37" toText="found" type="AFTER" />
+<TLINK id="TL9" fromID="E3" fromText="cardiac catheterization" toID="E2" toText="stress test" type="AFTER" />
+<TLINK id="Sectime0" fromID="E36" fromText="visiting nurses" toID="T3" toText="2019-07-01" type="AFTER" />
+<TLINK id="Sectime0" fromID="E19" fromText="OA" toID="T0" toText="2019-06-25" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime1" fromID="E1" fromText="workup" toID="T0" toText="2019-06-25" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E20" fromText="knee replacements" toID="T0" toText="2019-06-25" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E37" fromText="found" toID="T0" toText="2019-06-25" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E21" fromText="Afib" toID="T0" toText="2019-06-25" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime5" fromID="E2" fromText="stress test" toID="T0" toText="2019-06-25" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E3" fromText="cardiac catheterization" toID="T0" toText="2019-06-25" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E22" fromText="revealed" toID="T0" toText="2019-06-25" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E23" fromText="severe 3VD" toID="T0" toText="2019-06-25" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime9" fromID="E16" fromText="referred" toID="T0" toText="2019-06-25" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E24" fromText="CABG" toID="T0" toText="2019-06-25" type="AFTER" />
+<TLINK id="Sectime1" fromID="E4" fromText="known Atrial fibrillation" toID="T3" toText="2019-07-01" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E25" fromText="coronary artery disease" toID="T3" toText="2019-07-01" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime3" fromID="E17" fromText="admitted" toID="T3" toText="2019-07-01" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E5" fromText="Coumadin" toID="T3" toText="2019-07-01" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E6" fromText="Heparin" toID="T3" toText="2019-07-01" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E26" fromText="the OR" toID="T3" toText="2019-07-01" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E7" fromText="CABG" toID="T3" toText="2019-07-01" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E27" fromText="OR report" toID="T3" toText="2019-07-01" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E8" fromText="off pump CABGx4" toID="T3" toText="2019-07-01" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E9" fromText="LIMA-LAD" toID="T3" toText="2019-07-01" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E10" fromText="SVG OM-Y graft - Diag" toID="T3" toText="2019-07-01" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E11" fromText="SVG-PDA" toID="T3" toText="2019-07-01" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E12" fromText="surgery" toID="T3" toText="2019-07-01" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E28" fromText="transferred" toID="T3" toText="2019-07-01" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E29" fromText="CT CMED ICU" toID="T3" toText="2019-07-01" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E30" fromText="well" toID="T3" toText="2019-07-01" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E13" fromText="extubated" toID="T3" toText="2019-07-01" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E31" fromText="transferred" toID="T3" toText="2019-07-01" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E32" fromText="the step down floor" toID="T3" toText="2019-07-01" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime20" fromID="E14" fromText="his chest tubes" toID="T3" toText="2019-07-01" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E15" fromText="epicardial pacing wires" toID="T3" toText="2019-07-01" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E33" fromText="his Coumadin" toID="T3" toText="2019-07-01" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime23" fromID="E38" fromText="advanced" toID="T3" toText="2019-07-01" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E34" fromText="stable" toID="T3" toText="2019-07-01" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime25" fromID="E35" fromText="discharged" toID="T3" toText="2019-07-01" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2019-06-25" type="ADMISSION" dvalue="2019-06-25" />
+<SECTIME id="S1" start="46" end="56" text="2019-07-01" type="DISCHARGE" dvalue="2019-07-01" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

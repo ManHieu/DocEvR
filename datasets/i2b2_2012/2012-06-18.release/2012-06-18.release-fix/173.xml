@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2009-05-01
+Discharge Date :
+Date of Birth :
+Service :
+Surgery
+HISTORY OF PRESENT ILLNESS :
+The patient is a 39 year-old gentleman admitted on 2009-05-01 to the Jewish Memorial Hospital referred from South Cove Community Health Center .
+He is a 39 year-old gentleman with hyperlipidemia and smoking who presented with acute onset of chest pain since five in the morning with radiation to the left arm and nausea .
+Symptoms resolved spontaneously .
+He was taken to the Cath Lab at the Pinewood , Norfolk that evening where a stent procedure to the RCA was complicated by guidewire entrapment inside of a stent requiring CT surgery to do a thoracotomy with bypass and excision of the wire .
+The case was complicated by an episode of coffee ground emesis and a bleed from femoral access site prior to CT surgery .
+Gastroenterology was consulted and they recommended Protonix and felt it was due to peptic ulcer disease .
+HOSPITAL COURSE :
+The patient was diagnosed as having an acute myocardial infarction .
+The patient was taken emergently to the operating room on 2009-05-02 for his CABG , right coronary endarterectomy , removal of RCA stents and retrieval of the aortic guidewire .
+Postoperatively he did well and was transferred to the Cardiac Surgery Intensive Care Unit where he was on pressor support of Neo-Synephrine and he was extubated .
+The patient slowly weaned off Neo-Synephrine as tolerated .
+He was transferred to the floor on 2009-05-04 .
+His chest tube had been discontinued .
+Upon arrival to the floor the patient 's wires were discontinued on 2009-05-05 and his Foley catheter was discontinued .
+The patient was seen by Physical Therapy .
+His electrolytes were repleted and the patient was discharged home on 2009-05-06 after tolerating a level V .
+MEDICATIONS : His prescriptions shall include
+1. Lopressor 25 milligrams po bid .
+2. Lipitor 20 milligrams po q HS .
+3. Niferex 150 milligrams caplet one cap per day .
+4. Protonix 40 milligrams po q day .
+5. Colace 100 milligrams po bid .
+6. Percocet one to two tablets q four H prn for pain .
+He will get 60 of those .
+7. Plavix 75 milligrams po q day times three months .
+8. Aspirin 325 milligrams po q day .
+9. Lasix 20 milligrams po times 30 days .
+10. KCL 20 milliequivalents po q d times three days .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="1038" end="1043" text="taken" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="1058" end="1076" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E34" start="1095" end="1103" text="his CABG" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="1106" end="1135" text="right coronary endarterectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="1138" end="1145" text="removal" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="1149" end="1159" text="RCA stents" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="1164" end="1173" text="retrieval" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1177" end="1197" text="the aortic guidewire" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1219" end="1227" text="did well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1236" end="1247" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1251" end="1290" text="the Cardiac Surgery Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E43" start="1307" end="1322" text="pressor support" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1326" end="1340" text="Neo-Synephrine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1352" end="1361" text="extubated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1394" end="1408" text="Neo-Synephrine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E47" start="1431" end="1442" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1446" end="1455" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E50" start="1472" end="1486" text="His chest tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="148" end="156" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="1516" end="1523" text="arrival" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E51" start="1527" end="1536" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E52" start="1537" end="1557" text="the patient 's wires" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="1594" end="1612" text="his Foley catheter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="1675" end="1691" text="His electrolytes" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E56" start="1697" end="1705" text="repleted" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E57" start="1726" end="1736" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E58" start="1762" end="1782" text="tolerating a level V" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="178" end="202" text="Jewish Memorial Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E59" start="1799" end="1816" text="His prescriptions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="1834" end="1843" text="Lopressor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="1870" end="1877" text="Lipitor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="1905" end="1912" text="Niferex" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="1956" end="1964" text="Protonix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E65" start="1993" end="1999" text="Colace" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E66" start="2027" end="2035" text="Percocet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E67" start="2072" end="2076" text="pain" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="2108" end="2114" text="Plavix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="2162" end="2169" text="Aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="217" end="251" text="South Cove Community Health Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E70" start="2199" end="2204" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E71" start="2242" end="2245" text="KCL" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="289" end="303" text="hyperlipidemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E6" start="308" end="315" text="smoking" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="320" end="329" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="350" end="360" text="chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="392" end="401" text="radiation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="422" end="428" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="431" end="439" text="Symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="472" end="477" text="taken" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="481" end="493" text="the Cath Lab" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E15" start="497" end="519" text="the Pinewood , Norfolk" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E16" start="539" end="556" text="a stent procedure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E17" start="587" end="607" text="guidewire entrapment" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="618" end="625" text="a stent" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="636" end="646" text="CT surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="653" end="666" text="a thoracotomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="672" end="678" text="bypass" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E23" start="683" end="691" text="excision" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="695" end="703" text="the wire" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="748" end="768" text="coffee ground emesis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="773" end="780" text="a bleed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="786" end="805" text="femoral access site" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="815" end="825" text="CT surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="880" end="888" text="Protonix" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="912" end="932" text="peptic ulcer disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="989" end="1019" text="an acute myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T4" start="1080" end="1090" text="2009-05-02" type="DATE" val="2009-05-02" mod="NA" />
+<TIMEX3 id="T5" start="1459" end="1469" text="2009-05-04" type="DATE" val="2009-05-04" mod="NA" />
+<TIMEX3 id="T6" start="1579" end="1589" text="2009-05-05" type="DATE" val="2009-05-05" mod="NA" />
+<TIMEX3 id="T1" start="160" end="170" text="2009-05-01" type="DATE" val="2009-05-01" mod="NA" />
+<TIMEX3 id="T7" start="1745" end="1755" text="2009-05-06" type="DATE" val="2009-05-06" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2009-05-01" type="DATE" val="2009-05-01" mod="NA" />
+<TIMEX3 id="T8" start="1861" end="1864" text="bid" type="FREQUENCY" val="RP12H" mod="NA" />
+<TIMEX3 id="T9" start="1895" end="1899" text="q HS" type="FREQUENCY" val="RP24HT22:00" mod="APPROX" />
+<TIMEX3 id="T10" start="1943" end="1950" text="per day" type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T11" start="1982" end="1987" text="q day" type="FREQUENCY" val="RP24H" mod="NA" />
+<TIMEX3 id="T12" start="2018" end="2021" text="bid" type="FREQUENCY" val="RP12H" mod="NA" />
+<TIMEX3 id="T13" start="2055" end="2063" text="q four H" type="FREQUENCY" val="RP4H" mod="NA" />
+<TIMEX3 id="T19" start="2064" end="2067" text="prn" type="FREQUENCY" val="R" mod="NA" />
+<TIMEX3 id="T15" start="2132" end="2156" text="q day times three months" type="FREQUENCY" val="R90P1D" mod="NA" />
+<TIMEX3 id="T16" start="2188" end="2193" text="q day" type="FREQUENCY" val="RP24H" mod="NA" />
+<TIMEX3 id="T17" start="2222" end="2235" text="times 30 days" type="FREQUENCY" val="R30P1D" mod="NA" />
+<TIMEX3 id="T18" start="2269" end="2289" text="q d times three days" type="FREQUENCY" val="R3P1D" mod="NA" />
+<TIMEX3 id="T2" start="367" end="386" text="five in the morning" type="TIME" val="2009-05-01T05:00" mod="NA" />
+<TIMEX3 id="T3" start="525" end="532" text="evening" type="DATE" val="2009-05-01" mod="END" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2009-05-01" type="OVERLAP" />
+<TLINK id="TL1" fromID="E57" fromText="discharged" toID="E1" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL10" fromID="E8" fromText="chest pain" toID="T2" toText="five in the morning" type="AFTER" />
+<TLINK id="TL11" fromID="E9" fromText="radiation" toID="E8" toText="chest pain" type="OVERLAP" />
+<TLINK id="TL12" fromID="E8" fromText="chest pain" toID="E11" toText="Symptoms" type="OVERLAP" />
+<TLINK id="TL13" fromID="E10" fromText="nausea" toID="E9" toText="radiation" type="OVERLAP" />
+<TLINK id="TL14" fromID="E12" fromText="taken" toID="T3" toText="evening" type="OVERLAP" />
+<TLINK id="TL15" fromID="E14" fromText="the Cath Lab" toID="E12" toText="taken" type="AFTER" />
+<TLINK id="TL16" fromID="E14" fromText="the Cath Lab" toID="E15" toText="the Pinewood , Norfolk" type="OVERLAP" />
+<TLINK id="TL17" fromID="E14" fromText="the Cath Lab" toID="T3" toText="evening" type="OVERLAP" />
+<TLINK id="TL18" fromID="E16" fromText="a stent procedure" toID="E14" toText="the Cath Lab" type="OVERLAP" />
+<TLINK id="TL19" fromID="E17" fromText="guidewire entrapment" toID="E16" toText="a stent procedure" type="OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="admitted" toID="T1" toText="2009-05-01" type="OVERLAP" />
+<TLINK id="TL20" fromID="E20" fromText="CT surgery" toID="E17" toText="guidewire entrapment" type="AFTER" />
+<TLINK id="TL21" fromID="E18" fromText="a stent" toID="E17" toText="guidewire entrapment" type="OVERLAP" />
+<TLINK id="TL22" fromID="E21" fromText="a thoracotomy" toID="E20" toText="CT surgery" type="OVERLAP" />
+<TLINK id="TL23" fromID="E20" fromText="CT surgery" toID="E28" toText="CT surgery" type="OVERLAP" />
+<TLINK id="TL24" fromID="E22" fromText="bypass" toID="E21" toText="a thoracotomy" type="OVERLAP" />
+<TLINK id="TL25" fromID="E23" fromText="excision" toID="E22" toText="bypass" type="OVERLAP" />
+<TLINK id="TL26" fromID="E24" fromText="the wire" toID="E23" toText="excision" type="BEFORE" />
+<TLINK id="TL27" fromID="E24" fromText="the wire" toID="E17" toText="guidewire entrapment" type="OVERLAP" />
+<TLINK id="TL28" fromID="E26" fromText="a bleed" toID="E25" toText="coffee ground emesis" type="OVERLAP" />
+<TLINK id="TL29" fromID="E25" fromText="coffee ground emesis" toID="E28" toText="CT surgery" type="OVERLAP" />
+<TLINK id="TL3" fromID="E3" fromText="Jewish Memorial Hospital" toID="E2" toText="admitted" type="AFTER" />
+<TLINK id="TL30" fromID="E26" fromText="a bleed" toID="E28" toText="CT surgery" type="BEFORE" />
+<TLINK id="TL31" fromID="E26" fromText="a bleed" toID="E27" toText="femoral access site" type="OVERLAP" />
+<TLINK id="TL32" fromID="E30" fromText="peptic ulcer disease" toID="E29" toText="Protonix" type="BEFORE" />
+<TLINK id="TL33" fromID="E30" fromText="peptic ulcer disease" toID="E25" toText="coffee ground emesis" type="OVERLAP" />
+<TLINK id="TL34" fromID="E31" fromText="an acute myocardial infarction" toID="E8" toText="chest pain" type="OVERLAP" />
+<TLINK id="TL35" fromID="E32" fromText="taken" toID="T4" toText="2009-05-02" type="OVERLAP" />
+<TLINK id="TL36" fromID="E33" fromText="the operating room" toID="T4" toText="2009-05-02" type="OVERLAP" />
+<TLINK id="TL37" fromID="E34" fromText="his CABG" toID="E33" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL38" fromID="E35" fromText="right coronary endarterectomy" toID="E34" toText="his CABG" type="OVERLAP" />
+<TLINK id="TL39" fromID="E36" fromText="removal" toID="E34" toText="his CABG" type="OVERLAP" />
+<TLINK id="TL40" fromID="E38" fromText="retrieval" toID="E34" toText="his CABG" type="OVERLAP" />
+<TLINK id="TL41" fromID="E17" fromText="guidewire entrapment" toID="E39" toText="the aortic guidewire" type="OVERLAP" />
+<TLINK id="TL42" fromID="E39" fromText="the aortic guidewire" toID="E38" toText="retrieval" type="BEFORE" />
+<TLINK id="TL43" fromID="E38" fromText="retrieval" toID="E23" toText="excision" type="OVERLAP" />
+<TLINK id="TL44" fromID="E37" fromText="RCA stents" toID="E36" toText="removal" type="BEFORE" />
+<TLINK id="TL45" fromID="E34" fromText="his CABG" toID="E40" toText="did well" type="BEFORE" />
+<TLINK id="TL46" fromID="E40" fromText="did well" toID="E41" toText="transferred" type="OVERLAP" />
+<TLINK id="TL47" fromID="E42" fromText="the Cardiac Surgery Intensive Care Unit" toID="E41" toText="transferred" type="AFTER" />
+<TLINK id="TL48" fromID="E43" fromText="pressor support" toID="E42" toText="the Cardiac Surgery Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL49" fromID="E45" fromText="extubated" toID="E42" toText="the Cardiac Surgery Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL5" fromID="E5" fromText="hyperlipidemia" toID="E2" toText="admitted" type="BEFORE" />
+<TLINK id="TL50" fromID="E44" fromText="Neo-Synephrine" toID="E43" toText="pressor support" type="OVERLAP" />
+<TLINK id="TL51" fromID="E44" fromText="Neo-Synephrine" toID="E46" toText="Neo-Synephrine" type="OVERLAP" />
+<TLINK id="TL52" fromID="E46" fromText="Neo-Synephrine" toID="E47" toText="transferred" type="BEFORE" />
+<TLINK id="TL53" fromID="E49" fromText="the floor" toID="E47" toText="transferred" type="AFTER" />
+<TLINK id="TL54" fromID="E47" fromText="transferred" toID="T5" toText="2009-05-04" type="OVERLAP" />
+<TLINK id="TL55" fromID="E49" fromText="the floor" toID="T5" toText="2009-05-04" type="AFTER" />
+<TLINK id="TL56" fromID="E50" fromText="His chest tube" toID="E34" toText="his CABG" type="AFTER" />
+<TLINK id="TL58" fromID="E50" fromText="His chest tube" toID="E49" toText="the floor" type="BEFORE" />
+<TLINK id="TL59" fromID="E54" fromText="arrival" toID="E51" toText="the floor" type="OVERLAP" />
+<TLINK id="TL6" fromID="E4" fromText="South Cove Community Health Center" toID="E3" toText="Jewish Memorial Hospital" type="BEFORE" />
+<TLINK id="TL60" fromID="E51" fromText="the floor" toID="E49" toText="the floor" type="OVERLAP" />
+<TLINK id="TL61" fromID="E52" fromText="the patient 's wires" toID="E54" toText="arrival" type="BEFORE" />
+<TLINK id="TL62" fromID="E52" fromText="the patient 's wires" toID="T6" toText="2009-05-05" type="BEFORE" />
+<TLINK id="TL63" fromID="E53" fromText="his Foley catheter" toID="T6" toText="2009-05-05" type="BEFORE" />
+<TLINK id="TL64" fromID="E55" fromText="His electrolytes" toID="E56" toText="repleted" type="OVERLAP" />
+<TLINK id="TL65" fromID="E57" fromText="discharged" toID="T7" toText="2009-05-06" type="OVERLAP" />
+<TLINK id="TL66" fromID="E59" fromText="His prescriptions" toID="E57" toText="discharged" type="OVERLAP" />
+<TLINK id="TL67" fromID="E58" fromText="tolerating a level V" toID="E57" toText="discharged" type="BEFORE" />
+<TLINK id="TL68" fromID="E60" fromText="Lopressor" toID="E59" toText="His prescriptions" type="OVERLAP" />
+<TLINK id="TL69" fromID="E60" fromText="Lopressor" toID="T8" toText="bid" type="OVERLAP" />
+<TLINK id="TL7" fromID="E5" fromText="hyperlipidemia" toID="E6" toText="smoking" type="OVERLAP" />
+<TLINK id="TL70" fromID="E59" fromText="His prescriptions" toID="E61" toText="Lipitor" type="OVERLAP" />
+<TLINK id="TL71" fromID="E61" fromText="Lipitor" toID="T9" toText="q HS" type="OVERLAP" />
+<TLINK id="TL72" fromID="E62" fromText="Niferex" toID="T10" toText="per day" type="OVERLAP" />
+<TLINK id="TL73" fromID="E59" fromText="His prescriptions" toID="E62" toText="Niferex" type="OVERLAP" />
+<TLINK id="TL74" fromID="E64" fromText="Protonix" toID="E59" toText="His prescriptions" type="OVERLAP" />
+<TLINK id="TL75" fromID="E65" fromText="Colace" toID="E59" toText="His prescriptions" type="OVERLAP" />
+<TLINK id="TL76" fromID="E66" fromText="Percocet" toID="E59" toText="His prescriptions" type="OVERLAP" />
+<TLINK id="TL77" fromID="E68" fromText="Plavix" toID="E59" toText="His prescriptions" type="OVERLAP" />
+<TLINK id="TL78" fromID="E69" fromText="Aspirin" toID="E59" toText="His prescriptions" type="OVERLAP" />
+<TLINK id="TL79" fromID="E70" fromText="Lasix" toID="E59" toText="His prescriptions" type="OVERLAP" />
+<TLINK id="TL8" fromID="E7" fromText="presented" toID="E2" toText="admitted" type="OVERLAP" />
+<TLINK id="TL80" fromID="E71" fromText="KCL" toID="E59" toText="His prescriptions" type="OVERLAP" />
+<TLINK id="TL81" fromID="E68" fromText="Plavix" toID="T15" toText="q day times three months" type="OVERLAP" />
+<TLINK id="TL82" fromID="E69" fromText="Aspirin" toID="T16" toText="q day" type="OVERLAP" />
+<TLINK id="TL83" fromID="E70" fromText="Lasix" toID="T17" toText="times 30 days" type="OVERLAP" />
+<TLINK id="TL84" fromID="E71" fromText="KCL" toID="T18" toText="q d times three days" type="OVERLAP" />
+<TLINK id="TL85" fromID="E66" fromText="Percocet" toID="T13" toText="q four H" type="OVERLAP" />
+<TLINK id="TL86" fromID="E67" fromText="pain" toID="E66" toText="Percocet" type="BEFORE" />
+<TLINK id="TL87" fromID="E65" fromText="Colace" toID="T12" toText="bid" type="OVERLAP" />
+<TLINK id="TL88" fromID="E64" fromText="Protonix" toID="T11" toText="q day" type="OVERLAP" />
+<TLINK id="TL89" fromID="T19" fromText="prn" toID="E66" toText="Percocet" type="OVERLAP" />
+<TLINK id="TL9" fromID="E8" fromText="chest pain" toID="E7" toText="presented" type="BEFORE" />
+
+<TLINK id="SECTIME0" fromID="E32" fromText="taken" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E33" fromText="the operating room" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E34" fromText="his CABG" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E35" fromText="right coronary endarterectomy" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E36" fromText="removal" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E37" fromText="RCA stents" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E38" fromText="retrieval" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E39" fromText="the aortic guidewire" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E40" fromText="did well" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E41" fromText="transferred" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E42" fromText="the Cardiac Surgery Intensive Care Unit" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E43" fromText="pressor support" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E44" fromText="Neo-Synephrine" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E45" fromText="extubated" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E46" fromText="Neo-Synephrine" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E47" fromText="transferred" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E49" fromText="the floor" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E50" fromText="His chest tube" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E2" fromText="admitted" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E54" fromText="arrival" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E51" fromText="the floor" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E52" fromText="the patient 's wires" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E53" fromText="his Foley catheter" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E55" fromText="His electrolytes" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E56" fromText="repleted" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E57" fromText="discharged" toID="Discharge" toText="Discharge" type="OVERLAP" />
+<TLINK id="SECTIME26" fromID="E58" fromText="tolerating a level V" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E3" fromText="Jewish Memorial Hospital" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E59" fromText="His prescriptions" toID="Discharge" toText="Discharge" type="AFTER" />
+<TLINK id="SECTIME29" fromID="E60" fromText="Lopressor" toID="Discharge" toText="Discharge" type="AFTER" />
+<TLINK id="SECTIME30" fromID="E61" fromText="Lipitor" toID="Discharge" toText="Discharge" type="AFTER" />
+<TLINK id="SECTIME31" fromID="E62" fromText="Niferex" toID="Discharge" toText="Discharge" type="AFTER" />
+<TLINK id="SECTIME32" fromID="E64" fromText="Protonix" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E65" fromText="Colace" toID="Discharge" toText="Discharge" type="AFTER" />
+<TLINK id="SECTIME34" fromID="E66" fromText="Percocet" toID="Discharge" toText="Discharge" type="AFTER" />
+<TLINK id="SECTIME35" fromID="E67" fromText="pain" toID="Discharge" toText="Discharge" type="AFTER" />
+<TLINK id="SECTIME36" fromID="E68" fromText="Plavix" toID="Discharge" toText="Discharge" type="AFTER" />
+<TLINK id="SECTIME37" fromID="E69" fromText="Aspirin" toID="Discharge" toText="Discharge" type="AFTER" />
+<TLINK id="SECTIME38" fromID="E4" fromText="South Cove Community Health Center" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E70" fromText="Lasix" toID="Discharge" toText="Discharge" type="AFTER" />
+<TLINK id="SECTIME40" fromID="E71" fromText="KCL" toID="Discharge" toText="Discharge" type="AFTER" />
+<TLINK id="SECTIME41" fromID="E5" fromText="hyperlipidemia" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E6" fromText="smoking" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E7" fromText="presented" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E8" fromText="chest pain" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E9" fromText="radiation" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E10" fromText="nausea" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E11" fromText="Symptoms" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E12" fromText="taken" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E14" fromText="the Cath Lab" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E15" fromText="the Pinewood , Norfolk" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E16" fromText="a stent procedure" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E17" fromText="guidewire entrapment" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E18" fromText="a stent" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E20" fromText="CT surgery" toID="T0" toText="2009-05-01" type="AFTER" />
+<TLINK id="SECTIME55" fromID="E21" fromText="a thoracotomy" toID="T0" toText="2009-05-01" type="AFTER" />
+<TLINK id="SECTIME56" fromID="E22" fromText="bypass" toID="T0" toText="2009-05-01" type="AFTER" />
+<TLINK id="SECTIME57" fromID="E23" fromText="excision" toID="T0" toText="2009-05-01" type="AFTER" />
+<TLINK id="SECTIME58" fromID="E24" fromText="the wire" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E25" fromText="coffee ground emesis" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E26" fromText="a bleed" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E27" fromText="femoral access site" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E28" fromText="CT surgery" toID="T0" toText="2009-05-01" type="AFTER" />
+<TLINK id="SECTIME63" fromID="E29" fromText="Protonix" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E30" fromText="peptic ulcer disease" toID="T0" toText="2009-05-01" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E31" fromText="an acute myocardial infarction" toID="Discharge" toText="Discharge" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2009-05-01" type="ADMISSION" dvalue="2009-05-01" />
+
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

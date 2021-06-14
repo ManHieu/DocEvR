@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2011-01-21
+Discharge Date :
+2011-02-23
+Service :
+TRAUMA SER
+HISTORY OF PRESENT ILLNESS :
+This 20 year old driver was in a major motor vehicle accident and brought to the Emergency Saints Medical Center following this , with multiple trauma .
+The patient was an unrestrained driver in a car versus tree .
+He was involved in a long extrication with a blood pressure of 88 at the scene .
+Upon extrication from the vehicle , he was intubated and transported to the Emergency Room .
+He was tachycardic with an initial blood pressure of 120 / palpable .
+A groin line was placed and the patient was sedated and paralyzed .
+He was resuscitated with Crystalloid and remained hemodynamically stable .
+He had a grossly deformed left lower extremity .
+On examination , Belmont Coma Scale was 6T ; blood pressure was 120 / palpable with a heart rate of 122 .
+The trachea was midline .
+The abdomen was soft .
+Rectal was heme positive with normal prostate .
+There were no meatal blood .
+The left femur was grossly deformed with a pinhole opening in the lateral thigh .
+His left forearm was also grossly deformed .
+There is no step-off at the back .
+Admission laboratories included a hematocrit of 43.3 and white blood cell count of 25.2 , normal electrolytes and amylase of 98 .
+Arterial blood gas showed a mild metabolic acidosis .
+Additional assay shows slight widening of the mediastinum on chest x-ray .
+The CT scan of the head and chest were negative .
+There was a small liver laceration seen on the A/P pelvis .
+There was a distal ulnar and radial fracture as well as a left mid-shaft comminuted fracture of the femur .
+HOSPITAL COURSE :
+The patient was admitted to the Intensive Care Unit .
+He was also seen by the Orthopedics Service and Neurosurgical Service .
+He went to the Operating Room quickly and had an intramedullary rodding of the femur and open reduction and internal fixation of the radius and ulna .
+He was evaluated by Neurosurgery for his head injury which showed multiple contusions in the frontal lobe .
+He was extubated on postoperative day two .
+He did have some blood loss anemia with a hematocrit of 20.9 .
+A repeat CT scan showed no change .
+He was begun on Physical Therapy but remained agitated .
+He was discharged to the Floor .
+His hematocrit remained stable .
+His cervical spine was cleared .
+The patient was seen by Psychiatry due to some delirium and question of suicidal ideation .
+He was also evaluated by the Neuro-Rehabilitation Service who thought that he had a post-head injury syndrome with diffuse cognitive deficits .
+He continued to have some episodes of agitation which were treated with medication .
+He required some sedation and restraint and was begun on whatever Physical Therapy he could have given his head injury .
+He was continued to be followed by Psychiatry and then was casted by Orthopedics .
+He continued to have episodes of confusion .
+He removed the cast that had been placed and then a long-leg cast was then placed so it would be difficult for him to remove or to ambulate on his leg , which might jeopardize his closure .
+It continued to be somewhat difficult to control his activity and Rehabilitation Screen was in place but there was difficulty finding the appropriate facility .
+His family was also involved in his care and orientation .
+He does of BuSpar , Trazodone and Haldol were continued and were adjusted by Psychiatry .
+He was continued on observation and sitters and finally became more docile and cooperative .
+He was continued on Physical Therapy and with his mother present , he began to follow commands much more appropriately and was able to be rehabilitated .
+He was finally sent home for home rehabilitation on 2011-02-23 .
+FINAL DIAGNOSES :
+1. Multiple trauma with severe frontal head injury .
+2. Open fracture of the femur .
+3. Radial and ulnar fractures .
+4. Liver laceration .
+SURGICAL PROCEDURES :
+1. Open reduction and internal fixation of femur 2011-01-21 .
+2. Open reduction and internal fixation of radius and ulna 2011-01-21 .
+DISCHARGE MEDICATIONS :
+1. Percocet , one p.o. q. four hours p.r.n. pain .
+2. Haldol 1 mg p.o. q. four to six hours p.r.n. agitation .
+3. Trazodone 50 mg p.o. q. h.s.
+4. Droperidol 1.5 to 2.5 mg p.r.n. agitation .
+DISPOSITION :
+The patient is discharged home with home rehabilitation .
+DISCHARGE INSTRUCTIONS :
+1. The patient will be followed by Orthopedics , Dr. Johnson .
+2. To be followed by William Scheidel of Neurological Rehabilitation .
+Maria L. Bell , M.D. 05-084
+Dictated By : Michael X. Fisher , M.D.
+MEDQUIST36
+D : 2011-04-08 14:01
+T : 2011-04-10 08:09
+JOB # : 48774
+Signed electronically by : DR. Fredrick Rossi on : WED 2011-04-13 1:45 PM
+( End of Report )
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E71" start="1009" end="1025" text="grossly deformed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="1031" end="1069" text="a pinhole opening in the lateral thigh" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="1098" end="1114" text="grossly deformed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="1129" end="1149" text="step-off at the back" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="1152" end="1174" text="Admission laboratories" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E76" start="1184" end="1196" text="a hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E77" start="1209" end="1231" text="white blood cell count" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E78" start="1266" end="1273" text="amylase" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E79" start="1282" end="1300" text="Arterial blood gas" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E80" start="1308" end="1333" text="a mild metabolic acidosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E81" start="1336" end="1352" text="Additional assay" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E82" start="1359" end="1393" text="slight widening of the mediastinum" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E83" start="1397" end="1408" text="chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E84" start="1411" end="1444" text="The CT scan of the head and chest" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E47" start="146" end="168" text="motor vehicle accident" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="1471" end="1495" text="a small liver laceration" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E86" start="1504" end="1518" text="the A/P pelvis" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E87" start="1531" end="1565" text="a distal ulnar and radial fracture" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E88" start="1577" end="1626" text="a left mid-shaft comminuted fracture of the femur" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E40" start="1663" end="1671" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1675" end="1698" text="the Intensive Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E89" start="1713" end="1717" text="seen" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1784" end="1802" text="the Operating Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E2" start="1819" end="1857" text="an intramedullary rodding of the femur" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="1862" end="1876" text="open reduction" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="184" end="219" text="the Emergency Saints Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E4" start="1881" end="1921" text="internal fixation of the radius and ulna" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E90" start="1931" end="1940" text="evaluated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="1961" end="1976" text="his head injury" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="1990" end="2029" text="multiple contusions in the frontal lobe" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E91" start="2039" end="2048" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E92" start="2088" end="2110" text="some blood loss anemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="2116" end="2128" text="a hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E8" start="2139" end="2155" text="A repeat CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E93" start="2166" end="2172" text="change" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E9" start="2191" end="2207" text="Physical Therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="2221" end="2229" text="agitated" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="2239" end="2249" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E94" start="2253" end="2262" text="the Floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E11" start="2265" end="2279" text="His hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E95" start="2289" end="2295" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E96" start="2321" end="2328" text="cleared" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E97" start="2347" end="2351" text="seen" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E12" start="2373" end="2386" text="some delirium" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="2403" end="2420" text="suicidal ideation" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="242" end="257" text="multiple trauma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E98" start="2435" end="2444" text="evaluated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="2505" end="2532" text="a post-head injury syndrome" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="2538" end="2564" text="diffuse cognitive deficits" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="2605" end="2614" text="agitation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="2639" end="2649" text="medication" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="2664" end="2677" text="some sedation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="2682" end="2691" text="restraint" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="2718" end="2734" text="Physical Therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="2755" end="2770" text="his head injury" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E49" start="276" end="298" text="an unrestrained driver" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E99" start="2796" end="2804" text="followed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E44" start="2832" end="2838" text="casted" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="2889" end="2898" text="confusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="2912" end="2920" text="the cast" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="2951" end="2966" text="a long-leg cast" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E100" start="3119" end="3139" text="difficult to control" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E101" start="3284" end="3292" text="his care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E25" start="3322" end="3328" text="BuSpar" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="3331" end="3340" text="Trazodone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="3345" end="3351" text="Haldol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E117" start="3376" end="3384" text="adjusted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="3421" end="3432" text="observation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="341" end="359" text="a long extrication" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E102" start="3437" end="3444" text="sitters" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E103" start="3464" end="3491" text="more docile and cooperative" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="3514" end="3530" text="Physical Therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E104" start="3564" end="3588" text="began to follow commands" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="3632" end="3645" text="rehabilitated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="365" end="381" text="a blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E105" start="3663" end="3672" text="sent home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E106" start="3677" end="3696" text="home rehabilitation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E31" start="3734" end="3749" text="Multiple trauma" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="3755" end="3781" text="severe frontal head injury" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="3787" end="3813" text="Open fracture of the femur" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="3819" end="3845" text="Radial and ulnar fractures" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="3851" end="3867" text="Liver laceration" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="3895" end="3909" text="Open reduction" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E37" start="3914" end="3940" text="internal fixation of femur" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="3957" end="3971" text="Open reduction" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="3976" end="4012" text="internal fixation of radius and ulna" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E107" start="4053" end="4061" text="Percocet" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="408" end="419" text="extrication" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E108" start="4094" end="4098" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="4104" end="4110" text="Haldol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E110" start="4149" end="4158" text="agitation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E111" start="4164" end="4173" text="Trazodone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E112" start="4196" end="4206" text="Droperidol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E113" start="4228" end="4237" text="agitation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="4269" end="4279" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E114" start="4290" end="4309" text="home rehabilitation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E115" start="4360" end="4368" text="followed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E116" start="4409" end="4417" text="followed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="446" end="455" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="460" end="471" text="transported" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="475" end="493" text="the Emergency Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E56" start="503" end="514" text="tachycardic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="520" end="545" text="an initial blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E58" start="566" end="578" text="A groin line" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="610" end="617" text="sedated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E60" start="622" end="631" text="paralyzed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="659" end="670" text="Crystalloid" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E63" start="684" end="706" text="hemodynamically stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="716" end="755" text="a grossly deformed left lower extremity" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E65" start="761" end="772" text="examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E66" start="775" end="793" text="Belmont Coma Scale" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E67" start="803" end="817" text="blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E68" start="842" end="854" text="a heart rate" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E69" start="924" end="937" text="heme positive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E70" start="975" end="987" text="meatal blood" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<TIMEX3 id="T1" start="18" end="28" text="2011-01-21" type="DATE" val="2011-01-21" mod="NA" />
+<TIMEX3 id="T3" start="2052" end="2073" text="postoperative day two" type="DATE" val="2011-01-23" mod="NA" />
+<TIMEX3 id="T0" start="3700" end="3710" text="2011-02-23" type="DATE" val="2011-02-23" mod="NA" />
+<TIMEX3 id="T4" start="3941" end="3951" text="2011-01-21" type="DATE" val="2011-01-21" mod="NA" />
+<TIMEX3 id="T5" start="4013" end="4023" text="2011-01-21" type="DATE" val="2011-01-21" mod="NA" />
+<TIMEX3 id="T6" start="4073" end="4086" text="q. four hours" type="FREQUENCY" val="RPT4H" mod="NA" />
+<TIMEX3 id="T7" start="4121" end="4141" text="q. four to six hours" type="FREQUENCY" val="RPT5H" mod="APPROX" />
+<TIMEX3 id="T8" start="4185" end="4192" text="q. h.s." type="FREQUENCY" val="RPT24H" mod="END" />
+<TIMEX3 id="T2" start="46" end="56" text="2011-02-23" type="DATE" val="2011-02-23" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="2011-01-21" type="OVERLAP" />
+<TLINK id="TL1" fromID="E3" fromText="open reduction" toID="E38" toText="Open reduction" type="OVERLAP" />
+<TLINK id="TL10" fromID="E6" fromText="multiple contusions in the frontal lobe" toID="E21" toText="his head injury" type="OVERLAP" />
+<TLINK id="TL100" fromID="E26" fromText="Trazodone" toID="E100" toText="difficult to control" type="OVERLAP" />
+<TLINK id="TL101" fromID="E27" fromText="Haldol" toID="E24" toText="a long-leg cast" type="OVERLAP" />
+<TLINK id="TL103" fromID="E117" fromText="adjusted" toID="E27" toText="Haldol" type="OVERLAP" />
+<TLINK id="TL104" fromID="E102" fromText="sitters" toID="E28" toText="observation" type="OVERLAP" />
+<TLINK id="TL105" fromID="E28" fromText="observation" toID="E16" toText="agitation" type="OVERLAP" />
+<TLINK id="TL106" fromID="E103" fromText="more docile and cooperative" toID="E100" toText="difficult to control" type="AFTER" />
+<TLINK id="TL107" fromID="E29" fromText="Physical Therapy" toID="E103" toText="more docile and cooperative" type="BEFORE" />
+<TLINK id="TL108" fromID="E104" fromText="began to follow commands" toID="E103" toText="more docile and cooperative" type="OVERLAP" />
+<TLINK id="TL109" fromID="E30" fromText="rehabilitated" toID="E29" toText="Physical Therapy" type="OVERLAP" />
+<TLINK id="TL11" fromID="E45" fromText="Discharge" toID="T2" toText="2011-02-23" type="OVERLAP" />
+<TLINK id="TL110" fromID="E105" fromText="sent home" toID="E45" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL111" fromID="E106" fromText="home rehabilitation" toID="E105" toText="sent home" type="AFTER" />
+<TLINK id="TL112" fromID="E105" fromText="sent home" toID="T0" toText="2011-02-23" type="OVERLAP" />
+<TLINK id="TL113" fromID="E33" fromText="Open fracture of the femur" toID="E88" toText="a left mid-shaft comminuted fracture of the femur" type="OVERLAP" />
+<TLINK id="TL114" fromID="E34" fromText="Radial and ulnar fractures" toID="E87" toText="a distal ulnar and radial fracture" type="OVERLAP" />
+<TLINK id="TL115" fromID="E35" fromText="Liver laceration" toID="E85" toText="a small liver laceration" type="OVERLAP" />
+<TLINK id="TL116" fromID="E36" fromText="Open reduction" toID="E37" toText="internal fixation of femur" type="OVERLAP" />
+<TLINK id="TL117" fromID="E106" fromText="home rehabilitation" toID="E114" toText="home rehabilitation" type="OVERLAP" />
+<TLINK id="TL119" fromID="E115" fromText="followed" toID="E105" toText="sent home" type="AFTER" />
+<TLINK id="TL12" fromID="E48" fromText="the Emergency Saints Medical Center" toID="E0" toText="Admission" type="AFTER" />
+<TLINK id="TL120" fromID="E46" fromText="discharged" toID="E105" toText="sent home" type="OVERLAP" />
+<TLINK id="TL121" fromID="E107" fromText="Percocet" toID="E46" toText="discharged" type="BEFORE" />
+<TLINK id="TL122" fromID="E107" fromText="Percocet" toID="E108" toText="pain" type="OVERLAP" />
+<TLINK id="TL123" fromID="E110" fromText="agitation" toID="E113" toText="agitation" type="OVERLAP" />
+<TLINK id="TL124" fromID="E109" fromText="Haldol" toID="E110" toText="agitation" type="OVERLAP" />
+<TLINK id="TL125" fromID="E112" fromText="Droperidol" toID="E113" toText="agitation" type="OVERLAP" />
+<TLINK id="TL126" fromID="T6" fromText="q. four hours" toID="E107" toText="Percocet" type="OVERLAP" />
+<TLINK id="TL127" fromID="E109" fromText="Haldol" toID="E46" toText="discharged" type="BEFORE" />
+<TLINK id="TL128" fromID="E109" fromText="Haldol" toID="E27" toText="Haldol" type="OVERLAP" />
+<TLINK id="TL129" fromID="T7" fromText="q. four to six hours" toID="E109" toText="Haldol" type="OVERLAP" />
+<TLINK id="TL13" fromID="E1" fromText="multiple trauma" toID="E47" toText="motor vehicle accident" type="AFTER" />
+<TLINK id="TL130" fromID="E111" fromText="Trazodone" toID="E26" toText="Trazodone" type="OVERLAP" />
+<TLINK id="TL131" fromID="E111" fromText="Trazodone" toID="E46" toText="discharged" type="BEFORE" />
+<TLINK id="TL132" fromID="E111" fromText="Trazodone" toID="T8" toText="q. h.s." type="OVERLAP" />
+<TLINK id="TL133" fromID="E112" fromText="Droperidol" toID="E46" toText="discharged" type="BEFORE" />
+<TLINK id="TL14" fromID="E49" fromText="an unrestrained driver" toID="E47" toText="motor vehicle accident" type="BEFORE" />
+<TLINK id="TL15" fromID="E55" fromText="the Emergency Room" toID="E48" toText="the Emergency Saints Medical Center" type="OVERLAP" />
+<TLINK id="TL16" fromID="E54" fromText="transported" toID="E55" toText="the Emergency Room" type="BEFORE" />
+<TLINK id="TL17" fromID="E54" fromText="transported" toID="E53" toText="intubated" type="AFTER" />
+<TLINK id="TL18" fromID="E53" fromText="intubated" toID="E52" toText="extrication" type="AFTER" />
+<TLINK id="TL19" fromID="E52" fromText="extrication" toID="E50" toText="a long extrication" type="OVERLAP" />
+<TLINK id="TL2" fromID="E1" fromText="multiple trauma" toID="E31" toText="Multiple trauma" type="OVERLAP" />
+<TLINK id="TL20" fromID="E51" fromText="a blood pressure" toID="E50" toText="a long extrication" type="OVERLAP" />
+<TLINK id="TL21" fromID="E50" fromText="a long extrication" toID="E47" toText="motor vehicle accident" type="AFTER" />
+<TLINK id="TL22" fromID="E56" fromText="tachycardic" toID="E55" toText="the Emergency Room" type="OVERLAP" />
+<TLINK id="TL23" fromID="E57" fromText="an initial blood pressure" toID="E56" toText="tachycardic" type="OVERLAP" />
+<TLINK id="TL24" fromID="E58" fromText="A groin line" toID="E57" toText="an initial blood pressure" type="AFTER" />
+<TLINK id="TL25" fromID="E61" fromText="sedated" toID="E58" toText="A groin line" type="AFTER" />
+<TLINK id="TL26" fromID="E60" fromText="paralyzed" toID="E61" toText="sedated" type="OVERLAP" />
+<TLINK id="TL27" fromID="E62" fromText="Crystalloid" toID="E58" toText="A groin line" type="AFTER" />
+<TLINK id="TL28" fromID="E63" fromText="hemodynamically stable" toID="E62" toText="Crystalloid" type="AFTER" />
+<TLINK id="TL29" fromID="E64" fromText="a grossly deformed left lower extremity" toID="E71" toText="grossly deformed" type="OVERLAP" />
+<TLINK id="TL3" fromID="E20" fromText="Physical Therapy" toID="E29" toText="Physical Therapy" type="OVERLAP" />
+<TLINK id="TL30" fromID="E64" fromText="a grossly deformed left lower extremity" toID="E1" toText="multiple trauma" type="OVERLAP" />
+<TLINK id="TL31" fromID="E65" fromText="examination" toID="E55" toText="the Emergency Room" type="OVERLAP" />
+<TLINK id="TL32" fromID="E66" fromText="Belmont Coma Scale" toID="E65" toText="examination" type="OVERLAP" />
+<TLINK id="TL33" fromID="E67" fromText="blood pressure" toID="E65" toText="examination" type="OVERLAP" />
+<TLINK id="TL34" fromID="E68" fromText="a heart rate" toID="E65" toText="examination" type="OVERLAP" />
+<TLINK id="TL35" fromID="E69" fromText="heme positive" toID="E65" toText="examination" type="OVERLAP" />
+<TLINK id="TL36" fromID="E70" fromText="meatal blood" toID="E65" toText="examination" type="OVERLAP" />
+<TLINK id="TL37" fromID="E71" fromText="grossly deformed" toID="E72" toText="a pinhole opening in the lateral thigh" type="OVERLAP" />
+<TLINK id="TL38" fromID="E73" fromText="grossly deformed" toID="E1" toText="multiple trauma" type="OVERLAP" />
+<TLINK id="TL39" fromID="E74" fromText="step-off at the back" toID="E65" toText="examination" type="OVERLAP" />
+<TLINK id="TL4" fromID="E9" fromText="Physical Therapy" toID="E20" toText="Physical Therapy" type="OVERLAP" />
+<TLINK id="TL40" fromID="E75" fromText="Admission laboratories" toID="E65" toText="examination" type="OVERLAP" />
+<TLINK id="TL41" fromID="E76" fromText="a hematocrit" toID="E75" toText="Admission laboratories" type="OVERLAP" />
+<TLINK id="TL42" fromID="E77" fromText="white blood cell count" toID="E75" toText="Admission laboratories" type="OVERLAP" />
+<TLINK id="TL43" fromID="E78" fromText="amylase" toID="E75" toText="Admission laboratories" type="OVERLAP" />
+<TLINK id="TL44" fromID="E80" fromText="a mild metabolic acidosis" toID="E79" toText="Arterial blood gas" type="BEFORE" />
+<TLINK id="TL45" fromID="E79" fromText="Arterial blood gas" toID="E75" toText="Admission laboratories" type="OVERLAP" />
+<TLINK id="TL46" fromID="E81" fromText="Additional assay" toID="E75" toText="Admission laboratories" type="OVERLAP" />
+<TLINK id="TL47" fromID="E83" fromText="chest x-ray" toID="E81" toText="Additional assay" type="OVERLAP" />
+<TLINK id="TL48" fromID="E82" fromText="slight widening of the mediastinum" toID="E81" toText="Additional assay" type="BEFORE" />
+<TLINK id="TL49" fromID="E84" fromText="The CT scan of the head and chest" toID="E81" toText="Additional assay" type="OVERLAP" />
+<TLINK id="TL5" fromID="E12" fromText="some delirium" toID="E22" toText="confusion" type="OVERLAP" />
+<TLINK id="TL50" fromID="E85" fromText="a small liver laceration" toID="E1" toText="multiple trauma" type="OVERLAP" />
+<TLINK id="TL51" fromID="E86" fromText="the A/P pelvis" toID="E83" toText="chest x-ray" type="OVERLAP" />
+<TLINK id="TL52" fromID="E87" fromText="a distal ulnar and radial fracture" toID="E73" toText="grossly deformed" type="OVERLAP" />
+<TLINK id="TL53" fromID="E88" fromText="a left mid-shaft comminuted fracture of the femur" toID="E64" toText="a grossly deformed left lower extremity" type="OVERLAP" />
+<TLINK id="TL54" fromID="E40" fromText="admitted" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL55" fromID="E41" fromText="the Intensive Care Unit" toID="E40" toText="admitted" type="AFTER" />
+<TLINK id="TL56" fromID="E40" fromText="admitted" toID="E55" toText="the Emergency Room" type="AFTER" />
+<TLINK id="TL57" fromID="E89" fromText="seen" toID="E41" toText="the Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL59" fromID="E42" fromText="the Operating Room" toID="E41" toText="the Intensive Care Unit" type="OVERLAP" />
+<TLINK id="TL6" fromID="E2" fromText="an intramedullary rodding of the femur" toID="E37" toText="internal fixation of femur" type="OVERLAP" />
+<TLINK id="TL60" fromID="E2" fromText="an intramedullary rodding of the femur" toID="E42" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL61" fromID="E3" fromText="open reduction" toID="E2" toText="an intramedullary rodding of the femur" type="OVERLAP" />
+<TLINK id="TL62" fromID="E4" fromText="internal fixation of the radius and ulna" toID="E2" toText="an intramedullary rodding of the femur" type="OVERLAP" />
+<TLINK id="TL63" fromID="E90" fromText="evaluated" toID="E42" toText="the Operating Room" type="AFTER" />
+<TLINK id="TL64" fromID="E5" fromText="his head injury" toID="E1" toText="multiple trauma" type="OVERLAP" />
+<TLINK id="TL65" fromID="E91" fromText="extubated" toID="T3" toText="postoperative day two" type="OVERLAP" />
+<TLINK id="TL66" fromID="E92" fromText="some blood loss anemia" toID="E47" toText="motor vehicle accident" type="AFTER" />
+<TLINK id="TL67" fromID="E7" fromText="a hematocrit" toID="E92" toText="some blood loss anemia" type="OVERLAP" />
+<TLINK id="TL69" fromID="E8" fromText="A repeat CT scan" toID="E42" toText="the Operating Room" type="AFTER" />
+<TLINK id="TL7" fromID="E10" fromText="agitated" toID="E16" toText="agitation" type="OVERLAP" />
+<TLINK id="TL70" fromID="E93" fromText="change" toID="E8" toText="A repeat CT scan" type="OVERLAP" />
+<TLINK id="TL71" fromID="E9" fromText="Physical Therapy" toID="E42" toText="the Operating Room" type="AFTER" />
+<TLINK id="TL72" fromID="E10" fromText="agitated" toID="E9" toText="Physical Therapy" type="BEFORE" />
+<TLINK id="TL73" fromID="E41" fromText="the Intensive Care Unit" toID="E43" toText="discharged" type="BEFORE" />
+<TLINK id="TL74" fromID="E94" fromText="the Floor" toID="E43" toText="discharged" type="AFTER" />
+<TLINK id="TL75" fromID="E11" fromText="His hematocrit" toID="E94" toText="the Floor" type="BEFORE" />
+<TLINK id="TL76" fromID="E95" fromText="stable" toID="E11" toText="His hematocrit" type="OVERLAP" />
+<TLINK id="TL78" fromID="E96" fromText="cleared" toID="E9" toText="Physical Therapy" type="BEFORE" />
+<TLINK id="TL79" fromID="E12" fromText="some delirium" toID="E97" toText="seen" type="BEFORE" />
+<TLINK id="TL8" fromID="E4" fromText="internal fixation of the radius and ulna" toID="E39" toText="internal fixation of radius and ulna" type="OVERLAP" />
+<TLINK id="TL80" fromID="E13" fromText="suicidal ideation" toID="E12" toText="some delirium" type="OVERLAP" />
+<TLINK id="TL81" fromID="E98" fromText="evaluated" toID="E97" toText="seen" type="OVERLAP" />
+<TLINK id="TL82" fromID="E14" fromText="a post-head injury syndrome" toID="E5" toText="his head injury" type="OVERLAP" />
+<TLINK id="TL83" fromID="E15" fromText="diffuse cognitive deficits" toID="E14" toText="a post-head injury syndrome" type="OVERLAP" />
+<TLINK id="TL84" fromID="E16" fromText="agitation" toID="E10" toText="agitated" type="OVERLAP" />
+<TLINK id="TL85" fromID="E17" fromText="medication" toID="E16" toText="agitation" type="OVERLAP" />
+<TLINK id="TL86" fromID="E18" fromText="some sedation" toID="E16" toText="agitation" type="OVERLAP" />
+<TLINK id="TL87" fromID="E19" fromText="restraint" toID="E16" toText="agitation" type="OVERLAP" />
+<TLINK id="TL88" fromID="E20" fromText="Physical Therapy" toID="E9" toText="Physical Therapy" type="OVERLAP" />
+<TLINK id="TL89" fromID="E21" fromText="his head injury" toID="E14" toText="a post-head injury syndrome" type="OVERLAP" />
+<TLINK id="TL9" fromID="E21" fromText="his head injury" toID="E32" toText="severe frontal head injury" type="OVERLAP" />
+<TLINK id="TL90" fromID="E99" fromText="followed" toID="E97" toText="seen" type="OVERLAP" />
+<TLINK id="TL91" fromID="E44" fromText="casted" toID="E99" toText="followed" type="AFTER" />
+<TLINK id="TL92" fromID="E22" fromText="confusion" toID="E12" toText="some delirium" type="OVERLAP" />
+<TLINK id="TL93" fromID="E23" fromText="the cast" toID="E22" toText="confusion" type="OVERLAP" />
+<TLINK id="TL94" fromID="E23" fromText="the cast" toID="E44" toText="casted" type="AFTER" />
+<TLINK id="TL95" fromID="E24" fromText="a long-leg cast" toID="E23" toText="the cast" type="OVERLAP" />
+<TLINK id="TL96" fromID="E100" fromText="difficult to control" toID="E16" toText="agitation" type="OVERLAP" />
+<TLINK id="TL97" fromID="E101" fromText="his care" toID="E48" toText="the Emergency Saints Medical Center" type="OVERLAP" />
+<TLINK id="TL99" fromID="E25" fromText="BuSpar" toID="E100" toText="difficult to control" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2011-01-21" type="ADMISSION" dvalue="2011-01-21" />
+<SECTIME id="S1" start="46" end="56" text="2011-02-23" type="DISCHARGE" dvalue="2011-02-23" />
+<TLINK id="SECTIME0" fromID="E71" fromText="grossly deformed" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E72" fromText="a pinhole opening in the lateral thigh" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E73" fromText="grossly deformed" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E74" fromText="step-off at the back" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E75" fromText="Admission laboratories" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E76" fromText="a hematocrit" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E77" fromText="white blood cell count" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E78" fromText="amylase" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E79" fromText="Arterial blood gas" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E80" fromText="a mild metabolic acidosis" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E81" fromText="Additional assay" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E82" fromText="slight widening of the mediastinum" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E83" fromText="chest x-ray" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E84" fromText="The CT scan of the head and chest" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E47" fromText="motor vehicle accident" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E85" fromText="a small liver laceration" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E86" fromText="the A/P pelvis" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E87" fromText="a distal ulnar and radial fracture" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E88" fromText="a left mid-shaft comminuted fracture of the femur" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E40" fromText="admitted" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E41" fromText="the Intensive Care Unit" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E89" fromText="seen" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E42" fromText="the Operating Room" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E2" fromText="an intramedullary rodding of the femur" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E3" fromText="open reduction" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E48" fromText="the Emergency Saints Medical Center" toID="T1" toText="2011-01-21" type="OVERLAP" />
+<TLINK id="SECTIME26" fromID="E4" fromText="internal fixation of the radius and ulna" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E90" fromText="evaluated" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E5" fromText="his head injury" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E6" fromText="multiple contusions in the frontal lobe" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E91" fromText="extubated" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E92" fromText="some blood loss anemia" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E7" fromText="a hematocrit" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E8" fromText="A repeat CT scan" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E93" fromText="change" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E9" fromText="Physical Therapy" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E10" fromText="agitated" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E43" fromText="discharged" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E94" fromText="the Floor" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E11" fromText="His hematocrit" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E95" fromText="stable" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E96" fromText="cleared" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E97" fromText="seen" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E12" fromText="some delirium" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E13" fromText="suicidal ideation" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E1" fromText="multiple trauma" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E98" fromText="evaluated" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E14" fromText="a post-head injury syndrome" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E15" fromText="diffuse cognitive deficits" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E16" fromText="agitation" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E17" fromText="medication" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E18" fromText="some sedation" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E19" fromText="restraint" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E20" fromText="Physical Therapy" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E21" fromText="his head injury" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E49" fromText="an unrestrained driver" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E99" fromText="followed" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E44" fromText="casted" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E22" fromText="confusion" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E23" fromText="the cast" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E24" fromText="a long-leg cast" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E100" fromText="difficult to control" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E101" fromText="his care" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E25" fromText="BuSpar" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E26" fromText="Trazodone" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E27" fromText="Haldol" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E117" fromText="adjusted" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E28" fromText="observation" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E50" fromText="a long extrication" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E102" fromText="sitters" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E103" fromText="more docile and cooperative" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E29" fromText="Physical Therapy" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E104" fromText="began to follow commands" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E30" fromText="rehabilitated" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E51" fromText="a blood pressure" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E105" fromText="sent home" toID="T2" toText="2011-02-23" type="OVERLAP" />
+<TLINK id="SECTIME76" fromID="E106" fromText="home rehabilitation" toID="T2" toText="2011-02-23" type="AFTER" />
+<TLINK id="SECTIME77" fromID="E31" fromText="Multiple trauma" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E32" fromText="severe frontal head injury" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E33" fromText="Open fracture of the femur" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E34" fromText="Radial and ulnar fractures" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E35" fromText="Liver laceration" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E36" fromText="Open reduction" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E37" fromText="internal fixation of femur" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E38" fromText="Open reduction" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E39" fromText="internal fixation of radius and ulna" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E107" fromText="Percocet" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E52" fromText="extrication" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E108" fromText="pain" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E109" fromText="Haldol" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E110" fromText="agitation" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E111" fromText="Trazodone" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E112" fromText="Droperidol" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E113" fromText="agitation" toID="T2" toText="2011-02-23" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E46" fromText="discharged" toID="T2" toText="2011-02-23" type="OVERLAP" />
+<TLINK id="SECTIME95" fromID="E114" fromText="home rehabilitation" toID="T2" toText="2011-02-23" type="AFTER" />
+<TLINK id="SECTIME96" fromID="E115" fromText="followed" toID="T2" toText="2011-02-23" type="AFTER" />
+<TLINK id="SECTIME97" fromID="E116" fromText="followed" toID="T2" toText="2011-02-23" type="AFTER" />
+<TLINK id="SECTIME98" fromID="E53" fromText="intubated" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E54" fromText="transported" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E55" fromText="the Emergency Room" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E56" fromText="tachycardic" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E57" fromText="an initial blood pressure" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E58" fromText="A groin line" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E60" fromText="paralyzed" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E61" fromText="sedated" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E62" fromText="Crystalloid" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E63" fromText="hemodynamically stable" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E64" fromText="a grossly deformed left lower extremity" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E65" fromText="examination" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E66" fromText="Belmont Coma Scale" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E67" fromText="blood pressure" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E68" fromText="a heart rate" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E69" fromText="heme positive" toID="T1" toText="2011-01-21" type="BEFORE" />
+<TLINK id="SECTIME114" fromID="E70" fromText="meatal blood" toID="T1" toText="2011-01-21" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

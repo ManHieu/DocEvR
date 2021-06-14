@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date : 
+04/21/1994 
+Discharge Date : 
+04/29/1994 
+HISTORY OF PRESENT ILLNESS : 
+Patient is an 88 year old female with fatigue and decreased short term memory for the past six months . 
+The past six weeks , she has also been complaining of hot sensation and tingling sensation in the hands bilaterally . 
+For the past five weeks , the patient has experienced dragging of the right leg with weakness throughout that side . 
+Head CT was done which patient reported demonstrated three lesions in the left parietal region of the brain . 
+Bone scan , CT of the abdomen , chest X-Ray , and mammogram were all negative . 
+Patient noted the foot dragging to have worsened over the past few weeks but improved since on Decadron the past week before admission . 
+Patient is now admitted for elective left parietal stereotactic biopsy of the tumor . 
+PAST MEDICAL / SURGICAL HISTORY : 
+Significant for a history of hypertension , basal cell carcinoma of the nose six years ago , cataracts , and a hysterectomy . 
+ALLERGIES : 
+No known drug allergies . 
+CURRENT MEDICATIONS : 
+Hydrochlorothiazide 25 mg q.d. and Decadron 25 mg b.i.d. 
+HOSPITAL COURSE : 
+Patient was taken to the Operating Room on April 21 where patient underwent a left parietal stereotactic guided brain biopsy . 
+Patient tolerated the procedure well without any complications and was taken to the Recovery Room awake and stable then subsequently transferred to the floor . 
+Patient did well post-operatively , continued to have a right sided deficit , and Physical Therapy and Occupational Therapy visited the patient , worked with the patient , and determined that patient needed rehabilitation with Physical Therapy . 
+The patient was evaluated by Doing and was subsequently accepted into that program . 
+Patient is now discharged to Harl Wa Healthcare Network on April 29 , 1994 in stable condition . 
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E36" start="1028" end="1048" text="known drug allergies" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E37" start="1075" end="1094" text="Hydrochlorothiazide" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="1110" end="1118" text="Decadron" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1173" end="1191" text="the Operating Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E8" start="1228" end="1276" text="a left parietal stereotactic guided brain biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="129" end="136" text="fatigue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="1288" end="1297" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E9" start="1298" end="1311" text="the procedure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E10" start="1325" end="1342" text="any complications" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E40" start="1360" end="1377" text="the Recovery Room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E41" start="1378" end="1394" text="awake and stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="141" end="168" text="decreased short term memory" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="1413" end="1424" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E42" start="1428" end="1437" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E44" start="1453" end="1457" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1495" end="1516" text="a right sided deficit" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E46" start="1523" end="1539" text="Physical Therapy" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E47" start="1544" end="1564" text="Occupational Therapy" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E49" start="1587" end="1593" text="worked" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="1617" end="1627" text="determined" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E51" start="1648" end="1662" text="rehabilitation" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="1668" end="1686" text="Physical Therapy ." modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E53" start="1704" end="1713" text="evaluated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E54" start="1744" end="1770" text="accepted into that program" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E55" start="1789" end="1799" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E56" start="1803" end="1829" text="Harl Wa Healthcare Network" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E57" start="1852" end="1868" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="235" end="246" text="complaining" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E19" start="250" end="263" text="hot sensation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="268" end="311" text="tingling sensation in the hands bilaterally" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="31" end="40" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="369" end="394" text="dragging of the right leg" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="400" end="408" text="weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="433" end="440" text="Head CT" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="464" end="472" text="reported" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E23" start="473" end="485" text="demonstrated" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E24" start="486" end="527" text="three lesions in the left parietal region" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="544" end="553" text="Bone scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="556" end="573" text="CT of the abdomen" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="576" end="587" text="chest X-Ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="594" end="603" text="mammogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="613" end="621" text="negative" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E12" start="633" end="638" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E26" start="639" end="656" text="the foot dragging" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="665" end="673" text="worsened" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="702" end="710" text="improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="720" end="728" text="Decadron" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E30" start="750" end="759" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="778" end="786" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="791" end="833" text="elective left parietal stereotactic biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E33" start="837" end="846" text="the tumor" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="914" end="926" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="929" end="961" text="basal cell carcinoma of the nose" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="978" end="987" text="cataracts" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="994" end="1008" text="a hysterectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T7" start="1101" end="1105" text="q.d." type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T8" start="1125" end="1131" text="b.i.d." type="FREQUENCY" val="RPT12H" mod="NA" />
+<TIMEX3 id="T9" start="1195" end="1203" text="April 21" type="DATE" val="1994-04-21" mod="NA" />
+<TIMEX3 id="T2" start="182" end="192" text="six months" type="DURATION" val="p6m" mod="NA" />
+<TIMEX3 id="T10" start="1833" end="1848" text="April 29 , 1994" type="DATE" val="1994-04-29" mod="NA" />
+<TIMEX3 id="T0" start="19" end="29" text="04/21/1994" type="DATE" val="1994-04-21" mod="NA" />
+<TIMEX3 id="T3" start="205" end="214" text="six weeks" type="DURATION" val="p6w" mod="NA" />
+<TIMEX3 id="T4" start="328" end="338" text="five weeks" type="DURATION" val="P5W" mod="NA" />
+<TIMEX3 id="T1" start="49" end="59" text="04/29/1994" type="DATE" val="1994-04-29" mod="NA" />
+<TIMEX3 id="T5" start="688" end="697" text="few weeks" type="DURATION" val="P3W" mod="APPROX" />
+<TIMEX3 id="T6" start="729" end="742" text="the past week" type="DURATION" val="P1W" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="04/21/1994" type="OVERLAP" />
+<TLINK id="TL1" fromID="E8" fromText="a left parietal stereotactic guided brain biopsy" toID="E9" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL10" fromID="E16" fromText="fatigue" toID="E17" toText="decreased short term memory" type="OVERLAP" />
+<TLINK id="TL11" fromID="T2" fromText="six months" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="TL12" fromID="E17" fromText="decreased short term memory" toID="T2" toText="six months" type="OVERLAP" />
+<TLINK id="TL13" fromID="E16" fromText="fatigue" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL14" fromID="T3" fromText="six weeks" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="TL15" fromID="E18" fromText="complaining" toID="T3" toText="six weeks" type="OVERLAP" />
+<TLINK id="TL16" fromID="E19" fromText="hot sensation" toID="E18" toText="complaining" type="OVERLAP" />
+<TLINK id="TL17" fromID="E20" fromText="tingling sensation in the hands bilaterally" toID="E19" toText="hot sensation" type="OVERLAP" />
+<TLINK id="TL18" fromID="T4" fromText="five weeks" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="TL19" fromID="E21" fromText="dragging of the right leg" toID="T4" toText="five weeks" type="OVERLAP" />
+<TLINK id="TL2" fromID="E36" fromText="known drug allergies" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL20" fromID="E22" fromText="weakness" toID="E21" toText="dragging of the right leg" type="OVERLAP" />
+<TLINK id="TL21" fromID="E45" fromText="a right sided deficit" toID="E22" toText="weakness" type="OVERLAP" />
+<TLINK id="TL22" fromID="E11" fromText="reported" toID="E1" toText="Head CT" type="AFTER" />
+<TLINK id="TL23" fromID="E2" fromText="Bone scan" toID="E1" toText="Head CT" type="OVERLAP" />
+<TLINK id="TL24" fromID="E24" fromText="three lesions in the left parietal region" toID="E1" toText="Head CT" type="BEFORE" />
+<TLINK id="TL25" fromID="E23" fromText="demonstrated" toID="E1" toText="Head CT" type="OVERLAP" />
+<TLINK id="TL26" fromID="E11" fromText="reported" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL27" fromID="E3" fromText="CT of the abdomen" toID="E2" toText="Bone scan" type="OVERLAP" />
+<TLINK id="TL28" fromID="E4" fromText="chest X-Ray" toID="E3" toText="CT of the abdomen" type="OVERLAP" />
+<TLINK id="TL29" fromID="E3" fromText="CT of the abdomen" toID="E5" toText="mammogram" type="OVERLAP" />
+<TLINK id="TL3" fromID="E7" fromText="a hysterectomy" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL30" fromID="E5" fromText="mammogram" toID="E25" toText="negative" type="OVERLAP" />
+<TLINK id="TL31" fromID="E26" fromText="the foot dragging" toID="E12" toText="noted" type="OVERLAP" />
+<TLINK id="TL32" fromID="E21" fromText="dragging of the right leg" toID="E26" toText="the foot dragging" type="OVERLAP" />
+<TLINK id="TL33" fromID="E27" fromText="worsened" toID="T5" toText="few weeks" type="OVERLAP" />
+<TLINK id="TL34" fromID="E26" fromText="the foot dragging" toID="E27" toText="worsened" type="BEFORE" />
+<TLINK id="TL35" fromID="E28" fromText="improved" toID="E29" toText="Decadron" type="AFTER" />
+<TLINK id="TL36" fromID="E29" fromText="Decadron" toID="T6" toText="the past week" type="OVERLAP" />
+<TLINK id="TL37" fromID="T6" fromText="the past week" toID="E30" toText="admission" type="BEFORE" />
+<TLINK id="TL38" fromID="E31" fromText="admitted" toID="E30" toText="admission" type="OVERLAP" />
+<TLINK id="TL39" fromID="E32" fromText="elective left parietal stereotactic biopsy" toID="E31" toText="admitted" type="AFTER" />
+<TLINK id="TL4" fromID="E1" fromText="Head CT" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL40" fromID="E33" fromText="the tumor" toID="E24" toText="three lesions in the left parietal region" type="OVERLAP" />
+<TLINK id="TL41" fromID="E33" fromText="the tumor" toID="E32" toText="elective left parietal stereotactic biopsy" type="BEFORE" />
+<TLINK id="TL42" fromID="E35" fromText="cataracts" toID="E34" toText="hypertension" type="OVERLAP" />
+<TLINK id="TL43" fromID="E6" fromText="basal cell carcinoma of the nose" toID="E34" toText="hypertension" type="OVERLAP" />
+<TLINK id="TL44" fromID="E36" fromText="known drug allergies" toID="E34" toText="hypertension" type="OVERLAP" />
+<TLINK id="TL46" fromID="E38" fromText="Decadron" toID="E37" toText="Hydrochlorothiazide" type="OVERLAP" />
+<TLINK id="TL47" fromID="E37" fromText="Hydrochlorothiazide" toID="T7" toText="q.d." type="OVERLAP" />
+<TLINK id="TL48" fromID="E38" fromText="Decadron" toID="T8" toText="b.i.d." type="OVERLAP" />
+<TLINK id="TL49" fromID="E38" fromText="Decadron" toID="E29" toText="Decadron" type="OVERLAP" />
+<TLINK id="TL5" fromID="E30" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL50" fromID="E39" fromText="the Operating Room" toID="T9" toText="April 21" type="OVERLAP" />
+<TLINK id="TL51" fromID="T9" fromText="April 21" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL52" fromID="E8" fromText="a left parietal stereotactic guided brain biopsy" toID="E39" toText="the Operating Room" type="OVERLAP" />
+<TLINK id="TL53" fromID="E9" fromText="the procedure" toID="E8" toText="a left parietal stereotactic guided brain biopsy" type="OVERLAP" />
+<TLINK id="TL54" fromID="E8" fromText="a left parietal stereotactic guided brain biopsy" toID="E32" toText="elective left parietal stereotactic biopsy" type="OVERLAP" />
+<TLINK id="TL55" fromID="E44" fromText="well" toID="E8" toText="a left parietal stereotactic guided brain biopsy" type="AFTER" />
+<TLINK id="TL56" fromID="E13" fromText="tolerated" toID="E9" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL57" fromID="E10" fromText="any complications" toID="E13" toText="tolerated" type="OVERLAP" />
+<TLINK id="TL58" fromID="E40" fromText="the Recovery Room" toID="E39" toText="the Operating Room" type="AFTER" />
+<TLINK id="TL59" fromID="E40" fromText="the Recovery Room" toID="E14" toText="transferred" type="BEFORE" />
+<TLINK id="TL6" fromID="E34" fromText="hypertension" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL60" fromID="E41" fromText="awake and stable" toID="E40" toText="the Recovery Room" type="OVERLAP" />
+<TLINK id="TL61" fromID="E42" fromText="the floor" toID="E14" toText="transferred" type="AFTER" />
+<TLINK id="TL62" fromID="E42" fromText="the floor" toID="E55" toText="discharged" type="BEFORE" />
+<TLINK id="TL63" fromID="E45" fromText="a right sided deficit" toID="E44" toText="well" type="BEFORE" />
+<TLINK id="TL64" fromID="E46" fromText="Physical Therapy" toID="E47" toText="Occupational Therapy" type="OVERLAP" />
+<TLINK id="TL65" fromID="E46" fromText="Physical Therapy" toID="E44" toText="well" type="OVERLAP" />
+<TLINK id="TL66" fromID="E49" fromText="worked" toID="E47" toText="Occupational Therapy" type="OVERLAP" />
+<TLINK id="TL67" fromID="E50" fromText="determined" toID="E49" toText="worked" type="AFTER" />
+<TLINK id="TL68" fromID="E51" fromText="rehabilitation" toID="E50" toText="determined" type="AFTER" />
+<TLINK id="TL69" fromID="E52" fromText="Physical Therapy ." toID="E51" toText="rehabilitation" type="OVERLAP" />
+<TLINK id="TL7" fromID="E37" fromText="Hydrochlorothiazide" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL70" fromID="E53" fromText="evaluated" toID="E50" toText="determined" type="AFTER" />
+<TLINK id="TL71" fromID="E54" fromText="accepted into that program" toID="E53" toText="evaluated" type="AFTER" />
+<TLINK id="TL72" fromID="E56" fromText="Harl Wa Healthcare Network" toID="E55" toText="discharged" type="AFTER" />
+<TLINK id="TL73" fromID="E55" fromText="discharged" toID="T10" toText="April 29 , 1994" type="OVERLAP" />
+<TLINK id="TL74" fromID="E57" fromText="stable condition" toID="E55" toText="discharged" type="BEFORE" />
+<TLINK id="TL8" fromID="E15" fromText="Discharge" toID="T1" toText="04/29/1994" type="OVERLAP" />
+<TLINK id="TL9" fromID="E55" fromText="discharged" toID="E15" toText="Discharge" type="OVERLAP" />
+<SECTIME id="S0" start="19" end="29" text="04/21/1994" type="ADMISSION" dvalue="1994-04-21" />
+<SECTIME id="S1" start="49" end="59" text="04/29/1994" type="DISCHARGE" dvalue="1994-04-29" />
+<TLINK id="SECTIME0" fromID="E36" fromText="known drug allergies" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E37" fromText="Hydrochlorothiazide" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E38" fromText="Decadron" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E39" fromText="the Operating Room" toID="T1" toText="04/29/1994" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E8" fromText="a left parietal stereotactic guided brain biopsy" toID="T1" toText="04/29/1994" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E16" fromText="fatigue" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E13" fromText="tolerated" toID="T1" toText="04/29/1994" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E9" fromText="the procedure" toID="T1" toText="04/29/1994" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E10" fromText="any complications" toID="T1" toText="04/29/1994" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E40" fromText="the Recovery Room" toID="T1" toText="04/29/1994" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E41" fromText="awake and stable" toID="T1" toText="04/29/1994" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E17" fromText="decreased short term memory" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E14" fromText="transferred" toID="T1" toText="04/29/1994" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E42" fromText="the floor" toID="T1" toText="04/29/1994" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E44" fromText="well" toID="T1" toText="04/29/1994" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E45" fromText="a right sided deficit" toID="T1" toText="04/29/1994" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E46" fromText="Physical Therapy" toID="T1" toText="04/29/1994" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E47" fromText="Occupational Therapy" toID="T1" toText="04/29/1994" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E49" fromText="worked" toID="T1" toText="04/29/1994" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E50" fromText="determined" toID="T1" toText="04/29/1994" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E51" fromText="rehabilitation" toID="T1" toText="04/29/1994" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E52" fromText="Physical Therapy ." toID="T1" toText="04/29/1994" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E53" fromText="evaluated" toID="T1" toText="04/29/1994" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E54" fromText="accepted into that program" toID="T1" toText="04/29/1994" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E55" fromText="discharged" toID="T1" toText="04/29/1994" type="OVERLAP" />
+<TLINK id="SECTIME25" fromID="E56" fromText="Harl Wa Healthcare Network" toID="T1" toText="04/29/1994" type="OVERLAP" />
+<TLINK id="SECTIME26" fromID="E57" fromText="stable condition" toID="T1" toText="04/29/1994" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E18" fromText="complaining" toID="T0" toText="04/21/1994" type="OVERLAP" />
+<TLINK id="SECTIME28" fromID="E19" fromText="hot sensation" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E20" fromText="tingling sensation in the hands bilaterally" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E21" fromText="dragging of the right leg" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E22" fromText="weakness" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E1" fromText="Head CT" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E11" fromText="reported" toID="T0" toText="04/21/1994" type="OVERLAP" />
+<TLINK id="SECTIME34" fromID="E23" fromText="demonstrated" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E24" fromText="three lesions in the left parietal region" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E2" fromText="Bone scan" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E3" fromText="CT of the abdomen" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E4" fromText="chest X-Ray" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E5" fromText="mammogram" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E25" fromText="negative" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E12" fromText="noted" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E26" fromText="the foot dragging" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E27" fromText="worsened" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E28" fromText="improved" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E29" fromText="Decadron" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E30" fromText="admission" toID="T0" toText="04/21/1994" type="OVERLAP" />
+<TLINK id="SECTIME47" fromID="E31" fromText="admitted" toID="T0" toText="04/21/1994" type="OVERLAP" />
+<TLINK id="SECTIME48" fromID="E32" fromText="elective left parietal stereotactic biopsy" toID="T0" toText="04/21/1994" type="AFTER" />
+<TLINK id="SECTIME49" fromID="E33" fromText="the tumor" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E34" fromText="hypertension" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E6" fromText="basal cell carcinoma of the nose" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E35" fromText="cataracts" toID="T0" toText="04/21/1994" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E7" fromText="a hysterectomy" toID="T0" toText="04/21/1994" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

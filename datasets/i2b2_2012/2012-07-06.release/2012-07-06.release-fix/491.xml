@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+11/03/1993
+Discharge Date :
+11/07/1993
+HISTORY OF PRESENT ILLNESS :
+The patient is a 69-year-old male with multiple medical problems and known transfusion dependent secondary to myelodysplastic syndrome admitted with decreased hematocrit .
+The patient has had multiple previous admissions for cardiac and pulmonary disease .
+He has had chronic anemia since 1990 , but a bone marrow biopsy in 07-92 , was consistent with myelodysplastic syndrome .
+Over the past several months , the patient has had increasing transfusing requirements .
+His transfusions have been complicated by fluid overload and congestive heart failure , secondary to ischemia cardiomyopathy .
+His last admission was 9-14-93 , for a transfusion without complications , and prior to admission the patient reports having several days of increasing weakness , dizziness and fatigue .
+His wife says his hands and lips have been blue .
+Apparently , he had had a low hematocrit as an outpatient and was checked two weeks prior to admission but was not given transfusion because the patient did not want to come in at that time .
+Aside from the above , the patient had felt that baseline without fever and chills or change in chronic cough .
+He had no increase in his congestive heart failure symptoms , no chest pain , and no hemoptysis or changed in arthritis .
+The patient did report taking a po antibiotic ( Ciprofloxacin ) for right great toe infection ( question of cellulitis vs. paronychia ) .
+HOSPITAL COURSE :
+The patient was admitted and placed in isolation on neutropenic precautions .
+He was transfused with 1/2 units of packed red blood cells and given Lasix periodically to prevent him from going into congestive heart failure has he had on his prior transfusion .
+Because his need for multiple transfusionsm he was transfused with radiated Leuco four units .
+The patient had a good bump in his hematocrit , more than expected from 22 to high 20 &apos;s range next day after 3 1/2 units , but later that evening had a drop in his hematocrit so was given 4 more 1/2 units at this point for a total of 4 units packed red blood cells .
+He again did not bump his hematocrit sufficiently and remained in the high 20 &apos;s after a total of 4 units , so he was given 2 more total units in 1/2 units segments the following day .
+His hematocrit subsequently bumped to greater than 30 and was discharged with hematocrit of 32 on 11-7-93 .
+The patient remained asymptomatic from a CHF stand point and felt much better after the transfusions .
+It is unclear why the patient did not bump his hematocrit more but he did not appear to be hemolyzing from laboratory data , that is his LDH was within normal limits .
+In addition , multiple stools were guaiaced and were all guaiac negative .
+The patient was discharged with follow-up with his Hematologist , Dr. Eci Area and Rheumatologist , Dr. Taange Peter , and Cardiologist , Dr. Peter .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E29" start="1011" end="1020" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="1039" end="1050" text="transfusion" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E31" start="1079" end="1091" text="want to come" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E32" start="1176" end="1181" text="fever" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E33" start="1186" end="1192" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E34" start="1196" end="1219" text="change in chronic cough" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E35" start="1232" end="1240" text="increase" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E2" start="125" end="150" text="multiple medical problems" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1244" end="1281" text="his congestive heart failure symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1287" end="1297" text="chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E38" start="1307" end="1317" text="hemoptysis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E39" start="1332" end="1341" text="arthritis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E40" start="1360" end="1366" text="report" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E41" start="1374" end="1407" text="a po antibiotic ( Ciprofloxacin )" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="1412" end="1437" text="right great toe infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="1452" end="1462" text="cellulitis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="1467" end="1477" text="paronychia" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E45" start="1516" end="1524" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1539" end="1548" text="isolation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="155" end="182" text="known transfusion dependent" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="1552" end="1575" text="neutropenic precautions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1585" end="1595" text="transfused" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E49" start="1601" end="1636" text="1/2 units of packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E50" start="1647" end="1652" text="Lasix" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="1697" end="1721" text="congestive heart failure" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="1736" end="1757" text="his prior transfusion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E53" start="1781" end="1803" text="multiple transfusionsm" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E54" start="1811" end="1821" text="transfused" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="1827" end="1841" text="radiated Leuco" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="1871" end="1882" text="a good bump" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="1886" end="1900" text="his hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="196" end="220" text="myelodysplastic syndrome" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="2011" end="2017" text="a drop" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="2021" end="2035" text="his hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E60" start="2095" end="2125" text="4 units packed red blood cells" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E61" start="2150" end="2164" text="his hematocrit" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E5" start="221" end="229" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E62" start="2318" end="2332" text="His hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E6" start="235" end="255" text="decreased hematocrit" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E63" start="2346" end="2352" text="bumped" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E64" start="2380" end="2390" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="2396" end="2406" text="hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E67" start="2487" end="2503" text="felt much better" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E68" start="2510" end="2526" text="the transfusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="2572" end="2586" text="his hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E70" start="2620" end="2630" text="hemolyzing" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E71" start="2636" end="2651" text="laboratory data" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E72" start="2662" end="2669" text="his LDH" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E73" start="2732" end="2740" text="guaiaced" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E74" start="2754" end="2760" text="guaiac" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E75" start="2788" end="2798" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E76" start="2804" end="2813" text="follow-up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="296" end="306" text="admissions" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="311" end="340" text="cardiac and pulmonary disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="354" end="368" text="chronic anemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="386" end="406" text="a bone marrow biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E11" start="438" end="462" text="myelodysplastic syndrome" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="516" end="551" text="increasing transfusing requirements" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="554" end="570" text="His transfusions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="596" end="610" text="fluid overload" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="615" end="639" text="congestive heart failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="655" end="678" text="ischemia cardiomyopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="690" end="699" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="718" end="731" text="a transfusion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="740" end="753" text="complications" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E20" start="769" end="778" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="791" end="798" text="reports" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E22" start="822" end="841" text="increasing weakness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="844" end="853" text="dizziness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="858" end="865" text="fatigue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="877" end="881" text="says" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E26" start="882" end="915" text="his hands and lips have been blue" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="942" end="958" text="a low hematocrit" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="984" end="991" text="checked" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T9" start="1098" end="1107" text="that time" type="DATE" val="1993-10-20" mod="APPROX" />
+<TIMEX3 id="T0" start="18" end="28" text="11/03/1993" type="DATE" val="1993-11-03" mod="NA" />
+<TIMEX3 id="T10" start="1955" end="1963" text="next day" type="DATE" val="1993-11-04" mod="NA" />
+<TIMEX3 id="T11" start="1994" end="2006" text="that evening" type="DATE" val="1993-11-04" mod="END" />
+<TIMEX3 id="T12" start="2298" end="2315" text="the following day" type="DATE" val="1993-11-05" mod="NA" />
+<TIMEX3 id="T13" start="2416" end="2423" text="11-7-93" type="DATE" val="1993-11-07" mod="NA" />
+<TIMEX3 id="T2" start="278" end="286" text="multiple" type="FREQUENCY" val="R3" mod="APPROX" />
+<TIMEX3 id="T3" start="375" end="379" text="1990" type="DATE" val="1990" mod="NA" />
+<TIMEX3 id="T4" start="410" end="415" text="07-92" type="DATE" val="1992-07" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="11/07/1993" type="DATE" val="1993-11-07" mod="NA" />
+<TIMEX3 id="T5" start="470" end="493" text="the past several months" type="DURATION" val="P3M" mod="APPROX" />
+<TIMEX3 id="T6" start="704" end="711" text="9-14-93" type="DATE" val="1993-09-14" mod="NA" />
+<TIMEX3 id="T7" start="806" end="818" text="several days" type="DURATION" val="P3D" mod="APPROX" />
+<TIMEX3 id="T8" start="992" end="1001" text="two weeks" type="DATE" val="1993-10-20" mod="APPROX" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="11/03/1993" type="OVERLAP" />
+<TLINK id="TL1" fromID="E45" fromText="admitted" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL10" fromID="E2" fromText="multiple medical problems" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL100" fromID="E31" fromText="want to come" toID="T9" toText="that time" type="OVERLAP" />
+<TLINK id="TL101" fromID="E30" fromText="transfusion" toID="E31" toText="want to come" type="OVERLAP" />
+<TLINK id="TL102" fromID="E70" fromText="hemolyzing" toID="E69" toText="his hematocrit" type="OVERLAP" />
+<TLINK id="TL103" fromID="E74" fromText="guaiac" toID="E73" toText="guaiaced" type="BEFORE" />
+<TLINK id="TL104" fromID="E75" fromText="discharged" toID="E73" toText="guaiaced" type="AFTER" />
+<TLINK id="TL11" fromID="E2" fromText="multiple medical problems" toID="E3" toText="known transfusion dependent" type="OVERLAP" />
+<TLINK id="TL12" fromID="E4" fromText="myelodysplastic syndrome" toID="E3" toText="known transfusion dependent" type="BEFORE" />
+<TLINK id="TL13" fromID="E4" fromText="myelodysplastic syndrome" toID="E11" toText="myelodysplastic syndrome" type="OVERLAP" />
+<TLINK id="TL14" fromID="E4" fromText="myelodysplastic syndrome" toID="E5" toText="admitted" type="BEFORE" />
+<TLINK id="TL15" fromID="E7" fromText="admissions" toID="E5" toText="admitted" type="BEFORE" />
+<TLINK id="TL16" fromID="E6" fromText="decreased hematocrit" toID="E5" toText="admitted" type="BEFORE" />
+<TLINK id="TL17" fromID="E8" fromText="cardiac and pulmonary disease" toID="E7" toText="admissions" type="BEFORE" />
+<TLINK id="TL18" fromID="T4" fromText="07-92" toID="T3" toText="1990" type="AFTER" />
+<TLINK id="TL19" fromID="E9" fromText="chronic anemia" toID="T3" toText="1990" type="AFTER" />
+<TLINK id="TL20" fromID="E11" fromText="myelodysplastic syndrome" toID="E10" toText="a bone marrow biopsy" type="BEFORE" />
+<TLINK id="TL21" fromID="E10" fromText="a bone marrow biopsy" toID="T4" toText="07-92" type="OVERLAP" />
+<TLINK id="TL22" fromID="E12" fromText="increasing transfusing requirements" toID="T5" toText="the past several months" type="OVERLAP" />
+<TLINK id="TL23" fromID="E13" fromText="His transfusions" toID="E53" toText="multiple transfusionsm" type="OVERLAP" />
+<TLINK id="TL24" fromID="E14" fromText="fluid overload" toID="E13" toText="His transfusions" type="OVERLAP" />
+<TLINK id="TL25" fromID="E13" fromText="His transfusions" toID="E12" toText="increasing transfusing requirements" type="BEFORE" />
+<TLINK id="TL26" fromID="E14" fromText="fluid overload" toID="E15" toText="congestive heart failure" type="OVERLAP" />
+<TLINK id="TL27" fromID="E16" fromText="ischemia cardiomyopathy" toID="E15" toText="congestive heart failure" type="BEFORE" />
+<TLINK id="TL28" fromID="E17" fromText="admission" toID="T6" toText="9-14-93" type="OVERLAP" />
+<TLINK id="TL29" fromID="E19" fromText="complications" toID="E18" toText="a transfusion" type="AFTER" />
+<TLINK id="TL3" fromID="E20" fromText="admission" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL31" fromID="E17" fromText="admission" toID="E18" toText="a transfusion" type="OVERLAP" />
+<TLINK id="TL32" fromID="E21" fromText="reports" toID="E20" toText="admission" type="OVERLAP" />
+<TLINK id="TL33" fromID="E22" fromText="increasing weakness" toID="T7" toText="several days" type="OVERLAP" />
+<TLINK id="TL34" fromID="T7" fromText="several days" toID="E20" toText="admission" type="BEFORE" />
+<TLINK id="TL35" fromID="E23" fromText="dizziness" toID="E22" toText="increasing weakness" type="OVERLAP" />
+<TLINK id="TL36" fromID="E24" fromText="fatigue" toID="E23" toText="dizziness" type="OVERLAP" />
+<TLINK id="TL37" fromID="E26" fromText="his hands and lips have been blue" toID="E25" toText="says" type="BEFORE" />
+<TLINK id="TL38" fromID="E40" fromText="report" toID="E25" toText="says" type="OVERLAP" />
+<TLINK id="TL39" fromID="E27" fromText="a low hematocrit" toID="E28" toText="checked" type="BEFORE" />
+<TLINK id="TL4" fromID="E5" fromText="admitted" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL40" fromID="E28" fromText="checked" toID="T8" toText="two weeks" type="OVERLAP" />
+<TLINK id="TL42" fromID="E28" fromText="checked" toID="E30" toText="transfusion" type="BEFORE" />
+<TLINK id="TL43" fromID="T8" fromText="two weeks" toID="E29" toText="admission" type="BEFORE" />
+<TLINK id="TL44" fromID="E32" fromText="fever" toID="E29" toText="admission" type="BEFORE" />
+<TLINK id="TL45" fromID="E32" fromText="fever" toID="E33" toText="chills" type="OVERLAP" />
+<TLINK id="TL46" fromID="E33" fromText="chills" toID="E32" toText="fever" type="OVERLAP" />
+<TLINK id="TL47" fromID="E34" fromText="change in chronic cough" toID="E33" toText="chills" type="OVERLAP" />
+<TLINK id="TL48" fromID="E33" fromText="chills" toID="E34" toText="change in chronic cough" type="OVERLAP" />
+<TLINK id="TL49" fromID="E36" fromText="his congestive heart failure symptoms" toID="E35" toText="increase" type="BEFORE" />
+<TLINK id="TL5" fromID="E17" fromText="admission" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL50" fromID="E37" fromText="chest pain" toID="E35" toText="increase" type="OVERLAP" />
+<TLINK id="TL51" fromID="E39" fromText="arthritis" toID="E35" toText="increase" type="BEFORE" />
+<TLINK id="TL52" fromID="E38" fromText="hemoptysis" toID="E37" toText="chest pain" type="OVERLAP" />
+<TLINK id="TL53" fromID="E38" fromText="hemoptysis" toID="E39" toText="arthritis" type="OVERLAP" />
+<TLINK id="TL54" fromID="E41" fromText="a po antibiotic ( Ciprofloxacin )" toID="E40" toText="report" type="BEFORE" />
+<TLINK id="TL55" fromID="E42" fromText="right great toe infection" toID="E41" toText="a po antibiotic ( Ciprofloxacin )" type="BEFORE" />
+<TLINK id="TL56" fromID="E43" fromText="cellulitis" toID="E42" toText="right great toe infection" type="OVERLAP" />
+<TLINK id="TL57" fromID="E42" fromText="right great toe infection" toID="E44" toText="paronychia" type="OVERLAP" />
+<TLINK id="TL58" fromID="E54" fromText="transfused" toID="E45" toText="admitted" type="AFTER" />
+<TLINK id="TL59" fromID="E48" fromText="transfused" toID="E45" toText="admitted" type="AFTER" />
+<TLINK id="TL6" fromID="E9" fromText="chronic anemia" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL60" fromID="E45" fromText="admitted" toID="E46" toText="isolation" type="OVERLAP" />
+<TLINK id="TL62" fromID="E53" fromText="multiple transfusionsm" toID="E45" toText="admitted" type="BEFORE" />
+<TLINK id="TL63" fromID="E46" fromText="isolation" toID="E47" toText="neutropenic precautions" type="OVERLAP" />
+<TLINK id="TL64" fromID="E49" fromText="1/2 units of packed red blood cells" toID="E48" toText="transfused" type="OVERLAP" />
+<TLINK id="TL65" fromID="E49" fromText="1/2 units of packed red blood cells" toID="E50" toText="Lasix" type="OVERLAP" />
+<TLINK id="TL66" fromID="E51" fromText="congestive heart failure" toID="E50" toText="Lasix" type="AFTER" />
+<TLINK id="TL67" fromID="E52" fromText="his prior transfusion" toID="E51" toText="congestive heart failure" type="OVERLAP" />
+<TLINK id="TL68" fromID="E51" fromText="congestive heart failure" toID="E36" toText="his congestive heart failure symptoms" type="OVERLAP" />
+<TLINK id="TL69" fromID="E68" fromText="the transfusions" toID="E54" toText="transfused" type="OVERLAP" />
+<TLINK id="TL7" fromID="E64" fromText="discharged" toID="E1" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL70" fromID="E55" fromText="radiated Leuco" toID="E54" toText="transfused" type="OVERLAP" />
+<TLINK id="TL71" fromID="E53" fromText="multiple transfusionsm" toID="E54" toText="transfused" type="BEFORE" />
+<TLINK id="TL72" fromID="E57" fromText="his hematocrit" toID="E55" toText="radiated Leuco" type="AFTER" />
+<TLINK id="TL74" fromID="E57" fromText="his hematocrit" toID="T10" toText="next day" type="OVERLAP" />
+<TLINK id="TL75" fromID="E56" fromText="a good bump" toID="E57" toText="his hematocrit" type="BEFORE" />
+<TLINK id="TL76" fromID="E57" fromText="his hematocrit" toID="E61" toText="his hematocrit" type="OVERLAP" />
+<TLINK id="TL77" fromID="E60" fromText="4 units packed red blood cells" toID="T11" toText="that evening" type="OVERLAP" />
+<TLINK id="TL78" fromID="T11" fromText="that evening" toID="T10" toText="next day" type="OVERLAP" />
+<TLINK id="TL79" fromID="E58" fromText="a drop" toID="T11" toText="that evening" type="OVERLAP" />
+<TLINK id="TL8" fromID="E1" fromText="Discharge" toID="T1" toText="11/07/1993" type="OVERLAP" />
+<TLINK id="TL80" fromID="E59" fromText="his hematocrit" toID="T11" toText="that evening" type="OVERLAP" />
+<TLINK id="TL82" fromID="E61" fromText="his hematocrit" toID="E60" toText="4 units packed red blood cells" type="AFTER" />
+<TLINK id="TL83" fromID="E61" fromText="his hematocrit" toID="T12" toText="the following day" type="BEFORE" />
+<TLINK id="TL84" fromID="T12" fromText="the following day" toID="T10" toText="next day" type="AFTER" />
+<TLINK id="TL85" fromID="E63" fromText="bumped" toID="T12" toText="the following day" type="OVERLAP" />
+<TLINK id="TL86" fromID="E62" fromText="His hematocrit" toID="E63" toText="bumped" type="BEFORE" />
+<TLINK id="TL87" fromID="E61" fromText="his hematocrit" toID="E62" toText="His hematocrit" type="OVERLAP" />
+<TLINK id="TL89" fromID="E65" fromText="hematocrit" toID="E64" toText="discharged" type="BEFORE" />
+<TLINK id="TL9" fromID="E3" fromText="known transfusion dependent" toID="E2" toText="multiple medical problems" type="OVERLAP" />
+<TLINK id="TL90" fromID="E75" fromText="discharged" toID="E64" toText="discharged" type="OVERLAP" />
+<TLINK id="TL92" fromID="E64" fromText="discharged" toID="E63" toText="bumped" type="AFTER" />
+<TLINK id="TL93" fromID="E64" fromText="discharged" toID="T13" toText="11-7-93" type="OVERLAP" />
+<TLINK id="TL96" fromID="E67" fromText="felt much better" toID="E68" toText="the transfusions" type="AFTER" />
+<TLINK id="TL97" fromID="E72" fromText="his LDH" toID="E70" toText="hemolyzing" type="OVERLAP" />
+<TLINK id="TL98" fromID="E71" fromText="laboratory data" toID="E70" toText="hemolyzing" type="BEFORE" />
+<TLINK id="TL99" fromID="E75" fromText="discharged" toID="E76" toText="follow-up" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="11/03/1993" type="ADMISSION" dvalue="1993-11-03" />
+<SECTIME id="S1" start="46" end="56" text="11/07/1993" type="DISCHARGE" dvalue="1993-11-07" />
+<TLINK id="SECTIME0" fromID="E29" fromText="admission" toID="T0" toText="11/03/1993" type="OVERLAP" />
+<TLINK id="SECTIME1" fromID="E30" fromText="transfusion" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E31" fromText="want to come" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E32" fromText="fever" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E33" fromText="chills" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E34" fromText="change in chronic cough" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E35" fromText="increase" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E2" fromText="multiple medical problems" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E36" fromText="his congestive heart failure symptoms" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E37" fromText="chest pain" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E38" fromText="hemoptysis" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E39" fromText="arthritis" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E40" fromText="report" toID="T0" toText="11/03/1993" type="OVERLAP" />
+<TLINK id="SECTIME13" fromID="E41" fromText="a po antibiotic ( Ciprofloxacin )" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E42" fromText="right great toe infection" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E43" fromText="cellulitis" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E44" fromText="paronychia" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E45" fromText="admitted" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E46" fromText="isolation" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E3" fromText="known transfusion dependent" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E47" fromText="neutropenic precautions" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E48" fromText="transfused" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E49" fromText="1/2 units of packed red blood cells" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E50" fromText="Lasix" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E51" fromText="congestive heart failure" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E52" fromText="his prior transfusion" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E53" fromText="multiple transfusionsm" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E54" fromText="transfused" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E55" fromText="radiated Leuco" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E56" fromText="a good bump" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E57" fromText="his hematocrit" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E4" fromText="myelodysplastic syndrome" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E58" fromText="a drop" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E59" fromText="his hematocrit" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E60" fromText="4 units packed red blood cells" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E61" fromText="his hematocrit" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E5" fromText="admitted" toID="T0" toText="11/03/1993" type="OVERLAP" />
+<TLINK id="SECTIME37" fromID="E62" fromText="His hematocrit" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E6" fromText="decreased hematocrit" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E63" fromText="bumped" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E64" fromText="discharged" toID="T1" toText="11/07/1993" type="OVERLAP" />
+<TLINK id="SECTIME41" fromID="E65" fromText="hematocrit" toID="T1" toText="11/07/1993" type="OVERLAP" />
+<TLINK id="SECTIME42" fromID="E67" fromText="felt much better" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E68" fromText="the transfusions" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E69" fromText="his hematocrit" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E70" fromText="hemolyzing" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E71" fromText="laboratory data" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E72" fromText="his LDH" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E73" fromText="guaiaced" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E74" fromText="guaiac" toID="T1" toText="11/07/1993" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E75" fromText="discharged" toID="T1" toText="11/07/1993" type="OVERLAP" />
+<TLINK id="SECTIME51" fromID="E76" fromText="follow-up" toID="T1" toText="11/07/1993" type="AFTER" />
+<TLINK id="SECTIME52" fromID="E7" fromText="admissions" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E8" fromText="cardiac and pulmonary disease" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E9" fromText="chronic anemia" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E10" fromText="a bone marrow biopsy" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E11" fromText="myelodysplastic syndrome" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E12" fromText="increasing transfusing requirements" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E13" fromText="His transfusions" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E14" fromText="fluid overload" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E15" fromText="congestive heart failure" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E16" fromText="ischemia cardiomyopathy" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E17" fromText="admission" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E18" fromText="a transfusion" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E19" fromText="complications" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E20" fromText="admission" toID="T0" toText="11/03/1993" type="OVERLAP" />
+<TLINK id="SECTIME66" fromID="E21" fromText="reports" toID="T0" toText="11/03/1993" type="OVERLAP" />
+<TLINK id="SECTIME67" fromID="E22" fromText="increasing weakness" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E23" fromText="dizziness" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E24" fromText="fatigue" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E25" fromText="says" toID="T0" toText="11/03/1993" type="OVERLAP" />
+<TLINK id="SECTIME71" fromID="E26" fromText="his hands and lips have been blue" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E27" fromText="a low hematocrit" toID="T0" toText="11/03/1993" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E28" fromText="checked" toID="T0" toText="11/03/1993" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

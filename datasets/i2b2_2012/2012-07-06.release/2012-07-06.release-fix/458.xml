@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+01/17/1993
+Discharge Date :
+01/21/1993
+HISTORY OF PRESENT ILLNESS :
+The patient is a 42 year old gentleman who suffered lower back pain during an accident at work in 1990 .
+This gradually increased until June 1992 where he had recurrent severe right sided sciatica .
+In September 1992 CT myelogram showed a lateral L-1 S-1 disc bulge and small L-4-4 bulge .
+He has had no change in pain in the last few months .
+HOSPITAL COURSE :
+He was admitted , taken to the operating room where he underwent L5-S1 right hemilaminectomy and discectomy .
+He tolerated the procedure well , was taken to the floor in stable condition .
+Over the next three days he increased his activity gradually , was able to do stairs with Physical Therapy and had pain which could be controlled with oral analgesics .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="138" end="153" text="lower back pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="161" end="180" text="an accident at work" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="191" end="195" text="This" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="206" end="215" text="increased" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="262" end="282" text="right sided sciatica" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="303" end="315" text="CT myelogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="316" end="322" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E3" start="323" end="351" text="a lateral L-1 S-1 disc bulge" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="356" end="373" text="small L-4-4 bulge" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="390" end="396" text="change" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E5" start="400" end="404" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="455" end="463" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E18" start="475" end="493" text="the operating room" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E6" start="513" end="540" text="L5-S1 right hemilaminectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="545" end="555" text="discectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="571" end="584" text="the procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="585" end="589" text="well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="605" end="614" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E22" start="618" end="636" text="stable condition ." modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="665" end="687" text="increased his activity" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="727" end="743" text="Physical Therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="752" end="756" text="pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="788" end="803" text="oral analgesics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T1" start="18" end="28" text="01/17/1993" type="DATE" val="1993-01-17" mod="NA" />
+<TIMEX3 id="T0" start="184" end="188" text="1990" type="DATE" val="1990" mod="NA" />
+<TIMEX3 id="T3" start="222" end="231" text="June 1992" type="DATE" val="1992-06" mod="NA" />
+<TIMEX3 id="T4" start="288" end="302" text="September 1992" type="DATE" val="1992-09" mod="NA" />
+<TIMEX3 id="T5" start="417" end="427" text="few months" type="DURATION" val="P3M" mod="APPROX" />
+<TIMEX3 id="T2" start="46" end="56" text="01/21/1993" type="DATE" val="1993-01-21" mod="NA" />
+<TIMEX3 id="T6" start="651" end="661" text="three days" type="DURATION" val="P3D" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="01/17/1993" type="OVERLAP" />
+<TLINK id="TL1" fromID="E10" fromText="admitted" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL10" fromID="T4" fromText="September 1992" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL11" fromID="E2" fromText="CT myelogram" toID="T4" toText="September 1992" type="OVERLAP" />
+<TLINK id="TL12" fromID="E2" fromText="CT myelogram" toID="E16" toText="showed" type="OVERLAP" />
+<TLINK id="TL13" fromID="E3" fromText="a lateral L-1 S-1 disc bulge" toID="E16" toText="showed" type="BEFORE" />
+<TLINK id="TL14" fromID="E4" fromText="small L-4-4 bulge" toID="E3" toText="a lateral L-1 S-1 disc bulge" type="OVERLAP" />
+<TLINK id="TL15" fromID="T5" fromText="few months" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL16" fromID="E5" fromText="pain" toID="T5" toText="few months" type="BEFORE" />
+<TLINK id="TL17" fromID="E17" fromText="change" toID="T5" toText="few months" type="OVERLAP" />
+<TLINK id="TL18" fromID="E18" fromText="the operating room" toID="E10" toText="admitted" type="AFTER" />
+<TLINK id="TL19" fromID="E6" fromText="L5-S1 right hemilaminectomy" toID="E18" toText="the operating room" type="OVERLAP" />
+<TLINK id="TL2" fromID="E11" fromText="Discharge" toID="T2" toText="01/21/1993" type="OVERLAP" />
+<TLINK id="TL20" fromID="E7" fromText="discectomy" toID="E6" toText="L5-S1 right hemilaminectomy" type="OVERLAP" />
+<TLINK id="TL21" fromID="E19" fromText="the procedure" toID="E6" toText="L5-S1 right hemilaminectomy" type="OVERLAP" />
+<TLINK id="TL22" fromID="E20" fromText="well" toID="E19" toText="the procedure" type="OVERLAP" />
+<TLINK id="TL23" fromID="E21" fromText="the floor" toID="E19" toText="the procedure" type="AFTER" />
+<TLINK id="TL24" fromID="E22" fromText="stable condition ." toID="E21" toText="the floor" type="BEFORE" />
+<TLINK id="TL25" fromID="T6" fromText="three days" toID="E21" toText="the floor" type="AFTER" />
+<TLINK id="TL26" fromID="E23" fromText="increased his activity" toID="T6" toText="three days" type="OVERLAP" />
+<TLINK id="TL27" fromID="E24" fromText="Physical Therapy" toID="E23" toText="increased his activity" type="OVERLAP" />
+<TLINK id="TL28" fromID="E8" fromText="pain" toID="E24" toText="Physical Therapy" type="OVERLAP" />
+<TLINK id="TL29" fromID="E8" fromText="pain" toID="E9" toText="oral analgesics" type="BEFORE" />
+<TLINK id="TL3" fromID="E1" fromText="lower back pain" toID="E12" toText="an accident at work" type="OVERLAP" />
+<TLINK id="TL4" fromID="E12" fromText="an accident at work" toID="T0" toText="1990" type="OVERLAP" />
+<TLINK id="TL5" fromID="E13" fromText="This" toID="E1" toText="lower back pain" type="OVERLAP" />
+<TLINK id="TL6" fromID="E13" fromText="This" toID="E14" toText="increased" type="BEFORE" />
+<TLINK id="TL7" fromID="E14" fromText="increased" toID="T3" toText="June 1992" type="BEFORE" />
+<TLINK id="TL8" fromID="E15" fromText="right sided sciatica" toID="T3" toText="June 1992" type="OVERLAP" />
+<TLINK id="TL9" fromID="T4" fromText="September 1992" toID="T3" toText="June 1992" type="AFTER" />
+<SECTIME id="S0" start="18" end="28" text="01/17/1993" type="ADMISSION" dvalue="1993-01-17" />
+<SECTIME id="S1" start="46" end="56" text="01/21/1993" type="DISCHARGE" dvalue="1993-01-21" />
+<TLINK id="SECTIME0" fromID="E1" fromText="lower back pain" toID="T1" toText="01/17/1993" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E12" fromText="an accident at work" toID="T1" toText="01/17/1993" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E13" fromText="This" toID="T1" toText="01/17/1993" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E14" fromText="increased" toID="T1" toText="01/17/1993" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E15" fromText="right sided sciatica" toID="T1" toText="01/17/1993" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E2" fromText="CT myelogram" toID="T1" toText="01/17/1993" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E16" fromText="showed" toID="T1" toText="01/17/1993" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E3" fromText="a lateral L-1 S-1 disc bulge" toID="T1" toText="01/17/1993" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E4" fromText="small L-4-4 bulge" toID="T1" toText="01/17/1993" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E17" fromText="change" toID="T1" toText="01/17/1993" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E5" fromText="pain" toID="T1" toText="01/17/1993" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E10" fromText="admitted" toID="T2" toText="01/21/1993" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E18" fromText="the operating room" toID="T2" toText="01/21/1993" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E6" fromText="L5-S1 right hemilaminectomy" toID="T2" toText="01/21/1993" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E7" fromText="discectomy" toID="T2" toText="01/21/1993" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E19" fromText="the procedure" toID="T2" toText="01/21/1993" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E20" fromText="well" toID="T2" toText="01/21/1993" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E21" fromText="the floor" toID="T2" toText="01/21/1993" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E22" fromText="stable condition ." toID="T2" toText="01/21/1993" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E23" fromText="increased his activity" toID="T2" toText="01/21/1993" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E24" fromText="Physical Therapy" toID="T2" toText="01/21/1993" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E8" fromText="pain" toID="T2" toText="01/21/1993" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E9" fromText="oral analgesics" toID="T2" toText="01/21/1993" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

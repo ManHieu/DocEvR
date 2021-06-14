@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+09/15/2000
+DISCHARGE DATE :
+The patient was admitted to the hospital on July 12th for a chole with a principle diagnosis of recurrent biliary colic .
+HISTORY OF PRESENT ILLNESS :
+The patient is a 42 year old with recurrent biliary colic .
+She has had ultrasound proven gallstones for ten years , seen on an earlier obstetric ultrasound .
+The patient has had no symptoms until approximately two years ago when she began having classic biliary colic pain with right upper quadrant epigastric pain radiating to midback with nausea , but without vomiting .
+Onset was an hour to 1 hour after meals , worse with greasy meals , lasting five minutes to two hours .
+Episodes have been increasing in frequency over the last few months .
+She has had no fevers , chills , respiratory symptoms , diarrhea , bright red blood per rectum or melena .
+She has not found any relieve with any over the counter medications .
+She has no family history of gallbladder or pancreatic disease .
+She has had no significant weight loss .
+No anorexia .
+An ultrasound on 1/25/00 showed six gallstones without cholecystitis .
+She has no history of liver disease , hepatitis .
+The patient is from 45 Sidewonly Blvd , Fresa Loharanleah , Maryland .
+Has lived in 896 Lokatspur Pkwy , Ingrich Vepobuffh , Indiana for 25 years and works as a teaching assistant in a second grade in Satlnonew Rollglend Pabridrham .
+HOSPITAL COURSE :
+The patient was admitted for the lap coli with an intraoperative cholangiogram by Dr. Sterp under general anesthesia .
+A separate operative note has been dictated .
+Operative course and recovery were without complication .
+The patient was admitted to floor .
+The patient was afebrile , vital signs were stable .
+She is taking po &apos;s .
+She is ambulatory .
+The patient will be discharged to home in stable condition with a follow up appointment with Dr. Sterp .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="1014" end="1025" text="weight loss" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E35" start="1031" end="1039" text="anorexia" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E17" start="104" end="111" text="a chole" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="1042" end="1055" text="An ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="1067" end="1073" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E37" start="1074" end="1088" text="six gallstones" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1097" end="1110" text="cholecystitis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E39" start="1135" end="1148" text="liver disease" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E40" start="1151" end="1160" text="hepatitis" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E18" start="142" end="165" text="recurrent biliary colic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="1431" end="1439" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="1444" end="1456" text="the lap coli" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E8" start="1462" end="1493" text="an intraoperative cholangiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="1513" end="1531" text="general anesthesia" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E10" start="1623" end="1635" text="complication" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E12" start="1654" end="1662" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E41" start="1666" end="1671" text="floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E42" start="1690" end="1698" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="1701" end="1712" text="vital signs" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E44" start="1794" end="1804" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E45" start="1816" end="1832" text="stable condition" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E46" start="1838" end="1861" text="a follow up appointment" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E19" start="231" end="254" text="recurrent biliary colic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="269" end="297" text="ultrasound proven gallstones" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="29" end="38" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E1" start="322" end="353" text="an earlier obstetric ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="379" end="387" text="symptoms" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E22" start="444" end="470" text="classic biliary colic pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="476" end="512" text="right upper quadrant epigastric pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="539" end="545" text="nausea" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="560" end="568" text="vomiting" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E47" start="605" end="610" text="meals" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="62" end="70" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="675" end="683" text="Episodes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="694" end="704" text="increasing" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="74" end="86" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E28" start="760" end="766" text="fevers" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E29" start="769" end="775" text="chills" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E30" start="778" end="798" text="respiratory symptoms" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E31" start="801" end="809" text="diarrhea" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E32" start="812" end="839" text="bright red blood per rectum" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E33" start="843" end="849" text="melena" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E34" start="870" end="881" text="any relieve" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E2" start="896" end="919" text="the counter medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="951" end="962" text="gallbladder" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E4" start="966" end="984" text="pancreatic disease" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<TIMEX3 id="T2" start="1059" end="1066" text="1/25/00" type="DATE" val="2000-01-25" mod="NA" />
+<TIMEX3 id="T8" start="1300" end="1308" text="25 years" type="DURATION" val="P25Y" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="09/15/2000" type="DATE" val="2000-09-15" mod="NA" />
+<TIMEX3 id="T3" start="302" end="311" text="ten years" type="DURATION" val="P10Y" mod="NA" />
+<TIMEX3 id="T4" start="408" end="421" text="two years ago" type="DATE" val="1998-09-15" mod="APPROX" />
+<TIMEX3 id="T5" start="581" end="598" text="an hour to 1 hour" type="DURATION" val="PT1H" mod="NA" />
+<TIMEX3 id="T6" start="647" end="672" text="five minutes to two hours" type="DURATION" val="PT1H" mod="APPROX" />
+<TIMEX3 id="T7" start="723" end="742" text="the last few months" type="DURATION" val="P3M" mod="APPROX" />
+<TIMEX3 id="T1" start="90" end="99" text="July 12th" type="DATE" val="2000-07-12" mod="NA" />
+<TLINK id="TL0" fromID="E11" fromText="admitted" toID="E0" toText="ADMISSION" type="BEFORE" />
+<TLINK id="TL1" fromID="E6" fromText="An ultrasound" toID="T2" toText="1/25/00" type="OVERLAP" />
+<TLINK id="TL10" fromID="E20" fromText="ultrasound proven gallstones" toID="E1" toText="an earlier obstetric ultrasound" type="BEFORE" />
+<TLINK id="TL11" fromID="E21" fromText="symptoms" toID="T4" toText="two years ago" type="BEFORE" />
+<TLINK id="TL12" fromID="E22" fromText="classic biliary colic pain" toID="T4" toText="two years ago" type="AFTER" />
+<TLINK id="TL13" fromID="E23" fromText="right upper quadrant epigastric pain" toID="T4" toText="two years ago" type="AFTER" />
+<TLINK id="TL14" fromID="E24" fromText="nausea" toID="E25" toText="vomiting" type="OVERLAP" />
+<TLINK id="TL15" fromID="E23" fromText="right upper quadrant epigastric pain" toID="E24" toText="nausea" type="OVERLAP" />
+<TLINK id="TL16" fromID="T5" fromText="an hour to 1 hour" toID="E47" toText="meals" type="AFTER" />
+<TLINK id="TL17" fromID="E22" fromText="classic biliary colic pain" toID="T5" toText="an hour to 1 hour" type="OVERLAP" />
+<TLINK id="TL18" fromID="E22" fromText="classic biliary colic pain" toID="T6" toText="five minutes to two hours" type="OVERLAP" />
+<TLINK id="TL19" fromID="E26" fromText="Episodes" toID="E27" toText="increasing" type="BEFORE" />
+<TLINK id="TL2" fromID="E0" fromText="ADMISSION" toID="T0" toText="09/15/2000" type="OVERLAP" />
+<TLINK id="TL20" fromID="E26" fromText="Episodes" toID="E22" toText="classic biliary colic pain" type="OVERLAP" />
+<TLINK id="TL21" fromID="E27" fromText="increasing" toID="T7" toText="the last few months" type="OVERLAP" />
+<TLINK id="TL22" fromID="E28" fromText="fevers" toID="E29" toText="chills" type="OVERLAP" />
+<TLINK id="TL23" fromID="E28" fromText="fevers" toID="E26" toText="Episodes" type="OVERLAP" />
+<TLINK id="TL24" fromID="E29" fromText="chills" toID="E30" toText="respiratory symptoms" type="OVERLAP" />
+<TLINK id="TL25" fromID="E30" fromText="respiratory symptoms" toID="E31" toText="diarrhea" type="OVERLAP" />
+<TLINK id="TL26" fromID="E32" fromText="bright red blood per rectum" toID="E33" toText="melena" type="OVERLAP" />
+<TLINK id="TL27" fromID="E31" fromText="diarrhea" toID="E32" toText="bright red blood per rectum" type="OVERLAP" />
+<TLINK id="TL28" fromID="E34" fromText="any relieve" toID="E2" toText="the counter medications" type="OVERLAP" />
+<TLINK id="TL29" fromID="E26" fromText="Episodes" toID="E2" toText="the counter medications" type="BEFORE" />
+<TLINK id="TL3" fromID="E44" fromText="discharged" toID="E13" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL30" fromID="E3" fromText="gallbladder" toID="E4" toText="pancreatic disease" type="OVERLAP" />
+<TLINK id="TL31" fromID="E3" fromText="gallbladder" toID="E26" toText="Episodes" type="OVERLAP" />
+<TLINK id="TL32" fromID="E5" fromText="weight loss" toID="E26" toText="Episodes" type="OVERLAP" />
+<TLINK id="TL33" fromID="E35" fromText="anorexia" toID="E5" toText="weight loss" type="OVERLAP" />
+<TLINK id="TL34" fromID="E36" fromText="showed" toID="E6" toText="An ultrasound" type="OVERLAP" />
+<TLINK id="TL35" fromID="E37" fromText="six gallstones" toID="E6" toText="An ultrasound" type="BEFORE" />
+<TLINK id="TL36" fromID="E6" fromText="An ultrasound" toID="E38" toText="cholecystitis" type="OVERLAP" />
+<TLINK id="TL37" fromID="E40" fromText="hepatitis" toID="E39" toText="liver disease" type="OVERLAP" />
+<TLINK id="TL38" fromID="E39" fromText="liver disease" toID="E35" toText="anorexia" type="OVERLAP" />
+<TLINK id="TL39" fromID="E11" fromText="admitted" toID="E7" toText="the lap coli" type="BEFORE" />
+<TLINK id="TL4" fromID="E15" fromText="the hospital" toID="E14" toText="admitted" type="AFTER" />
+<TLINK id="TL40" fromID="E8" fromText="an intraoperative cholangiogram" toID="E7" toText="the lap coli" type="OVERLAP" />
+<TLINK id="TL41" fromID="E8" fromText="an intraoperative cholangiogram" toID="E9" toText="general anesthesia" type="OVERLAP" />
+<TLINK id="TL42" fromID="T8" fromText="25 years" toID="E11" toText="admitted" type="BEFORE" />
+<TLINK id="TL43" fromID="E10" fromText="complication" toID="E7" toText="the lap coli" type="OVERLAP" />
+<TLINK id="TL44" fromID="E10" fromText="complication" toID="E12" toText="admitted" type="BEFORE" />
+<TLINK id="TL45" fromID="E41" fromText="floor" toID="E12" toText="admitted" type="AFTER" />
+<TLINK id="TL46" fromID="E42" fromText="afebrile" toID="E43" toText="vital signs" type="OVERLAP" />
+<TLINK id="TL48" fromID="E42" fromText="afebrile" toID="E41" toText="floor" type="OVERLAP" />
+<TLINK id="TL49" fromID="E41" fromText="floor" toID="E44" toText="discharged" type="BEFORE" />
+<TLINK id="TL5" fromID="E14" fromText="admitted" toID="T1" toText="July 12th" type="OVERLAP" />
+<TLINK id="TL50" fromID="E45" fromText="stable condition" toID="E44" toText="discharged" type="BEFORE" />
+<TLINK id="TL51" fromID="E46" fromText="a follow up appointment" toID="E44" toText="discharged" type="AFTER" />
+<TLINK id="TL6" fromID="E17" fromText="a chole" toID="E15" toText="the hospital" type="OVERLAP" />
+<TLINK id="TL7" fromID="E18" fromText="recurrent biliary colic" toID="E17" toText="a chole" type="BEFORE" />
+<TLINK id="TL8" fromID="E18" fromText="recurrent biliary colic" toID="E19" toText="recurrent biliary colic" type="OVERLAP" />
+<TLINK id="TL9" fromID="E20" fromText="ultrasound proven gallstones" toID="T3" toText="ten years" type="OVERLAP" />
+<TLINK id="SECTIME0" fromID="E5" fromText="weight loss" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E35" fromText="anorexia" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E17" fromText="a chole" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E6" fromText="An ultrasound" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E36" fromText="showed" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E37" fromText="six gallstones" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E38" fromText="cholecystitis" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E39" fromText="liver disease" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E40" fromText="hepatitis" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E18" fromText="recurrent biliary colic" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E11" fromText="admitted" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E7" fromText="the lap coli" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E8" fromText="an intraoperative cholangiogram" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E9" fromText="general anesthesia" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E10" fromText="complication" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E12" fromText="admitted" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E41" fromText="floor" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E42" fromText="afebrile" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E43" fromText="vital signs" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E44" fromText="discharged" toID="Discharge" toText="Discharge" type="OVERLAP" />
+<TLINK id="SECTIME20" fromID="E45" fromText="stable condition" toID="Discharge" toText="Discharge" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E46" fromText="a follow up appointment" toID="Discharge" toText="Discharge" type="AFTER" />
+<TLINK id="SECTIME10" fromID="E19" fromText="recurrent biliary colic" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E20" fromText="ultrasound proven gallstones" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E1" fromText="an earlier obstetric ultrasound" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E21" fromText="symptoms" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E22" fromText="classic biliary colic pain" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E23" fromText="right upper quadrant epigastric pain" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E24" fromText="nausea" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E25" fromText="vomiting" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E47" fromText="meals" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E26" fromText="Episodes" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E27" fromText="increasing" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E15" fromText="the hospital" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E28" fromText="fevers" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E29" fromText="chills" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E30" fromText="respiratory symptoms" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E31" fromText="diarrhea" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E32" fromText="bright red blood per rectum" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E33" fromText="melena" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E34" fromText="any relieve" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E2" fromText="the counter medications" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E3" fromText="gallbladder" toID="T0" toText="09/15/2000" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E4" fromText="pancreatic disease" toID="T0" toText="09/15/2000" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="09/15/2000" type="ADMISSION" dvalue="2000-09-15" />
+<SECTIME id="S0" start="18" end="28" text="09/15/2000" type="ADMISSION" dvalue="2000-09-15" />
+<TLINK id="SECTIME10" fromID="E11" fromText="admitted" toID="Discharge" toText="Discharge" type="" />
+<TLINK id="SECTIME11" fromID="E7" fromText="the lap coli" toID="Discharge" toText="Discharge" type="" />
+<TLINK id="SECTIME12" fromID="E8" fromText="an intraoperative cholangiogram" toID="Discharge" toText="Discharge" type="" />
+<TLINK id="SECTIME13" fromID="E9" fromText="general anesthesia" toID="Discharge" toText="Discharge" type="" />
+<TLINK id="SECTIME14" fromID="E10" fromText="complication" toID="Discharge" toText="Discharge" type="" />
+<TLINK id="SECTIME15" fromID="E12" fromText="admitted" toID="Discharge" toText="Discharge" type="" />
+<TLINK id="SECTIME16" fromID="E41" fromText="floor" toID="Discharge" toText="Discharge" type="" />
+<TLINK id="SECTIME17" fromID="E42" fromText="afebrile" toID="Discharge" toText="Discharge" type="" />
+<TLINK id="SECTIME18" fromID="E43" fromText="vital signs" toID="Discharge" toText="Discharge" type="" />
+<TLINK id="SECTIME19" fromID="E44" fromText="discharged" toID="Discharge" toText="Discharge" type="" />
+<TLINK id="SECTIME20" fromID="E45" fromText="stable condition" toID="Discharge" toText="Discharge" type="" />
+<TLINK id="SECTIME21" fromID="E46" fromText="a follow up appointment" toID="Discharge" toText="Discharge" type="" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

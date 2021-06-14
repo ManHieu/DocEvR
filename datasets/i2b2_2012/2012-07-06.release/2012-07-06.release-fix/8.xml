@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date:
+2011-02-08
+Discharge Date :
+2011-02-14
+Service :
+CMED
+HISTORY OF THE PRESENT ILLNESS :
+Briefly , this is a 57-year-old gentleman with a history of COPD , status post intubation six years ago but not on home 02 with recent FEV1 27% of predicted value , and FEV1/FVC ratio 56% of hypercholesterolemia , who was admitted for COPD exacerbation and worsening of upper respiratory tract infection symptoms for a week prior to admission .
+He was afebrile with stable vital signs on presentation to
+HOSPITAL COURSE :
+He was started on p.o. steroids and to CMED for management of COPD exacerbation but he appeared in more respiratory distress overnight and was started on IV Solu-Medrol and more frequent nebulizers for COPD .
+He was also started on antibiotics for possible bronchitis or community-acquired pneumonia .
+Given his tenuous respiratory status , he was transferred to the FICU with closer observation .
+He did not require intubation and improved with q. two hour nebulizers and chest PT .
+He was again transferred to the CMED Service for further management of his COPD exacerbation .
+He was continued on p.o. prednisone and frequent nebulizers for COPD .
+He was evaluated by the physical therapist in the hospital and was found to desaturate to 84% with ambulating on room air .
+Therefore , home 02 was recommended on discharge .
+
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="1023" end="1034" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1038" end="1054" text="the CMED Service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E18" start="1059" end="1077" text="further management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="1081" end="1102" text="his COPD exacerbation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E20" start="1125" end="1140" text="p.o. prednisone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E21" start="1145" end="1164" text="frequent nebulizers" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1169" end="1173" text="COPD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1183" end="1192" text="evaluated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E23" start="1252" end="1262" text="desaturate" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1275" end="1285" text="ambulating" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1289" end="1297" text="room air" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1312" end="1319" text="home 02" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1339" end="1348" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="164" end="168" text="COPD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="183" end="193" text="intubation" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="219" end="226" text="home 02" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E2" start="239" end="243" text="FEV1" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="273" end="287" text="FEV1/FVC ratio" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E27" start="28" end="37" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E30" start="295" end="315" text="hypercholesterolemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="326" end="334" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="339" end="356" text="COPD exacerbation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E32" start="374" end="416" text="upper respiratory tract infection symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="437" end="446" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E4" start="456" end="464" text="afebrile" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="492" end="504" text="presentation" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E5" start="544" end="557" text="p.o. steroids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="565" end="569" text="CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E6" start="574" end="584" text="management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="588" end="605" text="COPD exacerbation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="625" end="650" text="more respiratory distress" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="680" end="694" text="IV Solu-Medrol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="699" end="723" text="more frequent nebulizers" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="728" end="732" text="COPD" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="758" end="769" text="antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E11" start="783" end="793" text="bronchitis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="797" end="825" text="community-acquired pneumonia" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="834" end="864" text="his tenuous respiratory status" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="874" end="885" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="889" end="897" text="the FICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E14" start="903" end="921" text="closer observation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="943" end="953" text="intubation" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E39" start="958" end="966" text="improved" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="984" end="994" text="nebulizers" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="999" end="1007" text="chest PT" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T1" start="17" end="27" text="2011-02-08" type="DATE" val="2011-02-08" mod="NA" />
+<TIMEX3 id="T0" start="194" end="207" text="six years ago" type="DATE" val="2005-02-08" mod="APPROX" />
+<TIMEX3 id="T3" start="421" end="427" text="a week" type="DURATION" val="p1w" mod="NA" />
+<TIMEX3 id="T2" start="45" end="55" text="2011-02-14" type="DATE" val="2011-02-14" mod="NA" />
+<TIMEX3 id="T4" start="651" end="660" text="overnight" type="DURATION" val="PT12H" mod="APPROX" />
+<TIMEX3 id="T5" start="972" end="983" text="q. two hour" type="FREQUENCY" val="RPT2H" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T1" toText="2011-02-08" type="OVERLAP" />
+<TLINK id="TL1" fromID="T0" fromText="six years ago" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL10" fromID="E31" fromText="COPD exacerbation" toID="E33" toText="admitted" type="BEFORE" />
+<TLINK id="TL11" fromID="E32" fromText="upper respiratory tract infection symptoms" toID="E31" toText="COPD exacerbation" type="OVERLAP" />
+<TLINK id="TL12" fromID="T3" fromText="a week" toID="E34" toText="admission" type="BEFORE" />
+<TLINK id="TL13" fromID="E32" fromText="upper respiratory tract infection symptoms" toID="T3" toText="a week" type="OVERLAP" />
+<TLINK id="TL14" fromID="E35" fromText="presentation" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL15" fromID="E4" fromText="afebrile" toID="E35" toText="presentation" type="OVERLAP" />
+<TLINK id="TL16" fromID="E5" fromText="p.o. steroids" toID="E35" toText="presentation" type="AFTER" />
+<TLINK id="TL17" fromID="E36" fromText="CMED" toID="E5" toText="p.o. steroids" type="OVERLAP" />
+<TLINK id="TL18" fromID="E6" fromText="management" toID="E36" toText="CMED" type="AFTER" />
+<TLINK id="TL19" fromID="E7" fromText="COPD exacerbation" toID="E31" toText="COPD exacerbation" type="OVERLAP" />
+<TLINK id="TL2" fromID="E0" fromText="Admission" toID="E34" toText="admission" type="OVERLAP" />
+<TLINK id="TL20" fromID="E37" fromText="more respiratory distress" toID="T4" toText="overnight" type="OVERLAP" />
+<TLINK id="TL21" fromID="T4" fromText="overnight" toID="E36" toText="CMED" type="OVERLAP" />
+<TLINK id="TL22" fromID="E8" fromText="IV Solu-Medrol" toID="T4" toText="overnight" type="AFTER" />
+<TLINK id="TL23" fromID="E9" fromText="more frequent nebulizers" toID="E8" toText="IV Solu-Medrol" type="OVERLAP" />
+<TLINK id="TL24" fromID="E38" fromText="COPD" toID="E28" toText="COPD" type="OVERLAP" />
+<TLINK id="TL25" fromID="E10" fromText="antibiotics" toID="E8" toText="IV Solu-Medrol" type="OVERLAP" />
+<TLINK id="TL26" fromID="E11" fromText="bronchitis" toID="E10" toText="antibiotics" type="BEFORE" />
+<TLINK id="TL27" fromID="E12" fromText="community-acquired pneumonia" toID="E11" toText="bronchitis" type="OVERLAP" />
+<TLINK id="TL28" fromID="E13" fromText="his tenuous respiratory status" toID="E37" toText="more respiratory distress" type="OVERLAP" />
+<TLINK id="TL29" fromID="E13" fromText="his tenuous respiratory status" toID="E24" toText="transferred" type="BEFORE" />
+<TLINK id="TL3" fromID="E33" fromText="admitted" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL30" fromID="E25" fromText="the FICU" toID="E24" toText="transferred" type="AFTER" />
+<TLINK id="TL31" fromID="E14" fromText="closer observation" toID="E25" toText="the FICU" type="OVERLAP" />
+<TLINK id="TL32" fromID="E15" fromText="intubation" toID="E24" toText="transferred" type="OVERLAP" />
+<TLINK id="TL33" fromID="E39" fromText="improved" toID="E15" toText="intubation" type="OVERLAP" />
+<TLINK id="TL34" fromID="E16" fromText="nebulizers" toID="E39" toText="improved" type="BEFORE" />
+<TLINK id="TL35" fromID="E16" fromText="nebulizers" toID="T5" toText="q. two hour" type="OVERLAP" />
+<TLINK id="TL36" fromID="E16" fromText="nebulizers" toID="E9" toText="more frequent nebulizers" type="OVERLAP" />
+<TLINK id="TL37" fromID="E17" fromText="chest PT" toID="E16" toText="nebulizers" type="OVERLAP" />
+<TLINK id="TL38" fromID="E25" fromText="the FICU" toID="E26" toText="transferred" type="BEFORE" />
+<TLINK id="TL39" fromID="E40" fromText="the CMED Service" toID="E26" toText="transferred" type="AFTER" />
+<TLINK id="TL4" fromID="E28" fromText="COPD" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL40" fromID="E18" fromText="further management" toID="E40" toText="the CMED Service" type="AFTER" />
+<TLINK id="TL41" fromID="E19" fromText="his COPD exacerbation" toID="E31" toText="COPD exacerbation" type="OVERLAP" />
+<TLINK id="TL42" fromID="E20" fromText="p.o. prednisone" toID="E40" toText="the CMED Service" type="BEFORE" />
+<TLINK id="TL43" fromID="E21" fromText="frequent nebulizers" toID="E16" toText="nebulizers" type="OVERLAP" />
+<TLINK id="TL44" fromID="E22" fromText="COPD" toID="E38" toText="COPD" type="OVERLAP" />
+<TLINK id="TL45" fromID="E41" fromText="evaluated" toID="E21" toText="frequent nebulizers" type="OVERLAP" />
+<TLINK id="TL46" fromID="E23" fromText="desaturate" toID="E41" toText="evaluated" type="BEFORE" />
+<TLINK id="TL47" fromID="E42" fromText="ambulating" toID="E23" toText="desaturate" type="OVERLAP" />
+<TLINK id="TL48" fromID="E43" fromText="room air" toID="E42" toText="ambulating" type="OVERLAP" />
+<TLINK id="TL49" fromID="E45" fromText="discharge" toID="E27" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL5" fromID="E1" fromText="intubation" toID="T0" toText="six years ago" type="OVERLAP" />
+<TLINK id="TL50" fromID="E44" fromText="home 02" toID="E45" toText="discharge" type="BEFORE" />
+<TLINK id="TL51" fromID="E27" fromText="Discharge" toID="T2" toText="2011-02-14" type="OVERLAP" />
+<TLINK id="TL6" fromID="E29" fromText="home 02" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL7" fromID="E2" fromText="FEV1" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL8" fromID="E3" fromText="FEV1/FVC ratio" toID="E2" toText="FEV1" type="OVERLAP" />
+<TLINK id="TL9" fromID="E30" fromText="hypercholesterolemia" toID="E3" toText="FEV1/FVC ratio" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2011-02-08" type="ADMISSION" dvalue="2011-02-08" />
+<SECTIME id="S1" start="46" end="56" text="2011-02-14" type="DISCHARGE" dvalue="2011-02-14" />
+<TLINK id="SECTIME0" fromID="E26" fromText="transferred" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E40" fromText="the CMED Service" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E18" fromText="further management" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E19" fromText="his COPD exacerbation" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E20" fromText="p.o. prednisone" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E21" fromText="frequent nebulizers" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E22" fromText="COPD" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E41" fromText="evaluated" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E23" fromText="desaturate" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E42" fromText="ambulating" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E43" fromText="room air" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E44" fromText="home 02" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E45" fromText="discharge" toID="T2" toText="2011-02-14" type="OVERLAP" />
+<TLINK id="SECTIME13" fromID="E28" fromText="COPD" toID="T1" toText="2011-02-08" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E1" fromText="intubation" toID="T1" toText="2011-02-08" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E29" fromText="home 02" toID="T1" toText="2011-02-08" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E2" fromText="FEV1" toID="T1" toText="2011-02-08" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E3" fromText="FEV1/FVC ratio" toID="T1" toText="2011-02-08" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E30" fromText="hypercholesterolemia" toID="T1" toText="2011-02-08" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E33" fromText="admitted" toID="T1" toText="2011-02-08" type="OVERLAP" />
+<TLINK id="SECTIME20" fromID="E31" fromText="COPD exacerbation" toID="T1" toText="2011-02-08" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E32" fromText="upper respiratory tract infection symptoms" toID="T1" toText="2011-02-08" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E34" fromText="admission" toID="T1" toText="2011-02-08" type="OVERLAP" />
+<TLINK id="SECTIME23" fromID="E4" fromText="afebrile" toID="T1" toText="2011-02-08" type="OVERLAP" />
+<TLINK id="SECTIME24" fromID="E35" fromText="presentation" toID="T1" toText="2011-02-08" type="OVERLAP" />
+<TLINK id="SECTIME25" fromID="E5" fromText="p.o. steroids" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E36" fromText="CMED" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E6" fromText="management" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E7" fromText="COPD exacerbation" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E37" fromText="more respiratory distress" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E8" fromText="IV Solu-Medrol" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E9" fromText="more frequent nebulizers" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E38" fromText="COPD" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E10" fromText="antibiotics" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E11" fromText="bronchitis" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E12" fromText="community-acquired pneumonia" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E13" fromText="his tenuous respiratory status" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E24" fromText="transferred" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E25" fromText="the FICU" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E14" fromText="closer observation" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E15" fromText="intubation" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E39" fromText="improved" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E16" fromText="nebulizers" toID="T2" toText="2011-02-14" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E17" fromText="chest PT" toID="T2" toText="2011-02-14" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

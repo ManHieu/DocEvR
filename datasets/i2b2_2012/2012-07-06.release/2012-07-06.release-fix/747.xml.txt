@@ -1,0 +1,59 @@
+Admission Date :
+2015-10-05
+Discharge Date :
+2015-10-08
+Service :
+MEDICINE
+History of Present Illness:
+The patient is a 91 yo woman with h/o HTN who came from Bridgewater State Hospital Rehab with substernal chest pain after exercise .
+Pt had been in her usual state of health and performed here regular exercises .
+After returning to her room she w noted SSCP without radiation .
+No nausea , vomiting , diaphoresis .
+They did an ECG at Bridgewater State Hospital rehab which demonstarted new ST depressions in V1-V4 .
+She received ASA 81 mg x 2 and nitro SL x 2 with partial relief at nursing home .
+On presentation to Providence Behavioral Health Hospital Amanda , her vitals were HR 68 , BP 142/68 , RR 28 , O2 sat 100% RA .
+Exam was notable for RRR with no murmur , bibasilar crackles , guaiac negative .
+EKG showed sinus brady , with old LAD and new ST depressions in V1-V4 .
+Troponin was 0.07 .
+She received ASA , nitro SL then gtt , morphine , metoprolol , and heparin gtt .
+Cardiology discussed cath however , patient 's family turned down .
+Transferred to CCU for further management and observation .
+Brief Hospital Course:
+INITIAL IMPRESSION :
+90 year-old woman with h/o of HTN p/w substernal chest pain shortly after exercise at nursing home , with EKG showing ST depressions in V1-V4 and troponin 0.07.
+Likely NSTEMI .
+.
+HOSPITAL COURSE BY SYSTEM :
+.
+* CV :
+The patient 's family refused coronary artery catheterization .
+The patient was given ASA , Plavix , heparin drip x 24 hours , nitro drip , atorvastatin , metoprolol , and lisinopril .
+Her chest pain was controlled with morphine .
+Her SBP remained in the 160s-170s on hospital day 1 and she was gently diuresed .
+On hospital day 2 she experienced atrial fibrillation with HR in the 140s .
+Her metoprolol dose was increased from 25 mg PO bid to 50 mg PO bid then 75 mg PO tid .
+Her HR decreased to 70s-80s .
+Her BP remained stable .
+An ECHO showed that she had preserved EF and no wall motion abnormalities .
+We decided given her age that she would not be a good candidate for cardioversion for her afib nor would she be a good candidate for coumadin .
+Therefore we will continue rate control with metoprolol this can be titrated if needed , and aspirin and plavix for anti-coagulation .
+She should also continue on lipitor and lisinopril .
+She should have her chem 7 checked next week given the start of her new meds .
+Will also need LFT 's checked in 3-6 months .
+.
+* Pulmonary :
+Bilateral crackles at bases and midlungs , elevated JVP , trace bilateral ankle edema , and CXR with diffuse opacities suggest possible pulmonary edema , likely secondary to acute MI .
+Her O2 sat was stable at 94-97% on 2.5L of supplemental O2 .
+She experienced no respiratory difficulty during the hospital stay .
+She was diuresed small amount .
+Her CXR prior to discharge showed mild pulm edema and thus was given 40 of lasix prior to going to rehab .
+She can be given prn lasix for weight gain or shortness of breath .
+.
+* Leukocytosis- She developed mild elevated WBC .
+UA had 12-14
+WBC 's , few bacteria .
+She was initially started on Bactrim , but this was stopped as she was afebrile .
+SHe has a culture pending which needs to be followed up at the nursing home and treated if positive .
+.
+* Code :
+DNR/DNI

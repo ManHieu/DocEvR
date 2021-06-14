@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2013-01-03
+Discharge Date :
+2013-01-09
+Service :
+HISTORY OF PRESENT ILLNESS :
+HISTORY OF PRESENT ILLNESS :
+This is a 58 - year-old woman who was transferred from Shaugnessy-Kaplan Rehab Hospital Hospital for cardiac catheterization .
+The patient had a long history of hypertension , hypercholesterolemia , tobacco abuse , and family history of coronary artery disease , who was in the usual state of health until Saturday previous to admission when she experienced bilateral arm and chest discomfort while carrying groceries .
+Her symptoms resolved with rest .
+The same symptoms occurred again the same evening with exertion and then were again relieved with rest .
+The patient presented to the outside hospital Emergency Room where she was started on Aspirin , Lovenox and beta blocker .
+She ruled out for myocardial infarction by CPK and troponin and had non diagnostic EKG changes .
+She is being transferred to Arbour-Fuller Hospital for cardiac catheterization .
+Results of the catheterization indicated the patient had three vessel disease and was a candidate for coronary artery bypass graft .
+The patient went to the operating room , was admitted to go to the operating room on 2013-01-04 .
+Her risk factors : Hypertension , tobacco abuse ( one pack per day times 45 years ), family history ( father diagnosed with coronary artery disease in his 50 's, patient 's mother had coronary artery disease , patient 's brother has coronary artery disease ).
+Hypercholesterolemia ( total cholesterol on admission 300 's several years ago ).
+The patient denies any history of diabetes .
+]]></TEXT>
+<TAGS>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

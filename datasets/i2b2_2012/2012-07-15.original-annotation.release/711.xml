@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+10-03-94
+DISCHARGE DATE :
+10-06-94
+HISTORY OF PRESENT ILLNESS :
+This 85 year old man was admitted because of the new onset of focal left-sided seizure and unresponsiveness .
+He had a past history of ischemic cardiomyopathy with an ejection fraction of 10 , mild aortic stenosis and a right middle cerebral artery territory stroke in 07/94 .
+He was at Orlak on the day of admission and was found unresponsive with left tonic-clonic movements , greater in the arms than in the legs .
+He was transferred to Fairm of Ijordcompmac Hospital , where seizures were stopped with 2 mg of Ativan .
+He was loaded with IV Dilantin .
+He remained unresponsive with poor airway protection .
+HOSPITAL COURSE :
+By the patient and his family &apos;s prior wishes , the patient was extubated .
+An electroencephalogram revealed generalized slowing without ictal events .
+He had no carotid bruits .
+He had stertorous breathing , positional tremors of the left upper extremity , a spastic left hemiparesis in flexion .
+He withdrew both legs to painful stimuli .
+The right upper extremity was flaccid and paresthetic .
+Again , comfort measures only were undertaken as per the patient &apos;s previous wishes and the family &apos;s current insistence .
+At 1:15 PM on 10/06/94 , the patient was found unresponsive with no heart sounds , carotid pulse , respiratory excursions , or pupillary reactions .
+His family was notified .
+Consent for autopsy was denied .
+]]></TEXT>
+<TAGS>
+<EVENT id="E23" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E39" start="1017" end="1035" text="withdrew both legs" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="1039" end="1054" text="painful stimuli" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="107" end="115" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="1087" end="1094" text="flaccid" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="1099" end="1110" text="paresthetic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="1121" end="1142" text="comfort measures only" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1293" end="1305" text="unresponsive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1314" end="1326" text="heart sounds" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E20" start="1329" end="1342" text="carotid pulse" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E21" start="1345" end="1367" text="respiratory excursions" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E22" start="1373" end="1392" text="pupillary reactions" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E40" start="1410" end="1418" text="notified" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E0" start="144" end="168" text="focal left-sided seizure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1433" end="1440" text="autopsy" modality="FACTUAL" polarity="NEG" type="TEST" />
+<EVENT id="E27" start="173" end="189" text="unresponsiveness" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="217" end="240" text="ischemic cardiomyopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="246" end="266" text="an ejection fraction" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E3" start="275" end="295" text="mild aortic stenosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="300" end="347" text="a right middle cerebral artery territory stroke" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="369" end="374" text="Orlak" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E30" start="389" end="398" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="413" end="425" text="unresponsive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="431" end="458" text="left tonic-clonic movements" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="507" end="518" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="522" end="552" text="Fairm of Ijordcompmac Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E33" start="561" end="569" text="seizures" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="596" end="602" text="Ativan" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="624" end="635" text="IV Dilantin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="650" end="662" text="unresponsive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="668" end="690" text="poor airway protection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="780" end="789" text="extubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="792" end="815" text="An electroencephalogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="816" end="824" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E8" start="825" end="844" text="generalized slowing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="853" end="865" text="ictal events" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E10" start="878" end="892" text="carotid bruits" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E11" start="902" end="922" text="stertorous breathing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="925" end="971" text="positional tremors of the left upper extremity" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E13" start="974" end="1011" text="a spastic left hemiparesis in flexion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T4" start="1249" end="1268" text="1:15 PM on 10/06/94" type="TIME" val="1994-10-06t13:15" mod="NA" />
+<TIMEX3 id="T1" start="18" end="26" text="10-03-94" type="DATE" val="1994-10-03" mod="NA" />
+<TIMEX3 id="T3" start="351" end="356" text="07/94" type="DATE" val="1994-07" mod="NA" />
+<TIMEX3 id="T5" start="378" end="385" text="the day" type="DATE" val="1991-10-03" mod="NA" />
+<TIMEX3 id="T2" start="44" end="52" text="10-06-94" type="DATE" val="1994-10-06" mod="NA" />
+<TLINK id="TL0" fromID="E23" fromText="ADMISSION" toID="T1" toText="10-03-94" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E25" fromText="admitted" toID="E23" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL10" fromID="E3" fromText="mild aortic stenosis" toID="E25" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL11" fromID="E4" fromText="a right middle cerebral artery territory stroke" toID="T3" toText="07/94" type="SIMULTANEOUS" />
+<TLINK id="TL12" fromID="E29" fromText="Orlak" toID="E31" toText="transferred" type="ENDED_BY" />
+<TLINK id="TL13" fromID="E29" fromText="Orlak" toID="T5" toText="the day" type="OVERLAP" />
+<TLINK id="TL14" fromID="E30" fromText="admission" toID="E23" toText="ADMISSION" type="SIMULTANEOUS" />
+<TLINK id="TL15" fromID="E5" fromText="unresponsive" toID="T5" toText="the day" type="BEGUN_BY" />
+<TLINK id="TL16" fromID="E5" fromText="unresponsive" toID="E27" toText="unresponsiveness" type="SIMULTANEOUS" />
+<TLINK id="TL17" fromID="E6" fromText="left tonic-clonic movements" toID="T5" toText="the day" type="BEGUN_BY" />
+<TLINK id="TL18" fromID="E6" fromText="left tonic-clonic movements" toID="E0" toText="focal left-sided seizure" type="SIMULTANEOUS" />
+<TLINK id="TL19" fromID="E31" fromText="transferred" toID="E23" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL2" fromID="E11" fromText="stertorous breathing" toID="E12" toText="positional tremors of the left upper extremity" type="OVERLAP" />
+<TLINK id="TL20" fromID="E32" fromText="Fairm of Ijordcompmac Hospital" toID="E31" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL21" fromID="E33" fromText="seizures" toID="E6" toText="left tonic-clonic movements" type="SIMULTANEOUS" />
+<TLINK id="TL22" fromID="E33" fromText="seizures" toID="E34" toText="Ativan" type="ENDED_BY" />
+<TLINK id="TL23" fromID="E34" fromText="Ativan" toID="E32" toText="Fairm of Ijordcompmac Hospital" type="DURING" />
+<TLINK id="TL24" fromID="E35" fromText="IV Dilantin" toID="E32" toText="Fairm of Ijordcompmac Hospital" type="DURING" />
+<TLINK id="TL25" fromID="E36" fromText="unresponsive" toID="E5" toText="unresponsive" type="SIMULTANEOUS" />
+<TLINK id="TL26" fromID="E36" fromText="unresponsive" toID="E37" toText="poor airway protection" type="OVERLAP" />
+<TLINK id="TL27" fromID="E26" fromText="extubated" toID="E23" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL28" fromID="E7" fromText="An electroencephalogram" toID="E38" toText="revealed" type="OVERLAP" />
+<TLINK id="TL29" fromID="E8" fromText="generalized slowing" toID="E7" toText="An electroencephalogram" type="BEFORE_OVERLAP" />
+<TLINK id="TL3" fromID="E12" fromText="positional tremors of the left upper extremity" toID="E13" toText="a spastic left hemiparesis in flexion" type="OVERLAP" />
+<TLINK id="TL30" fromID="E7" fromText="An electroencephalogram" toID="E23" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL31" fromID="E8" fromText="generalized slowing" toID="E9" toText="ictal events" type="OVERLAP" />
+<TLINK id="TL32" fromID="E10" fromText="carotid bruits" toID="E32" toText="Fairm of Ijordcompmac Hospital" type="OVERLAP" />
+<TLINK id="TL33" fromID="E11" fromText="stertorous breathing" toID="E23" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL34" fromID="E39" fromText="withdrew both legs" toID="E14" toText="painful stimuli" type="OVERLAP" />
+<TLINK id="TL35" fromID="E13" fromText="a spastic left hemiparesis in flexion" toID="E39" toText="withdrew both legs" type="OVERLAP" />
+<TLINK id="TL36" fromID="E15" fromText="flaccid" toID="E12" toText="positional tremors of the left upper extremity" type="OVERLAP" />
+<TLINK id="TL37" fromID="E17" fromText="comfort measures only" toID="E23" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL38" fromID="E18" fromText="unresponsive" toID="T4" toText="1:15 PM on 10/06/94" type="BEFORE_OVERLAP" />
+<TLINK id="TL39" fromID="E22" fromText="pupillary reactions" toID="T4" toText="1:15 PM on 10/06/94" type="OVERLAP" />
+<TLINK id="TL4" fromID="E15" fromText="flaccid" toID="E16" toText="paresthetic" type="OVERLAP" />
+<TLINK id="TL40" fromID="E40" fromText="notified" toID="E22" toText="pupillary reactions" type="AFTER" />
+<TLINK id="TL41" fromID="E41" fromText="autopsy" toID="E40" toText="notified" type="AFTER" />
+<TLINK id="TL5" fromID="E24" fromText="DISCHARGE" toID="T2" toText="10-06-94" type="SIMULTANEOUS" />
+<TLINK id="TL6" fromID="E0" fromText="focal left-sided seizure" toID="E25" toText="admitted" type="BEFORE_OVERLAP" />
+<TLINK id="TL7" fromID="E0" fromText="focal left-sided seizure" toID="E27" toText="unresponsiveness" type="OVERLAP" />
+<TLINK id="TL8" fromID="E28" fromText="ischemic cardiomyopathy" toID="E25" toText="admitted" type="BEFORE" />
+<TLINK id="TL9" fromID="E2" fromText="an ejection fraction" toID="E25" toText="admitted" type="BEFORE" />
+<SECTIME id="S0" start="18" end="26" text="10-03-94" type="ADMISSION" dvalue="1994-10-03" />
+<SECTIME id="S1" start="44" end="52" text="10-06-94" type="DISCHARGE" dvalue="1994-10-06" />
+<TLINK id="SECTIME0" fromID="E39" fromText="withdrew both legs" toID="T2" toText="10-06-94" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E14" fromText="painful stimuli" toID="T2" toText="10-06-94" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E25" fromText="admitted" toID="T1" toText="10-03-94" type="OVERLAP" />
+<TLINK id="SECTIME3" fromID="E15" fromText="flaccid" toID="T2" toText="10-06-94" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E16" fromText="paresthetic" toID="T2" toText="10-06-94" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E17" fromText="comfort measures only" toID="T2" toText="10-06-94" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E18" fromText="unresponsive" toID="T2" toText="10-06-94" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E22" fromText="pupillary reactions" toID="T2" toText="10-06-94" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E19" fromText="heart sounds" toID="T2" toText="10-06-94" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E20" fromText="carotid pulse" toID="T2" toText="10-06-94" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E21" fromText="respiratory excursions" toID="T2" toText="10-06-94" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E40" fromText="notified" toID="T2" toText="10-06-94" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E0" fromText="focal left-sided seizure" toID="T1" toText="10-03-94" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E41" fromText="autopsy" toID="T2" toText="10-06-94" type="AFTER" />
+<TLINK id="SECTIME14" fromID="E27" fromText="unresponsiveness" toID="T1" toText="10-03-94" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E28" fromText="ischemic cardiomyopathy" toID="T1" toText="10-03-94" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E2" fromText="an ejection fraction" toID="T1" toText="10-03-94" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E3" fromText="mild aortic stenosis" toID="T1" toText="10-03-94" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E4" fromText="a right middle cerebral artery territory stroke" toID="T1" toText="10-03-94" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E29" fromText="Orlak" toID="T1" toText="10-03-94" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E30" fromText="admission" toID="T1" toText="10-03-94" type="OVERLAP" />
+<TLINK id="SECTIME21" fromID="E5" fromText="unresponsive" toID="T1" toText="10-03-94" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E6" fromText="left tonic-clonic movements" toID="T1" toText="10-03-94" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E31" fromText="transferred" toID="T1" toText="10-03-94" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E32" fromText="Fairm of Ijordcompmac Hospital" toID="T1" toText="10-03-94" type="OVERLAP" />
+<TLINK id="SECTIME25" fromID="E33" fromText="seizures" toID="T1" toText="10-03-94" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E34" fromText="Ativan" toID="T1" toText="10-03-94" type="AFTER" />
+<TLINK id="SECTIME27" fromID="E35" fromText="IV Dilantin" toID="T1" toText="10-03-94" type="AFTER" />
+<TLINK id="SECTIME28" fromID="E36" fromText="unresponsive" toID="T1" toText="10-03-94" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E37" fromText="poor airway protection" toID="T1" toText="10-03-94" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E26" fromText="extubated" toID="T2" toText="10-06-94" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E7" fromText="An electroencephalogram" toID="T2" toText="10-06-94" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E38" fromText="revealed" toID="T2" toText="10-06-94" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E8" fromText="generalized slowing" toID="T2" toText="10-06-94" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E9" fromText="ictal events" toID="T2" toText="10-06-94" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E10" fromText="carotid bruits" toID="T2" toText="10-06-94" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E11" fromText="stertorous breathing" toID="T2" toText="10-06-94" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E12" fromText="positional tremors of the left upper extremity" toID="T2" toText="10-06-94" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E13" fromText="a spastic left hemiparesis in flexion" toID="T2" toText="10-06-94" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+10-24-93
+DISCHARGE DATE :
+11-2-93
+HISTORY OF PRESENT ILLNESS :
+The patient is a 65 year old Portuguese male with a history of an anterior myocardial infarction i May 1993 and is status post a percutaneous transluminal coronary angioplasty of the LAD who presented on 10-24-93 with crushing substernal chest pain and shortness of breath .
+He had no prior cardiac history until May 1993 when on 5-24 he had crushing chest pain which radiated to his left arm .
+He was found at that time to have 3-4 mm ST segment elevations in V1 through V4 at Pre Health .
+The patient was transferred to Fairm of Ijordcompmac Hospital and had 4-7 mm ST segment elevations across the precordium with Q&apos;s in V1 and V2 , 2 mm ST elevation in AVL , and 1-2 mm reciprocal ST depression in II , III , and F.
+On physical examination at that time he had bright red blood per rectum and therefore lysis was deferred and he was taken directly to the cardiac catheterization lab .
+The cardiac catheterization results at that time revealed a right atrial pressure of 7 , pulmonary artery pressure of 29/16 , RV 33/8 , pulmonary capillary wedge pressure of 16 .
+He had a 95% proximal left anterior descending lesion which was PTCA &apos;d to a residual of 30% and an intra-aortic balloon pump was placed .
+He also had some mild to moderate disease at the OM1 noted at that time .
+The patient was transferred to the Cardiac Care Unit where he had a peak CPK of 5,042 and 26.7% MB&apos;s .
+His intra-aortic balloon pump was weaned without problems .
+He had hypotension with beta blockers and therefore they were not started .
+On day six , an echocardiogram showed an ejection fraction of 44% with anterior akinesis and septal hypokinesis .
+On day nine , he had a low level exercise tolerance test with Thallium which was positive for 2.5 mm horizontal depressions in II , III , and AVF , and 1.5 mm downsloping ST depressions in V5 and V6 , as well as some anteroseptal redistribution on Thallium .
+Therefore , he went to repeat cardiac catheterization which revealed that the left anterior descending site was patent and revealed a distal PDA lesion and a circumflex lesion after the OM .
+The patient was discharged to home and is supposed to follow up with Dr. Shuffburle of Gastroenterology for work up of his bright red blood per rectum and is supposed to follow up with Dr. Amesin of Cardiology and Dr. Shuffpasc of Dingclearf Alllirefaith Memorial Hospital .
+However , he did not keep any of these appointments .
+He went home and did not take any of his medications and smoked and drank heavily throughout the several months .
+On the a.m. of 10-24-93 , the patient developed crushing substernal chest pain and shortness of breath .
+He came to the Fairm of Ijordcompmac Hospital Emergency Ward where he was noted to be ashen and diaphoretic .
+He was treated with oxygen , aspirin , five sublingual nitroglycerins , heparin , and was eventually made pain free with that regimen .
+CARDIAC RISK FACTORS :
+His cardiac risk factors included hypertension , diabetes mellitus , hypercholesterolemia , cigarette smoking , and a positive family history .
+HOSPITAL COURSE :
+The patient was admitted to the Step Down Unit for a rule out MI protocol .
+He was treated with aspirin , heparin , and intravenous nitroglycerin .
+No beta blockers was started because of his history of hypertension with beta blockers and because his blood pressure of only 110/70 .
+The patient ruled in for myocardial infarction with a peak CPK of 219 and 20.9% MB fraction .
+This was a non-Q wave myocardial infarction as there were no diagnostic electrocardiogram changes .
+on 10-27-93 , the patient went to the cath lab which revealed a small nondominant right coronary artery without any lesions , a restenosis of the proximal left anterior descending lesion that had been PTCA &apos;d , a lesion in the first OM , and a moderately severe left circumflex lesion after the OM3 .
+The left ventriculogram revealed an akinetic anterolateral and apical ventricle .
+Given the results of this cardiac catheterization , which were not significantly changed from his previous cardiac catheterization prior to the PTCA , it was elected to attempt to medically manage the patient .
+He was ambulated progressively on the floor .
+A beta blocker was started with Metoprolol initially at 25 mg PO bid and eventually increased to 50 mg PO bid .
+The patient ambulated extensively on the FIH 20 floor each day without any episodes of chest pain or shortness of breath .
+On 11-2-93 , the patient underwent a low level treadmill exercise test with Thallium imaging .
+This treadmill test was done on medications , including beta blockers , in hopes to assess an amount of ischemia on treatment .
+The patient was able to exercise for approximately nine minutes on a modified Bruce protocol , however , he did not reach his predicted maximal heart rate while he was on the beta blockade .
+There were no diagnostic electrocardiogram changes during the treadmill exercise test , although he did have 0.5 to 1 mm ST depression in II , III , and AVF .
+The study was halted for shortness of breath and there was no chest pain .
+Thallium images revealed a moderate sized region of ischemic but viable myocardium involving the anteroseptal and lateral segments of the left ventricle .
+There was also some evidence of left ventricular dysfunction during the test .
+These images were essentially unchanged compared with the previous Thallium images in May 1993 .
+After extensive discussion between myself , Dr. Amesin , and Dr. Scgach , it was elected to discharge the patient to home with medical management .
+The patient was extremely reluctant to undergo surgery , although he understands that this may become necessary in the future .
+Dr. Amesin had a long discussion with the patient &apos;s daughters revolving primarily around issues of the patient &apos;s compliance .
+Previously he had not taken any of his medicines and smoked heavily on the outside and not kept any of his appointments .
+The importance of quitting smoking as well as continuing to follow his medical regimen was emphasized to the daughter and to the patient .
+She will be actively involved in encouraging the patient to comply with this medical regimen and also to follow up with Dr. Amesin as well as Dr. Lfsquarc on the outside .
+The patient remained guaiac negative throughout the entire hospitalization .
+Despite being on heparin for a short time , his hematocrit remained very stable with only a small dip after the catheterization was done .
+He will need to be followed up as an out patient for guaiac positive stools and possibly worked up for this in the future .
+CAGHALA UINTEELE , M.D.
+TR :
+yf / bmot
+DD :
+11-3-93
+TD :
+11/04/93
+CC :
+Dr. Telshey Swatlleebtik Dr. Eri Lfsquarc
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E81" start="1023" end="1031" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E12" start="1032" end="1055" text="a right atrial pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E13" start="1063" end="1088" text="pulmonary artery pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E14" start="1100" end="1102" text="RV" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E15" start="1110" end="1144" text="pulmonary capillary wedge pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E16" start="1160" end="1206" text="a 95% proximal left anterior descending lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="1255" end="1283" text="an intra-aortic balloon pump" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="1309" end="1338" text="some mild to moderate disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="1387" end="1398" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E82" start="1402" end="1423" text="the Cardiac Care Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E1" start="144" end="177" text="an anterior myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E19" start="1437" end="1447" text="a peak CPK" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E20" start="1467" end="1476" text="MB&apos;s" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="1479" end="1508" text="His intra-aortic balloon pump" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E83" start="1528" end="1536" text="problems" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E22" start="1546" end="1557" text="hypotension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="1563" end="1576" text="beta blockers" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E24" start="1628" end="1645" text="an echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E84" start="1646" end="1652" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E25" start="1653" end="1673" text="an ejection fraction" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E26" start="1686" end="1703" text="anterior akinesis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="1708" end="1726" text="septal hypokinesis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E28" start="1750" end="1799" text="a low level exercise tolerance test with Thallium" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E29" start="1823" end="1874" text="2.5 mm horizontal depressions in II , III , and AVF" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="1881" end="1927" text="1.5 mm downsloping ST depressions in V5 and V6" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="1941" end="1973" text="some anteroseptal redistribution" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="1977" end="1985" text="Thallium" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E32" start="2011" end="2041" text="repeat cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E86" start="2048" end="2056" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E153" start="2062" end="2106" text="the left anterior descending site was patent" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="208" end="267" text="a percutaneous transluminal coronary angioplasty of the LAD" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="2120" end="2139" text="a distal PDA lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E34" start="2144" end="2163" text="a circumflex lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E72" start="2195" end="2205" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E88" start="2233" end="2242" text="follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E35" start="2287" end="2294" text="work up" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E36" start="2298" end="2329" text="his bright red blood per rectum" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E87" start="2349" end="2358" text="follow up" modality="PROPOSED" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E156" start="2378" end="2388" text="Cardiology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E154" start="2410" end="2451" text="Dingclearf Alllirefaith Memorial Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E89" start="2475" end="2505" text="keep any of these appointments" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E90" start="2545" end="2560" text="his medications" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E91" start="2565" end="2589" text="smoked and drank heavily" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E92" start="2670" end="2700" text="crushing substernal chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E66" start="27" end="36" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E93" start="2705" end="2724" text="shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E76" start="272" end="281" text="presented" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E94" start="2738" end="2787" text="the Fairm of Ijordcompmac Hospital Emergency Ward" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E95" start="2813" end="2818" text="ashen" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E96" start="2823" end="2834" text="diaphoretic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E97" start="2857" end="2863" text="oxygen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E98" start="2866" end="2873" text="aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E99" start="2876" end="2906" text="five sublingual nitroglycerins" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E100" start="2909" end="2916" text="heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E102" start="2938" end="2952" text="made pain free" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E101" start="2958" end="2970" text="that regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E77" start="299" end="329" text="crushing substernal chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E103" start="3030" end="3042" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E104" start="3045" end="3062" text="diabetes mellitus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E105" start="3065" end="3085" text="hypercholesterolemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E106" start="3088" end="3105" text="cigarette smoking" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E107" start="3112" end="3137" text="a positive family history" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="3174" end="3182" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="3186" end="3204" text="the Step Down Unit" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E37" start="3220" end="3231" text="MI protocol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E38" start="3254" end="3261" text="aspirin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="3264" end="3271" text="heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="3278" end="3303" text="intravenous nitroglycerin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E108" start="3309" end="3322" text="beta blockers" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E78" start="334" end="353" text="shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="3361" end="3373" text="hypertension" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="3405" end="3423" text="his blood pressure" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E43" start="3466" end="3487" text="myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E44" start="3493" end="3503" text="a peak CPK" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E45" start="3515" end="3532" text="20.9% MB fraction" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="3544" end="3578" text="a non-Q wave myocardial infarction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="3596" end="3632" text="diagnostic electrocardiogram changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E109" start="3669" end="3681" text="the cath lab" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E110" start="3697" end="3758" text="a small nondominant right coronary artery without any lesions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="372" end="387" text="cardiac history" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E49" start="3761" end="3821" text="a restenosis of the proximal left anterior descending lesion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E50" start="3836" end="3848" text="PTCA &apos;d" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E51" start="3851" end="3875" text="a lesion in the first OM" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="3882" end="3938" text="a moderately severe left circumflex lesion after the OM3" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="3941" end="3964" text="The left ventriculogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E111" start="3965" end="3973" text="revealed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="3974" end="4020" text="an akinetic anterolateral and apical ventricle" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="4044" end="4072" text="this cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E56" start="4117" end="4153" text="his previous cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E57" start="4163" end="4171" text="the PTCA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="423" end="442" text="crushing chest pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E112" start="4241" end="4264" text="ambulated progressively" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E113" start="4268" end="4277" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E58" start="4280" end="4294" text="A beta blocker" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E59" start="4312" end="4322" text="Metoprolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E158" start="4312" end="4332" text="Metoprolol initially" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E114" start="4404" end="4425" text="ambulated extensively" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E115" start="4429" end="4445" text="the FIH 20 floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E60" start="4479" end="4489" text="chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E61" start="4493" end="4512" text="shortness of breath" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E116" start="4550" end="4585" text="a low level treadmill exercise test" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E117" start="4591" end="4607" text="Thallium imaging" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E118" start="4610" end="4629" text="This treadmill test" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E119" start="4642" end="4653" text="medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E120" start="4666" end="4679" text="beta blockers" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E121" start="4714" end="4722" text="ischemia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E122" start="4726" end="4735" text="treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E123" start="4762" end="4770" text="exercise" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E124" start="4805" end="4830" text="a modified Bruce protocol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E125" start="4909" end="4926" text="the beta blockade" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E126" start="4943" end="4979" text="diagnostic electrocardiogram changes" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E127" start="4987" end="5014" text="the treadmill exercise test" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E128" start="5038" end="5085" text="0.5 to 1 mm ST depression in II , III , and AVF" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E129" start="5088" end="5097" text="The study" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E4" start="510" end="544" text="3-4 mm ST segment elevations in V1" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E130" start="5113" end="5132" text="shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E131" start="5150" end="5160" text="chest pain" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E132" start="5163" end="5178" text="Thallium images" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E133" start="5179" end="5187" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E134" start="5188" end="5245" text="a moderate sized region of ischemic but viable myocardium" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E136" start="5350" end="5378" text="left ventricular dysfunction" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E137" start="5386" end="5394" text="the test" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E138" start="5397" end="5409" text="These images" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="5451" end="5479" text="the previous Thallium images" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E75" start="5586" end="5595" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E80" start="559" end="569" text="Pre Health" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E139" start="5621" end="5639" text="medical management" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E140" start="5689" end="5696" text="surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E67" start="588" end="599" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="5943" end="5956" text="his medicines" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E141" start="5961" end="5975" text="smoked heavily" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E142" start="5999" end="6027" text="kept any of his appointments" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E68" start="603" end="633" text="Fairm of Ijordcompmac Hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E143" start="6048" end="6064" text="quitting smoking" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E144" start="6097" end="6116" text="his medical regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E145" start="6241" end="6261" text="this medical regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E146" start="6274" end="6283" text="follow up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E147" start="6362" end="6368" text="guaiac" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E148" start="6400" end="6415" text="hospitalization" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E5" start="642" end="692" text="4-7 mm ST segment elevations across the precordium" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="6435" end="6442" text="heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E149" start="6462" end="6476" text="his hematocrit" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E65" start="6526" end="6545" text="the catheterization" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E152" start="6576" end="6587" text="followed up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E150" start="6610" end="6632" text="guaiac positive stools" modality="PROPOSED" polarity="POS" type="PROBLEM" />
+<EVENT id="E151" start="6646" end="6655" text="worked up" modality="POSSIBLE" polarity="POS" type="TEST" />
+<EVENT id="E6" start="698" end="719" text="Q&apos;s in V1 and V2" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="722" end="746" text="2 mm ST elevation in AVL" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="753" end="805" text="1-2 mm reciprocal ST depression in II , III , and F." modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="809" end="829" text="physical examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E10" start="850" end="877" text="bright red blood per rectum" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="892" end="897" text="lysis" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="940" end="971" text="the cardiac catheterization lab" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E70" start="974" end="1001" text="The cardiac catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<TIMEX3 id="T11" start="1013" end="1022" text="that time" type="DATE" val="1993-05-24" mod="NA" />
+<TIMEX3 id="T12" start="1359" end="1368" text="that time" type="DATE" val="1993-05-24" mod="NA" />
+<TIMEX3 id="T13" start="1618" end="1625" text="day six" type="DATE" val="1993-05-30" mod="NA" />
+<TIMEX3 id="T14" start="1732" end="1740" text="day nine" type="DATE" val="1993-06-02" mod="NA" />
+<TIMEX3 id="T1" start="18" end="26" text="10-24-93" type="DATE" val="1993-10-24" mod="NA" />
+<TIMEX3 id="T3" start="180" end="188" text="May 1993" type="DATE" val="1993-05" mod="NA" />
+<TIMEX3 id="T16" start="2601" end="2619" text="the several months" type="DURATION" val="P90D" mod="APPROX" />
+<TIMEX3 id="T15" start="2637" end="2645" text="10-24-93" type="DATE" val="1993-10-24" mod="START" />
+<TIMEX3 id="T4" start="285" end="293" text="10-24-93" type="DATE" val="1993-10-24" mod="NA" />
+<TIMEX3 id="T7" start="3638" end="3646" text="10-27-93" type="DATE" val="1993-10-27" mod="NA" />
+<TIMEX3 id="T5" start="394" end="402" text="May 1993" type="DATE" val="1993-05" mod="NA" />
+<TIMEX3 id="T6" start="411" end="415" text="5-24" type="DATE" val="1993-05-24" mod="NA" />
+<TIMEX3 id="T18" start="4345" end="4348" text="bid" type="FREQUENCY" val="RP12H" mod="NA" />
+<TIMEX3 id="T17" start="4386" end="4389" text="bid" type="FREQUENCY" val="RP12H" mod="NA" />
+<TIMEX3 id="T2" start="44" end="51" text="11-2-93" type="DATE" val="1993-11-02" mod="NA" />
+<TIMEX3 id="T19" start="4446" end="4454" text="each day" type="FREQUENCY" val="RP1D" mod="NA" />
+<TIMEX3 id="T8" start="4518" end="4525" text="11-2-93" type="DATE" val="1993-11-02" mod="NA" />
+<TIMEX3 id="T20" start="4789" end="4801" text="nine minutes" type="DURATION" val="PT9M" mod="APPROX" />
+<TIMEX3 id="T0" start="492" end="501" text="that time" type="DATE" val="1993-05-24" mod="NA" />
+<TIMEX3 id="T9" start="5483" end="5491" text="May 1993" type="DATE" val="1993-05" mod="NA" />
+<TIMEX3 id="T10" start="833" end="842" text="that time" type="DATE" val="1993-05-24" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T1" toText="10-24-93" type="OVERLAP" />
+<TLINK id="TL1" fromID="E17" fromText="an intra-aortic balloon pump" toID="E21" toText="His intra-aortic balloon pump" type="OVERLAP" />
+<TLINK id="TL10" fromID="E78" fromText="shortness of breath" toID="E76" toText="presented" type="BEFORE" />
+<TLINK id="TL100" fromID="E110" fromText="a small nondominant right coronary artery without any lesions" toID="E109" toText="the cath lab" type="BEFORE" />
+<TLINK id="TL101" fromID="E49" fromText="a restenosis of the proximal left anterior descending lesion" toID="E109" toText="the cath lab" type="BEFORE" />
+<TLINK id="TL102" fromID="E49" fromText="a restenosis of the proximal left anterior descending lesion" toID="E50" toText="PTCA &apos;d" type="OVERLAP" />
+<TLINK id="TL103" fromID="E51" fromText="a lesion in the first OM" toID="E109" toText="the cath lab" type="BEFORE" />
+<TLINK id="TL104" fromID="E52" fromText="a moderately severe left circumflex lesion after the OM3" toID="E109" toText="the cath lab" type="BEFORE" />
+<TLINK id="TL105" fromID="E53" fromText="The left ventriculogram" toID="E111" toText="revealed" type="OVERLAP" />
+<TLINK id="TL106" fromID="E54" fromText="an akinetic anterolateral and apical ventricle" toID="E111" toText="revealed" type="BEFORE" />
+<TLINK id="TL107" fromID="E55" fromText="this cardiac catheterization" toID="E109" toText="the cath lab" type="OVERLAP" />
+<TLINK id="TL108" fromID="E55" fromText="this cardiac catheterization" toID="E56" toText="his previous cardiac catheterization" type="AFTER" />
+<TLINK id="TL109" fromID="E56" fromText="his previous cardiac catheterization" toID="E57" toText="the PTCA" type="BEFORE" />
+<TLINK id="TL110" fromID="E112" fromText="ambulated progressively" toID="E113" toText="the floor" type="OVERLAP" />
+<TLINK id="TL111" fromID="E113" fromText="the floor" toID="E0" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL112" fromID="E113" fromText="the floor" toID="E66" toText="DISCHARGE" type="BEFORE" />
+<TLINK id="TL113" fromID="E58" fromText="A beta blocker" toID="E59" toText="Metoprolol" type="AFTER" />
+<TLINK id="TL116" fromID="E158" fromText="Metoprolol initially" toID="T18" toText="bid" type="OVERLAP" />
+<TLINK id="TL117" fromID="E59" fromText="Metoprolol" toID="T17" toText="bid" type="OVERLAP" />
+<TLINK id="TL118" fromID="E114" fromText="ambulated extensively" toID="E115" toText="the FIH 20 floor" type="OVERLAP" />
+<TLINK id="TL119" fromID="E114" fromText="ambulated extensively" toID="T19" toText="each day" type="OVERLAP" />
+<TLINK id="TL12" fromID="E79" fromText="cardiac history" toID="T6" toText="5-24" type="BEFORE" />
+<TLINK id="TL120" fromID="E115" fromText="the FIH 20 floor" toID="E60" toText="chest pain" type="OVERLAP" />
+<TLINK id="TL121" fromID="E115" fromText="the FIH 20 floor" toID="E61" toText="shortness of breath" type="OVERLAP" />
+<TLINK id="TL122" fromID="E116" fromText="a low level treadmill exercise test" toID="T8" toText="11-2-93" type="OVERLAP" />
+<TLINK id="TL123" fromID="E116" fromText="a low level treadmill exercise test" toID="E117" toText="Thallium imaging" type="OVERLAP" />
+<TLINK id="TL124" fromID="E118" fromText="This treadmill test" toID="E116" toText="a low level treadmill exercise test" type="OVERLAP" />
+<TLINK id="TL125" fromID="E119" fromText="medications" toID="E118" toText="This treadmill test" type="BEFORE" />
+<TLINK id="TL126" fromID="E120" fromText="beta blockers" toID="E119" toText="medications" type="OVERLAP" />
+<TLINK id="TL127" fromID="E121" fromText="ischemia" toID="E120" toText="beta blockers" type="OVERLAP" />
+<TLINK id="TL128" fromID="E122" fromText="treatment" toID="E120" toText="beta blockers" type="OVERLAP" />
+<TLINK id="TL129" fromID="E123" fromText="exercise" toID="T20" toText="nine minutes" type="OVERLAP" />
+<TLINK id="TL13" fromID="T6" fromText="5-24" toID="T5" toText="May 1993" type="OVERLAP" />
+<TLINK id="TL130" fromID="E123" fromText="exercise" toID="E124" toText="a modified Bruce protocol" type="OVERLAP" />
+<TLINK id="TL131" fromID="E123" fromText="exercise" toID="E125" toText="the beta blockade" type="OVERLAP" />
+<TLINK id="TL132" fromID="E127" fromText="the treadmill exercise test" toID="E123" toText="exercise" type="OVERLAP" />
+<TLINK id="TL133" fromID="E127" fromText="the treadmill exercise test" toID="E118" toText="This treadmill test" type="OVERLAP" />
+<TLINK id="TL134" fromID="E126" fromText="diagnostic electrocardiogram changes" toID="E127" toText="the treadmill exercise test" type="OVERLAP" />
+<TLINK id="TL135" fromID="E128" fromText="0.5 to 1 mm ST depression in II , III , and AVF" toID="E127" toText="the treadmill exercise test" type="OVERLAP" />
+<TLINK id="TL136" fromID="E129" fromText="The study" toID="E127" toText="the treadmill exercise test" type="OVERLAP" />
+<TLINK id="TL137" fromID="E129" fromText="The study" toID="E130" toText="shortness of breath" type="BEFORE" />
+<TLINK id="TL138" fromID="E131" fromText="chest pain" toID="E129" toText="The study" type="OVERLAP" />
+<TLINK id="TL139" fromID="E132" fromText="Thallium images" toID="E133" toText="revealed" type="OVERLAP" />
+<TLINK id="TL14" fromID="E79" fromText="cardiac history" toID="E3" toText="crushing chest pain" type="BEFORE" />
+<TLINK id="TL140" fromID="E134" fromText="a moderate sized region of ischemic but viable myocardium" toID="E133" toText="revealed" type="BEFORE" />
+<TLINK id="TL141" fromID="E136" fromText="left ventricular dysfunction" toID="E137" toText="the test" type="OVERLAP" />
+<TLINK id="TL142" fromID="E137" fromText="the test" toID="E132" toText="Thallium images" type="OVERLAP" />
+<TLINK id="TL143" fromID="E138" fromText="These images" toID="E132" toText="Thallium images" type="OVERLAP" />
+<TLINK id="TL144" fromID="E62" fromText="the previous Thallium images" toID="T9" toText="May 1993" type="OVERLAP" />
+<TLINK id="TL145" fromID="E75" fromText="discharge" toID="E66" toText="DISCHARGE" type="OVERLAP" />
+<TLINK id="TL146" fromID="E139" fromText="medical management" toID="E75" toText="discharge" type="AFTER" />
+<TLINK id="TL147" fromID="E140" fromText="surgery" toID="E75" toText="discharge" type="BEFORE" />
+<TLINK id="TL148" fromID="E63" fromText="his medicines" toID="E141" toText="smoked heavily" type="OVERLAP" />
+<TLINK id="TL149" fromID="E141" fromText="smoked heavily" toID="E142" toText="kept any of his appointments" type="OVERLAP" />
+<TLINK id="TL15" fromID="E3" fromText="crushing chest pain" toID="T6" toText="5-24" type="OVERLAP" />
+<TLINK id="TL150" fromID="E89" fromText="keep any of these appointments" toID="E142" toText="kept any of his appointments" type="OVERLAP" />
+<TLINK id="TL151" fromID="E141" fromText="smoked heavily" toID="E91" toText="smoked and drank heavily" type="OVERLAP" />
+<TLINK id="TL152" fromID="E143" fromText="quitting smoking" toID="E144" toText="his medical regimen" type="OVERLAP" />
+<TLINK id="TL153" fromID="E145" fromText="this medical regimen" toID="E144" toText="his medical regimen" type="OVERLAP" />
+<TLINK id="TL154" fromID="E144" fromText="his medical regimen" toID="E139" toText="medical management" type="OVERLAP" />
+<TLINK id="TL155" fromID="E146" fromText="follow up" toID="E145" toText="this medical regimen" type="OVERLAP" />
+<TLINK id="TL156" fromID="E147" fromText="guaiac" toID="E148" toText="hospitalization" type="OVERLAP" />
+<TLINK id="TL157" fromID="E148" fromText="hospitalization" toID="E0" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL158" fromID="E148" fromText="hospitalization" toID="E75" toText="discharge" type="BEFORE" />
+<TLINK id="TL159" fromID="E64" fromText="heparin" toID="E149" toText="his hematocrit" type="OVERLAP" />
+<TLINK id="TL16" fromID="E4" fromText="3-4 mm ST segment elevations in V1" toID="T0" toText="that time" type="OVERLAP" />
+<TLINK id="TL160" fromID="E152" fromText="followed up" toID="E150" toText="guaiac positive stools" type="OVERLAP" />
+<TLINK id="TL161" fromID="E151" fromText="worked up" toID="E150" toText="guaiac positive stools" type="OVERLAP" />
+<TLINK id="TL17" fromID="E4" fromText="3-4 mm ST segment elevations in V1" toID="E80" toText="Pre Health" type="OVERLAP" />
+<TLINK id="TL18" fromID="E68" fromText="Fairm of Ijordcompmac Hospital" toID="E67" toText="transferred" type="AFTER" />
+<TLINK id="TL19" fromID="E5" fromText="4-7 mm ST segment elevations across the precordium" toID="E68" toText="Fairm of Ijordcompmac Hospital" type="OVERLAP" />
+<TLINK id="TL2" fromID="E10" fromText="bright red blood per rectum" toID="E36" toText="his bright red blood per rectum" type="OVERLAP" />
+<TLINK id="TL20" fromID="E5" fromText="4-7 mm ST segment elevations across the precordium" toID="E6" toText="Q&apos;s in V1 and V2" type="OVERLAP" />
+<TLINK id="TL21" fromID="E6" fromText="Q&apos;s in V1 and V2" toID="E7" toText="2 mm ST elevation in AVL" type="OVERLAP" />
+<TLINK id="TL22" fromID="E7" fromText="2 mm ST elevation in AVL" toID="E8" toText="1-2 mm reciprocal ST depression in II , III , and F." type="OVERLAP" />
+<TLINK id="TL23" fromID="E9" fromText="physical examination" toID="T10" toText="that time" type="OVERLAP" />
+<TLINK id="TL24" fromID="E10" fromText="bright red blood per rectum" toID="E9" toText="physical examination" type="OVERLAP" />
+<TLINK id="TL25" fromID="E11" fromText="lysis" toID="E9" toText="physical examination" type="OVERLAP" />
+<TLINK id="TL26" fromID="E69" fromText="the cardiac catheterization lab" toID="E9" toText="physical examination" type="" />
+<TLINK id="TL27" fromID="E70" fromText="The cardiac catheterization" toID="E69" toText="the cardiac catheterization lab" type="OVERLAP" />
+<TLINK id="TL28" fromID="E70" fromText="The cardiac catheterization" toID="T11" toText="that time" type="OVERLAP" />
+<TLINK id="TL29" fromID="E70" fromText="The cardiac catheterization" toID="E81" toText="revealed" type="OVERLAP" />
+<TLINK id="TL3" fromID="E50" fromText="PTCA &apos;d" toID="E57" toText="the PTCA" type="OVERLAP" />
+<TLINK id="TL30" fromID="E12" fromText="a right atrial pressure" toID="E81" toText="revealed" type="BEFORE" />
+<TLINK id="TL31" fromID="E13" fromText="pulmonary artery pressure" toID="E81" toText="revealed" type="BEFORE" />
+<TLINK id="TL32" fromID="E14" fromText="RV" toID="E81" toText="revealed" type="BEFORE" />
+<TLINK id="TL33" fromID="E15" fromText="pulmonary capillary wedge pressure" toID="E81" toText="revealed" type="OVERLAP" />
+<TLINK id="TL34" fromID="E16" fromText="a 95% proximal left anterior descending lesion" toID="E81" toText="revealed" type="BEFORE" />
+<TLINK id="TL35" fromID="E70" fromText="The cardiac catheterization" toID="E17" toText="an intra-aortic balloon pump" type="BEFORE" />
+<TLINK id="TL36" fromID="E18" fromText="some mild to moderate disease" toID="T12" toText="that time" type="OVERLAP" />
+<TLINK id="TL37" fromID="E82" fromText="the Cardiac Care Unit" toID="E71" toText="transferred" type="AFTER" />
+<TLINK id="TL38" fromID="E19" fromText="a peak CPK" toID="E82" toText="the Cardiac Care Unit" type="OVERLAP" />
+<TLINK id="TL39" fromID="E20" fromText="MB&apos;s" toID="E82" toText="the Cardiac Care Unit" type="OVERLAP" />
+<TLINK id="TL4" fromID="E66" fromText="DISCHARGE" toID="T2" toText="11-2-93" type="OVERLAP" />
+<TLINK id="TL40" fromID="E21" fromText="His intra-aortic balloon pump" toID="E83" toText="problems" type="OVERLAP" />
+<TLINK id="TL41" fromID="E23" fromText="beta blockers" toID="E22" toText="hypotension" type="OVERLAP" />
+<TLINK id="TL42" fromID="E24" fromText="an echocardiogram" toID="T13" toText="day six" type="OVERLAP" />
+<TLINK id="TL43" fromID="E24" fromText="an echocardiogram" toID="E84" toText="showed" type="OVERLAP" />
+<TLINK id="TL44" fromID="E25" fromText="an ejection fraction" toID="E84" toText="showed" type="OVERLAP" />
+<TLINK id="TL45" fromID="E26" fromText="anterior akinesis" toID="E25" toText="an ejection fraction" type="OVERLAP" />
+<TLINK id="TL46" fromID="E27" fromText="septal hypokinesis" toID="E26" toText="anterior akinesis" type="OVERLAP" />
+<TLINK id="TL47" fromID="E28" fromText="a low level exercise tolerance test with Thallium" toID="T14" toText="day nine" type="OVERLAP" />
+<TLINK id="TL48" fromID="E29" fromText="2.5 mm horizontal depressions in II , III , and AVF" toID="E28" toText="a low level exercise tolerance test with Thallium" type="OVERLAP" />
+<TLINK id="TL49" fromID="E30" fromText="1.5 mm downsloping ST depressions in V5 and V6" toID="E29" toText="2.5 mm horizontal depressions in II , III , and AVF" type="OVERLAP" />
+<TLINK id="TL5" fromID="E1" fromText="an anterior myocardial infarction" toID="T3" toText="May 1993" type="OVERLAP" />
+<TLINK id="TL50" fromID="E31" fromText="some anteroseptal redistribution" toID="E28" toText="a low level exercise tolerance test with Thallium" type="OVERLAP" />
+<TLINK id="TL51" fromID="E31" fromText="some anteroseptal redistribution" toID="E85" toText="Thallium" type="OVERLAP" />
+<TLINK id="TL52" fromID="E32" fromText="repeat cardiac catheterization" toID="E28" toText="a low level exercise tolerance test with Thallium" type="AFTER" />
+<TLINK id="TL53" fromID="E86" fromText="revealed" toID="E32" toText="repeat cardiac catheterization" type="OVERLAP" />
+<TLINK id="TL54" fromID="E153" fromText="the left anterior descending site was patent" toID="E86" toText="revealed" type="" />
+<TLINK id="TL55" fromID="E153" fromText="the left anterior descending site was patent" toID="E33" toText="a distal PDA lesion" type="OVERLAP" />
+<TLINK id="TL56" fromID="E33" fromText="a distal PDA lesion" toID="E34" toText="a circumflex lesion" type="" />
+<TLINK id="TL57" fromID="E72" fromText="discharged" toID="E32" toText="repeat cardiac catheterization" type="AFTER" />
+<TLINK id="TL58" fromID="E88" fromText="follow up" toID="E72" toText="discharged" type="AFTER" />
+<TLINK id="TL59" fromID="E88" fromText="follow up" toID="E35" toText="work up" type="OVERLAP" />
+<TLINK id="TL6" fromID="E2" fromText="a percutaneous transluminal coronary angioplasty of the LAD" toID="E76" toText="presented" type="BEFORE" />
+<TLINK id="TL60" fromID="E36" fromText="his bright red blood per rectum" toID="E35" toText="work up" type="BEFORE" />
+<TLINK id="TL61" fromID="E87" fromText="follow up" toID="E72" toText="discharged" type="AFTER" />
+<TLINK id="TL62" fromID="E87" fromText="follow up" toID="E154" toText="Dingclearf Alllirefaith Memorial Hospital" type="OVERLAP" />
+<TLINK id="TL63" fromID="E87" fromText="follow up" toID="E156" toText="Cardiology" type="OVERLAP" />
+<TLINK id="TL64" fromID="E89" fromText="keep any of these appointments" toID="E72" toText="discharged" type="AFTER" />
+<TLINK id="TL65" fromID="E90" fromText="his medications" toID="E72" toText="discharged" type="AFTER" />
+<TLINK id="TL66" fromID="E91" fromText="smoked and drank heavily" toID="E72" toText="discharged" type="AFTER" />
+<TLINK id="TL67" fromID="T16" fromText="the several months" toID="E72" toText="discharged" type="AFTER" />
+<TLINK id="TL68" fromID="E91" fromText="smoked and drank heavily" toID="T16" toText="the several months" type="OVERLAP" />
+<TLINK id="TL69" fromID="E90" fromText="his medications" toID="T16" toText="the several months" type="OVERLAP" />
+<TLINK id="TL7" fromID="E76" fromText="presented" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL70" fromID="E92" fromText="crushing substernal chest pain" toID="T15" toText="10-24-93" type="OVERLAP" />
+<TLINK id="TL71" fromID="E93" fromText="shortness of breath" toID="T15" toText="10-24-93" type="OVERLAP" />
+<TLINK id="TL72" fromID="E94" fromText="the Fairm of Ijordcompmac Hospital Emergency Ward" toID="T15" toText="10-24-93" type="AFTER" />
+<TLINK id="TL73" fromID="E95" fromText="ashen" toID="E94" toText="the Fairm of Ijordcompmac Hospital Emergency Ward" type="OVERLAP" />
+<TLINK id="TL74" fromID="E96" fromText="diaphoretic" toID="E94" toText="the Fairm of Ijordcompmac Hospital Emergency Ward" type="OVERLAP" />
+<TLINK id="TL75" fromID="E97" fromText="oxygen" toID="E96" toText="diaphoretic" type="AFTER" />
+<TLINK id="TL76" fromID="E97" fromText="oxygen" toID="E94" toText="the Fairm of Ijordcompmac Hospital Emergency Ward" type="OVERLAP" />
+<TLINK id="TL77" fromID="E98" fromText="aspirin" toID="E97" toText="oxygen" type="OVERLAP" />
+<TLINK id="TL78" fromID="E99" fromText="five sublingual nitroglycerins" toID="E98" toText="aspirin" type="OVERLAP" />
+<TLINK id="TL79" fromID="E100" fromText="heparin" toID="E99" toText="five sublingual nitroglycerins" type="OVERLAP" />
+<TLINK id="TL8" fromID="E76" fromText="presented" toID="T4" toText="10-24-93" type="OVERLAP" />
+<TLINK id="TL80" fromID="E102" fromText="made pain free" toID="E100" toText="heparin" type="AFTER" />
+<TLINK id="TL81" fromID="E101" fromText="that regimen" toID="E100" toText="heparin" type="OVERLAP" />
+<TLINK id="TL82" fromID="E103" fromText="hypertension" toID="E104" toText="diabetes mellitus" type="OVERLAP" />
+<TLINK id="TL83" fromID="E104" fromText="diabetes mellitus" toID="E105" toText="hypercholesterolemia" type="OVERLAP" />
+<TLINK id="TL84" fromID="E105" fromText="hypercholesterolemia" toID="E106" toText="cigarette smoking" type="OVERLAP" />
+<TLINK id="TL85" fromID="E106" fromText="cigarette smoking" toID="E107" toText="a positive family history" type="OVERLAP" />
+<TLINK id="TL86" fromID="E73" fromText="admitted" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL87" fromID="E74" fromText="the Step Down Unit" toID="E73" toText="admitted" type="AFTER" />
+<TLINK id="TL88" fromID="E37" fromText="MI protocol" toID="E74" toText="the Step Down Unit" type="OVERLAP" />
+<TLINK id="TL89" fromID="E38" fromText="aspirin" toID="E39" toText="heparin" type="OVERLAP" />
+<TLINK id="TL9" fromID="E77" fromText="crushing substernal chest pain" toID="E76" toText="presented" type="BEFORE" />
+<TLINK id="TL90" fromID="E39" fromText="heparin" toID="E40" toText="intravenous nitroglycerin" type="OVERLAP" />
+<TLINK id="TL91" fromID="E40" fromText="intravenous nitroglycerin" toID="E74" toText="the Step Down Unit" type="OVERLAP" />
+<TLINK id="TL92" fromID="E108" fromText="beta blockers" toID="E41" toText="hypertension" type="OVERLAP" />
+<TLINK id="TL93" fromID="E42" fromText="his blood pressure" toID="E108" toText="beta blockers" type="OVERLAP" />
+<TLINK id="TL94" fromID="E43" fromText="myocardial infarction" toID="E37" toText="MI protocol" type="OVERLAP" />
+<TLINK id="TL95" fromID="E44" fromText="a peak CPK" toID="E43" toText="myocardial infarction" type="OVERLAP" />
+<TLINK id="TL96" fromID="E44" fromText="a peak CPK" toID="E45" toText="20.9% MB fraction" type="OVERLAP" />
+<TLINK id="TL97" fromID="E46" fromText="a non-Q wave myocardial infarction" toID="E43" toText="myocardial infarction" type="OVERLAP" />
+<TLINK id="TL98" fromID="E47" fromText="diagnostic electrocardiogram changes" toID="E46" toText="a non-Q wave myocardial infarction" type="OVERLAP" />
+<TLINK id="TL99" fromID="E109" fromText="the cath lab" toID="T7" toText="10-27-93" type="OVERLAP" />
+
+
+<TLINK id="SECTIME0" fromID="E81" fromText="revealed" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E12" fromText="a right atrial pressure" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E13" fromText="pulmonary artery pressure" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E14" fromText="RV" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E15" fromText="pulmonary capillary wedge pressure" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E16" fromText="a 95% proximal left anterior descending lesion" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E17" fromText="an intra-aortic balloon pump" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E18" fromText="some mild to moderate disease" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E71" fromText="transferred" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E82" fromText="the Cardiac Care Unit" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E1" fromText="an anterior myocardial infarction" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E19" fromText="a peak CPK" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E20" fromText="MB&apos;s" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E21" fromText="His intra-aortic balloon pump" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E83" fromText="problems" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E22" fromText="hypotension" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E23" fromText="beta blockers" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E24" fromText="an echocardiogram" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E84" fromText="showed" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E25" fromText="an ejection fraction" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E26" fromText="anterior akinesis" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E27" fromText="septal hypokinesis" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E28" fromText="a low level exercise tolerance test with Thallium" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E29" fromText="2.5 mm horizontal depressions in II , III , and AVF" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E30" fromText="1.5 mm downsloping ST depressions in V5 and V6" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E31" fromText="some anteroseptal redistribution" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E85" fromText="Thallium" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E32" fromText="repeat cardiac catheterization" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E86" fromText="revealed" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E153" fromText="the left anterior descending site was patent" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E2" fromText="a percutaneous transluminal coronary angioplasty of the LAD" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E33" fromText="a distal PDA lesion" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E34" fromText="a circumflex lesion" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E72" fromText="discharged" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E88" fromText="follow up" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E35" fromText="work up" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E36" fromText="his bright red blood per rectum" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E87" fromText="follow up" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E156" fromText="Cardiology" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E154" fromText="Dingclearf Alllirefaith Memorial Hospital" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E89" fromText="keep any of these appointments" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E90" fromText="his medications" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E91" fromText="smoked and drank heavily" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E92" fromText="crushing substernal chest pain" toID="T1" toText="10-24-93" type="OVERLAP" />
+<TLINK id="SECTIME44" fromID="E93" fromText="shortness of breath" toID="T1" toText="10-24-93" type="OVERLAP" />
+<TLINK id="SECTIME45" fromID="E76" fromText="presented" toID="T1" toText="10-24-93" type="OVERLAP" />
+<TLINK id="SECTIME46" fromID="E94" fromText="the Fairm of Ijordcompmac Hospital Emergency Ward" toID="T1" toText="10-24-93" type="OVERLAP" />
+<TLINK id="SECTIME47" fromID="E95" fromText="ashen" toID="T1" toText="10-24-93" type="OVERLAP" />
+<TLINK id="SECTIME48" fromID="E96" fromText="diaphoretic" toID="T1" toText="10-24-93" type="OVERLAP" />
+<TLINK id="SECTIME49" fromID="E97" fromText="oxygen" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E98" fromText="aspirin" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E99" fromText="five sublingual nitroglycerins" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E100" fromText="heparin" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E102" fromText="made pain free" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E101" fromText="that regimen" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E77" fromText="crushing substernal chest pain" toID="T1" toText="10-24-93" type="OVERLAP" />
+<TLINK id="SECTIME56" fromID="E103" fromText="hypertension" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E104" fromText="diabetes mellitus" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E105" fromText="hypercholesterolemia" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E106" fromText="cigarette smoking" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E107" fromText="a positive family history" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E73" fromText="admitted" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E74" fromText="the Step Down Unit" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E37" fromText="MI protocol" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E38" fromText="aspirin" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E39" fromText="heparin" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E40" fromText="intravenous nitroglycerin" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E108" fromText="beta blockers" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E78" fromText="shortness of breath" toID="T1" toText="10-24-93" type="OVERLAP" />
+<TLINK id="SECTIME69" fromID="E41" fromText="hypertension" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E42" fromText="his blood pressure" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E43" fromText="myocardial infarction" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E44" fromText="a peak CPK" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E45" fromText="20.9% MB fraction" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E46" fromText="a non-Q wave myocardial infarction" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E47" fromText="diagnostic electrocardiogram changes" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E109" fromText="the cath lab" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E110" fromText="a small nondominant right coronary artery without any lesions" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E79" fromText="cardiac history" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E49" fromText="a restenosis of the proximal left anterior descending lesion" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E50" fromText="PTCA &apos;d" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E51" fromText="a lesion in the first OM" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E52" fromText="a moderately severe left circumflex lesion after the OM3" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E53" fromText="The left ventriculogram" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E111" fromText="revealed" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E54" fromText="an akinetic anterolateral and apical ventricle" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E55" fromText="this cardiac catheterization" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E56" fromText="his previous cardiac catheterization" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E57" fromText="the PTCA" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E3" fromText="crushing chest pain" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E112" fromText="ambulated progressively" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E113" fromText="the floor" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E58" fromText="A beta blocker" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E59" fromText="Metoprolol" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E158" fromText="Metoprolol initially" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E114" fromText="ambulated extensively" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E115" fromText="the FIH 20 floor" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E60" fromText="chest pain" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E61" fromText="shortness of breath" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E116" fromText="a low level treadmill exercise test" toID="T2" toText="11-2-93" type="OVERLAP" />
+<TLINK id="SECTIME100" fromID="E117" fromText="Thallium imaging" toID="T2" toText="11-2-93" type="OVERLAP" />
+<TLINK id="SECTIME101" fromID="E118" fromText="This treadmill test" toID="T2" toText="11-2-93" type="OVERLAP" />
+<TLINK id="SECTIME102" fromID="E119" fromText="medications" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E120" fromText="beta blockers" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E121" fromText="ischemia" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E122" fromText="treatment" toID="T2" toText="11-2-93" type="OVERLAP" />
+<TLINK id="SECTIME106" fromID="E123" fromText="exercise" toID="T2" toText="11-2-93" type="OVERLAP" />
+<TLINK id="SECTIME107" fromID="E124" fromText="a modified Bruce protocol" toID="T2" toText="11-2-93" type="OVERLAP" />
+<TLINK id="SECTIME108" fromID="E125" fromText="the beta blockade" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E126" fromText="diagnostic electrocardiogram changes" toID="T2" toText="11-2-93" type="OVERLAP" />
+<TLINK id="SECTIME110" fromID="E127" fromText="the treadmill exercise test" toID="T2" toText="11-2-93" type="OVERLAP" />
+<TLINK id="SECTIME111" fromID="E128" fromText="0.5 to 1 mm ST depression in II , III , and AVF" toID="T2" toText="11-2-93" type="OVERLAP" />
+<TLINK id="SECTIME112" fromID="E129" fromText="The study" toID="T2" toText="11-2-93" type="OVERLAP" />
+<TLINK id="SECTIME113" fromID="E4" fromText="3-4 mm ST segment elevations in V1" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME114" fromID="E130" fromText="shortness of breath" toID="T2" toText="11-2-93" type="OVERLAP" />
+<TLINK id="SECTIME115" fromID="E131" fromText="chest pain" toID="T2" toText="11-2-93" type="OVERLAP" />
+<TLINK id="SECTIME116" fromID="E132" fromText="Thallium images" toID="T2" toText="11-2-93" type="OVERLAP" />
+<TLINK id="SECTIME117" fromID="E133" fromText="revealed" toID="T2" toText="11-2-93" type="OVERLAP" />
+<TLINK id="SECTIME118" fromID="E134" fromText="a moderate sized region of ischemic but viable myocardium" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME119" fromID="E136" fromText="left ventricular dysfunction" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME120" fromID="E137" fromText="the test" toID="T2" toText="11-2-93" type="OVERLAP" />
+<TLINK id="SECTIME121" fromID="E138" fromText="These images" toID="T2" toText="11-2-93" type="OVERLAP" />
+<TLINK id="SECTIME122" fromID="E62" fromText="the previous Thallium images" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME123" fromID="E75" fromText="discharge" toID="T2" toText="11-2-93" type="OVERLAP" />
+<TLINK id="SECTIME124" fromID="E80" fromText="Pre Health" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME125" fromID="E139" fromText="medical management" toID="T2" toText="11-2-93" type="AFTER" />
+<TLINK id="SECTIME126" fromID="E140" fromText="surgery" toID="T2" toText="11-2-93" type="OVERLAP" />
+<TLINK id="SECTIME127" fromID="E67" fromText="transferred" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME128" fromID="E63" fromText="his medicines" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME129" fromID="E141" fromText="smoked heavily" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME130" fromID="E142" fromText="kept any of his appointments" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME131" fromID="E68" fromText="Fairm of Ijordcompmac Hospital" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME132" fromID="E143" fromText="quitting smoking" toID="T2" toText="11-2-93" type="AFTER" />
+<TLINK id="SECTIME133" fromID="E144" fromText="his medical regimen" toID="T2" toText="11-2-93" type="AFTER" />
+<TLINK id="SECTIME134" fromID="E145" fromText="this medical regimen" toID="T2" toText="11-2-93" type="AFTER" />
+<TLINK id="SECTIME135" fromID="E146" fromText="follow up" toID="T2" toText="11-2-93" type="AFTER" />
+<TLINK id="SECTIME136" fromID="E147" fromText="guaiac" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME137" fromID="E148" fromText="hospitalization" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME138" fromID="E5" fromText="4-7 mm ST segment elevations across the precordium" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME139" fromID="E64" fromText="heparin" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME140" fromID="E149" fromText="his hematocrit" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME141" fromID="E65" fromText="the catheterization" toID="T2" toText="11-2-93" type="BEFORE" />
+<TLINK id="SECTIME142" fromID="E152" fromText="followed up" toID="T2" toText="11-2-93" type="AFTER" />
+<TLINK id="SECTIME143" fromID="E150" fromText="guaiac positive stools" toID="T2" toText="11-2-93" type="AFTER" />
+<TLINK id="SECTIME144" fromID="E151" fromText="worked up" toID="T2" toText="11-2-93" type="AFTER" />
+<TLINK id="SECTIME145" fromID="E6" fromText="Q&apos;s in V1 and V2" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME146" fromID="E7" fromText="2 mm ST elevation in AVL" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME147" fromID="E8" fromText="1-2 mm reciprocal ST depression in II , III , and F." toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME148" fromID="E9" fromText="physical examination" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME149" fromID="E10" fromText="bright red blood per rectum" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME150" fromID="E11" fromText="lysis" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME151" fromID="E69" fromText="the cardiac catheterization lab" toID="T1" toText="10-24-93" type="BEFORE" />
+<TLINK id="SECTIME152" fromID="E70" fromText="The cardiac catheterization" toID="T1" toText="10-24-93" type="BEFORE" />
+
+
+<SECTIME id="S0" start="18" end="26" text="10-24-93" type="ADMISSION" dvalue="1993-10-24" />
+<SECTIME id="S1" start="44" end="51" text="11-2-93" type="DISCHARGE" dvalue="1993-11-2" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

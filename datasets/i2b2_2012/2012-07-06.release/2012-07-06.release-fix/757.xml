@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2018-03-04
+Discharge Date :
+2018-03-09
+Service :
+UROLOGY
+History of Present Illness:
+Justin Searle a 60-year-old man with a long history of chronic prostatitis status post two transurethral resection of the prostate procedures in 2007 and 1998 .
+He also has a diagnosis of interstitial cystitis and more significantly has a history of coronary artery disease with a recent catheterization , supraventricular tachycardia , and a progressive mitochondrial myopathy .
+He has had symptoms of dribbling , stress incontinence , hematuria , but has no dysuria .
+He was preadmitted for cardiac clearance by Dr. Lair , his cardiologist .
+Brief Hospital Course:
+On HD2 , cardiac clearance was obtained by Dr. Sanchez .
+Patient tolerated procedure on 2018-03-05 and was transferred to
+ICU for 24hr post-op cardiac monitoring .
+Stay was uneventful .
+On POD1 , patient was transferred out of FICU to 12R .
+Catheter was removed .
+He was started on Pyridium .
+On POD2 , patient was deemed suitable and stable for discharge .
+On POD4 , patient was discharged .
+Discharge Medications :
+1. Hydroxyzine HCl 10 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) .
+2. Atorvastatin Calcium 20 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) .
+3. Ezetimibe 10 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) .
+4. Simethicone 80 mg Tablet , Chewable Sig : 0.5-1 Tablet , Chewable PO QID ( 4 times a day ) as needed for indigestion/gas pain .
+5. Aluminum-Magnesium Hydroxide 225-200 mg/5 mL Suspension Sig : 15-30 MLs PO QID ( 4 times a day ) as needed for indigestion .
+6. Atenolol 100 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) .
+7. Hyoscyamine Sulfate 0.125 mg Tablet Sig : One ( 1 ) Tablet PO QID ( 4 times a day ) .
+8. Phenazopyridine HCl 100 mg Tablet Sig : One ( 1 ) Tablet PO TID ( 3 times a day ) for 3 days .
+Discharge Disposition :
+Home
+Discharge Diagnosis :
+Chronic prostatitis
+Interstitial cystitis
+Discharge Condition :
+Good
+Discharge Instructions :
+Go to an Emergency Room if you experience symptoms including , but not necessarily limited to : new and continuing nausea , vomiting , fevers ( >101.5 F ) , chills , or shortness of breath .
+Proceed to the ER/EW/Monica if your wound becomes red , swollen , warm , or produces pus .
+You may remove your dressings 2 days after your surgery if they were not removed in the hospital .
+Leave the steri strips on until they begin to peel , then you may remove them. Staples and stitches will remain until your follow-up appointment .
+If you experience clear drainage from your wounds , cover them with a clean dressing and stop showering until the drainage subsides for at least 2 days .
+No heavy lifting or exertion for at least 6 weeks .
+No driving while taking pain medications .
+Narcotics can cause constipation .
+Please take an over the counter stool softener such as Colace or a gentle laxative such as Milk of Magnesia if you experience constipation .
+You may resume your regular diet as tolerated .
+You may take showers ( no baths ) after your dressings have been removed from your wounds .
+Continue taking your home medications unless otherwise contraindicated and follow up with PCP .
+Followup Instructions :
+F/U with Rau .
+Call for appointment
+F/U with Dr. Ross in 2-3 weeks .
+Michael Morgan MD 43-508
+Completed by :
+Justin RAO MD 71-039 2018-03-09 @ 0842
+Signed electronically by :
+DR. Freddy Darr on :
+FRI 2018-03-23 9:45 AM
+( End of Report )
+]]></TEXT>
+<TAGS>
+<EVENT id="E18" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E37" start="1005" end="1011" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="1016" end="1025" text="discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E27" start="1050" end="1060" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="1090" end="1105" text="Hydroxyzine HCl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1166" end="1186" text="Atorvastatin Calcium" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1247" end="1256" text="Ezetimibe" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E41" start="1317" end="1328" text="Simethicone" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E75" start="1422" end="1442" text="indigestion/gas pain" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1448" end="1476" text="Aluminum-Magnesium Hydroxide" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="1559" end="1570" text="indigestion" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="158" end="177" text="chronic prostatitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E43" start="1576" end="1584" text="Atenolol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1646" end="1665" text="Hyoscyamine Sulfate" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1735" end="1754" text="Phenazopyridine HCl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1881" end="1900" text="Chronic prostatitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E47" start="1901" end="1922" text="Interstitial cystitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="194" end="244" text="transurethral resection of the prostate procedures" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E48" start="1945" end="1949" text="Good" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1975" end="1998" text="Go to an Emergency Room" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E50" start="2017" end="2025" text="symptoms" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E51" start="2071" end="2096" text="new and continuing nausea" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E52" start="2099" end="2107" text="vomiting" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="2110" end="2116" text="fevers" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E54" start="2132" end="2138" text="chills" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E55" start="2144" end="2163" text="shortness of breath" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="2166" end="2193" text="Proceed to the ER/EW/Monica" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E57" start="2197" end="2207" text="your wound" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E58" start="2216" end="2219" text="red" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E59" start="2222" end="2229" text="swollen" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="2232" end="2236" text="warm" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="2251" end="2254" text="pus" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="2272" end="2286" text="your dressings" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="2300" end="2312" text="your surgery" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E62" start="2341" end="2353" text="the hospital" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E63" start="2362" end="2378" text="the steri strips" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E64" start="2388" end="2406" text="they begin to peel" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E65" start="2422" end="2428" text="remove" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E66" start="2435" end="2442" text="Staples" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E67" start="2447" end="2455" text="stitches" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E68" start="2479" end="2500" text="follow-up appointment" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E69" start="2521" end="2535" text="clear drainage" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E70" start="2541" end="2552" text="your wounds" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="2571" end="2587" text="a clean dressing" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E72" start="2592" end="2606" text="stop showering" modality="CONDITIONAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="2613" end="2625" text="the drainage" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E74" start="2626" end="2634" text="subsides" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E77" start="2660" end="2673" text="heavy lifting" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E78" start="2712" end="2719" text="driving" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E79" start="2733" end="2749" text="pain medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E80" start="2752" end="2761" text="Narcotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E81" start="2772" end="2784" text="constipation" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="2799" end="2833" text="an over the counter stool softener" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E83" start="2842" end="2848" text="Colace" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E84" start="2852" end="2869" text="a gentle laxative" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E85" start="2878" end="2894" text="Milk of Magnesia" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="291" end="312" text="interstitial cystitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E86" start="2913" end="2925" text="constipation" modality="CONDITIONAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E87" start="2936" end="2960" text="resume your regular diet" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E88" start="2964" end="2973" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E89" start="2984" end="2996" text="take showers" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E90" start="3016" end="3030" text="your dressings" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E104" start="3041" end="3048" text="removed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E91" start="3054" end="3065" text="your wounds" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E92" start="3084" end="3105" text="your home medications" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E93" start="3123" end="3138" text="contraindicated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E94" start="3143" end="3152" text="follow up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E95" start="3158" end="3161" text="PCP" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E96" start="3188" end="3191" text="F/U" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E97" start="3197" end="3200" text="Rau" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E98" start="3224" end="3227" text="F/U" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E99" start="3233" end="3241" text="Dr. Ross" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E3" start="353" end="376" text="coronary artery disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E4" start="382" end="406" text="a recent catheterization" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="409" end="437" text="supraventricular tachycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="444" end="480" text="a progressive mitochondrial myopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="494" end="502" text="symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="506" end="515" text="dribbling" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="518" end="537" text="stress incontinence" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="540" end="549" text="hematuria" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="563" end="570" text="dysuria" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E20" start="580" end="591" text="preadmitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="596" end="613" text="cardiac clearance" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E100" start="628" end="644" text="his cardiologist" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E12" start="679" end="696" text="cardiac clearance" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="735" end="744" text="tolerated" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E13" start="745" end="754" text="procedure" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="777" end="788" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="792" end="795" text="ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E14" start="813" end="831" text="cardiac monitoring" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="834" end="838" text="Stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E33" start="843" end="853" text="uneventful" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E24" start="878" end="889" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="897" end="901" text="FICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E34" start="905" end="908" text="12R" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E15" start="911" end="919" text="Catheter" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E35" start="952" end="960" text="Pyridium" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="992" end="1000" text="suitable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T9" start="1031" end="1035" text="POD4" type="DATE" val="2018-03-09" mod="NA" />
+<TIMEX3 id="T10" start="1145" end="1158" text="DAILY ( Daily" type="DURATION" val="RPT24H" mod="NA" />
+<TIMEX3 id="T11" start="1226" end="1239" text="DAILY ( Daily" type="DURATION" val="RPT24H" mod="NA" />
+<TIMEX3 id="T12" start="1296" end="1309" text="DAILY ( Daily" type="DURATION" val="RPT24H" mod="NA" />
+<TIMEX3 id="T13" start="1386" end="1405" text="QID ( 4 times a day" type="DURATION" val="RPT4H" mod="NA" />
+<TIMEX3 id="T14" start="1523" end="1542" text="QID ( 4 times a day" type="DURATION" val="RPT4H" mod="NA" />
+<TIMEX3 id="T15" start="1625" end="1638" text="DAILY ( Daily" type="DURATION" val="RPT24H" mod="NA" />
+<TIMEX3 id="T16" start="1708" end="1727" text="QID ( 4 times a day" type="DURATION" val="RPT4H" mod="NA" />
+<TIMEX3 id="T17" start="1795" end="1827" text="TID ( 3 times a day ) for 3 days" type="DURATION" val="R9PT8H" mod="NA" />
+<TIMEX3 id="T1" start="18" end="28" text="2018-03-04" type="DATE" val="2018-03-04" mod="NA" />
+<TIMEX3 id="T18" start="2287" end="2293" text="2 days" type="DURATION" val="p2d" mod="NA" />
+<TIMEX3 id="T3" start="248" end="252" text="2007" type="DATE" val="2007" mod="NA" />
+<TIMEX3 id="T4" start="257" end="261" text="1998" type="DATE" val="1998" mod="NA" />
+<TIMEX3 id="T21" start="2648" end="2654" text="2 days" type="DATE" val="p2d" mod="MORE" />
+<TIMEX3 id="T19" start="2699" end="2706" text="6 weeks" type="DATE" val="P6W" mod="NA" />
+<TIMEX3 id="T20" start="3245" end="3254" text="2-3 weeks" type="DURATION" val="p2.5w" mod="APPROX" />
+<TIMEX3 id="T2" start="46" end="56" text="2018-03-09" type="DATE" val="2018-03-09" mod="NA" />
+<TIMEX3 id="T5" start="673" end="676" text="HD2" type="DATE" val="2018-03-05" mod="NA" />
+<TIMEX3 id="T6" start="758" end="768" text="2018-03-05" type="DATE" val="2018-03-05" mod="NA" />
+<TIMEX3 id="T0" start="800" end="804" text="24hr" type="DURATION" val="PT24H" mod="NA" />
+<TIMEX3 id="T7" start="859" end="863" text="POD1" type="DATE" val="2018-03-06" mod="NA" />
+<TIMEX3 id="T8" start="966" end="970" text="POD2" type="DATE" val="2018-03-07" mod="NA" />
+<TLINK id="TL0" fromID="E1" fromText="chronic prostatitis" toID="E46" toText="Chronic prostatitis" type="OVERLAP" />
+<TLINK id="TL1" fromID="E13" fromText="procedure" toID="E17" toText="your surgery" type="OVERLAP" />
+<TLINK id="TL10" fromID="E4" fromText="a recent catheterization" toID="E3" toText="coronary artery disease" type="OVERLAP" />
+<TLINK id="TL11" fromID="E5" fromText="supraventricular tachycardia" toID="E3" toText="coronary artery disease" type="OVERLAP" />
+<TLINK id="TL12" fromID="E6" fromText="a progressive mitochondrial myopathy" toID="E5" toText="supraventricular tachycardia" type="OVERLAP" />
+<TLINK id="TL13" fromID="E8" fromText="dribbling" toID="E7" toText="symptoms" type="OVERLAP" />
+<TLINK id="TL14" fromID="E9" fromText="stress incontinence" toID="E7" toText="symptoms" type="OVERLAP" />
+<TLINK id="TL15" fromID="E10" fromText="hematuria" toID="E7" toText="symptoms" type="OVERLAP" />
+<TLINK id="TL16" fromID="E11" fromText="dysuria" toID="E7" toText="symptoms" type="OVERLAP" />
+<TLINK id="TL17" fromID="E21" fromText="cardiac clearance" toID="E20" toText="preadmitted" type="BEFORE" />
+<TLINK id="TL18" fromID="E21" fromText="cardiac clearance" toID="E100" toText="his cardiologist" type="OVERLAP" />
+<TLINK id="TL19" fromID="E12" fromText="cardiac clearance" toID="T5" toText="HD2" type="OVERLAP" />
+<TLINK id="TL2" fromID="E18" fromText="Admission" toID="T1" toText="2018-03-04" type="OVERLAP" />
+<TLINK id="TL20" fromID="E13" fromText="procedure" toID="T6" toText="2018-03-05" type="OVERLAP" />
+<TLINK id="TL21" fromID="E13" fromText="procedure" toID="E31" toText="tolerated" type="OVERLAP" />
+<TLINK id="TL22" fromID="E23" fromText="ICU" toID="T0" toText="24hr" type="OVERLAP" />
+<TLINK id="TL23" fromID="E14" fromText="cardiac monitoring" toID="E23" toText="ICU" type="OVERLAP" />
+<TLINK id="TL24" fromID="E32" fromText="Stay" toID="E33" toText="uneventful" type="OVERLAP" />
+<TLINK id="TL25" fromID="E32" fromText="Stay" toID="T0" toText="24hr" type="OVERLAP" />
+<TLINK id="TL26" fromID="E24" fromText="transferred" toID="T7" toText="POD1" type="OVERLAP" />
+<TLINK id="TL27" fromID="E25" fromText="FICU" toID="E24" toText="transferred" type="BEFORE" />
+<TLINK id="TL28" fromID="E34" fromText="12R" toID="E24" toText="transferred" type="AFTER" />
+<TLINK id="TL29" fromID="E15" fromText="Catheter" toID="T7" toText="POD1" type="OVERLAP" />
+<TLINK id="TL3" fromID="E19" fromText="Discharge" toID="T2" toText="2018-03-09" type="OVERLAP" />
+<TLINK id="TL30" fromID="E35" fromText="Pyridium" toID="T7" toText="POD1" type="AFTER" />
+<TLINK id="TL31" fromID="E36" fromText="suitable" toID="T8" toText="POD2" type="OVERLAP" />
+<TLINK id="TL32" fromID="E37" fromText="stable" toID="T8" toText="POD2" type="OVERLAP" />
+<TLINK id="TL33" fromID="E37" fromText="stable" toID="E36" toText="suitable" type="OVERLAP" />
+<TLINK id="TL34" fromID="E27" fromText="discharged" toID="E26" toText="discharge" type="OVERLAP" />
+<TLINK id="TL35" fromID="E26" fromText="discharge" toID="E19" toText="Discharge" type="OVERLAP" />
+<TLINK id="TL36" fromID="E27" fromText="discharged" toID="T9" toText="POD4" type="OVERLAP" />
+<TLINK id="TL37" fromID="E38" fromText="Hydroxyzine HCl" toID="T10" toText="DAILY ( Daily" type="OVERLAP" />
+<TLINK id="TL38" fromID="E39" fromText="Atorvastatin Calcium" toID="T11" toText="DAILY ( Daily" type="OVERLAP" />
+<TLINK id="TL39" fromID="E40" fromText="Ezetimibe" toID="T12" toText="DAILY ( Daily" type="OVERLAP" />
+<TLINK id="TL4" fromID="E1" fromText="chronic prostatitis" toID="E18" toText="Admission" type="BEFORE" />
+<TLINK id="TL40" fromID="E41" fromText="Simethicone" toID="T13" toText="QID ( 4 times a day" type="OVERLAP" />
+<TLINK id="TL41" fromID="E41" fromText="Simethicone" toID="E75" toText="indigestion/gas pain" type="OVERLAP" />
+<TLINK id="TL42" fromID="E42" fromText="Aluminum-Magnesium Hydroxide" toID="T14" toText="QID ( 4 times a day" type="OVERLAP" />
+<TLINK id="TL43" fromID="E76" fromText="indigestion" toID="E42" toText="Aluminum-Magnesium Hydroxide" type="OVERLAP" />
+<TLINK id="TL44" fromID="E43" fromText="Atenolol" toID="T15" toText="DAILY ( Daily" type="OVERLAP" />
+<TLINK id="TL45" fromID="E44" fromText="Hyoscyamine Sulfate" toID="T16" toText="QID ( 4 times a day" type="OVERLAP" />
+<TLINK id="TL46" fromID="E45" fromText="Phenazopyridine HCl" toID="T17" toText="TID ( 3 times a day ) for 3 days" type="OVERLAP" />
+<TLINK id="TL47" fromID="E47" fromText="Interstitial cystitis" toID="E46" toText="Chronic prostatitis" type="OVERLAP" />
+<TLINK id="TL48" fromID="E48" fromText="Good" toID="E27" toText="discharged" type="OVERLAP" />
+<TLINK id="TL49" fromID="E50" fromText="symptoms" toID="E49" toText="Go to an Emergency Room" type="BEFORE" />
+<TLINK id="TL5" fromID="E12" fromText="cardiac clearance" toID="E21" toText="cardiac clearance" type="OVERLAP" />
+<TLINK id="TL50" fromID="E51" fromText="new and continuing nausea" toID="E50" toText="symptoms" type="OVERLAP" />
+<TLINK id="TL51" fromID="E52" fromText="vomiting" toID="E50" toText="symptoms" type="OVERLAP" />
+<TLINK id="TL52" fromID="E53" fromText="fevers" toID="E50" toText="symptoms" type="OVERLAP" />
+<TLINK id="TL53" fromID="E54" fromText="chills" toID="E50" toText="symptoms" type="OVERLAP" />
+<TLINK id="TL54" fromID="E55" fromText="shortness of breath" toID="E50" toText="symptoms" type="OVERLAP" />
+<TLINK id="TL55" fromID="E57" fromText="your wound" toID="E56" toText="Proceed to the ER/EW/Monica" type="BEFORE" />
+<TLINK id="TL56" fromID="E58" fromText="red" toID="E57" toText="your wound" type="OVERLAP" />
+<TLINK id="TL57" fromID="E59" fromText="swollen" toID="E57" toText="your wound" type="OVERLAP" />
+<TLINK id="TL58" fromID="E60" fromText="warm" toID="E57" toText="your wound" type="OVERLAP" />
+<TLINK id="TL59" fromID="E61" fromText="pus" toID="E57" toText="your wound" type="OVERLAP" />
+<TLINK id="TL6" fromID="E22" fromText="transferred" toID="E13" toText="procedure" type="AFTER" />
+<TLINK id="TL60" fromID="T18" fromText="2 days" toID="E17" toText="your surgery" type="AFTER" />
+<TLINK id="TL61" fromID="E16" fromText="your dressings" toID="T18" toText="2 days" type="AFTER" />
+<TLINK id="TL62" fromID="E62" fromText="the hospital" toID="E32" toText="Stay" type="AFTER" />
+<TLINK id="TL63" fromID="E63" fromText="the steri strips" toID="E64" toText="they begin to peel" type="BEFORE" />
+<TLINK id="TL64" fromID="E65" fromText="remove" toID="E64" toText="they begin to peel" type="OVERLAP" />
+<TLINK id="TL65" fromID="E66" fromText="Staples" toID="E67" toText="stitches" type="OVERLAP" />
+<TLINK id="TL66" fromID="E67" fromText="stitches" toID="E68" toText="follow-up appointment" type="BEFORE" />
+<TLINK id="TL67" fromID="E69" fromText="clear drainage" toID="E70" toText="your wounds" type="OVERLAP" />
+<TLINK id="TL68" fromID="E71" fromText="a clean dressing" toID="E69" toText="clear drainage" type="OVERLAP" />
+<TLINK id="TL69" fromID="E71" fromText="a clean dressing" toID="E72" toText="stop showering" type="OVERLAP" />
+<TLINK id="TL7" fromID="E23" fromText="ICU" toID="E22" toText="transferred" type="AFTER" />
+<TLINK id="TL70" fromID="E73" fromText="the drainage" toID="E74" toText="subsides" type="BEFORE" />
+<TLINK id="TL71" fromID="E74" fromText="subsides" toID="T21" toText="2 days" type="OVERLAP" />
+<TLINK id="TL72" fromID="E72" fromText="stop showering" toID="T21" toText="2 days" type="AFTER" />
+<TLINK id="TL73" fromID="E77" fromText="heavy lifting" toID="T19" toText="6 weeks" type="OVERLAP" />
+<TLINK id="TL74" fromID="E78" fromText="driving" toID="E79" toText="pain medications" type="OVERLAP" />
+<TLINK id="TL75" fromID="E80" fromText="Narcotics" toID="E81" toText="constipation" type="OVERLAP" />
+<TLINK id="TL76" fromID="E82" fromText="an over the counter stool softener" toID="E83" toText="Colace" type="OVERLAP" />
+<TLINK id="TL77" fromID="E84" fromText="a gentle laxative" toID="E85" toText="Milk of Magnesia" type="OVERLAP" />
+<TLINK id="TL78" fromID="E86" fromText="constipation" toID="E82" toText="an over the counter stool softener" type="BEFORE" />
+<TLINK id="TL79" fromID="E86" fromText="constipation" toID="E84" toText="a gentle laxative" type="BEFORE" />
+<TLINK id="TL8" fromID="E30" fromText="transurethral resection of the prostate procedures" toID="T3" toText="2007" type="OVERLAP" />
+<TLINK id="TL80" fromID="E87" fromText="resume your regular diet" toID="E88" toText="tolerated" type="OVERLAP" />
+<TLINK id="TL81" fromID="E89" fromText="take showers" toID="E90" toText="your dressings" type="AFTER" />
+<TLINK id="TL82" fromID="E90" fromText="your dressings" toID="E91" toText="your wounds" type="OVERLAP" />
+<TLINK id="TL83" fromID="E90" fromText="your dressings" toID="E104" toText="removed" type="BEFORE" />
+<TLINK id="TL84" fromID="E92" fromText="your home medications" toID="E93" toText="contraindicated" type="BEFORE" />
+<TLINK id="TL85" fromID="E94" fromText="follow up" toID="E95" toText="PCP" type="OVERLAP" />
+<TLINK id="TL86" fromID="E96" fromText="F/U" toID="E97" toText="Rau" type="OVERLAP" />
+<TLINK id="TL87" fromID="E98" fromText="F/U" toID="E99" toText="Dr. Ross" type="OVERLAP" />
+<TLINK id="TL88" fromID="E98" fromText="F/U" toID="T20" toText="2-3 weeks" type="AFTER" />
+<TLINK id="TL89" fromID="T20" fromText="2-3 weeks" toID="E19" toText="Discharge" type="AFTER" />
+<TLINK id="TL9" fromID="E30" fromText="transurethral resection of the prostate procedures" toID="T4" toText="1998" type="OVERLAP" />
+<SECTIME id="S0" start="18" end="28" text="2018-03-04" type="ADMISSION" dvalue="2018-03-04" />
+<SECTIME id="S1" start="46" end="56" text="2018-03-09" type="DISCHARGE" dvalue="2018-03-09" />
+<TLINK id="SECTIME0" fromID="E37" fromText="stable" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E26" fromText="discharge" toID="T2" toText="2018-03-09" type="OVERLAP" />
+<TLINK id="SECTIME2" fromID="E27" fromText="discharged" toID="T2" toText="2018-03-09" type="OVERLAP" />
+<TLINK id="SECTIME3" fromID="E38" fromText="Hydroxyzine HCl" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E39" fromText="Atorvastatin Calcium" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E40" fromText="Ezetimibe" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E41" fromText="Simethicone" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E75" fromText="indigestion/gas pain" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E42" fromText="Aluminum-Magnesium Hydroxide" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E76" fromText="indigestion" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E1" fromText="chronic prostatitis" toID="T1" toText="2018-03-04" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E43" fromText="Atenolol" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E44" fromText="Hyoscyamine Sulfate" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E45" fromText="Phenazopyridine HCl" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E46" fromText="Chronic prostatitis" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E47" fromText="Interstitial cystitis" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E30" fromText="transurethral resection of the prostate procedures" toID="T1" toText="2018-03-04" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E48" fromText="Good" toID="T2" toText="2018-03-09" type="OVERLAP" />
+<TLINK id="SECTIME18" fromID="E49" fromText="Go to an Emergency Room" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME19" fromID="E50" fromText="symptoms" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME20" fromID="E51" fromText="new and continuing nausea" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME21" fromID="E52" fromText="vomiting" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME22" fromID="E53" fromText="fevers" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME23" fromID="E54" fromText="chills" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME24" fromID="E55" fromText="shortness of breath" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME25" fromID="E56" fromText="Proceed to the ER/EW/Monica" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME26" fromID="E57" fromText="your wound" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E58" fromText="red" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME28" fromID="E59" fromText="swollen" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME29" fromID="E60" fromText="warm" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME30" fromID="E61" fromText="pus" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME31" fromID="E16" fromText="your dressings" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E17" fromText="your surgery" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E62" fromText="the hospital" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E63" fromText="the steri strips" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E64" fromText="they begin to peel" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME36" fromID="E65" fromText="remove" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME37" fromID="E66" fromText="Staples" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E67" fromText="stitches" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E68" fromText="follow-up appointment" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME40" fromID="E69" fromText="clear drainage" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME41" fromID="E70" fromText="your wounds" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E71" fromText="a clean dressing" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME43" fromID="E72" fromText="stop showering" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME44" fromID="E73" fromText="the drainage" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME45" fromID="E74" fromText="subsides" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME46" fromID="E77" fromText="heavy lifting" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME47" fromID="E78" fromText="driving" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME48" fromID="E79" fromText="pain medications" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME49" fromID="E80" fromText="Narcotics" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME50" fromID="E81" fromText="constipation" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME51" fromID="E82" fromText="an over the counter stool softener" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME52" fromID="E83" fromText="Colace" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME53" fromID="E84" fromText="a gentle laxative" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME54" fromID="E85" fromText="Milk of Magnesia" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME55" fromID="E2" fromText="interstitial cystitis" toID="T1" toText="2018-03-04" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E86" fromText="constipation" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME57" fromID="E87" fromText="resume your regular diet" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME58" fromID="E88" fromText="tolerated" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME59" fromID="E89" fromText="take showers" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME60" fromID="E90" fromText="your dressings" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E104" fromText="removed" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E91" fromText="your wounds" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E92" fromText="your home medications" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME64" fromID="E93" fromText="contraindicated" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E94" fromText="follow up" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME66" fromID="E95" fromText="PCP" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME67" fromID="E96" fromText="F/U" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME68" fromID="E97" fromText="Rau" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME69" fromID="E98" fromText="F/U" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME70" fromID="E99" fromText="Dr. Ross" toID="T2" toText="2018-03-09" type="AFTER" />
+<TLINK id="SECTIME71" fromID="E3" fromText="coronary artery disease" toID="T1" toText="2018-03-04" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E4" fromText="a recent catheterization" toID="T1" toText="2018-03-04" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E5" fromText="supraventricular tachycardia" toID="T1" toText="2018-03-04" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E6" fromText="a progressive mitochondrial myopathy" toID="T1" toText="2018-03-04" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E7" fromText="symptoms" toID="T1" toText="2018-03-04" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E8" fromText="dribbling" toID="T1" toText="2018-03-04" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E9" fromText="stress incontinence" toID="T1" toText="2018-03-04" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E10" fromText="hematuria" toID="T1" toText="2018-03-04" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E11" fromText="dysuria" toID="T1" toText="2018-03-04" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E20" fromText="preadmitted" toID="T1" toText="2018-03-04" type="OVERLAP" />
+<TLINK id="SECTIME81" fromID="E21" fromText="cardiac clearance" toID="T1" toText="2018-03-04" type="AFTER" />
+<TLINK id="SECTIME82" fromID="E100" fromText="his cardiologist" toID="T1" toText="2018-03-04" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E12" fromText="cardiac clearance" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E31" fromText="tolerated" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E13" fromText="procedure" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E22" fromText="transferred" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E23" fromText="ICU" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E14" fromText="cardiac monitoring" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E32" fromText="Stay" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E33" fromText="uneventful" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E24" fromText="transferred" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E25" fromText="FICU" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E34" fromText="12R" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E15" fromText="Catheter" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E35" fromText="Pyridium" toID="T2" toText="2018-03-09" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E36" fromText="suitable" toID="T2" toText="2018-03-09" type="BEFORE" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

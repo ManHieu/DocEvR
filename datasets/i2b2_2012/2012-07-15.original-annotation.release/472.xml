@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2017-06-16
+Discharge Date :
+2017-07-27
+Service :
+MEDICINE
+History of Present Illness :
+Patient is a 58 year old male with a recent admission for abdominal pain s/p negative exploratory laparotomy for suspected intussuception now returns on day of discharge with fever and tachycardia .
+Patient has a history for terrible vasculopathy s/p recent right BKA with dry gangrene of the distal stump .
+Patient 's last admission was significant for a negative ex-lap .
+Post-operatively , his course was complicated by respiratory distress necessitating an urgent return to the ICU and was intubated .
+After multuple failed attempts at extubation , the patient was trached .
+Patient then did well on a trach mask and was transferred to rehab on the day of admission but now returns with tachycardia to the 120 's , and fever to 102 degrees F .
+Brief Hospital Course :
+The patient was re-admitted to the surgical service and taken to the CMED .
+A chest x-ray on admission showed effusions consistent with CHF along with overlying pnumonia .
+Urine cultures were significant for Klebsiella UTI and sputum cultures were significant for MRSA .
+He was placed on vancomycin , levofloxacin and fluconazole .
+He underwent PICC line placement on 06-18 .
+A trach collar was placed on 06-19 .
+GI was consulted for colonoscopy .
+Patient was transferred to the floor on 06-20 .
+He was seen by respiratory therapy and suctioned continually throughout his hospital course .
+His respiratory status improved .
+He tolerated his trach collar , and tube feeds at goal .
+The fluconazole was discontinued .
+On 06-21 the patient was seen by physical therapy .
+A nutrition consult was obtained on 06-22 .
+He underwent a failed bedside swallow study .
+Based on a chest x-ray that showed a small hydro-pneumothorax on the left lower lobe of the lung , a thoracic surgery consult was obtained , though no specific interventions were warranted at the time .
+On 06-23 the patient 's tube feed were changed from Respalor to Deliver 2.0 to give increased calories .
+On 06-25 , urine cultures grew out VRE , and a C diff was negative .
+He experienced low grade fevers .
+He was pan-cultured on 06-26 for continued fevers .
+On 06-27 , his nutrition regimen was changed to Deliver 2.0 at 70 cc / hr with 15 g ProMod .
+On 06-28 , the patient experienced PVC 's .
+An EKG showed ST segment depression along the lateral pre-cordial leads .
+Serial enzymes showed mild elevation of troponins .
+A cardiology consult was obtained .
+The cardiology service simply recommended increasing the beta-blockade and maximizing the patient 's electrolyte status .
+On 06-29 , the patient was transferred to the medical service .
+Pt 's vancomycin was stopped after 14 days of treatment .
+HIV test was found to be negative .
+MRI head was obtained to further w/u patient 's apparent cognitive decline .
+MRI showed prominent sulci and enlarged ventricles abnormal for the patient 's age .
+Due to concerns for dementia , neurology consult was obtained .
+Neurology felt that the patient 's cognitive symptoms were consistent w/ metabolic encephalopathy due to his multiple medical problems .
+They felt that his mental status would improve as his health improved .
+Underlying dementia was possible but difficult to assess with an overlying delerium .
+The patient continued to pull out his doboff tube .
+Pt had EGD performed to evaluate his poor nutritional status .
+He was found to have a large gastric ulcer and high dose PPI was started .
+The gastric biopsy and the serology were both negative for H. pylori .
+PEG placement was unsuccessful by GI due to the patient 's anantomy .
+07-05 the patient had a J tube placed in interventional radiology for nutritional support .
+He was re-started on tube feeds .
+07-06 patient failed a repeat swallow evaluation due to discoordinated swallow .
+07-07 the patient was taken for colonoscopy and found to have a normal colon to cecum .
+07-12 the patient was found to be C diff positive and was started on 14 day course of Flagyl .
+On 07-18 , as his mental status improved , he did well at the bed side swall evaluation .
+On 07-19 , he underwent video swallow evaluation and was able to tolerate ground consistent food and thin liquids .
+His meds should be crushed and mixed with puree thick liquid .
+He has gained 30 lb since the tubefeed was initiated ( 70 lb to 100 lb ) during this admission .
+He will still need to be on tubefeed to support his nutrition until he is cleared by a nutritionist .
+In terms of his mental status , he continued to improve steadily over the last few weeks of his hospital stay .
+He was more alert and engaged with activity .
+He did much better with PT and OT at the end after his mental status improved .
+As noted above , his mental status change was likely toxic-metabolic from acute infection .
+He started to develop more pain around the right stump since 07-17 .
+He was seen by the vascular surgery who felt that he is too medically sick and malnourished to have surgery at this time .
+He will follow up with Dr. Javier as outpatient .
+Initially , his pain was controlled with titrating up the Oxycontin .
+However , it was titrated too quickly from 10 mg bid to 30 mg bid .
+He then developed urinary retention requiring foley placement .
+After he passed the video swallowing , he was tolerating ground consistent solids .
+On 07-24 , he had an emesis x 1 , and had aspiration pneumonia ( + interstital markings on the left on CXR , fever , leukocytosis ) .
+His Flagyl course was extended , and Vanc / Levo were added .
+His sputum showed many GPC which later grew Staph aureus .
+Given his recent MRSA pneumonia , he will be treated with 2 week course of Vanc / Levo / Flagyl .
+He was seen by the pain service who recommended to discontinue Oxycontin , and start Neurontin , MSIR , and lidocaine patch in addition to the standing Tylenol .
+On 07-25 , his J-tube was noted to be obstructed but was able to be flushed by IR on 07-26 .
+Tubefeed was resumed without any difficulty since .
+Since oxycontin was discontinued , the foley was removed on 07-27 and was able to void without any difficulty .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="1013" end="1016" text="CHF" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="1028" end="1046" text="overlying pnumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1049" end="1063" text="Urine cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E37" start="1085" end="1099" text="Klebsiella UTI" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E38" start="1104" end="1119" text="sputum cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="1141" end="1145" text="MRSA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1165" end="1175" text="vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E42" start="1178" end="1190" text="levofloxacin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E43" start="1195" end="1206" text="fluconazole" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E44" start="1222" end="1241" text="PICC line placement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E45" start="1253" end="1267" text="A trach collar" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E46" start="1290" end="1292" text="GI" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E47" start="1311" end="1322" text="colonoscopy" modality="HYPOTHETICAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="1337" end="1348" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E49" start="1352" end="1361" text="the floor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E50" start="1388" end="1407" text="respiratory therapy" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E51" start="1412" end="1433" text="suctioned continually" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E52" start="1445" end="1464" text="his hospital course" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E53" start="1467" end="1489" text="His respiratory status" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E2" start="149" end="158" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E54" start="1514" end="1530" text="his trach collar" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E55" start="1537" end="1547" text="tube feeds" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E56" start="1558" end="1573" text="The fluconazole" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="163" end="177" text="abdominal pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="1626" end="1642" text="physical therapy" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E59" start="1645" end="1664" text="A nutrition consult" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E60" start="1702" end="1732" text="a failed bedside swallow study" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="1744" end="1757" text="a chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E62" start="1763" end="1769" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E197" start="1770" end="1796" text="a small hydro-pneumothorax" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E64" start="1834" end="1852" text="a thoracic surgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E65" start="1886" end="1908" text="specific interventions" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="191" end="213" text="exploratory laparotomy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E66" start="1947" end="1971" text="the patient 's tube feed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E67" start="1990" end="1998" text="Respalor" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E68" start="2002" end="2013" text="Deliver 2.0" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E69" start="2054" end="2068" text="urine cultures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E70" start="2078" end="2081" text="VRE" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E71" start="2088" end="2096" text="a C diff" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E72" start="2127" end="2143" text="low grade fevers" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E73" start="2153" end="2165" text="pan-cultured" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E74" start="2179" end="2195" text="continued fevers" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E75" start="2209" end="2230" text="his nutrition regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E76" start="2246" end="2257" text="Deliver 2.0" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="228" end="242" text="intussuception" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="2282" end="2288" text="ProMod" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E78" start="2326" end="2329" text="PVC" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="2335" end="2341" text="An EKG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E80" start="2342" end="2348" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E81" start="2349" end="2370" text="ST segment depression" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E82" start="2409" end="2423" text="Serial enzymes" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E83" start="2424" end="2430" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E84" start="2431" end="2445" text="mild elevation" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E85" start="2449" end="2458" text="troponins" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E86" start="2461" end="2473" text="A cardiology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E6" start="247" end="254" text="returns" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="2497" end="2519" text="The cardiology service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E88" start="2550" end="2567" text="the beta-blockade" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E89" start="2646" end="2657" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E90" start="2661" end="2680" text="the medical service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E91" start="2683" end="2699" text="Pt 's vancomycin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E92" start="2729" end="2738" text="treatment" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E93" start="2741" end="2749" text="HIV test" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E94" start="2777" end="2785" text="MRI head" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E8" start="280" end="285" text="fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E95" start="2814" end="2851" text="patient 's apparent cognitive decline" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E96" start="2854" end="2857" text="MRI" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E97" start="2858" end="2864" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E98" start="2865" end="2880" text="prominent sulci" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E99" start="2885" end="2904" text="enlarged ventricles" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E9" start="290" end="301" text="tachycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E100" start="2959" end="2967" text="dementia" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E101" start="2970" end="2979" text="neurology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E102" start="3003" end="3012" text="Neurology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E103" start="3023" end="3056" text="the patient 's cognitive symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E104" start="3076" end="3100" text="metabolic encephalopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E105" start="3108" end="3137" text="his multiple medical problems" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E106" start="3155" end="3186" text="his mental status would improve" modality="POSSIBLE" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E107" start="3190" end="3209" text="his health improved" modality="POSSIBLE" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E108" start="3212" end="3231" text="Underlying dementia" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="3274" end="3295" text="an overlying delerium" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="330" end="351" text="terrible vasculopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E110" start="3332" end="3347" text="his doboff tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E111" start="3357" end="3360" text="EGD" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E112" start="3374" end="3382" text="evaluate" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E113" start="3383" end="3410" text="his poor nutritional status" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E114" start="3420" end="3425" text="found" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E115" start="3434" end="3455" text="a large gastric ulcer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E116" start="3460" end="3473" text="high dose PPI" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E117" start="3488" end="3506" text="The gastric biopsy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E118" start="3511" end="3523" text="the serology" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E119" start="3547" end="3556" text="H. pylori" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="356" end="372" text="recent right BKA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E120" start="3559" end="3572" text="PEG placement" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E121" start="3593" end="3595" text="GI" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E122" start="3651" end="3659" text="a J tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E123" start="3670" end="3694" text="interventional radiology" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E124" start="3699" end="3718" text="nutritional support" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E125" start="3742" end="3752" text="tube feeds" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E12" start="378" end="410" text="dry gangrene of the distal stump" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E126" start="3776" end="3803" text="a repeat swallow evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E127" start="3811" end="3833" text="discoordinated swallow" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E128" start="3868" end="3879" text="colonoscopy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E129" start="3958" end="3973" text="C diff positive" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E130" start="4010" end="4016" text="Flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E131" start="4077" end="4106" text="the bed side swall evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E132" start="4133" end="4157" text="video swallow evaluation" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E133" start="4183" end="4205" text="ground consistent food" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E134" start="4210" end="4222" text="thin liquids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E135" start="4225" end="4233" text="His meds" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E136" start="4267" end="4285" text="puree thick liquid" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E13" start="429" end="438" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E137" start="4302" end="4307" text="30 lb" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E138" start="4314" end="4326" text="the tubefeed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E140" start="4368" end="4382" text="this admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E141" start="4413" end="4421" text="tubefeed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E142" start="4459" end="4466" text="cleared" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E198" start="4522" end="4551" text="continued to improve steadily" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E143" start="4579" end="4596" text="his hospital stay" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E199" start="4606" end="4616" text="more alert" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E200" start="4621" end="4642" text="engaged with activity" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E144" start="4669" end="4671" text="PT" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E145" start="4676" end="4678" text="OT" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E14" start="470" end="476" text="ex-lap" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E201" start="4696" end="4722" text="his mental status improved" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E146" start="4742" end="4766" text="his mental status change" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E147" start="4778" end="4793" text="toxic-metabolic" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E148" start="4799" end="4814" text="acute infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E149" start="4839" end="4871" text="more pain around the right stump" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E151" start="4901" end="4921" text="the vascular surgery" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E152" start="4946" end="4960" text="medically sick" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E153" start="4965" end="4977" text="malnourished" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E154" start="4986" end="4993" text="surgery" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E155" start="5017" end="5026" text="follow up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E156" start="5071" end="5079" text="his pain" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E157" start="5113" end="5126" text="the Oxycontin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E204" start="5146" end="5166" text="titrated too quickly" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E203" start="5146" end="5166" text="titrated too quickly" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E159" start="5215" end="5232" text="urinary retention" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E160" start="5243" end="5258" text="foley placement" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="528" end="548" text="respiratory distress" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E161" start="5277" end="5297" text="the video swallowing" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E162" start="5318" end="5342" text="ground consistent solids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E163" start="5363" end="5372" text="an emesis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E164" start="5387" end="5407" text="aspiration pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E165" start="5412" end="5432" text="interstital markings" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E166" start="5448" end="5451" text="CXR" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E167" start="5454" end="5459" text="fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E168" start="5462" end="5474" text="leukocytosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E169" start="5479" end="5496" text="His Flagyl course" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E170" start="5516" end="5520" text="Vanc" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E171" start="5523" end="5527" text="Levo" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E172" start="5541" end="5551" text="His sputum" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E173" start="5552" end="5558" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E174" start="5559" end="5567" text="many GPC" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E175" start="5585" end="5597" text="Staph aureus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E176" start="5606" end="5631" text="his recent MRSA pneumonia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E16" start="563" end="579" text="an urgent return" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E177" start="5675" end="5679" text="Vanc" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E178" start="5682" end="5686" text="Levo" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E179" start="5689" end="5695" text="Flagyl" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E180" start="5713" end="5729" text="the pain service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E181" start="5761" end="5770" text="Oxycontin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E182" start="5783" end="5792" text="Neurontin" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E183" start="5795" end="5799" text="MSIR" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E184" start="5806" end="5821" text="lidocaine patch" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E185" start="5837" end="5857" text="the standing Tylenol" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="583" end="590" text="the ICU" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E186" start="5871" end="5881" text="his J-tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E187" start="5898" end="5908" text="obstructed" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E188" start="5928" end="5935" text="flushed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E189" start="5939" end="5941" text="IR" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E190" start="5953" end="5961" text="Tubefeed" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E191" start="5982" end="5996" text="any difficulty" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E18" start="599" end="608" text="intubated" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E192" start="6011" end="6020" text="oxycontin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E193" start="6040" end="6049" text="the foley" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E194" start="6100" end="6114" text="any difficulty" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E19" start="645" end="655" text="extubation" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E20" start="674" end="681" text="trached" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E196" start="697" end="705" text="did well" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="709" end="721" text="a trach mask" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="730" end="741" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="745" end="750" text="rehab" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E23" start="765" end="774" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E24" start="783" end="790" text="returns" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="796" end="807" text="tachycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E26" start="828" end="833" text="fever" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="893" end="904" text="re-admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="908" end="928" text="the surgical service" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E29" start="942" end="950" text="the CMED" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E30" start="953" end="966" text="A chest x-ray" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E31" start="970" end="979" text="admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E32" start="980" end="986" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E33" start="987" end="996" text="effusions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T5" start="1245" end="1250" text="06-18" type="DATE" val="2017-06-18" mod="NA" />
+<TIMEX3 id="T6" start="1282" end="1287" text="06-19" type="DATE" val="2017-06-19" mod="NA" />
+<TIMEX3 id="T7" start="1365" end="1370" text="06-20" type="DATE" val="2017-06-20" mod="NA" />
+<TIMEX3 id="T8" start="1596" end="1601" text="06-21" type="DATE" val="2017-06-21" mod="NA" />
+<TIMEX3 id="T9" start="1681" end="1686" text="06-22" type="DATE" val="2017-06-22" mod="NA" />
+<TIMEX3 id="T0" start="18" end="28" text="2017-06-16" type="DATE" val="2017-06-16" mod="NA" />
+<TIMEX3 id="T10" start="1941" end="1946" text="06-23" type="DATE" val="2017-06-23" mod="NA" />
+<TIMEX3 id="T11" start="2046" end="2051" text="06-25" type="DATE" val="2017-06-25" mod="NA" />
+<TIMEX3 id="T12" start="2169" end="2174" text="06-26" type="DATE" val="2017-06-26" mod="NA" />
+<TIMEX3 id="T13" start="2201" end="2206" text="06-27" type="DATE" val="2017-06-27" mod="NA" />
+<TIMEX3 id="T14" start="2294" end="2299" text="06-28" type="DATE" val="2017-06-28" mod="NA" />
+<TIMEX3 id="T2" start="258" end="274" text="day of discharge" type="DATE" val="2017-06-16" mod="NA" />
+<TIMEX3 id="T15" start="2622" end="2627" text="06-29" type="DATE" val="2017-06-29" mod="NA" />
+<TIMEX3 id="T16" start="2718" end="2725" text="14 days" type="DURATION" val="P14D" mod="NA" />
+<TIMEX3 id="T17" start="3629" end="3634" text="07-05" type="DATE" val="2017-07-05" mod="NA" />
+<TIMEX3 id="T18" start="3755" end="3760" text="07-06" type="DATE" val="2017-07-06" mod="NA" />
+<TIMEX3 id="T19" start="3836" end="3841" text="07-07" type="DATE" val="2017-07-07" mod="NA" />
+<TIMEX3 id="T20" start="3924" end="3929" text="07-12" type="DATE" val="2017-07-012" mod="NA" />
+<TIMEX3 id="T21" start="3993" end="3999" text="14 day" type="DURATION" val="P14D" mod="NA" />
+<TIMEX3 id="T22" start="4022" end="4027" text="07-18" type="DATE" val="2017-07-18" mod="NA" />
+<TIMEX3 id="T23" start="4112" end="4117" text="07-19" type="DATE" val="2017-07-19" mod="NA" />
+<TIMEX3 id="T24" start="4557" end="4575" text="the last few weeks" type="DURATION" val="P2W" mod="APPROX" />
+<TIMEX3 id="T1" start="46" end="56" text="2017-07-27" type="DATE" val="2017-07-27" mod="NA" />
+<TIMEX3 id="T25" start="4878" end="4883" text="07-17" type="DATE" val="2017-07-17" mod="NA" />
+<TIMEX3 id="T26" start="4997" end="5006" text="this time" type="DATE" val="2017-07-17" mod="APPROX" />
+<TIMEX3 id="T27" start="5178" end="5181" text="bid" type="FREQUENCY" val="RP12H" mod="NA" />
+<TIMEX3 id="T28" start="5191" end="5194" text="bid" type="FREQUENCY" val="RP12H" mod="NA" />
+<TIMEX3 id="T29" start="5348" end="5353" text="07-24" type="DATE" val="2017-07-24" mod="NA" />
+<TIMEX3 id="T30" start="5658" end="5664" text="2 week" type="DURATION" val="P2W" mod="NA" />
+<TIMEX3 id="T32" start="5863" end="5868" text="07-25" type="DATE" val="2017-07-25" mod="NA" />
+<TIMEX3 id="T31" start="5945" end="5950" text="07-26" type="DATE" val="2017-07-26" mod="NA" />
+<TIMEX3 id="T33" start="6065" end="6070" text="07-27" type="DATE" val="2017-07-27" mod="NA" />
+<TIMEX3 id="T3" start="754" end="774" text="the day of admission" type="DATE" val="2017-06-16" mod="NA" />
+<TIMEX3 id="T4" start="779" end="782" text="now" type="DATE" val="2017-06-16" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="Admission" toID="T0" toText="2017-06-16" type="SIMULTANEOUS" />
+<TLINK id="TL1" fromID="E6" fromText="returns" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL10" fromID="E5" fromText="intussuception" toID="E4" toText="exploratory laparotomy" type="BEFORE_OVERLAP" />
+<TLINK id="TL100" fromID="E92" fromText="treatment" toID="E91" toText="Pt 's vancomycin" type="SIMULTANEOUS" />
+<TLINK id="TL101" fromID="T16" fromText="14 days" toID="T15" toText="06-29" type="ENDED_BY" />
+<TLINK id="TL102" fromID="E91" fromText="Pt 's vancomycin" toID="T15" toText="06-29" type="ENDED_BY" />
+<TLINK id="TL103" fromID="E95" fromText="patient 's apparent cognitive decline" toID="E94" toText="MRI head" type="BEFORE_OVERLAP" />
+<TLINK id="TL104" fromID="E96" fromText="MRI" toID="E94" toText="MRI head" type="SIMULTANEOUS" />
+<TLINK id="TL105" fromID="E97" fromText="showed" toID="E96" toText="MRI" type="SIMULTANEOUS" />
+<TLINK id="TL106" fromID="E98" fromText="prominent sulci" toID="E97" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL107" fromID="E99" fromText="enlarged ventricles" toID="E97" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL108" fromID="E100" fromText="dementia" toID="E101" toText="neurology" type="BEFORE_OVERLAP" />
+<TLINK id="TL109" fromID="E103" fromText="the patient 's cognitive symptoms" toID="E100" toText="dementia" type="OVERLAP" />
+<TLINK id="TL11" fromID="E6" fromText="returns" toID="T2" toText="day of discharge" type="OVERLAP" />
+<TLINK id="TL110" fromID="E108" fromText="Underlying dementia" toID="E100" toText="dementia" type="SIMULTANEOUS" />
+<TLINK id="TL111" fromID="E100" fromText="dementia" toID="E106" toText="his mental status would improve" type="OVERLAP" />
+<TLINK id="TL112" fromID="E101" fromText="neurology" toID="E102" toText="Neurology" type="SIMULTANEOUS" />
+<TLINK id="TL113" fromID="E103" fromText="the patient 's cognitive symptoms" toID="E102" toText="Neurology" type="BEFORE_OVERLAP" />
+<TLINK id="TL114" fromID="E103" fromText="the patient 's cognitive symptoms" toID="E104" toText="metabolic encephalopathy" type="OVERLAP" />
+<TLINK id="TL115" fromID="E104" fromText="metabolic encephalopathy" toID="E105" toText="his multiple medical problems" type="OVERLAP" />
+<TLINK id="TL116" fromID="E106" fromText="his mental status would improve" toID="E107" toText="his health improved" type="AFTER" />
+<TLINK id="TL117" fromID="E109" fromText="an overlying delerium" toID="E108" toText="Underlying dementia" type="OVERLAP" />
+<TLINK id="TL118" fromID="E110" fromText="his doboff tube" toID="E52" toText="his hospital course" type="DURING" />
+<TLINK id="TL119" fromID="E112" fromText="evaluate" toID="E111" toText="EGD" type="SIMULTANEOUS" />
+<TLINK id="TL12" fromID="E8" fromText="fever" toID="E6" toText="returns" type="OVERLAP" />
+<TLINK id="TL120" fromID="E114" fromText="found" toID="E111" toText="EGD" type="SIMULTANEOUS" />
+<TLINK id="TL122" fromID="E113" fromText="his poor nutritional status" toID="E112" toText="evaluate" type="BEFORE_OVERLAP" />
+<TLINK id="TL123" fromID="E115" fromText="a large gastric ulcer" toID="E114" toText="found" type="BEFORE_OVERLAP" />
+<TLINK id="TL124" fromID="E116" fromText="high dose PPI" toID="E114" toText="found" type="BEGUN_BY" />
+<TLINK id="TL125" fromID="E117" fromText="The gastric biopsy" toID="E119" toText="H. pylori" type="OVERLAP" />
+<TLINK id="TL126" fromID="E118" fromText="the serology" toID="E119" toText="H. pylori" type="OVERLAP" />
+<TLINK id="TL127" fromID="E120" fromText="PEG placement" toID="E121" toText="GI" type="OVERLAP" />
+<TLINK id="TL128" fromID="E122" fromText="a J tube" toID="T17" toText="07-05" type="SIMULTANEOUS" />
+<TLINK id="TL129" fromID="E122" fromText="a J tube" toID="E123" toText="interventional radiology" type="DURING" />
+<TLINK id="TL13" fromID="E9" fromText="tachycardia" toID="E8" toText="fever" type="OVERLAP" />
+<TLINK id="TL130" fromID="E124" fromText="nutritional support" toID="E122" toText="a J tube" type="SIMULTANEOUS" />
+<TLINK id="TL131" fromID="E125" fromText="tube feeds" toID="T17" toText="07-05" type="BEGUN_BY" />
+<TLINK id="TL132" fromID="E125" fromText="tube feeds" toID="E138" toText="the tubefeed" type="simultaneous" />
+<TLINK id="TL133" fromID="E126" fromText="a repeat swallow evaluation" toID="T18" toText="07-06" type="SIMULTANEOUS" />
+<TLINK id="TL134" fromID="E127" fromText="discoordinated swallow" toID="E126" toText="a repeat swallow evaluation" type="OVERLAP" />
+<TLINK id="TL135" fromID="E128" fromText="colonoscopy" toID="T19" toText="07-07" type="OVERLAP" />
+<TLINK id="TL136" fromID="E129" fromText="C diff positive" toID="T20" toText="07-12" type="OVERLAP" />
+<TLINK id="TL137" fromID="E129" fromText="C diff positive" toID="T21" toText="14 day" type="BEGUN_BY" />
+<TLINK id="TL138" fromID="T21" fromText="14 day" toID="E130" toText="Flagyl" type="OVERLAP" />
+<TLINK id="TL139" fromID="E130" fromText="Flagyl" toID="E169" toText="His Flagyl course" type="simultaneous" />
+<TLINK id="TL14" fromID="E10" fromText="terrible vasculopathy" toID="E11" toText="recent right BKA" type="OVERLAP" />
+<TLINK id="TL140" fromID="E131" fromText="the bed side swall evaluation" toID="T22" toText="07-18" type="OVERLAP" />
+<TLINK id="TL142" fromID="E132" fromText="video swallow evaluation" toID="T23" toText="07-19" type="OVERLAP" />
+<TLINK id="TL143" fromID="E133" fromText="ground consistent food" toID="E132" toText="video swallow evaluation" type="BEGUN_BY" />
+<TLINK id="TL144" fromID="E133" fromText="ground consistent food" toID="E134" toText="thin liquids" type="OVERLAP" />
+<TLINK id="TL145" fromID="E136" fromText="puree thick liquid" toID="E135" toText="His meds" type="SIMULTANEOUS" />
+<TLINK id="TL146" fromID="E137" fromText="30 lb" toID="E138" toText="the tubefeed" type="DURING" />
+<TLINK id="TL147" fromID="E138" fromText="the tubefeed" toID="E140" toText="this admission" type="DURING" />
+<TLINK id="TL148" fromID="E143" fromText="his hospital stay" toID="E140" toText="this admission" type="SIMULTANEOUS" />
+<TLINK id="TL149" fromID="E141" fromText="tubefeed" toID="E142" toText="cleared" type="ENDED_BY" />
+<TLINK id="TL15" fromID="E11" fromText="recent right BKA" toID="E12" toText="dry gangrene of the distal stump" type="OVERLAP" />
+<TLINK id="TL150" fromID="E138" fromText="the tubefeed" toID="E141" toText="tubefeed" type="simultaneous" />
+<TLINK id="TL151" fromID="E141" fromText="tubefeed" toID="E190" toText="Tubefeed" type="simultaneous" />
+<TLINK id="TL152" fromID="E198" fromText="continued to improve steadily" toID="T24" toText="the last few weeks" type="DURING" />
+<TLINK id="TL153" fromID="T24" fromText="the last few weeks" toID="E143" toText="his hospital stay" type="DURING" />
+<TLINK id="TL154" fromID="T24" fromText="the last few weeks" toID="E1" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL155" fromID="E199" fromText="more alert" toID="E200" toText="engaged with activity" type="OVERLAP" />
+<TLINK id="TL156" fromID="E199" fromText="more alert" toID="T24" toText="the last few weeks" type="DURING" />
+<TLINK id="TL157" fromID="E144" fromText="PT" toID="E145" toText="OT" type="OVERLAP" />
+<TLINK id="TL158" fromID="E145" fromText="OT" toID="E201" toText="his mental status improved" type="AFTER" />
+<TLINK id="TL159" fromID="E201" fromText="his mental status improved" toID="E198" toText="continued to improve steadily" type="OVERLAP" />
+<TLINK id="TL16" fromID="E13" fromText="admission" toID="E2" toText="admission" type="SIMULTANEOUS" />
+<TLINK id="TL160" fromID="E146" fromText="his mental status change" toID="E147" toText="toxic-metabolic" type="OVERLAP" />
+<TLINK id="TL161" fromID="E148" fromText="acute infection" toID="E147" toText="toxic-metabolic" type="BEFORE_OVERLAP" />
+<TLINK id="TL162" fromID="E149" fromText="more pain around the right stump" toID="T25" toText="07-17" type="BEGUN_BY" />
+<TLINK id="TL163" fromID="E149" fromText="more pain around the right stump" toID="E151" toText="the vascular surgery" type="BEFORE" />
+<TLINK id="TL164" fromID="E156" fromText="his pain" toID="E149" toText="more pain around the right stump" type="SIMULTANEOUS" />
+<TLINK id="TL165" fromID="E152" fromText="medically sick" toID="E151" toText="the vascular surgery" type="BEFORE_OVERLAP" />
+<TLINK id="TL166" fromID="E154" fromText="surgery" toID="E151" toText="the vascular surgery" type="SIMULTANEOUS" />
+<TLINK id="TL167" fromID="E153" fromText="malnourished" toID="E152" toText="medically sick" type="OVERLAP" />
+<TLINK id="TL168" fromID="E154" fromText="surgery" toID="T26" toText="this time" type="SIMULTANEOUS" />
+<TLINK id="TL169" fromID="E156" fromText="his pain" toID="E157" toText="the Oxycontin" type="BEFORE_OVERLAP" />
+<TLINK id="TL17" fromID="E14" fromText="ex-lap" toID="E13" toText="admission" type="DURING" />
+<TLINK id="TL170" fromID="E203" fromText="titrated too quickly" toID="T27" toText="bid" type="OVERLAP" />
+<TLINK id="TL171" fromID="E204" fromText="titrated too quickly" toID="T28" toText="bid" type="OVERLAP" />
+<TLINK id="TL172" fromID="E203" fromText="titrated too quickly" toID="E157" toText="the Oxycontin" type="OVERLAP" />
+<TLINK id="TL173" fromID="E203" fromText="titrated too quickly" toID="E204" toText="titrated too quickly" type="BEFORE" />
+<TLINK id="TL174" fromID="E159" fromText="urinary retention" toID="E160" toText="foley placement" type="BEFORE_OVERLAP" />
+<TLINK id="TL175" fromID="E162" fromText="ground consistent solids" toID="E161" toText="the video swallowing" type="AFTER" />
+<TLINK id="TL176" fromID="E163" fromText="an emesis" toID="T29" toText="07-24" type="OVERLAP" />
+<TLINK id="TL177" fromID="E165" fromText="interstital markings" toID="E164" toText="aspiration pneumonia" type="OVERLAP" />
+<TLINK id="TL178" fromID="E164" fromText="aspiration pneumonia" toID="T29" toText="07-24" type="BEFORE_OVERLAP" />
+<TLINK id="TL179" fromID="E165" fromText="interstital markings" toID="E166" toText="CXR" type="OVERLAP" />
+<TLINK id="TL18" fromID="E15" fromText="respiratory distress" toID="E14" toText="ex-lap" type="AFTER" />
+<TLINK id="TL180" fromID="E168" fromText="leukocytosis" toID="E167" toText="fever" type="OVERLAP" />
+<TLINK id="TL181" fromID="E167" fromText="fever" toID="E166" toText="CXR" type="OVERLAP" />
+<TLINK id="TL182" fromID="E169" fromText="His Flagyl course" toID="T29" toText="07-24" type="BEFORE_OVERLAP" />
+<TLINK id="TL183" fromID="E169" fromText="His Flagyl course" toID="E170" toText="Vanc" type="BEFORE_OVERLAP" />
+<TLINK id="TL184" fromID="E171" fromText="Levo" toID="E170" toText="Vanc" type="OVERLAP" />
+<TLINK id="TL185" fromID="E170" fromText="Vanc" toID="T29" toText="07-24" type="BEGUN_BY" />
+<TLINK id="TL186" fromID="E173" fromText="showed" toID="E172" toText="His sputum" type="SIMULTANEOUS" />
+<TLINK id="TL188" fromID="E174" fromText="many GPC" toID="E173" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL189" fromID="E175" fromText="Staph aureus" toID="E174" toText="many GPC" type="AFTER" />
+<TLINK id="TL19" fromID="E15" fromText="respiratory distress" toID="E16" toText="an urgent return" type="BEFORE_OVERLAP" />
+<TLINK id="TL190" fromID="E177" fromText="Vanc" toID="E176" toText="his recent MRSA pneumonia" type="AFTER" />
+<TLINK id="TL191" fromID="E177" fromText="Vanc" toID="T30" toText="2 week" type="DURING" />
+<TLINK id="TL192" fromID="E178" fromText="Levo" toID="E177" toText="Vanc" type="OVERLAP" />
+<TLINK id="TL193" fromID="E179" fromText="Flagyl" toID="E178" toText="Levo" type="SIMULTANEOUS" />
+<TLINK id="TL194" fromID="E171" fromText="Levo" toID="E178" toText="Levo" type="simultaneous" />
+<TLINK id="TL195" fromID="E179" fromText="Flagyl" toID="E169" toText="His Flagyl course" type="SIMULTANEOUS" />
+<TLINK id="TL196" fromID="E180" fromText="the pain service" toID="T29" toText="07-24" type="OVERLAP" />
+<TLINK id="TL197" fromID="E182" fromText="Neurontin" toID="E180" toText="the pain service" type="BEGUN_BY" />
+<TLINK id="TL198" fromID="E181" fromText="Oxycontin" toID="E180" toText="the pain service" type="ENDED_BY" />
+<TLINK id="TL199" fromID="E183" fromText="MSIR" toID="E182" toText="Neurontin" type="OVERLAP" />
+<TLINK id="TL2" fromID="E2" fromText="admission" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL20" fromID="E17" fromText="the ICU" toID="E16" toText="an urgent return" type="BEGUN_BY" />
+<TLINK id="TL200" fromID="E184" fromText="lidocaine patch" toID="E183" toText="MSIR" type="OVERLAP" />
+<TLINK id="TL201" fromID="E185" fromText="the standing Tylenol" toID="E184" toText="lidocaine patch" type="BEFORE_OVERLAP" />
+<TLINK id="TL203" fromID="E187" fromText="obstructed" toID="E186" toText="his J-tube" type="DURING" />
+<TLINK id="TL204" fromID="E187" fromText="obstructed" toID="T32" toText="07-25" type="OVERLAP" />
+<TLINK id="TL205" fromID="E188" fromText="flushed" toID="E186" toText="his J-tube" type="DURING" />
+<TLINK id="TL206" fromID="E188" fromText="flushed" toID="E189" toText="IR" type="SIMULTANEOUS" />
+<TLINK id="TL207" fromID="E188" fromText="flushed" toID="T31" toText="07-26" type="OVERLAP" />
+<TLINK id="TL208" fromID="E191" fromText="any difficulty" toID="E190" toText="Tubefeed" type="DURING" />
+<TLINK id="TL209" fromID="E191" fromText="any difficulty" toID="T31" toText="07-26" type="BEGUN_BY" />
+<TLINK id="TL21" fromID="E18" fromText="intubated" toID="E17" toText="the ICU" type="DURING" />
+<TLINK id="TL210" fromID="E181" fromText="Oxycontin" toID="E192" toText="oxycontin" type="simultaneous" />
+<TLINK id="TL211" fromID="E193" fromText="the foley" toID="E192" toText="oxycontin" type="AFTER" />
+<TLINK id="TL212" fromID="E193" fromText="the foley" toID="T33" toText="07-27" type="ENDED_BY" />
+<TLINK id="TL213" fromID="E194" fromText="any difficulty" toID="T33" toText="07-27" type="BEGUN_BY" />
+<TLINK id="TL22" fromID="E19" fromText="extubation" toID="E17" toText="the ICU" type="DURING" />
+<TLINK id="TL23" fromID="E20" fromText="trached" toID="E19" toText="extubation" type="AFTER" />
+<TLINK id="TL24" fromID="E21" fromText="a trach mask" toID="E20" toText="trached" type="SIMULTANEOUS" />
+<TLINK id="TL25" fromID="E20" fromText="trached" toID="E17" toText="the ICU" type="DURING" />
+<TLINK id="TL26" fromID="E196" fromText="did well" toID="E21" toText="a trach mask" type="OVERLAP" />
+<TLINK id="TL28" fromID="E21" fromText="a trach mask" toID="E22" toText="transferred" type="BEFORE_OVERLAP" />
+<TLINK id="TL29" fromID="E40" fromText="rehab" toID="E22" toText="transferred" type="BEGUN_BY" />
+<TLINK id="TL3" fromID="E10" fromText="terrible vasculopathy" toID="E0" toText="Admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL30" fromID="E40" fromText="rehab" toID="T3" toText="the day of admission" type="OVERLAP" />
+<TLINK id="TL31" fromID="E24" fromText="returns" toID="E40" toText="rehab" type="AFTER" />
+<TLINK id="TL33" fromID="E25" fromText="tachycardia" toID="E24" toText="returns" type="BEFORE_OVERLAP" />
+<TLINK id="TL34" fromID="E24" fromText="returns" toID="E6" toText="returns" type="SIMULTANEOUS" />
+<TLINK id="TL35" fromID="E26" fromText="fever" toID="E24" toText="returns" type="BEFORE_OVERLAP" />
+<TLINK id="TL36" fromID="E26" fromText="fever" toID="E8" toText="fever" type="SIMULTANEOUS" />
+<TLINK id="TL37" fromID="E28" fromText="the surgical service" toID="E27" toText="re-admitted" type="AFTER" />
+<TLINK id="TL38" fromID="E28" fromText="the surgical service" toID="E29" toText="the CMED" type="OVERLAP" />
+<TLINK id="TL39" fromID="E30" fromText="A chest x-ray" toID="E31" toText="admission" type="OVERLAP" />
+<TLINK id="TL4" fromID="E23" fromText="admission" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL40" fromID="E32" fromText="showed" toID="E30" toText="A chest x-ray" type="SIMULTANEOUS" />
+<TLINK id="TL41" fromID="E32" fromText="showed" toID="E33" toText="effusions" type="OVERLAP" />
+<TLINK id="TL42" fromID="E34" fromText="CHF" toID="E33" toText="effusions" type="OVERLAP" />
+<TLINK id="TL43" fromID="E33" fromText="effusions" toID="E35" toText="overlying pnumonia" type="OVERLAP" />
+<TLINK id="TL44" fromID="E37" fromText="Klebsiella UTI" toID="E36" toText="Urine cultures" type="BEFORE_OVERLAP" />
+<TLINK id="TL45" fromID="E39" fromText="MRSA" toID="E38" toText="sputum cultures" type="BEFORE_OVERLAP" />
+<TLINK id="TL46" fromID="E41" fromText="vancomycin" toID="E91" toText="Pt 's vancomycin" type="simultaneous" />
+<TLINK id="TL47" fromID="E41" fromText="vancomycin" toID="E42" toText="levofloxacin" type="OVERLAP" />
+<TLINK id="TL48" fromID="E42" fromText="levofloxacin" toID="E43" toText="fluconazole" type="OVERLAP" />
+<TLINK id="TL49" fromID="E44" fromText="PICC line placement" toID="T5" toText="06-18" type="OVERLAP" />
+<TLINK id="TL5" fromID="E27" fromText="re-admitted" toID="E0" toText="Admission" type="SIMULTANEOUS" />
+<TLINK id="TL50" fromID="E45" fromText="A trach collar" toID="T6" toText="06-19" type="OVERLAP" />
+<TLINK id="TL51" fromID="E46" fromText="GI" toID="E47" toText="colonoscopy" type="OVERLAP" />
+<TLINK id="TL52" fromID="E48" fromText="transferred" toID="E49" toText="the floor" type="OVERLAP" />
+<TLINK id="TL53" fromID="E48" fromText="transferred" toID="T7" toText="06-20" type="OVERLAP" />
+<TLINK id="TL54" fromID="E46" fromText="GI" toID="T7" toText="06-20" type="BEFORE" />
+<TLINK id="TL55" fromID="E50" fromText="respiratory therapy" toID="E51" toText="suctioned continually" type="BEFORE" />
+<TLINK id="TL56" fromID="E51" fromText="suctioned continually" toID="E52" toText="his hospital course" type="DURING" />
+<TLINK id="TL57" fromID="E140" fromText="this admission" toID="E52" toText="his hospital course" type="SIMULTANEOUS" />
+<TLINK id="TL58" fromID="E53" fromText="His respiratory status" toID="E51" toText="suctioned continually" type="OVERLAP" />
+<TLINK id="TL59" fromID="E45" fromText="A trach collar" toID="E54" toText="his trach collar" type="simultaneous" />
+<TLINK id="TL6" fromID="E52" fromText="his hospital course" toID="E0" toText="Admission" type="BEGUN_BY" />
+<TLINK id="TL60" fromID="E54" fromText="his trach collar" toID="E55" toText="tube feeds" type="OVERLAP" />
+<TLINK id="TL61" fromID="E56" fromText="The fluconazole" toID="T7" toText="06-20" type="ENDED_BY" />
+<TLINK id="TL62" fromID="E43" fromText="fluconazole" toID="E56" toText="The fluconazole" type="SIMULTANEOUS" />
+<TLINK id="TL63" fromID="E57" fromText="physical therapy" toID="T8" toText="06-21" type="SIMULTANEOUS" />
+<TLINK id="TL64" fromID="E59" fromText="A nutrition consult" toID="T9" toText="06-22" type="SIMULTANEOUS" />
+<TLINK id="TL65" fromID="E60" fromText="a failed bedside swallow study" toID="E59" toText="A nutrition consult" type="OVERLAP" />
+<TLINK id="TL66" fromID="E62" fromText="showed" toID="E61" toText="a chest x-ray" type="SIMULTANEOUS" />
+<TLINK id="TL67" fromID="E64" fromText="a thoracic surgery" toID="E61" toText="a chest x-ray" type="AFTER" />
+<TLINK id="TL68" fromID="E61" fromText="a chest x-ray" toID="E30" toText="A chest x-ray" type="SIMULTANEOUS" />
+<TLINK id="TL69" fromID="E197" fromText="a small hydro-pneumothorax" toID="E62" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL7" fromID="E52" fromText="his hospital course" toID="E1" toText="Discharge" type="ENDED_BY" />
+<TLINK id="TL70" fromID="E64" fromText="a thoracic surgery" toID="E65" toText="specific interventions" type="OVERLAP" />
+<TLINK id="TL71" fromID="E66" fromText="the patient 's tube feed" toID="T10" toText="06-23" type="OVERLAP" />
+<TLINK id="TL72" fromID="E67" fromText="Respalor" toID="E66" toText="the patient 's tube feed" type="DURING" />
+<TLINK id="TL73" fromID="E68" fromText="Deliver 2.0" toID="E66" toText="the patient 's tube feed" type="DURING" />
+<TLINK id="TL74" fromID="E68" fromText="Deliver 2.0" toID="E67" toText="Respalor" type="BEGUN_BY" />
+<TLINK id="TL75" fromID="E67" fromText="Respalor" toID="E68" toText="Deliver 2.0" type="ENDED_BY" />
+<TLINK id="TL76" fromID="E69" fromText="urine cultures" toID="T11" toText="06-25" type="OVERLAP" />
+<TLINK id="TL77" fromID="E70" fromText="VRE" toID="E69" toText="urine cultures" type="OVERLAP" />
+<TLINK id="TL78" fromID="E71" fromText="a C diff" toID="T11" toText="06-25" type="OVERLAP" />
+<TLINK id="TL79" fromID="E72" fromText="low grade fevers" toID="T11" toText="06-25" type="OVERLAP" />
+<TLINK id="TL8" fromID="E3" fromText="abdominal pain" toID="E2" toText="admission" type="BEFORE_OVERLAP" />
+<TLINK id="TL80" fromID="E73" fromText="pan-cultured" toID="T12" toText="06-26" type="SIMULTANEOUS" />
+<TLINK id="TL81" fromID="E74" fromText="continued fevers" toID="E73" toText="pan-cultured" type="BEFORE_OVERLAP" />
+<TLINK id="TL82" fromID="E75" fromText="his nutrition regimen" toID="T13" toText="06-27" type="OVERLAP" />
+<TLINK id="TL83" fromID="E75" fromText="his nutrition regimen" toID="E76" toText="Deliver 2.0" type="OVERLAP" />
+<TLINK id="TL84" fromID="E75" fromText="his nutrition regimen" toID="E66" toText="the patient 's tube feed" type="SIMULTANEOUS" />
+<TLINK id="TL85" fromID="E77" fromText="ProMod" toID="E76" toText="Deliver 2.0" type="SIMULTANEOUS" />
+<TLINK id="TL86" fromID="E78" fromText="PVC" toID="T14" toText="06-28" type="OVERLAP" />
+<TLINK id="TL87" fromID="E79" fromText="An EKG" toID="T14" toText="06-28" type="OVERLAP" />
+<TLINK id="TL88" fromID="E80" fromText="showed" toID="E79" toText="An EKG" type="SIMULTANEOUS" />
+<TLINK id="TL9" fromID="E4" fromText="exploratory laparotomy" toID="E2" toText="admission" type="DURING" />
+<TLINK id="TL90" fromID="E81" fromText="ST segment depression" toID="E80" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL91" fromID="E83" fromText="showed" toID="E82" toText="Serial enzymes" type="SIMULTANEOUS" />
+<TLINK id="TL92" fromID="E84" fromText="mild elevation" toID="E83" toText="showed" type="BEFORE_OVERLAP" />
+<TLINK id="TL93" fromID="E84" fromText="mild elevation" toID="E85" toText="troponins" type="OVERLAP" />
+<TLINK id="TL94" fromID="E87" fromText="The cardiology service" toID="E86" toText="A cardiology" type="SIMULTANEOUS" />
+<TLINK id="TL95" fromID="E86" fromText="A cardiology" toID="T14" toText="06-28" type="OVERLAP" />
+<TLINK id="TL96" fromID="E88" fromText="the beta-blockade" toID="E87" toText="The cardiology service" type="AFTER" />
+<TLINK id="TL97" fromID="E89" fromText="transferred" toID="T15" toText="06-29" type="SIMULTANEOUS" />
+<TLINK id="TL98" fromID="E90" fromText="the medical service" toID="E89" toText="transferred" type="BEGUN_BY" />
+<TLINK id="Sectime0" fromID="E34" fromText="CHF" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E35" fromText="overlying pnumonia" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E36" fromText="Urine cultures" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E37" fromText="Klebsiella UTI" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E38" fromText="sputum cultures" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E39" fromText="MRSA" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E41" fromText="vancomycin" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E42" fromText="levofloxacin" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E43" fromText="fluconazole" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E44" fromText="PICC line placement" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E45" fromText="A trach collar" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E46" fromText="GI" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E47" fromText="colonoscopy" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E48" fromText="transferred" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E49" fromText="the floor" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E50" fromText="respiratory therapy" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E51" fromText="suctioned continually" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E52" fromText="his hospital course" toID="T1" toText="2017-07-27" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime18" fromID="E53" fromText="His respiratory status" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime0" fromID="E2" fromText="admission" toID="T0" toText="2017-06-16" type="OVERLAP" />
+<TLINK id="Sectime19" fromID="E54" fromText="his trach collar" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E55" fromText="tube feeds" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime21" fromID="E56" fromText="The fluconazole" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime1" fromID="E3" fromText="abdominal pain" toID="T0" toText="2017-06-16" type="BEFORE" />
+<TLINK id="Sectime22" fromID="E57" fromText="physical therapy" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime23" fromID="E59" fromText="A nutrition consult" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime24" fromID="E60" fromText="a failed bedside swallow study" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime25" fromID="E61" fromText="a chest x-ray" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime26" fromID="E62" fromText="showed" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime27" fromID="E197" fromText="a small hydro-pneumothorax" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime28" fromID="E64" fromText="a thoracic surgery" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime29" fromID="E65" fromText="specific interventions" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime2" fromID="E4" fromText="exploratory laparotomy" toID="T0" toText="2017-06-16" type="BEFORE" />
+<TLINK id="Sectime30" fromID="E66" fromText="the patient 's tube feed" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime31" fromID="E67" fromText="Respalor" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime32" fromID="E68" fromText="Deliver 2.0" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime33" fromID="E69" fromText="urine cultures" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime34" fromID="E70" fromText="VRE" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime35" fromID="E71" fromText="a C diff" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime36" fromID="E72" fromText="low grade fevers" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime37" fromID="E73" fromText="pan-cultured" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime38" fromID="E74" fromText="continued fevers" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime39" fromID="E75" fromText="his nutrition regimen" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime40" fromID="E76" fromText="Deliver 2.0" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime3" fromID="E5" fromText="intussuception" toID="T0" toText="2017-06-16" type="BEFORE" />
+<TLINK id="Sectime41" fromID="E77" fromText="ProMod" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime42" fromID="E78" fromText="PVC" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime43" fromID="E79" fromText="An EKG" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime44" fromID="E80" fromText="showed" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime45" fromID="E81" fromText="ST segment depression" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime46" fromID="E82" fromText="Serial enzymes" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime47" fromID="E83" fromText="showed" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime48" fromID="E84" fromText="mild elevation" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime49" fromID="E85" fromText="troponins" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime50" fromID="E86" fromText="A cardiology" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime4" fromID="E6" fromText="returns" toID="T0" toText="2017-06-16" type="OVERLAP" />
+<TLINK id="Sectime51" fromID="E87" fromText="The cardiology service" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime52" fromID="E88" fromText="the beta-blockade" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime53" fromID="E89" fromText="transferred" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime54" fromID="E90" fromText="the medical service" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime55" fromID="E91" fromText="Pt 's vancomycin" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime56" fromID="E92" fromText="treatment" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime57" fromID="E93" fromText="HIV test" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime58" fromID="E94" fromText="MRI head" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime5" fromID="E8" fromText="fever" toID="T0" toText="2017-06-16" type="OVERLAP" />
+<TLINK id="Sectime59" fromID="E95" fromText="patient 's apparent cognitive decline" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime60" fromID="E96" fromText="MRI" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime61" fromID="E97" fromText="showed" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime62" fromID="E98" fromText="prominent sulci" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime63" fromID="E99" fromText="enlarged ventricles" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime6" fromID="E9" fromText="tachycardia" toID="T0" toText="2017-06-16" type="OVERLAP" />
+<TLINK id="Sectime64" fromID="E100" fromText="dementia" toID="T1" toText="2017-07-27" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime65" fromID="E101" fromText="neurology" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime66" fromID="E102" fromText="Neurology" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime67" fromID="E103" fromText="the patient 's cognitive symptoms" toID="T1" toText="2017-07-27" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime68" fromID="E104" fromText="metabolic encephalopathy" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime69" fromID="E105" fromText="his multiple medical problems" toID="T1" toText="2017-07-27" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime70" fromID="E106" fromText="his mental status would improve" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime71" fromID="E107" fromText="his health improved" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime72" fromID="E108" fromText="Underlying dementia" toID="T1" toText="2017-07-27" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime73" fromID="E109" fromText="an overlying delerium" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime7" fromID="E10" fromText="terrible vasculopathy" toID="T0" toText="2017-06-16" type="BEFORE" />
+<TLINK id="Sectime74" fromID="E110" fromText="his doboff tube" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime75" fromID="E111" fromText="EGD" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime76" fromID="E112" fromText="evaluate" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime77" fromID="E113" fromText="his poor nutritional status" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime78" fromID="E114" fromText="found" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime79" fromID="E115" fromText="a large gastric ulcer" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime80" fromID="E116" fromText="high dose PPI" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime81" fromID="E117" fromText="The gastric biopsy" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime82" fromID="E118" fromText="the serology" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime83" fromID="E119" fromText="H. pylori" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime8" fromID="E11" fromText="recent right BKA" toID="T0" toText="2017-06-16" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime84" fromID="E120" fromText="PEG placement" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime85" fromID="E121" fromText="GI" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime86" fromID="E122" fromText="a J tube" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime87" fromID="E123" fromText="interventional radiology" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime88" fromID="E124" fromText="nutritional support" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime89" fromID="E125" fromText="tube feeds" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime9" fromID="E12" fromText="dry gangrene of the distal stump" toID="T0" toText="2017-06-16" type="BEFORE" />
+<TLINK id="Sectime90" fromID="E126" fromText="a repeat swallow evaluation" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime91" fromID="E127" fromText="discoordinated swallow" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime92" fromID="E128" fromText="colonoscopy" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime93" fromID="E129" fromText="C diff positive" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime94" fromID="E130" fromText="Flagyl" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime95" fromID="E131" fromText="the bed side swall evaluation" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime96" fromID="E132" fromText="video swallow evaluation" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime97" fromID="E133" fromText="ground consistent food" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime98" fromID="E134" fromText="thin liquids" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime99" fromID="E135" fromText="His meds" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime100" fromID="E136" fromText="puree thick liquid" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime10" fromID="E13" fromText="admission" toID="T0" toText="2017-06-16" type="BEFORE" />
+<TLINK id="Sectime101" fromID="E137" fromText="30 lb" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime102" fromID="E138" fromText="the tubefeed" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime103" fromID="E140" fromText="this admission" toID="T1" toText="2017-07-27" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime104" fromID="E141" fromText="tubefeed" toID="T1" toText="2017-07-27" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime105" fromID="E142" fromText="cleared" toID="T1" toText="2017-07-27" type="AFTER" />
+<TLINK id="Sectime106" fromID="E198" fromText="continued to improve steadily" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime107" fromID="E143" fromText="his hospital stay" toID="T1" toText="2017-07-27" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime108" fromID="E199" fromText="more alert" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime109" fromID="E200" fromText="engaged with activity" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime110" fromID="E144" fromText="PT" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime111" fromID="E145" fromText="OT" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime11" fromID="E14" fromText="ex-lap" toID="T0" toText="2017-06-16" type="BEFORE" />
+<TLINK id="Sectime112" fromID="E201" fromText="his mental status improved" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime113" fromID="E146" fromText="his mental status change" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime114" fromID="E147" fromText="toxic-metabolic" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime115" fromID="E148" fromText="acute infection" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime116" fromID="E149" fromText="more pain around the right stump" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime117" fromID="E151" fromText="the vascular surgery" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime118" fromID="E152" fromText="medically sick" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime119" fromID="E153" fromText="malnourished" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime120" fromID="E154" fromText="surgery" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime121" fromID="E155" fromText="follow up" toID="T1" toText="2017-07-27" type="AFTER" />
+<TLINK id="Sectime122" fromID="E156" fromText="his pain" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime123" fromID="E157" fromText="the Oxycontin" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime124" fromID="E204" fromText="titrated too quickly" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime125" fromID="E203" fromText="titrated too quickly" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime126" fromID="E159" fromText="urinary retention" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime127" fromID="E160" fromText="foley placement" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime12" fromID="E15" fromText="respiratory distress" toID="T0" toText="2017-06-16" type="BEFORE" />
+<TLINK id="Sectime128" fromID="E161" fromText="the video swallowing" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime129" fromID="E162" fromText="ground consistent solids" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime130" fromID="E163" fromText="an emesis" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime131" fromID="E164" fromText="aspiration pneumonia" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime132" fromID="E165" fromText="interstital markings" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime133" fromID="E166" fromText="CXR" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime134" fromID="E167" fromText="fever" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime135" fromID="E168" fromText="leukocytosis" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime136" fromID="E169" fromText="His Flagyl course" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime137" fromID="E170" fromText="Vanc" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime138" fromID="E171" fromText="Levo" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime139" fromID="E172" fromText="His sputum" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime140" fromID="E173" fromText="showed" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime141" fromID="E174" fromText="many GPC" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime142" fromID="E175" fromText="Staph aureus" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime143" fromID="E176" fromText="his recent MRSA pneumonia" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime13" fromID="E16" fromText="an urgent return" toID="T0" toText="2017-06-16" type="BEFORE" />
+<TLINK id="Sectime144" fromID="E177" fromText="Vanc" toID="T1" toText="2017-07-27" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime145" fromID="E178" fromText="Levo" toID="T1" toText="2017-07-27" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime146" fromID="E179" fromText="Flagyl" toID="T1" toText="2017-07-27" type="BEFORE_OVERLAP" />
+<TLINK id="Sectime147" fromID="E180" fromText="the pain service" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime148" fromID="E181" fromText="Oxycontin" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime149" fromID="E182" fromText="Neurontin" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime150" fromID="E183" fromText="MSIR" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime151" fromID="E184" fromText="lidocaine patch" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime152" fromID="E185" fromText="the standing Tylenol" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime14" fromID="E17" fromText="the ICU" toID="T0" toText="2017-06-16" type="BEFORE" />
+<TLINK id="Sectime153" fromID="E186" fromText="his J-tube" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime154" fromID="E187" fromText="obstructed" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime155" fromID="E188" fromText="flushed" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime156" fromID="E189" fromText="IR" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime157" fromID="E190" fromText="Tubefeed" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime158" fromID="E191" fromText="any difficulty" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime15" fromID="E18" fromText="intubated" toID="T0" toText="2017-06-16" type="BEFORE" />
+<TLINK id="Sectime159" fromID="E192" fromText="oxycontin" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime160" fromID="E193" fromText="the foley" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime161" fromID="E194" fromText="any difficulty" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime16" fromID="E19" fromText="extubation" toID="T0" toText="2017-06-16" type="BEFORE" />
+<TLINK id="Sectime17" fromID="E20" fromText="trached" toID="T0" toText="2017-06-16" type="BEFORE" />
+<TLINK id="Sectime18" fromID="E196" fromText="did well" toID="T0" toText="2017-06-16" type="BEFORE" />
+<TLINK id="Sectime19" fromID="E21" fromText="a trach mask" toID="T0" toText="2017-06-16" type="BEFORE" />
+<TLINK id="Sectime20" fromID="E22" fromText="transferred" toID="T0" toText="2017-06-16" type="OVERLAP" />
+<TLINK id="Sectime21" fromID="E40" fromText="rehab" toID="T0" toText="2017-06-16" type="OVERLAP" />
+<TLINK id="Sectime22" fromID="E23" fromText="admission" toID="T0" toText="2017-06-16" type="OVERLAP" />
+<TLINK id="Sectime23" fromID="E24" fromText="returns" toID="T0" toText="2017-06-16" type="OVERLAP" />
+<TLINK id="Sectime24" fromID="E25" fromText="tachycardia" toID="T0" toText="2017-06-16" type="OVERLAP" />
+<TLINK id="Sectime25" fromID="E26" fromText="fever" toID="T0" toText="2017-06-16" type="OVERLAP" />
+<TLINK id="Sectime162" fromID="E27" fromText="re-admitted" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime163" fromID="E28" fromText="the surgical service" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime164" fromID="E29" fromText="the CMED" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime165" fromID="E30" fromText="A chest x-ray" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime166" fromID="E31" fromText="admission" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime167" fromID="E32" fromText="showed" toID="T1" toText="2017-07-27" type="BEFORE" />
+<TLINK id="Sectime168" fromID="E33" fromText="effusions" toID="T1" toText="2017-07-27" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="2017-06-16" type="ADMISSION" dvalue="2017-06-16" />
+<SECTIME id="S1" start="46" end="56" text="2017-07-27" type="DISCHARGE" dvalue="2017-07-27" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

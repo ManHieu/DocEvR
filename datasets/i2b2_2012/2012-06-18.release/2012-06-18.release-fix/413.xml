@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+ADMISSION DATE :
+5-3-93
+DISCHARGE DATE :
+5-12-93
+HISTORY OF PRESENT ILLNESS :
+Mr. Stain was transferred from the Oreiewlefell Merkane I Penaltbridgesgreat University Medical Center for progressive respiratory failure and adult respiratory distress syndrome superimposed on a history of chronic obstructive pulmonary disease , perhaps asthma , and ulcerative colitis .
+His only positive result was a sputum culture for Pseudomonas and this came after he had already been on antibiotics .
+HOSPITAL COURSE :
+The patient was seen in consultation by Dr. Wire who felt that manipulation of the tracheal tube was the best approach to the air leak since it was a new trach and he was requiring such high ventilator support that it was risky to change it .
+He also felt that lung biopsy at this time was rather risky .
+The patient was therefore completely cultured again and begun on antibiotic coverage which would take care of the Pseudomonas he was known to have .
+The steroids were tapered .
+He was also begun on anti-Candida regimen for his urinary tract infection with yeast being seen .
+Because of the story of hemoptysis , he also underwent an exotic bleeding work up for such things as Wegner &apos;s and Goodpasture &apos;s .
+These results were all negative .
+He continued to require very high FIO2 .
+He was found to have a DVT by ultrasound .
+He underwent a trial of TPA followed by heparin .
+This produced substantially further hemoptysis and the need for transfusion .
+He stabilized from this , but on the fifth while continuing to have extremely ventilator requirement .
+In consultation with his family , it was decided that enough support had been done .
+At that time , therefore , ventilator support was withdrawn under the comfort measures of morphine .
+STAIN J. A , M.D.
+TR :
+sj / bmot
+DD :
+6-4-93
+TD :
+06/05/93
+CC :
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E8" start="1009" end="1029" text="anti-Candida regimen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="1034" end="1061" text="his urinary tract infection" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="1067" end="1072" text="yeast" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="1110" end="1120" text="hemoptysis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E25" start="110" end="181" text="the Oreiewlefell Merkane I Penaltbridgesgreat University Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E12" start="1141" end="1167" text="an exotic bleeding work up" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E13" start="1187" end="1201" text="Wegner &apos;s" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E14" start="1206" end="1225" text="Goodpasture &apos;s" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E15" start="1286" end="1300" text="very high FIO2" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E16" start="1324" end="1329" text="a DVT" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E17" start="1333" end="1343" text="ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E18" start="1359" end="1373" text="a trial of TPA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="1386" end="1393" text="heparin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="1410" end="1442" text="substantially further hemoptysis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E21" start="1460" end="1471" text="transfusion" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E22" start="1542" end="1574" text="extremely ventilator requirement" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E37" start="1689" end="1707" text="ventilator support" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E40" start="1712" end="1721" text="withdrawn" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E38" start="1728" end="1748" text="the comfort measures" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E39" start="1752" end="1760" text="morphine" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="186" end="217" text="progressive respiratory failure" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E27" start="222" end="257" text="adult respiratory distress syndrome" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="25" end="34" text="DISCHARGE" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E28" start="287" end="324" text="chronic obstructive pulmonary disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E29" start="335" end="341" text="asthma" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E30" start="348" end="366" text="ulcerative colitis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E31" start="398" end="414" text="a sputum culture" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E32" start="419" end="430" text="Pseudomonas" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="474" end="485" text="antibiotics" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E33" start="530" end="542" text="consultation" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="569" end="602" text="manipulation of the tracheal tube" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E2" start="628" end="640" text="the air leak" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E35" start="654" end="665" text="a new trach" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E3" start="692" end="715" text="high ventilator support" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E36" start="767" end="778" text="lung biopsy" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E4" start="837" end="856" text="completely cultured" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E5" start="876" end="895" text="antibiotic coverage" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="921" end="936" text="the Pseudomonas" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="93" end="104" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E7" start="960" end="972" text="The steroids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<TIMEX3 id="T3" start="1507" end="1516" text="the fifth" type="DATE" val="1993-05-05" mod="NA" />
+<TIMEX3 id="T1" start="18" end="24" text="5-3-93" type="DATE" val="1993-05-03" mod="NA" />
+<TIMEX3 id="T2" start="42" end="49" text="5-12-93" type="DATE" val="1993-05-12" mod="NA" />
+<TIMEX3 id="T0" start="782" end="791" text="this time" type="DATE" val="1993-05-03" mod="NA" />
+<TLINK id="TL0" fromID="E0" fromText="ADMISSION" toID="T1" toText="5-3-93" type="OVERLAP" />
+<TLINK id="TL1" fromID="E11" fromText="hemoptysis" toID="E20" toText="substantially further hemoptysis" type="OVERLAP" />
+<TLINK id="TL10" fromID="E31" fromText="a sputum culture" toID="E32" toText="Pseudomonas" type="OVERLAP" />
+<TLINK id="TL11" fromID="E31" fromText="a sputum culture" toID="E1" toText="antibiotics" type="OVERLAP" />
+<TLINK id="TL12" fromID="E33" fromText="consultation" toID="E34" toText="manipulation of the tracheal tube" type="" />
+<TLINK id="TL13" fromID="E34" fromText="manipulation of the tracheal tube" toID="E2" toText="the air leak" type="OVERLAP" />
+<TLINK id="TL14" fromID="E34" fromText="manipulation of the tracheal tube" toID="E35" toText="a new trach" type="OVERLAP" />
+<TLINK id="TL15" fromID="E3" fromText="high ventilator support" toID="E34" toText="manipulation of the tracheal tube" type="OVERLAP" />
+<TLINK id="TL16" fromID="E36" fromText="lung biopsy" toID="T0" toText="this time" type="OVERLAP" />
+<TLINK id="TL17" fromID="T0" fromText="this time" toID="E33" toText="consultation" type="OVERLAP" />
+<TLINK id="TL18" fromID="E4" fromText="completely cultured" toID="E33" toText="consultation" type="AFTER" />
+<TLINK id="TL19" fromID="E5" fromText="antibiotic coverage" toID="E4" toText="completely cultured" type="AFTER" />
+<TLINK id="TL2" fromID="E23" fromText="DISCHARGE" toID="T2" toText="5-12-93" type="OVERLAP" />
+<TLINK id="TL20" fromID="E5" fromText="antibiotic coverage" toID="E6" toText="the Pseudomonas" type="" />
+<TLINK id="TL21" fromID="E7" fromText="The steroids" toID="E5" toText="antibiotic coverage" type="OVERLAP" />
+<TLINK id="TL22" fromID="E8" fromText="anti-Candida regimen" toID="E33" toText="consultation" type="AFTER" />
+<TLINK id="TL23" fromID="E8" fromText="anti-Candida regimen" toID="E9" toText="his urinary tract infection" type="OVERLAP" />
+<TLINK id="TL24" fromID="E9" fromText="his urinary tract infection" toID="E10" toText="yeast" type="OVERLAP" />
+<TLINK id="TL25" fromID="E12" fromText="an exotic bleeding work up" toID="E11" toText="hemoptysis" type="AFTER" />
+<TLINK id="TL26" fromID="E13" fromText="Wegner &apos;s" toID="E12" toText="an exotic bleeding work up" type="OVERLAP" />
+<TLINK id="TL27" fromID="E14" fromText="Goodpasture &apos;s" toID="E12" toText="an exotic bleeding work up" type="OVERLAP" />
+<TLINK id="TL28" fromID="E3" fromText="high ventilator support" toID="E15" toText="very high FIO2" type="OVERLAP" />
+<TLINK id="TL29" fromID="E16" fromText="a DVT" toID="E17" toText="ultrasound" type="BEFORE" />
+<TLINK id="TL3" fromID="E24" fromText="transferred" toID="E0" toText="ADMISSION" type="OVERLAP" />
+<TLINK id="TL30" fromID="E19" fromText="heparin" toID="E18" toText="a trial of TPA" type="AFTER" />
+<TLINK id="TL31" fromID="E20" fromText="substantially further hemoptysis" toID="E11" toText="hemoptysis" type="OVERLAP" />
+<TLINK id="TL32" fromID="E20" fromText="substantially further hemoptysis" toID="E21" toText="transfusion" type="BEFORE" />
+<TLINK id="TL33" fromID="E22" fromText="extremely ventilator requirement" toID="T3" toText="the fifth" type="OVERLAP" />
+<TLINK id="TL34" fromID="E21" fromText="transfusion" toID="T3" toText="the fifth" type="BEFORE" />
+<TLINK id="TL35" fromID="E22" fromText="extremely ventilator requirement" toID="E37" toText="ventilator support" type="OVERLAP" />
+<TLINK id="TL36" fromID="E37" fromText="ventilator support" toID="E40" toText="withdrawn" type="BEFORE" />
+<TLINK id="TL37" fromID="E40" fromText="withdrawn" toID="E38" toText="the comfort measures" type="OVERLAP" />
+<TLINK id="TL38" fromID="E39" fromText="morphine" toID="E38" toText="the comfort measures" type="OVERLAP" />
+<TLINK id="TL4" fromID="E25" fromText="the Oreiewlefell Merkane I Penaltbridgesgreat University Medical Center" toID="E24" toText="transferred" type="BEFORE" />
+<TLINK id="TL5" fromID="E26" fromText="progressive respiratory failure" toID="E24" toText="transferred" type="BEFORE" />
+<TLINK id="TL6" fromID="E27" fromText="adult respiratory distress syndrome" toID="E24" toText="transferred" type="BEFORE" />
+<TLINK id="TL7" fromID="E28" fromText="chronic obstructive pulmonary disease" toID="E24" toText="transferred" type="BEFORE" />
+<TLINK id="TL8" fromID="E29" fromText="asthma" toID="E24" toText="transferred" type="BEFORE" />
+<TLINK id="TL9" fromID="E30" fromText="ulcerative colitis" toID="E24" toText="transferred" type="BEFORE" />
+
+
+<TLINK id="SECTIME0" fromID="E8" fromText="anti-Candida regimen" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E9" fromText="his urinary tract infection" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E10" fromText="yeast" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E11" fromText="hemoptysis" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E25" fromText="the Oreiewlefell Merkane I Penaltbridgesgreat University Medical Center" toID="T1" toText="5-3-93" type="OVERLAP" />
+<TLINK id="SECTIME5" fromID="E12" fromText="an exotic bleeding work up" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E13" fromText="Wegner &apos;s" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E14" fromText="Goodpasture &apos;s" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E15" fromText="very high FIO2" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E16" fromText="a DVT" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E17" fromText="ultrasound" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E18" fromText="a trial of TPA" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E19" fromText="heparin" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E20" fromText="substantially further hemoptysis" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E21" fromText="transfusion" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E22" fromText="extremely ventilator requirement" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E37" fromText="ventilator support" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E40" fromText="withdrawn" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E38" fromText="the comfort measures" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E39" fromText="morphine" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E26" fromText="progressive respiratory failure" toID="T1" toText="5-3-93" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E27" fromText="adult respiratory distress syndrome" toID="T1" toText="5-3-93" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E28" fromText="chronic obstructive pulmonary disease" toID="T1" toText="5-3-93" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E29" fromText="asthma" toID="T1" toText="5-3-93" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E30" fromText="ulcerative colitis" toID="T1" toText="5-3-93" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E31" fromText="a sputum culture" toID="T1" toText="5-3-93" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E32" fromText="Pseudomonas" toID="T1" toText="5-3-93" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E1" fromText="antibiotics" toID="T1" toText="5-3-93" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E33" fromText="consultation" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E34" fromText="manipulation of the tracheal tube" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME30" fromID="E2" fromText="the air leak" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E35" fromText="a new trach" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E3" fromText="high ventilator support" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E36" fromText="lung biopsy" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME34" fromID="E4" fromText="completely cultured" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME35" fromID="E5" fromText="antibiotic coverage" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME36" fromID="E6" fromText="the Pseudomonas" toID="T2" toText="5-12-93" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E24" fromText="transferred" toID="T1" toText="5-3-93" type="OVERLAP" />
+<TLINK id="SECTIME38" fromID="E7" fromText="The steroids" toID="T2" toText="5-12-93" type="BEFORE" />
+
+
+<SECTIME id="S0" start="18" end="24" text="5-3-93" type="ADMISSION" dvalue="1993-05-03" />
+<SECTIME id="S1" start="43" end="50" text="5-12-93" type="DISCHARGE" dvalue="1993-5-12" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+06/11/1991
+Discharge Date :
+06/22/1991
+HISTORY OF PRESENT ILLNESS :
+Patient is a 28 year old gravida IV , para 2 with metastatic cervical cancer admitted with a question of malignant pericardial effusion .
+Patient underwent a total abdominal hysterectomy in 02/90 for a 4x3.6x2 cm cervical mass felt to be a fibroid at Vanor .
+Pathology revealed poorly differentiated squamous cell carcinoma of the cervix with spots of vaginal margins and metastatic squamous cell carcinoma in the cardinal ligaments with extensive lymphatic invasion .
+Patient was felt to have stage 2B disease and post-operatively , she was treated with intracavitary and external beam radiation therapy and low dose Cisplatin .
+On ultrasound in 02/91 , the patient was found to have bilateral cystic adnexal masses confirmed on physical examination .
+She underwent exploratory laparotomy and had a bilateral salpingo-oophorectomy and appendectomy .
+Pathology was negative for tumor and showed peritubal and periovarian adhesions .
+The patient now presents with a three to four week history of shortness of breath and a dry non-productive cough .
+She was evaluated by Dr. Mielke , a Pulmonologist , who found her to be wheezing and performed pulmonary function tests which showed an FEV1 of 1.1 and an FVC of 1.8 .
+She was admitted to Weekscook University Medical Center with a diagnosis of possible asthma .
+Room air arterial blood gas showed a pO2 of 56 , a pCO2 of 35 , and a pH of 7.52 .
+EKG showed sinus tachycardia at 100 and echo revealed pericardial effusion , a 10 mm pulsus paradoxus was noted , and no evidence of tamponade .
+Given the patient &apos;s history of cervical cancer , the pericardial effusion was felt most likely to be malignant .
+She was therefore transferred to the Retelk County Medical Center for further care .
+HOSPITAL COURSE :
+The patient was admitted for a new pericardial effusion which was felt most likely to be secondary to metastatic cervical cancer .
+There was no evidence of tamponade .
+An echocardiogram was scheduled and Cardiology was consulted .
+Echocardiogram showed moderate anterior pericardial effusion of approximately 600 cc with diastolic indications of the right ventricle and low velocity paradox .
+Cardiology did not feel that tamponade at this time was a concern and that a tap need not be performed .
+She continued to have pulmonary wheezing , unknown origin , without history of asthma .
+Her steroids were tapered and Pulmonary was consulted who recommended a CT scan of the chest to evaluate the lung parenchyma , induce sputum for CBC , arterial blood gas , continuing of the beta agonist inhalers , and trial of steroid inhalers .
+They felt it was most likely a malignant lymphangitic spread with pericardial involvement versus infectious , other cardiovascular causes , or viral bronchiolitis .
+She had pulmonary function tests repeated which showed an FEV1 of 36% of predicted and FVC of 56% of predicted .
+Room air arterial blood gas showed a pH of 7.45 , pO2 of 63 , a pCO2 of 41 , and fairly significant AA gradient .
+She was continued on two liters of oxygen awaiting her CT scan on 06/14 and she developed a new junctional rhythm with a question of a new rub versus murmur on examination .
+Cardiology felt she had a rub and her pulsus was still 10 .
+EKG showed an ectopic low atrial P and they thought she was still stable without evidence of tamponade .
+She should have a follow-up echocardiogram .
+Echocardiogram showed left ventricle at the upper limits of normal for size , low normal function , moderate to mild effusion with pericardial pressures exceeding right atrial pressures , and right ventricular pressures at various points of patient &apos;s cycle without any change in the effusion from 06/11 .
+Thoracic Surgery was also consulted and they felt that there was no need for a pericardial window at the time .
+She should be continued with pulmonary oximetry testing .
+She underwent her CT scan .
+This showed lymphangitic spread of cancer in the chest , question of pulmonary nodules in the chest , pericardial effusion , multiple liver metastases , decreased function of the left kidney , dilated left intrarenal collecting system and proximal ureter , and periaortic lymphadenopathy .
+Pulmonary felt this was consistent also with lymphangitic spread and they did not feel that a bronchoscopy would be of any assistance at this time .
+Chemotherapy for metastatic cervical cancer was discussed with the patient and she was started on 5-FU 800 mg per meter squared days 06/18 , 06/19 , and 06/20 .
+She also received Cisplatin 35 per meter squared on 06/19 and Ifex and Mesna on 06/18 .
+She was noted , on 06/16 , to have numerous erythematous maculopapules on her back and chest .
+Dermatology was consulted and they felt that this was most likely steroid acne .
+They therefore felt a rapid steroid taper was indicated and topical Erythromycin if desired by the patient .
+The patient &apos;s shortness of breath and wheezing continued but without change .
+Her cardiac examination remained the same and there continued to be no evidence of tamponade .
+Cardiology felt that follow-up echo was indicated on 06/18 as she had another echocardiogram which showed no change or evidence of tamponade .
+They therefore felt that she could be continued to be followed by examination .
+She had some mental status changes with confusion and hallucinations on 06/18 originating from narcotics versus decreased pO2 .
+The Ifex was held as it was felt that it could have precipitated the mental status changes and that she was to receive no further Ifex .
+She had no further hallucinations since stopping the Ifex .
+Psychiatry was also consulted to help her with the changes she was feeling since her new diagnosis .
+She was hooked up with support services in Collot Ln , Dugo , Indiana 68961 for further counselling and given Xanax for symptoms of anxiety .
+She continued to have no change in her shortness of breath or cardiac examination and was discharged home on 06/22/91 after completing her 5-FU and Cisplatin chemotherapy .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E31" start="1035" end="1043" text="presents" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E32" start="1081" end="1100" text="shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E33" start="1105" end="1131" text="a dry non-productive cough" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="111" end="121" text="gravida IV" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E34" start="1142" end="1151" text="evaluated" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E35" start="1206" end="1214" text="wheezing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E36" start="1229" end="1253" text="pulmonary function tests" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E3" start="124" end="130" text="para 2" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E43" start="1260" end="1266" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E37" start="1267" end="1274" text="an FEV1" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E38" start="1286" end="1292" text="an FVC" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E39" start="1310" end="1318" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E40" start="1322" end="1357" text="Weekscook University Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E4" start="136" end="162" text="metastatic cervical cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E41" start="1387" end="1393" text="asthma" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E42" start="1396" end="1423" text="Room air arterial blood gas" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E46" start="1424" end="1430" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E47" start="1431" end="1436" text="a pO2" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E48" start="1445" end="1451" text="a pCO2" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E49" start="1464" end="1468" text="a pH" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E50" start="1479" end="1482" text="EKG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E51" start="1483" end="1489" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E52" start="1490" end="1507" text="sinus tachycardia" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E53" start="1519" end="1523" text="echo" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E54" start="1524" end="1532" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E55" start="1533" end="1553" text="pericardial effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E56" start="1556" end="1580" text="a 10 mm pulsus paradoxus" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E57" start="1600" end="1608" text="evidence" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E58" start="1612" end="1621" text="tamponade" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E5" start="163" end="171" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E59" start="1661" end="1676" text="cervical cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E60" start="1679" end="1703" text="the pericardial effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E61" start="1731" end="1740" text="malignant" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E62" start="1761" end="1772" text="transferred" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E63" start="1776" end="1808" text="the Retelk County Medical Center" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E64" start="1813" end="1825" text="further care" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E65" start="1862" end="1870" text="admitted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E66" start="1875" end="1901" text="a new pericardial effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E6" start="191" end="221" text="malignant pericardial effusion" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E67" start="1948" end="1974" text="metastatic cervical cancer" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E68" start="1990" end="1998" text="evidence" modality="FACTUAL" polarity="NEG" type="EVIDENTIAL" />
+<EVENT id="E69" start="2002" end="2011" text="tamponade" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E70" start="2014" end="2031" text="An echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E71" start="2036" end="2045" text="scheduled" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E72" start="2050" end="2060" text="Cardiology" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E73" start="2065" end="2074" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E74" start="2077" end="2091" text="Echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E75" start="2092" end="2098" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E76" start="2099" end="2137" text="moderate anterior pericardial effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E77" start="2167" end="2211" text="diastolic indications of the right ventricle" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E78" start="2216" end="2236" text="low velocity paradox" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E79" start="2239" end="2249" text="Cardiology" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E80" start="2268" end="2277" text="tamponade" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E81" start="2314" end="2319" text="a tap" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E82" start="2366" end="2384" text="pulmonary wheezing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E7" start="242" end="272" text="a total abdominal hysterectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E83" start="2423" end="2429" text="asthma" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E84" start="2432" end="2444" text="Her steroids" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E85" start="2450" end="2457" text="tapered" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E86" start="2462" end="2471" text="Pulmonary" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E87" start="2476" end="2485" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E88" start="2502" end="2524" text="a CT scan of the chest" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E89" start="2566" end="2572" text="sputum" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E90" start="2577" end="2580" text="CBC" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E91" start="2583" end="2601" text="arterial blood gas" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E92" start="2618" end="2643" text="the beta agonist inhalers" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E93" start="2659" end="2675" text="steroid inhalers" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E94" start="2707" end="2738" text="a malignant lymphangitic spread" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E95" start="2744" end="2767" text="pericardial involvement" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E96" start="2775" end="2785" text="infectious" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E97" start="2788" end="2815" text="other cardiovascular causes" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E98" start="2821" end="2840" text="viral bronchiolitis" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E8" start="286" end="312" text="a 4x3.6x2 cm cervical mass" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E99" start="2851" end="2875" text="pulmonary function tests" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E100" start="2891" end="2897" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E101" start="2898" end="2905" text="an FEV1" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E1" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E102" start="2930" end="2933" text="FVC" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E103" start="2956" end="2983" text="Room air arterial blood gas" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E104" start="2984" end="2990" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E105" start="2991" end="2995" text="a pH" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E106" start="3006" end="3009" text="pO2" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E107" start="3018" end="3024" text="a pCO2" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E108" start="3037" end="3067" text="fairly significant AA gradient" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E109" start="3105" end="3111" text="oxygen" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E110" start="3121" end="3132" text="her CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E111" start="3160" end="3183" text="a new junctional rhythm" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E112" start="3203" end="3212" text="a new rub" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E113" start="3220" end="3226" text="murmur" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E114" start="3230" end="3241" text="examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E9" start="324" end="333" text="a fibroid" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E115" start="3244" end="3254" text="Cardiology" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E116" start="3268" end="3273" text="a rub" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E117" start="3278" end="3288" text="her pulsus" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E118" start="3304" end="3307" text="EKG" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E119" start="3308" end="3314" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E120" start="3315" end="3338" text="an ectopic low atrial P" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="337" end="342" text="Vanor" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E121" start="3370" end="3376" text="stable" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E122" start="3397" end="3406" text="tamponade" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E123" start="3425" end="3451" text="a follow-up echocardiogram" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E11" start="345" end="354" text="Pathology" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E124" start="3454" end="3468" text="Echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E125" start="3469" end="3475" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E126" start="3494" end="3529" text="the upper limits of normal for size" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E127" start="3532" end="3551" text="low normal function" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E12" start="355" end="363" text="revealed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E128" start="3554" end="3579" text="moderate to mild effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E129" start="3585" end="3606" text="pericardial pressures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E130" start="3617" end="3639" text="right atrial pressures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E13" start="364" end="423" text="poorly differentiated squamous cell carcinoma of the cervix" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E131" start="3646" end="3673" text="right ventricular pressures" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E132" start="3739" end="3751" text="the effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E133" start="3765" end="3781" text="Thoracic Surgery" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E134" start="3791" end="3800" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E135" start="3842" end="3862" text="a pericardial window" modality="PROPOSED" polarity="NEG" type="TREATMENT" />
+<EVENT id="E136" start="3906" end="3932" text="pulmonary oximetry testing" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E137" start="3949" end="3960" text="her CT scan" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E138" start="3963" end="3974" text="This showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E139" start="3975" end="3994" text="lymphangitic spread" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E140" start="3998" end="4017" text="cancer in the chest" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E141" start="4032" end="4062" text="pulmonary nodules in the chest" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E142" start="4065" end="4085" text="pericardial effusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E143" start="4088" end="4113" text="multiple liver metastases" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E144" start="4116" end="4153" text="decreased function of the left kidney" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E145" start="4156" end="4217" text="dilated left intrarenal collecting system and proximal ureter" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E146" start="4224" end="4250" text="periaortic lymphadenopathy" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E147" start="4253" end="4262" text="Pulmonary" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E148" start="4298" end="4317" text="lymphangitic spread" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E149" start="4345" end="4359" text="a bronchoscopy" modality="PROPOSED" polarity="NEG" type="TEST" />
+<EVENT id="E14" start="438" end="453" text="vaginal margins" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E150" start="4402" end="4414" text="Chemotherapy" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E151" start="4419" end="4445" text="metastatic cervical cancer" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E152" start="4450" end="4459" text="discussed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E153" start="4500" end="4504" text="5-FU" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E15" start="458" end="518" text="metastatic squamous cell carcinoma in the cardinal ligaments" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E154" start="4581" end="4590" text="Cisplatin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E155" start="4625" end="4629" text="Ifex" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E156" start="4634" end="4639" text="Mesna" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E157" start="4659" end="4664" text="noted" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E158" start="4686" end="4733" text="numerous erythematous maculopapules on her back" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E159" start="4746" end="4757" text="Dermatology" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E160" start="4762" end="4771" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E161" start="4812" end="4824" text="steroid acne" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E162" start="4847" end="4868" text="a rapid steroid taper" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E163" start="4887" end="4907" text="topical Erythromycin" modality="CONDITIONAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E164" start="4936" end="4975" text="The patient &apos;s shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E165" start="4980" end="4988" text="wheezing" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E166" start="5020" end="5043" text="Her cardiac examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E167" start="5103" end="5112" text="tamponade" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E44" start="5115" end="5125" text="Cardiology" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E168" start="5136" end="5150" text="follow-up echo" modality="PROPOSED" polarity="POS" type="TEST" />
+<EVENT id="E169" start="5185" end="5207" text="another echocardiogram" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E170" start="5214" end="5220" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E16" start="524" end="552" text="extensive lymphatic invasion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E171" start="5246" end="5255" text="tamponade" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E172" start="5324" end="5335" text="examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E173" start="5346" end="5372" text="some mental status changes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E174" start="5378" end="5387" text="confusion" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E175" start="5392" end="5406" text="hallucinations" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E176" start="5433" end="5442" text="narcotics" modality="POSSIBLE" polarity="POS" type="TREATMENT" />
+<EVENT id="E177" start="5450" end="5463" text="decreased pO2" modality="POSSIBLE" polarity="POS" type="PROBLEM" />
+<EVENT id="E178" start="5466" end="5474" text="The Ifex" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E179" start="5479" end="5483" text="held" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E180" start="5531" end="5556" text="the mental status changes" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E181" start="5588" end="5600" text="further Ifex" modality="FACTUAL" polarity="NEG" type="TREATMENT" />
+<EVENT id="E182" start="5614" end="5636" text="further hallucinations" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E183" start="5652" end="5660" text="the Ifex" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E184" start="5663" end="5673" text="Psychiatry" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E185" start="5683" end="5692" text="consulted" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E186" start="5710" end="5721" text="the changes" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E187" start="5744" end="5761" text="her new diagnosis" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E188" start="5772" end="5781" text="hooked up" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E189" start="5787" end="5803" text="support services" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E17" start="580" end="596" text="stage 2B disease" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E190" start="5844" end="5863" text="further counselling" modality="PROPOSED" polarity="POS" type="TREATMENT" />
+<EVENT id="E191" start="5874" end="5879" text="Xanax" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E192" start="5884" end="5892" text="symptoms" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E193" start="5896" end="5903" text="anxiety" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E194" start="5931" end="5937" text="change" modality="FACTUAL" polarity="NEG" type="OCCURRENCE" />
+<EVENT id="E195" start="5941" end="5964" text="her shortness of breath" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E196" start="5968" end="5987" text="cardiac examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E197" start="5996" end="6006" text="discharged" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E198" start="5996" end="6011" text="discharged home" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E199" start="6041" end="6049" text="her 5-FU" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E200" start="6054" end="6076" text="Cisplatin chemotherapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E18" start="641" end="690" text="intracavitary and external beam radiation therapy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E19" start="695" end="713" text="low dose Cisplatin" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E20" start="719" end="729" text="ultrasound" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E21" start="771" end="802" text="bilateral cystic adnexal masses" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E22" start="803" end="812" text="confirmed" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E23" start="816" end="836" text="physical examination" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E24" start="853" end="875" text="exploratory laparotomy" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E25" start="884" end="917" text="a bilateral salpingo-oophorectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E26" start="922" end="934" text="appendectomy" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="937" end="946" text="Pathology" modality="FACTUAL" polarity="POS" type="TEST" />
+<EVENT id="E28" start="964" end="969" text="tumor" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E29" start="974" end="980" text="showed" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E30" start="981" end="1016" text="peritubal and periovarian adhesions" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<TIMEX3 id="T2" start="1051" end="1069" text="three to four week" type="DURATION" val="p3.5w" mod="APPROX" />
+<TIMEX3 id="T14" start="18" end="28" text="06/11/1991" type="DATE" val="1991-06-11" mod="NA" />
+<TIMEX3 id="T0" start="276" end="281" text="02/90" type="DATE" val="1990-02" mod="NA" />
+<TIMEX3 id="T3" start="3136" end="3141" text="06/14" type="DATE" val="1991-06-14" mod="NA" />
+<TIMEX3 id="T4" start="3757" end="3762" text="06/11" type="DATE" val="1991-06-11" mod="NA" />
+<TIMEX3 id="T5" start="4535" end="4540" text="06/18" type="DATE" val="1991-06-18" mod="NA" />
+<TIMEX3 id="T6" start="4543" end="4548" text="06/19" type="DATE" val="1991-06-19" mod="NA" />
+<TIMEX3 id="T7" start="4555" end="4560" text="06/20" type="DATE" val="1991-06-20" mod="NA" />
+<TIMEX3 id="T15" start="46" end="56" text="06/22/1991" type="DATE" val="1991-06-22" mod="NA" />
+<TIMEX3 id="T8" start="4615" end="4620" text="06/19" type="DATE" val="1991-06-19" mod="NA" />
+<TIMEX3 id="T9" start="4643" end="4648" text="06/18" type="DATE" val="1991-06-18" mod="NA" />
+<TIMEX3 id="T10" start="4670" end="4675" text="06/16" type="DATE" val="1991-06-16" mod="NA" />
+<TIMEX3 id="T11" start="5168" end="5173" text="06/18" type="DATE" val="1991-06-18" mod="NA" />
+<TIMEX3 id="T12" start="5410" end="5415" text="06/18" type="DATE" val="1991-06-18" mod="NA" />
+<TIMEX3 id="T13" start="6015" end="6023" text="06/22/91" type="DATE" val="1991-06-22" mod="NA" />
+<TIMEX3 id="T1" start="733" end="738" text="02/91" type="DATE" val="1991-02" mod="NA" />
+<TLINK id="TL0" fromID="E38" fromText="an FVC" toID="E37" toText="an FEV1" type="OVERLAP" />
+<TLINK id="TL1" fromID="E37" fromText="an FEV1" toID="E43" toText="showed" type="OVERLAP" />
+<TLINK id="TL10" fromID="E3" fromText="para 2" toID="E2" toText="gravida IV" type="OVERLAP" />
+<TLINK id="TL100" fromID="E75" fromText="showed" toID="E74" toText="Echocardiogram" type="OVERLAP" />
+<TLINK id="TL101" fromID="E76" fromText="moderate anterior pericardial effusion" toID="E128" toText="moderate to mild effusion" type="OVERLAP" />
+<TLINK id="TL102" fromID="E76" fromText="moderate anterior pericardial effusion" toID="E74" toText="Echocardiogram" type="BEFORE" />
+<TLINK id="TL103" fromID="E77" fromText="diastolic indications of the right ventricle" toID="E76" toText="moderate anterior pericardial effusion" type="OVERLAP" />
+<TLINK id="TL104" fromID="E78" fromText="low velocity paradox" toID="E77" toText="diastolic indications of the right ventricle" type="OVERLAP" />
+<TLINK id="TL105" fromID="E77" fromText="diastolic indications of the right ventricle" toID="E74" toText="Echocardiogram" type="BEFORE" />
+<TLINK id="TL106" fromID="E80" fromText="tamponade" toID="E79" toText="Cardiology" type="OVERLAP" />
+<TLINK id="TL107" fromID="E69" fromText="tamponade" toID="E80" toText="tamponade" type="OVERLAP" />
+<TLINK id="TL108" fromID="E80" fromText="tamponade" toID="E122" toText="tamponade" type="OVERLAP" />
+<TLINK id="TL109" fromID="E81" fromText="a tap" toID="E80" toText="tamponade" type="OVERLAP" />
+<TLINK id="TL11" fromID="E4" fromText="metastatic cervical cancer" toID="E13" toText="poorly differentiated squamous cell carcinoma of the cervix" type="OVERLAP" />
+<TLINK id="TL110" fromID="E82" fromText="pulmonary wheezing" toID="E83" toText="asthma" type="OVERLAP" />
+<TLINK id="TL111" fromID="E82" fromText="pulmonary wheezing" toID="E35" toText="wheezing" type="OVERLAP" />
+<TLINK id="TL112" fromID="E82" fromText="pulmonary wheezing" toID="E92" toText="the beta agonist inhalers" type="BEFORE" />
+<TLINK id="TL113" fromID="E82" fromText="pulmonary wheezing" toID="E93" toText="steroid inhalers" type="BEFORE" />
+<TLINK id="TL114" fromID="E86" fromText="Pulmonary" toID="E84" toText="Her steroids" type="OVERLAP" />
+<TLINK id="TL116" fromID="E85" fromText="tapered" toID="E84" toText="Her steroids" type="OVERLAP" />
+<TLINK id="TL117" fromID="E87" fromText="consulted" toID="E84" toText="Her steroids" type="OVERLAP" />
+<TLINK id="TL118" fromID="E72" fromText="Cardiology" toID="E73" toText="consulted" type="OVERLAP" />
+<TLINK id="TL119" fromID="E73" fromText="consulted" toID="E65" toText="admitted" type="AFTER" />
+<TLINK id="TL12" fromID="E4" fromText="metastatic cervical cancer" toID="E6" toText="malignant pericardial effusion" type="OVERLAP" />
+<TLINK id="TL121" fromID="E88" fromText="a CT scan of the chest" toID="E86" toText="Pulmonary" type="OVERLAP" />
+<TLINK id="TL122" fromID="E88" fromText="a CT scan of the chest" toID="E110" toText="her CT scan" type="OVERLAP" />
+<TLINK id="TL123" fromID="E89" fromText="sputum" toID="E88" toText="a CT scan of the chest" type="OVERLAP" />
+<TLINK id="TL124" fromID="E88" fromText="a CT scan of the chest" toID="E87" toText="consulted" type="OVERLAP" />
+<TLINK id="TL125" fromID="E91" fromText="arterial blood gas" toID="E90" toText="CBC" type="OVERLAP" />
+<TLINK id="TL126" fromID="E90" fromText="CBC" toID="E88" toText="a CT scan of the chest" type="OVERLAP" />
+<TLINK id="TL127" fromID="E93" fromText="steroid inhalers" toID="E90" toText="CBC" type="OVERLAP" />
+<TLINK id="TL128" fromID="E92" fromText="the beta agonist inhalers" toID="E90" toText="CBC" type="OVERLAP" />
+<TLINK id="TL129" fromID="E90" fromText="CBC" toID="E89" toText="sputum" type="AFTER" />
+<TLINK id="TL13" fromID="E59" fromText="cervical cancer" toID="E4" toText="metastatic cervical cancer" type="OVERLAP" />
+<TLINK id="TL130" fromID="E96" fromText="infectious" toID="E95" toText="pericardial involvement" type="OVERLAP" />
+<TLINK id="TL131" fromID="E95" fromText="pericardial involvement" toID="E94" toText="a malignant lymphangitic spread" type="OVERLAP" />
+<TLINK id="TL132" fromID="E98" fromText="viral bronchiolitis" toID="E97" toText="other cardiovascular causes" type="OVERLAP" />
+<TLINK id="TL133" fromID="E97" fromText="other cardiovascular causes" toID="E96" toText="infectious" type="OVERLAP" />
+<TLINK id="TL134" fromID="E101" fromText="an FEV1" toID="E99" toText="pulmonary function tests" type="OVERLAP" />
+<TLINK id="TL135" fromID="E99" fromText="pulmonary function tests" toID="E65" toText="admitted" type="AFTER" />
+<TLINK id="TL136" fromID="E100" fromText="showed" toID="E99" toText="pulmonary function tests" type="OVERLAP" />
+<TLINK id="TL137" fromID="E102" fromText="FVC" toID="E101" toText="an FEV1" type="OVERLAP" />
+<TLINK id="TL139" fromID="E105" fromText="a pH" toID="E103" toText="Room air arterial blood gas" type="OVERLAP" />
+<TLINK id="TL14" fromID="E67" fromText="metastatic cervical cancer" toID="E4" toText="metastatic cervical cancer" type="OVERLAP" />
+<TLINK id="TL140" fromID="E104" fromText="showed" toID="E103" toText="Room air arterial blood gas" type="OVERLAP" />
+<TLINK id="TL141" fromID="E91" fromText="arterial blood gas" toID="E103" toText="Room air arterial blood gas" type="OVERLAP" />
+<TLINK id="TL142" fromID="E107" fromText="a pCO2" toID="E106" toText="pO2" type="OVERLAP" />
+<TLINK id="TL143" fromID="E106" fromText="pO2" toID="E105" toText="a pH" type="OVERLAP" />
+<TLINK id="TL144" fromID="E108" fromText="fairly significant AA gradient" toID="E107" toText="a pCO2" type="OVERLAP" />
+<TLINK id="TL145" fromID="E109" fromText="oxygen" toID="E110" toText="her CT scan" type="BEFORE" />
+<TLINK id="TL146" fromID="E110" fromText="her CT scan" toID="T3" toText="06/14" type="OVERLAP" />
+<TLINK id="TL147" fromID="E110" fromText="her CT scan" toID="E137" toText="her CT scan" type="OVERLAP" />
+<TLINK id="TL148" fromID="E111" fromText="a new junctional rhythm" toID="E110" toText="her CT scan" type="OVERLAP" />
+<TLINK id="TL15" fromID="E6" fromText="malignant pericardial effusion" toID="E55" toText="pericardial effusion" type="OVERLAP" />
+<TLINK id="TL150" fromID="E113" fromText="murmur" toID="E112" toText="a new rub" type="OVERLAP" />
+<TLINK id="TL151" fromID="E112" fromText="a new rub" toID="E116" toText="a rub" type="OVERLAP" />
+<TLINK id="TL152" fromID="E112" fromText="a new rub" toID="E111" toText="a new junctional rhythm" type="OVERLAP" />
+<TLINK id="TL154" fromID="E113" fromText="murmur" toID="E114" toText="examination" type="BEFORE" />
+<TLINK id="TL155" fromID="E116" fromText="a rub" toID="E115" toText="Cardiology" type="BEFORE" />
+<TLINK id="TL156" fromID="E120" fromText="an ectopic low atrial P" toID="E118" toText="EKG" type="OVERLAP" />
+<TLINK id="TL157" fromID="E119" fromText="showed" toID="E118" toText="EKG" type="OVERLAP" />
+<TLINK id="TL158" fromID="E123" fromText="a follow-up echocardiogram" toID="E118" toText="EKG" type="AFTER" />
+<TLINK id="TL159" fromID="E121" fromText="stable" toID="E122" toText="tamponade" type="OVERLAP" />
+<TLINK id="TL160" fromID="E125" fromText="showed" toID="E124" toText="Echocardiogram" type="OVERLAP" />
+<TLINK id="TL161" fromID="E124" fromText="Echocardiogram" toID="E123" toText="a follow-up echocardiogram" type="OVERLAP" />
+<TLINK id="TL162" fromID="E127" fromText="low normal function" toID="E124" toText="Echocardiogram" type="BEFORE" />
+<TLINK id="TL163" fromID="E134" fromText="consulted" toID="E124" toText="Echocardiogram" type="AFTER" />
+<TLINK id="TL164" fromID="E126" fromText="the upper limits of normal for size" toID="E124" toText="Echocardiogram" type="BEFORE" />
+<TLINK id="TL165" fromID="E129" fromText="pericardial pressures" toID="E126" toText="the upper limits of normal for size" type="OVERLAP" />
+<TLINK id="TL166" fromID="E128" fromText="moderate to mild effusion" toID="E126" toText="the upper limits of normal for size" type="OVERLAP" />
+<TLINK id="TL167" fromID="E127" fromText="low normal function" toID="E126" toText="the upper limits of normal for size" type="OVERLAP" />
+<TLINK id="TL17" fromID="E94" fromText="a malignant lymphangitic spread" toID="E6" toText="malignant pericardial effusion" type="OVERLAP" />
+<TLINK id="TL170" fromID="E129" fromText="pericardial pressures" toID="E128" toText="moderate to mild effusion" type="OVERLAP" />
+<TLINK id="TL171" fromID="E130" fromText="right atrial pressures" toID="E129" toText="pericardial pressures" type="OVERLAP" />
+<TLINK id="TL172" fromID="E131" fromText="right ventricular pressures" toID="E130" toText="right atrial pressures" type="OVERLAP" />
+<TLINK id="TL173" fromID="E132" fromText="the effusion" toID="E131" toText="right ventricular pressures" type="OVERLAP" />
+<TLINK id="TL174" fromID="E132" fromText="the effusion" toID="T4" toText="06/11" type="OVERLAP" />
+<TLINK id="TL175" fromID="E133" fromText="Thoracic Surgery" toID="E134" toText="consulted" type="OVERLAP" />
+<TLINK id="TL177" fromID="E136" fromText="pulmonary oximetry testing" toID="E134" toText="consulted" type="OVERLAP" />
+<TLINK id="TL178" fromID="E138" fromText="This showed" toID="E137" toText="her CT scan" type="OVERLAP" />
+<TLINK id="TL179" fromID="E149" fromText="a bronchoscopy" toID="E137" toText="her CT scan" type="AFTER" />
+<TLINK id="TL180" fromID="E139" fromText="lymphangitic spread" toID="E148" toText="lymphangitic spread" type="OVERLAP" />
+<TLINK id="TL181" fromID="E94" fromText="a malignant lymphangitic spread" toID="E139" toText="lymphangitic spread" type="OVERLAP" />
+<TLINK id="TL182" fromID="E141" fromText="pulmonary nodules in the chest" toID="E139" toText="lymphangitic spread" type="OVERLAP" />
+<TLINK id="TL183" fromID="E140" fromText="cancer in the chest" toID="E139" toText="lymphangitic spread" type="OVERLAP" />
+<TLINK id="TL184" fromID="E187" fromText="her new diagnosis" toID="E139" toText="lymphangitic spread" type="OVERLAP" />
+<TLINK id="TL185" fromID="E141" fromText="pulmonary nodules in the chest" toID="E140" toText="cancer in the chest" type="OVERLAP" />
+<TLINK id="TL186" fromID="E143" fromText="multiple liver metastases" toID="E141" toText="pulmonary nodules in the chest" type="OVERLAP" />
+<TLINK id="TL187" fromID="E142" fromText="pericardial effusion" toID="E141" toText="pulmonary nodules in the chest" type="OVERLAP" />
+<TLINK id="TL188" fromID="E144" fromText="decreased function of the left kidney" toID="E143" toText="multiple liver metastases" type="OVERLAP" />
+<TLINK id="TL189" fromID="E142" fromText="pericardial effusion" toID="E143" toText="multiple liver metastases" type="OVERLAP" />
+<TLINK id="TL19" fromID="E6" fromText="malignant pericardial effusion" toID="E5" toText="admitted" type="BEFORE" />
+<TLINK id="TL190" fromID="E145" fromText="dilated left intrarenal collecting system and proximal ureter" toID="E144" toText="decreased function of the left kidney" type="OVERLAP" />
+<TLINK id="TL192" fromID="E146" fromText="periaortic lymphadenopathy" toID="E145" toText="dilated left intrarenal collecting system and proximal ureter" type="OVERLAP" />
+<TLINK id="TL193" fromID="E148" fromText="lymphangitic spread" toID="E147" toText="Pulmonary" type="BEFORE" />
+<TLINK id="TL196" fromID="E151" fromText="metastatic cervical cancer" toID="E150" toText="Chemotherapy" type="BEFORE" />
+<TLINK id="TL197" fromID="E150" fromText="Chemotherapy" toID="E152" toText="discussed" type="AFTER" />
+<TLINK id="TL198" fromID="E153" fromText="5-FU" toID="E199" toText="her 5-FU" type="OVERLAP" />
+<TLINK id="TL199" fromID="E153" fromText="5-FU" toID="T5" toText="06/18" type="OVERLAP" />
+<TLINK id="TL2" fromID="E5" fromText="admitted" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL20" fromID="E7" fromText="a total abdominal hysterectomy" toID="E10" toText="Vanor" type="OVERLAP" />
+<TLINK id="TL200" fromID="E153" fromText="5-FU" toID="T7" toText="06/20" type="OVERLAP" />
+<TLINK id="TL201" fromID="E153" fromText="5-FU" toID="T6" toText="06/19" type="OVERLAP" />
+<TLINK id="TL202" fromID="E154" fromText="Cisplatin" toID="T8" toText="06/19" type="OVERLAP" />
+<TLINK id="TL203" fromID="E154" fromText="Cisplatin" toID="E200" toText="Cisplatin chemotherapy" type="OVERLAP" />
+<TLINK id="TL204" fromID="E155" fromText="Ifex" toID="T9" toText="06/18" type="OVERLAP" />
+<TLINK id="TL205" fromID="T9" fromText="06/18" toID="E156" toText="Mesna" type="OVERLAP" />
+<TLINK id="TL206" fromID="E157" fromText="noted" toID="T10" toText="06/16" type="OVERLAP" />
+<TLINK id="TL207" fromID="E158" fromText="numerous erythematous maculopapules on her back" toID="T10" toText="06/16" type="OVERLAP" />
+<TLINK id="TL208" fromID="E159" fromText="Dermatology" toID="E160" toText="consulted" type="OVERLAP" />
+<TLINK id="TL209" fromID="E161" fromText="steroid acne" toID="E159" toText="Dermatology" type="OVERLAP" />
+<TLINK id="TL21" fromID="E63" fromText="the Retelk County Medical Center" toID="E62" toText="transferred" type="AFTER" />
+<TLINK id="TL210" fromID="E162" fromText="a rapid steroid taper" toID="E161" toText="steroid acne" type="AFTER" />
+<TLINK id="TL211" fromID="E163" fromText="topical Erythromycin" toID="E162" toText="a rapid steroid taper" type="OVERLAP" />
+<TLINK id="TL212" fromID="E165" fromText="wheezing" toID="E35" toText="wheezing" type="OVERLAP" />
+<TLINK id="TL213" fromID="E167" fromText="tamponade" toID="E166" toText="Her cardiac examination" type="BEFORE" />
+<TLINK id="TL214" fromID="E44" fromText="Cardiology" toID="E79" toText="Cardiology" type="AFTER" />
+<TLINK id="TL215" fromID="E135" fromText="a pericardial window" toID="E134" toText="consulted" type="AFTER" />
+<TLINK id="TL216" fromID="E168" fromText="follow-up echo" toID="E44" toText="Cardiology" type="OVERLAP" />
+<TLINK id="TL217" fromID="E168" fromText="follow-up echo" toID="E169" toText="another echocardiogram" type="OVERLAP" />
+<TLINK id="TL218" fromID="T11" fromText="06/18" toID="E169" toText="another echocardiogram" type="OVERLAP" />
+<TLINK id="TL219" fromID="E170" fromText="showed" toID="E169" toText="another echocardiogram" type="OVERLAP" />
+<TLINK id="TL22" fromID="E8" fromText="a 4x3.6x2 cm cervical mass" toID="E7" toText="a total abdominal hysterectomy" type="BEFORE" />
+<TLINK id="TL220" fromID="E167" fromText="tamponade" toID="E171" toText="tamponade" type="OVERLAP" />
+<TLINK id="TL221" fromID="E172" fromText="examination" toID="E169" toText="another echocardiogram" type="AFTER" />
+<TLINK id="TL222" fromID="E196" fromText="cardiac examination" toID="E172" toText="examination" type="OVERLAP" />
+<TLINK id="TL223" fromID="E173" fromText="some mental status changes" toID="T12" toText="06/18" type="OVERLAP" />
+<TLINK id="TL224" fromID="E175" fromText="hallucinations" toID="T12" toText="06/18" type="OVERLAP" />
+<TLINK id="TL225" fromID="E173" fromText="some mental status changes" toID="E174" toText="confusion" type="OVERLAP" />
+<TLINK id="TL226" fromID="E177" fromText="decreased pO2" toID="E176" toText="narcotics" type="OVERLAP" />
+<TLINK id="TL227" fromID="E173" fromText="some mental status changes" toID="E176" toText="narcotics" type="AFTER" />
+<TLINK id="TL228" fromID="E173" fromText="some mental status changes" toID="E177" toText="decreased pO2" type="AFTER" />
+<TLINK id="TL229" fromID="E178" fromText="The Ifex" toID="E179" toText="held" type="BEFORE" />
+<TLINK id="TL23" fromID="E7" fromText="a total abdominal hysterectomy" toID="T0" toText="02/90" type="OVERLAP" />
+<TLINK id="TL230" fromID="E178" fromText="The Ifex" toID="E180" toText="the mental status changes" type="BEFORE" />
+<TLINK id="TL231" fromID="E155" fromText="Ifex" toID="E178" toText="The Ifex" type="OVERLAP" />
+<TLINK id="TL232" fromID="E183" fromText="the Ifex" toID="E178" toText="The Ifex" type="OVERLAP" />
+<TLINK id="TL233" fromID="E181" fromText="further Ifex" toID="E179" toText="held" type="AFTER" />
+<TLINK id="TL234" fromID="E182" fromText="further hallucinations" toID="E179" toText="held" type="AFTER" />
+<TLINK id="TL235" fromID="E184" fromText="Psychiatry" toID="E185" toText="consulted" type="OVERLAP" />
+<TLINK id="TL236" fromID="E186" fromText="the changes" toID="E187" toText="her new diagnosis" type="OVERLAP" />
+<TLINK id="TL237" fromID="E189" fromText="support services" toID="E188" toText="hooked up" type="OVERLAP" />
+<TLINK id="TL238" fromID="E190" fromText="further counselling" toID="T13" toText="06/22/91" type="AFTER" />
+<TLINK id="TL239" fromID="E192" fromText="symptoms" toID="E193" toText="anxiety" type="OVERLAP" />
+<TLINK id="TL24" fromID="E11" fromText="Pathology" toID="E7" toText="a total abdominal hysterectomy" type="OVERLAP" />
+<TLINK id="TL240" fromID="E193" fromText="anxiety" toID="E191" toText="Xanax" type="BEFORE" />
+<TLINK id="TL241" fromID="E195" fromText="her shortness of breath" toID="E194" toText="change" type="BEFORE" />
+<TLINK id="TL242" fromID="E196" fromText="cardiac examination" toID="E195" toText="her shortness of breath" type="OVERLAP" />
+<TLINK id="TL243" fromID="E164" fromText="The patient &apos;s shortness of breath" toID="E195" toText="her shortness of breath" type="OVERLAP" />
+<TLINK id="TL244" fromID="E197" fromText="discharged" toID="T13" toText="06/22/91" type="OVERLAP" />
+<TLINK id="TL245" fromID="E199" fromText="her 5-FU" toID="E200" toText="Cisplatin chemotherapy" type="OVERLAP" />
+<TLINK id="TL246" fromID="E199" fromText="her 5-FU" toID="T13" toText="06/22/91" type="BEFORE" />
+<TLINK id="TL247" fromID="E200" fromText="Cisplatin chemotherapy" toID="T13" toText="06/22/91" type="BEFORE" />
+<TLINK id="TL248" fromID="E200" fromText="Cisplatin chemotherapy" toID="E154" toText="Cisplatin" type="OVERLAP" />
+<TLINK id="TL25" fromID="E18" fromText="intracavitary and external beam radiation therapy" toID="E7" toText="a total abdominal hysterectomy" type="AFTER" />
+<TLINK id="TL26" fromID="E8" fromText="a 4x3.6x2 cm cervical mass" toID="E9" toText="a fibroid" type="OVERLAP" />
+<TLINK id="TL27" fromID="E13" fromText="poorly differentiated squamous cell carcinoma of the cervix" toID="E8" toText="a 4x3.6x2 cm cervical mass" type="OVERLAP" />
+<TLINK id="TL28" fromID="E12" fromText="revealed" toID="E11" toText="Pathology" type="OVERLAP" />
+<TLINK id="TL29" fromID="E13" fromText="poorly differentiated squamous cell carcinoma of the cervix" toID="E14" toText="vaginal margins" type="OVERLAP" />
+<TLINK id="TL3" fromID="E31" fromText="presents" toID="E0" toText="Admission" type="OVERLAP" />
+<TLINK id="TL30" fromID="E15" fromText="metastatic squamous cell carcinoma in the cardinal ligaments" toID="E13" toText="poorly differentiated squamous cell carcinoma of the cervix" type="OVERLAP" />
+<TLINK id="TL31" fromID="E13" fromText="poorly differentiated squamous cell carcinoma of the cervix" toID="E59" toText="cervical cancer" type="OVERLAP" />
+<TLINK id="TL32" fromID="E64" fromText="further care" toID="E63" toText="the Retelk County Medical Center" type="OVERLAP" />
+<TLINK id="TL33" fromID="E8" fromText="a 4x3.6x2 cm cervical mass" toID="E13" toText="poorly differentiated squamous cell carcinoma of the cervix" type="OVERLAP" />
+<TLINK id="TL34" fromID="E17" fromText="stage 2B disease" toID="E13" toText="poorly differentiated squamous cell carcinoma of the cervix" type="OVERLAP" />
+<TLINK id="TL35" fromID="E16" fromText="extensive lymphatic invasion" toID="E15" toText="metastatic squamous cell carcinoma in the cardinal ligaments" type="OVERLAP" />
+<TLINK id="TL36" fromID="E16" fromText="extensive lymphatic invasion" toID="E94" toText="a malignant lymphangitic spread" type="OVERLAP" />
+<TLINK id="TL37" fromID="E19" fromText="low dose Cisplatin" toID="E18" toText="intracavitary and external beam radiation therapy" type="OVERLAP" />
+<TLINK id="TL38" fromID="E61" fromText="malignant" toID="E66" toText="a new pericardial effusion" type="OVERLAP" />
+<TLINK id="TL39" fromID="E20" fromText="ultrasound" toID="T1" toText="02/91" type="OVERLAP" />
+<TLINK id="TL4" fromID="E2" fromText="gravida IV" toID="E0" toText="Admission" type="BEFORE" />
+<TLINK id="TL40" fromID="E24" fromText="exploratory laparotomy" toID="E20" toText="ultrasound" type="AFTER" />
+<TLINK id="TL41" fromID="E21" fromText="bilateral cystic adnexal masses" toID="E20" toText="ultrasound" type="BEFORE" />
+<TLINK id="TL42" fromID="E23" fromText="physical examination" toID="E20" toText="ultrasound" type="AFTER" />
+<TLINK id="TL43" fromID="E26" fromText="appendectomy" toID="E24" toText="exploratory laparotomy" type="OVERLAP" />
+<TLINK id="TL44" fromID="E25" fromText="a bilateral salpingo-oophorectomy" toID="E24" toText="exploratory laparotomy" type="OVERLAP" />
+<TLINK id="TL45" fromID="E27" fromText="Pathology" toID="E24" toText="exploratory laparotomy" type="AFTER" />
+<TLINK id="TL47" fromID="E26" fromText="appendectomy" toID="E25" toText="a bilateral salpingo-oophorectomy" type="OVERLAP" />
+<TLINK id="TL48" fromID="E28" fromText="tumor" toID="E27" toText="Pathology" type="OVERLAP" />
+<TLINK id="TL49" fromID="E30" fromText="peritubal and periovarian adhesions" toID="E28" toText="tumor" type="OVERLAP" />
+<TLINK id="TL5" fromID="T2" fromText="three to four week" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="TL50" fromID="E30" fromText="peritubal and periovarian adhesions" toID="E21" toText="bilateral cystic adnexal masses" type="OVERLAP" />
+<TLINK id="TL51" fromID="E23" fromText="physical examination" toID="E22" toText="confirmed" type="OVERLAP" />
+<TLINK id="TL52" fromID="E21" fromText="bilateral cystic adnexal masses" toID="E22" toText="confirmed" type="BEFORE" />
+<TLINK id="TL54" fromID="E29" fromText="showed" toID="E27" toText="Pathology" type="OVERLAP" />
+<TLINK id="TL55" fromID="E31" fromText="presents" toID="T2" toText="three to four week" type="OVERLAP" />
+<TLINK id="TL56" fromID="E32" fromText="shortness of breath" toID="E31" toText="presents" type="BEFORE" />
+<TLINK id="TL57" fromID="E34" fromText="evaluated" toID="E31" toText="presents" type="AFTER" />
+<TLINK id="TL58" fromID="E32" fromText="shortness of breath" toID="E33" toText="a dry non-productive cough" type="OVERLAP" />
+<TLINK id="TL59" fromID="E32" fromText="shortness of breath" toID="E164" toText="The patient &apos;s shortness of breath" type="OVERLAP" />
+<TLINK id="TL6" fromID="E0" fromText="Admission" toID="T14" toText="06/11/1991" type="OVERLAP" />
+<TLINK id="TL60" fromID="E32" fromText="shortness of breath" toID="T2" toText="three to four week" type="OVERLAP" />
+<TLINK id="TL61" fromID="E41" fromText="asthma" toID="E32" toText="shortness of breath" type="OVERLAP" />
+<TLINK id="TL62" fromID="E36" fromText="pulmonary function tests" toID="E34" toText="evaluated" type="OVERLAP" />
+<TLINK id="TL63" fromID="E35" fromText="wheezing" toID="E34" toText="evaluated" type="BEFORE" />
+<TLINK id="TL64" fromID="E37" fromText="an FEV1" toID="E36" toText="pulmonary function tests" type="OVERLAP" />
+<TLINK id="TL65" fromID="E36" fromText="pulmonary function tests" toID="E35" toText="wheezing" type="OVERLAP" />
+<TLINK id="TL66" fromID="E40" fromText="Weekscook University Medical Center" toID="E39" toText="admitted" type="AFTER" />
+<TLINK id="TL67" fromID="E50" fromText="EKG" toID="E39" toText="admitted" type="AFTER" />
+<TLINK id="TL68" fromID="E42" fromText="Room air arterial blood gas" toID="E39" toText="admitted" type="OVERLAP" />
+<TLINK id="TL69" fromID="E53" fromText="echo" toID="E39" toText="admitted" type="OVERLAP" />
+<TLINK id="TL7" fromID="E65" fromText="admitted" toID="T14" toText="06/11/1991" type="OVERLAP" />
+<TLINK id="TL70" fromID="E39" fromText="admitted" toID="E36" toText="pulmonary function tests" type="OVERLAP" />
+<TLINK id="TL71" fromID="E40" fromText="Weekscook University Medical Center" toID="E62" toText="transferred" type="BEFORE" />
+<TLINK id="TL72" fromID="E47" fromText="a pO2" toID="E42" toText="Room air arterial blood gas" type="OVERLAP" />
+<TLINK id="TL73" fromID="E46" fromText="showed" toID="E42" toText="Room air arterial blood gas" type="OVERLAP" />
+<TLINK id="TL74" fromID="E48" fromText="a pCO2" toID="E47" toText="a pO2" type="OVERLAP" />
+<TLINK id="TL75" fromID="E49" fromText="a pH" toID="E48" toText="a pCO2" type="OVERLAP" />
+<TLINK id="TL76" fromID="E49" fromText="a pH" toID="E47" toText="a pO2" type="OVERLAP" />
+<TLINK id="TL77" fromID="E52" fromText="sinus tachycardia" toID="E50" toText="EKG" type="BEFORE" />
+<TLINK id="TL78" fromID="E53" fromText="echo" toID="E50" toText="EKG" type="OVERLAP" />
+<TLINK id="TL8" fromID="E1" fromText="Discharge" toID="T15" toText="06/22/1991" type="OVERLAP" />
+<TLINK id="TL80" fromID="E51" fromText="showed" toID="E50" toText="EKG" type="OVERLAP" />
+<TLINK id="TL81" fromID="E55" fromText="pericardial effusion" toID="E53" toText="echo" type="BEFORE" />
+<TLINK id="TL82" fromID="E54" fromText="revealed" toID="E53" toText="echo" type="OVERLAP" />
+<TLINK id="TL83" fromID="E56" fromText="a 10 mm pulsus paradoxus" toID="E55" toText="pericardial effusion" type="OVERLAP" />
+<TLINK id="TL84" fromID="E58" fromText="tamponade" toID="E56" toText="a 10 mm pulsus paradoxus" type="OVERLAP" />
+<TLINK id="TL85" fromID="E117" fromText="her pulsus" toID="E56" toText="a 10 mm pulsus paradoxus" type="OVERLAP" />
+<TLINK id="TL86" fromID="E58" fromText="tamponade" toID="E57" toText="evidence" type="OVERLAP" />
+<TLINK id="TL87" fromID="E60" fromText="the pericardial effusion" toID="E59" toText="cervical cancer" type="OVERLAP" />
+<TLINK id="TL88" fromID="E59" fromText="cervical cancer" toID="E67" toText="metastatic cervical cancer" type="OVERLAP" />
+<TLINK id="TL89" fromID="E55" fromText="pericardial effusion" toID="E60" toText="the pericardial effusion" type="OVERLAP" />
+<TLINK id="TL90" fromID="E60" fromText="the pericardial effusion" toID="E61" toText="malignant" type="OVERLAP" />
+<TLINK id="TL91" fromID="E67" fromText="metastatic cervical cancer" toID="E66" toText="a new pericardial effusion" type="BEFORE" />
+<TLINK id="TL92" fromID="E66" fromText="a new pericardial effusion" toID="E65" toText="admitted" type="BEFORE" />
+<TLINK id="TL93" fromID="E76" fromText="moderate anterior pericardial effusion" toID="E66" toText="a new pericardial effusion" type="OVERLAP" />
+<TLINK id="TL95" fromID="E69" fromText="tamponade" toID="E68" toText="evidence" type="OVERLAP" />
+<TLINK id="TL96" fromID="E72" fromText="Cardiology" toID="E70" toText="An echocardiogram" type="OVERLAP" />
+<TLINK id="TL97" fromID="E70" fromText="An echocardiogram" toID="E74" toText="Echocardiogram" type="OVERLAP" />
+<TLINK id="TL98" fromID="E71" fromText="scheduled" toID="E70" toText="An echocardiogram" type="BEFORE" />
+<TLINK id="TL99" fromID="E70" fromText="An echocardiogram" toID="E65" toText="admitted" type="AFTER" />
+<TLINK id="SECTIME0" fromID="E31" fromText="presents" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME1" fromID="E32" fromText="shortness of breath" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME2" fromID="E33" fromText="a dry non-productive cough" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME3" fromID="E2" fromText="gravida IV" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME4" fromID="E34" fromText="evaluated" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME5" fromID="E35" fromText="wheezing" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME6" fromID="E36" fromText="pulmonary function tests" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME7" fromID="E3" fromText="para 2" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME8" fromID="E43" fromText="showed" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME9" fromID="E37" fromText="an FEV1" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME10" fromID="E38" fromText="an FVC" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME11" fromID="E39" fromText="admitted" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME12" fromID="E40" fromText="Weekscook University Medical Center" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME13" fromID="E4" fromText="metastatic cervical cancer" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME14" fromID="E41" fromText="asthma" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME15" fromID="E42" fromText="Room air arterial blood gas" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME16" fromID="E46" fromText="showed" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME17" fromID="E47" fromText="a pO2" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME18" fromID="E48" fromText="a pCO2" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME19" fromID="E49" fromText="a pH" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME20" fromID="E50" fromText="EKG" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME21" fromID="E51" fromText="showed" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME22" fromID="E52" fromText="sinus tachycardia" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME23" fromID="E53" fromText="echo" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME24" fromID="E54" fromText="revealed" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME25" fromID="E55" fromText="pericardial effusion" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME26" fromID="E56" fromText="a 10 mm pulsus paradoxus" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME27" fromID="E57" fromText="evidence" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME28" fromID="E58" fromText="tamponade" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME29" fromID="E5" fromText="admitted" toID="T14" toText="06/11/1991" type="OVERLAP" />
+<TLINK id="SECTIME30" fromID="E59" fromText="cervical cancer" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME31" fromID="E60" fromText="the pericardial effusion" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME32" fromID="E61" fromText="malignant" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME33" fromID="E62" fromText="transferred" toID="T14" toText="06/11/1991" type="OVERLAP" />
+<TLINK id="SECTIME34" fromID="E63" fromText="the Retelk County Medical Center" toID="T14" toText="06/11/1991" type="OVERLAP" />
+<TLINK id="SECTIME35" fromID="E64" fromText="further care" toID="T14" toText="06/11/1991" type="OVERLAP" />
+<TLINK id="SECTIME36" fromID="E65" fromText="admitted" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME37" fromID="E66" fromText="a new pericardial effusion" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME38" fromID="E6" fromText="malignant pericardial effusion" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME39" fromID="E67" fromText="metastatic cervical cancer" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME40" fromID="E68" fromText="evidence" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME41" fromID="E69" fromText="tamponade" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME42" fromID="E70" fromText="An echocardiogram" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME43" fromID="E71" fromText="scheduled" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME44" fromID="E72" fromText="Cardiology" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME45" fromID="E73" fromText="consulted" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME46" fromID="E74" fromText="Echocardiogram" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME47" fromID="E75" fromText="showed" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME48" fromID="E76" fromText="moderate anterior pericardial effusion" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME49" fromID="E77" fromText="diastolic indications of the right ventricle" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME50" fromID="E78" fromText="low velocity paradox" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME51" fromID="E79" fromText="Cardiology" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME52" fromID="E80" fromText="tamponade" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME53" fromID="E81" fromText="a tap" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME54" fromID="E82" fromText="pulmonary wheezing" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME55" fromID="E7" fromText="a total abdominal hysterectomy" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME56" fromID="E83" fromText="asthma" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME57" fromID="E84" fromText="Her steroids" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME58" fromID="E85" fromText="tapered" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME59" fromID="E86" fromText="Pulmonary" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME60" fromID="E87" fromText="consulted" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME61" fromID="E88" fromText="a CT scan of the chest" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME62" fromID="E89" fromText="sputum" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME63" fromID="E90" fromText="CBC" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME64" fromID="E91" fromText="arterial blood gas" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME65" fromID="E92" fromText="the beta agonist inhalers" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME66" fromID="E93" fromText="steroid inhalers" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME67" fromID="E94" fromText="a malignant lymphangitic spread" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME68" fromID="E95" fromText="pericardial involvement" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME69" fromID="E96" fromText="infectious" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME70" fromID="E97" fromText="other cardiovascular causes" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME71" fromID="E98" fromText="viral bronchiolitis" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME72" fromID="E8" fromText="a 4x3.6x2 cm cervical mass" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME73" fromID="E99" fromText="pulmonary function tests" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME74" fromID="E100" fromText="showed" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME75" fromID="E101" fromText="an FEV1" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME76" fromID="E102" fromText="FVC" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME77" fromID="E103" fromText="Room air arterial blood gas" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME78" fromID="E104" fromText="showed" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME79" fromID="E105" fromText="a pH" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME80" fromID="E106" fromText="pO2" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME81" fromID="E107" fromText="a pCO2" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME82" fromID="E108" fromText="fairly significant AA gradient" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME83" fromID="E109" fromText="oxygen" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME84" fromID="E110" fromText="her CT scan" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME85" fromID="E111" fromText="a new junctional rhythm" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME86" fromID="E112" fromText="a new rub" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME87" fromID="E113" fromText="murmur" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME88" fromID="E114" fromText="examination" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME89" fromID="E9" fromText="a fibroid" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME90" fromID="E115" fromText="Cardiology" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME91" fromID="E116" fromText="a rub" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME92" fromID="E117" fromText="her pulsus" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME93" fromID="E118" fromText="EKG" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME94" fromID="E119" fromText="showed" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME95" fromID="E120" fromText="an ectopic low atrial P" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME96" fromID="E10" fromText="Vanor" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME97" fromID="E121" fromText="stable" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME98" fromID="E122" fromText="tamponade" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME99" fromID="E123" fromText="a follow-up echocardiogram" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME100" fromID="E11" fromText="Pathology" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME101" fromID="E124" fromText="Echocardiogram" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME102" fromID="E125" fromText="showed" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME103" fromID="E126" fromText="the upper limits of normal for size" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME104" fromID="E127" fromText="low normal function" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME105" fromID="E12" fromText="revealed" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME106" fromID="E128" fromText="moderate to mild effusion" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME107" fromID="E129" fromText="pericardial pressures" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME108" fromID="E130" fromText="right atrial pressures" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME109" fromID="E13" fromText="poorly differentiated squamous cell carcinoma of the cervix" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME110" fromID="E131" fromText="right ventricular pressures" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME111" fromID="E132" fromText="the effusion" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME112" fromID="E133" fromText="Thoracic Surgery" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME113" fromID="E134" fromText="consulted" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME114" fromID="E135" fromText="a pericardial window" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME115" fromID="E136" fromText="pulmonary oximetry testing" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME116" fromID="E137" fromText="her CT scan" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME117" fromID="E138" fromText="This showed" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME118" fromID="E139" fromText="lymphangitic spread" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME119" fromID="E140" fromText="cancer in the chest" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME120" fromID="E141" fromText="pulmonary nodules in the chest" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME121" fromID="E142" fromText="pericardial effusion" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME122" fromID="E143" fromText="multiple liver metastases" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME123" fromID="E144" fromText="decreased function of the left kidney" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME124" fromID="E145" fromText="dilated left intrarenal collecting system and proximal ureter" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME125" fromID="E146" fromText="periaortic lymphadenopathy" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME126" fromID="E147" fromText="Pulmonary" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME127" fromID="E148" fromText="lymphangitic spread" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME128" fromID="E149" fromText="a bronchoscopy" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME129" fromID="E14" fromText="vaginal margins" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME130" fromID="E150" fromText="Chemotherapy" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME131" fromID="E151" fromText="metastatic cervical cancer" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME132" fromID="E152" fromText="discussed" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME133" fromID="E153" fromText="5-FU" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME134" fromID="E15" fromText="metastatic squamous cell carcinoma in the cardinal ligaments" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME135" fromID="E154" fromText="Cisplatin" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME136" fromID="E155" fromText="Ifex" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME137" fromID="E156" fromText="Mesna" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME138" fromID="E157" fromText="noted" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME139" fromID="E158" fromText="numerous erythematous maculopapules on her back" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME140" fromID="E159" fromText="Dermatology" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME141" fromID="E160" fromText="consulted" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME142" fromID="E161" fromText="steroid acne" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME143" fromID="E162" fromText="a rapid steroid taper" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME144" fromID="E163" fromText="topical Erythromycin" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME145" fromID="E164" fromText="The patient &apos;s shortness of breath" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME146" fromID="E165" fromText="wheezing" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME147" fromID="E166" fromText="Her cardiac examination" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME148" fromID="E167" fromText="tamponade" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME149" fromID="E44" fromText="Cardiology" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME150" fromID="E168" fromText="follow-up echo" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME151" fromID="E169" fromText="another echocardiogram" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME152" fromID="E170" fromText="showed" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME153" fromID="E16" fromText="extensive lymphatic invasion" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME154" fromID="E171" fromText="tamponade" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME155" fromID="E172" fromText="examination" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME156" fromID="E173" fromText="some mental status changes" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME157" fromID="E174" fromText="confusion" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME158" fromID="E175" fromText="hallucinations" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME159" fromID="E176" fromText="narcotics" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME160" fromID="E177" fromText="decreased pO2" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME161" fromID="E178" fromText="The Ifex" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME162" fromID="E179" fromText="held" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME163" fromID="E180" fromText="the mental status changes" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME164" fromID="E181" fromText="further Ifex" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME165" fromID="E182" fromText="further hallucinations" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME166" fromID="E183" fromText="the Ifex" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME167" fromID="E184" fromText="Psychiatry" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME168" fromID="E185" fromText="consulted" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME169" fromID="E186" fromText="the changes" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME170" fromID="E187" fromText="her new diagnosis" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME171" fromID="E188" fromText="hooked up" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME172" fromID="E189" fromText="support services" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME173" fromID="E17" fromText="stage 2B disease" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME174" fromID="E190" fromText="further counselling" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME175" fromID="E191" fromText="Xanax" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME176" fromID="E192" fromText="symptoms" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME177" fromID="E193" fromText="anxiety" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME178" fromID="E194" fromText="change" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME179" fromID="E195" fromText="her shortness of breath" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME180" fromID="E196" fromText="cardiac examination" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME181" fromID="E197" fromText="discharged" toID="T15" toText="06/22/1991" type="OVERLAP" />
+<TLINK id="SECTIME182" fromID="E198" fromText="discharged home" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME183" fromID="E199" fromText="her 5-FU" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME184" fromID="E200" fromText="Cisplatin chemotherapy" toID="T15" toText="06/22/1991" type="BEFORE" />
+<TLINK id="SECTIME185" fromID="E18" fromText="intracavitary and external beam radiation therapy" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME186" fromID="E19" fromText="low dose Cisplatin" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME187" fromID="E20" fromText="ultrasound" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME188" fromID="E21" fromText="bilateral cystic adnexal masses" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME189" fromID="E22" fromText="confirmed" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME190" fromID="E23" fromText="physical examination" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME191" fromID="E24" fromText="exploratory laparotomy" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME192" fromID="E25" fromText="a bilateral salpingo-oophorectomy" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME193" fromID="E26" fromText="appendectomy" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME194" fromID="E27" fromText="Pathology" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME195" fromID="E28" fromText="tumor" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME196" fromID="E29" fromText="showed" toID="T14" toText="06/11/1991" type="BEFORE" />
+<TLINK id="SECTIME197" fromID="E30" fromText="peritubal and periovarian adhesions" toID="T14" toText="06/11/1991" type="BEFORE" />
+<SECTIME id="S0" start="18" end="28" text="06/11/1991" type="ADMISSION" dvalue="1991-06-11" />
+<SECTIME id="S1" start="46" end="56" text="06/22/1991" type="DISCHARGE" dvalue="1991-06-22" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>
