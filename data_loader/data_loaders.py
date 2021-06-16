@@ -49,7 +49,7 @@ def load_dataset(dir_name, type):
     # print("Validate size {}".format(len(validate_set)))
     return corpus
 
-def single_loader(dataset):
+def loader(dataset):
     def get_data_point(my_dict, flag):
         data = []
         eids = my_dict['event_dict'].keys()
@@ -59,19 +59,35 @@ def single_loader(dataset):
             x_sent_id = my_dict['event_dict'][x]['sent_id']
             y_sent_id = my_dict['event_dict'][y]['sent_id']
 
-            x_sent = padding(my_dict["sentences"][x_sent_id]["roberta_subword_to_ID"])
-            y_sent = padding(my_dict["sentences"][y_sent_id]["roberta_subword_to_ID"])
+            x_ctx = []
+            x_ctx_pos = []
+            y_ctx = []
+            y_ctx_pos = []
+            for sent_id in range(len(my_dict["sentences"])):
+                if sent_id != x_sent_id:
+                    sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
+                    sent_pos = pos_to_id(my_dict["sentences"][sent_id]['roberta_subword_pos'])
+                    x_ctx.append(sent)
+                    x_ctx_pos.append(sent_pos)
+                if sent_id != y_sent_id:
+                    sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
+                    sent_pos = pos_to_id(my_dict["sentences"][sent_id]['roberta_subword_pos'])
+                    y_ctx.append(sent)
+                    y_ctx_pos.append(sent_pos)
+                
+            x_sent = my_dict["sentences"][x_sent_id]["roberta_subword_to_ID"]
+            y_sent = my_dict["sentences"][y_sent_id]["roberta_subword_to_ID"]
 
             x_position = my_dict["event_dict"][x]["roberta_subword_id"]
             y_position = my_dict["event_dict"][y]["roberta_subword_id"]
 
-            x_sent_pos = pos_to_id(padding(my_dict["sentences"][x_sent_id]["roberta_subword_pos"], pos = True))
-            y_sent_pos = pos_to_id(padding(my_dict["sentences"][y_sent_id]["roberta_subword_pos"], pos = True))
+            x_sent_pos = pos_to_id(my_dict["sentences"][x_sent_id]["roberta_subword_pos"])
+            y_sent_pos = pos_to_id(my_dict["sentences"][y_sent_id]["roberta_subword_pos"])
 
             xy = my_dict["relation_dict"].get((x, y))
             yx = my_dict["relation_dict"].get((y, x))
-            candidates = [[str(x), str(y), x_sent, y_sent, x_position, y_position, x_sent_pos, y_sent_pos, flag, xy],
-                        [str(y), str(x), y_sent, x_sent, y_position, x_position, y_sent_pos, x_sent_pos, flag, yx]]
+            candidates = [[x_sent, y_sent, x_sent_id, y_sent_id, x_position, y_position, x_sent_pos, y_sent_pos, x_ctx, y_ctx, x_ctx_pos, y_ctx_pos, flag, xy],
+                        [y_sent, x_sent, y_sent_id, x_sent_id, y_position, x_position, y_sent_pos, x_sent_pos, y_ctx, x_ctx, y_ctx_pos, x_ctx_pos, flag, yx]]
             for item in candidates:
                 if item[-1] != None:
                     data.append(item)

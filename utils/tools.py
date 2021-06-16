@@ -14,12 +14,28 @@ def padding(sent, pos = False, max_sent_len = 150):
     if pos == False:
         one_list = [1] * max_sent_len
         one_list[0:len(sent)] = sent
-        return torch.tensor(one_list, dtype=torch.long)
+        return one_list
     else:
         one_list = ["None"] * max_sent_len
         one_list[0:len(sent)] = sent
         return one_list
 
+def padding_matrix(matrix, pos=False, max_len=150):
+    if pos==False:
+        one_matrix = []
+        for i in range(len(matrix)):
+            one_list = [1] * max_len
+            one_list[:len(matrix[i])] = matrix[i]
+            one_matrix.append(one_list)
+            return one_matrix
+    else:
+        one_matrix = []
+        for i in range(len(matrix)):
+            one_list = ['None'] * max_len
+            one_list[:len(matrix[i])] = matrix[i]
+            one_matrix.append(one_list)
+            return one_matrix
+        
 def format_time(elapsed):
     '''
     Takes a time in seconds and returns a string hh:mm:ss
@@ -126,4 +142,5 @@ def id_lookup(span_SENT, start_char):
 def pos_to_id(sent_pos):
     id_pos_sent =  [pos_dict.get(pos) if pos_dict.get(pos) != None else 0 
                     for pos in sent_pos]
-    return torch.tensor(id_pos_sent, dtype=torch.long)
+    return id_pos_sent
+
