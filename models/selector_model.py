@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from transformers import AutoModel
+from utils.constant import CUDA
 
 
 class SelectorModel(nn.Module):
@@ -15,12 +16,14 @@ class SelectorModel(nn.Module):
         self.selector = LSTMSelector(in_size=self.in_dim, hidden_dim=self.hidden_dim, mlp_size=self.mlp_size)
     
     def forward(self, ctx, target, target_len, ctx_len, n_step):
-        target_emb = torch.stack(
-            [self.encode(target[i]) for i in range(target.size(0))], dim=0
-        )
+        print(ctx.size())
+        print(target.size())
+        target_emb = self.encode(target)
         ctx_emb = torch.stack(
             [self.encode(ctx[i]) for i in range(ctx.size(0))], dim=0
         )
+        print(target_emb.size())
+        print(ctx_emb.size())
         outputs, dist = self.selector(ctx_emb, target_emb, ctx_len, target_len, n_step)
         return outputs, dist
     
@@ -38,11 +41,11 @@ class LSTMSelector(nn.Module):
         self.fn_activate = nn.ReLU()
         self.drop_out = nn.Dropout(0.5)
         self.lstm_cell = nn.LSTMCell(in_size, hidden_dim)
-        self.mlp = nn.ModuleList(
-                    [nn.Linear(in_size+hidden_dim, mlp_size, bias=False),
+        self.mlp = nn.Sequential(
+                    nn.Linear(in_size+hidden_dim, mlp_size, bias=False),
                     self.drop_out,
                     self.fn_activate,
-                    nn.Linear(mlp_size, 1, bias=False)]
+                    nn.Linear(mlp_size, 1, bias=False)
         )        
     
     def forward(self, ctx_emb: torch.Tensor, target_emb: torch.Tensor, ctx_len, target_len, n_step):
@@ -54,19 +57,26 @@ class LSTMSelector(nn.Module):
         ns = ctx_emb.size()[1]
         h_0 = torch.zeros((bs, self.hidden_dim))
         c_0 = torch.zeros((bs, self.hidden_dim))
-        lstm_state = (h_0, c_0)
-        dim = self.hidden_dim + self.in_dim
         mask = torch.ones((bs, ns))
-        for _ in n_step:
+        dim = self.hidden_dim + self.in_dim
+        if CUDA:
+            h_0 = h_0.cuda()
+            c_0 = c_0.cuda()
+            mask = mask.cuda()
+        lstm_state = (h_0, c_0)
+        for _ in range(n_step):
+            # print(lstm_in)
+            # print(lstm_state)
             h, c = self.lstm_cell(lstm_in, lstm_state)
 
             ctx_emb = torch.cat([h.unsqueeze(1).expand((-1, ns, -1)), ctx_emb], dim=2) # bs x ns x (in_dim + hidden_dim)
             ctx_emb = self.drop_out(ctx_emb)
-            sc = torch.sigmoid(self.mlp(ctx_emb)) # bs x ns
+            # print(ctx_emb.size())
+            sc = torch.sigmoid(self.mlp(ctx_emb).squeeze()) # bs x ns
             sc = sc * mask
 
             if self.training:
-                prob = F.softmax(sc, dim=-1)
+                prob = F.softmax(sc, dim=-1) # bs x ns
                 C = torch.distributions.Categorical(probs=prob)
                 out = C.sample() # bs x 1: index of selected sentence in this step
                 dists.append(C)
@@ -75,7 +85,7 @@ class LSTMSelector(nn.Module):
                 out = sc.max(dim=-1)[1] # bs x 1: index of selected sentence in this step
                 outputs.append(out)
             for i in range(len(out)):
-                mask[i, out[i]] *= 0
+                mask[i, out[i]] *= -1000
             
             lstm_in = torch.gather(ctx_emb, dim=1, index=out.unsqueeze(1).unsqueeze(2).expand(bs, 1, self.in_dim))
             lstm_in = lstm_in.squeeze(1)

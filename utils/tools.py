@@ -171,13 +171,14 @@ def make_selector_input(target, ctx, sent_id):
 
 def make_predictor_input(target, pos_target, position_target, sent_id, ctx, pos_ctx, ctx_id):
     bs = len(target)
-    assert len(ctx) == bs and len(sent_id) == bs and len(ctx_id) == bs and len(position_target) == bs, 'Each element must be same batch size'
+    assert len(ctx) == bs and len(sent_id) == bs and len(position_target) == bs, 'Each element must be same batch size'
     augm_target = []
     augm_pos_target = []
     augm_position = []
     for i in range(bs):
-        augment, position = augment_target(target[i], sent_id[i], position_target[i], ctx[i], ctx_id[i])
-        pos_augment, pos_position = augment_target(pos_target[i], sent_id[i], position_target[i], pos_ctx[i], ctx_id[i])
+        selected_ctx = [step[i] for step in ctx_id]
+        augment, position = augment_target(target[i], sent_id[i], position_target[i], ctx[i], selected_ctx)
+        pos_augment, pos_position = augment_target(pos_target[i], sent_id[i], position_target[i], pos_ctx[i], selected_ctx)
         assert position == pos_position
         augm_target.append(padding(augment))
         augm_pos_target.append(padding(pos_augment, pos=True))
