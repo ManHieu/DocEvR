@@ -1,9 +1,13 @@
+from collections import defaultdict
 import datetime
+import re
 import torch
+from torch._C import dtype, long
 import spacy
 from sklearn.metrics import confusion_matrix
 from transformers import RobertaModel, RobertaTokenizer
 from utils.constant import *
+from sklearn.metrics import precision_recall_fscore_support
 
 CUDA = torch.cuda.is_available()
 tokenizer = RobertaTokenizer.from_pretrained('roberta-base', unk_token='<unk>')
@@ -12,11 +16,11 @@ nlp = spacy.load("en_core_web_sm")
 # Padding function
 def padding(sent, pos = False, max_sent_len = 150):
     if pos == False:
-        one_list = [1] * max_sent_len
+        one_list = [1] * max_sent_len # pad token id 
         one_list[0:len(sent)] = sent
         return one_list
     else:
-        one_list = ["None"] * max_sent_len
+        one_list = [0] * max_sent_len # none id 
         one_list[0:len(sent)] = sent
         return one_list
 
@@ -143,4 +147,94 @@ def pos_to_id(sent_pos):
     id_pos_sent =  [pos_dict.get(pos) if pos_dict.get(pos) != None else 0 
                     for pos in sent_pos]
     return id_pos_sent
+
+def make_selector_input(target, ctx, sent_id):
+    bs = len(target)
+    assert len(ctx) == bs and len(sent_id) == bs, 'Each element must be same batch size'
+    pad_target = []
+    target_len = []
+    augm_ctx = []
+    ctx_len = []
+    max_ns = 0
+    for i in range(bs):
+        target_len.append(len(target[i]))
+        pad_target.append(padding(target[i]))
+        augment = [padding(sent) for sent in augment_with_target(target[i], sent_id[i], ctx[i])]
+        augm_ctx.append(augment)
+        ctx_len.append([len(sent) for sent in ctx[i]])
+        max_ns = max(len(augment), max_ns)
+    
+    pad_target = torch.tensor(pad_target, dtype=torch.long)
+    target_len = torch.tensor(target_len, dtype=torch.long)
+    augm_ctx = pad_to_max_ns(augm_ctx, max_ns)
+    augm_ctx = torch.tensor(augm_ctx, dtype=torch.long)
+    return pad_target, target_len, augm_ctx, ctx_len
+
+def make_predictor_input(target, pos_target, position_target, sent_id, ctx, pos_ctx, ctx_id):
+    bs = len(target)
+    assert len(ctx) == bs and len(sent_id) == bs and len(ctx_id) == bs and len(position_target) == bs, 'Each element must be same batch size'
+    augm_target = []
+    augm_pos_target = []
+    augm_position = []
+    for i in range(bs):
+        augment, position = augment_target(target[i], sent_id[i], position_target[i], ctx[i], ctx_id[i])
+        pos_augment, pos_position = augment_target(pos_target[i], sent_id[i], position_target[i], pos_ctx[i], ctx_id[i])
+        assert position == pos_position
+        augm_target.append(padding(augment))
+        augm_pos_target.append(padding(pos_augment, pos=True))
+        augm_position.append(position)
+    augm_target = torch.tensor(augm_target, dtype=torch.long)
+    augm_pos_target = torch.tensor(augm_pos_target, dtype=torch.long)
+    augm_position = torch.tensor(augm_position, dtype=torch.long)    
+    return augm_target, augm_pos_target, augm_position
+
+def augment_target(target, sent_id, position_target, ctx, ctx_id):
+    augment_target = []
+    for id in sorted(ctx_id):
+        if id < sent_id:
+            augment_target += ctx[id][1:]
+            position_target += len(ctx[id][1:])     
+        elif id == sent_id:
+            augment_target = augment_target + target[1:] + ctx[id]
+        else:
+            augment_target += ctx[id][1:]
+    augment_target = [0] + augment_target
+    return augment_target, position_target
+            
+
+def pad_to_max_ns(ctx, max_ns):
+    sent_len = len(ctx[0][0])
+    pad_sent = [1] * sent_len
+    for i in range(len(ctx)):
+        if len(ctx[i]) < max_ns:
+            ctx[i] += [pad_sent] * (max_ns - len(ctx[i]))
+    return ctx
+
+def augment_with_target(target_sent, sent_id, ctx):
+    augm_ctx = []
+    for i in range(len(ctx)):
+        ctx_sent = ctx[i]
+        if i < sent_id:
+            augm = ctx_sent + target_sent[1:]
+        else:
+            augm = target_sent + ctx_sent[1:]
+        augm_ctx.append(augm)
+    return augm_ctx
+
+def score(predict, flag, xy, task_weights):
+    count = defaultdict(int)
+    p_task = defaultdict(list)
+    g_task = defaultdict(list)
+    
+    for i in range(len(predict)):
+        p_task[predict[i][0]].append(predict[i][1])
+        g_task[flag[i]].append(xy[i])
+    
+    score = 0.0
+    for task in p_task.keys():
+        micro_f1 = precision_recall_fscore_support(g_task[task], p_task[task], average='micro')[3]
+        score += task_weights[task] * micro_f1
+    
+    return score
+
 

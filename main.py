@@ -7,26 +7,37 @@ import optuna
 from torch.utils.data.dataloader import DataLoader
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 from .data_loader.data_loaders import loader
+from .data_loader.EventDataset import EventDataset
 
 
 def seed_worker(worker_id):
         worker_seed = torch.initial_seed() % 2**32
         np.random.seed(worker_seed)
         random.seed(worker_seed)
+
+def collate_fn(batch):
+    return tuple(zip(*batch))
     
 def objective(trial: optuna.Trial):
+    params = {}
+    batch_size = 16
+
     torch.manual_seed(seed=seed)
     np.random.seed(seed)
     random.seed(seed)
 
     train_set = []
+    validate_dataloaders = {}
+    test_dataloaders = {}
     for dataset in datasets:
-        train, test, valid = loader(dataset)
-
+        train, test, validate = loader(dataset)
+        train_set.extend(train)
+        validate_dataloader = DataLoader(EventDataset(validate), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+        test_dataloader = DataLoader(EventDataset(test), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+        validate_dataloaders[dataset] = validate_dataloader
+        test_dataloaders[dataset] = test_dataloader
+    train_dataloader = DataLoader(EventDataset(train_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
     
-
-    params = {}
-
 
 if __name__ == '__main__':
     parser = ArgumentParser(formatter_class=ArgumentDefaultsHelpFormatter)
