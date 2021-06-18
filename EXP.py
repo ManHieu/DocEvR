@@ -43,6 +43,8 @@ class EXP(object):
         for i in range(len(gold)):
             reward.append(logit[i][gold[i]].item())
         reward = numpy.array(reward)
+        print(logit)
+        print(reward)
         return reward - reward.mean()
         
     def train(self):
@@ -90,6 +92,7 @@ class EXP(object):
                     flag = flag.cuda()
                 logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
                 task_reward = self.task_reward(logits, xy)
+                print(task_reward)
                 s_loss = 0.0
                 for i in range(self.num_ctx_select):
                     s_loss += - (x_dist[i].log_prob(x_ctx_selected[i]) + y_dist[i].log_prob(y_ctx_selected[i])) * task_reward[i]
