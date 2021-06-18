@@ -1,3 +1,4 @@
+from os import path
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -8,7 +9,13 @@ from utils.constant import CUDA
 class SelectorModel(nn.Module):
     def __init__(self, mlp_size):
         super().__init__()
-        self.encoder = AutoModel.from_pretrained('roberta-base')
+        roberta_type = "roberta-base"
+        if path.exists("./pretrained_models/models/{}".format(roberta_type)):
+            print("Loading pretrain model from local ......")
+            self.roberta = AutoModel.from_pretrained("./pretrained_models/models/{}".format(roberta_type), output_hidden_states=True)
+        else:
+            print("Loading pretrain model ......")
+            self.roberta = AutoModel.from_pretrained(roberta_type, output_hidden_states=True)
 
         self.in_dim = 768
         self.hidden_dim = 768
