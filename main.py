@@ -59,7 +59,7 @@ def objective(trial: optuna.Trial):
     train_dataloader = DataLoader(EventDataset(train_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
     
     selector = SelectorModel(mlp_size=params['s_mlp'])
-    predictor =ECIRobertaJointTask(mlp_size=params['p_mlp'], roberta_type=roberta_type, datasets=dataset, finetune=False,
+    predictor =ECIRobertaJointTask(mlp_size=params['p_mlp'], roberta_type=roberta_type, datasets=datasets, finetune=False,
                                     pos_dim=20, drop_rate=drop_rate)
     
     if CUDA:
