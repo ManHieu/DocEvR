@@ -180,8 +180,8 @@ def make_predictor_input(target, pos_target, position_target, sent_id, ctx, pos_
         augment, position = augment_target(target[i], sent_id[i], position_target[i], ctx[i], selected_ctx)
         pos_augment, pos_position = augment_target(pos_target[i], sent_id[i], position_target[i], pos_ctx[i], selected_ctx)
         assert position == pos_position
-        augm_target.append(padding(augment))
-        augm_pos_target.append(padding(pos_augment, pos=True))
+        augm_target.append(padding(augment, max_sent_len=512))
+        augm_pos_target.append(padding(pos_augment, pos=True, max_sent_len=512))
         augm_position.append(position)
     augm_target = torch.tensor(augm_target, dtype=torch.long)
     augm_pos_target = torch.tensor(augm_pos_target, dtype=torch.long)
@@ -190,8 +190,8 @@ def make_predictor_input(target, pos_target, position_target, sent_id, ctx, pos_
 
 def augment_target(target, sent_id, position_target, ctx, ctx_id):
     augment_target = []
-    print("ctx id: {} ".format(ctx_id))
-    print("ctx: {}".format(ctx))
+    # print("ctx id: {} ".format(ctx_id))
+    # print("ctx: {}".format(ctx))
     for id in sorted(ctx_id):
         if id < sent_id:
             augment_target += ctx[id][1:]
@@ -201,8 +201,8 @@ def augment_target(target, sent_id, position_target, ctx, ctx_id):
         else:
             augment_target += ctx[id][1:]
     augment_target = [0] + augment_target
-    print("augment_target: {}".format(augment_target))
-    print("position_target: {}".format(position_target))
+    # print("augment_target: {}".format(augment_target))
+    # print("position_target: {}".format(position_target))
     return augment_target, position_target
             
 
