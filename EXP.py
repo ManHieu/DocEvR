@@ -43,8 +43,8 @@ class EXP(object):
         for i in range(len(gold)):
             reward.append(logit[i][gold[i]].item())
         reward = numpy.array(reward)
-        print(logit)
-        print(reward)
+        # print(logit)
+        # print(reward)
         return reward - reward.mean()
         
     def train(self):
@@ -93,16 +93,18 @@ class EXP(object):
                 logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
                 task_reward = self.task_reward(logits, xy)
                 print(task_reward)
-                print(x_dist)
-                print(x_ctx_selected)
-                print(y_dist)
-                print(y_ctx_selected)
+                # print(x_dist)
+                # print(x_ctx_selected)
+                # print(y_dist)
+                # print(y_ctx_selected)
                 s_loss = 0.0
                 for i in range(self.num_ctx_select):
                     log_prob = x_dist[i].log_prob(x_ctx_selected[i]) + y_dist[i].log_prob(y_ctx_selected[i])
                     print(log_prob)
-                    s_loss += - (x_dist[i].log_prob(x_ctx_selected[i]) + y_dist[i].log_prob(y_ctx_selected[i])) * task_reward[i]
-                
+                    print(log_prob * task_reward)
+                    s_loss += - torch.sum(log_prob * task_reward)
+                    print(s_loss)
+                       
                 self.selector_loss += s_loss.item()
                 self.predictor_loss += p_loss.item()
                 s_loss.backward()
