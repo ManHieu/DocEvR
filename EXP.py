@@ -104,10 +104,10 @@ class EXP(object):
                 s_loss = 0.0
                 for i in range(self.num_ctx_select):
                     log_prob = x_dist[i].log_prob(x_ctx_selected[i]) + y_dist[i].log_prob(y_ctx_selected[i])
-                    print(log_prob)
-                    print(log_prob * task_reward)
+                    # print(log_prob)
+                    # print(log_prob * task_reward)
                     s_loss += - torch.sum(log_prob * task_reward)
-                    print(s_loss)
+                    # print(s_loss)
                        
                 self.selector_loss += s_loss.item()
                 self.predictor_loss += p_loss.item()
