@@ -41,7 +41,7 @@ class EXP(object):
         logit = torch.softmax(logit, dim=-1)
         reward = []
         for i in range(len(gold)):
-            reward.append(logit[i][gold[i]])
+            reward.append(logit[i][gold[i]].item())
         reward = numpy.array(reward)
         return reward - reward.mean()
         
