@@ -11,8 +11,8 @@ import numpy as np
 import optuna
 from torch.utils.data.dataloader import DataLoader
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
-from .data_loader.data_loaders import loader
-from .data_loader.EventDataset import EventDataset
+from data_loader.data_loaders import loader
+from data_loader.EventDataset import EventDataset
 
 
 def count_parameters(model):
