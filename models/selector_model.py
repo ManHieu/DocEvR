@@ -39,10 +39,10 @@ class LSTMSelector(nn.Module):
         self.drop_out = nn.Dropout(0.5)
         self.lstm_cell = nn.LSTMCell(in_size, hidden_dim)
         self.mlp = nn.ModuleList(
-                    nn.Linear(in_size+hidden_dim, mlp_size, bias=False),
+                    [nn.Linear(in_size+hidden_dim, mlp_size, bias=False),
                     self.drop_out,
                     self.fn_activate,
-                    nn.Linear(mlp_size, 1, bias=False)
+                    nn.Linear(mlp_size, 1, bias=False)]
         )        
     
     def forward(self, ctx_emb: torch.Tensor, target_emb: torch.Tensor, ctx_len, target_len, n_step):

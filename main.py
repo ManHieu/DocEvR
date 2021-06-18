@@ -3,7 +3,6 @@ from EXP import EXP
 from utils.constant import CUDA
 from models.roberta_model_multi import ECIRobertaJointTask
 from models.selector_model import SelectorModel
-from os import name
 import torch
 import torch.nn as nn
 import random
