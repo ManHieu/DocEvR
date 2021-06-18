@@ -12,10 +12,10 @@ class SelectorModel(nn.Module):
         roberta_type = "roberta-base"
         if path.exists("./pretrained_models/models/{}".format(roberta_type)):
             print("Loading pretrain model from local ......")
-            self.roberta = AutoModel.from_pretrained("./pretrained_models/models/{}".format(roberta_type), output_hidden_states=True)
+            self.encoder = AutoModel.from_pretrained("./pretrained_models/models/{}".format(roberta_type), output_hidden_states=True)
         else:
             print("Loading pretrain model ......")
-            self.roberta = AutoModel.from_pretrained(roberta_type, output_hidden_states=True)
+            self.encoder = AutoModel.from_pretrained(roberta_type, output_hidden_states=True)
 
         self.in_dim = 768
         self.hidden_dim = 768
