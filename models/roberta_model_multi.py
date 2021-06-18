@@ -230,7 +230,6 @@ class ECIRobertaJointTask(nn.Module):
         for i in range(0, batch_size):
             typ = str(flag[i].item())
             logit = self.module_dict[typ](presentation[i])
-            prediction.append([typ, torch.argmax(logits).item()])
             pad_logit = torch.zeros((1,self.max_num_class))
             pad_logit = pad_logit - 100000
             pad_logit[:, :len(logit)] = logit
