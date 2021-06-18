@@ -93,9 +93,6 @@ class EXP(object):
                     flag = flag.cuda()
                 logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
                 task_reward = self.task_reward(logits, xy)
-                task_reward = torch.tensor(task_reward, dtype=torch.long)
-                if CUDA:
-                    task_reward = task_reward.cuda()
                 print(task_reward)
                 # print(x_dist)
                 # print(x_ctx_selected)
@@ -106,8 +103,8 @@ class EXP(object):
                     log_prob = x_dist[i].log_prob(x_ctx_selected[i]) + y_dist[i].log_prob(y_ctx_selected[i])
                     # print(log_prob)
                     # print(log_prob * task_reward)
-                    s_loss += - torch.sum(log_prob * task_reward)
-                    # print(s_loss)
+                    s_loss += - sum([log_prob[j]*task_reward[j] for j in range(len(task_reward[i]))])
+                    print(s_loss)
                        
                 self.selector_loss += s_loss.item()
                 self.predictor_loss += p_loss.item()
