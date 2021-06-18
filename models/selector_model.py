@@ -69,10 +69,10 @@ class LSTMSelector(nn.Module):
             # print(lstm_state)
             h, c = self.lstm_cell(lstm_in, lstm_state)
 
-            ctx_emb = torch.cat([h.unsqueeze(1).expand((-1, ns, -1)), ctx_emb], dim=2) # bs x ns x (in_dim + hidden_dim)
-            ctx_emb = self.drop_out(ctx_emb)
+            _ctx_emb = torch.cat([h.unsqueeze(1).expand((-1, ns, -1)), ctx_emb], dim=2) # bs x ns x (in_dim + hidden_dim)
+            _ctx_emb = self.drop_out(_ctx_emb)
             # print(ctx_emb.size())
-            sc = torch.sigmoid(self.mlp(ctx_emb).squeeze()) # bs x ns
+            sc = torch.sigmoid(self.mlp(_ctx_emb).squeeze()) # bs x ns
             sc = sc * mask
 
             if self.training:
