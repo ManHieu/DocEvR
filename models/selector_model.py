@@ -67,8 +67,9 @@ class LSTMSelector(nn.Module):
         mask = torch.ones((bs, ns))
         print(ctx_len)
         for i in range(bs):
-            if ctx_len[i] < ns:
-                mask[i, ctx_len[i]:] *= -1000
+            if len(ctx_len[i]) < ns:
+                mask[i, len(ctx_len[i]):] *= -1000
+        print(mask)
         dim = self.hidden_dim + self.in_dim
         if CUDA:
             h_0 = h_0.cuda()
