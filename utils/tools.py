@@ -2,7 +2,6 @@ from collections import defaultdict
 import datetime
 import re
 import torch
-from torch._C import dtype, long
 import spacy
 from sklearn.metrics import confusion_matrix
 from transformers import RobertaModel, RobertaTokenizer
