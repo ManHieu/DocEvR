@@ -190,8 +190,8 @@ def make_predictor_input(target, pos_target, position_target, sent_id, ctx, pos_
 
 def augment_target(target, sent_id, position_target, ctx, ctx_id):
     augment_target = []
-    print(ctx_id)
-    print(ctx)
+    print("ctx id: {} ".format(ctx_id))
+    print("ctx: {}".format(ctx))
     for id in sorted(ctx_id):
         if id < sent_id:
             augment_target += ctx[id][1:]
@@ -201,6 +201,8 @@ def augment_target(target, sent_id, position_target, ctx, ctx_id):
         else:
             augment_target += ctx[id][1:]
     augment_target = [0] + augment_target
+    print("augment_target: {}".format(augment_target))
+    print("position_target: {}".format(position_target))
     return augment_target, position_target
             
 

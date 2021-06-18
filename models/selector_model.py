@@ -23,14 +23,14 @@ class SelectorModel(nn.Module):
         self.selector = LSTMSelector(in_size=self.in_dim, hidden_dim=self.hidden_dim, mlp_size=self.mlp_size)
     
     def forward(self, ctx, target, target_len, ctx_len, n_step):
-        print(ctx.size())
-        print(target.size())
+        # print(ctx.size())
+        # print(target.size())
         target_emb = self.encode(target)
         ctx_emb = torch.stack(
             [self.encode(ctx[i]) for i in range(ctx.size(0))], dim=0
         )
-        print(target_emb.size())
-        print(ctx_emb.size())
+        # print(target_emb.size())
+        # print(ctx_emb.size())
         outputs, dist = self.selector(ctx_emb, target_emb, ctx_len, target_len, n_step)
         return outputs, dist
     
