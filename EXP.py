@@ -1,6 +1,7 @@
 from os import path
 import numpy
 from sklearn.metrics import precision_recall_fscore_support, confusion_matrix, classification_report
+from torch._C import dtype
 import tqdm
 from models.roberta_model_multi import ECIRobertaJointTask
 from models.selector_model import SelectorModel
@@ -92,6 +93,9 @@ class EXP(object):
                     flag = flag.cuda()
                 logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
                 task_reward = self.task_reward(logits, xy)
+                task_reward = torch.tensor(task_reward, dtype=torch.long)
+                if CUDA:
+                    task_reward = task_reward.cuda()
                 print(task_reward)
                 # print(x_dist)
                 # print(x_ctx_selected)
