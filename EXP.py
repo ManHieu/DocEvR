@@ -1,6 +1,6 @@
 from os import path
 import numpy
-from sklearn.metrics import precision_recall_fscore_support, confusion_matrix, classification_report,
+from sklearn.metrics import precision_recall_fscore_support, confusion_matrix, classification_report
 import tqdm
 from models.roberta_model_multi import ECIRobertaJointTask
 from models.selector_model import SelectorModel
