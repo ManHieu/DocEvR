@@ -3,7 +3,7 @@ import numpy
 from sklearn.metrics import precision_recall_fscore_support, confusion_matrix, classification_report,
 import tqdm
 from models.roberta_model_multi import ECIRobertaJointTask
-from models.selector_model import LSTMSelector
+from models.selector_model import SelectorModel
 import time
 from .utils.tools import *
 import torch
@@ -11,7 +11,7 @@ import torch.optim as optim
 
 
 class EXP(object):
-    def __init__(self, selector: LSTMSelector, predictor: ECIRobertaJointTask, num_epoches,
+    def __init__(self, selector: SelectorModel, predictor: ECIRobertaJointTask, num_epoches,
                 train_dataloader, validate_dataloaders, test_dataloaders, 
                 s_lr, p_lr, num_ctx_select, best_path) -> None:
         super().__init__()
@@ -105,6 +105,10 @@ class EXP(object):
         print("Training complete!")
         print("Total training took {:} (h:mm:ss)".format(format_time(time.time()-start_time)))
         print("Best micro F1:{}".format(self.best_micro_f1))
+        print("Best confusion matrix: ")
+        for cm in self.best_cm:
+            print(cm)
+        return self.best_micro_f1, self.best_cm, self.best_matres
 
     def evaluate(self, is_test=False):
         F1s = []
