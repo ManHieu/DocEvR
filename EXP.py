@@ -5,7 +5,7 @@ import tqdm
 from models.roberta_model_multi import ECIRobertaJointTask
 from models.selector_model import SelectorModel
 import time
-from .utils.tools import *
+from utils.tools import *
 import torch
 import torch.optim as optim
 
