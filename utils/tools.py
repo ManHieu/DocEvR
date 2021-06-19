@@ -13,7 +13,7 @@ tokenizer = RobertaTokenizer.from_pretrained('roberta-base', unk_token='<unk>')
 nlp = spacy.load("en_core_web_sm")
 
 # Padding function
-def padding(sent, pos = False, max_sent_len = 150):
+def padding(sent, pos = False, max_sent_len = 128):
     if pos == False:
         one_list = [1] * max_sent_len # pad token id 
         one_list[0:len(sent)] = sent
