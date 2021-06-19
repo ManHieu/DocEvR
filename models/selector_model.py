@@ -76,6 +76,7 @@ class LSTMSelector(nn.Module):
             c_0 = c_0.cuda()
             mask = mask.cuda()
         lstm_state = (h_0, c_0)
+        log_probs = torch.zeros((bs)).cuda()
         for _ in range(n_step):
             # print(lstm_in)
             # print(lstm_state)
@@ -91,6 +92,7 @@ class LSTMSelector(nn.Module):
                 prob = F.softmax(sc, dim=-1) # bs x ns
                 C = torch.distributions.Categorical(probs=prob)
                 out = C.sample() # bs x 1: index of selected sentence in this step
+                log_probs = log_probs + torch.log(prob[torch.arange(bs), out])
                 dists.append(prob)
                 outputs.append(out)
             else:
@@ -102,14 +104,6 @@ class LSTMSelector(nn.Module):
             lstm_in = torch.gather(ctx_emb, dim=1, index=out.unsqueeze(1).unsqueeze(2).expand(bs, 1, self.in_dim))
             lstm_in = lstm_in.squeeze(1)
             lstm_state = (h, c)
-        
-        log_probs = torch.zeros((bs)).cuda()
-        for output, dist in zip(outputs, dists):
-            print("Output: ", output)
-            print("Prob not select: ", dist)
-            print("Prob: ", dist[torch.arange(bs), output])
-            print("Prob_log: ", torch.log(dist[torch.arange(bs), output]))
-            log_probs = log_probs + torch.log(dist[torch.arange(bs), output]) # bs x 1 
         print("Prob_log all: ", log_probs)
         
         return outputs, log_probs
