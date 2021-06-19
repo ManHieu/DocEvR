@@ -103,7 +103,13 @@ class LSTMSelector(nn.Module):
             lstm_in = lstm_in.squeeze(1)
             lstm_state = (h, c)
         
-        return outputs, dists
+        log_probs = torch.zeros((bs, 1)).cuda()
+        for output, dist in zip(outputs, dists):
+            print(dist.log_prob(output))
+            log_probs = log_probs + dist.log_prob(output)
+        print(log_probs)
+        
+        return outputs, log_probs
 
 
 

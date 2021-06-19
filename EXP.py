@@ -75,8 +75,8 @@ class EXP(object):
                     s_y_len = s_y_len.cuda() 
                     s_y_ctx = s_y_ctx.cuda() 
 
-                x_ctx_selected, x_dist = self.selector(s_x_ctx, s_x_sent, s_x_len, s_x_ctx_len, self.num_ctx_select)
-                y_ctx_selected, y_dist = self.selector(s_y_ctx, s_y_sent, s_y_len, s_y_ctx_len, self.num_ctx_select)
+                x_ctx_selected, x_log_probs = self.selector(s_x_ctx, s_x_sent, s_x_len, s_x_ctx_len, self.num_ctx_select)
+                y_ctx_selected, y_log_probs = self.selector(s_y_ctx, s_y_sent, s_y_len, s_y_ctx_len, self.num_ctx_select)
 
                 p_x_sent, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, x_ctx_selected)
                 p_y_sent, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, y_ctx_selected)
@@ -99,20 +99,18 @@ class EXP(object):
                 # print(y_dist)
                 # print(y_ctx_selected)
                 s_loss = 0.0
-                for i in range(self.num_ctx_select):
-                    log_prob = x_dist[i].log_prob(x_ctx_selected[i]) + y_dist[i].log_prob(y_ctx_selected[i])
-                    # print(log_prob)
-                    # print(log_prob * task_reward)
-                    for j in range(len(task_reward)):
-                        s_loss = s_loss - log_prob[j]*task_reward[j] 
-                    # print(s_loss)
+                print(x_log_probs)
+                print(y_log_probs)
+                for i in range(len(task_reward)):
+                    s_loss = s_loss - task_reward[i] * (x_log_probs[i] + y_log_probs[i])
+                print(s_loss)
                        
-                self.selector_loss += s_loss.item()
-                self.predictor_loss += p_loss.item()
                 s_loss.backward()
                 p_loss.backward()
                 self.selector_optim.step()
                 self.predictor_optim.step()
+                self.selector_loss += s_loss.item()
+                self.predictor_loss += p_loss.item()
             epoch_training_time = format_time(time.time() - t0)
             print("Total training loss: {}-{}".format(self.selector_loss, self.predictor_loss))
             self.evaluate()
