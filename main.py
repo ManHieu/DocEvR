@@ -72,7 +72,7 @@ def objective(trial: optuna.Trial):
     total_steps = len(train_dataloader) * epoches
     print("Total steps: [number of batches] x [number of epochs] =", total_steps)
 
-    exp = EXP(selector, predictor, num_epoches=epoches, s_lr=params['s_lr'], p_lr=params['p_lr'], num_ctx_select=5,
+    exp = EXP(selector, predictor, num_epoches=epoches, s_lr=params['s_lr'], p_lr=params['p_lr'], num_ctx_select=3,
             train_dataloader=train_dataloader, test_dataloaders=test_dataloaders, validate_dataloaders=validate_dataloaders,
             best_path=best_path)
     F1, CM, matres_F1 = exp.train()
