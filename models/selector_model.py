@@ -106,9 +106,9 @@ class LSTMSelector(nn.Module):
         log_probs = torch.zeros((bs)).cuda()
         for output, dist in zip(outputs, dists):
             print("Output: ", output)
-            print("Prob: ", prob[torch.arange(bs), output])
-            print("Prob_log: ", torch.log(prob[torch.arange(bs), output]))
-            log_probs = log_probs + torch.log(prob[torch.arange(bs), output]) # bs x 1 
+            print("Prob: ", dist[torch.arange(bs), output])
+            print("Prob_log: ", torch.log(dist[torch.arange(bs), output]))
+            log_probs = log_probs + torch.log(dist[torch.arange(bs), output]) # bs x 1 
         print("Prob_log all: ", log_probs)
         
         return outputs, log_probs
