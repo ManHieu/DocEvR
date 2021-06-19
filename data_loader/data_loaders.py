@@ -31,7 +31,10 @@ def load_dataset(dir_name, type):
     onlyfiles = [f for f in os.listdir(dir_name) if os.path.isfile(os.path.join(dir_name, f))]
     corpus = []
 
+    i = 0
     for file_name in tqdm.tqdm(onlyfiles):
+        if i > 10:
+            break
         if type == 'i2b2_xml':
             if file_name.endswith('.xml'):
                 my_dict = reader.read(dir_name, file_name)
@@ -41,6 +44,7 @@ def load_dataset(dir_name, type):
             my_dict = reader.read(dir_name, file_name)
             if my_dict != None:
                 corpus.append(my_dict)
+        i = i + 1
         
     # train_set, test_set = train_test_split(corpus, train_size=0.8, test_size=0.2)
     # train_set, validate_set = train_test_split(train_set, train_size=0.75, test_size=0.25)
