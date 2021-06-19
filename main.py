@@ -48,15 +48,33 @@ def objective(trial: optuna.Trial):
     random.seed(seed)
 
     train_set = []
+    train_short_set = []
     validate_dataloaders = {}
     test_dataloaders = {}
+    validate_short_dataloaders = {}
+    test_short_dataloaders = {}
     for dataset in datasets:
-        train, test, validate = loader(dataset, params['num_ctx_select'])
+        train, test, validate, train_short, test_short, validate_short = loader(dataset, params['num_ctx_select'])
         train_set.extend(train)
+        train_short_set.extend(train_short)
         validate_dataloader = DataLoader(EventDataset(validate), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
         test_dataloader = DataLoader(EventDataset(test), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
         validate_dataloaders[dataset] = validate_dataloader
         test_dataloaders[dataset] = test_dataloader
+        if len(validate_short) == 0:
+            validate_short_dataloader = None
+        else:
+            validate_short_dataloader = DataLoader(EventDataset(validate_short), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+        if len(test_short) == 0:
+            test_short_dataloader = None
+        else:
+            test_short_dataloader = DataLoader(EventDataset(test_short), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+        validate_short_dataloaders[dataset] = validate_short_dataloader
+        test_short_dataloaders[dataset] = test_short_dataloader
+    if len(train_short_set) == 0:
+        train_short_dataloader = None
+    else:
+        train_short_dataloader = DataLoader(EventDataset(train_short_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
     train_dataloader = DataLoader(EventDataset(train_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
     
     selector = SelectorModel(mlp_size=params['s_mlp'])
@@ -75,6 +93,7 @@ def objective(trial: optuna.Trial):
 
     exp = EXP(selector, predictor, num_epoches=epoches, s_lr=params['s_lr'], p_lr=params['p_lr'], num_ctx_select=params['num_ctx_select'],
             train_dataloader=train_dataloader, test_dataloaders=test_dataloaders, validate_dataloaders=validate_dataloaders,
+            train_short_dataloader=train_short_dataloader, test_short_dataloaders=test_short_dataloaders, validate_short_dataloaders=validate_short_dataloaders,
             best_path=best_path)
     F1, CM, matres_F1 = exp.train()
     exp.evaluate(is_test=True)

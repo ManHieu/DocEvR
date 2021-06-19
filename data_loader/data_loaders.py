@@ -56,6 +56,7 @@ def load_dataset(dir_name, type):
 def loader(dataset, min_ns):
     def get_data_point(my_dict, flag):
         data = []
+        short_data = []
         eids = my_dict['event_dict'].keys()
         pair_events = list(combinations(eids, 2))
         for pair in pair_events:
@@ -96,12 +97,15 @@ def loader(dataset, min_ns):
                 if item[-1] != None and len(x_ctx) == len(y_ctx) and len(x_ctx) >= min_ns:
                     data.append(item)
                 if len(x_ctx) != len(y_ctx) or len(x_ctx) < min_ns:
-                    print(my_dict['doc_id'])
-        return data
+                    short_data.append(item)
+        return data, short_data
 
     train_set = []
+    train_short = []
     test_set = []
+    test_short = []
     validate_set = []
+    validate_short = []
     if dataset == "MATRES":
         print("MATRES Loading .......")
         aquaint_dir_name = "./datasets/MATRES/TBAQ-cleaned/AQUAINT/"
@@ -113,14 +117,17 @@ def loader(dataset, min_ns):
         train, validate = train_test_split(train + validate, test_size=0.2, train_size=0.8)
         
         for my_dict in tqdm.tqdm(train):
-            data = get_data_point(my_dict, 2)
+            data, short_data = get_data_point(my_dict, 2)
             train_set.extend(data)
+            train_short.extend(short_data)
         for my_dict in tqdm.tqdm(test):
-            data = get_data_point(my_dict, 2)
+            data, short_data = get_data_point(my_dict, 2)
             test_set.extend(data)
+            test_short.extend(short_data)
         for my_dict in tqdm.tqdm(validate):
-            data = get_data_point(my_dict, 2)
+            data, short_data = get_data_point(my_dict, 2)
             validate_set.extend(data)
+            validate_short.extend(short_data)
         print("Train_size: {}".format(len(train_set)))
         print("Test_size: {}".format(len(test_set)))
         print("Validate_size: {}".format(len(validate_set)))
@@ -133,29 +140,47 @@ def loader(dataset, min_ns):
         train, validate = train_test_split(train, train_size=0.75, test_size=0.25)
         sample = 0.015
         for my_dict in tqdm.tqdm(train):
-            data = get_data_point(my_dict, 1)
+            data, short_data = get_data_point(my_dict, 1)
             for item in data:
                 if item[-1] == 3:
                     if random.uniform(0, 1) < sample:
                         train_set.append(item)
                 else:
                     train_set.append(item)
+            for item in short_data:
+                if item[-1] == 3:
+                    if random.uniform(0, 1) < sample:
+                        train_short.append(item)
+                else:
+                    train_short.append(item)
         for my_dict in tqdm.tqdm(test):
-            data = get_data_point(my_dict, 1)
+            data, short_data = get_data_point(my_dict, 1)
             for item in data:
                 if item[-1] == 3:
                     if random.uniform(0, 1) < 0.015:
                         test_set.append(item)
                 else:
                     test_set.append(item)
+            for item in short_data:
+                if item[-1] == 3:
+                    if random.uniform(0, 1) < sample:
+                        test_short.append(item)
+                else:
+                    test_short.append(item)
         for my_dict in tqdm.tqdm(validate):
-            data = get_data_point(my_dict, 1)
+            data, short_data = get_data_point(my_dict, 1)
             for item in data:
                 if item[-1] == 3:
                     if random.uniform(0, 1) < sample:
                         validate_set.append(item)
                 else:
                     validate_set.append(item)
+            for item in short_data:
+                if item[-1] == 3:
+                    if random.uniform(0, 1) < sample:
+                        validate_short.append(item)
+                else:
+                    validate_short.append(item)
         print("Train_size: {}".format(len(train_set)))
         print("Test_size: {}".format(len(test_set)))
         print("Validate_size: {}".format(len(validate_set)))
@@ -167,14 +192,17 @@ def loader(dataset, min_ns):
         train, test = train_test_split(corpus, train_size=0.8, test_size=0.2)
         train, validate = train_test_split(train, train_size=0.75, test_size=0.25)
         for my_dict in tqdm.tqdm(train):
-            data = get_data_point(my_dict, 3)
+            data, short_data = get_data_point(my_dict, 3)
             train_set.extend(data)
+            train_short.extend(short_data)
         for my_dict in tqdm.tqdm(test):
-            data = get_data_point(my_dict, 3)
+            data, short_data = get_data_point(my_dict, 3)
             test_set.extend(data)
+            test_short.extend(short_data)
         for my_dict in tqdm.tqdm(validate):
-            data = get_data_point(my_dict, 3)
+            data, short_data = get_data_point(my_dict, 3)
             validate_set.extend(data)
+            validate_short.extend(short_data)
         print("Train_size: {}".format(len(train_set)))
         print("Test_size: {}".format(len(test_set)))
         print("Validate_size: {}".format(len(validate_set)))
@@ -188,19 +216,25 @@ def loader(dataset, min_ns):
         test = load_dataset(test_dir, 'tbd_tml')
         validate = load_dataset(validate_dir, 'tbd_tml')
         for my_dict in tqdm.tqdm(train):
-            data = get_data_point(my_dict, 4)
+            data, short_data = get_data_point(my_dict, 4)
             train_set.extend(data)
+            train_short.extend(short_data)
         for my_dict in tqdm.tqdm(test):
-            data = get_data_point(my_dict, 4)
+            data, short_data = get_data_point(my_dict, 4)
             test_set.extend(data)
+            test_short.extend(short_data)
         for my_dict in tqdm.tqdm(validate):
-            data = get_data_point(my_dict, 4)
+            data, short_data = get_data_point(my_dict, 4)
             validate_set.extend(data)
+            validate_short.extend(short_data)
         print("Train_size: {}".format(len(train_set)))
         print("Test_size: {}".format(len(test_set)))
         print("Validate_size: {}".format(len(validate_set)))
+        print("Train_size: {}".format(len(train_short)))
+        print("Test_size: {}".format(len(test_short)))
+        print("Validate_size: {}".format(len(validate_short)))
 
     # train_loader = DataLoader(EventDataset(train_set), batch_size=batch_size, shuffle=True)
     # test_loader = DataLoader(EventDataset(test_set), batch_size=batch_size, shuffle=True)
     # validate_loader = DataLoader(EventDataset(validate_set), batch_size=batch_size, shuffle=True)
-    return train_set, test_set, validate_set
+    return train_set, test_set, validate_set, train_short, test_short, validate_short

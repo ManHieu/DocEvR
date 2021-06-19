@@ -14,6 +14,7 @@ import torch.optim as optim
 class EXP(object):
     def __init__(self, selector: SelectorModel, predictor: ECIRobertaJointTask, num_epoches,
                 train_dataloader, validate_dataloaders, test_dataloaders, 
+                train_short_dataloader, test_short_dataloaders, validate_short_dataloaders,
                 s_lr, p_lr, num_ctx_select, best_path) -> None:
         super().__init__()
         self.selector = selector
