@@ -34,7 +34,7 @@ def objective(trial: optuna.Trial):
         'p_lr': 5e-7,
 
     }
-    batch_size = 2
+    batch_size = 1
     drop_rate = 0.5
     fn_activative = 'relu6'
     is_mul = True
