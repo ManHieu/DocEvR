@@ -46,7 +46,7 @@ class EXP(object):
         reward = numpy.array(reward)
         # print(logit)
         # print(reward)
-        return reward - reward.mean()
+        return (reward - reward.mean()) / reward.std()
         
     def train(self):
         start_time = time.time()
@@ -93,7 +93,7 @@ class EXP(object):
                     flag = flag.cuda()
                 logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
                 task_reward = self.task_reward(logits, xy)
-                print("Task rewark", task_reward)
+                # print("Task rewark", task_reward)
                 # print(x_dist)
                 # print(x_ctx_selected)
                 # print(y_dist)
@@ -103,7 +103,7 @@ class EXP(object):
                 # print(y_log_probs)
                 for i in range(len(task_reward)):
                     s_loss = s_loss - task_reward[i] * (x_log_probs[i] + y_log_probs[i])
-                print("s_loss", s_loss)
+                # print("s_loss", s_loss)
 
                 # torch.autograd.set_detect_anomaly(True)
                 s_loss.backward()
