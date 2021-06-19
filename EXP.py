@@ -112,6 +112,8 @@ class EXP(object):
                 self.predictor_optim.step()
                 self.selector_loss += s_loss.item()
                 self.predictor_loss += p_loss.item()
+                if step == 5:
+                    break
             epoch_training_time = format_time(time.time() - t0)
             print("Total training loss: {}-{}".format(self.selector_loss, self.predictor_loss))
             self.evaluate()
