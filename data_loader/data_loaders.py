@@ -33,7 +33,7 @@ def load_dataset(dir_name, type):
 
     i = 0
     for file_name in tqdm.tqdm(onlyfiles):
-        if i > 1:
+        if i > 5:
             break
         if type == 'i2b2_xml':
             if file_name.endswith('.xml'):
