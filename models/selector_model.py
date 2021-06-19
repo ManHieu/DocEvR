@@ -91,7 +91,7 @@ class LSTMSelector(nn.Module):
                 prob = F.softmax(sc, dim=-1) # bs x ns
                 C = torch.distributions.Categorical(probs=prob)
                 out = C.sample() # bs x 1: index of selected sentence in this step
-                dists.append(C)
+                dists.append(prob)
                 outputs.append(out)
             else:
                 out = sc.max(dim=-1)[1] # bs x 1: index of selected sentence in this step
@@ -105,8 +105,8 @@ class LSTMSelector(nn.Module):
         
         log_probs = torch.zeros((bs)).cuda()
         for output, dist in zip(outputs, dists):
-            print("Prob_log: ", dist.log_prob(output))
-            log_probs = log_probs + dist.log_prob(output) # bs x 1 
+            print("Prob_log: ", torch.log(prob[output]))
+            log_probs = log_probs + torch.log(prob[output]) # bs x 1 
         print("Prob_log all: ", log_probs)
         
         return outputs, log_probs
