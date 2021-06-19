@@ -105,7 +105,7 @@ class EXP(object):
                     s_loss = s_loss - task_reward[i] * (x_log_probs[i] + y_log_probs[i])
                 print("s_loss", s_loss)
 
-                torch.autograd.set_detect_anomaly(True)
+                # torch.autograd.set_detect_anomaly(True)
                 s_loss.backward()
                 p_loss.backward()
                 self.selector_optim.step()
