@@ -32,6 +32,7 @@ def objective(trial: optuna.Trial):
         'epoches': 5,
         's_lr': 1e-5,
         'p_lr': 5e-7,
+        'num_ctx_select': 3
 
     }
     batch_size = 2
@@ -50,7 +51,7 @@ def objective(trial: optuna.Trial):
     validate_dataloaders = {}
     test_dataloaders = {}
     for dataset in datasets:
-        train, test, validate = loader(dataset)
+        train, test, validate = loader(dataset, params['num_ctx_select'])
         train_set.extend(train)
         validate_dataloader = DataLoader(EventDataset(validate), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
         test_dataloader = DataLoader(EventDataset(test), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
@@ -72,7 +73,7 @@ def objective(trial: optuna.Trial):
     total_steps = len(train_dataloader) * epoches
     print("Total steps: [number of batches] x [number of epochs] =", total_steps)
 
-    exp = EXP(selector, predictor, num_epoches=epoches, s_lr=params['s_lr'], p_lr=params['p_lr'], num_ctx_select=3,
+    exp = EXP(selector, predictor, num_epoches=epoches, s_lr=params['s_lr'], p_lr=params['p_lr'], num_ctx_select=params['num_ctx_select'],
             train_dataloader=train_dataloader, test_dataloaders=test_dataloaders, validate_dataloaders=validate_dataloaders,
             best_path=best_path)
     F1, CM, matres_F1 = exp.train()

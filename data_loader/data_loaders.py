@@ -53,7 +53,7 @@ def load_dataset(dir_name, type):
     # print("Validate size {}".format(len(validate_set)))
     return corpus
 
-def loader(dataset):
+def loader(dataset, min_ns):
     def get_data_point(my_dict, flag):
         data = []
         eids = my_dict['event_dict'].keys()
@@ -93,10 +93,10 @@ def loader(dataset):
             candidates = [[x_sent, y_sent, x_sent_id, y_sent_id, x_position, y_position, x_sent_pos, y_sent_pos, x_ctx, y_ctx, x_ctx_pos, y_ctx_pos, flag, xy],
                         [y_sent, x_sent, y_sent_id, x_sent_id, y_position, x_position, y_sent_pos, x_sent_pos, y_ctx, x_ctx, y_ctx_pos, x_ctx_pos, flag, yx]]
             for item in candidates:
-                if item[-1] != None and len(x_ctx) == len(y_ctx) and len(x_ctx) > 1:
+                if item[-1] != None and len(x_ctx) == len(y_ctx) and len(x_ctx) >= min_ns:
                     data.append(item)
-                if len(x_ctx) != len(y_ctx) or len(x_ctx) < 2:
-                    print(my_dict)
+                if len(x_ctx) != len(y_ctx) or len(x_ctx) < min_ns:
+                    print(my_dict['doc_id'])
         return data
 
     train_set = []
