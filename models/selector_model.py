@@ -66,11 +66,11 @@ class LSTMSelector(nn.Module):
             ns = ctx_emb.size()[1]
             h_0 = torch.zeros((bs, self.hidden_dim))
             c_0 = torch.zeros((bs, self.hidden_dim))
-            mask = torch.ones((bs, ns))
+            mask = torch.zeros((bs, ns))
             # print(ctx_len)
             for i in range(bs):
                 if len(ctx_len[i]) < ns:
-                    mask[i, len(ctx_len[i]):] *= -1000
+                    mask[i, len(ctx_len[i]):] = mask[i, len(ctx_len[i]):] - 10000
             # print(mask)
             dim = self.hidden_dim + self.in_dim
             if CUDA:
@@ -88,7 +88,7 @@ class LSTMSelector(nn.Module):
                 _ctx_emb = self.drop_out(_ctx_emb)
                 # print(ctx_emb.size())
                 sc = torch.sigmoid(self.mlp(_ctx_emb).squeeze()) # bs x ns
-                sc = sc * mask
+                sc = sc + mask
 
                 if self.training:
                     prob = F.softmax(sc, dim=-1) # bs x ns
@@ -101,7 +101,7 @@ class LSTMSelector(nn.Module):
                     out = sc.max(dim=-1)[1] # bs x 1: index of selected sentence in this step
                     outputs.append(out)
                 for i in range(len(out)):
-                    mask[i, out[i]] *= -1000
+                    mask[i, out[i]] = mask[i, out[i]] -1000
                 
                 lstm_in = torch.gather(ctx_emb, dim=1, index=out.unsqueeze(1).unsqueeze(2).expand(bs, 1, self.in_dim))
                 lstm_in = lstm_in.squeeze(1)
