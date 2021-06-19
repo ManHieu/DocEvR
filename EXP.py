@@ -93,17 +93,17 @@ class EXP(object):
                     flag = flag.cuda()
                 logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
                 task_reward = self.task_reward(logits, xy)
-                print(task_reward)
+                print("Task rewark", task_reward)
                 # print(x_dist)
                 # print(x_ctx_selected)
                 # print(y_dist)
                 # print(y_ctx_selected)
                 s_loss = 0.0
-                print(x_log_probs)
-                print(y_log_probs)
+                # print(x_log_probs)
+                # print(y_log_probs)
                 for i in range(len(task_reward)):
                     s_loss = s_loss - task_reward[i] * (x_log_probs[i] + y_log_probs[i])
-                print(s_loss)
+                print("s_loss", s_loss)
                        
                 s_loss.backward()
                 p_loss.backward()
