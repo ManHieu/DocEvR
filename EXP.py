@@ -98,15 +98,16 @@ class EXP(object):
                 # print(x_ctx_selected)
                 # print(y_dist)
                 # print(y_ctx_selected)
-                s_loss = 0.0
-                # print(x_log_probs)
-                # print(y_log_probs)
-                for i in range(len(task_reward)):
-                    s_loss = s_loss - task_reward[i] * (x_log_probs[i] + y_log_probs[i])
-                print("s_loss", s_loss)
+                with torch.autograd.set_detect_anomaly(True):
+                    s_loss = 0.0
+                    # print(x_log_probs)
+                    # print(y_log_probs)
+                    for i in range(len(task_reward)):
+                        s_loss = s_loss - task_reward[i] * (x_log_probs[i] + y_log_probs[i])
+                    print("s_loss", s_loss)
 
-                # torch.autograd.set_detect_anomaly(True)
-                s_loss.backward()
+                    # torch.autograd.set_detect_anomaly(True)
+                    s_loss.backward()
                 p_loss.backward()
                 self.selector_optim.step()
                 self.predictor_optim.step()
