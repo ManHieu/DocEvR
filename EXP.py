@@ -76,6 +76,7 @@ class EXP(object):
                     s_y_len = s_y_len.cuda() 
                     s_y_ctx = s_y_ctx.cuda() 
 
+                continue
                 x_ctx_selected, x_log_probs = self.selector(s_x_ctx, s_x_sent, s_x_len, s_x_ctx_len, self.num_ctx_select)
                 y_ctx_selected, y_log_probs = self.selector(s_y_ctx, s_y_sent, s_y_len, s_y_ctx_len, self.num_ctx_select)
 
@@ -164,6 +165,7 @@ class EXP(object):
                     s_y_sent = s_y_sent.cuda() 
                     s_y_len = s_y_len.cuda() 
                     s_y_ctx = s_y_ctx.cuda() 
+                continue
 
                 x_ctx_selected, x_dist = self.selector(s_x_ctx, s_x_sent, s_x_len, s_x_ctx_len, self.num_ctx_select)
                 y_ctx_selected, y_dist = self.selector(s_y_ctx, s_y_sent, s_y_len, s_y_ctx_len, self.num_ctx_select)
