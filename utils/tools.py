@@ -207,7 +207,10 @@ def augment_target(target, sent_id, position_target, ctx, ctx_id):
             
 
 def pad_to_max_ns(ctx, max_ns):
-    sent_len = len(ctx[0][0])
+    try:
+        sent_len = len(ctx[0][0])
+    except:
+        print(ctx)
     pad_sent = [1] * sent_len
     for i in range(len(ctx)):
         if len(ctx[i]) < max_ns:
