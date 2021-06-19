@@ -36,7 +36,8 @@ class EXP(object):
         self.sum_f1 = 0.0
         self.best_matres = 0.0
         self.best_cm = [None]*len(self.test_datatloaders)
-        self.best_path = best_path
+        self.best_path_selector = best_path[0]
+        self.best_path_predictor = best_path[1]
 
     def task_reward(self, logit, gold):
         logit = torch.softmax(logit, dim=-1)
@@ -136,7 +137,8 @@ class EXP(object):
             print("-------------------------------{}-------------------------------".format(dataset))
             if is_test:
                 dataloader = self.test_datatloaders[i]
-                self.model = torch.load(self.best_path)
+                self.selector = torch.load(self.best_path_selector)
+                self.predictor = torch.load(self.best_path_predictor)
                 print("Testset and best model was loaded!")
                 print("Running on testset ..........")
             else:
@@ -214,7 +216,8 @@ class EXP(object):
                 self.best_micro_f1 = F1s 
             if best_f1_mastres > self.best_matres:
                 self.best_matres = best_f1_mastres
-                torch.save(self.model, self.best_path)
+                torch.save(self.selector, self.best_path_selector)
+                torch.save(self.predictor, self.best_path_predictor)
         return F1s
 
 

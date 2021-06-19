@@ -108,6 +108,7 @@ if __name__ == '__main__':
     datasets = args.dataset
     roberta_type  = args.roberta_type
     best_path = args.best_path
+    best_path = [best_path+"selector.pth", best_path+"predictor.pth"]
     result_file = args.log_file
 
     study = optuna.create_study(direction='maximize')
