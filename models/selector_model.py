@@ -25,10 +25,11 @@ class SelectorModel(nn.Module):
     def forward(self, ctx, target, target_len, ctx_len, n_step):
         # print(ctx.size())
         # print(target.size())
-        target_emb = self.encode(target)
-        ctx_emb = torch.stack(
-            [self.encode(ctx[i]) for i in range(ctx.size(0))], dim=0
-        )
+        with torch.no_grad():
+            target_emb = self.encode(target)
+            ctx_emb = torch.stack(
+                [self.encode(ctx[i]) for i in range(ctx.size(0))], dim=0
+            )
         # print(target_emb.size())
         # print(ctx_emb.size())
         outputs, dist = self.selector(ctx_emb, target_emb, ctx_len, target_len, n_step)
