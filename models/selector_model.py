@@ -100,13 +100,13 @@ class LSTMSelector(nn.Module):
                 outputs.append(out)
             for i in range(len(out)):
                 mask[i, out[i]] = mask[i, out[i]] - 1000
-            print(mask)
+            # print(mask)
             
             lstm_in = torch.gather(ctx_emb, dim=1, index=out.unsqueeze(1).unsqueeze(2).expand(bs, 1, self.in_dim))
             lstm_in = lstm_in.squeeze(1)
             lstm_state = (h, c)
         # print("Prob_log all: ", log_probs)
-        print(outputs)
+        # print(outputs)
         
         return outputs, log_probs
 
