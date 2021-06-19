@@ -46,7 +46,7 @@ class EXP(object):
         reward = numpy.array(reward)
         # print(logit)
         # print(reward)
-        return (reward - reward.mean()) / reward.std()
+        return reward - reward.mean()
         
     def train(self):
         start_time = time.time()
@@ -165,6 +165,8 @@ class EXP(object):
 
                 p_x_sent, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, x_ctx_selected)
                 p_y_sent, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, y_ctx_selected)
+                xy = torch.tensor(xy, dtype=torch.long)
+                flag = torch.tensor(flag, dtype=torch.long)
                 if CUDA:
                     p_x_sent = p_x_sent.cuda() 
                     p_x_sent_pos = p_x_sent_pos.cuda()
