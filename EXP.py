@@ -212,7 +212,7 @@ class EXP(object):
                 best_f1_mastres=F1
 
         if is_test==False:
-            if sum_f1 > self.sum_f1 or path.exists(self.best_path) == False:
+            if sum_f1 > self.sum_f1 or path.exists(self.best_path_selector) == False:
                 self.sum_f1 = sum_f1
                 self.best_cm = best_cm
                 self.best_micro_f1 = F1s 
