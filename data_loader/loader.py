@@ -59,7 +59,7 @@ def load_dataset(dir_name, type):
     corpus = []
     i = 0
     for file_name in tqdm.tqdm(onlyfiles):
-        if i == 1:
+        if i == 5:
             break
         i = i + 1
         if type == 'i2b2_xml':
