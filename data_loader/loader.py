@@ -1,16 +1,18 @@
-from itertools import combinations
 import os
+from utils.constant import CUDA
 import tqdm
 import random
-from torch.utils.data import DataLoader
+import torch
+from itertools import combinations
+from data_loader.reader import i2b2_xml_reader, tbd_tml_reader, tml_reader, tsvx_reader
+from utils.tools import augment_ctx, pos_to_id
 from sklearn.model_selection import train_test_split
-from data_loader.EventDataset import EventDataset
-from data_loader.document_reader import tsvx_reader, tml_reader, i2b2_xml_reader, tbd_tml_reader
-from utils.tools import *
+from transformers import AutoModel
 
 
-class Reader():
+class Reader(object):
     def __init__(self, type) -> None:
+        super().__init__()
         self.type = type
     
     def read(self, dir_name, file_name):
@@ -23,18 +25,40 @@ class Reader():
         elif self.type == 'tbd_tml':
             return tbd_tml_reader(dir_name, file_name)
         else:
-            raise ValueError("Wrong reader!")
+            raise ValueError("We have not supported {} type yet!".format(self.type))
 
+
+class SentenceEncoder(object):
+    def __init__(self, roberta_type) -> None:
+        super().__init__()
+        self.roberta_type = roberta_type
+        if os.path.exists("./pretrained_models/models/{}".format(roberta_type)):
+            print("Loading pretrain model from local ......")
+            self.encoder = AutoModel.from_pretrained("./pretrained_models/models/{}".format(roberta_type), output_hidden_states=True)
+        else:
+            print("Loading pretrain model ......")
+            self.encoder = AutoModel.from_pretrained(roberta_type, output_hidden_states=True)
+        if CUDA:
+            self.encoder = self.encoder.cuda()
+    
+    def encode(self, sentence):
+        sentence = torch.tensor(sentence, dtype=torch.long)
+        if CUDA:
+            sentence = sentence.cuda()
+        with torch.no_grad():
+            s_encoder = self.encoder(sentence.unsqueeze(0))[0]
+        print(s_encoder)
+        return s_encoder[:, 0] # 1 x 768
+
+
+sent_encoder = SentenceEncoder('roberta_base')
 
 def load_dataset(dir_name, type):
     reader = Reader(type)
     onlyfiles = [f for f in os.listdir(dir_name) if os.path.isfile(os.path.join(dir_name, f))]
     corpus = []
 
-    # i = 0
     for file_name in tqdm.tqdm(onlyfiles):
-        # if i > 5:
-        #     break
         if type == 'i2b2_xml':
             if file_name.endswith('.xml'):
                 my_dict = reader.read(dir_name, file_name)
@@ -44,14 +68,9 @@ def load_dataset(dir_name, type):
             my_dict = reader.read(dir_name, file_name)
             if my_dict != None:
                 corpus.append(my_dict)
-        # i = i + 1
-        
-    # train_set, test_set = train_test_split(corpus, train_size=0.8, test_size=0.2)
-    # train_set, validate_set = train_test_split(train_set, train_size=0.75, test_size=0.25)
-    # print("Train size {}".format(len(train_set)))
-    # print("Test size {}".format(len(test_set)))
-    # print("Validate size {}".format(len(validate_set)))
+    
     return corpus
+
 
 def loader(dataset, min_ns):
     def get_data_point(my_dict, flag):
@@ -63,43 +82,66 @@ def loader(dataset, min_ns):
             x, y = pair
             x_sent_id = my_dict['event_dict'][x]['sent_id']
             y_sent_id = my_dict['event_dict'][y]['sent_id']
-
-            x_ctx = []
-            x_ctx_pos = []
-            y_ctx = []
-            y_ctx_pos = []
-            for sent_id in range(len(my_dict["sentences"])):
-                if sent_id != x_sent_id:
-                    sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
-                    sent_pos = pos_to_id(my_dict["sentences"][sent_id]['roberta_subword_pos'])
-                    x_ctx.append(sent)
-                    x_ctx_pos.append(sent_pos)
-                if sent_id != y_sent_id:
-                    sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
-                    sent_pos = pos_to_id(my_dict["sentences"][sent_id]['roberta_subword_pos'])
-                    y_ctx.append(sent)
-                    y_ctx_pos.append(sent_pos)
-                
             x_sent = my_dict["sentences"][x_sent_id]["roberta_subword_to_ID"]
             y_sent = my_dict["sentences"][y_sent_id]["roberta_subword_to_ID"]
-
+            x_sent_emb = sent_encoder.encode(x_sent)
+            y_sent_emb = sent_encoder.encode(y_sent)
             x_position = my_dict["event_dict"][x]["roberta_subword_id"]
             y_position = my_dict["event_dict"][y]["roberta_subword_id"]
-
             x_sent_pos = pos_to_id(my_dict["sentences"][x_sent_id]["roberta_subword_pos"])
             y_sent_pos = pos_to_id(my_dict["sentences"][y_sent_id]["roberta_subword_pos"])
 
+            x_ctx = []
+            x_ctx_augm = []
+            x_ctx_augm_emb = []
+            x_ctx_pos = []
+            x_ctx_len = []
+            y_ctx = []
+            y_ctx_augm = []
+            y_ctx_augm_emb = []
+            y_ctx_pos = []
+            y_ctx_len = []
+            for sent_id in range(len(my_dict["sentences"])):
+                if sent_id != x_sent_id:
+                    sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
+                    sent_augm = augment_ctx(x_sent, x_sent_id, sent, sent_id)
+                    sent_augm_emb = sent_encoder.encode(sent_augm)
+                    sent_pos = pos_to_id(my_dict["sentences"][sent_id]['roberta_subword_pos'])
+                    x_ctx.append(sent)
+                    x_ctx_augm.append(sent_augm)
+                    x_ctx_augm_emb.append(sent_augm_emb)
+                    x_ctx_pos.append(sent_pos)
+                    x_ctx_len.append(len(sent))
+
+                if sent_id != y_sent_id:
+                    sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
+                    sent_augm = augment_ctx(y_sent, y_sent_id, sent, sent_id)
+                    sent_augm_emb = sent_encoder.encode(sent_augm)
+                    sent_pos = pos_to_id(my_dict["sentences"][sent_id]['roberta_subword_pos'])
+                    y_ctx.append(sent)
+                    y_ctx_augm.append(sent_augm)
+                    y_ctx_augm_emb.append(sent_augm_emb)
+                    y_ctx_pos.append(sent_pos)
+                    y_ctx_len.append(len(sent))
+            
+            x_ctx_augm_emb = torch.cat(x_ctx_augm, dim=0)
+            y_ctx_augm_emb = torch.cat(y_ctx_augm, dim=0)
             xy = my_dict["relation_dict"].get((x, y))
             yx = my_dict["relation_dict"].get((y, x))
-            candidates = [[x_sent, y_sent, x_sent_id, y_sent_id, x_position, y_position, x_sent_pos, y_sent_pos, x_ctx, y_ctx, x_ctx_pos, y_ctx_pos, flag, xy],
-                        [y_sent, x_sent, y_sent_id, x_sent_id, y_position, x_position, y_sent_pos, x_sent_pos, y_ctx, x_ctx, y_ctx_pos, x_ctx_pos, flag, yx]]
+            
+            candidates = [
+                [x_sent_id, y_sent_id, x_sent, y_sent, x_sent_emb, y_sent_emb, x_position, y_position, x_sent_pos, y_sent_pos, x_ctx, y_ctx, 
+                x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy],
+                [y_sent_id, x_sent_id, y_sent, x_sent, y_sent_emb, x_sent_emb,  y_position, x_position, y_sent_pos, x_sent_pos, y_ctx, x_ctx, 
+                y_ctx_len, x_ctx_len, y_ctx_augm, x_ctx_augm, y_ctx_augm_emb, x_ctx_augm_emb, y_ctx_pos, x_ctx_pos, flag, yx],
+            ]
+
             for item in candidates:
-                if item[-1] != None and len(x_ctx) == len(y_ctx) and len(x_ctx) >= min_ns:
+                if item[-1] != None and len(x_ctx_len) == len(y_ctx_len) and len(x_ctx_len) >= min_ns:
                     data.append(item)
-                if len(x_ctx) != len(y_ctx) or len(x_ctx) < min_ns:
+                if len(x_ctx_len) < min_ns:
                     short_data.append(item)
         return data, short_data
-
     train_set = []
     train_short = []
     test_set = []
@@ -234,7 +276,32 @@ def loader(dataset, min_ns):
         print("Test_size: {}".format(len(test_short)))
         print("Validate_size: {}".format(len(validate_short)))
 
-    # train_loader = DataLoader(EventDataset(train_set), batch_size=batch_size, shuffle=True)
-    # test_loader = DataLoader(EventDataset(test_set), batch_size=batch_size, shuffle=True)
-    # validate_loader = DataLoader(EventDataset(validate_set), batch_size=batch_size, shuffle=True)
     return train_set, test_set, validate_set, train_short, test_short, validate_short
+
+if __name__ == '__main__':
+    import numpy as np
+    from data_loader.EventDataset import EventDataset
+    from torch.utils.data.dataloader import DataLoader
+    
+    def seed_worker(worker_id):
+        worker_seed = torch.initial_seed() % 2**32
+        np.random.seed(worker_seed)
+        random.seed(worker_seed)
+
+    def collate_fn(batch):
+        return tuple(zip(*batch))
+
+    train, test, validate, train_short, test_short, validate_short = loader("MATRES", 3)
+    dataloader = DataLoader(EventDataset(train), batch_size=12, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+    short_dataloader = DataLoader(EventDataset(train_short), batch_size=12, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+    for batch in dataloader:
+        print("==================== Batch ====================")
+        for item in batch:
+            print(item)
+        break
+    for batch in short_dataloader:
+        print("==================== Short Batch ====================")
+        for item in batch:
+            print(item)
+        break
+        

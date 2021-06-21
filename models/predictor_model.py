@@ -1,14 +1,10 @@
-from collections import OrderedDict
-from torch.nn.modules.linear import Linear
-
-from torch.utils.data.dataset import Subset
-from utils.tools import pos_to_id
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from transformers import RobertaModel
 from utils.constant import *
 import os.path as path
+from collections import OrderedDict
 
 
 class ECIRobertaJointTask(nn.Module):

@@ -22,23 +22,7 @@ def padding(sent, pos = False, max_sent_len = 194):
         one_list = [0] * max_sent_len # none id 
         one_list[0:len(sent)] = sent
         return one_list
-
-def padding_matrix(matrix, pos=False, max_len=150):
-    if pos==False:
-        one_matrix = []
-        for i in range(len(matrix)):
-            one_list = [1] * max_len
-            one_list[:len(matrix[i])] = matrix[i]
-            one_matrix.append(one_list)
-            return one_matrix
-    else:
-        one_matrix = []
-        for i in range(len(matrix)):
-            one_list = ['None'] * max_len
-            one_list[:len(matrix[i])] = matrix[i]
-            one_matrix.append(one_list)
-            return one_matrix
-        
+      
 def format_time(elapsed):
     '''
     Takes a time in seconds and returns a string hh:mm:ss
@@ -217,31 +201,10 @@ def pad_to_max_ns(ctx, max_ns):
             ctx[i] += [pad_sent] * (max_ns - len(ctx[i]))
     return ctx
 
-def augment_with_target(target_sent, sent_id, ctx):
-    augm_ctx = []
-    for i in range(len(ctx)):
-        ctx_sent = ctx[i]
-        if i < sent_id:
-            augm = ctx_sent + target_sent[1:]
-        else:
-            augm = target_sent + ctx_sent[1:]
-        augm_ctx.append(augm)
-    return augm_ctx
-
-def score(predict, flag, xy, task_weights):
-    count = defaultdict(int)
-    p_task = defaultdict(list)
-    g_task = defaultdict(list)
-    
-    for i in range(len(predict)):
-        p_task[predict[i][0]].append(predict[i][1])
-        g_task[flag[i]].append(xy[i])
-    
-    score = 0.0
-    for task in p_task.keys():
-        micro_f1 = precision_recall_fscore_support(g_task[task], p_task[task], average='micro')[3]
-        score += task_weights[task] * micro_f1
-    
-    return score
-
+def augment_ctx(target_sent, target_id, ctx_sent, ctx_id):
+    if ctx_id < target_id:
+        augm = ctx_sent + target_sent[1:]
+    else:
+        augm = target_sent + ctx_sent[1:]
+    return augm
 

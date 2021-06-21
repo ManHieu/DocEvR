@@ -1,7 +1,7 @@
 import datetime
-from EXP import EXP
+from exp import EXP
 from utils.constant import CUDA
-from models.roberta_model_multi import ECIRobertaJointTask
+from models.predictor_model import ECIRobertaJointTask
 from models.selector_model import SelectorModel
 import torch
 import torch.nn as nn
@@ -10,7 +10,7 @@ import numpy as np
 import optuna
 from torch.utils.data.dataloader import DataLoader
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
-from data_loader.data_loaders import loader
+from data_loader.loader import loader
 from data_loader.EventDataset import EventDataset
 
 
@@ -27,13 +27,6 @@ def collate_fn(batch):
     
 def objective(trial: optuna.Trial):
     params = {
-        's_mlp': 512,
-        'p_mlp': 512,
-        'epoches': 5,
-        's_lr': 1e-5,
-        'p_lr': 5e-7,
-        'num_ctx_select': 3
-
     }
     batch_size = 2
     drop_rate = 0.5
