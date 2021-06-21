@@ -47,7 +47,7 @@ class SentenceEncoder(object):
             sentence = sentence.cuda()
         with torch.no_grad():
             s_encoder = self.encoder(sentence.unsqueeze(0))[0]
-        print(s_encoder)
+        # print(s_encoder)
         return s_encoder[:, 0] # 1 x 768
 
 
