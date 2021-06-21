@@ -2,7 +2,7 @@ import datetime
 from exp import EXP
 from utils.constant import CUDA
 from models.predictor_model import ECIRobertaJointTask
-from models.selector_model import SelectorModel
+from models.selector_model import LSTMSelector, SelectorModel
 import torch
 import torch.nn as nn
 import random
@@ -27,6 +27,20 @@ def collate_fn(batch):
     
 def objective(trial: optuna.Trial):
     params = {
+        's_hidden_dim': 512,
+        's_mlp_dim': 512,
+        'p_mlp_dim': 512, 
+        'n_head': 12,
+        "epoches": 5,
+        "task_weights": {
+            '1': 1, # 1 is HiEve
+            '2': 1, # 2 is MATRES.
+            # '3': trial.suggest_float('I2B2_weight', 0.4, 1, step=0.2),
+        },
+        'num_ctx_select': 3,
+        's_lr': 1e-5,
+        'p_lr': 3e-7,
+
     }
     batch_size = 2
     drop_rate = 0.5
@@ -70,9 +84,9 @@ def objective(trial: optuna.Trial):
         train_short_dataloader = DataLoader(EventDataset(train_short_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
     train_dataloader = DataLoader(EventDataset(train_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
     
-    selector = SelectorModel(mlp_size=params['s_mlp'])
-    predictor =ECIRobertaJointTask(mlp_size=params['p_mlp'], roberta_type=roberta_type, datasets=datasets, finetune=False,
-                                    pos_dim=20, drop_rate=drop_rate)
+    selector = LSTMSelector(768, params['s_hidden_dim'], params['s_mlp_dim'])
+    predictor =ECIRobertaJointTask(mlp_size=params['p_mlp_dim'], roberta_type=roberta_type, datasets=datasets, pos_dim=20, 
+                                    fn_activate=fn_activative, drop_rate=drop_rate, task_weights=None, n_head=params['n_head'])
     
     if CUDA:
         selector = selector.cuda()
@@ -84,10 +98,8 @@ def objective(trial: optuna.Trial):
     total_steps = len(train_dataloader) * epoches
     print("Total steps: [number of batches] x [number of epochs] =", total_steps)
 
-    exp = EXP(selector, predictor, num_epoches=epoches, s_lr=params['s_lr'], p_lr=params['p_lr'], num_ctx_select=params['num_ctx_select'],
-            train_dataloader=train_dataloader, test_dataloaders=test_dataloaders, validate_dataloaders=validate_dataloaders,
-            train_short_dataloader=train_short_dataloader, test_short_dataloaders=test_short_dataloaders, validate_short_dataloaders=validate_short_dataloaders,
-            best_path=best_path)
+    exp = EXP(selector, predictor, epoches, params['num_ctx_select'], train_dataloader, validate_dataloaders, test_dataloaders,
+            train_short_dataloader, test_short_dataloaders, validate_short_dataloaders, params['s_lr'], params['p_lr'], best_path)
     F1, CM, matres_F1 = exp.train()
     exp.evaluate(is_test=True)
     print("Result: Best micro F1 of interaction: {}".format(F1))

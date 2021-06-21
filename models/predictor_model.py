@@ -9,7 +9,7 @@ from collections import OrderedDict
 
 class ECIRobertaJointTask(nn.Module):
     def __init__(self, mlp_size, roberta_type, datasets,
-                finetune, pos_dim=None, loss=None, sub=True, mul=True, fn_activate='relu',
+                finetune=True, pos_dim=None, loss=None, sub=True, mul=True, fn_activate='relu',
                 negative_slope=0.2, drop_rate=0.5, task_weights=None, n_head=3):
         super().__init__()
         

@@ -84,8 +84,10 @@ def loader(dataset, min_ns):
             y_sent_id = my_dict['event_dict'][y]['sent_id']
             x_sent = my_dict["sentences"][x_sent_id]["roberta_subword_to_ID"]
             y_sent = my_dict["sentences"][y_sent_id]["roberta_subword_to_ID"]
-            x_sent_emb = sent_encoder.encode(x_sent)
-            y_sent_emb = sent_encoder.encode(y_sent)
+            x_sent_len = len(x_sent)
+            y_sent_len = len(y_sent)
+            x_sent_emb = sent_encoder.encode(x_sent).squeeze()
+            y_sent_emb = sent_encoder.encode(y_sent).squeeze()
             x_position = my_dict["event_dict"][x]["roberta_subword_id"]
             y_position = my_dict["event_dict"][y]["roberta_subword_id"]
             x_sent_pos = pos_to_id(my_dict["sentences"][x_sent_id]["roberta_subword_pos"])
@@ -124,16 +126,16 @@ def loader(dataset, min_ns):
                     y_ctx_pos.append(sent_pos)
                     y_ctx_len.append(len(sent))
             
-            x_ctx_augm_emb = torch.cat(x_ctx_augm, dim=0)
-            y_ctx_augm_emb = torch.cat(y_ctx_augm, dim=0)
+            x_ctx_augm_emb = torch.cat(x_ctx_augm_emb, dim=0)
+            y_ctx_augm_emb = torch.cat(y_ctx_augm_emb, dim=0)
             xy = my_dict["relation_dict"].get((x, y))
             yx = my_dict["relation_dict"].get((y, x))
             
             candidates = [
-                [x_sent_id, y_sent_id, x_sent, y_sent, x_sent_emb, y_sent_emb, x_position, y_position, x_sent_pos, y_sent_pos, x_ctx, y_ctx, 
-                x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy],
-                [y_sent_id, x_sent_id, y_sent, x_sent, y_sent_emb, x_sent_emb,  y_position, x_position, y_sent_pos, x_sent_pos, y_ctx, x_ctx, 
-                y_ctx_len, x_ctx_len, y_ctx_augm, x_ctx_augm, y_ctx_augm_emb, x_ctx_augm_emb, y_ctx_pos, x_ctx_pos, flag, yx],
+                [x_sent_id, y_sent_id, x_sent, y_sent, x_sent_len, y_sent_len, x_sent_emb, y_sent_emb, x_position, y_position, x_sent_pos, y_sent_pos, 
+                x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy],
+                [y_sent_id, x_sent_id, y_sent, x_sent, y_sent_len, x_sent_len, y_sent_emb, x_sent_emb,  y_position, x_position, y_sent_pos, x_sent_pos, 
+                y_ctx, x_ctx, y_ctx_len, x_ctx_len, y_ctx_augm, x_ctx_augm, y_ctx_augm_emb, x_ctx_augm_emb, y_ctx_pos, x_ctx_pos, flag, yx],
             ]
 
             for item in candidates:

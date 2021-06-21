@@ -131,28 +131,6 @@ def pos_to_id(sent_pos):
                     for pos in sent_pos]
     return id_pos_sent
 
-def make_selector_input(target, ctx, sent_id):
-    bs = len(target)
-    assert len(ctx) == bs and len(sent_id) == bs, 'Each element must be same batch size'
-    pad_target = []
-    target_len = []
-    augm_ctx = []
-    ctx_len = []
-    max_ns = 0
-    for i in range(bs):
-        target_len.append(len(target[i]))
-        pad_target.append(padding(target[i]))
-        augment = [padding(sent) for sent in augment_with_target(target[i], sent_id[i], ctx[i])]
-        augm_ctx.append(augment)
-        ctx_len.append([len(sent) for sent in ctx[i]])
-        max_ns = max(len(augment), max_ns)
-    
-    pad_target = torch.tensor(pad_target, dtype=torch.long)
-    target_len = torch.tensor(target_len, dtype=torch.long)
-    augm_ctx = pad_to_max_ns(augm_ctx, max_ns)
-    augm_ctx = torch.tensor(augm_ctx, dtype=torch.long)
-    return pad_target, target_len, augm_ctx, ctx_len
-
 def make_predictor_input(target, pos_target, position_target, sent_id, ctx, pos_ctx, ctx_id):
     bs = len(target)
     assert len(ctx) == bs and len(sent_id) == bs and len(position_target) == bs, 'Each element must be same batch size'
@@ -160,13 +138,17 @@ def make_predictor_input(target, pos_target, position_target, sent_id, ctx, pos_
     augm_pos_target = []
     augm_position = []
     for i in range(bs):
-        selected_ctx = [step[i] for step in ctx_id]
+        if ctx_id != 'all':
+            selected_ctx = [step[i] for step in ctx_id]
+        else:
+            selected_ctx = list(range(len(ctx[i])))
         augment, position = augment_target(target[i], sent_id[i], position_target[i], ctx[i], selected_ctx)
         pos_augment, pos_position = augment_target(pos_target[i], sent_id[i], position_target[i], pos_ctx[i], selected_ctx)
         assert position == pos_position
         augm_target.append(padding(augment, max_sent_len=300))
         augm_pos_target.append(padding(pos_augment, pos=True, max_sent_len=300))
         augm_position.append(position)
+
     augm_target = torch.tensor(augm_target, dtype=torch.long)
     augm_pos_target = torch.tensor(augm_pos_target, dtype=torch.long)
     augm_position = torch.tensor(augm_position, dtype=torch.long)    
