@@ -51,7 +51,7 @@ class SentenceEncoder(object):
         return s_encoder[:, 0] # 1 x 768
 
 
-sent_encoder = SentenceEncoder('roberta_base')
+sent_encoder = SentenceEncoder('roberta-base')
 
 def load_dataset(dir_name, type):
     reader = Reader(type)
@@ -277,31 +277,4 @@ def loader(dataset, min_ns):
         print("Validate_size: {}".format(len(validate_short)))
 
     return train_set, test_set, validate_set, train_short, test_short, validate_short
-
-if __name__ == '__main__':
-    import numpy as np
-    from data_loader.EventDataset import EventDataset
-    from torch.utils.data.dataloader import DataLoader
-    
-    def seed_worker(worker_id):
-        worker_seed = torch.initial_seed() % 2**32
-        np.random.seed(worker_seed)
-        random.seed(worker_seed)
-
-    def collate_fn(batch):
-        return tuple(zip(*batch))
-
-    train, test, validate, train_short, test_short, validate_short = loader("MATRES", 3)
-    dataloader = DataLoader(EventDataset(train), batch_size=12, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
-    short_dataloader = DataLoader(EventDataset(train_short), batch_size=12, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
-    for batch in dataloader:
-        print("==================== Batch ====================")
-        for item in batch:
-            print(item)
-        break
-    for batch in short_dataloader:
-        print("==================== Short Batch ====================")
-        for item in batch:
-            print(item)
-        break
         
