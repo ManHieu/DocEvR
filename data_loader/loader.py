@@ -45,10 +45,13 @@ class SentenceEncoder(object):
         sentence = torch.tensor(sentence, dtype=torch.long)
         if CUDA:
             sentence = sentence.cuda()
+        # print("Sentence size: ", sentence.size())
+        if len(sentence.size()) == 1:
+            sentence = sentence.unsqueeze(0)
         with torch.no_grad():
-            s_encoder = self.encoder(sentence.unsqueeze(0))[0]
+            s_encoder = self.encoder(sentence)[0]
         # print(s_encoder)
-        return s_encoder[:, 0] # 1 x 768
+        return s_encoder[:, 0] # ns x 768
 
 
 sent_encoder = SentenceEncoder('roberta-base')
