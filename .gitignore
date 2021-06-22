@@ -1,1 +1,9 @@
 .vscode/
+utils/__pycache__
+tokenizer
+rst_file
+pretrained_models
+models/__pycache__
+log
+data_loader/__pycache__
+__pycache__
