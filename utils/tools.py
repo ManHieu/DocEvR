@@ -172,16 +172,20 @@ def augment_target(target, sent_id, position_target, ctx, ctx_id):
     return augment_target, position_target
             
 
-def pad_to_max_ns(ctx, max_ns):
-    try:
-        sent_len = len(ctx[0][0])
-    except:
-        print(ctx)
-    pad_sent = [1] * sent_len
-    for i in range(len(ctx)):
-        if len(ctx[i]) < max_ns:
-            ctx[i] += [pad_sent] * (max_ns - len(ctx[i]))
-    return ctx
+def pad_to_max_ns(ctx_augm_emb):
+    max_ns = 0
+    ctx_augm_emb_paded = []
+    for ctx in ctx_augm_emb:
+        max_ns  = max(max_ns, )
+    
+    pad = torch.zeros((max_ns, 768))
+    for ctx in ctx_augm_emb:
+        if ctx.size(0) < max_ns:
+            pad[:ctx.size(0), :] = ctx
+            ctx_augm_emb_paded.append(pad)
+        else:
+            ctx_augm_emb_paded.append(ctx)
+    return ctx_augm_emb_paded
 
 def augment_ctx(target_sent, target_id, ctx_sent, ctx_id):
     if ctx_id < target_id:

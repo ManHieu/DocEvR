@@ -69,7 +69,7 @@ class EXP(object):
             self.predictor.zero_grad()
             self.predictor_loss = 0.0
             if self.train_short_dataloader != None:
-                for step, batch in tqdm.tqdm(enumerate(self.train_short_dataloader), desc="Training process for short doc", total=len(self.train_dataloader)):
+                for step, batch in tqdm.tqdm(enumerate(self.train_short_dataloader), desc="Training process for short doc", total=len(self.train_short_dataloader)):
                     x_sent_id, y_sent_id, x_sent, y_sent, x_sent_len, y_sent_len, x_sent_emb, y_sent_emb, x_position, y_position, x_sent_pos, y_sent_pos, \
                     x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy = batch
                     
@@ -102,9 +102,9 @@ class EXP(object):
 
                 if self.is_finetune_selector == False:
                     x_sent_emb = torch.stack(x_sent_emb, dim=0)
-                    x_ctx_augm_emb = torch.stack(x_ctx_augm_emb, dim=0)
+                    x_ctx_augm_emb = torch.stack(pad_to_max_ns(x_ctx_augm_emb), dim=0)
                     y_sent_emb = torch.stack(y_sent_emb, dim=0)
-                    y_ctx_augm_emb = torch.stack(y_ctx_augm_emb, dim=0)
+                    y_ctx_augm_emb = torch.stack(pad_to_max_ns(y_ctx_augm_emb), dim=0)
                     if CUDA:
                         x_sent_emb = x_sent_emb.cuda()
                         x_ctx_augm_emb = x_ctx_augm_emb.cuda()
@@ -180,7 +180,7 @@ class EXP(object):
             pred = []
             gold = []
             if short_dataloader != None:
-                for step, batch in tqdm.tqdm(enumerate(short_dataloader), desc="Testing process for short doc", total=len(self.train_dataloader)):
+                for step, batch in tqdm.tqdm(enumerate(short_dataloader), desc="Testing process for short doc", total=len(short_dataloader)):
                     x_sent_id, y_sent_id, x_sent, y_sent, x_sent_len, y_sent_len, x_sent_emb, y_sent_emb, x_position, y_position, x_sent_pos, y_sent_pos, \
                     x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy = batch
                     
@@ -204,7 +204,7 @@ class EXP(object):
                     gold.extend(labels)
                     pred.extend(y_pred)
 
-            for step, batch in tqdm.tqdm(enumerate(self.train_dataloader), desc="Testing process for long doc", total=len(self.train_dataloader)):
+            for step, batch in tqdm.tqdm(enumerate(self.train_dataloader), desc="Testing process for long doc", total=len(short_dataloader)):
                 x_sent_id, y_sent_id, x_sent, y_sent, x_sent_len, y_sent_len, x_sent_emb, y_sent_emb, x_position, y_position, x_sent_pos, y_sent_pos, \
                 x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy = batch
                 
@@ -213,9 +213,9 @@ class EXP(object):
 
                 if self.is_finetune_selector == False:
                     x_sent_emb = torch.stack(x_sent_emb, dim=0)
-                    x_ctx_augm_emb = torch.stack(x_ctx_augm_emb, dim=0)
+                    x_ctx_augm_emb = torch.stack(pad_to_max_ns(x_ctx_augm_emb), dim=0)
                     y_sent_emb = torch.stack(y_sent_emb, dim=0)
-                    y_ctx_augm_emb = torch.stack(y_ctx_augm_emb, dim=0)
+                    y_ctx_augm_emb = torch.stack(pad_to_max_ns(y_ctx_augm_emb), dim=0)
                     if CUDA:
                         x_sent_emb = x_sent_emb.cuda()
                         x_ctx_augm_emb = x_ctx_augm_emb.cuda()
