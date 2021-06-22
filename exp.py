@@ -93,54 +93,54 @@ class EXP(object):
                     self.predictor_optim.step()
                     self.predictor_loss += p_loss.item()
 
-            for step, batch in tqdm.tqdm(enumerate(self.train_dataloader), desc="Training process for long doc", total=len(self.train_dataloader)):
-                x_sent_id, y_sent_id, x_sent, y_sent, x_sent_len, y_sent_len, x_sent_emb, y_sent_emb, x_position, y_position, x_sent_pos, y_sent_pos, \
-                x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy = batch
+            # for step, batch in tqdm.tqdm(enumerate(self.train_dataloader), desc="Training process for long doc", total=len(self.train_dataloader)):
+            #     x_sent_id, y_sent_id, x_sent, y_sent, x_sent_len, y_sent_len, x_sent_emb, y_sent_emb, x_position, y_position, x_sent_pos, y_sent_pos, \
+            #     x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy = batch
                 
-                self.selector_optim.zero_grad()
-                self.predictor_optim.zero_grad()
+            #     self.selector_optim.zero_grad()
+            #     self.predictor_optim.zero_grad()
 
-                if self.is_finetune_selector == False:
-                    x_sent_emb = torch.stack(x_sent_emb, dim=0)
-                    x_ctx_augm_emb = torch.stack(pad_to_max_ns(x_ctx_augm_emb), dim=0)
-                    y_sent_emb = torch.stack(y_sent_emb, dim=0)
-                    y_ctx_augm_emb = torch.stack(pad_to_max_ns(y_ctx_augm_emb), dim=0)
-                    if CUDA:
-                        x_sent_emb = x_sent_emb.cuda()
-                        x_ctx_augm_emb = x_ctx_augm_emb.cuda()
-                        y_sent_emb = y_sent_emb.cuda()
-                        y_ctx_augm_emb = y_ctx_augm_emb.cuda()
+            #     if self.is_finetune_selector == False:
+            #         x_sent_emb = torch.stack(x_sent_emb, dim=0)
+            #         x_ctx_augm_emb = torch.stack(pad_to_max_ns(x_ctx_augm_emb), dim=0)
+            #         y_sent_emb = torch.stack(y_sent_emb, dim=0)
+            #         y_ctx_augm_emb = torch.stack(pad_to_max_ns(y_ctx_augm_emb), dim=0)
+            #         if CUDA:
+            #             x_sent_emb = x_sent_emb.cuda()
+            #             x_ctx_augm_emb = x_ctx_augm_emb.cuda()
+            #             y_sent_emb = y_sent_emb.cuda()
+            #             y_ctx_augm_emb = y_ctx_augm_emb.cuda()
 
-                    x_ctx_selected, x_dist, x_log_prob = self.selector(x_sent_emb, x_ctx_augm_emb, x_sent_len, x_ctx_len, self.num_ctx_select)
-                    y_ctx_selected, y_dist, y_log_prob = self.selector(y_sent_emb, y_ctx_augm_emb, y_sent_len, y_ctx_len, self.num_ctx_select)
-                else:
-                    print("This case is not implemented at this time!")
+            #         x_ctx_selected, x_dist, x_log_prob = self.selector(x_sent_emb, x_ctx_augm_emb, x_sent_len, x_ctx_len, self.num_ctx_select)
+            #         y_ctx_selected, y_dist, y_log_prob = self.selector(y_sent_emb, y_ctx_augm_emb, y_sent_len, y_ctx_len, self.num_ctx_select)
+            #     else:
+            #         print("This case is not implemented at this time!")
                 
-                p_x_sent, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, x_ctx_selected)
-                p_y_sent, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, y_ctx_selected)
-                xy = torch.tensor(xy, dtype=torch.long)
-                flag = torch.tensor(flag, dtype=torch.long)
-                if CUDA:
-                    p_x_sent = p_x_sent.cuda() 
-                    p_x_sent_pos = p_x_sent_pos.cuda()
-                    p_x_position = p_x_position.cuda()
-                    p_y_sent = p_y_sent.cuda() 
-                    p_y_sent_pos = p_y_sent_pos.cuda()
-                    p_y_position = p_y_position.cuda()
-                    xy = xy.cuda()
-                    flag = flag.cuda()
-                logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
+            #     p_x_sent, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, x_ctx_selected)
+            #     p_y_sent, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, y_ctx_selected)
+            #     xy = torch.tensor(xy, dtype=torch.long)
+            #     flag = torch.tensor(flag, dtype=torch.long)
+            #     if CUDA:
+            #         p_x_sent = p_x_sent.cuda() 
+            #         p_x_sent_pos = p_x_sent_pos.cuda()
+            #         p_x_position = p_x_position.cuda()
+            #         p_y_sent = p_y_sent.cuda() 
+            #         p_y_sent_pos = p_y_sent_pos.cuda()
+            #         p_y_position = p_y_position.cuda()
+            #         xy = xy.cuda()
+            #         flag = flag.cuda()
+            #     logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
                 
-                task_reward = self.task_reward(logits, xy)
-                s_loss = 0.0
-                for i in range(len(task_reward)):
-                    s_loss = s_loss - task_reward[i] * (x_log_prob[i] + y_log_prob[i])
-                s_loss.backward()
-                p_loss.backward()
-                self.selector_optim.step()
-                self.predictor_optim.step()
-                self.selector_loss += s_loss.item()
-                self.predictor_loss += p_loss.item()
+            #     task_reward = self.task_reward(logits, xy)
+            #     s_loss = 0.0
+            #     for i in range(len(task_reward)):
+            #         s_loss = s_loss - task_reward[i] * (x_log_prob[i] + y_log_prob[i])
+            #     s_loss.backward()
+            #     p_loss.backward()
+            #     self.selector_optim.step()
+            #     self.predictor_optim.step()
+            #     self.selector_loss += s_loss.item()
+            #     self.predictor_loss += p_loss.item()
 
             epoch_training_time = format_time(time.time() - t0)
             print("Total training loss: {}-{}".format(self.selector_loss, self.predictor_loss))
@@ -204,48 +204,48 @@ class EXP(object):
                     gold.extend(labels)
                     pred.extend(y_pred)
 
-            for step, batch in tqdm.tqdm(enumerate(self.train_dataloader), desc="Processing for long doc", total=len(short_dataloader)):
-                x_sent_id, y_sent_id, x_sent, y_sent, x_sent_len, y_sent_len, x_sent_emb, y_sent_emb, x_position, y_position, x_sent_pos, y_sent_pos, \
-                x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy = batch
+            # for step, batch in tqdm.tqdm(enumerate(self.train_dataloader), desc="Processing for long doc", total=len(short_dataloader)):
+            #     x_sent_id, y_sent_id, x_sent, y_sent, x_sent_len, y_sent_len, x_sent_emb, y_sent_emb, x_position, y_position, x_sent_pos, y_sent_pos, \
+            #     x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy = batch
                 
-                self.selector_optim.zero_grad()
-                self.predictor_optim.zero_grad()
+            #     self.selector_optim.zero_grad()
+            #     self.predictor_optim.zero_grad()
 
-                if self.is_finetune_selector == False:
-                    x_sent_emb = torch.stack(x_sent_emb, dim=0)
-                    x_ctx_augm_emb = torch.stack(pad_to_max_ns(x_ctx_augm_emb), dim=0)
-                    y_sent_emb = torch.stack(y_sent_emb, dim=0)
-                    y_ctx_augm_emb = torch.stack(pad_to_max_ns(y_ctx_augm_emb), dim=0)
-                    if CUDA:
-                        x_sent_emb = x_sent_emb.cuda()
-                        x_ctx_augm_emb = x_ctx_augm_emb.cuda()
-                        y_sent_emb = y_sent_emb.cuda()
-                        y_ctx_augm_emb = y_ctx_augm_emb.cuda()
+            #     if self.is_finetune_selector == False:
+            #         x_sent_emb = torch.stack(x_sent_emb, dim=0)
+            #         x_ctx_augm_emb = torch.stack(pad_to_max_ns(x_ctx_augm_emb), dim=0)
+            #         y_sent_emb = torch.stack(y_sent_emb, dim=0)
+            #         y_ctx_augm_emb = torch.stack(pad_to_max_ns(y_ctx_augm_emb), dim=0)
+            #         if CUDA:
+            #             x_sent_emb = x_sent_emb.cuda()
+            #             x_ctx_augm_emb = x_ctx_augm_emb.cuda()
+            #             y_sent_emb = y_sent_emb.cuda()
+            #             y_ctx_augm_emb = y_ctx_augm_emb.cuda()
 
-                    x_ctx_selected, x_dist, x_log_prob = self.selector(x_sent_emb, x_ctx_augm_emb, x_sent_len, x_ctx_len, self.num_ctx_select)
-                    y_ctx_selected, y_dist, y_log_prob = self.selector(y_sent_emb, y_ctx_augm_emb, y_sent_len, y_ctx_len, self.num_ctx_select)
-                else:
-                    print("This case is not implemented at this time!")
+            #         x_ctx_selected, x_dist, x_log_prob = self.selector(x_sent_emb, x_ctx_augm_emb, x_sent_len, x_ctx_len, self.num_ctx_select)
+            #         y_ctx_selected, y_dist, y_log_prob = self.selector(y_sent_emb, y_ctx_augm_emb, y_sent_len, y_ctx_len, self.num_ctx_select)
+            #     else:
+            #         print("This case is not implemented at this time!")
                 
-                p_x_sent, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, x_ctx_selected)
-                p_y_sent, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, y_ctx_selected)
-                xy = torch.tensor(xy, dtype=torch.long)
-                flag = torch.tensor(flag, dtype=torch.long)
-                if CUDA:
-                    p_x_sent = p_x_sent.cuda() 
-                    p_x_sent_pos = p_x_sent_pos.cuda()
-                    p_x_position = p_x_position.cuda()
-                    p_y_sent = p_y_sent.cuda() 
-                    p_y_sent_pos = p_y_sent_pos.cuda()
-                    p_y_position = p_y_position.cuda()
-                    xy = xy.cuda()
-                    flag = flag.cuda()
-                logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
+            #     p_x_sent, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, x_ctx_selected)
+            #     p_y_sent, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, y_ctx_selected)
+            #     xy = torch.tensor(xy, dtype=torch.long)
+            #     flag = torch.tensor(flag, dtype=torch.long)
+            #     if CUDA:
+            #         p_x_sent = p_x_sent.cuda() 
+            #         p_x_sent_pos = p_x_sent_pos.cuda()
+            #         p_x_position = p_x_position.cuda()
+            #         p_y_sent = p_y_sent.cuda() 
+            #         p_y_sent_pos = p_y_sent_pos.cuda()
+            #         p_y_position = p_y_position.cuda()
+            #         xy = xy.cuda()
+            #         flag = flag.cuda()
+            #     logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
                 
-                labels = xy.cpu().numpy()
-                y_pred = torch.max(logits, 1).indices.cpu().numpy()
-                gold.extend(labels)
-                pred.extend(y_pred)
+            #     labels = xy.cpu().numpy()
+            #     y_pred = torch.max(logits, 1).indices.cpu().numpy()
+            #     gold.extend(labels)
+            #     pred.extend(y_pred)
 
             P, R, F1 = precision_recall_fscore_support(gold, pred, average='micro')[0:3]
             CM = confusion_matrix(gold, pred)
