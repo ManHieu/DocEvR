@@ -139,10 +139,8 @@ def loader(dataset, min_ns):
                     y_ctx_pos.append(sent_pos)
                     y_ctx_len.append(len(sent))
             
-            x_ctx_augm_emb = []
-            # sent_encoder.encode(x_ctx_augm)
-            y_ctx_augm_emb = []
-            # sent_encoder.encode(y_ctx_augm)
+            x_ctx_augm_emb = sent_encoder.encode(x_ctx_augm)
+            y_ctx_augm_emb = sent_encoder.encode(y_ctx_augm)
             xy = my_dict["relation_dict"].get((x, y))
             yx = my_dict["relation_dict"].get((y, x))
             
