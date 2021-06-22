@@ -143,7 +143,7 @@ class EXP(object):
                 self.predictor_loss += p_loss.item()
 
             epoch_training_time = format_time(time.time() - t0)
-            print("Total training loss: {}-{}".format(self.selector_loss, self.predictor_loss))
+            print("Total training loss: {} - {}".format(self.selector_loss, self.predictor_loss))
             self.evaluate()
         
         print("Training complete!")
