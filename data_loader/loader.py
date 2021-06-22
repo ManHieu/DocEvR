@@ -129,7 +129,6 @@ def loader(dataset, min_ns):
                     y_ctx_len.append(len(sent))
             
             x_ctx_augm_emb = sent_encoder.encode(x_ctx_augm)
-            print(x_ctx_augm_emb.size())
             y_ctx_augm_emb = sent_encoder.encode(y_ctx_augm)
             xy = my_dict["relation_dict"].get((x, y))
             yx = my_dict["relation_dict"].get((y, x))
