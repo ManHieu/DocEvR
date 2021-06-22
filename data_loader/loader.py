@@ -5,7 +5,7 @@ import random
 import torch
 from itertools import combinations
 from data_loader.reader import i2b2_xml_reader, tbd_tml_reader, tml_reader, tsvx_reader
-from utils.tools import augment_ctx, pos_to_id
+from utils.tools import augment_ctx, padding, pos_to_id
 from sklearn.model_selection import train_test_split
 from transformers import AutoModel
 
@@ -108,28 +108,29 @@ def loader(dataset, min_ns):
             for sent_id in range(len(my_dict["sentences"])):
                 if sent_id != x_sent_id:
                     sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
-                    sent_augm = augment_ctx(x_sent, x_sent_id, sent, sent_id)
-                    sent_augm_emb = sent_encoder.encode(sent_augm)
+                    sent_augm = padding(augment_ctx(x_sent, x_sent_id, sent, sent_id))
+                    # sent_augm_emb = sent_encoder.encode(sent_augm)
                     sent_pos = pos_to_id(my_dict["sentences"][sent_id]['roberta_subword_pos'])
                     x_ctx.append(sent)
                     x_ctx_augm.append(sent_augm)
-                    x_ctx_augm_emb.append(sent_augm_emb)
+                    # x_ctx_augm_emb.append(sent_augm_emb)
                     x_ctx_pos.append(sent_pos)
                     x_ctx_len.append(len(sent))
 
                 if sent_id != y_sent_id:
                     sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
-                    sent_augm = augment_ctx(y_sent, y_sent_id, sent, sent_id)
-                    sent_augm_emb = sent_encoder.encode(sent_augm)
+                    sent_augm = padding(augment_ctx(y_sent, y_sent_id, sent, sent_id))
+                    # sent_augm_emb = sent_encoder.encode(sent_augm)
                     sent_pos = pos_to_id(my_dict["sentences"][sent_id]['roberta_subword_pos'])
                     y_ctx.append(sent)
                     y_ctx_augm.append(sent_augm)
-                    y_ctx_augm_emb.append(sent_augm_emb)
+                    # y_ctx_augm_emb.append(sent_augm_emb)
                     y_ctx_pos.append(sent_pos)
                     y_ctx_len.append(len(sent))
             
-            x_ctx_augm_emb = torch.cat(x_ctx_augm_emb, dim=0)
-            y_ctx_augm_emb = torch.cat(y_ctx_augm_emb, dim=0)
+            x_ctx_augm_emb = sent_encoder.encode(x_ctx_augm)
+            print(x_ctx_augm_emb.size())
+            y_ctx_augm_emb = sent_encoder.encode(y_ctx_augm)
             xy = my_dict["relation_dict"].get((x, y))
             yx = my_dict["relation_dict"].get((y, x))
             
@@ -143,7 +144,7 @@ def loader(dataset, min_ns):
             for item in candidates:
                 if item[-1] != None and len(x_ctx_len) == len(y_ctx_len) and len(x_ctx_len) >= min_ns:
                     data.append(item)
-                if len(x_ctx_len) < min_ns:
+                if item[-1] != None and len(x_ctx_len) < min_ns:
                     short_data.append(item)
         return data, short_data
     train_set = []
