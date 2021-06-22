@@ -57,9 +57,9 @@ class SentenceEncoder(object):
             with torch.no_grad():
                 s_encoder1 = self.encoder(sentence1)[0]
                 s_encoder2 = self.encoder(sentence2)[0]
-            return torch.cat([s_encoder1[:, 0], s_encoder2[:, 0]], dim=0)
+            return torch.cat([s_encoder1[:, 0], s_encoder2[:, 0]], dim=0).cpu()
         # print(s_encoder)
-        return s_encoder[:, 0] # ns x 768
+        return s_encoder[:, 0].cpu() # ns x 768
 
 
 sent_encoder = SentenceEncoder('roberta-base')
