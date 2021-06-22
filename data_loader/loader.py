@@ -158,8 +158,8 @@ def loader(dataset, min_ns):
                     data.append(item)
                 if item[-1] != None and len(x_ctx_len) < min_ns:
                     short_data.append(item)
-                    if len(x_sent) + sum([len(sent) for sent in x_ctx]) > 300:
-                        print(my_dict['doc_id'])
+                    sum_len = len(x_sent) + sum([len(sent) for sent in x_ctx]):
+                    print("{}: {}".format(my_dict['doc_id'], sum_len))
         return data, short_data
     train_set = []
     train_short = []
