@@ -2,7 +2,7 @@ import bs4
 import xml.etree.ElementTree as ET
 from utils.constant import *
 from utils.tools import *
-from nltk import sent_tokenize
+# from nltk import sent_tokenize
 from bs4 import BeautifulSoup as Soup
 
 
@@ -34,7 +34,7 @@ def tsvx_reader(dir_name, file_name):
             raise ValueError("Reading a file not in HiEve tsvx format...")
     
     # Split document into sentences
-    sent_tokenized_text = sent_tokenize(my_dict["doc_content"])
+    sent_tokenized_text = list(nlp(my_dict["doc_content"]).sents)
     sent_span = tokenized_to_origin_span(my_dict["doc_content"], sent_tokenized_text)
     count_sent = 0
     for sent in sent_tokenized_text:
@@ -188,7 +188,7 @@ def tml_reader(dir_name, file_name):
     my_dict["doc_content"] = MY_TEXT
     my_dict["sentences"] = []
     my_dict["relation_dict"] = {}
-    sent_tokenized_text = sent_tokenize(my_dict["doc_content"])
+    sent_tokenized_text = list(nlp(my_dict["doc_content"]).sents)
     sent_span = tokenized_to_origin_span(my_dict["doc_content"], sent_tokenized_text)
     count_sent = 0
     for sent in sent_tokenized_text:
@@ -274,7 +274,7 @@ def i2b2_xml_reader(dir_name, file_name):
     my_dict["doc_content"] = root.find("TEXT").text
     my_dict["sentences"] = []
     my_dict['relation_dict'] = {}
-    sent_tokenized_text = sent_tokenize(my_dict['doc_content'])
+    sent_tokenized_text = list(nlp(my_dict["doc_content"]).sents)
     sent_span = tokenized_to_origin_span(my_dict['doc_content'], sent_tokenized_text)
     count_sent = 0
     for sent in sent_tokenized_text:
@@ -378,7 +378,7 @@ def tbd_tml_reader(dir_name, file_name):
     my_dict["doc_content"] = content
     my_dict["sentences"] = []
     my_dict["relation_dict"] = {}
-    sent_tokenized_text = sent_tokenize(my_dict["doc_content"])
+    sent_tokenized_text = list(nlp(my_dict["doc_content"]).sents)
     sent_span = tokenized_to_origin_span(my_dict["doc_content"], sent_tokenized_text)
     count_sent = 0
     for sent in sent_tokenized_text:
