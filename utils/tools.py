@@ -145,8 +145,8 @@ def make_predictor_input(target, pos_target, position_target, sent_id, ctx, pos_
         augment, position = augment_target(target[i], sent_id[i], position_target[i], ctx[i], selected_ctx)
         pos_augment, pos_position = augment_target(pos_target[i], sent_id[i], position_target[i], pos_ctx[i], selected_ctx)
         assert position == pos_position
+        print(len(augment))
         augm_target.append(padding(augment, max_sent_len=300))
-        print(len(augm_target))
         augm_pos_target.append(padding(pos_augment, pos=True, max_sent_len=300))
         augm_position.append(position)
 
