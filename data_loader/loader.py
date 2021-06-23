@@ -57,7 +57,7 @@ class SentenceEncoder(nn.Module):
         #         s_encoder2 = self.encoder(sentence2)[0]
         #     return torch.cat([s_encoder1[:, 0], s_encoder2[:, 0]], dim=0).cpu()
         # print(s_encoder)
-        return s_encoder[:, 0].cpu() # ns x 768
+        return s_encoder[:, 0] # ns x 768
 
 
 sent_encoder = SentenceEncoder('roberta-base')
@@ -91,7 +91,7 @@ def loader(dataset, min_ns):
         short_data = []
         eids = my_dict['event_dict'].keys()
         pair_events = list(combinations(eids, 2))
-        for pair in pair_events:
+        for pair in tqdm.tqdm(pair_events):
             x, y = pair
             x_sent_id = my_dict['event_dict'][x]['sent_id']
             y_sent_id = my_dict['event_dict'][y]['sent_id']
@@ -99,8 +99,8 @@ def loader(dataset, min_ns):
             y_sent = my_dict["sentences"][y_sent_id]["roberta_subword_to_ID"]
             x_sent_len = len(x_sent)
             y_sent_len = len(y_sent)
-            x_sent_emb = sent_encoder(x_sent).squeeze()
-            y_sent_emb = sent_encoder(y_sent).squeeze()
+            x_sent_emb = sent_encoder(x_sent).squeeze().cpu()
+            y_sent_emb = sent_encoder(y_sent).squeeze().cpu()
             x_position = my_dict["event_dict"][x]["roberta_subword_id"]
             y_position = my_dict["event_dict"][y]["roberta_subword_id"]
             x_sent_pos = pos_to_id(my_dict["sentences"][x_sent_id]["roberta_subword_pos"])
@@ -116,7 +116,7 @@ def loader(dataset, min_ns):
             y_ctx_augm_emb = []
             y_ctx_pos = []
             y_ctx_len = []
-            for sent_id in tqdm.tqdm(range(len(my_dict["sentences"]))):
+            for sent_id in range(len(my_dict["sentences"])):
                 if sent_id != x_sent_id:
                     sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
                     sent_augm = padding(augment_ctx(x_sent, x_sent_id, sent, sent_id))
@@ -139,8 +139,8 @@ def loader(dataset, min_ns):
                     y_ctx_pos.append(sent_pos)
                     y_ctx_len.append(len(sent))
             
-            x_ctx_augm_emb = sent_encoder(x_ctx_augm)
-            y_ctx_augm_emb = sent_encoder(y_ctx_augm)
+            x_ctx_augm_emb = sent_encoder(x_ctx_augm).cpu()
+            y_ctx_augm_emb = sent_encoder(y_ctx_augm).cpu()
             xy = my_dict["relation_dict"].get((x, y))
             yx = my_dict["relation_dict"].get((y, x))
             
