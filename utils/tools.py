@@ -164,7 +164,7 @@ def augment_target(target, sent_id, position_target, ctx, ctx_id):
             augment_target += ctx[id][1:]
             position_target += len(ctx[id][1:])     
         elif id == sent_id:
-            augment_target = augment_target + target[1:] + ctx[id]
+            augment_target = augment_target + target[1:] + ctx[id][1:]
         else:
             augment_target += ctx[id][1:]
     augment_target = [0] + augment_target

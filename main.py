@@ -29,7 +29,8 @@ def collate_fn(batch):
     
 def objective(trial: optuna.Trial):
     params = {
-        's_hidden_dim': trial.suggest_categorical('s_hidden_dim', [256, 512, 768]),
+        's_hidden_dim': 512
+        # trial.suggest_categorical('s_hidden_dim', [256, 512]),
         # 512,
         's_mlp_dim': trial.suggest_categorical("s_mlp_dim", [256, 512]),
         # 512,
@@ -43,8 +44,8 @@ def objective(trial: optuna.Trial):
             # '3': trial.suggest_float('I2B2_weight', 0.4, 1, step=0.2),
         },
         'num_ctx_select': 3,
-        's_lr': trial.suggest_categorical("s_lr", [5e-6, 5e-5, 5e-4, 5e-3]),
-        'p_lr': trial.suggest_categorical("p_lr", [5e-8, 5e-7, 5e-6, 5e-5]),
+        's_lr': trial.suggest_categorical("s_lr", [5e-6, 5e-5, 5e-4]),
+        'p_lr': trial.suggest_categorical("p_lr", [5e-8, 5e-7]),
 
     }
 
@@ -54,6 +55,8 @@ def objective(trial: optuna.Trial):
     # trial.suggest_categorical('is_mul', [True, False])
     is_sub = True
     # trial.suggest_categorical('is_sub', [True, False])
+
+    print("Hyperparameter will be use in this trial: \n {}".format(params))
     
     selector = LSTMSelector(768, params['s_hidden_dim'], params['s_mlp_dim'])
     predictor =ECIRobertaJointTask(mlp_size=params['p_mlp_dim'], roberta_type=roberta_type, datasets=datasets, pos_dim=20, 
@@ -117,69 +120,69 @@ if __name__ == '__main__':
     np.random.seed(seed)
     random.seed(seed)
 
-    if os.path.exists(pre_processed_dir):
-        with open(pre_processed_dir + "train_dataloader.pkl", 'rb') as f:
-            train_dataloader = pickle.load(f)
-        with open(pre_processed_dir + "train_short_dataloader.pkl", 'rb') as f:
-            train_short_dataloader = pickle.load(f)
+    # if os.path.exists(pre_processed_dir):
+    #     with open(pre_processed_dir + "train_dataloader.pkl", 'rb') as f:
+    #         train_dataloader = pickle.load(f)
+    #     with open(pre_processed_dir + "train_short_dataloader.pkl", 'rb') as f:
+    #         train_short_dataloader = pickle.load(f)
 
-        with open(pre_processed_dir + "validate_dataloaders.pkl", 'rb') as f:
-            validate_dataloaders = pickle.load(f)
-        with open(pre_processed_dir + "validate_short_dataloaders.pkl", 'rb') as f:
-            validate_short_dataloaders = pickle.load(f)
+    #     with open(pre_processed_dir + "validate_dataloaders.pkl", 'rb') as f:
+    #         validate_dataloaders = pickle.load(f)
+    #     with open(pre_processed_dir + "validate_short_dataloaders.pkl", 'rb') as f:
+    #         validate_short_dataloaders = pickle.load(f)
 
-        with open(pre_processed_dir + "test_dataloaders.pkl", 'rb') as f:
-            test_dataloaders = pickle.load(f)
-        with open(pre_processed_dir + "test_short_dataloaders.pkl", 'rb') as f:
-            test_short_dataloaders = pickle.load(f)
+    #     with open(pre_processed_dir + "test_dataloaders.pkl", 'rb') as f:
+    #         test_dataloaders = pickle.load(f)
+    #     with open(pre_processed_dir + "test_short_dataloaders.pkl", 'rb') as f:
+    #         test_short_dataloaders = pickle.load(f)
 
-    if not os.path.exists(pre_processed_dir):
-        train_set = []
-        train_short_set = []
-        validate_dataloaders = {}
-        test_dataloaders = {}
-        validate_short_dataloaders = {}
-        test_short_dataloaders = {}
-        for dataset in datasets:
-            train, test, validate, train_short, test_short, validate_short = loader(dataset, num_select)
-            train_set.extend(train)
-            train_short_set.extend(train_short)
-            validate_dataloader = DataLoader(EventDataset(validate), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
-            test_dataloader = DataLoader(EventDataset(test), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
-            validate_dataloaders[dataset] = validate_dataloader
-            test_dataloaders[dataset] = test_dataloader
-            if len(validate_short) == 0:
-                validate_short_dataloader = None
-            else:
-                validate_short_dataloader = DataLoader(EventDataset(validate_short), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
-            if len(test_short) == 0:
-                test_short_dataloader = None
-            else:
-                test_short_dataloader = DataLoader(EventDataset(test_short), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
-            validate_short_dataloaders[dataset] = validate_short_dataloader
-            test_short_dataloaders[dataset] = test_short_dataloader
-        if len(train_short_set) == 0:
-            train_short_dataloader = None
+    # if not os.path.exists(pre_processed_dir):
+    train_set = []
+    train_short_set = []
+    validate_dataloaders = {}
+    test_dataloaders = {}
+    validate_short_dataloaders = {}
+    test_short_dataloaders = {}
+    for dataset in datasets:
+        train, test, validate, train_short, test_short, validate_short = loader(dataset, num_select)
+        train_set.extend(train)
+        train_short_set.extend(train_short)
+        validate_dataloader = DataLoader(EventDataset(validate), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+        test_dataloader = DataLoader(EventDataset(test), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+        validate_dataloaders[dataset] = validate_dataloader
+        test_dataloaders[dataset] = test_dataloader
+        if len(validate_short) == 0:
+            validate_short_dataloader = None
         else:
-            train_short_dataloader = DataLoader(EventDataset(train_short_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
-        train_dataloader = DataLoader(EventDataset(train_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+            validate_short_dataloader = DataLoader(EventDataset(validate_short), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+        if len(test_short) == 0:
+            test_short_dataloader = None
+        else:
+            test_short_dataloader = DataLoader(EventDataset(test_short), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+        validate_short_dataloaders[dataset] = validate_short_dataloader
+        test_short_dataloaders[dataset] = test_short_dataloader
+    if len(train_short_set) == 0:
+        train_short_dataloader = None
+    else:
+        train_short_dataloader = DataLoader(EventDataset(train_short_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+    train_dataloader = DataLoader(EventDataset(train_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
     
-        os.mkdir(pre_processed_dir)
+        # os.mkdir(pre_processed_dir)
 
-        with open(pre_processed_dir + "train_dataloader.pkl", 'wb') as f:
-            pickle.dump(train_dataloader, f, pickle.HIGHEST_PROTOCOL)
-        with open(pre_processed_dir + "train_short_dataloader.pkl", 'wb') as f:
-            pickle.dump(train_short_dataloader, f, pickle.HIGHEST_PROTOCOL)
+        # with open(pre_processed_dir + "train_dataloader.pkl", 'wb') as f:
+        #     pickle.dump(train_dataloader, f, pickle.HIGHEST_PROTOCOL)
+        # with open(pre_processed_dir + "train_short_dataloader.pkl", 'wb') as f:
+        #     pickle.dump(train_short_dataloader, f, pickle.HIGHEST_PROTOCOL)
 
-        with open(pre_processed_dir + "validate_dataloaders.pkl", 'wb') as f:
-            pickle.dump(validate_dataloaders, f, pickle.HIGHEST_PROTOCOL)
-        with open(pre_processed_dir + "validate_short_dataloaders.pkl", 'wb') as f:
-            pickle.dump(validate_short_dataloaders, f, pickle.HIGHEST_PROTOCOL)
+        # with open(pre_processed_dir + "validate_dataloaders.pkl", 'wb') as f:
+        #     pickle.dump(validate_dataloaders, f, pickle.HIGHEST_PROTOCOL)
+        # with open(pre_processed_dir + "validate_short_dataloaders.pkl", 'wb') as f:
+        #     pickle.dump(validate_short_dataloaders, f, pickle.HIGHEST_PROTOCOL)
 
-        with open(pre_processed_dir + "test_dataloaders.pkl", 'wb') as f:
-            pickle.dump(test_dataloaders, f, pickle.HIGHEST_PROTOCOL)
-        with open(pre_processed_dir + "test_short_dataloaders.pkl", 'wb') as f:
-            pickle.dump(test_short_dataloaders, f, pickle.HIGHEST_PROTOCOL)
+        # with open(pre_processed_dir + "test_dataloaders.pkl", 'wb') as f:
+        #     pickle.dump(test_dataloaders, f, pickle.HIGHEST_PROTOCOL)
+        # with open(pre_processed_dir + "test_short_dataloaders.pkl", 'wb') as f:
+        #     pickle.dump(test_short_dataloaders, f, pickle.HIGHEST_PROTOCOL)
 
 
     study = optuna.create_study(direction='maximize')

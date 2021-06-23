@@ -36,7 +36,7 @@ class EXP(object):
 
         self.s_lr = s_lr
         self.p_lr = p_lr
-        self.selector_optim = optim.AdamW(self.selector.parameters(), lr=s_lr, amsgrad=True)
+        self.selector_optim = optim.AdamW(self.selector.parameters(), lr=self.s_lr, amsgrad=True)
         self.predictor_optim = optim.AdamW(self.predictor.parameters(), lr=self.p_lr, amsgrad=True)
         
         self.best_micro_f1 = [0.0]*len(self.test_dataloaders)
