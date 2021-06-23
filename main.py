@@ -43,7 +43,7 @@ def objective(trial: optuna.Trial):
             '2': 1, # 2 is MATRES.
             # '3': trial.suggest_float('I2B2_weight', 0.4, 1, step=0.2),
         },
-        'num_ctx_select': trial.suggest_categorical('num_ctx_select', [3, 4, 5]),
+        'num_ctx_select': num_select,
         's_lr': trial.suggest_categorical("s_lr", [5e-6, 5e-5, 5e-4]),
         'b_lr': trial.suggest_categorical("p_lr", [5e-8, 5e-7, 6e-6]),
         'm_lr': trial.suggest_categorical("m_lr", [5e-6, 5e-5, 5e-4]),

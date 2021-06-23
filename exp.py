@@ -65,10 +65,13 @@ class EXP(object):
             {'params': [p for n, p in self.predictor.named_parameters() if any(nd in n for nd in mlp) and any(nd in n for nd in no_decay)], 'weight_decay_rate': 0.00, 'lr': self.mlp_lr},
             ]
         
-        optimizer_parameters = self.b_parameters + self.mlp_parameters 
+        self.optimizer_parameters = self.b_parameters + self.mlp_parameters 
 
-        self.predictor_optim = optim.AdamW(optimizer_parameters, amsgrad=True, weight_decay=weight_decay)
-        self.selector_optim = optim.AdamW(self.predictor.parameters(), lr=self.s_lr, amsgrad=True, weight_decay=weight_decay)
+        self.predictor_optim = optim.Adam(self.optimizer_parameters, weight_decay=weight_decay)
+        self.selector_optim = optim.Adam(self.selector.parameters(), lr=self.s_lr, weight_decay=weight_decay)
+
+        self.num_training_steps = len(self.train_dataloader) * self.train_roberta_epoch
+        self.num_warmup_steps = int(self.warmup_proportion * self.num_training_steps)
 
         def linear_lr_lambda(current_step: int):
             if current_step < self.num_warmup_steps:
@@ -107,7 +110,7 @@ class EXP(object):
 
     def train(self):
         start_time = time.time()
-        for i in range(0, self.epochs):
+        for i in range(0, self.num_epoches):
             if i >= self.train_roberta_epoch:
                 for group in self.b_parameters:
                     for param in group['params']:
@@ -195,12 +198,11 @@ class EXP(object):
                 self.selector_loss += s_loss.item()
                 self.predictor_loss += p_loss.item()
 
-                s_loss.backward()
                 p_loss.backward()
-                self.selector_optim.step()
+                s_loss.backward()
                 self.predictor_optim.step()
                 self.scheduler.step()
-                
+                self.selector_optim.step()
 
             epoch_training_time = format_time(time.time() - t0)
             print("Total training loss: {} - {}".format(self.selector_loss, self.predictor_loss))
@@ -287,10 +289,10 @@ class EXP(object):
                 else:
                     print("This case is not implemented at this time!")
                 
-                print("x_sent_id: ", x_sent_id)
-                print("y_sent_id: ", y_sent_id)
-                print("x_ctx_selected", x_ctx_selected)
-                print("y_ctx_selected", y_ctx_selected)
+                # print("x_sent_id: ", x_sent_id)
+                # print("y_sent_id: ", y_sent_id)
+                # print("x_ctx_selected", x_ctx_selected)
+                # print("y_ctx_selected", y_ctx_selected)
                 p_x_sent, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, x_ctx_selected)
                 p_y_sent, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, y_ctx_selected)
                 xy = torch.tensor(xy, dtype=torch.long)

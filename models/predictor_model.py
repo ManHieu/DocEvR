@@ -1,10 +1,14 @@
+from collections import OrderedDict
+from torch.nn.modules.linear import Linear
+
+from torch.utils.data.dataset import Subset
+from utils.tools import pos_to_id
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from transformers import RobertaModel
 from utils.constant import *
 import os.path as path
-from collections import OrderedDict
 
 
 class ECIRobertaJointTask(nn.Module):
@@ -227,7 +231,7 @@ class ECIRobertaJointTask(nn.Module):
             typ = str(flag[i].item())
             logit = self.module_dict[typ](presentation[i])
             pad_logit = torch.zeros((1,self.max_num_class))
-            pad_logit = pad_logit - 100000
+            pad_logit = pad_logit - 1000
             pad_logit[:, :len(logit)] = logit
             logit = logit.unsqueeze(0)
             target = xy[i].unsqueeze(0)
