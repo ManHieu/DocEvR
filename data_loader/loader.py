@@ -116,7 +116,7 @@ def loader(dataset, min_ns):
             y_ctx_augm_emb = []
             y_ctx_pos = []
             y_ctx_len = []
-            for sent_id in range(len(my_dict["sentences"])):
+            for sent_id in tqdm.tqdm(range(len(my_dict["sentences"]))):
                 if sent_id != x_sent_id:
                     sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
                     sent_augm = padding(augment_ctx(x_sent, x_sent_id, sent, sent_id))
