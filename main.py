@@ -29,7 +29,7 @@ def collate_fn(batch):
     
 def objective(trial: optuna.Trial):
     params = {
-        's_hidden_dim': 512
+        's_hidden_dim': 512,
         # trial.suggest_categorical('s_hidden_dim', [256, 512]),
         # 512,
         's_mlp_dim': trial.suggest_categorical("s_mlp_dim", [256, 512]),
@@ -45,7 +45,9 @@ def objective(trial: optuna.Trial):
         },
         'num_ctx_select': 3,
         's_lr': trial.suggest_categorical("s_lr", [5e-6, 5e-5, 5e-4]),
-        'p_lr': trial.suggest_categorical("p_lr", [5e-8, 5e-7]),
+        'b_lr': trial.suggest_categorical("p_lr", [5e-8, 5e-7, 6e-6]),
+        'm_lr': trial.suggest_categorical("p_lr", [5e-6, 5e-5, 5e-4]),
+        'b_lr_decay_rate': 0.5,
 
     }
 
@@ -73,7 +75,8 @@ def objective(trial: optuna.Trial):
     print("Total steps: [number of batches] x [number of epochs] =", total_steps)
 
     exp = EXP(selector, predictor, epoches, params['num_ctx_select'], train_dataloader, validate_dataloaders, test_dataloaders,
-            train_short_dataloader, test_short_dataloaders, validate_short_dataloaders, params['s_lr'], params['p_lr'], best_path)
+            train_short_dataloader, test_short_dataloaders, validate_short_dataloaders, 
+            params['s_lr'], params['b_lr'], params['m_lr'], params['b_lr_decay_rate'],  params['epoches'], best_path)
     F1, CM, matres_F1 = exp.train()
     exp.evaluate(is_test=True)
     print("Result: Best micro F1 of interaction: {}".format(F1))

@@ -14,7 +14,8 @@ class EXP(object):
     def __init__(self, selector, predictor, num_epoches, num_ctx_select,
                 train_dataloader, validate_dataloaders, test_dataloaders, 
                 train_short_dataloader, test_short_dataloaders, validate_short_dataloaders,
-                s_lr, p_lr, best_path) -> None:
+                s_lr, b_lr, m_lr, decay_rate,  train_lm_epoch, 
+                best_path, warmup_proportion=0.1, weight_decay=0.01) -> None:
         super().__init__()
         self.selector = selector
         self.predictor = predictor
@@ -35,9 +36,57 @@ class EXP(object):
         self.datasets = list(test_dataloaders.keys())
 
         self.s_lr = s_lr
-        self.p_lr = p_lr
-        self.selector_optim = optim.AdamW(self.selector.parameters(), lr=self.s_lr, amsgrad=True)
-        self.predictor_optim = optim.AdamW(self.predictor.parameters(), lr=self.p_lr, amsgrad=True)
+        self.decay_rate = decay_rate
+        self.b_lr = b_lr
+        self.mlp_lr = m_lr
+        self.train_roberta_epoch = train_lm_epoch
+        self.warmup_proportion = warmup_proportion
+
+        mlp = ['fc1', 'fc2', 'lstm', 'pos_emb', 's_attn']
+        no_decay = ['bias', 'gamma', 'beta']
+        group1=['layer.0.','layer.1.','layer.2.','layer.3.']
+        group2=['layer.4.','layer.5.','layer.6.','layer.7.']
+        group3=['layer.8.','layer.9.','layer.10.','layer.11.']
+        group_all = group1 + group2 + group3 
+        
+        self.b_parameters = [
+            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and not any(nd in n for nd in group_all)],'weight_decay_rate': 0.01, 'lr': self.b_lr}, # all params not include bert layers 
+            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group1)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**2)}, # param in group1
+            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group2)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**1)}, # param in group2
+            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group3)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**0)}, # param in group3
+            # no_decay
+            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and not any(nd in n for nd in group_all)],'weight_decay_rate': 0.00, 'lr': self.b_lr}, # all params not include bert layers 
+            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and any(nd in n for nd in group1)],'weight_decay_rate': 0.00, 'lr': self.b_lr*(self.decay_rate**2)}, # param in group1
+            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and any(nd in n for nd in group2)],'weight_decay_rate': 0.00, 'lr': self.b_lr*(self.decay_rate**1)}, # param in group2
+            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and any(nd in n for nd in group3)],'weight_decay_rate': 0.00, 'lr': self.b_lr*(self.decay_rate**0)}, # param in group3
+        ]
+        self.mlp_parameters = [
+            {'params': [p for n, p in self.predictor.named_parameters() if any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay)], 'weight_decay_rate': 0.01, 'lr': self.mlp_lr},
+            {'params': [p for n, p in self.predictor.named_parameters() if any(nd in n for nd in mlp) and any(nd in n for nd in no_decay)], 'weight_decay_rate': 0.00, 'lr': self.mlp_lr},
+            ]
+        
+        optimizer_parameters = self.b_parameters + self.mlp_parameters 
+
+        self.selector_optim = optim.AdamW(optimizer_parameters, amsgrad=True, weight_decay=weight_decay)
+        self.predictor_optim = optim.AdamW(self.predictor.parameters(), lr=self.p_lr, amsgrad=True, weight_decay=weight_decay)
+
+        def linear_lr_lambda(current_step: int):
+            if current_step < self.num_warmup_steps:
+                return float(current_step) / float(max(1, self.num_warmup_steps))
+            if current_step >= self.num_training_steps:
+                return 0
+            return max(
+                0.0, float(self.num_training_steps - current_step) / float(max(1, self.num_training_steps - self.num_warmup_steps))
+            )
+        
+        def m_lr_lambda(current_step: int):
+            return 0.5 ** int(current_step / (2*len(self.train_dataloader)))
+        
+        lamd = [linear_lr_lambda] * 8
+        mlp_lambda = [m_lr_lambda] * 2
+        lamd.extend(mlp_lambda)
+
+        self.scheduler = optim.lr_scheduler.LambdaLR(self.predictor_optim, lr_lambda=lamd)
         
         self.best_micro_f1 = [0.0]*len(self.test_dataloaders)
         self.sum_f1 = 0.0
@@ -58,6 +107,12 @@ class EXP(object):
 
     def train(self):
         start_time = time.time()
+        for i in range(0, self.epochs):
+            if i >= self.train_roberta_epoch:
+                for group in self.b_parameters:
+                    for param in group['params']:
+                        param.requires_grad = False
+
         for i in range(self.num_epoches):
             print("============== Epoch {} / {} ==============".format(i+1, self.num_epoches))
             t0 = time.time()
@@ -89,9 +144,11 @@ class EXP(object):
                         flag = flag.cuda()
                     logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
                     
+                    self.predictor_loss += p_loss.item()
                     p_loss.backward()
                     self.predictor_optim.step()
-                    self.predictor_loss += p_loss.item()
+                    self.scheduler.step()
+                    
 
             for step, batch in tqdm.tqdm(enumerate(self.train_dataloader), desc="Training process for long doc", total=len(self.train_dataloader)):
                 x_sent_id, y_sent_id, x_sent, y_sent, x_sent_len, y_sent_len, x_sent_emb, y_sent_emb, x_position, y_position, x_sent_pos, y_sent_pos, \
@@ -135,12 +192,15 @@ class EXP(object):
                 s_loss = 0.0
                 for i in range(len(task_reward)):
                     s_loss = s_loss - task_reward[i] * (x_log_prob[i] + y_log_prob[i])
+                self.selector_loss += s_loss.item()
+                self.predictor_loss += p_loss.item()
+
                 s_loss.backward()
                 p_loss.backward()
                 self.selector_optim.step()
                 self.predictor_optim.step()
-                self.selector_loss += s_loss.item()
-                self.predictor_loss += p_loss.item()
+                self.scheduler.step()
+                
 
             epoch_training_time = format_time(time.time() - t0)
             print("Total training loss: {} - {}".format(self.selector_loss, self.predictor_loss))
