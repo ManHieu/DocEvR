@@ -27,43 +27,6 @@ class Reader(object):
         else:
             raise ValueError("We have not supported {} type yet!".format(self.type))
 
-
-class SentenceEncoder(nn.Module):
-    def __init__(self, roberta_type) -> None:
-        super().__init__()
-        self.roberta_type = roberta_type
-        if os.path.exists("./pretrained_models/models/{}".format(roberta_type)):
-            print("Loading pretrain model from local ......")
-            self.encoder = AutoModel.from_pretrained("./pretrained_models/models/{}".format(roberta_type), output_hidden_states=True)
-        else:
-            print("Loading pretrain model ......")
-            self.encoder = AutoModel.from_pretrained(roberta_type, output_hidden_states=True)
-    
-    def forward(self, sentence):
-        sentence = torch.tensor(sentence, dtype=torch.long)
-        if CUDA:
-            sentence = sentence.cuda()
-        # print("Sentence size: ", sentence.size())
-        if len(sentence.size()) == 1:
-            sentence = sentence.unsqueeze(0)
-        with torch.no_grad():
-            s_encoder = self.encoder(sentence)[0]
-
-        # if sentence.size(0) > 50:
-        #     sentence1 = sentence[:50, :]
-        #     sentence2 = sentence[50:, :]
-        #     with torch.no_grad():
-        #         s_encoder1 = self.encoder(sentence1)[0]
-        #         s_encoder2 = self.encoder(sentence2)[0]
-        #     return torch.cat([s_encoder1[:, 0], s_encoder2[:, 0]], dim=0).cpu()
-        # print(s_encoder)
-        return s_encoder[:, 0] # ns x 768
-
-
-sent_encoder = SentenceEncoder('roberta-base')
-if CUDA:
-    sent_encoder = sent_encoder.cuda()
-
 def load_dataset(dir_name, type):
     reader = Reader(type)
     onlyfiles = [f for f in os.listdir(dir_name) if os.path.isfile(os.path.join(dir_name, f))]
@@ -93,54 +56,36 @@ def loader(dataset, min_ns):
         pair_events = list(combinations(eids, 2))
         for pair in tqdm.tqdm(pair_events):
             x, y = pair
+            
             x_sent_id = my_dict['event_dict'][x]['sent_id']
             y_sent_id = my_dict['event_dict'][y]['sent_id']
+            
             x_sent = my_dict["sentences"][x_sent_id]["roberta_subword_to_ID"]
             y_sent = my_dict["sentences"][y_sent_id]["roberta_subword_to_ID"]
+            
             x_sent_len = len(x_sent)
             y_sent_len = len(y_sent)
-            x_sent_emb = sent_encoder(x_sent).squeeze().cpu()
-            y_sent_emb = sent_encoder(y_sent).squeeze().cpu()
+            
             x_position = my_dict["event_dict"][x]["roberta_subword_id"]
             y_position = my_dict["event_dict"][y]["roberta_subword_id"]
+            
             x_sent_pos = pos_to_id(my_dict["sentences"][x_sent_id]["roberta_subword_pos"])
             y_sent_pos = pos_to_id(my_dict["sentences"][y_sent_id]["roberta_subword_pos"])
 
-            x_ctx = []
-            x_ctx_augm = []
-            x_ctx_augm_emb = []
-            x_ctx_pos = []
-            x_ctx_len = []
-            y_ctx = []
-            y_ctx_augm = []
-            y_ctx_augm_emb = []
-            y_ctx_pos = []
-            y_ctx_len = []
-            for sent_id in range(len(my_dict["sentences"])):
-                if sent_id != x_sent_id:
-                    sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
-                    sent_augm = padding(augment_ctx(x_sent, x_sent_id, sent, sent_id))
-                    # sent_augm_emb = sent_encoder.encode(sent_augm)
-                    sent_pos = pos_to_id(my_dict["sentences"][sent_id]['roberta_subword_pos'])
-                    x_ctx.append(sent)
-                    x_ctx_augm.append(sent_augm)
-                    # x_ctx_augm_emb.append(sent_augm_emb)
-                    x_ctx_pos.append(sent_pos)
-                    x_ctx_len.append(len(sent))
-
-                if sent_id != y_sent_id:
-                    sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
-                    sent_augm = padding(augment_ctx(y_sent, y_sent_id, sent, sent_id))
-                    # sent_augm_emb = sent_encoder.encode(sent_augm)
-                    sent_pos = pos_to_id(my_dict["sentences"][sent_id]['roberta_subword_pos'])
-                    y_ctx.append(sent)
-                    y_ctx_augm.append(sent_augm)
-                    # y_ctx_augm_emb.append(sent_augm_emb)
-                    y_ctx_pos.append(sent_pos)
-                    y_ctx_len.append(len(sent))
+            x_sent_emb = my_dict['sent_encode_dict'][x_sent_id]['ev_sent_emb']
+            x_ctx = my_dict['sent_encode_dict'][x_sent_id]['ev_ctx']
+            x_ctx_augm = my_dict['sent_encode_dict'][x_sent_id]['ev_ctx_augm']
+            x_ctx_augm_emb = my_dict['sent_encode_dict'][x_sent_id]['ev_ctx_augm_emb']
+            x_ctx_pos = my_dict['sent_encode_dict'][x_sent_id]['ev_ctx_pos']
+            x_ctx_len = my_dict['sent_encode_dict'][x_sent_id]['ev_ctx_len']
             
-            x_ctx_augm_emb = sent_encoder(x_ctx_augm).cpu()
-            y_ctx_augm_emb = sent_encoder(y_ctx_augm).cpu()
+            y_sent_emb = my_dict['sent_encode_dict'][y_sent_id]['ev_sent_emb']
+            y_ctx = my_dict['sent_encode_dict'][y_sent_id]['ev_ctx']
+            y_ctx_augm = my_dict['sent_encode_dict'][y_sent_id]['ev_ctx_augm']
+            y_ctx_augm_emb = my_dict['sent_encode_dict'][y_sent_id]['ev_ctx_augm_emb']
+            y_ctx_pos = my_dict['sent_encode_dict'][y_sent_id]['ev_ctx_pos']
+            y_ctx_len = my_dict['sent_encode_dict'][y_sent_id]['ev_ctx_len']
+            
             xy = my_dict["relation_dict"].get((x, y))
             yx = my_dict["relation_dict"].get((y, x))
             
