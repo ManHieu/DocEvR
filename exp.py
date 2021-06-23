@@ -67,8 +67,8 @@ class EXP(object):
         
         optimizer_parameters = self.b_parameters + self.mlp_parameters 
 
-        self.selector_optim = optim.AdamW(optimizer_parameters, amsgrad=True, weight_decay=weight_decay)
-        self.predictor_optim = optim.AdamW(self.predictor.parameters(), lr=self.p_lr, amsgrad=True, weight_decay=weight_decay)
+        self.predictor_optim = optim.AdamW(optimizer_parameters, amsgrad=True, weight_decay=weight_decay)
+        self.selector_optim = optim.AdamW(self.predictor.parameters(), lr=self.s_lr, amsgrad=True, weight_decay=weight_decay)
 
         def linear_lr_lambda(current_step: int):
             if current_step < self.num_warmup_steps:
