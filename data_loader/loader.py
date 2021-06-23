@@ -54,7 +54,7 @@ def loader(dataset, min_ns):
         short_data = []
         eids = my_dict['event_dict'].keys()
         pair_events = list(combinations(eids, 2))
-        for pair in tqdm.tqdm(pair_events):
+        for pair in pair_events:
             x, y = pair
             
             x_sent_id = my_dict['event_dict'][x]['sent_id']
