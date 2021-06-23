@@ -8,7 +8,7 @@ from data_loader.reader import i2b2_xml_reader, tbd_tml_reader, tml_reader, tsvx
 from utils.tools import augment_ctx, padding, pos_to_id
 from sklearn.model_selection import train_test_split
 from transformers import AutoModel
-
+import torch.nn as nn
 
 class Reader(object):
     def __init__(self, type) -> None:
@@ -28,7 +28,7 @@ class Reader(object):
             raise ValueError("We have not supported {} type yet!".format(self.type))
 
 
-class SentenceEncoder(object):
+class SentenceEncoder(nn.Module):
     def __init__(self, roberta_type) -> None:
         super().__init__()
         self.roberta_type = roberta_type
@@ -38,10 +38,8 @@ class SentenceEncoder(object):
         else:
             print("Loading pretrain model ......")
             self.encoder = AutoModel.from_pretrained(roberta_type, output_hidden_states=True)
-        if CUDA:
-            self.encoder = self.encoder.cuda()
     
-    def encode(self, sentence):
+    def forward(self, sentence):
         sentence = torch.tensor(sentence, dtype=torch.long)
         if CUDA:
             sentence = sentence.cuda()
@@ -63,6 +61,8 @@ class SentenceEncoder(object):
 
 
 sent_encoder = SentenceEncoder('roberta-base')
+if CUDA:
+    sent_encoder = sent_encoder.cuda()
 
 def load_dataset(dir_name, type):
     reader = Reader(type)
@@ -99,8 +99,8 @@ def loader(dataset, min_ns):
             y_sent = my_dict["sentences"][y_sent_id]["roberta_subword_to_ID"]
             x_sent_len = len(x_sent)
             y_sent_len = len(y_sent)
-            x_sent_emb = sent_encoder.encode(x_sent).squeeze()
-            y_sent_emb = sent_encoder.encode(y_sent).squeeze()
+            x_sent_emb = sent_encoder(x_sent).squeeze()
+            y_sent_emb = sent_encoder(y_sent).squeeze()
             x_position = my_dict["event_dict"][x]["roberta_subword_id"]
             y_position = my_dict["event_dict"][y]["roberta_subword_id"]
             x_sent_pos = pos_to_id(my_dict["sentences"][x_sent_id]["roberta_subword_pos"])
@@ -139,8 +139,8 @@ def loader(dataset, min_ns):
                     y_ctx_pos.append(sent_pos)
                     y_ctx_len.append(len(sent))
             
-            x_ctx_augm_emb = sent_encoder.encode(x_ctx_augm)
-            y_ctx_augm_emb = sent_encoder.encode(y_ctx_augm)
+            x_ctx_augm_emb = sent_encoder(x_ctx_augm)
+            y_ctx_augm_emb = sent_encoder(y_ctx_augm)
             xy = my_dict["relation_dict"].get((x, y))
             yx = my_dict["relation_dict"].get((y, x))
             
