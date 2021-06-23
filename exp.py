@@ -227,6 +227,10 @@ class EXP(object):
                 else:
                     print("This case is not implemented at this time!")
                 
+                print("x_sent_id: ", x_sent_id)
+                print("y_sent_id: ", y_sent_id)
+                print("x_ctx_selected", x_ctx_selected)
+                print("y_ctx_selected", y_ctx_selected)
                 p_x_sent, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, x_ctx_selected)
                 p_y_sent, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, y_ctx_selected)
                 xy = torch.tensor(xy, dtype=torch.long)
