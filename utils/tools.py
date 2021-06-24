@@ -15,9 +15,11 @@ nlp = spacy.load("en_core_web_sm")
 # Padding function
 def padding(sent, pos = False, max_sent_len = 194):
     if pos == False:
-        one_list = [1] * max_sent_len # pad token id 
+        one_list = [1] * max_sent_len # pad token id
+        mask = [0] * max_sent_len
         one_list[0:len(sent)] = sent
-        return one_list
+        mask[0:len(sent)] = [1] * len(sent)
+        return one_list, mask
     else:
         one_list = [0] * max_sent_len # none id 
         one_list[0:len(sent)] = sent
@@ -135,6 +137,7 @@ def make_predictor_input(target, pos_target, position_target, sent_id, ctx, pos_
     bs = len(target)
     assert len(ctx) == bs and len(sent_id) == bs and len(position_target) == bs, 'Each element must be same batch size'
     augm_target = []
+    augm_target_mask = []
     augm_pos_target = []
     augm_position = []
     for i in range(bs):
@@ -146,14 +149,17 @@ def make_predictor_input(target, pos_target, position_target, sent_id, ctx, pos_
         pos_augment, pos_position = augment_target(pos_target[i], sent_id[i], position_target[i], pos_ctx[i], selected_ctx)
         assert position == pos_position
         # print(len(augment))
-        augm_target.append(padding(augment, max_sent_len=300))
+        pad, mask = padding(augment, max_sent_len=300)
+        augm_target.append(pad)
+        augm_target_mask.append(mask)
         augm_pos_target.append(padding(pos_augment, pos=True, max_sent_len=300))
         augm_position.append(position)
 
     augm_target = torch.tensor(augm_target, dtype=torch.long)
+    augm_target_mask = torch.tensor(augm_target_mask, dtype=torch.long)
     augm_pos_target = torch.tensor(augm_pos_target, dtype=torch.long)
     augm_position = torch.tensor(augm_position, dtype=torch.long)    
-    return augm_target, augm_pos_target, augm_position
+    return augm_target, augm_target_mask, augm_pos_target, augm_position
 
 def augment_target(target, sent_id, position_target, ctx, ctx_id):
     augment_target = []

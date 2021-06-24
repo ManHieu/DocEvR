@@ -93,7 +93,7 @@ class LSTMSelector(nn.Module):
             if self.training:
                 probs = F.softmax(sc, dim=-1) # bs x ns
                 probs = torch.distributions.Categorical(probs=probs)
-                out = probs.sample() # bs x 1: index of selected sentence in this step
+                out = sc.max(dim=-1)[1] # bs x 1: index of selected sentence in this step
                 log_probs = log_probs + probs.log_prob(out)
                 dist.append(probs)
                 outputs.append(out)

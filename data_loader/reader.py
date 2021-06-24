@@ -90,6 +90,7 @@ def tsvx_reader(dir_name, file_name):
         event_sent = my_dict["sentences"][ev_sent_id]["roberta_subword_to_ID"]
         ev_ctx = []
         ev_ctx_augm = []
+        ev_ctx_augm_mask = []
         ev_ctx_pos = []
         ev_ctx_len = []
         for sent_id in range(len(my_dict["sentences"])):
@@ -97,18 +98,20 @@ def tsvx_reader(dir_name, file_name):
                 sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
                 sent_pos = pos_to_id(my_dict["sentences"][sent_id]['roberta_subword_pos'])
                 ev_ctx.append(sent)
-                sent_augm = padding(augment_ctx(event_sent, ev_sent_id, sent, sent_id))
+                sent_augm, sent_augm_mask = padding(augment_ctx(event_sent, ev_sent_id, sent, sent_id))
                 ev_ctx_augm.append(sent_augm)
+                ev_ctx_augm_mask.append(sent_augm_mask)
                 ev_ctx_pos.append(sent_pos)
                 ev_ctx_len.append(len(sent))
 
-        ev_ctx_augm_emb = sent_encoder(ev_ctx_augm).cpu()
+        ev_ctx_augm_emb = sent_encoder(ev_ctx_augm, ev_ctx_augm_mask).cpu()
         ev_sent_emb = sent_encoder(event_sent).squeeze().cpu()
 
         sent_encode_dict[ev_sent_id] = {}
         sent_encode_dict[ev_sent_id]['event_sent'] = event_sent
         sent_encode_dict[ev_sent_id]['ev_ctx'] = ev_ctx
         sent_encode_dict[ev_sent_id]['ev_ctx_augm'] = ev_ctx_augm
+        sent_encode_dict[ev_sent_id]['ev_ctx_augm_mask'] = ev_ctx_augm_mask
         sent_encode_dict[ev_sent_id]['ev_ctx_augm_emb'] = ev_ctx_augm_emb
         sent_encode_dict[ev_sent_id]['ev_sent_emb'] = ev_sent_emb
         sent_encode_dict[ev_sent_id]['ev_ctx_pos'] = ev_ctx_pos
@@ -289,6 +292,7 @@ def tml_reader(dir_name, file_name):
         event_sent = my_dict["sentences"][ev_sent_id]["roberta_subword_to_ID"]
         ev_ctx = []
         ev_ctx_augm = []
+        ev_ctx_augm_mask = []
         ev_ctx_pos = []
         ev_ctx_len = []
         for sent_id in range(len(my_dict["sentences"])):
@@ -296,23 +300,25 @@ def tml_reader(dir_name, file_name):
                 sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
                 sent_pos = pos_to_id(my_dict["sentences"][sent_id]['roberta_subword_pos'])
                 ev_ctx.append(sent)
-                sent_augm = padding(augment_ctx(event_sent, ev_sent_id, sent, sent_id))
+                sent_augm, sent_augm_mask = padding(augment_ctx(event_sent, ev_sent_id, sent, sent_id))
                 ev_ctx_augm.append(sent_augm)
+                ev_ctx_augm_mask.append(sent_augm_mask)
                 ev_ctx_pos.append(sent_pos)
                 ev_ctx_len.append(len(sent))
 
-        ev_ctx_augm_emb = sent_encoder(ev_ctx_augm).cpu()
+        ev_ctx_augm_emb = sent_encoder(ev_ctx_augm, ev_ctx_augm_mask).cpu()
         ev_sent_emb = sent_encoder(event_sent).squeeze().cpu()
 
         sent_encode_dict[ev_sent_id] = {}
         sent_encode_dict[ev_sent_id]['event_sent'] = event_sent
         sent_encode_dict[ev_sent_id]['ev_ctx'] = ev_ctx
         sent_encode_dict[ev_sent_id]['ev_ctx_augm'] = ev_ctx_augm
+        sent_encode_dict[ev_sent_id]['ev_ctx_augm_mask'] = ev_ctx_augm_mask
         sent_encode_dict[ev_sent_id]['ev_ctx_augm_emb'] = ev_ctx_augm_emb
         sent_encode_dict[ev_sent_id]['ev_sent_emb'] = ev_sent_emb
         sent_encode_dict[ev_sent_id]['ev_ctx_pos'] = ev_ctx_pos
         sent_encode_dict[ev_sent_id]['ev_ctx_len'] = ev_ctx_len
-
+       
     my_dict['sent_encode_dict'] = sent_encode_dict
     return my_dict
 
@@ -411,6 +417,7 @@ def i2b2_xml_reader(dir_name, file_name):
         event_sent = my_dict["sentences"][ev_sent_id]["roberta_subword_to_ID"]
         ev_ctx = []
         ev_ctx_augm = []
+        ev_ctx_augm_mask = []
         ev_ctx_pos = []
         ev_ctx_len = []
         for sent_id in range(len(my_dict["sentences"])):
@@ -418,18 +425,20 @@ def i2b2_xml_reader(dir_name, file_name):
                 sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
                 sent_pos = pos_to_id(my_dict["sentences"][sent_id]['roberta_subword_pos'])
                 ev_ctx.append(sent)
-                sent_augm = padding(augment_ctx(event_sent, ev_sent_id, sent, sent_id))
+                sent_augm, sent_augm_mask = padding(augment_ctx(event_sent, ev_sent_id, sent, sent_id))
                 ev_ctx_augm.append(sent_augm)
+                ev_ctx_augm_mask.append(sent_augm_mask)
                 ev_ctx_pos.append(sent_pos)
                 ev_ctx_len.append(len(sent))
 
-        ev_ctx_augm_emb = sent_encoder(ev_ctx_augm).cpu()
+        ev_ctx_augm_emb = sent_encoder(ev_ctx_augm, ev_ctx_augm_mask).cpu()
         ev_sent_emb = sent_encoder(event_sent).squeeze().cpu()
 
         sent_encode_dict[ev_sent_id] = {}
         sent_encode_dict[ev_sent_id]['event_sent'] = event_sent
         sent_encode_dict[ev_sent_id]['ev_ctx'] = ev_ctx
         sent_encode_dict[ev_sent_id]['ev_ctx_augm'] = ev_ctx_augm
+        sent_encode_dict[ev_sent_id]['ev_ctx_augm_mask'] = ev_ctx_augm_mask
         sent_encode_dict[ev_sent_id]['ev_ctx_augm_emb'] = ev_ctx_augm_emb
         sent_encode_dict[ev_sent_id]['ev_sent_emb'] = ev_sent_emb
         sent_encode_dict[ev_sent_id]['ev_ctx_pos'] = ev_ctx_pos
@@ -556,6 +565,7 @@ def tbd_tml_reader(dir_name, file_name):
         event_sent = my_dict["sentences"][ev_sent_id]["roberta_subword_to_ID"]
         ev_ctx = []
         ev_ctx_augm = []
+        ev_ctx_augm_mask = []
         ev_ctx_pos = []
         ev_ctx_len = []
         for sent_id in range(len(my_dict["sentences"])):
@@ -563,18 +573,20 @@ def tbd_tml_reader(dir_name, file_name):
                 sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
                 sent_pos = pos_to_id(my_dict["sentences"][sent_id]['roberta_subword_pos'])
                 ev_ctx.append(sent)
-                sent_augm = padding(augment_ctx(event_sent, ev_sent_id, sent, sent_id))
+                sent_augm, sent_augm_mask = padding(augment_ctx(event_sent, ev_sent_id, sent, sent_id))
                 ev_ctx_augm.append(sent_augm)
+                ev_ctx_augm_mask.append(sent_augm_mask)
                 ev_ctx_pos.append(sent_pos)
                 ev_ctx_len.append(len(sent))
 
-        ev_ctx_augm_emb = sent_encoder(ev_ctx_augm).cpu()
+        ev_ctx_augm_emb = sent_encoder(ev_ctx_augm, ev_ctx_augm_mask).cpu()
         ev_sent_emb = sent_encoder(event_sent).squeeze().cpu()
 
         sent_encode_dict[ev_sent_id] = {}
         sent_encode_dict[ev_sent_id]['event_sent'] = event_sent
         sent_encode_dict[ev_sent_id]['ev_ctx'] = ev_ctx
         sent_encode_dict[ev_sent_id]['ev_ctx_augm'] = ev_ctx_augm
+        sent_encode_dict[ev_sent_id]['ev_ctx_augm_mask'] = ev_ctx_augm_mask
         sent_encode_dict[ev_sent_id]['ev_ctx_augm_emb'] = ev_ctx_augm_emb
         sent_encode_dict[ev_sent_id]['ev_sent_emb'] = ev_sent_emb
         sent_encode_dict[ev_sent_id]['ev_ctx_pos'] = ev_ctx_pos

@@ -16,15 +16,21 @@ class SentenceEncoder(nn.Module):
             print("Loading pretrain model ......")
             self.encoder = AutoModel.from_pretrained(roberta_type, output_hidden_states=True)
     
-    def forward(self, sentence):
+    def forward(self, sentence, mask=None):
         sentence = torch.tensor(sentence, dtype=torch.long)
+        if mask != None:
+            mask = torch.tensor(mask, dtype=torch.long)
+            if CUDA:
+                mask = mask.cuda()
+            if len(mask.size()) == 1:
+                mask = mask.unsqueeze()
         if CUDA:
             sentence = sentence.cuda()
         # print("Sentence size: ", sentence.size())
         if len(sentence.size()) == 1:
             sentence = sentence.unsqueeze(0)
         with torch.no_grad():
-            s_encoder = self.encoder(sentence)[0]
+            s_encoder = self.encoder(sentence, mask)[0]
 
         # if sentence.size(0) > 50:
         #     sentence1 = sentence[:50, :]

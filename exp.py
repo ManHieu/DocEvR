@@ -132,8 +132,8 @@ class EXP(object):
                     x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy = batch
                     
                     self.predictor_optim.zero_grad()                    
-                    p_x_sent, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, "all")
-                    p_y_sent, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, "all")
+                    p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, "all")
+                    p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, "all")
                     xy = torch.tensor(xy, dtype=torch.long)
                     flag = torch.tensor(flag, dtype=torch.long)
                     if CUDA:
@@ -143,9 +143,11 @@ class EXP(object):
                         p_y_sent = p_y_sent.cuda() 
                         p_y_sent_pos = p_y_sent_pos.cuda()
                         p_y_position = p_y_position.cuda()
+                        p_x_sent_mask = p_x_sent_mask.cuda()
+                        p_y_sent_mask = p_y_sent_mask.cuda()
                         xy = xy.cuda()
                         flag = flag.cuda()
-                    logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
+                    logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_sent_mask, p_y_sent_mask, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
                     
                     self.predictor_loss += p_loss.item()
                     p_loss.backward()
@@ -176,8 +178,8 @@ class EXP(object):
                 else:
                     print("This case is not implemented at this time!")
                 
-                p_x_sent, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, x_ctx_selected)
-                p_y_sent, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, y_ctx_selected)
+                p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, x_ctx_selected)
+                p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, y_ctx_selected)
                 xy = torch.tensor(xy, dtype=torch.long)
                 flag = torch.tensor(flag, dtype=torch.long)
                 if CUDA:
@@ -187,9 +189,11 @@ class EXP(object):
                     p_y_sent = p_y_sent.cuda() 
                     p_y_sent_pos = p_y_sent_pos.cuda()
                     p_y_position = p_y_position.cuda()
+                    p_x_sent_mask = p_x_sent_mask.cuda()
+                    p_y_sent_mask = p_y_sent_mask.cuda()
                     xy = xy.cuda()
                     flag = flag.cuda()
-                logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
+                logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_sent_mask, p_y_sent_mask, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
                 
                 task_reward = self.task_reward(logits, xy)
                 s_loss = 0.0
@@ -247,8 +251,8 @@ class EXP(object):
                     x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy = batch
                     
                     self.predictor_optim.zero_grad()                    
-                    p_x_sent, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, "all")
-                    p_y_sent, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, "all")
+                    p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, "all")
+                    p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, "all")
                     xy = torch.tensor(xy, dtype=torch.long)
                     flag = torch.tensor(flag, dtype=torch.long)
                     if CUDA:
@@ -258,9 +262,11 @@ class EXP(object):
                         p_y_sent = p_y_sent.cuda() 
                         p_y_sent_pos = p_y_sent_pos.cuda()
                         p_y_position = p_y_position.cuda()
+                        p_x_sent_mask = p_x_sent_mask.cuda()
+                        p_y_sent_mask = p_y_sent_mask.cuda()
                         xy = xy.cuda()
                         flag = flag.cuda()
-                    logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
+                    logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_sent_mask, p_y_sent_mask, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
                     labels = xy.cpu().numpy()
                     y_pred = torch.max(logits, 1).indices.cpu().numpy()
                     gold.extend(labels)
@@ -293,8 +299,8 @@ class EXP(object):
                 # print("y_sent_id: ", y_sent_id)
                 # print("x_ctx_selected", x_ctx_selected)
                 # print("y_ctx_selected", y_ctx_selected)
-                p_x_sent, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, x_ctx_selected)
-                p_y_sent, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, y_ctx_selected)
+                p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, x_ctx_selected)
+                p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, y_ctx_selected)
                 xy = torch.tensor(xy, dtype=torch.long)
                 flag = torch.tensor(flag, dtype=torch.long)
                 if CUDA:
@@ -304,9 +310,11 @@ class EXP(object):
                     p_y_sent = p_y_sent.cuda() 
                     p_y_sent_pos = p_y_sent_pos.cuda()
                     p_y_position = p_y_position.cuda()
+                    p_x_sent_mask = p_x_sent_mask.cuda()
+                    p_y_sent_mask = p_y_sent_mask.cuda()
                     xy = xy.cuda()
                     flag = flag.cuda()
-                logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
+                logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_sent_mask, p_y_sent_mask, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
                 
                 labels = xy.cpu().numpy()
                 y_pred = torch.max(logits, 1).indices.cpu().numpy()

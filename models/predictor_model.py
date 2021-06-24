@@ -171,17 +171,17 @@ class ECIRobertaJointTask(nn.Module):
         if self.task_weights != None:
             assert len(self.task_weights)==len(datasets), "Length of weight is difference number datasets: {}".format(len(self.task_weights))
 
-    def forward(self, x_sent, y_sent, x_position, y_position, xy, flag, x_sent_pos=None, y_sent_pos=None):
+    def forward(self, x_sent, y_sent, x_sent_mask, y_sent_mask, x_position, y_position, xy, flag, x_sent_pos=None, y_sent_pos=None):
         batch_size = x_sent.size(0)
         # print(x_sent.size())
 
         if self.finetune:
-            output_x = self.roberta(x_sent)[2]
-            output_y = self.roberta(y_sent)[2]
+            output_x = self.roberta(x_sent, x_sent_mask)[2]
+            output_y = self.roberta(y_sent, y_sent_mask)[2]
         else:
             with torch.no_grad():
-                output_x = self.roberta(x_sent)[2]
-                output_y = self.roberta(y_sent)[2]
+                output_x = self.roberta(x_sent, x_sent_mask)[2]
+                output_y = self.roberta(y_sent, y_sent_mask)[2]
         
         output_x = torch.max(torch.stack(output_x[-4:], dim=0), dim=0)[0]
         output_y = torch.max(torch.stack(output_y[-4:], dim=0), dim=0)[0]
