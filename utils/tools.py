@@ -141,19 +141,26 @@ def make_predictor_input(target, pos_target, position_target, sent_id, ctx, pos_
     augm_pos_target = []
     augm_position = []
     for i in range(bs):
-        if ctx_id != 'all':
-            selected_ctx = [step[i] for step in ctx_id]
+        if ctx_id != 'warming':
+            if ctx_id != 'all':
+                selected_ctx = [step[i] for step in ctx_id]
+            else:
+                selected_ctx = list(range(len(ctx[i])))
+            augment, position = augment_target(target[i], sent_id[i], position_target[i], ctx[i], selected_ctx)
+            pos_augment, pos_position = augment_target(pos_target[i], sent_id[i], position_target[i], pos_ctx[i], selected_ctx)
+            assert position == pos_position
+            # print(len(augment))
+            pad, mask = padding(augment, max_sent_len=300)
+            augm_target.append(pad)
+            augm_target_mask.append(mask)
+            augm_pos_target.append(padding(pos_augment, pos=True, max_sent_len=300))
+            augm_position.append(position)
         else:
-            selected_ctx = list(range(len(ctx[i])))
-        augment, position = augment_target(target[i], sent_id[i], position_target[i], ctx[i], selected_ctx)
-        pos_augment, pos_position = augment_target(pos_target[i], sent_id[i], position_target[i], pos_ctx[i], selected_ctx)
-        assert position == pos_position
-        # print(len(augment))
-        pad, mask = padding(augment, max_sent_len=300)
-        augm_target.append(pad)
-        augm_target_mask.append(mask)
-        augm_pos_target.append(padding(pos_augment, pos=True, max_sent_len=300))
-        augm_position.append(position)
+            pad, mask = padding(target[i])
+            augm_target.append(pad)
+            augm_target_mask.append(mask)
+            augm_pos_target.append(padding(pos_target, pos=True, max_sent_len=300))
+            augm_position.append(position_target)
 
     augm_target = torch.tensor(augm_target, dtype=torch.long)
     augm_target_mask = torch.tensor(augm_target_mask, dtype=torch.long)

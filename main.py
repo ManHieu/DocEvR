@@ -38,6 +38,7 @@ def objective(trial: optuna.Trial):
         # 512, 
         'n_head': 16,
         "epoches": 5,
+        "warming_epoch": 2,
         "task_weights": {
             '1': 1, # 1 is HiEve
             '2': 1, # 2 is MATRES.
@@ -76,7 +77,8 @@ def objective(trial: optuna.Trial):
 
     exp = EXP(selector, predictor, epoches, params['num_ctx_select'], train_dataloader, validate_dataloaders, test_dataloaders,
             train_short_dataloader, test_short_dataloaders, validate_short_dataloaders, 
-            params['s_lr'], params['b_lr'], params['m_lr'], params['b_lr_decay_rate'],  params['epoches'], best_path)
+            params['s_lr'], params['b_lr'], params['m_lr'], params['b_lr_decay_rate'],  params['epoches'], params['warming_epoch'],
+            best_path)
     F1, CM, matres_F1 = exp.train()
     exp.evaluate(is_test=True)
     print("Result: Best micro F1 of interaction: {}".format(F1))

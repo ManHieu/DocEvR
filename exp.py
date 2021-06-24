@@ -14,7 +14,7 @@ class EXP(object):
     def __init__(self, selector, predictor, num_epoches, num_ctx_select,
                 train_dataloader, validate_dataloaders, test_dataloaders, 
                 train_short_dataloader, test_short_dataloaders, validate_short_dataloaders,
-                s_lr, b_lr, m_lr, decay_rate,  train_lm_epoch, 
+                s_lr, b_lr, m_lr, decay_rate,  train_lm_epoch, warming_epoch,
                 best_path, warmup_proportion=0.1, weight_decay=0.01) -> None:
         super().__init__()
         self.selector = selector
@@ -28,6 +28,7 @@ class EXP(object):
 
         self.num_epoches = num_epoches
         self.num_ctx_select = num_ctx_select
+        self.warming_epoches = warming_epoch
 
         self.train_dataloader = train_dataloader
         self.test_dataloaders = list(test_dataloaders.values())
@@ -112,6 +113,70 @@ class EXP(object):
 
     def train(self):
         start_time = time.time()
+        # warming step 
+        for i in range(self.warming_epoches):
+            t0 = time.time()
+            self.predictor.train()
+            self.predictor.zero_grad()
+            self.predictor_loss = 0.0
+            if self.train_short_dataloader != None:
+                for step, batch in tqdm.tqdm(enumerate(self.train_short_dataloader), desc="Training process for short doc", total=len(self.train_short_dataloader)):
+                    x_sent_id, y_sent_id, x_sent, y_sent, x_sent_len, y_sent_len, x_sent_emb, y_sent_emb, x_position, y_position, x_sent_pos, y_sent_pos, \
+                    x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy = batch
+                    
+                    self.predictor_optim.zero_grad()                    
+                    p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, 'warming')
+                    p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, 'warming')
+                    xy = torch.tensor(xy, dtype=torch.long)
+                    flag = torch.tensor(flag, dtype=torch.long)
+                    if CUDA:
+                        p_x_sent = p_x_sent.cuda() 
+                        p_x_sent_pos = p_x_sent_pos.cuda()
+                        p_x_position = p_x_position.cuda()
+                        p_y_sent = p_y_sent.cuda() 
+                        p_y_sent_pos = p_y_sent_pos.cuda()
+                        p_y_position = p_y_position.cuda()
+                        p_x_sent_mask = p_x_sent_mask.cuda()
+                        p_y_sent_mask = p_y_sent_mask.cuda()
+                        xy = xy.cuda()
+                        flag = flag.cuda()
+                    logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_sent_mask, p_y_sent_mask, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
+                    
+                    self.predictor_loss += p_loss.item()
+                    p_loss.backward()
+                    self.predictor_optim.step()
+                    self.scheduler.step()
+            else:
+                for step, batch in tqdm.tqdm(enumerate(self.train_dataloader), desc="Training process for long doc", total=len(self.train_short_dataloader)):
+                    x_sent_id, y_sent_id, x_sent, y_sent, x_sent_len, y_sent_len, x_sent_emb, y_sent_emb, x_position, y_position, x_sent_pos, y_sent_pos, \
+                    x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy = batch
+                    
+                    self.predictor_optim.zero_grad()                    
+                    p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, 'warming')
+                    p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, 'warming')
+                    xy = torch.tensor(xy, dtype=torch.long)
+                    flag = torch.tensor(flag, dtype=torch.long)
+                    if CUDA:
+                        p_x_sent = p_x_sent.cuda() 
+                        p_x_sent_pos = p_x_sent_pos.cuda()
+                        p_x_position = p_x_position.cuda()
+                        p_y_sent = p_y_sent.cuda() 
+                        p_y_sent_pos = p_y_sent_pos.cuda()
+                        p_y_position = p_y_position.cuda()
+                        p_x_sent_mask = p_x_sent_mask.cuda()
+                        p_y_sent_mask = p_y_sent_mask.cuda()
+                        xy = xy.cuda()
+                        flag = flag.cuda()
+                    logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_sent_mask, p_y_sent_mask, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
+                    
+                    self.predictor_loss += p_loss.item()
+                    p_loss.backward()
+                    self.predictor_optim.step()
+                    self.scheduler.step()
+            epoch_training_time = format_time(time.time() - t0)
+            print("Total training loss: {} - {}".format(self.selector_loss, self.predictor_loss))
+            self.evaluate()
+
         for i in range(self.num_epoches):
             if i >= self.train_roberta_epoch:
                 for group in self.b_parameters:
