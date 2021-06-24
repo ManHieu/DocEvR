@@ -19,6 +19,8 @@ class EXP(object):
         super().__init__()
         self.selector = selector
         self.predictor = predictor
+        # print("Selector: \n {}".format(self.selector))
+        # print("Predictor: \n {}".format(predictor))
         if isinstance(self.selector, SelectorModel):
             self.is_finetune_selector = True
         if isinstance(self.selector, LSTMSelector):
@@ -110,13 +112,12 @@ class EXP(object):
 
     def train(self):
         start_time = time.time()
-        for i in range(0, self.num_epoches):
+        for i in range(self.num_epoches):
             if i >= self.train_roberta_epoch:
                 for group in self.b_parameters:
                     for param in group['params']:
                         param.requires_grad = False
 
-        for i in range(self.num_epoches):
             print("============== Epoch {} / {} ==============".format(i+1, self.num_epoches))
             t0 = time.time()
             self.selector.train()

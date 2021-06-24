@@ -53,10 +53,11 @@ class LSTMSelector(nn.Module):
 
         self.mlp_dim = mlp_dim
         self.drop_out = nn.Dropout(0.5)
-        self.fn_activate = nn.ReLU6()
-        self.mlp1 = nn.Linear(self.in_dim, self.mlp_dim)
-        self.mlp2 = nn.Linear(self.hidden_dim, self.mlp_dim)
-        self.mlp3 = nn.Linear(self.mlp_dim, 1)
+        # self.mlp1 = nn.Linear(self.in_dim, self.mlp_dim)
+        self.mlp1 = nn.Linear(self.hidden_dim+self.in_dim, self.mlp_dim)
+        self.fn_activate1 = nn.Tanh()
+        self.mlp2 = nn.Linear(self.mlp_dim, 1)
+        self.fn_activate2 = nn.Sigmoid()
     
     def forward(self, target_emb: torch.Tensor, ctx_emb: torch.Tensor, target_len, ctx_len, n_step):
         outputs = []
@@ -84,10 +85,11 @@ class LSTMSelector(nn.Module):
             
             ctx_emb = self.drop_out(ctx_emb)
             h = self.drop_out(h)
-            sc = self.mlp1(ctx_emb) + self.mlp2(h).unsqueeze(1).expand((-1, ns, -1)) # bs x ns x mlp_dim
+            sc = self.mlp1(torch.cat([ctx_emb, h.unsqueeze(1).expand((-1, ns, -1))], dim=-1)) # bs x ns x mlp_dim
+            # print(sc.size())
             sc = self.drop_out(sc)
-            sc = self.mlp3(self.fn_activate(sc)) # bs x ns x 1
-            sc = torch.sigmoid(sc.squeeze()) 
+            sc = self.mlp2(self.fn_activate1(sc)) # bs x ns x 1
+            sc = self.fn_activate2(sc.squeeze()) 
             sc = sc + mask
 
             if self.training:
