@@ -152,18 +152,20 @@ def make_predictor_input(target, pos_target, position_target, sent_id, ctx, pos_
             augment, position = augment_target(target[i], sent_id[i], position_target[i], ctx[i], selected_ctx)
             pos_augment, pos_position = augment_target(pos_target[i], sent_id[i], position_target[i], pos_ctx[i], selected_ctx)
             assert position == pos_position
-            augment = word_dropout(augment, dropout_rate=dropout_rate)
-            pos_augment = word_dropout(pos_augment, is_word=False, dropout_rate=dropout_rate)
+            augment = word_dropout(augment, position, dropout_rate=dropout_rate)
+            pos_augment = word_dropout(pos_augment, position, is_word=False, dropout_rate=dropout_rate)
             pad, mask = padding(augment, max_sent_len=300)
             augm_target.append(pad)
             augm_target_mask.append(mask)
             augm_pos_target.append(padding(pos_augment, pos=True, max_sent_len=300))
             augm_position.append(position)
         else:
-            pad, mask = padding(target[i], max_sent_len=150)
+            augment = word_dropout(target[i], position_target[i], dropout_rate=dropout_rate)
+            pos_augment = word_dropout(pos_target[i], position_target[i], is_word=False, dropout_rate=dropout_rate)
+            pad, mask = padding(augment, max_sent_len=150)
             augm_target.append(pad)
             augm_target_mask.append(mask)
-            augm_pos_target.append(padding(pos_target[i], pos=True, max_sent_len=150))
+            augm_pos_target.append(padding(pos_augment, pos=True, max_sent_len=150))
             augm_position.append(position_target[i])
 
     augm_target = torch.tensor(augm_target, dtype=torch.long)
@@ -227,11 +229,11 @@ def augment_ctx(target_sent, target_id, ctx_sent, ctx_id):
         augm = target_sent + ctx_sent[1:]
     return augm
 
-def word_dropout(seq_id, is_word=True, dropout_rate=0.05):
+def word_dropout(seq_id, position, is_word=True, dropout_rate=0.05):
     if is_word==True:
-        drop_sent = [3 if np.random.rand() < dropout_rate else id for id in seq_id]
+        drop_sent = [3 if np.random.rand() < dropout_rate and i != position else seq_id[i] for i in range(len(seq_id))]
     if is_word==False:
-        drop_sent = [20 if np.random.rand() < dropout_rate else id for id in seq_id]
-    print(drop_sent)
+        drop_sent = [20 if np.random.rand() < dropout_rate and i != position else seq_id[i] for i in range(len(seq_id))]
+    # print(drop_sent)
     return drop_sent
 
