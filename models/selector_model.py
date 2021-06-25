@@ -45,7 +45,7 @@ class SelectorModel(nn.Module):
         return self.encoder(input_ids)[0][:, 0]
 
 class LSTMSelector(nn.Module):
-    def __init__(self, in_dim, hidden_dim, mlp_dim):
+    def __init__(self, in_dim, hidden_dim, mlp_dim, fn_activate='tanh'):
         super().__init__()
         self.in_dim = in_dim
         self.hidden_dim = hidden_dim
@@ -55,7 +55,17 @@ class LSTMSelector(nn.Module):
         self.drop_out = nn.Dropout(0.5)
         # self.mlp1 = nn.Linear(self.in_dim, self.mlp_dim)
         self.mlp1 = nn.Linear(self.hidden_dim+self.in_dim, self.mlp_dim)
-        self.fn_activate1 = nn.Tanh()
+        if fn_activate=='relu':
+            self.fn_activate1 = nn.LeakyReLU(0.2, True)
+        elif fn_activate=='tanh':
+            self.fn_activate1 = nn.Tanh()
+        elif fn_activate=='relu6':
+            self.fn_activate1 = nn.ReLU6()
+        elif fn_activate=='silu':
+            self.fn_activate1 = nn.SiLU()
+        elif fn_activate=='hardtanh':
+            self.fn_activate1 = nn.Hardtanh()
+        # self.fn_activate1 = nn.Tanh()
         self.mlp2 = nn.Linear(self.mlp_dim, 1)
         self.fn_activate2 = nn.Sigmoid()
     
@@ -81,6 +91,7 @@ class LSTMSelector(nn.Module):
         lstm_state = (h_0, c_0)
         
         for _ in range(n_step):
+            lstm_in = self.drop_out(lstm_in)
             h, c = self.lstm_cell(lstm_in, lstm_state) # h: bs x hidden_dim
             
             ctx_emb = self.drop_out(ctx_emb)

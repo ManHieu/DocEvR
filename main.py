@@ -29,27 +29,27 @@ def collate_fn(batch):
     
 def objective(trial: optuna.Trial):
     params = {
-        's_hidden_dim': 512,
-        # trial.suggest_categorical('s_hidden_dim', [256, 512]),
+        's_hidden_dim': trial.suggest_categorical('s_hidden_dim', [256, 512]),
         # 512,
-        's_mlp_dim': trial.suggest_categorical("s_mlp_dim", [256, 512]),
+        's_mlp_dim': trial.suggest_categorical("s_mlp_dim", [256, 512, 768]),
         # 512,
         'p_mlp_dim': trial.suggest_categorical("p_mlp_dim", [512, 768, 1024]),
         # 512, 
         'n_head': 16,
         "epoches": 5,
-        "warming_epoch": 0,
+        "warming_epoch": trial.suggest_categorical("warming_epoch", [0, 1, 2, 3]),
         "task_weights": {
             '1': 1, # 1 is HiEve
             '2': 1, # 2 is MATRES.
             # '3': trial.suggest_float('I2B2_weight', 0.4, 1, step=0.2),
         },
         'num_ctx_select': num_select,
-        's_lr': trial.suggest_categorical("s_lr", [5e-6, 1e-5, 5e-5]),
-        'b_lr': trial.suggest_categorical("p_lr", [1e-7, 5e-7]),
-        'm_lr': trial.suggest_categorical("m_lr", [5e-6, 5e-5]),
+        's_lr': trial.suggest_categorical("s_lr", [5e-6, 1e-5, 5e-5, 1e-4]),
+        'b_lr': trial.suggest_categorical("p_lr", [5e-6]),
+        'm_lr': trial.suggest_categorical("m_lr", [5e-6, 1e-5, 5e-5, 1e-4]),
         'b_lr_decay_rate': 0.5,
-
+        'word_drop_rate': 0.05,
+        # trial.suggest_categorical("word_drop_rate", [0.05, 0.01, 0.1])
     }
 
     drop_rate = 0.5
@@ -78,7 +78,7 @@ def objective(trial: optuna.Trial):
     exp = EXP(selector, predictor, epoches, params['num_ctx_select'], train_dataloader, validate_dataloaders, test_dataloaders,
             train_short_dataloader, test_short_dataloaders, validate_short_dataloaders, 
             params['s_lr'], params['b_lr'], params['m_lr'], params['b_lr_decay_rate'],  params['epoches'], params['warming_epoch'],
-            best_path)
+            best_path, word_drop_rate=params['word_drop_rate'])
     F1, CM, matres_F1 = exp.train()
     exp.evaluate(is_test=True)
     print("Result: Best micro F1 of interaction: {}".format(F1))

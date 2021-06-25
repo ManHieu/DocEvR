@@ -2,6 +2,8 @@ from collections import defaultdict
 import datetime
 import re
 import copy
+import numpy as np
+from scipy.sparse.construct import rand
 import torch
 import spacy
 from sklearn.metrics import confusion_matrix
@@ -134,7 +136,7 @@ def pos_to_id(sent_pos):
                     for pos in sent_pos]
     return id_pos_sent
 
-def make_predictor_input(target, pos_target, position_target, sent_id, ctx, pos_ctx, ctx_id):
+def make_predictor_input(target, pos_target, position_target, sent_id, ctx, pos_ctx, ctx_id, dropout_rate=0.05):
     bs = len(target)
     assert len(ctx) == bs and len(sent_id) == bs and len(position_target) == bs, 'Each element must be same batch size'
     augm_target = []
@@ -150,6 +152,8 @@ def make_predictor_input(target, pos_target, position_target, sent_id, ctx, pos_
             augment, position = augment_target(target[i], sent_id[i], position_target[i], ctx[i], selected_ctx)
             pos_augment, pos_position = augment_target(pos_target[i], sent_id[i], position_target[i], pos_ctx[i], selected_ctx)
             assert position == pos_position
+            augment = word_dropout(augment, dropout_rate=dropout_rate)
+            pos_augment = word_dropout(pos_augment, is_word=False, dropout_rate=dropout_rate)
             pad, mask = padding(augment, max_sent_len=300)
             augm_target.append(pad)
             augm_target_mask.append(mask)
@@ -222,4 +226,12 @@ def augment_ctx(target_sent, target_id, ctx_sent, ctx_id):
     else:
         augm = target_sent + ctx_sent[1:]
     return augm
+
+def word_dropout(seq_id, is_word=True, dropout_rate=0.05):
+    if is_word==True:
+        drop_sent = [3 if np.random.rand() < dropout_rate else id for id in seq_id]
+    if is_word==False:
+        drop_sent = [20 if np.random.rand() < dropout_rate else id for id in seq_id]
+    print(drop_sent)
+    return drop_sent
 

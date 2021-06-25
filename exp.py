@@ -15,7 +15,7 @@ class EXP(object):
                 train_dataloader, validate_dataloaders, test_dataloaders, 
                 train_short_dataloader, test_short_dataloaders, validate_short_dataloaders,
                 s_lr, b_lr, m_lr, decay_rate,  train_lm_epoch, warming_epoch,
-                best_path, warmup_proportion=0.1, weight_decay=0.01) -> None:
+                best_path, warmup_proportion=0.1, weight_decay=0.01, reward=['f1'], word_drop_rate=0.04) -> None:
         super().__init__()
         self.selector = selector
         self.predictor = predictor
@@ -29,6 +29,13 @@ class EXP(object):
         self.num_epoches = num_epoches
         self.num_ctx_select = num_ctx_select
         self.warming_epoches = warming_epoch
+
+        self.f1_reward = False
+        self.logit_reward = False
+        if 'f1' in reward:
+            self.f1_reward = True
+        if 'logit' in reward:
+            self.logit_reward = True
 
         self.train_dataloader = train_dataloader
         self.test_dataloaders = list(test_dataloaders.values())
@@ -44,6 +51,7 @@ class EXP(object):
         self.mlp_lr = m_lr
         self.train_roberta_epoch = train_lm_epoch
         self.warmup_proportion = warmup_proportion
+        self.word_drop_rate = word_drop_rate
 
         mlp = ['fc1', 'fc2', 'lstm', 'pos_emb', 's_attn']
         no_decay = ['bias', 'gamma', 'beta']
@@ -51,7 +59,6 @@ class EXP(object):
         group2=['layer.4.','layer.5.','layer.6.','layer.7.']
         group3=['layer.8.','layer.9.','layer.10.','layer.11.']
         group_all = group1 + group2 + group3 
-        
         self.b_parameters = [
             {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and not any(nd in n for nd in group_all)],'weight_decay_rate': 0.01, 'lr': self.mlp_lr}, # all params not include bert layers 
             {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group1)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**2)}, # param in group1
@@ -67,13 +74,12 @@ class EXP(object):
             {'params': [p for n, p in self.predictor.named_parameters() if any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay)], 'weight_decay_rate': 0.01, 'lr': self.mlp_lr},
             {'params': [p for n, p in self.predictor.named_parameters() if any(nd in n for nd in mlp) and any(nd in n for nd in no_decay)], 'weight_decay_rate': 0.00, 'lr': self.mlp_lr},
             ]
-        
         self.optimizer_parameters = self.b_parameters + self.mlp_parameters 
 
-        self.predictor_optim = optim.Adam(self.optimizer_parameters, weight_decay=weight_decay)
-        self.selector_optim = optim.Adam(self.selector.parameters(), lr=self.s_lr, weight_decay=weight_decay)
+        self.predictor_optim = optim.Adamax(self.optimizer_parameters, weight_decay=weight_decay)
+        self.selector_optim = optim.Adamax(self.selector.parameters(), lr=self.s_lr, weight_decay=weight_decay)
 
-        self.num_training_steps = len(self.train_dataloader) * self.train_roberta_epoch
+        self.num_training_steps = len(self.train_dataloader) * (self.train_roberta_epoch + self.warming_epoches)
         self.num_warmup_steps = int(self.warmup_proportion * self.num_training_steps)
 
         def linear_lr_lambda(current_step: int):
@@ -102,19 +108,25 @@ class EXP(object):
         self.best_path_predictor = best_path[1]
     
     def task_reward(self, logit, gold):
-        logit = torch.softmax(logit, dim=-1)
-        reward = []
-        for i in range(len(gold)):
-            reward.append(logit[i][gold[i]].item())
-        reward = numpy.array(reward)
-        # print(logit)
-        # print(reward)
-        return reward - reward.mean()
+        if self.f1_reward:
+            labels = gold.cpu().numpy()
+            y_pred = torch.max(logit, 1).indices.cpu().numpy()
+            P, R, F1 = precision_recall_fscore_support(labels, y_pred, average='micro')[:3]
+            return [F1]*len(gold)
+        else:
+            logit = torch.softmax(logit, dim=-1)
+            reward = []
+            for i in range(len(gold)):
+                reward.append(logit[i][gold[i]].item())
+            reward = numpy.array(reward)
+            # print(logit)
+            # print(reward)
+            return reward - reward.mean()
 
     def train(self):
         start_time = time.time()
         # warming step 
-        print("Warm up Predictor ........")
+        print("Warming up predictor ........")
         for i in range(self.warming_epoches):
             print("============== Epoch {} / {} ==============".format(i+1, self.warming_epoches))
             t0 = time.time()
@@ -127,8 +139,8 @@ class EXP(object):
                     x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy = batch
                     
                     self.predictor_optim.zero_grad()                    
-                    p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, 'warming')
-                    p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, 'warming')
+                    p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, 'warming', dropout_rate=self.word_drop_rate)
+                    p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, 'warming', dropout_rate=self.word_drop_rate)
                     xy = torch.tensor(xy, dtype=torch.long)
                     flag = torch.tensor(flag, dtype=torch.long)
                     if CUDA:
@@ -154,8 +166,8 @@ class EXP(object):
                 x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy = batch
                 
                 self.predictor_optim.zero_grad()                    
-                p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, 'warming')
-                p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, 'warming')
+                p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, 'warming', dropout_rate=self.word_drop_rate)
+                p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, 'warming', dropout_rate=self.word_drop_rate)
                 xy = torch.tensor(xy, dtype=torch.long)
                 flag = torch.tensor(flag, dtype=torch.long)
                 if CUDA:
@@ -179,6 +191,7 @@ class EXP(object):
             print("Total training loss: {}".format(self.predictor_loss))
             # self.evaluate()
 
+        print("Training models .....")
         for i in range(self.num_epoches):
             if i >= self.train_roberta_epoch:
                 for group in self.b_parameters:
@@ -200,8 +213,8 @@ class EXP(object):
                     x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy = batch
                     
                     self.predictor_optim.zero_grad()                    
-                    p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, "all")
-                    p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, "all")
+                    p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, "all", dropout_rate=self.word_drop_rate)
+                    p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, "all", dropout_rate=self.word_drop_rate)
                     xy = torch.tensor(xy, dtype=torch.long)
                     flag = torch.tensor(flag, dtype=torch.long)
                     if CUDA:
@@ -246,8 +259,8 @@ class EXP(object):
                 else:
                     print("This case is not implemented at this time!")
                 
-                p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, x_ctx_selected)
-                p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, y_ctx_selected)
+                p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, x_ctx_selected, dropout_rate=self.word_drop_rate)
+                p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, y_ctx_selected, dropout_rate=self.word_drop_rate)
                 xy = torch.tensor(xy, dtype=torch.long)
                 flag = torch.tensor(flag, dtype=torch.long)
                 if CUDA:
@@ -265,7 +278,8 @@ class EXP(object):
                 
                 task_reward = self.task_reward(logits, xy)
                 s_loss = 0.0
-                for i in range(len(task_reward)):
+                bs = xy.size(0)
+                for i in range(bs):
                     s_loss = s_loss - task_reward[i] * (x_log_prob[i] + y_log_prob[i])
                 self.selector_loss += s_loss.item()
                 self.predictor_loss += p_loss.item()
@@ -319,8 +333,8 @@ class EXP(object):
                     x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy = batch
                     
                     self.predictor_optim.zero_grad()                    
-                    p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, "all")
-                    p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, "all")
+                    p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, "all", dropout_rate=self.word_drop_rate)
+                    p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, "all", dropout_rate=self.word_drop_rate)
                     xy = torch.tensor(xy, dtype=torch.long)
                     flag = torch.tensor(flag, dtype=torch.long)
                     if CUDA:
@@ -363,8 +377,8 @@ class EXP(object):
                 else:
                     print("This case is not implemented at this time!")
                 
-                p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, x_ctx_selected)
-                p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, y_ctx_selected)
+                p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, x_ctx_selected, dropout_rate=self.word_drop_rate)
+                p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, y_ctx_selected, dropout_rate=self.word_drop_rate)
                 xy = torch.tensor(xy, dtype=torch.long)
                 flag = torch.tensor(flag, dtype=torch.long)
                 if CUDA:
