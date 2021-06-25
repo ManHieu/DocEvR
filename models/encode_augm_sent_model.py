@@ -23,7 +23,7 @@ class SentenceEncoder(nn.Module):
             if CUDA:
                 mask = mask.cuda()
             if len(mask.size()) == 1:
-                mask = mask.unsqueeze()
+                mask = mask.unsqueeze(0)
         if CUDA:
             sentence = sentence.cuda()
         # print("Sentence size: ", sentence.size())
@@ -32,13 +32,5 @@ class SentenceEncoder(nn.Module):
         with torch.no_grad():
             s_encoder = self.encoder(sentence, mask)[0]
 
-        # if sentence.size(0) > 50:
-        #     sentence1 = sentence[:50, :]
-        #     sentence2 = sentence[50:, :]
-        #     with torch.no_grad():
-        #         s_encoder1 = self.encoder(sentence1)[0]
-        #         s_encoder2 = self.encoder(sentence2)[0]
-        #     return torch.cat([s_encoder1[:, 0], s_encoder2[:, 0]], dim=0).cpu()
-        # print(s_encoder)
         return s_encoder[:, 0] # ns x 768
 

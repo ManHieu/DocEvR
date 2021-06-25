@@ -53,12 +53,12 @@ class EXP(object):
         group_all = group1 + group2 + group3 
         
         self.b_parameters = [
-            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and not any(nd in n for nd in group_all)],'weight_decay_rate': 0.01, 'lr': self.b_lr}, # all params not include bert layers 
+            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and not any(nd in n for nd in group_all)],'weight_decay_rate': 0.01, 'lr': self.mlp_lr}, # all params not include bert layers 
             {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group1)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**2)}, # param in group1
             {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group2)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**1)}, # param in group2
             {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group3)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**0)}, # param in group3
             # no_decay
-            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and not any(nd in n for nd in group_all)],'weight_decay_rate': 0.00, 'lr': self.b_lr}, # all params not include bert layers 
+            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and not any(nd in n for nd in group_all)],'weight_decay_rate': 0.00, 'lr': self.mlp_lr}, # all params not include bert layers 
             {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and any(nd in n for nd in group1)],'weight_decay_rate': 0.00, 'lr': self.b_lr*(self.decay_rate**2)}, # param in group1
             {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and any(nd in n for nd in group2)],'weight_decay_rate': 0.00, 'lr': self.b_lr*(self.decay_rate**1)}, # param in group2
             {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and any(nd in n for nd in group3)],'weight_decay_rate': 0.00, 'lr': self.b_lr*(self.decay_rate**0)}, # param in group3
@@ -363,10 +363,6 @@ class EXP(object):
                 else:
                     print("This case is not implemented at this time!")
                 
-                # print("x_sent_id: ", x_sent_id)
-                # print("y_sent_id: ", y_sent_id)
-                # print("x_ctx_selected", x_ctx_selected)
-                # print("y_ctx_selected", y_ctx_selected)
                 p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, x_ctx_selected)
                 p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, y_ctx_selected)
                 xy = torch.tensor(xy, dtype=torch.long)

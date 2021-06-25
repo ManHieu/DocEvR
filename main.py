@@ -84,6 +84,7 @@ def objective(trial: optuna.Trial):
     print("Result: Best micro F1 of interaction: {}".format(F1))
     with open(result_file, 'a', encoding='UTF-8') as f:
         f.write("\n -------------------------------------------- \n")
+        f.write("MLP_lr for no bert layers")
         f.write("Hypeparameter: {}\n ".format(params))
         # f.write("Seed: {}\n".format(seed))
         # f.write("Drop rate: {}\n".format(drop_rate))
@@ -106,7 +107,7 @@ if __name__ == '__main__':
     parser.add_argument('--roberta_type', help="base or large", default='roberta-base', type=str)
     parser.add_argument('--best_path', help="Path for save model", type=str)
     parser.add_argument('--log_file', help="Path of log file", type=str)
-    parser.add_argument('--bs', help='batch size', default=8, type=int)
+    parser.add_argument('--bs', help='batch size', default=16, type=int)
     parser.add_argument('--num_select', help='number of select sentence', default=3, type=int)
 
     args = parser.parse_args()
