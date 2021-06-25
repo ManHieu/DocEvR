@@ -81,8 +81,14 @@ def tsvx_reader(dir_name, file_name):
     for event_id, event_dict in my_dict["event_dict"].items():
         my_dict["event_dict"][event_id]["sent_id"] = sent_id = sent_id_lookup(my_dict, event_dict["start_char"], event_dict["end_char"])
         my_dict["event_dict"][event_id]["token_id"] = id_lookup(my_dict["sentences"][sent_id]["token_span_DOC"], event_dict["start_char"])
-        my_dict["event_dict"][event_id]["roberta_subword_id"] = id_lookup(my_dict["sentences"][sent_id]["roberta_subword_span_DOC"], event_dict["start_char"])
+        my_dict["event_dict"][event_id]["roberta_subword_id"] = poss = \
+        id_lookup(my_dict["sentences"][sent_id]["roberta_subword_span_DOC"], event_dict["start_char"]) + 1 # sentence is added <s> token
         event_sent_ids.append(sent_id)
+        # try:
+        mention = event_dict["mention"]
+        sub_word_id = my_dict["sentences"][sent_id]["roberta_subword_to_ID"][poss]
+        sub_word = tokenizer.decode([sub_word_id])
+        assert sub_word.strip() in mention
 
     event_sent_ids = list(set(event_sent_ids))
     sent_encode_dict = {}
@@ -273,13 +279,25 @@ def tml_reader(dir_name, file_name):
     for event_id, event_dict in my_dict["event_dict"].items():
         # print(event_id)
         # print(event_dict)
+        # try:
+        assert str(my_dict["doc_content"][event_dict["start_char"]:event_dict["end_char"] + 1]).lower() == str(event_dict["mention"]).lower()
+        assert str(my_dict["doc_content"][event_dict["start_char"]:event_dict["end_char"] + 1]).strip() != ""
+        # except:
+        #     print("doc: ", my_dict["doc_content"][event_dict["start_char"]:event_dict["end_char"]])
+        #     print("mention: ", event_dict["mention"])
+        #     print(my_dict["doc_id"])
         my_dict["event_dict"][event_id]["sent_id"] = sent_id = \
         sent_id_lookup(my_dict, event_dict["start_char"])
         my_dict["event_dict"][event_id]["token_id"] = \
         id_lookup(my_dict["sentences"][sent_id]["token_span_DOC"], event_dict["start_char"])
-        my_dict["event_dict"][event_id]["roberta_subword_id"] = \
-        id_lookup(my_dict["sentences"][sent_id]["roberta_subword_span_DOC"], event_dict["start_char"])
+        my_dict["event_dict"][event_id]["roberta_subword_id"] = poss = \
+        id_lookup(my_dict["sentences"][sent_id]["roberta_subword_span_DOC"], event_dict["start_char"]) + 1 # sentence is added <s> token
         event_sent_ids.append(sent_id)
+        
+        mention = event_dict["mention"]
+        sub_word_id = my_dict["sentences"][sent_id]["roberta_subword_to_ID"][poss]
+        sub_word = tokenizer.decode([sub_word_id])
+        assert sub_word.strip() in mention
 
     if eiid_pair_to_label.get(my_dict['doc_id']) == None:
         return None
@@ -398,8 +416,14 @@ def i2b2_xml_reader(dir_name, file_name):
     for event_id, event_dict in my_dict["event_dict"].items():
         my_dict["event_dict"][event_id]["sent_id"] = sent_id = sent_id_lookup(my_dict, event_dict["start_char"])
         my_dict["event_dict"][event_id]["token_id"] = id_lookup(my_dict["sentences"][sent_id]["token_span_DOC"], event_dict["start_char"])
-        my_dict["event_dict"][event_id]["roberta_subword_id"] = id_lookup(my_dict["sentences"][sent_id]["roberta_subword_span_DOC"], event_dict["start_char"])
+        my_dict["event_dict"][event_id]["roberta_subword_id"] = poss = \
+        id_lookup(my_dict["sentences"][sent_id]["roberta_subword_span_DOC"], event_dict["start_char"]) + 1 # sentence is added <s> token
         event_sent_ids.append(sent_id)
+        # try:
+        mention = event_dict["mention"]
+        sub_word_id = my_dict["sentences"][sent_id]["roberta_subword_to_ID"][poss]
+        sub_word = tokenizer.decode([sub_word_id])
+        assert sub_word.strip() in mention
     
     for rel_instance in tree.findall('.//TLINK'):
         rid = rel_instance.attrib['id']
@@ -543,9 +567,14 @@ def tbd_tml_reader(dir_name, file_name):
         sent_id_lookup(my_dict, event_dict["start_char"])
         my_dict["event_dict"][event_id]["token_id"] = \
         id_lookup(my_dict["sentences"][sent_id]["token_span_DOC"], event_dict["start_char"])
-        my_dict["event_dict"][event_id]["roberta_subword_id"] = \
-        id_lookup(my_dict["sentences"][sent_id]["roberta_subword_span_DOC"], event_dict["start_char"])
+        my_dict["event_dict"][event_id]["roberta_subword_id"] = poss = \
+        id_lookup(my_dict["sentences"][sent_id]["roberta_subword_span_DOC"], event_dict["start_char"]) + 1 # sentence is added <s> token
         event_sent_ids.append(sent_id)
+        # try:
+        mention = event_dict["mention"]
+        sub_word_id = my_dict["sentences"][sent_id]["roberta_subword_to_ID"][poss]
+        sub_word = tokenizer.decode([sub_word_id])
+        assert sub_word.strip() in mention
 
     my_dict['relation_dict'] = {}
     for item in xml_dom.find_all('tlink'):

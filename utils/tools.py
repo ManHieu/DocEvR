@@ -1,6 +1,7 @@
 from collections import defaultdict
 import datetime
 import re
+import copy
 import torch
 import spacy
 from sklearn.metrics import confusion_matrix
@@ -149,38 +150,51 @@ def make_predictor_input(target, pos_target, position_target, sent_id, ctx, pos_
             augment, position = augment_target(target[i], sent_id[i], position_target[i], ctx[i], selected_ctx)
             pos_augment, pos_position = augment_target(pos_target[i], sent_id[i], position_target[i], pos_ctx[i], selected_ctx)
             assert position == pos_position
-            # print(len(augment))
             pad, mask = padding(augment, max_sent_len=300)
             augm_target.append(pad)
             augm_target_mask.append(mask)
             augm_pos_target.append(padding(pos_augment, pos=True, max_sent_len=300))
             augm_position.append(position)
         else:
-            pad, mask = padding(target[i])
+            pad, mask = padding(target[i], max_sent_len=150)
             augm_target.append(pad)
             augm_target_mask.append(mask)
-            augm_pos_target.append(padding(pos_target, pos=True, max_sent_len=300))
-            augm_position.append(position_target)
+            augm_pos_target.append(padding(pos_target[i], pos=True, max_sent_len=150))
+            augm_position.append(position_target[i])
 
     augm_target = torch.tensor(augm_target, dtype=torch.long)
     augm_target_mask = torch.tensor(augm_target_mask, dtype=torch.long)
     augm_pos_target = torch.tensor(augm_pos_target, dtype=torch.long)
-    augm_position = torch.tensor(augm_position, dtype=torch.long)    
+    augm_position = torch.tensor(augm_position, dtype=torch.long)
     return augm_target, augm_target_mask, augm_pos_target, augm_position
 
-def augment_target(target, sent_id, position_target, ctx, ctx_id):
+def augment_target(target, sent_id, pos, ctx, ctx_id):
     augment_target = []
+    # print("target: {}".format(target))
+    # print("target pos: {}".format(pos))
     # print("ctx id: {} ".format(ctx_id))
     # print("ctx: {}".format(ctx))
-    for id in sorted(ctx_id):
+    # print("ctx_len: {}".format(len(ctx)))
+    # print(sent_id)
+    doc = copy.deepcopy(ctx)
+    position_target = pos
+    doc.insert(sent_id, target)
+    new_ctx_id = []
+    for id in ctx_id:
         if id < sent_id:
-            augment_target += ctx[id][1:]
-            position_target += len(ctx[id][1:])     
-        elif id == sent_id:
-            augment_target = augment_target + target[1:] + ctx[id][1:]
+            new_ctx_id.append(id)
         else:
-            augment_target += ctx[id][1:]
+            new_ctx_id.append(id + 1)
+
+    new_ctx_id.append(sent_id)
+    for id in sorted(new_ctx_id):
+        if id < sent_id:
+            augment_target += doc[id][1:]
+            position_target += len(doc[id][1:])
+        else:
+            augment_target += doc[id][1:]
     augment_target = [0] + augment_target
+    assert augment_target[position_target] == target[pos]
     # print("augment_target: {}".format(augment_target))
     # print("position_target: {}".format(position_target))
     return augment_target, position_target
