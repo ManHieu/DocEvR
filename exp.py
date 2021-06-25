@@ -113,7 +113,7 @@ class EXP(object):
             y_pred = torch.max(logit, 1).indices.cpu().numpy()
             P, R, F1 = precision_recall_fscore_support(labels, y_pred, average='micro')[:3]
             return [F1]*len(gold)
-        else:
+        if self.logit_reward:
             logit = torch.softmax(logit, dim=-1)
             reward = []
             for i in range(len(gold)):
