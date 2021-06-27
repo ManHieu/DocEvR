@@ -1,15 +1,9 @@
-from models.encode_augm_sent_model import SentenceEncoder
 import bs4
 import xml.etree.ElementTree as ET
 from utils.constant import *
 from utils.tools import *
 # from nltk import sent_tokenize
 from bs4 import BeautifulSoup as Soup
-
-
-sent_encoder = SentenceEncoder('roberta-base')
-if CUDA:
-    sent_encoder = sent_encoder.cuda()
 
 # =========================
 #       HiEve Reader
@@ -77,53 +71,16 @@ def tsvx_reader(dir_name, file_name):
         my_dict["sentences"].append(sent_dict)
     
     # Add sent_id as an attribute of event
-    event_sent_ids = []
     for event_id, event_dict in my_dict["event_dict"].items():
         my_dict["event_dict"][event_id]["sent_id"] = sent_id = sent_id_lookup(my_dict, event_dict["start_char"], event_dict["end_char"])
         my_dict["event_dict"][event_id]["token_id"] = id_lookup(my_dict["sentences"][sent_id]["token_span_DOC"], event_dict["start_char"])
         my_dict["event_dict"][event_id]["roberta_subword_id"] = poss = \
         id_lookup(my_dict["sentences"][sent_id]["roberta_subword_span_DOC"], event_dict["start_char"]) + 1 # sentence is added <s> token
-        event_sent_ids.append(sent_id)
         # try:
         mention = event_dict["mention"]
         sub_word_id = my_dict["sentences"][sent_id]["roberta_subword_to_ID"][poss]
         sub_word = tokenizer.decode([sub_word_id])
         assert sub_word.strip() in mention
-
-    event_sent_ids = list(set(event_sent_ids))
-    sent_encode_dict = {}
-    for ev_sent_id in event_sent_ids:
-        event_sent = my_dict["sentences"][ev_sent_id]["roberta_subword_to_ID"]
-        ev_ctx = []
-        ev_ctx_augm = []
-        ev_ctx_augm_mask = []
-        ev_ctx_pos = []
-        ev_ctx_len = []
-        for sent_id in range(len(my_dict["sentences"])):
-            if sent_id != ev_sent_id:
-                sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
-                sent_pos = pos_to_id(my_dict["sentences"][sent_id]['roberta_subword_pos'])
-                ev_ctx.append(sent)
-                sent_augm, sent_augm_mask = padding(augment_ctx(event_sent, ev_sent_id, sent, sent_id))
-                ev_ctx_augm.append(sent_augm)
-                ev_ctx_augm_mask.append(sent_augm_mask)
-                ev_ctx_pos.append(sent_pos)
-                ev_ctx_len.append(len(sent))
-
-        ev_ctx_augm_emb = sent_encoder(ev_ctx_augm, ev_ctx_augm_mask).cpu()
-        ev_sent_emb = sent_encoder(event_sent).squeeze().cpu()
-
-        sent_encode_dict[ev_sent_id] = {}
-        sent_encode_dict[ev_sent_id]['event_sent'] = event_sent
-        sent_encode_dict[ev_sent_id]['ev_ctx'] = ev_ctx
-        sent_encode_dict[ev_sent_id]['ev_ctx_augm'] = ev_ctx_augm
-        sent_encode_dict[ev_sent_id]['ev_ctx_augm_mask'] = ev_ctx_augm_mask
-        sent_encode_dict[ev_sent_id]['ev_ctx_augm_emb'] = ev_ctx_augm_emb
-        sent_encode_dict[ev_sent_id]['ev_sent_emb'] = ev_sent_emb
-        sent_encode_dict[ev_sent_id]['ev_ctx_pos'] = ev_ctx_pos
-        sent_encode_dict[ev_sent_id]['ev_ctx_len'] = ev_ctx_len
-          
-    my_dict['sent_encode_dict'] = sent_encode_dict
 
     return my_dict
 
@@ -275,7 +232,6 @@ def tml_reader(dir_name, file_name):
         my_dict["sentences"].append(sent_dict)
         
         # Add sent_id as an attribute of event
-    event_sent_ids = []
     for event_id, event_dict in my_dict["event_dict"].items():
         # print(event_id)
         # print(event_dict)
@@ -292,7 +248,6 @@ def tml_reader(dir_name, file_name):
         id_lookup(my_dict["sentences"][sent_id]["token_span_DOC"], event_dict["start_char"])
         my_dict["event_dict"][event_id]["roberta_subword_id"] = poss = \
         id_lookup(my_dict["sentences"][sent_id]["roberta_subword_span_DOC"], event_dict["start_char"]) + 1 # sentence is added <s> token
-        event_sent_ids.append(sent_id)
         
         mention = event_dict["mention"]
         sub_word_id = my_dict["sentences"][sent_id]["roberta_subword_to_ID"][poss]
@@ -304,40 +259,6 @@ def tml_reader(dir_name, file_name):
     relation_dict = eiid_pair_to_label[my_dict['doc_id']]
     my_dict['relation_dict'] = relation_dict
 
-    event_sent_ids = list(set(event_sent_ids))
-    sent_encode_dict = {}
-    for ev_sent_id in event_sent_ids:
-        event_sent = my_dict["sentences"][ev_sent_id]["roberta_subword_to_ID"]
-        ev_ctx = []
-        ev_ctx_augm = []
-        ev_ctx_augm_mask = []
-        ev_ctx_pos = []
-        ev_ctx_len = []
-        for sent_id in range(len(my_dict["sentences"])):
-            if sent_id != ev_sent_id:
-                sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
-                sent_pos = pos_to_id(my_dict["sentences"][sent_id]['roberta_subword_pos'])
-                ev_ctx.append(sent)
-                sent_augm, sent_augm_mask = padding(augment_ctx(event_sent, ev_sent_id, sent, sent_id))
-                ev_ctx_augm.append(sent_augm)
-                ev_ctx_augm_mask.append(sent_augm_mask)
-                ev_ctx_pos.append(sent_pos)
-                ev_ctx_len.append(len(sent))
-
-        ev_ctx_augm_emb = sent_encoder(ev_ctx_augm, ev_ctx_augm_mask).cpu()
-        ev_sent_emb = sent_encoder(event_sent).squeeze().cpu()
-
-        sent_encode_dict[ev_sent_id] = {}
-        sent_encode_dict[ev_sent_id]['event_sent'] = event_sent
-        sent_encode_dict[ev_sent_id]['ev_ctx'] = ev_ctx
-        sent_encode_dict[ev_sent_id]['ev_ctx_augm'] = ev_ctx_augm
-        sent_encode_dict[ev_sent_id]['ev_ctx_augm_mask'] = ev_ctx_augm_mask
-        sent_encode_dict[ev_sent_id]['ev_ctx_augm_emb'] = ev_ctx_augm_emb
-        sent_encode_dict[ev_sent_id]['ev_sent_emb'] = ev_sent_emb
-        sent_encode_dict[ev_sent_id]['ev_ctx_pos'] = ev_ctx_pos
-        sent_encode_dict[ev_sent_id]['ev_ctx_len'] = ev_ctx_len
-       
-    my_dict['sent_encode_dict'] = sent_encode_dict
     return my_dict
 
 # =========================
@@ -412,13 +333,11 @@ def i2b2_xml_reader(dir_name, file_name):
         my_dict["sentences"].append(sent_dict)
 
     # Add sent_id as an attribute of event
-    event_sent_ids = []
     for event_id, event_dict in my_dict["event_dict"].items():
         my_dict["event_dict"][event_id]["sent_id"] = sent_id = sent_id_lookup(my_dict, event_dict["start_char"])
         my_dict["event_dict"][event_id]["token_id"] = id_lookup(my_dict["sentences"][sent_id]["token_span_DOC"], event_dict["start_char"])
         my_dict["event_dict"][event_id]["roberta_subword_id"] = poss = \
         id_lookup(my_dict["sentences"][sent_id]["roberta_subword_span_DOC"], event_dict["start_char"]) + 1 # sentence is added <s> token
-        event_sent_ids.append(sent_id)
         # try:
         mention = event_dict["mention"]
         sub_word_id = my_dict["sentences"][sent_id]["roberta_subword_to_ID"][poss]
@@ -434,42 +353,6 @@ def i2b2_xml_reader(dir_name, file_name):
         if  rel_id != None:
             if e1_id.startswith('E') and e2_id.startswith('E'):
                 my_dict['relation_dict'][(e1_id, e2_id)] = rel_id
-    
-    event_sent_ids = list(set(event_sent_ids))
-    sent_encode_dict = {}
-    for ev_sent_id in event_sent_ids:
-        event_sent = my_dict["sentences"][ev_sent_id]["roberta_subword_to_ID"]
-        ev_ctx = []
-        ev_ctx_augm = []
-        ev_ctx_augm_mask = []
-        ev_ctx_pos = []
-        ev_ctx_len = []
-        for sent_id in range(len(my_dict["sentences"])):
-            if sent_id != ev_sent_id:
-                sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
-                sent_pos = pos_to_id(my_dict["sentences"][sent_id]['roberta_subword_pos'])
-                ev_ctx.append(sent)
-                sent_augm, sent_augm_mask = padding(augment_ctx(event_sent, ev_sent_id, sent, sent_id))
-                ev_ctx_augm.append(sent_augm)
-                ev_ctx_augm_mask.append(sent_augm_mask)
-                ev_ctx_pos.append(sent_pos)
-                ev_ctx_len.append(len(sent))
-
-        ev_ctx_augm_emb = sent_encoder(ev_ctx_augm, ev_ctx_augm_mask).cpu()
-        ev_sent_emb = sent_encoder(event_sent).squeeze().cpu()
-
-        sent_encode_dict[ev_sent_id] = {}
-        sent_encode_dict[ev_sent_id]['event_sent'] = event_sent
-        sent_encode_dict[ev_sent_id]['ev_ctx'] = ev_ctx
-        sent_encode_dict[ev_sent_id]['ev_ctx_augm'] = ev_ctx_augm
-        sent_encode_dict[ev_sent_id]['ev_ctx_augm_mask'] = ev_ctx_augm_mask
-        sent_encode_dict[ev_sent_id]['ev_ctx_augm_emb'] = ev_ctx_augm_emb
-        sent_encode_dict[ev_sent_id]['ev_sent_emb'] = ev_sent_emb
-        sent_encode_dict[ev_sent_id]['ev_ctx_pos'] = ev_ctx_pos
-        sent_encode_dict[ev_sent_id]['ev_ctx_len'] = ev_ctx_len
-        
-
-    my_dict['sent_encode_dict'] = sent_encode_dict
     
     return my_dict
 
@@ -559,7 +442,6 @@ def tbd_tml_reader(dir_name, file_name):
         my_dict["sentences"].append(sent_dict)
         
         # Add sent_id as an attribute of event
-    event_sent_ids = []
     for event_id, event_dict in my_dict["event_dict"].items():
         # print(event_id)
         # print(event_dict)
@@ -569,7 +451,6 @@ def tbd_tml_reader(dir_name, file_name):
         id_lookup(my_dict["sentences"][sent_id]["token_span_DOC"], event_dict["start_char"])
         my_dict["event_dict"][event_id]["roberta_subword_id"] = poss = \
         id_lookup(my_dict["sentences"][sent_id]["roberta_subword_span_DOC"], event_dict["start_char"]) + 1 # sentence is added <s> token
-        event_sent_ids.append(sent_id)
         # try:
         mention = event_dict["mention"]
         sub_word_id = my_dict["sentences"][sent_id]["roberta_subword_to_ID"][poss]
@@ -587,42 +468,6 @@ def tbd_tml_reader(dir_name, file_name):
             my_dict['relation_dict'][(e1_id, e2_id)] = rel_id
             if rel_id == None:
                 print(item)
-    
-    event_sent_ids = list(set(event_sent_ids))
-    sent_encode_dict = {}
-    for ev_sent_id in event_sent_ids:
-        event_sent = my_dict["sentences"][ev_sent_id]["roberta_subword_to_ID"]
-        ev_ctx = []
-        ev_ctx_augm = []
-        ev_ctx_augm_mask = []
-        ev_ctx_pos = []
-        ev_ctx_len = []
-        for sent_id in range(len(my_dict["sentences"])):
-            if sent_id != ev_sent_id:
-                sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
-                sent_pos = pos_to_id(my_dict["sentences"][sent_id]['roberta_subword_pos'])
-                ev_ctx.append(sent)
-                sent_augm, sent_augm_mask = padding(augment_ctx(event_sent, ev_sent_id, sent, sent_id))
-                ev_ctx_augm.append(sent_augm)
-                ev_ctx_augm_mask.append(sent_augm_mask)
-                ev_ctx_pos.append(sent_pos)
-                ev_ctx_len.append(len(sent))
-
-        ev_ctx_augm_emb = sent_encoder(ev_ctx_augm, ev_ctx_augm_mask).cpu()
-        ev_sent_emb = sent_encoder(event_sent).squeeze().cpu()
-
-        sent_encode_dict[ev_sent_id] = {}
-        sent_encode_dict[ev_sent_id]['event_sent'] = event_sent
-        sent_encode_dict[ev_sent_id]['ev_ctx'] = ev_ctx
-        sent_encode_dict[ev_sent_id]['ev_ctx_augm'] = ev_ctx_augm
-        sent_encode_dict[ev_sent_id]['ev_ctx_augm_mask'] = ev_ctx_augm_mask
-        sent_encode_dict[ev_sent_id]['ev_ctx_augm_emb'] = ev_ctx_augm_emb
-        sent_encode_dict[ev_sent_id]['ev_sent_emb'] = ev_sent_emb
-        sent_encode_dict[ev_sent_id]['ev_ctx_pos'] = ev_ctx_pos
-        sent_encode_dict[ev_sent_id]['ev_ctx_len'] = ev_ctx_len
-        
-    my_dict['sent_encode_dict'] = sent_encode_dict
-
     return my_dict
 
 

@@ -135,26 +135,22 @@ class EXP(object):
             self.predictor_loss = 0.0
             if self.train_short_dataloader != None:
                 for step, batch in tqdm.tqdm(enumerate(self.train_short_dataloader), desc="Training process for short doc", total=len(self.train_short_dataloader)):
-                    x_sent_id, y_sent_id, x_sent, y_sent, x_sent_len, y_sent_len, x_sent_emb, y_sent_emb, x_position, y_position, x_sent_pos, y_sent_pos, \
-                    x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy = batch
+                    x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, \
+                    doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_len, ctx_pos, flag, xy = batch
                     
                     self.predictor_optim.zero_grad()                    
-                    p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, 'warming', dropout_rate=self.word_drop_rate)
-                    p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, 'warming', dropout_rate=self.word_drop_rate)
+                    augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, 'warming', doc_id, dropout_rate=self.word_drop_rate)
                     xy = torch.tensor(xy, dtype=torch.long)
                     flag = torch.tensor(flag, dtype=torch.long)
                     if CUDA:
-                        p_x_sent = p_x_sent.cuda() 
-                        p_x_sent_pos = p_x_sent_pos.cuda()
-                        p_x_position = p_x_position.cuda()
-                        p_y_sent = p_y_sent.cuda() 
-                        p_y_sent_pos = p_y_sent_pos.cuda()
-                        p_y_position = p_y_position.cuda()
-                        p_x_sent_mask = p_x_sent_mask.cuda()
-                        p_y_sent_mask = p_y_sent_mask.cuda()
+                        augm_target = augm_target.cuda() 
+                        augm_target_mask = augm_target_mask.cuda()
+                        augm_pos_target = augm_pos_target.cuda()
+                        x_augm_position = x_augm_position.cuda() 
+                        y_augm_position = y_augm_position.cuda()
                         xy = xy.cuda()
                         flag = flag.cuda()
-                    logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_sent_mask, p_y_sent_mask, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
+                    logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, augm_pos_target)
                     
                     self.predictor_loss += p_loss.item()
                     p_loss.backward()
@@ -162,26 +158,22 @@ class EXP(object):
                     self.scheduler.step()
                     
             for step, batch in tqdm.tqdm(enumerate(self.train_dataloader), desc="Training process for long doc", total=len(self.train_dataloader)):
-                x_sent_id, y_sent_id, x_sent, y_sent, x_sent_len, y_sent_len, x_sent_emb, y_sent_emb, x_position, y_position, x_sent_pos, y_sent_pos, \
-                x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy = batch
+                x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, \
+                doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_len, ctx_pos, flag, xy = batch
                 
                 self.predictor_optim.zero_grad()                    
-                p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, 'warming', dropout_rate=self.word_drop_rate)
-                p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, 'warming', dropout_rate=self.word_drop_rate)
+                augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, 'warming', doc_id, dropout_rate=self.word_drop_rate)
                 xy = torch.tensor(xy, dtype=torch.long)
                 flag = torch.tensor(flag, dtype=torch.long)
                 if CUDA:
-                    p_x_sent = p_x_sent.cuda() 
-                    p_x_sent_pos = p_x_sent_pos.cuda()
-                    p_x_position = p_x_position.cuda()
-                    p_y_sent = p_y_sent.cuda() 
-                    p_y_sent_pos = p_y_sent_pos.cuda()
-                    p_y_position = p_y_position.cuda()
-                    p_x_sent_mask = p_x_sent_mask.cuda()
-                    p_y_sent_mask = p_y_sent_mask.cuda()
+                    augm_target = augm_target.cuda() 
+                    augm_target_mask = augm_target_mask.cuda()
+                    augm_pos_target = augm_pos_target.cuda()
+                    x_augm_position = x_augm_position.cuda() 
+                    y_augm_position = y_augm_position.cuda()
                     xy = xy.cuda()
                     flag = flag.cuda()
-                logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_sent_mask, p_y_sent_mask, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
+                logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, augm_pos_target)
                 
                 self.predictor_loss += p_loss.item()
                 p_loss.backward()
@@ -209,26 +201,22 @@ class EXP(object):
             self.predictor_loss = 0.0
             if self.train_short_dataloader != None:
                 for step, batch in tqdm.tqdm(enumerate(self.train_short_dataloader), desc="Training process for short doc", total=len(self.train_short_dataloader)):
-                    x_sent_id, y_sent_id, x_sent, y_sent, x_sent_len, y_sent_len, x_sent_emb, y_sent_emb, x_position, y_position, x_sent_pos, y_sent_pos, \
-                    x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy = batch
+                    x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, \
+                    doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_len, ctx_pos, flag, xy = batch
                     
                     self.predictor_optim.zero_grad()                    
-                    p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, "all", dropout_rate=self.word_drop_rate)
-                    p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, "all", dropout_rate=self.word_drop_rate)
+                    augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, 'all', doc_id, dropout_rate=self.word_drop_rate)
                     xy = torch.tensor(xy, dtype=torch.long)
                     flag = torch.tensor(flag, dtype=torch.long)
                     if CUDA:
-                        p_x_sent = p_x_sent.cuda() 
-                        p_x_sent_pos = p_x_sent_pos.cuda()
-                        p_x_position = p_x_position.cuda()
-                        p_y_sent = p_y_sent.cuda() 
-                        p_y_sent_pos = p_y_sent_pos.cuda()
-                        p_y_position = p_y_position.cuda()
-                        p_x_sent_mask = p_x_sent_mask.cuda()
-                        p_y_sent_mask = p_y_sent_mask.cuda()
+                        augm_target = augm_target.cuda() 
+                        augm_target_mask = augm_target_mask.cuda()
+                        augm_pos_target = augm_pos_target.cuda()
+                        x_augm_position = x_augm_position.cuda() 
+                        y_augm_position = y_augm_position.cuda()
                         xy = xy.cuda()
                         flag = flag.cuda()
-                    logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_sent_mask, p_y_sent_mask, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
+                    logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, augm_pos_target)
                     
                     self.predictor_loss += p_loss.item()
                     p_loss.backward()
@@ -237,50 +225,41 @@ class EXP(object):
                     
 
             for step, batch in tqdm.tqdm(enumerate(self.train_dataloader), desc="Training process for long doc", total=len(self.train_dataloader)):
-                x_sent_id, y_sent_id, x_sent, y_sent, x_sent_len, y_sent_len, x_sent_emb, y_sent_emb, x_position, y_position, x_sent_pos, y_sent_pos, \
-                x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy = batch
+                x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, \
+                doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_len, ctx_pos, flag, xy = batch
                 
                 self.selector_optim.zero_grad()
                 self.predictor_optim.zero_grad()
 
                 if self.is_finetune_selector == False:
-                    x_sent_emb = torch.stack(x_sent_emb, dim=0)
-                    x_ctx_augm_emb = torch.stack(pad_to_max_ns(x_ctx_augm_emb), dim=0)
-                    y_sent_emb = torch.stack(y_sent_emb, dim=0)
-                    y_ctx_augm_emb = torch.stack(pad_to_max_ns(y_ctx_augm_emb), dim=0)
+                    target_emb = torch.stack(target_emb, dim=0)
+                    ctx_emb = torch.stack(pad_to_max_ns(ctx_emb), dim=0)
                     if CUDA:
-                        x_sent_emb = x_sent_emb.cuda()
-                        x_ctx_augm_emb = x_ctx_augm_emb.cuda()
-                        y_sent_emb = y_sent_emb.cuda()
-                        y_ctx_augm_emb = y_ctx_augm_emb.cuda()
+                        target_emb = target_emb.cuda()
+                        ctx_emb = ctx_emb.cuda()
 
-                    x_ctx_selected, x_dist, x_log_prob = self.selector(x_sent_emb, x_ctx_augm_emb, x_sent_len, x_ctx_len, self.num_ctx_select)
-                    y_ctx_selected, y_dist, y_log_prob = self.selector(y_sent_emb, y_ctx_augm_emb, y_sent_len, y_ctx_len, self.num_ctx_select)
+                    ctx_selected, dist, log_prob = self.selector(target_emb, ctx_emb, target_len, ctx_len, self.num_ctx_select)
                 else:
                     print("This case is not implemented at this time!")
                 
-                p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, x_ctx_selected, dropout_rate=self.word_drop_rate)
-                p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, y_ctx_selected, dropout_rate=self.word_drop_rate)
+                augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, ctx_selected, doc_id, dropout_rate=self.word_drop_rate)
                 xy = torch.tensor(xy, dtype=torch.long)
                 flag = torch.tensor(flag, dtype=torch.long)
                 if CUDA:
-                    p_x_sent = p_x_sent.cuda() 
-                    p_x_sent_pos = p_x_sent_pos.cuda()
-                    p_x_position = p_x_position.cuda()
-                    p_y_sent = p_y_sent.cuda() 
-                    p_y_sent_pos = p_y_sent_pos.cuda()
-                    p_y_position = p_y_position.cuda()
-                    p_x_sent_mask = p_x_sent_mask.cuda()
-                    p_y_sent_mask = p_y_sent_mask.cuda()
+                    augm_target = augm_target.cuda() 
+                    augm_target_mask = augm_target_mask.cuda()
+                    augm_pos_target = augm_pos_target.cuda()
+                    x_augm_position = x_augm_position.cuda() 
+                    y_augm_position = y_augm_position.cuda()
                     xy = xy.cuda()
                     flag = flag.cuda()
-                logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_sent_mask, p_y_sent_mask, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
+                logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, augm_pos_target)
                 
                 task_reward = self.task_reward(logits, xy)
                 s_loss = 0.0
                 bs = xy.size(0)
                 for i in range(bs):
-                    s_loss = s_loss - task_reward[i] * (x_log_prob[i] + y_log_prob[i])
+                    s_loss = s_loss - task_reward[i] * log_prob[i]
                 self.selector_loss += s_loss.item()
                 self.predictor_loss += p_loss.item()
 
@@ -329,70 +308,57 @@ class EXP(object):
             gold = []
             if short_dataloader != None:
                 for step, batch in tqdm.tqdm(enumerate(short_dataloader), desc="Processing for short doc", total=len(short_dataloader)):
-                    x_sent_id, y_sent_id, x_sent, y_sent, x_sent_len, y_sent_len, x_sent_emb, y_sent_emb, x_position, y_position, x_sent_pos, y_sent_pos, \
-                    x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy = batch
+                    x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, \
+                    doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_len, ctx_pos, flag, xy = batch
                     
                     self.predictor_optim.zero_grad()                    
-                    p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, "all", dropout_rate=self.word_drop_rate)
-                    p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, "all", dropout_rate=self.word_drop_rate)
+                    augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, 'all', doc_id, dropout_rate=self.word_drop_rate)
                     xy = torch.tensor(xy, dtype=torch.long)
                     flag = torch.tensor(flag, dtype=torch.long)
                     if CUDA:
-                        p_x_sent = p_x_sent.cuda() 
-                        p_x_sent_pos = p_x_sent_pos.cuda()
-                        p_x_position = p_x_position.cuda()
-                        p_y_sent = p_y_sent.cuda() 
-                        p_y_sent_pos = p_y_sent_pos.cuda()
-                        p_y_position = p_y_position.cuda()
-                        p_x_sent_mask = p_x_sent_mask.cuda()
-                        p_y_sent_mask = p_y_sent_mask.cuda()
+                        augm_target = augm_target.cuda() 
+                        augm_target_mask = augm_target_mask.cuda()
+                        augm_pos_target = augm_pos_target.cuda()
+                        x_augm_position = x_augm_position.cuda() 
+                        y_augm_position = y_augm_position.cuda()
                         xy = xy.cuda()
                         flag = flag.cuda()
-                    logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_sent_mask, p_y_sent_mask, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
+                    logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, augm_pos_target)
                     labels = xy.cpu().numpy()
                     y_pred = torch.max(logits, 1).indices.cpu().numpy()
                     gold.extend(labels)
                     pred.extend(y_pred)
 
             for step, batch in tqdm.tqdm(enumerate(dataloader), desc="Processing for long doc", total=len(dataloader)):
-                x_sent_id, y_sent_id, x_sent, y_sent, x_sent_len, y_sent_len, x_sent_emb, y_sent_emb, x_position, y_position, x_sent_pos, y_sent_pos, \
-                x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy = batch
+                x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, \
+                doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_len, ctx_pos, flag, xy = batch
                 
                 self.selector_optim.zero_grad()
                 self.predictor_optim.zero_grad()
 
                 if self.is_finetune_selector == False:
-                    x_sent_emb = torch.stack(x_sent_emb, dim=0)
-                    x_ctx_augm_emb = torch.stack(pad_to_max_ns(x_ctx_augm_emb), dim=0)
-                    y_sent_emb = torch.stack(y_sent_emb, dim=0)
-                    y_ctx_augm_emb = torch.stack(pad_to_max_ns(y_ctx_augm_emb), dim=0)
+                    target_emb = torch.stack(target_emb, dim=0)
+                    ctx_emb = torch.stack(pad_to_max_ns(ctx_emb), dim=0)
                     if CUDA:
-                        x_sent_emb = x_sent_emb.cuda()
-                        x_ctx_augm_emb = x_ctx_augm_emb.cuda()
-                        y_sent_emb = y_sent_emb.cuda()
-                        y_ctx_augm_emb = y_ctx_augm_emb.cuda()
+                        target_emb = target_emb.cuda()
+                        ctx_emb = ctx_emb.cuda()
 
-                    x_ctx_selected, x_dist, x_log_prob = self.selector(x_sent_emb, x_ctx_augm_emb, x_sent_len, x_ctx_len, self.num_ctx_select)
-                    y_ctx_selected, y_dist, y_log_prob = self.selector(y_sent_emb, y_ctx_augm_emb, y_sent_len, y_ctx_len, self.num_ctx_select)
+                    ctx_selected, dist, log_prob = self.selector(target_emb, ctx_emb, target_len, ctx_len, self.num_ctx_select)
                 else:
                     print("This case is not implemented at this time!")
                 
-                p_x_sent, p_x_sent_mask, p_x_sent_pos, p_x_position = make_predictor_input(x_sent, x_sent_pos, x_position, x_sent_id, x_ctx, x_ctx_pos, x_ctx_selected, dropout_rate=self.word_drop_rate)
-                p_y_sent, p_y_sent_mask, p_y_sent_pos, p_y_position = make_predictor_input(y_sent, y_sent_pos, y_position, y_sent_id, y_ctx, y_ctx_pos, y_ctx_selected, dropout_rate=self.word_drop_rate)
+                augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, ctx_selected, doc_id, dropout_rate=self.word_drop_rate)
                 xy = torch.tensor(xy, dtype=torch.long)
                 flag = torch.tensor(flag, dtype=torch.long)
                 if CUDA:
-                    p_x_sent = p_x_sent.cuda() 
-                    p_x_sent_pos = p_x_sent_pos.cuda()
-                    p_x_position = p_x_position.cuda()
-                    p_y_sent = p_y_sent.cuda() 
-                    p_y_sent_pos = p_y_sent_pos.cuda()
-                    p_y_position = p_y_position.cuda()
-                    p_x_sent_mask = p_x_sent_mask.cuda()
-                    p_y_sent_mask = p_y_sent_mask.cuda()
+                    augm_target = augm_target.cuda() 
+                    augm_target_mask = augm_target_mask.cuda()
+                    augm_pos_target = augm_pos_target.cuda()
+                    x_augm_position = x_augm_position.cuda() 
+                    y_augm_position = y_augm_position.cuda()
                     xy = xy.cuda()
                     flag = flag.cuda()
-                logits, p_loss = self.predictor(p_x_sent, p_y_sent, p_x_sent_mask, p_y_sent_mask, p_x_position, p_y_position, xy, flag, p_x_sent_pos, p_y_sent_pos)
+                logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, augm_pos_target)
                 
                 labels = xy.cpu().numpy()
                 y_pred = torch.max(logits, 1).indices.cpu().numpy()

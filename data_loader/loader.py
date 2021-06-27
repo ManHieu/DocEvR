@@ -1,3 +1,4 @@
+from models.encode_augm_sent_model import SentenceEncoder
 import os
 from utils.constant import CUDA
 import tqdm
@@ -7,8 +8,15 @@ from itertools import combinations
 from data_loader.reader import i2b2_xml_reader, tbd_tml_reader, tml_reader, tsvx_reader
 from utils.tools import augment_ctx, create_target, padding, pos_to_id
 from sklearn.model_selection import train_test_split
+from models.encode_augm_sent_model import SentenceEncoder
 from transformers import AutoModel
 import torch.nn as nn
+
+
+sent_encoder = SentenceEncoder('roberta-base')
+if CUDA:
+    sent_encoder = sent_encoder.cuda()
+
 
 class Reader(object):
     def __init__(self, type) -> None:
@@ -55,7 +63,7 @@ def loader(dataset, min_ns):
         eids = my_dict['event_dict'].keys()
         pair_events = list(combinations(eids, 2))
 
-        target_augm = {}
+        ctx_id_augm = []
         for pair in pair_events:
             x, y = pair
             
@@ -65,37 +73,83 @@ def loader(dataset, min_ns):
             ctx_id.remove(x_sent_id)
             ctx_id.remove(y_sent_id)
             id_augm = [sorted(x_sent_id, y_sent_id, id) for id in ctx_id]
-            # x_sent = my_dict["sentences"][x_sent_id]["roberta_subword_to_ID"]
-            # y_sent = my_dict["sentences"][y_sent_id]["roberta_subword_to_ID"]
-            # x_sent_len = len(x_sent)
-            # y_sent_len = len(y_sent)
-            # x_position = my_dict["event_dict"][x]["roberta_subword_id"]
-            # y_position = my_dict["event_dict"][y]["roberta_subword_id"]
+            ctx_id_augm.extend(id_augm)
+        ctx_id_augm = list(set(ctx_id_augm))
 
-            # target_sent, x_position_new, y_position_new = create_target(x_sent, y_sent, x_position, y_position, x_sent_id, y_sent_id)
+        ctx_augm = []
+        ctx_augm_mask = []
+        for ids in ctx_id_augm:
+            ids = set(ids)
+            sent = []
+            for id in ids:
+                sent = sent + my_dict["sentences"][id]["roberta_subword_to_ID"][1:]
+            sent = [0] + sent
+            pad, mask = padding(sent, max_sent_len=256)
+            ctx_augm.append(pad)
+            ctx_augm_mask.append(mask)
+        _augm_emb = sent_encoder(ctx_augm, ctx_augm_mask)
+        if CUDA:
+            _augm_emb = _augm_emb.cpu()
+        _ctx_augm_emb = {}
+        for i in range(len(ctx_id_augm)):
+            print(_augm_emb[i].size())
+            _ctx_augm_emb[ctx_id_augm[i]] = _augm_emb[i]
+        
+        for pair in pair_events:
+            x, y = pair
             
-            # x_sent_pos = pos_to_id(my_dict["sentences"][x_sent_id]["roberta_subword_pos"])
-            # y_sent_pos = pos_to_id(my_dict["sentences"][y_sent_id]["roberta_subword_pos"])
+            x_sent_id = my_dict['event_dict'][x]['sent_id']
+            y_sent_id = my_dict['event_dict'][y]['sent_id']
 
-            # x_sent_emb = my_dict['sent_encode_dict'][x_sent_id]['ev_sent_emb']
-            # y_sent_emb = my_dict['sent_encode_dict'][y_sent_id]['ev_sent_emb']
+            x_sent = my_dict["sentences"][x_sent_id]["roberta_subword_to_ID"]
+            y_sent = my_dict["sentences"][y_sent_id]["roberta_subword_to_ID"]
+
+            x_position = my_dict["event_dict"][x]["roberta_subword_id"]
+            y_position = my_dict["event_dict"][y]["roberta_subword_id"]
+
+            x_sent_pos = pos_to_id(my_dict["sentences"][x_sent_id]["roberta_subword_pos"])
+            y_sent_pos = pos_to_id(my_dict["sentences"][y_sent_id]["roberta_subword_pos"])
             
+            target = create_target(x_sent, y_sent, x_sent_id, y_sent_id)
+            target_emb = sent_encoder(target_emb).squeeze()
+            target_len = len(target)
+            if CUDA:
+                target_emb = target_emb.cpu()
+
+            ctx = []
+            ctx_emb = []
+            ctx_pos = []
+            ctx_len = []
+            ctx_id = list(range(len( my_dict["sentences"])))
+            ctx_id.remove(x_sent_id)
+            ctx_id.remove(y_sent_id)
+            for sent_id in ctx_id:
+                sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
+                sent_pos = pos_to_id(my_dict["sentences"][sent_id]['roberta_subword_pos'])
+                ctx.append(sent)
+                ctx_pos.append(sent_pos)
+                ctx_len.append(len(sent))
+                sent_emb = _ctx_augm_emb[sorted(x_sent_id, y_sent_id, sent_id)]
+                ctx_emb.append(sent_emb)
+            ctx_emb = torch.stack(ctx_emb, dim=0) # ns x 768
+            print(ctx_emb.size())
+
             xy = my_dict["relation_dict"].get((x, y))
             yx = my_dict["relation_dict"].get((y, x))
-            
-            candidates = [
-                [x_sent_id, y_sent_id, x_sent, y_sent, x_sent_len, y_sent_len, x_sent_emb, y_sent_emb, x_position, y_position, x_sent_pos, y_sent_pos, 
-                x_ctx, y_ctx, x_ctx_len, y_ctx_len, x_ctx_augm, y_ctx_augm, x_ctx_augm_emb, y_ctx_augm_emb, x_ctx_pos, y_ctx_pos, flag, xy],
-                [y_sent_id, x_sent_id, y_sent, x_sent, y_sent_len, x_sent_len, y_sent_emb, x_sent_emb,  y_position, x_position, y_sent_pos, x_sent_pos, 
-                y_ctx, x_ctx, y_ctx_len, x_ctx_len, y_ctx_augm, x_ctx_augm, y_ctx_augm_emb, x_ctx_augm_emb, y_ctx_pos, x_ctx_pos, flag, yx],
-            ]
 
+            candidates = [
+                [str(x), str(y), x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, 
+                ctx_id, target, target_emb, target_len, ctx, ctx_emb, ctx_len, ctx_pos, flag, xy],
+                [str(y), str(x), y_sent, x_sent, y_sent_id, x_sent_id, y_sent_pos, x_sent_pos, y_position, x_position, 
+                ctx_id, target, target_emb, target_len, ctx, ctx_emb, ctx_len, ctx_pos, flag, yx],
+            ]
             for item in candidates:
-                if item[-1] != None and len(x_ctx_len) == len(y_ctx_len) and len(x_ctx_len) >= min_ns:
+                if item[-1] != None and len(ctx_len) >= min_ns:
                     data.append(item)
-                if item[-1] != None and len(x_ctx_len) < min_ns:
+                if item[-1] != None and len(ctx_len) < min_ns:
                     short_data.append(item)
         return data, short_data
+           
     train_set = []
     train_short = []
     test_set = []

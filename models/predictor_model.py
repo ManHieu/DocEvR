@@ -171,37 +171,30 @@ class ECIRobertaJointTask(nn.Module):
         if self.task_weights != None:
             assert len(self.task_weights)==len(datasets), "Length of weight is difference number datasets: {}".format(len(self.task_weights))
 
-    def forward(self, x_sent, y_sent, x_sent_mask, y_sent_mask, x_position, y_position, xy, flag, x_sent_pos=None, y_sent_pos=None):
-        batch_size = x_sent.size(0)
+    def forward(self, sent, sent_mask, x_position, y_position, xy, flag, sent_pos=None):
+        batch_size = sent.size(0)
         # print(x_sent.size())
 
         if self.finetune:
-            output_x = self.roberta(x_sent, x_sent_mask)[2]
-            output_y = self.roberta(y_sent, y_sent_mask)[2]
+            output = self.roberta(sent, sent_mask)[2]
         else:
             with torch.no_grad():
-                output_x = self.roberta(x_sent, x_sent_mask)[2]
-                output_y = self.roberta(y_sent, y_sent_mask)[2]
+                output = self.roberta(sent, sent_mask)[2]
         
-        output_x = torch.max(torch.stack(output_x[-4:], dim=0), dim=0)[0]
-        output_y = torch.max(torch.stack(output_y[-4:], dim=0), dim=0)[0]
-        if x_sent_pos != None and y_sent_pos != None:
-            pos_x = self.pos_emb(x_sent_pos)
-            pos_y = self.pos_emb(y_sent_pos)
-            output_x = torch.cat([output_x, pos_x], dim=2)
-            output_y = torch.cat([output_y, pos_y], dim=2)
+        output = torch.max(torch.stack(output[-4:], dim=0), dim=0)[0]
+        if sent_pos != None:
+            pos = self.pos_emb(sent_pos)
+            output = torch.cat([output, pos], dim=2)
 
-        output_x = self.drop_out(output_x)
-        output_y = self.drop_out(output_y)
-        output_x, _ = self.lstm(output_x)
-        output_y, _ = self.lstm(output_y)
+        output = self.drop_out(output)
+        output, _ = self.lstm(output)
         # print(output_x.size())
-        output_A = torch.cat([output_x[i, x_position[i], :].unsqueeze(0) for i in range(0, batch_size)])
-        output_B = torch.cat([output_y[i, y_position[i], :].unsqueeze(0) for i in range(0, batch_size)])
+        output_A = torch.cat([output[i, x_position[i], :].unsqueeze(0) for i in range(0, batch_size)])
+        output_B = torch.cat([output[i, y_position[i], :].unsqueeze(0) for i in range(0, batch_size)])
 
-        x, _ = self.s_attn(output_A.unsqueeze(0), output_x.transpose(0,1), output_x.transpose(0,1))
+        x, _ = self.s_attn(output_A.unsqueeze(0), output.transpose(0,1), output.transpose(0,1))
         x = x.squeeze(0)
-        y, _ = self.s_attn(output_B.unsqueeze(0), output_y.transpose(0,1), output_y.transpose(0,1))
+        y, _ = self.s_attn(output_B.unsqueeze(0), output.transpose(0,1), output.transpose(0,1))
         y = y.squeeze(0)
         
         if self.sub and self.mul:

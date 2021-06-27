@@ -135,75 +135,6 @@ def pos_to_id(sent_pos):
     id_pos_sent =  [pos_dict.get(pos) if pos_dict.get(pos) != None else 0 
                     for pos in sent_pos]
     return id_pos_sent
-
-# def make_predictor_input(target, pos_target, position_target, sent_id, ctx, pos_ctx, ctx_id, dropout_rate=0.05):
-#     bs = len(target)
-#     assert len(ctx) == bs and len(sent_id) == bs and len(position_target) == bs, 'Each element must be same batch size'
-#     augm_target = []
-#     augm_target_mask = []
-#     augm_pos_target = []
-#     augm_position = []
-#     for i in range(bs):
-#         if ctx_id != 'warming':
-#             if ctx_id != 'all':
-#                 selected_ctx = [step[i] for step in ctx_id]
-#             else:
-#                 selected_ctx = list(range(len(ctx[i])))
-#             augment, position = augment_target(target[i], sent_id[i], position_target[i], ctx[i], selected_ctx)
-#             pos_augment, pos_position = augment_target(pos_target[i], sent_id[i], position_target[i], pos_ctx[i], selected_ctx)
-#             assert position == pos_position
-#             augment = word_dropout(augment, position, dropout_rate=dropout_rate)
-#             pos_augment = word_dropout(pos_augment, position, is_word=False, dropout_rate=dropout_rate)
-#             pad, mask = padding(augment, max_sent_len=400)
-#             augm_target.append(pad)
-#             augm_target_mask.append(mask)
-#             augm_pos_target.append(padding(pos_augment, pos=True, max_sent_len=400))
-#             augm_position.append(position)
-#         else:
-#             augment = word_dropout(target[i], position_target[i], dropout_rate=dropout_rate)
-#             pos_augment = word_dropout(pos_target[i], position_target[i], is_word=False, dropout_rate=dropout_rate)
-#             pad, mask = padding(augment, max_sent_len=150)
-#             augm_target.append(pad)
-#             augm_target_mask.append(mask)
-#             augm_pos_target.append(padding(pos_augment, pos=True, max_sent_len=150))
-#             augm_position.append(position_target[i])
-
-#     augm_target = torch.tensor(augm_target, dtype=torch.long)
-#     augm_target_mask = torch.tensor(augm_target_mask, dtype=torch.long)
-#     augm_pos_target = torch.tensor(augm_pos_target, dtype=torch.long)
-#     augm_position = torch.tensor(augm_position, dtype=torch.long)
-#     return augm_target, augm_target_mask, augm_pos_target, augm_position
-
-# def augment_target(target, sent_id, pos, ctx, ctx_id):
-#     augment_target = []
-#     # print("target: {}".format(target))
-#     # print("target pos: {}".format(pos))
-#     # print("ctx id: {} ".format(ctx_id))
-#     # print("ctx: {}".format(ctx))
-#     # print("ctx_len: {}".format(len(ctx)))
-#     # print(sent_id)
-#     doc = copy.deepcopy(ctx)
-#     position_target = pos
-#     doc.insert(sent_id, target)
-#     new_ctx_id = []
-#     for id in ctx_id:
-#         if id < sent_id:
-#             new_ctx_id.append(id)
-#         else:
-#             new_ctx_id.append(id + 1)
-
-#     new_ctx_id.append(sent_id)
-#     for id in sorted(new_ctx_id):
-#         if id < sent_id:
-#             augment_target += doc[id][1:]
-#             position_target += len(doc[id][1:])
-#         else:
-#             augment_target += doc[id][1:]
-#     augment_target = [0] + augment_target
-#     assert augment_target[position_target] == target[pos]
-#     # print("augment_target: {}".format(augment_target))
-#     # print("position_target: {}".format(position_target))
-#     return augment_target, position_target
             
 def pad_to_max_ns(ctx_augm_emb):
     max_ns = 0
@@ -221,39 +152,121 @@ def pad_to_max_ns(ctx_augm_emb):
             ctx_augm_emb_paded.append(ctx)
     return ctx_augm_emb_paded
 
-# def augment_ctx(target_sent, target_id, ctx_sent, ctx_id):
-#     if ctx_id < target_id:
-#         augm = ctx_sent + target_sent[1:]
-#     else:
-#         augm = target_sent + ctx_sent[1:]
-#     return augm
-
 def word_dropout(seq_id, position, is_word=True, dropout_rate=0.05):
     if is_word==True:
-        drop_sent = [3 if np.random.rand() < dropout_rate and i != position else seq_id[i] for i in range(len(seq_id))]
+        drop_sent = [3 if np.random.rand() < dropout_rate and i not in position else seq_id[i] for i in range(len(seq_id))]
     if is_word==False:
-        drop_sent = [20 if np.random.rand() < dropout_rate and i != position else seq_id[i] for i in range(len(seq_id))]
+        drop_sent = [20 if np.random.rand() < dropout_rate and i not in position else seq_id[i] for i in range(len(seq_id))]
     # print(drop_sent)
     return drop_sent
 
-def create_target(x_sent, y_sent, x_position, y_position, x_sent_id, y_sent_id):
+def create_target(x_sent, y_sent, x_sent_id, y_sent_id):
     if x_sent_id < y_sent_id:
         sent = x_sent + y_sent[1:]
-        x_position_new = x_position
-        y_position_new = y_position + len(x_sent) - 1 # remove <s>
     elif x_sent_id == y_sent_id:
         assert x_sent == y_sent
         sent = x_sent
-        x_position_new = x_position
-        y_position_new = y_position
     else:
         sent = y_sent + x_sent[1:]
-        y_position_new = y_position
-        x_position_new = x_position + len(y_sent) - 1 # remove <s>
-    
-    assert x_sent[x_position] == sent[x_position_new]
-    assert y_sent[y_position] == sent[y_position_new]
-    
-    return sent, x_position_new, y_position_new
+    return sent
 
+def make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_possition, y_possition, ctx, pos_ctx, ctx_id, doc_id, dropout_rate=0.05):
+    bs = len(x_sent)
+    assert len(ctx) == bs and len(x_sent) == bs and len(x_possition) == bs, 'Each element must be same batch size'
+    augm_target = []
+    augm_target_mask = []
+    augm_pos_target = []
+    x_augm_position = []
+    y_augm_position = []
+    for i in range(bs):
+        if ctx_id == 'all':
+            selected_ctx = list(range(len(ctx[i])))
+        elif ctx_id == 'warming':
+            selected_ctx = []
+        else:
+            selected_ctx = [step[i] for step in ctx_id]
+        augment, x_possition_new, y_possition_new = augment_target(x_sent[i], y_sent[i], x_sent_id[i], y_sent_id[i], x_possition[i], y_possition[i], 
+                                                                ctx[i], selected_ctx, doc_id[i])
+        pos_augment, x_pos_possition_new, y_pos_possition_new = augment_target(x_sent_pos[i], y_sent_pos[i], x_sent_id[i], y_sent_id[i], 
+                                                                            x_possition[i], y_possition[i], pos_ctx[i], selected_ctx, doc_id[i])
+        assert x_possition_new == x_pos_possition_new
+        assert y_possition_new == y_pos_possition_new
+        augment = word_dropout(augment, [x_possition_new, y_possition_new], dropout_rate=dropout_rate)
+        pos_augment = word_dropout(pos_augment, [x_possition_new, y_possition_new], is_word=False, dropout_rate=dropout_rate)
+        pad, mask = padding(augment, max_sent_len=400)
+        augm_target.append(pad)
+        augm_target_mask.append(mask)
+        augm_pos_target.append(padding(pos_augment, pos=True, max_sent_len=400))
+        x_augm_position.append(x_possition_new)
+        y_augm_position.append(y_possition_new)
+
+    augm_target = torch.tensor(augm_target, dtype=torch.long)
+    augm_target_mask = torch.tensor(augm_target_mask, dtype=torch.long)
+    augm_pos_target = torch.tensor(augm_pos_target, dtype=torch.long)
+    x_augm_position = torch.tensor(x_augm_position, dtype=torch.long)
+    y_augm_position = torch.tensor(y_augm_position, dtype=torch.long)
+    return augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position
+
+def augment_target(x_sent, y_sent, x_sent_id, y_sent_id, x_possition, y_possition, ctx, ctx_id, doc_id):
+    id_left = []
+    id_cent = []
+    id_right = []
+    if x_sent_id < y_sent_id:
+        for id in ctx_id:
+            assert doc_id[id] != x_sent_id
+            assert doc_id[id] != y_sent_id
+            if doc_id[id] < x_sent_id:
+                id_left.append(id)
+            elif doc_id[id] > y_sent_id:
+                id_right.append(id)
+            else:
+                id_cent.append(id)
+    elif x_sent_id == y_sent_id:
+        for id in ctx_id:
+            assert doc_id[id] != x_sent_id
+            assert doc_id[id] != y_sent_id
+            assert x_sent == y_sent
+            if doc_id[id] < x_sent_id:
+                id_left.append(id)
+            elif doc_id[id] > x_sent_id:
+                id_right.append(id)
+    else:
+        for id in ctx_id:
+            assert doc_id[id] != x_sent_id
+            assert doc_id[id] != y_sent_id
+            if doc_id[id] < y_sent_id:
+                id_left.append(id)
+            elif doc_id[id] > x_sent_id:
+                id_right.append(id)
+            else:
+                id_cent.append(id)
+    
+    sent_left = []
+    for id in sorted(id_left):
+        sent_left += ctx[id][1:]
+    sent_cent = []
+    for id in sorted(id_cent):
+        sent_cent += ctx[id][1:]
+    sent_right = []
+    for id in sorted(id_right):
+        sent_right += ctx[id][1:]
+    
+    sent = []
+    if x_sent_id < y_sent_id:
+        sent = [0] + sent_left + x_sent[1:] + sent_cent + y_sent[1:] + sent_right
+        x_possition_new = x_possition + len(sent_left)
+        y_possition_new = len(sent_left) + len(x_sent[1:]) + len(sent_cent) + y_possition
+    elif x_sent_id == y_sent_id:
+        sent = [0] + sent_left + x_sent[1:] + sent_right
+        x_possition_new = x_possition + len(sent_left)
+        y_possition_new = y_possition + len(sent_left)
+    else:
+        sent = [0] + sent_left + y_sent[1:] + sent_cent + x_sent[1:] + sent_right
+        y_possition_new = y_possition + len(sent_left)
+        x_possition_new = len(sent_left) + len(y_sent[1:]) + len(sent_cent) + x_possition
+    
+    assert sent[x_possition_new] == x_sent[x_possition]
+    assert sent[y_possition_new] == y_sent[y_possition]
+
+    return sent, x_possition_new, y_possition_new
 
