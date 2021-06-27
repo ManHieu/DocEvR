@@ -45,7 +45,7 @@ def objective(trial: optuna.Trial):
         },
         'num_ctx_select': num_select,
         's_lr': trial.suggest_categorical("s_lr", [5e-6, 1e-5, 5e-5, 1e-4]),
-        'b_lr': trial.suggest_categorical("p_lr", [5e-6]),
+        'b_lr': trial.suggest_categorical("p_lr", [1e-7, 5e-7, 1e-6]),
         'm_lr': trial.suggest_categorical("m_lr", [5e-6, 1e-5, 5e-5, 1e-4]),
         'b_lr_decay_rate': 0.5,
         'word_drop_rate': 0.05,

@@ -76,8 +76,8 @@ class EXP(object):
             ]
         self.optimizer_parameters = self.b_parameters + self.mlp_parameters 
 
-        self.predictor_optim = optim.Adamax(self.optimizer_parameters, weight_decay=weight_decay)
-        self.selector_optim = optim.Adamax(self.selector.parameters(), lr=self.s_lr, weight_decay=weight_decay)
+        self.predictor_optim = optim.Adam(self.optimizer_parameters, weight_decay=weight_decay)
+        self.selector_optim = optim.Adam(self.selector.parameters(), lr=self.s_lr, weight_decay=weight_decay)
 
         self.num_training_steps = len(self.train_dataloader) * (self.train_roberta_epoch + self.warming_epoches)
         self.num_warmup_steps = int(self.warmup_proportion * self.num_training_steps)
