@@ -5,7 +5,7 @@ import random
 import torch
 from itertools import combinations
 from data_loader.reader import i2b2_xml_reader, tbd_tml_reader, tml_reader, tsvx_reader
-from utils.tools import augment_ctx, padding, pos_to_id
+from utils.tools import augment_ctx, create_target, padding, pos_to_id
 from sklearn.model_selection import train_test_split
 from transformers import AutoModel
 import torch.nn as nn
@@ -54,37 +54,31 @@ def loader(dataset, min_ns):
         short_data = []
         eids = my_dict['event_dict'].keys()
         pair_events = list(combinations(eids, 2))
+
+        target_augm = {}
         for pair in pair_events:
             x, y = pair
             
             x_sent_id = my_dict['event_dict'][x]['sent_id']
             y_sent_id = my_dict['event_dict'][y]['sent_id']
-            
-            x_sent = my_dict["sentences"][x_sent_id]["roberta_subword_to_ID"]
-            y_sent = my_dict["sentences"][y_sent_id]["roberta_subword_to_ID"]
-            
-            x_sent_len = len(x_sent)
-            y_sent_len = len(y_sent)
-            
-            x_position = my_dict["event_dict"][x]["roberta_subword_id"]
-            y_position = my_dict["event_dict"][y]["roberta_subword_id"]
-            
-            x_sent_pos = pos_to_id(my_dict["sentences"][x_sent_id]["roberta_subword_pos"])
-            y_sent_pos = pos_to_id(my_dict["sentences"][y_sent_id]["roberta_subword_pos"])
+            ctx_id = list(range(len( my_dict["sentences"])))
+            ctx_id.remove(x_sent_id)
+            ctx_id.remove(y_sent_id)
+            id_augm = [sorted(x_sent_id, y_sent_id, id) for id in ctx_id]
+            # x_sent = my_dict["sentences"][x_sent_id]["roberta_subword_to_ID"]
+            # y_sent = my_dict["sentences"][y_sent_id]["roberta_subword_to_ID"]
+            # x_sent_len = len(x_sent)
+            # y_sent_len = len(y_sent)
+            # x_position = my_dict["event_dict"][x]["roberta_subword_id"]
+            # y_position = my_dict["event_dict"][y]["roberta_subword_id"]
 
-            x_sent_emb = my_dict['sent_encode_dict'][x_sent_id]['ev_sent_emb']
-            x_ctx = my_dict['sent_encode_dict'][x_sent_id]['ev_ctx']
-            x_ctx_augm = my_dict['sent_encode_dict'][x_sent_id]['ev_ctx_augm']
-            x_ctx_augm_emb = my_dict['sent_encode_dict'][x_sent_id]['ev_ctx_augm_emb']
-            x_ctx_pos = my_dict['sent_encode_dict'][x_sent_id]['ev_ctx_pos']
-            x_ctx_len = my_dict['sent_encode_dict'][x_sent_id]['ev_ctx_len']
+            # target_sent, x_position_new, y_position_new = create_target(x_sent, y_sent, x_position, y_position, x_sent_id, y_sent_id)
             
-            y_sent_emb = my_dict['sent_encode_dict'][y_sent_id]['ev_sent_emb']
-            y_ctx = my_dict['sent_encode_dict'][y_sent_id]['ev_ctx']
-            y_ctx_augm = my_dict['sent_encode_dict'][y_sent_id]['ev_ctx_augm']
-            y_ctx_augm_emb = my_dict['sent_encode_dict'][y_sent_id]['ev_ctx_augm_emb']
-            y_ctx_pos = my_dict['sent_encode_dict'][y_sent_id]['ev_ctx_pos']
-            y_ctx_len = my_dict['sent_encode_dict'][y_sent_id]['ev_ctx_len']
+            # x_sent_pos = pos_to_id(my_dict["sentences"][x_sent_id]["roberta_subword_pos"])
+            # y_sent_pos = pos_to_id(my_dict["sentences"][y_sent_id]["roberta_subword_pos"])
+
+            # x_sent_emb = my_dict['sent_encode_dict'][x_sent_id]['ev_sent_emb']
+            # y_sent_emb = my_dict['sent_encode_dict'][y_sent_id]['ev_sent_emb']
             
             xy = my_dict["relation_dict"].get((x, y))
             yx = my_dict["relation_dict"].get((y, x))
