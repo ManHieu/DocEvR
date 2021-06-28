@@ -12,8 +12,7 @@ from torch.utils.data.dataloader import DataLoader
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 from data_loader.loader import loader
 from data_loader.EventDataset import EventDataset
-import pickle
-import os
+import gc
 
 
 def count_parameters(model):
@@ -98,6 +97,12 @@ def objective(trial: optuna.Trial):
             f.write("F1: {} \n".format(F1[i]))
             f.write("CM: \n {} \n".format(CM[i]))
         f.write("Time: {} \n".format(datetime.datetime.now()))
+    
+    del selector
+    del predictor
+    del exp
+    gc.collect()
+
     return matres_F1
 
 

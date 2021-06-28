@@ -6,7 +6,7 @@ import random
 import torch
 from itertools import combinations
 from data_loader.reader import i2b2_xml_reader, tbd_tml_reader, tml_reader, tsvx_reader
-from utils.tools import augment_ctx, create_target, padding, pos_to_id
+from utils.tools import create_target, padding, pos_to_id
 from sklearn.model_selection import train_test_split
 from models.encode_augm_sent_model import SentenceEncoder
 from transformers import AutoModel
@@ -41,9 +41,9 @@ def load_dataset(dir_name, type):
     corpus = []
     i = 0
     for file_name in tqdm.tqdm(onlyfiles):
-        # if i == 5:
-        #     break
-        # i = i + 1
+        if i == 5:
+            break
+        i = i + 1
         if type == 'i2b2_xml':
             if file_name.endswith('.xml'):
                 my_dict = reader.read(dir_name, file_name)
