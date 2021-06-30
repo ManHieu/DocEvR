@@ -55,20 +55,23 @@ class EXP(object):
 
         mlp = ['fc1', 'fc2', 'lstm', 'pos_emb', 's_attn']
         no_decay = ['bias', 'gamma', 'beta']
-        group1=['layer.0.','layer.1.','layer.2.','layer.3.']
-        group2=['layer.4.','layer.5.','layer.6.','layer.7.']
-        group3=['layer.8.','layer.9.','layer.10.','layer.11.']
-        group_all = group1 + group2 + group3 
+        group1=['layer.0.','layer.1.','layer.2.','layer.3.','layer.4.','layer.5.']
+        group2=['layer.6.','layer.7.','layer.8.','layer.9.','layer.10.','layer.11.']
+        group3=['layer.12.','layer.13.','layer.14.','layer.15.','layer.16.','layer.17.']
+        group4=['layer.18.','layer.19.','layer.20.','layer.21.','layer.22.','layer.23.']
+        group_all = group1 + group2 + group3 + group4
         self.b_parameters = [
-            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and not any(nd in n for nd in group_all)],'weight_decay_rate': 0.01, 'lr': self.mlp_lr}, # all params not include bert layers 
-            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group1)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**2)}, # param in group1
-            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group2)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**1)}, # param in group2
-            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group3)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**0)}, # param in group3
+            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and not any(nd in n for nd in group_all)],'weight_decay_rate': 0.01, 'lr': self.b_lr}, # all params not include bert layers 
+            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group1)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**3)}, # param in group1
+            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group2)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**2)}, # param in group2
+            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group3)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**1)}, # param in group3
+            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group4)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**0)}, # param in group4
             # no_decay
-            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and not any(nd in n for nd in group_all)],'weight_decay_rate': 0.00, 'lr': self.mlp_lr}, # all params not include bert layers 
-            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and any(nd in n for nd in group1)],'weight_decay_rate': 0.00, 'lr': self.b_lr*(self.decay_rate**2)}, # param in group1
-            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and any(nd in n for nd in group2)],'weight_decay_rate': 0.00, 'lr': self.b_lr*(self.decay_rate**1)}, # param in group2
-            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and any(nd in n for nd in group3)],'weight_decay_rate': 0.00, 'lr': self.b_lr*(self.decay_rate**0)}, # param in group3
+            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and not any(nd in n for nd in group_all)],'weight_decay_rate': 0.00, 'lr': self.b_lr}, # all params not include bert layers 
+            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and any(nd in n for nd in group1)],'weight_decay_rate': 0.00, 'lr': self.b_lr*(self.decay_rate**3)}, # param in group1
+            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and any(nd in n for nd in group2)],'weight_decay_rate': 0.00, 'lr': self.b_lr*(self.decay_rate**2)}, # param in group2
+            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and any(nd in n for nd in group3)],'weight_decay_rate': 0.00, 'lr': self.b_lr*(self.decay_rate**1)}, # param in group3
+            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and any(nd in n for nd in group4)],'weight_decay_rate': 0.00, 'lr': self.b_lr*(self.decay_rate**0)}, # param in group3
         ]
         self.mlp_parameters = [
             {'params': [p for n, p in self.predictor.named_parameters() if any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay)], 'weight_decay_rate': 0.01, 'lr': self.mlp_lr},
@@ -76,8 +79,8 @@ class EXP(object):
             ]
         self.optimizer_parameters = self.b_parameters + self.mlp_parameters 
 
-        self.predictor_optim = optim.Adam(self.optimizer_parameters, weight_decay=weight_decay)
-        self.selector_optim = optim.Adam(self.selector.parameters(), lr=self.s_lr, weight_decay=weight_decay)
+        self.predictor_optim = optim.AdamW(self.optimizer_parameters, weight_decay=weight_decay)
+        self.selector_optim = optim.AdamW(self.selector.parameters(), lr=self.s_lr, weight_decay=weight_decay)
 
         self.num_training_steps = len(self.train_dataloader) * (self.train_roberta_epoch + self.warming_epoches)
         self.num_warmup_steps = int(self.warmup_proportion * self.num_training_steps)
@@ -94,7 +97,7 @@ class EXP(object):
         def m_lr_lambda(current_step: int):
             return 0.5 ** int(current_step / (2*len(self.train_dataloader)))
         
-        lamd = [linear_lr_lambda] * 8
+        lamd = [linear_lr_lambda] * 10
         mlp_lambda = [m_lr_lambda] * 2
         lamd.extend(mlp_lambda)
 
@@ -312,7 +315,7 @@ class EXP(object):
                     doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_len, ctx_pos, flag, xy = batch
                     
                     self.predictor_optim.zero_grad()                    
-                    augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, 'all', doc_id, dropout_rate=self.word_drop_rate)
+                    augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, 'all', doc_id, dropout_rate=self.word_drop_rate, is_test=True)
                     xy = torch.tensor(xy, dtype=torch.long)
                     flag = torch.tensor(flag, dtype=torch.long)
                     if CUDA:
@@ -347,7 +350,7 @@ class EXP(object):
                 else:
                     print("This case is not implemented at this time!")
                 
-                augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, ctx_selected, doc_id, dropout_rate=self.word_drop_rate)
+                augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, ctx_selected, doc_id, dropout_rate=self.word_drop_rate, is_test=True)
                 xy = torch.tensor(xy, dtype=torch.long)
                 flag = torch.tensor(flag, dtype=torch.long)
                 if CUDA:

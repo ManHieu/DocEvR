@@ -170,7 +170,7 @@ def create_target(x_sent, y_sent, x_sent_id, y_sent_id):
         sent = y_sent + x_sent[1:]
     return sent
 
-def make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_possition, y_possition, ctx, pos_ctx, ctx_id, doc_id, dropout_rate=0.05):
+def make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_possition, y_possition, ctx, pos_ctx, ctx_id, doc_id, dropout_rate=0.05, is_test=False):
     bs = len(x_sent)
     assert len(ctx) == bs and len(x_sent) == bs and len(x_possition) == bs, 'Each element must be same batch size'
     augm_target = []
@@ -191,12 +191,13 @@ def make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_se
                                                                             x_possition[i], y_possition[i], pos_ctx[i], selected_ctx, doc_id[i])
         assert x_possition_new == x_pos_possition_new
         assert y_possition_new == y_pos_possition_new
-        augment = word_dropout(augment, [x_possition_new, y_possition_new], dropout_rate=dropout_rate)
-        pos_augment = word_dropout(pos_augment, [x_possition_new, y_possition_new], is_word=False, dropout_rate=dropout_rate)
-        pad, mask = padding(augment, max_sent_len=400)
+        if is_test == False:
+            augment = word_dropout(augment, [x_possition_new, y_possition_new], dropout_rate=dropout_rate)
+            pos_augment = word_dropout(pos_augment, [x_possition_new, y_possition_new], is_word=False, dropout_rate=dropout_rate)
+        pad, mask = padding(augment, max_sent_len=512)
         augm_target.append(pad)
         augm_target_mask.append(mask)
-        augm_pos_target.append(padding(pos_augment, pos=True, max_sent_len=400))
+        augm_pos_target.append(padding(pos_augment, pos=True, max_sent_len=512))
         x_augm_position.append(x_possition_new)
         y_augm_position.append(y_possition_new)
 
