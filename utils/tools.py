@@ -12,7 +12,7 @@ from utils.constant import *
 from sklearn.metrics import precision_recall_fscore_support
 
 CUDA = torch.cuda.is_available()
-tokenizer = RobertaTokenizer.from_pretrained('roberta-base', unk_token='<unk>')
+tokenizer = RobertaTokenizer.from_pretrained('./tokenizer/roberta-base', unk_token='<unk>')
 nlp = spacy.load("en_core_web_sm")
 
 # Padding function

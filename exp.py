@@ -8,6 +8,7 @@ import time
 from utils.tools import *
 import torch
 import torch.optim as optim
+import gc
 
 
 class EXP(object):
@@ -282,6 +283,12 @@ class EXP(object):
         print("Best confusion matrix: ")
         for cm in self.best_cm:
             print(cm)
+        del self.selector
+        del self.predictor
+        del self.optimizer_parameters
+        del self.selector_optim
+        del self.predictor_optim
+        gc.collect()
 
         return self.best_micro_f1, self.best_cm, self.best_matres
 
