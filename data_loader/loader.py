@@ -1,3 +1,4 @@
+from collections import defaultdict
 import pickle
 from models.encode_augm_sent_model import SentenceEncoder
 import os
@@ -91,11 +92,26 @@ def loader(dataset, min_ns):
             ctx_augm.append(pad)
             ctx_augm_mask.append(mask)
         # print(len(ctx_augm))
-        _augm_emb = sent_encoder(ctx_augm, ctx_augm_mask)
+        _augm_emb = sent_encoder(ctx_augm, ctx_augm_mask)[:, 0]
         _ctx_augm_emb = {}
         for i in range(len(ctx_id_augm)):
             # print(_augm_emb[i].size())
             _ctx_augm_emb[ctx_id_augm[i]] = _augm_emb[i]
+        
+        doc = []
+        doc_mask = []
+        for sent_id in list(range(len( my_dict["sentences"]))):
+            sent = my_dict["sentences"][sent_id]["roberta_subword_to_ID"]
+            pad, mask = padding(sent, max_sent_len=256)
+            doc.append(pad)
+            doc_mask.append(mask)
+        doc_emb = sent_encoder(doc, doc_mask)
+
+        sent_ev = defaultdict(list)
+        for eid in eids:
+            sent_id = my_dict['event_dict'][eid]['sent_id']
+            e_possition = my_dict["event_dict"][eid]["roberta_subword_id"]
+            sent_ev[sent_id].append(e_possition)
         
         for pair in pair_events:
             x, y = pair
@@ -113,13 +129,14 @@ def loader(dataset, min_ns):
             y_sent_pos = pos_to_id(my_dict["sentences"][y_sent_id]["roberta_subword_pos"])
             
             target = create_target(x_sent, y_sent, x_sent_id, y_sent_id)
-            target_emb = sent_encoder(target).squeeze()
+            target_emb = sent_encoder(target).squeeze()[:, 0]
             target_len = len(target)
 
             ctx = []
             ctx_emb = []
             ctx_pos = []
             ctx_len = []
+            ctx_ev_embs = []
             ctx_id = list(range(len( my_dict["sentences"])))
             if  x_sent_id != y_sent_id:
                 ctx_id.remove(x_sent_id)
@@ -136,6 +153,9 @@ def loader(dataset, min_ns):
                     sent_emb = _ctx_augm_emb[tuple(sorted([x_sent_id, y_sent_id, sent_id]))]
                     assert sent_emb != None
                     ctx_emb.append(sent_emb)
+                    eids = sent_ev[sent_id]
+                    ev_embs = doc_emb[sent_id, eids, :] # ne x 768
+                    ctx_ev_embs.append(ev_embs)
                 ctx_emb = torch.stack(ctx_emb, dim=0) # ns x 768
             # print(ctx_emb.size())
 
@@ -144,9 +164,9 @@ def loader(dataset, min_ns):
 
             candidates = [
                 [str(x), str(y), x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, 
-                ctx_id, target, target_emb, target_len, ctx, ctx_emb, ctx_len, ctx_pos, flag, xy],
+                ctx_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, ctx_len, ctx_pos, flag, xy],
                 [str(y), str(x), y_sent, x_sent, y_sent_id, x_sent_id, y_sent_pos, x_sent_pos, y_position, x_position, 
-                ctx_id, target, target_emb, target_len, ctx, ctx_emb, ctx_len, ctx_pos, flag, yx],
+                ctx_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, ctx_len, ctx_pos, flag, yx],
             ]
             for item in candidates:
                 if item[-1] != None:
@@ -169,7 +189,7 @@ def loader(dataset, min_ns):
         test = load_dataset(platinum_dir_name, 'tml')
         train, validate = train_test_split(train + validate, test_size=0.2, train_size=0.8)
         
-        processed_dir = "./datasets/MATRES/docEvR_processed/"
+        processed_dir = "./datasets/MATRES/docEvR_processed_no_augm/"
         if not os.path.exists(processed_dir):
             os.mkdir(processed_dir)
             for my_dict in tqdm.tqdm(train):
@@ -245,7 +265,7 @@ def loader(dataset, min_ns):
         train, validate = train_test_split(train, train_size=0.75, test_size=0.25)
         sample = 0.015
 
-        processed_dir = "./datasets/hievents_v2/docEvR_processed/"
+        processed_dir = "./datasets/hievents_v2/docEvR_processed_no_augm/"
         if not os.path.exists(processed_dir):
             os.mkdir(processed_dir)
             for my_dict in tqdm.tqdm(train):
@@ -340,7 +360,7 @@ def loader(dataset, min_ns):
         corpus = load_dataset(dir_name, 'i2b2_xml')
         train, test = train_test_split(corpus, train_size=0.8, test_size=0.2)
         train, validate = train_test_split(train, train_size=0.75, test_size=0.25)
-        processed_dir = "./datasets/i2b2_2012/docEvR_processed/"
+        processed_dir = "./datasets/i2b2_2012/docEvR_processed_no_augm/"
         if not os.path.exists(processed_dir):
             os.mkdir(processed_dir)
             for my_dict in tqdm.tqdm(train):
@@ -416,7 +436,7 @@ def loader(dataset, min_ns):
         train = load_dataset(train_dir, 'tbd_tml')
         test = load_dataset(test_dir, 'tbd_tml')
         validate = load_dataset(validate_dir, 'tbd_tml')
-        processed_dir = "./datasets/TimeBank-dense/docEvR_processed/"
+        processed_dir = "./datasets/TimeBank-dense/docEvR_processed_no_augm/"
         if not os.path.exists(processed_dir):
             os.mkdir(processed_dir)
             for my_dict in tqdm.tqdm(train):

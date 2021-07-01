@@ -227,7 +227,6 @@ class EXP(object):
                     self.predictor_optim.step()
                     self.scheduler.step()
                     
-
             for step, batch in tqdm.tqdm(enumerate(self.train_dataloader), desc="Training process for long doc", total=len(self.train_dataloader)):
                 x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, \
                 doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_len, ctx_pos, flag, xy = batch

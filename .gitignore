@@ -8,3 +8,5 @@ log
 data_loader/__pycache__
 __pycache__
 datasets/MATRES/docEvR_processed/*
+datasets/MATRES/docEvR_processed_no_augm/*
+./.gitignore
