@@ -48,8 +48,10 @@ def objective(trial: optuna.Trial):
         'm_lr': trial.suggest_categorical("m_lr", [1e-5, 5e-5, 1e-4]),
         'b_lr_decay_rate': trial.suggest_categorical("b_lr_decay_rate", [0.5, 0.6, 0.7, 0.8]),
         'word_drop_rate': 0.05,
-        'task_reward': trial.suggest_categorical('task_reward', ['logit'])
         # trial.suggest_categorical("word_drop_rate", [0.05, 0.01, 0.1])
+        'task_reward': trial.suggest_categorical('task_reward', ['logit']),
+        'perfomance_reward_weight': trial.suggest_float('perfomance_reward_weight', 0.1, 1, step=0.3),
+        'ctx_sim_reward_weight': trial.suggest_float('ctx_sim_reward_weight', 0.1, 1, step=0.3)
     }
 
     num_select = params['num_ctx_select']
@@ -110,7 +112,8 @@ def objective(trial: optuna.Trial):
     exp = EXP(selector, predictor, epoches, params['num_ctx_select'], train_dataloader, validate_dataloaders, test_dataloaders,
             train_short_dataloader, test_short_dataloaders, validate_short_dataloaders, 
             params['s_lr'], params['b_lr'], params['m_lr'], params['b_lr_decay_rate'],  params['epoches'], params['warming_epoch'],
-            best_path, word_drop_rate=params['word_drop_rate'], reward=[params['task_reward']])
+            best_path, word_drop_rate=params['word_drop_rate'], reward=[params['task_reward']], perfomance_reward_weight=params['perfomance_reward_weight'],
+            ctx_sim_reward_weight=params['ctx_sim_reward_weight'])
     F1, CM, matres_F1 = exp.train()
     test_f1 = exp.evaluate(is_test=True)
     print("Result: Best micro F1 of interaction: {}".format(F1))
@@ -158,6 +161,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     seed = args.seed
     datasets = args.dataset
+    print(datasets)
     roberta_type  = args.roberta_type
     best_path = args.best_path
     best_path = [best_path+"selector.pth", best_path+"predictor.pth"]

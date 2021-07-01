@@ -16,7 +16,8 @@ class EXP(object):
                 train_dataloader, validate_dataloaders, test_dataloaders, 
                 train_short_dataloader, test_short_dataloaders, validate_short_dataloaders,
                 s_lr, b_lr, m_lr, decay_rate,  train_lm_epoch, warming_epoch,
-                best_path, warmup_proportion=0.1, weight_decay=0.01, reward=['f1'], word_drop_rate=0.04) -> None:
+                best_path, warmup_proportion=0.1, weight_decay=0.01, reward=['f1'], word_drop_rate=0.04,
+                perfomance_reward_weight=1, ctx_sim_reward_weight=1) -> None:
         super().__init__()
         self.selector = selector
         self.predictor = predictor
@@ -37,6 +38,8 @@ class EXP(object):
             self.f1_reward = True
         if 'logit' in reward:
             self.logit_reward = True
+        self.perfomance_reward_weight = perfomance_reward_weight
+        self.ctx_sim_reward_weight = ctx_sim_reward_weight
 
         self.train_dataloader = train_dataloader
         self.test_dataloaders = list(test_dataloaders.values())
@@ -124,9 +127,23 @@ class EXP(object):
                 reward.append(logit[i][gold[i]].item())
             reward = numpy.array(reward)
             # print(logit)
-            # print(reward)
+            print("perfomance: ", reward)
             return reward - reward.mean()
-
+    
+    def ctx_reward(self, x_emb, y_emb, ctx_embs):
+        reward = []
+        for i in range(len(x_emb)):
+            target_emb = torch.max(torch.stack([x_emb[i], y_emb[i]], dim=0), dim=0)[0]
+            ctx_emb = torch.max(torch.cat(ctx_embs[i], dim=0), dim=0)[0]
+            print(target_emb.size())
+            print(ctx_emb.size())
+            score = torch.matmul(target_emb, ctx_emb).cpu().item()
+            print(score)
+            reward.append(score)
+        reward = numpy.array(reward)
+        print("ctx_sim: ", reward)
+        return reward - reward.mean()
+    
     def train(self):
         start_time = time.time()
         # warming step 
@@ -139,7 +156,7 @@ class EXP(object):
             self.predictor_loss = 0.0
             if self.train_short_dataloader != None:
                 for step, batch in tqdm.tqdm(enumerate(self.train_short_dataloader), desc="Training process for short doc", total=len(self.train_short_dataloader)):
-                    x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, \
+                    x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs,\
                     doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, ctx_len, ctx_pos, flag, xy = batch
                     
                     self.predictor_optim.zero_grad()                    
@@ -162,7 +179,7 @@ class EXP(object):
                     self.scheduler.step()
                     
             for step, batch in tqdm.tqdm(enumerate(self.train_dataloader), desc="Training process for long doc", total=len(self.train_dataloader)):
-                x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, \
+                x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs,\
                 doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, ctx_len, ctx_pos, flag, xy = batch
                 
                 self.predictor_optim.zero_grad()                    
@@ -205,7 +222,7 @@ class EXP(object):
             self.predictor_loss = 0.0
             if self.train_short_dataloader != None:
                 for step, batch in tqdm.tqdm(enumerate(self.train_short_dataloader), desc="Training process for short doc", total=len(self.train_short_dataloader)):
-                    x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, \
+                    x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs,\
                     doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, ctx_len, ctx_pos, flag, xy = batch
                     
                     self.predictor_optim.zero_grad()                    
@@ -228,7 +245,7 @@ class EXP(object):
                     self.scheduler.step()
                     
             for step, batch in tqdm.tqdm(enumerate(self.train_dataloader), desc="Training process for long doc", total=len(self.train_dataloader)):
-                x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, \
+                x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs,\
                 doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, ctx_len, ctx_pos, flag, xy = batch
                 
                 self.selector_optim.zero_grad()
@@ -259,10 +276,11 @@ class EXP(object):
                 logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, augm_pos_target)
                 
                 task_reward = self.task_reward(logits, xy)
+                ctx_sim_reward = self.ctx_reward(x_ev_embs, y_ev_embs, ctx_ev_embs)
                 s_loss = 0.0
                 bs = xy.size(0)
                 for i in range(bs):
-                    s_loss = s_loss - task_reward[i] * log_prob[i]
+                    s_loss = s_loss - (task_reward[i] + ctx_sim_reward[i]) * log_prob[i]
                 self.selector_loss += s_loss.item()
                 self.predictor_loss += p_loss.item()
 
@@ -317,7 +335,7 @@ class EXP(object):
             gold = []
             if short_dataloader != None:
                 for step, batch in tqdm.tqdm(enumerate(short_dataloader), desc="Processing for short doc", total=len(short_dataloader)):
-                    x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, \
+                    x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs,\
                     doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, ctx_len, ctx_pos, flag, xy = batch
                                    
                     augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, 'all', doc_id, dropout_rate=self.word_drop_rate, is_test=True)
@@ -338,7 +356,7 @@ class EXP(object):
                     pred.extend(y_pred)
 
             for step, batch in tqdm.tqdm(enumerate(dataloader), desc="Processing for long doc", total=len(dataloader)):
-                x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, \
+                x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs,\
                 doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, ctx_len, ctx_pos, flag, xy = batch
 
                 if self.is_finetune_selector == False:

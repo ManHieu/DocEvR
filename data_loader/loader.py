@@ -168,7 +168,7 @@ def loader(dataset, min_ns):
             candidates = [
                 [str(x), str(y), x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs,
                 ctx_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, ctx_len, ctx_pos, flag, xy],
-                [str(y), str(x), y_sent, x_sent, y_sent_id, x_sent_id, y_sent_pos, x_sent_pos, y_position, x_position, x_ev_embs, y_ev_embs,
+                [str(y), str(x), y_sent, x_sent, y_sent_id, x_sent_id, y_sent_pos, x_sent_pos, y_position, x_position, y_ev_embs, x_ev_embs,
                 ctx_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, ctx_len, ctx_pos, flag, yx],
             ]
             for item in candidates:
