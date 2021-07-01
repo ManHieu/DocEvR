@@ -320,8 +320,7 @@ class EXP(object):
                 for step, batch in tqdm.tqdm(enumerate(short_dataloader), desc="Processing for short doc", total=len(short_dataloader)):
                     x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, \
                     doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_len, ctx_pos, flag, xy = batch
-                    
-                    self.predictor_optim.zero_grad()                    
+                                   
                     augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, 'all', doc_id, dropout_rate=self.word_drop_rate, is_test=True)
                     xy = torch.tensor(xy, dtype=torch.long)
                     flag = torch.tensor(flag, dtype=torch.long)
@@ -342,9 +341,6 @@ class EXP(object):
             for step, batch in tqdm.tqdm(enumerate(dataloader), desc="Processing for long doc", total=len(dataloader)):
                 x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, \
                 doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_len, ctx_pos, flag, xy = batch
-                
-                self.selector_optim.zero_grad()
-                self.predictor_optim.zero_grad()
 
                 if self.is_finetune_selector == False:
                     target_emb = torch.stack(target_emb, dim=0)
