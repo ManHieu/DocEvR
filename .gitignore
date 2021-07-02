@@ -10,3 +10,4 @@ __pycache__
 datasets/MATRES/docEvR_processed/*
 datasets/MATRES/docEvR_processed_no_augm/*
 ./.gitignore
+datasets/MATRES/docEvR_processed_ctx_sim/

@@ -132,7 +132,7 @@ def loader(dataset, min_ns):
             y_ev_embs = doc_emb[y_sent_id, y_position, :]
             
             target = create_target(x_sent, y_sent, x_sent_id, y_sent_id)
-            target_emb = sent_encoder(target).squeeze()[:, 0]
+            target_emb = sent_encoder(target)[:, 0].squeeze()
             target_len = len(target)
 
             ctx = []
@@ -192,7 +192,7 @@ def loader(dataset, min_ns):
         test = load_dataset(platinum_dir_name, 'tml')
         train, validate = train_test_split(train + validate, test_size=0.2, train_size=0.8)
         
-        processed_dir = "./datasets/MATRES/docEvR_processed_no_augm/"
+        processed_dir = "./datasets/MATRES/docEvR_processed_ctx_sim/"
         if not os.path.exists(processed_dir):
             os.mkdir(processed_dir)
             for my_dict in tqdm.tqdm(train):
@@ -268,7 +268,7 @@ def loader(dataset, min_ns):
         train, validate = train_test_split(train, train_size=0.75, test_size=0.25)
         sample = 0.015
 
-        processed_dir = "./datasets/hievents_v2/docEvR_processed_no_augm/"
+        processed_dir = "./datasets/hievents_v2/docEvR_processed_ctx_sim/"
         if not os.path.exists(processed_dir):
             os.mkdir(processed_dir)
             for my_dict in tqdm.tqdm(train):
@@ -363,7 +363,7 @@ def loader(dataset, min_ns):
         corpus = load_dataset(dir_name, 'i2b2_xml')
         train, test = train_test_split(corpus, train_size=0.8, test_size=0.2)
         train, validate = train_test_split(train, train_size=0.75, test_size=0.25)
-        processed_dir = "./datasets/i2b2_2012/docEvR_processed_no_augm/"
+        processed_dir = "./datasets/i2b2_2012/docEvR_processed_ctx_sim/"
         if not os.path.exists(processed_dir):
             os.mkdir(processed_dir)
             for my_dict in tqdm.tqdm(train):
@@ -439,7 +439,7 @@ def loader(dataset, min_ns):
         train = load_dataset(train_dir, 'tbd_tml')
         test = load_dataset(test_dir, 'tbd_tml')
         validate = load_dataset(validate_dir, 'tbd_tml')
-        processed_dir = "./datasets/TimeBank-dense/docEvR_processed_no_augm/"
+        processed_dir = "./datasets/TimeBank-dense/docEvR_processed_ctx_sim/"
         if not os.path.exists(processed_dir):
             os.mkdir(processed_dir)
             for my_dict in tqdm.tqdm(train):
