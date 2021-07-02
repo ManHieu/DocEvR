@@ -47,8 +47,7 @@ def objective(trial: optuna.Trial):
         'b_lr': trial.suggest_categorical("p_lr", [1e-6, 5e-6, 1e-5]),
         'm_lr': trial.suggest_categorical("m_lr", [1e-5, 5e-5, 1e-4]),
         'b_lr_decay_rate': trial.suggest_categorical("b_lr_decay_rate", [0.5, 0.6, 0.7, 0.8]),
-        'word_drop_rate': 0.05,
-        # trial.suggest_categorical("word_drop_rate", [0.05, 0.01, 0.1])
+        'word_drop_rate': trial.suggest_categorical("word_drop_rate", [0.05, 0.01, 0.1]),
         'task_reward': trial.suggest_categorical('task_reward', ['logit']),
         'perfomance_reward_weight': trial.suggest_float('perfomance_reward_weight', 0.1, 1, step=0.3),
         'ctx_sim_reward_weight': trial.suggest_float('ctx_sim_reward_weight', 0.1, 1, step=0.3)
