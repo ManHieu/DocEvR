@@ -1,5 +1,6 @@
 from collections import defaultdict
 import pickle
+from time import time
 from models.encode_augm_sent_model import SentenceEncoder
 import os
 from utils.constant import CUDA
@@ -228,8 +229,10 @@ def loader(dataset, min_ns):
         else:
             for my_dict in tqdm.tqdm(train):
                 file_name = my_dict["doc_id"] + ".pkl"
+                time1 = time()
                 with open(processed_dir+file_name, 'rb') as f:
                     data = pickle.load(f)
+                print("Time: {}".format(time() - time1))
                 for item in data:
                     if len(item[-4]) >= min_ns:
                         train_set.append(item)
