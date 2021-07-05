@@ -167,6 +167,7 @@ def loader(dataset, min_ns):
             ctx_pos = []
             ctx_len = []
             ctx_ev_embs = []
+            ctx_ev_kg_embs = []
             ctx_id = list(range(len( my_dict["sentences"])))
             num_ev_sents = defaultdict(int)
             if  x_sent_id != y_sent_id:
@@ -186,13 +187,20 @@ def loader(dataset, min_ns):
                     ctx_emb.append(sent_emb)
                     eids = sent_ev[sent_id]
                     num_ev_sents[sent_id] = len(eids)
+                    sent_ev_kg_emb = []
                     if len(eids) != 0:
-                        ev_embs = torch.max(doc_emb[sent_id, eids, :], dim=0)[0] # 1 x 768
+                        ev_embs = torch.max(doc_emb[sent_id, eids, :], dim=0)[0] # 768
                         # print(ev_embs.unsqueeze(0).size())
                         ctx_ev_embs.append(ev_embs)
+                        
+                        sent_ev_kg_emb.append([ev_kg_emb[eid] for eid in eids])
+                        sent_ev_kg_emb = torch.max(torch.tensor(sent_ev_kg_emb, dtype=torch.long), dim=0)[0] # 300
+                        ctx_ev_kg_embs.append(sent_ev_kg_emb)
                     else:
                         # print("Sent no ev")
                         ctx_ev_embs.append(torch.zeros(768))
+                        ctx_ev_kg_embs.append(torch.zeros(300))
+                ctx_ev_kg_embs =torch.stack(ctx_ev_kg_embs, dim=0)
                 ctx_ev_embs = torch.stack(ctx_ev_embs, dim=0)
                 ctx_emb = torch.stack(ctx_emb, dim=0) # ns x 768
             # print(ctx_emb.size())
@@ -201,10 +209,10 @@ def loader(dataset, min_ns):
             yx = my_dict["relation_dict"].get((y, x))
 
             candidates = [
-                [str(x), str(y), x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs,
-                ctx_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_len, ctx_pos, flag, xy],
-                [str(y), str(x), y_sent, x_sent, y_sent_id, x_sent_id, y_sent_pos, x_sent_pos, y_position, x_position, y_ev_embs, x_ev_embs,
-                ctx_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_len, ctx_pos, flag, yx],
+                [str(x), str(y), x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs, x_kg_ev_emb, 
+                y_kg_ev_emb, ctx_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_ev_kg_embs, ctx_len, ctx_pos, flag, xy],
+                [str(y), str(x), y_sent, x_sent, y_sent_id, x_sent_id, y_sent_pos, x_sent_pos, y_position, x_position, y_ev_embs, x_ev_embs, y_kg_ev_emb,
+                x_kg_ev_emb, ctx_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_ev_kg_embs, ctx_len, ctx_pos, flag, yx],
             ]
             for item in candidates:
                 if item[-1] != None:
