@@ -32,6 +32,23 @@ class Reader(object):
         else:
             raise ValueError("We have not supported {} type yet!".format(self.type))
 
+
+class C2V(object):
+    def __init__(self, emb_file) -> None:
+        super().__init__()
+        with open(emb_file, 'r', encoding='UTF-8') as f:
+            lines = f.readlines()
+        self.c2v = {}
+        for line in lines:
+            tokens = line.split(" ")
+            concept = tokens[0]
+            emb = [float(tok) for tok in tokens[1:]]
+            self.c2v[concept] = emb 
+
+    def get_emb(self, concept):
+        return self.c2v[concept]
+
+
 def load_dataset(dir_name, type):
     reader = Reader(type)
     onlyfiles = [f for f in os.listdir(dir_name) if os.path.isfile(os.path.join(dir_name, f))]
@@ -55,6 +72,7 @@ def load_dataset(dir_name, type):
 
 def loader(dataset, min_ns):
     sent_encoder = SentenceEncoder('roberta-base')
+    c2v = C2V()
     if CUDA:
         sent_encoder = sent_encoder.cuda()
     def get_data_point(my_dict, flag):
@@ -109,10 +127,14 @@ def loader(dataset, min_ns):
         doc_emb = sent_encoder(doc, doc_mask)
 
         sent_ev = defaultdict(list)
+        ev_kg_emb = {}
         for eid in eids:
             sent_id = my_dict['event_dict'][eid]['sent_id']
             e_possition = my_dict["event_dict"][eid]["roberta_subword_id"]
             sent_ev[sent_id].append(e_possition)
+            mention = my_dict["event_dict"][eid]["mention"]
+            kg_emb = c2v.get_emb(mention)
+            ev_kg_emb[eid] = kg_emb
         
         for pair in pair_events:
             x, y = pair
@@ -136,6 +158,9 @@ def loader(dataset, min_ns):
 
             x_ev_embs = target_encode[:, x_position_new].squeeze()
             y_ev_embs = target_encode[:, y_position_new].squeeze()
+
+            x_kg_ev_emb = ev_kg_emb[x]
+            y_kg_ev_emb = ev_kg_emb[y]
 
             ctx = []
             ctx_emb = []
