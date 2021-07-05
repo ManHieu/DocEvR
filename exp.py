@@ -111,6 +111,7 @@ class EXP(object):
         self.best_micro_f1 = [0.0]*len(self.test_dataloaders)
         self.sum_f1 = 0.0
         self.best_matres = 0.0
+        self.best_f1_test = 0.0
         self.best_cm = [None]*len(self.test_dataloaders)
         self.best_path_selector = best_path[0]
         self.best_path_predictor = best_path[1]
@@ -131,17 +132,18 @@ class EXP(object):
             # print("perfomance: ", reward)
             return reward - reward.mean()
     
-    def ctx_reward(self, x_emb, y_emb, ctx_ev_embs, ctx_selected, ctx_embs):
+    def ctx_reward(self, x_emb, y_emb, ctx_ev_embs, ctx_selected, ctx_embs, num_evs):
         reward = []
         selected = torch.stack(ctx_selected, dim=1)
         assert len(ctx_selected) == selected.size(1)
         for i in range(len(x_emb)):
             ids = selected[i]
+            num = 0
             embs = []
             for id in ids:
-                if ctx_ev_embs[i][id].size(0) != 0:
-                    embs.append(ctx_ev_embs[i][id])
-            if len(embs) != 0:
+                num = num + num_evs[i][id]
+                embs.append(ctx_ev_embs[i][id])
+            if num != 0:
                 _ctx_emb = torch.max(torch.cat(embs, dim=0), dim=0)[0]
             else:
                 # print(ctx_embs[i][ids, :].size())
@@ -167,7 +169,7 @@ class EXP(object):
             if self.train_short_dataloader != None:
                 for step, batch in tqdm.tqdm(enumerate(self.train_short_dataloader), desc="Training process for short doc", total=len(self.train_short_dataloader)):
                     x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs,\
-                    doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, ctx_len, ctx_pos, flag, xy = batch
+                    doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_len, ctx_pos, flag, xy = batch
                     
                     self.predictor_optim.zero_grad()                    
                     augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, 'warming', doc_id, dropout_rate=self.word_drop_rate)
@@ -190,7 +192,7 @@ class EXP(object):
                     
             for step, batch in tqdm.tqdm(enumerate(self.train_dataloader), desc="Training process for long doc", total=len(self.train_dataloader)):
                 x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs,\
-                doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, ctx_len, ctx_pos, flag, xy = batch
+                doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_len, ctx_pos, flag, xy = batch
                 
                 self.predictor_optim.zero_grad()                    
                 augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, 'warming', doc_id, dropout_rate=self.word_drop_rate)
@@ -233,7 +235,7 @@ class EXP(object):
             if self.train_short_dataloader != None:
                 for step, batch in tqdm.tqdm(enumerate(self.train_short_dataloader), desc="Training process for short doc", total=len(self.train_short_dataloader)):
                     x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs,\
-                    doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, ctx_len, ctx_pos, flag, xy = batch
+                    doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_len, ctx_pos, flag, xy = batch
                     
                     self.predictor_optim.zero_grad()                    
                     augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, 'all', doc_id, dropout_rate=self.word_drop_rate)
@@ -256,7 +258,7 @@ class EXP(object):
                     
             for step, batch in tqdm.tqdm(enumerate(self.train_dataloader), desc="Training process for long doc", total=len(self.train_dataloader)):
                 x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs,\
-                doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, ctx_len, ctx_pos, flag, xy = batch
+                doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_len, ctx_pos, flag, xy = batch
                 
                 self.selector_optim.zero_grad()
                 self.predictor_optim.zero_grad()
@@ -286,7 +288,7 @@ class EXP(object):
                 logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, augm_pos_target)
                 
                 task_reward = self.task_reward(logits, xy)
-                ctx_sim_reward = self.ctx_reward(x_ev_embs, y_ev_embs, ctx_ev_embs, ctx_selected, ctx_emb)
+                ctx_sim_reward = self.ctx_reward(x_ev_embs, y_ev_embs, ctx_ev_embs, ctx_selected, ctx_emb, num_ev_sents)
                 # print("task: {}".format(task_reward))
                 # print("ctx: {}".format(ctx_sim_reward))
                 s_loss = 0.0
@@ -305,6 +307,7 @@ class EXP(object):
             epoch_training_time = format_time(time.time() - t0)
             print("Total training loss: {} - {}".format(self.selector_loss, self.predictor_loss))
             self.evaluate()
+            self.evaluate(is_test=True)
         
         print("Training complete!")
         print("Total training took {:} (h:mm:ss)".format(format_time(time.time()-start_time)))
@@ -319,7 +322,7 @@ class EXP(object):
         del self.predictor_optim
         gc.collect()
 
-        return self.best_micro_f1, self.best_cm, self.best_matres
+        return self.best_micro_f1, self.best_cm, self.best_matres, self.best_f1_test
 
     def evaluate(self, is_test=False):
         F1s = []
@@ -332,8 +335,8 @@ class EXP(object):
             if is_test:
                 dataloader = self.test_dataloaders[i]
                 short_dataloader = self.test_short_dataloaders[i]
-                self.selector = torch.load(self.best_path_selector)
-                self.predictor = torch.load(self.best_path_predictor)
+                # self.selector = torch.load(self.best_path_selector)
+                # self.predictor = torch.load(self.best_path_predictor)
                 print("Testset and best model was loaded!")
                 print("Running on testset ..........")
             else:
@@ -348,7 +351,7 @@ class EXP(object):
             if short_dataloader != None:
                 for step, batch in tqdm.tqdm(enumerate(short_dataloader), desc="Processing for short doc", total=len(short_dataloader)):
                     x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs,\
-                    doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, ctx_len, ctx_pos, flag, xy = batch
+                    doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_len, ctx_pos, flag, xy = batch
                                    
                     augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, 'all', doc_id, dropout_rate=self.word_drop_rate, is_test=True)
                     xy = torch.tensor(xy, dtype=torch.long)
@@ -369,7 +372,7 @@ class EXP(object):
 
             for step, batch in tqdm.tqdm(enumerate(dataloader), desc="Processing for long doc", total=len(dataloader)):
                 x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs,\
-                doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, ctx_len, ctx_pos, flag, xy = batch
+                doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_len, ctx_pos, flag, xy = batch
 
                 if self.is_finetune_selector == False:
                     target_emb = torch.stack(target_emb, dim=0)
@@ -431,4 +434,7 @@ class EXP(object):
                 self.best_matres = best_f1_mastres
                 torch.save(self.selector, self.best_path_selector)
                 torch.save(self.predictor, self.best_path_predictor)
+        else:
+            if self.best_f1_test < F1:
+                self.best_f1_test = F1
         return F1s

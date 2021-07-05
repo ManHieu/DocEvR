@@ -38,7 +38,7 @@ def load_dataset(dir_name, type):
     corpus = []
     i = 0
     for file_name in tqdm.tqdm(onlyfiles):
-        # if i == 5:
+        # if i == 3:
         #     break
         # i = i + 1
         if type == 'i2b2_xml':
@@ -142,6 +142,7 @@ def loader(dataset, min_ns):
             ctx_len = []
             ctx_ev_embs = []
             ctx_id = list(range(len( my_dict["sentences"])))
+            num_ev_sents = defaultdict(int)
             if  x_sent_id != y_sent_id:
                 ctx_id.remove(x_sent_id)
                 ctx_id.remove(y_sent_id)
@@ -158,8 +159,15 @@ def loader(dataset, min_ns):
                     assert sent_emb != None
                     ctx_emb.append(sent_emb)
                     eids = sent_ev[sent_id]
-                    ev_embs = doc_emb[sent_id, eids, :] # ne x 768
-                    ctx_ev_embs.append(ev_embs)
+                    num_ev_sents[sent_id] = len(eids)
+                    if len(eids) != 0:
+                        ev_embs = torch.max(doc_emb[sent_id, eids, :], dim=0)[0] # 1 x 768
+                        # print(ev_embs.unsqueeze(0).size())
+                        ctx_ev_embs.append(ev_embs)
+                    else:
+                        # print("Sent no ev")
+                        ctx_ev_embs.append(torch.zeros(768))
+                ctx_ev_embs = torch.stack(ctx_ev_embs, dim=0)
                 ctx_emb = torch.stack(ctx_emb, dim=0) # ns x 768
             # print(ctx_emb.size())
 
@@ -168,9 +176,9 @@ def loader(dataset, min_ns):
 
             candidates = [
                 [str(x), str(y), x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs,
-                ctx_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, ctx_len, ctx_pos, flag, xy],
+                ctx_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_len, ctx_pos, flag, xy],
                 [str(y), str(x), y_sent, x_sent, y_sent_id, x_sent_id, y_sent_pos, x_sent_pos, y_position, x_position, y_ev_embs, x_ev_embs,
-                ctx_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, ctx_len, ctx_pos, flag, yx],
+                ctx_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_len, ctx_pos, flag, yx],
             ]
             for item in candidates:
                 if item[-1] != None:
@@ -229,10 +237,10 @@ def loader(dataset, min_ns):
         else:
             for my_dict in tqdm.tqdm(train):
                 file_name = my_dict["doc_id"] + ".pkl"
-                time1 = time()
+                # time1 = time()
                 with open(processed_dir+file_name, 'rb') as f:
                     data = pickle.load(f)
-                print("Time: {}".format(time() - time1))
+                # print("Time: {}".format(time() - time1))
                 for item in data:
                     if len(item[-4]) >= min_ns:
                         train_set.append(item)

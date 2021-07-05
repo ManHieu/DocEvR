@@ -113,8 +113,8 @@ def objective(trial: optuna.Trial):
             params['s_lr'], params['b_lr'], params['m_lr'], params['b_lr_decay_rate'],  params['epoches'], params['warming_epoch'],
             best_path, word_drop_rate=params['word_drop_rate'], reward=[params['task_reward']], perfomance_reward_weight=params['perfomance_reward_weight'],
             ctx_sim_reward_weight=params['ctx_sim_reward_weight'])
-    F1, CM, matres_F1 = exp.train()
-    test_f1 = exp.evaluate(is_test=True)
+    F1, CM, matres_F1, test_f1 = exp.train()
+    # test_f1 = exp.evaluate(is_test=True)
     print("Result: Best micro F1 of interaction: {}".format(F1))
     with open(result_file, 'a', encoding='UTF-8') as f:
         f.write("\n -------------------------------------------- \n")
