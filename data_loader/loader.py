@@ -128,13 +128,14 @@ def loader(dataset, min_ns):
 
             x_sent_pos = pos_to_id(my_dict["sentences"][x_sent_id]["roberta_subword_pos"])
             y_sent_pos = pos_to_id(my_dict["sentences"][y_sent_id]["roberta_subword_pos"])
-
-            x_ev_embs = doc_emb[x_sent_id, x_position, :]
-            y_ev_embs = doc_emb[y_sent_id, y_position, :]
             
-            target = create_target(x_sent, y_sent, x_sent_id, y_sent_id)
-            target_emb = sent_encoder(target)[:, 0].squeeze()
+            target, x_position_new, y_position_new = create_target(x_sent, y_sent, x_sent_id, y_sent_id, x_position, y_position)
+            target_encode = sent_encoder(target)
+            target_emb = target_encode[:, 0].squeeze()
             target_len = len(target)
+
+            x_ev_embs = target_encode[:, x_position_new].squeeze()
+            y_ev_embs = target_encode[:, y_position_new].squeeze()
 
             ctx = []
             ctx_emb = []

@@ -160,15 +160,27 @@ def word_dropout(seq_id, position, is_word=True, dropout_rate=0.05):
     # print(drop_sent)
     return drop_sent
 
-def create_target(x_sent, y_sent, x_sent_id, y_sent_id):
+def create_target(x_sent, y_sent, x_sent_id, y_sent_id, x_position, y_position):
     if x_sent_id < y_sent_id:
         sent = x_sent + y_sent[1:]
+        y_position_new = y_position + len(x_sent) - 1
+        x_position_new = x_position
+        assert y_sent[y_position] == sent[y_position_new]
+        assert x_sent[x_position] == sent[x_position_new]
     elif x_sent_id == y_sent_id:
         assert x_sent == y_sent
         sent = x_sent
+        x_position_new = x_position
+        y_position_new = y_position
+        assert y_sent[y_position] == sent[y_position_new]
+        assert x_sent[x_position] == sent[x_position_new]
     else:
         sent = y_sent + x_sent[1:]
-    return sent
+        y_position_new = y_position
+        x_position_new = x_position + len(y_sent) - 1
+        assert y_sent[y_position] == sent[y_position_new]
+        assert x_sent[x_position] == sent[x_position_new]
+    return sent, x_position_new, y_position_new
 
 def make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_possition, y_possition, ctx, pos_ctx, ctx_id, doc_id, dropout_rate=0.05, is_test=False):
     bs = len(x_sent)
