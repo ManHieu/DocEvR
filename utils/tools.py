@@ -213,11 +213,11 @@ def make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_se
         x_augm_position.append(x_possition_new)
         y_augm_position.append(y_possition_new)
 
-    augm_target = torch.tensor(augm_target, dtype=torch.long)
-    augm_target_mask = torch.tensor(augm_target_mask, dtype=torch.long)
-    augm_pos_target = torch.tensor(augm_pos_target, dtype=torch.long)
-    x_augm_position = torch.tensor(x_augm_position, dtype=torch.long)
-    y_augm_position = torch.tensor(y_augm_position, dtype=torch.long)
+    augm_target = torch.tensor(augm_target)
+    augm_target_mask = torch.tensor(augm_target_mask)
+    augm_pos_target = torch.tensor(augm_pos_target)
+    x_augm_position = torch.tensor(x_augm_position)
+    y_augm_position = torch.tensor(y_augm_position)
     return augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position
 
 def augment_target(x_sent, y_sent, x_sent_id, y_sent_id, x_possition, y_possition, ctx, ctx_id, doc_id):

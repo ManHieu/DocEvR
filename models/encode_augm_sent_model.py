@@ -17,11 +17,11 @@ class SentenceEncoder(nn.Module):
             self.encoder = AutoModel.from_pretrained(roberta_type, output_hidden_states=True)
     
     def forward(self, sentence, mask=None):
-        sentence = torch.tensor(sentence, dtype=torch.long)
+        sentence = torch.tensor(sentence)
         if len(sentence.size()) == 1:
             sentence = sentence.unsqueeze(0)
         if mask != None:
-            mask = torch.tensor(mask, dtype=torch.long)
+            mask = torch.tensor(mask)
             if len(mask.size()) == 1:
                 mask = mask.unsqueeze(0)
         if sentence.size(0) <= 1200:

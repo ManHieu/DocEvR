@@ -1,4 +1,5 @@
 from collections import defaultdict
+import json
 import pickle
 from time import time
 from models.encode_augm_sent_model import SentenceEncoder
@@ -34,7 +35,7 @@ class Reader(object):
 
 
 class C2V(object):
-    def __init__(self, emb_file) -> None:
+    def __init__(self, emb_file:str) -> None:
         super().__init__()
         with open(emb_file, 'r', encoding='UTF-8') as f:
             lines = f.readlines()
@@ -43,10 +44,15 @@ class C2V(object):
             tokens = line.split(" ")
             concept = tokens[0]
             emb = [float(tok) for tok in tokens[1:]]
-            self.c2v[concept] = emb 
+            self.c2v[concept] = emb
 
     def get_emb(self, concept):
-        return self.c2v[concept]
+        cp = "_".join(concept.split(" ")).lower()
+        # print(cp)
+        try:
+            return self.c2v[concept]
+        except:
+            return [0]*300
 
 
 def load_dataset(dir_name, type):
@@ -71,10 +77,6 @@ def load_dataset(dir_name, type):
 
 
 def loader(dataset, min_ns):
-    sent_encoder = SentenceEncoder('roberta-base')
-    c2v = C2V()
-    if CUDA:
-        sent_encoder = sent_encoder.cuda()
     def get_data_point(my_dict, flag):
         data = []
         eids = my_dict['event_dict'].keys()
@@ -127,14 +129,21 @@ def loader(dataset, min_ns):
         doc_emb = sent_encoder(doc, doc_mask)
 
         sent_ev = defaultdict(list)
+        sent_ev_ids = defaultdict(list)
         ev_kg_emb = {}
+        # print(eids)
         for eid in eids:
             sent_id = my_dict['event_dict'][eid]['sent_id']
             e_possition = my_dict["event_dict"][eid]["roberta_subword_id"]
             sent_ev[sent_id].append(e_possition)
-            mention = my_dict["event_dict"][eid]["mention"]
+            sent_ev_ids[sent_id].append(eid)
+            mention = my_dict["event_dict"][eid]["mention"] ######
+            # print(mention)
             kg_emb = c2v.get_emb(mention)
+            # print(kg_emb)
             ev_kg_emb[eid] = kg_emb
+        
+        # print(ev_kg_emb)
         
         for pair in pair_events:
             x, y = pair
@@ -159,8 +168,9 @@ def loader(dataset, min_ns):
             x_ev_embs = target_encode[:, x_position_new].squeeze()
             y_ev_embs = target_encode[:, y_position_new].squeeze()
 
-            x_kg_ev_emb = ev_kg_emb[x]
-            y_kg_ev_emb = ev_kg_emb[y]
+            x_kg_ev_emb = torch.tensor(ev_kg_emb[x])
+            y_kg_ev_emb = torch.tensor(ev_kg_emb[y])
+            # print(x_kg_ev_emb)
 
             ctx = []
             ctx_emb = []
@@ -169,7 +179,7 @@ def loader(dataset, min_ns):
             ctx_ev_embs = []
             ctx_ev_kg_embs = []
             ctx_id = list(range(len( my_dict["sentences"])))
-            num_ev_sents = defaultdict(int)
+            num_ev_sents = []
             if  x_sent_id != y_sent_id:
                 ctx_id.remove(x_sent_id)
                 ctx_id.remove(y_sent_id)
@@ -185,21 +195,27 @@ def loader(dataset, min_ns):
                     sent_emb = _ctx_augm_emb[tuple(sorted([x_sent_id, y_sent_id, sent_id]))]
                     assert sent_emb != None
                     ctx_emb.append(sent_emb)
-                    eids = sent_ev[sent_id]
-                    num_ev_sents[sent_id] = len(eids)
-                    sent_ev_kg_emb = []
-                    if len(eids) != 0:
-                        ev_embs = torch.max(doc_emb[sent_id, eids, :], dim=0)[0] # 768
+                    e_possitions = sent_ev[sent_id]
+                    num_ev_sents.append(len(e_possitions))
+                    if len(e_possitions) != 0:
+                        ev_embs = torch.max(doc_emb[sent_id, e_possitions, :], dim=0)[0] # 768
                         # print(ev_embs.unsqueeze(0).size())
                         ctx_ev_embs.append(ev_embs)
-                        
-                        sent_ev_kg_emb.append([ev_kg_emb[eid] for eid in eids])
-                        sent_ev_kg_emb = torch.max(torch.tensor(sent_ev_kg_emb, dtype=torch.long), dim=0)[0] # 300
+
+                    eids = sent_ev_ids[sent_id]
+                    # print(eids)
+                    if len(eids) != 0:
+                        sent_ev_kg_emb = [ev_kg_emb[eid] for eid in eids]
+                        # print(sent_ev_kg_emb)
+                        # print("before: ", torch.tensor(sent_ev_kg_emb))
+                        sent_ev_kg_emb = torch.max(torch.tensor(sent_ev_kg_emb), dim=0)[0] # 300
+                        # print("max: ", sent_ev_kg_emb)
                         ctx_ev_kg_embs.append(sent_ev_kg_emb)
                     else:
                         # print("Sent no ev")
-                        ctx_ev_embs.append(torch.zeros(768))
-                        ctx_ev_kg_embs.append(torch.zeros(300))
+                        ctx_ev_embs.append(torch.ones(768)*-1000.0)
+                        ctx_ev_kg_embs.append(torch.ones(300)*-1000.0)
+                # print(ctx_ev_kg_embs)
                 ctx_ev_kg_embs =torch.stack(ctx_ev_kg_embs, dim=0)
                 ctx_ev_embs = torch.stack(ctx_ev_embs, dim=0)
                 ctx_emb = torch.stack(ctx_emb, dim=0) # ns x 768
@@ -235,8 +251,12 @@ def loader(dataset, min_ns):
         test = load_dataset(platinum_dir_name, 'tml')
         train, validate = train_test_split(train + validate, test_size=0.2, train_size=0.8)
         
-        processed_dir = "./datasets/MATRES/docEvR_processed_ctx_sim/"
+        processed_dir = "./datasets/MATRES/docEvR_processed_kg/"
         if not os.path.exists(processed_dir):
+            sent_encoder = SentenceEncoder('roberta-base')
+            c2v = C2V('./datasets/numberbatch-en-19.08.txt')
+            if CUDA:
+                sent_encoder = sent_encoder.cuda()
             os.mkdir(processed_dir)
             for my_dict in tqdm.tqdm(train):
                 data = get_data_point(my_dict, 2)
@@ -313,8 +333,12 @@ def loader(dataset, min_ns):
         train, validate = train_test_split(train, train_size=0.75, test_size=0.25)
         sample = 0.015
 
-        processed_dir = "./datasets/hievents_v2/docEvR_processed_ctx_sim/"
+        processed_dir = "./datasets/hievents_v2/docEvR_processed_kg/"
         if not os.path.exists(processed_dir):
+            sent_encoder = SentenceEncoder('roberta-base')
+            c2v = C2V('./datasets/numberbatch-en-19.08.txt')
+            if CUDA:
+                sent_encoder = sent_encoder.cuda()
             os.mkdir(processed_dir)
             for my_dict in tqdm.tqdm(train):
                 data = get_data_point(my_dict, 1)
@@ -408,8 +432,12 @@ def loader(dataset, min_ns):
         corpus = load_dataset(dir_name, 'i2b2_xml')
         train, test = train_test_split(corpus, train_size=0.8, test_size=0.2)
         train, validate = train_test_split(train, train_size=0.75, test_size=0.25)
-        processed_dir = "./datasets/i2b2_2012/docEvR_processed_ctx_sim/"
+        processed_dir = "./datasets/i2b2_2012/docEvR_processed_kg/"
         if not os.path.exists(processed_dir):
+            sent_encoder = SentenceEncoder('roberta-base')
+            c2v = C2V('./datasets/numberbatch-en-19.08.txt')
+            if CUDA:
+                sent_encoder = sent_encoder.cuda()
             os.mkdir(processed_dir)
             for my_dict in tqdm.tqdm(train):
                 data = get_data_point(my_dict, 2)
@@ -484,8 +512,12 @@ def loader(dataset, min_ns):
         train = load_dataset(train_dir, 'tbd_tml')
         test = load_dataset(test_dir, 'tbd_tml')
         validate = load_dataset(validate_dir, 'tbd_tml')
-        processed_dir = "./datasets/TimeBank-dense/docEvR_processed_ctx_sim/"
+        processed_dir = "./datasets/TimeBank-dense/docEvR_processed_kg/"
         if not os.path.exists(processed_dir):
+            sent_encoder = SentenceEncoder('roberta-base')
+            c2v = C2V('./datasets/numberbatch-en-19.08.txt')
+            if CUDA:
+                sent_encoder = sent_encoder.cuda()
             os.mkdir(processed_dir)
             for my_dict in tqdm.tqdm(train):
                 data = get_data_point(my_dict, 2)
@@ -551,8 +583,10 @@ def loader(dataset, min_ns):
         print("Train_size: {}".format(len(train_short)))
         print("Test_size: {}".format(len(test_short)))
         print("Validate_size: {}".format(len(validate_short)))
-
-    del sent_encoder
-    gc.collect()
+    try:
+        del sent_encoder
+        gc.collect()
+    except:
+        pass
     return train_set, test_set, validate_set, train_short, test_short, validate_short
         

@@ -18,7 +18,7 @@ class EXP(object):
                 train_short_dataloader, test_short_dataloaders, validate_short_dataloaders,
                 s_lr, b_lr, m_lr, decay_rate,  train_lm_epoch, warming_epoch,
                 best_path, warmup_proportion=0.1, weight_decay=0.01, reward=['f1'], word_drop_rate=0.04,
-                perfomance_reward_weight=1, ctx_sim_reward_weight=1) -> None:
+                perfomance_reward_weight=1, ctx_sim_reward_weight=1, kg_reward_weight=1) -> None:
         super().__init__()
         self.selector = selector
         self.predictor = predictor
@@ -41,6 +41,7 @@ class EXP(object):
             self.logit_reward = True
         self.perfomance_reward_weight = perfomance_reward_weight
         self.ctx_sim_reward_weight = ctx_sim_reward_weight
+        self.kg_reward_weight = kg_reward_weight
 
         self.train_dataloader = train_dataloader
         self.test_dataloaders = list(test_dataloaders.values())
@@ -141,10 +142,13 @@ class EXP(object):
             num = 0
             embs = []
             for id in ids:
+                id = id.cpu().item()
                 num = num + num_evs[i][id]
                 embs.append(ctx_ev_embs[i][id])
             if num != 0:
-                _ctx_emb = torch.max(torch.cat(embs, dim=0), dim=0)[0]
+                # print(torch.stack(embs, dim=0).size())
+                _ctx_emb = torch.max(torch.stack(embs, dim=0), dim=0)[0]
+                # print(_ctx_emb)
             else:
                 # print(ctx_embs[i][ids, :].size())
                 _ctx_emb = torch.max(ctx_embs[i][ids, :].cpu(), dim=0)[0]
@@ -154,6 +158,31 @@ class EXP(object):
             reward.append(score)
         reward = numpy.array(reward)
         # print("ctx_sim: ", reward)
+        return reward - reward.mean()
+    
+    def kg_reward(self, x_emb, y_emb, ctx_ev_embs, ctx_selected, num_evs):
+        reward = []
+        selected = torch.stack(ctx_selected, dim=1)
+        assert len(ctx_selected) == selected.size(1)
+        # print(ctx_ev_embs)
+        for i in range(len(x_emb)):
+            ids = selected[i]
+            num = 0
+            embs = []
+            # print(num_evs[i])
+            for id in ids:
+                num = num + num_evs[i][id]
+                embs.append(ctx_ev_embs[i][id])
+            if num != 0:
+                _ctx_emb = torch.max(torch.stack(embs, dim=0), dim=0)[0]
+                # print(_ctx_emb)
+                target_emb = torch.max(torch.stack([x_emb[i], y_emb[i]], dim=0), dim=0)[0]
+                # print(target_emb)
+                score = torch.matmul(target_emb, _ctx_emb).cpu().item()
+            else:
+                score = 0.0
+            reward.append(score)
+        reward = numpy.array(reward)
         return reward - reward.mean()
     
     def train(self):
@@ -168,13 +197,13 @@ class EXP(object):
             self.predictor_loss = 0.0
             if self.train_short_dataloader != None:
                 for step, batch in tqdm.tqdm(enumerate(self.train_short_dataloader), desc="Training process for short doc", total=len(self.train_short_dataloader)):
-                    x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs,\
-                    doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_len, ctx_pos, flag, xy = batch
+                    x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs, x_kg_ev_emb, \
+                    y_kg_ev_emb, doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_ev_kg_embs, ctx_len, ctx_pos, flag, xy = batch
                     
                     self.predictor_optim.zero_grad()                    
                     augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, 'warming', doc_id, dropout_rate=self.word_drop_rate)
-                    xy = torch.tensor(xy, dtype=torch.long)
-                    flag = torch.tensor(flag, dtype=torch.long)
+                    xy = torch.tensor(xy)
+                    flag = torch.tensor(flag)
                     if CUDA:
                         augm_target = augm_target.cuda() 
                         augm_target_mask = augm_target_mask.cuda()
@@ -191,13 +220,13 @@ class EXP(object):
                     self.scheduler.step()
                     
             for step, batch in tqdm.tqdm(enumerate(self.train_dataloader), desc="Training process for long doc", total=len(self.train_dataloader)):
-                x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs,\
-                doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_len, ctx_pos, flag, xy = batch
+                x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs, x_kg_ev_emb, \
+                y_kg_ev_emb, doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_ev_kg_embs, ctx_len, ctx_pos, flag, xy = batch
                 
                 self.predictor_optim.zero_grad()                    
                 augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, 'warming', doc_id, dropout_rate=self.word_drop_rate)
-                xy = torch.tensor(xy, dtype=torch.long)
-                flag = torch.tensor(flag, dtype=torch.long)
+                xy = torch.tensor(xy)
+                flag = torch.tensor(flag)
                 if CUDA:
                     augm_target = augm_target.cuda() 
                     augm_target_mask = augm_target_mask.cuda()
@@ -234,13 +263,13 @@ class EXP(object):
             self.predictor_loss = 0.0
             if self.train_short_dataloader != None:
                 for step, batch in tqdm.tqdm(enumerate(self.train_short_dataloader), desc="Training process for short doc", total=len(self.train_short_dataloader)):
-                    x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs,\
-                    doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_len, ctx_pos, flag, xy = batch
+                    x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs, x_kg_ev_emb, \
+                    y_kg_ev_emb, doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_ev_kg_embs, ctx_len, ctx_pos, flag, xy = batch
                     
                     self.predictor_optim.zero_grad()                    
                     augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, 'all', doc_id, dropout_rate=self.word_drop_rate)
-                    xy = torch.tensor(xy, dtype=torch.long)
-                    flag = torch.tensor(flag, dtype=torch.long)
+                    xy = torch.tensor(xy)
+                    flag = torch.tensor(flag)
                     if CUDA:
                         augm_target = augm_target.cuda() 
                         augm_target_mask = augm_target_mask.cuda()
@@ -257,8 +286,8 @@ class EXP(object):
                     self.scheduler.step()
                     
             for step, batch in tqdm.tqdm(enumerate(self.train_dataloader), desc="Training process for long doc", total=len(self.train_dataloader)):
-                x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs,\
-                doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_len, ctx_pos, flag, xy = batch
+                x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs, x_kg_ev_emb, \
+                y_kg_ev_emb, doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_ev_kg_embs, ctx_len, ctx_pos, flag, xy = batch
                 
                 self.selector_optim.zero_grad()
                 self.predictor_optim.zero_grad()
@@ -275,8 +304,8 @@ class EXP(object):
                     print("This case is not implemented at this time!")
                 
                 augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, ctx_selected, doc_id, dropout_rate=self.word_drop_rate)
-                xy = torch.tensor(xy, dtype=torch.long)
-                flag = torch.tensor(flag, dtype=torch.long)
+                xy = torch.tensor(xy)
+                flag = torch.tensor(flag)
                 if CUDA:
                     augm_target = augm_target.cuda() 
                     augm_target_mask = augm_target_mask.cuda()
@@ -289,12 +318,14 @@ class EXP(object):
                 
                 task_reward = self.task_reward(logits, xy)
                 ctx_sim_reward = self.ctx_reward(x_ev_embs, y_ev_embs, ctx_ev_embs, ctx_selected, ctx_emb, num_ev_sents)
+                kg_reward = self.kg_reward(x_kg_ev_emb, y_kg_ev_emb, ctx_ev_kg_embs, ctx_selected, num_ev_sents)
                 # print("task: {}".format(task_reward))
                 # print("ctx: {}".format(ctx_sim_reward))
+                # print("KG: {}".format(kg_reward))
                 s_loss = 0.0
                 bs = xy.size(0)
                 for i in range(bs):
-                    s_loss = s_loss - (self.perfomance_reward_weight * task_reward[i] + self.ctx_sim_reward_weight * ctx_sim_reward[i]) * log_prob[i]
+                    s_loss = s_loss - (self.perfomance_reward_weight * task_reward[i] + self.ctx_sim_reward_weight * ctx_sim_reward[i] + self.kg_reward_weight * kg_reward[i]) * log_prob[i]
                 self.selector_loss += s_loss.item()
                 self.predictor_loss += p_loss.item()
 
@@ -350,12 +381,12 @@ class EXP(object):
             gold = []
             if short_dataloader != None:
                 for step, batch in tqdm.tqdm(enumerate(short_dataloader), desc="Processing for short doc", total=len(short_dataloader)):
-                    x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs,\
-                    doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_len, ctx_pos, flag, xy = batch
+                    x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs, x_kg_ev_emb, \
+                    y_kg_ev_emb, doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_ev_kg_embs, ctx_len, ctx_pos, flag, xy = batch
                                    
                     augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, 'all', doc_id, dropout_rate=self.word_drop_rate, is_test=True)
-                    xy = torch.tensor(xy, dtype=torch.long)
-                    flag = torch.tensor(flag, dtype=torch.long)
+                    xy = torch.tensor(xy)
+                    flag = torch.tensor(flag)
                     if CUDA:
                         augm_target = augm_target.cuda() 
                         augm_target_mask = augm_target_mask.cuda()
@@ -371,9 +402,8 @@ class EXP(object):
                     pred.extend(y_pred)
 
             for step, batch in tqdm.tqdm(enumerate(dataloader), desc="Processing for long doc", total=len(dataloader)):
-                x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs,\
-                doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_len, ctx_pos, flag, xy = batch
-
+                x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs, x_kg_ev_emb, \
+                y_kg_ev_emb, doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_ev_kg_embs, ctx_len, ctx_pos, flag, xy = batch
                 if self.is_finetune_selector == False:
                     target_emb = torch.stack(target_emb, dim=0)
                     ctx_emb = torch.stack(pad_to_max_ns(ctx_emb), dim=0)
@@ -386,8 +416,8 @@ class EXP(object):
                     print("This case is not implemented at this time!")
                 
                 augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, ctx_selected, doc_id, dropout_rate=self.word_drop_rate, is_test=True)
-                xy = torch.tensor(xy, dtype=torch.long)
-                flag = torch.tensor(flag, dtype=torch.long)
+                xy = torch.tensor(xy)
+                flag = torch.tensor(flag)
                 if CUDA:
                     augm_target = augm_target.cuda() 
                     augm_target_mask = augm_target_mask.cuda()

@@ -50,7 +50,8 @@ def objective(trial: optuna.Trial):
         'word_drop_rate': trial.suggest_categorical("word_drop_rate", [0.05, 0.01, 0.1]),
         'task_reward': trial.suggest_categorical('task_reward', ['logit']),
         'perfomance_reward_weight': trial.suggest_categorical('perfomance_reward_weight', [0.1, 1]),
-        'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight', [0.01, 0.08])
+        'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight', [0.01, 0.08]),
+        'knowledge_reward_weight': trial.suggest_categorical('knowledge_reward_weight', [0.1, 1])
     }
 
     num_select = params['num_ctx_select']
@@ -112,7 +113,7 @@ def objective(trial: optuna.Trial):
             train_short_dataloader, test_short_dataloaders, validate_short_dataloaders, 
             params['s_lr'], params['b_lr'], params['m_lr'], params['b_lr_decay_rate'],  params['epoches'], params['warming_epoch'],
             best_path, word_drop_rate=params['word_drop_rate'], reward=[params['task_reward']], perfomance_reward_weight=params['perfomance_reward_weight'],
-            ctx_sim_reward_weight=params['ctx_sim_reward_weight'])
+            ctx_sim_reward_weight=params['ctx_sim_reward_weight'], kg_reward_weight=params['knowledge_reward_weight'])
     F1, CM, matres_F1, test_f1 = exp.train()
     # test_f1 = exp.evaluate(is_test=True)
     print("Result: Best micro F1 of interaction: {}".format(F1))
