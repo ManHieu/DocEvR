@@ -30,28 +30,28 @@ def objective(trial: optuna.Trial):
     params = {
         's_hidden_dim': trial.suggest_categorical('s_hidden_dim', [256, 512]),
         # 512,
-        's_mlp_dim': trial.suggest_categorical("s_mlp_dim", [256, 512, 768]),
+        's_mlp_dim': trial.suggest_categorical("s_mlp_dim", [512, 768]),
         # 512,
         'p_mlp_dim': trial.suggest_categorical("p_mlp_dim", [512, 768, 1024]),
         # 512, 
         'n_head': 16,
-        "epoches": trial.suggest_categorical("epoches", [5, 7, 9]),
+        "epoches": trial.suggest_categorical("epoches", [3, 5, 7]),
         "warming_epoch": trial.suggest_categorical("warming_epoch", [0, 1]),
         "task_weights": {
             '1': 1, # 1 is HiEve
             '2': 1, # 2 is MATRES.
             # '3': trial.suggest_float('I2B2_weight', 0.4, 1, step=0.2),
         },
-        'num_ctx_select': trial.suggest_categorical("num_ctx_select", [1, 3, 5, 7]),
+        'num_ctx_select': trial.suggest_categorical("num_ctx_select", [1, 3, 5]),
         's_lr': trial.suggest_categorical("s_lr", [1e-5, 5e-5, 1e-4]),
         'b_lr': trial.suggest_categorical("p_lr", [1e-6, 5e-6, 1e-5]),
         'm_lr': trial.suggest_categorical("m_lr", [1e-5, 5e-5, 1e-4]),
         'b_lr_decay_rate': trial.suggest_categorical("b_lr_decay_rate", [0.5, 0.6, 0.7, 0.8]),
         'word_drop_rate': trial.suggest_categorical("word_drop_rate", [0.05, 0.01, 0.1]),
         'task_reward': trial.suggest_categorical('task_reward', ['logit']),
-        'perfomance_reward_weight': trial.suggest_categorical('perfomance_reward_weight', [0.1, 1]),
-        'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight', [0.01, 0.08]),
-        'knowledge_reward_weight': trial.suggest_categorical('knowledge_reward_weight', [0.1, 1])
+        'perfomance_reward_weight': trial.suggest_categorical('perfomance_reward_weight', [0.1, 0.5, 0.7, 1]),
+        'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight', [0.01, 0.03, 0.05, 0.08]),
+        'knowledge_reward_weight': trial.suggest_categorical('knowledge_reward_weight', [0.1, 0.5, 0.7, 1])
     }
 
     num_select = params['num_ctx_select']
