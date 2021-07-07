@@ -10,7 +10,7 @@ import os.path as path
 class ECIRobertaJointTask(nn.Module):
     def __init__(self, mlp_size, roberta_type, datasets,
                 finetune=True, pos_dim=None, loss=None, sub=True, mul=True, fn_activate='relu',
-                negative_slope=0.2, drop_rate=0.5, task_weights=None, n_head=3, kg_emb_dim=300):
+                negative_slope=0.2, drop_rate=0.5, task_weights=None, kg_emb_dim=300):
         super().__init__()
         
         if path.exists("./pretrained_models/models/{}".format(roberta_type)):
@@ -37,7 +37,7 @@ class ECIRobertaJointTask(nn.Module):
             self.is_pos_emb = False
             self.lstm = nn.LSTM(self.roberta_dim, self.roberta_dim//2, num_layers=2, 
                                 batch_first=True, bidirectional=True, dropout=drop_rate)
-        self.mlp_in = self.roberta_dim
+        self.mlp_in = self.roberta_dim + kg_emb_dim
         # if pos_dim != None:
         #     self.is_pos_emb = True
         #     pos_size = len(pos_dict.keys())
@@ -175,7 +175,7 @@ class ECIRobertaJointTask(nn.Module):
         if self.task_weights != None:
             assert len(self.task_weights)==len(datasets), "Length of weight is difference number datasets: {}".format(len(self.task_weights))
 
-    def forward(self, sent, sent_mask, x_position, y_position, xy, flag, sent_pos=None):
+    def forward(self, sent, sent_mask, x_position, y_position, xy, flag, x_kg_ev_emb, y_kg_ev_emb, sent_pos=None):
         batch_size = sent.size(0)
         # print(x_sent.size())
 
@@ -194,8 +194,10 @@ class ECIRobertaJointTask(nn.Module):
         output, _ = self.lstm(output)
         # print(output_x.size())
         output_A = torch.cat([output[i, x_position[i], :].unsqueeze(0) for i in range(0, batch_size)])
+        output_A = torch.cat([output_A, x_kg_ev_emb], dim= 1)
         output_B = torch.cat([output[i, y_position[i], :].unsqueeze(0) for i in range(0, batch_size)])
-
+        output_B = torch.cat([output_B, y_kg_ev_emb], dim=1)
+        # print(output_B.size())
         # x, _ = self.s_attn(output_A.unsqueeze(0), output.transpose(0,1), output.transpose(0,1))
         # x = x.squeeze(0)
         # y, _ = self.s_attn(output_B.unsqueeze(0), output.transpose(0,1), output.transpose(0,1))

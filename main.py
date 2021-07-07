@@ -28,13 +28,12 @@ def collate_fn(batch):
     
 def objective(trial: optuna.Trial):
     params = {
-        's_hidden_dim': trial.suggest_categorical('s_hidden_dim', [256, 512]),
+        's_hidden_dim': trial.suggest_categorical('s_hidden_dim', [512]),
         # 512,
         's_mlp_dim': trial.suggest_categorical("s_mlp_dim", [512, 768]),
         # 512,
         'p_mlp_dim': trial.suggest_categorical("p_mlp_dim", [512, 768, 1024]),
         # 512, 
-        'n_head': 16,
         "epoches": trial.suggest_categorical("epoches", [3, 5, 7]),
         "warming_epoch": trial.suggest_categorical("warming_epoch", [0, 1]),
         "task_weights": {
@@ -97,7 +96,7 @@ def objective(trial: optuna.Trial):
     
     selector = LSTMSelector(768, params['s_hidden_dim'], params['s_mlp_dim'])
     predictor =ECIRobertaJointTask(mlp_size=params['p_mlp_dim'], roberta_type=roberta_type, datasets=datasets, pos_dim=16, 
-                                    fn_activate=fn_activative, drop_rate=drop_rate, task_weights=None, n_head=params['n_head'])
+                                    fn_activate=fn_activative, drop_rate=drop_rate, task_weights=None)
     
     if CUDA:
         selector = selector.cuda()
