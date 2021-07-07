@@ -10,7 +10,7 @@ import os.path as path
 class ECIRobertaJointTask(nn.Module):
     def __init__(self, mlp_size, roberta_type, datasets,
                 finetune=True, pos_dim=None, loss=None, sub=True, mul=True, fn_activate='relu',
-                negative_slope=0.2, drop_rate=0.5, task_weights=None, n_head=3):
+                negative_slope=0.2, drop_rate=0.5, task_weights=None, n_head=3, kg_emb_dim=300):
         super().__init__()
         
         if path.exists("./pretrained_models/models/{}".format(roberta_type)):
