@@ -31,11 +31,11 @@ class ECIRobertaJointTask(nn.Module):
             self.is_pos_emb = True
             pos_size = len(pos_dict.keys())
             self.pos_emb = nn.Embedding(pos_size, pos_dim)
-            self.lstm = nn.LSTM(self.roberta_dim+pos_dim, self.roberta_dim, num_layers=2, 
+            self.lstm = nn.LSTM(self.roberta_dim+pos_dim, self.roberta_dim//2, num_layers=2, 
                                 batch_first=True, bidirectional=True, dropout=drop_rate)
         else:
             self.is_pos_emb = False
-            self.lstm = nn.LSTM(self.roberta_dim, self.roberta_dim, num_layers=2, 
+            self.lstm = nn.LSTM(self.roberta_dim, self.roberta_dim//2, num_layers=2, 
                                 batch_first=True, bidirectional=True, dropout=drop_rate)
         self.mlp_in = self.roberta_dim
         # if pos_dim != None:
