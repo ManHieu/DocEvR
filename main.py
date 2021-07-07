@@ -119,6 +119,7 @@ def objective(trial: optuna.Trial):
     print("Result: Best micro F1 of interaction: {}".format(F1))
     with open(result_file, 'a', encoding='UTF-8') as f:
         f.write("\n -------------------------------------------- \n")
+        f.write("\n Note: use lstm in predictor \n")
         f.write("{}\n".format(roberta_type))
         f.write("Hypeparameter: \n{}\n ".format(params))
         f.write("Test F1: {}\n".format(test_f1))
