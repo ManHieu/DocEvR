@@ -28,7 +28,7 @@ def collate_fn(batch):
     
 def objective(trial: optuna.Trial):
     params = {
-        's_hidden_dim': trial.suggest_categorical('s_hidden_dim', [512]),
+        's_hidden_dim': trial.suggest_categorical('s_hidden_dim', [256, 512]),
         # 512,
         's_mlp_dim': trial.suggest_categorical("s_mlp_dim", [512, 768]),
         # 512,
@@ -45,8 +45,8 @@ def objective(trial: optuna.Trial):
         's_lr': trial.suggest_categorical("s_lr", [1e-5, 5e-5, 1e-4]),
         'b_lr': trial.suggest_categorical("p_lr", [1e-6, 5e-6, 1e-5]),
         'm_lr': trial.suggest_categorical("m_lr", [1e-5, 5e-5, 1e-4]),
-        'b_lr_decay_rate': trial.suggest_categorical("b_lr_decay_rate", [0.5, 0.6, 0.7, 0.8]),
-        'word_drop_rate': trial.suggest_categorical("word_drop_rate", [0.05, 0.01, 0.1]),
+        'b_lr_decay_rate': trial.suggest_categorical("b_lr_decay_rate", [0.4, 0.6, 0.8]),
+        'word_drop_rate': trial.suggest_categorical("word_drop_rate", [0.05]),
         'task_reward': trial.suggest_categorical('task_reward', ['logit']),
         'perfomance_reward_weight': trial.suggest_categorical('perfomance_reward_weight', [0.1, 0.5, 0.7, 1]),
         'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight', [0.01, 0.03, 0.05, 0.08]),
@@ -118,7 +118,7 @@ def objective(trial: optuna.Trial):
     print("Result: Best micro F1 of interaction: {}".format(F1))
     with open(result_file, 'a', encoding='UTF-8') as f:
         f.write("\n -------------------------------------------- \n")
-        f.write("\n Note: use lstm in predictor \n")
+        f.write("\nNote: no use lstm in predictor \n")
         f.write("{}\n".format(roberta_type))
         f.write("Hypeparameter: \n{}\n ".format(params))
         f.write("Test F1: {}\n".format(test_f1))
@@ -145,7 +145,7 @@ def objective(trial: optuna.Trial):
     del test_short_dataloaders 
     gc.collect()
 
-    return matres_F1
+    return sum(F1)
 
 
 if __name__ == '__main__':

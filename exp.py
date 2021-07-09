@@ -380,6 +380,10 @@ class EXP(object):
         best_cm = []
         sum_f1 = 0.0
         best_f1_mastres = 0.0
+        corpus_labels = {
+            "MATRES": 4,
+            "TBD": 6
+        }
         for i in range(0, len(self.test_dataloaders)):
             dataset = self.datasets[i]
             print("-------------------------------{}-------------------------------".format(dataset))
@@ -463,15 +467,25 @@ class EXP(object):
                 gold.extend(labels)
                 pred.extend(y_pred)
 
-            P, R, F1 = precision_recall_fscore_support(gold, pred, average='micro')[0:3]
             CM = confusion_matrix(gold, pred)
-            print("  P: {0:.3f}".format(P))
-            print("  R: {0:.3f}".format(R))
-            print("  F1: {0:.3f}".format(F1))
-            print("Classification report: \n {}".format(classification_report(gold, pred)))
-
-            if is_test:
+            if dataset not in  ["MATRES", "TBD"]:
+                P, R, F1 = precision_recall_fscore_support(gold, pred, average='micro')[0:3]
                 print("Test result:")
+                print("  P: {0:.3f}".format(P))
+                print("  R: {0:.3f}".format(R))
+                print("  F1: {0:.3f}".format(F1))
+                print("  Confusion Matrix")
+                print(CM)
+                print("Classification report: \n {}".format(classification_report(gold, pred)))
+            else:
+                # no eval in vague
+                num_label = corpus_labels[dataset]
+                true = sum([CM[i, i] for i in range(num_label-1)])
+                sum_pred = sum([CM[i, 0:(num_label-1)].sum() for i in range(num_label)])
+                sum_gold = sum([CM[i].sum() for i in range(num_label-1)])
+                P = true / sum_pred
+                R = true / sum_gold
+                F1 = 2 * P * R / (P + R)
                 print("  P: {0:.3f}".format(P))
                 print("  R: {0:.3f}".format(R))
                 print("  F1: {0:.3f}".format(F1))

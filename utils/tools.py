@@ -196,7 +196,7 @@ def make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_se
         elif ctx_id == 'warming':
             selected_ctx = []
         else:
-            selected_ctx = [step[i] for step in ctx_id]
+            selected_ctx = [step[i].cpu().item() for step in ctx_id]
         augment, x_possition_new, y_possition_new = augment_target(x_sent[i], y_sent[i], x_sent_id[i], y_sent_id[i], x_possition[i], y_possition[i], 
                                                                 ctx[i], selected_ctx, doc_id[i])
         pos_augment, x_pos_possition_new, y_pos_possition_new = augment_target(x_sent_pos[i], y_sent_pos[i], x_sent_id[i], y_sent_id[i], 
@@ -206,10 +206,10 @@ def make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_se
         if is_test == False:
             augment = word_dropout(augment, [x_possition_new, y_possition_new], dropout_rate=dropout_rate)
             pos_augment = word_dropout(pos_augment, [x_possition_new, y_possition_new], is_word=False, dropout_rate=dropout_rate)
-        pad, mask = padding(augment, max_sent_len=385)
+        pad, mask = padding(augment, max_sent_len=400)
         augm_target.append(pad)
         augm_target_mask.append(mask)
-        augm_pos_target.append(padding(pos_augment, pos=True, max_sent_len=385))
+        augm_pos_target.append(padding(pos_augment, pos=True, max_sent_len=400))
         x_augm_position.append(x_possition_new)
         y_augm_position.append(y_possition_new)
 
