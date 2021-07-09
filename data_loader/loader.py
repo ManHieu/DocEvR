@@ -411,7 +411,7 @@ def loader(dataset, min_ns):
         for my_dict in tqdm.tqdm(train):
             file_name = my_dict["doc_id"] + ".pkl"
             if not os.path.exists(processed_dir+file_name):
-                data = get_data_point(my_dict, 2)
+                data = get_data_point(my_dict, 3)
                 with open(processed_dir+file_name, 'wb') as f:
                     pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
             else:
@@ -426,7 +426,7 @@ def loader(dataset, min_ns):
         for my_dict in tqdm.tqdm(test):
             file_name = my_dict["doc_id"] + ".pkl"
             if not os.path.exists(processed_dir+file_name):
-                data = get_data_point(my_dict, 2)
+                data = get_data_point(my_dict, 3)
                 with open(processed_dir+file_name, 'wb') as f:
                     pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
             else:
@@ -441,7 +441,7 @@ def loader(dataset, min_ns):
         for my_dict in tqdm.tqdm(validate):
                 file_name = my_dict["doc_id"] + ".pkl"
                 if not os.path.exists(processed_dir+file_name):
-                    data = get_data_point(my_dict, 2)
+                    data = get_data_point(my_dict, 3)
                     with open(processed_dir+file_name, 'wb') as f:
                         pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
                 else:
@@ -476,7 +476,7 @@ def loader(dataset, min_ns):
         for my_dict in tqdm.tqdm(train):
             file_name = my_dict["doc_id"] + ".pkl"
             if not os.path.exists(processed_dir+file_name):
-                data = get_data_point(my_dict, 2)
+                data = get_data_point(my_dict, 4)
                 with open(processed_dir+file_name, 'wb') as f:
                     pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
             else:
@@ -491,7 +491,7 @@ def loader(dataset, min_ns):
         for my_dict in tqdm.tqdm(test):
             file_name = my_dict["doc_id"] + ".pkl"
             if not os.path.exists(processed_dir+file_name):
-                data = get_data_point(my_dict, 2)
+                data = get_data_point(my_dict, 4)
                 with open(processed_dir+file_name, 'wb') as f:
                     pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
             else:
@@ -506,7 +506,7 @@ def loader(dataset, min_ns):
         for my_dict in tqdm.tqdm(validate):
             file_name = my_dict["doc_id"] + ".pkl"
             if not os.path.exists(processed_dir+file_name):
-                data = get_data_point(my_dict, 2)
+                data = get_data_point(my_dict, 4)
                 with open(processed_dir+file_name, 'wb') as f:
                     pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
             else:

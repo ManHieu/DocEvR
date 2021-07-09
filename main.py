@@ -39,7 +39,8 @@ def objective(trial: optuna.Trial):
         "task_weights": {
             '1': 1, # 1 is HiEve
             '2': 1, # 2 is MATRES.
-            # '3': trial.suggest_float('I2B2_weight', 0.4, 1, step=0.2),
+            '3': 1, # 3 is I2B2
+            '4': 1, # 4 is TBD
         },
         'num_ctx_select': trial.suggest_categorical("num_ctx_select", [1, 3, 5]),
         's_lr': trial.suggest_categorical("s_lr", [1e-5, 5e-5, 1e-4]),
