@@ -486,7 +486,7 @@ def loader(dataset, min_ns):
                 if len(item[-4]) >= min_ns:
                     train_set.append(item)
                 if len(item[-4]) < min_ns:
-                    train_short.extend(item)
+                    train_short.append(item)
 
         for my_dict in tqdm.tqdm(test):
             file_name = my_dict["doc_id"] + ".pkl"
@@ -501,7 +501,7 @@ def loader(dataset, min_ns):
                 if len(item[-4]) >= min_ns:
                     test_set.append(item)
                 if len(item[-4]) < min_ns:
-                    test_short.extend(item)
+                    test_short.append(item)
             
         for my_dict in tqdm.tqdm(validate):
             file_name = my_dict["doc_id"] + ".pkl"
@@ -516,7 +516,7 @@ def loader(dataset, min_ns):
                 if len(item[-4]) >= min_ns:
                     validate_set.append(item)
                 if len(item[-4]) < min_ns:
-                    validate_short.extend(item)
+                    validate_short.append(item)
 
         print("Train_size: {}".format(len(train_set)))
         print("Test_size: {}".format(len(test_set)))
