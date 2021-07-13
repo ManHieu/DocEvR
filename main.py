@@ -54,7 +54,7 @@ def objective(trial: optuna.Trial):
         'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight', [0.01, 0.03, 0.05, 0.08]),
         'knowledge_reward_weight': trial.suggest_categorical('knowledge_reward_weight', [0.1, 0.5, 0.7, 1]), 
         'is_lstm': False, 
-        'threshold': np.log(5) * trial.suggest_categorical('threshold', [0.6, 0.7, 0.8])
+        'threshold': np.log(5) * trial.suggest_categorical('threshold', [0.3, 0.5, 0.7])
     }
 
     num_select = params['num_ctx_select']
