@@ -10,7 +10,7 @@ import os.path as path
 class ECIRobertaJointTask(nn.Module):
     def __init__(self, mlp_size, roberta_type, datasets,
                 finetune=True, pos_dim=None, loss=None, sub=True, mul=True, fn_activate='relu',
-                negative_slope=0.2, drop_rate=0.5, task_weights=None, kg_emb_dim=300):
+                negative_slope=0.2, drop_rate=0.5, task_weights=None, kg_emb_dim=300, lstm=False):
         super().__init__()
         
         if path.exists("./pretrained_models/models/{}".format(roberta_type)):
@@ -27,25 +27,28 @@ class ECIRobertaJointTask(nn.Module):
         self.sub = sub
         self.mul = mul
         self.finetune = finetune
-        # if pos_dim != None:
-        #     self.is_pos_emb = True
-        #     pos_size = len(pos_dict.keys())
-        #     self.pos_emb = nn.Embedding(pos_size, pos_dim)
-        #     self.lstm = nn.LSTM(self.roberta_dim+pos_dim, self.roberta_dim//2, num_layers=2, 
-        #                         batch_first=True, bidirectional=True, dropout=drop_rate)
-        # else:
-        #     self.is_pos_emb = False
-        #     self.lstm = nn.LSTM(self.roberta_dim, self.roberta_dim//2, num_layers=2, 
-        #                         batch_first=True, bidirectional=True, dropout=drop_rate)
-        # self.mlp_in = self.roberta_dim + kg_emb_dim
-        if pos_dim != None:
-            self.is_pos_emb = True
-            pos_size = len(pos_dict.keys())
-            self.pos_emb = nn.Embedding(pos_size, pos_dim)
-            self.mlp_in = self.roberta_dim + pos_dim + kg_emb_dim
-        else:
-            self.is_pos_emb = False
+        if lstm == True:
+            self.is_lstm = True
+            if pos_dim != None:
+                self.is_pos_emb = True
+                pos_size = len(pos_dict.keys())
+                self.pos_emb = nn.Embedding(pos_size, pos_dim)
+                self.lstm = nn.LSTM(self.roberta_dim+pos_dim, self.roberta_dim//2, 
+                                    num_layers=1, batch_first=True, bidirectional=True)
+            else:
+                self.is_pos_emb = False
+                self.lstm = nn.LSTM(self.roberta_dim, self.roberta_dim//2, num_layers=1, batch_first=True, bidirectional=True)
             self.mlp_in = self.roberta_dim + kg_emb_dim
+        else:
+            self.is_lstm = False
+            if pos_dim != None:
+                self.is_pos_emb = True
+                pos_size = len(pos_dict.keys())
+                self.pos_emb = nn.Embedding(pos_size, pos_dim)
+                self.mlp_in = self.roberta_dim + pos_dim + kg_emb_dim
+            else:
+                self.is_pos_emb = False
+                self.mlp_in = self.roberta_dim + kg_emb_dim
         self.mlp_size = mlp_size
         # self.s_attn = nn.MultiheadAttention(self.mlp_in, n_head)
 
@@ -144,7 +147,7 @@ class ECIRobertaJointTask(nn.Module):
                 loss_dict['3'] = loss
             
             if dataset == "TBD":
-                num_classes = 6
+                num_classes = 5
                 if self.max_num_class < num_classes:
                     self.max_num_class = num_classes
                 if sub==True and mul==True:
@@ -157,7 +160,7 @@ class ECIRobertaJointTask(nn.Module):
                     fc1 = nn.Linear(self.mlp_in*2, int(self.mlp_size))
                     fc2 = nn.Linear(int(self.mlp_size), num_classes)
                 
-                weights = [12715.0/2590, 12715.0/2104, 12715.0/836, 12715.0/1060, 12715.0/215, 12715.0/5910,]
+                weights = [12715.0/2590, 12715.0/2104, 12715.0/836, 12715.0/1060, 12715.0/215]
                 weights = torch.tensor(weights)
                 loss = nn.CrossEntropyLoss(weight=weights)
 
@@ -191,7 +194,8 @@ class ECIRobertaJointTask(nn.Module):
             output = torch.cat([output, pos], dim=2)
 
         output = self.drop_out(output)
-        # output, _ = self.lstm(output)
+        if self.is_lstm:
+            output, _ = self.lstm(output)
         # print(output_x.size())
         output_A = torch.cat([output[i, x_position[i], :].unsqueeze(0) for i in range(0, batch_size)])
         output_A = torch.cat([output_A, x_kg_ev_emb], dim= 1)
@@ -234,10 +238,11 @@ class ECIRobertaJointTask(nn.Module):
             pad_logit[:, :len(logit)] = logit
             logit = logit.unsqueeze(0)
             target = xy[i].unsqueeze(0)
-            if self.task_weights == None:
-                loss += self.loss_dict[typ](logit, target)
-            else:
-                loss += self.task_weights[typ]*self.loss_dict[typ](logit, target)
+            if self.training:
+                if self.task_weights == None:
+                    loss += self.loss_dict[typ](logit, target)
+                else:
+                    loss += self.task_weights[typ]*self.loss_dict[typ](logit, target)
             
             logits.append(pad_logit)
         return torch.cat(logits, 0), loss
