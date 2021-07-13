@@ -59,9 +59,9 @@ def load_dataset(dir_name, type):
     reader = Reader(type)
     onlyfiles = [f for f in os.listdir(dir_name) if os.path.isfile(os.path.join(dir_name, f))]
     corpus = []
-    i = 0
+    # i = 0
     for file_name in tqdm.tqdm(onlyfiles):
-        # if i == 3:
+        # if i == 1:
         #     break
         # i = i + 1
         if type == 'i2b2_xml':
@@ -483,9 +483,9 @@ def loader(dataset, min_ns):
                 with open(processed_dir+file_name, 'rb') as f:
                     data = pickle.load(f)
             for item in data:
-                if len(item[-4]) >= min_ns:
+                if len(item[-4]) >= min_ns and item[-1] != 5:
                     train_set.append(item)
-                if len(item[-4]) < min_ns:
+                if len(item[-4]) < min_ns and item[-1] != 5:
                     train_short.append(item)
 
         for my_dict in tqdm.tqdm(test):
@@ -502,7 +502,7 @@ def loader(dataset, min_ns):
                     test_set.append(item)
                 if len(item[-4]) < min_ns:
                     test_short.append(item)
-
+            
         for my_dict in tqdm.tqdm(validate):
             file_name = my_dict["doc_id"] + ".pkl"
             if not os.path.exists(processed_dir+file_name):

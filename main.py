@@ -1,4 +1,5 @@
 import datetime
+from math import log
 from exp import EXP
 from utils.constant import CUDA
 from models.predictor_model import ECIRobertaJointTask
@@ -43,15 +44,17 @@ def objective(trial: optuna.Trial):
             '4': 1, # 4 is TBD
         },
         'num_ctx_select': trial.suggest_categorical("num_ctx_select", [1, 3, 5]),
-        's_lr': trial.suggest_categorical("s_lr", [1e-5, 5e-5, 1e-4]),
-        'b_lr': trial.suggest_categorical("p_lr", [3e-6, 5e-6, 8e-6, 1e-5, 3e-5, 5e-5]),
-        'm_lr': trial.suggest_categorical("m_lr", [1e-5, 5e-5, 1e-4]),
-        'b_lr_decay_rate': trial.suggest_categorical("b_lr_decay_rate", [0.3, 0.4, 0.5, 0.6, 0.7]),
+        's_lr': trial.suggest_float("s_lr", 1e-6, 1e-4, log=True),
+        'b_lr': trial.suggest_float("b_lr", 1e-6, 5e-5, log=True),
+        'm_lr': trial.suggest_float("m_lr", 1e-6, 1e-4, log=True),
+        'b_lr_decay_rate': trial.suggest_categorical("b_lr_decay_rate", [0.3, 0.4, 0.5, 0.6, 0.7, 0.8]),
         'word_drop_rate': trial.suggest_categorical("word_drop_rate", [0.05, 0.1]),
         'task_reward': trial.suggest_categorical('task_reward', ['logit']),
         'perfomance_reward_weight': trial.suggest_categorical('perfomance_reward_weight', [0.1, 0.5, 0.7, 1]),
         'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight', [0.01, 0.03, 0.05, 0.08]),
-        'knowledge_reward_weight': trial.suggest_categorical('knowledge_reward_weight', [0.1, 0.5, 0.7, 1])
+        'knowledge_reward_weight': trial.suggest_categorical('knowledge_reward_weight', [0.1, 0.5, 0.7, 1]), 
+        'is_lstm': False, 
+        'threshold': np.log(5) * trial.suggest_categorical('threshold', [0.3, 0.5, 0.7])
     }
 
     num_select = params['num_ctx_select']
@@ -97,7 +100,7 @@ def objective(trial: optuna.Trial):
     
     selector = LSTMSelector(768, params['s_hidden_dim'], params['s_mlp_dim'])
     predictor =ECIRobertaJointTask(mlp_size=params['p_mlp_dim'], roberta_type=roberta_type, datasets=datasets, pos_dim=16, 
-                                    fn_activate=fn_activative, drop_rate=drop_rate, task_weights=None)
+                                    fn_activate=fn_activative, drop_rate=drop_rate, task_weights=None, lstm=params['is_lstm'])
     
     if CUDA:
         selector = selector.cuda()
@@ -113,13 +116,13 @@ def objective(trial: optuna.Trial):
             train_short_dataloader, test_short_dataloaders, validate_short_dataloaders, 
             params['s_lr'], params['b_lr'], params['m_lr'], params['b_lr_decay_rate'],  params['epoches'], params['warming_epoch'],
             best_path, word_drop_rate=params['word_drop_rate'], reward=[params['task_reward']], perfomance_reward_weight=params['perfomance_reward_weight'],
-            ctx_sim_reward_weight=params['ctx_sim_reward_weight'], kg_reward_weight=params['knowledge_reward_weight'])
+            ctx_sim_reward_weight=params['ctx_sim_reward_weight'], kg_reward_weight=params['knowledge_reward_weight'], vague_threshold=params['threshold'])
     F1, CM, matres_F1, test_f1 = exp.train()
     # test_f1 = exp.evaluate(is_test=True)
     print("Result: Best micro F1 of interaction: {}".format(F1))
     with open(result_file, 'a', encoding='UTF-8') as f:
         f.write("\n -------------------------------------------- \n")
-        f.write("\nNote: no use lstm in predictor \n")
+        # f.write("\nNote: use lstm in predictor \n")
         f.write("{}\n".format(roberta_type))
         f.write("Hypeparameter: \n{}\n ".format(params))
         f.write("Test F1: {}\n".format(test_f1))
@@ -127,7 +130,7 @@ def objective(trial: optuna.Trial):
         # f.write("Drop rate: {}\n".format(drop_rate))
         # f.write("Batch size: {}\n".format(batch_size))
         # f.write("Activate function: {}\n".format(fn_activative))
-        # f.write("Sub: {} - Mul: {}".format(is_sub, is_mul))
+        f.write("Sub: {} - Mul: {}".format(is_sub, is_mul))
         # f.write("\n Best F1 MATRES: {} \n".format(matres_F1))
         for i in range(0, len(datasets)):
             f.write("{} \n".format(dataset[i]))

@@ -283,3 +283,20 @@ def augment_target(x_sent, y_sent, x_sent_id, y_sent_id, x_possition, y_possitio
 
     return sent, x_possition_new, y_possition_new
 
+def processing_vague(logits, threshold, vague_id):
+    bs = logits.size(0)
+    predicts = []
+    for i in range(bs):
+        logit = logits[i].detach()
+        logit = torch.softmax(logit, dim=0)
+        print(logit)
+        entropy = - torch.sum(logit * torch.log(logit)).cpu().item()
+        print(entropy)
+        if entropy > threshold:
+            predict = vague_id
+        else:
+            predict = torch.max(logit.unsqueeze(0), 1).indices.cpu().numpy()
+        print(predict)
+        predicts.append(predict)
+    # print(predicts)
+    return predicts
