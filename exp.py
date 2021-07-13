@@ -428,8 +428,10 @@ class EXP(object):
                     logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, x_kg_ev_emb, y_kg_ev_emb, augm_pos_target)
 
                     labels = xy.cpu().numpy()
-                    print(labels)
-                    y_pred = torch.max(logits, 1).indices.cpu().numpy()
+                    if dataset == "TBD":
+                        y_pred = processing_vague(logits, self.vague_threshold, 5)
+                    else:
+                        y_pred = torch.max(logits, 1).indices.cpu().numpy()
                     gold.extend(labels)
                     pred.extend(y_pred)
 
@@ -472,8 +474,8 @@ class EXP(object):
                     y_pred = torch.max(logits, 1).indices.cpu().numpy()
                 gold.extend(labels)
                 pred.extend(y_pred)
-                print("gold: ", gold)
-                print("pred: ", pred)
+                # print("gold: ", gold)
+                # print("pred: ", pred)
 
             CM = confusion_matrix(gold, pred)
             if dataset not in  ["MATRES", "TBD"]:
