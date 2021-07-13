@@ -45,7 +45,7 @@ def objective(trial: optuna.Trial):
         },
         'num_ctx_select': trial.suggest_categorical("num_ctx_select", [1, 3, 5]),
         's_lr': trial.suggest_float("s_lr", 1e-6, 1e-4, log=True),
-        'b_lr': trial.suggest_float("b_lr", 1e-6, 5e-5, log=True),
+        'b_lr': trial.suggest_float("b_lr", 5e-6, 5e-5, log=True),
         'm_lr': trial.suggest_float("m_lr", 1e-6, 1e-4, log=True),
         'b_lr_decay_rate': trial.suggest_categorical("b_lr_decay_rate", [0.3, 0.4, 0.5, 0.6, 0.7, 0.8]),
         'word_drop_rate': trial.suggest_categorical("word_drop_rate", [0.05, 0.1]),
@@ -54,7 +54,7 @@ def objective(trial: optuna.Trial):
         'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight', [0.01, 0.03, 0.05, 0.08]),
         'knowledge_reward_weight': trial.suggest_categorical('knowledge_reward_weight', [0.1, 0.5, 0.7, 1]), 
         'is_lstm': False, 
-        'threshold': np.log(5) * trial.suggest_categorical('threshold', [0.3, 0.5, 0.7])
+        'threshold': np.log(5) * trial.suggest_categorical('threshold', [0.6, 0.7, 0.8])
     }
 
     num_select = params['num_ctx_select']

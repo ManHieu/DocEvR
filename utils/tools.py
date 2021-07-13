@@ -289,14 +289,11 @@ def processing_vague(logits, threshold, vague_id):
     for i in range(bs):
         logit = logits[i].detach()
         logit = torch.softmax(logit, dim=0)
-        print(logit)
         entropy = - torch.sum(logit * torch.log(logit)).cpu().item()
-        print(entropy)
         if entropy > threshold:
             predict = vague_id
         else:
-            predict = torch.max(logit.unsqueeze(0), 1).indices.cpu().numpy()
-        print(predict)
+            predict = torch.max(logit.unsqueeze(0), 1).indices.cpu().item()
         predicts.append(predict)
     # print(predicts)
     return predicts
