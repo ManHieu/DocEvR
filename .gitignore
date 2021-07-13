@@ -15,3 +15,4 @@ datasets/numberbatch-en-19.08.txt
 datasets/MATRES/docEvR_processed_kg/
 datasets/hievents_v2/processed/docEvR_processed_kg/
 datasets/TimeBank-dense/docEvR_processed_kg/
+datasets/i2b2_2012/docEvR_processed_kg/
