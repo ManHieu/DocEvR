@@ -44,10 +44,17 @@ def objective(trial: optuna.Trial):
             '4': 1, # 4 is TBD
         },
         'num_ctx_select': trial.suggest_categorical("num_ctx_select", [1, 3, 5]),
+<<<<<<< HEAD
         's_lr': trial.suggest_float("s_lr", 1e-6, 1e-4, log=True),
         'b_lr': trial.suggest_float("b_lr", 1e-6, 5e-5, log=True),
         'm_lr': trial.suggest_float("m_lr", 1e-6, 1e-4, log=True),
         'b_lr_decay_rate': trial.suggest_categorical("b_lr_decay_rate", [0.3, 0.4, 0.5, 0.6, 0.7, 0.8]),
+=======
+        's_lr': trial.suggest_categorical("s_lr", [1e-5, 5e-5, 1e-4]),
+        'b_lr': trial.suggest_categorical("p_lr", [3e-6, 5e-6, 8e-6, 1e-5, 3e-5, 5e-5]),
+        'm_lr': trial.suggest_categorical("m_lr", [1e-5, 5e-5, 1e-4]),
+        'b_lr_decay_rate': trial.suggest_categorical("b_lr_decay_rate", [0.3, 0.4, 0.5, 0.6, 0.7]),
+>>>>>>> 4c614b8fb6622f886d0f30a440b451ab2a3ed9bf
         'word_drop_rate': trial.suggest_categorical("word_drop_rate", [0.05, 0.1]),
         'task_reward': trial.suggest_categorical('task_reward', ['logit']),
         'perfomance_reward_weight': trial.suggest_categorical('perfomance_reward_weight', [0.1, 0.5, 0.7, 1]),
@@ -130,7 +137,11 @@ def objective(trial: optuna.Trial):
         # f.write("Drop rate: {}\n".format(drop_rate))
         # f.write("Batch size: {}\n".format(batch_size))
         # f.write("Activate function: {}\n".format(fn_activative))
+<<<<<<< HEAD
         f.write("Sub: {} - Mul: {}".format(is_sub, is_mul))
+=======
+        # f.write("Sub: {} - Mul: {}".format(is_sub, is_mul))
+>>>>>>> 4c614b8fb6622f886d0f30a440b451ab2a3ed9bf
         # f.write("\n Best F1 MATRES: {} \n".format(matres_F1))
         for i in range(0, len(datasets)):
             f.write("{} \n".format(dataset[i]))

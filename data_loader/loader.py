@@ -294,19 +294,19 @@ def loader(dataset, min_ns):
                     test_short.append(item)
 
         for my_dict in tqdm.tqdm(validate):
-                file_name = my_dict["doc_id"] + ".pkl"
-                if not os.path.exists(processed_dir+file_name):
-                    data = get_data_point(my_dict, 2)
-                    with open(processed_dir+file_name, 'wb') as f:
-                        pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
-                else:
-                    with open(processed_dir+file_name, 'rb') as f:
-                        data = pickle.load(f)
-                for item in data:
-                    if len(item[-4]) >= min_ns:
-                        validate_set.append(item)
-                    if len(item[-4]) < min_ns:
-                        validate_short.append(item)
+            file_name = my_dict["doc_id"] + ".pkl"
+            if not os.path.exists(processed_dir+file_name):
+                data = get_data_point(my_dict, 2)
+                with open(processed_dir+file_name, 'wb') as f:
+                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+            else:
+                with open(processed_dir+file_name, 'rb') as f:
+                    data = pickle.load(f)
+            for item in data:
+                if len(item[-4]) >= min_ns:
+                    validate_set.append(item)
+                if len(item[-4]) < min_ns:
+                    validate_short.append(item)
 
         print("Train_size: {}".format(len(train_set)))
         print("Test_size: {}".format(len(test_set)))
@@ -399,7 +399,7 @@ def loader(dataset, min_ns):
 
     if dataset == "I2B2":
         print("I2B2 Loading .....")
-        dir_name = "./datasets/i2b2_2012/2012-07-15.original-annotation.release/"
+        dir_name = "./datasets/i2b2_2012/2012-07-06.release/2012-07-06.release-fix/"
         corpus = load_dataset(dir_name, 'i2b2_xml')
         train, test = train_test_split(corpus, train_size=0.8, test_size=0.2)
         train, validate = train_test_split(train, train_size=0.75, test_size=0.25)
