@@ -44,17 +44,18 @@ def objective(trial: optuna.Trial):
             '4': 1, # 4 is TBD
         },
         'num_ctx_select': trial.suggest_categorical("num_ctx_select", [1, 3, 5]),
-        's_lr': trial.suggest_float("s_lr", 1e-6, 1e-4, log=True),
-        'b_lr': trial.suggest_float("b_lr", 5e-6, 5e-5, log=True),
-        'm_lr': trial.suggest_float("m_lr", 1e-6, 1e-4, log=True),
+        's_lr': trial.suggest_categorical("s_lr", [1e-5, 3e-5, 5e-5]),
+        'b_lr': trial.suggest_categorical("b_lr", [5e-6, 1e-5, 3e-5, 5e-5]),
+        'm_lr': trial.suggest_categorical("m_lr", [1e-5, 3e-5, 5e-5]),
         'b_lr_decay_rate': trial.suggest_categorical("b_lr_decay_rate", [0.3, 0.4, 0.5, 0.6, 0.7, 0.8]),
         'word_drop_rate': trial.suggest_categorical("word_drop_rate", [0.05, 0.1]),
         'task_reward': trial.suggest_categorical('task_reward', ['logit']),
         'perfomance_reward_weight': trial.suggest_categorical('perfomance_reward_weight', [0.1, 0.5, 0.7, 1]),
         'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight', [0.01, 0.03, 0.05, 0.08]),
         'knowledge_reward_weight': trial.suggest_categorical('knowledge_reward_weight', [0.1, 0.5, 0.7, 1]), 
-        'is_lstm': False, 
-        'threshold': np.log(5) * trial.suggest_categorical('threshold', [0.6, 0.7, 0.8])
+        'is_lstm': trial.suggest_categorical("is_lstm", [True, False]), 
+        'threshold': 1
+        # np.log(5) * trial.suggest_categorical('threshold', [0.6, 0.7, 0.8])
     }
 
     num_select = params['num_ctx_select']
@@ -116,7 +117,7 @@ def objective(trial: optuna.Trial):
             train_short_dataloader, test_short_dataloaders, validate_short_dataloaders, 
             params['s_lr'], params['b_lr'], params['m_lr'], params['b_lr_decay_rate'],  params['epoches'], params['warming_epoch'],
             best_path, word_drop_rate=params['word_drop_rate'], reward=[params['task_reward']], perfomance_reward_weight=params['perfomance_reward_weight'],
-            ctx_sim_reward_weight=params['ctx_sim_reward_weight'], kg_reward_weight=params['knowledge_reward_weight'], vague_threshold=params['threshold'])
+            ctx_sim_reward_weight=params['ctx_sim_reward_weight'], kg_reward_weight=params['knowledge_reward_weight'])
     F1, CM, matres_F1, test_f1 = exp.train()
     # test_f1 = exp.evaluate(is_test=True)
     print("Result: Best micro F1 of interaction: {}".format(F1))

@@ -483,9 +483,9 @@ def loader(dataset, min_ns):
                 with open(processed_dir+file_name, 'rb') as f:
                     data = pickle.load(f)
             for item in data:
-                if len(item[-4]) >= min_ns and item[-1] != 5:
+                if len(item[-4]) >= min_ns:
                     train_set.append(item)
-                if len(item[-4]) < min_ns and item[-1] != 5:
+                if len(item[-4]) < min_ns:
                     train_short.append(item)
 
         for my_dict in tqdm.tqdm(test):

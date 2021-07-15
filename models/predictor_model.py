@@ -147,7 +147,7 @@ class ECIRobertaJointTask(nn.Module):
                 loss_dict['3'] = loss
             
             if dataset == "TBD":
-                num_classes = 5
+                num_classes = 6
                 if self.max_num_class < num_classes:
                     self.max_num_class = num_classes
                 if sub==True and mul==True:

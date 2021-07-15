@@ -18,7 +18,7 @@ class EXP(object):
                 train_short_dataloader, test_short_dataloaders, validate_short_dataloaders,
                 s_lr, b_lr, m_lr, decay_rate,  train_lm_epoch, warming_epoch,
                 best_path, warmup_proportion=0.1, weight_decay=0.01, reward=['f1'], word_drop_rate=0.04,
-                perfomance_reward_weight=1, ctx_sim_reward_weight=1, kg_reward_weight=1, vague_threshold=1) -> None:
+                perfomance_reward_weight=1, ctx_sim_reward_weight=1, kg_reward_weight=1) -> None:
         super().__init__()
         self.selector = selector
         self.predictor = predictor
@@ -58,9 +58,8 @@ class EXP(object):
         self.train_roberta_epoch = train_lm_epoch
         self.warmup_proportion = warmup_proportion
         self.word_drop_rate = word_drop_rate
-        self.vague_threshold = vague_threshold
 
-        mlp = ['fc1', 'fc2', 'lstm', 'pos_emb']
+        mlp = ['fc1', 'fc2', 'lstm', 'pos_emb', 's_attn']
         no_decay = ['bias', 'gamma', 'beta']
         group1=['layer.0.','layer.1.','layer.2.','layer.3.','layer.4.','layer.5.']
         group2=['layer.6.','layer.7.','layer.8.','layer.9.','layer.10.','layer.11.']
@@ -426,12 +425,8 @@ class EXP(object):
                         xy = xy.cuda()
                         flag = flag.cuda()
                     logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, x_kg_ev_emb, y_kg_ev_emb, augm_pos_target)
-
                     labels = xy.cpu().numpy()
-                    if dataset == "TBD":
-                        y_pred = processing_vague(logits, self.vague_threshold, 5)
-                    else:
-                        y_pred = torch.max(logits, 1).indices.cpu().numpy()
+                    y_pred = torch.max(logits, 1).indices.cpu().numpy()
                     gold.extend(labels)
                     pred.extend(y_pred)
 
@@ -468,17 +463,12 @@ class EXP(object):
                 logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, x_kg_ev_emb, y_kg_ev_emb, augm_pos_target)
                 
                 labels = xy.cpu().numpy()
-                if dataset == "TBD":
-                    y_pred = processing_vague(logits, self.vague_threshold, 5)
-                else:
-                    y_pred = torch.max(logits, 1).indices.cpu().numpy()
+                y_pred = torch.max(logits, 1).indices.cpu().numpy()
                 gold.extend(labels)
                 pred.extend(y_pred)
-                # print("gold: ", gold)
-                # print("pred: ", pred)
 
             CM = confusion_matrix(gold, pred)
-            if dataset not in  ["MATRES", "TBD"]:
+            if dataset not in  ["MATRES"]:
                 P, R, F1 = precision_recall_fscore_support(gold, pred, average='micro')[0:3]
                 print("Test result:")
                 print("  P: {0:.3f}".format(P))
