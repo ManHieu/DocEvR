@@ -320,8 +320,8 @@ def loader(dataset, min_ns):
         dir_name = "./datasets/hievents_v2/processed/"
         corpus = load_dataset(dir_name, 'tsvx')
         train, test = train_test_split(corpus, train_size=0.8, test_size=0.2)
-        train, validate = train_test_split(train, train_size=0.75, test_size=0.25)
-        sample = 0.015
+        train, validate = train_test_split(train, train_size=0.90, test_size=0.10)
+        sample = 0.4
 
         processed_dir = "./datasets/hievents_v2/processed/docEvR_processed_kg/"
         if not os.path.exists(processed_dir):
@@ -388,7 +388,10 @@ def loader(dataset, min_ns):
                         else:
                             validate_short.append(item)
                 else:
-                    validate_set.append(item)
+                    if len(item[-4]) >= min_ns:
+                            validate_set.append(item)
+                    else:
+                        validate_short.append(item)
         
         print("Train_size: {}".format(len(train_set)))
         print("Test_size: {}".format(len(test_set)))

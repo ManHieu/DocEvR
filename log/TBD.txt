@@ -205,3 +205,451 @@ CM:
  [  2   3   0   0   0  23]
  [ 50  33   1   6   0 164]] 
 Time: 2021-07-15 10:56:39.665449 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 256, 's_mlp_dim': 512, 'p_mlp_dim': 1024, 'epoches': 5, 'warming_epoch': 0, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 1, 's_lr': 3e-05, 'b_lr': 3e-05, 'm_lr': 1e-05, 'b_lr_decay_rate': 0.3, 'word_drop_rate': 0.05, 'task_reward': 'logit', 'perfomance_reward_weight': 1, 'ctx_sim_reward_weight': 0.03, 'knowledge_reward_weight': 0.1, 'is_lstm': False, 'threshold': 1}
+ Test F1: 0.6341137123745819
+Sub: True - Mul: TrueT 
+F1: 0.6214177978883861 
+CM: 
+ [[107   5   0   0   0  47]
+ [  9 129   0   1   0  42]
+ [  0   0   1   0   0  15]
+ [  2   2   0   2   0  19]
+ [  2   0   0   0   0  26]
+ [ 35  37   2   7   0 173]] 
+Time: 2021-07-15 12:07:23.299283 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 256, 's_mlp_dim': 768, 'p_mlp_dim': 512, 'epoches': 3, 'warming_epoch': 1, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 5, 's_lr': 5e-05, 'b_lr': 5e-05, 'm_lr': 1e-05, 'b_lr_decay_rate': 0.3, 'word_drop_rate': 0.05, 'task_reward': 'logit', 'perfomance_reward_weight': 1, 'ctx_sim_reward_weight': 0.03, 'knowledge_reward_weight': 0.1, 'is_lstm': False, 'threshold': 1}
+ Test F1: 0.6214046822742475
+Sub: True - Mul: TrueT 
+F1: 0.5761689291101055 
+CM: 
+ [[106   2   0   0   0  51]
+ [  8 101   0   0   0  72]
+ [  1   1   0   0   0  14]
+ [  2   0   0   1   0  22]
+ [  5   2   0   0   1  20]
+ [ 57  22   0   2   0 173]] 
+Time: 2021-07-15 13:09:10.560576 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 512, 's_mlp_dim': 512, 'p_mlp_dim': 1024, 'epoches': 7, 'warming_epoch': 1, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 1, 's_lr': 1e-05, 'b_lr': 1e-05, 'm_lr': 3e-05, 'b_lr_decay_rate': 0.6, 'word_drop_rate': 0.05, 'task_reward': 'logit', 'perfomance_reward_weight': 0.1, 'ctx_sim_reward_weight': 0.05, 'knowledge_reward_weight': 1, 'is_lstm': False, 'threshold': 1}
+ Test F1: 0.6501672240802676
+Sub: True - Mul: TrueT 
+F1: 0.6184012066365008 
+CM: 
+ [[106   1   2   0   1  49]
+ [  5 123   4   5   1  43]
+ [  0   0   5   0   1  10]
+ [  1   1   0   8   1  14]
+ [  3   2   1   1   3  18]
+ [ 37  21  14  16   1 165]] 
+Time: 2021-07-15 14:44:46.854887 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 256, 's_mlp_dim': 768, 'p_mlp_dim': 512, 'epoches': 3, 'warming_epoch': 0, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 3, 's_lr': 1e-05, 'b_lr': 1e-05, 'm_lr': 5e-05, 'b_lr_decay_rate': 0.8, 'word_drop_rate': 0.1, 'task_reward': 'logit', 'perfomance_reward_weight': 1, 'ctx_sim_reward_weight': 0.08, 'knowledge_reward_weight': 0.7, 'is_lstm': False, 'threshold': 1}
+ Test F1: 0.6494983277591974
+Sub: True - Mul: TrueT 
+F1: 0.6048265460030166 
+CM: 
+ [[ 97   5   1   0   0  56]
+ [  8 114   3   4   1  51]
+ [  0   0   4   0   2  10]
+ [  2   0   0   4   1  18]
+ [  2   1   1   0   3  21]
+ [ 42  18   7   8   0 179]] 
+Time: 2021-07-15 15:38:10.293038 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 512, 's_mlp_dim': 768, 'p_mlp_dim': 512, 'epoches': 3, 'warming_epoch': 0, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 1, 's_lr': 5e-05, 'b_lr': 3e-05, 'm_lr': 5e-05, 'b_lr_decay_rate': 0.4, 'word_drop_rate': 0.1, 'task_reward': 'logit', 'perfomance_reward_weight': 1, 'ctx_sim_reward_weight': 0.03, 'knowledge_reward_weight': 0.7, 'is_lstm': False, 'threshold': 1}
+ Test F1: 0.6421404682274248
+Sub: True - Mul: TrueT 
+F1: 0.6199095022624435 
+CM: 
+ [[105   3   0   0   1  50]
+ [  4 131   3   2   3  38]
+ [  0   0   4   0   2  10]
+ [  1   0   0   9   1  14]
+ [  3   1   1   0   2  21]
+ [ 45  28  11  10   0 160]] 
+Time: 2021-07-15 16:30:02.627678 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 256, 's_mlp_dim': 768, 'p_mlp_dim': 512, 'epoches': 7, 'warming_epoch': 1, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 3, 's_lr': 3e-05, 'b_lr': 1e-05, 'm_lr': 3e-05, 'b_lr_decay_rate': 0.7, 'word_drop_rate': 0.05, 'task_reward': 'logit', 'perfomance_reward_weight': 0.5, 'ctx_sim_reward_weight': 0.05, 'knowledge_reward_weight': 1, 'is_lstm': True, 'threshold': 1}
+ Test F1: 0.6521739130434783
+Sub: True - Mul: TrueT 
+F1: 0.6214177978883861 
+CM: 
+ [[108   1   2   0   1  47]
+ [  3 115   4   4   0  55]
+ [  1   0   4   0   2   9]
+ [  0   0   0   3   0  22]
+ [  3   2   1   0   2  20]
+ [ 39  16   8  10   1 180]] 
+Time: 2021-07-15 18:17:46.052171 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 256, 's_mlp_dim': 512, 'p_mlp_dim': 768, 'epoches': 7, 'warming_epoch': 1, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 5, 's_lr': 1e-05, 'b_lr': 5e-05, 'm_lr': 3e-05, 'b_lr_decay_rate': 0.8, 'word_drop_rate': 0.1, 'task_reward': 'logit', 'perfomance_reward_weight': 0.7, 'ctx_sim_reward_weight': 0.05, 'knowledge_reward_weight': 0.7, 'is_lstm': False, 'threshold': 1}
+ Test F1: 0.4294314381270903
+Sub: True - Mul: TrueT 
+F1: 0.38310708898944196 
+CM: 
+ [[  0   0   0   0   0 159]
+ [  0   0   0   0   0 181]
+ [  0   0   0   0   0  16]
+ [  0   0   0   0   0  25]
+ [  0   0   0   0   0  28]
+ [  0   0   0   0   0 254]] 
+Time: 2021-07-15 19:56:37.869680 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 512, 's_mlp_dim': 768, 'p_mlp_dim': 768, 'epoches': 7, 'warming_epoch': 0, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 3, 's_lr': 5e-05, 'b_lr': 5e-06, 'm_lr': 5e-05, 'b_lr_decay_rate': 0.8, 'word_drop_rate': 0.1, 'task_reward': 'logit', 'perfomance_reward_weight': 1, 'ctx_sim_reward_weight': 0.03, 'knowledge_reward_weight': 0.7, 'is_lstm': True, 'threshold': 1}
+ Test F1: 0.6287625418060201
+Sub: True - Mul: TrueT 
+F1: 0.6365007541478129 
+CM: 
+ [[111   0   0   0   2  46]
+ [  6 121   5   2   1  46]
+ [  0   1   4   0   2   9]
+ [  2   2   0   6   4  11]
+ [  3   2   1   0   6  16]
+ [ 32  23   8  14   3 174]] 
+Time: 2021-07-15 21:36:09.011819 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 512, 's_mlp_dim': 512, 'p_mlp_dim': 1024, 'epoches': 7, 'warming_epoch': 1, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 3, 's_lr': 1e-05, 'b_lr': 5e-06, 'm_lr': 1e-05, 'b_lr_decay_rate': 0.7, 'word_drop_rate': 0.05, 'task_reward': 'logit', 'perfomance_reward_weight': 0.5, 'ctx_sim_reward_weight': 0.08, 'knowledge_reward_weight': 0.7, 'is_lstm': True, 'threshold': 1}
+ Test F1: 0.6133779264214047
+Sub: True - Mul: TrueT 
+F1: 0.6153846153846154 
+CM: 
+ [[114   3   0   0   0  42]
+ [  2 110   1   1   0  67]
+ [  0   1   2   0   0  13]
+ [  2   0   0   2   0  21]
+ [  4   2   0   0   0  22]
+ [ 41  22   2   9   0 180]] 
+Time: 2021-07-15 23:24:07.340658 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 256, 's_mlp_dim': 768, 'p_mlp_dim': 512, 'epoches': 5, 'warming_epoch': 1, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 3, 's_lr': 3e-05, 'b_lr': 1e-05, 'm_lr': 3e-05, 'b_lr_decay_rate': 0.7, 'word_drop_rate': 0.05, 'task_reward': 'logit', 'perfomance_reward_weight': 0.5, 'ctx_sim_reward_weight': 0.05, 'knowledge_reward_weight': 1, 'is_lstm': True, 'threshold': 1}
+ Test F1: 0.6575250836120401
+Sub: True - Mul: TrueT 
+F1: 0.6244343891402715 
+CM: 
+ [[108   0   2   0   0  49]
+ [  1 111   4   6   2  57]
+ [  0   0   4   0   1  11]
+ [  1   1   0   3   3  17]
+ [  2   3   0   0   5  18]
+ [ 25  19  11  14   2 183]] 
+Time: 2021-07-16 00:51:53.581289 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 256, 's_mlp_dim': 768, 'p_mlp_dim': 512, 'epoches': 5, 'warming_epoch': 1, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 3, 's_lr': 3e-05, 'b_lr': 1e-05, 'm_lr': 3e-05, 'b_lr_decay_rate': 0.7, 'word_drop_rate': 0.05, 'task_reward': 'logit', 'perfomance_reward_weight': 0.5, 'ctx_sim_reward_weight': 0.05, 'knowledge_reward_weight': 1, 'is_lstm': True, 'threshold': 1}
+ Test F1: 0.6474916387959866
+Sub: True - Mul: TrueT 
+F1: 0.6319758672699849 
+CM: 
+ [[111   0   1   0   1  46]
+ [  1 114   3   5   0  58]
+ [  0   0   4   0   2  10]
+ [  2   0   0   3   1  19]
+ [  3   1   1   0   6  17]
+ [ 35  12  11  13   2 181]] 
+Time: 2021-07-16 02:20:13.380841 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 256, 's_mlp_dim': 768, 'p_mlp_dim': 1024, 'epoches': 3, 'warming_epoch': 1, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 1, 's_lr': 1e-05, 'b_lr': 3e-05, 'm_lr': 1e-05, 'b_lr_decay_rate': 0.6, 'word_drop_rate': 0.1, 'task_reward': 'logit', 'perfomance_reward_weight': 0.5, 'ctx_sim_reward_weight': 0.01, 'knowledge_reward_weight': 0.5, 'is_lstm': False, 'threshold': 1}
+ Test F1: 0.4294314381270903
+Sub: True - Mul: TrueT 
+F1: 0.38310708898944196 
+CM: 
+ [[  0   0   0   0   0 159]
+ [  0   0   0   0   0 181]
+ [  0   0   0   0   0  16]
+ [  0   0   0   0   0  25]
+ [  0   0   0   0   0  28]
+ [  0   0   0   0   0 254]] 
+Time: 2021-07-16 03:30:09.978891 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 256, 's_mlp_dim': 512, 'p_mlp_dim': 512, 'epoches': 7, 'warming_epoch': 1, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 1, 's_lr': 3e-05, 'b_lr': 3e-05, 'm_lr': 3e-05, 'b_lr_decay_rate': 0.3, 'word_drop_rate': 0.1, 'task_reward': 'logit', 'perfomance_reward_weight': 0.7, 'ctx_sim_reward_weight': 0.05, 'knowledge_reward_weight': 0.5, 'is_lstm': False, 'threshold': 1}
+ Test F1: 0.6408026755852843
+Sub: True - Mul: TrueT 
+F1: 0.5610859728506787 
+CM: 
+ [[101   4   1   0   1  52]
+ [  9 111   1   5   0  55]
+ [  0   0   5   0   1  10]
+ [  2   0   0   4   0  19]
+ [  2   1   0   0   3  22]
+ [ 52  34   9  10   1 148]] 
+Time: 2021-07-16 05:06:06.183085 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 512, 's_mlp_dim': 768, 'p_mlp_dim': 768, 'epoches': 5, 'warming_epoch': 0, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 5, 's_lr': 5e-05, 'b_lr': 5e-06, 'm_lr': 5e-05, 'b_lr_decay_rate': 0.7, 'word_drop_rate': 0.1, 'task_reward': 'logit', 'perfomance_reward_weight': 0.1, 'ctx_sim_reward_weight': 0.05, 'knowledge_reward_weight': 0.7, 'is_lstm': True, 'threshold': 1}
+ Test F1: 0.6367892976588628
+Sub: True - Mul: FalseT 
+F1: 0.6349924585218703 
+CM: 
+ [[117   2   0   0   1  39]
+ [  4 119   6   4   1  47]
+ [  0   0   4   0   2  10]
+ [  2   1   0   8   0  14]
+ [  4   4   0   1   2  17]
+ [ 37  21   9  13   3 171]] 
+Time: 2021-07-16 06:26:50.429215 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 512, 's_mlp_dim': 512, 'p_mlp_dim': 768, 'epoches': 5, 'warming_epoch': 0, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 3, 's_lr': 1e-05, 'b_lr': 1e-05, 'm_lr': 5e-05, 'b_lr_decay_rate': 0.7, 'word_drop_rate': 0.05, 'task_reward': 'logit', 'perfomance_reward_weight': 0.1, 'ctx_sim_reward_weight': 0.01, 'knowledge_reward_weight': 1, 'is_lstm': True, 'threshold': 1}
+ Test F1: 0.6474916387959866
+Sub: True - Mul: TrueT 
+F1: 0.6319758672699849 
+CM: 
+ [[109   3   1   0   1  45]
+ [  3 115   3   4   0  56]
+ [  0   0   4   1   4   7]
+ [  2   0   0   5   6  12]
+ [  4   3   1   1   7  12]
+ [ 34  17   7  13   4 179]] 
+Time: 2021-07-16 07:52:07.691873 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 512, 's_mlp_dim': 768, 'p_mlp_dim': 768, 'epoches': 7, 'warming_epoch': 0, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 1, 's_lr': 1e-05, 'b_lr': 3e-05, 'm_lr': 3e-05, 'b_lr_decay_rate': 0.6, 'word_drop_rate': 0.1, 'task_reward': 'logit', 'perfomance_reward_weight': 1, 'ctx_sim_reward_weight': 0.05, 'knowledge_reward_weight': 0.5, 'is_lstm': True, 'threshold': 1}
+ Test F1: 0.6354515050167224
+Sub: True - Mul: FalseT 
+F1: 0.6153846153846154 
+CM: 
+ [[ 93   4   0   0   0  62]
+ [  4 109   0   0   0  68]
+ [  0   1   0   0   0  15]
+ [  1   2   0   0   0  22]
+ [  1   1   0   0   0  26]
+ [ 20  28   0   0   0 206]] 
+Time: 2021-07-16 09:30:18.353081 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 512, 's_mlp_dim': 768, 'p_mlp_dim': 1024, 'epoches': 5, 'warming_epoch': 1, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 5, 's_lr': 5e-05, 'b_lr': 3e-05, 'm_lr': 5e-05, 'b_lr_decay_rate': 0.8, 'word_drop_rate': 0.05, 'task_reward': 'logit', 'perfomance_reward_weight': 0.1, 'ctx_sim_reward_weight': 0.08, 'knowledge_reward_weight': 0.5, 'is_lstm': False, 'threshold': 1}
+ Test F1: 0.4294314381270903
+Sub: False - Mul: TrueT 
+F1: 0.38310708898944196 
+CM: 
+ [[  0   0   0   0   0 159]
+ [  0   0   0   0   0 181]
+ [  0   0   0   0   0  16]
+ [  0   0   0   0   0  25]
+ [  0   0   0   0   0  28]
+ [  0   0   0   0   0 254]] 
+Time: 2021-07-16 10:50:42.248005 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 256, 's_mlp_dim': 768, 'p_mlp_dim': 1024, 'epoches': 7, 'warming_epoch': 1, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 3, 's_lr': 3e-05, 'b_lr': 5e-06, 'm_lr': 1e-05, 'b_lr_decay_rate': 0.4, 'word_drop_rate': 0.1, 'task_reward': 'logit', 'perfomance_reward_weight': 0.1, 'ctx_sim_reward_weight': 0.03, 'knowledge_reward_weight': 1, 'is_lstm': True, 'threshold': 1}
+ Test F1: 0.6153846153846154
+Sub: True - Mul: TrueT 
+F1: 0.6274509803921569 
+CM: 
+ [[117   2   0   0   0  40]
+ [  2 115   1   0   0  63]
+ [  0   1   4   0   0  11]
+ [  4   0   0   1   0  20]
+ [  2   2   0   0   0  24]
+ [ 44  25   1   5   0 179]] 
+Time: 2021-07-16 12:38:39.066045 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 256, 's_mlp_dim': 768, 'p_mlp_dim': 1024, 'epoches': 7, 'warming_epoch': 0, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 5, 's_lr': 3e-05, 'b_lr': 5e-05, 'm_lr': 5e-05, 'b_lr_decay_rate': 0.4, 'word_drop_rate': 0.05, 'task_reward': 'logit', 'perfomance_reward_weight': 0.1, 'ctx_sim_reward_weight': 0.03, 'knowledge_reward_weight': 0.7, 'is_lstm': True, 'threshold': 1}
+ Test F1: 0.65685618729097
+Sub: True - Mul: FalseT 
+F1: 0.6123680241327301 
+CM: 
+ [[122   3   2   0   0  32]
+ [  7 110   2   8   0  54]
+ [  3   0   3   0   1   9]
+ [  2   5   0   2   0  16]
+ [  5   3   1   0   2  17]
+ [ 41  25  12   8   1 167]] 
+Time: 2021-07-16 14:19:37.834343 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 256, 's_mlp_dim': 768, 'p_mlp_dim': 512, 'epoches': 7, 'warming_epoch': 0, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 1, 's_lr': 1e-05, 'b_lr': 3e-05, 'm_lr': 1e-05, 'b_lr_decay_rate': 0.6, 'word_drop_rate': 0.05, 'task_reward': 'logit', 'perfomance_reward_weight': 1, 'ctx_sim_reward_weight': 0.03, 'knowledge_reward_weight': 0.7, 'is_lstm': False, 'threshold': 1}
+ Test F1: 0.5939799331103679
+Sub: False - Mul: FalseT 
+F1: 0.5490196078431373 
+CM: 
+ [[ 85   2   0   0   0  72]
+ [  5  89   0   0   0  87]
+ [  3   1   0   0   0  12]
+ [  2   1   0   0   0  22]
+ [  4   2   0   0   0  22]
+ [ 38  26   0   0   0 190]] 
+Time: 2021-07-16 15:47:45.790663 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 512, 's_mlp_dim': 512, 'p_mlp_dim': 512, 'epoches': 3, 'warming_epoch': 0, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 5, 's_lr': 3e-05, 'b_lr': 1e-05, 'm_lr': 1e-05, 'b_lr_decay_rate': 0.4, 'word_drop_rate': 0.05, 'task_reward': 'logit', 'perfomance_reward_weight': 0.7, 'ctx_sim_reward_weight': 0.01, 'knowledge_reward_weight': 0.5, 'is_lstm': True, 'threshold': 1}
+ Test F1: 0.5953177257525084
+Sub: True - Mul: TrueT 
+F1: 0.6018099547511312 
+CM: 
+ [[102   3   0   0   0  54]
+ [  4 104   0   0   0  73]
+ [  0   3   0   0   0  13]
+ [  3   0   0   0   0  22]
+ [  0   5   0   0   0  23]
+ [ 32  29   0   0   0 193]] 
+Time: 2021-07-16 16:48:03.805214 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 256, 's_mlp_dim': 768, 'p_mlp_dim': 1024, 'epoches': 7, 'warming_epoch': 0, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 5, 's_lr': 3e-05, 'b_lr': 5e-05, 'm_lr': 5e-05, 'b_lr_decay_rate': 0.5, 'word_drop_rate': 0.05, 'task_reward': 'logit', 'perfomance_reward_weight': 0.5, 'ctx_sim_reward_weight': 0.03, 'knowledge_reward_weight': 0.1, 'is_lstm': True, 'threshold': 1}
+ Test F1: 0.6294314381270903
+Sub: False - Mul: FalseT 
+F1: 0.5867269984917044 
+CM: 
+ [[109   0   0   0   0  50]
+ [  8 105   3   0   0  65]
+ [  1   1   4   0   0  10]
+ [  1   0   0   2   0  22]
+ [  3   3   0   0   0  22]
+ [ 46  22  10   7   0 169]] 
+Time: 2021-07-16 18:29:03.743472 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 512, 's_mlp_dim': 512, 'p_mlp_dim': 768, 'epoches': 5, 'warming_epoch': 0, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 3, 's_lr': 1e-05, 'b_lr': 1e-05, 'm_lr': 5e-05, 'b_lr_decay_rate': 0.7, 'word_drop_rate': 0.05, 'task_reward': 'logit', 'perfomance_reward_weight': 0.1, 'ctx_sim_reward_weight': 0.01, 'knowledge_reward_weight': 1, 'is_lstm': True, 'threshold': 1}
+ Test F1: 0.6548494983277592
+Sub: True - Mul: FalseT 
+F1: 0.6349924585218703 
+CM: 
+ [[110   1   1   0   0  47]
+ [  5 125   4   3   1  43]
+ [  1   1   4   1   1   8]
+ [  2   0   0   1   0  22]
+ [  3   1   1   0   3  20]
+ [ 31  23  10  10   2 178]] 
+Time: 2021-07-16 19:48:27.225672 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 512, 's_mlp_dim': 512, 'p_mlp_dim': 768, 'epoches': 5, 'warming_epoch': 0, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 3, 's_lr': 1e-05, 'b_lr': 5e-05, 'm_lr': 5e-05, 'b_lr_decay_rate': 0.4, 'word_drop_rate': 0.05, 'task_reward': 'logit', 'perfomance_reward_weight': 0.1, 'ctx_sim_reward_weight': 0.08, 'knowledge_reward_weight': 0.7, 'is_lstm': True, 'threshold': 1}
+ Test F1: 0.651505016722408
+Sub: True - Mul: FalseT 
+F1: 0.5822021116138764 
+CM: 
+ [[119   9   0   0   0  31]
+ [ 12 136   1   0   0  32]
+ [  1   4   4   0   0   7]
+ [  3   3   0   1   0  18]
+ [  5   7   0   0   0  16]
+ [ 60  53   7   8   0 126]] 
+Time: 2021-07-16 21:07:53.372385 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 256, 's_mlp_dim': 512, 'p_mlp_dim': 768, 'epoches': 5, 'warming_epoch': 0, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 3, 's_lr': 3e-05, 'b_lr': 5e-05, 'm_lr': 5e-05, 'b_lr_decay_rate': 0.7, 'word_drop_rate': 0.05, 'task_reward': 'logit', 'perfomance_reward_weight': 0.1, 'ctx_sim_reward_weight': 0.01, 'knowledge_reward_weight': 1, 'is_lstm': True, 'threshold': 1}
+ Test F1: 0.4294314381270903
+Sub: True - Mul: FalseT 
+F1: 0.38310708898944196 
+CM: 
+ [[  0   0   0   0   0 159]
+ [  0   0   0   0   0 181]
+ [  0   0   0   0   0  16]
+ [  0   0   0   0   0  25]
+ [  0   0   0   0   0  28]
+ [  0   0   0   0   0 254]] 
+Time: 2021-07-16 22:27:12.867380 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 256, 's_mlp_dim': 512, 'p_mlp_dim': 1024, 'epoches': 3, 'warming_epoch': 0, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 3, 's_lr': 3e-05, 'b_lr': 1e-05, 'm_lr': 5e-05, 'b_lr_decay_rate': 0.3, 'word_drop_rate': 0.05, 'task_reward': 'logit', 'perfomance_reward_weight': 0.1, 'ctx_sim_reward_weight': 0.03, 'knowledge_reward_weight': 1, 'is_lstm': True, 'threshold': 1}
+ Test F1: 0.6548494983277592
+Sub: True - Mul: FalseT 
+F1: 0.6168929110105581 
+CM: 
+ [[118   4   0   0   0  37]
+ [  5 123   4   2   0  47]
+ [  0   1   4   0   2   9]
+ [  3   0   0   8   0  14]
+ [  4   2   1   1   1  19]
+ [ 46  24  14  14   1 155]] 
+Time: 2021-07-16 23:26:10.291291 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 512, 's_mlp_dim': 512, 'p_mlp_dim': 1024, 'epoches': 7, 'warming_epoch': 0, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 5, 's_lr': 5e-05, 'b_lr': 1e-05, 'm_lr': 5e-05, 'b_lr_decay_rate': 0.8, 'word_drop_rate': 0.05, 'task_reward': 'logit', 'perfomance_reward_weight': 0.1, 'ctx_sim_reward_weight': 0.01, 'knowledge_reward_weight': 0.1, 'is_lstm': True, 'threshold': 1}
+ Test F1: 0.651505016722408
+Sub: True - Mul: FalseT 
+F1: 0.6138763197586727 
+CM: 
+ [[105   0   0   0   0  54]
+ [  5 110   3   4   0  59]
+ [  1   2   5   1   1   6]
+ [  2   2   0   9   0  12]
+ [  5   1   0   0   1  21]
+ [ 26  24   8  18   1 177]] 
+Time: 2021-07-17 01:06:35.264272 
+
+ -------------------------------------------- 
+roberta-large
+Hypeparameter: 
+{'s_hidden_dim': 256, 's_mlp_dim': 768, 'p_mlp_dim': 768, 'epoches': 5, 'warming_epoch': 0, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 5, 's_lr': 1e-05, 'b_lr': 5e-05, 'm_lr': 3e-05, 'b_lr_decay_rate': 0.5, 'word_drop_rate': 0.05, 'task_reward': 'logit', 'perfomance_reward_weight': 1, 'ctx_sim_reward_weight': 0.03, 'knowledge_reward_weight': 0.7, 'is_lstm': True, 'threshold': 1}
+ Test F1: 0.6254180602006689
+Sub: True - Mul: FalseT 
+F1: 0.6153846153846154 
+CM: 
+ [[109   0   1   0   0  49]
+ [  1  97   3   5   0  75]
+ [  0   1   4   0   0  11]
+ [  1   0   0   3   0  21]
+ [  4   2   0   0   1  21]
+ [ 27  15   8   9   1 194]] 
+Time: 2021-07-17 02:26:36.865773 
