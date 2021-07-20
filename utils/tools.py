@@ -226,9 +226,9 @@ def augment_target(x_sent, y_sent, x_sent_id, y_sent_id, x_possition, y_possitio
     id_right = []
     if x_sent_id < y_sent_id:
         for id in ctx_id:
-            if id not in doc_id.keys():
-                print(doc_id)
-                continue
+            # if id not in doc_id.keys():
+            #     print(doc_id)
+            #     continue
             assert doc_id[id] != x_sent_id
             assert doc_id[id] != y_sent_id
             if doc_id[id] < x_sent_id:
@@ -239,9 +239,9 @@ def augment_target(x_sent, y_sent, x_sent_id, y_sent_id, x_possition, y_possitio
                 id_cent.append(id)
     elif x_sent_id == y_sent_id:
         for id in ctx_id:
-            if id not in doc_id.keys():
-                print(doc_id)
-                continue
+            # if id not in doc_id.keys():
+            #     print(doc_id)
+            #     continue
             assert doc_id[id] != x_sent_id
             assert doc_id[id] != y_sent_id
             assert x_sent == y_sent
@@ -251,9 +251,9 @@ def augment_target(x_sent, y_sent, x_sent_id, y_sent_id, x_possition, y_possitio
                 id_right.append(id)
     else:
         for id in ctx_id:
-            if id not in doc_id.keys():
-                print(doc_id)
-                continue
+            # if id not in doc_id.keys():
+            #     print(doc_id)
+            #     continue
             assert doc_id[id] != x_sent_id
             assert doc_id[id] != y_sent_id
             if doc_id[id] < y_sent_id:
