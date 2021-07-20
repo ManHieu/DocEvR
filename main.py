@@ -1,5 +1,7 @@
 import datetime
 from math import log
+
+from numpy.lib.twodim_base import tri
 from exp import EXP
 from utils.constant import CUDA
 from models.predictor_model import ECIRobertaJointTask
@@ -29,13 +31,17 @@ def collate_fn(batch):
     
 def objective(trial: optuna.Trial):
     params = {
-        's_hidden_dim': trial.suggest_categorical('s_hidden_dim', [256, 512]),
+        's_hidden_dim': 256,
+        # trial.suggest_categorical('s_hidden_dim', [256, 512]),
         # 512,
-        's_mlp_dim': trial.suggest_categorical("s_mlp_dim", [512, 768]),
+        's_mlp_dim': 768,
+        # trial.suggest_categorical("s_mlp_dim", [512, 768]),
         # 512,
-        'p_mlp_dim': trial.suggest_categorical("p_mlp_dim", [512, 768, 1024]),
+        'p_mlp_dim': 512,
+        # trial.suggest_categorical("p_mlp_dim", [512, 768, 1024]),
         # 512, 
-        "epoches": trial.suggest_categorical("epoches", [3, 5, 7]),
+        "epoches": 5,
+        # trial.suggest_categorical("epoches", [3, 5, 7]),
         "warming_epoch": trial.suggest_categorical("warming_epoch", [0, 1]),
         "task_weights": {
             '1': 1, # 1 is HiEve
@@ -44,19 +50,27 @@ def objective(trial: optuna.Trial):
             '4': 1, # 4 is TBD
         },
         'num_ctx_select': trial.suggest_categorical("num_ctx_select", [1, 3, 5]),
-        's_lr': trial.suggest_categorical("s_lr", [1e-5, 3e-5, 5e-5]),
-        'b_lr': trial.suggest_categorical("b_lr", [3e-6, 5e-6, 8e-6, 1e-5, 3e-5]),
-        'm_lr': trial.suggest_categorical("m_lr", [1e-5, 3e-5, 5e-5]),
-        'b_lr_decay_rate': trial.suggest_categorical("b_lr_decay_rate", [0.3, 0.4, 0.5, 0.6, 0.7, 0.8]),
+        's_lr': 3e-5,
+        # trial.suggest_categorical("s_lr", [1e-5, 3e-5, 5e-5]),
+        'b_lr': trial.suggest_categorical("b_lr", [5e-6, 7e-6, 1e-5]),
+        'm_lr': 3e-5,
+        # trial.suggest_categorical("m_lr", [1e-5, 3e-5, 5e-5]),
+        'b_lr_decay_rate': trial.suggest_categorical("b_lr_decay_rate", [0.6, 0.7, 0.8]),
         'word_drop_rate': trial.suggest_categorical("word_drop_rate", [0.05, 0.1]),
         'task_reward': trial.suggest_categorical('task_reward', ['logit']),
-        'perfomance_reward_weight': trial.suggest_categorical('perfomance_reward_weight', [0.1, 0.5, 0.7, 1]),
-        'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight', [0.01, 0.03, 0.05, 0.08]),
-        'knowledge_reward_weight': trial.suggest_categorical('knowledge_reward_weight', [0.1, 0.5, 0.7, 1]), 
+        'perfomance_reward_weight': trial.suggest_categorical('perfomance_reward_weight', [0.1, 0.5, 1]),
+        'ctx_sim_reward_weight': 0.05,
+        # trial.suggest_categorical('ctx_sim_reward_weight', [0.01, 0.03, 0.05, 0.08]),
+        'knowledge_reward_weight': trial.suggest_categorical('knowledge_reward_weight', [0.5, 0.7]), 
         'is_lstm': trial.suggest_categorical("is_lstm", [True, False]), 
-        'threshold': 1
+        'threshold': 1,
         # np.log(5) * trial.suggest_categorical('threshold', [0.6, 0.7, 0.8])
+        'seed': trial.suggest_int('seed', 0, 1000)
     }
+    seed = params['seed']
+    torch.manual_seed(seed=seed)
+    np.random.seed(seed)
+    random.seed(seed)
 
     num_select = params['num_ctx_select']
 
@@ -91,7 +105,7 @@ def objective(trial: optuna.Trial):
     train_dataloader = DataLoader(EventDataset(train_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
 
     drop_rate = 0.5
-    fn_activative = 'relu6'
+    fn_activative = trial.suggest_categorical('fn_activate', ['relu', 'tanh', 'relu6', 'silu', 'hardtanh'])
     is_mul = trial.suggest_categorical('is_mul', [True, False])
     is_sub = trial.suggest_categorical('is_sub', [True, False])
 
@@ -125,10 +139,10 @@ def objective(trial: optuna.Trial):
         f.write("{}\n".format(roberta_type))
         f.write("Hypeparameter: \n{}\n ".format(params))
         f.write("Test F1: {}\n".format(test_f1))
-        # f.write("Seed: {}\n".format(seed))
+        f.write("Seed: {}\n".format(seed))
         # f.write("Drop rate: {}\n".format(drop_rate))
         # f.write("Batch size: {}\n".format(batch_size))
-        # f.write("Activate function: {}\n".format(fn_activative))
+        f.write("Activate function: {}\n".format(fn_activative))
         f.write("Sub: {} - Mul: {}".format(is_sub, is_mul))
         # f.write("\n Best F1 MATRES: {} \n".format(matres_F1))
         for i in range(0, len(datasets)):
@@ -153,7 +167,7 @@ def objective(trial: optuna.Trial):
 
 if __name__ == '__main__':
     parser = ArgumentParser(formatter_class=ArgumentDefaultsHelpFormatter)
-    parser.add_argument('--seed', help='SEED', default=1741, type=int)
+    # parser.add_argument('--seed', help='SEED', default=1741, type=int)
     parser.add_argument('--dataset', help="Name of dataset", action='append', required=True)
     parser.add_argument('--roberta_type', help="base or large", default='roberta-base', type=str)
     parser.add_argument('--best_path', help="Path for save model", type=str)
@@ -162,7 +176,7 @@ if __name__ == '__main__':
     # parser.add_argument('--num_select', help='number of select sentence', default=3, type=int)
 
     args = parser.parse_args()
-    seed = args.seed
+    # seed = args.seed
     datasets = args.dataset
     print(datasets)
     roberta_type  = args.roberta_type
@@ -173,10 +187,6 @@ if __name__ == '__main__':
     # num_select = args.num_select
 
     pre_processed_dir = "./" + "_".join(datasets) + "/"
-
-    torch.manual_seed(seed=seed)
-    np.random.seed(seed)
-    random.seed(seed)
 
     study = optuna.create_study(direction='maximize')
     study.optimize(objective, n_trials=100)

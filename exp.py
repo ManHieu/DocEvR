@@ -3,6 +3,7 @@ import numpy
 from numpy.lib.function_base import select
 from sklearn.metrics import precision_recall_fscore_support, confusion_matrix, classification_report
 import tqdm
+from transformers.utils.dummy_pt_objects import BartForCausalLM
 from models.predictor_model import ECIRobertaJointTask
 from models.selector_model import LSTMSelector, SelectorModel
 import time
@@ -382,7 +383,8 @@ class EXP(object):
         best_f1_mastres = 0.0
         corpus_labels = {
             "MATRES": 4,
-            "TBD": 6
+            "TBD": 6,
+            "HiEve": 4
         }
         for i in range(0, len(self.test_dataloaders)):
             dataset = self.datasets[i]
@@ -468,14 +470,21 @@ class EXP(object):
                 pred.extend(y_pred)
 
             CM = confusion_matrix(gold, pred)
-            if dataset not in  ["MATRES"]:
-                P, R, F1 = precision_recall_fscore_support(gold, pred, average='micro')[0:3]
+            if dataset == "MATRES":
+                # no eval in vague
+                num_label = corpus_labels[dataset]
+                true = sum([CM[i, i] for i in range(num_label-1)])
+                sum_pred = sum([CM[i, 0:(num_label-1)].sum() for i in range(num_label)])
+                sum_gold = sum([CM[i].sum() for i in range(num_label-1)])
+                P = true / sum_pred
+                R = true / sum_gold
+                F1 = 2 * P * R / (P + R)
                 print("  P: {0:.3f}".format(P))
                 print("  R: {0:.3f}".format(R))
                 print("  F1: {0:.3f}".format(F1))
                 print("  Confusion Matrix")
                 print(CM)
-                print("Classification report: \n {}".format(classification_report(gold, pred)))
+                print("Classification report: \n {}".format(classification_report(gold, pred)))          
             elif dataset == "HiEve":
                 num_label = corpus_labels[dataset]
                 true = sum([CM[i, i] for i in range(2)])
@@ -489,16 +498,9 @@ class EXP(object):
                 print("  F1: {0:.3f}".format(F1))
                 print("  Confusion Matrix")
                 print(CM)
-                print("Classification report: \n {}".format(classification_report(gold, pred)))
+                print("Classification report HiEve: \n {}".format(classification_report(gold, pred)))
             else:
-                # no eval in vague
-                num_label = corpus_labels[dataset]
-                true = sum([CM[i, i] for i in range(num_label-1)])
-                sum_pred = sum([CM[i, 0:(num_label-1)].sum() for i in range(num_label)])
-                sum_gold = sum([CM[i].sum() for i in range(num_label-1)])
-                P = true / sum_pred
-                R = true / sum_gold
-                F1 = 2 * P * R / (P + R)
+                P, R, F1 = precision_recall_fscore_support(gold, pred, average='micro')[0:3]
                 print("  P: {0:.3f}".format(P))
                 print("  R: {0:.3f}".format(R))
                 print("  F1: {0:.3f}".format(F1))
