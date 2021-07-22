@@ -44,6 +44,7 @@ class SelectorModel(nn.Module):
     def encode(self, input_ids):
         return self.encoder(input_ids)[0][:, 0]
 
+
 class LSTMSelector(nn.Module):
     def __init__(self, in_dim, hidden_dim, mlp_dim, fn_activate='tanh'):
         super().__init__()
@@ -122,4 +123,3 @@ class LSTMSelector(nn.Module):
             lstm_state = (h, c)
         
         return outputs, dist, log_probs
-

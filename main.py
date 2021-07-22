@@ -52,8 +52,7 @@ def objective(trial: optuna.Trial):
         },
         'num_ctx_select': 5,
         # trial.suggest_categorical("num_ctx_select", [1, 3, 5]),
-        's_lr': 5e-5,
-        # trial.suggest_categorical("s_lr", [1e-5, 3e-5, 5e-5]),
+        's_lr': trial.suggest_categorical("s_lr", [1e-5, 3e-5, 5e-5]),
         'b_lr': 7e-6,
         # trial.suggest_categorical("b_lr", [5e-6, 7e-6, 1e-5]),
         'm_lr': 3e-5,
@@ -63,10 +62,9 @@ def objective(trial: optuna.Trial):
         'word_drop_rate': 0.05,
         # trial.suggest_categorical("word_drop_rate", [0.05, 0.1]),
         'task_reward': trial.suggest_categorical('task_reward', ['logit']),
-        'perfomance_reward_weight': 0.0, 
+        'perfomance_reward_weight': 0.5, 
         # trial.suggest_categorical('perfomance_reward_weight', [0.1, 0.5, 1]),
-        'ctx_sim_reward_weight': 0.03,
-        # trial.suggest_categorical('ctx_sim_reward_weight', [0.01, 0.03, 0.05, 0.08]),
+        'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight', [0.01, 0.03, 0.05, 0.08]),
         'knowledge_reward_weight': 0.7,
         # trial.suggest_categorical('knowledge_reward_weight', [0.5, 0.7]), 
         'is_lstm': False,
@@ -114,9 +112,12 @@ def objective(trial: optuna.Trial):
     train_dataloader = DataLoader(EventDataset(train_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
 
     drop_rate = 0.5
-    fn_activative = trial.suggest_categorical('fn_activate', ['relu', 'tanh', 'relu6', 'silu', 'hardtanh'])
-    is_mul = trial.suggest_categorical('is_mul', [True, False])
-    is_sub = trial.suggest_categorical('is_sub', [True, False])
+    fn_activative = 'relu6'
+    # trial.suggest_categorical('fn_activate', ['relu', 'tanh', 'relu6', 'silu', 'hardtanh'])
+    is_mul = True
+    # trial.suggest_categorical('is_mul', [True, False])
+    is_sub = True
+    # trial.suggest_categorical('is_sub', [True, False])
 
     print("Hyperparameter will be use in this trial: \n {}".format(params))
     

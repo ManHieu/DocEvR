@@ -50,8 +50,6 @@ class ECIRobertaJointTask(nn.Module):
                 self.is_pos_emb = False
                 self.mlp_in = self.roberta_dim + kg_emb_dim
         self.mlp_size = mlp_size
-        # self.s_attn = nn.MultiheadAttention(self.mlp_in, n_head)
-
         self.drop_out = nn.Dropout(drop_rate)
         if fn_activate=='relu':
             self.relu = nn.LeakyReLU(negative_slope, True)
@@ -134,7 +132,7 @@ class ECIRobertaJointTask(nn.Module):
                     fc1 = nn.Linear(self.mlp_in*2, int(self.mlp_size))
                     fc2 = nn.Linear(int(self.mlp_size), num_classes)
                 
-                weights = [3066.0/660, 3066.0/461, 3066.0/1945,]
+                weights = [213.0/368, 213.0/213, 213.0/1013]
                 weights = torch.tensor(weights)
                 loss = nn.CrossEntropyLoss(weight=weights)
 
@@ -201,31 +199,18 @@ class ECIRobertaJointTask(nn.Module):
         output_A = torch.cat([output_A, x_kg_ev_emb], dim= 1)
         output_B = torch.cat([output[i, y_position[i], :].unsqueeze(0) for i in range(0, batch_size)])
         output_B = torch.cat([output_B, y_kg_ev_emb], dim=1)
-        # print(output_B.size())
-        # x, _ = self.s_attn(output_A.unsqueeze(0), output.transpose(0,1), output.transpose(0,1))
-        # x = x.squeeze(0)
-        # y, _ = self.s_attn(output_B.unsqueeze(0), output.transpose(0,1), output.transpose(0,1))
-        # y = y.squeeze(0)
         
         if self.sub and self.mul:
             sub = torch.sub(output_A, output_B)
             mul = torch.mul(output_A, output_B)
-            # sub_s = torch.sub(x, y)
-            # mul_s = torch.mul(x, y)
             presentation = torch.cat([output_A, output_B, sub, mul], 1)
         if self.sub==True and self.mul==False:
             sub = torch.sub(output_A, output_B)
-            # sub_s = torch.sub(x, y)
-            # mul_s = torch.mul(x, y)
             presentation = torch.cat([output_A, output_B, sub], 1)
         if self.sub==False and self.mul==True:
             mul = torch.mul(output_A, output_B)
-            # sub_s = torch.sub(x, y)
-            # mul_s = torch.mul(x, y)
             presentation = torch.cat([output_A, output_B, mul], 1)
         if self.sub==False and self.mul==False:
-            # sub_s = torch.sub(x, y)
-            # mul_s = torch.mul(x, y)
             presentation = torch.cat([output_A, output_B], 1)
     
         loss = 0.0

@@ -265,27 +265,27 @@ def augment_target(x_sent, y_sent, x_sent_id, y_sent_id, x_possition, y_possitio
     
     sent_left = []
     for id in sorted(id_left):
-        sent_left += ctx[id][1:]
+        sent_left += ctx[id][1:-1]
     sent_cent = []
     for id in sorted(id_cent):
-        sent_cent += ctx[id][1:]
+        sent_cent += ctx[id][1:-1]
     sent_right = []
     for id in sorted(id_right):
         sent_right += ctx[id][1:]
     
     sent = []
     if x_sent_id < y_sent_id:
-        sent = [0] + sent_left + x_sent[1:] + sent_cent + y_sent[1:] + sent_right
-        x_possition_new = x_possition + len(sent_left)
-        y_possition_new = len(sent_left) + len(x_sent[1:]) + len(sent_cent) + y_possition
+        sent = [0] + sent_left + [2] + x_sent[1:] + sent_cent + [2] + y_sent[1:] + sent_right
+        x_possition_new = 1 + x_possition + len(sent_left)
+        y_possition_new = 1 + len(sent_left) + len(x_sent) + len(sent_cent) + y_possition
     elif x_sent_id == y_sent_id:
-        sent = [0] + sent_left + x_sent[1:] + sent_right
-        x_possition_new = x_possition + len(sent_left)
-        y_possition_new = y_possition + len(sent_left)
+        sent = [0] + sent_left + [2] + x_sent[1:] + sent_right
+        x_possition_new = 1 + x_possition + len(sent_left)
+        y_possition_new = 1 + y_possition + len(sent_left)
     else:
-        sent = [0] + sent_left + y_sent[1:] + sent_cent + x_sent[1:] + sent_right
-        y_possition_new = y_possition + len(sent_left)
-        x_possition_new = len(sent_left) + len(y_sent[1:]) + len(sent_cent) + x_possition
+        sent = [0] + sent_left + [2] + y_sent[1:] + sent_cent + [2] + x_sent[1:] + sent_right
+        y_possition_new = 1 + y_possition + len(sent_left)
+        x_possition_new = 1 + len(sent_left) + len(y_sent) + len(sent_cent) + x_possition
     
     assert sent[x_possition_new] == x_sent[x_possition]
     assert sent[y_possition_new] == y_sent[y_possition]

@@ -1,10 +1,6 @@
 from collections import defaultdict
-import json
 import pickle
-from time import time
-from models.encode_augm_sent_model import SentenceEncoder
 import os
-from utils.constant import CUDA
 import tqdm
 import random
 import torch
@@ -12,7 +8,7 @@ from itertools import combinations
 from data_loader.reader import i2b2_xml_reader, tbd_tml_reader, tml_reader, tsvx_reader
 from utils.tools import create_target, padding, pos_to_id
 from sklearn.model_selection import train_test_split
-from models.encode_augm_sent_model import SentenceEncoder
+from utils.SentenceEncoder import SentenceEncoder
 import gc
 
 
@@ -47,12 +43,12 @@ class C2V(object):
             self.c2v[concept] = emb
 
     def get_emb(self, concept):
-        cp = "_".join(concept.split(" ")).lower()
+        _concept = "_".join(concept.split(" ")).lower()
         # print(cp)
         try:
-            return self.c2v[concept]
+            return self.c2v[_concept]
         except:
-            return [0]*300
+            return [0.0]*300
 
 
 def load_dataset(dir_name, type):
@@ -78,11 +74,9 @@ def load_dataset(dir_name, type):
 
 def loader(dataset, min_ns):
     sent_encoder = SentenceEncoder('roberta-base')
-    if CUDA:
-        sent_encoder = sent_encoder.cuda()
     c2v = C2V('./datasets/numberbatch-en-19.08.txt')
-
     def get_data_point(my_dict, flag):
+        
         data = []
         eids = my_dict['event_dict'].keys()
         pair_events = list(combinations(eids, 2))
@@ -101,8 +95,6 @@ def loader(dataset, min_ns):
                 ctx_id.remove(x_sent_id)
             id_augm = [tuple(sorted([x_sent_id, y_sent_id, id])) for id in ctx_id]
             ctx_id_augm.extend(id_augm)
-        # print(ctx_id_augm)
-        # print(len(ctx_id_augm))
         ctx_id_augm = list(set(ctx_id_augm))
         # print(len(ctx_id_augm))
 
@@ -114,24 +106,24 @@ def loader(dataset, min_ns):
             for id in ids:
                 sent = sent + my_dict["sentences"][id]["roberta_subword_to_ID"][1:]
             sent = [0] + sent
-            pad, mask = padding(sent, max_sent_len=256)
+            pad, mask = padding(sent, max_sent_len=229)
             ctx_augm.append(pad)
             ctx_augm_mask.append(mask)
         # print(len(ctx_augm))
-        _augm_emb = sent_encoder(ctx_augm, ctx_augm_mask)[:, 0]
+        _augm_emb = sent_encoder.encode(ctx_augm, ctx_augm_mask, is_ctx=True)
         _ctx_augm_emb = {}
         for i in range(len(ctx_id_augm)):
             # print(_augm_emb[i].size())
             _ctx_augm_emb[ctx_id_augm[i]] = _augm_emb[i]
-        
+
         doc = []
         doc_mask = []
         for sent_id in list(range(len( my_dict["sentences"]))):
             sent = my_dict["sentences"][sent_id]["roberta_subword_to_ID"]
-            pad, mask = padding(sent, max_sent_len=256)
+            pad, mask = padding(sent, max_sent_len=229)
             doc.append(pad)
             doc_mask.append(mask)
-        doc_emb = sent_encoder(doc, doc_mask)
+        doc_emb = sent_encoder.encode(doc, doc_mask)
 
         sent_ev = defaultdict(list)
         sent_ev_ids = defaultdict(list)
@@ -166,7 +158,7 @@ def loader(dataset, min_ns):
             y_sent_pos = pos_to_id(my_dict["sentences"][y_sent_id]["roberta_subword_pos"])
             
             target, x_position_new, y_position_new = create_target(x_sent, y_sent, x_sent_id, y_sent_id, x_position, y_position)
-            target_encode = sent_encoder(target)
+            target_encode = sent_encoder.encode(target)
             target_emb = target_encode[:, 0].squeeze()
             target_len = len(target)
 
@@ -178,11 +170,11 @@ def loader(dataset, min_ns):
             # print(x_kg_ev_emb)
 
             ctx = []
-            ctx_emb = []
+            _ctx_emb = []
             ctx_pos = []
             ctx_len = []
-            ctx_ev_embs = []
-            ctx_ev_kg_embs = []
+            _ctx_ev_embs = []
+            _ctx_ev_kg_embs = []
             ctx_id = list(range(len( my_dict["sentences"])))
             num_ev_sents = []
             if  x_sent_id != y_sent_id:
@@ -202,32 +194,30 @@ def loader(dataset, min_ns):
                     ctx_len.append(len(sent))
                     sent_emb = _ctx_augm_emb[tuple(sorted([x_sent_id, y_sent_id, sent_id]))]
                     assert sent_emb != None
-                    ctx_emb.append(sent_emb)
+                    _ctx_emb.append(sent_emb)
                     e_possitions = sent_ev[sent_id]
                     num_ev_sents.append(len(e_possitions))
                     if len(e_possitions) != 0:
                         ev_embs = torch.max(doc_emb[sent_id, e_possitions, :], dim=0)[0] # 768
-                        # print(ev_embs.unsqueeze(0).size())
-                        ctx_ev_embs.append(ev_embs)
+                        _ctx_ev_embs.append(ev_embs)
 
                     eids = sent_ev_ids[sent_id]
                     # print(eids)
                     if len(eids) != 0:
                         sent_ev_kg_emb = [ev_kg_emb[eid] for eid in eids]
-                        # print(sent_ev_kg_emb)
                         # print("before: ", torch.tensor(sent_ev_kg_emb))
                         sent_ev_kg_emb = torch.max(torch.tensor(sent_ev_kg_emb), dim=0)[0] # 300
                         # print("max: ", sent_ev_kg_emb)
-                        ctx_ev_kg_embs.append(sent_ev_kg_emb)
+                        _ctx_ev_kg_embs.append(sent_ev_kg_emb)
                     else:
                         # print("Sent no ev")
-                        ctx_ev_embs.append(torch.ones(768)*-1000.0)
-                        ctx_ev_kg_embs.append(torch.ones(300)*-1000.0)
+                        _ctx_ev_embs.append(torch.ones(768)*-1000.0)
+                        _ctx_ev_kg_embs.append(torch.ones(300)*-1000.0)
                     i = i + 1
                 # print(ctx_ev_kg_embs)
-                ctx_ev_kg_embs =torch.stack(ctx_ev_kg_embs, dim=0)
-                ctx_ev_embs = torch.stack(ctx_ev_embs, dim=0)
-                ctx_emb = torch.stack(ctx_emb, dim=0) # ns x 768
+                ctx_ev_kg_embs =torch.stack(_ctx_ev_kg_embs, dim=0)
+                ctx_ev_embs = torch.stack(_ctx_ev_embs, dim=0)
+                ctx_emb = torch.stack(_ctx_emb, dim=0) # ns x 768
             # print(ctx_emb.size())
             xy = my_dict["relation_dict"].get((x, y))
             yx = my_dict["relation_dict"].get((y, x))
@@ -241,8 +231,14 @@ def loader(dataset, min_ns):
             for item in candidates:
                 if item[-1] != None:
                     data.append(item)
+        del _ctx_ev_kg_embs
+        del _ctx_ev_embs
+        del _ctx_emb
+        del ev_kg_emb
+        del _ctx_augm_emb
+        gc.collect()
         return data
-           
+
     train_set = []
     train_short = []
     test_set = []
@@ -314,7 +310,7 @@ def loader(dataset, min_ns):
         print("Train_size: {}".format(len(train_short)))
         print("Test_size: {}".format(len(test_short)))
         print("Validate_size: {}".format(len(validate_short)))
-        
+    
     if dataset == "HiEve":
         print("HiEve Loading .....")
         dir_name = "./datasets/hievents_v2/processed/"
@@ -527,10 +523,7 @@ def loader(dataset, min_ns):
         print("Train_size: {}".format(len(train_short)))
         print("Test_size: {}".format(len(test_short)))
         print("Validate_size: {}".format(len(validate_short)))
-    try:
-        del sent_encoder
-        gc.collect()
-    except:
-        pass
+    
+    del sent_encoder
+    gc.collect()
     return train_set, test_set, validate_set, train_short, test_short, validate_short
-        

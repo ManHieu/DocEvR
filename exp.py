@@ -1,6 +1,5 @@
 from os import path
 import numpy
-from numpy.lib.function_base import select
 from sklearn.metrics import precision_recall_fscore_support, confusion_matrix, classification_report
 import tqdm
 from transformers.utils.dummy_pt_objects import BartForCausalLM
@@ -59,7 +58,6 @@ class EXP(object):
         self.train_roberta_epoch = train_lm_epoch
         self.warmup_proportion = warmup_proportion
         self.word_drop_rate = word_drop_rate
-
         mlp = ['fc1', 'fc2', 'lstm', 'pos_emb', 's_attn']
         no_decay = ['bias', 'gamma', 'beta']
         group1=['layer.0.','layer.1.','layer.2.','layer.3.','layer.4.','layer.5.']
@@ -527,3 +525,4 @@ class EXP(object):
             if self.best_f1_test < F1:
                 self.best_f1_test = F1
         return F1s
+        
