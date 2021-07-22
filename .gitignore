@@ -7,3 +7,12 @@ models/__pycache__
 log
 data_loader/__pycache__
 __pycache__
+datasets/numberbatch-en-19.08.txt
+datasets/hievents_v2/processed/docEvR_processed_kg/
+datasets/i2b2_2012/docEvR_processed_kg.zip
+datasets/i2b2_2012/docEvR_processed_kg/
+datasets/MATRES/docEvR_processed/
+datasets/MATRES/docEvR_processed_ctx_sim/
+datasets/MATRES/docEvR_processed_kg/
+datasets/TimeBank-dense/docEvR_processed_kg/
+datasets/TimeBank-dense/docEvR_processed_kg.zip
