@@ -1,4 +1,7 @@
 import datetime
+from math import log
+
+from numpy.lib.twodim_base import tri
 from exp import EXP
 from utils.constant import CUDA
 from models.predictor_model import ECIRobertaJointTask
@@ -28,127 +31,56 @@ def collate_fn(batch):
     
 def objective(trial: optuna.Trial):
     params = {
-        's_hidden_dim': trial.suggest_categorical('s_hidden_dim', [256, 512]),
+        's_hidden_dim': 512,
+        # trial.suggest_categorical('s_hidden_dim', [256, 512]),
         # 512,
-        's_mlp_dim': trial.suggest_categorical("s_mlp_dim", [256, 512, 768]),
+        's_mlp_dim': 512,
+        # trial.suggest_categorical("s_mlp_dim", [512, 768]),
         # 512,
-        'p_mlp_dim': trial.suggest_categorical("p_mlp_dim", [512, 768, 1024]),
+        'p_mlp_dim': 1024,
+        # trial.suggest_categorical("p_mlp_dim", [512, 768, 1024]),
         # 512, 
-        'n_head': 16,
-        "epoches": 5,
-        "warming_epoch": trial.suggest_categorical("warming_epoch", [0, 1, 2, 3]),
+        "epoches": 3,
+        # trial.suggest_categorical("epoches", [3, 5, 7]),
+        "warming_epoch": 1,
+        # trial.suggest_categorical("warming_epoch", [0, 1]),
         "task_weights": {
             '1': 1, # 1 is HiEve
             '2': 1, # 2 is MATRES.
-            # '3': trial.suggest_float('I2B2_weight', 0.4, 1, step=0.2),
+            '3': 1, # 3 is I2B2
+            '4': 1, # 4 is TBD
         },
-        'num_ctx_select': num_select,
-        's_lr': trial.suggest_categorical("s_lr", [5e-6, 1e-5, 5e-5, 1e-4]),
-        'b_lr': trial.suggest_categorical("p_lr", [1e-7, 5e-7, 1e-6]),
-        'm_lr': trial.suggest_categorical("m_lr", [5e-6, 1e-5, 5e-5, 1e-4]),
-        'b_lr_decay_rate': 0.5,
+        'num_ctx_select': 5,
+        # trial.suggest_categorical("num_ctx_select", [1, 3, 5]),
+        's_lr': trial.suggest_categorical("s_lr", [1e-5, 3e-5, 5e-5]),
+        'b_lr': 7e-6,
+        # trial.suggest_categorical("b_lr", [5e-6, 7e-6, 1e-5]),
+        'm_lr': 3e-5,
+        # trial.suggest_categorical("m_lr", [1e-5, 3e-5, 5e-5]),
+        'b_lr_decay_rate': 0.3,
+        # trial.suggest_categorical("b_lr_decay_rate", [0.6, 0.7, 0.8]),
         'word_drop_rate': 0.05,
-        'task_reward': trial.suggest_categorical('task_reward', ['f1', 'logit'])
-        # trial.suggest_categorical("word_drop_rate", [0.05, 0.01, 0.1])
+        # trial.suggest_categorical("word_drop_rate", [0.05, 0.1]),
+        'task_reward': trial.suggest_categorical('task_reward', ['logit']),
+        'perfomance_reward_weight': 0.5, 
+        # trial.suggest_categorical('perfomance_reward_weight', [0.1, 0.5, 1]),
+        'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight', [0.01, 0.03, 0.05, 0.08]),
+        'knowledge_reward_weight': 0.7,
+        # trial.suggest_categorical('knowledge_reward_weight', [0.5, 0.7]), 
+        'is_lstm': False,
+        # trial.suggest_categorical("is_lstm", [True, False]), 
+        'threshold': 1,
+        # np.log(5) * trial.suggest_categorical('threshold', [0.6, 0.7, 0.8])
+        'seed': 1741
+        # trial.suggest_int('seed', 0, 1000)
     }
-
-    drop_rate = 0.5
-    fn_activative = 'relu6'
-    is_mul = True
-    # trial.suggest_categorical('is_mul', [True, False])
-    is_sub = True
-    # trial.suggest_categorical('is_sub', [True, False])
-
-    print("Hyperparameter will be use in this trial: \n {}".format(params))
-    
-    selector = LSTMSelector(768, params['s_hidden_dim'], params['s_mlp_dim'])
-    predictor =ECIRobertaJointTask(mlp_size=params['p_mlp_dim'], roberta_type=roberta_type, datasets=datasets, pos_dim=20, 
-                                    fn_activate=fn_activative, drop_rate=drop_rate, task_weights=None, n_head=params['n_head'])
-    
-    if CUDA:
-        selector = selector.cuda()
-        predictor = predictor.cuda()
-    selector.zero_grad()
-    predictor.zero_grad()
-    print("# of parameters:", count_parameters(selector) + count_parameters(predictor))
-    epoches = params['epoches'] + 5
-    total_steps = len(train_dataloader) * epoches
-    print("Total steps: [number of batches] x [number of epochs] =", total_steps)
-
-    exp = EXP(selector, predictor, epoches, params['num_ctx_select'], train_dataloader, validate_dataloaders, test_dataloaders,
-            train_short_dataloader, test_short_dataloaders, validate_short_dataloaders, 
-            params['s_lr'], params['b_lr'], params['m_lr'], params['b_lr_decay_rate'],  params['epoches'], params['warming_epoch'],
-            best_path, word_drop_rate=params['word_drop_rate'], reward=[params['task_reward']])
-    F1, CM, matres_F1 = exp.train()
-    exp.evaluate(is_test=True)
-    print("Result: Best micro F1 of interaction: {}".format(F1))
-    with open(result_file, 'a', encoding='UTF-8') as f:
-        f.write("\n -------------------------------------------- \n")
-        f.write("MLP_lr for no bert layers")
-        f.write("Hypeparameter: {}\n ".format(params))
-        # f.write("Seed: {}\n".format(seed))
-        # f.write("Drop rate: {}\n".format(drop_rate))
-        # f.write("Batch size: {}\n".format(batch_size))
-        # f.write("Activate function: {}\n".format(fn_activative))
-        f.write("Sub: {} - Mul: {}".format(is_sub, is_mul))
-        f.write("\n Best F1 MATRES: {} \n".format(matres_F1))
-        for i in range(0, len(datasets)):
-            f.write("{} \n".format(dataset[i]))
-            f.write("F1: {} \n".format(F1[i]))
-            f.write("CM: \n {} \n".format(CM[i]))
-        f.write("Time: {} \n".format(datetime.datetime.now()))
-    
-    del selector
-    del predictor
-    del exp
-    gc.collect()
-
-    return matres_F1
-
-
-if __name__ == '__main__':
-    parser = ArgumentParser(formatter_class=ArgumentDefaultsHelpFormatter)
-    parser.add_argument('--seed', help='SEED', default=1741, type=int)
-    parser.add_argument('--dataset', help="Name of dataset", action='append', required=True)
-    parser.add_argument('--roberta_type', help="base or large", default='roberta-base', type=str)
-    parser.add_argument('--best_path', help="Path for save model", type=str)
-    parser.add_argument('--log_file', help="Path of log file", type=str)
-    parser.add_argument('--bs', help='batch size', default=16, type=int)
-    parser.add_argument('--num_select', help='number of select sentence', default=3, type=int)
-
-    args = parser.parse_args()
-    seed = args.seed
-    datasets = args.dataset
-    roberta_type  = args.roberta_type
-    best_path = args.best_path
-    best_path = [best_path+"selector.pth", best_path+"predictor.pth"]
-    result_file = args.log_file
-    batch_size = args.bs
-    num_select = args.num_select
-
-    pre_processed_dir = "./" + "_".join(datasets) + "/"
-
+    seed = params['seed']
     torch.manual_seed(seed=seed)
     np.random.seed(seed)
     random.seed(seed)
 
-    # if os.path.exists(pre_processed_dir):
-    #     with open(pre_processed_dir + "train_dataloader.pkl", 'rb') as f:
-    #         train_dataloader = pickle.load(f)
-    #     with open(pre_processed_dir + "train_short_dataloader.pkl", 'rb') as f:
-    #         train_short_dataloader = pickle.load(f)
+    num_select = params['num_ctx_select']
 
-    #     with open(pre_processed_dir + "validate_dataloaders.pkl", 'rb') as f:
-    #         validate_dataloaders = pickle.load(f)
-    #     with open(pre_processed_dir + "validate_short_dataloaders.pkl", 'rb') as f:
-    #         validate_short_dataloaders = pickle.load(f)
-
-    #     with open(pre_processed_dir + "test_dataloaders.pkl", 'rb') as f:
-    #         test_dataloaders = pickle.load(f)
-    #     with open(pre_processed_dir + "test_short_dataloaders.pkl", 'rb') as f:
-    #         test_short_dataloaders = pickle.load(f)
-
-    # if not os.path.exists(pre_processed_dir):
     train_set = []
     train_short_set = []
     validate_dataloaders = {}
@@ -178,24 +110,93 @@ if __name__ == '__main__':
     else:
         train_short_dataloader = DataLoader(EventDataset(train_short_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
     train_dataloader = DataLoader(EventDataset(train_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+
+    drop_rate = 0.5
+    fn_activative = 'relu6'
+    # trial.suggest_categorical('fn_activate', ['relu', 'tanh', 'relu6', 'silu', 'hardtanh'])
+    is_mul = True
+    # trial.suggest_categorical('is_mul', [True, False])
+    is_sub = True
+    # trial.suggest_categorical('is_sub', [True, False])
+
+    print("Hyperparameter will be use in this trial: \n {}".format(params))
     
-        # os.mkdir(pre_processed_dir)
+    selector = LSTMSelector(768, params['s_hidden_dim'], params['s_mlp_dim'])
+    predictor =ECIRobertaJointTask(mlp_size=params['p_mlp_dim'], roberta_type=roberta_type, datasets=datasets, pos_dim=16, 
+                                    fn_activate=fn_activative, drop_rate=drop_rate, task_weights=None, lstm=params['is_lstm'])
+    
+    if CUDA:
+        selector = selector.cuda()
+        predictor = predictor.cuda()
+    selector.zero_grad()
+    predictor.zero_grad()
+    print("# of parameters:", count_parameters(selector) + count_parameters(predictor))
+    epoches = params['epoches'] + 5
+    total_steps = len(train_dataloader) * epoches
+    print("Total steps: [number of batches] x [number of epochs] =", total_steps)
 
-        # with open(pre_processed_dir + "train_dataloader.pkl", 'wb') as f:
-        #     pickle.dump(train_dataloader, f, pickle.HIGHEST_PROTOCOL)
-        # with open(pre_processed_dir + "train_short_dataloader.pkl", 'wb') as f:
-        #     pickle.dump(train_short_dataloader, f, pickle.HIGHEST_PROTOCOL)
+    exp = EXP(selector, predictor, epoches, params['num_ctx_select'], train_dataloader, validate_dataloaders, test_dataloaders,
+            train_short_dataloader, test_short_dataloaders, validate_short_dataloaders, 
+            params['s_lr'], params['b_lr'], params['m_lr'], params['b_lr_decay_rate'],  params['epoches'], params['warming_epoch'],
+            best_path, word_drop_rate=params['word_drop_rate'], reward=[params['task_reward']], perfomance_reward_weight=params['perfomance_reward_weight'],
+            ctx_sim_reward_weight=params['ctx_sim_reward_weight'], kg_reward_weight=params['knowledge_reward_weight'])
+    F1, CM, matres_F1, test_f1 = exp.train()
+    # test_f1 = exp.evaluate(is_test=True)
+    print("Result: Best micro F1 of interaction: {}".format(F1))
+    with open(result_file, 'a', encoding='UTF-8') as f:
+        f.write("\n -------------------------------------------- \n")
+        # f.write("\nNote: use lstm in predictor \n")
+        f.write("{}\n".format(roberta_type))
+        f.write("Hypeparameter: \n{}\n ".format(params))
+        f.write("Test F1: {}\n".format(test_f1))
+        f.write("Seed: {}\n".format(seed))
+        # f.write("Drop rate: {}\n".format(drop_rate))
+        # f.write("Batch size: {}\n".format(batch_size))
+        f.write("Activate function: {}\n".format(fn_activative))
+        f.write("Sub: {} - Mul: {}".format(is_sub, is_mul))
+        # f.write("\n Best F1 MATRES: {} \n".format(matres_F1))
+        for i in range(0, len(datasets)):
+            f.write("{} \n".format(dataset[i]))
+            f.write("F1: {} \n".format(F1[i]))
+            f.write("CM: \n {} \n".format(CM[i]))
+        f.write("Time: {} \n".format(datetime.datetime.now()))
+    
+    del selector
+    del predictor
+    del exp
+    del train_set
+    del train_short_set
+    del validate_dataloaders
+    del test_dataloaders
+    del validate_short_dataloaders
+    del test_short_dataloaders 
+    gc.collect()
 
-        # with open(pre_processed_dir + "validate_dataloaders.pkl", 'wb') as f:
-        #     pickle.dump(validate_dataloaders, f, pickle.HIGHEST_PROTOCOL)
-        # with open(pre_processed_dir + "validate_short_dataloaders.pkl", 'wb') as f:
-        #     pickle.dump(validate_short_dataloaders, f, pickle.HIGHEST_PROTOCOL)
+    return test_f1
 
-        # with open(pre_processed_dir + "test_dataloaders.pkl", 'wb') as f:
-        #     pickle.dump(test_dataloaders, f, pickle.HIGHEST_PROTOCOL)
-        # with open(pre_processed_dir + "test_short_dataloaders.pkl", 'wb') as f:
-        #     pickle.dump(test_short_dataloaders, f, pickle.HIGHEST_PROTOCOL)
 
+if __name__ == '__main__':
+    parser = ArgumentParser(formatter_class=ArgumentDefaultsHelpFormatter)
+    # parser.add_argument('--seed', help='SEED', default=1741, type=int)
+    parser.add_argument('--dataset', help="Name of dataset", action='append', required=True)
+    parser.add_argument('--roberta_type', help="base or large", default='roberta-base', type=str)
+    parser.add_argument('--best_path', help="Path for save model", type=str)
+    parser.add_argument('--log_file', help="Path of log file", type=str)
+    parser.add_argument('--bs', help='batch size', default=16, type=int)
+    # parser.add_argument('--num_select', help='number of select sentence', default=3, type=int)
+
+    args = parser.parse_args()
+    # seed = args.seed
+    datasets = args.dataset
+    print(datasets)
+    roberta_type  = args.roberta_type
+    best_path = args.best_path
+    best_path = [best_path+"selector.pth", best_path+"predictor.pth"]
+    result_file = args.log_file
+    batch_size = args.bs
+    # num_select = args.num_select
+
+    pre_processed_dir = "./" + "_".join(datasets) + "/"
 
     study = optuna.create_study(direction='maximize')
     study.optimize(objective, n_trials=100)

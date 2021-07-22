@@ -12,7 +12,7 @@ from utils.constant import *
 from sklearn.metrics import precision_recall_fscore_support
 
 CUDA = torch.cuda.is_available()
-tokenizer = RobertaTokenizer.from_pretrained('roberta-base', unk_token='<unk>')
+tokenizer = RobertaTokenizer.from_pretrained('./tokenizer/roberta-base', unk_token='<unk>')
 nlp = spacy.load("en_core_web_sm")
 
 # Padding function
@@ -160,17 +160,29 @@ def word_dropout(seq_id, position, is_word=True, dropout_rate=0.05):
     # print(drop_sent)
     return drop_sent
 
-def create_target(x_sent, y_sent, x_sent_id, y_sent_id):
+def create_target(x_sent, y_sent, x_sent_id, y_sent_id, x_position, y_position):
     if x_sent_id < y_sent_id:
         sent = x_sent + y_sent[1:]
+        y_position_new = y_position + len(x_sent) - 1
+        x_position_new = x_position
+        assert y_sent[y_position] == sent[y_position_new]
+        assert x_sent[x_position] == sent[x_position_new]
     elif x_sent_id == y_sent_id:
         assert x_sent == y_sent
         sent = x_sent
+        x_position_new = x_position
+        y_position_new = y_position
+        assert y_sent[y_position] == sent[y_position_new]
+        assert x_sent[x_position] == sent[x_position_new]
     else:
         sent = y_sent + x_sent[1:]
-    return sent
+        y_position_new = y_position
+        x_position_new = x_position + len(y_sent) - 1
+        assert y_sent[y_position] == sent[y_position_new]
+        assert x_sent[x_position] == sent[x_position_new]
+    return sent, x_position_new, y_position_new
 
-def make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_possition, y_possition, ctx, pos_ctx, ctx_id, doc_id, dropout_rate=0.05):
+def make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_possition, y_possition, ctx, pos_ctx, ctx_id, doc_id, dropout_rate=0.05, is_test=False):
     bs = len(x_sent)
     assert len(ctx) == bs and len(x_sent) == bs and len(x_possition) == bs, 'Each element must be same batch size'
     augm_target = []
@@ -184,15 +196,16 @@ def make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_se
         elif ctx_id == 'warming':
             selected_ctx = []
         else:
-            selected_ctx = [step[i] for step in ctx_id]
+            selected_ctx = [step[i].cpu().item() for step in ctx_id]
         augment, x_possition_new, y_possition_new = augment_target(x_sent[i], y_sent[i], x_sent_id[i], y_sent_id[i], x_possition[i], y_possition[i], 
                                                                 ctx[i], selected_ctx, doc_id[i])
         pos_augment, x_pos_possition_new, y_pos_possition_new = augment_target(x_sent_pos[i], y_sent_pos[i], x_sent_id[i], y_sent_id[i], 
                                                                             x_possition[i], y_possition[i], pos_ctx[i], selected_ctx, doc_id[i])
         assert x_possition_new == x_pos_possition_new
         assert y_possition_new == y_pos_possition_new
-        augment = word_dropout(augment, [x_possition_new, y_possition_new], dropout_rate=dropout_rate)
-        pos_augment = word_dropout(pos_augment, [x_possition_new, y_possition_new], is_word=False, dropout_rate=dropout_rate)
+        if is_test == False:
+            augment = word_dropout(augment, [x_possition_new, y_possition_new], dropout_rate=dropout_rate)
+            pos_augment = word_dropout(pos_augment, [x_possition_new, y_possition_new], is_word=False, dropout_rate=dropout_rate)
         pad, mask = padding(augment, max_sent_len=400)
         augm_target.append(pad)
         augm_target_mask.append(mask)
@@ -200,11 +213,11 @@ def make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_se
         x_augm_position.append(x_possition_new)
         y_augm_position.append(y_possition_new)
 
-    augm_target = torch.tensor(augm_target, dtype=torch.long)
-    augm_target_mask = torch.tensor(augm_target_mask, dtype=torch.long)
-    augm_pos_target = torch.tensor(augm_pos_target, dtype=torch.long)
-    x_augm_position = torch.tensor(x_augm_position, dtype=torch.long)
-    y_augm_position = torch.tensor(y_augm_position, dtype=torch.long)
+    augm_target = torch.tensor(augm_target)
+    augm_target_mask = torch.tensor(augm_target_mask)
+    augm_pos_target = torch.tensor(augm_pos_target)
+    x_augm_position = torch.tensor(x_augm_position)
+    y_augm_position = torch.tensor(y_augm_position)
     return augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position
 
 def augment_target(x_sent, y_sent, x_sent_id, y_sent_id, x_possition, y_possition, ctx, ctx_id, doc_id):
@@ -213,6 +226,9 @@ def augment_target(x_sent, y_sent, x_sent_id, y_sent_id, x_possition, y_possitio
     id_right = []
     if x_sent_id < y_sent_id:
         for id in ctx_id:
+            # if id not in doc_id.keys():
+            #     print(doc_id)
+            #     continue
             assert doc_id[id] != x_sent_id
             assert doc_id[id] != y_sent_id
             if doc_id[id] < x_sent_id:
@@ -223,6 +239,9 @@ def augment_target(x_sent, y_sent, x_sent_id, y_sent_id, x_possition, y_possitio
                 id_cent.append(id)
     elif x_sent_id == y_sent_id:
         for id in ctx_id:
+            # if id not in doc_id.keys():
+            #     print(doc_id)
+            #     continue
             assert doc_id[id] != x_sent_id
             assert doc_id[id] != y_sent_id
             assert x_sent == y_sent
@@ -232,6 +251,9 @@ def augment_target(x_sent, y_sent, x_sent_id, y_sent_id, x_possition, y_possitio
                 id_right.append(id)
     else:
         for id in ctx_id:
+            # if id not in doc_id.keys():
+            #     print(doc_id)
+            #     continue
             assert doc_id[id] != x_sent_id
             assert doc_id[id] != y_sent_id
             if doc_id[id] < y_sent_id:
@@ -243,30 +265,44 @@ def augment_target(x_sent, y_sent, x_sent_id, y_sent_id, x_possition, y_possitio
     
     sent_left = []
     for id in sorted(id_left):
-        sent_left += ctx[id][1:]
+        sent_left += ctx[id][1:-1]
     sent_cent = []
     for id in sorted(id_cent):
-        sent_cent += ctx[id][1:]
+        sent_cent += ctx[id][1:-1]
     sent_right = []
     for id in sorted(id_right):
         sent_right += ctx[id][1:]
     
     sent = []
     if x_sent_id < y_sent_id:
-        sent = [0] + sent_left + x_sent[1:] + sent_cent + y_sent[1:] + sent_right
-        x_possition_new = x_possition + len(sent_left)
-        y_possition_new = len(sent_left) + len(x_sent[1:]) + len(sent_cent) + y_possition
+        sent = [0] + sent_left + [2] + x_sent[1:] + sent_cent + [2] + y_sent[1:] + sent_right
+        x_possition_new = 1 + x_possition + len(sent_left)
+        y_possition_new = 1 + len(sent_left) + len(x_sent) + len(sent_cent) + y_possition
     elif x_sent_id == y_sent_id:
-        sent = [0] + sent_left + x_sent[1:] + sent_right
-        x_possition_new = x_possition + len(sent_left)
-        y_possition_new = y_possition + len(sent_left)
+        sent = [0] + sent_left + [2] + x_sent[1:] + sent_right
+        x_possition_new = 1 + x_possition + len(sent_left)
+        y_possition_new = 1 + y_possition + len(sent_left)
     else:
-        sent = [0] + sent_left + y_sent[1:] + sent_cent + x_sent[1:] + sent_right
-        y_possition_new = y_possition + len(sent_left)
-        x_possition_new = len(sent_left) + len(y_sent[1:]) + len(sent_cent) + x_possition
+        sent = [0] + sent_left + [2] + y_sent[1:] + sent_cent + [2] + x_sent[1:] + sent_right
+        y_possition_new = 1 + y_possition + len(sent_left)
+        x_possition_new = 1 + len(sent_left) + len(y_sent) + len(sent_cent) + x_possition
     
     assert sent[x_possition_new] == x_sent[x_possition]
     assert sent[y_possition_new] == y_sent[y_possition]
 
     return sent, x_possition_new, y_possition_new
 
+def processing_vague(logits, threshold, vague_id):
+    bs = logits.size(0)
+    predicts = []
+    for i in range(bs):
+        logit = logits[i].detach()
+        logit = torch.softmax(logit, dim=0)
+        entropy = - torch.sum(logit * torch.log(logit)).cpu().item()
+        if entropy > threshold:
+            predict = vague_id
+        else:
+            predict = torch.max(logit.unsqueeze(0), 1).indices.cpu().item()
+        predicts.append(predict)
+    # print(predicts)
+    return predicts

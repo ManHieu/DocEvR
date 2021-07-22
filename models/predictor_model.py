@@ -1,8 +1,4 @@
 from collections import OrderedDict
-from torch.nn.modules.linear import Linear
-
-from torch.utils.data.dataset import Subset
-from utils.tools import pos_to_id
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -14,7 +10,7 @@ import os.path as path
 class ECIRobertaJointTask(nn.Module):
     def __init__(self, mlp_size, roberta_type, datasets,
                 finetune=True, pos_dim=None, loss=None, sub=True, mul=True, fn_activate='relu',
-                negative_slope=0.2, drop_rate=0.5, task_weights=None, n_head=3):
+                negative_slope=0.2, drop_rate=0.5, task_weights=None, kg_emb_dim=300, lstm=False):
         super().__init__()
         
         if path.exists("./pretrained_models/models/{}".format(roberta_type)):
@@ -31,20 +27,29 @@ class ECIRobertaJointTask(nn.Module):
         self.sub = sub
         self.mul = mul
         self.finetune = finetune
-        if pos_dim != None:
-            self.is_pos_emb = True
-            pos_size = len(pos_dict.keys())
-            self.pos_emb = nn.Embedding(pos_size, pos_dim)
-            self.lstm = nn.LSTM(self.roberta_dim+pos_dim, self.roberta_dim//2, num_layers=2, 
-                                batch_first=True, bidirectional=True, dropout=drop_rate)
+        if lstm == True:
+            self.is_lstm = True
+            if pos_dim != None:
+                self.is_pos_emb = True
+                pos_size = len(pos_dict.keys())
+                self.pos_emb = nn.Embedding(pos_size, pos_dim)
+                self.lstm = nn.LSTM(self.roberta_dim+pos_dim, self.roberta_dim//2, 
+                                    num_layers=1, batch_first=True, bidirectional=True)
+            else:
+                self.is_pos_emb = False
+                self.lstm = nn.LSTM(self.roberta_dim, self.roberta_dim//2, num_layers=1, batch_first=True, bidirectional=True)
+            self.mlp_in = self.roberta_dim + kg_emb_dim
         else:
-            self.is_pos_emb = False
-            self.lstm = nn.LSTM(self.roberta_dim, self.roberta_dim//2, num_layers=2, 
-                                batch_first=True, bidirectional=True, dropout=drop_rate)
-        
+            self.is_lstm = False
+            if pos_dim != None:
+                self.is_pos_emb = True
+                pos_size = len(pos_dict.keys())
+                self.pos_emb = nn.Embedding(pos_size, pos_dim)
+                self.mlp_in = self.roberta_dim + pos_dim + kg_emb_dim
+            else:
+                self.is_pos_emb = False
+                self.mlp_in = self.roberta_dim + kg_emb_dim
         self.mlp_size = mlp_size
-        self.s_attn = nn.MultiheadAttention(self.roberta_dim, n_head)
-
         self.drop_out = nn.Dropout(drop_rate)
         if fn_activate=='relu':
             self.relu = nn.LeakyReLU(negative_slope, True)
@@ -66,15 +71,15 @@ class ECIRobertaJointTask(nn.Module):
                 if self.max_num_class < num_classes:
                     self.max_num_class = num_classes
                 if sub==True and mul==True:
-                    fc1 = nn.Linear(self.roberta_dim*5, int(self.mlp_size*2.5))
-                    fc2 = nn.Linear(int(self.mlp_size*2.5), num_classes)
-                if (sub==True and mul==False) or (sub==False and mul==True):
-                    fc1 = nn.Linear(self.roberta_dim*4, int(self.mlp_size*2))
+                    fc1 = nn.Linear(self.mlp_in*4, int(self.mlp_size*2))
                     fc2 = nn.Linear(int(self.mlp_size*2), num_classes)
-                if sub==False and mul==False:
-                    fc1 = nn.Linear(self.roberta_dim*3, int(self.mlp_size*1.5))
+                if (sub==True and mul==False) or (sub==False and mul==True):
+                    fc1 = nn.Linear(self.mlp_in*3, int(self.mlp_size*1.5))
                     fc2 = nn.Linear(int(self.mlp_size*1.5), num_classes)
-                
+                if sub==False and mul==False:
+                    fc1 = nn.Linear(self.mlp_in*2, int(self.mlp_size))
+                    fc2 = nn.Linear(int(self.mlp_size), num_classes)
+
                 weights = [993.0/333, 993.0/349, 933.0/128, 933.0/453]
                 weights = torch.tensor(weights)
                 loss = nn.CrossEntropyLoss(weight=weights)
@@ -92,16 +97,16 @@ class ECIRobertaJointTask(nn.Module):
                 if self.max_num_class < num_classes:
                     self.max_num_class = num_classes
                 if sub==True and mul==True:
-                    fc1 = nn.Linear(self.roberta_dim*5, int(self.mlp_size*2.5))
-                    fc2 = nn.Linear(int(self.mlp_size*2.5), num_classes)
-                if (sub==True and  mul==False) or (sub==False and mul==True):
-                    fc1 = nn.Linear(self.roberta_dim*4, int(self.mlp_size*2))
+                    fc1 = nn.Linear(self.mlp_in*4, int(self.mlp_size*2))
                     fc2 = nn.Linear(int(self.mlp_size*2), num_classes)
-                if sub==False and mul==False:
-                    fc1 = nn.Linear(self.roberta_dim*3, int(self.mlp_size*1.5))
+                if (sub==True and mul==False) or (sub==False and mul==True):
+                    fc1 = nn.Linear(self.mlp_in*3, int(self.mlp_size*1.5))
                     fc2 = nn.Linear(int(self.mlp_size*1.5), num_classes)
+                if sub==False and mul==False:
+                    fc1 = nn.Linear(self.mlp_in*2, int(self.mlp_size))
+                    fc2 = nn.Linear(int(self.mlp_size), num_classes)
                 
-                weights = [6404.0/3033, 6404.0/2063, 6404.0/232, 6404.0/476,]
+                weights = [30.0/412, 30.0/263, 30.0/30, 30.0/113,]
                 weights = torch.tensor(weights)
                 loss = nn.CrossEntropyLoss(weight=weights)
 
@@ -118,16 +123,16 @@ class ECIRobertaJointTask(nn.Module):
                 if self.max_num_class < num_classes:
                     self.max_num_class = num_classes
                 if sub==True and mul==True:
-                    fc1 = nn.Linear(self.roberta_dim*5, int(self.mlp_size*2.5))
-                    fc2 = nn.Linear(int(self.mlp_size*2.5), num_classes)
-                if (sub==True and  mul==False) or (sub==False and mul==True):
-                    fc1 = nn.Linear(self.roberta_dim*4, int(self.mlp_size*2))
+                    fc1 = nn.Linear(self.mlp_in*4, int(self.mlp_size*2))
                     fc2 = nn.Linear(int(self.mlp_size*2), num_classes)
-                if sub==False and mul==False:
-                    fc1 = nn.Linear(self.roberta_dim*3, int(self.mlp_size*1.5))
+                if (sub==True and mul==False) or (sub==False and mul==True):
+                    fc1 = nn.Linear(self.mlp_in*3, int(self.mlp_size*1.5))
                     fc2 = nn.Linear(int(self.mlp_size*1.5), num_classes)
+                if sub==False and mul==False:
+                    fc1 = nn.Linear(self.mlp_in*2, int(self.mlp_size))
+                    fc2 = nn.Linear(int(self.mlp_size), num_classes)
                 
-                weights = [3066.0/660, 3066.0/461, 3066.0/1945,]
+                weights = [213.0/368, 213.0/213, 213.0/1013]
                 weights = torch.tensor(weights)
                 loss = nn.CrossEntropyLoss(weight=weights)
 
@@ -144,16 +149,16 @@ class ECIRobertaJointTask(nn.Module):
                 if self.max_num_class < num_classes:
                     self.max_num_class = num_classes
                 if sub==True and mul==True:
-                    fc1 = nn.Linear(self.roberta_dim*5, int(self.mlp_size*2.5))
-                    fc2 = nn.Linear(int(self.mlp_size*2.5), num_classes)
-                if (sub==True and mul==False) or (sub==False and mul==True):
-                    fc1 = nn.Linear(self.roberta_dim*4, int(self.mlp_size*2))
+                    fc1 = nn.Linear(self.mlp_in*4, int(self.mlp_size*2))
                     fc2 = nn.Linear(int(self.mlp_size*2), num_classes)
-                if sub==False and mul==False:
-                    fc1 = nn.Linear(self.roberta_dim*3, int(self.mlp_size*1.5))
+                if (sub==True and mul==False) or (sub==False and mul==True):
+                    fc1 = nn.Linear(self.mlp_in*3, int(self.mlp_size*1.5))
                     fc2 = nn.Linear(int(self.mlp_size*1.5), num_classes)
+                if sub==False and mul==False:
+                    fc1 = nn.Linear(self.mlp_in*2, int(self.mlp_size))
+                    fc2 = nn.Linear(int(self.mlp_size), num_classes)
                 
-                weights = [12715.0/2590, 12715.0/2104, 12715.0/836, 12715.0/1060, 12715.0/215, 12715.0/5910,]
+                weights = [41.0/387, 41.0/287, 41.0/64, 41.0/74, 41.0/41, 41.0/642]
                 weights = torch.tensor(weights)
                 loss = nn.CrossEntropyLoss(weight=weights)
 
@@ -171,7 +176,7 @@ class ECIRobertaJointTask(nn.Module):
         if self.task_weights != None:
             assert len(self.task_weights)==len(datasets), "Length of weight is difference number datasets: {}".format(len(self.task_weights))
 
-    def forward(self, sent, sent_mask, x_position, y_position, xy, flag, sent_pos=None):
+    def forward(self, sent, sent_mask, x_position, y_position, xy, flag, x_kg_ev_emb, y_kg_ev_emb, sent_pos=None):
         batch_size = sent.size(0)
         # print(x_sent.size())
 
@@ -187,36 +192,26 @@ class ECIRobertaJointTask(nn.Module):
             output = torch.cat([output, pos], dim=2)
 
         output = self.drop_out(output)
-        output, _ = self.lstm(output)
+        if self.is_lstm:
+            output, _ = self.lstm(output)
         # print(output_x.size())
         output_A = torch.cat([output[i, x_position[i], :].unsqueeze(0) for i in range(0, batch_size)])
+        output_A = torch.cat([output_A, x_kg_ev_emb], dim= 1)
         output_B = torch.cat([output[i, y_position[i], :].unsqueeze(0) for i in range(0, batch_size)])
-
-        x, _ = self.s_attn(output_A.unsqueeze(0), output.transpose(0,1), output.transpose(0,1))
-        x = x.squeeze(0)
-        y, _ = self.s_attn(output_B.unsqueeze(0), output.transpose(0,1), output.transpose(0,1))
-        y = y.squeeze(0)
+        output_B = torch.cat([output_B, y_kg_ev_emb], dim=1)
         
         if self.sub and self.mul:
             sub = torch.sub(output_A, output_B)
             mul = torch.mul(output_A, output_B)
-            sub_s = torch.sub(x, y)
-            # mul_s = torch.mul(x, y)
-            presentation = torch.cat([output_A, output_B, sub, mul, sub_s], 1)
+            presentation = torch.cat([output_A, output_B, sub, mul], 1)
         if self.sub==True and self.mul==False:
             sub = torch.sub(output_A, output_B)
-            sub_s = torch.sub(x, y)
-            # mul_s = torch.mul(x, y)
-            presentation = torch.cat([output_A, output_B, sub, sub_s], 1)
+            presentation = torch.cat([output_A, output_B, sub], 1)
         if self.sub==False and self.mul==True:
             mul = torch.mul(output_A, output_B)
-            sub_s = torch.sub(x, y)
-            # mul_s = torch.mul(x, y)
-            presentation = torch.cat([output_A, output_B, mul, sub_s], 1)
+            presentation = torch.cat([output_A, output_B, mul], 1)
         if self.sub==False and self.mul==False:
-            sub_s = torch.sub(x, y)
-            # mul_s = torch.mul(x, y)
-            presentation = torch.cat([output_A, output_B, sub_s], 1)
+            presentation = torch.cat([output_A, output_B], 1)
     
         loss = 0.0
         logits = []
@@ -228,10 +223,11 @@ class ECIRobertaJointTask(nn.Module):
             pad_logit[:, :len(logit)] = logit
             logit = logit.unsqueeze(0)
             target = xy[i].unsqueeze(0)
-            if self.task_weights == None:
-                loss += self.loss_dict[typ](logit, target)
-            else:
-                loss += self.task_weights[typ]*self.loss_dict[typ](logit, target)
+            if self.training:
+                if self.task_weights == None:
+                    loss += self.loss_dict[typ](logit, target)
+                else:
+                    loss += self.task_weights[typ]*self.loss_dict[typ](logit, target)
             
             logits.append(pad_logit)
         return torch.cat(logits, 0), loss

@@ -44,6 +44,7 @@ class SelectorModel(nn.Module):
     def encode(self, input_ids):
         return self.encoder(input_ids)[0][:, 0]
 
+
 class LSTMSelector(nn.Module):
     def __init__(self, in_dim, hidden_dim, mlp_dim, fn_activate='tanh'):
         super().__init__()
@@ -81,7 +82,7 @@ class LSTMSelector(nn.Module):
         mask = torch.zeros((bs, ns))
         for i in range(bs):
             if len(ctx_len[i]) < ns:
-                mask[i, len(ctx_len[i]):] = mask[i, len(ctx_len[i]):] - 10000
+                mask[i, len(ctx_len[i]):] = -100000
         log_probs = torch.zeros((bs))
         if CUDA:
             h_0 = h_0.cuda()
@@ -115,11 +116,10 @@ class LSTMSelector(nn.Module):
                 outputs.append(out)
             
             for i in range(bs):
-                mask[i, out[i]] = mask[i, out[i]] - 10000 # mask selected sentent
+                mask[i, out[i]] = -100000 # mask selected sentent
             
             lstm_in = torch.gather(ctx_emb, dim=1, index=out.unsqueeze(1).unsqueeze(2).expand(bs, 1, self.in_dim))
             lstm_in = lstm_in.squeeze(1)
             lstm_state = (h, c)
         
         return outputs, dist, log_probs
-

@@ -1,0 +1,18 @@
+
+ -------------------------------------------- 
+
+Note: no use lstm in predictor 
+roberta-base
+Hypeparameter: 
+{'s_hidden_dim': 256, 's_mlp_dim': 512, 'p_mlp_dim': 768, 'epoches': 7, 'warming_epoch': 0, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 'num_ctx_select': 1, 's_lr': 0.0001, 'b_lr': 7e-05, 'm_lr': 5e-05, 'b_lr_decay_rate': 0.4, 'word_drop_rate': 0.05, 'task_reward': 'logit', 'perfomance_reward_weight': 1, 'ctx_sim_reward_weight': 0.01, 'knowledge_reward_weight': 0.1}
+ Test F1: 0.6298909557408596
+Sub: True - Mul: TrueT 
+F1: 0.591891891891892 
+CM: 
+ [[104   2   0   0   0  53]
+ [  4 111   1   2   0  63]
+ [  1   0   2   0   1  12]
+ [  2   0   0   1   1  21]
+ [  7   3   1   0   1  16]
+ [ 43  29   5  10   0 167]] 
+Time: 2021-07-12 05:29:55.555860 
