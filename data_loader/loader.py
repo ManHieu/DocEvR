@@ -1,6 +1,6 @@
-from models.encode_augm_sent_model import SentenceEncoder
+from collections import defaultdict
+import pickle
 import os
-from utils.constant import CUDA
 import tqdm
 import random
 import torch
@@ -8,14 +8,8 @@ from itertools import combinations
 from data_loader.reader import i2b2_xml_reader, tbd_tml_reader, tml_reader, tsvx_reader
 from utils.tools import create_target, padding, pos_to_id
 from sklearn.model_selection import train_test_split
-from models.encode_augm_sent_model import SentenceEncoder
-from transformers import AutoModel
-import torch.nn as nn
-
-
-sent_encoder = SentenceEncoder('roberta-base')
-if CUDA:
-    sent_encoder = sent_encoder.cuda()
+from utils.SentenceEncoder import SentenceEncoder
+import gc
 
 
 class Reader(object):
@@ -35,15 +29,37 @@ class Reader(object):
         else:
             raise ValueError("We have not supported {} type yet!".format(self.type))
 
+
+class C2V(object):
+    def __init__(self, emb_file:str) -> None:
+        super().__init__()
+        with open(emb_file, 'r', encoding='UTF-8') as f:
+            lines = f.readlines()
+        self.c2v = {}
+        for line in lines:
+            tokens = line.split(" ")
+            concept = tokens[0]
+            emb = [float(tok) for tok in tokens[1:]]
+            self.c2v[concept] = emb
+
+    def get_emb(self, concept):
+        _concept = "_".join(concept.split(" ")).lower()
+        # print(cp)
+        try:
+            return self.c2v[_concept]
+        except:
+            return [0.0]*300
+
+
 def load_dataset(dir_name, type):
     reader = Reader(type)
     onlyfiles = [f for f in os.listdir(dir_name) if os.path.isfile(os.path.join(dir_name, f))]
     corpus = []
-    i = 0
+    # i = 0
     for file_name in tqdm.tqdm(onlyfiles):
-        if i == 5:
-            break
-        i = i + 1
+        # if i == 1:
+        #     break
+        # i = i + 1
         if type == 'i2b2_xml':
             if file_name.endswith('.xml'):
                 my_dict = reader.read(dir_name, file_name)
@@ -57,9 +73,11 @@ def load_dataset(dir_name, type):
 
 
 def loader(dataset, min_ns):
+    sent_encoder = SentenceEncoder('roberta-base')
+    c2v = C2V('./datasets/numberbatch-en-19.08.txt')
     def get_data_point(my_dict, flag):
+        
         data = []
-        short_data = []
         eids = my_dict['event_dict'].keys()
         pair_events = list(combinations(eids, 2))
 
@@ -70,11 +88,15 @@ def loader(dataset, min_ns):
             x_sent_id = my_dict['event_dict'][x]['sent_id']
             y_sent_id = my_dict['event_dict'][y]['sent_id']
             ctx_id = list(range(len( my_dict["sentences"])))
-            ctx_id.remove(x_sent_id)
-            ctx_id.remove(y_sent_id)
-            id_augm = [sorted(x_sent_id, y_sent_id, id) for id in ctx_id]
+            if  x_sent_id != y_sent_id:
+                ctx_id.remove(x_sent_id)
+                ctx_id.remove(y_sent_id)
+            else:
+                ctx_id.remove(x_sent_id)
+            id_augm = [tuple(sorted([x_sent_id, y_sent_id, id])) for id in ctx_id]
             ctx_id_augm.extend(id_augm)
         ctx_id_augm = list(set(ctx_id_augm))
+        # print(len(ctx_id_augm))
 
         ctx_augm = []
         ctx_augm_mask = []
@@ -84,16 +106,41 @@ def loader(dataset, min_ns):
             for id in ids:
                 sent = sent + my_dict["sentences"][id]["roberta_subword_to_ID"][1:]
             sent = [0] + sent
-            pad, mask = padding(sent, max_sent_len=256)
+            pad, mask = padding(sent, max_sent_len=229)
             ctx_augm.append(pad)
             ctx_augm_mask.append(mask)
-        _augm_emb = sent_encoder(ctx_augm, ctx_augm_mask)
-        if CUDA:
-            _augm_emb = _augm_emb.cpu()
+        # print(len(ctx_augm))
+        _augm_emb = sent_encoder.encode(ctx_augm, ctx_augm_mask, is_ctx=True)
         _ctx_augm_emb = {}
         for i in range(len(ctx_id_augm)):
-            print(_augm_emb[i].size())
+            # print(_augm_emb[i].size())
             _ctx_augm_emb[ctx_id_augm[i]] = _augm_emb[i]
+
+        doc = []
+        doc_mask = []
+        for sent_id in list(range(len( my_dict["sentences"]))):
+            sent = my_dict["sentences"][sent_id]["roberta_subword_to_ID"]
+            pad, mask = padding(sent, max_sent_len=229)
+            doc.append(pad)
+            doc_mask.append(mask)
+        doc_emb = sent_encoder.encode(doc, doc_mask)
+
+        sent_ev = defaultdict(list)
+        sent_ev_ids = defaultdict(list)
+        ev_kg_emb = {}
+        # print(eids)
+        for eid in eids:
+            sent_id = my_dict['event_dict'][eid]['sent_id']
+            e_possition = my_dict["event_dict"][eid]["roberta_subword_id"]
+            sent_ev[sent_id].append(e_possition)
+            sent_ev_ids[sent_id].append(eid)
+            mention = my_dict["event_dict"][eid]["mention"] ######
+            # print(mention)
+            kg_emb = c2v.get_emb(mention)
+            # print(kg_emb)
+            ev_kg_emb[eid] = kg_emb
+        
+        # print(ev_kg_emb)
         
         for pair in pair_events:
             x, y = pair
@@ -110,46 +157,88 @@ def loader(dataset, min_ns):
             x_sent_pos = pos_to_id(my_dict["sentences"][x_sent_id]["roberta_subword_pos"])
             y_sent_pos = pos_to_id(my_dict["sentences"][y_sent_id]["roberta_subword_pos"])
             
-            target = create_target(x_sent, y_sent, x_sent_id, y_sent_id)
-            target_emb = sent_encoder(target_emb).squeeze()
+            target, x_position_new, y_position_new = create_target(x_sent, y_sent, x_sent_id, y_sent_id, x_position, y_position)
+            target_encode = sent_encoder.encode(target)
+            target_emb = target_encode[:, 0].squeeze()
             target_len = len(target)
-            if CUDA:
-                target_emb = target_emb.cpu()
+
+            x_ev_embs = target_encode[:, x_position_new].squeeze()
+            y_ev_embs = target_encode[:, y_position_new].squeeze()
+
+            x_kg_ev_emb = torch.tensor(ev_kg_emb[x])
+            y_kg_ev_emb = torch.tensor(ev_kg_emb[y])
+            # print(x_kg_ev_emb)
 
             ctx = []
-            ctx_emb = []
+            _ctx_emb = []
             ctx_pos = []
             ctx_len = []
+            _ctx_ev_embs = []
+            _ctx_ev_kg_embs = []
             ctx_id = list(range(len( my_dict["sentences"])))
-            ctx_id.remove(x_sent_id)
-            ctx_id.remove(y_sent_id)
-            for sent_id in ctx_id:
-                sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
-                sent_pos = pos_to_id(my_dict["sentences"][sent_id]['roberta_subword_pos'])
-                ctx.append(sent)
-                ctx_pos.append(sent_pos)
-                ctx_len.append(len(sent))
-                sent_emb = _ctx_augm_emb[sorted(x_sent_id, y_sent_id, sent_id)]
-                ctx_emb.append(sent_emb)
-            ctx_emb = torch.stack(ctx_emb, dim=0) # ns x 768
-            print(ctx_emb.size())
+            num_ev_sents = []
+            if  x_sent_id != y_sent_id:
+                ctx_id.remove(x_sent_id)
+                ctx_id.remove(y_sent_id)
+            else:
+                ctx_id.remove(x_sent_id)
+            id_mapping = {}
+            if len(ctx_id) != 0:
+                i = 0
+                for sent_id in ctx_id:
+                    id_mapping[i] = sent_id
+                    sent = my_dict["sentences"][sent_id]['roberta_subword_to_ID']
+                    sent_pos = pos_to_id(my_dict["sentences"][sent_id]['roberta_subword_pos'])
+                    ctx.append(sent)
+                    ctx_pos.append(sent_pos)
+                    ctx_len.append(len(sent))
+                    sent_emb = _ctx_augm_emb[tuple(sorted([x_sent_id, y_sent_id, sent_id]))]
+                    assert sent_emb != None
+                    _ctx_emb.append(sent_emb)
+                    e_possitions = sent_ev[sent_id]
+                    num_ev_sents.append(len(e_possitions))
+                    if len(e_possitions) != 0:
+                        ev_embs = torch.max(doc_emb[sent_id, e_possitions, :], dim=0)[0] # 768
+                        _ctx_ev_embs.append(ev_embs)
 
+                    eids = sent_ev_ids[sent_id]
+                    # print(eids)
+                    if len(eids) != 0:
+                        sent_ev_kg_emb = [ev_kg_emb[eid] for eid in eids]
+                        # print("before: ", torch.tensor(sent_ev_kg_emb))
+                        sent_ev_kg_emb = torch.max(torch.tensor(sent_ev_kg_emb), dim=0)[0] # 300
+                        # print("max: ", sent_ev_kg_emb)
+                        _ctx_ev_kg_embs.append(sent_ev_kg_emb)
+                    else:
+                        # print("Sent no ev")
+                        _ctx_ev_embs.append(torch.ones(768)*-1000.0)
+                        _ctx_ev_kg_embs.append(torch.ones(300)*-1000.0)
+                    i = i + 1
+                # print(ctx_ev_kg_embs)
+                ctx_ev_kg_embs =torch.stack(_ctx_ev_kg_embs, dim=0)
+                ctx_ev_embs = torch.stack(_ctx_ev_embs, dim=0)
+                ctx_emb = torch.stack(_ctx_emb, dim=0) # ns x 768
+            # print(ctx_emb.size())
             xy = my_dict["relation_dict"].get((x, y))
             yx = my_dict["relation_dict"].get((y, x))
 
             candidates = [
-                [str(x), str(y), x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, 
-                ctx_id, target, target_emb, target_len, ctx, ctx_emb, ctx_len, ctx_pos, flag, xy],
-                [str(y), str(x), y_sent, x_sent, y_sent_id, x_sent_id, y_sent_pos, x_sent_pos, y_position, x_position, 
-                ctx_id, target, target_emb, target_len, ctx, ctx_emb, ctx_len, ctx_pos, flag, yx],
+                [str(x), str(y), x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs, x_kg_ev_emb, 
+                y_kg_ev_emb, id_mapping, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_ev_kg_embs, ctx_len, ctx_pos, flag, xy],
+                [str(y), str(x), y_sent, x_sent, y_sent_id, x_sent_id, y_sent_pos, x_sent_pos, y_position, x_position, y_ev_embs, x_ev_embs, y_kg_ev_emb,
+                x_kg_ev_emb, id_mapping, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_ev_kg_embs, ctx_len, ctx_pos, flag, yx],
             ]
             for item in candidates:
-                if item[-1] != None and len(ctx_len) >= min_ns:
+                if item[-1] != None:
                     data.append(item)
-                if item[-1] != None and len(ctx_len) < min_ns:
-                    short_data.append(item)
-        return data, short_data
-           
+        del _ctx_ev_kg_embs
+        del _ctx_ev_embs
+        del _ctx_emb
+        del ev_kg_emb
+        del _ctx_augm_emb
+        gc.collect()
+        return data
+
     train_set = []
     train_short = []
     test_set = []
@@ -164,98 +253,211 @@ def loader(dataset, min_ns):
         validate = load_dataset(aquaint_dir_name, 'tml')
         train = load_dataset(timebank_dir_name, 'tml')
         test = load_dataset(platinum_dir_name, 'tml')
-        train, validate = train_test_split(train + validate, test_size=0.2, train_size=0.8)
+        train, validate = train_test_split(train + validate, test_size=0.1, train_size=0.9)
         
+        processed_dir = "./datasets/MATRES/docEvR_processed_kg/"
+        if not os.path.exists(processed_dir):
+            os.mkdir(processed_dir)
+
         for my_dict in tqdm.tqdm(train):
-            data, short_data = get_data_point(my_dict, 2)
-            train_set.extend(data)
-            train_short.extend(short_data)
+            file_name = my_dict["doc_id"] + ".pkl"
+            if not os.path.exists(processed_dir+file_name):
+                data = get_data_point(my_dict, 2)
+                with open(processed_dir+file_name, 'wb') as f:
+                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+            else:
+                with open(processed_dir+file_name, 'rb') as f:
+                    data = pickle.load(f)
+            for item in data:
+                if len(item[-4]) >= min_ns:
+                    train_set.append(item)
+                if len(item[-4]) < min_ns:
+                    train_short.append(item)
+
         for my_dict in tqdm.tqdm(test):
-            data, short_data = get_data_point(my_dict, 2)
-            test_set.extend(data)
-            test_short.extend(short_data)
+            file_name = my_dict["doc_id"] + ".pkl"
+            if not os.path.exists(processed_dir+file_name):
+                data = get_data_point(my_dict, 2)
+                with open(processed_dir+file_name, 'wb') as f:
+                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+            else:
+                with open(processed_dir+file_name, 'rb') as f:
+                    data = pickle.load(f)
+            for item in data:
+                if len(item[-4]) >= min_ns:
+                    test_set.append(item)
+                if len(item[-4]) < min_ns:
+                    test_short.append(item)
+
         for my_dict in tqdm.tqdm(validate):
-            data, short_data = get_data_point(my_dict, 2)
-            validate_set.extend(data)
-            validate_short.extend(short_data)
+            file_name = my_dict["doc_id"] + ".pkl"
+            if not os.path.exists(processed_dir+file_name):
+                data = get_data_point(my_dict, 2)
+                with open(processed_dir+file_name, 'wb') as f:
+                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+            else:
+                with open(processed_dir+file_name, 'rb') as f:
+                    data = pickle.load(f)
+            for item in data:
+                if len(item[-4]) >= min_ns:
+                    validate_set.append(item)
+                if len(item[-4]) < min_ns:
+                    validate_short.append(item)
+
         print("Train_size: {}".format(len(train_set)))
         print("Test_size: {}".format(len(test_set)))
         print("Validate_size: {}".format(len(validate_set)))
-
+        print("Train_size: {}".format(len(train_short)))
+        print("Test_size: {}".format(len(test_short)))
+        print("Validate_size: {}".format(len(validate_short)))
+    
     if dataset == "HiEve":
         print("HiEve Loading .....")
         dir_name = "./datasets/hievents_v2/processed/"
         corpus = load_dataset(dir_name, 'tsvx')
         train, test = train_test_split(corpus, train_size=0.8, test_size=0.2)
-        train, validate = train_test_split(train, train_size=0.75, test_size=0.25)
-        sample = 0.015
+        train, validate = train_test_split(train, train_size=0.90, test_size=0.10)
+        sample = 0.4
+
+        processed_dir = "./datasets/hievents_v2/processed/docEvR_processed_kg/"
+        if not os.path.exists(processed_dir):
+            os.mkdir(processed_dir)
+
         for my_dict in tqdm.tqdm(train):
-            data, short_data = get_data_point(my_dict, 1)
+            file_name = my_dict["doc_id"] + ".pkl"
+            if os.path.exists(processed_dir+file_name):
+                with open(processed_dir+file_name, 'rb') as f:
+                    data = pickle.load(f)
+            else:
+                data = get_data_point(my_dict, 1)
+                with open(processed_dir+file_name, 'wb') as f:
+                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
             for item in data:
                 if item[-1] == 3:
                     if random.uniform(0, 1) < sample:
-                        train_set.append(item)
+                        if len(item[-4]) >= min_ns:
+                            train_set.append(item)
+                        else:
+                            train_short.append(item)
                 else:
-                    train_set.append(item)
-            for item in short_data:
-                if item[-1] == 3:
-                    if random.uniform(0, 1) < sample:
+                    if len(item[-4]) >= min_ns:
+                            train_set.append(item)
+                    else:
                         train_short.append(item)
-                else:
-                    train_short.append(item)
+        
         for my_dict in tqdm.tqdm(test):
-            data, short_data = get_data_point(my_dict, 1)
+            file_name = my_dict["doc_id"] + ".pkl"
+            if os.path.exists(processed_dir+file_name):
+                with open(processed_dir+file_name, 'rb') as f:
+                    data = pickle.load(f)
+            else:
+                data = get_data_point(my_dict, 1)
+                with open(processed_dir+file_name, 'wb') as f:
+                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
             for item in data:
                 if item[-1] == 3:
-                    if random.uniform(0, 1) < 0.015:
-                        test_set.append(item)
-                else:
-                    test_set.append(item)
-            for item in short_data:
-                if item[-1] == 3:
                     if random.uniform(0, 1) < sample:
+                        if len(item[-4]) >= min_ns:
+                            test_set.append(item)
+                        else:
+                            test_short.append(item)
+                else:
+                    if len(item[-4]) >= min_ns:
+                            test_set.append(item)
+                    else:
                         test_short.append(item)
-                else:
-                    test_short.append(item)
+        
         for my_dict in tqdm.tqdm(validate):
-            data, short_data = get_data_point(my_dict, 1)
+            file_name = my_dict["doc_id"] + ".pkl"
+            if os.path.exists(processed_dir+file_name):
+                with open(processed_dir+file_name, 'rb') as f:
+                    data = pickle.load(f)
+            else:
+                data = get_data_point(my_dict, 1)
+                with open(processed_dir+file_name, 'wb') as f:
+                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
             for item in data:
                 if item[-1] == 3:
                     if random.uniform(0, 1) < sample:
-                        validate_set.append(item)
+                        if len(item[-4]) >= min_ns:
+                            validate_set.append(item)
+                        else:
+                            validate_short.append(item)
                 else:
-                    validate_set.append(item)
-            for item in short_data:
-                if item[-1] == 3:
-                    if random.uniform(0, 1) < sample:
+                    if len(item[-4]) >= min_ns:
+                            validate_set.append(item)
+                    else:
                         validate_short.append(item)
-                else:
-                    validate_short.append(item)
+        
         print("Train_size: {}".format(len(train_set)))
         print("Test_size: {}".format(len(test_set)))
         print("Validate_size: {}".format(len(validate_set)))
+        print("Train_size: {}".format(len(train_short)))
+        print("Test_size: {}".format(len(test_short)))
+        print("Validate_size: {}".format(len(validate_short)))
 
     if dataset == "I2B2":
         print("I2B2 Loading .....")
-        dir_name = "./datasets/i2b2_2012/2012-07-15.original-annotation.release/"
+        dir_name = "./datasets/i2b2_2012/2012-07-06.release/2012-07-06.release-fix/"
         corpus = load_dataset(dir_name, 'i2b2_xml')
         train, test = train_test_split(corpus, train_size=0.8, test_size=0.2)
         train, validate = train_test_split(train, train_size=0.75, test_size=0.25)
+
+        processed_dir = "./datasets/i2b2_2012/docEvR_processed_kg/"
+        if not os.path.exists(processed_dir):
+            os.mkdir(processed_dir)
+
         for my_dict in tqdm.tqdm(train):
-            data, short_data = get_data_point(my_dict, 3)
-            train_set.extend(data)
-            train_short.extend(short_data)
+            file_name = my_dict["doc_id"] + ".pkl"
+            if not os.path.exists(processed_dir+file_name):
+                data = get_data_point(my_dict, 3)
+                with open(processed_dir+file_name, 'wb') as f:
+                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+            else:
+                with open(processed_dir+file_name, 'rb') as f:
+                    data = pickle.load(f)
+            for item in data:
+                if len(item[-4]) >= min_ns:
+                    train_set.append(item)
+                else:
+                    train_short.append(item)
+
         for my_dict in tqdm.tqdm(test):
-            data, short_data = get_data_point(my_dict, 3)
-            test_set.extend(data)
-            test_short.extend(short_data)
+            file_name = my_dict["doc_id"] + ".pkl"
+            if not os.path.exists(processed_dir+file_name):
+                data = get_data_point(my_dict, 3)
+                with open(processed_dir+file_name, 'wb') as f:
+                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+            else:
+                with open(processed_dir+file_name, 'rb') as f:
+                    data = pickle.load(f)
+            for item in data:
+                if len(item[-4]) >= min_ns:
+                    test_set.append(item)
+                else:
+                    test_short.append(item)
+
         for my_dict in tqdm.tqdm(validate):
-            data, short_data = get_data_point(my_dict, 3)
-            validate_set.extend(data)
-            validate_short.extend(short_data)
+                file_name = my_dict["doc_id"] + ".pkl"
+                if not os.path.exists(processed_dir+file_name):
+                    data = get_data_point(my_dict, 3)
+                    with open(processed_dir+file_name, 'wb') as f:
+                        pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+                else:
+                    with open(processed_dir+file_name, 'rb') as f:
+                        data = pickle.load(f)
+                for item in data:
+                    if len(item[-4]) >= min_ns:
+                        validate_set.append(item)
+                    else:
+                        validate_short.append(item)
+
         print("Train_size: {}".format(len(train_set)))
         print("Test_size: {}".format(len(test_set)))
         print("Validate_size: {}".format(len(validate_set)))
+        print("Train_size: {}".format(len(train_short)))
+        print("Test_size: {}".format(len(test_short)))
+        print("Validate_size: {}".format(len(validate_short)))
 
     if dataset == 'TBD':
         print("Timebank Dense Loading .....")
@@ -265,24 +467,63 @@ def loader(dataset, min_ns):
         train = load_dataset(train_dir, 'tbd_tml')
         test = load_dataset(test_dir, 'tbd_tml')
         validate = load_dataset(validate_dir, 'tbd_tml')
+
+        processed_dir = "./datasets/TimeBank-dense/docEvR_processed_kg/"
+        if not os.path.exists(processed_dir):
+            os.mkdir(processed_dir)
+
         for my_dict in tqdm.tqdm(train):
-            data, short_data = get_data_point(my_dict, 4)
-            train_set.extend(data)
-            train_short.extend(short_data)
+            file_name = my_dict["doc_id"] + ".pkl"
+            if not os.path.exists(processed_dir+file_name):
+                data = get_data_point(my_dict, 4)
+                with open(processed_dir+file_name, 'wb') as f:
+                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+            else:
+                with open(processed_dir+file_name, 'rb') as f:
+                    data = pickle.load(f)
+            for item in data:
+                if len(item[-4]) >= min_ns:
+                    train_set.append(item)
+                if len(item[-4]) < min_ns:
+                    train_short.append(item)
+
         for my_dict in tqdm.tqdm(test):
-            data, short_data = get_data_point(my_dict, 4)
-            test_set.extend(data)
-            test_short.extend(short_data)
+            file_name = my_dict["doc_id"] + ".pkl"
+            if not os.path.exists(processed_dir+file_name):
+                data = get_data_point(my_dict, 4)
+                with open(processed_dir+file_name, 'wb') as f:
+                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+            else:
+                with open(processed_dir+file_name, 'rb') as f:
+                    data = pickle.load(f)
+            for item in data:
+                if len(item[-4]) >= min_ns:
+                    test_set.append(item)
+                if len(item[-4]) < min_ns:
+                    test_short.append(item)
+            
         for my_dict in tqdm.tqdm(validate):
-            data, short_data = get_data_point(my_dict, 4)
-            validate_set.extend(data)
-            validate_short.extend(short_data)
+            file_name = my_dict["doc_id"] + ".pkl"
+            if not os.path.exists(processed_dir+file_name):
+                data = get_data_point(my_dict, 4)
+                with open(processed_dir+file_name, 'wb') as f:
+                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+            else:
+                with open(processed_dir+file_name, 'rb') as f:
+                    data = pickle.load(f)
+            for item in data:
+                if len(item[-4]) >= min_ns:
+                    validate_set.append(item)
+                if len(item[-4]) < min_ns:
+                    validate_short.append(item)
+
         print("Train_size: {}".format(len(train_set)))
         print("Test_size: {}".format(len(test_set)))
         print("Validate_size: {}".format(len(validate_set)))
         print("Train_size: {}".format(len(train_short)))
         print("Test_size: {}".format(len(test_short)))
         print("Validate_size: {}".format(len(validate_short)))
-
+    
+    del sent_encoder
+    gc.collect()
     return train_set, test_set, validate_set, train_short, test_short, validate_short
-        

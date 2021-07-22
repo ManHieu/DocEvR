@@ -342,7 +342,11 @@ def i2b2_xml_reader(dir_name, file_name):
         mention = event_dict["mention"]
         sub_word_id = my_dict["sentences"][sent_id]["roberta_subword_to_ID"][poss]
         sub_word = tokenizer.decode([sub_word_id])
-        assert sub_word.strip() in mention
+        # try:
+        #     assert sub_word.strip() in mention
+        # except:
+        #     print(my_dict["doc_id"])
+        #     print("subword: '{}', mention: '{}'".format(sub_word, mention))
     
     for rel_instance in tree.findall('.//TLINK'):
         rid = rel_instance.attrib['id']
