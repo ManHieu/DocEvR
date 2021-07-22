@@ -21,3 +21,4 @@ datasets/TimeBank-dense.zip
 datasets/i2b2_2012.zip
 datasets/hievents_v2/processed/
 datasets/
+datasets/i2b2_2012/2012-08-08.test-data.event-timex-groundtruth/i2b2/487.xml.txt
