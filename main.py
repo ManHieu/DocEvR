@@ -135,7 +135,7 @@ def objective(trial: optuna.Trial):
     
     selector = LSTMSelector(768, params['s_hidden_dim'], params['s_mlp_dim'])
     predictor =ECIRobertaJointTask(mlp_size=params['p_mlp_dim'], roberta_type=roberta_type, datasets=datasets, pos_dim=16, 
-                                    fn_activate=fn_activative, drop_rate=drop_rate, task_weights=None, lstm=params['is_lstm'])
+                                    fn_activate=fn_activative, drop_rate=drop_rate, task_weights=None)
     
     if CUDA:
         selector = selector.cuda()
