@@ -53,9 +53,11 @@ class LSTMSelector(nn.Module):
         self.lstm_cell = nn.LSTMCell(self.in_dim, self.hidden_dim)
 
         self.mlp_dim = mlp_dim
+        
         self.drop_out = nn.Dropout(0.5)
-        # self.mlp1 = nn.Linear(self.in_dim, self.mlp_dim)
+
         self.mlp1 = nn.Linear(self.hidden_dim+self.in_dim, self.mlp_dim)
+        
         if fn_activate=='relu':
             self.fn_activate1 = nn.LeakyReLU(0.2, True)
         elif fn_activate=='tanh':
@@ -66,8 +68,9 @@ class LSTMSelector(nn.Module):
             self.fn_activate1 = nn.SiLU()
         elif fn_activate=='hardtanh':
             self.fn_activate1 = nn.Hardtanh()
-        # self.fn_activate1 = nn.Tanh()
+        
         self.mlp2 = nn.Linear(self.mlp_dim, 1)
+        
         self.fn_activate2 = nn.Sigmoid()
     
     def forward(self, target_emb: torch.Tensor, ctx_emb: torch.Tensor, target_len, ctx_len, n_step):
@@ -75,14 +78,18 @@ class LSTMSelector(nn.Module):
         dist = []
 
         lstm_in = target_emb # bs x dim
+        
         bs = lstm_in.size(0)
         ns = ctx_emb.size(1)
+        
         h_0 = torch.zeros((bs, self.hidden_dim))
         c_0 = torch.zeros((bs, self.hidden_dim))
+        
         mask = torch.zeros((bs, ns))
         for i in range(bs):
             if len(ctx_len[i]) < ns:
                 mask[i, len(ctx_len[i]):] = -100000
+        
         log_probs = torch.zeros((bs))
         if CUDA:
             h_0 = h_0.cuda()
@@ -97,8 +104,8 @@ class LSTMSelector(nn.Module):
             
             ctx_emb = self.drop_out(ctx_emb)
             h = self.drop_out(h)
+            
             sc = self.mlp1(torch.cat([ctx_emb, h.unsqueeze(1).expand((-1, ns, -1))], dim=-1)) # bs x ns x mlp_dim
-            # print(sc.size())
             sc = self.drop_out(sc)
             sc = self.mlp2(self.fn_activate1(sc)) # bs x ns x 1
             sc = self.fn_activate2(sc.squeeze()) 

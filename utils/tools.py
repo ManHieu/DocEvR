@@ -143,8 +143,8 @@ def pad_to_max_ns(ctx_augm_emb):
         # print(ctx.size())
         max_ns  = max(max_ns, ctx.size(0))
     
-    pad = torch.zeros((max_ns, 768))
     for ctx in ctx_augm_emb:
+        pad = torch.zeros((max_ns, 768))
         if ctx.size(0) < max_ns:
             pad[:ctx.size(0), :] = ctx
             ctx_augm_emb_paded.append(pad)
