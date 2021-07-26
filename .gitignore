@@ -16,3 +16,6 @@ datasets/TimeBank-dense/docEvR_processed_kg.zip
 datasets/TimeBank-dense/docEvR_processed_kg/
 datasets/i2b2_2012/docEvR_processed_kg/
 log/
+log/good_HiEve.txt
+log/good_TBD.txt
+log/good_MATRES.txt
