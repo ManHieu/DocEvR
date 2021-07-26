@@ -83,7 +83,9 @@ def objective(trial: optuna.Trial):
         'task_reward': 'logit', 
         'perfomance_reward_weight': 0.5, 
         'ctx_sim_reward_weight': 0.03, 
-        'knowledge_reward_weight': 0.7}
+        'knowledge_reward_weight': 0.7,
+        'seed': 1741
+        }
     seed = params['seed']
     torch.manual_seed(seed=seed)
     np.random.seed(seed)
