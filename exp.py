@@ -20,10 +20,10 @@ class EXP(object):
                 best_path, warmup_proportion=0.1, weight_decay=0.01, reward=['f1'], word_drop_rate=0.04,
                 perfomance_reward_weight=1, ctx_sim_reward_weight=1, kg_reward_weight=1) -> None:
         super().__init__()
+
         self.selector = selector
         self.predictor = predictor
-        # print("Selector: \n {}".format(self.selector))
-        # print("Predictor: \n {}".format(predictor))
+        
         if isinstance(self.selector, SelectorModel):
             self.is_finetune_selector = True
         if isinstance(self.selector, LSTMSelector):
@@ -39,6 +39,7 @@ class EXP(object):
             self.f1_reward = True
         if 'logit' in reward:
             self.logit_reward = True
+
         self.perfomance_reward_weight = perfomance_reward_weight
         self.ctx_sim_reward_weight = ctx_sim_reward_weight
         self.kg_reward_weight = kg_reward_weight
@@ -46,9 +47,11 @@ class EXP(object):
         self.train_dataloader = train_dataloader
         self.test_dataloaders = list(test_dataloaders.values())
         self.validate_dataloaders = list(validate_dataloaders.values())
+        
         self.train_short_dataloader = train_short_dataloader
         self.test_short_dataloaders = list(test_short_dataloaders.values())
         self.validate_short_dataloaders = list(validate_short_dataloaders.values())
+        
         self.datasets = list(test_dataloaders.keys())
 
         self.s_lr = s_lr
@@ -58,6 +61,7 @@ class EXP(object):
         self.train_roberta_epoch = train_lm_epoch
         self.warmup_proportion = warmup_proportion
         self.word_drop_rate = word_drop_rate
+        
         mlp = ['fc1', 'fc2', 'lstm', 'pos_emb', 's_attn']
         no_decay = ['bias', 'gamma', 'beta']
         group1=['layer.0.','layer.1.','layer.2.','layer.3.','layer.4.','layer.5.']

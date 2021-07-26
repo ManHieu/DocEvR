@@ -47,6 +47,7 @@ def objective(trial: optuna.Trial):
             '2': 1, # 2 is MATRES.
             '3': 1, # 3 is I2B2
             '4': 1, # 4 is TBD
+            '5': 1, # 5 is TDD
         },
         'num_ctx_select': trial.suggest_categorical("num_ctx_select", [3, 5]),
         's_lr': trial.suggest_categorical("s_lr", [2e-5, 3e-5, 4e-5]),
@@ -57,7 +58,7 @@ def objective(trial: optuna.Trial):
         # trial.suggest_categorical("word_drop_rate", [0.05, 0.1]),
         'task_reward': trial.suggest_categorical('task_reward', ['logit']),
         'perfomance_reward_weight': trial.suggest_categorical('perfomance_reward_weight', [0.1, 0.5, 1]),
-        'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight', [0.001, 0.003, 0.005, 0.008]),
+        'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight', [0.03, 0.05, 0.08]),
         'knowledge_reward_weight': trial.suggest_categorical('knowledge_reward_weight', [0.5, 0.7]), 
         'is_lstm': False,
         # trial.suggest_categorical("is_lstm", [True, False]), 

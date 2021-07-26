@@ -19,6 +19,7 @@ class ECIRobertaJointTask(nn.Module):
         else:
             print("Loading pretrain model ......")
             self.roberta = RobertaModel.from_pretrained(roberta_type, output_hidden_states=True)
+        
         if roberta_type == 'roberta-base':
             self.roberta_dim = 768
         if roberta_type == 'roberta-large':
@@ -27,30 +28,20 @@ class ECIRobertaJointTask(nn.Module):
         self.sub = sub
         self.mul = mul
         self.finetune = finetune
-        if lstm == True:
-            self.is_lstm = True
-            if pos_dim != None:
-                self.is_pos_emb = True
-                pos_size = len(pos_dict.keys())
-                self.pos_emb = nn.Embedding(pos_size, pos_dim)
-                self.lstm = nn.LSTM(self.roberta_dim+pos_dim, self.roberta_dim//2, 
-                                    num_layers=1, batch_first=True, bidirectional=True)
-            else:
-                self.is_pos_emb = False
-                self.lstm = nn.LSTM(self.roberta_dim, self.roberta_dim//2, num_layers=1, batch_first=True, bidirectional=True)
-            self.mlp_in = self.roberta_dim + kg_emb_dim
+        
+        if pos_dim != None:
+            self.is_pos_emb = True
+            pos_size = len(pos_dict.keys())
+            self.pos_emb = nn.Embedding(pos_size, pos_dim)
+            self.mlp_in = self.roberta_dim + pos_dim + kg_emb_dim
         else:
-            self.is_lstm = False
-            if pos_dim != None:
-                self.is_pos_emb = True
-                pos_size = len(pos_dict.keys())
-                self.pos_emb = nn.Embedding(pos_size, pos_dim)
-                self.mlp_in = self.roberta_dim + pos_dim + kg_emb_dim
-            else:
-                self.is_pos_emb = False
-                self.mlp_in = self.roberta_dim + kg_emb_dim
+            self.is_pos_emb = False
+            self.mlp_in = self.roberta_dim + kg_emb_dim
+        
         self.mlp_size = mlp_size
+        
         self.drop_out = nn.Dropout(drop_rate)
+        
         if fn_activate=='relu':
             self.relu = nn.LeakyReLU(negative_slope, True)
         elif fn_activate=='tanh':
@@ -61,6 +52,7 @@ class ECIRobertaJointTask(nn.Module):
             self.relu = nn.SiLU()
         elif fn_activate=='hardtanh':
             self.relu = nn.Hardtanh()
+        
         self.max_num_class = 0
 
         module_dict = {}
@@ -70,12 +62,15 @@ class ECIRobertaJointTask(nn.Module):
                 num_classes = 4
                 if self.max_num_class < num_classes:
                     self.max_num_class = num_classes
+                
                 if sub==True and mul==True:
                     fc1 = nn.Linear(self.mlp_in*4, int(self.mlp_size*2))
                     fc2 = nn.Linear(int(self.mlp_size*2), num_classes)
+                
                 if (sub==True and mul==False) or (sub==False and mul==True):
                     fc1 = nn.Linear(self.mlp_in*3, int(self.mlp_size*1.5))
                     fc2 = nn.Linear(int(self.mlp_size*1.5), num_classes)
+                
                 if sub==False and mul==False:
                     fc1 = nn.Linear(self.mlp_in*2, int(self.mlp_size))
                     fc2 = nn.Linear(int(self.mlp_size), num_classes)
@@ -96,12 +91,15 @@ class ECIRobertaJointTask(nn.Module):
                 num_classes = 4
                 if self.max_num_class < num_classes:
                     self.max_num_class = num_classes
+                
                 if sub==True and mul==True:
                     fc1 = nn.Linear(self.mlp_in*4, int(self.mlp_size*2))
                     fc2 = nn.Linear(int(self.mlp_size*2), num_classes)
+                
                 if (sub==True and mul==False) or (sub==False and mul==True):
                     fc1 = nn.Linear(self.mlp_in*3, int(self.mlp_size*1.5))
                     fc2 = nn.Linear(int(self.mlp_size*1.5), num_classes)
+                
                 if sub==False and mul==False:
                     fc1 = nn.Linear(self.mlp_in*2, int(self.mlp_size))
                     fc2 = nn.Linear(int(self.mlp_size), num_classes)
@@ -122,12 +120,15 @@ class ECIRobertaJointTask(nn.Module):
                 num_classes = 3
                 if self.max_num_class < num_classes:
                     self.max_num_class = num_classes
+                
                 if sub==True and mul==True:
                     fc1 = nn.Linear(self.mlp_in*4, int(self.mlp_size*2))
                     fc2 = nn.Linear(int(self.mlp_size*2), num_classes)
+                
                 if (sub==True and mul==False) or (sub==False and mul==True):
                     fc1 = nn.Linear(self.mlp_in*3, int(self.mlp_size*1.5))
                     fc2 = nn.Linear(int(self.mlp_size*1.5), num_classes)
+                
                 if sub==False and mul==False:
                     fc1 = nn.Linear(self.mlp_in*2, int(self.mlp_size))
                     fc2 = nn.Linear(int(self.mlp_size), num_classes)
@@ -148,12 +149,15 @@ class ECIRobertaJointTask(nn.Module):
                 num_classes = 6
                 if self.max_num_class < num_classes:
                     self.max_num_class = num_classes
+                
                 if sub==True and mul==True:
                     fc1 = nn.Linear(self.mlp_in*4, int(self.mlp_size*2))
                     fc2 = nn.Linear(int(self.mlp_size*2), num_classes)
+                
                 if (sub==True and mul==False) or (sub==False and mul==True):
                     fc1 = nn.Linear(self.mlp_in*3, int(self.mlp_size*1.5))
                     fc2 = nn.Linear(int(self.mlp_size*1.5), num_classes)
+                
                 if sub==False and mul==False:
                     fc1 = nn.Linear(self.mlp_in*2, int(self.mlp_size))
                     fc2 = nn.Linear(int(self.mlp_size), num_classes)
@@ -169,16 +173,45 @@ class ECIRobertaJointTask(nn.Module):
                                                 ('relu', self.relu), 
                                                 ('fc2',fc2) ]))
                 loss_dict['4'] = loss
-        
+
+            if "TDD" in dataset:
+                num_classes = 5
+                if self.max_num_class < num_classes:
+                    self.max_num_class = num_classes
+                
+                if sub==True and mul==True:
+                    fc1 = nn.Linear(self.mlp_in*4, int(self.mlp_size*2))
+                    fc2 = nn.Linear(int(self.mlp_size*2), num_classes)
+                
+                if (sub==True and mul==False) or (sub==False and mul==True):
+                    fc1 = nn.Linear(self.mlp_in*3, int(self.mlp_size*1.5))
+                    fc2 = nn.Linear(int(self.mlp_size*1.5), num_classes)
+                
+                if sub==False and mul==False:
+                    fc1 = nn.Linear(self.mlp_in*2, int(self.mlp_size))
+                    fc2 = nn.Linear(int(self.mlp_size), num_classes)
+                
+                weights = [41.0/387, 41.0/287, 41.0/64, 41.0/74, 41.0/41]
+                weights = torch.tensor(weights)
+                loss = nn.CrossEntropyLoss(weight=weights)
+
+                module_dict['5'] = nn.Sequential(OrderedDict([
+                                                ('dropout1',self.drop_out), 
+                                                ('fc1', fc1), 
+                                                ('dropout2', self.drop_out), 
+                                                ('relu', self.relu), 
+                                                ('fc2',fc2) ]))
+                loss_dict['5'] = loss
+            
         self.module_dict = nn.ModuleDict(module_dict)
         self.loss_dict = nn.ModuleDict(loss_dict)
+        
         self.task_weights = task_weights
         if self.task_weights != None:
             assert len(self.task_weights)==len(datasets), "Length of weight is difference number datasets: {}".format(len(self.task_weights))
 
     def forward(self, sent, sent_mask, x_position, y_position, xy, flag, x_kg_ev_emb, y_kg_ev_emb, sent_pos=None):
         batch_size = sent.size(0)
-        # print(x_sent.size())
 
         if self.finetune:
             output = self.roberta(sent, sent_mask)[2]
@@ -187,16 +220,16 @@ class ECIRobertaJointTask(nn.Module):
                 output = self.roberta(sent, sent_mask)[2]
         
         output = torch.max(torch.stack(output[-4:], dim=0), dim=0)[0]
+        
         if sent_pos != None:
             pos = self.pos_emb(sent_pos)
             output = torch.cat([output, pos], dim=2)
 
         output = self.drop_out(output)
-        if self.is_lstm:
-            output, _ = self.lstm(output)
         # print(output_x.size())
         output_A = torch.cat([output[i, x_position[i], :].unsqueeze(0) for i in range(0, batch_size)])
         output_A = torch.cat([output_A, x_kg_ev_emb], dim= 1)
+        
         output_B = torch.cat([output[i, y_position[i], :].unsqueeze(0) for i in range(0, batch_size)])
         output_B = torch.cat([output_B, y_kg_ev_emb], dim=1)
         
