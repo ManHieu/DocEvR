@@ -31,62 +31,31 @@ def collate_fn(batch):
     
 def objective(trial: optuna.Trial):
     params = {
-        's_hidden_dim': 256, 
-        's_mlp_dim': 512, 
-        'p_mlp_dim': 768, 
-        'epoches': 7, 
-        'warming_epoch': 1, 
-        'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1}, 
-        'num_ctx_select': 3, 
-        's_lr': 5e-05, 
-        'b_lr': 1e-05, 
-        'm_lr': 5e-05, 
-        'b_lr_decay_rate': 0.7, 
-        'word_drop_rate': 0.05, 
-        'task_reward': 'logit', 
-        'perfomance_reward_weight': 0, 
-        # 1, 
-        'ctx_sim_reward_weight': 0.00, 
-        'knowledge_reward_weight': 0.7, 
-        'seed': 1741
-        }
-    # params = {
-    #     's_hidden_dim': trial.suggest_categorical('s_hidden_dim', [256, 512]),
-    #     # 512,
-    #     's_mlp_dim': trial.suggest_categorical("s_mlp_dim", [512, 768]),
-    #     # 512,
-    #     'p_mlp_dim': trial.suggest_categorical("p_mlp_dim", [512, 768, 1024]),
-    #     # 512, 
-    #     "epoches": trial.suggest_categorical("epoches", [3, 5]),
-    #     "warming_epoch": trial.suggest_categorical("warming_epoch", [0, 1]),
-    #     "task_weights": {
-    #         '1': 1, # 1 is HiEve
-    #         '2': 1, # 2 is MATRES.
-    #         '3': 1, # 3 is I2B2
-    #         '4': 1, # 4 is TBD
-    #         '5': 1, # 5 is TDD
-    #     },
-    #     'num_ctx_select': trial.suggest_categorical("num_ctx_select", [3, 5]),
-    #     's_lr': trial.suggest_categorical("s_lr", [2e-5, 3e-5, 4e-5]),
-    #     'b_lr': trial.suggest_categorical("b_lr", [3e-6, 5e-6, 7e-6]),
-    #     'm_lr': trial.suggest_categorical("m_lr", [4e-5, 3e-5, 5e-5]),
-    #     'b_lr_decay_rate': trial.suggest_categorical("b_lr_decay_rate", [0.3, 0.4, 0.5, 0,6]),
-    #     'word_drop_rate': 0.05,
-    #     # trial.suggest_categorical("word_drop_rate", [0.05, 0.1]),
-    #     'task_reward': trial.suggest_categorical('task_reward', ['logit']),
-    #     'perfomance_reward_weight': trial.suggest_categorical('perfomance_reward_weight', [0.1, 0.5, 1]),
-    #     'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight', [0.03, 0.05, 0.08]),
-    #     'knowledge_reward_weight': trial.suggest_categorical('knowledge_reward_weight', [0.5, 0.7]), 
-    #     # trial.suggest_categorical("is_lstm", [True, False]), 
-    #     # np.log(5) * trial.suggest_categorical('threshold', [0.6, 0.7, 0.8])
-    #     'seed': 1741
-    #     # trial.suggest_int('seed', 0, 1000)
-    # }
-    seed = params['seed']
-    torch.manual_seed(seed=seed)
-    np.random.seed(seed)
-    random.seed(seed)
-
+        's_hidden_dim': 512,
+        's_mlp_dim': 512,
+        'p_mlp_dim': 1024,
+        "epoches": trial.suggest_categorical("epoches", [3, 5]),
+        "warming_epoch": 1,
+        "task_weights": {
+            '1': 1, # 1 is HiEve
+            '2': 1, # 2 is MATRES.
+            '3': 1, # 3 is I2B2
+            '4': 1, # 4 is TBD
+            '5': 1, # 5 is TDD
+        },
+        'num_ctx_select': trial.suggest_categorical("num_ctx_select", [3, 5]),
+        's_lr': trial.suggest_categorical("s_lr", [2e-5, 3e-5, 4e-5]),
+        'b_lr': trial.suggest_categorical("b_lr", [3e-6, 5e-6, 7e-6]),
+        'm_lr': trial.suggest_categorical("m_lr", [4e-5, 3e-5, 5e-5]),
+        'b_lr_decay_rate': trial.suggest_categorical("b_lr_decay_rate", [0.3, 0.4, 0.5, 0,6]),
+        'word_drop_rate': 0.05,
+        # trial.suggest_categorical("word_drop_rate", [0.05, 0.1]),
+        'task_reward': trial.suggest_categorical('task_reward', ['logit']),
+        'perfomance_reward_weight': trial.suggest_categorical('perfomance_reward_weight', [0.3, 0.5, 0,7]),
+        'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight', [0.02, 0.04, 0.06]),
+        'knowledge_reward_weight': trial.suggest_categorical('knowledge_reward_weight', [0.5, 0.7]), 
+        # trial.suggest_int('seed', 0, 1000)
+    }
     num_select = params['num_ctx_select']
 
     train_set = []
@@ -194,7 +163,7 @@ if __name__ == '__main__':
     # parser.add_argument('--num_select', help='number of select sentence', default=3, type=int)
 
     args = parser.parse_args()
-    # seed = args.seed
+    seed = args.seed
     datasets = args.dataset
     print(datasets)
     roberta_type  = args.roberta_type
@@ -203,6 +172,10 @@ if __name__ == '__main__':
     result_file = args.log_file
     batch_size = args.bs
     # num_select = args.num_select
+    
+    torch.manual_seed(seed=seed)
+    np.random.seed(seed)
+    random.seed(seed)
 
     pre_processed_dir = "./" + "_".join(datasets) + "/"
 
