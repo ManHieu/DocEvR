@@ -1,9 +1,11 @@
 import gc
 import os
 import torch
+torch.manual_seed(1741)
 import torch.nn as nn
 from transformers import AutoModel
 import numpy as np
+np.random.seed(1741)
 from utils.constant import CUDA
 
 

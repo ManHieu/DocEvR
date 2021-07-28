@@ -1,15 +1,15 @@
 import datetime
-from math import log
-
-from numpy.lib.twodim_base import tri
 from exp import EXP
 from utils.constant import CUDA
 from models.predictor_model import ECIRobertaJointTask
 from models.selector_model import LSTMSelector, SelectorModel
 import torch
+torch.manual_seed(1741)
 import torch.nn as nn
 import random
+random.seed(1741)
 import numpy as np
+np.random.seed(1741)
 import optuna
 from torch.utils.data.dataloader import DataLoader
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
@@ -47,11 +47,11 @@ def objective(trial: optuna.Trial):
         's_lr': trial.suggest_categorical("s_lr", [2e-5, 3e-5, 4e-5]),
         'b_lr': trial.suggest_categorical("b_lr", [3e-6, 5e-6, 7e-6]),
         'm_lr': trial.suggest_categorical("m_lr", [4e-5, 3e-5, 5e-5]),
-        'b_lr_decay_rate': trial.suggest_categorical("b_lr_decay_rate", [0.3, 0.4, 0.5, 0,6]),
+        'b_lr_decay_rate': trial.suggest_categorical("b_lr_decay_rate", [0.3, 0.4, 0.5, 0.6]),
         'word_drop_rate': 0.05,
         # trial.suggest_categorical("word_drop_rate", [0.05, 0.1]),
         'task_reward': trial.suggest_categorical('task_reward', ['logit']),
-        'perfomance_reward_weight': trial.suggest_categorical('perfomance_reward_weight', [0.3, 0.5, 0,7]),
+        'perfomance_reward_weight': trial.suggest_categorical('perfomance_reward_weight', [0.3, 0.5, 0.7]),
         'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight', [0.02, 0.04, 0.06]),
         'knowledge_reward_weight': trial.suggest_categorical('knowledge_reward_weight', [0.5, 0.7]), 
         # trial.suggest_int('seed', 0, 1000)
@@ -172,10 +172,8 @@ if __name__ == '__main__':
     result_file = args.log_file
     batch_size = args.bs
     # num_select = args.num_select
-    
-    torch.manual_seed(seed=seed)
-    np.random.seed(seed)
-    random.seed(seed)
+
+    torch.manual_seed(seed)
 
     pre_processed_dir = "./" + "_".join(datasets) + "/"
 

@@ -3,7 +3,9 @@ import pickle
 import os
 import tqdm
 import random
+random.seed(1741)
 import torch
+torch.manual_seed(1741)
 from itertools import combinations
 from data_loader.reader import i2b2_xml_reader, tbd_tml_reader, tdd_tml_reader, tml_reader, tsvx_reader
 from utils.tools import create_target, padding, pos_to_id
@@ -80,7 +82,6 @@ def loader(dataset, min_ns):
     sent_encoder = SentenceEncoder('roberta-base')
     c2v = C2V('./datasets/numberbatch-en-19.08.txt')
     def get_data_point(my_dict, flag):
-        
         data = []
         eids = my_dict['event_dict'].keys()
         pair_events = list(combinations(eids, 2))
@@ -143,7 +144,8 @@ def loader(dataset, min_ns):
             kg_emb = c2v.get_emb(mention)
             # print(kg_emb)
             ev_kg_emb[eid] = kg_emb
-        
+        sent_ev = dict(sent_ev)
+        sent_ev_ids = dict(sent_ev_ids)
         # print(ev_kg_emb)
         
         for pair in pair_events:
@@ -278,6 +280,21 @@ def loader(dataset, min_ns):
                 if len(item[-4]) < min_ns:
                     train_short.append(item)
 
+        for my_dict in tqdm.tqdm(validate):
+            file_name = my_dict["doc_id"] + ".pkl"
+            if not os.path.exists(processed_dir+file_name):
+                data = get_data_point(my_dict, 2)
+                with open(processed_dir+file_name, 'wb') as f:
+                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+            else:
+                with open(processed_dir+file_name, 'rb') as f:
+                    data = pickle.load(f)
+            for item in data:
+                if len(item[-4]) >= min_ns:
+                    validate_set.append(item)
+                if len(item[-4]) < min_ns:
+                    validate_short.append(item)
+        
         for my_dict in tqdm.tqdm(test):
             file_name = my_dict["doc_id"] + ".pkl"
             if not os.path.exists(processed_dir+file_name):
@@ -293,27 +310,9 @@ def loader(dataset, min_ns):
                 if len(item[-4]) < min_ns:
                     test_short.append(item)
 
-        for my_dict in tqdm.tqdm(validate):
-            file_name = my_dict["doc_id"] + ".pkl"
-            if not os.path.exists(processed_dir+file_name):
-                data = get_data_point(my_dict, 2)
-                with open(processed_dir+file_name, 'wb') as f:
-                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
-            else:
-                with open(processed_dir+file_name, 'rb') as f:
-                    data = pickle.load(f)
-            for item in data:
-                if len(item[-4]) >= min_ns:
-                    validate_set.append(item)
-                if len(item[-4]) < min_ns:
-                    validate_short.append(item)
-
-        print("Train_size: {}".format(len(train_set)))
-        print("Test_size: {}".format(len(test_set)))
-        print("Validate_size: {}".format(len(validate_set)))
-        print("Train_size: {}".format(len(train_short)))
-        print("Test_size: {}".format(len(test_short)))
-        print("Validate_size: {}".format(len(validate_short)))
+        print("Train_size: {}".format(len(train_set) + len(train_short)))
+        print("Test_size: {}".format(len(test_set) + len(test_short)))
+        print("Validate_size: {}".format(len(validate_set) + len(validate_short)))
     
     if dataset == "HiEve":
         print("HiEve Loading .....")
@@ -393,12 +392,9 @@ def loader(dataset, min_ns):
                     else:
                         validate_short.append(item)
         
-        print("Train_size: {}".format(len(train_set)))
-        print("Test_size: {}".format(len(test_set)))
-        print("Validate_size: {}".format(len(validate_set)))
-        print("Train_size: {}".format(len(train_short)))
-        print("Test_size: {}".format(len(test_short)))
-        print("Validate_size: {}".format(len(validate_short)))
+        print("Train_size: {}".format(len(train_set) + len(train_short)))
+        print("Test_size: {}".format(len(test_set) + len(test_short)))
+        print("Validate_size: {}".format(len(validate_set) + len(validate_short)))
 
     if dataset == "I2B2":
         print("I2B2 Loading .....")
@@ -456,12 +452,9 @@ def loader(dataset, min_ns):
                     else:
                         validate_short.append(item)
 
-        print("Train_size: {}".format(len(train_set)))
-        print("Test_size: {}".format(len(test_set)))
-        print("Validate_size: {}".format(len(validate_set)))
-        print("Train_size: {}".format(len(train_short)))
-        print("Test_size: {}".format(len(test_short)))
-        print("Validate_size: {}".format(len(validate_short)))
+        print("Train_size: {}".format(len(train_set) + len(train_short)))
+        print("Test_size: {}".format(len(test_set) + len(test_short)))
+        print("Validate_size: {}".format(len(validate_set) + len(validate_short)))
 
     if dataset == 'TBD':
         print("Timebank Dense Loading .....")
@@ -521,12 +514,9 @@ def loader(dataset, min_ns):
                 if len(item[-4]) < min_ns:
                     validate_short.append(item)
 
-        print("Train_size: {}".format(len(train_set)))
-        print("Test_size: {}".format(len(test_set)))
-        print("Validate_size: {}".format(len(validate_set)))
-        print("Train_size: {}".format(len(train_short)))
-        print("Test_size: {}".format(len(test_short)))
-        print("Validate_size: {}".format(len(validate_short)))
+        print("Train_size: {}".format(len(train_set) + len(train_short)))
+        print("Test_size: {}".format(len(test_set) + len(test_short)))
+        print("Validate_size: {}".format(len(validate_set) + len(validate_short)))
         
     if dataset == 'TDD_man':
         print("TDD_man Loading .....")
@@ -586,12 +576,9 @@ def loader(dataset, min_ns):
                 if len(item[-4]) < min_ns:
                     validate_short.append(item)
 
-        print("Train_size: {}".format(len(train_set)))
-        print("Test_size: {}".format(len(test_set)))
-        print("Validate_size: {}".format(len(validate_set)))
-        print("Train_size: {}".format(len(train_short)))
-        print("Test_size: {}".format(len(test_short)))
-        print("Validate_size: {}".format(len(validate_short)))
+        print("Train_size: {}".format(len(train_set) + len(train_short)))
+        print("Test_size: {}".format(len(test_set) + len(test_short)))
+        print("Validate_size: {}".format(len(validate_set) + len(validate_short)))
     
     if dataset == 'TDD_auto':
         print("TDD_auto Loading .....")
@@ -651,12 +638,9 @@ def loader(dataset, min_ns):
                 if len(item[-4]) < min_ns:
                     validate_short.append(item)
 
-        print("Train_size: {}".format(len(train_set)))
-        print("Test_size: {}".format(len(test_set)))
-        print("Validate_size: {}".format(len(validate_set)))
-        print("Train_size: {}".format(len(train_short)))
-        print("Test_size: {}".format(len(test_short)))
-        print("Validate_size: {}".format(len(validate_short)))
+        print("Train_size: {}".format(len(train_set) + len(train_short)))
+        print("Test_size: {}".format(len(test_set) + len(test_short)))
+        print("Validate_size: {}".format(len(validate_set) + len(validate_short)))
 
     del sent_encoder
     gc.collect()

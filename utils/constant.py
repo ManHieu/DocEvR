@@ -1,4 +1,5 @@
 import torch
+torch.manual_seed(1741)
 
 
 CUDA = torch.cuda.is_available()

@@ -1,5 +1,6 @@
 from os import path
 import torch
+torch.manual_seed(1741)
 import torch.nn as nn
 import torch.nn.functional as F
 from transformers import AutoModel

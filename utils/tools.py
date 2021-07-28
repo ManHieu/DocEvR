@@ -1,8 +1,9 @@
 import datetime
 import numpy as np
+np.random.seed(1741)
 import torch
+torch.manual_seed(1741)
 import spacy
-from sklearn.metrics import confusion_matrix
 from transformers import RobertaTokenizer
 from utils.constant import *
 
@@ -142,7 +143,7 @@ def word_dropout(seq_id, position, is_word=True, dropout_rate=0.05):
 
 def create_target(x_sent, y_sent, x_sent_id, y_sent_id, x_position, y_position):
     if x_sent_id < y_sent_id:
-        sent = x_sent + y_sent[1:]
+        sent = x_sent + y_sent[1:] # <s> x_sent </s> y_sent </s>
         y_position_new = y_position + len(x_sent) - 1
         x_position_new = x_position
         assert y_sent[y_position] == sent[y_position_new]
