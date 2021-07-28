@@ -1,5 +1,9 @@
+import numpy as np
+np.random.seed(1741)
 import torch
 torch.manual_seed(1741)
+import random
+random.seed(1741)
 
 
 CUDA = torch.cuda.is_available()

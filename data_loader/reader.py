@@ -1,3 +1,9 @@
+import torch
+torch.manual_seed(1741)
+import random
+random.seed(1741)
+import numpy as np
+np.random.seed(1741)
 import bs4
 import xml.etree.ElementTree as ET
 from collections import defaultdict

@@ -1,6 +1,10 @@
-from os import path
 import torch
 torch.manual_seed(1741)
+import random
+random.seed(1741)
+import numpy as np
+np.random.seed(1741)
+from os import path
 import torch.nn as nn
 import torch.nn.functional as F
 from transformers import AutoModel

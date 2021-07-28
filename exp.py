@@ -1,5 +1,10 @@
-from os import path
+import torch
+torch.manual_seed(1741)
+import random
+random.seed(1741)
 import numpy
+numpy.random.seed(1741)
+from os import path
 from sklearn.metrics import precision_recall_fscore_support, confusion_matrix, classification_report
 import tqdm
 from transformers.utils.dummy_pt_objects import BartForCausalLM

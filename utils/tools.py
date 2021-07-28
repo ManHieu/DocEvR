@@ -3,6 +3,8 @@ import numpy as np
 np.random.seed(1741)
 import torch
 torch.manual_seed(1741)
+import random
+random.seed(1741)
 import spacy
 from transformers import RobertaTokenizer
 from utils.constant import *

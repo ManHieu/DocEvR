@@ -1,11 +1,13 @@
+import torch
+torch.manual_seed(1741)
+import random
+random.seed(1741)
+import numpy as np
+np.random.seed(1741)
 from collections import defaultdict
 import pickle
 import os
 import tqdm
-import random
-random.seed(1741)
-import torch
-torch.manual_seed(1741)
 from itertools import combinations
 from data_loader.reader import i2b2_xml_reader, tbd_tml_reader, tdd_tml_reader, tml_reader, tsvx_reader
 from utils.tools import create_target, padding, pos_to_id
