@@ -46,7 +46,7 @@ def objective(trial: optuna.Trial):
         'num_ctx_select': num_select,
         's_lr': trial.suggest_categorical("s_lr", [1e-5, 3e-5, 5e-5]),
         'b_lr': trial.suggest_categorical("b_lr", [3e-6, 5e-6, 7e-6]),
-        'm_lr': trial.suggest_categorical("m_lr", [4e-5, 6e-5, 8e-5]),
+        'm_lr': trial.suggest_categorical("m_lr", [4e-5, 5e-6, 6e-5]),
         'b_lr_decay_rate': trial.suggest_categorical("b_lr_decay_rate", [0.3, 0.4, 0.5, 0.6]),
         'word_drop_rate': 0.05,
         # trial.suggest_categorical("word_drop_rate", [0.05, 0.1]),
@@ -135,7 +135,7 @@ if __name__ == '__main__':
     result_file = args.log_file
     batch_size = args.bs
 
-    num_select = 5
+    num_select = 3
 
     torch.manual_seed(seed)
 
