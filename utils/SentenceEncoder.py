@@ -4,7 +4,6 @@ import torch
 torch.manual_seed(1741)
 import random
 random.seed(1741)
-import gc
 import os
 import torch.nn as nn
 from transformers import AutoModel
@@ -64,8 +63,6 @@ class SentenceEncoder():
                 else:
                     presents.append(s_encoder)
                 presents = [torch.cat(presents, dim=0)]
-                del s_encoder
-                gc.collect()
                 # print(len(presents))
             start = n * 1500
             sent = sentence[start:, :]

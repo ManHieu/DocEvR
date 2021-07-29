@@ -13,7 +13,6 @@ from data_loader.reader import i2b2_xml_reader, tbd_tml_reader, tdd_tml_reader, 
 from utils.tools import create_target, padding, pos_to_id
 from sklearn.model_selection import train_test_split
 from utils.SentenceEncoder import SentenceEncoder
-import gc
 
 
 class Reader(object):
@@ -239,12 +238,6 @@ def loader(dataset, min_ns):
             for item in candidates:
                 if item[-1] != None:
                     data.append(item)
-        del _ctx_ev_kg_embs
-        del _ctx_ev_embs
-        del _ctx_emb
-        del ev_kg_emb
-        del _ctx_augm_emb
-        gc.collect()
         return data
 
     train_set = []
@@ -644,6 +637,4 @@ def loader(dataset, min_ns):
         print("Test_size: {}".format(len(test_set) + len(test_short)))
         print("Validate_size: {}".format(len(validate_set) + len(validate_short)))
 
-    del sent_encoder
-    gc.collect()
     return train_set, test_set, validate_set, train_short, test_short, validate_short
