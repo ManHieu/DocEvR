@@ -13,6 +13,7 @@ from data_loader.reader import i2b2_xml_reader, tbd_tml_reader, tdd_tml_reader, 
 from utils.tools import create_target, padding, pos_to_id
 from sklearn.model_selection import train_test_split
 from utils.SentenceEncoder import SentenceEncoder
+import gc
 
 
 class Reader(object):
@@ -636,5 +637,9 @@ def loader(dataset, min_ns):
         print("Train_size: {}".format(len(train_set) + len(train_short)))
         print("Test_size: {}".format(len(test_set) + len(test_short)))
         print("Validate_size: {}".format(len(validate_set) + len(validate_short)))
+
+        del sent_encoder
+        del c2v
+        gc.collect()
 
     return train_set, test_set, validate_set, train_short, test_short, validate_short
