@@ -34,8 +34,7 @@ def objective(trial: optuna.Trial):
         's_hidden_dim': 512,
         's_mlp_dim': 512,
         'p_mlp_dim': 1024,
-        "epoches": 3,
-        # trial.suggest_categorical("epoches", [3, 5]),
+        "epoches": trial.suggest_categorical("epoches", [3, 5]),
         "warming_epoch": 1,
         "task_weights": {
             '1': 1, # 1 is HiEve
@@ -45,24 +44,16 @@ def objective(trial: optuna.Trial):
             '5': 1, # 5 is TDD
         },
         'num_ctx_select': num_select,
-        's_lr': 4e-5,
-        # trial.suggest_categorical("s_lr", [2e-5, 3e-5, 4e-5]),
-        'b_lr': 7e-6,
-        # trial.suggest_categorical("b_lr", [3e-6, 5e-6, 7e-6]),
-        'm_lr': 3e-5,
-        # trial.suggest_categorical("m_lr", [4e-5, 3e-5, 5e-5]),
-        'b_lr_decay_rate': 0.6,
-        # trial.suggest_categorical("b_lr_decay_rate", [0.3, 0.4, 0.5, 0.6]),
+        's_lr': trial.suggest_categorical("s_lr", [1e-5, 3e-5, 5e-5]),
+        'b_lr': trial.suggest_categorical("b_lr", [3e-6, 5e-6, 7e-6]),
+        'm_lr': trial.suggest_categorical("m_lr", [4e-5, 6e-5, 8e-5]),
+        'b_lr_decay_rate': trial.suggest_categorical("b_lr_decay_rate", [0.3, 0.4, 0.5, 0.6]),
         'word_drop_rate': 0.05,
         # trial.suggest_categorical("word_drop_rate", [0.05, 0.1]),
-        'task_reward': 'logit',
-        # trial.suggest_categorical('task_reward', ['logit']),
-        'perfomance_reward_weight': 0.5,
-        # trial.suggest_categorical('perfomance_reward_weight', [0.3, 0.5, 0.7]),
-        'ctx_sim_reward_weight': 0.04,
-        # trial.suggest_categorical('ctx_sim_reward_weight', [0.02, 0.04, 0.06]),
-        'knowledge_reward_weight': 0.7
-        # trial.suggest_categorical('knowledge_reward_weight', [0.5, 0.7]), 
+        'task_reward': trial.suggest_categorical('task_reward', ['logit']),
+        'perfomance_reward_weight': trial.suggest_categorical('perfomance_reward_weight', [0.3, 0.5, 0.7]),
+        'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight', [0.02, 0.04, 0.06]),
+        'knowledge_reward_weight': trial.suggest_categorical('knowledge_reward_weight', [0.5, 0.7]), 
         # trial.suggest_int('seed', 0, 1000)
     }
 
