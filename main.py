@@ -135,7 +135,7 @@ if __name__ == '__main__':
     result_file = args.log_file
     batch_size = args.bs
 
-    num_select = 3
+    num_select = 5
 
     torch.manual_seed(seed)
 
