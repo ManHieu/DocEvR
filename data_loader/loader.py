@@ -257,7 +257,7 @@ def loader(dataset, min_ns):
         test = load_dataset(platinum_dir_name, 'tml')
         _tt = train + test
         _tt = list(sorted(_tt, key=lambda x: x["doc_id"]))
-        train, validate = train_test_split(train + validate, test_size=0.1, train_size=0.9)
+        train, validate = train_test_split(_tt, test_size=0.1, train_size=0.9)
         
         processed_dir = "./datasets/MATRES/docEvR_processed_kg/"
         if not os.path.exists(processed_dir):
