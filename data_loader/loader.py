@@ -255,7 +255,7 @@ def loader(dataset, min_ns):
         validate = load_dataset(aquaint_dir_name, 'tml')
         train = load_dataset(timebank_dir_name, 'tml')
         test = load_dataset(platinum_dir_name, 'tml')
-        _tt = train + test
+        _tt = train + validate
         _tt = list(sorted(_tt, key=lambda x: x["doc_id"]))
         train, validate = train_test_split(_tt, test_size=0.1, train_size=0.9)
         
