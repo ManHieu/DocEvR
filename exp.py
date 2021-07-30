@@ -211,20 +211,15 @@ class EXP(object):
                     augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, 'warming', doc_id, dropout_rate=self.word_drop_rate)
                     xy = torch.tensor(xy)
                     flag = torch.tensor(flag)
-                    x_kg_ev_emb = torch.stack(x_kg_ev_emb, dim=0)
-                    y_kg_ev_emb = torch.stack(y_kg_ev_emb, dim=0)
-                    # print(x_kg_ev_emb.size())
                     if CUDA:
                         augm_target = augm_target.cuda() 
                         augm_target_mask = augm_target_mask.cuda()
                         augm_pos_target = augm_pos_target.cuda()
                         x_augm_position = x_augm_position.cuda() 
                         y_augm_position = y_augm_position.cuda()
-                        x_kg_ev_emb = x_kg_ev_emb.cuda()
-                        y_kg_ev_emb = y_kg_ev_emb.cuda()
                         xy = xy.cuda()
                         flag = flag.cuda()
-                    logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, x_kg_ev_emb, y_kg_ev_emb, augm_pos_target)
+                    logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, augm_pos_target)
 
                     self.predictor_loss += p_loss.item()
                     p_loss.backward()
@@ -239,8 +234,6 @@ class EXP(object):
                 augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, 'warming', doc_id, dropout_rate=self.word_drop_rate)
                 xy = torch.tensor(xy)
                 flag = torch.tensor(flag)
-                x_kg_ev_emb = torch.stack(x_kg_ev_emb, dim=0)
-                y_kg_ev_emb = torch.stack(y_kg_ev_emb, dim=0)
                 # print(x_kg_ev_emb.size())
                 if CUDA:
                     augm_target = augm_target.cuda() 
@@ -248,11 +241,9 @@ class EXP(object):
                     augm_pos_target = augm_pos_target.cuda()
                     x_augm_position = x_augm_position.cuda() 
                     y_augm_position = y_augm_position.cuda()
-                    x_kg_ev_emb = x_kg_ev_emb.cuda()
-                    y_kg_ev_emb = y_kg_ev_emb.cuda()
                     xy = xy.cuda()
                     flag = flag.cuda()
-                logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, x_kg_ev_emb, y_kg_ev_emb, augm_pos_target)
+                logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, augm_pos_target)
 
                 self.predictor_loss += p_loss.item()
                 p_loss.backward()
@@ -287,20 +278,15 @@ class EXP(object):
                     augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, 'all', doc_id, dropout_rate=self.word_drop_rate)
                     xy = torch.tensor(xy)
                     flag = torch.tensor(flag)
-                    x_kg_ev_emb = torch.stack(x_kg_ev_emb, dim=0)
-                    y_kg_ev_emb = torch.stack(y_kg_ev_emb, dim=0)
-                    # print(x_kg_ev_emb.size())
                     if CUDA:
                         augm_target = augm_target.cuda() 
                         augm_target_mask = augm_target_mask.cuda()
                         augm_pos_target = augm_pos_target.cuda()
                         x_augm_position = x_augm_position.cuda() 
                         y_augm_position = y_augm_position.cuda()
-                        x_kg_ev_emb = x_kg_ev_emb.cuda()
-                        y_kg_ev_emb = y_kg_ev_emb.cuda()
                         xy = xy.cuda()
                         flag = flag.cuda()
-                    logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, x_kg_ev_emb, y_kg_ev_emb, augm_pos_target)
+                    logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, augm_pos_target)
 
                     self.predictor_loss += p_loss.item()
                     p_loss.backward()
@@ -330,7 +316,6 @@ class EXP(object):
                 flag = torch.tensor(flag)
                 x_kg_ev_emb = torch.stack(x_kg_ev_emb, dim=0)
                 y_kg_ev_emb = torch.stack(y_kg_ev_emb, dim=0)
-                # print(x_kg_ev_emb.size())
                 if CUDA:
                     augm_target = augm_target.cuda() 
                     augm_target_mask = augm_target_mask.cuda()
@@ -341,7 +326,7 @@ class EXP(object):
                     y_kg_ev_emb = y_kg_ev_emb.cuda()
                     xy = xy.cuda()
                     flag = flag.cuda()
-                logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, x_kg_ev_emb, y_kg_ev_emb, augm_pos_target)
+                logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, augm_pos_target)
 
                 task_reward = self.task_reward(logits, xy)
                 ctx_sim_reward = self.ctx_reward(x_ev_embs, y_ev_embs, ctx_ev_embs, ctx_selected, ctx_emb, num_ev_sents)
@@ -413,20 +398,15 @@ class EXP(object):
                     augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, 'all', doc_id, dropout_rate=self.word_drop_rate, is_test=True)
                     xy = torch.tensor(xy)
                     flag = torch.tensor(flag)
-                    x_kg_ev_emb = torch.stack(x_kg_ev_emb, dim=0)
-                    y_kg_ev_emb = torch.stack(y_kg_ev_emb, dim=0)
-                    # print(x_kg_ev_emb.size())
                     if CUDA:
                         augm_target = augm_target.cuda() 
                         augm_target_mask = augm_target_mask.cuda()
                         augm_pos_target = augm_pos_target.cuda()
                         x_augm_position = x_augm_position.cuda() 
                         y_augm_position = y_augm_position.cuda()
-                        x_kg_ev_emb = x_kg_ev_emb.cuda()
-                        y_kg_ev_emb = y_kg_ev_emb.cuda()
                         xy = xy.cuda()
                         flag = flag.cuda()
-                    logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, x_kg_ev_emb, y_kg_ev_emb, augm_pos_target)
+                    logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, augm_pos_target)
                     labels = xy.cpu().numpy()
                     y_pred = torch.max(logits, 1).indices.cpu().numpy()
                     gold.extend(labels)
@@ -449,20 +429,15 @@ class EXP(object):
                 augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, ctx_selected, doc_id, dropout_rate=self.word_drop_rate, is_test=True)
                 xy = torch.tensor(xy)
                 flag = torch.tensor(flag)
-                x_kg_ev_emb = torch.stack(x_kg_ev_emb, dim=0)
-                y_kg_ev_emb = torch.stack(y_kg_ev_emb, dim=0)
-                # print(x_kg_ev_emb.size())
                 if CUDA:
                     augm_target = augm_target.cuda() 
                     augm_target_mask = augm_target_mask.cuda()
                     augm_pos_target = augm_pos_target.cuda()
                     x_augm_position = x_augm_position.cuda() 
                     y_augm_position = y_augm_position.cuda()
-                    x_kg_ev_emb = x_kg_ev_emb.cuda()
-                    y_kg_ev_emb = y_kg_ev_emb.cuda()
                     xy = xy.cuda()
                     flag = flag.cuda()
-                logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, x_kg_ev_emb, y_kg_ev_emb, augm_pos_target)
+                logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, augm_pos_target)
                 
                 labels = xy.cpu().numpy()
                 y_pred = torch.max(logits, 1).indices.cpu().numpy()
@@ -521,10 +496,10 @@ class EXP(object):
                 self.best_micro_f1 = F1s 
             if best_f1_mastres > self.best_matres:
                 self.best_matres = best_f1_mastres
-                torch.save(self.selector, self.best_path_selector)
-                torch.save(self.predictor, self.best_path_predictor)
         else:
             if self.best_f1_test < F1:
                 self.best_f1_test = F1
+                torch.save(self.selector, self.best_path_selector)
+                torch.save(self.predictor, self.best_path_predictor)
         return F1s
         

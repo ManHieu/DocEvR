@@ -38,10 +38,10 @@ class ECIRobertaJointTask(nn.Module):
             self.is_pos_emb = True
             pos_size = len(pos_dict.keys())
             self.pos_emb = nn.Embedding(pos_size, pos_dim)
-            self.mlp_in = self.roberta_dim + pos_dim + kg_emb_dim
+            self.mlp_in = self.roberta_dim + pos_dim
         else:
             self.is_pos_emb = False
-            self.mlp_in = self.roberta_dim + kg_emb_dim
+            self.mlp_in = self.roberta_dim
         
         self.mlp_size = mlp_size
         
@@ -215,7 +215,7 @@ class ECIRobertaJointTask(nn.Module):
         if self.task_weights != None:
             assert len(self.task_weights)==len(datasets), "Length of weight is difference number datasets: {}".format(len(self.task_weights))
 
-    def forward(self, sent, sent_mask, x_position, y_position, xy, flag, x_kg_ev_emb, y_kg_ev_emb, sent_pos=None):
+    def forward(self, sent, sent_mask, x_position, y_position, xy, flag, sent_pos=None):
         batch_size = sent.size(0)
 
         if self.finetune:
@@ -233,10 +233,8 @@ class ECIRobertaJointTask(nn.Module):
         output = self.drop_out(output)
         # print(output_x.size())
         output_A = torch.cat([output[i, x_position[i], :].unsqueeze(0) for i in range(0, batch_size)])
-        output_A = torch.cat([output_A, x_kg_ev_emb], dim= 1)
         
         output_B = torch.cat([output[i, y_position[i], :].unsqueeze(0) for i in range(0, batch_size)])
-        output_B = torch.cat([output_B, y_kg_ev_emb], dim=1)
         
         if self.sub and self.mul:
             sub = torch.sub(output_A, output_B)
