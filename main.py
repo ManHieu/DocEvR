@@ -34,7 +34,7 @@ def objective(trial: optuna.Trial):
         's_hidden_dim': trial.suggest_categorical('s_hidden_dim', [256, 512]),
         's_mlp_dim': trial.suggest_categorical('s_mlp_dim', [256, 512]),
         'p_mlp_dim': trial.suggest_categorical('p_mlp_dim', [512, 1024]),
-        "epoches": trial.suggest_categorical("epoches", [3, 5, 7]),
+        "epoches": trial.suggest_categorical("epoches", [3, 5]),
         "warming_epoch": trial.suggest_categorical('warming_epoch', [0, 1]),
         "task_weights": {
             '1': 1, # 1 is HiEve
@@ -52,7 +52,7 @@ def objective(trial: optuna.Trial):
         # trial.suggest_categorical("word_drop_rate", [0.05, 0.1]),
         'task_reward': trial.suggest_categorical('task_reward', ['logit']),
         'perfomance_reward_weight': trial.suggest_categorical('perfomance_reward_weight', [0.3, 0.5, 0.7]),
-        'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight', [0.004, 0.006]),
+        'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight', [0.003, 0.006]),
         'knowledge_reward_weight': trial.suggest_categorical('knowledge_reward_weight', [0.5, 0.7]), 
         # trial.suggest_int('seed', 0, 1000)
     }
