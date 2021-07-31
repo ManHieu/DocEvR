@@ -29,13 +29,6 @@ def seed_worker(worker_id):
 def collate_fn(batch):
     return tuple(zip(*batch))
 
-loaded_dataset = False
-train_set = []
-train_short_set = []
-validate_dataloaders = {}
-test_dataloaders = {}
-validate_short_dataloaders = {}
-test_short_dataloaders = {}
 def objective(trial: optuna.Trial):
     params = {
         's_hidden_dim': trial.suggest_categorical('s_hidden_dim', [256, 512]),
@@ -74,33 +67,6 @@ def objective(trial: optuna.Trial):
     num_select = params['num_ctx_select']
 
     print("Hyperparameter will be use in this trial: \n {}".format(params))
-    
-    global loaded_dataset
-    if loaded_dataset == False:
-        for dataset in datasets:
-            train, test, validate, train_short, test_short, validate_short = loader(dataset, num_select)
-            train_set.extend(train)
-            train_short_set.extend(train_short)
-            validate_dataloader = DataLoader(EventDataset(validate), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
-            test_dataloader = DataLoader(EventDataset(test), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
-            validate_dataloaders[dataset] = validate_dataloader
-            test_dataloaders[dataset] = test_dataloader
-            if len(validate_short) == 0:
-                validate_short_dataloader = None
-            else:
-                validate_short_dataloader = DataLoader(EventDataset(validate_short), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
-            if len(test_short) == 0:
-                test_short_dataloader = None
-            else:
-                test_short_dataloader = DataLoader(EventDataset(test_short), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
-            validate_short_dataloaders[dataset] = validate_short_dataloader
-            test_short_dataloaders[dataset] = test_short_dataloader
-        if len(train_short_set) == 0:
-            train_short_dataloader = None
-        else:
-            train_short_dataloader = DataLoader(EventDataset(train_short_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
-        train_dataloader = DataLoader(EventDataset(train_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
-        loaded_dataset = True
 
     selector = LSTMSelector(768, params['s_hidden_dim'], params['s_mlp_dim'])
     predictor =ECIRobertaJointTask(mlp_size=params['p_mlp_dim'], roberta_type=roberta_type, datasets=datasets, pos_dim=16, 
@@ -169,6 +135,37 @@ if __name__ == '__main__':
     best_path = [best_path+"selector.pth", best_path+"predictor.pth"]
     result_file = args.log_file
     batch_size = args.bs
+
+    train_set = []
+    train_short_set = []
+    validate_dataloaders = {}
+    test_dataloaders = {}
+    validate_short_dataloaders = {}
+    test_short_dataloaders = {}
+    for dataset in datasets:
+        train, test, validate, train_short, test_short, validate_short = loader(dataset, 7)
+        train_set.extend(train)
+        train_short_set.extend(train_short)
+        validate_dataloader = DataLoader(EventDataset(validate), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+        test_dataloader = DataLoader(EventDataset(test), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+        validate_dataloaders[dataset] = validate_dataloader
+        test_dataloaders[dataset] = test_dataloader
+        if len(validate_short) == 0:
+            validate_short_dataloader = None
+        else:
+            validate_short_dataloader = DataLoader(EventDataset(validate_short), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+        if len(test_short) == 0:
+            test_short_dataloader = None
+        else:
+            test_short_dataloader = DataLoader(EventDataset(test_short), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+        validate_short_dataloaders[dataset] = validate_short_dataloader
+        test_short_dataloaders[dataset] = test_short_dataloader
+    if len(train_short_set) == 0:
+        train_short_dataloader = None
+    else:
+        train_short_dataloader = DataLoader(EventDataset(train_short_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+    train_dataloader = DataLoader(EventDataset(train_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+    
 
     torch.manual_seed(seed)
 
