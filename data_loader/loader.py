@@ -316,7 +316,7 @@ def loader(dataset, min_ns):
         print("HiEve Loading .....")
         dir_name = "./datasets/hievents_v2/processed/"
         corpus = load_dataset(dir_name, 'tsvx')
-        corpus = list(sorted(_tt, key=lambda x: x["doc_id"]))
+        corpus = list(sorted(corpus, key=lambda x: x["doc_id"]))
         train, test = train_test_split(corpus, train_size=0.8, test_size=0.2)
         train, validate = train_test_split(train, train_size=0.90, test_size=0.10)
         sample = 0.4
@@ -399,7 +399,7 @@ def loader(dataset, min_ns):
         print("I2B2 Loading .....")
         dir_name = "./datasets/i2b2_2012/2012-07-06.release/2012-07-06.release-fix/"
         corpus = load_dataset(dir_name, 'i2b2_xml')
-        corpus = list(sorted(_tt, key=lambda x: x["doc_id"]))
+        corpus = list(sorted(corpus, key=lambda x: x["doc_id"]))
         train, test = train_test_split(corpus, train_size=0.8, test_size=0.2)
         train, validate = train_test_split(train, train_size=0.75, test_size=0.25)
 
