@@ -6,6 +6,8 @@ from models.predictor_model import ECIRobertaJointTask
 from models.selector_model import LSTMSelector, SelectorModel
 import torch
 torch.manual_seed(1741)
+torch.backends.cudnn.benchmark = False
+torch.use_deterministic_algorithms(True)
 import torch.nn as nn
 import random
 random.seed(1741)
