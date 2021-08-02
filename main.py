@@ -1,4 +1,5 @@
 import datetime
+import os
 from exp import EXP
 from utils.constant import CUDA
 from models.predictor_model import ECIRobertaJointTask
@@ -107,6 +108,8 @@ def objective(trial: optuna.Trial):
             f.write("F1: {} \n".format(F1[i]))
             f.write("CM: \n {} \n".format(CM[i]))
         f.write("Time: {} \n".format(datetime.datetime.now()))
+    os.rename(best_path[1], best_path[1]+'.{}'.format(test_f1))
+    os.rename(best_path[0], best_path[0]+'.{}'.format(test_f1))
 
     del exp
     del selector
@@ -167,7 +170,7 @@ if __name__ == '__main__':
     train_dataloader = DataLoader(EventDataset(train_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
     
 
-    torch.manual_seed(seed)
+    torch.manual_seed(1741)
 
     pre_processed_dir = "./" + "_".join(datasets) + "/"
 
