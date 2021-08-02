@@ -1,5 +1,7 @@
 import datetime
 import os
+
+from optuna import samplers
 from exp import EXP
 from utils.constant import CUDA
 from models.predictor_model import ECIRobertaJointTask
@@ -176,8 +178,9 @@ if __name__ == '__main__':
 
     pre_processed_dir = "./" + "_".join(datasets) + "/"
 
-    study = optuna.create_study(direction='maximize')
-    study.optimize(objective, n_trials=100)
+    sampler = optuna.samplers.TPESampler(seed=1741)
+    study = optuna.create_study(direction='maximize', sampler=samplers)
+    study.optimize(objective, n_trials=50)
     trial = study.best_trial
 
     print('Accuracy: {}'.format(trial.value))
