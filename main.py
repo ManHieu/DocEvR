@@ -1,15 +1,12 @@
 import datetime
 import os
-
-from optuna import samplers
 from exp import EXP
 from utils.constant import CUDA
 from models.predictor_model import ECIRobertaJointTask
-from models.selector_model import LSTMSelector, SelectorModel
+from models.selector_model import LSTMSelector
 import torch
 torch.manual_seed(1741)
 torch.backends.cudnn.benchmark = False
-torch.use_deterministic_algorithms(True)
 import torch.nn as nn
 import random
 random.seed(1741)
@@ -26,15 +23,14 @@ import gc
 def count_parameters(model):
     return sum(p.numel() for p in model.parameters() if p.requires_grad)
 
-def seed_worker(worker_id):
-        worker_seed = torch.initial_seed() % 2**32
-        np.random.seed(worker_seed)
-        random.seed(worker_seed)
-
 def collate_fn(batch):
     return tuple(zip(*batch))
 
 def objective(trial: optuna.Trial):
+    torch.manual_seed(1741)
+    np.random.seed(1741)
+    random.seed(1741)
+
     params = {
         's_hidden_dim': trial.suggest_categorical('s_hidden_dim', [256, 512]),
         's_mlp_dim': 512,
@@ -153,33 +149,30 @@ if __name__ == '__main__':
         train, test, validate, train_short, test_short, validate_short = loader(dataset, 7)
         train_set.extend(train)
         train_short_set.extend(train_short)
-        validate_dataloader = DataLoader(EventDataset(validate), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
-        test_dataloader = DataLoader(EventDataset(test), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+        validate_dataloader = DataLoader(EventDataset(validate), batch_size=batch_size, shuffle=True,collate_fn=collate_fn)
+        test_dataloader = DataLoader(EventDataset(test), batch_size=batch_size, shuffle=True,collate_fn=collate_fn)
         validate_dataloaders[dataset] = validate_dataloader
         test_dataloaders[dataset] = test_dataloader
         if len(validate_short) == 0:
             validate_short_dataloader = None
         else:
-            validate_short_dataloader = DataLoader(EventDataset(validate_short), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+            validate_short_dataloader = DataLoader(EventDataset(validate_short), batch_size=batch_size, shuffle=True,collate_fn=collate_fn)
         if len(test_short) == 0:
             test_short_dataloader = None
         else:
-            test_short_dataloader = DataLoader(EventDataset(test_short), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
+            test_short_dataloader = DataLoader(EventDataset(test_short), batch_size=batch_size, shuffle=True,collate_fn=collate_fn)
         validate_short_dataloaders[dataset] = validate_short_dataloader
         test_short_dataloaders[dataset] = test_short_dataloader
     if len(train_short_set) == 0:
         train_short_dataloader = None
     else:
-        train_short_dataloader = DataLoader(EventDataset(train_short_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
-    train_dataloader = DataLoader(EventDataset(train_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn, worker_init_fn=seed_worker)
-    
-
-    torch.manual_seed(1741)
+        train_short_dataloader = DataLoader(EventDataset(train_short_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn)
+    train_dataloader = DataLoader(EventDataset(train_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn)
 
     pre_processed_dir = "./" + "_".join(datasets) + "/"
 
     sampler = optuna.samplers.TPESampler(seed=1741)
-    study = optuna.create_study(direction='maximize', sampler=samplers)
+    study = optuna.create_study(direction='maximize', sampler=sampler)
     study.optimize(objective, n_trials=50)
     trial = study.best_trial
 
