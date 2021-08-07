@@ -245,19 +245,19 @@ def augment_target(x_sent, y_sent, x_sent_id, y_sent_id, x_possition, y_possitio
         sent_cent += ctx[id][1:-1]
     sent_right = []
     for id in sorted(id_right):
-        sent_right += ctx[id][1:]
+        sent_right += ctx[id][1:-1]
     
     sent = []
     if x_sent_id < y_sent_id:
-        sent = [0] + sent_left + [2] + x_sent[1:] + sent_cent + [2] + y_sent[1:] + sent_right
+        sent = [0] + sent_left + [2] + x_sent[1:] + sent_cent + [2] + y_sent[1:] + sent_right + [2]
         x_possition_new = 1 + x_possition + len(sent_left)
         y_possition_new = 1 + len(sent_left) + len(x_sent) + len(sent_cent) + y_possition
     elif x_sent_id == y_sent_id:
-        sent = [0] + sent_left + [2] + x_sent[1:] + sent_right
+        sent = [0] + sent_left + [2] + x_sent[1:] + sent_right + [2]
         x_possition_new = 1 + x_possition + len(sent_left)
         y_possition_new = 1 + y_possition + len(sent_left)
     else:
-        sent = [0] + sent_left + [2] + y_sent[1:] + sent_cent + [2] + x_sent[1:] + sent_right
+        sent = [0] + sent_left + [2] + y_sent[1:] + sent_cent + [2] + x_sent[1:] + sent_right + [2]
         y_possition_new = 1 + y_possition + len(sent_left)
         x_possition_new = 1 + len(sent_left) + len(y_sent) + len(sent_cent) + x_possition
     

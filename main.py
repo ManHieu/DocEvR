@@ -28,10 +28,10 @@ def collate_fn(batch):
 
 def objective(trial: optuna.Trial):
     params = {
-        's_hidden_dim': trial.suggest_categorical('s_hidden_dim', [512]),
+        's_hidden_dim': trial.suggest_categorical('s_hidden_dim', [256]),
         's_mlp_dim': 512,
-        'p_mlp_dim': trial.suggest_categorical('p_mlp_dim', [512, 1024]),
-        "epoches": trial.suggest_categorical("epoches", [3, 5, 7]),
+        'p_mlp_dim': trial.suggest_categorical('p_mlp_dim', [512, 768]),
+        "epoches": trial.suggest_categorical("epoches", [3, 5]),
         "warming_epoch": trial.suggest_categorical('warming_epoch', [1]),
         "task_weights": {
             '1': 1, # 1 is HiEve
@@ -42,7 +42,7 @@ def objective(trial: optuna.Trial):
         },
         'num_ctx_select': trial.suggest_categorical('num_ctx_sellect', [3, 5]),
         's_lr': trial.suggest_categorical("s_lr", [5e-5]),
-        'b_lr': trial.suggest_categorical("b_lr", [7e-6, 1e-5]),
+        'b_lr': trial.suggest_categorical("b_lr", [1.5e-5, 1e-5]),
         # trial.suggest_categorical("b_lr", [9e-6, 1e-5, 2e-5]),
         'm_lr': trial.suggest_categorical("m_lr", [5e-5]),
         'b_lr_decay_rate': trial.suggest_categorical("b_lr_decay_rate", [0.3, 0.5, 0.7]),
@@ -50,21 +50,52 @@ def objective(trial: optuna.Trial):
         # trial.suggest_categorical("word_drop_rate", [0.05, 0.1]),
         'task_reward': trial.suggest_categorical('task_reward', ['logit']),
         'perfomance_reward_weight': trial.suggest_categorical('perfomance_reward_weight', [0.5, 0.7]),
-        'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight', [0.006, 0.001, 0.01]),
+        'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight',  [0.01, 0.03, 0.05]),
         'knowledge_reward_weight': trial.suggest_categorical('knowledge_reward_weight', [0.5, 0.7]), 
         'seed': trial.suggest_int('seed', 0, 1000)
     }
-    torch.manual_seed(params['seed'])
+    torch.manual_seed(1741)
     np.random.seed(params['seed'])
     random.seed(params['seed'])
 
     drop_rate = 0.5
-    fn_activative = trial.suggest_categorical('fn_activate', ['relu', 'tanh', 'relu6', 'silu', 'hardtanh'])
+    fn_activative = 'relu6'
+    # trial.suggest_categorical('fn_activate', ['relu', 'tanh', 'relu6', 'silu', 'hardtanh'])
     is_mul = True
     # trial.suggest_categorical('is_mul', [True, False])
     is_sub = True
     # trial.suggest_categorical('is_sub', [True, False])
     num_select = params['num_ctx_select']
+
+    train_set = []
+    train_short_set = []
+    validate_dataloaders = {}
+    test_dataloaders = {}
+    validate_short_dataloaders = {}
+    test_short_dataloaders = {}
+    for dataset in datasets:
+        train, test, validate, train_short, test_short, validate_short = loader(dataset, 7)
+        train_set.extend(train)
+        train_short_set.extend(train_short)
+        validate_dataloader = DataLoader(EventDataset(validate), batch_size=batch_size, shuffle=True,collate_fn=collate_fn)
+        test_dataloader = DataLoader(EventDataset(test), batch_size=batch_size, shuffle=True,collate_fn=collate_fn)
+        validate_dataloaders[dataset] = validate_dataloader
+        test_dataloaders[dataset] = test_dataloader
+        if len(validate_short) == 0:
+            validate_short_dataloader = None
+        else:
+            validate_short_dataloader = DataLoader(EventDataset(validate_short), batch_size=batch_size, shuffle=True,collate_fn=collate_fn)
+        if len(test_short) == 0:
+            test_short_dataloader = None
+        else:
+            test_short_dataloader = DataLoader(EventDataset(test_short), batch_size=batch_size, shuffle=True,collate_fn=collate_fn)
+        validate_short_dataloaders[dataset] = validate_short_dataloader
+        test_short_dataloaders[dataset] = test_short_dataloader
+    if len(train_short_set) == 0:
+        train_short_dataloader = None
+    else:
+        train_short_dataloader = DataLoader(EventDataset(train_short_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn)
+    train_dataloader = DataLoader(EventDataset(train_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn)
 
     print("Hyperparameter will be use in this trial: \n {}".format(params))
 
@@ -137,37 +168,6 @@ if __name__ == '__main__':
     best_path = [best_path+"selector.pth", best_path+"predictor.pth"]
     result_file = args.log_file
     batch_size = args.bs
-
-    train_set = []
-    train_short_set = []
-    validate_dataloaders = {}
-    test_dataloaders = {}
-    validate_short_dataloaders = {}
-    test_short_dataloaders = {}
-    for dataset in datasets:
-        train, test, validate, train_short, test_short, validate_short = loader(dataset, 7)
-        train_set.extend(train)
-        train_short_set.extend(train_short)
-        validate_dataloader = DataLoader(EventDataset(validate), batch_size=batch_size, shuffle=True,collate_fn=collate_fn)
-        test_dataloader = DataLoader(EventDataset(test), batch_size=batch_size, shuffle=True,collate_fn=collate_fn)
-        validate_dataloaders[dataset] = validate_dataloader
-        test_dataloaders[dataset] = test_dataloader
-        if len(validate_short) == 0:
-            validate_short_dataloader = None
-        else:
-            validate_short_dataloader = DataLoader(EventDataset(validate_short), batch_size=batch_size, shuffle=True,collate_fn=collate_fn)
-        if len(test_short) == 0:
-            test_short_dataloader = None
-        else:
-            test_short_dataloader = DataLoader(EventDataset(test_short), batch_size=batch_size, shuffle=True,collate_fn=collate_fn)
-        validate_short_dataloaders[dataset] = validate_short_dataloader
-        test_short_dataloaders[dataset] = test_short_dataloader
-    if len(train_short_set) == 0:
-        train_short_dataloader = None
-    else:
-        train_short_dataloader = DataLoader(EventDataset(train_short_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn)
-    train_dataloader = DataLoader(EventDataset(train_set), batch_size=batch_size, shuffle=True,collate_fn=collate_fn)
-
     pre_processed_dir = "./" + "_".join(datasets) + "/"
 
     sampler = optuna.samplers.TPESampler(seed=1741)

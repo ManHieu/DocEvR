@@ -31,9 +31,9 @@ class Reader(object):
         elif self.type == 'tbd_tml':
             return tbd_tml_reader(dir_name, file_name)
         elif self.type == 'tdd_man':
-            return tdd_tml_reader(dir_name, file_name, type='man')
+            return tdd_tml_reader(dir_name, file_name, type_doc='man')
         elif self.type == 'tdd_auto':
-            return tdd_tml_reader(dir_name, file_name, type='auto')
+            return tdd_tml_reader(dir_name, file_name, type_doc='auto')
         else:
             raise ValueError("We have not supported {} type yet!".format(self.type))
 
@@ -203,13 +203,17 @@ def loader(dataset, min_ns):
                     sent_emb = _ctx_augm_emb[tuple(sorted([x_sent_id, y_sent_id, sent_id]))]
                     assert sent_emb != None
                     _ctx_emb.append(sent_emb)
-                    e_possitions = sent_ev[sent_id]
+                    e_possitions = sent_ev.get(sent_id)
+                    if e_possitions == None:
+                        e_possitions = []
                     num_ev_sents.append(len(e_possitions))
                     if len(e_possitions) != 0:
                         ev_embs = torch.max(doc_emb[sent_id, e_possitions, :], dim=0)[0] # 768
                         _ctx_ev_embs.append(ev_embs)
 
-                    eids = sent_ev_ids[sent_id]
+                    eids = sent_ev_ids.get(sent_id)
+                    if eids == None:
+                        eids = []
                     # print(eids)
                     if len(eids) != 0:
                         sent_ev_kg_emb = [ev_kg_emb[eid] for eid in eids]
@@ -318,7 +322,7 @@ def loader(dataset, min_ns):
         corpus = load_dataset(dir_name, 'tsvx')
         corpus = list(sorted(corpus, key=lambda x: x["doc_id"]))
         train, test = train_test_split(corpus, train_size=0.8, test_size=0.2)
-        train, validate = train_test_split(train, train_size=0.90, test_size=0.10)
+        train, validate = train_test_split(train, train_size=0.75, test_size=0.25)
         sample = 0.4
 
         processed_dir = "./datasets/hievents_v2/processed/docEvR_processed_kg/"

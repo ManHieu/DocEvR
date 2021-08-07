@@ -514,7 +514,7 @@ TDD_auto = TDD_auto_train + TDD_auto_val + TDD_auto_test
 TDD_auto = doc_mapping(TDD_auto)
 
 
-def tdd_tml_reader(dir_name, file_name, type):
+def tdd_tml_reader(dir_name, file_name, type_doc):
     my_dict = {}
     my_dict["event_dict"] = {}
     my_dict["doc_id"] = file_name.replace(".tml", "")
@@ -550,7 +550,7 @@ def tdd_tml_reader(dir_name, file_name, type):
             pointer += len(item.text)
     my_dict["doc_content"] = content
 
-    print(my_dict["doc_content"])
+    # print(my_dict["doc_content"])
 
     my_dict["sentences"] = []
     sent_tokenized_text = [str(sent) for sent in nlp(my_dict["doc_content"]).sents]
@@ -607,11 +607,11 @@ def tdd_tml_reader(dir_name, file_name, type):
         assert sub_word.strip() in mention
     
     my_dict['relation_dict'] = {}
-    if type == 'man':
+    if type_doc == 'man':
         rel_list = TDD_man.get(my_dict["doc_id"])
         if rel_list == None:
             return None
-    elif type == 'auto':
+    elif type_doc == 'auto':
         rel_list = TDD_auto.get(my_dict["doc_id"])
         if rel_list == None:
             return None
@@ -619,12 +619,11 @@ def tdd_tml_reader(dir_name, file_name, type):
         raise_error("Don't have this corpus!")
     eids = my_dict['event_dict'].keys()
 
-    print(rel_list)
+    # print(rel_list)
     for item in rel_list:
         eid1, eid2, rel = item
-        assert eid1 in eids
-        assert eid2 in eids
-        my_dict['relation_dict'][(eid1, eid2)] = rel
+        if eid1 in eids and eid2 in eids:
+            my_dict['relation_dict'][(eid1, eid2)] = rel
     
     return my_dict
 

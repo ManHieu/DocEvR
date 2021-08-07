@@ -32,7 +32,7 @@ class SentenceEncoder():
             mask = torch.tensor(mask)
             if len(mask.size()) == 1:
                 mask = mask.unsqueeze(0)
-        if sentence.size(0) <= 1500:
+        if sentence.size(0) <= 1200:
             if CUDA:
                 if mask != None:
                     mask = mask.cuda()
@@ -44,12 +44,12 @@ class SentenceEncoder():
                 s_encoder = s_encoder[:, 0]
             return s_encoder # ns x s_len x 768
         
-        if sentence.size(0) > 1500:
-            n = sentence.size(0)//1500
+        if sentence.size(0) > 1200:
+            n = sentence.size(0)//1200
             presents = []
             for i in range(1, n+1):
-                start = (i-1) * 1500
-                end = i * 1500
+                start = (i-1) * 1200
+                end = i * 1200
                 sent = sentence[start:end, :]
                 mk = mask[start:end, :]
                 if CUDA:
@@ -64,7 +64,7 @@ class SentenceEncoder():
                     presents.append(s_encoder)
                 presents = [torch.cat(presents, dim=0)]
                 # print(len(presents))
-            start = n * 1500
+            start = n * 1200
             sent = sentence[start:, :]
             mk = mask[start:, :]
             if CUDA:

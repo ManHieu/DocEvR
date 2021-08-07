@@ -18,3 +18,5 @@ datasets/TimeBank-dense/docEvR_processed_kg/
 datasets/i2b2_2012/docEvR_processed_kg/
 log
 datasets/i2b2_2012/docEvR_processed_kg.zip
+result.txt
+datasets/TDDiscourse/TDDMan/docEvR_processed_kg/
