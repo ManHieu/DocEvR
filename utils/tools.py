@@ -171,8 +171,11 @@ def make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_se
     augm_target = []
     augm_target_mask = []
     augm_pos_target = []
+    _augm_target = []
+    _augm_pos_target = []
     x_augm_position = []
     y_augm_position = []
+    max_len = 0
     for i in range(bs):
         if ctx_id == 'all':
             selected_ctx = list(range(len(ctx[i])))
@@ -189,12 +192,22 @@ def make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_se
         if is_test == False:
             augment = word_dropout(augment, [x_possition_new, y_possition_new], dropout_rate=dropout_rate)
             pos_augment = word_dropout(pos_augment, [x_possition_new, y_possition_new], is_word=False, dropout_rate=dropout_rate)
-        pad, mask = padding(augment, max_sent_len=2000)
-        augm_target.append(pad)
-        augm_target_mask.append(mask)
-        augm_pos_target.append(padding(pos_augment, pos=True, max_sent_len=2000))
+        assert len(augment) == len(pos_augment)
+        # print(len(augment))
+        max_len = max(len(augment), max_len)
+        
         x_augm_position.append(x_possition_new)
         y_augm_position.append(y_possition_new)
+        _augm_target.append(augment)
+        _augm_pos_target.append(pos_augment)
+
+    for i in range(bs):
+        _augment = _augm_target[i]
+        _pos_augment = _augm_pos_target[i]
+        pad, mask = padding(_augment, max_sent_len=max_len)
+        augm_target.append(pad)
+        augm_target_mask.append(mask)
+        augm_pos_target.append(padding(_pos_augment, pos=True, max_sent_len=max_len))
 
     augm_target = torch.tensor(augm_target)
     augm_target_mask = torch.tensor(augm_target_mask)
