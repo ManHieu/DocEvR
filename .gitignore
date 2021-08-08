@@ -20,3 +20,4 @@ log
 datasets/i2b2_2012/docEvR_processed_kg.zip
 result.txt
 datasets/TDDiscourse/TDDMan/docEvR_processed_kg/
+datasets/TDDiscourse/TDDAuto/docEvR_processed_kg/

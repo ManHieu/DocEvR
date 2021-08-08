@@ -622,9 +622,9 @@ def tdd_tml_reader(dir_name, file_name, type_doc):
     # print(rel_list)
     for item in rel_list:
         eid1, eid2, rel = item
-        print(item)
+        # print(item)
         if eid1 in eids and eid2 in eids:
-            print(tdd_label_dict[rel])
+            # print(tdd_label_dict[rel])
             my_dict['relation_dict'][(eid1, eid2)] = tdd_label_dict[rel]
     
     return my_dict
