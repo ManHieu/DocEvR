@@ -7,12 +7,12 @@ np.random.seed(1741)
 from collections import OrderedDict
 import torch.nn as nn
 import torch.nn.functional as F
-from transformers import RobertaModel
+from transformers import AutoModel
 from utils.constant import *
 import os.path as path
 
 
-class ECIRobertaJointTask(nn.Module):
+class DocTransformer(nn.Module):
     def __init__(self, mlp_size, roberta_type, datasets,
                 finetune=True, pos_dim=None, loss=None, sub=True, mul=True, fn_activate='relu',
                 negative_slope=0.2, drop_rate=0.5, task_weights=None, kg_emb_dim=300, lstm=False):
@@ -20,15 +20,9 @@ class ECIRobertaJointTask(nn.Module):
         
         if path.exists("./pretrained_models/models/{}".format(roberta_type)):
             print("Loading pretrain model from local ......")
-            self.roberta = RobertaModel.from_pretrained("./pretrained_models/models/{}".format(roberta_type), output_hidden_states=True)
-        else:
-            print("Loading pretrain model ......")
-            self.roberta = RobertaModel.from_pretrained(roberta_type, output_hidden_states=True)
+            self.encoder = AutoModel.from_pretrained("./pretrained_models/models/{}".format(roberta_type), output_hidden_states=True)
         
-        if roberta_type == 'roberta-base':
-            self.roberta_dim = 768
-        if roberta_type == 'roberta-large':
-            self.roberta_dim = 1024
+        self.encoder_dim = 768
 
         self.sub = sub
         self.mul = mul
@@ -38,10 +32,10 @@ class ECIRobertaJointTask(nn.Module):
             self.is_pos_emb = True
             pos_size = len(pos_dict.keys())
             self.pos_emb = nn.Embedding(pos_size, pos_dim)
-            self.mlp_in = self.roberta_dim + pos_dim
+            self.mlp_in = self.encoder_dim + pos_dim
         else:
             self.is_pos_emb = False
-            self.mlp_in = self.roberta_dim
+            self.mlp_in = self.encoder_dim
         
         self.mlp_size = mlp_size
         
@@ -218,13 +212,16 @@ class ECIRobertaJointTask(nn.Module):
     def forward(self, sent, sent_mask, x_position, y_position, xy, flag, sent_pos=None):
         batch_size = sent.size(0)
 
-        if self.finetune:
-            output = self.roberta(sent, sent_mask)[2]
-        else:
-            with torch.no_grad():
-                output = self.roberta(sent, sent_mask)[2]
+        global_attn_mask = torch.zeros(sent.shape, dtype=torch.long, device=sent.device)
+        for i in range(batch_size):
+            x_sent_pos = int(x_position[i])
+            y_sent_pos = int(y_position[i])
+            global_attn_mask[i, [x_sent_pos, y_sent_pos]] = 1
+
+        output = self.encoder(sent, attention_mask=sent_mask, global_attention_mask=global_attn_mask)[0]
+        # print(output.size())
         
-        output = torch.max(torch.stack(output[-4:], dim=0), dim=0)[0]
+        # output = torch.max(torch.stack(output[-4:], dim=0), dim=0)[0]
         
         if sent_pos != None:
             pos = self.pos_emb(sent_pos)

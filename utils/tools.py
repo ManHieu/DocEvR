@@ -189,10 +189,10 @@ def make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_se
         if is_test == False:
             augment = word_dropout(augment, [x_possition_new, y_possition_new], dropout_rate=dropout_rate)
             pos_augment = word_dropout(pos_augment, [x_possition_new, y_possition_new], is_word=False, dropout_rate=dropout_rate)
-        pad, mask = padding(augment, max_sent_len=400)
+        pad, mask = padding(augment, max_sent_len=2000)
         augm_target.append(pad)
         augm_target_mask.append(mask)
-        augm_pos_target.append(padding(pos_augment, pos=True, max_sent_len=400))
+        augm_pos_target.append(padding(pos_augment, pos=True, max_sent_len=2000))
         x_augm_position.append(x_possition_new)
         y_augm_position.append(y_possition_new)
 
