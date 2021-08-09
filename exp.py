@@ -499,6 +499,7 @@ class EXP(object):
         else:
             if self.best_f1_test < F1:
                 self.best_f1_test = F1
+            if self.best_f1_test > 0.823:
                 torch.save(self.selector, self.best_path_selector)
                 torch.save(self.predictor, self.best_path_predictor)
         return F1s
