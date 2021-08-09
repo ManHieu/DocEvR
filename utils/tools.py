@@ -192,8 +192,11 @@ def make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_se
         if is_test == False:
             augment = word_dropout(augment, [x_possition_new, y_possition_new], dropout_rate=dropout_rate)
             pos_augment = word_dropout(pos_augment, [x_possition_new, y_possition_new], is_word=False, dropout_rate=dropout_rate)
-        assert len(augment) == len(pos_augment)
-        # print(len(augment))
+        try:
+            assert len(augment) == len(pos_augment)
+        except:
+            print("augment: ", augment)
+            print("pos_augm: ", pos_augment)
         max_len = max(len(augment), max_len)
         
         x_augm_position.append(x_possition_new)
