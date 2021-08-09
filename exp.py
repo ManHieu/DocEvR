@@ -115,6 +115,7 @@ class EXP(object):
         lamd.extend(mlp_lambda)
 
         self.scheduler = optim.lr_scheduler.LambdaLR(self.predictor_optim, lr_lambda=lamd)
+        self.selector_scheduler = optim.lr_scheduler.LambdaLR(self.selector_optim, lr_lambda=m_lr_lambda)
         
         self.best_micro_f1 = [0.0]*len(self.test_dataloaders)
         self.sum_f1 = 0.0
@@ -346,6 +347,7 @@ class EXP(object):
                 self.predictor_optim.step()
                 self.scheduler.step()
                 self.selector_optim.step()
+                self.selector_scheduler.step()
 
             epoch_training_time = format_time(time.time() - t0)
             print("Total training loss: {} - {}".format(self.selector_loss, self.predictor_loss))
