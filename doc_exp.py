@@ -40,7 +40,7 @@ class EXP(object):
             {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp)], 'weight_decay_rate': 0.01, 'lr': self.lr},
             ]
 
-        self.b_optim = optim.AdamW(self.parameters, weight_decay=weight_decay)
+        self.optim = optim.AdamW(self.parameters, weight_decay=weight_decay)
 
         self.train_bert_epoch = 1
         self.num_training_steps = len(self.train_dataloader) * (self.train_bert_epoch)
