@@ -16,7 +16,7 @@ import torch.optim as optim
 class EXP(object):
     def __init__(self, predictor, num_epoches, 
                 train_dataloader, validate_dataloaders, test_dataloaders, 
-                lr, 
+                lr, mlr,
                 best_path, warmup_proportion=0.1, word_drop_rate=0.05, weight_decay=0.01) -> None:
         super().__init__()
 
@@ -31,13 +31,20 @@ class EXP(object):
         self.datasets = list(test_dataloaders.keys())
 
         self.lr = lr
+        self.mlr = mlr
         self.warmup_proportion = warmup_proportion
         self.word_drop_rate = word_drop_rate
+        mlp = ['fc1', 'fc2', 'lstm', 'pos_emb', 's_attn']
+        self.parameters = [
+            {'params': [p for n, p in self.predictor.named_parameters() if any(nd in n for nd in mlp)], 'weight_decay_rate': 0.01, 'lr': self.mlr},
+            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp)], 'weight_decay_rate': 0.01, 'lr': self.lr},
+            ]
 
-        self.optim = optim.AdamW(self.predictor.parameters(), lr=self.lr, weight_decay=weight_decay)
+        self.b_optim = optim.AdamW(self.parameters, weight_decay=weight_decay)
 
-        self.num_training_steps = len(self.train_dataloader) * (self.num_epoches)
-        self.num_warmup_steps = int(self.warmup_proportion * self.num_training_steps)
+        self.train_bert_epoch = 1
+        self.num_training_steps = len(self.train_dataloader) * (self.train_bert_epoch)
+        self.num_warmup_steps = int(self.warmup_proportion * self.train_bert_epoch)
 
         def linear_lr_lambda(current_step: int):
             if current_step < self.num_warmup_steps:
@@ -47,8 +54,10 @@ class EXP(object):
             return max(
                 0.0, float(self.num_training_steps - current_step) / float(max(1, self.num_training_steps - self.num_warmup_steps))
             )
+        def m_lr_lambda(current_step: int):
+            return 0.5 ** int(current_step / (2*len(self.train_dataloader)))
 
-        self.scheduler = optim.lr_scheduler.LambdaLR(self.optim, lr_lambda=linear_lr_lambda)
+        self.scheduler = optim.lr_scheduler.LambdaLR(self.optim, lr_lambda=[m_lr_lambda, linear_lr_lambda])
         
         self.best_micro_f1 = [0.0]*len(self.test_dataloaders)
         self.sum_f1 = 0.0
@@ -61,6 +70,10 @@ class EXP(object):
         start_time = time.time()
         for i in range(self.num_epoches):
             print("============== Epoch {} / {} ==============".format(i+1, self.num_epoches))
+            if i >= self.train_bert_epoch:
+                for param in self.parameters[1]['params']:
+                    param.requires_grad = False
+
             t0 = time.time()
             self.predictor.train()
             self.predictor.zero_grad()

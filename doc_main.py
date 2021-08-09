@@ -28,8 +28,9 @@ def collate_fn(batch):
 def objective(trial: optuna.Trial):
     params = {
         'p_mlp_dim': trial.suggest_categorical('p_mlp_dim', [512, 768]),
-        "epoches": trial.suggest_categorical("epoches", [3, 5]),
+        "epoches": trial.suggest_categorical("epoches", [5, 7]),
         'lr': trial.suggest_categorical("lr", [1.5e-5, 1e-5, 7e-6, 5e-6]),
+        'mlr': trial.suggest_categorical("mlr", [3e-5, 5e-5]),
         'word_drop_rate': 0.05,
         'seed': 1741
     }
@@ -70,7 +71,7 @@ def objective(trial: optuna.Trial):
     total_steps = len(train_dataloader) * epoches
     print("Total steps: [number of batches] x [number of epochs] =", total_steps)
 
-    exp = EXP(predictor, params['epoches'], train_dataloader, validate_dataloaders, test_dataloaders, params['lr'], best_path)
+    exp = EXP(predictor, params['epoches'], train_dataloader, validate_dataloaders, test_dataloaders, params['lr'], params['mlr'], best_path)
     F1, CM, matres_F1, test_f1 = exp.train()
     # test_f1 = exp.evaluate(is_test=True)
     print("Result: Best micro F1 of interaction: {}".format(F1))

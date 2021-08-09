@@ -186,17 +186,13 @@ def make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_se
         augment, x_possition_new, y_possition_new = augment_target(x_sent[i], y_sent[i], x_sent_id[i], y_sent_id[i], x_possition[i], y_possition[i], 
                                                                 ctx[i], selected_ctx, doc_id[i])
         pos_augment, x_pos_possition_new, y_pos_possition_new = augment_target(x_sent_pos[i], y_sent_pos[i], x_sent_id[i], y_sent_id[i], 
-                                                                            x_possition[i], y_possition[i], pos_ctx[i], selected_ctx, doc_id[i])
+                                                                            x_possition[i], y_possition[i], pos_ctx[i], selected_ctx, doc_id[i], is_pos=True)
         assert x_possition_new == x_pos_possition_new
         assert y_possition_new == y_pos_possition_new
         if is_test == False:
             augment = word_dropout(augment, [x_possition_new, y_possition_new], dropout_rate=dropout_rate)
             pos_augment = word_dropout(pos_augment, [x_possition_new, y_possition_new], is_word=False, dropout_rate=dropout_rate)
-        try:
-            assert len(augment) == len(pos_augment)
-        except:
-            print("augment: ", augment)
-            print("pos_augm: ", pos_augment)
+        # print(len(augment))
         max_len = max(len(augment), max_len)
         
         x_augm_position.append(x_possition_new)
@@ -219,7 +215,7 @@ def make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_se
     y_augm_position = torch.tensor(y_augm_position)
     return augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position
 
-def augment_target(x_sent, y_sent, x_sent_id, y_sent_id, x_possition, y_possition, ctx, ctx_id, doc_id):
+def augment_target(x_sent, y_sent, x_sent_id, y_sent_id, x_possition, y_possition, ctx, ctx_id, doc_id, is_pos=False):
     id_left = []
     id_cent = []
     id_right = []
@@ -265,15 +261,24 @@ def augment_target(x_sent, y_sent, x_sent_id, y_sent_id, x_possition, y_possitio
     
     sent = []
     if x_sent_id < y_sent_id:
-        sent = [0] + sent_left + [2] + x_sent[1:] + sent_cent + [2] + y_sent[1:] + sent_right + [2]
+        if is_pos:
+            sent = [0] + sent_left + [0] + x_sent[1:] + sent_cent + [0] + y_sent[1:] + sent_right + [0]
+        else:
+            sent = [0] + sent_left + [2] + x_sent[1:] + sent_cent + [2] + y_sent[1:] + sent_right + [2]
         x_possition_new = 1 + x_possition + len(sent_left)
         y_possition_new = 1 + len(sent_left) + len(x_sent) + len(sent_cent) + y_possition
     elif x_sent_id == y_sent_id:
-        sent = [0] + sent_left + [2] + x_sent[1:] + sent_right + [2]
+        if is_pos:
+            sent = [0] + sent_left + [0] + x_sent[1:] + sent_right + [0]
+        else:
+            sent = [0] + sent_left + [2] + x_sent[1:] + sent_right + [2]
         x_possition_new = 1 + x_possition + len(sent_left)
         y_possition_new = 1 + y_possition + len(sent_left)
     else:
-        sent = [0] + sent_left + [2] + y_sent[1:] + sent_cent + [2] + x_sent[1:] + sent_right + [2]
+        if is_pos:
+            sent = [0] + sent_left + [0] + y_sent[1:] + sent_cent + [0] + x_sent[1:] + sent_right + [0]
+        else:
+            sent = [0] + sent_left + [2] + y_sent[1:] + sent_cent + [2] + x_sent[1:] + sent_right + [2]
         y_possition_new = 1 + y_possition + len(sent_left)
         x_possition_new = 1 + len(sent_left) + len(y_sent) + len(sent_cent) + x_possition
     
