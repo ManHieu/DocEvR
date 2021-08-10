@@ -27,33 +27,7 @@ def collate_fn(batch):
     return tuple(zip(*batch))
 
 def objective(trial: optuna.Trial):
-    params = {
-        's_hidden_dim': trial.suggest_categorical('s_hidden_dim', [256]),
-        's_mlp_dim': 512,
-        'p_mlp_dim': trial.suggest_categorical('p_mlp_dim', [512, 768]),
-        "epoches": trial.suggest_categorical("epoches", [3, 5]),
-        "warming_epoch": trial.suggest_categorical('warming_epoch', [0, 1]),
-        "task_weights": {
-            '1': 1, # 1 is HiEve
-            '2': 1, # 2 is MATRES.
-            '3': 1, # 3 is I2B2
-            '4': 1, # 4 is TBD
-            '5': 1, # 5 is TDD
-        },
-        'num_ctx_select': trial.suggest_categorical('num_ctx_sellect', [3, 5]),
-        's_lr': trial.suggest_categorical("s_lr", [5e-5, 3e-5]),
-        'b_lr': trial.suggest_categorical("b_lr", [1.5e-5, 1e-5, 7e-6, 5e-6]),
-        # trial.suggest_categorical("b_lr", [9e-6, 1e-5, 2e-5]),
-        'm_lr': trial.suggest_categorical("m_lr", [5e-5, 3e-5]),
-        'b_lr_decay_rate': trial.suggest_categorical("b_lr_decay_rate", [0.3, 0.5, 0.7]),
-        'word_drop_rate': 0.05,
-        # trial.suggest_categorical("word_drop_rate", [0.05, 0.1]),
-        'task_reward': trial.suggest_categorical('task_reward', ['logit']),
-        'perfomance_reward_weight': trial.suggest_categorical('perfomance_reward_weight', [0.5, 0.7]),
-        'ctx_sim_reward_weight': trial.suggest_categorical('ctx_sim_reward_weight',  [0.01, 0.03, 0.05]),
-        'knowledge_reward_weight': trial.suggest_categorical('knowledge_reward_weight', [0.5, 0.7]), 
-        'seed': 1741
-    }
+    params = {'s_hidden_dim': 256, 's_mlp_dim': 512, 'p_mlp_dim': 512, 'epoches': 5, 'warming_epoch': 1, 'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1, '5': 1}, 'num_ctx_select': 5, 's_lr': 5e-05, 'b_lr': 1.5e-05, 'm_lr': 5e-05, 'b_lr_decay_rate': 0.5, 'word_drop_rate': 0.05, 'task_reward': 'logit', 'perfomance_reward_weight': 0.7, 'ctx_sim_reward_weight': 0.01, 'knowledge_reward_weight': 0.7, 'seed': 524}
     torch.manual_seed(1741)
     np.random.seed(params['seed'])
     random.seed(params['seed'])
