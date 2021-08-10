@@ -34,7 +34,7 @@ def objective(trial: optuna.Trial):
         'epoches': 5, 
         'warming_epoch': 1, 
         'task_weights': {'1': 1, '2': 1, '3': 1, '4': 1, '5': 1}, 
-        'num_ctx_select': trial.suggest_categorical('num_ctx_select', [1,2,3,4,5]), 
+        'num_ctx_select': trial.suggest_categorical('num_ctx_select', [1,2,3,4,5,6,7]), 
         's_lr': 5e-05, 
         'b_lr': 1.5e-05, 
         'm_lr': 5e-05, 
