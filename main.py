@@ -38,7 +38,6 @@ def objective(trial: optuna.Trial):
         "warming_epoch": 1,
         # trial.suggest_categorical('warming_epoch', [0, 1]),
         'num_ctx_select': 3,
-        # trial.suggest_categorical('num_ctx_sellect', [1, 2, 3, 4, 5]),
         's_lr': 1e-4,
         # trial.suggest_categorical("s_lr", [5e-5,2e-4,1e-4]),
         'b_lr': 7e-6,
