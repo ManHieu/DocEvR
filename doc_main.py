@@ -92,7 +92,7 @@ def objective(trial: optuna.Trial):
             f.write("F1: {} \n".format(F1[i]))
             f.write("CM: \n {} \n".format(CM[i]))
         f.write("Time: {} \n".format(datetime.datetime.now()))
-    os.rename(best_path, best_path+'.{}'.format(test_f1))
+    
 
     del exp
     del predictor
