@@ -218,7 +218,7 @@ class DocTransformer(nn.Module):
             y_sent_pos = int(y_position[i])
             global_attn_mask[i, [x_sent_pos, y_sent_pos]] = 1
 
-        output = self.encoder(sent, attention_mask=sent_mask, global_attention_mask=global_attn_mask)[0]
+        output = self.encoder(sent, attention_mask=sent_mask)[0]
         # print(output.size())
         
         # output = torch.max(torch.stack(output[-4:], dim=0), dim=0)[0]
