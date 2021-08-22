@@ -533,9 +533,9 @@ def loader(dataset, min_ns):
         train = load_dataset(train_dir, 'tdd_man')
         test = load_dataset(test_dir, 'tdd_man')
         validate = load_dataset(validate_dir, 'tdd_man')
-        _tt = train + validate
-        _tt = list(sorted(_tt, key=lambda x: x["doc_id"]))
-        train, validate = train_test_split(_tt, test_size=0.1, train_size=0.9)
+        # _tt = train + validate
+        # _tt = list(sorted(_tt, key=lambda x: x["doc_id"]))
+        # train, validate = train_test_split(_tt, test_size=0.1, train_size=0.9)
 
         processed_dir = "./datasets/TDDiscourse/TDDMan/docEvR_processed_kg/"
         if not os.path.exists(processed_dir):
@@ -598,9 +598,9 @@ def loader(dataset, min_ns):
         train = load_dataset(train_dir, 'tdd_auto')
         test = load_dataset(test_dir, 'tdd_auto')
         validate = load_dataset(validate_dir, 'tdd_auto')
-        _tt = train + validate
-        _tt = list(sorted(_tt, key=lambda x: x["doc_id"]))
-        train, validate = train_test_split(_tt, test_size=0.1, train_size=0.9)
+        # _tt = train + validate
+        # _tt = list(sorted(_tt, key=lambda x: x["doc_id"]))
+        # train, validate = train_test_split(_tt, test_size=0.1, train_size=0.9)
 
         processed_dir = "./datasets/TDDiscourse/TDDAuto/docEvR_processed_kg/"
         if not os.path.exists(processed_dir):
