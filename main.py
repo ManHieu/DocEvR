@@ -142,7 +142,7 @@ def objective(trial: optuna.Trial):
     del predictor
     gc.collect()
 
-    return test_f1
+    return 0
 
 
 if __name__ == '__main__':
