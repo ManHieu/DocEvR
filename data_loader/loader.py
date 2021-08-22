@@ -538,53 +538,23 @@ def loader(dataset, min_ns):
         # train, validate = train_test_split(_tt, test_size=0.1, train_size=0.9)
 
         processed_dir = "./datasets/TDDiscourse/TDDMan/docEvR_processed_kg/"
-        if not os.path.exists(processed_dir):
-            os.mkdir(processed_dir)
-
-        for my_dict in tqdm.tqdm(train):
-            file_name = my_dict["doc_id"] + ".pkl"
-            if not os.path.exists(processed_dir+file_name):
-                data = get_data_point(my_dict, 5)
-                with open(processed_dir+file_name, 'wb') as f:
-                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
-            else:
-                with open(processed_dir+file_name, 'rb') as f:
-                    data = pickle.load(f)
-            for item in data:
-                if len(item[-4]) >= min_ns:
-                    train_set.append(item)
-                if len(item[-4]) < min_ns:
-                    train_short.append(item)
+        # if not os.path.exists(processed_dir):
+        #     os.mkdir(processed_dir)
 
         for my_dict in tqdm.tqdm(test):
             file_name = my_dict["doc_id"] + ".pkl"
-            if not os.path.exists(processed_dir+file_name):
-                data = get_data_point(my_dict, 5)
-                with open(processed_dir+file_name, 'wb') as f:
-                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
-            else:
-                with open(processed_dir+file_name, 'rb') as f:
-                    data = pickle.load(f)
+            # if not os.path.exists(processed_dir+file_name):
+            data = get_data_point(my_dict, 5)
+            # with open(processed_dir+file_name, 'wb') as f:
+                    # pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+            # else:
+            #     with open(processed_dir+file_name, 'rb') as f:
+            #         data = pickle.load(f)
             for item in data:
                 if len(item[-4]) >= min_ns:
                     test_set.append(item)
                 if len(item[-4]) < min_ns:
                     test_short.append(item)
-            
-        for my_dict in tqdm.tqdm(validate):
-            file_name = my_dict["doc_id"] + ".pkl"
-            if not os.path.exists(processed_dir+file_name):
-                data = get_data_point(my_dict, 5)
-                with open(processed_dir+file_name, 'wb') as f:
-                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
-            else:
-                with open(processed_dir+file_name, 'rb') as f:
-                    data = pickle.load(f)
-            for item in data:
-                if len(item[-4]) >= min_ns:
-                    validate_set.append(item)
-                if len(item[-4]) < min_ns:
-                    validate_short.append(item)
 
         print("Train_size: {}".format(len(train_set) + len(train_short)))
         print("Test_size: {}".format(len(test_set) + len(test_short)))

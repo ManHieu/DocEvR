@@ -29,6 +29,7 @@ MATRES_platinum = './datasets/MATRES/platinum.txt'
 TDD_man_train = "./datasets/TDDiscourse/TDDMan/TDDManTrain.tsv"
 TDD_man_test = "./datasets/TDDiscourse/TDDMan/TDDManTest.tsv"
 TDD_man_val = "./datasets/TDDiscourse/TDDMan/TDDManDev.tsv"
+TDD_man_phenom = "datasets/TDDiscourse/TDDMan/TDDManTestPhenomena.tsv"
 
 TDD_auto_train = "./datasets/TDDiscourse/TDDAuto/TDDAutoTrain.tsv"
 TDD_auto_test = "./datasets/TDDiscourse/TDDAuto/TDDAutoTest.tsv"

@@ -1,3 +1,4 @@
+from collections import defaultdict
 import torch
 torch.manual_seed(1741)
 import random
@@ -504,4 +505,156 @@ class EXP(object):
                 torch.save(self.selector, self.best_path_selector)
                 torch.save(self.predictor, self.best_path_predictor)
         return F1s
+
+    def analysis(self, is_test=True):
+        F1s = []
+        best_cm = []
+        sum_f1 = 0.0
+        best_f1_mastres = 0.0
+        corpus_labels = {
+            "MATRES": 4,
+            "TBD": 6,
+            "HiEve": 4
+        }
+        for i in range(0, len(self.test_dataloaders)):
+            dataset = self.datasets[i]
+            print("-------------------------------{}-------------------------------".format(dataset))
+            if is_test:
+                dataloader = self.test_dataloaders[i]
+                short_dataloader = self.test_short_dataloaders[i]
+                self.selector = torch.load("rst_file/TDD_man/selector.pth.0.536")
+                self.predictor = torch.load("rst_file/TDD_man/predictor.pth.0.536")
+                print("Testset and best model was loaded!")
+                print("Running on testset ..........")
+            # else:
+            #     dataloader = self.validate_dataloaders[i]
+            #     short_dataloader = self.validate_short_dataloaders[i]
+            #     print("Running on validate set ..........")
+            
+            self.selector.eval()
+            self.predictor.eval()
+            phenom = ['CP', 'CR', 'FE', 'EC', 'SS', 'HN', 'TI', 'WK']
+            pred = defaultdict(list)
+            gold = defaultdict(list)
+            if short_dataloader != None:
+                for step, batch in tqdm.tqdm(enumerate(short_dataloader), desc="Processing for short doc", total=len(short_dataloader)):
+                    x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs, x_kg_ev_emb, \
+                    y_kg_ev_emb, doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_ev_kg_embs, ctx_len, ctx_pos, flag, xy = batch
+                    
+                    bs = x_sent.size(0)
+                    xy_l = []
+                    phenom_b = []
+                    for i in range(bs):
+                        _phenom = [item.strip() for item in xy[i]['phenom'].split(',')]
+                        phenom_b.append(_phenom)
+                        xy_l.append(xy[i]['label'])   
+                    print(phenom_b)
+
+                    augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, 'all', doc_id, dropout_rate=self.word_drop_rate, is_test=True)
+                    xy = torch.tensor(xy_l)
+                    flag = torch.tensor(flag)
+                    if CUDA:
+                        augm_target = augm_target.cuda() 
+                        augm_target_mask = augm_target_mask.cuda()
+                        augm_pos_target = augm_pos_target.cuda()
+                        x_augm_position = x_augm_position.cuda() 
+                        y_augm_position = y_augm_position.cuda()
+                        xy = xy.cuda()
+                        flag = flag.cuda()
+                    logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, augm_pos_target)
+                    labels = xy.cpu().numpy()
+                    y_pred = torch.max(logits, 1).indices.cpu().numpy()
+                    for i in range(bs):
+                        _phenom = phenom_b[i]
+                        for p in _phenom:
+                            gold[p].append(labels[i])
+                            pred[p].append(y_pred[i])
+
+            for step, batch in tqdm.tqdm(enumerate(dataloader), desc="Processing for long doc", total=len(dataloader)):
+                x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs, x_kg_ev_emb, \
+                y_kg_ev_emb, doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_ev_kg_embs, ctx_len, ctx_pos, flag, xy = batch
+                
+                bs = x_sent.size(0)
+                xy_l = []
+                phenom_b = []
+                for i in range(bs):
+                    _phenom = [item.strip() for item in xy[i]['phenom'].split(',')]
+                    phenom_b.append(_phenom)
+                    xy_l.append(xy[i]['label'])   
+                print(phenom_b)
+                
+                if self.is_finetune_selector == False:
+                    target_emb = torch.stack(target_emb, dim=0)
+                    ctx_emb = torch.stack(pad_to_max_ns(ctx_emb), dim=0)
+                    if CUDA:
+                        target_emb = target_emb.cuda()
+                        ctx_emb = ctx_emb.cuda()
+
+                    ctx_selected, dist, log_prob = self.selector(target_emb, ctx_emb, target_len, ctx_len, self.num_ctx_select)
+                else:
+                    print("This case is not implemented at this time!")
+                
+                augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, ctx_selected, doc_id, dropout_rate=self.word_drop_rate, is_test=True)
+                xy = torch.tensor(xy_l)
+                flag = torch.tensor(flag)
+                if CUDA:
+                    augm_target = augm_target.cuda() 
+                    augm_target_mask = augm_target_mask.cuda()
+                    augm_pos_target = augm_pos_target.cuda()
+                    x_augm_position = x_augm_position.cuda() 
+                    y_augm_position = y_augm_position.cuda()
+                    xy = xy.cuda()
+                    flag = flag.cuda()
+                logits, p_loss = self.predictor(augm_target, augm_target_mask, x_augm_position, y_augm_position, xy, flag, augm_pos_target)
+                
+                labels = xy.cpu().numpy()
+                y_pred = torch.max(logits, 1).indices.cpu().numpy()
+                for i in range(bs):
+                    _phenom = phenom_b[i]
+                    for p in _phenom:
+                        gold[p].append(labels[i])
+                        pred[p].append(y_pred[i])
+
+            for key in gold.keys():
+                print(key)
+                CM = confusion_matrix(gold[key], pred[key])
+                if dataset in  ["MATRES", "TBD"]:
+                    # no eval in vague
+                    num_label = corpus_labels[dataset]
+                    true = sum([CM[i, i] for i in range(num_label-1)])
+                    sum_pred = sum([CM[i, 0:(num_label-1)].sum() for i in range(num_label)])
+                    sum_gold = sum([CM[i].sum() for i in range(num_label-1)])
+                    P = true / sum_pred
+                    R = true / sum_gold
+                    F1 = 2 * P * R / (P + R)
+                    print("  P: {0:.3f}".format(P))
+                    print("  R: {0:.3f}".format(R))
+                    print("  F1: {0:.3f}".format(F1))
+                    print("  Confusion Matrix")
+                    print(CM)
+                    print("Classification report: \n {}".format(classification_report(gold, pred)))          
+                elif dataset == "HiEve":
+                    num_label = corpus_labels[dataset]
+                    true = sum([CM[i, i] for i in range(2)])
+                    sum_pred = sum([CM[i, 0:2].sum() for i in range(num_label)])
+                    sum_gold = sum([CM[i].sum() for i in range(2)])
+                    P = true / sum_pred
+                    R = true / sum_gold
+                    F1 = 2 * P * R / (P + R)
+                    print("  P: {0:.3f}".format(P))
+                    print("  R: {0:.3f}".format(R))
+                    print("  F1: {0:.3f}".format(F1))
+                    print("  Confusion Matrix")
+                    print(CM)
+                    print("Classification report HiEve: \n {}".format(classification_report(gold, pred)))
+                else:
+                    P, R, F1 = precision_recall_fscore_support(gold, pred, average='micro')[0:3]
+                    # print("  P: {0:.3f}".format(P))
+                    # print("  R: {0:.3f}".format(R))
+                    print("  F1: {0:.3f}".format(F1))
+                    # print("  Confusion Matrix")
+                    # print(CM)
+                    # print("Classification report: \n {}".format(classification_report(gold, pred)))
+            
+    
         

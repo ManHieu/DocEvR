@@ -501,11 +501,21 @@ def doc_mapping(corpus):
         mapping[rel[0]].append(_rel)
     return dict(mapping)
 
+def doc_mapping_phenomena(corpus):
+    mapping = defaultdict(list)
+    for rel in corpus:
+        _rel = (rel[1], rel[2], rel[3], rel[4])
+        mapping[rel[0]].append(_rel)
+    return dict(mapping)
+
 TDD_man_train = tdd_reader(TDD_man_train)
 TDD_man_test = tdd_reader(TDD_man_test)
 TDD_man_val = tdd_reader(TDD_man_val)
 TDD_man = TDD_man_train + TDD_man_val + TDD_man_test
 TDD_man = doc_mapping(TDD_man)
+TDD_man_phenomena = tdd_reader(TDD_man_phenom)
+TDD_man_phenomena = doc_mapping_phenomena(TDD_man_phenomena)
+print(TDD_man_phenomena)
 
 TDD_auto_train = tdd_reader(TDD_auto_train)
 TDD_auto_test = tdd_reader(TDD_auto_test)
@@ -608,7 +618,7 @@ def tdd_tml_reader(dir_name, file_name, type_doc):
     
     my_dict['relation_dict'] = {}
     if type_doc == 'man':
-        rel_list = TDD_man.get(my_dict["doc_id"])
+        rel_list = TDD_man_phenomena.get(my_dict["doc_id"])
         if rel_list == None:
             return None
     elif type_doc == 'auto':
@@ -621,11 +631,11 @@ def tdd_tml_reader(dir_name, file_name, type_doc):
 
     # print(rel_list)
     for item in rel_list:
-        eid1, eid2, rel = item
+        eid1, eid2, rel, phenom = item
         # print(item)
         if eid1 in eids and eid2 in eids:
             # print(tdd_label_dict[rel])
-            my_dict['relation_dict'][(eid1, eid2)] = tdd_label_dict[rel]
+            my_dict['relation_dict'][(eid1, eid2)] = {'label': tdd_label_dict[rel], 'phenom': phenom}
     
     return my_dict
 
