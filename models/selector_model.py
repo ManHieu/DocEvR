@@ -90,6 +90,7 @@ class LSTMSelector(nn.Module):
         h_0 = torch.zeros((bs, self.hidden_dim))
         c_0 = torch.zeros((bs, self.hidden_dim))
         
+        # mask for selected sentences
         mask = torch.zeros((bs, ns))
         for i in range(bs):
             if len(ctx_len[i]) < ns:
@@ -107,10 +108,10 @@ class LSTMSelector(nn.Module):
             lstm_in = self.drop_out(lstm_in)
             h, c = self.lstm_cell(lstm_in, lstm_state) # h: bs x hidden_dim
             
-            ctx_emb = self.drop_out(ctx_emb)
+            _ctx_emb = self.drop_out(ctx_emb)
             h = self.drop_out(h)
             
-            sc = self.mlp1(torch.cat([ctx_emb, h.unsqueeze(1).expand((-1, ns, -1))], dim=-1)) # bs x ns x mlp_dim
+            sc = self.mlp1(torch.cat([_ctx_emb, h.unsqueeze(1).expand((-1, ns, -1))], dim=-1)) # bs x ns x mlp_dim
             sc = self.drop_out(sc)
             sc = self.mlp2(self.fn_activate1(sc)) # bs x ns x 1
             sc = self.fn_activate2(sc.squeeze()) 
@@ -120,6 +121,7 @@ class LSTMSelector(nn.Module):
                 probs = F.softmax(sc, dim=-1) # bs x ns
                 probs = torch.distributions.Categorical(probs=probs)
                 out = sc.max(dim=-1)[1] # bs x 1: index of selected sentence in this step
+                # out = probs.sample()
                 log_probs = log_probs + probs.log_prob(out)
                 dist.append(probs)
                 outputs.append(out)

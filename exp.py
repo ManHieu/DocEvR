@@ -66,6 +66,7 @@ class EXP(object):
         self.warmup_proportion = warmup_proportion
         self.word_drop_rate = word_drop_rate
         
+        # deeper layer, lower lr 
         mlp = ['fc1', 'fc2', 'lstm', 'pos_emb', 's_attn']
         no_decay = ['bias', 'gamma', 'beta']
         group1=['layer.0.','layer.1.','layer.2.','layer.3.','layer.4.','layer.5.']
@@ -107,6 +108,7 @@ class EXP(object):
                 0.0, float(self.num_training_steps - current_step) / float(max(1, self.num_training_steps - self.num_warmup_steps))
             )
         
+        # lambda scheduler for selector, MLP
         def m_lr_lambda(current_step: int):
             return 0.5 ** int(current_step / (2*len(self.train_dataloader)))
         
@@ -126,6 +128,7 @@ class EXP(object):
         self.best_path_predictor = best_path[1]
     
     def task_reward(self, logit, gold):
+        # F1 
         if self.f1_reward:
             labels = gold.cpu().numpy()
             y_pred = torch.max(logit, 1).indices.cpu().numpy()
@@ -142,6 +145,7 @@ class EXP(object):
             return reward - reward.mean()
     
     def ctx_reward(self, x_emb, y_emb, ctx_ev_embs, ctx_selected, ctx_embs, num_evs):
+        # context similarity between event triggers 
         reward = []
         selected = torch.stack(ctx_selected, dim=1)
         assert len(ctx_selected) == selected.size(1)
@@ -169,6 +173,7 @@ class EXP(object):
         return reward - reward.mean()
     
     def kg_reward(self, x_emb, y_emb, ctx_ev_embs, ctx_selected, num_evs):
+        # KG siimilarity between event triggers 
         reward = []
         selected = torch.stack(ctx_selected, dim=1)
         assert len(ctx_selected) == selected.size(1)
@@ -204,6 +209,7 @@ class EXP(object):
             self.predictor.zero_grad()
             self.predictor_loss = 0.0
             if self.train_short_dataloader != None:
+                # datapoits which have number sentence <= number sentences we want to select 
                 for step, batch in tqdm.tqdm(enumerate(self.train_short_dataloader), desc="Training process for short doc", total=len(self.train_short_dataloader)):
                     x, y, x_sent, y_sent, x_sent_id, y_sent_id, x_sent_pos, y_sent_pos, x_position, y_position, x_ev_embs, y_ev_embs, x_kg_ev_emb, \
                     y_kg_ev_emb, doc_id, target, target_emb, target_len, ctx, ctx_emb, ctx_ev_embs, num_ev_sents, ctx_ev_kg_embs, ctx_len, ctx_pos, flag, xy = batch
