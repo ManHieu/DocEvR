@@ -13,8 +13,14 @@ from utils.tools import *
 # from nltk import sent_tokenize
 from bs4 import BeautifulSoup as Soup
 import csv
+from trankit import Pipeline
 
 
+p = Pipeline('english')
+p.add('danish')
+p.add('spanish')
+p.add('turkish')
+p.add('urdu')
 # =========================
 #       HiEve Reader
 # =========================
@@ -630,7 +636,95 @@ def tdd_tml_reader(dir_name, file_name, type_doc):
     return my_dict
 
     
+# =========================
+#       mulerx Reader
+# =========================
+def mulerx_tsvx_reader(dir_name:str, file_name: str, model='mBERT'):
+    my_dict = {}
+    my_dict["doc_id"] = file_name.replace(".tsvx", "") # e.g., article-10901.tsvx
+    my_dict["event_dict"] = {}
+    my_dict["sentences"] = []
+    my_dict["relation_dict"] = {}
 
+    # Read tsvx file
+    for line in open(dir_name + file_name, encoding='UTF-8'):
+        line = line.split('\t')
+        if line[0] == 'Text':
+            my_dict["doc_content"] = '\t'.join(line[1:])
+        elif line[0] == 'Event':
+            end_char = int(line[4]) + len(line[2]) - 1
+            my_dict["event_dict"][line[1]] = {"mention": line[2], "start_char": int(line[4]), "end_char": end_char} 
+            # keys to be added later: sent_id & subword_id
+        elif line[0] == 'Relation':
+            event_id1 = line[1]
+            event_id2 = line[2]
+            rel = mulerx_label_dict[line[3]]
+            my_dict["relation_dict"][(event_id1, event_id2)] = rel
+        else:
+            raise ValueError("Reading a file not in HiEve tsvx format...")
+    
+    # Split document into sentences
+    sent_tokenized_text = [sent['text'] for sent in p.ssplit(my_dict["doc_content"])['sentences']]
+    sent_span = tokenized_to_origin_span(my_dict["doc_content"], sent_tokenized_text)
+    count_sent = 0
+    for sent in sent_tokenized_text:
+        sent_dict = {}
+        sent_dict["sent_id"] = count_sent
+        sent_dict["content"] = sent
+        sent_dict["sent_start_char"] = sent_span[count_sent][0]
+        sent_dict["sent_end_char"] = sent_span[count_sent][1]
+        count_sent += 1
+        _spacy_token = p.posdep(sent_dict["content"], is_sent=True)['tokens']
+        spacy_token = []
+        for token in _spacy_token:
+            if token.get('expanded') == None:
+                spacy_token.append(token)
+            else:
+                spacy_token = spacy_token + token['expanded']
+        sent_dict["tokens"] = []
+        sent_dict["pos"] = []
+        # Trankit-tokenized tokens & Part-Of-Speech Tagging
+        for token in spacy_token:
+            sent_dict["tokens"].append(token['text'])
+            sent_dict["pos"].append(token['upos'])
+        sent_dict["token_span_SENT"] = tokenized_to_origin_span(sent, sent_dict["tokens"])
+        sent_dict["token_span_DOC"] = span_SENT_to_DOC(sent_dict["token_span_SENT"], sent_dict["sent_start_char"])
+
+        # RoBERTa tokenizer
+        if model == 'mBERT':
+            sent_dict["roberta_subword_to_ID"], sent_dict["roberta_subwords"], \
+            sent_dict["roberta_subword_span_SENT"], sent_dict["roberta_subword_map"] = \
+            mBERT_list(sent_dict["content"], sent_dict["tokens"], sent_dict["token_span_SENT"])
+        if model == 'XML-R':
+            sent_dict["roberta_subword_to_ID"], sent_dict["roberta_subwords"], \
+            sent_dict["roberta_subword_span_SENT"], sent_dict["roberta_subword_map"] = \
+            XLMR_list(sent_dict["content"], sent_dict["tokens"], sent_dict["token_span_SENT"])
+            
+        sent_dict["roberta_subword_span_DOC"] = \
+        span_SENT_to_DOC(sent_dict["roberta_subword_span_SENT"], sent_dict["sent_start_char"])
+        
+        sent_dict["roberta_subword_pos"] = []
+        for token_id in sent_dict["roberta_subword_map"]:
+            if token_id == -1 or token_id is None:
+                sent_dict["roberta_subword_pos"].append("None")
+            else:
+                sent_dict["roberta_subword_pos"].append(sent_dict["pos"][token_id])
+        
+        my_dict["sentences"].append(sent_dict)
+    
+    # Add sent_id as an attribute of event
+    for event_id, event_dict in my_dict["event_dict"].items():
+        my_dict["event_dict"][event_id]["sent_id"] = sent_id = sent_id_lookup(my_dict, event_dict["start_char"], event_dict["end_char"])
+        my_dict["event_dict"][event_id]["token_id"] = id_lookup(my_dict["sentences"][sent_id]["token_span_DOC"], event_dict["start_char"])
+        my_dict["event_dict"][event_id]["roberta_subword_id"] = poss = \
+        id_lookup(my_dict["sentences"][sent_id]["roberta_subword_span_DOC"], event_dict["start_char"]) + 1 # sentence is added <s> token
+        # try:
+        mention = event_dict["mention"]
+        sub_word_id = my_dict["sentences"][sent_id]["roberta_subword_to_ID"][poss]
+        sub_word = tokenizer.decode([sub_word_id])
+        assert sub_word.strip() in mention
+
+    return my_dict
 
 
 

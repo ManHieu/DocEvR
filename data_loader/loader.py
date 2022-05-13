@@ -9,7 +9,7 @@ import pickle
 import os
 import tqdm
 from itertools import combinations
-from data_loader.reader import i2b2_xml_reader, tbd_tml_reader, tdd_tml_reader, tml_reader, tsvx_reader
+from data_loader.reader import i2b2_xml_reader, mulerx_tsvx_reader, tbd_tml_reader, tdd_tml_reader, tml_reader, tsvx_reader
 from utils.tools import create_target, padding, pos_to_id
 from sklearn.model_selection import train_test_split
 from utils.SentenceEncoder import SentenceEncoder
@@ -34,6 +34,10 @@ class Reader(object):
             return tdd_tml_reader(dir_name, file_name, type_doc='man')
         elif self.type == 'tdd_auto':
             return tdd_tml_reader(dir_name, file_name, type_doc='auto')
+        elif self.type == 'mulerx_mBERT':
+            return mulerx_tsvx_reader(dir_name, file_name, model='mBERT')
+        elif self.type == 'mulerx_XLM-R':
+            return mulerx_tsvx_reader(dir_name, file_name, model='XML-R')
         else:
             raise ValueError("We have not supported {} type yet!".format(self.type))
 
@@ -80,9 +84,9 @@ def load_dataset(dir_name, type):
     return corpus
 
 
-def loader(dataset, min_ns):
-    sent_encoder = SentenceEncoder('roberta-base')
-    c2v = C2V('./datasets/numberbatch-en-19.08.txt')
+def loader(dataset, min_ns, sentence_encoder='roberta-base', lang='en'):
+    sent_encoder = SentenceEncoder(sentence_encoder)
+    c2v = C2V('./datasets/numberbatch-19.08.txt')
     def get_data_point(my_dict, flag):
         data = []
         eids = my_dict['event_dict'].keys()
@@ -658,5 +662,129 @@ def loader(dataset, min_ns):
         del sent_encoder
         del c2v
         gc.collect()
+
+    if dataset == 'mulerx_mBERT':
+        print(f"Loading mulerx {lang}  for mBERT .......")
+        train_dir_name = f"./datasets/mulerx/subevent-{lang}-20/train/"
+        val_dir_name = f"./datasets/mulerx/subevent-{lang}-20/dev/"
+        test_dir_name = f"./datasets/mulerx/subevent-{lang}-20/test/"
+        validate = load_dataset(val_dir_name, 'mulerx_mBERT')
+        train = load_dataset(train_dir_name, 'mulerx_mBERT')
+        test = load_dataset(test_dir_name, 'mulerx_mBERT')
+        
+        processed_dir = f"./datasets/mulerx/subevent-{lang}-20/processed-mBERT/"
+        if not os.path.exists(processed_dir):
+            os.mkdir(processed_dir)
+
+        for my_dict in tqdm.tqdm(train):
+            file_name = my_dict["doc_id"] + "-train.pkl"
+            if not os.path.exists(processed_dir+file_name):
+                data = get_data_point(my_dict, 7)
+                with open(processed_dir+file_name, 'wb') as f:
+                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+            else:
+                with open(processed_dir+file_name, 'rb') as f:
+                    data = pickle.load(f)
+            for item in data:
+                if len(item[-4]) >= min_ns:
+                    train_set.append(item)
+                if len(item[-4]) < min_ns:
+                    train_short.append(item)
+
+        for my_dict in tqdm.tqdm(validate):
+            file_name = my_dict["doc_id"] + "-val.pkl"
+            if not os.path.exists(processed_dir+file_name):
+                data = get_data_point(my_dict, 7)
+                with open(processed_dir+file_name, 'wb') as f:
+                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+            else:
+                with open(processed_dir+file_name, 'rb') as f:
+                    data = pickle.load(f)
+            for item in data:
+                if len(item[-4]) >= min_ns:
+                    validate_set.append(item)
+                if len(item[-4]) < min_ns:
+                    validate_short.append(item)
+        
+        for my_dict in tqdm.tqdm(test):
+            file_name = my_dict["doc_id"] + "-test.pkl"
+            if not os.path.exists(processed_dir+file_name):
+                data = get_data_point(my_dict, 7)
+                with open(processed_dir+file_name, 'wb') as f:
+                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+            else:
+                with open(processed_dir+file_name, 'rb') as f:
+                    data = pickle.load(f)
+            for item in data:
+                if len(item[-4]) >= min_ns:
+                    test_set.append(item)
+                if len(item[-4]) < min_ns:
+                    test_short.append(item)
+
+        print("Train_size: {}".format(len(train_set) + len(train_short)))
+        print("Test_size: {}".format(len(test_set) + len(test_short)))
+        print("Validate_size: {}".format(len(validate_set) + len(validate_short)))
+
+    if dataset == 'mulerx_XLM-R':
+        print(f"Loading mulerx {lang}  for XLM-R .......")
+        train_dir_name = f"./datasets/mulerx/subevent-{lang}-20/train/"
+        val_dir_name = f"./datasets/mulerx/subevent-{lang}-20/dev/"
+        test_dir_name = f"./datasets/mulerx/subevent-{lang}-20/test/"
+        validate = load_dataset(val_dir_name, 'mulerx_XLM-R')
+        train = load_dataset(train_dir_name, 'mulerx_XLM-R')
+        test = load_dataset(test_dir_name, 'mulerx_XLM-R')
+        
+        processed_dir = f"./datasets/mulerx/subevent-{lang}-20/processed-XLM-R/"
+        if not os.path.exists(processed_dir):
+            os.mkdir(processed_dir)
+
+        for my_dict in tqdm.tqdm(train):
+            file_name = my_dict["doc_id"] + "-train.pkl"
+            if not os.path.exists(processed_dir+file_name):
+                data = get_data_point(my_dict, 7)
+                with open(processed_dir+file_name, 'wb') as f:
+                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+            else:
+                with open(processed_dir+file_name, 'rb') as f:
+                    data = pickle.load(f)
+            for item in data:
+                if len(item[-4]) >= min_ns:
+                    train_set.append(item)
+                if len(item[-4]) < min_ns:
+                    train_short.append(item)
+
+        for my_dict in tqdm.tqdm(validate):
+            file_name = my_dict["doc_id"] + "-val.pkl"
+            if not os.path.exists(processed_dir+file_name):
+                data = get_data_point(my_dict, 7)
+                with open(processed_dir+file_name, 'wb') as f:
+                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+            else:
+                with open(processed_dir+file_name, 'rb') as f:
+                    data = pickle.load(f)
+            for item in data:
+                if len(item[-4]) >= min_ns:
+                    validate_set.append(item)
+                if len(item[-4]) < min_ns:
+                    validate_short.append(item)
+        
+        for my_dict in tqdm.tqdm(test):
+            file_name = my_dict["doc_id"] + "-test.pkl"
+            if not os.path.exists(processed_dir+file_name):
+                data = get_data_point(my_dict, 7)
+                with open(processed_dir+file_name, 'wb') as f:
+                    pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+            else:
+                with open(processed_dir+file_name, 'rb') as f:
+                    data = pickle.load(f)
+            for item in data:
+                if len(item[-4]) >= min_ns:
+                    test_set.append(item)
+                if len(item[-4]) < min_ns:
+                    test_short.append(item)
+
+        print("Train_size: {}".format(len(train_set) + len(train_short)))
+        print("Test_size: {}".format(len(test_set) + len(test_short)))
+        print("Validate_size: {}".format(len(validate_set) + len(validate_short)))
 
     return train_set, test_set, validate_set, train_short, test_short, validate_short

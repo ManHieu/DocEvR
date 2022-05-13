@@ -16,9 +16,9 @@ class SelectorModel(nn.Module):
         super().__init__()
         self.roberta_type = roberta_type
         self.is_finetune  = is_finetune
-        if path.exists("./pretrained_models/models/{}".format(roberta_type)):
+        if path.exists("/vinai/hieumdt/pretrained_models/models/{}".format(roberta_type)):
             print("Loading pretrain model from local ......")
-            self.encoder = AutoModel.from_pretrained("./pretrained_models/models/{}".format(self.roberta_type), output_hidden_states=True)
+            self.encoder = AutoModel.from_pretrained("/vinai/hieumdt/pretrained_models/models/{}".format(self.roberta_type), output_hidden_states=True)
         else:
             print("Loading pretrain model ......")
             self.encoder = AutoModel.from_pretrained(self.roberta_type, output_hidden_states=True)

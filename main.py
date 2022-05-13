@@ -65,7 +65,7 @@ def objective(trial: optuna.Trial):
     validate_short_dataloaders = {}
     test_short_dataloaders = {}
     for dataset in datasets:
-        train, test, validate, train_short, test_short, validate_short = loader(dataset, 5)
+        train, test, validate, train_short, test_short, validate_short = loader(dataset, 2, sentence_encoder=model_type, lang=lang)
         train_set.extend(train)
         train_short_set.extend(train_short)
         validate_dataloader = DataLoader(EventDataset(validate), batch_size=batch_size, shuffle=True,collate_fn=collate_fn)
@@ -91,7 +91,7 @@ def objective(trial: optuna.Trial):
     print("Hyperparameter will be use in this trial: \n {}".format(params))
 
     selector = LSTMSelector(768, params['s_hidden_dim'], params['s_mlp_dim'])
-    predictor =ECIRobertaJointTask(mlp_size=params['p_mlp_dim'], roberta_type=roberta_type, datasets=datasets, pos_dim=16, 
+    predictor =ECIRobertaJointTask(mlp_size=params['p_mlp_dim'], roberta_type=model_type, datasets=datasets, pos_dim=16, 
                                     fn_activate=fn_activative, drop_rate=drop_rate, task_weights=None)
     
     if CUDA:
@@ -115,7 +115,8 @@ def objective(trial: optuna.Trial):
     with open(result_file, 'a', encoding='UTF-8') as f:
         f.write("\n -------------------------------------------- \n")
         # f.write("\nNote: use lstm in predictor \n")
-        f.write("{}\n".format(roberta_type))
+        f.write("{}\n".format(lang))
+        f.write("{}\n".format(model_type))
         f.write("Hypeparameter: \n{}\n ".format(params))
         f.write("Test F1: {}\n".format(test_f1))
         f.write("Seed: {}\n".format(seed))
@@ -145,7 +146,8 @@ if __name__ == '__main__':
     parser = ArgumentParser(formatter_class=ArgumentDefaultsHelpFormatter)
     parser.add_argument('--seed', help='SEED', default=1741, type=int)
     parser.add_argument('--dataset', help="Name of dataset", action='append', required=True)
-    parser.add_argument('--roberta_type', help="base or large", default='roberta-base', type=str)
+    parser.add_argument('--lang', help="sub dataset", required=True)
+    parser.add_argument('--model_type', help="pretrained model type", default='roberta-base', type=str)
     parser.add_argument('--best_path', help="Path for save model", type=str)
     parser.add_argument('--log_file', help="Path of log file", type=str)
     parser.add_argument('--bs', help='batch size', default=16, type=int)
@@ -154,8 +156,9 @@ if __name__ == '__main__':
     args = parser.parse_args()
     seed = args.seed
     datasets = args.dataset
-    print(datasets)
-    roberta_type  = args.roberta_type
+    lang = args.lang
+    print(f"{datasets} - {lang}")
+    model_type  = args.model_type
     best_path = args.best_path
     best_path = [best_path+"selector.pth", best_path+"predictor.pth"]
     result_file = args.log_file

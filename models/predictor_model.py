@@ -18,9 +18,9 @@ class ECIRobertaJointTask(nn.Module):
                 negative_slope=0.2, drop_rate=0.5, task_weights=None, kg_emb_dim=300, lstm=False):
         super().__init__()
         
-        if path.exists("./pretrained_models/models/{}".format(roberta_type)):
+        if path.exists("/vinai/hieumdt/pretrained_models/models/{}".format(roberta_type)):
             print("Loading pretrain model from local ......")
-            self.roberta = RobertaModel.from_pretrained("./pretrained_models/models/{}".format(roberta_type), output_hidden_states=True)
+            self.roberta = RobertaModel.from_pretrained("/vinai/hieumdt/pretrained_models/models/{}".format(roberta_type), output_hidden_states=True)
         else:
             print("Loading pretrain model ......")
             self.roberta = RobertaModel.from_pretrained(roberta_type, output_hidden_states=True)
@@ -207,6 +207,35 @@ class ECIRobertaJointTask(nn.Module):
                                                 ('relu', self.relu), 
                                                 ('fc2',fc2) ]))
                 loss_dict['5'] = loss
+
+            if "mulerx" in dataset:
+                num_classes = 3
+                if self.max_num_class < num_classes:
+                    self.max_num_class = num_classes
+                
+                if sub==True and mul==True:
+                    fc1 = nn.Linear(self.mlp_in*4, int(self.mlp_size*2))
+                    fc2 = nn.Linear(int(self.mlp_size*2), num_classes)
+                
+                if (sub==True and mul==False) or (sub==False and mul==True):
+                    fc1 = nn.Linear(self.mlp_in*3, int(self.mlp_size*1.5))
+                    fc2 = nn.Linear(int(self.mlp_size*1.5), num_classes)
+                
+                if sub==False and mul==False:
+                    fc1 = nn.Linear(self.mlp_in*2, int(self.mlp_size))
+                    fc2 = nn.Linear(int(self.mlp_size), num_classes)
+                
+                weights = [10.0/21, 10.0/21, 1.0/21]
+                weights = torch.tensor(weights)
+                loss = nn.CrossEntropyLoss(weight=weights)
+
+                module_dict['7'] = nn.Sequential(OrderedDict([
+                                                ('dropout1',self.drop_out), 
+                                                ('fc1', fc1), 
+                                                ('dropout2', self.drop_out), 
+                                                ('relu', self.relu), 
+                                                ('fc2',fc2) ]))
+                loss_dict['7'] = loss
             
         self.module_dict = nn.ModuleDict(module_dict)
         self.loss_dict = nn.ModuleDict(loss_dict)

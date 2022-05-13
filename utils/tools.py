@@ -6,11 +6,13 @@ torch.manual_seed(1741)
 import random
 random.seed(1741)
 import spacy
-from transformers import RobertaTokenizer
+from transformers import RobertaTokenizer, AutoTokenizer
 from utils.constant import *
 
 
-tokenizer = RobertaTokenizer.from_pretrained('./tokenizer/roberta-base', unk_token='<unk>')
+tokenizer = RobertaTokenizer.from_pretrained('/vinai/hieumdt/pretrained_models/tokenizers/roberta-base', unk_token='<unk>')
+mBERT_tokenizer =  AutoTokenizer.from_pretrained('/vinai/hieumdt/pretrained_models/tokenizers/mBERT-base')
+xlmr_tokenizer = AutoTokenizer.from_pretrained('/vinai/hieumdt/pretrained_models/tokenizers/XLM-R-base')
 nlp = spacy.load("en_core_web_sm")
 
 
@@ -53,6 +55,55 @@ def RoBERTa_list(content, token_list = None, token_span_SENT = None):
             else:
                 roberta_subwords_no_space.append(r_token)
 
+    roberta_subword_span = tokenized_to_origin_span(content, roberta_subwords_no_space[1:-1]) # w/o <s> and </s>
+    roberta_subword_map = []
+    if token_span_SENT is not None:
+        roberta_subword_map.append(-1) # "<s>"
+        for subword in roberta_subword_span:
+            roberta_subword_map.append(token_id_lookup(token_span_SENT, subword[0], subword[1]))
+        roberta_subword_map.append(-1) # "</s>" 
+        return roberta_subword_to_ID, roberta_subwords, roberta_subword_span, roberta_subword_map
+    else:
+        return roberta_subword_to_ID, roberta_subwords, roberta_subword_span, -1
+
+def mBERT_list(content: str, token_list = None, token_span_SENT = None):
+    encoded = mBERT_tokenizer.encode(content)
+    roberta_subword_to_ID = encoded
+    roberta_subwords = []
+    roberta_subwords_no_space = []
+    for index, i in enumerate(encoded):
+        r_token = tokenizer.decode([i])
+        r_token = r_token.replace('#', '')
+        if r_token != " " and r_token != '':
+            roberta_subwords.append(r_token)
+            if r_token[0] == " ":
+                roberta_subwords_no_space.append(r_token[1:])
+            else:
+                roberta_subwords_no_space.append(r_token)
+    roberta_subword_span = tokenized_to_origin_span(content.lower(), roberta_subwords_no_space[1:-1]) # w/o <s> and </s>
+    roberta_subword_map = []
+    if token_span_SENT is not None:
+        roberta_subword_map.append(-1) # "<s>"
+        for subword in roberta_subword_span:
+            roberta_subword_map.append(token_id_lookup(token_span_SENT, subword[0], subword[1]))
+        roberta_subword_map.append(-1) # "</s>" 
+        return roberta_subword_to_ID, roberta_subwords, roberta_subword_span, roberta_subword_map
+    else:
+        return roberta_subword_to_ID, roberta_subwords, roberta_subword_span, -1
+
+def XLMR_list(content: str, token_list = None, token_span_SENT = None):
+    encoded = xlmr_tokenizer.encode(content)
+    roberta_subword_to_ID = encoded
+    roberta_subwords = []
+    roberta_subwords_no_space = []
+    for index, i in enumerate(encoded):
+        r_token = tokenizer.decode([i])
+        if r_token != " ":
+            roberta_subwords.append(r_token)
+            if r_token[0] == " ":
+                roberta_subwords_no_space.append(r_token[1:])
+            else:
+                roberta_subwords_no_space.append(r_token)
     roberta_subword_span = tokenized_to_origin_span(content, roberta_subwords_no_space[1:-1]) # w/o <s> and </s>
     roberta_subword_map = []
     if token_span_SENT is not None:

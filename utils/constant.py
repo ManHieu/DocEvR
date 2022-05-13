@@ -41,3 +41,6 @@ i2b2_label_dict = {'BEFORE': 0, 'AFTER': 1, 'SIMULTANEOUS': 2, 'OVERLAP': 2, 'si
 tbd_label_dict = { 'BEFORE': 0, 'AFTER': 1, 'INCLUDES': 2, 'IS_INCLUDED': 3, 'SIMULTANEOUS': 4, 'NONE': 5}
 
 tdd_label_dict = {'b': 0, 'a': 1, 'i': 2, 'ii': 3, 's': 4}
+
+mulerx_label_dict={"SuperSub": 0, "SubSuper": 1, "NoRel": 2}
+mulerx_num_dict = {0: "SuperSub", 1: "SubSuper", 2: "NoRel"}
