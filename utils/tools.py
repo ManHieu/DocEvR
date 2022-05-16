@@ -1,4 +1,5 @@
 import datetime
+from typing import List
 import numpy as np
 np.random.seed(1741)
 import torch
@@ -54,6 +55,8 @@ def RoBERTa_list(content, token_list = None, token_span_SENT = None):
                 roberta_subwords_no_space.append(r_token[1:])
             else:
                 roberta_subwords_no_space.append(r_token)
+        else:
+            roberta_subwords_no_space.append('<unk>')
 
     roberta_subword_span = tokenized_to_origin_span(content, roberta_subwords_no_space[1:-1]) # w/o <s> and </s>
     roberta_subword_map = []
@@ -72,7 +75,7 @@ def mBERT_list(content: str, token_list = None, token_span_SENT = None):
     roberta_subwords = []
     roberta_subwords_no_space = []
     for index, i in enumerate(encoded):
-        r_token = tokenizer.decode([i])
+        r_token = mBERT_tokenizer.decode([i])
         r_token = r_token.replace('#', '')
         if r_token != " " and r_token != '':
             roberta_subwords.append(r_token)
@@ -80,7 +83,9 @@ def mBERT_list(content: str, token_list = None, token_span_SENT = None):
                 roberta_subwords_no_space.append(r_token[1:])
             else:
                 roberta_subwords_no_space.append(r_token)
-    roberta_subword_span = tokenized_to_origin_span(content.lower(), roberta_subwords_no_space[1:-1]) # w/o <s> and </s>
+        else:
+            roberta_subwords_no_space.append('<unk>')
+    roberta_subword_span = tokenized_to_origin_span(content, roberta_subwords_no_space[1:-1]) # w/o <s> and </s>
     roberta_subword_map = []
     if token_span_SENT is not None:
         roberta_subword_map.append(-1) # "<s>"
@@ -97,13 +102,15 @@ def XLMR_list(content: str, token_list = None, token_span_SENT = None):
     roberta_subwords = []
     roberta_subwords_no_space = []
     for index, i in enumerate(encoded):
-        r_token = tokenizer.decode([i])
-        if r_token != " ":
+        r_token = xlmr_tokenizer.decode([i])
+        if r_token != " " and r_token != '':
             roberta_subwords.append(r_token)
             if r_token[0] == " ":
                 roberta_subwords_no_space.append(r_token[1:])
             else:
                 roberta_subwords_no_space.append(r_token)
+        else:
+            roberta_subwords_no_space.append('<unk>')
     roberta_subword_span = tokenized_to_origin_span(content, roberta_subwords_no_space[1:-1]) # w/o <s> and </s>
     roberta_subword_map = []
     if token_span_SENT is not None:
@@ -115,19 +122,18 @@ def XLMR_list(content: str, token_list = None, token_span_SENT = None):
     else:
         return roberta_subword_to_ID, roberta_subwords, roberta_subword_span, -1
 
-def tokenized_to_origin_span(text, token_list):
+def tokenized_to_origin_span(text: str, token_list: List[str]):
     token_span = []
     pointer = 0
     for token in token_list:
-        while True:
-            if token[0] == text[pointer]:
-                start = pointer
-                end = start + len(token) - 1
-                pointer = end + 1
-                break
-            else:
-                pointer += 1
-        token_span.append([start, end])
+        start = text.find(token, pointer)
+        if start != -1:
+            end = start + len(token) - 1
+            pointer = end + 1
+            token_span.append([start, end])
+            assert text[start: end+1] == token, f"token: {token} - text:{text}"
+        else:
+            token_span.append([-100, -100])
     return token_span
 
 def sent_id_lookup(my_dict, start_char, end_char = None):
@@ -159,11 +165,17 @@ def id_lookup(span_SENT, start_char):
     # this function is applicable to RoBERTa subword or token from ltf/spaCy
     # id: start from 0
     token_id = -1
+    nearest = 0
+    dist = 100000
     for token_span in span_SENT:
         token_id += 1
         if token_span[0] <= start_char and token_span[1] >= start_char:
             return token_id
-    raise ValueError("Nothing is found. \n span sentence: {} \n start_char: {}".format(span_SENT, start_char))
+        if abs(token_span[0]  - start_char) < dist:
+            dist = abs(token_span[0]  - start_char)
+            nearest = token_id
+    return nearest
+    # raise ValueError("Nothing is found. \n span sentence: {} \n start_char: {}".format(span_SENT, start_char))
 
 def pos_to_id(sent_pos):
     id_pos_sent =  [pos_dict.get(pos) if pos_dict.get(pos) != None else 0 
@@ -238,8 +250,8 @@ def make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_se
                                                                 ctx[i], selected_ctx, doc_id[i])
         pos_augment, x_pos_possition_new, y_pos_possition_new = augment_target(x_sent_pos[i], y_sent_pos[i], x_sent_id[i], y_sent_id[i], 
                                                                             x_possition[i], y_possition[i], pos_ctx[i], selected_ctx, doc_id[i], is_pos=True)
-        assert x_possition_new == x_pos_possition_new
-        assert y_possition_new == y_pos_possition_new
+        # assert x_possition_new == x_pos_possition_new
+        # assert y_possition_new == y_pos_possition_new
         if is_test == False:
             augment = word_dropout(augment, [x_possition_new, y_possition_new], dropout_rate=dropout_rate)
             pos_augment = word_dropout(pos_augment, [x_possition_new, y_possition_new], is_word=False, dropout_rate=dropout_rate)

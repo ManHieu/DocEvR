@@ -1,3 +1,4 @@
+import pdb
 import torch
 torch.manual_seed(1741)
 import random
@@ -17,7 +18,7 @@ import torch.optim as optim
 
 
 class EXP(object):
-    def __init__(self, selector, predictor, num_epoches, num_ctx_select,
+    def __init__(self, selector, predictor: ECIRobertaJointTask, num_epoches, num_ctx_select,
                 train_dataloader, validate_dataloaders, test_dataloaders, 
                 train_short_dataloader, test_short_dataloaders, validate_short_dataloaders,
                 s_lr, b_lr, m_lr, decay_rate,  train_lm_epoch, warming_epoch,
@@ -74,17 +75,19 @@ class EXP(object):
         group4=['layer.18.','layer.19.','layer.20.','layer.21.','layer.22.','layer.23.']
         group_all = group1 + group2 + group3 + group4
         self.b_parameters = [
-            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and not any(nd in n for nd in group_all)],'weight_decay_rate': 0.01, 'lr': self.b_lr}, # all params not include bert layers 
-            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group1)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**3)}, # param in group1
-            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group2)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**2)}, # param in group2
-            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group3)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**1)}, # param in group3
-            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group4)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**0)}, # param in group4
-            # no_decay
-            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and not any(nd in n for nd in group_all)],'weight_decay_rate': 0.00, 'lr': self.b_lr}, # all params not include bert layers 
-            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and any(nd in n for nd in group1)],'weight_decay_rate': 0.00, 'lr': self.b_lr*(self.decay_rate**3)}, # param in group1
-            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and any(nd in n for nd in group2)],'weight_decay_rate': 0.00, 'lr': self.b_lr*(self.decay_rate**2)}, # param in group2
-            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and any(nd in n for nd in group3)],'weight_decay_rate': 0.00, 'lr': self.b_lr*(self.decay_rate**1)}, # param in group3
-            {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and any(nd in n for nd in group4)],'weight_decay_rate': 0.00, 'lr': self.b_lr*(self.decay_rate**0)}, # param in group3
+            # {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and not any(nd in n for nd in group_all)],'weight_decay_rate': 0.01, 'lr': self.b_lr}, # all params not include bert layers 
+            # {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group1)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**3)}, # param in group1
+            # {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group2)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**2)}, # param in group2
+            # {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group3)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**1)}, # param in group3
+            # {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay) and any(nd in n for nd in group4)],'weight_decay_rate': 0.01, 'lr': self.b_lr*(self.decay_rate**0)}, # param in group4
+            # # no_decay
+            # {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and not any(nd in n for nd in group_all)],'weight_decay_rate': 0.00, 'lr': self.b_lr}, # all params not include bert layers 
+            # {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and any(nd in n for nd in group1)],'weight_decay_rate': 0.00, 'lr': self.b_lr*(self.decay_rate**3)}, # param in group1
+            # {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and any(nd in n for nd in group2)],'weight_decay_rate': 0.00, 'lr': self.b_lr*(self.decay_rate**2)}, # param in group2
+            # {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and any(nd in n for nd in group3)],'weight_decay_rate': 0.00, 'lr': self.b_lr*(self.decay_rate**1)}, # param in group3
+            # {'params': [p for n, p in self.predictor.named_parameters() if not any(nd in n for nd in mlp) and any(nd in n for nd in no_decay) and any(nd in n for nd in group4)],'weight_decay_rate': 0.00, 'lr': self.b_lr*(self.decay_rate**0)}, # param in group3
+            {'params': [p for n, p in self.predictor.roberta.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay_rate': 0.01, 'lr': self.b_lr},
+            {'params': [p for n, p in self.predictor.roberta.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay_rate': 0.00, 'lr': self.b_lr},
         ]
         self.mlp_parameters = [
             {'params': [p for n, p in self.predictor.named_parameters() if any(nd in n for nd in mlp) and not any(nd in n for nd in no_decay)], 'weight_decay_rate': 0.01, 'lr': self.mlp_lr},
@@ -110,7 +113,7 @@ class EXP(object):
         def m_lr_lambda(current_step: int):
             return 0.5 ** int(current_step / (2*len(self.train_dataloader)))
         
-        lamd = [linear_lr_lambda] * 10
+        lamd = [linear_lr_lambda] * 2
         mlp_lambda = [m_lr_lambda] * 2
         lamd.extend(mlp_lambda)
 
@@ -120,7 +123,7 @@ class EXP(object):
         self.best_micro_f1 = [0.0]*len(self.test_dataloaders)
         self.sum_f1 = 0.0
         self.best_matres = 0.0
-        self.best_f1_test = 0.0
+        self.best_f1_test = [0.0, 0.0, 0.0]
         self.best_cm = [None]*len(self.test_dataloaders)
         self.best_path_selector = best_path[0]
         self.best_path_predictor = best_path[1]
@@ -311,7 +314,6 @@ class EXP(object):
                     ctx_selected, dist, log_prob = self.selector(target_emb, ctx_emb, target_len, ctx_len, self.num_ctx_select)
                 else:
                     print("This case is not implemented at this time!")
-                
                 augm_target, augm_target_mask, augm_pos_target, x_augm_position, y_augm_position = make_predictor_input(x_sent, y_sent, x_sent_pos, y_sent_pos, x_sent_id, y_sent_id, x_position, y_position, ctx, ctx_pos, ctx_selected, doc_id, dropout_rate=self.word_drop_rate)
                 xy = torch.tensor(xy)
                 flag = torch.tensor(flag)
@@ -476,6 +478,20 @@ class EXP(object):
                 print("  Confusion Matrix")
                 print(CM)
                 print("Classification report HiEve: \n {}".format(classification_report(gold, pred)))
+            elif "mulerx" in dataset:
+                num_label = 3
+                true = sum([CM[i, i] for i in range(2)])
+                sum_pred = sum([CM[i, 0:2].sum() for i in range(num_label)])
+                sum_gold = sum([CM[i].sum() for i in range(2)])
+                P = true / sum_pred
+                R = true / sum_gold
+                F1 = 2 * P * R / (P + R)
+                print("  P: {0:.3f}".format(P))
+                print("  R: {0:.3f}".format(R))
+                print("  F1: {0:.3f}".format(F1))
+                print("  Confusion Matrix")
+                print(CM)
+                print("Classification report mulerx: \n {}".format(classification_report(gold, pred)))
             else:
                 P, R, F1 = precision_recall_fscore_support(gold, pred, average='micro')[0:3]
                 print("  P: {0:.3f}".format(P))
@@ -499,9 +515,9 @@ class EXP(object):
             if best_f1_mastres > self.best_matres:
                 self.best_matres = best_f1_mastres
         else:
-            if self.best_f1_test < F1:
-                self.best_f1_test = F1
-            if self.best_f1_test > 0.834:
+            if self.best_f1_test[0] < F1:
+                self.best_f1_test = [F1, P, R]
+            if self.best_f1_test[0] > 0.834:
                 torch.save(self.selector, self.best_path_selector)
                 torch.save(self.predictor, self.best_path_predictor)
         return F1s

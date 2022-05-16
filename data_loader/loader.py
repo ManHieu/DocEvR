@@ -1,3 +1,7 @@
+import json
+import time
+import copy
+import pandas as pd
 import torch
 torch.manual_seed(1741)
 import random
@@ -43,16 +47,17 @@ class Reader(object):
 
 
 class C2V(object):
-    def __init__(self, emb_file:str) -> None:
+    def __init__(self, emb_file:str, cache: str = None) -> None:
         super().__init__()
-        with open(emb_file, 'r', encoding='UTF-8') as f:
-            lines = f.readlines()
+        # with open(emb_file, 'r', encoding='UTF-8') as f:
+        #     lines = f.readlines()
+        # self.c2v = {}
+        # for line in tqdm.tqdm(lines):
+        #     tokens = line.split(" ")
+        #     concept = tokens[0]
+        #     emb = [float(tok) for tok in tokens[1:]]
+        #     self.c2v[concept] = emb
         self.c2v = {}
-        for line in lines:
-            tokens = line.split(" ")
-            concept = tokens[0]
-            emb = [float(tok) for tok in tokens[1:]]
-            self.c2v[concept] = emb
 
     def get_emb(self, concept):
         _concept = "_".join(concept.split(" ")).lower()
@@ -68,17 +73,32 @@ def load_dataset(dir_name, type):
     onlyfiles = [f for f in os.listdir(dir_name) if os.path.isfile(os.path.join(dir_name, f))]
     corpus = []
     # i = 0
+    cache_dir = dir_name + f'cache-{type}/'
+    if not os.path.exists(cache_dir):
+            os.mkdir(cache_dir)
     for file_name in tqdm.tqdm(onlyfiles):
         # if i == 1:
         #     break
         # i = i + 1
         if type == 'i2b2_xml':
             if file_name.endswith('.xml'):
-                my_dict = reader.read(dir_name, file_name)
+                if not os.path.exists(cache_dir+file_name):
+                    my_dict = reader.read(dir_name, file_name)
+                    with open(cache_dir+file_name, 'wb') as f:
+                        pickle.dump(my_dict, f, pickle.HIGHEST_PROTOCOL)
+                else:
+                    with open(cache_dir+file_name, 'rb') as f:
+                        my_dict = pickle.load(f)
                 if my_dict != None:
                     corpus.append(my_dict)
         else:
-            my_dict = reader.read(dir_name, file_name)
+            if not os.path.exists(cache_dir+file_name):
+                my_dict = reader.read(dir_name, file_name)
+                with open(cache_dir+file_name, 'wb') as f:
+                    pickle.dump(my_dict, f, pickle.HIGHEST_PROTOCOL)
+            else:
+                with open(cache_dir+file_name, 'rb') as f:
+                    my_dict = pickle.load(f)
             if my_dict != None:
                 corpus.append(my_dict)
     return corpus
@@ -86,7 +106,8 @@ def load_dataset(dir_name, type):
 
 def loader(dataset, min_ns, sentence_encoder='roberta-base', lang='en'):
     sent_encoder = SentenceEncoder(sentence_encoder)
-    c2v = C2V('./datasets/numberbatch-19.08.txt')
+    print("Load numberbatch concept to vec!")
+    c2v = C2V('./datasets/numberbatch-19.08.txt', cache='./datasets/c2v.json')
     def get_data_point(my_dict, flag):
         data = []
         eids = my_dict['event_dict'].keys()
@@ -117,11 +138,14 @@ def loader(dataset, min_ns, sentence_encoder='roberta-base', lang='en'):
             for id in ids:
                 sent = sent + my_dict["sentences"][id]["roberta_subword_to_ID"][1:]
             sent = [0] + sent
-            pad, mask = padding(sent, max_sent_len=256)
+            pad, mask = padding(sent, max_sent_len=512)
             ctx_augm.append(pad)
             ctx_augm_mask.append(mask)
         # print(len(ctx_augm))
-        _augm_emb = sent_encoder.encode(ctx_augm, ctx_augm_mask, is_ctx=True)
+        if len(ctx_augm) != 0:
+            _augm_emb = sent_encoder.encode(ctx_augm, ctx_augm_mask, is_ctx=True)
+        else:
+            _augm_emb = []
         _ctx_augm_emb = {}
         for i in range(len(ctx_id_augm)):
             # print(_augm_emb[i].size())
@@ -131,7 +155,7 @@ def loader(dataset, min_ns, sentence_encoder='roberta-base', lang='en'):
         doc_mask = []
         for sent_id in list(range(len( my_dict["sentences"]))):
             sent = my_dict["sentences"][sent_id]["roberta_subword_to_ID"]
-            pad, mask = padding(sent, max_sent_len=256)
+            pad, mask = padding(sent, max_sent_len=512)
             doc.append(pad)
             doc_mask.append(mask)
         doc_emb = sent_encoder.encode(doc, doc_mask)
@@ -234,6 +258,10 @@ def loader(dataset, min_ns, sentence_encoder='roberta-base', lang='en'):
                 ctx_ev_kg_embs =torch.stack(_ctx_ev_kg_embs, dim=0)
                 ctx_ev_embs = torch.stack(_ctx_ev_embs, dim=0)
                 ctx_emb = torch.stack(_ctx_emb, dim=0) # ns x 768
+            else:
+                ctx_ev_kg_embs = []
+                ctx_ev_embs = []
+                ctx_emb = []
             # print(ctx_emb.size())
             xy = my_dict["relation_dict"].get((x, y))
             yx = my_dict["relation_dict"].get((y, x))

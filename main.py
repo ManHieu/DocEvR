@@ -30,19 +30,19 @@ def objective(trial: optuna.Trial):
     params = {
         's_hidden_dim': 512, 
         's_mlp_dim': 512, 
-        'p_mlp_dim': 1024, 
-        'epoches': 7, 
+        'p_mlp_dim': 512, 
+        'epoches':  trial.suggest_categorical('eps', [7, 10, 15, 20]), 
         'warming_epoch': 1, 
-        'num_ctx_select': 3, 
-        's_lr': 0.0001, 
-        'b_lr': 7e-06, 
-        'm_lr': 5e-05, 
+        'num_ctx_select': 2, 
+        's_lr': trial.suggest_categorical('s_lr', [5e-5, 1e-4, 5e-4]), 
+        'b_lr': trial.suggest_categorical('b_lr', [7e-6, 1e-5, 3e-5, 5e-5, 7e-5, 1e-4]), 
+        'm_lr': trial.suggest_categorical('m_lr', [1e-5, 5e-5, 1e-4]), 
         'b_lr_decay_rate': 0.5, 
         'word_drop_rate': 0.05, 
         'task_reward': 'logit', 
         'perfomance_reward_weight': 0.7, 
         'ctx_sim_reward_weight': 0.003, 
-        'knowledge_reward_weight': 0.7, 
+        'knowledge_reward_weight': 0.0, 
         'fn_activate': 'tanh', 
         'seed': 1741
         }
@@ -65,7 +65,7 @@ def objective(trial: optuna.Trial):
     validate_short_dataloaders = {}
     test_short_dataloaders = {}
     for dataset in datasets:
-        train, test, validate, train_short, test_short, validate_short = loader(dataset, 2, sentence_encoder=model_type, lang=lang)
+        train, test, validate, train_short, test_short, validate_short = loader(dataset, 3, sentence_encoder=model_type, lang=lang)
         train_set.extend(train)
         train_short_set.extend(train_short)
         validate_dataloader = DataLoader(EventDataset(validate), batch_size=batch_size, shuffle=True,collate_fn=collate_fn)
@@ -93,7 +93,7 @@ def objective(trial: optuna.Trial):
     selector = LSTMSelector(768, params['s_hidden_dim'], params['s_mlp_dim'])
     predictor =ECIRobertaJointTask(mlp_size=params['p_mlp_dim'], roberta_type=model_type, datasets=datasets, pos_dim=16, 
                                     fn_activate=fn_activative, drop_rate=drop_rate, task_weights=None)
-    
+    # print(predictor)
     if CUDA:
         selector = selector.cuda()
         predictor = predictor.cuda()
@@ -130,7 +130,7 @@ def objective(trial: optuna.Trial):
             f.write("F1: {} \n".format(F1[i]))
             f.write("CM: \n {} \n".format(CM[i]))
         f.write("Time: {} \n".format(datetime.datetime.now()))
-    if test_f1 > 0.834:
+    if test_f1[0] > 0.834:
         os.rename(best_path[1], best_path[1]+'.{}'.format(test_f1))
         os.rename(best_path[0], best_path[0]+'.{}'.format(test_f1))
 
@@ -139,7 +139,7 @@ def objective(trial: optuna.Trial):
     del predictor
     gc.collect()
 
-    return test_f1
+    return test_f1[0]
 
 
 if __name__ == '__main__':
@@ -160,6 +160,8 @@ if __name__ == '__main__':
     print(f"{datasets} - {lang}")
     model_type  = args.model_type
     best_path = args.best_path
+    if not os.path.exists(best_path):
+        os.mkdir(best_path)
     best_path = [best_path+"selector.pth", best_path+"predictor.pth"]
     result_file = args.log_file
     batch_size = args.bs

@@ -16,7 +16,7 @@ import csv
 from trankit import Pipeline
 
 
-p = Pipeline('english')
+p = Pipeline('english', cache_dir='/home/ubuntu/cache/trankit')
 p.add('danish')
 p.add('spanish')
 p.add('turkish')
@@ -640,6 +640,16 @@ def tdd_tml_reader(dir_name, file_name, type_doc):
 #       mulerx Reader
 # =========================
 def mulerx_tsvx_reader(dir_name:str, file_name: str, model='mBERT'):
+    if '-da-' in dir_name:
+        p.set_active('danish')
+    elif '-en-' in dir_name:
+        p.set_active('english')
+    elif '-es-' in dir_name:
+        p.set_active('spanish')
+    elif '-tr-' in dir_name:
+        p.set_active('turkish')
+    elif '-ur-' in dir_name:
+        p.set_active('urdu')
     my_dict = {}
     my_dict["doc_id"] = file_name.replace(".tsvx", "") # e.g., article-10901.tsvx
     my_dict["event_dict"] = {}
@@ -716,13 +726,18 @@ def mulerx_tsvx_reader(dir_name:str, file_name: str, model='mBERT'):
     for event_id, event_dict in my_dict["event_dict"].items():
         my_dict["event_dict"][event_id]["sent_id"] = sent_id = sent_id_lookup(my_dict, event_dict["start_char"], event_dict["end_char"])
         my_dict["event_dict"][event_id]["token_id"] = id_lookup(my_dict["sentences"][sent_id]["token_span_DOC"], event_dict["start_char"])
-        my_dict["event_dict"][event_id]["roberta_subword_id"] = poss = \
-        id_lookup(my_dict["sentences"][sent_id]["roberta_subword_span_DOC"], event_dict["start_char"]) + 1 # sentence is added <s> token
-        # try:
-        mention = event_dict["mention"]
+        my_dict["event_dict"][event_id]["roberta_subword_id"] = poss = id_lookup(my_dict["sentences"][sent_id]["roberta_subword_span_DOC"], event_dict["start_char"]) + 1 # sentence is added <s> token
+    
+        mention: str = event_dict["mention"]
         sub_word_id = my_dict["sentences"][sent_id]["roberta_subword_to_ID"][poss]
-        sub_word = tokenizer.decode([sub_word_id])
-        assert sub_word.strip() in mention
+        if model == 'mBERT':
+            sub_word: str = mBERT_tokenizer.decode([sub_word_id])
+            if sub_word.replace("#", '').strip() not in mention:
+                print(f'{sub_word} - {mention} - {poss} - {my_dict["sentences"][sent_id]["roberta_subwords"][poss]}')
+        elif model == 'XML-R':
+            sub_word = xlmr_tokenizer.decode([sub_word_id])
+            if sub_word.strip() not in mention:
+                print(f'{sub_word} - {mention} - {poss} - {my_dict["sentences"][sent_id]["roberta_subwords"][poss]}')
 
     return my_dict
 

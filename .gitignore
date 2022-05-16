@@ -24,3 +24,5 @@ datasets/TDDiscourse/TDDAuto/docEvR_processed_kg/
 result_long(train).txt
 result_long.txt
 *mulerx*
+datasets/c2v.json
+datasets/numberbatch-19.08.txt

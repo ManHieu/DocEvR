@@ -1,3 +1,4 @@
+import math
 import torch
 torch.manual_seed(1741)
 import random
@@ -7,7 +8,7 @@ np.random.seed(1741)
 from collections import OrderedDict
 import torch.nn as nn
 import torch.nn.functional as F
-from transformers import RobertaModel
+from transformers import AutoModel
 from utils.constant import *
 import os.path as path
 
@@ -20,14 +21,14 @@ class ECIRobertaJointTask(nn.Module):
         
         if path.exists("/vinai/hieumdt/pretrained_models/models/{}".format(roberta_type)):
             print("Loading pretrain model from local ......")
-            self.roberta = RobertaModel.from_pretrained("/vinai/hieumdt/pretrained_models/models/{}".format(roberta_type), output_hidden_states=True)
+            self.roberta = AutoModel.from_pretrained("/vinai/hieumdt/pretrained_models/models/{}".format(roberta_type), output_hidden_states=True)
         else:
             print("Loading pretrain model ......")
-            self.roberta = RobertaModel.from_pretrained(roberta_type, output_hidden_states=True)
+            self.roberta = AutoModel.from_pretrained(roberta_type, output_hidden_states=True)
         
-        if roberta_type == 'roberta-base':
+        if 'base' in roberta_type:
             self.roberta_dim = 768
-        if roberta_type == 'roberta-large':
+        if 'large' in roberta_type:
             self.roberta_dim = 1024
 
         self.sub = sub
@@ -246,15 +247,16 @@ class ECIRobertaJointTask(nn.Module):
 
     def forward(self, sent, sent_mask, x_position, y_position, xy, flag, sent_pos=None):
         batch_size = sent.size(0)
-
-        if self.finetune:
-            output = self.roberta(sent, sent_mask)[2]
-        else:
-            with torch.no_grad():
-                output = self.roberta(sent, sent_mask)[2]
-        
-        output = torch.max(torch.stack(output[-4:], dim=0), dim=0)[0]
-        
+        num_para = math.ceil(sent.size(1) / 512.0)
+        output = []
+        for i in range(num_para):
+            if self.finetune:
+                _output = self.roberta(sent[:, i*512:(i+1)*512], sent_mask[:, i*512:(i+1)*512])[2]
+            else:
+                with torch.no_grad():
+                    _output = self.roberta(sent[:, i*512:(i+1)*512], sent_mask[:, i*512:(i+1)*512])[2]
+            output.append(torch.max(torch.stack(_output[-4:], dim=0), dim=0)[0])
+        output = torch.cat(output, dim=1)
         if sent_pos != None:
             pos = self.pos_emb(sent_pos)
             output = torch.cat([output, pos], dim=2)

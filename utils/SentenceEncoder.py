@@ -1,3 +1,5 @@
+import math
+import pdb
 import numpy as np
 np.random.seed(1741)
 import torch
@@ -8,7 +10,7 @@ import os
 import torch.nn as nn
 from transformers import AutoModel
 from utils.constant import CUDA
-
+from utils.tools import padding
 
 class SentenceEncoder():
     def __init__(self, roberta_type) -> None:
@@ -25,11 +27,16 @@ class SentenceEncoder():
         self.encoder.eval()
     
     def encode(self, sentence, mask=None, is_ctx=False):
-        sentence = torch.tensor(sentence)
+        if type(sentence[0]) == list:
+            max_len = max([len(sent) for sent in sentence])
+            sentence= [padding(sent, max_sent_len=max_len)[0] for sent in sentence]
+            mask = [padding(m, max_sent_len=max_len, pos=True) for m in mask]
+        
+        sentence = torch.tensor(sentence, dtype=torch.long)
         if len(sentence.size()) == 1:
             sentence = sentence.unsqueeze(0)
         if mask != None:
-            mask = torch.tensor(mask)
+            mask = torch.tensor(mask, dtype=torch.long)
             if len(mask.size()) == 1:
                 mask = mask.unsqueeze(0)
         if sentence.size(0) <= 1200:
@@ -38,8 +45,16 @@ class SentenceEncoder():
                     mask = mask.cuda()
                 sentence = sentence.cuda()
             with torch.no_grad():
-                s_encoder = self.encoder(sentence, mask)[0].data.cpu()
-                self.encoder.zero_grad(set_to_none=True)
+                num_para = math.ceil(sentence.size(1) / 512.0)
+                s_encoder = []
+                for i in range(num_para):
+                    if mask != None:
+                        para_mask = mask[:, i*512:(i+1)*512]
+                    else:
+                        para_mask = mask
+                    s_encoder.append(self.encoder(sentence[:, i*512:(i+1)*512], para_mask)[0].data.cpu())
+                    self.encoder.zero_grad(set_to_none=True)
+                s_encoder = torch.cat(s_encoder, dim=1)
             if is_ctx==True:
                 s_encoder = s_encoder[:, 0]
             return s_encoder # ns x s_len x 768
@@ -56,8 +71,16 @@ class SentenceEncoder():
                     mk = mk.cuda()
                     sent = sent.cuda()
                 with torch.no_grad():
-                    s_encoder = self.encoder(sent, mk)[0].detach().cpu()
-                    self.encoder.zero_grad(set_to_none=True)
+                    num_para = math.ceil(sentence.size(1) / 512.0)
+                    s_encoder = []
+                    for i in range(num_para):
+                        if mask != None:
+                            para_mask = mask[:, i*512:(i+1)*512]
+                        else:
+                            para_mask = mask
+                        s_encoder.append(self.encoder(sentence[:, i*512:(i+1)*512], para_mask)[0].data.cpu())
+                        self.encoder.zero_grad(set_to_none=True)
+                    s_encoder = torch.cat(s_encoder, dim=1)
                 if is_ctx==True:
                     presents.append(s_encoder[:, 0])
                 else:
