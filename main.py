@@ -31,11 +31,11 @@ def objective(trial: optuna.Trial):
         's_hidden_dim': 512, 
         's_mlp_dim': 512, 
         'p_mlp_dim': 512, 
-        'epoches':  trial.suggest_categorical('eps', [7, 10, 15, 20]), 
-        'warming_epoch': 1, 
-        'num_ctx_select': 2, 
-        's_lr': trial.suggest_categorical('s_lr', [5e-5, 1e-4, 5e-4]), 
-        'b_lr': trial.suggest_categorical('b_lr', [5e-6, 7e-6, 1e-5, 3e-5, 5e-5, 7e-5]), 
+        'epoches':  trial.suggest_categorical('eps', [10, 15, 20, 25]), 
+        'warming_epoch': trial.suggest_categorical('warming_epoch', [1, 3, 5]), 
+        'num_ctx_select': trial.suggest_categorical('num_ctx_select', [1, 2, 3]), 
+        's_lr': trial.suggest_categorical('s_lr', [1e-5, 5e-5, 1e-4]), 
+        'b_lr': trial.suggest_categorical('b_lr', [1e-6, 5e-6, 7e-6, 1e-5, 3e-5, 5e-5]), 
         'm_lr': trial.suggest_categorical('m_lr', [1e-5, 5e-5, 1e-4]), 
         'b_lr_decay_rate': 0.5, 
         'word_drop_rate': 0.05, 
@@ -65,7 +65,7 @@ def objective(trial: optuna.Trial):
     validate_short_dataloaders = {}
     test_short_dataloaders = {}
     for dataset in datasets:
-        train, test, validate, train_short, test_short, validate_short = loader(dataset, 3, sentence_encoder=model_type, lang=lang)
+        train, test, validate, train_short, test_short, validate_short = loader(dataset, params['num_ctx_select']+1, sentence_encoder=model_type, lang=lang)
         train_set.extend(train)
         train_short_set.extend(train_short)
         validate_dataloader = DataLoader(EventDataset(validate), batch_size=batch_size, shuffle=True,collate_fn=collate_fn)
