@@ -1,1 +1,1 @@
-python main.py --dataset mulerx_mBERT --lang da --model_type mBERT-base --best_path rst_mulerx/ --log_file log/mulerx.txt  --bs 16
+CUDA_VISIBLE_DEVICES=0 python main.py --dataset mulerx_XLM-R --lang en --model_type XLM-R-base --best_path rst_mulerx_XLM-R-en/ --log_file log/mulerx_en_XLM-R.txt --bs 16

@@ -35,7 +35,7 @@ def objective(trial: optuna.Trial):
         'warming_epoch': 1, 
         'num_ctx_select': 2, 
         's_lr': trial.suggest_categorical('s_lr', [5e-5, 1e-4, 5e-4]), 
-        'b_lr': trial.suggest_categorical('b_lr', [7e-6, 1e-5, 3e-5, 5e-5, 7e-5, 1e-4]), 
+        'b_lr': trial.suggest_categorical('b_lr', [5e-6, 7e-6, 1e-5, 3e-5, 5e-5, 7e-5]), 
         'm_lr': trial.suggest_categorical('m_lr', [1e-5, 5e-5, 1e-4]), 
         'b_lr_decay_rate': 0.5, 
         'word_drop_rate': 0.05, 
@@ -103,7 +103,7 @@ def objective(trial: optuna.Trial):
     epoches = params['epoches'] + 5
     total_steps = len(train_dataloader) * epoches
     print("Total steps: [number of batches] x [number of epochs] =", total_steps)
-
+    print(f"Hyperparams: \n{params}")
     exp = EXP(selector, predictor, epoches, params['num_ctx_select'], train_dataloader, validate_dataloaders, test_dataloaders,
             train_short_dataloader, test_short_dataloaders, validate_short_dataloaders, 
             params['s_lr'], params['b_lr'], params['m_lr'], params['b_lr_decay_rate'],  params['epoches'], params['warming_epoch'],
@@ -167,7 +167,7 @@ if __name__ == '__main__':
     batch_size = args.bs
     pre_processed_dir = "./" + "_".join(datasets) + "/"
 
-    sampler = optuna.samplers.TPESampler(seed=1741)
+    sampler = optuna.samplers.TPESampler()
     study = optuna.create_study(direction='maximize', sampler=sampler)
     study.optimize(objective, n_trials=50)
     trial = study.best_trial
