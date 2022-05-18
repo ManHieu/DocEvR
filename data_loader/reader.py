@@ -733,12 +733,17 @@ def mulerx_tsvx_reader(dir_name:str, file_name: str, model='mBERT'):
         if model == 'mBERT':
             sub_word: str = mBERT_tokenizer.decode([sub_word_id])
             if sub_word.replace("#", '').strip() not in mention:
-                print(f'{sub_word} - {mention} - {poss} - {my_dict["sentences"][sent_id]["roberta_subwords"][poss]}')
+                try:
+                    print(f'{sub_word} - {mention} - {poss} - {my_dict["sentences"][sent_id]["roberta_subwords"][poss]}')
+                except:
+                    print("We have wrong on picking words")
         elif model == 'XML-R':
             sub_word = xlmr_tokenizer.decode([sub_word_id])
             if sub_word.strip() not in mention:
-                print(f'{sub_word} - {mention} - {poss} - {my_dict["sentences"][sent_id]["roberta_subwords"][poss]}')
-
+                try:
+                    print(f'{sub_word} - {mention} - {poss} - {my_dict["sentences"][sent_id]["roberta_subwords"][poss]}')
+                except:
+                    print("We have wrong on picking words")
     return my_dict
 
 
