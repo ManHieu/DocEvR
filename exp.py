@@ -51,11 +51,11 @@ class EXP(object):
 
         self.train_dataloader = train_dataloader
         self.test_dataloaders = list(test_dataloaders.values())
-        self.validate_dataloaders = list(validate_dataloaders.values())
+        self.validate_dataloaders = validate_dataloaders
         
         self.train_short_dataloader = train_short_dataloader
         self.test_short_dataloaders = list(test_short_dataloaders.values())
-        self.validate_short_dataloaders = list(validate_short_dataloaders.values())
+        self.validate_short_dataloaders = validate_short_dataloaders
         
         self.datasets = list(test_dataloaders.keys())
 
@@ -120,11 +120,8 @@ class EXP(object):
         self.scheduler = optim.lr_scheduler.LambdaLR(self.predictor_optim, lr_lambda=lamd)
         self.selector_scheduler = optim.lr_scheduler.LambdaLR(self.selector_optim, lr_lambda=m_lr_lambda)
         
-        self.best_micro_f1 = [0.0]*len(self.test_dataloaders)
-        self.sum_f1 = 0.0
-        self.best_matres = 0.0
         self.best_f1_test = [0.0, 0.0, 0.0]
-        self.best_cm = [None]*len(self.test_dataloaders)
+        self.best_result = {}
         self.best_path_selector = best_path[0]
         self.best_path_predictor = best_path[1]
     
@@ -255,7 +252,8 @@ class EXP(object):
                 self.scheduler.step()
             epoch_training_time = format_time(time.time() - t0)
             print("Total training loss: {}".format(self.predictor_loss))
-            # self.evaluate()
+            self.evaluate()
+            self.evaluate(is_test=True)
 
         print("Training models .....")
         for i in range(self.num_epoches):
@@ -358,40 +356,13 @@ class EXP(object):
         
         print("Training complete!")
         print("Total training took {:} (h:mm:ss)".format(format_time(time.time()-start_time)))
-        print("Best micro F1:{}".format(self.best_micro_f1))
-        print("Best confusion matrix: ")
-        for cm in self.best_cm:
-            print(cm)
+        print("Best micro F1:{}".format(self.best_f1_test))
+        print(f"Best results:\n {self.best_result}")
 
-        return self.best_micro_f1, self.best_cm, self.best_matres, self.best_f1_test
+        return self.best_f1_test, self.best_result
 
     def evaluate(self, is_test=False):
-        F1s = []
-        best_cm = []
-        sum_f1 = 0.0
-        best_f1_mastres = 0.0
-        corpus_labels = {
-            "MATRES": 4,
-            "TBD": 6,
-            "HiEve": 4
-        }
-        for i in range(0, len(self.test_dataloaders)):
-            dataset = self.datasets[i]
-            print("-------------------------------{}-------------------------------".format(dataset))
-            if is_test:
-                dataloader = self.test_dataloaders[i]
-                short_dataloader = self.test_short_dataloaders[i]
-                # self.selector = torch.load(self.best_path_selector)
-                # self.predictor = torch.load(self.best_path_predictor)
-                print("Testset and best model was loaded!")
-                print("Running on testset ..........")
-            else:
-                dataloader = self.validate_dataloaders[i]
-                short_dataloader = self.validate_short_dataloaders[i]
-                print("Running on validate set ..........")
-            
-            self.selector.eval()
-            self.predictor.eval()
+        def eval(dataloader, short_dataloader, dataset='mulerx'):
             pred = []
             gold = []
             if short_dataloader != None:
@@ -500,25 +471,49 @@ class EXP(object):
                 print("  Confusion Matrix")
                 print(CM)
                 print("Classification report: \n {}".format(classification_report(gold, pred)))
-            
-            sum_f1 += F1
-            best_cm.append(CM)
-            F1s.append(F1)
-            if dataset=="MATRES": 
-                best_f1_mastres=F1
-
-        if is_test==False:
-            if sum_f1 > self.sum_f1 or path.exists(self.best_path_selector) == False:
-                self.sum_f1 = sum_f1
-                self.best_cm = best_cm
-                self.best_micro_f1 = F1s 
-            if best_f1_mastres > self.best_matres:
-                self.best_matres = best_f1_mastres
+            return P, R, F1
+        F1s = []
+        best_cm = []
+        sum_f1 = 0.0
+        best_f1_mastres = 0.0
+        corpus_labels = {
+            "MATRES": 4,
+            "TBD": 6,
+            "HiEve": 4
+        }
+        self.selector.eval()
+        self.predictor.eval()
+        dataset = 'mulerx'
+        if is_test:
+            lang = ['da', 'es', 'tr', 'ur']
+            avg_f1 = 0.0
+            avg_p = 0.0
+            avg_r = 0.0
+            detail_results = {}
+            for i in range(0, len(self.test_dataloaders)):
+                la = self.datasets[i]
+                print("-------------------------------mulerx_{}-------------------------------".format(la))
+                dataloader = self.test_dataloaders[i]
+                short_dataloader = self.test_short_dataloaders[i]
+                # self.selector = torch.load(self.best_path_selector)
+                # self.predictor = torch.load(self.best_path_predictor)
+                print("Testset and best model was loaded!")
+                print("Running on testset ..........")
+                P, R, F1 = eval(dataloader, short_dataloader)
+                avg_f1 = avg_f1 + F1
+                avg_p = avg_p + P
+                avg_r = avg_r + R
+                detail_results[lang[i]] = (P, R, F1)
+            avg_f1 = avg_f1 / len(lang)
+            avg_p = avg_p / len(lang)
+            avg_r = avg_r / len(lang)
+            if avg_f1 > self.best_f1_test[-1]:
+                self.best_f1_test = (avg_p, avg_r, avg_f1)
+                self.best_result = detail_results
         else:
-            if self.best_f1_test[0] < F1:
-                self.best_f1_test = [F1, P, R]
-            if self.best_f1_test[0] > 0.834:
-                torch.save(self.selector, self.best_path_selector)
-                torch.save(self.predictor, self.best_path_predictor)
-        return F1s
+            dataloader = self.validate_dataloaders
+            short_dataloader = self.validate_short_dataloaders
+            print("Running on validate set ..........")
+
+        return
         
